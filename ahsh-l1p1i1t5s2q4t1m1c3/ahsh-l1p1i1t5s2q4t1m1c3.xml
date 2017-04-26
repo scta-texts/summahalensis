@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 1, M. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-14">March 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="318"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t1m1c3">
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m1c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. I, M. 1, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m1c3-Hd1e3744" type="question-title">QUID SIT PRAEDESTINATIO SECUNDUM REM.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur quid sit praedestinatio
+          <lb ed="#Q"/>secundum rem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c3-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: 1. Augustinus, in libro De
+          <lb ed="#Q"/>vocatione Sanctarum 1: «Praedestinatio est prae-'
+          <lb ed="#Q"/>paratio gratiae in praesenti et gloriae in futuro ».
+          <lb ed="#Q"/>In hac definitione tangitur quod est ante tempus,
+          <lb ed="#Q"/>scilicet praeparatio aeterna, et quod est post tem<lb ed="#Q"/>pus,
+          scilicet gloria futura, et quod concomitatura
+          <lb ed="#Q"/>ternpus praesens, scilicet gratia in praesenti. Se<lb ed="#Q"/>cundum
+          hoc ergo quaeritur an praedestinatio sit
+          <lb ed="#Q"/>aeterna aut !' temporalis: nam cum praedestinatio
+          <lb ed="#Q"/>sit « praeparatio gratiae in praesenti », gratia au<lb ed="#Q"/>tem
+          in praesenti non est ab aeterno, ergo nec
+          <lb ed="#Q"/>praeparatio gratiae in praesenti erit ab aeterno;
+          <lb ed="#Q"/>ergo nec praedestinatio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c3-d1e3785">
+          <lb ed="#Q"/>2. Item, artifex domus non diceretur praeparare
+          <lb ed="#Q"/>domum nisi haberet aliquid quod ad ipsam fa<lb ed="#Q"/>ciendam
+          vel ad ipsius esse pertineret, ut ligna,
+          <lb ed="#Q"/>lapides et huiusmodi; ergo si praedestinatio est
+          <lb ed="#Q"/>praeparatio gratiae ab aeterno, oportet quod ab
+          <lb ed="#Q"/>aeterno sit aliquid de re praeparanda; sed nihil
+          <lb ed="#Q"/>de gratia dicitur ab aeterno fuisse; ergo praepa<lb ed="#Q"/>ratio
+          huius non fuit ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c3-d1e3806">
+          <lb ed="#Q"/>3. Item, quaeritur quid "subest praeparationi,
+          <lb ed="#Q"/>propterc quod praeparatio ab aeterno est, quia
+          <lb ed="#Q"/>licet artifex faciendi domum 'scientiam habeat et
+          <lb ed="#Q"/>voluntatem, non tamen dicitur praeparatio domus
+          <lb ed="#Q"/>esse;" ergo si voluntas Dei et scientia sit respectu
+          <lb ed="#Q"/>alicuius cui daturus sit gratiam in praesenti, quia d
+          <lb ed="#Q"/>finaliter bene usurus est, non propter hoc dicetur
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>praeparatio gratiae esse; ergo non dicetur e prae<lb ed="#Q"/>paratio
+          gratiae ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c3-d1e3830">
+          <lb ed="#Q"/>Respondeo: Praeparatiof dicitur dupliciter: prae—
+          <lb ed="#Q"/>paratio enim dicitur cum datur gratia et antequam
+          <lb ed="#Q"/>detur, scilicet cum est scientia quod aliquis bene
+          <lb ed="#Q"/>usurus est finaliter et est voluntas dandi ei. Se<lb ed="#Q"/>cundum
+          primum modum, quantum est ex parte
+          <lb ed="#Q"/>praeparatae gratiae, quod est connotatum dicitur
+          <lb ed="#Q"/>praeparatio temporalis; secundum modum secun<lb ed="#Q"/>dumg
+          dicitur aeterna praeparatio, quia hoc modo
+          <lb ed="#Q"/>importat voluntatem ab aeterno, voluntatem sci<lb ed="#Q"/>licet
+          dandi isti gratiam cum praescientia quod
+          <lb ed="#Q"/>bene sit usurus ea finaliter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c3-d1e3856">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Et per hoc patet solutio ad
+          <lb ed="#Q"/>primum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c3-d1e3863">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod non est
+          <lb ed="#Q"/>simile de artifice homine et de" Deo, quia ar<lb ed="#Q"/>tifex
+          homo non est sibi sufficiens ad totam suam
+          <lb ed="#Q"/>operationem, et ideo requirit'" materiam subiec<lb ed="#Q"/>tam;
+          artifex Deus sibi per omnia est sufficiens
+          <lb ed="#Q"/>nec indiget materia subiecta; unde Artifex sum<lb ed="#Q"/>mus
+          habet vim agendi'f sine materia: agit enim
+          <lb ed="#Q"/>ac si materia suae actionis sit, sive sit sive non
+          <lb ed="#Q"/>sit, et ideo quod est ex parte eius, dicitur prae<lb ed="#Q"/>paratio,
+          dummodo concurrat sapientia, scientia et
+          <lb ed="#Q"/>voluntas: quod non est ex parte hominis '. -—
+          <lb ed="#Q"/>Et ad illud quod dicitur 'nihil est'" gratiae
+          <lb ed="#Q"/>ab aeterno ,: dico quod nihil est gratiae in effectu,
+          <lb ed="#Q"/>sed tamen aliquid est gratiae " in sua causa, sive
+          <lb ed="#Q"/>in suo principio sufficienti et completo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c3-d1e3898">
+          <lb ed="#Q"/>3. Et per hoc patet solutio ad' tertio obiectum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="218"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q2m2c1">
+        <head xml:id="ahsh-l1p1i1t4q2m2c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 2, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t4q2m2c1-Hd1e3744" type="question-title">AN POTENTIA DIVINA LIMITARI POSSIT EX PARTE ACTUS ET VOLUNTATIS.</head>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3766">
+          <lb ed="#Q"/>In primis igitur ex parte actus arguunt sic:
+          <lb ed="#Q"/>I. 1. Simus ante rerum creationem. Sit A in<lb ed="#Q"/>stans
+          primum creationis; tunc quaeritur: aut"
+          <lb ed="#Q"/>Deus in A potest creare omne creabile aut non.
+          <lb ed="#Q"/>Si non: ergo potentia eius limitata est in creando ;
+          <lb ed="#Q"/>si sic: ergo potest creare omne creabile in A.
+          <lb ed="#Q"/>Ponatur, quia posito possibili nullum sequiturb
+          <lb ed="#Q"/>inconveniens 2. Tunc arguiturc : si Deus creat ornne
+          <lb ed="#Q"/>creabile in A et in omni creabili intelligitur omne
+          <lb ed="#Q"/>quod potest creare: ergo in A creat omne quod
+          <lb ed="#Q"/>potest creari ab ipso; ergo post Ad nihil potest
+          <lb ed="#Q"/>creari ab ipso.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3796">
+          <lb ed="#Q"/>
+          2. Item, Deus potest facere quaecumque e posse
+          <lb ed="#Q"/>potentiae est; sed posito possibili nullum accidit
+          <lb ed="#Q"/>inconveniens: ponatur ergo quod faciat quidquid
+          <lb ed="#Q"/>facere potest; demonstratis ergo illis, est dicere:
+          ' ista sunt quaecumque Deus facere potest ' ; ergo
+          <lb ed="#Q"/>extra ista nihil iaceref potest; ergo potest po—
+          <lb ed="#Q"/>tentia eius impleri ; potest ergo limitari per actum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3812">
+          <lb ed="#Q"/>II. Item, ex parte voluntatis arguunt hoe mo—
+          <lb ed="#Q"/>do: 1. Augustinus, in I libro De Symbolo3:
+          « Hoc solum- non potest Deus, quod non vult ».
+          <lb ed="#Q"/>Ex quo relinquitur quod Deus non potest facere
+          <lb ed="#Q"/>nisi quod vult; sed quod vult, hoc facit; ergo
+          <lb ed="#Q"/>non potest facere nisi quod facit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3825">
+          <lb ed="#Q"/>2. Item, VII libro Confessionum 4, loquens ad
+          <lb ed="#Q"/>Deum, dicit: «Non cogeris invitus ad aliquid,
+          <lb ed="#Q"/>quia voluntas 'tua non est maior quam potentia
+          <lb ed="#Q"/>tua ». Ex quo relinquitur quod Deus non possit
+          <lb ed="#Q"/>plura 'quam vult, sicut non vult plura quam po<cb ed="#Q" n="b"/><lb ed="#Q"/>test; 
+          sicut enim voluntas non est maior? poten<lb ed="#Q"/>tia,
+          ita nec potentia maior voluntate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3844">
+          <lb ed="#Q"/>Iis ergo modis arguunt ad limitationem divinae
+          <lb ed="#Q"/>potentiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3851">
+          <lb ed="#Q"/>Contra: a. Augustinus, in Enchiridion5:
+          « anipotentish voluntas multa potest facere,
+          <lb ed="#Q"/>quae nec vult nec facit ». Quod probat per illud
+          <lb ed="#Q"/>Matth. 26, 53: An putas quia non possum rogarei
+          <lb ed="#Q"/>Patrem, et exhibebit mihi plus quam duodecim le<lb ed="#Q"/>giones
+          angelorum? Ergo Filius poterat rogare
+          <lb ed="#Q"/>quod non rogabat et Pater exhibere quod non
+          <lb ed="#Q"/>exhibebat.,— Quod concedendum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3869">
+          <lb ed="#Q"/>[Ad obiecta] I. 1. Ad illud ergo quod obi<lb ed="#Q"/>citur
+          ex parte actus, primo 'quod Deus po<lb ed="#Q"/>test
+          creare omne creabile ': dicendum quod ' crea<lb ed="#Q"/>bile'
+          duas habet intentiones. Cum enim potentia
+          <lb ed="#Q"/>creabilis non sit potentia materiae, sed solum po<lb ed="#Q"/>tentia
+          agentis, quae potest intelligi absolute vel
+          <lb ed="#Q"/>cum dispositione seu praeordinatione, *creabile'
+          <lb ed="#Q"/>potest dicere velk quod est in potentia creantis
+          <lb ed="#Q"/>causae aut quod estin dispositione creantis cau<lb ed="#Q"/>sae
+          sive praeordinatione. Si accipiatur 'creabile*
+          <lb ed="#Q"/>pro omni eo quod est in dispositione praeordi<lb ed="#Q"/>nationis
+          Creatoris, ut creetur' ab initio mundi us<lb ed="#Q"/>que
+          ad '" finem: concedendum quod potest creare
+          <lb ed="#Q"/>omne creabile in A; non tamen " ex hoc sequitur:
+          'ergo 0 non potest aliquid creare post A ', quia
+          ' creabile' non includebat nisi ea quae erant in dis<lb ed="#Q"/>positione
+          creantis, non ea quae erantP in potentia
+          <lb ed="#Q"/>eius; multa autem sunt in potentia creantis, quae
+          <lb ed="#Q"/>non disposuitf:1 creare. Si vero ' creabile' dicat quod .
+          <pb ed="#Q" n="219"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>est in potentia creantis: secundum hoc " dicendum
+          <lb ed="#Q"/>quod non potest dici omne creabile creari in A,
+          <lb ed="#Q"/>nec Deus potest creare in A omne creabile. —
+          <lb ed="#Q"/>Ad illud quod obicitur quod 'secundum hoc po<lb ed="#Q"/>tentia
+          eius erit limitata': dicendum quod non est
+          <lb ed="#Q"/>verum, immo si posset omnia creabilia facere in A,
+          <lb ed="#Q"/>id est totam potentiam suam effluereb in creando
+          <lb ed="#Q"/>in A, tunc esset limitata eius potentia et finita
+          <lb ed="#Q"/>aliquo modo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3933">
+          <lb ed="#Q"/>2. Ad illud vero quod postea obicit quod
+          *ponatur quod faciat quidquid facere potest, nul<lb ed="#Q"/>lum
+          accidit inconveniens': respondendum quod,
+          <lb ed="#Q"/>cum sit potentia finita et potentia infinita, potentia
+          <lb ed="#Q"/>finita potest educi in totum suum actum, potentia
+          <lb ed="#Q"/>vero infinita potest educi in. actum, sed non in
+          <lb ed="#Q"/>totum: hoc enim contradicit infinitati suae; per
+          <lb ed="#Q"/>hoc enim sequeretur quod esset finita et ita quod
+          <lb ed="#Q"/>esset finita et "infinita: quod est impossibile. Hoc
+          <lb ed="#Q"/>ergo modo dicendum est de divina potentia quod c
+          <lb ed="#Q"/>constat esse infinitae virtutis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3957">
+          <lb ed="#Q"/>II. 1. Ad illud vero quod obicit ex parte
+          <lb ed="#Q"/>voluntatis, ex Augustino, IDe Symbolo:
+          «Id solum non potest Deus quod non vult»,
+          <lb ed="#Q"/>dicendum quod potest intelligi duobus modis:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>« quod non vult» sed facere, et hoc' modo tal<lb ed="#Q"/>Sum
+          est; vel « quod non vult » se posse 1, et
+          <lb ed="#Q"/>hoc modo verum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c1-d1e3975">
+          <lb ed="#Q"/>2. Ad illud etiamf quod obicit: «Non est
+          <lb ed="#Q"/>maior voluntas quam potentia »: dicendum quod
+          <lb ed="#Q"/>hoc verbum ' vult ' aliquando respicit creatum, ut
+          <lb ed="#Q"/>cum vult aliquid creatum esse vel fieri: et secun<lb ed="#Q"/>dum
+          hoc ' posse' Dei, quantum ad illud in quodf
+          <lb ed="#Q"/>est, scilicet subiectum, in plus est quam ipsum
+          ' velle ', quia plura sunt subiecta potentiae quam vo<lb ed="#Q"/>luntati.
+          Aliquando vero hoc verbum ' vult ' respicit
+          <lb ed="#Q"/>ipsum- 'posse aeternum': et secundumg hoc ae<lb ed="#Q"/>qualis
+          sunt ambitus h velle Dei et posse, quoniam
+          <lb ed="#Q"/>quidquid vult se posse, potest, et quidquid potest,
+          <lb ed="#Q"/>vult se posse. Et hoc modo intelligendum est quod
+          <lb ed="#Q"/>dicit Richardu s, in libro De Trinitate 2: « Nihil
+          <lb ed="#Q"/>maius est in eius nosse quam in eius posse. Nam
+          <lb ed="#Q"/>si se latius per sapientiam quam per potentiam et<lb ed="#Q"/>funderet,
+          cum non sit aliud'" potentia eius quam
+          <lb ed="#Q"/>sapientia, essetk una et eadem substantia se ipsa
+          <lb ed="#Q"/>per sapientiam maior et per potentiam minor».
+          <lb ed="#Q"/>Et hoc intelligendum est secundum quod *scire'
+          <lb ed="#Q"/>respicit aeternum posse, quia quidquid scit se
+          <lb ed="#Q"/>posse, potest, et quidquid potest, scit se posse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

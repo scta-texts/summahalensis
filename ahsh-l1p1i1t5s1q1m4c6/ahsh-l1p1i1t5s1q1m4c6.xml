@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 4, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-09">March 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="264"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m4c6">
+        <head xml:id="ahsh-l1p1i1t5s1q1m4c6-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 4, C. 6</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m4c6-Hd1e3744" type="question-title">QUOMODO DEUS SCIT OMNIA IMMUTABILITER.</head>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur quomodo Deus scit om<lb ed="#Q"/>nia 
+          immutabiliter <!--7-->.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3756">
+          <lb ed="#Q"/>Ad quod sic: 1. Demonstrato quolibet contin<lb ed="#Q"/>gente,
+          ut me cras lecturum, vel aliquo" huius-.
+          <lb ed="#Q"/>modi, Deus' scit hoc; aut ergo mutabiliter aut
+          <lb ed="#Q"/>immutabiliter. Si mutabiliter: habeo propositum;
+          <lb ed="#Q"/>si immutabiliter: tunc erit" immutabile me cras
+          <lb ed="#Q"/>lecturum; ergo non potest mutari quin cras legam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3772">
+          <lb ed="#Q"/>2. Item, Deus scit hoc modo futurum, crassciet
+          <lb ed="#Q"/>illud praesens, post cras sciet illud praeteritum;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sed quod scitur secundum differentias temporis,
+          <lb ed="#Q"/>scitur mutabiliter; ergo scientia Dei est muta<lb ed="#Q"/>bilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3789">
+          <lb ed="#Q"/>3. Item, cum est res, Deus scit eam; cum res
+          <lb ed="#Q"/>non est, non scit eam: aliter enim * sciret falsum;
+          <lb ed="#Q"/>ergo scientia Dei-" mutatur, et loquamur de vi<lb ed="#Q"/>sione.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3800">
+          <lb ed="#Q"/>4. Item, Deus scit me lecturum cras; scientia
+          <lb ed="#Q"/>huius modo" est apud Deum; cras, cum legero vel
+          <lb ed="#Q"/>cum mortuus fuero, non scietz me lecturum; ergo
+          <lb ed="#Q"/>mutabilis est eius scientia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3811">
+          <pb ed="#Q" n="265"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>5. Item, solet obici hoc modo: Deus scit quid<lb ed="#Q"/>quid
+          scivit; sed scivit te" nasciturum; ergo scit
+          <lb ed="#Q"/>te esse nasciturumb; ergo tu es nasciturus".
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3824">
+          <lb ed="#Q"/>Contra: a. Secundum Boethiumd, in libro
+          <lb ed="#Q"/>De consolatione-2: « Quod comprehenditur est'? in
+          <lb ed="#Q"/>comprehendente per modum comprehendentis, non
+          <lb ed="#Q"/>per modum rei comprehensae ». Res enim materia<lb ed="#Q"/>lis
+          non est in sensu materialiter vel inf intellectu, 
+          <lb ed="#Q"/>sed immaterialiter. Quod ergo comprehenditur a 
+          <lb ed="#Q"/>Deo, in ipso est secundum modum suum; Deus
+          <lb ed="#Q"/>autem est simplex 8, invariabilis et aeternus; ergo
+          <lb ed="#Q"/>quod scit, simpliciter, invariabiliter et aeterna<lb ed="#Q"/>liter
+          scit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3848">
+          <lb ed="#Q"/>b. Item, Dio nysius ", De divinis nominibus 3:
+          « Non scientia entium Deus cognoscit, sed sua.
+          <lb ed="#Q"/>Etenim angelos nosse, dicunt Eloquia 4, quae sunt
+          <lb ed="#Q"/>super terram, non secundumi sensus ea cogno<lb ed="#Q"/>scentes, 
+          cum ipsa sint entia sensibilia, sed secun—'
+          <lb ed="#Q"/>dum propriam divini intellectus potentiam et na<lb ed="#Q"/>turam ». 
+          Ex hoc" relinquitur quod divinus in<lb ed="#Q"/>tellectus
+          et angelicus cognoscuntl res per natu<lb ed="#Q"/>ram
+          sui intellectus, non per modum rerum intel<lb ed="#Q"/>lectarum;
+          et ideo immutabiliter cognoscit Deus.
+          — Quod concedendum est'".
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3870">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Et ad illud quod primo
+          <lb ed="#Q"/>obicitur: dicendum quod haec 'Deus scit hoc"
+          <lb ed="#Q"/>mutabiliter-' duplex est. Adverbium enim potest
+          <lb ed="#Q"/>determinare verbum in comparatione ad supposi<lb ed="#Q"/>tum,
+          et sic falsa, et est sensus: 'Deus mutabili
+          <lb ed="#Q"/>modo scit hoc'; vel in comparatione ad apposi<lb ed="#Q"/>tum
+          0, et sic vera ", et est sensus: ' Deus scit me
+          <lb ed="#Q"/>lecturum ', quod est mutabile verum velq muta<lb ed="#Q"/>biliter
+          5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3893">
+          <lb ed="#Q"/>3. Ad alind ' dicendum quod non valet, sicut
+          <lb ed="#Q"/>non sequiturs: ' lux solis vel radius illuminat hanc
+          <lb ed="#Q"/>rem; modo non illuminat, cum pertransit; ergo
+          <lb ed="#Q"/>radius mutatur ' 6. Similiter non valet: ' modo sum
+          <lb ed="#Q"/>dexter ad istum, modo sinister vel non dexter;
+          <lb ed="#Q"/>ponatur quod ille mutet locum suum et ego non;
+          <lb ed="#Q"/>ergo mutor ego'7. Ett nummus sine sui muta<cb ed="#Q" n="b"/><lb ed="#Q"/>tione 
+          fit de non pretio" pretium, secundum Au<lb ed="#Q"/>gustinum,
+          De Trinitate 5. Sic scientia Dei non
+          <lb ed="#Q"/>est mutabilis, cum estb huius rei, cum estc et
+          <lb ed="#Q"/>cum d non est, sicut non mutatur scientia artificis,
+          <lb ed="#Q"/>cum domus est et cum domus non est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3923">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod haec determi<lb ed="#Q"/>natio
+          secundum differentias temporis potest de<lb ed="#Q"/>terminare
+          verbum 'sciendi' in comparatione ad
+          <lb ed="#Q"/>suppositum sive ad scientem: et sic falsa est,
+          <lb ed="#Q"/>quia non eas scit secundum differentias temporis,
+          <lb ed="#Q"/>sed praesentialiter et secundum aeternum nunc;
+          <lb ed="#Q"/>aut in comparatione ad appositum * sive ad scita:
+          <lb ed="#Q"/>et sic vera, quia scit res praeteritas et futuras
+          <lb ed="#Q"/>et praesentes.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3945">
+          <lb ed="#Q"/>4. Ad aliud dicendum quod scientia dicitur
+          <lb ed="#Q"/>dupliciter: active et. passive. Scientia passive dicta
+          <lb ed="#Q"/>estf aptitudo in scibili ad hoc ut sciatur: haec
+          <lb ed="#Q"/>mutatur; scientia vero active est scientia qua scit:
+          <lb ed="#Q"/>haec non mutatur, sicut scientia artificis non mu<lb ed="#Q"/>tatur
+          mutato scibili.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3961">
+          <lb ed="#Q"/>5. Ad illud sophisma: 'Deus scit quid<lb ed="#Q"/>quid
+          scivit' etc.: dicendum quod est figura dictio—
+          <lb ed="#Q"/>nis. Cum enim dicitur ' Deus scit quidquid scivit ',
+          <lb ed="#Q"/>non fit distributio pro enuntiabilibus, sed pro re<lb ed="#Q"/>bus,
+          non pro rebusg ut sunt in natura propria,
+          <lb ed="#Q"/>sed prout sunt in divina scientiah sive in suis
+          <lb ed="#Q"/>rationibus vel ideis vel exemplaribus; fit ergo
+          <lb ed="#Q"/>distributio pro ipsis rationibus rerum aeternis.
+          <lb ed="#Q"/>Sed cum assumitf: ' sed scivit te essei nasciturum ',
+          <lb ed="#Q"/>assumit conditionem temporalem, quae non est
+          <lb ed="#Q"/>aeterna; sed sic deberet assumere: ' sed scivit
+          <lb ed="#Q"/>tuam nativitatem, ergo scit tuam nativitatem "f.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m4c6-d1e3990">
+          <lb ed="#Q"/>Item, opponitur: omne enuntiabile quod<lb ed="#Q"/>cumque
+          Deus scivit, scit; scivit te esse nascitu<lb ed="#Q"/>rum;
+          ergo etc. — Respondeo: Deus scit enun<lb ed="#Q"/>tiabilia
+          non per modum enuntiabilium, sed per
+          <lb ed="#Q"/>modum rei in causa. Cum autem assumit: 'te
+          <lb ed="#Q"/>esse nasciturum ', assumit enuntiabile per mo<lb ed="#Q"/>dum 
+          enuntiabilis, quomodo non fiebat primol
+          <lb ed="#Q"/>distributio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-25">April 25, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-25" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="586"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q1m2c3">
+        <head xml:id="ahsh-l1p2i2t2s1q1m2c3-Hd1e118">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 2, C. 3</head>
+        <head xml:id="ahsh-l1p2i2t2s1q1m2c3-Hd1e121" type="question-title">UTRUM NOMEN 'SUBSISTENTIA' SIT ESSENTIALE VEL PERSONALE.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q1m2c3-d1e124">
+          <lb ed="#Q"/>Ultimo quaeritur utrum nomen 'subsistentiae'
+          <lb ed="#Q"/>sit essentiale vel personale 5.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m2c3-d1e131">
+          <lb ed="#Q"/>Ad quod sic: a. Richardus, De Trinitate7:
+          « Subsistentia 9 est incommunicabilis existentia »:
+          <lb ed="#Q"/>tot enim sunt incommunicabiles existentiae quot
+          <lb ed="#Q"/>proprietates; tot autem 'sunt proprietates quot
+          <lb ed="#Q"/>personae; ergo tot sunt subsistentiae quot perso<lb ed="#Q"/>nae
+          '; sed tres sunt personae; ergo tres subsisten<lb ed="#Q"/>tiae;
+          ergo subsistentia est personale et non dicit
+          <lb ed="#Q"/>essentiam; nullo enim : modo sunt tres essentiae.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m2c3-d1e149">
+          <lb ed="#Q"/>b. Item, Hieronymus, in Expositione fidei
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>catholicae ad Alypium et Augustinums: « Tres
+          <lb ed="#Q"/>personas, vel, ut' Graeci exprimunt, hypostases,
+          <lb ed="#Q"/>id est subsistentias ", confitemur ». Ergo subsisten<lb ed="#Q"/>tia
+          idem est quod hypostasis; ergo est personale.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m2c3-d1e166">
+          <lb ed="#Q"/>Contra: 1. Boethius, in libro De duabus na<lb ed="#Q"/>turis
+          et una persona Christig: « Deus usia est"
+          <lb ed="#Q"/>et essentia. Ipse enim maxime est a quo orn<lb ed="#Q"/>niumx
+          esse proficiscitur; est etiam usiosis, id
+          <lb ed="#Q"/>est? subsistentia: subsistit enim nullo indigens.
+          <lb ed="#Q"/>Unde etiamz dicimus unam esse usiam vel usio<lb ed="#Q"/>sim,
+          id est essentiam vel subsistentiam deitatis,
+          <lb ed="#Q"/>sed tres hypostases, id est tres substantias ».
+          <pb ed="#Q" n="587"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Relinquitur igitur quod subsistentia est essentiale
+          <lb ed="#Q"/>et quod " inconvenienter dicitur 'tres subsisten<lb ed="#Q"/>tiae'
+          in divinis. '
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m2c3-d1e197">
+          <lb ed="#Q"/>2. Item, sicut ibib dicit Boethius': «Illud
+          <lb ed="#Q"/>subsistit quod accidentibus, ut possit esse, non
+          <lb ed="#Q"/>indiget ». Unde subsistentia dicitur quod non in<lb ed="#Q"/>diget
+          accidentibus ut sit; si ergo hoc dicitur de
+          <lb ed="#Q"/>Deo secundum essentiam, ergo erit una subsi<lb ed="#Q"/>stentia,
+          nontres.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m2c3-d1e213">
+          <lb ed="#Q"/>3. Item, cum substantia, secundum Boethium 2,
+          <lb ed="#Q"/>sit idem quod hypostasis et tamen graece con<lb ed="#Q"/>ceduntur
+          tres hypostases, subsistentia vero idem 0
+          <lb ed="#Q"/>quod usiosis, graeced autem non concederetur
+          'tres usioses ', sed una tantum, inconvenientius
+          <lb ed="#Q"/>ergo latine dicuntur tres subsistentiae in divinis
+          <lb ed="#Q"/>quam tres substantiae. '
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m2c3-d1e229">
+          <lb ed="#Q"/>Respondeo 1-2. secundum Boethium, in libro
+          <lb ed="#Q"/>De duabus naturis", quod quemadmodum in—
+          <lb ed="#Q"/>tentio substantiae duobus modis exponitur: per
+          <lb ed="#Q"/>negationem; unde Boethius 4: « Substantia di<lb ed="#Q"/>citur,
+          quoniam in nullo subiecto est», hoc est
+          <lb ed="#Q"/>quod estf per se, ad differentiam accidentis cuius
+          <lb ed="#Q"/>esse est inesse, hoc est esseg in subiecto; alia
+          <lb ed="#Q"/>est per affirmationem; unde Boethius: « Sub<lb ed="#Q"/>stantia
+          est, quoniam subest ceteris », id est ac<lb ed="#Q"/>cidentibus
+          —— primo modo intentio substantiae
+          <lb ed="#Q"/>convenit rei generibus et speciebus, quae dicuntur
+          <lb ed="#Q"/>in logicis substantiae secundae; secundo modo
+          <lb ed="#Q"/>convenit singularibus individuis, quae dicuntur
+          <lb ed="#Q"/>substantiae primae —- ita in divinis intentio sub<lb ed="#Q"/>stantiae
+          duobus modis dicebatur: uno modo es<lb ed="#Q"/>sentialiter
+          pro essentia communi, et secundum hoc
+          <lb ed="#Q"/>intentio substantiae eadem est quaeh usiosis;
+          <lb ed="#Q"/>alio modo personaliter pro re subsistente pro<lb ed="#Q"/>prietati,
+          et hoc modo idem est substantia quod
+          <lb ed="#Q"/>hypostasis; tamen propter haereticos non utimur
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>hac significatione substantiae in divinis, sicut
+          <lb ed="#Q"/>dictum est5 ; remanet ergo apud Latinos intentio
+          <lb ed="#Q"/>substantiae, secundum quod dicit usiosim, noni
+          <lb ed="#Q"/>hypostasim, et ideo una substantia, non tres. —
+          .Simili inodo dicendum quod intentio subsisten<lb ed="#Q"/>tiae
+          dicitur duobus modis: uno modo subsistentia
+          <lb ed="#Q"/>dicitur, sicut dicit Boethiusö, quoniam « non
+          <lb ed="#Q"/>indiget accidentibus ut sit », et hoc modo subsi<lb ed="#Q"/>stentia
+          dicitur essentialiter et una subsistentia,
+          <lb ed="#Q"/>sicut una usiosis; alio modo subsistentia dicitur
+          <lb ed="#Q"/>ab actu subsistendi, et hoc modo subsistentia
+          <lb ed="#Q"/>dicitur idem quodk hypostasis. Unde Boethiu s:
+          «Intellectus universalium rerum ex particulari<lb ed="#Q"/>bus'
+          sumptus est.; quocirca cum ipsae substantiae
+          <lb ed="#Q"/>in '" universalibus quidem sint", in particularibus
+          <lb ed="#Q"/>vero" capiant subsistentiam, iure subsistentias
+          <lb ed="#Q"/>particulariter substantes [hypostases] appellave<lb ed="#Q"/>runt
+          ». Secundum hoc dicuntur tres subsistentiae,
+          <lb ed="#Q"/>id est tres hypostases.: nihil enim aliud dicitP
+          <lb ed="#Q"/>hypostasis quam res substans proprietati. Alio
+          <lb ed="#Q"/>ergo modo nunc 'I utimur illis quatuor nominibus
+          <lb ed="#Q"/>quam tempore Boethii: in duobus enim est
+          <lb ed="#Q"/>mutatio, quia modo idem dicitur substantia et'
+          <lb ed="#Q"/>usiosis, et subsistentia eis hypostasis; sed sicut
+          <lb ed="#Q"/>prius idem modo dicuntur essentia et usia, si<lb ed="#Q"/>militer
+          persona et prosopon.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m2c3-d1e329">
+          <lb ed="#Q"/>3. Ad ultimum dicendum quod substantia,
+          <lb ed="#Q"/>quia nomen est primi praedicamenti, habet opposi<lb ed="#Q"/>tionem
+          immediatam cum relatione; subsistentia
+          <lb ed="#Q"/>vero non ita immediate opponitur: non enim oppo<lb ed="#Q"/>nitur
+          nisi quia substantia est, et ideo plus ac—
+          <lb ed="#Q"/>cedit ad relativam praedicationem; et itaf in di<lb ed="#Q"/>vinis
+          non dicitur una subsistentia sicut una sub<lb ed="#Q"/>stantia,
+          quia plus accedit ad relativam praedica<lb ed="#Q"/>tionem
+          'subsistentia', et propter hoc in divinis
+          <lb ed="#Q"/>non dicitur una subsistentia, sicut una substantia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

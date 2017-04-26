@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="192"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m4prae">
+        <head xml:id="ahsh-l1p1i1t3q3m4prae-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, Praeambulum</head>
+        <p xml:id="ahsh-l1p1i1t3q3m4prae-d1e3744">
+          <lb ed="#Q"/>Consequenter quaeritur de oppositionel' mali
+          <lb ed="#Q"/>ad bonum. Circa quod quaeruntur plura:
+          <lb ed="#Q"/>Primo, an increato bono opponatur malum;
+          <lb ed="#Q"/>secundo, quomodo opponitur malum bono creato
+          <lb ed="#Q"/>gratiae et naturae;
+          <lb ed="#Q"/>tertio, quomodo malum habeat subsistentiam
+          <lb ed="#Q"/>in bono naturae;
+          <lb ed="#Q"/>quarto, de corruptione boni per malum Z, an
+          <lb ed="#Q"/>sit finita;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quinto, an malum sit corruptivum habilitatum 
+          <lb ed="#Q"/>naturalium; 
+          <lb ed="#Q"/>sexto, an sit corruptivum modi, speciei et ordinis; 
+          <lb ed="#Q"/>septimo, an unico malo vel triplici sit corruptio
+          <lb ed="#Q"/>vel diminutio modi, speciei et ordinis; 
+          <lb ed="#Q"/>octavo, de differentia corruptionis quae est per
+          <lb ed="#Q"/>veniale et mortale. 
+          <lb ed="#Q"/>De oppositione vero mali et boni in genere 
+          <lb ed="#Q"/>dicetur infra, cum ad moralia descendemus 7.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 4, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-22">March 22, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="339"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t4m1c2">
+        <head xml:id="ahsh-l1p1i1t5s2q4t4m1c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 4, M. 1, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t4m1c2-Hd1e3744" type="question-title">UTRUM DILECTIO DEI RESPECTU CREATURAE SIT SUMMA.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c2-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum dilectio Dei re<lb ed="#Q"/>spectu 
+          creaturae sit summa, sicut illa quae est
+          <lb ed="#Q"/>respectu personarum ad invicem, quia dicitur
+          <lb ed="#Q"/>quod summe diligit se.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c2-d1e3758">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Quia summum dicitur
+          <lb ed="#Q"/>quod non potest esse maius vel quo non potest
+          <lb ed="#Q"/>esse maiusö; sed dilectio, qua Deus diligit crea<lb ed="#Q"/>turam,
+          non potest esse maior, quia Dei dilectio
+          <lb ed="#Q"/>non potest intendi; ergo ipsa est summa. Simi<lb ed="#Q"/>liter
+          non potest aliqua maior esse illa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c2-d1e3774">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Contra: a. Dilectio est respectu boni proprie;
+          <lb ed="#Q"/>ergo maior dilectio est respectuP maioris boni,
+          <lb ed="#Q"/>et maxima sive summa-respectu maximi boni 
+          <lb ed="#Q"/>siveq summi7; ergo summa est dilectio respectu
+          <lb ed="#Q"/>summi boni et non-summa respectu non-summi;
+          <lb ed="#Q"/>sed Deus est summum bonum, creatura non-sum<lb ed="#Q"/>mum;
+          ergo respectu Dei summa est dilectio, non
+          <lb ed="#Q"/>respectu creaturae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c2-d1e3797">
+          <lb ed="#Q"/>Solutio: Idem est diligere aliquid quod velle
+          <lb ed="#Q"/>bonum illi 8. Dicendum ergo quod diligere 'Dei
+          <lb ed="#Q"/>habet duplicem comparationem 9: unam ad ipsam
+          <pb ed="#Q" n="340"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>voluntatem Dei, aliam ad ipsum volitum. Cum
+          <lb ed="#Q"/>ergo dicitur 'Pater diligit Filium' vel e converso,
+          <lb ed="#Q"/>ibi est'summum bonum ex parte voluntatis et ex
+          <lb ed="#Q"/>parte voliti, quia Pater Filio non potest velle
+          <lb ed="#Q"/>maius bonum quam vult: hoc enim esset impos<lb ed="#Q"/>sibile
+          quod maius bonum vellet Filio, sicut pro<lb ed="#Q"/>batum
+          est alibi '. Cum vero dicitur 'Deus diligit
+          <lb ed="#Q"/>creaturam ', haec dilectio est summa per compa<lb ed="#Q"/>rationem
+          ad voluntatem diligentis, quia non po<lb ed="#Q"/>test
+          maior esse nec intendi nec remitti; sed per
+          <lb ed="#Q"/>comparationem ad volitum, non est summa, sed po<lb ed="#Q"/>test
+          maior esse, quia potest huic creato velle maius
+          <lb ed="#Q"/>bonum, sicut potest ipsum facere melius quam
+          <lb ed="#Q"/>sit, secundum quod ly 'melius' nominaliter ac<lb ed="#Q"/>cipitur. 
+          Unde dicimus quod dilectio Dei qua di<lb ed="#Q"/>ligit 
+          creaturam, si comparetur ad Deum diligen<lb ed="#Q"/>tem
+          sive ad" voluntatem Dei diligentis, summa
+          <lb ed="#Q"/>est et in termino; si autem ad creaturam dilec<lb ed="#Q"/>tam
+          sive ad ipsum volitum quod ex dilectione
+          <lb ed="#Q"/>Deus efficit in creatura vel quod iam tactumb
+          <lb ed="#Q"/>ei placet, sic non est summa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c2-d1e3856">
+          <lb ed="#Q"/>Sed contra hoc obicitur: Si, quantum est
+          <lb ed="#Q"/>ex parte diligentis, summa est dilectio Dei respectu
+          <lb ed="#Q"/>creaturae et similiter respectu personarum summa
+          <lb ed="#Q"/>est — Pater enim C summe diligit Filium — ergo
+          <lb ed="#Q"/>aeque diligit Filium et creaturam; quod videtur
+          <lb ed="#Q"/>falsum,, cum nulla sit proportio dilectionis Dei
+          <lb ed="#Q"/>respectu creaturae in aliquo sensu.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c2-d1e3874">
+          <lb ed="#Q"/>Ad quod dicendum2 quod nulla est pro<lb ed="#Q"/>portio
+          dilectionis Dei respectu creaturae et
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>respectu personarum, quia 4, quantum est ex parte
+          <lb ed="#Q"/>diligentis et etiam voluntatis, idem omnino este
+          <lb ed="#Q"/>utrobique, cum dico 'Pater diligit creaturam' et
+          <lb ed="#Q"/>cum dico. ' Pater diligit Filium ', quia una est es<lb ed="#Q"/>sentia
+          diligens in se: et quia idem non est sibif
+          <lb ed="#Q"/>proportionale, ideo in hac via nong proportio<lb ed="#Q"/>nantur.
+          — [tem, neque proportionales sunt ex
+          <lb ed="#Q"/>parte dilectorum: bonum enim creatum impro<lb ed="#Q"/>portionabile
+          est bono increato; nec unquam " po<lb ed="#Q"/>test
+          creatum ascendere ad hoc'" quod sit unum
+          <lb ed="#Q"/>in essentiak cum bono increato, etsi possit uniri
+          <lb ed="#Q"/>in persona, sicut fuit in Christo; et ideo ex parte
+          <lb ed="#Q"/>dilecti similiter sunt improportionabiles.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c2-d1e3911">
+          <lb ed="#Q"/>Sed obicitur contra hoc sic: Bonum, in
+          <lb ed="#Q"/>ratione boni, est diligibile; ergo magis1 bonum
+          <lb ed="#Q"/>magis diligibile; sed bonum increatum est magis '"
+          <lb ed="#Q"/>bonum quam creatum; ergo magis diligi debet;
+          <lb ed="#Q"/>et Deus facit quidquid debet; ergo magis diligit
+          <lb ed="#Q"/>bonum increatum; et sic ex parte dilectorum est
+          <lb ed="#Q"/>ibi proportio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c2-d1e3929">
+          <lb ed="#Q"/>Dicendum quod verum est quod Deus magis
+          <lb ed="#Q"/>diligit bonum increatum quam creatum, sicut
+          <lb ed="#Q"/>Pater" plus diligit Filium quam creaturam; sed 0
+          <lb ed="#Q"/>illud 'magis' dicit comparationem extra genus
+          <lb ed="#Q"/>nec unquam potest haec comparatio ad genus
+          <lb ed="#Q"/>aliquod accedere. Unde cum proportioP sit rerum
+          <lb ed="#Q"/>eiusdem generis, sicut duorum alborum aut duo<lb ed="#Q"/>rum
+          nigrorum, et non sit comparatio rerum di<lb ed="#Q"/>versorum
+          generum: manifestum est? quod non
+          <lb ed="#Q"/>est proportio in proposito ex parte dilectorum,
+          <lb ed="#Q"/>quaecumque sit illorumf habitudo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

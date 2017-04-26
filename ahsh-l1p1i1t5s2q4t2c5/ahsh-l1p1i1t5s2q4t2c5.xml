@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-18">March 18, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="331"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t2c5">
+        <head xml:id="ahsh-l1p1i1t5s2q4t2c5-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 2, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t2c5-Hd1e3744" type="question-title">DE EFFECTU REPROBATIONIS QUI EST OBDURATIO.</head>
+        <div xml:id="ahsh-l1p1i1t5s2q4t2c5-Dd1e3747" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q4t2c5-Hd1e3749">ARTICULUS 1</head>
+          <head xml:id="ahsh-l1p1i1t5s2q4t2c5-Hd1e3752" type="question-title">Quid sit obduratio.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3755">
+            Consequenter quaeritur de effectu qui est ob<lb ed="#Q"/>duratio. 
+            Et quaeritur quid sit obduratio.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3760">
+            <lb ed="#Q"/>I. Videtur quod obduratio sit reprobatio:
+            1. Rom. 9,18: <quote xml:id="ahsh-l1p1i1t5s2q4t2c5-Qd1e3764" ana="#rom9_18">Ergo cuius vult, miseretur, et quem
+            <lb ed="#Q"/>vult, indurat</quote>; dicitf" Glossazz « Obduratio est
+            <lb ed="#Q"/>nolle misereri»; sed haec est reprobatio; ergo
+            <lb ed="#Q"/>Obduratio est reprobatio. — Min or patet, quo<lb ed="#Q"/>niam
+            sicut dicit Augustinus3: «Reprobatio
+            <lb ed="#Q"/>est propositum non miserendi »; sed hoc est nolle
+            <lb ed="#Q"/>misereri.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3781">
+            <lb ed="#Q"/>Ad oppositum: a. Reprobatio est aeterna, sed
+            <lb ed="#Q"/>Obduratio solum est temporalis; nullum autem
+            <lb ed="#Q"/>temporale est aeternum; ergo Obduratio non est
+            <lb ed="#Q"/>reprobatio 4.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3793">
+            <lb ed="#Q"/>b. Item, Rom. 9,18: <quote xml:id="ahsh-l1p1i1t5s2q4t2c5-Qd1e3797" ana="#rom9_18">Ergo cuius vult, misere<lb ed="#Q"/>tur</quote>
+            etc. Glossa5: « Miseretur utique secundum
+            <lb ed="#Q"/>gratiam quae gratis datur; obdurat autem se<lb ed="#Q"/>cundum
+            iudicium quod meritis redditur ». Obdu<lb ed="#Q"/>ratio
+            ergo est ex meritis; sed reprobatio non est
+            <lb ed="#Q"/>ex meritis; ergo unum non est aliud.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3812">
+            <cb ed="#Q" n="b"/> 
+            <lb ed="#Q"/>Respondeo: Dicendum ", sicut habetur in G 1 o 5<lb ed="#Q"/>sa6
+            Rom. 9,18: « Notandum enim est quod ob<lb ed="#Q"/>duratio
+            Dei tantum temporalis est: obdurat enim
+            <lb ed="#Q"/>temporaliter, non ab aeterno; reprobatio vero alia
+            <lb ed="#Q"/>est ab aeterno, alia temporaliter; quae autem
+            <lb ed="#Q"/>temporaliter est, idem est quod Obduratio, id est
+            <lb ed="#Q"/>desertio a Deo; quae autem ab aeterno est, est
+            <lb ed="#Q"/>praescientia qua Deus praescit aliquem damnan<lb ed="#Q"/>dum».
+            Secundum ergoa quod accipitur repro<lb ed="#Q"/>batio
+            pro reprobatione temporali, hoc modo idem
+            <lb ed="#Q"/>sunt reprobatio et Obduratio; secundum autem
+            <lb ed="#Q"/>quod sumitur pro reprobatione aeterna, non sunt
+            <lb ed="#Q"/>idem, immo sequitur obduratio solum finalis ex
+            <lb ed="#Q"/>ipsa reprobatione 7.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3847">
+            <lb ed="#Q"/>II. Item, ad maiorem declarationem de obdu<lb ed="#Q"/>rationeP
+            quaeritur utrum sit culpa vel poena.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3854">
+            <lb ed="#Q"/>Quod sit culpa videtur: (1. Rom. 2,5, super
+            <lb ed="#Q"/>illud: Secundum duritiam autem tuam etc. di<lb ed="#Q"/>cit
+            Glossaqs: «Obduratio est induratae' in 
+            malitia mentis pertinacia, per quam fit homo
+            <pb ed="#Q" n="332"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>impoenitens ». Ergo idem sunt obduratio et ob<lb ed="#Q"/>stinatio;
+            sed obstinatio est peccatum in Spiritum
+            <lb ed="#Q"/>Sanctum, sicut dicit ibi Glossa1 quod « haec
+            <lb ed="#Q"/>impoenitentia est blaSphemia in Spiritum Sanc<lb ed="#Q"/>tum
+            »; sed blasphemia in Spiritum Sanctum est"
+            <lb ed="#Q"/>peccatum in Spiritum Sanctum b, sicut habetur
+            <lb ed="#Q"/>Matth. 12,31; ergo obduratio est peccatum in
+            <lb ed="#Q"/>Spiritum Sanctum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3885">
+            <lb ed="#Q"/>Contra: 1. Augustinus, in libro De gratia et
+            <lb ed="#Q"/>libero arbitrioz: «Deus indurat-per iustum iudi<lb ed="#Q"/>cium
+            »; sed iustum iudicium reSpicit poenam, non
+            <lb ed="#Q"/>culpam; ergo obduratio est poena, non culpa. <lb ed="#Q"/>Si
+            dicatur quod sit culpa etc poena - obi<lb ed="#Q"/>citur:
+            si obduratio est culpa, constat quod est
+            <lb ed="#Q"/>quid malum; constat autem quod si ipsavest
+            <lb ed="#Q"/>poena, quod estd quid iustum, et ita bonum 3, et
+            <lb ed="#Q"/>ita idem simul bonum et malum: quod est in<lb ed="#Q"/>conveniens;
+            ergo vel non est culpa vel non est
+            <lb ed="#Q"/>poena.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3911">
+            <lb ed="#Q"/>Solutio <!--e-->: 1. Obduratio accipitur dupliciter, Uno
+            <lb ed="#Q"/>modo prout est affectio voluntariaf, et sic obdu<lb ed="#Q"/>ratio
+            est voluntas resistendi mandatis Dei et per<lb ed="#Q"/>sistendi
+            in suo peccato 4: et hoc modo obduratio
+            <lb ed="#Q"/>est peccatum sive culpa ponens in numerum
+            <lb ed="#Q"/>quantum ad speciem peccati vel genus cum pec<lb ed="#Q"/>cato
+            praecedenti, quia sic ipsa est peccatum in
+            <lb ed="#Q"/>Spiritum Sanctum. Aliter accipitur obduratio,
+            <lb ed="#Q"/>prout est passio nociva libero arbitrio; et hoc
+            <lb ed="#Q"/>modo dicit passionem relictam exg peccato, quae
+            <lb ed="#Q"/>est corruptio bonorum naturalium: et hoc modo
+            <lb ed="#Q"/>obduratio est affectio involuntaria, quia nullus vult
+            <lb ed="#Q"/>obdurari. Et de hac loquitur Augustinus, cum
+            <lb ed="#Q"/>dicit quod « Deus indurat per iustum iudicium »,
+            <lb ed="#Q"/>quia non dimittit peccatum impunitum, et hoc
+            <lb ed="#Q"/>modo obduratio proprie est poena et non culpa.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e3951">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Item, secundum quod est culpa, duobus mo<lb ed="#Q"/>dis
+            est loqui de ipsa obduratione: uno modo
+            <lb ed="#Q"/>secundum quod est dispositio peccati praece<lb ed="#Q"/>dentis,
+            scilicet relicta ex peccato. praecedenti;
+            <lb ed="#Q"/>alio modo secundum quod est peccatum" spe<lb ed="#Q"/>ciale
+            per se. Et similiter est dicendum de ob<lb ed="#Q"/>stinationel'
+            et huiusmodi, quae satis pro eo<lb ed="#Q"/>dem
+            accipiuntur. Secundum autem quod acci<lb ed="#Q"/>pitur
+            obduratio, prout est dispositio peccati prae<lb ed="#Q"/>cedentis,
+            hoc modo secundum Augustinum,
+            <lb ed="#Q"/>in libro De praedestinatione sanctorum 5: « Ob<lb ed="#Q"/>duratio
+            nihil aliud est quam Dei obviare man<lb ed="#Q"/>datis
+            »; unde Act. 7, 51: Dura cervice et incir<lb ed="#Q"/>cumcisi
+            corde, vos semper Spiritui Sancto re<lb ed="#Q"/>stitistis.
+            Alio modo potest dici obduratio, quando
+            <lb ed="#Q"/>homo non solum tit durus ex peccato et re<lb ed="#Q"/>sistens
+            bonis, immo cum hoc ulterius habet
+            <lb ed="#Q"/>specialem voluntatem resistendi mandatis Dei
+            <lb ed="#Q"/>et bonis per quae potest ad poenitentiam duci,
+            <lb ed="#Q"/>et pugnat contra illa, ita quod placet ei suum
+            <lb ed="#Q"/>peccatum ut habeat propositum permanendi in
+            <lb ed="#Q"/>ipso et non poenitendi. Undek obduratio non
+            <lb ed="#Q"/>est solum dispositio peccati praecedentis, immo
+            <lb ed="#Q"/>est speciale peccatum, ponens in numerum
+            <lb ed="#Q"/>quantum ad genus peccati cum peccato prae<lb ed="#Q"/>cedenti.
+            Obduratio ergo primo modo, scilicet
+            <lb ed="#Q"/>prout dicit duritiam quamdam et resistentiam
+            <lb ed="#Q"/>eis per quae homo ducitur ad .poenitentiam,
+            <lb ed="#Q"/>sic non mutat genus peccati respectu peccati
+            <lb ed="#Q"/>praecedentis, cuius est dispositio. Secundum
+            <lb ed="#Q"/>autem quod est specialis voluntas resistendi
+            <lb ed="#Q"/>per se Spiritui Sancto praecipientil sive di<lb ed="#Q"/>vinis
+            mandatis, hoc modo est speciale pec<lb ed="#Q"/>catum, 
+            et sic est peccatum <!--m--> in Spiritum Sanc<lb ed="#Q"/>tum.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q4t2c5-Dd1e4035" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q4t2c5-Hd1e4037">ARTICULUS 2</head>
+          <head xml:id="ahsh-l1p1i1t5s2q4t2c5-Hd1e4040" type="question-title">Cui per se opponitur obduratio.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e4043">
+            <lb ed="#Q"/>Consequenter quaeritur cui per se opponitur
+            <lb ed="#Q"/>obduratio.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e4050">
+            <lb ed="#Q"/>1. Nos videmus quod reprobatio per se op<lb ed="#Q"/>ponitur
+            ipsi" praedestinationi. Cui ergo per se
+            <lb ed="#Q"/>opponitur obduratio? Quia ex" Scripturai5 vi<lb ed="#Q"/>detur
+            quod obduratio nihil aliud sit quam elon<lb ed="#Q"/>gatio
+            gratiae, quia obduratio est non-appositio
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>gratiae: dicitur enim hoc modo Deus indu<lb ed="#Q"/>rare,
+            quia scilicet gratiam non apponit7;-sed
+            <lb ed="#Q"/>elongatio sive non-appositio gratiae opponitur
+            <lb ed="#Q"/>per se ipsi praesentiae gratiae; ergo et obdu<lb ed="#Q"/>ratio.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e4076">
+            <lb ed="#Q"/>Sed. ad oppositum<!--P--> obicitur sic: a. Peccatum
+            <lb ed="#Q"/>et praesentia gratiae per se et directe habent op<lb ed="#Q"/>positionem;
+            sed obduratio est dispositio sequens
+            <pb ed="#Q" n="333"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>ad peccatum mortale; ergo obduratio non oppo<lb ed="#Q"/>nitur 
+            directe praesentiae <!--a--> gratiae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e4099">
+            <lb ed="#Q"/>Solutio: Dicendum, sicut dicit Augusti<lb ed="#Q"/>nusl,
+            quod Deus «delinquentes deserit, resi<lb ed="#Q"/>stentes
+            indurat, contemnentes condemnat». Ita
+            <lb ed="#Q"/>enim estb progressus in peccatis, quod homo
+            <lb ed="#Q"/>primo delinquit, postea induratur contra bona,
+            <lb ed="#Q"/>tertio contemnit facere ipsa bona. Eodem modo
+            <lb ed="#Q"/>est progressus ex parte Dei, quoniam ipsos
+            <lb ed="#Q"/>delinquentes deserit, id est non apponit eis
+            <lb ed="#Q"/>gratiam; sed hoc non est ex parte sui, sed
+            <lb ed="#Q"/>ex parte ipsius peccatoris; sed postea poena
+            <lb ed="#Q"/>indurat illos; ulterius ipsos contemnentes fi<lb ed="#Q"/>naliter
+            condemnat. Unde sicut est progressus
+            <lb ed="#Q"/>in diSpositionibus peccati, ita est et in poe<lb ed="#Q"/>nis.
+            Induratio ergo est ex parte ipsius resi<lb ed="#Q"/>stentiae
+            6, quando resistit peccatord mandatis
+            <lb ed="#Q"/>Dei. — Et dicendum quod ipsa per se oppo<lb ed="#Q"/>nitur
+            emollitioni, quia Deus dicitur indurare et
+            <lb ed="#Q"/>emollire. Indurare veroe dicitur, non aliquam
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>malam dispositionem apponendo, sed quia con<lb ed="#Q"/>trahitur
+            haec poena-cum ipso peccato mortali 2,
+            <lb ed="#Q"/>cum Deus subtrahit gratiam vel non apponit.
+            <lb ed="#Q"/>Item, ipse Deus emollit cor ad poenitentiam;
+            <lb ed="#Q"/>unde Ezech. 11,19: Auferam a vobis cor lapi<lb ed="#Q"/>deum,
+            id est cor durum ad poenitentiam, et dabo
+            <lb ed="#Q"/>vobis cor carneum, id est cor molle et habile ad
+            <lb ed="#Q"/>poenitentiam 3. Sicut ergo peccatum per se et di<lb ed="#Q"/>recte
+            opponitur praesentiaef gratiae, quia Deus
+            <lb ed="#Q"/>delinquentes deserit, scilicet non apponendo gra<lb ed="#Q"/>tiam,
+            ita obduratio directe-! opponitur ipsi emolli<lb ed="#Q"/>tioni,
+            quia Deus resistentes indurat ; haec autem
+            <lb ed="#Q"/>resistentia et obduratio vel induratio est contra
+            <lb ed="#Q"/>emollitionem gratiae. Unde Augustinus, in li<lb ed="#Q"/>bro
+            De praedestinatione sanctorum4: « Indurare
+            <lb ed="#Q"/>dicitur Deus eum quem emollire noluerit; sic'[
+            <lb ed="#Q"/>etiam dicendus est excaecare eum quem illumi<lb ed="#Q"/>nare
+            noluerit et repellere eum quem vo'care no<lb ed="#Q"/>luerit».
+            Et sic patet responsio: cui per se oppo<lb ed="#Q"/>nitur
+            obduratio.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q4t2c5-Dd1e4187" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q4t2c5-Hd1e4189">ARTICULUS III</head>
+          <head xml:id="ahsh-l1p1i1t5s2q4t2c5-Hd1e4192" type="question-title">Utrum obduratio sit generalis omnibus.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e4195">
+            <lb ed="#Q"/>Consequenter quaeritur utrum obduratio sit
+            <lb ed="#Q"/>generalisi omnibus, tam parvulis quam adultis
+            <lb ed="#Q"/>peccatoribus.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e4204">
+            <lb ed="#Q"/>a. Rom. 9,18:Erg0 cuius vult, miseretur, et quem
+            <lb ed="#Q"/>vult, indurat. Dicit Augustinus, in Glossa5,
+            <lb ed="#Q"/>quod « meritum obdurationis est peccatum totius
+            <lb ed="#Q"/>massae damnatae ». Corruptio ergo originalis pec<lb ed="#Q"/>cati
+            est meritum obdurationis; sed hoc meritum
+            <lb ed="#Q"/>est universaliter in parvulis et adultis; ergo ob<lb ed="#Q"/>duratio
+            est poena consequens universaliter quem<lb ed="#Q"/>libet.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e4224">
+            <lb ed="#Q"/>Contrarium videtur: b. Quoniam si sic, ad quid
+            <lb ed="#Q"/>diceret Dominus, Exod. 4, 21: <quote xml:id="ahsh-l1p1i1t5s2q4t2c5-Qd1e4230" ana="#ex4_21">Ego induravi cor
+            <lb ed="#Q"/>Pharaonis</quote>; item, Deuter. 2,30: <quote xml:id="ahsh-l1p1i1t5s2q4t2c5-Qd1e4235" ana="#deut2_30">Induravit Domi<lb ed="#Q"/>nus
+            spiritum Sehor?</quote>
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t2c5-d1e4242">
+            <lb ed="#Q"/>Solutio: Dicendum quod duplex est obduratio.
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Una est generalis omnium qui ab Adam per con<lb ed="#Q"/>cupiscentiam
+            seminalem descendunt, et haec se<lb ed="#Q"/>quitur
+            peccatum originale, et de hac loquitur
+            <lb ed="#Q"/>Apostolus, Rom. 9,18 et Glossa Augustini,
+            <lb ed="#Q"/>super illum locum. Alia estk specialis, quae, in<lb ed="#Q"/>quam
+            ', est in adultis qui habent voluntatem et
+            <lb ed="#Q"/>propositum resistendi beneficiis Dei provocanti<lb ed="#Q"/>bus
+            ad poenitentiam, et permanent in peccato
+            <lb ed="#Q"/>suo: de hac dicitur quod induravit Dominus cor
+            <lb ed="#Q"/>Pharaonis, « id est indurari permisitö»; haec
+            <lb ed="#Q"/>non est in parvulis, sed in adultis solum qui
+            <lb ed="#Q"/>habent hanc voluntatem et'" haec est peccatum
+            <lb ed="#Q"/>in Spiritum Sanctum. Alia autem " est poena se<lb ed="#Q"/>quens
+            ex originali peccato, et de hac loquitur
+            <lb ed="#Q"/>Augustinus, et haec omnes concomitatur qui
+            <lb ed="#Q"/>sunt ab Adam per concupiscentiam seminalem,
+            <lb ed="#Q"/>ut" dictum est 7.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

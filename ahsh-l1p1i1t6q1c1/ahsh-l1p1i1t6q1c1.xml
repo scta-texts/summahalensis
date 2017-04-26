@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 6, Q. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-25">March 25, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+        <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-25" status="draft" n="0.0.0">
+        <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="360"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t6q1">
+        <head xml:id="ahsh-l1p1i1t6q1c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 6, Q. 1, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t6q1c1-Hd1e3744" type="question-title">UTRUM INTENTIO VOLUNTATIS CONVENIAT DEO</head>
+        <p xml:id="ahsh-l1p1i1t6q1c1-d1e3785">
+          <lb ed="#Q"/>Ad primum arguuntk sic: ]. Bonum et finis
+          <lb ed="#Q"/>A idem 2; unde qui removet naturam finis, remo<lb ed="#Q"/>vet
+          naturam boni; ergo ubi non est ponere finem,
+          <lb ed="#Q"/>nec' bonum ; sed sicut verum est cognitum, ita
+          <lb ed="#Q"/>bonum est volitum; sed in Deo non est ponere
+          <lb ed="#Q"/>finem, quia non habet finem; ergo non est in Deo
+          <lb ed="#Q"/>ponere voluntatem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c1-d1e3803">
+          <lb ed="#Q"/>2. Item, Augustinus, in libro De libero ar<lb ed="#Q"/>bitri03:
+          « Voluntas est rationalis motus sensui
+          <lb ed="#Q"/>praesidens et appetitui»; sed in Deo non est po<lb ed="#Q"/>nere
+          motum nec sensum nec appetitum sensi<lb ed="#Q"/>bilem;
+          ergo nec est ponere ibi'" voluntatem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c1-d1e3816">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Contra: a. Voluntas est vis cognoscens, do<lb ed="#Q"/>mina
+          sui actus 4, super bruta animalia quae mo<lb ed="#Q"/>ventur
+          secundum impetum, et licet habeant sen<lb ed="#Q"/>sitivam
+          cognitivam, non tamen est domina sui
+          <lb ed="#Q"/>actus, quia non possunt prohibere suos actus;
+          <lb ed="#Q"/>sed melior est vis cognoscens et domina sui
+          <lb ed="#Q"/>actus quam natura ignorans nec domina sui actus;
+          <lb ed="#Q"/>sed quod melius est semper est Deo tribuendum ;
+          <lb ed="#Q"/>ergo voluntas estin Deo. — Quod conceden<lb ed="#Q"/>dum
+          est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c1-d1e3842">
+          <lb ed="#Q"/>[Ad obiecta]: 2. Et dicendum " quod est volun<lb ed="#Q"/>tas
+          qua volumus et est voluntas quod" volumus,
+          <pb ed="#Q" n="361"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>licet improprie 1; sed voluntas qua volumus ad<lb ed="#Q"/>huc
+          tripliciter: substantia, virtus, operatio 2. [Vo<lb ed="#Q"/>luntas
+          dicitur operatio] sive motus sivea actus
+          <lb ed="#Q"/>elicitus a potentia, secundum quod dicit Au<lb ed="#Q"/>gustinus3
+          quod «voluntas est rationalis mo<lb ed="#Q"/>tus
+          » etc.; dicitur etiam voluntas virtus sive po<lb ed="#Q"/>.tentia
+          qua volumus; voluntas etiam dicitur sub<lb ed="#Q"/>stantia:
+          et isto ultimo modo dicitur voluntas in
+          <lb ed="#Q"/>Deo, non primo nec secundo modo, ut scilicet sit
+          <lb ed="#Q"/>differens vis vel operatio a substantia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c1-d1e3875">
+          <lb ed="#Q"/>1. Ad illud autemb quod obicit quod 'in
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Deo non est finis, ergo nec bonum nec volun<lb ed="#Q"/>tas
+          ': respondeo quod haec est falsa ' in Deo non
+          <lb ed="#Q"/>est finis ', quia ipse est finis omnium non ha<lb ed="#Q"/>bens
+          finem, sicut est principium omnium non
+          <lb ed="#Q"/>habens principium. Est autem voluntas finis et
+          <lb ed="#Q"/>eorum quae sunt ad finem. Cum ergo dicitur
+          'Deus vult se', significatur voluntas finis, non
+          <lb ed="#Q"/>qui sit alius a se, sed qui sit idem quod ipse;
+          <lb ed="#Q"/>cum dicitur 'Deus vult omnia', dicitur volun<lb ed="#Q"/>tas
+          inlDeo eorum quae sunt ad finem qui est
+          <lb ed="#Q"/>ipse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

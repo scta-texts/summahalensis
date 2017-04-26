@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="219"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q2m2c2">
+        <head xml:id="ahsh-l1p1i1t4q2m2c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 2, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t4q2m2c2-Hd1e3744" type="question-title">AN POTENTIA DIVINA LIMITARI POSSIT EX PARTE BONITATIS ET IUSTITIAE.</head>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3747">
+          <lb ed="#Q"/>Item, arguunt ex parte bonitatis et iustitiae
+          <lb ed="#Q"/>hoc modo: 1. 1. « Non potest Deus nisi' quod
+          <lb ed="#Q"/>bonum et iustum est fieri; non est'" autem bonum
+          <lb ed="#Q"/>et iustum fieri a Deo nisi quod facit, aliter non "
+          <lb ed="#Q"/>iaceret omne quod iustum et bonum est eum fa<lb ed="#Q"/>cere3
+          ». Ergo non potest facere nisi quod facit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3763">
+          <lb ed="#Q"/>2. Item, « non potest facere nisi quod iustitia
+          <lb ed="#Q"/>sua exigit; sed iustitia sua non exigit ut faciat
+          <lb ed="#Q"/>aliud quam facit; ergo non potest facere aliud
+          <lb ed="#Q"/>quam facit4 ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3774">
+          <lb ed="#Q"/>3. Item, non potest Deus facere aut dimittere
+          <lb ed="#Q"/>nisi quod debet; sed non debet facere aut di<lb ed="#Q"/>mittere
+          nisi quod facit aut dimittit; ergo non
+          <lb ed="#Q"/>potest facere nisi quod facit aut dimittit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3786">
+          <lb ed="#Q"/>II. Item, iuxta hoc quaeritur an non possit facere
+          <lb ed="#Q"/>Deus nisi quod iustum est, sive an possit de
+          <lb ed="#Q"/>potentia quod non possit de iustitia 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3795">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Ad quod sic: 1. Galat. 4,15: Si fieri potuisset,
+          <lb ed="#Q"/>oculos vestros eruissetis, et dedissetis mihi. G 1 o s—
+          <lb ed="#Q"/>s a 6: « Non potest fieri quod iuste non " fit». Ergo
+          <lb ed="#Q"/>Deus non potest facere nisi quod iustum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3808">
+          <lb ed="#Q"/>2. Item, si potest aliquid de potentia quod non
+          <lb ed="#Q"/>potest de iustitia: exeat illa potentia in actum,
+          <lb ed="#Q"/>illud ergo aut est iustum aut iniustum. Si est in<lb ed="#Q"/>iustum:
+          ergo potest Deus facere non-iustum; si
+          <lb ed="#Q"/>iustum: ergo solum potest quod iustum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3821">
+          <lb ed="#Q"/>III. Item, iuxta hoc quaeritur, si potest damnare
+          <lb ed="#Q"/>Petrum et salvare Iudam)".
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3828">
+          <lb ed="#Q"/>1 Tim. 2,13: Negare se ipsum non potest.
+          <lb ed="#Q"/>Glossa Augustinisz « Cum sit iustus, non po<lb ed="#Q"/>test
+          negare suam iustitiam ». Unde ita dicit G l 05<lb ed="#Q"/>s
+          a 9: « Quod q se ipsum negare non potest, laus
+          <lb ed="#Q"/>est' voluntatis divinae, sicut quod8 quidam non
+          <lb ed="#Q"/>possunt credere, culpa est voluntatis humanae ».
+          <pb ed="#Q" n="220"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Ex hoc ergo a arguitur quod « laus divinae volun<lb ed="#Q"/>tatisb
+          » erit si non potest Petro negare gloriam
+          <lb ed="#Q"/>nec Iudae poenam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3854">
+          <lb ed="#Q"/>IV. Similiter, iuxta hoc quaeritur de damnatis:
+          <lb ed="#Q"/>si possibilis est eorum liberatio Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3862">
+          <lb ed="#Q"/>a. Nam cum omni damnato iuste debeatur
+          <lb ed="#Q"/>poena aeterna, et iustum est quod unicuique recl<lb ed="#Q"/>datur
+          quod suum est: ergo si liberarentur, in<lb ed="#Q"/>iuste
+          cum eis ageretur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3873">
+          <lb ed="#Q"/>b. Item, ad hoc facit illudï: « In inferno nulla
+          <lb ed="#Q"/>est redemptio»; et Sap. Z,]: Non est agnitus,
+          <lb ed="#Q"/>qui sit reversus ab inferis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3882">
+          <lb ed="#Q"/>Contra: 1. Gen. 19, 22: Non possum quid<lb ed="#Q"/>quam
+          facere, donec exeas. Glossa Augustinizz
+          « Sine dubio poterat per potentiam, sed non po<lb ed="#Q"/>terat
+          per iustitiam», scilicet perdere Loth cum
+          <lb ed="#Q"/>Sodomitis. Ergo potest per potentiam et damnare
+          <lb ed="#Q"/>Petrum et salvare Iudam et quemlibet damnatum,
+          <lb ed="#Q"/>quamvis non possit per iustitiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3898">
+          <lb ed="#Q"/>2. Item, potest Petrum revocare a paradiso ad
+          <lb ed="#Q"/>vitam istam, similiter et Iudam-3 ab inferno. Cum
+          <lb ed="#Q"/>ergo in hac vita possimus et in gratia manere et
+          <lb ed="#Q"/>peccare: ergo posset Petrus finaliter'peccare et
+          <lb ed="#Q"/>Iudas finaliterc in gratia manere; ergo posset
+          <lb ed="#Q"/>damnare Petrum et salvare Iudam, etiam iuste 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3914">
+          <lb ed="#Q"/>3. Item, nonne:e multos revocavit a mortef, et
+          <lb ed="#Q"/>tamen erant iuste damnati4? Relinquitur ergo
+          <lb ed="#Q"/>quod fecit de potentia quod non erat de iustitia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3923">
+          <lb ed="#Q"/>Respondeo I. secundum Hugonem de S. Vic<lb ed="#Q"/>tore5
+          : « Sicut aeternitatem Dei non aequat tem<lb ed="#Q"/>pus,
+          nec immensitatem locus, nec sapientiam sen<lb ed="#Q"/>sus,
+          nec bonitatem-E virtus, sic nec potentiam
+          <lb ed="#Q"/>opus »; excedit enim in infinitum potentia ipsum
+          <lb ed="#Q"/>opus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3940">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum, quod dicith
+          'Deus non potest facere nisi quod bonum et
+          <lb ed="#Q"/>iustum est', distinguendum 5: hoc verbum 'est'
+          <lb ed="#Q"/>potest copulare praesens indeterminatumi sive
+          <lb ed="#Q"/>in habitu, vel praesens ut nunc sive in actu.
+          <lb ed="#Q"/>Primo modo vera est, et est sensus: *Deus non
+          <lb ed="#Q"/>potest facere nisi quod bonum et iustum esset, si
+          <lb ed="#Q"/>faceret '. Secundo modo falsa est, et est sensus:
+          'Deus" non potest facere nisi quod bonum' et
+          <lb ed="#Q"/>iustum est nunc'.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3960">
+          <lb ed="#Q"/>2. Ad secundum'" dicendum quod hoc ver<lb ed="#Q"/>bum
+          'exigere' est proprie verbum exactionis;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>nullum autem verbum exactionis Deo conve<lb ed="#Q"/>nit
+          7; tamen acceptum improprie" significat ali<lb ed="#Q"/>quid
+          Deo congruere. Distinguendum ergo quod
+          <lb ed="#Q"/>cum dicitur: « Deus non potest facere nisi quod
+          <lb ed="#Q"/>iustitia sua exigit », si hoc verbum « exigit» dicat
+          <lb ed="#Q"/>congruentiam in habitu, verum est 0, ut sit sen<lb ed="#Q"/>sus:
+          'non potest facere nisi quod iustitiae eius
+          <lb ed="#Q"/>congrueret, si faceret'; si congruentiam in actu,
+          <lb ed="#Q"/>falsum est, hoc est 'non potest facere nisi quod
+          <lb ed="#Q"/>iustitiae eiusP congruit modo '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e3991">
+          <lb ed="#Q"/>3. Ad tertium dicendum 4 quod verbum tde<lb ed="#Q"/>bendi',
+          cum sit obligationis verbum, proprie non
+          <lb ed="#Q"/>convenit Deo 8; sed sub imprOprietate, secundum
+          <lb ed="#Q"/>quod ' debere ' dicitur ' condecere ' ', distinguen<lb ed="#Q"/>dum
+          ut prius: quia si dicat condecentiam in ha<lb ed="#Q"/>bitu,,
+          verum est; si in actu, falsum est 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e4007">
+          <lb ed="#Q"/>II. Ad illud vero quod obicitt an 'possit
+          <lb ed="#Q"/>de potentia quod non potest de iustitia', distin<lb ed="#Q"/>guendumg:
+          quod iustitia Dei" uno modo con—
+          <lb ed="#Q"/>notat condecentiam divinae bonitatis: et hoc modo
+          <lb ed="#Q"/>quidquid potest de potentia, potest de iustitia,
+          <lb ed="#Q"/>id est de condecentia bonitatis; bonitatem enim
+          <lb ed="#Q"/>summam decet ut possit quidquid posse poten<lb ed="#Q"/>tiae
+          est. Alio modo connotat congruentiam/meri<lb ed="#Q"/>torum:
+          et hoc modo non quidquid potest de po<lb ed="#Q"/>tentia,
+          potest de iustitia, hoc est secundum con<lb ed="#Q"/>gruentiam
+          nostrorum meritorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e4033">
+          <lb ed="#Q"/>1. Ad illud ergo quod obicit quod 'non po<lb ed="#Q"/>test
+          fieri nisi quod iustum est', intelligitur: ' non
+          <lb ed="#Q"/>potest fieri nisi" ordinate '. Unde quamvis homo *
+          <lb ed="#Q"/>dicatur posse de iure et posse de facto, dicitur ta<lb ed="#Q"/>men
+          legaliter: hoc solum possumus quod de iure
+          <lb ed="#Q"/>possumus; tamen in Deo idem est posse de facto
+          <lb ed="#Q"/>et posse de iure, secundum quod ius dicit con<lb ed="#Q"/>decentiam
+          bonitatis divinae. Unde 'iustum tieri'
+          <lb ed="#Q"/>aliter dicitur respectu hominis, aliter respectu Dei:
+          <lb ed="#Q"/>respectu hominis iustum fit, quia iustum est illud
+          <lb ed="#Q"/>quod homo facit; ex parte vero Dei iustum fit,
+          <lb ed="#Q"/>quia Deus faciens est iustus. Inde est quod se<lb ed="#Q"/>quitur:
+          'non potest facere nisi quod iustum est'
+          <lb ed="#Q"/>in sensu praedicto, quod scilicety 'iustum esset,
+          <lb ed="#Q"/>si faceret '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e4068">
+          <lb ed="#Q"/>2. Ad illud quod postea obicit patet responsio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e4074">
+          <lb ed="#Q"/>III. Ad illud vero quod quaerit 'utrum possit
+          <lb ed="#Q"/>damnare Petrum' etc., distinguendum 10 quod po<lb ed="#Q"/>tentia
+          Dei intelligitur dupliciter: uno modo ab-J
+          <lb ed="#Q"/>soluta, alio modo ordinata secundum rationem
+          <pb ed="#Q" n="221"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>divinae praeordinationis iustitiae reddentis unicui<lb ed="#Q"/>que
+          secundum merita. De potentia ergo absoluta
+          <lb ed="#Q"/>posset damnare Petrum et salvare ludam; de po<lb ed="#Q"/>tentia
+          vero ordinata secundum praeordinationem et
+          <lb ed="#Q"/>retributionem secundum merita, non posset ; nec in
+          <lb ed="#Q"/>hoc derogatur eius potentiae, sed ostenditur im<lb ed="#Q"/>mutabilitas
+          ordinis potentiae " secundum praeordi<lb ed="#Q"/>nationem
+          et iustitiam. Similiter dicendum quod
+          <lb ed="#Q"/>posset Petrum revocare ad vitam, et Iudam etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e4109">
+          <lb ed="#Q"/>IV. Ad illud vero quod quaerit de dam<lb ed="#Q"/>natis
+          ", dicendum quod Hugoc, in suis Sen<lb ed="#Q"/>tentiis
+          ', distinguit sic ** : « Iustitiae alia se<lb ed="#Q"/>cundum
+          debitum facientis, alia secundum me—
+          <lb ed="#Q"/>ritum patientisf. lustitia secundum debitum fa<lb ed="#Q"/>cientisg
+          est potestatis; iustitia secundum me<lb ed="#Q"/>ritum
+          patientis est aequitatis». « Sich Deus de
+          <lb ed="#Q"/>massa generis humani quosdam ad salvatio<lb ed="#Q"/>nem
+          assumens, iustitia utitur debitae potestatis;
+          <lb ed="#Q"/>quosdam vero ad perditionem deserens, iustitia
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>
+          utitur licitae aequitatis: illic de debito suo, hic
+          <lb ed="#Q"/>de merito nostro. Si vero quos nunc' ad salva<lb ed="#Q"/>tionem
+          assumit, desereret, iniustitia non esset,
+          <lb ed="#Q"/>quoniam merita suak reciperent secundum iusti<lb ed="#Q"/>tiam
+          aequitatis. Si autem' quos nunc deserit, as—
+          <lb ed="#Q"/>sumeret, similiter iniustitia non esset, quoniam
+          <lb ed="#Q"/>in eorum salvatione uteretur iustitia potestatis ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c2-d1e4151">
+          <lb ed="#Q"/>3. Ad illud vero quod obicit de liberatis per
+          <lb ed="#Q"/>preces sanctorum: dicendum quod de exigentia
+          <lb ed="#Q"/>meritorum propriorum non est possibilis-liberatio,
+          <lb ed="#Q"/>sed de "' exigentia meritorum Ecclesiae aliquorum
+          <lb ed="#Q"/>possibilis iuit liberatio 2. Tamen notandum quod
+          <lb ed="#Q"/>infernus dicitur poena acerbissima et aeterna;
+          <lb ed="#Q"/>nullus ergo addictus " poenae inferni quantum ad
+          <lb ed="#Q"/>aeternitatem, sed addictus poenae inferni quan<lb ed="#Q"/>tum"
+          ad acerbitatem tantum potest liberari, et
+          <lb ed="#Q"/>si non meritis propriis, tamen meritis alienis,
+          <lb ed="#Q"/>sicut acciditP illis qui suscitati sunt ad preces
+          <lb ed="#Q"/>sanctorum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

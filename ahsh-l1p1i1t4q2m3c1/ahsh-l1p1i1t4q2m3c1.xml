@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="222"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q2m3c1">
+        <head xml:id="ahsh-l1p1i1t4q2m3c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 3, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t4q2m3c1-Hd1e3744" type="question-title">UTRUM DEUS POSSIT FACERE RES MELI'ORES QUAM FECERIT GENERALITER</head>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3747">
+          <lb ed="#Q"/>Ceonsequenter quaeritur de perfectione poten<lb ed="#Q"/>tiae 
+          divinae, secundum quam dicitur optime
+          <lb ed="#Q"/>tacere quidquid iacit. Quaeruntur igitur ista:
+          <lb ed="#Q"/>Primo, utrum possit iacere res meliores quam
+          <lb ed="#Q"/>fecerit generaliter;
+          <lb ed="#Q"/>secundo, utrum potuerit meliori modo facere
+          <lb ed="#Q"/>res" quam fecerit ;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>
+          <lb ed="#Q"/>tertio, utrum potuit redemptionem humani ge<lb ed="#Q"/>neris 
+          facere meliori modo; 
+          <lb ed="#Q"/>quarto, utrum Adam potuerit;
+          <lb ed="#Q"/>quinto, utrum Christum potuit;
+          <lb ed="#Q"/>sexto, utrum beatam Virginem;
+          <lb ed="#Q"/>septimo, utrum rerum universitatem.
+        </p>
+        <!-- end prae -->
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3784">
+          <lb ed="#Q"/>d primum arguitur sic: ]. Aut potuit iacere
+          <lb ed="#Q"/>Deus res meliores et non voluit?, aut voluit
+          <lb ed="#Q"/>et non potuit, aut potuit et voluit, aut nec potuit
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>nec voluit. Non est dicere quia potuit et voluit,
+          <lb ed="#Q"/>quia ex hoc sequeretur quod fecit res meliores.
+          <lb ed="#Q"/>Nec est dicere ' potuit, sed non voluit *, quia *? ex
+          <pb ed="#Q" n="223"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>hoc sequeretur quod invidus iuit, sicut arguit
+          <lb ed="#Q"/>Augustinus1 de aeterna generatione. Relin<lb ed="#Q"/>quitur
+          igitur quia aut voluit, sed non potuit, aut 
+          <lb ed="#Q"/>nec potuit nec voluit. Et" quocumque modo di-<lb ed="#Q"/>
+          <lb ed="#Q"/>catur, relinquiturb quod non potuit res meliores
+          <lb ed="#Q"/>facere quam fecit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3822">
+          <lb ed="#Q"/>2. Si vero respondeatur, sicut Magi<lb ed="#Q"/>ster,
+          in Sententiis 2, quod huius similitudinis in<lb ed="#Q"/>ductio
+          non est respectu creaturarum, sed respectu
+          <lb ed="#Q"/>divinarum personarum C, ut in generatione Filii
+          <lb ed="#Q"/>aeterna, ad quam utitur Augustinus3 hac ra<lb ed="#Q"/>tione
+          -contra: Augustinus, Super Genesimt:
+          « Si bona facere non posset, nulla esset potentia;
+          <lb ed="#Q"/>si posset, sed nollet, magna esset invidentia; quia
+          <lb ed="#Q"/>ergo summe potens et summe bonus est, singula
+          <lb ed="#Q"/>fecit valde bona5». Ergo iste modus arguendi
+          <lb ed="#Q"/>tenet in potentia et voluntate respectu creaturarum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3846">
+          <lb ed="#Q"/>3. Item, Dionysius, in libro De divinis no<lb ed="#Q"/>minibus
+          6: « Optimi d est optima adducere ». Ergo,
+          <lb ed="#Q"/>cum Deus sit optimus, adducit res in suo optimo;
+          <lb ed="#Q"/>sed suum adducere est-creare ; ergo creat res in
+          <lb ed="#Q"/>suo optimo; ergo non potest facere meliores.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3859">
+          <lb ed="#Q"/>4. Item, non diceretur aliquid sapientissime fa<lb ed="#Q"/>cere
+          nisie sapientia summaf reluceret in opere;
+          <lb ed="#Q"/>ergo non dicetur similiter optimeg facere, nisi bo<lb ed="#Q"/>nitas
+          summa reluceat in opere creaturae; optimas
+          <lb ed="#Q"/>ergo iecit/1 creaturas; sed quod est optimum non
+          <lb ed="#Q"/>potest fieri melius 7.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3875">
+          <lb ed="#Q"/>Contra: a. Si non potest facere rem meliorem
+          <lb ed="#Q"/>quam fecit, ergo coarctatur eius potentia sive li<lb ed="#Q"/>mitatur
+          ut non possit in bonum amplius quam
+          <lb ed="#Q"/>fecit; quod est falsissimum, sicut dicit Dama<lb ed="#Q"/>scenuss:
+          «Infinitum est quod nec loco nec
+          <lb ed="#Q"/>tempore nec comprehensione clauditur ». Relin<lb ed="#Q"/>quitur
+          igitur quod ipsa sit infinita; ergo potest
+          . facere res meliores quam fecit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3893">
+          <lb ed="#Q"/>b. Item, A ugu stin us, Super Genesim 9: « Ta<lb ed="#Q"/>lem
+          potuit Deus hominem facere, qui nec pec<lb ed="#Q"/>care
+          posset nec vellet». Et si talem fecisset, quis
+          <lb ed="#Q"/>dubitat ipsum non fuisse!" meliorem?
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3904">
+          <lb ed="#Q"/>Respondeo: Concedendum est indistincte quod
+          <lb ed="#Q"/>Deus potuit tacere meliores res quam iecerit.
+          <lb ed="#Q"/>Sed utrum possint fieri meliores quam factae
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>fuerint, distinguendum est/': quia res possumus
+          <lb ed="#Q"/>considerare in se, et secundum hoc quaelibet res
+          <lb ed="#Q"/>potuit fieri melior; vel considerare in rerum uni<lb ed="#Q"/>versitate,
+          et secundum hoc concedendum quod
+          <lb ed="#Q"/>non possunt fieri meliores quantum est de po<lb ed="#Q"/>tentia
+          rei iactae, sed quantum est de potentia'
+          <lb ed="#Q"/>facientis possunt fieri meliores. Unde Hugo de
+          <lb ed="#Q"/>S. Victore 10: « Omne quod fecit Deus melius
+          <lb ed="#Q"/>esse potest, si tamen ipse voluerit qui potest ».
+          <lb ed="#Q"/>In se ergo non potest, sed in Deo potest.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3938">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad illud ergo quod obicit
+          <lb ed="#Q"/>primo: dicendum, secundum Magistrum",
+          <lb ed="#Q"/>quod haec ratio non tenet in creatione, quamvis
+          <lb ed="#Q"/>teneat in aeterna generatione. Et ratio est, quia
+          <lb ed="#Q"/>nunquam potest esse invidia in voluntate alicuius
+          <lb ed="#Q"/>minus faciendo quam facit nisi concurrant ex 
+          <lb ed="#Q"/>parte illius cui'" invide't possibilis aequalitas et
+          <lb ed="#Q"/>quod sit exigentia ut aliter vel melius fiat. Prop<lb ed="#Q"/>terea,
+          impossibile est quod intelligatur invidia re—
+          <lb ed="#Q"/>spectu creaturae in divina voluntate, quia ubi
+          <lb ed="#Q"/>ponitur invidia, semper ponitur respectu possi<lb ed="#Q"/>bilis
+          aequalitatis. Unde Gregorius, in Morali<lb ed="#Q"/>bus":
+          « Superbus omnibus invidet: superioribus ",
+          <lb ed="#Q"/>quia eis non aequatur; paribus, quia ei 0 aequan<lb ed="#Q"/>tur;
+          inferioribus, ne ei aequentur ». Creatura au<lb ed="#Q"/>tem
+          non potest intelligi aequari Creatori, et ideo
+          <lb ed="#Q"/>non poterit intelligi invidia in Creatore. In ae<lb ed="#Q"/>terna
+          vero generatione intelligitur aequalitas Filii
+          <lb ed="#Q"/>ad Patrem, ideo ibi tenet ratio *si posset simi<lb ed="#Q"/>lem
+          generare et nollet, invidus esset '. Item, ratio
+          <lb ed="#Q"/>generationisP perfectae exigit ut producatur si<lb ed="#Q"/>milis
+          et aequalis: et hoc est quia generatio est
+          <lb ed="#Q"/>de substantia; sed ratio creationis non exigit hoc,
+          <lb ed="#Q"/>immo magis quod producatur dissimilis et inae<lb ed="#Q"/>qualis
+          necessario, et cui possit addi in bonitate,
+          <lb ed="#Q"/>quia? creatio est productio de nihilo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e3997">
+          <lb ed="#Q"/>2. Ad illud quod obicitquod Augustinusf,
+          <lb ed="#Q"/>Super Genesim, dicit:: « Si posset et nollet, ma<lb ed="#Q"/>gna
+          esset invidentiaf et ideo fecit valde bona »:
+          <lb ed="#Q"/>dicendum quod loquitur secundum opinionem
+          <lb ed="#Q"/>Platonis 13, qui dicit: « Quia ab optimo" relegata
+          <lb ed="#Q"/>est invidia, ideo dedit unicuique creaturae [tan<lb ed="#Q"/>tum]
+          boni quantum capere potest ». —. Posset ta<lb ed="#Q"/>men 
+          intelligi in illo sensu quo" nos dicimus bo<lb ed="#Q"/>num
+          in creatura dici denominative a summo bono,
+          <lb ed="#Q"/>ut creatura dicitur bona, quia a summo bono et
+          <lb ed="#Q"/>quia ad bonum summum ", 'Valde ergo bonae
+          <lb ed="#Q"/>creaturae' potest intelligi per denominationem a
+          <lb ed="#Q"/>causa vel per * inhaerentiam. Per denominationem,
+          <lb ed="#Q"/>ut quia a bono et ad bonum; si ergo quod di—
+          <lb ed="#Q"/>citur 'vala'e' referatur ad causam, non potest res
+          <lb ed="#Q"/>facere meliores, id est magis bonas, hoc est non
+          <lb ed="#Q"/>potest facere. ut sint a meliori bono vel ad me<lb ed="#Q"/>lius
+          bonum, quia illud est Deus: et in hoc sensu
+          <lb ed="#Q"/>loquitur Augustinus. Per inhaerentiam, ut di—
+          <lb ed="#Q"/>cantur res valde bonae propter bonitatem quae
+          <lb ed="#Q"/>inest eis, ut bonus modus, bona Species, bonus
+          <lb ed="#Q"/>ordo, ut dicit Augustinus': et hoc modo po<lb ed="#Q"/>test
+          Deus res "' tacere meliores, ut sint scilicet in *
+          <lb ed="#Q"/>meliori modo, specie et "ordine, secundum quae
+          <lb ed="#Q"/>tria determinatur bonitas in creatura.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e4054">
+          <lb ed="#Q"/>3. Ad illud vero quodf dicitur « optimi est
+          <lb ed="#Q"/>optima-€ adducere »: dicendum quod optimum di<cb ed="#Q" n="b"/><lb ed="#Q"/>citur 
+          simpliciter et optimum secundum genus et
+          <lb ed="#Q"/>secundum statum et secundum ordinem. Opti<lb ed="#Q"/>mum
+          simpliciter est Deus; optimum secundum
+          <lb ed="#Q"/>genus et statum, ut in genere creaturae et statu
+          <lb ed="#Q"/>conditionis, Christus; optimum in ordine et non
+          <lb ed="#Q"/>simpliciter, rerum universitas. « Optimi ergo est
+          <lb ed="#Q"/>optima adducere », hoc potest intelligi et'. quan<lb ed="#Q"/>tum
+          "ad optimum simpliciter, ut in processione
+          <lb ed="#Q"/>personalii ; et quantum ad optimum in genere et
+          <lb ed="#Q"/>statu conditionis, utk in productione Christi; et
+          <lb ed="#Q"/>quantum ad optimum in ordine, ut in productione
+          <lb ed="#Q"/>universi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c1-d1e4088">
+          <lb ed="#Q"/>4. Ad ultimum dicendum quod creatura po<lb ed="#Q"/>test
+          considerari in se: et hoc modo non relucet
+          <lb ed="#Q"/>in ea summa bonitas; vel potest considerari ut
+          <lb ed="#Q"/>ductiva ad summam bonitatem per hoc quod est
+          <lb ed="#Q"/>vestigium summae bonitatis: et sic in ea relucet
+          <lb ed="#Q"/>summa bonitas, non quia bonitas sua sit summa,
+          <lb ed="#Q"/>sed quia bonitas sua ducit ad summam boni<lb ed="#Q"/>tatem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

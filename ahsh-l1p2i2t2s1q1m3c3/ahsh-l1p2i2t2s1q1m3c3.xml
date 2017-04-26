@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-25">April 25, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-25" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="589"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q1m3c3">
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c3-Hd1e118">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 3</head>
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c3-Hd1e121" type="question-title">AN UNIVOCE DICATUR ' HYPOSTASIS '.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c3-d1e124">
+          <lb ed="#Q"/>Consequenter quaeritur, cum dicitur 'Pater est
+          <lb ed="#Q"/>hypostasis et Filius hypostasis', .utrum di<lb ed="#Q"/>catur
+          hypostasis univoce.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c3-d1e133">
+          <lb ed="#Q"/>1. Nam, cum nihil .sit commune Patri et Filio
+          <lb ed="#Q"/>nisi essentia, cum autem dicitur ' Pater est hyposta<lb ed="#Q"/>sis,
+          Filius est hypostasis', non significatur com<lb ed="#Q"/>mune
+          quodest essentia, relinquitur': quod non
+          <lb ed="#Q"/>praedicatur commune in ratione eiusdem sub<lb ed="#Q"/>stantiae;
+          ergo aequivoce.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c3-d1e149">
+          <lb ed="#Q"/>2. item, si dicatur, sicut supra dictum est in'
+          <lb ed="#Q"/>Quaestione De persona 3, quod cum dicitur 'Pa<lb ed="#Q"/>ter
+          est hypostasis et Filius est'" hypostasis ', quod
+          <lb ed="#Q"/>praedicatur commune respectu vel habitudine,
+          <lb ed="#Q"/>quia per hoc significatur quod sunt supposita
+          <lb ed="#Q"/>essentiae Pater et Filius - contra: nullus est
+          <lb ed="#Q"/>medius respectus" Patris vel Filii ad essentiam,
+          <lb ed="#Q"/>quia Pater ' se-ipso est essentia, similiter Filiust;
+          <lb ed="#Q"/>ergo aequivoce dicetur.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c3-d1e172">
+          <lb ed="#Q"/>Contra: a. Augustinus, VII De Trinitate5:
+          « ideo Pater est persona, Filius est persona, quia
+          <lb ed="#Q"/>commune est illis idP quod est persona ., Ergo
+          <lb ed="#Q"/>persona univoce dicitur. Si ergo eodem modo
+          <lb ed="#Q"/>dicitur hypostasis et persona, hypostasis? uni<lb ed="#Q"/>voce
+          dicetur, cum non sit ibi communitas secun<lb ed="#Q"/>dum
+          nomen tantum, sed etiam secundum rem.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c3-d1e188">
+          <lb ed="#Q"/>Respondeo: Sicut supra dictum est 5, in Deo
+          <lb ed="#Q"/>est duplex communitas, scilicet essentialis et 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>habitudinalis: prima est ex relatione suppositorum
+          <lb ed="#Q"/>ad essentiam, secunda' ad hypostasim sive ad per<lb ed="#Q"/>sonam.
+          Dicendum ergo quod hypostasis non dici<lb ed="#Q"/>tur
+          univoce de personis, scilicet univocatione quae
+          <lb ed="#Q"/>dicitur communitas essentiae ; dicitur tamen uni<lb ed="#Q"/>voce
+          univocatione quae dicitur communitas' ha<lb ed="#Q"/>bitudinis.
+          Unde, proprie loquendo, non dicitur
+          <lb ed="#Q"/>nec aequivoce nec univoce; dicitur tamen quo<lb ed="#Q"/>dam
+          modo univoce, scilicet' secundum quod uni<lb ed="#Q"/>vocatio
+          dicitur uniformis communitas habitudinis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c3-d1e219">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud ergo quod quaeritur
+          <lb ed="#Q"/>an hypostasis dicatur univoce vel aequivoce: di—
+          <lb ed="#Q"/>cendum quod non est sufficiens divisio. Cum enim'
+          <lb ed="#Q"/>dicitur ' substantia est^ ens ' vei ' quantitas est ens'
+          <lb ed="#Q"/>vel 'substantia est universale' vel 'Petrus indi<lb ed="#Q"/>viduum
+          vel Paulus ', in nulla istarum est praedica<lb ed="#Q"/>tio
+          univoca, quia nec praedicatur unum natura, et
+          <lb ed="#Q"/>ita non univocum ', nec diversa natura praedican<lb ed="#Q"/>tur
+          *, et ita nec aequivocum 7, sed id ipsum est in
+          <lb ed="#Q"/>supposito et apposito ' aliter designatum : utrobique
+          <lb ed="#Q"/>enim designatur 'quis'; sed cum dicitur 'Pater',
+          <lb ed="#Q"/>designatur in respectu ad Fiiiumi; cum autem
+          <lb ed="#Q"/>dicitur 'hypostasis ', designatur in respectu ad
+          <lb ed="#Q"/>proprietatem vel essentiam: sunt enim tres hy<lb ed="#Q"/>postases
+          trium proprietatum et tres hypostases
+          <lb ed="#Q"/>unius essentiae.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c3-d1e256">
+          <lb ed="#Q"/>2. Ad Secundum quod quaeritur de respectu
+          <lb ed="#Q"/>qui est in hoc nomine 'hypostasis': respondeo
+          <pb ed="#Q" n="590"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>quod licet ex " parte .rei non sit medius respectus
+          <lb ed="#Q"/>inter Patrem et divinam essentiam, immo se ipso
+          <lb ed="#Q"/>Paterb est divina essentia, tamen cum ista compre<lb ed="#Q"/>henduntur<!--c--> 
+          in intellectu humano, comprehenditur
+          <cb ed="#Q" n="b"/>
+          Pater sub quodam respectu ad essentiam et essentia
+          <lb ed="#Q"/>sub quodam respectu ad Patrem, cum dicitur 'Pater
+          <lb ed="#Q"/>est hypostasis essentiae' et cum dicitur 'essentia
+          <lb ed="#Q"/>commune est Patri et Filio et Spiritui Sancto '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

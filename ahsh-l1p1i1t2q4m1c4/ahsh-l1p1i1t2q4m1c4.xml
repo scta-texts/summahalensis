@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 4, Mem. I, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-17">February 17, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-17" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="88"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q4m1c4">
+        <head xml:id="ahsh-l1p1i1t2q4m1c4-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 4, Mem. I, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t2q4m1c4-Hd1e3732" type="question-title">QUALITER PROBETUR DE DIVINA ESSENTIA AETERNITAS.</head>
+        
+        <p xml:id="ahsh-l1p1i1t2q4m1c4-d1e3735">
+          <lb ed="#Q"/>Sequitur qualiter probetur de divina essentia
+          <lb ed="#Q"/>aeternitas '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m1c4-d1e3742">
+          <lb ed="#Q"/>Arguit autem hoc modo a. Richardus de
+          <lb ed="#Q"/>S. Victore3: «Nihil omnino potest esse a se<lb ed="#Q"/>metipso
+          quod non sit ab aeterno :- quidquid enim
+          <lb ed="#Q"/>ex tempore esses coepit, fuit4 quando non fuit;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sed quamdiu nihil fuit, omnino nihil habuit et om—
+          <lb ed="#Q"/>nino ' nihil potuit; nec sibi ergo " nec alteri esse
+          <lb ed="#Q"/>dedit ». Relinquitur igitur quod, sicut supra dic<lb ed="#Q"/>tum'est5,
+          quod si aliquid est non ex tempore,
+          <lb ed="#Q"/>quod sit aeternum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m1c4-d1e3766">
+          <lb ed="#Q"/>b. Item, omne quod non est aeternum habet esse
+          <lb ed="#Q"/>post non esse, et omne tale exivit de non esse 
+          <pb ed="#Q" n="89"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>in esse; cum ergo nullum increatum habeat esse
+          <lb ed="#Q"/>post non esse, quia sequeretur quod haberet esse
+          <lb ed="#Q"/>per alium per quem educeretur in esse: relin<lb ed="#Q"/>quitur
+          ergo quod omne quod non est aeternum
+          <lb ed="#Q"/>est creatum; a destructione ergo consequentis ',
+          <lb ed="#Q"/>omne increatum est aeternum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m1c4-d1e3791">
+          <lb ed="#Q"/>Sed obicitur 1. de ratione consequentiae qua
+          <lb ed="#Q"/>arguit Richardusz: « Si aliquid esta. a semet<lb ed="#Q"/>ipso,
+          non ab alio, est ab aeterno ». Ad privatio<lb ed="#Q"/>nem
+          ergo principii, posito enteb aliquo tali, se<lb ed="#Q"/>quitur
+          aeternitas; cum 5 ergo de intentione aeter<lb ed="#Q"/>nitatis
+          sit non solum privatio principii substan<lb ed="#Q"/>tialis,
+          sed etiam privatio finis, quare non sequitur:
+          *aliquid est non habens finem, ergo est aeter<lb ed="#Q"/>num',
+          sicut d ' aliquid est non habens principium,
+          <lb ed="#Q"/>ergo est' aetemum*?
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m1c4-d1e3813">
+          <lb ed="#Q"/>2. Item, quaedam sunt quae non habent prin<lb ed="#Q"/>cipium
+          nec finem, sicut Deus; quaedam quae ha<lb ed="#Q"/>bent
+          principium et finem, ut temporalia; quaedam
+          <lb ed="#Q"/>quae habent principium et non finem 3, ut perpetua,
+          .ut substantiae spirituales. Videtur ergo ad com—
+          <lb ed="#Q"/>plementum universi quod sit quarta differentia:
+          <lb ed="#Q"/>eorum quae habent finem, sed non principium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m1c4-d1e3829">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Respondeo: 1. Ad primum, quoniam omne
+          <lb ed="#Q"/>quod non habet principium, nihil habet de non
+          <lb ed="#Q"/>esse in suo esse admixtum; et quia nihil habet
+          <lb ed="#Q"/>de non esse in suoesse admixtum, non est vertibile
+          <lb ed="#Q"/>in non esse et ideo non potest habere finem; et
+          <lb ed="#Q"/>ideo sequitur: si non habet principium, quod non
+          <lb ed="#Q"/>habet finem, et ita quod est aeternum. Ratio igitur
+          <lb ed="#Q"/>consequentiae necessaria est: « si aliquid est a se<lb ed="#Q"/>metipso,
+          quod est ab aeterno ». Ex parte autem
+          <lb ed="#Q"/>alia, cum omne quod habet principium differens
+          <lb ed="#Q"/>in substantia, habeat esse post non esse, verti<lb ed="#Q"/>bile
+          est in non esse et convenit ei non fuisse; et
+          <lb ed="#Q"/>ideo non poterit esse aeternum, quamvis statuatur
+          <lb ed="#Q"/>immutabile ad non esse ex voluntate Creatoris.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m1c4-d1e3864">
+          <lb ed="#Q"/>2. Ad secundum dicendumf quod quarta
+          <lb ed="#Q"/>differentia, scilicet ' non habere principium, sed ha<lb ed="#Q"/>bere
+          finem', est impossibilis, quia aut poneretur
+          <lb ed="#Q"/>creatum aut non creatum. Si ponitur creatum:
+          <lb ed="#Q"/>iam est habens principium et ideo non est ac<lb ed="#Q"/>ternum.
+          Si ponitur non creatum: iam, sicut patet
+          <lb ed="#Q"/>ex dictis 4, cum nihil habeat admixtum de non esse,
+          <lb ed="#Q"/>ergo erit aeternum. Nullo ergo modo poterit ponig
+          <lb ed="#Q"/>illa quarta differentia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, M. 2, C. 1</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="23"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2m2c1">
+        <head xml:id="ahsh-l1tinq2m2c1-Hd1e3732">I, Tract. Intro., Q. 2, M. 2, C. 1</head>
+        <head xml:id="ahsh-l1tinq2m2c1-Hd1e3735" type="questionTitle">UTRUM SIT IN NATURALI POTENTIA COGNOSCERE DEUM AN REQUIRATUR GRATIA SUPERADDITA</head>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3738">
+          <lb ed="#Q"/>Sequuntur quaestiones ex parte cognoscentis. 
+          <lb ed="#Q"/>Et primo quaeritur utrum sit in naturali 
+          <lb ed="#Q"/>potentia cognoscere Deum, an requiratur gratia 
+          <lb ed="#Q"/>superaddita
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3749">
+          <lb ed="#Q"/>Quod autem non sit sufficiens naturalis po<lb ed="#Q"/>tentia: 
+          1. Primo probatur per hoc quod dicitur, 
+          <lb ed="#Q"/>1 Tim. ultimo, 16: Habitat lucem inaccessibllem, 
+          <lb ed="#Q"/>quam nullus hominum ,vidit; Glossa7: « Quia
+          <lb ed="#Q"/>nullus ad eamä accedit ex se, sed cui datur ex
+          <lb ed="#Q"/>dono eius. Quod intelligebat Propheta, dicens 8:
+          <lb ed="#Q"/>Accedite ad eum, et illuminamini. Et ita inacces<lb ed="#Q"/>sibilis
+          est lux illa, quia ipse est quem nullus
+          <lb ed="#Q"/>hominum vidit ex se ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3771">
+          <lb ed="#Q"/>2. Item, Ambrosius, Super Lucam 9, eth re<lb ed="#Q"/>petit 
+          Augustinus, in libro De videndo Deo "':
+          «Non est in potestate nostra videre Deum, sed
+          <lb ed="#Q"/>in potestate illius apparere ». Ex quo sequitur
+          <lb ed="#Q"/>quod non sufficit naturalis potentia ad videndum 
+          <lb ed="#Q"/>Deum, sed requiritur gratia.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3785">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>3. Item, idem in eodem Ambrosius": « Si
+          <lb ed="#Q"/>potestas non est videndi' Deum, est tamen gra<lb ed="#Q"/>tia
+          promerendi ut videre possimus ». Ergo -vi<lb ed="#Q"/>dere
+          Deum est ex gratia, non ex naturali po<lb ed="#Q"/>tentia.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3801">
+          <lb ed="#Q"/>4. Item, Ambrosius, in eodem/'": «Non si<lb ed="#Q"/>militer
+          sensibilia videntur et is in cuius volun<lb ed="#Q"/>tate
+          situm est videri et cuius naturae est non vi<lb ed="#Q"/>deri.
+          Voluntatis Dei est videri ': nam si vult, vi—
+          <lb ed="#Q"/>detur; si non vult, non videtur. Apparuit Deus
+          <lb ed="#Q"/>Abrahae, quia voluit;. aliis non apparuit, quia no<lb ed="#Q"/>luit
+          ». Ex quo relinquitur quod Deus non potest
+          <lb ed="#Q"/>videri per naturalem potentiam solum.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3821">
+          <lb ed="#Q"/>Contra,: a. Rom. 1, 19: and notum est Dei,
+          <lb ed="#Q"/>manifestum est in '" illis. Glo ssa 13: « Ductu ra<lb ed="#Q"/>tionis,
+          quasi dicat: in se habent unde cognoscere
+          <lb ed="#Q"/>possunt quod est noscibile de Deo, scilicet na—
+          <lb ed="#Q"/>turalem rationem ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3834">
+          <lb ed="#Q"/>Respondeo, secundum Hugonem, in suis Sen<lb ed="#Q"/><lb ed="#Q"/>tentiis:
+          « Deus notitiam suam ab homine sic 
+          <pb ed="#Q" n="24"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>ab initio temperavit, ut Sicut nunquam ' quid es<lb ed="#Q"/>set,
+          poterat comprehendi, nunquam 'quia esset'
+          <lb ed="#Q"/>poterat ignorari». Dicendum ergo quod cognitio
+          <lb ed="#Q"/>de Deo 'quia est' potest'haberi per naturalem
+          <lb ed="#Q"/>rationem, sed cognitio (quid est' non '.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3857">
+          <lb ed="#Q"/>Nota igitur quod, cum sit cognitio de re mul<lb ed="#Q"/>tiplex:
+          quia est, quid non est, quid est, qualis
+          <lb ed="#Q"/>est, quanta est, propter quid est, de divina s'ub<lb ed="#Q"/>stantia
+          per naturalem rationem potest haberi co—
+          <lb ed="#Q"/>gnitio in praesenti 'quia est' et 'quid non est'.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3870">
+          *Quia " est', sicut supra dixit Hugo et Io<lb ed="#Q"/>annes
+          Damascenus; iiibro 2': « Ipsa creatiob
+          <lb ed="#Q"/>et permanentia et gubernatio rerum magnitudinem
+          <lb ed="#Q"/>divinae praedicant" naturae.; unde omnibus co<lb ed="#Q"/>gnitio
+          existendi Deum naturaliter inserta est».
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3882">
+          <lb ed="#Q"/>Item, 'quid non est', secundum quod dicit lo<lb ed="#Q"/>annes
+          Damascenus3: «intt Deo 'quid est'
+          <lb ed="#Q"/>impossibile est dicere secundum substantiam; ta<lb ed="#Q"/>miliarius
+          autem est magis ex omni ablatione fa<cb ed="#Q" n="b"/><lb ed="#Q"/>cere 
+          rationem :, nihil enim est eorum quae sunt;
+          <lb ed="#Q"/>unde non est ens, sed super omnia ens'i ». ,
+          <lb ed="#Q"/>Cognitio vero (quid est.' et ,'qualis est' — quid *
+          <lb ed="#Q"/>est secundum substantiam, qualis f, et liceat
+          <lb ed="#Q"/>ita loqui, secundum personalem proprietatem — *
+          <lb ed="#Q"/>non potest!? haberi per naturalem rationem; sed
+          <lb ed="#Q"/>imperfecte et in aenigmate habetur per gratiam,
+          <lb ed="#Q"/>perfecte vero et secundum speciem per gloriam.
+          <lb ed="#Q"/>Unde Ioannes Damascenus5: « Quid est
+          <lb ed="#Q"/>Dei substantia et qualiter Deus ex Deo genitus ?
+          <lb ed="#Q"/>est ignoramus et dicere-non possumus».
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c1-d1e3918">
+          <lb ed="#Q"/>Cognitio qua cognoscitur per potentiam -' quan—
+          <lb ed="#Q"/>tus est'" propria est ipsius Dei et excedit om<lb ed="#Q"/>nem
+          cognitionem creaturae. Unde et de cognitione
+          'quantus est', quae pertinet ad eius immensita<lb ed="#Q"/>tem,
+          dixit Ambrosius 5: « Plenitudinem divini—
+          <lb ed="#Q"/>tatis eius nemo mente aut oculis comprehendit»;
+          <lb ed="#Q"/>et B. Gregorius, super Iob 7: « Eius essentia a
+          <lb ed="#Q"/>nullo plene videbitur».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

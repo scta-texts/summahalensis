@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 4, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="239"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q4c1">
+        <head xml:id="ahsh-l1p1i1t4q4c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 4, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t4q4c1-Hd1e3744" type="question-title">UTRUM A DIVINA POTENTIA FLUXERIT POTENTIA RECEPTIVA.</head>
+        <p xml:id="ahsh-l1p1i1t4q4c1-d1e3747">
+          <pb ed="#Q" n="239"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Quantum ad primum arguitur sic": a. Cum
+          <lb ed="#Q"/>Q omnis natura sit a Deo, sicut clamant om<lb ed="#Q"/>nes
+          Scripturae ', potentia autem passiva sive
+          <lb ed="#Q"/>receptivab est in natura materiae; ergo est
+          <lb ed="#Q"/>a Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q4c1-d1e3765">
+          <lb ed="#Q"/>b. Item, quod materia est et quod potest reci<lb ed="#Q"/>pere
+          formam *, totum est a Deo; ergo potentia
+          <lb ed="#Q"/>receptiva est a Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q4c1-d1e3774">
+          <lb ed="#Q"/>Contra: 1. Quidquid est a d Deo exemplar habet
+          <lb ed="#Q"/>ine ipso; sed potentia receptiva exemplar non
+          <lb ed="#Q"/>habet in Deo, quia nihil est receptivumf in ipso;
+          <lb ed="#Q"/>ergo potentia receptiva non est a Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q4c1-d1e3786">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Solutio: Dicendum quod potentia receptiva duo
+          <lb ed="#Q"/>importat, scilicet capabilitatemg et indigentiam.
+          <lb ed="#Q"/>Ratione- indigentiae non «est ah Deo, nec'habet
+          <lb ed="#Q"/>exemplar in ipso; sed ratione capabilitatis, qua
+          <lb ed="#Q"/>scilicet continet hanc formam vel illam, a Deo
+          <lb ed="#Q"/>est et in ipso exemplar habet, cum ipsius Dei sit
+          <lb ed="#Q"/>continere omnia, sicut materiae vel potentiae for<lb ed="#Q"/>mas.
+          Tamen aliter et aliter dicitur Deus conti<lb ed="#Q"/>nere
+          omnia'" et materia formas: nam Deus con<lb ed="#Q"/>tinet
+          omnia2 conservans et nullo indigens; ma<lb ed="#Q"/>teria
+          continet formam, tamquam ab ipsa comple<lb ed="#Q"/>tum
+          esse et perfectionem recipiens.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 4, Mem. II, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="91"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q4m2c3">
+        <head xml:id="ahsh-l1p1i1t2q4m2c3-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 4, Mem. II, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t2q4m2c3-Hd1e3732" type="question-title">DE UNITATE AETERNITATIS.</head>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3735">
+          <lb ed="#Q"/>Deinde quaeritur de unitate sive simplicitate 
+          <lb ed="#Q"/>aeternitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3742">
+          <lb ed="#Q"/>Ad quod arguit a. Anselmus, in Proslogion 8,
+          <lb ed="#Q"/>sic' : «Quidquid partibus est iunctum non est
+          <lb ed="#Q"/>omnino unum, sed quodam modo plura, et diver<lb ed="#Q"/>sum
+          a se ipso, et vel actu vel intellectu potest dis<lb ed="#Q"/>solvi:
+          quae aliena sunt a te, quo nihil melius co<lb ed="#Q"/>gitari
+          potest 9. Nullae ergo partes sunt in te, Do<lb ed="#Q"/>inine,
+          nec es plura, sed sic unum et idem tibi
+          <lb ed="#Q"/>ipSi ut in nullo tibi ipsi'" sis dissimilis; immo 
+          <lb ed="#Q"/>tu es unitas, nullo intellectu divisibilis. Quoniam 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>ergo tu es tua aeternitas, nunquam aeternitas est
+          <lb ed="#Q"/>pars tua aut est pars aeternitatis tuae ». Ex hoc
+          <lb ed="#Q"/>ergo aperte relinquitur quod nullo modo potest
+          <lb ed="#Q"/>intelligi nisi unitas in aeternitate et simplicitas.
+          <lb ed="#Q"/>Contra: l. Dan. 12,3: Qui ad iustitiam eru<lb ed="#Q"/>diunt
+           multos, fulgebunt quasi stellae in perpetuas
+          <lb ed="#Q"/>aeternitates ; sed hoc nihil esset dictum, nisi ae<lb ed="#Q"/>ternitas
+           aliquo modo reciperet multiplicationem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3784">
+          <lb ed="#Q"/>2. Item, in Psalmo "': Annos aeternos in mente
+          <lb ed="#Q"/>habui. Ex quo videtur quod in aeternitate con<lb ed="#Q"/>tingat
+          intelligere partem et partem secundum ra<lb ed="#Q"/>tionem 
+          annorum et dierum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3796">
+          <pb ed="#Q" n="92"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>3. Item, plures dicuntur ideae ab aeterno sive
+          <lb ed="#Q"/>rationes rerum; pluralitas ergo aliqua est ab ae<lb ed="#Q"/>terno,
+          cum dicat Augustinus quod « ideae sunt
+          <lb ed="#Q"/>rationes rerum " stabiles, quae divina intelligentia
+          <lb ed="#Q"/>continentur», in 83 Quaestion. '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3814">
+          <lb ed="#Q"/>4. Item, cum divina intelligentia non sit aliud
+          <lb ed="#Q"/>quam divina aeternitas, si pluralitas aliqua po<lb ed="#Q"/>nitur
+          in divina intelligentia, scilicet idearum, ergo
+          <lb ed="#Q"/>et pluralitas aliqua ponetur in aeternitate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3825">
+          <lb ed="#Q"/>5. Item, Mich. 5,2 loquens de generatione Filii:
+          <lb ed="#Q"/>Egressus eius sicut a principio a diebus aeternita<lb ed="#Q"/>tis.
+          Ergo in aeternitate sunt dies et dies; aeternitas 0
+          <lb ed="#Q"/>igitur plurificatur. —- Si vero diceretur quod di<lb ed="#Q"/>cantur
+          plures dies propter plures respectus ad crea<lb ed="#Q"/>turas,
+          quemadmodum responderi posset de plurali<lb ed="#Q"/>tate
+          idearum - contra: loquitur de generatione Fi<lb ed="#Q"/>lii,
+          quaec nullum ponit respectum ad creaturam;
+          <lb ed="#Q"/>non ergo dicentur plures dies pr0pter plures res<lb ed="#Q"/>pectus
+          ad creaturas, sicut dicuntur plures ideae
+          <lb ed="#Q"/>propter plures respectus rerum quarum sunt ideae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3851">
+          <lb ed="#Q"/>Respondeo, secundum A n s el m u m, in Proslo<lb ed="#Q"/>gion
+          2: « Sicut saeculum temporum continet omnia
+          <lb ed="#Q"/>temporalia, sic tua aeternitas continet ipsa saecula
+          <lb ed="#Q"/>temporum, quae " 'saeculum' est propter indivisi<lb ed="#Q"/>bilem
+          unitatem 2, 'saecula' vero propter intermina<lb ed="#Q"/>bilem
+          immensitatem ,. Vult ergo dicere quia sicut
+          <lb ed="#Q"/>saeculum praesens, quod est in serie temporis, con<lb ed="#Q"/>tinet
+          omnia temporalia, sic ipsa aeternitas divina
+          <lb ed="#Q"/>virtualiter excedit et continet ipsa saecula, quia ante
+          <lb ed="#Q"/>ipsa est et ultra ipsa est et cum ipsis est eof modo
+          <lb ed="#Q"/>quo supra dictum est 3. Secundum hoc ergo dicen<lb ed="#Q"/>dum
+          quod aeternitas est unitas secundum rem nullo
+          <lb ed="#Q"/>modo divisibilis; tamen pluraliter dicitur propter
+          <lb ed="#Q"/>virtutem infinitam continendi omnia durabilia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3884">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud ergo quod primo
+          <lb ed="#Q"/>obicit dicendum quod aeternitatesf dicitur plura<lb ed="#Q"/>liter,
+          non quia ipsa aeternitas plurificetur in se,
+          <lb ed="#Q"/>sed propter diversas participationes aeternitatis
+          <lb ed="#Q"/>ex parte creaturae vel propter virtutem conti<lb ed="#Q"/>nendi
+          multiplicem in effectu, prout dictum est 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3900">
+          <lb ed="#Q"/>2. Et hoc modo patet responsio ad secun<lb ed="#Q"/>dum, 
+          nam in hac ratione dicuntur 'anni aeterni '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3908">
+          <lb ed="#Q"/>3. Ad illud vero quod obicit de pluralitate
+          <lb ed="#Q"/>idearum, intelligendumh quod dicuntur'" plures
+          <lb ed="#Q"/>ideae et una, et plures rationes et una ratio. Re<lb ed="#Q"/>spiciendo
+          enim ad principale significatum, quod
+          <lb ed="#Q"/>est divina essentia, una est idea et ratio k, et una
+          <lb ed="#Q"/>dicitur; respiciendo vero ad connotatum respec<lb ed="#Q"/>tum
+          ad creaturam, una est idea et ratio, sed ta<lb ed="#Q"/>men
+          pluraliter' dicitur, non quia plura sit vel
+          <lb ed="#Q"/>intelligatur in rectitudine, sed plurium vel ad
+          <lb ed="#Q"/>plura in obliquitate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3932">
+          4. Ad illud vero quod obicit consequenter
+          <lb ed="#Q"/>quod ' si '" pluralitas est in divina intelligentia, et
+          <lb ed="#Q"/>in aeternitate ': dicendum quod non sequitur; nam
+          <lb ed="#Q"/>etsi idem sit utrobique significatum, non tamen
+          <lb ed="#Q"/>idem modus significandi est, cum dicitur divina
+          <lb ed="#Q"/>intelligentia, essentia et aeternitas. Cum enim di<lb ed="#Q"/>citur
+          ' intelligentia ', modus significandi non exclu<lb ed="#Q"/>dit
+          respectum pluralitatis, sed" cum dicitur 'ae<lb ed="#Q"/>ternitas
+          ', sicut dicit Anselmus5, «nihil aliud
+          <lb ed="#Q"/>est quam eius essentia immutabilis et sine par<lb ed="#Q"/>tibus»;
+          quod repugnat pluralitati diversitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m2c3-d1e3956">
+          <lb ed="#Q"/>5. Ad ultimum dicendum quod cum dicitur: 
+          <lb ed="#Q"/>Egressus Filii a diebus aeternitatis", per 'dies ae<lb ed="#Q"/>ternitatis
+          ' supponitur Pater, cui appropriatur ae<lb ed="#Q"/>ternitas,
+          quae virtualiter continet plures dies, ut
+          <lb ed="#Q"/>sit sensus: ' et egreditur ab illo cui appropriatur
+          <lb ed="#Q"/>aeternitas, habens virtutem plurium dierum '; ae<lb ed="#Q"/>ternitas
+          enim appropriatur Patri, sicut sapientia Fi<lb ed="#Q"/>lio,
+          bonitas Spiritui Sancto 5. - Ad illud quod
+          <lb ed="#Q"/>obiciturP quod 'videtur plurificari aeternitas 4,
+          <lb ed="#Q"/>quia plures dies': dicendum quod, licet idem sit
+          'dies aeternitatis' quod 'aetemitas' secundum
+          <lb ed="#Q"/>rem, differt tamen secundum rationem, quia 'dies '
+          <lb ed="#Q"/>secundum suam rationem non dicit totum cui non
+          <lb ed="#Q"/>sit possibilis additio, similiter nec 'annus'; sed
+          'aeternitas' dicit totum et perfectum cui non est
+          <lb ed="#Q"/>possibilis additio; et ideo non sequitur: si plures
+          <lb ed="#Q"/>dies vel anni, quod plures aeternitates.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

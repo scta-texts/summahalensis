@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 1, Tract. 1, Q. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-14">April 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-14" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="494"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i1t1q1c2">
+        <head xml:id="ahsh-l1p2i1t1q1c2-Hd1e118">I, P. 2, Inq. 1, Tract. 1, Q. 1, C. 2</head>
+        <head xml:id="ahsh-l1p2i1t1q1c2-Hd1e121" type="question-title">QUOMODO DEUS SIT NOMINABILIS.</head>
+        <p xml:id="ahsh-l1p2i1t1q1c2-d1e124">
+          <lb ed="#Q"/>Consequenter quaeritur quomodo Deus sit no<lb ed="#Q"/>minabilis
+          <lb ed="#Q"/>Et quaeruntur duo:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Primo, si Deus sit-!! nominabilis absque com<lb ed="#Q"/>paratione
+          ad creaturam; 
+          <lb ed="#Q"/>secundo, utrum sith nominabilis proprie vel
+          <lb ed="#Q"/>improprie.
+        </p>
+        <div xml:id="ahsh-l1p2i1t1q1c2-Dd1e144" type="articulus">
+          <head xml:id="ahsh-l1p2i1t1q1c2-Hd1e146">ARTICULUS I</head>
+          <head xml:id="ahsh-l1p2i1t1q1c2-Hd1e149" type="question-title">Utrum Deus sit nominabilis absque comparatione ad creaturam</head>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e152">
+            <lb ed="#Q"/>Ad primum obicitur sic: 0. Per regulam quae
+            <lb ed="#Q"/>habetur in libro De regulis fidei-**: « Omne [no<lb ed="#Q"/>men]i
+            Deo conveniens convenit ei vel causative vel
+            <lb ed="#Q"/>similitudinarie vel adiunctive vel negative; Causa<lb ed="#Q"/>tive,
+            sicut ea quae de Deo "dicuntur per causam, ut
+            <lb ed="#Q"/>iustus, pius vel fortis; similitudinarie, sicut ea
+            <lb ed="#Q"/>quae per similitudinem, ut Pater, Filius, splendor,
+            <lb ed="#Q"/>imago; adiunctive, sicut ea quae dicuntur de Deo
+            <lb ed="#Q"/>ratione adiuncti, ut cum dicitur Deus irasci, ra<lb ed="#Q"/>tione
+            adiuncti scilicet punitionis, similiter et poe<lb ed="#Q"/>nitere,
+            .ratione adiuncti scilicet mutationis: solet
+            <lb ed="#Q"/>enim adiungi irae punitio et poenitentiae operis
+            <lb ed="#Q"/>mutatio, ideo dicitur Deus irasci cum punit, poe<lb ed="#Q"/>nitere
+            cum opus mutat; negative vero, sicut di<lb ed="#Q"/>citur
+            Deus indurare aliquem vel subtrahere gra<lb ed="#Q"/>tiam
+            alicui: indurare enim dictum de Deo idem
+            <lb ed="#Q"/>estk quod gratiam non apponere; unde Au gu<lb ed="#Q"/>stinus
+            4: Dicitur Deus indurasse cor Pharaonis,
+            " non impartiendo malitiam, sed non apponendo
+            <lb ed="#Q"/>gratiam"; subtrahere vero gratiam' idem est
+            <lb ed="#Q"/>quod non conservare gratiam vel'" non conti<lb ed="#Q"/>nuare
+            ». Cum ergo nullum nomen conveniat nisi
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>secundum hos modos et omnes isti modi di<lb ed="#Q"/>cantur'l
+            in comparatione ad creaturam, ergo nul<lb ed="#Q"/>lum
+            nomen Deo convenit nisi in comparatione
+            <lb ed="#Q"/>ad creaturam.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e211">
+            <lb ed="#Q"/>b. Item, non intelligitur nisi in comparatione
+            <lb ed="#Q"/>ad creaturam"; ergo nec nominatur nisi in com<lb ed="#Q"/>paratione
+            ad creaturamP, quia sicut intelligitur,
+            <lb ed="#Q"/>sic nominatur.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e222">
+            <lb ed="#Q"/>Contra: 1. Hoc nomenq 'essentia' et hoc.no<lb ed="#Q"/>men
+            'qui est'5 nominant Deum et tamen nul<lb ed="#Q"/>lam
+            dicunt comparationem ad creaturam.; non
+            <lb ed="#Q"/>igitur omne nomen Deo conveniens dicitur in re<lb ed="#Q"/>lationer
+            ad creaturam.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e236">
+            <lb ed="#Q"/>Respondeo, secundum illam regulam in libro
+            <lb ed="#Q"/>De regulis fideiöz « Omne simplex alio est eis
+            <lb ed="#Q"/>alio dicitur esse, quia sua propria essentia. est;
+            <lb ed="#Q"/>dicitur autem, hoc est' nominatur, a suo effectu
+            <lb ed="#Q"/>quem habet. Unde iustus dicitur", quia iacitiu<lb ed="#Q"/>stum
+            », et bonus, quia iacit" bonum, et huius<lb ed="#Q"/>modi.
+            Undex Dionysius, in libro? De divinis
+            <lb ed="#Q"/>nominibus 7: « Ex omnium existentium ordinatione
+            <lb ed="#Q"/>praetentaz et imagines quasdam et similitudines
+            <pb ed="#Q" n="495"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>divinorum paradigmatum habente, id est tor<lb ed="#Q"/>marum
+            exemplarium, quae sunt in mente di<lb ed="#Q"/>vina,
+            in summum via omnium et ordine seeun<lb ed="#Q"/>dum
+            virtutem ' redeundum est omnium oblatione
+            <lb ed="#Q"/>et eminentia et omnium causa: proinde ex om<lb ed="#Q"/>nibus
+            cognoscitur et in omnibus ., Et tangit in'<lb ed="#Q"/>piicem
+            modum intelligendi sive nominandi Deum:
+            <lb ed="#Q"/>ablatione, eminentia et causa. Unus enim modus
+            <lb ed="#Q"/>est per ablationem sive abnegationem, sicut cum
+            <lb ed="#Q"/>dicitur aeternus, immensus: et hic modus est a
+            <lb ed="#Q"/>comparatione divini esse ad creaturam secundum
+            <lb ed="#Q"/>differentiam; alius modus per eminentiam, sicut
+            <lb ed="#Q"/>cum dicitur superexistens, optimus et huius<lb ed="#Q"/>modi:
+            et hic modus est a" comparatione divini
+            <lb ed="#Q"/>esse ad creaturam secundum convenientiam quae
+            <lb ed="#Q"/>est per proportionem, secundum communem '
+            <lb ed="#Q"/>animi conceptionem 'optimum in unoquoque est
+            <lb ed="#Q"/>Deo tribuendum '; tertius modus est per causam,
+            <lb ed="#Q"/>sicut cum dicitur 'Deus', quod imponitur ab
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>operatione, sicut dicit Damascenus ', potens,
+            <lb ed="#Q"/>sapiens et huiusmodi: et" hoc sumitur ex compa<lb ed="#Q"/>ratione
+            divini esse ad creaturam secundum com<lb ed="#Q"/>parationem
+            quae est effectus ad causam.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e314">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Ad hoc autem quod obicitur
+            <lb ed="#Q"/>de hoc nomine 'qui est', dicunt quod etiam hoc
+            <lb ed="#Q"/>nomen nominat in comparatione ad creaturam,
+            <lb ed="#Q"/>et hoc secundum differentiam. Unde Hierony<lb ed="#Q"/>mus,
+            Ad Marcellam * scribens, ait: . Deus solus
+            <lb ed="#Q"/>qui exordium non habet, vere essentiae nornen
+            <lb ed="#Q"/>tenuit, quia in eius comparatione quivere est,
+            <lb ed="#Q"/>quia incommutabilis est, quasi non vere sunt
+            <lb ed="#Q"/>quae mutabilia sunt ., Tamen dicendum quod
+            <lb ed="#Q"/>hoc nomen ' qui est', quantum ad illud quod
+            <lb ed="#Q"/>nominat, nominat absolutum absque comparatione
+            <lb ed="#Q"/>ad creaturam : significat enim ' ens se ipso '; quan<lb ed="#Q"/>tum
+            vero ad nominantem, qui non accipit rationem
+            'ens se ipso' nisi per 'ens ab alio ', quod est crea<lb ed="#Q"/>tura,
+            nominatur in comparatione ad creaturam 3.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i1t1q1c2-Dd1e348" type="articulus">
+          <head xml:id="ahsh-l1p2i1t1q1c2-Hd1e350">ARTICULUS II</head>
+          <head xml:id="ahsh-l1p2i1t1q1c2-Hd1e353" type="question-title">Utrum Deus sit nominabilis proprie.</head>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e356">
+            <lb ed="#Q"/>Consequenter quaeritur utrum Deus possit no<lb ed="#Q"/>minari 
+            proprie.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e363">
+            <lb ed="#Q"/>Ad quod sic: 1. Per regulam in libro De regulis
+            <lb ed="#Q"/>fidei-": « Omne simplex proprie est et improprie '
+            <lb ed="#Q"/>dicitur esse -. Cum ergo Deus simplex sit, non
+            <lb ed="#Q"/>dicitur nisi improprie.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e374">
+            <lb ed="#Q"/>2. Item, non dicitur nisi quod intelligituro; sed
+            <lb ed="#Q"/>non intelligitur nisi in similitudine, quae est vestigii
+            <lb ed="#Q"/>sive imaginis Dei in creatura; ergo non nominatur
+            <lb ed="#Q"/>nisi per similitudinem acceptam a creatura.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e386">
+            <lb ed="#Q"/>3. item, non nominatur Deus nisi symbolice vel
+            <lb ed="#Q"/>mystica Theologia; symbolica autem Theologia!
+            <lb ed="#Q"/>nominat Deum «per creaturas exteriores'-, ut
+            <lb ed="#Q"/>perl solem, ignem, lucem et huiusmodi, « mystica
+            <lb ed="#Q"/>vero nominat per interiores », scilicet spirituales,
+            « et occultas »; ergo nullus modus nominandi
+            <lb ed="#Q"/>Deum est nisi per creaturas vel similitudines
+            <lb ed="#Q"/>creaturarum; ergo non nominatur nisi translative.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e404">
+            <lb ed="#Q"/>4. item, Dionysius, in"[ Hierarchia ange<lb ed="#Q"/>lica":
+            - Non est possibile animo nostro ad' non
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>materialem'f ascendere caelestium hierarchiarum
+            <lb ed="#Q"/>contemplationem nisi ea, quae secundum ipsum
+            <lb ed="#Q"/>est, manuductione utatur :, et hoc per similitudi<lb ed="#Q"/>nes
+            creaturarum. Ergo multo magis non potest
+            <lb ed="#Q"/>animus noster ascendere ad contemplationem 'Dei
+            <lb ed="#Q"/>nisi per similitudinem creaturarum; sed sicut in<lb ed="#Q"/>telligimus,
+            ita etiam significamus; ergo non potest
+            <lb ed="#Q"/>significare divina nisi per similitudinem creatu<lb ed="#Q"/>rarum;
+            ergo transumptive; ergo improprie.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e433">
+            <lb ed="#Q"/>Contra: a. Augustinus, in V De Trinitate9:
+            « ille qui dixit Moysi m: Ego sum, qui sum,- haec
+            <lb ed="#Q"/>dices filiis Israel ': qui est misit me ad vos, vere
+            <lb ed="#Q"/>ac proprie dicitur essentia ,, cuius essentia non
+            <lb ed="#Q"/>novit praeteritum aut futurum. Ergo hoc nomen
+            * essentia' et ' qui est' proprie dicitur de Deo.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e444">
+            <lb ed="#Q"/>b. item, loannes Damascenus, i" libro ":
+            « Sciendum est" quod non a nobis translatum" est
+            <lb ed="#Q"/>ad beatam deitatem paternitatis et tiliationis et
+            <lb ed="#Q"/>processionis nomen: e contrario enim nobis' tra<lb ed="#Q"/>ditum
+            est, ut ait divinus ' Apostolus ": Propterea
+            <lb ed="#Q"/>flecto genua ad Deum et Patrem ", ex quo omnis
+            <pb ed="#Q" n="496"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>paternitas in caelo et in terra nominatur ». Ergo
+            <lb ed="#Q"/>haec nomina, Pater et Filius et Spiritus Sanctus,
+            <lb ed="#Q"/>non dicuntur translative de Deo, sed proprie.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e468">
+            <lb ed="#Q"/>c. Item, Ambrosius, II libroDe Trinitatelz
+            « Sunt quaedam nomina quae proprietatem dei—
+            <lb ed="#Q"/>tatis ostendunt, ut generatio, Verbum, Filius et
+            <lb ed="#Q"/>huiusmodi; quaedam veroa sunt quae divinae
+            <lb ed="#Q"/>maiestatis exprimunt unitatem, ut sapientia, vir<lb ed="#Q"/>tus,
+            veritas et huiusmodi; quaedam vero alia sunt
+            <lb ed="#Q"/>quae per similitudinem de Deo translative di<lb ed="#Q"/>cuntur,
+            ut splendor, caracter, speculum et huius<lb ed="#Q"/>modi
+            ». Relinquitur ergo quod non omnia-nomina
+            <lb ed="#Q"/>dicuntur imprOprie sive translative deb Deo.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e490">
+            <lb ed="#Q"/>Respondeo: Est significare deDeo * ' quia est '
+            <lb ed="#Q"/>et est significare de Deo" *quid est". Nomen
+            <lb ed="#Q"/>significans de Deo 'quia est' dicitur prcprie,
+            <lb ed="#Q"/>sicut est hoc nomen ' qui est ' '-' et ' essentia '; no<lb ed="#Q"/>mina
+            vero quae significant de Deo 'quid est' 
+            <lb ed="#Q"/>uno modo dicuntur proprie, alio modo improprie. 
+            <lb ed="#Q"/>Quaedam enim sunt quae de Deof semper di<lb ed="#Q"/>cuntur
+            improprie, quemadmodum illa quae di<lb ed="#Q"/>cuntur
+            secundum modum corporalem, et univer<lb ed="#Q"/>saliter
+            omnia 'illa quae significant speciem in
+            <lb ed="#Q"/>materia et imperfectionem, ut ignis et leo 5, splen<lb ed="#Q"/>dor
+            et huiusmodi: et haec dicuntur per transla<lb ed="#Q"/>tionem
+            3. Quaedam --vero sunt quae uno modo di<lb ed="#Q"/>cuntur
+            proprie, alio modo improprie, id est per 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>translationem, ut universaliter omnia illa quae
+            <lb ed="#Q"/>significant speciem non in materia et perfectio<lb ed="#Q"/>nem'l
+            naturae vel virtutis et operationis, ut sa"<lb ed="#Q"/>pientia,
+            virtus," veritas et huiusmodi. Dupliciteri
+            <lb ed="#Q"/>enim est via intelligendi, ad quamk consequitur
+            <lb ed="#Q"/>ratio dicendi: una est, cum intellectus procedit
+            <lb ed="#Q"/>ab effectibus ad causam cognoscendam, ut per
+            <lb ed="#Q"/>ea quae facta sunt proceditl ad cognoscendam
+            <lb ed="#Q"/>virtutem'sempitemam'" et per illam cognoscit"
+            <lb ed="#Q"/>divinitatis substantiam, sicut dicitur Rom. 1,20;
+            <lb ed="#Q"/>et in hac via si. accipiatur-ratio nominandi sive
+            <lb ed="#Q"/>dicendi, transumit nomina effectuum "ad signifi<lb ed="#Q"/>candam
+            causam ", ut nomen sapientiae ad signi<lb ed="#Q"/>ficandum
+            Dei notitiam, et nomen bonitatis; quod
+            <lb ed="#Q"/>similiter invenitP .in creatura, ad significandum
+            <lb ed="#Q"/>Dei bonitatemq- et sic- de. aliis; ita etiam nomen
+            <lb ed="#Q"/>paternitatis et filiationis. Via vero' alia est, 'cum
+            <lb ed="#Q"/>intellectus procedit a causa ad effectus; unde
+            <lb ed="#Q"/>tunc illa nomina, ,quae significant 'speciemsine
+            <lb ed="#Q"/>materia vel perfectionem naturae, verius attribuit
+            <lb ed="#Q"/>ipsi causae quam ipsis effectibus. Unde secun<lb ed="#Q"/>dum
+            -hanc viam in Deo dicetur bonitas proprie
+            <lb ed="#Q"/>et8 veritas et huiusmodi; et multo magis pro<lb ed="#Q"/>prie
+            '-quam de creatura, quia ibi est * bonitas
+            <lb ed="#Q"/>et veritas et potentia per essentiam, in creatura
+            <lb ed="#Q"/>vero per participationem. '
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q1c2-d1e582">
+            <lb ed="#Q"/>Et per hoc patet solutio ad obiecta.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

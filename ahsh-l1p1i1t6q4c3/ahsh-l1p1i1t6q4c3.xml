@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 6, Q. 4, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-29">March 29, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="404"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t6q4c3">
+        <head xml:id="ahsh-l1p1i1t6q4c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 6, Q. 4, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t6q4c3-Hd1e3744" type="question-title">UTRUM MALA EXPEDIANT</head>
+        
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3747">
+          <lb ed="#Q"/>Tertio quaeritur utrum mala expediant.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3752">
+          <lb ed="#Q"/>Ad quod sic: a. Augustinus, XI De civitate
+          <lb ed="#Q"/>Dei 1: « Deus malis hominum voluntatibus utitur
+          <lb ed="#Q"/>bene; nec enim aliquem malorum esse praesci<lb ed="#Q"/>visset,
+          nisi simul praescivisset quibus eos bono<lb ed="#Q"/>rum
+          usibus accommodaret ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3765">
+          <lb ed="#Q"/>b. Item, Augustiriusz: «Audeo dicere su<lb ed="#Q"/>perbis
+          utile esse incidere in aliquod apertum pec<lb ed="#Q"/>catum,
+          ut iam sibi displiceant qui sibi placendo
+          <lb ed="#Q"/>ceciderant. Salubrius enim displicuit sibi Petrus 3
+          <lb ed="#Q"/>quando flevit quam sibi placuit quando prae<lb ed="#Q"/>sumpsit».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3782">
+          <lb ed="#Q"/>c. Item, Damascenus4: «Conceditur quis
+          <lb ed="#Q"/>in nefariam incidere operationem, ut elatus vir<lb ed="#Q"/>tutibus<!--a--> 
+          in adulterium, ut ex casu humilietur ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3793">
+          <lb ed="#Q"/>d. Item, Num. 22, 8: Venit Dominus ad Balaam,<lb ed="#Q"/>ibi
+          Origenes 5: « Nos b dicimus divina sapien<lb ed="#Q"/>tia
+          omnia 0 disposita esse ita ut nihil sit otiosum,
+          <lb ed="#Q"/>malum vel bonum. Malitiam tamen non fecit, quam
+          <lb ed="#Q"/>tamen ab aliis inventam, cum prohibere possit,
+          <lb ed="#Q"/>non prohibet; utitur enimd ea ad causas neces<lb ed="#Q"/>sarias:
+          per ipsos enim, in quibus est, probat eos
+          <lb ed="#Q"/>qui ad gloriam tendunt. Si enim perimeretur ma.<lb ed="#Q"/>litia,
+          non esset qui contradiceret virtutibus; vir<lb ed="#Q"/>tus
+          autem, si contrarium non haberet, non cla<lb ed="#Q"/>resceret».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3819">
+          <lb ed="#Q"/>e. Item, Augustinus, in libro Confessio<lb ed="#Q"/>nurn
+          6: « Quia singula bona sunt, ideo facis omnia
+          <lb ed="#Q"/>valde bona 7. Et tibie nihil omnino malum, sed
+          <lb ed="#Q"/>necf universae creaturae tuae: quia extra te
+          <lb ed="#Q"/>non est aliquid quod irrumpat etg corrumpat
+          <lb ed="#Q"/>ordinem , quem imposuisti; in partibus autem
+          <lb ed="#Q"/>eius " quaedam, quibusdam quia non-conveniunt,
+          <lb ed="#Q"/>mala putantur, et eadem ipsa conveniunt aliis
+          <lb ed="#Q"/>et sunt bona; et haec omnia quae sibimet
+          <lb ed="#Q"/>non conveniunt, conveniunt inferiori parti re<lb ed="#Q"/>rum:
+          nihil est omnino malum universae crea<lb ed="#Q"/>turae
+          tuae ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3848">
+          <lb ed="#Q"/>Contra: 1. Albius est quod est nigro imper<lb ed="#Q"/>mixtius; 
+          ergo similiter melius quod malo est 
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>impermixtius; ergo melius est mala non esse 
+          <lb ed="#Q"/>quam esse.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3861">
+          <lb ed="#Q"/>2. Item, pulcrior est mulier quae nullam habet
+          <lb ed="#Q"/>maculam in aliqua parte quam illa quaek habet
+          <lb ed="#Q"/>maculam in aliqua parte. Unde in Cant.9: Tota
+          <lb ed="#Q"/>pulcra es, amica mea, et macula non est in te;
+          <lb ed="#Q"/>ergo si universitas in nulla parte haberet malum,
+          <lb ed="#Q"/>melior esset 10.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3877">
+          <lb ed="#Q"/>3. Item, Augustinus, in Enchiridion": « Ma<lb ed="#Q"/>lum
+          non est nisi quia1 nocet »; sed si nocet, non
+          <lb ed="#Q"/>expedit; ergo malum non expedit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3887">
+          <lb ed="#Q"/>4. Item, .« malum est privatio modi, speciei et
+          <lb ed="#Q"/>ordinis 12 »; ergo nec bonum est nec utile nec
+          <lb ed="#Q"/>expediens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3896">
+          <lb ed="#Q"/>[Solutio]: Ad hanc quaestionem habes solutio<lb ed="#Q"/>nem
+          supra, duobus locis, scilicet Quaestione'ï' de
+          <lb ed="#Q"/>bono, ubi quaeritur" de ordine mali 13, et Quae<lb ed="#Q"/>stione
+          de signis voluntatis divinae, quaestione de
+          <lb ed="#Q"/>permissione". Tamen notandum quod si mal-um
+          <lb ed="#Q"/>consideretur in se, sic non est bonum nec utile
+          <lb ed="#Q"/>nec expediens; sed si consideretur ut est ordi<lb ed="#Q"/>natum,
+          sic est expediens, non ratione ipsius mali,
+          <lb ed="#Q"/>sed boni quod elicitur ab eo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3918">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo dicendum
+          <lb ed="#Q"/>quod bonum dicitur dupliciter: dicitur enim bo<lb ed="#Q"/>num
+          simpliciter et absolute et bonum in compa<lb ed="#Q"/>ratione.
+          Sic et melius dupliciter. Dicendum ergo
+          <lb ed="#Q"/>quod rerum universitas melior esset simpliciter
+          <lb ed="#Q"/>et bonitate absoluta, si nullum esset malum; sed
+          <lb ed="#Q"/>bonitate comparata non esset melior universitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3936">
+          <lb ed="#Q"/>2. Ad illud quod obicitur per simile de mu<lb ed="#Q"/>liere:
+          dicendum quod non est verum, quia in
+          <lb ed="#Q"/>tali, loco posset mulier habere maculam, quod
+          <lb ed="#Q"/>esset ad maiorem pulcritudinem, sicut patet de
+          <lb ed="#Q"/>cicatrice in facie militis 15.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3949">
+          <lb ed="#Q"/>3. Ad aliud dicendum quod malum nocet et
+          <lb ed="#Q"/>expedit: .nocet secundum se et facienti 0, expedit
+          <lb ed="#Q"/>in quantum ordinatur et expedit aliis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q4c3-d1e3958">
+          <lb ed="#Q"/>4. Ad ultimum dicendum' quod malum!'
+          <lb ed="#Q"/>corrumpit bonum particulare, sed non univer<lb ed="#Q"/>sale; 
+          malum enim et peccatum et huiusmodi
+          <pb ed="#Q" n="405"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>corrumpunt<!--a--> ordinem et bonum particulare huius;
+          <lb ed="#Q"/>sed ordo universalis et bonum universale non cor<lb ed="#Q"/>rumpitur. 
+          Unde B 0 ethi u 5, IV De consolatione 1:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t6q4c3-Qd1e3980">Ordo quidam omnia complectitur, ut si quis 
+          <lb ed="#Q"/>ab assignato ordine recesserit, in alium ordinem 
+          relabatur</quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

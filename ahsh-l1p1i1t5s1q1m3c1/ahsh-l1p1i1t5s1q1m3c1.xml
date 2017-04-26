@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-08">March 08, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="250"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m3c1">
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c1-Hd1e3744" type="question-title">UTRUM SCIENTIA DEI SIT ENTIUM ET NON-ENTIUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3747">
+          <lb ed="#Q"/>Ad primum sic proeeditur: I. a. Augustinus,
+          <lb ed="#Q"/>A Super Genesim 6: « Res ab aeterno fuerunt in
+          <lb ed="#Q"/>Dei'" scientia, cum tamen non essent in sua na<lb ed="#Q"/>tura». 
+          Ergo scientia Dei est non-entium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3758">
+          <lb ed="#Q"/>b. Item, Ambrosius, in libro De Trinitate 7:
+          « Cognoscit ea quae non sunt, tamquam ea quae
+          <lb ed="#Q"/>sunt ». Ergo" etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3765">
+          <lb ed="#Q"/>c. Item, Augustinus, super illud Psalmis:
+          <lb ed="#Q"/>Pulcritudo agri mecum est, Glossa9: « Cum
+          <lb ed="#Q"/>illo sunt" omnia futura, et ab illo non detrahun<lb ed="#Q"/>turP
+          praeterita »; sed praeterita non sunt vel tu<lb ed="#Q"/>tura;
+          ergo etc. 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3779">
+          <lb ed="#Q"/>II. Item, quaeritur: ergor qualiter sunt in illo.
+          <lb ed="#Q"/>Contra: l. Hugo de S. Victore, 'in suis
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Sententiz's 10: «Scientia est entium vel existen<lb ed="#Q"/>tium». 
+          Ergo non est non-entium 8.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3792">
+          <lb ed="#Q"/>2. Item, unumquodquet sicut se habet ad esse,
+          <lb ed="#Q"/>sic se habet ad verum " ; sed scientia Dei solum
+          <lb ed="#Q"/>est verorum; ergo solum est eorum quae ha<lb ed="#Q"/>bent
+          esse.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3803">
+          <lb ed="#Q"/>Respondeo, !. secundum Augustin um, Super
+          <lb ed="#Q"/>Ioannem 12: Quod factum est, in'ipso vita erat 13,
+          <lb ed="#Q"/>ponens exemplum de arca in [opere, quae non
+          <lb ed="#Q"/>est" vita, et de arca in mente artificis, quae est
+          <lb ed="#Q"/>vita; et hoc modo quod factum est, vita est in
+          <lb ed="#Q"/>Deo. Secundum hoc ergo dicendum quod esse
+          <lb ed="#Q"/>creaturae dicitur dupliciter: in sua natura vel in
+          <lb ed="#Q"/>sua causa; scientia autem Dei non ponit esse
+          <lb ed="#Q"/>vel" existentiam rei in sua natura, sed in sua
+          <cb ed="#Q" n="251"/>
+          <lb ed="#Q" n="a"/>
+          causa, id est in se ipso sive in dispositione
+          <lb ed="#Q"/>sua.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3832">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud ergo 0 quod obicitur
+          <lb ed="#Q"/>quod «scientia est existentium »: dicendum quod
+          <lb ed="#Q"/>non est sensus quod sintb existentia in sua na<lb ed="#Q"/>tura
+          solum, sed existentia c in sua causa. Scientia
+          <lb ed="#Q"/>ergo Dei est entiumd et non-entium in sua na<lb ed="#Q"/>tura:
+          ut patet in exemplo dee artifice et domo.
+          <lb ed="#Q"/>Artifex enim, antequam faceret domum, habuit
+          <lb ed="#Q"/>scientiam de domo, longitudinis, latitudinis, ma<lb ed="#Q"/>teriae
+          et formae et huiusmodi, et postmodum,
+          <lb ed="#Q"/>cum facta est, habet eamdem scientiam de domo,
+          <lb ed="#Q"/>quam habebat prius, antequam fieret; et si de<lb ed="#Q"/>struatur
+          domus, eamdem tamen scientiam habet
+          <lb ed="#Q"/>de domo. Non valet ergo: *domus non est, ergo
+          <lb ed="#Q"/>artifex non habet scientiam de domo '. Similiter
+          <lb ed="#Q"/>autem sunt res in Deo sicut domus in mente ar<lb ed="#Q"/>tificis;
+          nec valet similiter: 'res non sunt, ergo
+          <lb ed="#Q"/>Deus non habet scientiam de rebus '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3871">
+          <lb ed="#Q"/>2. Ad aliud quod obicitur quod 'unumquod<lb ed="#Q"/>que,
+          sicutf se habet ad esse, sic se habet ad ve<lb ed="#Q"/>rum':
+          dicendum quod est veritas rei in natura
+          <lb ed="#Q"/>propria et est veritas rei in causa. Sicut res se
+          <lb ed="#Q"/>habet ad esse in natura propria, sic se habet ad
+          <lb ed="#Q"/>veritatem in natura propria; et sicut se habet ad
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>esse in causa, sic se habet ad veritatem <!--g--> in causa,
+          <lb ed="#Q"/>et non aliter. ' .
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3895">
+          <lb ed="#Q"/>II. Ad illud quod quaeritur * qualiter" praete<lb ed="#Q"/>rita
+          et futura sunt in illo ', -responsio patet per si<lb ed="#Q"/>mile
+          in domo. Quid enim aliud est domus in mente
+          <lb ed="#Q"/>artificis nisi exemplar domus vel idea in mente?
+          <lb ed="#Q"/>quae non variatur per praesens, praeteritum et
+          <lb ed="#Q"/>futurum, sed semper est apud eum exemplar; si<lb ed="#Q"/>militer'apud
+          Deum manet exemplar rei, sive sit
+          <lb ed="#Q"/>praesens sive praeterita sive futura.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c1-d1e3916">
+          <lb ed="#Q"/>Ad aliud quod obicitur quod Deus scit multa
+          <lb ed="#Q"/>quae nec fuerunt nec erunt, huiusmodi autem
+          <lb ed="#Q"/>non sunt in Deo sicut in causa vel sicut in
+          <lb ed="#Q"/>exemplari et ita videtur quod non deberet illa
+          <lb ed="#Q"/>scire: responsio est iam patens. Nam est causa
+          <lb ed="#Q"/>potens, causa disponens, causa operans. Deus
+          <lb ed="#Q"/>autem scit quaedam ut causa potens, et secun<lb ed="#Q"/>dum
+          hoc scit multa quae nunquam fuerunt vel
+          <lb ed="#Q"/>sunt vel erunt: cognoscendo enim se ut potentem
+          <lb ed="#Q"/>causam, cognoscit omnia ad quae potest se ex<lb ed="#Q"/>tendere 
+          sua' potentia; ut causai disponens co<lb ed="#Q"/>gnoscit
+          ea quae sunt vel fuerunt vel erunt; sed
+          <lb ed="#Q"/>per se causam operantem cognoscit solum entia k;
+          <lb ed="#Q"/>sunt ergo illa in causa potente vel in potentia
+          <lb ed="#Q"/>causae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

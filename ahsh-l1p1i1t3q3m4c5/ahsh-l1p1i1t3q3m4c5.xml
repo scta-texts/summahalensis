@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="197"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m4c5">
+        <head xml:id="ahsh-l1p1i1t3q3m4c5-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t3q3m4c5-Hd1e3744" type="question-title">AN MALUM SIT CORRUPTIVUM HABILITA-TUM NATURALIUM.</head>
+        <p xml:id="ahsh-l1p1i1t3q3m4c5-d1e3747">
+          <lb ed="#Q"/>Quinto quaeritur an malum sit c'orruptivum ha<lb ed="#Q"/>bilitatum 
+          naturalium 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c5-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: Malum definitur per corrup<lb ed="#Q"/>tionem-vel
+          "diminutionem boni naturalis. Quaeri<lb ed="#Q"/>tur
+          ergo, cum in natura non reperiantur nisi. haec:
+          <lb ed="#Q"/>primum'" bonum subiectum, quod est essentia,
+          <lb ed="#Q"/>potentia et habitus" et affectiones ?, cuius isto<lb ed="#Q"/>rum
+          bonorum erit corruptio? Non" boni primi,
+          <lb ed="#Q"/>neque potentiae: illud enim bonum, quod per
+          <lb ed="#Q"/>malum diminuitur, aliquando oportet esse maius,
+          <lb ed="#Q"/>aliquando minus; constat autem quod nec ipsa
+          <lb ed="#Q"/>natura prima-D nec potentiae eius secundum se .
+          <lb ed="#Q"/>possunt dici aliquando maiores, aliquando mino<lb ed="#Q"/>res 7. 
+          Erit ergo corruptio affectionis 4 vel habitus.
+          <lb ed="#Q"/>Sed non affectionis: illud enim bonum, cuius ma<lb ed="#Q"/>lum
+          [est] corruptivum, oportet semper in parte per<lb ed="#Q"/>manere,
+          quia nunquam est ibi totaliter corruptum'
+          <lb ed="#Q"/>esse; sed affectio totaliter transit et tollitur; re<lb ed="#Q"/>stat
+          ergo quod erit' cbrruptivum habitus naturalis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c5-d1e3793">
+          <lb ed="#Q"/>Sed ulterius quaeritur: Habitus naturalis di<lb ed="#Q"/>citur
+          virtus naturalis," secundum quod dicitur
+          <lb ed="#Q"/>Matth. 8,9' de Centurione, ubi' dicit GlossaB
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quod ille Centurio habet « virtutes naturales »,
+          <lb ed="#Q"/>secundum quod definitur virtus sic—* 9: « Virtus est
+          <lb ed="#Q"/>habitus animi, naturae in modum, rationi consen<lb ed="#Q"/>taneus
+          ». —— Si ergo dicatur quod huiusmodi
+          <lb ed="#Q"/>habitus naturalis"corruptivumest malum - con<lb ed="#Q"/>tra:
+          haef virtutes aliquando totaliter tolluntur
+          <lb ed="#Q"/>per malum; aliquando enim anima ita perversa est
+          <lb ed="#Q"/>quod non habet modum aliquem consentaneum
+          <lb ed="#Q"/>rationi: ut quando ratio est omnino subiecta sen<lb ed="#Q"/>sualitati.
+          Cum ergo bonum, quod per malum di<lb ed="#Q"/>minuitur,
+          oporteat semper permanere ", patet quod
+          <lb ed="#Q"/>non fuit istius habitus naturalis corruptivum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c5-d1e3831">
+          <lb ed="#Q"/>Dices V quod inter potentiam et istum habitum
+          <lb ed="#Q"/>naturalem sunt quaedam habitudines mediae, quae
+          <lb ed="#Q"/>disponunt ipsam potentiam ad illum habitum x,
+          <lb ed="#Q"/>et istarum habitudinum est malum corruptivum.
+          — Contra constat quod philosophi cognoverunt
+          <lb ed="#Q"/>bene positionem istarum virtutum naturalium in
+          <lb ed="#Q"/>potentia; cognoverunt? similiter quaecumque dis—
+          <lb ed="#Q"/>positiones ad hoc exigebantur ut illi habitus
+          <lb ed="#Q"/>essent in potentiis; cognoverunt ergo illas habi<lb ed="#Q"/>tudines
+          medias. Quare ergo non cognoverunt ma<lb ed="#Q"/>lum
+          esse earum diminutivum? ex hoc enimz vi<pb ed="#Q" n="198"/><cb ed="#Q" n="a"/><lb ed="#Q"/>detur 
+          quod non debet dici quod<!--a--> sit diminuti<lb ed="#Q"/>vum 
+          illarum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c5-d1e3864">
+          <lb ed="#Q"/>Solutio: Concedimus quod nec essentiaeb nec
+          <lb ed="#Q"/>potentiae nec-affectionis: nec habitus naturalis,
+          <lb ed="#Q"/>qui dicitur virtus naturalis, est corruptivum ma<lb ed="#Q"/>lum,
+          sed illarum habitudinum quae mediae sunt
+          <lb ed="#Q"/>inter potentiam et dictos habitus, secundum quod
+          <lb ed="#Q"/>ulterius disponunt ad habitus gratuitos; et illae
+          <lb ed="#Q"/>habitudines inseparabiles sunt 'a potentia, et hae
+          <lb ed="#Q"/>sunt modus, Species et ordo. Sed notandum quod,
+          <lb ed="#Q"/>quamvis illarum habitudinum sit malum corrup<cb ed="#Q" n="b"/><lb ed="#Q"/>tivum, 
+          non tamen est corruptivum illarum prout
+          <lb ed="#Q"/>comparantur ad dictos habitus qui sunt virtutes
+          <lb ed="#Q"/>naturales, vel alios quoscumque, sed solum prout
+          <lb ed="#Q"/>disponunt ad bonum gratuitum. Quia igitur phi<lb ed="#Q"/>losophi
+          nunquam pervenerunt ad cognitionem
+          <lb ed="#Q"/>gratiae vel boni gratuiti, ideo neque cognove<lb ed="#Q"/>runt
+          istas habitudines, prout disponunt ad bonum
+          <lb ed="#Q"/>gratuitum. Quia ergo sic erat malum corruptivum
+          <lb ed="#Q"/>earum, patet quod nunquam potuerunt cogno<lb ed="#Q"/>scered
+          qualiter malum esset istius boni corrup<lb ed="#Q"/>tivum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

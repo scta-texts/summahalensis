@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-14">February 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="69"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t2c5">
+        <head xml:id="ahsh-l1p1i1t2q3t2c5-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t2q3t2c5-Hd1e3732" type="question-title">AN ALII QUAM DEO CONVENIAT ESSE UBIQUE.</head>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3735">
+          <lb ed="#Q"/>Quinto quaeritur an alii quam Deo conveniat
+          <lb ed="#Q"/>esse ubique'.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3742">
+          <lb ed="#Q"/>Et videtur quod sic: ]. Quia universale est 
+          est ubique 2, et illud est aliud a Deo; ergo etc. 
+          — Maior patet: quia hoc universale ' substan- 
+          <lb ed="#Q"/>tia ' ubique est, nec est * dicere aliquod ' ubi ' 
+          <lb ed="#Q"/>in quo non sit substantia. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3751">
+          <lb ed="#Q"/>2. Item, si aliquid coniungitur alii secundum 
+          <lb ed="#Q"/>totalitatem vel alii toti, ubi erit totum, ibi erit illud 
+          <lb ed="#Q"/>coniunctum; sed humana natura toti divinae na- 
+          in Christo coniungitur; ergo ubi tota divini— 
+          et humanitas; sed tota divinitas est ubique; 
+          <lb ed="#Q"/>ergo et humanitas; ergo alii quam Deo convenit. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3763">
+          <lb ed="#Q"/>3. Item, ponamus quod nihil sit in mundo nisi 
+          <lb ed="#Q"/>unus homo: possum dicere quod anima istius 
+          <lb ed="#Q"/>hominis sit in qualibet parte corporis; sed non est 
+          <lb ed="#Q"/>'ubi ' nisi istius corporis; ergo est in omni ' ubi '; 
+          <lb ed="#Q"/>ergo ex hypothesi potest ei convenire esse ubique.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3776">
+          <lb ed="#Q"/>4. Item, angelus potest velle esse ubique; sed 
+          <lb ed="#Q"/>si istud potest velle, potest esse ibi: quia, cum 
+          ' dicat Augustinus3 de corpore glorificato, quod 
+          <lb ed="#Q"/>ibi erit ubi volet, multo magis istud est verum 
+          <lb ed="#Q"/>de angelo; ergo angelo potest convenire esse 
+          <lb ed="#Q"/>ubique et non soli Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3789">
+          <lb ed="#Q"/>Solutio: Cum dicitur Deus esse ubique, sem— 
+          <lb ed="#Q"/>per ita intelligitur quod non sit dependentia eius 
+          <lb ed="#Q"/>abf ' ubi'. Et ideo dicit Augustinus, Ad Dar— 
+          <lb ed="#Q"/>danum': «In se ipso Deus est et ubique: ubique, 
+          <lb ed="#Q"/>quia nusquam est absens; in se ipso, quia non 
+          <lb ed="#Q"/>continetur! iis quibus est praesens ». Et propter 
+          <lb ed="#Q"/>hoc per hanc 'Deus est ubique' non excluditur 
+          <lb ed="#Q"/>haec ' Deus est in se ipso ', immo per ipsam po<lb ed="#Q"/>nitur 
+          praesentia Dei praesens omni ' ubi ' sine 
+          <lb ed="#Q"/>dependentia eius ab' ' ubi '; et quia  istud ali<cb ed="#Q" n="b"/><lb ed="#Q"/>cui 
+          creaturae non convenit nisi secundum quid, 
+          <lb ed="#Q"/>propter hoc proprie non convenit nisi soli Deo 
+          <lb ed="#Q"/>quod sit ubique. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3821">
+          <lb ed="#Q"/>[ad obiecta]: 1. Ad primo ergo obiectum di<lb ed="#Q"/>cendum 
+          quod, quando aliqua res proprie dicitur 
+          <lb ed="#Q"/>esse ubique, per hoc ponitur proprie quod sit ens 
+          <lb ed="#Q"/>separatum, non dependens, et quod nata sit replere 
+          <lb ed="#Q"/>omnem rem: et istud soli Deo convenit et non for<lb ed="#Q"/>mae 
+          universali. Forma enim universalis non habet 
+          <lb ed="#Q"/>esse per se nec separatum, immo dependens a 
+          <lb ed="#Q"/>primis: unde, destructis primis, impossibile est ali<lb ed="#Q"/>quid 
+          aliorum remanere; et ita secundum actum exi<lb ed="#Q"/>stendi 
+          dependet a singularibus universale. -- Item, 
+          <lb ed="#Q"/>quaelibet creatura, secundum quod comparatur ad 
+          <lb ed="#Q"/>Deum, est nata repleri divina bonitate, aliter enim 
+          <lb ed="#Q"/>vacua esset: et ideo omnis res, sive sit substantia 
+          <lb ed="#Q"/>sive accidens, quaecumque sit, comparatur ad 
+          <lb ed="#Q"/>Deum ut 'ubi', communi modo loquendi. Sed uni<lb ed="#Q"/>versale 
+          quod est 'substantia' non comparatur ad 
+          <lb ed="#Q"/>omne singulare ut ad suum 'ubi', sed solum ad 
+          <lb ed="#Q"/>sua singularia: unde quod non sit 'ubi' in quo 
+          <lb ed="#Q"/>non sit substantia, hoc est suorum singularium, 
+          <lb ed="#Q"/>sed non est in aliis rebus. -- Item, etsi non esset 
+          <lb ed="#Q"/>nisi substantia et eius singularia, adhuc tamen 
+          <lb ed="#Q"/>non esset nata replere omnia aliorum generum, 
+          <lb ed="#Q"/>quae possent esse, sicut Deus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3873">
+          <lb ed="#Q"/>Ad aliud dicendum quod licet humanitas 
+          <lb ed="#Q"/>coniungatur divinitati toti, id est perfecte, non 
+          <lb ed="#Q"/>tamen propter hoc sequitur quod habeat exten<lb ed="#Q"/>sionem 
+          Licet enim natura humana sit 
+          <lb ed="#Q"/>unita divinae in unitate personae, non tamen na<lb ed="#Q"/>tura 
+          humana commetitur se immensitati divinae. 
+          <lb ed="#Q"/>Quae quidem immensitas, quia circumscribit esse 
+          <lb ed="#Q"/>per definitionem et circumscriptionem, requirit 
+          <lb ed="#Q"/>esse ubique, natura autem humana huiusmodi im<pb ed="#Q" n="70"/><cb ed="#Q" n="a"/><lb ed="#Q"/>mensitatem 
+          non sortitur ex hac unione: propter
+          <lb ed="#Q"/>quod et definiri habet loco et circumscribi". Ta<lb ed="#Q"/>men
+          quoddam mirabile convenit ei ex hac unione,
+          <lb ed="#Q"/>scilicet quod ipsa eadem humanitas potest esse
+          <lb ed="#Q"/>in pluribus altaribus simul; ita tamen est in plu<lb ed="#Q"/>ribus
+          quod non est ubique nec potest esse, quia
+          <lb ed="#Q"/>sacramentaliter non posset consecrari ex aliis spe<lb ed="#Q"/>ciebus
+          quam panis et vini; hae autem. species
+          <lb ed="#Q"/>non possunt esse ubique, et propter hoc nec
+          <lb ed="#Q"/>corpus Christi: quia terminata est materia de qua
+          <lb ed="#Q"/>consecratur, sequitur necessario quod non possit
+          <lb ed="#Q"/>esse ubique. Et si poneretur quod nihil aliud
+          <lb ed="#Q"/>esset nisi panis et vinum et esset ubique, adhuc
+          <lb ed="#Q"/>tamen posset intelligi materia de qua non posset
+          <lb ed="#Q"/>consecrari; et ideo proprie non posset dici ubi<lb ed="#Q"/>que,
+          licet etiam species illae essent consecratae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3932">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod licet ille homo
+          <lb ed="#Q"/>esset in omni ' ubi ' quod est, non tamen esset ubi<lb ed="#Q"/>que
+          sicut Deus: quia ' ubi' dictum de Deo notat 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>praesentiam ad omne ' ubi' quod estb et etiam,
+          <lb ed="#Q"/>quod si essent alia ' ubi ', quod divina bonitas re<lb ed="#Q"/>pleret
+          ea, et hoc est ' ubique ' proprie. Licet autem
+          <lb ed="#Q"/>anima istius hominis esset in quolibet 'ubi ' sui
+          <lb ed="#Q"/>corporis, non tamen esset in quolibet ' ubi ' quod
+          <lb ed="#Q"/>posset esse.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3957">
+          <lb ed="#Q"/>4. Ad ultimum dicendum quod duplex est
+          <lb ed="#Q"/>potentia: scilicet potentia absoluta, quae dicitur
+          <lb ed="#Q"/>potentia naturae, et potentia ordinata. Loquendo
+          <lb ed="#Q"/>de potentia absoluta, possem ego velle non mori,
+          <lb ed="#Q"/>quia talis voluntas est impossibilium, sed non 10<lb ed="#Q"/>quendo
+          de potentia ordinata. Sic angelus de po—
+          <lb ed="#Q"/>tentia naturae posset velle esse in omni ' ubi ', sed
+          <lb ed="#Q"/>non ** de potentia ordinata per ** gratiam: quia cum
+          <lb ed="#Q"/>nihil posset esse ubique simul' nisi Deus, si ipse
+          <lb ed="#Q"/>vellet esse ubique simul, velletf esse Deus; quod
+          <lb ed="#Q"/>non potest velle de potentia ordinata, licet possit
+          <lb ed="#Q"/>de potentia naturae, quia, ut dictum est, ipsa est
+          <lb ed="#Q"/>impossibilium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

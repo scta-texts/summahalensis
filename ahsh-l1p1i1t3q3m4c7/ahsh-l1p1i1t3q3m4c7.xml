@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 7</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="198"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m4c7">
+        <head xml:id="ahsh-l1p1i1t3q3m4c7-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 7</head>
+        <head xml:id="ahsh-l1p1i1t3q3m4c7-Hd1e3744" type="question-title">AN ILLORUM DIMINUTIO SIVE CORRUPTIO SIT EX MALO TRIPLICI VEL UNICO.</head>
+        <p xml:id="ahsh-l1p1i1t3q3m4c7-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur an diminutio sive cor<lb ed="#Q"/>ruptio
+          modi, speciei et ordinis sit ex malo
+          <lb ed="#Q"/>triplici vel unico 2. »
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c7-d1e3756">
+          <lb ed="#Q"/>Ad quod sic: 1. Nahum l,9: Non consurget
+          <lb ed="#Q"/>duplex" tribulatio. Ex quo arguitur quod uni
+          <lb ed="#Q"/>peccato debetur unica poena et plures pluribus.
+          <lb ed="#Q"/>Si ergo unum est peccatum quod committi—
+          <lb ed="#Q"/>tur ', et una erit poena. Cum ergo poena sit
+          <lb ed="#Q"/>diminutio illorum trium, videtur quod unica di<lb ed="#Q"/>minutione
+          diminuantur illa tria, aut dicatur qua<lb ed="#Q"/>liter
+          est unitas in peccato et in poena multipli<lb ed="#Q"/>catio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c7-d1e3778">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>2. Item, quaeritur: quatuor, sicut dicit Au gu<lb ed="#Q"/>stinus
+          et Beda3, infiicta sunt nobis prepter
+          <lb ed="#Q"/>peccatum, scilicet infirmitas, ignorantia, malitia
+          <lb ed="#Q"/>et concupiscentia. Si ergo infirmitas" est ex de<lb ed="#Q"/>fectu
+          potentiae, et sic,-'est corruptio modi; igno<lb ed="#Q"/>rantia
+          ex defectu scientiae, et sic est corruptio
+          <lb ed="#Q"/>speciei; malitia ex defectu bonitatis, et sic est
+          <lb ed="#Q"/>corruptio ordinism: videtur quod deberet esse
+          <lb ed="#Q"/>quartum, secundum cuius corruptionem" esset
+          <lb ed="#Q"/>concupiscentia inflicta, vel dicatur quare non.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c7-d1e3805">
+          <lb ed="#Q"/>Solutio": 1. Ad primum dicimus quod pec<lb ed="#Q"/>catum-dicitur
+          unum per relationem ad illud ad
+          <lb ed="#Q"/>quod est conversio, quia illud unum est,; dicitur
+          <pb ed="#Q" n="199"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>etiam unum, quia ab uno est aversio, scilicet ab
+          <lb ed="#Q"/>incommutabili bono, quod unum est. Sed per re<lb ed="#Q"/>lationem
+          ad illud quod avertitur per peccatum,
+          <lb ed="#Q"/>cum in ipso libero arbitrio sint tria quae avertun<lb ed="#Q"/>tur,
+          scilicet memoria, intelligentia et voluntas, opor<lb ed="#Q"/>tet
+          quod si poena infligenda est illi quod " aver<lb ed="#Q"/>titur,
+          quod sicut in averso fuerunt tria, ita tri<lb ed="#Q"/>plex
+          poena infligatur; et sicut illud fuit '7 unum se<lb ed="#Q"/>cundum
+          tres sui potentias, ita poena unae se<lb ed="#Q"/>cundum
+          tres differentias multiplicata. Et hoc modo
+          <lb ed="#Q"/>privatur modus respectu memoriae, species re.<lb ed="#Q"/>spectu
+          intelligentiae, ordo respectu voluntatis. Sed
+          <lb ed="#Q"/>haec per appropriationem intelligenda sunt dici:
+          <lb ed="#Q"/>nam secundum rem sunt illae tres habilitates in
+          <lb ed="#Q"/>qualibet illarum potentiarum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c7-d1e3851">
+          <lb ed="#Q"/>2. Ad secundum dicimus quod revera qua<lb ed="#Q"/>tuor
+          nobis inflicta sunt propter peccatum per de<lb ed="#Q"/>fectum
+          potentiae, sapientiae et bonitatis, scilicet
+          <lb ed="#Q"/>infirmitas, ignorantia, malitia, et quartum quod
+          <lb ed="#Q"/>est concupiscentia]; et huiusmodi concupiscen<lb ed="#Q"/>tia
+          4 non est sumpta a vi concupiscibili, secundum
+          <lb ed="#Q"/>quod condividitur rationabili et irascibili, sed est
+          <lb ed="#Q"/>concupiscentia generaliter dicta ad omnem inor<lb ed="#Q"/>dinatam
+          conversionem ad bonum commutabile,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundum quamcumque vim fiat, secundum quod
+          <lb ed="#Q"/>dicitur in Glossa ad Romanos ] quod ex ipsa
+          <lb ed="#Q"/>oriuntur omnia peccata 2. Dicimus ergo quod huic
+          <lb ed="#Q"/>concupiscentiae intlictae non debuit respondere
+          <lb ed="#Q"/>quartum bonum cum illis tribus. Cum enim haec
+          <lb ed="#Q"/>quatuor infligantur propter peccatum, dicimus
+          <lb ed="#Q"/>quod in peccato sunt duo, scilicet aversio ab in<lb ed="#Q"/>commutabili
+          bono et conversio ad commutabile ';
+          <lb ed="#Q"/>ratione conversionis illius inflicta est concupi<lb ed="#Q"/>scentia,
+          quia illa solum inclinat ad bona commu<lb ed="#Q"/>tabilia.
+          Quantum ergo ad conversionem istam non
+          <lb ed="#Q"/>est deformatio imaginis, per se loquendo, sed
+          <lb ed="#Q"/>quoadf aversionem ab eo bono incommutabili, ad
+          <lb ed="#Q"/>cuius- imaginem fit, est haec8 detormatio. Quia
+          <lb ed="#Q"/>ergo imago quantum ad illa tria attenditur, iustum
+          <lb ed="#Q"/>fuit ut in " deformatione quae fiebat per aversio<lb ed="#Q"/>nem,
+          infligerentur tria secundum defectum illorum
+          <lb ed="#Q"/>trium in quibus attendebatur imago. Sic ergo patet
+          <lb ed="#Q"/>quod concupiscentiae nihil debuit respondere in
+          <lb ed="#Q"/>ordine isto. Unde aut dicemus quod nullum ei
+          <lb ed="#Q"/>bonum respondet in nobis, quoniam debuit esse
+          <lb ed="#Q"/>solum respectu boni commutabilis; aut si respon<lb ed="#Q"/>det
+          aliquid, hoc non erit nisi commune' appe<lb ed="#Q"/>titivum
+          boni.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

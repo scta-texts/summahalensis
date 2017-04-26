@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-12">March 12, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="291"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q3t1c4">
+        <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. I, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e3744" type="question-title">QUORUM SIT PROVIDENTIA.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur quorum est providentia,
+          <lb ed="#Q"/>hoc modo: .
+          <lb ed="#Q"/>Primo,- utrum bonorum et malorum;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundo, utrum casualium;
+          <lb ed="#Q"/>tertio, utrum voluntariorum;
+          <lb ed="#Q"/>quarto, utrum nobilium et vilium.
+        </p>
+        <div xml:id="ahsh-l1p1i1t5s2q3t1c4-Dd1e3765" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e3767">Articulus I</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e3770" type="question-title">Utrum providentia sit bonorum et malorum.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3773">
+            <lb ed="#Q"/>Ad primum sic: 1. Creationis actus est quasi '
+            <lb ed="#Q"/>fundamentum ad producendum res in esse; gu<lb ed="#Q"/>bernare
+            vero ** et continere et multiplicare et con<lb ed="#Q"/>similes
+            actus sunt quasi aedificia apposita super
+            <lb ed="#Q"/>illud fundamentum; sed aedificium non se ex<lb ed="#Q"/>tendit
+            ultra quam fundamentum; creare autem:
+            <lb ed="#Q"/>tantum se extendit ad bona 4, Gen. 1,31: Vidit
+            <lb ed="#Q"/>Deus cuncta quae fecerat etc.; ergo gubernare,
+            <lb ed="#Q"/>continere et multiplicare et huiusmodi actus, quae
+            <lb ed="#Q"/>sunt quasi superaedificia, tantum se extendent ad
+            <lb ed="#Q"/>bona; sed gubernatio est providentiae; ergo pro- '
+            <lb ed="#Q"/>videntia erit tantum bonorum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3802">
+            <lb ed="#Q"/>2. Item, Augustinus, 83 Quaestionum 3:
+            « Providentia est summum bonum, a quo cetera
+            <lb ed="#Q"/>bona sunt »; sed a summo bono non descendunt
+            <lb ed="#Q"/>nec derivantur nisi tantum bona; ergo providentia
+            <lb ed="#Q"/>se extendit tantum ad bona. '
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3813">
+            <lb ed="#Q"/>3..Item, Damascenus4: « Omnino necesse
+            <lb ed="#Q"/>est omnia, quae providentia fiunt, secundum rec- '
+            <lb ed="#Q"/>tam ordinationem et optimae et Deo decentis<lb ed="#Q"/>sima 
+            fieri »; Sed mala non sunt optima nec Deo
+            <lb ed="#Q"/>decentissimaf ; ergo mala non sunt sub divina
+            <lb ed="#Q"/>providentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3830">
+            <lb ed="#Q"/>4. Item, hoc probatur per simile. Si enim esset 
+            <lb ed="#Q"/>aliquis rex magnus et potens, numquid permit<lb ed="#Q"/>
+            <lb ed="#Q"/>teret in regno suo aliquod malum quod destrueret '
+            <lb ed="#Q"/>regnum? Non utique, si cognosceret illud malum '
+            <lb ed="#Q"/>et potentiam haberet, expellendi illud-E vel etiam
+            <lb ed="#Q"/>destruendi; sed Deus, Rex regum 5, est omnipotens
+            <lb ed="#Q"/>et omnisciens; si igitur aliqua sunt mala '! in re<lb ed="#Q"/>gno 
+            eius, non sunt sub eius providentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3852">
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>Contra: a. Hugo, in suis Sententiisö: « Utrum-.
+            <lb ed="#Q"/>que operatur providentia in suo et in alieno: in
+            <lb ed="#Q"/>suo quod fecit, in alieno quod permisit»; sed
+            <lb ed="#Q"/>illud alienum est malum; ergo providentia 'ope—
+            <lb ed="#Q"/>ratur circa malum; ergo se extendit etiam ad
+            <lb ed="#Q"/>malum. ' .
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3870">
+            <lb ed="#Q"/>b. Item, super illud Num. 22,20: Venit autem
+            <lb ed="#Q"/>Dominus, Glossa Origenis7: «Nos dicemus,
+            <lb ed="#Q"/>sapientia Dei », id est providentia, «omnia ita
+            <lb ed="#Q"/>esse disposita ut nihil otiosum sit apud Deum,
+            <lb ed="#Q"/>nec bonum nec malum; malitiam Deus non fecit,
+            <lb ed="#Q"/>cum tamen ab aliis inventam prohibere possit,
+            <lb ed="#Q"/>non prohibuit, sed ea utitur ad necessarias cau<lb ed="#Q"/>sas
+            ». Ergo mala sunt sub divina providentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3890">
+            <lb ed="#Q"/>c. Item, Boethius, De consolationes: « Sola
+            <lb ed="#Q"/>divina vis est cui mala bona sunt», mala, in<lb ed="#Q"/>quam,
+            ipsi creaturae, « cum, eis competenter
+            <lb ed="#Q"/>utendo, alicuius boni elicit effectum: ordo enim in
+            <lb ed="#Q"/>divinis ita cuncta complectitur ut qui ab assi<lb ed="#Q"/>gnato
+            ordine recesserit», scilicet misericordiae,
+            « in alium ordinem relabatur », scilicet iustitiae,
+            <lb ed="#Q"/>iuxta illud Prov. 16,4: Omnia propter semetip<lb ed="#Q"/>sum
+            operatus est Dominus, impium quoque ad
+            <lb ed="#Q"/>diem malum. Ergo mala subsunt providentiae
+            <lb ed="#Q"/>divinae et etiam bona.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3914">
+            <lb ed="#Q"/>d. Item, Dionysi us 1", De divinis nominibus9:
+            « Etenim malum ad universitatem boni conferens
+            <lb ed="#Q"/>est, non imperfectum ei esse largiens »; sed quid<lb ed="#Q"/>quid
+            est conferens ad universitatem, est ordina<lb ed="#Q"/>tum;
+            esse autem ordinatum est sub providentia;
+            <lb ed="#Q"/>ergo malum est sub providentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3927">
+            <pb ed="#Q" n="292"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>Solutio: Quod concedimus. Sed notandum quod
+            <lb ed="#Q"/>dupliciter dicitur aliquid esse sub divina provi<lb ed="#Q"/>dentia:
+            uno modo, ut ab ipsa creatum vel factum,
+            <lb ed="#Q"/>et sic sunt bona tantum sub providentia; alio
+            <lb ed="#Q"/>modo, non ut ab ipsa factum, sed cum factum
+            <lb ed="#Q"/>est ab homine vel angelo malo, ab" ipsa ordi<lb ed="#Q"/>nandum
+            17, et sic sunt mala sub divina providen<lb ed="#Q"/>tia.
+            Sic ergo sub divina providentia sunt bona
+            <lb ed="#Q"/>tamquam ab ipsa facta, et etiam mala tamquam
+            <lb ed="#Q"/>ab ipsa ordinata. Unde Hugo, in suisc Senten<lb ed="#Q"/>tiis-1:
+            « Secundum d hanc universalem providentiam
+            <lb ed="#Q"/>cunctorum non solum suis quae bona fecit?, sed
+            <lb ed="#Q"/>alienis quae mala ipse non fecit, sed permisit,
+            <lb ed="#Q"/>quod debitum est dispensat: nihil enim in regno
+            <lb ed="#Q"/>suo hanc ordinationem evadet. Nam et ipsa ini<lb ed="#Q"/>quitas
+            ex hac providentia stipendia habet, et non
+            <lb ed="#Q"/>poterit vel ipsa malitia in oblivionem venire apudf
+            <lb ed="#Q"/>provisorem omnium ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3974">
+            <lb ed="#Q"/>[Ad obiecta]: Secundum hoc ergo responden<lb ed="#Q"/>dum
+            est ad omnia quae obiciuntur in contrarium,
+            <lb ed="#Q"/>quod scilicet mala non sint sub divina provi<lb ed="#Q"/>dentia,
+            quia omnes illae rationes procedunt illa
+            <lb ed="#Q"/>viae qua mala non sunt sub providentia divina
+            <lb ed="#Q"/>tamquam ab ipsa creata etf' facta. '
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e3990">
+            <lb ed="#Q"/>1. Ad primum dicendum quod non est si<lb ed="#Q"/>mile
+            de creatione et gubernatione. Creatio enim
+            <lb ed="#Q"/>est de nihilo; unde non ponit rem praeexisten<lb ed="#Q"/>tem,
+            immo est de non-esse ad esse sive de nihilo
+            <lb ed="#Q"/>in aliquid; malum autem e converso, scilicet de
+            <lb ed="#Q"/>aliquo in nihil sive de esse in non-esse, et hoc
+            <lb ed="#Q"/>est quia malum est corruptio ipsius naturae, quae
+            <lb ed="#Q"/>esti ens et bonum 2, et ideo contrario modo pro<lb ed="#Q"/>cedunt
+            creatio et malitia; unde non potest trahi
+            <lb ed="#Q"/>creatio ut dicatur mala; sed malum non se habet
+            <lb ed="#Q"/>e contrario gubernationi, quia gubernatio ponit
+            <lb ed="#Q"/>rem existentem, malum autem non est de nihilo,
+            <lb ed="#Q"/>sed de aliquo. — Nec tamen ex hoc sequitur
+            <lb ed="#Q"/>quod ad plus se extendat gubernatio quam crea<lb ed="#Q"/>tio,
+            quia sicut creatio semper terminatur ad bo<lb ed="#Q"/>num,
+            cuius esse est ex nihilo ", ita gubernatio,
+            <lb ed="#Q"/>sive respiciat bonum sive rnalum, semper termi<lb ed="#Q"/>natur
+            ad bonum, quia non respicit mala propter
+            <lb ed="#Q"/>se, sed ut ex illis eliciat bonum. Bonum enim est
+            <lb ed="#Q"/>mala ordinari, ut nihil in regno providentiae ma<lb ed="#Q"/>neat
+            inordinatum. Et hoc est quod dicit Boe<lb ed="#Q"/>thius
+            3 quod « sola vis divina est cui mala bona
+            <lb ed="#Q"/>sunt ». Unde providentia circal malum semper
+            <lb ed="#Q"/>ulterius intendit traherem bonum; et in hoc ter<lb ed="#Q"/>minatur
+            eius aspectus. — Item, cum dicitur quod
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>'gubernatio non potest plus se extendere quam
+            <lb ed="#Q"/>creatio, quae est fundamentum eius ', hoc est ita
+            <lb ed="#Q"/>intelligendum quod ab ipsa providentia, cuius est
+            <lb ed="#Q"/>gubernatio, non sint" aliqua quae non subsint
+            <lb ed="#Q"/>creationi: ab ipsa" enim non sunt aliqua nisi
+            <lb ed="#Q"/>bona, nec creata sunt nisi bona; non tamen per
+            <lb ed="#Q"/>hoc privatur aspectus? ad aliqua quae non sunt
+            <lb ed="#Q"/>creata, sed per defectum voluntatis educta, ut ex
+            <lb ed="#Q"/>ipsis semper ulterius bonum eliciat.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4068">
+            <lb ed="#Q"/>2. Ad illud quod obicitur quod 'a summo
+            <lb ed="#Q"/>bono non descendit nisi bonum ': dicendum quod
+            <lb ed="#Q"/>verum estq sicut ab ipso factum; nec dicimus
+            <lb ed="#Q"/>quod malum procedat a providentia sicut ab ipsa
+            <lb ed="#Q"/>factum, sed subest ei tamquam ab ipsa ordi<lb ed="#Q"/>natum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4084">
+            <lb ed="#Q"/>3. Similiter dicimus quod auctoritas Dama<lb ed="#Q"/>sceni
+            loquitur de illis quae facta sunt a di<lb ed="#Q"/>vina
+            providentia, et non de illis quae reguntur a
+            <lb ed="#Q"/>providentia; de illis enim quae tiuntf ab ipsa,
+            <lb ed="#Q"/>verum est illud quod fiunt « decentissima et op—
+            <lb ed="#Q"/>tima et ut non est melius iieri », supple 'secundum
+            <lb ed="#Q"/>quod sunt in universitate ', quia'sic congruentis<lb ed="#Q"/>sime
+            sunt, supple 'quantum ad conditionem uni<lb ed="#Q"/>versi
+            ', licet singula in statu suo possent meliora
+            <lb ed="#Q"/>fieri. Similiter dicendum est ad alias auctori<lb ed="#Q"/>tates.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4110">
+            <lb ed="#Q"/>4. Ad illud quod obicitur quod 'aliquis po<lb ed="#Q"/>tens
+            non permitteret malum fieri in terra sua, si
+            <lb ed="#Q"/>sciret illud ': similiter dicendum est de Deo quod
+            <lb ed="#Q"/>rem illam 3, quam malam praesciret, nec crearet
+            <lb ed="#Q"/>nec etiam gubernaret nisi ex ea aliquod bonum
+            <lb ed="#Q"/>elicere intenderet. Et hoc bene determinat A ugu<lb ed="#Q"/>stinus,
+            super 9, 22 ad Rom.: .S'usz'imu'tt in multa
+            <lb ed="#Q"/>patientia, 01 o ssa 4: « Nullum Deus vel hominum
+            <lb ed="#Q"/>vel angelorum crearet quem malum esse prae<lb ed="#Q"/>sciret,
+            nisi pariter nosset quibus bonis usibus eos
+            <lb ed="#Q"/>accommodaret ». Sicut" etiam facit rex terrenus,
+            <lb ed="#Q"/>cum habet aliquos de filiis suis qui nolunt com<lb ed="#Q"/>modati
+            ad aliquem bonum usum, transmittit eos
+            <lb ed="#Q"/>ad alium usum, et sic de ipsisV elicit bonum. Et
+            <lb ed="#Q"/>haec est ratio, quare etiam Dominus suastinet
+            <lb ed="#Q"/>malos. — Item, ostenditur auctoritate Origenis,
+            <lb ed="#Q"/>Super Num. 225: « Malitia utitur Deusx ad ne<lb ed="#Q"/>cessarias
+            causas, per quam probat eos qui ad
+            <lb ed="#Q"/>virtutum gloriam tendunt». Si enim non esset
+            <lb ed="#Q"/>malitia, non esset qui contrairet virtutibus; virtus
+            <lb ed="#Q"/>autem, si contrarium non haberet, non claresce<lb ed="#Q"/>ret.
+            Sic ergo ad exercitium bonorum et probatio<lb ed="#Q"/>nem
+            virtutum sustinet Deus malos.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q3t1c4-Dd1e4163" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e4165">Articulus II</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e4168" type="question-title">Utrum providentia sit casualium</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4171">
+            <lb ed="#Q"/>Consequenter quaeritur an providentia sit ea<lb ed="#Q"/>sualium.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4178">
+            <lb ed="#Q"/>Ad quod sic: a. Boethius, in V" De conso<lb ed="#Q"/>latione
+            1: « Ordo b ille inevitabili connexione pro<lb ed="#Q"/>cedens
+            0, qui de providentiae fonte descendens,
+            <lb ed="#Q"/>cuncta suis locis temporibusque disposuit»; et
+            <lb ed="#Q"/>agit ibid de casualibus; ergo casualia sunt a
+            <lb ed="#Q"/>providentia. '
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4194">
+            <lb ed="#Q"/>b. Item, Boethiusz: « Licet definire casum
+            <lb ed="#Q"/>esse inopinatum, ex confluentibus causis in iis
+            <lb ed="#Q"/>quae ob * aliud geruntur, eventum ». Sicut aliquis
+            <lb ed="#Q"/>facit domum et alius transit per illum locum et
+            <lb ed="#Q"/>cadit lapis super caput eius et occidit ipsum; neque
+            <lb ed="#Q"/>hic iacit domum ut lapis cadat super ipsum, nec
+            <lb ed="#Q"/>hic transit ut occidatur a lapide: neuter enimf
+            <lb ed="#Q"/>hoc intendit, istud autem? dicitur casuale. Illud
+            <lb ed="#Q"/>autem subest provisioni et gubernationi divinae:
+            <lb ed="#Q"/>quod enim lapis cadat in illum locum, subest
+            <lb ed="#Q"/>providentiae et gubernationi divinae; similiter"
+            <lb ed="#Q"/>quod iste vadat ad forum per illum locum et
+            <lb ed="#Q"/>illa hora, hoc subest ordinationi divinae et gu<lb ed="#Q"/>bernationi:
+            et ex iis duabus causis confluenti<lb ed="#Q"/>bus
+            " est casus ; ergo casualia subsunt divinae pro<lb ed="#Q"/>videntiae.
+            — Similiter iste abscondit thesaurum 3,
+            <lb ed="#Q"/>et hoc praeter intentionem quod aliusk inveniat;
+            <lb ed="#Q"/>iste arat illam terram praeter intentionem quod
+            <lb ed="#Q"/>illum inveniat ', et tamen ipsum invenit: istum re<lb ed="#Q"/>ponere
+            thesaurum, hoc subest providentiae, et simi<lb ed="#Q"/>liter
+            istum arare, et hae sunt causae illius inven<lb ed="#Q"/>tionis;
+            si ergo istae causae subsunt providentiae,
+            <lb ed="#Q"/>ergo casualia subsunt providentiae divinae '".
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4247">
+            <lb ed="#Q"/>c. Item, Boethius4: « Si quidem aliquis
+            <lb ed="#Q"/>eventum temerario motu nullaque causarum con<lb ed="#Q"/>nexione
+            productum, casum esse deiiniat, nihil
+            <lb ed="#Q"/>omnino casum esse confirmo ». Ergo casus est
+            <lb ed="#Q"/>ex causarum connexione, cum sit aliquid; sed
+            <lb ed="#Q"/>omnis connexio causarum, faciens aliquid, subest
+            <lb ed="#Q"/>ordinationi" divinae; ergo casus subest ordina<lb ed="#Q"/>tioni
+            vel provisioni divinae ".
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4267">
+            <lb ed="#Q"/>d. Item, Boethius5: « Providentia cuncta
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>pariter, quamvis diversa, quamvis infinita, com<lb ed="#Q"/>plectitur».
+            Ergo complectitur casualia.»
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4278">
+            <lb ed="#Q"/>e. ltem, BoethiusG: « Haec actus fortunas<lb ed="#Q"/>queP
+            hominum indissolubili causarum connexione
+            <lb ed="#Q"/>constringit ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4287">
+            <lb ed="#Q"/>Contra,: 1. Augustinus, 83 Quaestionum7:
+            « Quidquidq, casu fit, temere fit; sed quidquid
+            <lb ed="#Q"/>temere fit, non providentia fit; si ergo casu ali<lb ed="#Q"/>qua
+            fiunt in mundo, non providentia universus
+            <lb ed="#Q"/>mundus administratur; ergo, si casu aliqua fiunt,
+            <lb ed="#Q"/>est aliqua substantia quae ad opus providentiae
+            <lb ed="#Q"/>non pertinet». Casualia ergo non subsunt pro<lb ed="#Q"/>videntiae
+            divinae. .
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4305">
+            <lb ed="#Q"/>Solutio: Dicendum quod casualia dicuntur du<lb ed="#Q"/>pliciter.
+            Uno modo, potest dici casus ex aliquibus
+            <lb ed="#Q"/>confluentibus causis, quae non habent aliquam
+            <lb ed="#Q"/>ordinationem ', inopinatus eventus 3 ; et hoc modo
+            <lb ed="#Q"/>vult Augustinus9 .quod nihil casu fit, quia
+            <lb ed="#Q"/>nihil inordinate sives absque omni ordine fiti,
+            <lb ed="#Q"/>immo si fit aliquid " casu, hoc modo temere tit.
+            <lb ed="#Q"/>Alio modo, secundum quod dicit Boethius 10:
+            « Aristoteles inquit in Physicis ", quotiens ali<lb ed="#Q"/>quid
+            cuiuspiam rei gratia geritur aliudque qui<lb ed="#Q"/>busdam
+            de causis quam quod intendebatur, ob<lb ed="#Q"/>tingit,
+            casus vocatur, ut si quis colendi agri
+            <lb ed="#Q"/>causa fodiens humum, defossi auri pondus in<lb ed="#Q"/>veniat.
+            Hoc igitur fortuito quidem creditur acci<lb ed="#Q"/>disse,
+            verum non de nihilo est, quia" proprias
+            <lb ed="#Q"/>causas habet, quarum improvisus inordinatusque
+            <lb ed="#Q"/>concursus casum videtur operari. Nam nisi cultor
+            <lb ed="#Q"/>agri humum toderet, nisi eo loco pecuniam suam
+            <lb ed="#Q"/>depositorx obruisset, aurum non esset inventum.
+            <lb ed="#Q"/>Hae igitur sunt fortuiti causae compendii, quod
+            <lb ed="#Q"/>ex obviis sibi confluentibus causis, non ex ge<lb ed="#Q"/>rentis
+            intentione, provenit. Neque enim qui au<lb ed="#Q"/>rum
+            obruit neque qui agrum exercuit, ut ibi pe<lb ed="#Q"/>cunia
+            inveniretur, intendit; sed, ut dixi, quod iste
+            <lb ed="#Q"/>obruit, hunc fodisse contingit atque concurrit.
+            <lb ed="#Q"/>Licet igitur definire casum esse inopinatum, ex
+            <lb ed="#Q"/>confluentibus causis in iis quae ob aliud gerun<lb ed="#Q"/>tur,
+            eventum; concurrere vero atque confluere 
+            <pb ed="#Q" n="294"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>causas " tacit ordo ille inevitabili connexione pro<lb ed="#Q"/>cedens
+            b, qui de providentiae fonte descendens,
+            <lb ed="#Q"/>cuncta suis locis temporibusque disponit». Ex 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>quo patet quod casualia subiecta sunt divinae
+            <lb ed="#Q"/>providentiae, quoniam ab ipsa est quod C con<lb ed="#Q"/>fluunt
+            causae ad talem eventum.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q3t1c4-Dd1e4388" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e4390">Articulus III</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e4393" type="question-title">Utrum providentia sit voluntariorum.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4396">
+            <lb ed="#Q"/>Consequenter quaeritur[! utrum providentia sit
+            <lb ed="#Q"/>voluntariorum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4403">
+            <lb ed="#Q"/>Ad quod. sic: a. Augustinus, 83 Quaestio<lb ed="#Q"/>numl:
+            « Omne quod est, in quantum est, bonum
+            <lb ed="#Q"/>est. Illud enim est summe bonum, cuius participa<lb ed="#Q"/>tione
+            cetera sunt bona. Porro illud, cuius par<lb ed="#Q"/>ticipatione
+            cetera sunt bona, per se ipsum bonum
+            <lb ed="#Q"/>est, quam divinam providentiam vocamus»; sed
+            <lb ed="#Q"/>aliqua quae sunt a libero arbitrio sunt bona; ergo
+            <lb ed="#Q"/>sunt a summo bono, quod est divina providentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4423">
+            <lb ed="#Q"/>b. Item, mala quae sunt a libero arbitrio sunt
+            <lb ed="#Q"/>ordinata ae Deo; ergo subsunt divinae providen<lb ed="#Q"/>tiae;
+            ergof voluntaria sunt a divina providentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4433">
+            <lb ed="#Q"/>c. Item, B oethiu sz: « Rector ac mediator men<lb ed="#Q"/>tium,
+            Deus, qui cum ex alta providentiae specula
+            <lb ed="#Q"/>respicit, quod unicuique conveniat agnoscit, et
+            <lb ed="#Q"/>quod convenire agnovitg accommodat». Ergo tri<lb ed="#Q"/>buit
+            Deus omnibus quae sunt a libero arbitrio,
+            <lb ed="#Q"/>sive sint bona sive sint'l. mala, quod eis con<lb ed="#Q"/>venit;
+            sed omnia talia subiecta sunt providentiae;
+            <lb ed="#Q"/>ergo voluntaria subiecta sunt' providentiae.<lb ed="#Q"/>
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4455">
+            <lb ed="#Q"/>Contra: 1. Boethius3 dicit quod « ordo ille,
+            <lb ed="#Q"/>qui a providentiae fonte/' descendit, inevitabili
+            <lb ed="#Q"/>connexione procedit »; sed ea' quae procedunt a
+            <lb ed="#Q"/>libero arbitrio non procedunt inevitabili conne<lb ed="#Q"/>xione,
+            quoniam voluntarie et libere procedunt ab
+            <lb ed="#Q"/>ipso; ergo non procedunt ab ipso secundum or<lb ed="#Q"/>dinem
+            providentiae; non igitur providentiae sub<lb ed="#Q"/>iecta
+            sunt. .
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4475">
+            <lb ed="#Q"/>2. Item, Damascenustz «Oportet noscere
+            <lb ed="#Q"/>quod omnia quidem praenoscit Deus, non autem
+            <lb ed="#Q"/>praedeterminat'"; cognoscit autem quae in nobis
+            <lb ed="#Q"/>sunt", non autem praedeterminat ea 72; sed om<lb ed="#Q"/>nia,
+            quae sunt providentiae, praedeterminat, quia
+            <lb ed="#Q"/>suum providere" est praedeterminarep ; ergo ea
+            <lb ed="#Q"/>quae sunt liberi arbitrii4 non subsunt divinae
+            <lb ed="#Q"/>providentiae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4495">
+            <lb ed="#Q"/>3. Item, Gregorius 5 quaerit unde est quod in
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>faciendo hominem quaeritur et advocatur" con<lb ed="#Q"/>silium,
+            cum dicitur: Faciamus hominem etc., Gen.
+            1,26, et non in faciendo alia. Et respondet quod
+            <lb ed="#Q"/>aliud est quando aliquis debet facere aliquamb
+            <lb ed="#Q"/>rem magnam et quando debet facere aliquam rem
+            <lb ed="#Q"/>modicam c: rem enim magnam d facit cum magna
+            <lb ed="#Q"/>diligentia et circumspectione; similiter, quia homo
+            <lb ed="#Q"/>est in quo'-' est impressa imago Dei, cum ma<lb ed="#Q"/>gna
+            diligentia dicitur: Faciamus. Unde dicit:
+            <lb ed="#Q"/>anima regale quid est; hinc demonstratur quod
+            <lb ed="#Q"/>nulliusf subdatur imperio, habens in se liberta<lb ed="#Q"/>tem
+            arbitrii, suoque nutu et moderamine se dis<lb ed="#Q"/>pensans.
+            Ergo non requiritur dispensatio provi<lb ed="#Q"/>dentiae
+            divinae; ergo ea quae sunt a libero ar<lb ed="#Q"/>bitrio
+            non subsunt providentiae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4532">
+            <lb ed="#Q"/>Solutio: Notandum quod aliter subsunt provi<lb ed="#Q"/>dentiae
+            ea quae sunt liberi arbitrii quam natu<lb ed="#Q"/>ralia.
+            Nam, sicut dicit Damascenusö: «Du<lb ed="#Q"/>plex
+            est providentia; una est secundum accep<lb ed="#Q"/>tationem
+            8, alia est secundum concessionem h ». Et
+            <lb ed="#Q"/>dicit 7 quod providentia secundum acceptationemi
+            <lb ed="#Q"/>est ubi non contingit esse resistentiam nec con<lb ed="#Q"/>tradictionem;
+            unde haec providentia est de iis,
+            <lb ed="#Q"/>ubi non contingit resistentia: et hoc modo est
+            <lb ed="#Q"/>de ipsis naturalibus ", quae sunt ordinata nec
+            <lb ed="#Q"/>aliter possunt esse, sicut solem oriturum cras.
+            <lb ed="#Q"/>Providentia autem secundum concessionem' est
+            <lb ed="#Q"/>de iis, ubi contingit esse resistentiam et contra<lb ed="#Q"/>dictionem:
+            sic'" est in libero arbitrio; Deus enim
+            <lb ed="#Q"/>dedit libero arbitrio" ut consentiat vel non con<lb ed="#Q"/>sentiat
+            bono, et ipsi" malo consentiat si velit; et
+            <lb ed="#Q"/>quidquid faciat, sive bonum sive malum, semper
+            <lb ed="#Q"/>ordinat ipsum providentia. Unde subiciturP pro<lb ed="#Q"/>videntiae
+            secundum concessionem, quia non co<lb ed="#Q"/>git
+            liberum arbitrium, licet sub ipsa'sit, sed per—
+            <lb ed="#Q"/>mittit ei'q iacere quidquid vult; sed in bono ip<lb ed="#Q"/>sum
+            adiuvat instinctu gratiae, in malo autem non,
+            <lb ed="#Q"/>sed tamen malum perpetratum ordinat.-Unde,
+            <lb ed="#Q"/>I Tim. 1,20, super illud: Quos tradidi Satanae etc.,
+            <pb ed="#Q" n="295"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>dicit Augustinusl: « Nulla creatura est, sive
+            <lb ed="#Q"/>quae in veritate manet, dans gloriam Deo 2, sive
+            <lb ed="#Q"/>quae in veritate non stetit3, quaerens gloriam
+            <lb ed="#Q"/>suam 4, quae, velit nolit, divinae providentiae non
+            <lb ed="#Q"/>serviat; sed volens facit cum ea quod bonum
+            <lb ed="#Q"/>est, de illa vero quae hoc non vult, fit quod"
+            <lb ed="#Q"/>iustum est. Non tamen rependiturb quod de ipsa
+            <lb ed="#Q"/>iuste fit, sed quo animo ipsac facit, quia neque
+            <lb ed="#Q"/>liberam voluntatem rationali creaturae Deus ne<lb ed="#Q"/>gavit
+            et tamen potestatem, quad iniustos iuste
+            <lb ed="#Q"/>ordinat, sibi retinuit ». , .
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4615">
+            <lb ed="#Q"/>[Ad obiecta]: ]. Ad illud quod dicit Boe<lb ed="#Q"/>thius
+            patet responsio ex iis quae dicta sunt
+            <lb ed="#Q"/>supra, ine Quaestione de praescientia 5.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4625">
+            <lb ed="#Q"/>3. Ad illud quod dicit Gregorius, quod 'est *
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>sibif liberum arbitrium dispen'sans-et non cadit
+            <lb ed="#Q"/>sub imperio alicuius ': dicendum quod verum
+            <lb ed="#Q"/>est 8, per coactionem, ita quod auferatur ei con<lb ed="#Q"/>sensus
+            et libertas faciendi quidquid vult, nec co<lb ed="#Q"/>gitur
+            a Deo ad hoc vel" illud faciendum; quid<lb ed="#Q"/>quid
+            tamen faciat, semper subest'divinae provi—
+            <lb ed="#Q"/>dentiae, quae in bonum ipsum ordinat et adiuvat
+            <lb ed="#Q"/>in bonum per gratiam; in malo autem non, sed
+            <lb ed="#Q"/>solum ordinat illud malum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4651">
+            <lb ed="#Q"/>2. Ad auctoritatem Damasceni dicen<lb ed="#Q"/>dum
+            quod ipsemeti solvit, dicens 6: « Non prae<lb ed="#Q"/>determinat
+            ea quae sunt in nobis, quia non com<lb ed="#Q"/>pellit 
+            ipsam virtutem », id est non cogit liberum
+            <lb ed="#Q"/>arbitrium, « ad faciendum hoc vel illud, tamen
+            <lb ed="#Q"/>praenoscit quae fient».
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q3t1c4-Dd1e4668" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e4670">Articulus IV</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c4-Hd1e4673" type="question-title">Utrum providentia sit indifferenter nobilium et vilium.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4676">
+            <lb ed="#Q"/>Deinde quaeritur utrum divina providentia sit
+            <lb ed="#Q"/>indifferenter nobilium et vilium 7.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4683">
+            <lb ed="#Q"/>Ad quod sic: a. Sap. 6,8: Aequaliter est eik '
+            <lb ed="#Q"/>cura de omnibus ; sed providentia eius est cura,
+            <lb ed="#Q"/>sicut dicit Hugo8 et Damascenusg; ergo ae<lb ed="#Q"/>qualiter
+            est de omnibus, nobilibus et vilibus.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4694">
+            <lb ed="#Q"/>b. Item, Sap. 12,13: Nec est alius quam tu,
+            <lb ed="#Q"/>cui cum est de omnibus. '
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4702">
+            <lb ed="#Q"/>Contra: ]. [Cor. 9,9: Numquid de bobus cura
+            <lb ed="#Q"/>est Deo? quasi diceret: non.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4709">
+            <lb ed="#Q"/>2. Item, dicit Augustinus10 et Philoso<lb ed="#Q"/>p
+            h u s 11: « Melius est quaedam nescire quam scire,
+            <lb ed="#Q"/>sicut vilia, et hoc est ratione vilitatis ». Ergo de
+            <lb ed="#Q"/>talibus non est cura Deo.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4720">
+            <lb ed="#Q"/>3. Item, Hieronymus, in Expositione super
+            <lb ed="#Q"/>Habacuc 12: «Absurdum est ad hoc deducerel
+            <lb ed="#Q"/>maiestatem Dei ut sciat per momenta singula,
+            <lb ed="#Q"/>quot culices '" nascantur quotve moriantur, quota
+            <lb ed="#Q"/>pulicum et muscarum multitudo, quotve pisces '
+            <lb ed="#Q"/>nascantur in aquis, et similia. Non simus tam
+            <lb ed="#Q"/>fatui adulatores Dei ut dum providentiam" eius
+            <lb ed="#Q"/>etiam ad ima retrudimus, in nos ipsos iniuriosi
+            <lb ed="#Q"/>simus, eamdem irrationabilium et rationabilium
+            <lb ed="#Q"/>providentiam esse dicentes ». « Hic videtur dicere
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>quod Deusa illorum minimorum scientiam 'sive
+            <lb ed="#Q"/>providentiam non habeat 3 ». NamP si omnia sub<lb ed="#Q"/>sunt'
+            providentiae Dei, nota sunt ab ipso; ergo
+            <lb ed="#Q"/>non est 4 eius providentia respectu istorum vilium.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4755">
+            <lb ed="#Q"/>Solutio: 1-2. Dicendum 14 quod duplex est cura
+            <lb ed="#Q"/>providentiae divinae. Una est cura. divinae pro<lb ed="#Q"/>videntiae,
+            quae generalis est, qua res. pro tem<lb ed="#Q"/>pore
+            sibi. debito et determinato conservantur' in
+            <lb ed="#Q"/>suo esse a divina providentia, et hoc modo ve<lb ed="#Q"/>rum
+            est quod est ei cura de omnibus. Alia est  
+            , cura specialis providentiae, quam specialiter habet
+            <lb ed="#Q"/>de rationali creatura, secundum quam erudit ipsam,
+            <lb ed="#Q"/>dando ei praecepta et legem, et secundum hanc
+            <lb ed="#Q"/>non est ei cum de omnibus. Et de hac loquitur
+            <lb ed="#Q"/>Apostolus, cum dicit 15: Numquid cura est ei de
+            <lb ed="#Q"/>bobus? unde G 1 o 5 sa 16: « Non de bobus cura est
+            <lb ed="#Q"/>Deo ut de eis in lege praecipiat: non pro bobus
+            <lb ed="#Q"/>hoc dicit, sed propter nos tantum ». Sed generali
+            <lb ed="#Q"/>cura providet tam nobilibus quam ignobilibus,
+            <lb ed="#Q"/>quia omnia conservat 3, gubernat, et huiusmodi.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c4-d1e4790">
+            <lb ed="#Q"/>3. Adl illud quod obicitur per Hierony<lb ed="#Q"/>m
+            u m, habetur solutio I" Sententiarum, dist. 39 17:
+            :«Scit itaque Deus quanta sit multitudo puli<lb ed="#Q"/>cum, 
+            culicum et muscarum et piscium, quot na<lb ed="#Q"/>scantur 
+            quotve <!--V--> moriantur; sed non scit hoc x per
+            <pb ed="#Q" n="296"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>momenta singula, immo simul ». Unde Rom. ll,36
+            <lb ed="#Q"/>super illud: Ex ipso et per ipsum etc.,- 010 ssa 1:
+            « Ars quaedam omnipotentis atque sapientis Dei
+            <lb ed="#Q"/>plena omnium rationum viventium" et omnes
+            <lb ed="#Q"/>unum in ea, sicut ipsa unum de uno, cum quo
+            <lb ed="#Q"/>unum, ubi novitb omnia Deus quae fecit [per]
+            <lb ed="#Q"/>ipsam, et ideo cum decedant et succedant tem<lb ed="#Q"/>pora,
+            non discedit aliquid vel succedit scientiae<!--c-->
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Dei. Non enim quae creata sunt ideo sciuntur a
+            <lb ed="#Q"/>Deo quia facta sunt, at vero potius ideo"?r facta
+            <lb ed="#Q"/>sunt quia immutabiliter sciuntur a Deo ». Et hoc
+            <lb ed="#Q"/>satis habetur super illud Psalmi 2: Velociter scri<lb ed="#Q"/>bentis,
+            ubi dicit Glossa-"': «Non unum post
+            <lb ed="#Q"/>aliud, sed omnia simul in uno verbo aeterno
+            <lb ed="#Q"/>Pater disposuit». Et sic simul et immutabiliter
+            <lb ed="#Q"/>et sine successione providet mutabilibus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 4, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="241"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q4c4">
+        <head xml:id="ahsh-l1p1i1t4q4c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 4, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t4q4c4-Hd1e3744" type="question-title">DE POTENTIA PRAESIDENDI QUAE EST ANGELI AD ANGELUM.</head>
+        <p xml:id="ahsh-l1p1i1t4q4c4-d1e3747">
+          <lb ed="#Q"/>Quarto quaeritur de potentia praesidendi quae
+          <lb ed="#Q"/>est angeli ad angelum 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q4c4-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: 1. Gregorius5: «Ubi non de<lb ed="#Q"/>liquimus,
+          omnes pares sumus ». Non sic est in
+          <lb ed="#Q"/>angelis: sunt enim ibih Throni et Dominatio<lb ed="#Q"/>nes.
+          —- Quaeritur ergoi unde est hoc quod in na<lb ed="#Q"/>tura
+          humana non sunt ordines sicut in angelis.
+          <lb ed="#Q"/>Et videtur quod in hominibus sit ordo a natura:
+          <lb ed="#Q"/>si enim homo stetisset, unus fuisset perspicacior
+          <lb ed="#Q"/>alio; ergo in eis est ordo a natura.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q4c4-d1e3774">
+          <lb ed="#Q"/>2. Item, videtur quod Dominatio non debeat
+          <lb ed="#Q"/>esse ordo in angelis: ordo enim non cessabit;
+          <lb ed="#Q"/>sed dominatio cessabitk; ergo Dominatio non
+          <lb ed="#Q"/>debet esse ordo. — Probatio mediae; in ho<lb ed="#Q"/>minibus
+          evacuabitur omnis principatus et omnis
+          <lb ed="#Q"/>potestas, sicut dicitur [Cor. 15, 24; ergo similiter
+          <lb ed="#Q"/>in angelis evacuabitur omnis dominatio. Ergo Do<lb ed="#Q"/>minatio'
+          in angelis non est ordo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q4c4-d1e3795">
+          <lb ed="#Q"/>Solutio: Sicut dicit B. Dionysius, in trac<lb ed="#Q"/>tatu
+          De dominationeöz «Dominatiom duplicem
+          <lb ed="#Q"/>habet intelligentiam: uno modo dominatio idem
+          <lb ed="#Q"/>est quod praeeminentia alicuius creaturae respectu
+          <lb ed="#Q"/>aliarum creaturarum " quantum ad naturalia; alio
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>modo dominatio idem est quod potestas coer—
+          <lb ed="#Q"/>cendi alias creaturas ». Secundum hanc dupli—
+          <lb ed="#Q"/>cem acceptionem dominationis, respondendum est
+          <lb ed="#Q"/>ad obiecta. Dominium igitur, secundum quo-d dicit
+          <lb ed="#Q"/>praeeminentiam in naturalibus respectu alterius ",
+          <lb ed="#Q"/>sic est in angelis et etiam in homine si stetisset
+          <lb ed="#Q"/>in statu innocentiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q4c4-d1e3826">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Quod ergo dicitP quod
+          « ubi non deliquimus, pares sumus »: dicendum
+          <lb ed="#Q"/>quod hoc est verum secundum '! quod dominium
+          <lb ed="#Q"/>intelligitur potestas coercendi; hoc modo do<lb ed="#Q"/>minium
+          non haberet locum in homine nisi pec<lb ed="#Q"/>casset.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q4c4-d1e3839">
+          <lb ed="#Q"/>2. Quod autem dicit quod *Dominationes
+          <lb ed="#Q"/>sunt in angelis': hoc intelligendum est de domi<lb ed="#Q"/>natione,
+          quae est praeeminentia unius respectu
+          <lb ed="#Q"/>aliorum quantum ad naturalia; praesunt" enim
+          <lb ed="#Q"/>alii angeli aliiss illuminando, perficiendo, pur<lb ed="#Q"/>gando,
+          ut dicit Dionysius7. — Quod obicit
+          <lb ed="#Q"/>quod 'in homine cessabit potestas et praelatio,
+          <lb ed="#Q"/>ergo et in angelis ': dicendum quod hoc verum
+          <lb ed="#Q"/>est quantum ad ministerium quod habent exercere
+          <lb ed="#Q"/>in creaturis, scilicet angel-if; sed" hoc plenius ex<lb ed="#Q"/>plicabitur
+          in Tractatu de angelis 8.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

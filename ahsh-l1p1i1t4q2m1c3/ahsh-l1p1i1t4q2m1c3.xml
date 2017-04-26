@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="213"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q2m1c3">
+        <head xml:id="ahsh-l1p1i1t4q2m1c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 1, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t4q2m1c3-Hd1e3744" type="question-title">UTRUM OMNIPOTENTIA CONVENIAT TRIBUS PERSONIS.</head>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e3747">
+          <lb ed="#Q"/>Postea quaeritur utrum omnipotentia conveniat
+          <lb ed="#Q"/>tribus personis vel sit appropriabilis alicui
+          <lb ed="#Q"/>personae, sicut sapientia et voluntas 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e3756">
+          <lb ed="#Q"/>Ad. quod. sic: 1. PoSse generare pertinet ad po<lb ed="#Q"/>tentiam,
+          quia posse generare est posse; si ergo
+          <lb ed="#Q"/>non convenit Filio, ergo non convenit ei omnipo<lb ed="#Q"/>tentia.
+          Similiter potentia spirandi pertinet ad per<lb ed="#Q"/>tectam
+          potentiam, quia posse spirare non est non *
+          <lb ed="#Q"/>posse; sed Spiritus Sanctus non habet active po<lb ed="#Q"/>tentiam
+          spirandi; ergo Spiritus Sanctus non ha<lb ed="#Q"/>bet"
+          omnipotentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e3776">
+          <lb ed="#Q"/>2. Si dicatur quod posse generare non est
+          <lb ed="#Q"/>simpliciter posse quid, sed posse ad aliquid, unde
+          <lb ed="#Q"/>non continetur sub omnipotentia —. contra: Ephes.
+          3,15: Ex quo omnis paternitas in caelo et in terra 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>nominatur, per hoc innuit quod paternitas per prius
+          <lb ed="#Q"/>est in divinis et per posterius in inferioribus. Si
+          <lb ed="#Q"/>ergo in" inferioribus posse generare est possex
+          <lb ed="#Q"/>simpliciter: ergo multoV magis in divinis posse
+          <lb ed="#Q"/>generare est posse simpliciter; et non convenit
+          <lb ed="#Q"/>Filio; ergo aliqua potentia, quae est potentia sim<lb ed="#Q"/>pliciter,
+          non conveniet Filio. — Item, cum homo
+          <lb ed="#Q"/>generat hominem, non transfundit nisi quamdam
+          <lb ed="#Q"/>partem substantiae suae, quia est generatio per
+          <lb ed="#Q"/>decisionem; sed in generatione divina non est de<lb ed="#Q"/>cisio
+          partis substantiae, sed totum quod habet Pa<lb ed="#Q"/>ter
+          dat Filio; ergo generare in Deoz magis refertur
+          <lb ed="#Q"/>ad posse quam in homine; ergo si non convenit
+          <lb ed="#Q"/>Filio, non debet dici omnipotens. — Eodem modo
+          <lb ed="#Q"/>obicitur de Spiritu Sancto respectu eius quod
+          <lb ed="#Q"/>est spirare, et ita solus Pater dicetur omnipotens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e3823">
+          <pb ed="#Q" n="214"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Contra: a. Probat A ug u s t i n u s1 Spiritum
+          <lb ed="#Q"/>Sanctum esse omnipotentem, sic: Sap. l,7: Spiri<lb ed="#Q"/>tus 
+          Domini replevit orbem terrarum etc. et hoc fminatur omnipotentia.
+          <lb ed="#Q"/>quod continet omnia " 'etc. ; sed hoc non potest esse
+          <lb ed="#Q"/>nisi omnipotentis, scilicet continere omnia etc.;
+          <lb ed="#Q"/>ergo Spiritus Sanctus est omnipotens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e3843">
+          <lb ed="#Q"/>b. Et hoc probat de Filio per auctoritatem Ioan.
+          5,19: Quaecumque Pater facit, haec et Filius
+          <lb ed="#Q"/>facit etc. -— Item, Apoc.:1,8' dicitur de Filio:
+          <lb ed="#Q"/>Ego sum alpha et omega, principium et finis,
+          <lb ed="#Q"/>qui est, qui erat et qui venturus est, omnipotens.
+          — Item, Augustinus, in libro De Symbolozz
+          « Qui Filium negabit Deum omnipotentem, et Pa<lb ed="#Q"/>trem
+          negabit omnipotentem ». Ex quo relinquitur
+          <lb ed="#Q"/>quod Filius sit omnipotens sicut et Pater.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e3859">
+          <lb ed="#Q"/>Solutio: Dicendum quod omnipotentia convenit
+          <lb ed="#Q"/>toti Trinitati: unde omnipotentia convenit Patri
+          <lb ed="#Q"/>et Filio et Spiritui Sancto. Et hoc patet per ratio<lb ed="#Q"/>nem
+          Augustini, in libro De Symbolo3: «ldeo
+          <lb ed="#Q"/>omnipotens dicitur, quia de nihilo fecit quaecum<lb ed="#Q"/>que
+          fecit. Non enim aliqua materies eum iuvit ",
+          <lb ed="#Q"/>ex qua demonstraret artis suae potentiam, sed ex
+          <lb ed="#Q"/>nihilo cuncta creavit: hoc enim est esse omnipo<lb ed="#Q"/>tentem
+          ut non solum fabrica mundi, sed etiam ipsa
+          <lb ed="#Q"/>materia.: de nihilo fieret ». Vult ergo dicere quod
+          <lb ed="#Q"/>omnipotentia, secundum quod sic est, includit in
+          <lb ed="#Q"/>se de nihilo tacere secundum summam rationem;
+          <lb ed="#Q"/>unde haec est ratio omnipotentiae per quam de<lb ed="#Q"/>terminatur,
+          scilicet de nihilo aliquid facere et de<lb ed="#Q"/>ducere'i
+          de nihilo omnia ad esse. Sed ante istud
+          <lb ed="#Q"/>quod est de ' nihilo omnia facere' est iliud quod est
+          ' de substantia sua Filium producere '. Cum ergo
+          <lb ed="#Q"/>producere de substantia sua, sicut generare et
+          <lb ed="#Q"/>spirare, antecedit facere, quia ab aeterno Pater
+          <lb ed="#Q"/>generat Filium et Pater et Filius spirant Spiritum
+          <lb ed="#Q"/>Sanctum, non tamen ab aeterno fecit omnia de ni<lb ed="#Q"/>hilo;
+          ergo generare et spirare non continentur sub
+          <lb ed="#Q"/>omnipotentia secundum suam propriam rationem,
+          <lb ed="#Q"/>nisi secundum quod dicitur omnipotentia in Patre:
+          <lb ed="#Q"/>unde non pertinent ad omnipotentiam simpliciter
+          <lb ed="#Q"/>nisi ad omnipotentiam in Patre 9; et ita licet Filius
+          <lb ed="#Q"/>et Spiritus Sanctus non generent, nihilominus sunt
+          <lb ed="#Q"/>omnipotentes, quia possunt res de nihilo facere,
+          <lb ed="#Q"/>quae est summa et propriissima ratio omnipoten<lb ed="#Q"/>tiae.
+          Si tamen approprietur omnipotentia quantum
+          <lb ed="#Q"/>ad hoc quod est ab aeterno ab aliquo producere
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>et producere de nihilo: sic appropriatur Patri se<lb ed="#Q"/>cundum
+          illam primam rationem per quam deter<lb ed="#Q"/>inatur
+          omnipotentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e3935">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Cum autem dicitur4 'Pater
+          <lb ed="#Q"/>habet potentiamf generandi ', duo dicuntur de
+          <lb ed="#Q"/>Patre, scilicet quod Pater habeat potentiam et
+          <lb ed="#Q"/>quod habeat relationem, scilicet generationem;
+          <lb ed="#Q"/>unde sensus est: ' Pater est potensg et est genis
+          <lb ed="#Q"/>tor '. Cum vero dicitur5 quod ' Filio non convenit ',
+          <lb ed="#Q"/>vel quod 'Filius non habeat potentiam generandi':
+          <lb ed="#Q"/>hoc verum est, non quia non habeat potentiam
+          <lb ed="#Q"/>eamdem etiam quam habet Pater, sed quia non
+          <lb ed="#Q"/>habet generare: non est in Filio potentia ut ge<lb ed="#Q"/>neret.
+          Sed si arguat ulterius: ' ergo aliqua poten<lb ed="#Q"/>tia
+          est in Patre, quae non est in Filio ', mutatio
+          <lb ed="#Q"/>est praedicamenti; mutatur enim 'quid' in ' ad '!
+          <lb ed="#Q"/>aliquid '. Quidam 6 tamen dicunt quod, cum di<lb ed="#Q"/>citur
+          ' potentia generandi ', virtute determinationis
+          <lb ed="#Q"/>trahituri a propria ratione, ut scilicetk dicat no<lb ed="#Q"/>tionem,
+          scilicet paternitatem, et tunc patet quo<lb ed="#Q"/>niam
+          mutatio est praedicamenti: 'Filius non habet
+          <lb ed="#Q"/>potentiam generandi, nec Spiritus Sanctus, ergo
+          <lb ed="#Q"/>non habent omnipotentiam "; nam posse generare
+          <lb ed="#Q"/>non est posse ' quid', sed ' ad aliquid".
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e3983">
+          <lb ed="#Q"/>2. Ad illud quod obiciturm quod 'generare
+          <lb ed="#Q"/>in Deo sit simpliciter posse': dicendum quod
+          <lb ed="#Q"/>dissimiliter est generare in Deo et in homine, quia
+          <lb ed="#Q"/>indivinis ipsum generare est de tota substantia,
+          <lb ed="#Q"/>non de parte; et propter hoc in divinis est eadem
+          <lb ed="#Q"/>substantia. In homine autem non sic est: non enim
+          <lb ed="#Q"/>fit generatio de tota substantia, sed per decisionem
+          <lb ed="#Q"/>de parte; unde ibi non est omnino eadem sub<lb ed="#Q"/>stantia
+          patris et filii, licet eadem sit forma spe<lb ed="#Q"/>cifica;
+          et propter hoc in generatione, qua homo "
+          <lb ed="#Q"/>generat hominem, multiplicatur substantia et rela<lb ed="#Q"/>tio.
+          Et ideo in homine est generare posse 'quid'
+          <lb ed="#Q"/>et 'ad aliquid': posse 'quid' dicitur" propter
+          <lb ed="#Q"/>multiplicationem substantiae; posse 'ad aliquid'
+          <lb ed="#Q"/>propter multiplicationem relationis. In divinis au—
+          <lb ed="#Q"/>tem in generatione non multiplicatur substantia,
+          <lb ed="#Q"/>sed sola relatio: et propter, hoc posse generare in
+          <lb ed="#Q"/>divinis non est posse 'quid', sed posse 'ad ali<lb ed="#Q"/>quid
+          ' 5. Et propter hoc est mutatio praedicamenti
+          <lb ed="#Q"/>in praedicto argumento; quod tamen non esset,
+          <lb ed="#Q"/>si fieret de? generatione quae est hominis exq
+          <lb ed="#Q"/>homine.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e4033">
+          <lb ed="#Q"/>Sed iuxta hoc quaeritur de quadam auc<lb ed="#Q"/>toritate
+          Augustini praedicta ': « Si Filium ne<lb ed="#Q"/>gaveris
+          omnipotentem, et Patrem negabis omni<lb ed="#Q"/>potentem
+          »; unde a est ergo quod Iudaei et pagani
+          <lb ed="#Q"/>concedunt Patrem omnipotentem b, Filium tamen
+          <lb ed="#Q"/>negant omnipotentem 2?
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c3-d1e4050">
+          <lb ed="#Q"/>Ad h 0 c dicen d u in quod contingit loqui de
+          <lb ed="#Q"/>Patre duobus modis: vel 0 de Patre ut est Pater 4,
+          <lb ed="#Q"/>vel de Patre ut est innascibilis. Concedunt ergo
+          <lb ed="#Q"/>de Patre ipsum esse omnipotentem, ut est inna<lb ed="#Q"/>scibilis
+          et ingenitus: et hoc modo non habet re<cb ed="#Q" n="b"/><lb ed="#Q"/>lationem 
+          ad Filium; sed Pater ut Patere habet
+          <lb ed="#Q"/>relationem ad Filium: et propter hocf, si con<lb ed="#Q"/>cederent
+          Patrem ut Patrem esse omnipotentem,
+          <lb ed="#Q"/>oporteret quod concederent Filium, qui estg eius<lb ed="#Q"/>dem
+          essentiae, esse omnipotentem, cum potentia
+          <lb ed="#Q"/>ad essentiam referatur, non tamen generare, quia
+          <lb ed="#Q"/>generare non refertur ad essentiam, sed ad per<lb ed="#Q"/>sonam3.
+          Et sic loquitur Augustinus, cum dicit:
+          «Si Filium negaveris «omnipotentem, et Patrem
+          <lb ed="#Q"/>negabis omnipotentem »: verum est in quantum
+          <lb ed="#Q"/>Pater, non in quantum ingenitus vel innascibilis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

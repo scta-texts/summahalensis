@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. I, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="70"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t3m1c1">
+        <head xml:id="ahsh-l1p1i1t2q3t3m1c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. I, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t2q3t3m1c1-Hd1e3732" type="question-title">AN DEUS SIT EXTRA RES</head>
+        <!-- praeambula stuff -->
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c1-d1e3737">
+          <lb ed="#Q"/>Quaesito de immensitate divinae essentiae quantum ad esse in loco, quaerendum 
+          <lb ed="#Q"/>est de existentia eius in rebus generaliter: 
+          <lb ed="#Q"/>1. an sit extra res;
+          <lb ed="#Q"/>2. an sit in rebus essentialiter, praesentialiter, potentialiter; 
+          <lb ed="#Q"/>3. de numero istorum modorum: essentialiter, praesentialiter, potentialiter;
+          <lb ed="#Q"/>4. quae sit! ratio distinguendi istos modos;
+          <lb ed="#Q"/>[5. utrum praedictis tribus modis existat Deus in rebus aequaliter vel non].
+          <!-- praem stuff -->
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c1-d1e3757">
+          <lb ed="#Q"/>Quantum ad primum: 0. Sic opponit Ansel<lb ed="#Q"/>mus: 
+          « Si Deus ubique est essentialiter, ergo
+          <lb ed="#Q"/>et ubi locus est" et ubi locus non est: erititaque
+          <lb ed="#Q"/>extra omnem locum et intra omnem locum; eriti
+          <lb ed="#Q"/>supra omnia, infra omnia ", intra omnia, extra
+          <lb ed="#Q"/>omnia' »; ergo est extra res.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c1-d1e3774">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>b. Item, Anselmus, in Monologian 4: « Quo<lb ed="#Q"/>niam
+          absurdum est, ut scilicet quemadmodum
+          <lb ed="#Q"/>nullatenus aliquid creatum potest exirem creantis
+          [et] foventis immensitatem, sic creans et fovens ne<lb ed="#Q"/>quaquam
+          valet" aliquo modo excedere factorum
+          <lb ed="#Q"/>universitatem, liquet quoniam ipsa est quae cuncta 
+          <pb ed="#Q" n="71"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>alia portat et superat, claudit et penetrat ». Et
+          <lb ed="#Q"/>vult dicere quod, sicut abusivum " esset dicere
+          <lb ed="#Q"/>quod res creata se extendit ultra immensitatem
+          <lb ed="#Q"/>creantis, ita quod Creator claudatur in creaturis
+          <lb ed="#Q"/>ita quod eas non excedat; ergo est extra eas ".
+          <lb ed="#Q"/>Contra: 1. Nihil est extra omne; ergo nihil est
+          <lb ed="#Q"/>extra res; ergo nec Deus est extra res.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c1-d1e3809">
+          <lb ed="#Q"/>2. Item, bene sequitur: ' si hoc est in hoc, ergo
+          <lb ed="#Q"/>illud in quoe est, est' 1, quia in quo est aliquid,
+          <lb ed="#Q"/>ipsum est; si ergo Deus est extra res, ergo ali<lb ed="#Q"/>quid
+          est extra res: quod est falsum; ergo et
+          <lb ed="#Q"/>primum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c1-d1e3822">
+          <lb ed="#Q"/>Solutio: Dicendum quod Deus est in rebus
+          <lb ed="#Q"/>et extra res; unde « intra est non inclusus, extra
+          <lb ed="#Q"/>non exclusus2 »; et idem est dicere * Deus est
+          <lb ed="#Q"/>extra res ' et ' Deus est in se '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c1-d1e3833">
+          <lb ed="#Q"/>[Ad abiecta]: 1. Ad primam rationem in con<lb ed="#Q"/>trarium 
+          dicendum quod 4 hoc signum ' omne ' po<lb ed="#Q"/>test
+          distribuere pro universitate creaturarum so<lb ed="#Q"/>lum:
+          et sic illa propositio est falsa. Vel potest
+          <lb ed="#Q"/>supponere pro eo qui est supra universitatem
+          <lb ed="#Q"/>creaturarum, et hoc est Deus: et sic est vera,
+          <lb ed="#Q"/>quia nihil est' extra Deum. Et primo modo ac<lb ed="#Q"/>cipitur,
+          cum dicitur Deus esse extra omne.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c1-d1e3853">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod cum dicitur
+          ' in quo est aliquid ' etc., si hoc quod dico ' aliquid'
+          <lb ed="#Q"/>supponit rem particularem, vera est illa propo<lb ed="#Q"/>sitio;
+          sed Deus non est res particularis: propter
+          <lb ed="#Q"/>quod non sequitur quodf si Deus est extra res,
+          <lb ed="#Q"/>quod aliquid particulare 8, aliud a Deo, est extra
+          <lb ed="#Q"/>res; immo idem est dicere 'Deus est extra res'
+          <lb ed="#Q"/>quod 'Deus est in se': per hoc enim quod est
+          <lb ed="#Q"/>in se, qui est supra universitatem rerum, sequitur
+          <lb ed="#Q"/>quod'. sit extra omnia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

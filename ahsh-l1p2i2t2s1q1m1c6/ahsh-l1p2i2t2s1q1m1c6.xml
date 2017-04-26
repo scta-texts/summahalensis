@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 1, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-24">April 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-24" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="575"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q1m1c6">
+        <head xml:id="ahsh-l1p2i2t2s1q1m1c6-Hd1e118">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 1, C. 6</head>
+        <head xml:id="ahsh-l1p2i2t2s1q1m1c6-Hd1e121" type="question-title">DE CONSIGNIFICATIONE HUIUS NOMINIS 'PERSONA'</head>
+        <p xml:id="ahsh-l1p2i2t2s1q1m1c6-d1e124">
+          <lb ed="#Q"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Consequenter quaeritur de consignificatione "
+          <lb ed="#Q"/>huius nominis 'personaï Quaeritur ergo utrum
+          <lb ed="#Q"/>idem significetur nomine personae in plurali et
+          <lb ed="#Q"/>singulari.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m1c6-d1e140">
+          <lb ed="#Q"/>Si enim dicatur quod idem: sed in singulari
+          <lb ed="#Q"/>significat essentiam; ergo cum" non contingat
+          <lb ed="#Q"/>dicere plures essentias divinas, nec dicentur plu<lb ed="#Q"/>res
+          personae. — Sed quod idem significe<lb ed="#Q"/>tur,
+          videtur: quia numerus pluralis non potest
+          <lb ed="#Q"/>significari nisi circa aliquod communicabile; sed
+          <lb ed="#Q"/>in personis nihil est commune nisi essentia; ergo 
+          <lb ed="#Q"/>necesse est!, illud nomen in plurali significare
+          <lb ed="#Q"/>essentiam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m1c6-d1e162">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Respondeo 4, secundum qu os d am 3, quod '
+          <lb ed="#Q"/>hoc nomen ' persona ' sines determinatione et in
+          <lb ed="#Q"/>singulari significat essentiam *, sed in plurali si<lb ed="#Q"/>gnificat
+          hypostasim. Sed quod istud non possit
+          <lb ed="#Q"/>esse: ostensum est prius 4. Propter hoc dicendum
+          <lb ed="#Q"/>secundum Richardum, in libro De Trinitate 5,
+          <lb ed="#Q"/>et Boethiumö, quod in singulari et in plurali
+          <lb ed="#Q"/>hoc nomen ' persona ' significat substantiam, quae
+          <lb ed="#Q"/>est hypostasis, hoc est per modum substantiae
+          <lb ed="#Q"/>singularis. Unde Ri chardus: « Cum dicitur per<lb ed="#Q"/>sona,
+          intelligitur unus aliquis, qui tamen sit ra<lb ed="#Q"/>tionalis
+          substantiae; cum dicitur ' personae tres ',
+          <lb ed="#Q"/>intelliguntur tres aliqui, qui tamen sint rationalis
+          <lb ed="#Q"/>naturae ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

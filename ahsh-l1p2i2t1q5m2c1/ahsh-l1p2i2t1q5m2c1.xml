@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 5, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-23">April 23, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-23" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="558"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q5m2c1">
+        <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e118">I, P. 2, Inq. 2, Tract. 1, Q. 5, M. 2, C. 1</head>
+        <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e121" type="question-title">DE NOMINIBUS RELATIVE LOGICE DESIGNANTIBUS.</head>
+        <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e124">
+          <pb ed="#Q" n="558"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Circa primum quaeritur sicb: Primo, utrum 'ae- '
+          <lb ed="#Q"/>Cqualis et similis? seu 'similitudo et aequalitas'
+          <lb ed="#Q"/>dicantur secundum substantiam vel relative ;.
+          <lb ed="#Q"/>secundo, utrum Pater debeat dici aequalis vel
+          <lb ed="#Q"/>similis Filio sicut dicitur e converso; 
+          <lb ed="#Q"/>tertio, utrum Pater debeat dicit coaequalis
+          <lb ed="#Q"/>Filio sive aequalis Imagini;
+          <lb ed="#Q"/>quarto, utrum Christus, secundum quod homo,
+          <lb ed="#Q"/>sit similis sibi Deo. '
+        </p>
+        <div xml:id="ahsh-l1p2i2t1q5m2c1-Dd1e150" type="ariculus">
+          <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e152">ARTICULUS I.</head>
+          <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e155" type="question-title">Utrum 'aequalis, similis' etc. dicantur secundum substantiam vel relative.</head>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e158">
+            <lb ed="#Q"/>Ad primum sic obicitur: 1. <ref>Magister, in Sen<lb ed="#Q"/>tentiis,
+            31 dist. I libri</ref>, definit similitudinem, di<lb ed="#Q"/>cens:
+            <cit>
+              <quote xml:id="ahsh-l1p2i2t1q5m2c1-Qd1e171" source="http://scta.info/resource/pll1d31c1-d1e3569">« Similitudo est indifferens essentia »</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d31c1-d1e3569">Lombardus, Sent. I, d. 31, c. 1 [n. 7]</ref></bibl>
+            </cit>. 
+            Ergo
+            'aequalis et similis' essentiam significant, quia,
+            <lb ed="#Q"/>secundum Hilarium 3, aequalitas est idem quod
+            <lb ed="#Q"/>similitudo.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e185">
+            <lb ed="#Q"/>2. Item, <ref>31 dist. I libri Sententiarum</ref>, dicitur 94:
+            <cit>
+              <quote xml:id="ahsh-l1p2i2t1q5m2c1-Qd1e194" source="http://scta.info/resource/pll1d31c1-d1e3564">Aequalitas Patris et Filii non est relatio vel 
+                <lb ed="#Q"/>notio, sed unitas naturae et identitas.
+              </quote>
+              <bibl><ref target="http://scta.info/resource/pll1d31c1-d1e3564">Lombardus, Sent. I, d. 31, c. 1 [n.6]</ref></bibl>
+            </cit>
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e205">
+            <lb ed="#Q"/>3.-Item, nihil quod dicitur relative dicitur de
+            <lb ed="#Q"/>qualibet persona; sed 'aequalis' de qualibet prae<lb ed="#Q"/>dicatur;
+            ergo non dicitur relative.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e215">
+            <lb ed="#Q"/>4. Item, sicut sapiens secundum sapientiam est
+            <lb ed="#Q"/>sapiens, sic aequalef secundum aequalitatem?
+            <lb ed="#Q"/>aequale. Cum ergo Pater et Filius secundum sub<lb ed="#Q"/>stantiam
+            sint aequales, ergo aequalitas est es<lb ed="#Q"/>sentia;
+            ergo "aequalis ' significat substantiam;
+            <lb ed="#Q"/>ergo non dicitur relative.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e231">
+            <lb ed="#Q"/>Contra hoc obicitur a. auctoritate Hilarii, De
+            <lb ed="#Q"/>Trinitate5: « Nihil est sibi '1 simile vel aequale »;
+            <lb ed="#Q"/>et ita 'aequalis 17, similis' connotant'c pluralitatem;
+            <lb ed="#Q"/>sed nihil dictum secundum substantiam plurali<lb ed="#Q"/>tatem
+            significat; ergo dicuntur relative.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e244">
+            <lb ed="#Q"/>b. Item, definitio relativorum convenit ' aequali '
+            <lb ed="#Q"/>et 'simili". — Praeterea '", possunt pluraliter
+            <lb ed="#Q"/>vere significari; cum ergo in divinis non sit plu<lb ed="#Q"/>ralitas
+            substantiae, sed relativorum tantum, ne—
+            <lb ed="#Q"/>cesse est ista relative dici.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e257">
+            <lb ed="#Q"/>c. Item, Boethius, in libro De hebdomadibusö:
+            <cb ed="#Q" n="b"/>
+            « In Patre unitas, in Filio aequalitas, in Spiritu
+            <lb ed="#Q"/>Sancto utriusque connexio ». Ergo aequalitas di<lb ed="#Q"/>citur
+            personaliter. '
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e268">
+            <lb ed="#Q"/>a'. Item, Augustinus 7: « Quod secundum
+            <lb ed="#Q"/>substantiam dicitur, ad se dicitur »; sed aequalitas
+            <lb ed="#Q"/>dicitur ad aliud vel ad alium; ergo aequalitas di<lb ed="#Q"/>citur
+            secundum relationem; ergo non dicit sub<lb ed="#Q"/>stantiam.'
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e281">
+            <lb ed="#Q"/>e. Item, Augustinus 3: « Quod relative dici<lb ed="#Q"/>tur
+            non indicat substantiam ». Ergo hoc nomen
+            ' aequalis '" non significat substantiam.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e289">
+            <lb ed="#Q"/>f. Item, si hoc nomen ' aequalis' significat sub<lb ed="#Q"/>stantiam
+            0 et est relativum, ergo substantia rela<lb ed="#Q"/>tive
+            dicitur; ergo ipsa per relationem ab aliquo
+            <lb ed="#Q"/>distinguitur.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e300">
+            <lb ed="#Q"/>[Solutio]: Ad hoc nota triplicem opinionem.
+            <lb ed="#Q"/>Quidam enim dicunt quod haec nomina ' aequa<lb ed="#Q"/>lis,
+            similis' tantuni remotive accipiuntur, ut cum
+            <lb ed="#Q"/>dicitur ' Pater et Filius sunt aequales ', id est non
+            <lb ed="#Q"/>sunt inaequales, et 'sunt similes ', id est non sunt
+            <lb ed="#Q"/>dissimiles. In qua sententia videtur fuisse? Lom<lb ed="#Q"/>bardus. 
+            In prima '! enim editione Sententiarum
+            <lb ed="#Q"/>dixitg: 
+            <cit>
+              <quote xml:id="ahsh-l1p2i2t1q5m2c1-Qd1e321" source="http://scta.info/resource/pll1d31c1-d1e3569">Similitudo est indifferens substantia</quote> <!-- lombard text actually has "essentia rather than substantia -->
+              <bibl><ref target="http://scta.info/resource/pll1d31c1-d1e3569">Lombardus, Sent. I, d. 31, c. 1 [n. 7]</ref></bibl>
+            </cit>;
+            <lb ed="#Q"/>et in secunda, quasi corrigens, dixit: 
+            <cit>
+              <quote xml:id="ahsh-l1p2i2t1q5m2c1-Qd1e335">Similitudo <lb ed="#Q"/>est indifferentia</quote> <!-- not clear to what the second edition of lombard is; should be a second expression; and pointer should be to id for this expression  -->
+            </cit>, 
+            quasi dicat: Pater et Filius di<lb ed="#Q"/>cuntur'
+            similes, quia non sunt differentes. — S ed
+            <lb ed="#Q"/>contra hoc sic obicitur: Catholicus dicit * Pater
+            <lb ed="#Q"/>et Filius sunt aequales ', Arius 10 haereticus dicit
+            " Pater et Filius non sunt aequales '. Inde sic: 
+            <lb ed="#Q"/>
+            <lb ed="#Q"/>quod catholicus affirmat, haereticus negat, et
+            <lb ed="#Q"/>haereticus aliquid removet dicendo 'Pater et Fi<lb ed="#Q"/>lius
+            non sunt aequales'; ergo catholicus aliquid
+            <lb ed="#Q"/>ponit, cum dicit 'Pater et Filius sunt aequales ',
+            <lb ed="#Q"/>et non tantum removet. Item, dicit auctoritas]:
+            « ln personis proprietas et in essentia unitas et
+            <lb ed="#Q"/>in'maiestate adoretur aequalitas »; ergo aequalitas
+            <lb ed="#Q"/>trium est adoranda; sed non alia adoratione quam
+            <lb ed="#Q"/>latria; ergo aequalitas trium est divina essentia;
+            <lb ed="#Q"/>ergo hoc nomen ' aequalis ' ponit aliquid. Item 2:
+            <lb ed="#Q"/>Faciamus hominem ad imaginem et similitudinem
+            <lb ed="#Q"/>nostram ; ibi dicit auctoritas Hilarii3 quod per
+            <lb ed="#Q"/>imaginem et similitudinem intelligitur unitas es<lb ed="#Q"/>sentiae;
+            ergo similitudo est divina essentia; sed
+            <lb ed="#Q"/>hoc nomen ' similis ' significat similitudinem ; ergo
+            <lb ed="#Q"/>significat divinam essentiam. Si enim " similitudo
+            <lb ed="#Q"/>aliquid est, quae ratio est quod ' bonus ' bonita—
+            <lb ed="#Q"/>tem et ' magnus ' magnitudinem, et ' similis ' non 17
+            <lb ed="#Q"/>significat similitudinem ' ?
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e392">
+            <lb ed="#Q"/>Aliorum4 opinio est quod sunt relationes
+            <lb ed="#Q"/>essentiales et personales: essentiales, ut 'similis,
+            'aequalis'; personales, ut 'Pater etc Filius ',
+            <lb ed="#Q"/>et dicunt quod relatio essentialis non est essen<lb ed="#Q"/>tia.
+            — Sed contra: 'Aequalis vel similis' aut
+            <lb ed="#Q"/>dicit essentiam d aut relationem. Si essentiam:
+            <lb ed="#Q"/>ergo essentia dicitur relative; si personam: ergo
+            <lb ed="#Q"/>non convenit tribus; si autem non significat nec
+            <lb ed="#Q"/>essentiam nec personam, ergo non est aliquid di<lb ed="#Q"/>vinum;
+            ergo est creatum. Item, Filius est aequalis
+            <lb ed="#Q"/>Patri secundum substantiam; ergo hoc nomen
+            ' aequalis ' praedicat substantiam.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e416">
+            <lb ed="#Q"/>Ad hoc dicunt quod 'dici secundum sub<lb ed="#Q"/>stantiam'
+            duobus modis dicitur, quia 'dici se<lb ed="#Q"/>cundum
+            substantiam ' hoc est significare substan<lb ed="#Q"/>tiam
+            vel quod substantia sit causa dicti 2, ut cum
+            <lb ed="#Q"/>dicitur ' Petrus est similis Martino albedine', hic
+            <lb ed="#Q"/>est sensus: id estf albedo est causa similitudinis.
+            <lb ed="#Q"/>Ita dicunt, cum dicog "Filius est aequalis Patri
+            <lb ed="#Q"/>secundum aequalitatem ', hic notatur quod ' aequa<lb ed="#Q"/>lis'
+            significat aequalitatem ", sed cum dico 'Filius
+            <lb ed="#Q"/>est aequalis Patri secundum substantiam ', notatur
+            <lb ed="#Q"/>quod substantia sit causa aequalitatis. — Sed
+            <lb ed="#Q"/>ad hoc sic obicitur': Divina substantia est
+            <lb ed="#Q"/>causa aequalitatis trium personarum et non est
+            <lb ed="#Q"/>illa nec [id] quod illa; ergo naturaliter est prior
+            <lb ed="#Q"/>illa, et Filius est aequalis Patri: illa ergo natura
+            <lb ed="#Q"/>Patris est prior aequalitate Filii; ergo Filius illa
+            <lb ed="#Q"/>aequalitate, non per omnia, est aequalis Patri 5.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e455">
+            <lb ed="#Q"/>Respondeo: Notandum quod divina essentia 
+            significatur quandoque ut substantia, quandoque
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>ut quantitas, quandoque ut qualitas, quandoque ut
+            <lb ed="#Q"/>relatio. Est enim significare eam absolute: et sic
+            <lb ed="#Q"/>significatur ut substantia, ut quantitas, ut quali<lb ed="#Q"/>tas;
+            et est" eam significare ut est in tribus per<lb ed="#Q"/>sonis,
+            communis eis, et sic potest significari ut
+            <lb ed="#Q"/>relatio, ut cum dicitur 'similitudo, aequalitas';
+            <lb ed="#Q"/>haec autem nomina principaliter significant divi<lb ed="#Q"/>nam
+            essentiam, sed connotant distinctionem per<lb ed="#Q"/>sonarum.
+            Dicendum ergo quod 'unitas, aequa<lb ed="#Q"/>litas
+            ' secundum se significant divinam essentiam,
+            <lb ed="#Q"/>sed tamen' unitas appropriatur Patri, quia unitas
+            <lb ed="#Q"/>est primum principium numeri "', similiter Pater
+            <lb ed="#Q"/>est primum principium a quo omnis natura et
+            <lb ed="#Q"/>omnis essentia; aequalitas vero appropriatur Filio,
+            <lb ed="#Q"/>quia ordine naturae intelligitur ante Spiritum Sanc<lb ed="#Q"/>tum
+            aequalitas Patris et Filii. Praeterea, Filius est
+            <lb ed="#Q"/>a Patre per generationem; in perfecta autem ge<lb ed="#Q"/>neratione
+            est aequalitas generantis et geniti. <lb ed="#Q"/>Quare
+            autem connexio approprietur Spiritui Sancto
+            <lb ed="#Q"/>habebitur infra'5 responsio, quod licet unitas et
+            <lb ed="#Q"/>aequalitas quodam modo' appropriationis attri<lb ed="#Q"/>buantur"
+            determinate aliquibus personis', nihilo<lb ed="#Q"/>minus
+            omnibus indifferenter conveniunt. Intelli<lb ed="#Q"/>gendum
+            est igitur quod aequalitas in divinis est
+            <lb ed="#Q"/>aliquorum distinctorum in uno communi essen<lb ed="#Q"/>tiali
+            convenientia indifferens, ut personarum" in
+            <lb ed="#Q"/>una essentia sive substantia. Unde aequalitas prin<lb ed="#Q"/>cipaliter
+            significat divinam essentiam, sed consi<lb ed="#Q"/>gnificat
+            distinctionem, ratione cuius attenditurP
+            <lb ed="#Q"/>pluralitas personarum, quae sibi invicem sunt ae<lb ed="#Q"/>quales.
+            Ratione ergo principalis? significati dicit
+            <lb ed="#Q"/>essentiam sive substantiam, ratione distinctionis
+            <lb ed="#Q"/>consignificatae importat relationem. '
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e533">
+            <lb ed="#Q"/>[Ad obiecta]: Et" ex iis, patet responsio ad
+            <lb ed="#Q"/>obiecta ex utraque parte. Rationes enim con<lb ed="#Q"/>cludentes
+            quod significat substantiam sumuntur
+            <lb ed="#Q"/>ex parte principalis significati, scilicet essentiae
+            <lb ed="#Q"/>sive substantiae, concludentes quod relationem
+            <lb ed="#Q"/>sumuntur ex parte distinctionis consignificatae.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e550">
+            <lb ed="#Q"/>1-4. Ad illud ergo quod obicitur quod «simi<lb ed="#Q"/>litudo
+            est indifferens essentia», similiter ad illud
+            <lb ed="#Q"/>quod « aequalitas non est relatio, sed unitas natu<lb ed="#Q"/>rae
+            et identitass », similiter ad illud quod ' aequa<lb ed="#Q"/>litas
+            dicitur de qualibet persona ', similiter ad illud
+            <lb ed="#Q"/>quod2 'Pater et Filius secundum substantiam sunt
+            <lb ed="#Q"/>aequales': dicendum quod omnia ista media su<lb ed="#Q"/>muntur
+            ex parte principalis significati eius " quod
+            <lb ed="#Q"/>est aequalitas, ut ex " ipsis mediis patet.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e572">
+            <lb ed="#Q"/>a-f. Ad" ea quae ex alia parte, ut cum dicitur
+            « nihil est sibi aequale » et ita 'aequalis' significat
+            <pb ed="#Q" n="560"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>pluralitatem: dicendum quod medium sumitur hic
+            <lb ed="#Q"/>ex parte consignificatae distinctionis sive multi<lb ed="#Q"/>tudinis.
+            Similiter cum dicitur 'ratio" relativorum
+            <lb ed="#Q"/>convenit aequali ', hoc verum est, non" ratione
+            <lb ed="#Q"/>essentiae principalis significatae, sed ratione plu<lb ed="#Q"/>ralitatis
+            consignificatae ' sive coimportatae. Simi<lb ed="#Q"/>liter
+            dicendum ad alia quae inducuntur pro ' parte
+            <lb ed="#Q"/>ista.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e598">
+            <lb ed="#Q"/>Ad maiorem autem evidentiam notandum quod
+            <lb ed="#Q"/>haec nomina 'aequalis, similis ', aequalitas, simi<lb ed="#Q"/>litudo'
+            nec sunt pure essentialia nec pure rela<lb ed="#Q"/>tiva.
+            — Quod patet per Hilarium, in libro
+            <lb ed="#Q"/>De Trinitate 1, exponentem illud Gen. 2: Faciamus
+            <lb ed="#Q"/>hominem ad imaginem etc. lbi enim dicit quod
+            . imago sola non est nec similitudo sibi est nec
+            <lb ed="#Q"/>diversitatem duobus admisceri alterius ad alteram
+            <lb ed="#Q"/>similitudo permittit :. Ex quo patet quod simili—
+            <lb ed="#Q"/>tudo importat distinctionem personarum et unita<lb ed="#Q"/>tem
+            essentiaef, et aequalitas similiter. Unde no<lb ed="#Q"/>mina
+            praedicta non sunt pure essentialia nec pure
+            <lb ed="#Q"/>relativa, sed differenter significant haec nomina
+            ' aequalis et similis et aequalitas ' et simili<lb ed="#Q"/>tudo':
+            quoniam 'aequalis et similis' in intel<lb ed="#Q"/>lectu
+            suo claudunt relationem recte, essentiam
+            <lb ed="#Q"/>oblique; ' aequalitas" et similitudo' e converso.
+            <lb ed="#Q"/>Si enim quaeritur: qui sunt similes vel aequales?
+            <lb ed="#Q"/>dicetur quoniam plures habentes indifferentem
+            <lb ed="#Q"/>essentiam; aequalitas autem vel similitudo dice<lb ed="#Q"/>tur
+            «indifterens essentia'» plurium; unde cum 
+            <lb ed="#Q"/>definitur similitudo per indifferentem essentiam,
+            <lb ed="#Q"/>non dicitur totum esse similitudinis nisi addatur
+            <lb ed="#Q"/>aliqua dictio importans distinctionem. Unde patet
+            <lb ed="#Q"/>quod'aequalis et similis' plus dicuntur relative,
+            <lb ed="#Q"/>quia relationem important in recto; *aequalitas '
+            <lb ed="#Q"/>vero * et ' similitudo ' plus dicuntur essentialiter;
+            <lb ed="#Q"/>utraque tamen' partim essentialiter, partim re<lb ed="#Q"/>lative
+            dicuntur.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e659">
+            <lb ed="#Q"/>Item, nota cum praedictis quod definitio simi<lb ed="#Q"/>litudinis
+            vel aequalitatis per 'indifferentem essen<lb ed="#Q"/>tiam'
+            non est data per essentiam.—Q uod p atet:
+            <lb ed="#Q"/>definiuntur enim sic in creaturis similitudo et ae<lb ed="#Q"/>qualitas:
+            similitudo est plurium subiectorum una
+            <lb ed="#Q"/>qualitas "', aequalitas autem plurium subiecto<lb ed="#Q"/>rum
+            una quantitas"; causatur enim similitudo ab
+            <lb ed="#Q"/>unitate qualitatis et aequalitas" sub una quanti<lb ed="#Q"/>tate.
+            Unde hae definitiones non dantur per es<lb ed="#Q"/>sentiam,
+            sed per causam; unde non valet: 'simi<lb ed="#Q"/>litudo
+            est multorum uua qualitas, nulla qualitas
+            <lb ed="#Q"/>est relatio, ergo similitudo non est relatio '. Sed
+            <lb ed="#Q"/>similiter est? in divinis: similitudo et aequalitas
+            <lb ed="#Q"/>secundum rationem intelligentiae sunt ab indiffe<lb ed="#Q"/>rentia
+            essentiae sicut a causa — secundum ratio<lb ed="#Q"/>nem
+            intelligentiae, dico, non secundum rem, quia
+            <lb ed="#Q"/>in divinis ' idem est magnitudo et aequalitas quod
+            <lb ed="#Q"/>essentia3 — unde cum definitur similitudo per
+            'indifferentem essentiam ', definitur non per essen<lb ed="#Q"/>tiam,
+            sed quasi' per causam; unde ex hoc non se<lb ed="#Q"/>quitur
+            quod similitudo vel aequalitas non sint re<lb ed="#Q"/>lationes
+            vel relative dicta.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i2t1q5m2c1-Dd1e708" type="articulus">
+          <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e710">ARTICULUS II</head>
+          <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e713" type="question-title">Utrum Pater debeat dici aequalis vel similis Filia.</head>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e716">
+            <lb ed="#Q"/>Secundo' quaeritur utrum Pater debeat dici
+            <lb ed="#Q"/>aequalis vel similis' Filio sicut dicitur e con<lb ed="#Q"/>verso'.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e725">
+            <lb ed="#Q"/>Ad quod sic: 1. Augustinus, VI De Trini<lb ed="#Q"/>tatc5,
+            recitatis verba Hilarii: «Aeternitas in
+            <lb ed="#Q"/>Patre, species in imagine, usus in Munere », dicit
+            <lb ed="#Q"/>enim: . imago, si perfecte implet illud cuius est
+            <lb ed="#Q"/>imago, ipsa coaequatur ei, non illud imagini suae ».
+            <lb ed="#Q"/>Ex quo videtur quod Filius aequalis sit Patri,
+            <lb ed="#Q"/>sed non e converso.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e743">
+            <cb ed="#Q" n="b"/>
+            2. Ad" idem, Dionysius, in libro De divinis
+            <lb ed="#Q"/>nominibus": «Hic igitur dicendum Deo similia
+            <lb ed="#Q"/>secundum imaginem et similitudinem: non enim
+            <lb ed="#Q"/>ipsis Deum similem, quia nec homo proprie ima<lb ed="#Q"/>ginis
+            suae similis est in aequipollenübus enim"
+            <lb ed="#Q"/>est similia haec ad invicem esse et inter se con<lb ed="#Q"/>verti
+            in alterutram similitudinem et esse ambo:
+            <lb ed="#Q"/>sibi invicem similia secundum procedentem si<lb ed="#Q"/>milis
+            speciem: in causali vero et tumentisy non
+            <lb ed="#Q"/>recipimus reciprocationem -. Et ita videtur, cum
+            <lb ed="#Q"/>in Trinitate sit ordo secundum positionem '
+            <pb ed="#Q" n="561"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>causae, quoniam Pater est causa Filii nec est11
+            <lb ed="#Q"/>ibi reciprocatio secundum aequalitatem aut simi<lb ed="#Q"/>litudinem.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e781">
+            <lb ed="#Q"/>[Solutio]: Sed ista auctoritas Dionysii non
+            <lb ed="#Q"/>multum cogit, quia potest dici quod loquitur de
+            <lb ed="#Q"/>causis et causatis differentibus secundum essen<lb ed="#Q"/>tiam
+            et naturam. — Vel aliter potest dici quod
+            "aequalis et" similis' multipliciter dicuntur. Quan<lb ed="#Q"/>doque
+            enim dicuntc unitatem naturae cum diffe<lb ed="#Q"/>rentia
+            personarum solum: et hoc modo dicuntur
+            <lb ed="#Q"/>de qualibet trium personarum respectu alterius,
+            <lb ed="#Q"/>et sic personae in Trinitate dicuntur sibi invicem
+            <lb ed="#Q"/>aequales vel consimiles c0nversim1. Alio modo
+            'aequalis et similis' ultra unitatem naturae et
+            <lb ed="#Q"/>multitudinem personarum important rationem ali<lb ed="#Q"/>quam
+            ad aliquid prius secundum rationem intel<lb ed="#Q"/>ligendi,
+            prout dicitur quod Filius dicitur esse si—
+            <lb ed="#Q"/>militudo Patris et imago, et secundum hoc dicetur
+            'similis' a similitudine, 'aequalis' ab imagine;
+            <lb ed="#Q"/>et sic convenit dicere de Filio quod est similis
+            <lb ed="#Q"/>Patri, quia est Patris similitudo, et aequalis Pa<lb ed="#Q"/>tri
+            4, quia est Patris imago; et secundum hoc
+            <lb ed="#Q"/>non convertitur, ut dicatur de Patre quoniam est
+            <lb ed="#Q"/>similis Filio vel aequalis: secundum enim hunc
+            <lb ed="#Q"/>modum 'aequalis' vel similis' dicunt esse ab alio,
+            <lb ed="#Q"/>quod non convenit Patri. Tamen non quorumlibet 
+            <lb ed="#Q"/>est huiusmodi acceptio; ideo concedatur conversio
+            <lb ed="#Q"/>secundum primum sensum etf exponantur aucto<lb ed="#Q"/>ritates
+            secundum alium sensum g.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e833">
+            <lb ed="#Q"/>Item, obiciet aliquis: Filius est similis
+            <lb ed="#Q"/>Patri; aut hoc quod dico 'similis Patri' dicitur
+            <lb ed="#Q"/>de Filio secundum essentiam aut secundum re<lb ed="#Q"/>lationem.
+            Si secundum relationem, ergo hoc no<lb ed="#Q"/>men
+            'similis' non est essentiale; si secundum
+            <lb ed="#Q"/>substantiam, ergo conveniet Patri: quidquid enim
+            <lb ed="#Q"/>secundum substantiam dicitur convenit tribus;
+            <lb ed="#Q"/>ergo Pater est similis Patri. — Respondeo:
+            <lb ed="#Q"/>sicut dictum est 2, 'similis' partim est essen<lb ed="#Q"/>tiale,
+            partim personale indeterminatum; cum au<lb ed="#Q"/>tem
+            sine aliqua determinatione accipitur voca<lb ed="#Q"/>bulum,
+            potest addi ad quamlibet personam: unde"
+            <lb ed="#Q"/>Pater similis, Filius similis; sed cum relatio de<lb ed="#Q"/>terminatur
+            ', ut cum dicitur 'similis Patri ', co<lb ed="#Q"/>arctatur
+            ad determinatam personam, non ratione
+            <lb ed="#Q"/>significatae essentiae, sed ratione determinatae
+            <lb ed="#Q"/>personae. Dicendum ergo quod partim accipitur
+            <lb ed="#Q"/>secundum substantiam, partim secundum relatio<lb ed="#Q"/>nem;
+            et hoc significatur, cum dicitur ' Filius si<lb ed="#Q"/>milis
+            Patri ', quod differens vel distinctus Filius
+            <lb ed="#Q"/>a Patre habet conformem naturam sive formam
+            <lb ed="#Q"/>cum Patre.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i2t1q5m2c1-Dd1e885" type="articulus">
+          <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e887">ARTICULUS III</head>
+          <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e890" type="question-title">Utrum Pater debeat dici coaequalis Filio sive aequalis Imagini.</head>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e893">
+            <lb ed="#Q"/>Tertio quaeritur I. utrum Pater debeat dici
+            <lb ed="#Q"/>coaequalis Filio sive aequalis Imagini3.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e900">
+            <lb ed="#Q"/>Ad quod sic: a. Hilarius, in libro De Tri<lb ed="#Q"/>nitate4:
+            «Imago, si'c perfecte implet illud cuius
+            <lb ed="#Q"/>est imago, ipsa coaequatur illi, non illud imagini
+            <lb ed="#Q"/>suae ». Quaeritur ergo, cum Filius Patri et Pater
+            <lb ed="#Q"/>Filio coaequalis dicitur, quare Filius coaequatur
+            <lb ed="#Q"/>Patri, non autem' e converso.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e916">
+            <lb ed="#Q"/>Respondeo: Cum dicitur 'coaequalisf, notatur
+            <lb ed="#Q"/>unitas substantiae et Patris et Filii et non coin<lb ed="#Q"/>telligitur
+            auctoritas sive'" ordo naturae; cum
+            <lb ed="#Q"/>autem dicitur ' Filius coaequatur Patri ', sensus
+            ,est: ' Filius est unum cum Patre in potentia ',
+            <lb ed="#Q"/>et hoc habet a Patre, quod non est dicere de
+            <lb ed="#Q"/>ipso Patre; et ideo non convertitur sermo cum
+            <lb ed="#Q"/>hoc verbo 'coaequatur '.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e935">
+            <lb ed="#Q"/>II. Sed adhuc quaeritur, si imago Patris est
+            <lb ed="#Q"/>aequalis " Patri, utrum convertatur ut dicatur
+            'Pater est aequalis Imagini '. -— Praeterea, si
+            <lb ed="#Q"/>convertitur 'Filius est aequalis Patri, Pater Fi<lb ed="#Q"/>lio',
+            quare non convertitur 'Imago est aequalis
+            <lb ed="#Q"/>Patri, Pater est aequalis Imagini'?
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e948">
+            <lb ed="#Q"/>Respondeo: Cum dicitur 'Imago', notatur re<lb ed="#Q"/>spectus
+            ad Patrem, sed non mutuus sicut cum di<lb ed="#Q"/>citur
+            'Pater et Filius ', et propter hoc non con<lb ed="#Q"/>vertitur
+            cum hac dictione ' Imago ' sicut cum hac
+            <lb ed="#Q"/>dictione ' Filius '. Praeterea, quia ' Imago ' dicit re<lb ed="#Q"/>spectum
+            ad Patrem, non autem convertitur, 'ae—
+            <lb ed="#Q"/>qualis, autem dicit indifferentiam potentiae, nen
+            <lb ed="#Q"/>convertitur ut Pater dicatur aequalis " Imagini; in
+            <lb ed="#Q"/>prima enim? is est sensus: ' Filius est unum cum
+            <lb ed="#Q"/>Patre et a Patre expressa similitudine ', quod ul—
+            <lb ed="#Q"/>timum non est dicere de Patre respectu Imaginis.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i2t1q5m2c1-Dd1e975" type="articulus">
+          <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e977">ARTICULUS IV</head>
+          <head xml:id="ahsh-l1p2i2t1q5m2c1-Hd1e980" type="question-title">Utrum Christus secundum quod homo sit similis sibi Deo.</head>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e983">
+            <lb ed="#Q"/>Quarto quaeritur utrum Christus secundum quod
+            <lb ed="#Q"/>homo sit similis sibi Deo.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e990">
+            <lb ed="#Q"/>Ad quod sic: !. I Ioan. 3,2: <quote xml:id="ahsh-l1p2i2t1q5m2c1-Qd1e994" ana="#Iio3_2">Scimus quoniam<!--a-->
+            <lb ed="#Q"/>cum apparuerit, similes ei erimus</quote>. Quae autem
+            <lb ed="#Q"/>maior similitudo in creatura Christi hominis ad
+            <lb ed="#Q"/>se Deum? Nulla, ut videtur.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e1006">
+            <lb ed="#Q"/>Contra: a. Cum dicitur ' Filius Dei est homo ',
+            <lb ed="#Q"/>una supponitur persona et ita idem 0; sed idem
+            <lb ed="#Q"/>non est sibi simile.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m2c1-d1e1016">
+            <lb ed="#Q"/>Respondeo et dico quod verum est quod Filius
+            <lb ed="#Q"/>Dei non est similis sibi in quantum est Deus;
+            <lb ed="#Q"/>sed haec similitudo, quae est Filii hominis ad
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Filium Dei, non est secundum substantiam, sed
+            <lb ed="#Q"/>est similitudo gloriae perfectae, cum creatura uni<lb ed="#Q"/>tur
+            Creatori in persona. Cum autem dicitur 'Fi<lb ed="#Q"/>lius 
+            est similis Patri ', similitudo illa est secundum
+            <lb ed="#Q"/>substantiam et de illa loquitur hic. Cum autem
+            <lb ed="#Q"/>dicitur: 'nihil est simile sibi ', intelligitur quod
+            <lb ed="#Q"/>non est vere similitudo, nisi ubi est naturae ' dit<lb ed="#Q"/>ferentia,
+            utin creaturis; in divinis autem nisi ubi
+            <lb ed="#Q"/>fuerit distinctio vel discretio personae. Cum autem
+            <lb ed="#Q"/>dicitur ' Filius Dei est homo similis sibi Deo ', hic
+            <lb ed="#Q"/>est unitas personae; secundum quod ' sic dicitur,
+            <lb ed="#Q"/>etf naturae differentia et ratione differentiae na<lb ed="#Q"/>turarum
+            et unitatis! personae dicitur similitudo.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

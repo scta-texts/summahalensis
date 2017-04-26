@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 1, T. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-05">April 5, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+        <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-04-05" status="draft" n="0.0.0">
+        <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="438"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q1t2c1">
+        <head xml:id="ahsh-l1p1i2t1q1t2c1-Hd1e3741">I, P. 1, Inq. 2, Tract. 1, Q. 1, T. 2, C. 1</head>
+        <head xml:id="ahsh-l1p1i2t1q1t2c1-Hd1e3744" type="question-title">AN PROCESSIO SPIRITUS SANCTI SIT.</head>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e3770">
+          <lb ed="#Q"/>Ad primum ergo arguitur hoc modo: a. Duo
+          <lb ed="#Q"/>sunt principia diffusionis in rebus: natura et
+          <lb ed="#Q"/>voluntas. Perfectissima autem diffusio naturae est
+          <lb ed="#Q"/>illa quae est per generationem, perfectissima dif<lb ed="#Q"/>fusio
+          voluntatis est illa! quae est per amorem sive
+          <lb ed="#Q"/>per dilectionem: et haec est laus bonitatis in re<lb ed="#Q"/>bus;
+          magis autem laudabile est bonum quod dif<lb ed="#Q"/>tundtt
+          se secundum utrumque modum quam quod
+          <lb ed="#Q"/>diffundit se secundum alterum tantum. Si ergo
+          <lb ed="#Q"/>quod est laudabile et perfectum non potest de—
+          <lb ed="#Q"/>esse in summo bono: est igitur in summo bono,
+          <lb ed="#Q"/>quod est Deus, diffusio generationis, quam con<lb ed="#Q"/>sequitur
+          differentia gignentis et geniti, Patris et
+          <lb ed="#Q"/>Filii, et erit ibi diffusio per modum dilectionis,
+          <lb ed="#Q"/>quam dicimus processionem Spiritus Sancti.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e3805">
+          <lb ed="#Q"/>b. Item, sicut<!--II--> summo bono non deest virtus
+          <lb ed="#Q"/>summa naturae, ita nec' deest virtus summa vo<lb ed="#Q"/>luntatis;
+          sed virtus summa naturae necessario po<lb ed="#Q"/>nit
+          diffusionem generationis 3; ergo virtus summa
+          <lb ed="#Q"/>voluntatis ponet diffusionem amoris: sicut enim
+          <lb ed="#Q"/>inter diffusiones naturales illa summa est quae est
+          <lb ed="#Q"/>generatio, ita inter diffusiones voluntatis vel vo<lb ed="#Q"/>luntarias
+          illa est summa quae est dilectio.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e3827">
+          <lb ed="#Q"/>Item 4, summo bono essentiale est esse dif-tu<lb ed="#Q"/>sivum
+          et communicativum 5. Cum ergo duplex sit
+          <lb ed="#Q"/>diffusio sive * communicatio - naturalis, sicut ge<lb ed="#Q"/>neratio,
+          et' gratuita, sicut donatio — erit summo
+          <lb ed="#Q"/>bono". connaturalis diffusio sive communicatio
+          <lb ed="#Q"/>per modum generationis, ut a Patre Filius, et per
+          <lb ed="#Q"/>modum donationis, ut a donante Donum; erit 
+          <lb ed="#Q"/>igitur praeter illam, quae est generatio aeterna,
+          <lb ed="#Q"/>diffusio quae est per modum donationis; diffusio
+          <lb ed="#Q"/>autem per modum donationis est processio amoris;
+          « amor enim est" donum primum et perfectum quo
+          <lb ed="#Q"/>omnia alia donantur proprie: qui enim dat amo<lb ed="#Q"/>rem
+          suum alicui, omnia facit ei communia. Quod
+          <lb ed="#Q"/>enim datur non ex amore, nonb proprie datur:
+          <lb ed="#Q"/>quod enim ex timore datur 0, potius redemptio
+          <lb ed="#Q"/>est quam donatio; quod vero datur ex cupiditate
+          <lb ed="#Q"/>alicuius rei adipiscendae, potius mercimonia est 1».
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e3864">
+          <lb ed="#Q"/>d. Item, « amor est donum intrinsecum in ipso
+          <lb ed="#Q"/>dante, in quo dantur dona extrinseca; prius ** igi<lb ed="#Q"/>tur
+          est donum amoris quam donum aliquod ex<lb ed="#Q"/>trinsecum
+          2 ». In summo igitur largitore prius fuit
+          <lb ed="#Q"/>donum amoris quam aliquod donum extrinsecum
+          <lb ed="#Q"/>conferret creaturis sive esse, antequam scilicet
+          <lb ed="#Q"/>bonitatem creaturis distribueret; fuit igitur donum
+          <lb ed="#Q"/>amoris in Deo ab aeterno; sed donum dicitur re<lb ed="#Q"/>lative
+          ad donatorem; necessario igitur fuit donator
+          <lb ed="#Q"/>et donum aeternum, qui est Spiritus Sanctus.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e3888">
+          <lb ed="#Q"/>e. Item 3, ad idem: in summa bonitate non po<lb ed="#Q"/>test
+          deesse summa et praecipua caritas: summa,
+          <lb ed="#Q"/>qua aliquis * diligit alium sicut se; praecipua, qua
+          <lb ed="#Q"/>vult alium diligi ab alio sicut se. — Probatio
+          <lb ed="#Q"/>primae: ponamusf quod Sortes diligat Sortem
+          <lb ed="#Q"/>sicut se, Pylades etiam? Orestem sicut se et velit
+          <lb ed="#Q"/>eum diligi ab alio sicut se " ; quae harum dilectio<lb ed="#Q"/>num
+          praecipua et magis laudabilis? Constat quod
+          <lb ed="#Q"/>dilectio Pyladis et Orestis. Sed communis est con<lb ed="#Q"/>ceptio
+          animi quod illud quod laudabilius est
+          <lb ed="#Q"/>summo bono tribuendum est; ergo necesse est
+          <lb ed="#Q"/>ponere, quod summum bonumi diligat alium sicut
+          <lb ed="#Q"/>se et velitk illum diligi ab alio sicut se; sed hoc
+          <lb ed="#Q"/>non potest esse in paucioribus quam in' tribus
+          <lb ed="#Q"/>personis; ergo sunt tres personae; ergo Spiritus
+          <lb ed="#Q"/>Sanctus est; sed non habet esse nisi procedendo;
+          <lb ed="#Q"/>ergo processio eius est.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e3927">
+          <lb ed="#Q"/>f. Item, si essent duo bona, quorum unum dif<lb ed="#Q"/>funderet
+          se diffusione naturali et voluntaria, aliud,
+          <lb ed="#Q"/>quod voluntaria tantum: constat quod laudabilius
+          <lb ed="#Q"/>esset bonum illud quod utroque modo se'" dif<lb ed="#Q"/>funderet
+          quam quod altero tantum; sed quod
+          <lb ed="#Q"/>laudabilius est, in summo bono deesse non po<lb ed="#Q"/>test;
+          ergo in summo bono necesse est ponere
+          <lb ed="#Q"/>utrumque modum diffusionis; sed diffusio natu<lb ed="#Q"/>ralis
+          est generatio, diffusio summi boni voluntaria
+          <lb ed="#Q"/>processio; ergo processio est.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e3952">
+          <lb ed="#Q"/>g. Item, Richardus de S. Victore, in li<lb ed="#Q"/>bro
+          De Trinitate4: « Sicut in summa caritate non
+          <lb ed="#Q"/>potest deesse quod maximum est, sic nec deesse
+          <lb ed="#Q"/>poterit quod constat esse praecipuum ". Praeci<lb ed="#Q"/>puum"
+          autem videtur esse in vera caritate alte<lb ed="#Q"/>rum
+          velle diligi ut se: in mutuo siquidem amore
+          <lb ed="#Q"/>multumque fervente nihil praeclarius quam ut ab
+          <lb ed="#Q"/>eo, quem summe diligis et a quo summe dili—
+          <lb ed="#Q"/>geris P, alium aeque diligi velis; probatio itaque
+          <lb ed="#Q"/>consummataeq dilectionis est votiva communio
+          <lb ed="#Q"/>exhibitae sibi dilectionis'». Ex hoc igitur relin<lb ed="#Q"/>quitur
+          quod cum summa sive maxima caritas pro<lb ed="#Q"/>bet
+          dualitatem personarum, quod praecipua caritas
+          <lb ed="#Q"/>probet Trinitatem personarum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e3985">
+          <lb ed="#Q"/>h. Item, Richardus de S. Victore, in eo<lb ed="#Q"/>dem5:
+          «Signum magnaes infirmitatis est non
+          <lb ed="#Q"/>posse pati consortium amoris, posse vero pati
+          <lb ed="#Q"/>magnae perfectionis; maius est gratanter susci<lb ed="#Q"/>pere;
+          maximum autemf ex desiderio requirere ».
+          <lb ed="#Q"/>Si enim magnum est" pati posse, maius est gra<lb ed="#Q"/>tanter
+          suscipere, maximum autem ex desiderio re<lb ed="#Q"/>quirere,
+          « hinc manifesta ratione colligitur" quod
+          <lb ed="#Q"/>praecipuus gradus caritatis et eo ipso plenitudo
+          <lb ed="#Q"/>bonitatis esse non possit, ubix voluntatis vel fa<lb ed="#Q"/>cultatis
+          defectus dilectionis consortem praecipui<lb ed="#Q"/>que
+          gaudii communionem excludit 7. Summe ergo
+          <lb ed="#Q"/>dilectorum summeque diligendorum », scilicet Pa<lb ed="#Q"/>tris
+          et Filii, « uterque oportet quod pari voto con<lb ed="#Q"/>dilectum
+          requirat, pari concordia pro voto possi<lb ed="#Q"/>deat».
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4022">
+          <lb ed="#Q"/>i. Item, idem, in eodem 5: « Dilectionis dulcedine
+          <lb ed="#Q"/>nihil iucundius invenitur, nihil in quo animus
+          <lb ed="#Q"/>amplius delectetur. Huiusmodi autem delicias so<lb ed="#Q"/>lus
+          possidet qui in exhibita sibi dilectione so<lb ed="#Q"/>cium
+          et condilectum habet. Communio itaque
+          <lb ed="#Q"/>amoris non potest esse in minus quam in tribus
+          <lb ed="#Q"/>personis; nihil autem gloriosius, nihil magnifi<lb ed="#Q"/>centius
+          quam quod habes utile et dulce in com<lb ed="#Q"/>mune
+          deducere ».
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4044">
+          <lb ed="#Q"/>k. Item, idem, in eodem7: « Notandum in di<lb ed="#Q"/>vinis
+          illis personis quod perfectio unius exigit
+          <lb ed="#Q"/>adiunctionem alterius et consequenter in geminis
+          <lb ed="#Q"/>perfectio utriusque requirit-'i cohaerentiam tertiae ».
+          <lb ed="#Q"/>Nam cum « in alterutra persona aequa benevolentia 
+          existat, necesse est ut pari voto, ratione consimili,
+          <lb ed="#Q"/>praecipui gaudii sui consortem utraque requirat »,
+          <lb ed="#Q"/>videlicet Spiritum Sanctum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4062">
+          <lb ed="#Q"/>l. Item, idem'", in eodem 1: « Quamdiu iste ab
+          <lb ed="#Q"/>alio solus diligitur, praecipuae suae dulcedinisb
+          <lb ed="#Q"/>delicias solus possidere videtur; similiter et alius,
+          <lb ed="#Q"/>quamdiu condilectum non habet, praecipui gaudii
+          <lb ed="#Q"/>sui communione caret. Ut autem uterque possit
+          <lb ed="#Q"/>istiusmodi delicias communicare, oportet eos con<lb ed="#Q"/>dilectum
+          habere », videlicet Spiritum Sanctum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4080">
+          <lb ed="#Q"/>Contra: 1. Quod peri superabundantiam dicitur
+          <lb ed="#Q"/>uni soli convenit 2 ; sed summum bonum sive opti<lb ed="#Q"/>mum
+          dicitur per superabundantiam d ; ergo uni soli
+          <lb ed="#Q"/>convenit; ergo in Deo est solitudo personalis, alio<lb ed="#Q"/>quin
+          summum bonum pluribus conveniret: quod
+          <lb ed="#Q"/>est contra naturam superlativi.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4097">
+          <lb ed="#Q"/>2. Item, bonum est diffusivum sui esse3; 'sed
+          <lb ed="#Q"/>Spiritus Sanctus est summe bonus; ergo est dif<lb ed="#Q"/>fusivus
+          sui esse et summe. Nam si bonum est
+          <lb ed="#Q"/>diffusivum et summe bonum summe diffusivum,
+          <lb ed="#Q"/>ergo Spiritus Sanctus summe diffundit suum esse;
+          <lb ed="#Q"/>sed summa diffusio est diffusio suae substantiae
+          <lb ed="#Q"/>totaliter; ergo Spiritus Sanctus dat alii totam sub<lb ed="#Q"/>stantiam
+          suam; ergo alia persona ab ipso-9 est;
+          <lb ed="#Q"/>ergo est quarta persona in Trinitatet; sed eadem
+          <lb ed="#Q"/>ratione illa diifundet suam substantiam ad aliam
+          <lb ed="#Q"/>et illa iterum ad aliam, et sic in infinitum; ergo
+          <lb ed="#Q"/>sequetur infinitas personarum, quod est inconve<lb ed="#Q"/>niens,
+          vel stabit summa bonitas in una persona.
+          — Si dica-tur quod Spiritus Sanctus non dif<lb ed="#Q"/>fundit
+          se alii personae, sed creaturis: unde non
+          <lb ed="#Q"/>diffundit suam substantiam ut sit id quod ipse
+          — contra: ex hoc videtur sequi quod Spiritus
+          <lb ed="#Q"/>Sanctus non fuit bonus ab aeterno, quia non dif—
+          <lb ed="#Q"/>funditf se creaturis ab aeterno, cum creaturae
+          <lb ed="#Q"/>non fuerint ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4139">
+          <lb ed="#Q"/>3. Item, eadem est ratio summae bonitatis in
+          <lb ed="#Q"/>tri-bus personis; ergo sicut Pater, quia summe
+          <lb ed="#Q"/>bonus, diffundit suam substantiam, similiter Spi<lb ed="#Q"/>ritus
+          Sanctus diffundetg suam substantiam, cum
+          <lb ed="#Q"/>summa bonitas sit in eo secundum eamdem ratio<lb ed="#Q"/>nem
+          et secundum eumdem modum sicut in Patre.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4155">
+          <lb ed="#Q"/>4. Item, videtur quod summa caritas non ponat
+          <lb ed="#Q"/>pluralitatem personarum de necessitate. Caritas
+          <lb ed="#Q"/>enim sive caritativa dilectio potest esse in uno
+          <lb ed="#Q"/>solo: dicit enim Augustinus5 quod 11 « ex ea<lb ed="#Q"/>ritate
+          primo debemus diligere quae supra nos
+          <lb ed="#Q"/>sunt, secundo quae nos sumus»; ergo aliquisi
+          <lb ed="#Q"/>potest diligere se ipsum ex caritate.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4173">
+          <lb ed="#Q"/>5. Praeterea, divina essentia diligit se, et con<lb ed="#Q"/>stat
+          quod nobiliori modo diligendi; ergo diligit
+          <lb ed="#Q"/>se caritate; ergo posita summa caritate, non est
+          <lb ed="#Q"/>necesse ponere plures personas.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4184">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Respondeo: Confitendum secundum Scriptu—
+          <lb ed="#Q"/>ram 6 processionem Spiritus Sancti esse '.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4193">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum autem dicen<lb ed="#Q"/>dum
+          quod optimum uni soli convenit, scilicet
+          <lb ed="#Q"/>bonitati divinae vel bono neutraliter, tamen con<lb ed="#Q"/>venit
+          pluribus personis quae'" sunt unum sum<lb ed="#Q"/>mum
+          bonum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4207">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod summa
+          <lb ed="#Q"/>bonitas intelligitur cum summa diffusione et cum
+          <lb ed="#Q"/>ordine: unde summa bonitas prohibet confusionem
+          <lb ed="#Q"/>et infinitatem. Si ergo ponitur summa diffusio,
+          <lb ed="#Q"/>erit ipsam ponere in tribus personis tantum: in
+          <lb ed="#Q"/>una sicut in principio, et hoc in Patre; in alia
+          <lb ed="#Q"/>sicut in medio, et hoc in Filio"; in alia sicut in
+          <lb ed="#Q"/>termino, ethoc in Spiritu Sancto.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4227">
+          <lb ed="#Q"/>3. Ad tertium quod obicit quod ' eadem" est
+          <lb ed="#Q"/>bonitas in tribus personis et eodem modo se ha<lb ed="#Q"/>bens':
+          dicendum quod verum est, tamen est in
+          <lb ed="#Q"/>personis aliter se habentibus. Est enim in Patre se
+          <lb ed="#Q"/>habente per modum principii, in Filio se habente
+          <lb ed="#Q"/>per modum medii, in Spiritu Sancto se habente
+          <lb ed="#Q"/>per modum termini, secundum quemdam modum
+          <lb ed="#Q"/>dicendi, ut dictum est 7. Unde non potest esse diffu<lb ed="#Q"/>sio
+          a persona Spiritus Sancti, quia hoc esset contra
+          <lb ed="#Q"/>modum personae quae habet modum termini.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4251">
+          <lb ed="#Q"/>4. Ad aliud dicendum quod caritate potest
+          <lb ed="#Q"/>quis diligere se ipsum, sed non in- plena ratione
+          <lb ed="#Q"/>caritatis: « dilectio enim ut caritas fiat », scilicet in
+          <lb ed="#Q"/>ratione plena caritatis", « necesse est ut inP al<lb ed="#Q"/>terum
+          tendat», sicut dicit Gregoriuss.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q1t2c1-d1e4264">
+          <lb ed="#Q"/>5. Ad aliud dicendum quod si intelligatur
+          <lb ed="#Q"/>divina essentia diligere se praeter personas, non
+          <lb ed="#Q"/>diligit se nobiliori modo, scilicet communi amore,
+          <lb ed="#Q"/>sed privato. Si autem intelligatur in personis, tunc
+          <lb ed="#Q"/>summe diligit, nec est talis dilectio sine pluribus
+          <lb ed="#Q"/>personis, ut ostensum estg. — Quod autem per<lb ed="#Q"/>sonae
+          stant in tribus, ostenditur hoc modo: si
+          <lb ed="#Q"/>ponatur quarta persona, cum non sit nisi duplex
+          <lb ed="#Q"/>modus productionis, scilicet per modum naturae
+          <lb ed="#Q"/>et per modum voluntatis 'I, illa quarta persona
+          <lb ed="#Q"/>aut producetur ' per modum naturae aut per
+          <lb ed="#Q"/>modum voluntatis. Sis per modum naturae: cum
+          <lb ed="#Q"/>iste modus sit idem quod generatio, ergo genita
+          <lb ed="#Q"/>est illa persona, ergo est Filius; ergo sunt duo
+          <lb ed="#Q"/>filii in Trinitate: quod est inconveniens. Si per
+          <lb ed="#Q"/>modum voluntatis: cum iste modus idem sit quod
+          <lb ed="#Q"/>processio per modum doni vel amoris, et sic 
+          <lb ed="#Q"/>procedit Spiritus Sanctus, ergo eodem modo pro<lb ed="#Q"/>cedit
+          quod Spiritus Sanctus, ergo non differt a
+          <lb ed="#Q"/>Spiritu Sancto, quia nec essentia nec relatione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

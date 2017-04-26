@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, c. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, c. 2</title>
+          <date when="2017-02-07">February 07, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="2"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1q1c2">
+        <head xml:id="ahsh-l2Ai1t1q1c2-Hd1e3729">CAPUT II.</head>
+        <head xml:id="ahsh-l2Ai1t1q1c2-Hd1e3732" type="questionTitle">Quid sit principium primum</head>
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3735">
+          <lb ed="#Q"/>Quod cum sit, ostenditur consequenter quod non
+          <lb ed="#Q"/>est scire quid sit secundum modum viae se<lb ed="#Q"/>cundum
+          quod scientia est per priora 7.
+        </p>
+        
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3744">
+          a. Unde loannes Damascenus": <quote xml:id="ahsh-l2Ai1t1q1c2-Qd1e3746">Quid
+            <lb ed="#Q"/>vero est secundum substantiam et naturam, in<lb ed="#Q"/>comprehensibile
+            est</quote> secundum se et ignotum, ta<lb ed="#Q"/>miliarius
+          autem est magis ex omnium ablatione
+          <lb ed="#Q"/>tacere rationem: nihil est enim eorum quae sunt, 
+          <lb ed="#Q"/>non ut non-ens, sed ut super omnia ens et super
+          <lb ed="#Q"/>ipsum esse ens. Si enim eorum, quae sunt, cogi<lb ed="#Q"/>tationes
+          sunt, quod super cogitationes est, et su<lb ed="#Q"/>per
+          essentiam erit.
+        </p>
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3767">
+          <lb ed="#Q"/>b. Praeterea, sic ratiocinatur Dionysius, in
+          <lb ed="#Q"/>libro " De divinis nominibusg: . Si incomprehen<lb ed="#Q"/>sibilia
+          et incontemplabilia sunt sensibilibus invi<lb ed="#Q"/>sibilia
+          et iis quae sunt in figmento ei? similitudine
+          <lb ed="#Q"/>simpla et non simulata, iuxta eamdem veritatis
+          <pb ed="#Q" n="3"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>rationem, superat" essentias superessentialis ma<lb ed="#Q"/>gnitudo,
+          et omnibus virtutibus impossibile est
+          <lb ed="#Q"/>mod.-super sensum est arcanumque * rationi omni
+          <lb ed="#Q"/>saper- rationale bonum :. Et iterum ': 5 Quem ne<lb ed="#Q"/>qne
+          cogitare possibile est? neque dicere neque
+          <lb ed="#Q"/>totaliter aliquo modo contemplari propter hoc quod
+          <lb ed="#Q"/>ab omnibus ipse est" segregatus et superignotus :.
+          .»:tg.
+        </p> 
+        
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3801">
+          Praeterea, ratione potest argui: Omnis enim
+          <lb ed="#Q"/>attributio est aliquo quinque modorum 2, quorum
+          <lb ed="#Q"/>pullo recipit principium et causa omnium noti<lb ed="#Q"/>ficationem
+          ' seu detinitionem. Prima attributio est
+          <lb ed="#Q"/>per substantialia coaequata: haec autem non con<lb ed="#Q"/>uenit
+          huic principio, cum substantialia coaequata
+          <lb ed="#Q"/>impossibile sit haberi, eo quod primumf est om<lb ed="#Q"/>nium.
+          Secunda atbibutio est per substantialia
+          <lb ed="#Q"/>non coaequata, ut cum dicitur 'homo est ani<lb ed="#Q"/>mal'
+          vel ' homo est sensibile ': et secundum eam<lb ed="#Q"/>dem
+          rationem haec attributio removetur a Primo.
+          <lb ed="#Q"/>Tertia attributio est per proprietates quae egre<lb ed="#Q"/>diuntur
+          a substantia, ut risibile ab homine, et
+          <lb ed="#Q"/>haec attributio removetur: principium enim pri<lb ed="#Q"/>mum
+          nihil habet coaequale quod sit praeter eius
+          <lb ed="#Q"/>essentiam; praeter autem essentiam sunt proprie<lb ed="#Q"/>tates.
+          Quarta autem attributio est secundum se<lb ed="#Q"/>cidentia-
+          quae intrinsecus contingunt, ut sunt!
+          <lb ed="#Q"/>quantitas et qualitas, et haec attributio remove<lb ed="#Q"/>tur:
+          nihll enim quod mutari potest secundum
+          <lb ed="#Q"/>naturam, ei aeternaliter attribuitur, cum sit im<lb ed="#Q"/>mutabile.
+          Hoc etiam plane dicit Augustinus,
+          <lb ed="#Q"/>in libro De Trinitate 3, et Magister recitat in
+          <lb ed="#Q"/>libro Sententiarum 4, nuilum accidens Deo con<lb ed="#Q"/>venire
+          5. Quinta vero * attributio est secundum ea
+          <lb ed="#Q"/>quae extrinsecus contingunt, quae si varientur',
+          <lb ed="#Q"/>non dlcunhu variare substantiam, ut esse a dex<lb ed="#Q"/>tris
+          vel a sinistris et agere vel non agere: haec
+          "nitentia removetur etiam" a dicto principio, quia
+          <lb ed="#Q"/>talia! addunt aliquid praeter substantiam ad com<lb ed="#Q"/>Dlæmentum
+          vel suum oppositum, ut agere ad
+          <lb ed="#Q"/>cnmplementum, pati ad suum oppositum; nihil
+          <lb ed="#Q"/>autem addere potest ad perfectionem substantiae
+          <lb ed="#Q"/>Ptincipii nec auferre pertectionemi ergo haec attri<lb ed="#Q"/>batio
+          removetur; sed notio eius quod .quid est,
+          <lb ed="#Q"/>m'?" attributionem aliquam; ergo non est eo<lb ed="#Q"/>Meere
+          primum'" principium 'quid est' secun<lb ed="#Q"/>dun
+          substantiam.
+        </p>
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3882">
+          <lb ed="#Q"/>In contrarium videtur I. quod dicit Apostolus,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>
+          ad Rom. 1, eo: <quote xml:id="ahsh-l2Ai1t1q1c2-Qd1e3890">Invisibilia Dei per ea, quae facta
+            <lb ed="#Q"/>sunt a creatura mundi intellecta, conspiciuntur;</quote> et
+          <lb ed="#Q"/>quod dicit Dionysius: <quote xml:id="ahsh-l2Ai1t1q1c2-Qd1e3898">Omnium est causa
+            <lb ed="#Q"/>et principium et essentia et vita et occidentium
+            <lb ed="#Q"/>ab eo revocatio" et resurrectio</quote>
+        </p>
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3906">
+          2. Praeterea, cum sit lux prima, lux autem aut
+          <lb ed="#Q"/>manifestativa est, prima ergo maximeP- sul ma<lb ed="#Q"/>nitestativaï;
+          ergo primum principium se ipsum
+          <lb ed="#Q"/>maxime manitestat— Quod autem sit lux,
+          <lb ed="#Q"/>patet per hoc quod dicit Augustinus, Super
+          <lb ed="#Q"/>Genesim ad litteram ': - Non autem ita dicitur lux
+          <lb ed="#Q"/>quemadmodum petra et leo, sed lux proprie, illa
+          <lb ed="#Q"/>figurate ».
+        </p>
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3924">
+          3. Praeterea, dicit Philosophus" quod ens
+          <lb ed="#Q"/>est prima impressio intelligentiae; sed quo ordine
+          <lb ed="#Q"/>se habet ens in communitate, eo ordine se habet
+          <lb ed="#Q"/>primumir ens in causalitate; ergo et primum ens
+          <lb ed="#Q"/>in ordine causalitatis est prima impressio; se ipso
+          <lb ed="#Q"/>ergo cognoscitur secundum substantiam ab intel<lb ed="#Q"/>ligentia.
+        </p>
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3940">
+          Respondendum est ad hoc quod duplex est
+          <lb ed="#Q"/>cognitio: patriae et viae "'. Cognitione' patriae
+          <lb ed="#Q"/>cognoscetur secundum substantiam, sicut dici<lb ed="#Q"/>tur
+          I loan. 3,2: Videbimus .*:rarrt12 sicuti est. Co<lb ed="#Q"/>gnitio
+          vero viae multiplex est '. Est enim cognitio
+          <lb ed="#Q"/>naturae, scilicet rationis ut est natura quaedam; et
+          <lb ed="#Q"/>est cognitio rationis ut est ratio ", cogitando e't
+          <lb ed="#Q"/>pertractanda: et est cognitio gratiae quae est per
+          <lb ed="#Q"/>fidem et per donum sapientiae et intellectus.
+          <lb ed="#Q"/>Quantum ad cognitionem naturae, se ipso est
+          <lb ed="#Q"/>primum principium in intellectu et cognoscitur.
+        </p>
+        
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3964">
+          <lb ed="#Q"/>[Ad obiecta]: 3. Et sic intelligitur quod ha<lb ed="#Q"/>betur
+          a Philosopho.
+        </p>
+        
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3972">
+          2. Et' quod obicitur de luce, intelligitur quan<lb ed="#Q"/>tum
+          ad hoc quod est ex parte naturae. Quantum:
+          <lb ed="#Q"/>ad cognitionem rationis ut est ratio in cogitando
+          <lb ed="#Q"/>et pertractando, licet sit lux quae se manitestat,
+          <lb ed="#Q"/>propter infirmitatem tamen rationisnon cognosci.<lb ed="#Q"/>tur
+          quid est? secundum substantiam, sed per
+          <lb ed="#Q"/>opera cognoscitur unum principium opemm.
+        </p>
+        
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e3988">
+          Et sic intelligitur quod dicit Apostolus ad
+          <lb ed="#Q"/><ref>Rom. i,20</ref>: <quote xml:id="ahsh-l2Ai1t1q1c2-Qd1e3994">Invisibilia Dei</quote> etc., et sic introducitur
+          <lb ed="#Q"/>illud <ref>Sap. 13,5</ref>: <quote xml:id="ahsh-l2Ai1t1q1c2-Qd1e4002">A magnitudine speciei et crea<lb ed="#Q"/>turae
+            cognoscibiliter poterit: horum Creator vi<lb ed="#Q"/>deri</quote>.
+          Et quod se non manifestat intellectui nostro
+          <lb ed="#Q"/>secundum substantiam, hoc non est ex parte sui,
+        </p>
+        
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e4013">
+          <pb ed="#Q" n="4"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sed propter nostrum defectum; et sic dicit P'hi<lb ed="#Q"/>ioseph
+          us' quod <quote xml:id="ahsh-l2Ai1t1q1c2-Qd1e4023">intellectus noster se habet
+            <lb ed="#Q"/>ad manifesta naturae sicut" visus noctuae ad
+            <lb ed="#Q"/>lumen diei.</quote>
+        </p>
+        
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e4031">
+          <lb ed="#Q"/>a-b. Quod autem dicunt Dionysius et Dama<lb ed="#Q"/>scenus
+          duplici ratione potest ostendit: tum quia
+          <lb ed="#Q"/>priora non habet nec alio uam similitudinem" secun<lb ed="#Q"/>dum
+          substantiam, secundum quam cognoscaturif
+          <lb ed="#Q"/>quid est definitive; tum quia via ratiocinationis
+          <lb ed="#Q"/>vel cogitationis" humanae, propter defectum ex
+          <lb ed="#Q"/>parte nostra et excellentiam ex parte sua, non
+          <lb ed="#Q"/>pervenitur ad cognoscendum 'quid est', sed 'quid
+          <lb ed="#Q"/>non est' et quoniam est causa seu principium.
+        </p>
+        
+        <p xml:id="ahsh-l2Ai1t1q1c2-d1e4053">
+          Ad rationem vero de modis attributionum re<lb ed="#Q"/>spondendum
+          est2 quod secundum quod modi attri<lb ed="#Q"/>butionum
+          attenduntur in creaturis, non secundum
+          <lb ed="#Q"/>illum modum attribuuntur principio primo, sed!
+          <lb ed="#Q"/>sicut dicit Boethius, in libro De Trinitate: 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>« Omnia praedicamenta praeter ' ad aliquid ', cum
+          <lb ed="#Q"/>ad Deum referuntur, ad praedicationem secundum
+          <lb ed="#Q"/>substantiam convertuntur ». Et ideo licet attribu<lb ed="#Q"/>tiones
+          illae secundum modum, quo conveniunt
+          <lb ed="#Q"/>creaturis, non conveniant primo' principio, con<lb ed="#Q"/>veniunt
+          tamen aliquo modo: dicunt enim divinam
+          <lb ed="#Q"/>substantiam aliquid cointelligendo, nullam autem 
+          rei compositionem circa * ipsum principium desi<lb ed="#Q"/>gnando. 
+          Cognitione vero quae est per gratiam,
+          <lb ed="#Q"/>licet non cognoscatur in praesenti facie ad faciem,
+          <lb ed="#Q"/>cognoscitur tamen per speculum et' in aenig<lb ed="#Q"/>mate,
+          et quodam etiam modo communi viae et
+          <lb ed="#Q"/>patriae". Hoc dicitur propter donum sapientiae,
+          <lb ed="#Q"/>quod est commune viae et patriae". Sed etiam
+          <lb ed="#Q"/>haec' cognitio non pervenit ad ipsam essentiam
+          <lb ed="#Q"/>secundum se ipsam, sed per vestigia in creaturis,
+          <lb ed="#Q"/>per imaginem in "' intellectuali creatura, per simi<lb ed="#Q"/>litudinem
+          in ipsis gratiis sive donis gratiarum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

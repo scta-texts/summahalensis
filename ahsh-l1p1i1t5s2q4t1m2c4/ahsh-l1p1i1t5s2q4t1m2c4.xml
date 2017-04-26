@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 1, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-14">March 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="321"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t1m2c4">
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m2c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. I, M. 2, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m2c4-Hd1e3744" type="question-title">UTRUM PRAEDESTINATIO SIT RESPECTU BEATORUM ANGELORUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m2c4-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum praedestinatio sit
+          <lb ed="#Q"/>respectu beatorum<!--m--> angelorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m2c4-d1e3756">
+          <lb ed="#Q"/>1. Cum enim<!--n--> praedestinatio sit « propositum
+          <lb ed="#Q"/>miserendi 1 », in beatis autem angelis non est mi<lb ed="#Q"/>seria
+          nec fuit, ergo respectu eorum non est prae<lb ed="#Q"/>destinatio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m2c4-d1e3769">
+          <lb ed="#Q"/>2. Item, praedestinatio est « praeparatio gratiae
+          <lb ed="#Q"/>in praesenti et gloriae in futuro »; sed in angelis
+          <lb ed="#Q"/>beatis simul est gratia et gloria; ergo ipsi non
+          <lb ed="#Q"/>sunt praedestinati.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m2c4-d1e3781">
+          <lb ed="#Q"/>Respondeo: Cum diversae sint rationes prae<lb ed="#Q"/>destinationis
+          assignatae a Sanctis, considera<lb ed="#Q"/>tionis
+          respectus habitus est differens. Nam cum
+          <lb ed="#Q"/>praedestinatio sit rationalis naturae, rationalis au<lb ed="#Q"/>tem
+          natura est angelica et humana, potest ergo
+          <lb ed="#Q"/>accipi communiter secundum quod convenit an<lb ed="#Q"/>gelicae
+          naturae et humanae, vel specialiter se<lb ed="#Q"/>cundum
+          quod convenit humanae. Secundum quod
+          <lb ed="#Q"/>communiter accipitur, dicitur praedestinatio « prae<lb ed="#Q"/>scientia
+          beneficiorum Dei ? », « praeordinatio
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>alicuius ad gloriam ». Secundum quod convenit
+          <lb ed="#Q"/>humanae, dicitur « propositum miserendi» et etiam
+          « praeparatio gratiae in praesenti et gloriae in fu<lb ed="#Q"/>turo
+          »; quia in angelis beatis non fuit miseria, ideo
+          <lb ed="#Q"/>nec « propositum miserendi » dicitur respectu illo—
+          <lb ed="#Q"/>rum, nec etiam in ipsis antecessit gratia gloriam.
+          <lb ed="#Q"/>Sed status humanus tuit duplex: ante peccatum et
+          <lb ed="#Q"/>post peccatum; secundum quod ante peccatum, di<lb ed="#Q"/>citur
+          praedestinatio « praeparatio gratiae in prae<lb ed="#Q"/>senti
+          » etc., sed post peccatum dicitur « proposi<lb ed="#Q"/>tum
+          miserendi ». Item, aliae duae differunt: nam
+          <lb ed="#Q"/>beneficium dicitur magis communiter quam gloria;
+          <lb ed="#Q"/>unde una est magis communis alia: unde illa, quae
+          <lb ed="#Q"/>dicit quod praedestinatio est « praeordinatio ali<lb ed="#Q"/>cuius
+          ad gloriam », datur per differentiam pro<lb ed="#Q"/>priam,
+          altera per differentiam communem: et dici<lb ed="#Q"/>tur
+          differentia propria quae per se est praedestina<lb ed="#Q"/>tionis
+          proprie sumptae; haec autem differentia,
+          <lb ed="#Q"/>scilicet beneficiorum, non est propria: aliis enim
+          <lb ed="#Q"/>convenit quam praedestinatis, proprie sumpta prae<lb ed="#Q"/>destinatione;
+          unde non datur per convertentiam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

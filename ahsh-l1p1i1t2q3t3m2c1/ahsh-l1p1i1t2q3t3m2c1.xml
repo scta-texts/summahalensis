@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-16">February 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="77"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t3m2c1">
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c1-Hd1e3732" type="question-title">UTRUM DEUM ESSE PER GRATIAM IN ALIQUO PONAT ALIQUID IN ISTO</head>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c1-d1e3735">
+          <lb ed="#Q"/>Quantum ad primum obicitur sic: a. Ex hoc 
+          <lb ed="#Q"/>quod C Deus est in aliquo per gratiam, dicitur
+          <lb ed="#Q"/>ille gratus Deo; sed haec denominatiod non est
+          <lb ed="#Q"/>eius nisi ab aliqua qualitate creata, quia modo
+          <lb ed="#Q"/>est gratus et prius non erat; ergo per hoc ponitur
+          <lb ed="#Q"/>aliqua qualitas creata in illo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c1-d1e3751">
+          <lb ed="#Q"/>Contra: !. Cum dicitur Deus esse in rebus
+          <lb ed="#Q"/>per essentiam, praesentiam, potentiam, non po<lb ed="#Q"/>nitur
+          aliqua qualitas creata in creatura, immo per
+          <lb ed="#Q"/>essentiam et potentiam increatam est in creatura;
+          <lb ed="#Q"/>ergo eadem ratione per gratiam increatam; ergo
+          <lb ed="#Q"/>ex hoc non ponitur gratia nisi increata.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c1-d1e3767">
+          <lb ed="#Q"/>Solutio: Dicendum * quod 'Deum esse per gra<lb ed="#Q"/>tiam'
+          ponit necessario gratiam creatam in crea<lb ed="#Q"/>tura,
+          quae quidem gratia est similitudo, qua anima
+          <lb ed="#Q"/>est imago actu, id est in imitatione actuali; et
+          <lb ed="#Q"/>cum se habet anima per conformitatem ad Deum
+          <lb ed="#Q"/>in similitudine expressa, dicitur Deus inhabitare
+          <lb ed="#Q"/>in ipsa per gratiam. Unde Augustinus, in li<lb ed="#Q"/>bro
+          De praesentia Dei, Ad Dardanum 2: « Ii ab eo
+          <lb ed="#Q"/>longe esse dicuntur, qui peccando dissimillimif
+          <lb ed="#Q"/>facti sunt; et ei propinquare, qui eius similitudi<lb ed="#Q"/>nem
+          pie vivendo recipiunt. Sicut recte dicuntur
+          <lb ed="#Q"/>Oculi ab hac luce tanto longius esse quanto fue<lb ed="#Q"/>rint
+          caeciores, quamvis lux praesto sit atque
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>oculos perfundat extinctos; propinquare autem
+          <lb ed="#Q"/>luci oculi merito perhibentur qui sanitatis ac<lb ed="#Q"/>cessu
+          aciem recipiendo proficiunt ». Ex hoc patet 
+          quod gratia creata" est similitudo qua anima est 
+          <lb ed="#Q"/>imago in actu; unde esse per gratiam ponit in 
+          <lb ed="#Q"/>anima habitum assimilantem Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c1-d1e3812">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad rationem in contrarium
+          <lb ed="#Q"/>dicendum quod necessario ponitur gratia creata
+          <lb ed="#Q"/>in ' anima ad susceptionem gratiae increatae, id
+          <lb ed="#Q"/>est ad hoc ut uniatur aliquis Deo prcpinqua simi<lb ed="#Q"/>litudine.
+          Unde Augustinus 3: « Propinquare ei
+          <lb ed="#Q"/>dicuntur qui eius similitudinem pie vivendo * re<lb ed="#Q"/>cipiunt
+          ». Unde sicut acumen necessario est in
+          <lb ed="#Q"/>oculo ad susceptionem lucis, sic gratia creata
+          <lb ed="#Q"/>necessario' est dispositio in anima ad suscep<lb ed="#Q"/>tionem
+          gratiae increatae, sicut lucis divinae. —
+          <lb ed="#Q"/>Et ad illud '" quod obicit: dicendum quod sicut
+          <lb ed="#Q"/>Deum esse essentialiter, praesentialiter, potentia<lb ed="#Q"/>liter
+          ponunt esse creaturae " secundum quod est
+          <lb ed="#Q"/>esse naturae: sic Deum inhabitare in" anima ponit
+          <lb ed="#Q"/>bene esse, quod est esse gratiae; unde uterque
+          <lb ed="#Q"/>modus ponit aliquid creatum in re. Unde licet
+          <lb ed="#Q"/>modi generales non ponant aliquam qualitatem
+          <lb ed="#Q"/>creatam, ponunt tamen aliquid creatum, sicut mo<lb ed="#Q"/>dus
+          specialis, qui est inhabitare per gratiam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

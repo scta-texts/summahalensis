@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 4, Mem. I, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-17">February 17, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-17" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="84"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q4m1c1">
+        <head xml:id="ahsh-l1p1i1t2q4m1c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 4, Mem. I, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t2q4m1c1-Hd1e3732" type="question-title">QUID SIT AETERNITAS SECUNDUM NOMEN.</head>
+        <!-- quaestio praeambula NOT membra praeambula  -->
+        <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3737">
+          <lb ed="#Q"/>Consequens est inquirere de immensitate divinae essentiae quantum ad aeter<lb ed="#Q"/>nitatem. 
+          Et multiplicantur quaestiones in hac parte per hunc modum: 
+          Primo quaeritur quid sit ae<lb ed="#Q"/>ternitas
+          secundum nomen;
+          <lb ed="#Q"/>secundo, quid sit'-' secundum rem;
+          <lb ed="#Q"/>tertio, quidd secundum definitionem; 
+          <lb ed="#Q"/>quarto, quomodo probetur aeternitas de aevum;
+          <lb ed="#Q"/>divina essentia ';
+          <lb ed="#Q"/>quinto, de immensitate aeternitatis; 
+          <lb ed="#Q"/>sexto, de invariabilitate aeternitatis;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>septimo, de unitate aeternitatis; 
+          <lb ed="#Q"/>octavo, de incommunicabilitatef aeterni<lb ed="#Q"/>tatis; 
+          <lb ed="#Q"/>nono, de comparatione aeternitatis ad 
+          <lb ed="#Q"/>novum
+          <lb ed="#Q"/>decimo, de comparatione aeternitatis ad 
+          <lb ed="#Q"/>tempus.
+        </p>
+        <!-- end praeam -->
+        <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3779">
+          <lb ed="#Q"/>Quantum ad primum quaeruntur duo: 
+          <lb ed="#Q"/>Unum est si eadem est intentio nominis 
+          <lb ed="#Q"/>aeternitatis et sempitemitatis;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundum, cum aeternum dicatur de Creatore 
+          <lb ed="#Q"/>et creaturis, anE univoce vel aequivoce di<lb ed="#Q"/>catur.
+        </p>
+        <div xml:id="ahsh-l1p1i1t2q4m1c1-Dd1e3797" type="articulus">
+          <head xml:id="ahsh-l1p1i1t2q4m1c1-Hd1e3799">Articulus 1</head>
+          <head xml:id="ahsh-l1p1i1t2q4m1c1-Hd1e3802" type="question-title">Utrum eadem est intentio nominis aeternitatis et sempiternitatis.</head>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3805">
+            <lb ed="#Q"/>Ad primum obicitur sic: a. Boethius, in li<lb ed="#Q"/>bro
+            De Trinitate 1: « Tantum interest inter nostrum
+            <lb ed="#Q"/>praesens, quod esth 'nunc', et divinum 1, quod
+            <lb ed="#Q"/>nostrum ' nunc ', quasi currens tempus, facit sem<lb ed="#Q"/>piternitatem;
+            divinum vero ' nunc ', permanens nec
+            <lb ed="#Q"/>movens sese atque consistens *, aeternitatem fa<lb ed="#Q"/>cit
+            ». Ex hoc ergo relinquitur quod diversa est
+            <lb ed="#Q"/>intentio sempiternitatis et aeternitatis, quia' sem<lb ed="#Q"/>piternitas
+            constituitur ex nostro ' nunc', aeternitas
+            <lb ed="#Q"/>vero ex divino 'nunc '.
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3829">
+            <lb ed="#Q"/>b. Item, quidquid est semper est sempiternum; 
+            <lb ed="#Q"/>sed quidquid est'" omni tempore est semper;
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>ergo quidquid est'' omni tempore est sempiter<lb ed="#Q"/>num
+            ; cum ergo angeli sint omni tempore et sem<lb ed="#Q"/>per,
+            sunt sempiterni: Augustinus, XII De ci<lb ed="#Q"/>vitate
+            Dei2: «Angeli semper », id est «omni
+            <lb ed="#Q"/>tempore, fuerunt ». Sed constat quod de ipsis
+            <lb ed="#Q"/>angelis proprie0 dicitur quod non sint aeterni;
+            <lb ed="#Q"/>de aliquo ergo est dicere 'sempitemum'P, de
+            <lb ed="#Q"/>quo non est dicere 'aetemum'q; ergo non est
+            <lb ed="#Q"/>idem' aeternitas et sempitemitas 3.
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3858">
+            <lb ed="#Q"/>Contra: ]. Augustinus, in XI Confessionumt:
+            « Praeteritum iam non est, futurum nondum est,
+            <lb ed="#Q"/>praesens: autem, si semper esset praesens, iam 
+            <pb ed="#Q" n="85"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>non esset tempus, sed aeternitas». Ad semper
+            <lb ed="#Q"/>ergo esse praesens sequitur aeternum; sempiter<lb ed="#Q"/>nitas
+            ergo, quae habet intentionem ex 'semper
+            <lb ed="#Q"/>esse', erit aeternitas.
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3879">
+            <lb ed="#Q"/>2. Item, Boethius, in libro De Trinitate':
+            « Divino ' nunc' si adicias 'semper', facies
+            <lb ed="#Q"/>eius quod est ' nunc' vigere perpetuum cur<lb ed="#Q"/>sum,
+            quod est sempiternitas ». Ex quo relinquitur
+            <lb ed="#Q"/>primum. ,
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3890">
+            <lb ed="#Q"/>Respondeo: Sicut ' semper esse' dicitur duobus
+            <lb ed="#Q"/>modis, ita et sempiternitas: semper enim esse uno
+            <lb ed="#Q"/>modo dicitur" omni tempore esse; alio modo
+            'semper esse ' dicitur nunquam non esse, sed sine
+            <lb ed="#Q"/>principio esse et sine fine 2. Unde Augustinus,
+            <lb ed="#Q"/>XII De civitate Dei3: «Angeli semper fuerunt,
+            <lb ed="#Q"/>quiab omni tempore fuerunt; nec tamen coaeterni
+            <cb ed="#Q"/>
+            <lb ed="#Q"/>Deo sunt, quia ille semper fuit aeternitate ». Primo
+            <lb ed="#Q"/>ergo modo differt sempiternitas et re et nominis
+            <lb ed="#Q"/>intentione ab aeternitate; secundo modo non differt
+            <lb ed="#Q"/>re, sed sola nominis ratione. Unde Richardus
+            <lb ed="#Q"/>de S. Victore, in libro De Trinitate4: « Aliud
+            <lb ed="#Q"/>videtur sonare aeternum, aliud sempiternum. Sem<lb ed="#Q"/>pitemum
+             namque esse videtur quod caret initio
+            <lb ed="#Q"/>et fine; aeternum vero quod caret principio et
+            <lb ed="#Q"/>fine et omnic mutabilitate et, quamvis forsitan
+            <lb ed="#Q"/>neutrum sine "' altero inveniatur, recte tamen inter
+            <lb ed="#Q"/>nominum significationes distinguiture».
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3932">
+            <lb ed="#Q"/>[Ad obiecta]: Ex hoc ergo patet responsio ad
+            <lb ed="#Q"/>obiecta et relinquitur quid sit aeternitas secun<lb ed="#Q"/>dum
+            nominis rationem. Unde Richardus5:
+            « Quid est aeternitas? nisi diuturnitas sine initio,
+            <lb ed="#Q"/>sine fine, carens omni mutabilitate ».
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t2q4m1c1-Dd1e3944" type="articulus">
+          <head xml:id="ahsh-l1p1i1t2q4m1c1-Hd1e3946">Articulus 2</head>
+          <head xml:id="ahsh-l1p1i1t2q4m1c1-Hd1e3949" type="question-title">An aeternum dicatur univoce vel aequivoce de Deo et de creaturis.</head>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3952">
+            <lb ed="#Q"/>Deinde quaeritur, curn aeternum dicatur de crea<lb ed="#Q"/>turis
+            — ut de angelis, in PsalmoG: Elevamini
+            <lb ed="#Q"/>portae aeternales; et de corporibus caelestibus,
+            <lb ed="#Q"/>in Psalmo7: Statuit ea in aeternum ; et de sup<lb ed="#Q"/>pliciis
+            malorum, in loan.8: Ibunt hi in suppli<lb ed="#Q"/>cium
+            aeternum; et de tempore, Rom. ultimo, 25:
+            <lb ed="#Q"/>Secundum revelationem mysterii af temporibus ae<lb ed="#Q"/>ternis
+            -— et aeternum dicatur de Deo, utrum di<lb ed="#Q"/>catur
+            univoce, secundum quod dicituri! de Deo et
+            <lb ed="#Q"/>de" creaturis, vel aequivoce.
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3976">
+            <lb ed="#Q"/>Et, cum non videatur aliquid commune conve<lb ed="#Q"/>nire
+            secundum rationem substantiae tempori, aevo
+            <lb ed="#Q"/>et aeternitati, ergo aeternum aequivoce dicetur
+            <lb ed="#Q"/>et aeternitas, secundumi quod de temporali di—
+            <lb ed="#Q"/>citur et aevitemok et aeterno.
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3989">
+            <lb ed="#Q"/>Contra: a. Augustinus, in' 83 Quaestion.,
+            <lb ed="#Q"/>quaestione 239: « Anima aeternitatem creditur con—
+            <lb ed="#Q"/>sequi, sed haec aeterna aeternitatis participatione
+            <lb ed="#Q"/>fit »; quae autem"[ dicuntur de Deo per essentiam,
+            <lb ed="#Q"/>de creaturis per participationem, non dicuntur
+            <lb ed="#Q"/>aequivoce, sed magis analogice: quemadmodum
+            <lb ed="#Q"/>bonum et iustum, sapientia et vita. Cum ergo ae<lb ed="#Q"/>ternum
+            sive aeternitas de Deo dicatur per essen<lb ed="#Q"/>tiam,
+            de creatura vero per participationem, cum "
+            <lb ed="#Q"/>dicitur 'Deus aeternus' 0, dico aeternitatem per es<lb ed="#Q"/>sentiam,
+            quia sua essentia est sua aeternitas; et
+            <lb ed="#Q"/>cum dicitur 'angelus aeternus ', non dico aeterni<cb ed="#Q" n="b"/><lb ed="#Q"/>tatem 
+            per essentiam, cum essentia non sit aeter<lb ed="#Q"/>nitas,
+            sed dico per participationem, eo quod sit?
+            <lb ed="#Q"/>in participatione divinae aeternitatis. Relinquitur
+            <lb ed="#Q"/>ergo quod non dicitur! aequivoce; erit igitur com<lb ed="#Q"/>munis
+            aliqua ratio, et si non omni modo, tamen
+            <lb ed="#Q"/>secundum prius et posterius accepta.
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e4033">
+            <lb ed="#Q"/>[Solutio]: Quod concedendum est. Dicendum
+            <lb ed="#Q"/>ergo quod aeternitas, dicta de Deo, de angelo, de
+            <lb ed="#Q"/>poena aeterna et de' tempore, dicitur analogice,
+            <lb ed="#Q"/>scilicet5 secundum prius et posterius. Et in hac
+            <lb ed="#Q"/>ratione, secundum quod aeternitas dicitur diutur<lb ed="#Q"/>nitas
+            non habens finem, per prius ergo dicitur
+            <lb ed="#Q"/>de diuturnitate divina, quae est diuturnitas non
+            <lb ed="#Q"/>habens finem nec principium nec mutabilitatem
+            <lb ed="#Q"/>ex se nec ex alio; per consequens vero dicitur
+            <lb ed="#Q"/>de diuturnitate substantiae aeviterni, ut angeli,
+            <lb ed="#Q"/>quae est diuturnitas non habens finem, nec ex se
+            <lb ed="#Q"/>nec ex alio nec mutabilitatem, tamen habens
+            <lb ed="#Q"/>principium; per posterius vero dicitur de diutur<lb ed="#Q"/>nitate
+            poenae reproborum, quae est diuturnitas
+            <lb ed="#Q"/>non habens finem nec ex se nec ex alio, tamen
+            <lb ed="#Q"/>habens mutabilitatem et principium. Postremo
+            <lb ed="#Q"/>vero dicitur de diuturnitate temporis, quae est
+            <lb ed="#Q"/>diuturnitas non habens finem ex se, sed ex alio, et
+            <lb ed="#Q"/>habet mutabilitatem et principium. Tempus enim
+            <lb ed="#Q"/>non habet aliquam ' rationem defectus in se —— nisi
+            <lb ed="#Q"/>in illa ratione qua dicitur esse de nihilo, quemad<pb ed="#Q" n="86"/><cb ed="#Q" n="a"/><lb ed="#Q"/>modum 
+            et quaelibet creatura —- quia motus primi
+            <lb ed="#Q"/>mobilisl non habet aliquam rationem deticiendi,
+            <lb ed="#Q"/>quantum est de se; nec ex parte mobilis: quam<lb ed="#Q"/>vis
+            et tempus et motus primi mobilis rationem ha<lb ed="#Q"/>beant
+            deticiendi ex alio, scilicet ex voluntate Crea<lb ed="#Q"/>toris
+            velut causae agentis, et ex parte hominis, ad
+            <lb ed="#Q"/>cuius multiplicationem ordinatur motus et tem<lb ed="#Q"/>pus.
+            Unde multiplicato numero electorum " homi<lb ed="#Q"/>num
+            praeordinato a Deo, cessare debet motus et
+            <lb ed="#Q"/>tempus 2. Ex tine ergo et efficiente primo habet
+            <lb ed="#Q"/>rationem deticiendi tempus, quamvis non habeat
+            <lb ed="#Q"/>ex parte subiecti, sicut primi mobilis, nec etiam
+            <lb ed="#Q"/>ex sui forma, quae intelligitur ut circulus, quem<lb ed="#Q"/>admodum
+            et motus primus. Unde Boethius
+            <lb ed="#Q"/>hac ratione dicit, ultimo De consolatione 3, quod
+            <lb ed="#Q"/>aeternitatem «infinitus temporalium motus imi<lb ed="#Q"/>tatur,
+            sed quoniam manereb n0n potuit in inti<lb ed="#Q"/>-
+            nitum temporis iter arripuit; sicque factum est
+            <lb ed="#Q"/>ut continuaret eundo vitam », hoc est esse, « cuius
+            <lb ed="#Q"/>plenitudinem complecti non valuit permanendo ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e4127">
+            <lb ed="#Q"/>Ad illudc vero quod dicitur in Psalmo de
+            <lb ed="#Q"/>corporibus caelestibus: Statuit ea in aeternum,
+            <lb ed="#Q"/>intelligendumd quod illud refertur ad substan<cb ed="#Q" n="b"/><lb ed="#Q"/>tiam 
+            corporum, non ad motum; et ibi ' aeternum '
+            <lb ed="#Q"/>accipitur pro perpetuo: manebunt enim perpetuo
+            <lb ed="#Q"/>quantum ad substantiam.
+          </p>
+          <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e4144">
+            <lb ed="#Q"/>Ad illud etiam quod dicitur Rom. ultimo,25:
+            <lb ed="#Q"/>temporibus aeternis, dicendum quod intelligitur
+            <lb ed="#Q"/>uno modo, ut dicit A u gu stin u s, ut tempus acci<lb ed="#Q"/>piatur
+            pro aevo, in libro 83 Quaestionum, 72 quae<lb ed="#Q"/>stione".
+            — Alio modo exponitur in Glossas:
+            « Aeterna tempora dicit quae praecesserunt mundi
+            <lb ed="#Q"/>exordium ». Quod intelligendum est ut «mundi
+            <lb ed="#Q"/>exordium » intelligatur constitutiof mundi com<lb ed="#Q"/>pleti
+            in generibus et speciebus, ante quam constitu<lb ed="#Q"/>tionem
+            praeintelligitur conditio et distinctio et dis<lb ed="#Q"/>positio
+            rerum secundum opera sex dierum, secun<lb ed="#Q"/>dum
+            quas mutationes! per quamdam improprie<lb ed="#Q"/>tatem
+            dicuntur tempora aeterna; et hoc modo ex<lb ed="#Q"/>ponunt
+            quidamö. Vel 'tempora aeterna' dicit
+            <lb ed="#Q"/>tempora in divina dispositione, non in sui na<lb ed="#Q"/>tura;
+            et tunc determinatio ' aeterni ' trahit tempus
+            <lb ed="#Q"/>extra suam rationem ut non supponantur" per
+            'aeterna tempora' tempora in rerum natura, sed
+            <lb ed="#Q"/>rationes temporum, quae sunt in divina dispo<lb ed="#Q"/>sitione.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

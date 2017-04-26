@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-27">February 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="156"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m3c3">
+        <head xml:id="ahsh-l1p1i1t3q2m3c3-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 3, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t3q2m3c3-Hd1e3732" type="question-title">AN CAUSA PROXIMA FALSITATIS SIT IN RE AN IN RELSIMILITUDINE.</head>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3735">
+          <lb ed="#Q"/>Postea quaeritur de causa falsitatis, an sit in 
+          <lb ed="#Q"/>re an in rei similitudine.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3742">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>a. Ad quod <name>Augustinus</name>, in libro Soliloquio<lb ed="#Q"/>rum: 
+          <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e3753">Quod oculi vident non dicitur falsum,
+          <pb ed="#Q" n="157"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>nisi habeat aliquam similitudinem veri: ut homo,
+          <lb ed="#Q"/>quem videmus in somnis, non est verus homo,
+          <lb ed="#Q"/>sed falsus, eo ipso quod habet veri similitudi<lb ed="#Q"/>nem»;</quote>
+          et sic de aliis; «similitudo ergo rerum
+          <lb ed="#Q"/>mater est falsitatis ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3773">
+          <lb ed="#Q"/>b. Item, in eodem 1: « Apparet in omnibus sen<lb ed="#Q"/>sibus
+          similitudine lenocinante nos falli ", et eas
+          <lb ed="#Q"/>res falsas nominamus quas veri similes deprehen<lb ed="#Q"/>dimus
+          ». Ergo etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3785">
+          <lb ed="#Q"/>c. Item, in eodemz: « Dubitari non potest esse 
+          <lb ed="#Q"/>falsum quidquam nisi veri imitatione ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3792">
+          <lb ed="#Q"/>Contra: 1. Obicit Augustinus3: «Imago
+          <lb ed="#Q"/>in speculo deprehenditur esse falsa, eo quod non
+          <lb ed="#Q"/>tenetur, non vivit, non sonat ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3801">
+          <lb ed="#Q"/>2. Item 4, « homines quos videmus in somnis
+          <lb ed="#Q"/>teneri b, loqui et vivere, si possent teneri et vivere
+          <lb ed="#Q"/>et loqui, et ab illis, quos videmus vigilantes, non
+          <lb ed="#Q"/>differrent, veri homines essent; sed ex hoc quod
+          <lb ed="#Q"/>differunt et dissimiles sunt, veri homines non
+          <lb ed="#Q"/>sunt: veri autem essent, si non essent dissimi<lb ed="#Q"/>les
+          : ; similitudinem ergo veritatis matrem, et dis<lb ed="#Q"/>similitudinem
+          falsitatisd [esse] fatendum est».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3821">
+          <lb ed="#Q"/>3. Item, Augustinus, De vera religione5:
+          « Falsitas ex iis est quae imitantur unum e, non in
+          <lb ed="#Q"/>quantum illud imitantur, sed in quantum implere
+          <lb ed="#Q"/>non possunt», et loquitur de primof uno quod
+          <lb ed="#Q"/>est primum principium; sed «in quantum non
+          <lb ed="#Q"/>possunt implere », dissimilia sunt illi uni; re<lb ed="#Q"/>linquitur
+          ergo quod dissimilitudo mater est'? fal<lb ed="#Q"/>sitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3839">
+          <lb ed="#Q"/>4. Item, Augustinus, ibidem 5, dicit quod
+          <lb ed="#Q"/>prima veritas est summa similitudo principii, in "
+          <lb ed="#Q"/>qua nulla est dissimilitudo ex' qua falsitas oritur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3848">
+          <lb ed="#Q"/>5. Item, obicit A n gustin us, in Soliloquiisk 7:
+          « Cum considero illud quod falsum vocamus, con<lb ed="#Q"/>sidero
+          aliquid simile habere veri et aliquid dis<lb ed="#Q"/>simile
+          ». Aut ergo nominatur falsum ex eo quod
+          <lb ed="#Q"/>simile aut ex eo quod dissimile. .. Si ex eo quod
+          <lb ed="#Q"/>dissimile: nihil est quod falsum dici non possit;
+          <lb ed="#Q"/>nihil enim est quod alicui' dissimile non sit. Si
+          <lb ed="#Q"/>ex eo quod simile: ovam reclamant quae ex eo
+          <lb ed="#Q"/>vera sunt quo similia ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3869">
+          <lb ed="#Q"/>6. Item, Augustinus, in eodemB: «Si quis
+          <lb ed="#Q"/>dicit lapidem esse argentum, dicit falsum »; nec
+          <lb ed="#Q"/>ex hoc quod lapis habeat argenti imitationem ali<cb ed="#Q" n="b"/><lb ed="#Q"/>quam 
+          vel quod videatur argentum et non sit;
+          <lb ed="#Q"/>falsum ergo dicitur non habens veri imitationem
+          <lb ed="#Q"/>aliquam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3886">
+          <lb ed="#Q"/>7. Item, si falsum dicitur propter similitudinem "
+          <lb ed="#Q"/>veri, cum non sit verum, sicut dicitur plumbum
+          <lb ed="#Q"/>falsum argentum, quod assimilatur argento et
+          <lb ed="#Q"/>non est argentum: numquid, quaerit Augusti<lb ed="#Q"/>nus9,
+          potest dici argentum falsum plumbum,
+          <lb ed="#Q"/>quod tamen assimilatur plumbo et non est plum<lb ed="#Q"/>bum? 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3904">
+          <lb ed="#Q"/>Respondeo, secundum Augustinum '0, quod
+          <lb ed="#Q"/>similitudo similis, in quantum huiusmodi, mater
+          <lb ed="#Q"/>est veritatis. Unde prima veritas est summa si<lb ed="#Q"/>militudo
+          unitatis " principii, quae, sicut ipse dicit ",
+          « id implereP potuit et illud esse quod est ? [illud];
+          <lb ed="#Q"/>ipsa est quae illud, sicut est, ostendit: unde recte
+          <lb ed="#Q"/>et Verbum et lux eius dicitur. Cetera illius unius
+          <lb ed="#Q"/>similia dici possunt in quantum sunt, et in tan<lb ed="#Q"/>tum
+          vera sunt; haec autem ipsa est eius simili<lb ed="#Q"/>tudo
+          et ideo veritas. Ut enim veritate prima sunt
+          <lb ed="#Q"/>quae vera sunt, ita similitudine similia sunt quae<lb ed="#Q"/>cumque
+          similia sunt', et, in quantum vera5 sunt,
+          <lb ed="#Q"/>illius principalis unius similia sunt ». Unde Au<lb ed="#Q"/>gustinus,
+          in Soliloquiis'zz « Falsum est quod
+          <lb ed="#Q"/>a veri similitudine longe est, sed tamen habet ad
+          <lb ed="#Q"/>verum nonnullam imitationem ». Item, Augusti<lb ed="#Q"/>nus',
+          De vera religione 13: « Corpora intantum
+          <lb ed="#Q"/>fallunt, in quantum non implent illud quod con<lb ed="#Q"/>vincuntur
+          imitari ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3946">
+          <lb ed="#Q"/>[Ad obiecta]: Ad auctoritates hincinde"
+          <lb ed="#Q"/>obiectas iam patet responsio: quia non dissimili<lb ed="#Q"/>tudo
+          tantum nec similitudo mater est falsitatis,
+          <lb ed="#Q"/>sed dissimilitudo eius quod est simile, in quan<lb ed="#Q"/>tum
+          huiusmodi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3959">
+          <lb ed="#Q"/>6. Ad illud vero quod obicit de illo qui « dicit
+          <lb ed="#Q"/>lapidem esse argentum, qui dicit falsum », et ta<lb ed="#Q"/>menu
+          non est similitudo lapidis ad argentum:
+          <lb ed="#Q"/>dicendum, secundum Au gu stin um, quod haec "
+          <lb ed="#Q"/>est falsitas dicti vel enuntiationis, non rei; et ideo
+          <lb ed="#Q"/>similitudo est inx dicto vel? enuntiatione, quia,
+          <lb ed="#Q"/>sicut dicit Augustinus 15: « Falsa enuntiatio
+          <lb ed="#Q"/>imitatur veras sententias. Quae si non creditur, eo
+          <lb ed="#Q"/>solo imitatur [veras] quod ita dicitur; quod si ei
+          <lb ed="#Q"/>non creditur, est 2 tanturn falsa, non etiam fallens;
+          <lb ed="#Q"/>si autem fidem impetrat, imitatur creditas veras ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3985">
+          <pb ed="#Q" n="158"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>7. Ad ultimum quod quaerit, dicendum, se<lb ed="#Q"/>cundum
+          <name ref="#Augustine">Augustinum</name>, in Soliloquiis 1: Non
+          <lb ed="#Q"/>dicitur argentum 'falsum plumbum, quia « argen<lb ed="#Q"/>tum
+          melius est, et quasi in contumeliam ei" di<lb ed="#Q"/>citur;
+          plumbib autem velut honor est, si falsum
+          <lb ed="#Q"/>argentum vocetur ». Similiter imago hominis c di<lb ed="#Q"/>citur
+          falsus homo, non homo falsa imago, quia, 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sicut ipse dicit 2, «falsum est quod ad similitu<lb ed="#Q"/>dinem
+          alicuius accommodatum est, nec id tamen
+          <lb ed="#Q"/>est cuius simile apparet»; non autem homo ad
+          <lb ed="#Q"/>similitudinem imaginis, sed e converso, nec ar<lb ed="#Q"/>gentum
+          ad similitudinem plumbi, sed e converso ' :
+          ' esse enim ad imitationem ' alicuius ' dicit digni<lb ed="#Q"/>tatem
+          in illo ad cuius imitationem dicitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, Praeambula</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, Praeambula</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="14"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2prae">
+        <head xml:id="ahsh-l1tinq2prae-Hd1e3729">I, Tract. Intro., Q. 2, Praeambula</head>
+        <p xml:id="ahsh-l1tinq2prae-d1e3732">
+          <lb ed="#Q"/>Volens autem se manifestare humanis cordibus superessentialis substantia, Deus ',
+          <lb ed="#Q"/>in latione " Legis praecipit Moysi, Exod. 19, 21: Contestare populum, ne forte
+          <lb ed="#Q"/>velint transcendere terminos ad videndum Deum, ponens limites humanae ra<lb ed="#Q"/>ni 
+          in inquisitione divinorum et maxime in perscrutatione abditissimae et sacratissimae
+          <lb ed="#Q"/>inae Unitatis et Trinitatis. Hinc est etiam quod per Sapientemb dictum est: Ne trans—
+          <lb ed="#Q"/>ediaris terminos, quos posuerunt patres tui *, Prov. 22, 28. Termini autem isti sunt
+          <lb ed="#Q"/>utentiae divini Eloquii. Propter quod B. Dionysius, in libro De divinis nominibus 2,
+          <lb ed="#Q"/>it « universaliter non audere aliud cogitare vel dicere de superexcellentissima divi—
+          <lb ed="#Q"/>ate praeter hoc quod in divinis ** Scripturis invenitur expressum ». ,
+        </p>
+        <p xml:id="ahsh-l1tinq2prae-d1e3754">
+          <lb ed="#Q"/>Huius " rei gratia praeponimus quaestionem de cognitione Dei quae potest haberi
+          <lb ed="#Q"/>homine in hac vita, ut manifesti sint termini inquisitionis circa essentiam beatissimae
+          <lb ed="#Q"/>initatis. 3
+        </p>
+        <p xml:id="ahsh-l1tinq2prae-d1e3763">
+          <lb ed="#Q"/>Quaeritur ergo de cognitione Dei in via g ex parte cognoscibilis, ex parte cognOA
+          <lb ed="#Q"/>entis, ex parte medii cognoscendi.
+        </p>
+        <p xml:id="ahsh-l1tinq2prae-d1e3770">'
+          <lb ed="#Q"/>I. Ex parte cognoscibilis quaeritur":
+          <lb ed="#Q"/>primo, an Deus sit cognoscibilis i ;
+          <lb ed="#Q"/>secundo, an sit" cognoscibilis in sua immensitate;
+          <lb ed="#Q"/>tertio, an sit' cognoscibilis in suaTrinitate '";
+          <lb ed="#Q"/>quarto, an sit" cognoscibilis facie ad faciem;
+          <lb ed="#Q"/>quinto, an" cognoscibilis in sua specie;
+          <lb ed="#Q"/>sexto, an P cognoscibilis in sua praesentia, secundum quod praesens est creaturae.
+        </p>
+        <p xml:id="ahsh-l1tinq2prae-d1e3789">
+          <lb ed="#Q"/>II. Ex parte cognoscentis: "
+          <lb ed="#Q"/>primo, an sit in naturali potentia cognoscere Deum;
+          <lb ed="#Q"/>secundo, an cognoscibilisi a bonis tantum-;
+          <lb ed="#Q"/>tertio, an cognoscibilis ' sensu aut ratione tantum;
+          [quarto, an cognoscibilis ratione Vel intelligentia solum];
+          <lb ed="#Q"/>quinto 9, an cognoscibilis secundum modum unum ab homine ante peccatum
+          <lb ed="#Q"/>et post.
+        </p>
+        <p xml:id="ahsh-l1tinq2prae-d1e3805">
+          <lb ed="#Q"/>III. Ex parte medii cognoscendi:
+          <lb ed="#Q"/>primo ', an cognoscatur per medium;
+          <lb ed="#Q"/>secundo, de medio cognoscendi per naturam;
+          <lb ed="#Q"/>tertio, de medio cognoscendi per gratiam;
+          <lb ed="#Q"/>quarto, de comparatione cognitionis per naturam et per " gratiam;
+          <lb ed="#Q"/>quinto, de comparatione secundum certitudinem medii ad cognoscendum Deum
+          <lb ed="#Q"/>et creaturam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

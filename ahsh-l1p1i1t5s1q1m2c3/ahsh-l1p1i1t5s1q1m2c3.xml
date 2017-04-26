@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="248"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m2c3">
+        <head xml:id="ahsh-l1p1i1t5s1q1m2c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 2, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m2c3-Hd1e3744" type="question-title">UTRUM DEUS COGNOSCAT PER UNUM VEL PER MULTA.</head>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3747">
+          <lb ed="#Q"/>Tertio quaeritur utrum cognoscat per unum vel
+          <lb ed="#Q"/>per plura.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3754">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Quod per multa, videtur: 1. In libro 83 Quae<lb ed="#Q"/>stionum
+          5: « Nihil aliud est res esse in Dei scientia 
+          <pb ed="#Q" n="a"/>
+          <cb ed="#Q" n="249"/>
+          <lb ed="#Q"/>quam rationes rerum esse in Dei scientia ». Sed '
+          <lb ed="#Q"/>ut dicit ipse in eodemï: «Omnia vel singula
+          <lb ed="#Q"/>sunt creata propriis rationibus; alia enim ratione
+          <lb ed="#Q"/>creatus est homo, alia equus ». Ergo, singula pro<lb ed="#Q"/>prias
+          rationes habent; sed ipse scit per rationes;
+          <lb ed="#Q"/>ergo scit per multas. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3780">
+          <lb ed="#Q"/>2. Item, ens secundum omnem differentiam ha<lb ed="#Q"/>bet
+          esse in Deo; sed differentiae entis sunt unum
+          <lb ed="#Q"/>et multa; ergo ibi est exemplar unitatis et mul<lb ed="#Q"/>titudinis;
+          ergo sicut cognoscit unum per unum
+          <lb ed="#Q"/>exemplar, ita multa per multa exemplaria.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3794">
+          <lb ed="#Q"/>3. Item, aut cognoscit unum per unum aut unum
+          <lb ed="#Q"/>per multa. Si per multa: habeo propositum; si
+          <lb ed="#Q"/>per unum: ergo cum cognoscat omnia per mo<lb ed="#Q"/>dum
+          suum, in ipso autem sunt omnia unum,
+          <lb ed="#Q"/>ergo non cognoscit nisi unum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3807">
+          <lb ed="#Q"/>Contra: a. Dionysius, De divinis nomini<lb ed="#Q"/>busz:
+          « In tota omnium causa», id est perfecta 
+          <lb ed="#Q"/>omnium causa, « omnes naturae singulorum sunt ' 
+          <lb ed="#Q"/>convolutae per unam inconiusam " unitatem »; et
+          <lb ed="#Q"/>ponit exemplum de unitate et centro. Ergo per
+          <lb ed="#Q"/>unitatem unam ** cognoscuntur omnes naturae sin<lb ed="#Q"/>gulorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3825">
+          b. Item, in libro De divinis naminibus3: « Co<lb ed="#Q"/>gnoscit
+          universaliter multa uno »; dicit enim sic:
+          « Divina sapientia cognoscens se ipsam, cogno<lb ed="#Q"/>scit
+          omnia et universaliter multat uno ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3832">
+          <lb ed="#Q"/>Respondeo: Cognoscit omnia se ipso, et cogno<lb ed="#Q"/>scit
+          omnia per unum. Et ratio huius est: quia
+          <lb ed="#Q"/>perfectius est cognoscere multa et unum uno
+          <lb ed="#Q"/>quam multa per multa et unum per unum; et
+          <lb ed="#Q"/>quod est-perfectius est Deo tribuendum; cogno<lb ed="#Q"/>scit
+          ergo unum et multa per unum. Et est exem<lb ed="#Q"/>plum
+          de d unitate: detur enim e intellectus unitati,
+          <lb ed="#Q"/>intellectus, inquam, suae essentiae et suae virtutis
+          <lb ed="#Q"/>et sui respectus, similiter et centro 4. Si sic: unitas, 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>intelligendo se, intelligeretf unitatem et etiam
+          <lb ed="#Q"/>suam virtutem; et cum sua virtus sit quod ex5
+          <lb ed="#Q"/>eius multiplicatione surgit omnis numerus, ipsa,
+          <lb ed="#Q"/>intelligendo suam virtutem, intelligeret omnem
+          <lb ed="#Q"/>numerum. Similiter Deus, intelligendo se, omnia
+          <lb ed="#Q"/>intelligit. Eodem modo patet in centro: si intellige<lb ed="#Q"/>ret
+          se et suam virtutem, uno simplici intellectu in<lb ed="#Q"/>telligeret 
+          infinitas lineas quae possunt duci ab ipso.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3874">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Quod ergo obicitur'quod
+          « singula propriis rationibus creata sunt»: dicen<lb ed="#Q"/>dum
+          quod haec argumentatio non valet: 'multae
+          <lb ed="#Q"/>sunt rationes, et per rationes cognoscit, ergo per
+          <lb ed="#Q"/>multa cognoscit,; nani rationes et multae sunt
+          <lb ed="#Q"/>et una: ratio enim habet comparationem adillud
+          <lb ed="#Q"/>cuius est et ad illa respectu quorum est. In com<lb ed="#Q"/>paratione
+          autem ad illa quorum est ", rationes
+          <lb ed="#Q"/>multae sunt; sed in comparatione ad illud cuius
+          <lb ed="#Q"/>est, una est tantum. Sicut patet in respectu puncti
+          <lb ed="#Q"/>ad lineas: respectus ï enim puncti, secundum quod
+          <lb ed="#Q"/>puncti *, unus est et simplex; in comparatione1
+          <lb ed="#Q"/>ad plures lineas multi sunt. Est ergo sophisma
+          <lb ed="#Q"/>accidentis in argumentatione illam: nam secun<lb ed="#Q"/>dum
+          quod illa per se" cognoscit, non sunt mul<lb ed="#Q"/>tae
+          rationes, sed una tantum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3909">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod Deus se uno
+          <lb ed="#Q"/>cognoscit unum et multa; unum autem est exem<lb ed="#Q"/>plar 
+          unitatis et multitudinis: sed unum secundum
+          <lb ed="#Q"/>actum consideratum est exemplar unitatis, unum
+          <lb ed="#Q"/>consideratum secundum potentiam est" exemplar
+          <lb ed="#Q"/>multitudinis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c3-d1e3926">
+          <lb ed="#Q"/>3. Ad aliud quod obicitur 'cognoscit secun<lb ed="#Q"/>dum
+          quod sunt in ipso, sed secundum quod in
+          <lb ed="#Q"/>ipso sunt, suntP unum, ergo non cognoscit nisi
+          <lb ed="#Q"/>unum': dicendum quod non valet, sed deberet
+          <lb ed="#Q"/>inferri: 'ergo non cognoscit nisi ut unum'; nec
+          <lb ed="#Q"/>sequitur ulterius: ' ergo non cognoscit nisi unum '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

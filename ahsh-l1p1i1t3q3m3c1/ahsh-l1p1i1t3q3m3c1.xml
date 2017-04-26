@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. III, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="173"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m3c1">
+        <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. III, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e3744" type="question-title">DE MODO SPECIE ET ORDINE QUIBUS DETERMINATUR BONUM IN CREATURIS</head>
+        <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur secundum quid deter<lb ed="#Q"/>minetur 
+          bonum in creatura. Secundum Au<lb ed="#Q"/>gustinum 
+          determinatur per modum, speciem 
+          <lb ed="#Q"/>et ordinem. Ad pleniorem ergo intelligentiam quae<lb ed="#Q"/>rendum 
+          est de iis hoc modo: 
+          <lb ed="#Q"/>1. An sintb in omni creatura;
+          <lb ed="#Q"/>2. secundum quid sint in omni creatura;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>3. secundum quid differat assignatio horum 
+          <lb ed="#Q"/>differens;
+          <lb ed="#Q"/>4. an ista sint eadem in omni creatura;
+          <lb ed="#Q"/>5. an secundum hoc discernatur et determi<lb ed="#Q"/>netur
+          bonum in Creatore et creatura. 
+          <lb ed="#Q"/>Qualiter autem malum sit horum corruptio, in<lb ed="#Q"/>fra 
+          suo loco dicetur 2. 
+        </p>
+        <div xml:id="ahsh-l1p1i1t3q3m3c1-Dd1e3782" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e3784">Articulus I</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e3787" type="question-title">Utrum sint in omni creatura.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3790"><lb ed="#Q"/>I. Quaeritur ergo utrum ista ': in omni eo quod 
+            <lb ed="#Q"/>est reperiantur 3.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3796">
+            <lb ed="#Q"/>Quod sic, videtur: a. Per auctoritatem Sap. 11, 21: 
+            <lb ed="#Q"/>Omnia numera, pondere et mensura disposuisti.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3803">
+            <lb ed="#Q"/>5. Et per auctoritatem Augustini, in libro
+            <lb ed="#Q"/>De natura boni 4, loquentisd de modo, specie et
+            <lb ed="#Q"/>ordine: « Ubi haec tria sunt magna, et magnum
+            <lb ed="#Q"/>bonum est; ubie parva, parvum; ubi nulla, nul<lb ed="#Q"/>lum
+            bonum est». Omne autem quod est, in quan<lb ed="#Q"/>tum
+            est, bonum est; nullum igitur est ensf in
+            <lb ed="#Q"/>quo non sint.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3822">
+            <lb ed="#Q"/>Contra: 1. Peccatumg definitur5 per privatio<lb ed="#Q"/>nem
+            modi, speciei et ordinis; ergo circa idem et
+            <lb ed="#Q"/>solum nata sunt fieri peccatum et illa tria; sed
+            <lb ed="#Q"/>peccatum non est possibile fieri in omni eo quod
+            ' est; ergo nec illa tria.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3833">
+            <lb ed="#Q"/>2. Item, si in omni creatura reperiantur modus,
+            <lb ed="#Q"/>species et ordo, tunc quaeritur de modo: aut est
+            <lb ed="#Q"/>Creator aut creatura. Non Creator, quia in ipso
+            <lb ed="#Q"/>non cadit nec '! terminatio nec formatio nec huius<lb ed="#Q"/>modi,
+            secundum quod, dicit Augustinus, Ad
+            <lb ed="#Q"/>Orosium 5, quod Deus «est mensura sine men<cb ed="#Q" n="b"/><lb ed="#Q"/>sura ». 
+            Praeterea, si solum dicerent aliquid in
+            <lb ed="#Q"/>Creatore illa tria, ergo nihil essent in creatura:
+            <lb ed="#Q"/>quod non est verum; ergo non est modus ali<lb ed="#Q"/>quidi
+            in Creatore; erit ergo creatura. Si ergo
+            « omnis creatura habet modum, speciem et ordi<lb ed="#Q"/>nem
+            -, habebit modusk modum, speciem et ordi<lb ed="#Q"/>nem
+            '. Sed tunc potest quaeri de illo modo, specie
+            <lb ed="#Q"/>et ordine etc.; aut ergo ibitur in infinitum aut stabi<lb ed="#Q"/>tur
+            in aliquo modo '" qui non habet modum alium;
+            <lb ed="#Q"/>et ita, si modus est creatura, non erit in omni
+            <lb ed="#Q"/>creatura modus. Similiter opponi potest de aliis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3871">
+            <lb ed="#Q"/>3. Item, Ambrosius, in Hexaemer0n7: « Lucis
+            <lb ed="#Q"/>natura est ut non in numero, non in mensura, non
+            <lb ed="#Q"/>in pondere, ut alia creatura, sit ». Cum ergo lux
+            <lb ed="#Q"/>sit creatura", non sunt illa tria in omni creatura.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3882">
+            <lb ed="#Q"/>II. Item, quaeritur, cum A u gu sti n u s 8 utatur
+            <lb ed="#Q"/>iis verbis « modus, species et ordo », quare in
+            <lb ed="#Q"/>Sap. 11,21 non dicitur 'omnia disposuisti in modo,
+            <lb ed="#Q"/>specie et ordine, aut quare Augustinus non
+            <lb ed="#Q"/>utitur0 verbis ibi positis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3895">
+            <lb ed="#Q"/>Solutio: I. 1. Dicimusl' quod modus, species et
+            <lb ed="#Q"/>ordo dupliciter dicuntur. Uno modo proprie so<pb ed="#Q" n="174"/><cb ed="#Q" n="a"/><lb ed="#Q"/>lum,
+            <lb ed="#Q"/>lum, secundum quod reperiuntur in omni crea<lb ed="#Q"/>tura 
+            rationali, secundum quod ab omnibus aliis
+            <lb ed="#Q"/>creaturis differt; et haec sunt illa quae nata sunt
+            <lb ed="#Q"/>corrumpi per peccatum: et sicnon Sunt in om<lb ed="#Q"/>nibus,
+            sicut ostendebat obiectio prima. —
+            <lb ed="#Q"/>Alio modo dicuntur communiter non solum in
+            <lb ed="#Q"/>rationali creatura prout differt ab aliis,- sed in
+            <lb ed="#Q"/>ipsa secundum quod convenit cum aliis: et hoc
+            <lb ed="#Q"/>modo reperiuntur in omni ente.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3926">
+            <lb ed="#Q"/>2. Ad illud " quod obicitur quod 'sic ibitur
+            <lb ed="#Q"/>in infinitum aut erit modus sine modo': dicen<lb ed="#Q"/>dum,
+            secundum Augustin u m, Super Genesim ',
+            <lb ed="#Q"/>quod cum dicitur: 'omnia habent modum, speciem
+            <lb ed="#Q"/>et ordinem ', ly ' omnia' distribuit pro creatis ab<lb ed="#Q"/>solute:
+            omnia enim talia habent modum, speciem
+            <lb ed="#Q"/>et ordinem; sed non distribuit pro concreatisb
+            <lb ed="#Q"/>quae sunt rationes referendi creata ad sua princi<lb ed="#Q"/>pia
+            vel ad suas causas. Unde non sequitur: si
+            <lb ed="#Q"/>omnia creata habent modum, speciem et ordinem,
+            <lb ed="#Q"/>quod modus habeat haec tria. Etc est exemplum
+            <lb ed="#Q"/>Augustiniz: « Omnia corporalia facta sunt in
+            <lb ed="#Q"/>colore, color tamen non est factus .in colore».
+            -— Aliter posset dici etiam secundum Augusti<lb ed="#Q"/>n
+            um 3. Quaerit enim: Omnia disposuisti numero,
+            <lb ed="#Q"/>pondere et mensura: haec autem, numerum, pon<lb ed="#Q"/>dus
+            et mensuram d, ubi disposuite? Et respondet
+            <lb ed="#Q"/>quod « in se ipso, qui est numerus sine numero,
+            <lb ed="#Q"/>pondus sine pondere ». Et sic non ibitur in inti<lb ed="#Q"/>nitum,
+            sed stabitur in ipso Deo.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3971">
+            <lb ed="#Q"/>3. Ad illudf quod postea obicitur de auctori<lb ed="#Q"/>tate
+            Ambrosii: dicimus quod quidam volunt
+            <lb ed="#Q"/>eam exponere de luce spirituali solum. Sed adhuc
+            <lb ed="#Q"/>ista via non posset exponi nisi de luce increata:
+            <lb ed="#Q"/>haec enim revera non est creata in numero, pon<lb ed="#Q"/>dere
+            et mensura, et sic nulla esset difficultas in
+            <lb ed="#Q"/>illa auctoritate; sed de luce spirituali, quae est
+            <lb ed="#Q"/>angelica natura, non posset exponi: illa enim-'!
+            <lb ed="#Q"/>non caret numero, pondere etc. Nos autem di—
+            <lb ed="#Q"/>cimus quod-Ambrosius loquitur ibi de luce
+            <lb ed="#Q"/>corporali, sed non simpliciter respectu omnium
+            <lb ed="#Q"/>quae sunt, sed solum respectu aliorum " corpora<cb ed="#Q" n="b"/><lb ed="#Q"/>lium, 
+            comparando eam ad ipsa. Comparando enim
+            <lb ed="#Q"/>ad lucem indreatam, de qua [ Tim. 6,16: Lucem
+            <lb ed="#Q"/>habitat inaccessibilem, secundum quod illa dicitur
+            <lb ed="#Q"/>esse ubique, constat .quod haec" lux est termi<lb ed="#Q"/>nata:
+            non enim est ubique, cum sit aliquid crea<lb ed="#Q"/>tum.
+            ldeo habet modum, secundum quemk refer<lb ed="#Q"/>tur
+            ad efficiens; habet etiam speciem, secundum
+            <lb ed="#Q"/>quam' refertur ad formam; habet etiam ordinem,
+            <lb ed="#Q"/>cum ordinetur ad summum bonum, ad quod ipsa
+            <lb ed="#Q"/>est sicut ad finem. Sed comparando ad corpo<lb ed="#Q"/>ralia
+            non est ita dicere quod sit mensurata et
+            <lb ed="#Q"/>numerata. Non enim est in quibusdam corpora<lb ed="#Q"/>libus
+            virtus lucis tantum, sed "' in omnibus, etiam
+            <lb ed="#Q"/>in opacis, ut in terra: non solum in terrae su<lb ed="#Q"/>perficie
+            potest videri virtus eius, sed etiam in
+            <lb ed="#Q"/>corde terrae ;» aliter enim non possent fieri gene<lb ed="#Q"/>rationes
+            quae ibi fiunt. Unde Ambrosius, in
+            <lb ed="#Q"/>eodem 4: « Non in splendore tantum ", sed in omni
+            <lb ed="#Q"/>virtute natura lucis probatur ». Et propter hoc re<lb ed="#Q"/>spectu
+            aliorum corporum est verum quod dicit
+            <lb ed="#Q"/>quod -« non est creata in numero, pondere etc. ",
+            <lb ed="#Q"/>sicut alia ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4048">
+            <lb ed="#Q"/>II. Ad hoc quod quaeritur quare Augustinus
+            <lb ed="#Q"/>non utitur verbis sumptis Sap. 11,21: «dicimus
+            <lb ed="#Q"/>quod revera idem sunt in substantia modus, spe<lb ed="#Q"/>cies
+            et ordo, et numerus, pondus et mensura5 »,
+            <lb ed="#Q"/>utP referatur numerus ad speciem, modus ad
+            <lb ed="#Q"/>mensuram, pondus ad ordinem. Sed'? in hoc est
+            <lb ed="#Q"/>differentia: quoniam haec tria, mensura, numerus
+            <lb ed="#Q"/>et pondus, dicunt' dispositiones ipsius rei ut
+            <lb ed="#Q"/>est8 in fieri. Hoc potest videri in caementariis:
+            <lb ed="#Q"/>cum enim faciunt, tunc mensurant *, numerant et
+            <lb ed="#Q"/>ponderant quotquot sunt necessaria ad facien<lb ed="#Q"/>dum.
+            Et ideo quia in Sap. loquitur de rebus secun<lb ed="#Q"/>dum
+            suum fieri, " quod patet per hoc " quod dici<lb ed="#Q"/>tur
+            disposuisti, ideo proprie utitur tribus prae<lb ed="#Q"/>dictis.
+            Modus autem, species et ordo proprie di<lb ed="#Q"/>cunt
+            dispositionem rei, ut iam facta est. Quia ergo
+            <lb ed="#Q"/>Augustinus loquitur de conditionibus rerum
+            <lb ed="#Q"/>ut iam factae sunt, proprie utitur illis tribus:
+            <lb ed="#Q"/>modus, species et ordo.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q3m3c1-Dd1e4093" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e4095">ARTICULUS II.</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e4098" type="question-title">Utrum sint accidentalia vel substantialia.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4101">
+            <lb ed="#Q"/>Consequentur quaeritur, supposito quod haec
+            <lb ed="#Q"/>tria reperiantur in omni creatura, secundum quid
+            <lb ed="#Q"/>accipiuntur in illis, utrum scilicetx secundum ali<lb ed="#Q"/>quid
+            substantiale vel accidentale. Et hoc est quae<cb ed="#Q" n="b"/><lb ed="#Q"/>rere 
+            utrum haec sint accidentalia vel substan<lb ed="#Q"/>tialia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4118">
+            <lb ed="#Q"/>Quod autem essentialia sint, videtur: Quia 
+            <lb ed="#Q"/>dicit Augustinus<!--6-->: «Ubi haec magna sunt,
+            <pb ed="#Q" n="175"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>magnum bonum est ». Ergo videtur quod bonum
+            <lb ed="#Q"/>non" sit sine iis; sed quod non est bonum se<lb ed="#Q"/>cundum
+            naturam, non est: « omne enim quod est,
+            <lb ed="#Q"/>secundum quod huiusmodi, bonum est», ut dicit
+            <lb ed="#Q"/>Augustinus, De doctrina christiana 1; ergo
+            <lb ed="#Q"/>nullum ens potest esse sine ,iis; ergo sunt es<lb ed="#Q"/>sentialia.
+            -— R esp 0 nde bitb quod non sequitur:
+            ' hoc non potest esse sine 0 hoc, ergo est essentiale
+            <lb ed="#Q"/>illi* — sedd addi oportet: 'nec potest intelligi
+            <lb ed="#Q"/>sine illo * 3. Cycnus enim non potest esse sine al<lb ed="#Q"/>bedine,
+            tamen intelligi potest sine albedine f : unde
+            <lb ed="#Q"/>albedo non est essentialis cycno; similiter neque
+            <lb ed="#Q"/>propria passio est essentialis, ut sit de essentia
+            <lb ed="#Q"/>subiecti, non tamen potest esse subiectum sine illa.
+            —Sed quod nec res possit intelligi sine
+            <lb ed="#Q"/>istis, ostenditur primo sic: a. Omne quod
+            <lb ed="#Q"/>perfecte intelligitur a nobis, oportet intelligi sicut
+            <lb ed="#Q"/>terminatum et formatum-g et ordinatum: aliter non
+            <lb ed="#Q"/>contingeret istud intelligere perfecta comprehen<lb ed="#Q"/>sione,
+            nisi comprehendamus ut terminatum ", sed
+            <lb ed="#Q"/>solum intelligeremus illud sicut intelligimus Deum,
+            <lb ed="#Q"/>quem non possumus intelligere comprehensione
+            <lb ed="#Q"/>perfecta; constat autem quod differens est mo<lb ed="#Q"/>dus
+            inï nobis intelligendi Deum et creaturas;
+            <lb ed="#Q"/>sed omne quod intelligitur ut terminatum *, intel<lb ed="#Q"/>ligitur
+            sub modo, specie et ordine; ergo sicut
+            <lb ed="#Q"/>nec esse, ita' nec intelligi possunt sine modo,
+            <lb ed="#Q"/>specie et ordine.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4188">
+            <lb ed="#Q"/>b. Item, si res non cognoscitur nisi secundum
+            <lb ed="#Q"/>quod habet esse, esse autem non habet nisi a
+            <lb ed="#Q"/>suis principiis, patet quod non cognoscitur res
+            <lb ed="#Q"/>complete nisi per comparationem ad sua princi<lb ed="#Q"/>pia;
+            sed modus, species et ordo dicunt compa<lb ed="#Q"/>rationem
+            rei ad sua principia: modus'" enim se<lb ed="#Q"/>cundum
+            relationem rei ad suum efficiens, species
+            <lb ed="#Q"/>ad suam formam extra, ordo ad suum finem;
+            <lb ed="#Q"/>ergo res non possunt intelligi sine modo, specie "
+            <lb ed="#Q"/>et ordine. — Quod autem haec tria dicant relatio—
+            <lb ed="#Q"/>nem rei ad sua principia et quod dicant termina<lb ed="#Q"/>tionem 
+            et formationem <!--o--> et ordinationem rei ad fi<lb ed="#Q"/>nem, 
+            dicit Augustinus, Super Genesim 2, plane
+            <lb ed="#Q"/>iis verbis: «Mensura unicuique rei modum prae.—
+            <lb ed="#Q"/>figit, numerus omniP rei speciem praebet, pondus
+            <lb ed="#Q"/>est quod ad quietem et stabilitatem trahit». Et
+            <lb ed="#Q"/>istud potest extrahi in parte ex? Glossa3 Ge<lb ed="#Q"/>nesis
+            super illud: Complevit Deus etc. Unde in
+            <lb ed="#Q"/>omnibus rebus sunt, et in corporalibus et in spi<lb ed="#Q"/>ritualibus4:
+            in corporalibus tamen facilius compre<lb ed="#Q"/>henduntur,
+            in spiritualibus vero non ita faciliter.
+            <lb ed="#Q"/>Si ergo idem sunt numerus, mensura et pondus 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>quod modus, species et ordo, et nulla res nec
+            <lb ed="#Q"/>esse nec' intelligi potest sine istis, ergo similiter
+            <lb ed="#Q"/>nec sine modo, specie et ordine; sic ergo videtur
+            <lb ed="#Q"/>quod illa sint essentialia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4252">
+            <lb ed="#Q"/>Contra: 1. Dionysius5: «Nihil existentium
+            <lb ed="#Q"/>corrumpitur, secundum quod ests existentia, vel
+            <lb ed="#Q"/>natura». Ergo [id] secundum quod fit corruptio,
+            <lb ed="#Q"/>proprie essentiale non est; fit autem corruptio se<lb ed="#Q"/>cundum
+            modum, speciem et ordinem; ergo non
+            <lb ed="#Q"/>sunt essentialia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4268">
+            <lb ed="#Q"/>2. Item, prius est intelligere rem esse quam esse
+            <lb ed="#Q"/>terminatam vel ordinatam; ergo primus rei intel<lb ed="#Q"/>lectus
+            est esse ipsius; sed esse quod est in ad<lb ed="#Q"/>ditione
+            ad primum intellectum, non est essentiale;
+            <lb ed="#Q"/>ergo haec non sunt essentialia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4281">
+            <lb ed="#Q"/>3. Praeterea, secundum esse communiter dic<lb ed="#Q"/>tum,
+            possumus dicere quod conveniat creatura
+            <lb ed="#Q"/>cum Creatore; sed secundum modum, speciem et
+            <lb ed="#Q"/>ordinem non': haec enim non conveniunt Deo;
+            <lb ed="#Q"/>ergo si prius est illud secundum quod convenit
+            <lb ed="#Q"/>creatura cum Creatore quam id secundum quod
+            <lb ed="#Q"/>differt, prius erit esse rei quam rnodus etc. Vi<lb ed="#Q"/>detur
+            ergo quod illa tria sint ex additione ad esse
+            <lb ed="#Q"/>rei; sed quae talia sunt non sunt essentialia rei;
+            <lb ed="#Q"/>ergo nec illa tria.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4305">
+            <lb ed="#Q"/>
+            4. Item, contingit comparare rem ad sua prin<lb ed="#Q"/>cipia
+            extrinseca et intrinseca. Quaeritur" ergo:
+            <lb ed="#Q"/>quae est prior harum comparationum? Constat
+            <lb ed="#Q"/>quod illa quae est ad V intrinseca, scilicet ad illud
+            'quod est, et 'quo est': haec enim est omnino
+            <lb ed="#Q"/>essentialis. Si ergo modus, species et ordo nonx
+            <lb ed="#Q"/>sumuntur penes relationem rei ad sua principia
+            <lb ed="#Q"/>intrinseca, apparet quod sunt posteriora esse rei;
+            <lb ed="#Q"/>sed quae talia sunt non sunt essentialia; ergo
+            <lb ed="#Q"/>modus, species et ordo non sunt essentialia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4327">
+            <lb ed="#Q"/>Solutio: 1-2-3. Dicendum quod aliquid essen<lb ed="#Q"/>tiale
+            dupliciter dicitur: vel quia sit? de rei essentia
+            <lb ed="#Q"/>vel esse primo, ut cadat in compositione ipsius, et
+            <lb ed="#Q"/>sic dicuntur ' quod est' et 'quo est' essentialia;
+            <lb ed="#Q"/>et-sic dicimus quod illa non sunt essentialia, sicut
+            <lb ed="#Q"/>probant ultimae-rationes. — Alio modo dicuntur
+            <lb ed="#Q"/>essentialia non solum ex quibus componitur ali<lb ed="#Q"/>quid,
+            sed illa quae rei-erunt ipsum ad suas causas
+            <lb ed="#Q"/>essentiales, sine quibus non fuisset: et sic, sicut
+            <lb ed="#Q"/>possumus dicere quod causae sunt essentiales cau—
+            <lb ed="#Q"/>sato — non enim possumus dicere quod accidunt
+            <lb ed="#Q"/>illi — ita possumus dicere quod relationes ad cau—
+            <lb ed="#Q"/>sas illas sunt essentiales; et sic modus, species
+            <lb ed="#Q"/>et ordo, quae dicunt<!--z--> relationes ad suas causas,
+            <lb ed="#Q"/>essentiales sunt: modus enim dicit relationem ad
+            <pb ed="#Q" n="176"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>Deum ut ad efficientem, species ut ad formam,
+            <lb ed="#Q"/>ordo ut ad finem. Et secundum hoc dicit Au<lb ed="#Q"/>gustinus,
+            X De civitate Dei 1, quod tria quae<lb ed="#Q"/>rimus:
+            quis fecit rem, quomodo facta est res 0,
+            <lb ed="#Q"/>propter quid facta est. Si ergo ostenditur quod
+            <lb ed="#Q"/>non sunt essentialia, dico quod non sunt essen<lb ed="#Q"/>tialia
+            primo modo dicendi essentiale; et sic cur<lb ed="#Q"/>runt
+            rationes illae, aliter autem 17 non.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4386">
+            <lb ed="#Q"/>4. Si ergo quaeritur quae comparatio sit prior [
+            <lb ed="#Q"/>vel rei ad sua principia ' quod est' et ' quo est ',
+            <lb ed="#Q"/>vel secundum haec quae sunt modus, species et
+            <lb ed="#Q"/>ordo, dico quod 'prior' potest dici dupliciter:
+            <lb ed="#Q"/>vel 'prior', quia universalior, et hoc modo prior
+            <lb ed="#Q"/>est comparatio quae estd secundum modum, spe<cb ed="#Q" n="b"/><lb ed="#Q"/>ciem 
+            et ordinem quam ea quae est ad materiam
+            <lb ed="#Q"/>et formam: universalior enim est. Et secundum
+            <lb ed="#Q"/>hanc etiam ': cognoscuntur materia et forma: tum
+            <lb ed="#Q"/>enim in materia, tum f in forma oportet ponere mo—
+            <lb ed="#Q"/>dum, speciem et ordinem. Vel potest dici 'prior',
+            <lb ed="#Q"/>id est propinquior rei cognoscendae, secundum
+            <lb ed="#Q"/>quod dicitur primum et immediatum idem 2; et sic
+            <lb ed="#Q"/>dicitur prior, quia immediatior: et hoc modo prior
+            [est] cognitio quae est per comparationem ad
+            <lb ed="#Q"/>principia intra, quam illa quae est secundum mo<lb ed="#Q"/>dum,
+            speciem et ordinem. Primo autem modo 
+            <lb ed="#Q"/>ferat e converso: non enim potest intelligi aliquid 
+            <lb ed="#Q"/>esse, neque ipsa materia neque ipsa forma, non
+            <lb ed="#Q"/>intellecto quod ab aliquo sint, et huiusmodi.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q3m3c1-Dd1e4433" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e4435">Articulus III</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e4438" type="question-title">Secundum quid differat assignatio horum differens.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4441">
+            <lb ed="#Q"/>Sequitur quaerere<!--g--> 1. secundum quid differat
+            <lb ed="#Q"/>assignatio horum differens.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4450">
+            <lb ed="#Q"/>Ad quod. opponitur hoc modo: a. In summo
+            <lb ed="#Q"/>b0no non solum dicimus Trinitatem personarum,
+            <lb ed="#Q"/>sed unitatem essentiae. Si ergo ipsius causae re<lb ed="#Q"/>lucet
+            vestigium in creaturis, sicut non est ibi
+            <lb ed="#Q"/>tantum Trinitas personarum, sed unitas essentiae,
+            <lb ed="#Q"/>ita videtur [quod] in rebus creatis non tantumh
+            <lb ed="#Q"/>debent esse illaï bona, in quibus relucet vesti<lb ed="#Q"/>gium
+            Trinitatis, sed etiam quartum, secundum
+            <lb ed="#Q"/>quod esset vestigium unitatis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4472">
+            <lb ed="#Q"/>b. Dicetur forte quod ita est, quod in creaturis
+            <lb ed="#Q"/>est trinitas illorum bonorum quae respondet Tri<lb ed="#Q"/>nitati
+            increatae, et est una essentia subsistens illis
+            <lb ed="#Q"/>tribus bonis *, cuiusmodi essentiae unitas re<lb ed="#Q"/>spondet
+            unitati essentiae increatae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4486">
+            <lb ed="#Q"/>Contra: Videtur quod unitas non sit ponenda
+            <lb ed="#Q"/>quartum illorum nec essentia similiter, sed quod
+            <lb ed="#Q"/>contineatur sub altero illorum trium, quod est
+            <lb ed="#Q"/>modus, species et ordo. ]. Augustinus, in li<lb ed="#Q"/>brol
+            De vera religiones: « Omne quod est'" ha<lb ed="#Q"/>bet 
+            quod unum sit, quod specie discernatur,'quod 
+            <lb ed="#Q"/>rerum ordinem non excedat»; et loquitur quo—
+            <lb ed="#Q"/>modo illa tria, rnodus, species et ordo, sunt in
+            <lb ed="#Q"/>qualibet re. Si ergo hoc quod dico « quod propria
+            <lb ed="#Q"/>specie discernatur » retorquetur ad speciem, «quod
+            <lb ed="#Q"/>rerum ordinem non exeedat » ad ordinem, patet
+            <lb ed="#Q"/>quod « unum esse » retorquetur ad modum; non
+            <lb ed="#Q"/>ergo erit unitas quartum, sed contentum sub modo.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4517">
+            <lb ed="#Q"/>2. Item, quod ipsa essentia vel esse similiter 
+            <lb ed="#Q"/>non sit quartum, sed comprehendatur sub modo,
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>videtur sic: Augustinus, in libro 83 Quae<lb ed="#Q"/>stionum4: 
+            « In omni eo quod est, aliud est quo
+            <lb ed="#Q"/>constat, aliud quo discernitur, aliud quo suis par<lb ed="#Q"/>tibus 
+            congruit»; et retorquentur haec tria ad illa
+            <lb ed="#Q"/>tria, modum, speciem et ordinem. Si ergo « quo "
+            <lb ed="#Q"/>discernitur » refertur ad speciem, « quo partibus
+            <lb ed="#Q"/>congruit» ad ordinem, patet quod" « quo con—
+            <lb ed="#Q"/>stat» refertur ad modum; ergo si * quo est' vel
+            « quo constat » essentia est, patet quod essentia
+            <lb ed="#Q"/>refertur ad modum; et ita non ponetur quartum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4546">
+            <lb ed="#Q"/>3. Item Au gustinus5, volens ostendere Tri<lb ed="#Q"/>nitatem
+            personarum in creaturis, dicit quod non
+            <lb ed="#Q"/>sunt nisi tres quaestiones de re, scilicetP « si est,
+            <lb ed="#Q"/>quid est, et utrum probandum vel improbandum
+            <lb ed="#Q"/>est ». Si ergo « utrum probandum vel improban<lb ed="#Q"/>dum9
+            sit» spectet ad ordinem — probatio enim
+            <lb ed="#Q"/>vel improbatio attenditur penes relationem ad fi<lb ed="#Q"/>nem
+            — « quid est » autem spectat ad speciem,
+            <lb ed="#Q"/>patet quod « si est» spectat ad modum; si ergo
+            « si est » quaestio est de essentia vel de esse,
+            <lb ed="#Q"/>patet quod essentia continetur sub altero illorum
+            <lb ed="#Q"/>trium, quod est modus.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4572">
+            <lb ed="#Q"/>II. Praeterea, quaeritur: duo genera causarum
+            <lb ed="#Q"/>contingit assignare in rebus, est enim f causa uni<lb ed="#Q"/>versalis
+            et3 particularis; quaeritur ergo: si non
+            <lb ed="#Q"/>solum per causam universalem est res, sed et per!
+            <lb ed="#Q"/>particularem habet esse et cognosci proprie, vi<lb ed="#Q"/>detur
+            quod magis deberet et modus et species
+            <lb ed="#Q"/>et ordo attendi penes relationem rei ad causas
+            <lb ed="#Q"/>particulares quam ad universalem causam; aut
+            <lb ed="#Q"/>si sumuntur quantum ad universalem causam, 
+            <pb ed="#Q" n="177"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>quare non sumuntur similiter quantum ad par<lb ed="#Q"/>ticulares?
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4603">
+            <lb ed="#Q"/>III. Item, Sap. ll,21, super illum locum: Omnia
+            <lb ed="#Q"/>numero, pondere et mensura disposuisti, dicit
+            <lb ed="#Q"/>Glossa": « In mensura qualitas, in numero quan<lb ed="#Q"/>titas,
+            in pondere ratio attenditur ». Sed quaeritur
+            <lb ed="#Q"/>quomodo haec" habeant veritatem. Videtur enim
+            <lb ed="#Q"/>quod deberet magis dici 'in mensura quantitas':
+            <lb ed="#Q"/>constat enim quod ad quantitatem pertinet ratio
+            <lb ed="#Q"/>mensurandi; similiter potius deberet dici 'in nu<lb ed="#Q"/>mero
+            qualitas ': species enim respondet numero;
+            <lb ed="#Q"/>si ergo qualitas species est, videtur retorquenda
+            <lb ed="#Q"/>ad numerum magis quam ad mensuram.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4629">
+            <lb ed="#Q"/>IV. Item, cum inveniantur haec aliis nominibus
+            <lb ed="#Q"/>et differentiis " assignari, qualiter accipitur omnium
+            <lb ed="#Q"/>horum differens assignatio? 2.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4639">
+            <lb ed="#Q"/>Solutio: I. Concedimus quod sicut illud increa<lb ed="#Q"/>tum,
+            cuius habet anima rationalis imaginem, non
+            <lb ed="#Q"/>est solum Trinitas personarum, sed unitas in Tri<lb ed="#Q"/>nitate,
+            ita nond solum est triplex bonum vesti<lb ed="#Q"/>gium
+            Creatoris in nobis, sed haec secundum quod
+            <lb ed="#Q"/>fundantur supra unitatem essentiae, quae respon<lb ed="#Q"/>det
+            unitati increatae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4657">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod obicitur quod
+            ' unitas continetur sub bono quod est modus nec
+            <lb ed="#Q"/>est ponere quartum': respondemus ad primam
+            <lb ed="#Q"/>auctoritatem quod unitas increata dupliciter ac—
+            <lb ed="#Q"/>cipitur: uno modo essentialiter, ut cum dicitur
+            'una essentia', et haec unitas habet unitatem es-'
+            <lb ed="#Q"/>sentiae in creatura vestigium sui. Est autem alio
+            <lb ed="#Q"/>modo dicta unitas appropriate 2, secundum hoc
+            <lb ed="#Q"/>quod unitati convenit ratio principii primi: est
+            <lb ed="#Q"/>enim principium ad omnem numerum; et sic ap<lb ed="#Q"/>propriatur
+            Patri, ut patetf in hac trinitate appro<lb ed="#Q"/>priatorum:
+            unitas, veritas, bonitas; et huic unitati
+            <lb ed="#Q"/>respondet pro vestigio 5 illa unitas quae continetur
+            <lb ed="#Q"/>sub modo, et sic currit illa oppositio h.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4686">
+            <lb ed="#Q"/>2. Ad secundo obiectum dicimus quod ipsum
+            ' esse' dicitur aliquando ut essentiale in divinis:
+            <lb ed="#Q"/>et sic simpliciter est eius vestigium esse creatum;
+            <lb ed="#Q"/>aliquando autem dicitur appropriate Patri, et hoc
+            <lb ed="#Q"/>patet, quia aeternitas, etsi sit essentialiter dicta,
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>tamen appropriatur Patri in illa trinitate: aeter<lb ed="#Q"/>nitas,
+            aequalitas, aeternitatis aequalitatisque con<lb ed="#Q"/>nexio
+            3. Cum ergo aeternitas nihil aliud sit nisi
+            <lb ed="#Q"/>esse semper durans, patet quod esse aliquando
+            <lb ed="#Q"/>appropriatur Patri. Unde Augustinus, in libro
+            <lb ed="#Q"/>De anima et spiritu4: « Haec omni existenti in<lb ed="#Q"/>sunt:
+            essentia qua sunt, species qua differunt,
+            <lb ed="#Q"/>usus quo proficiunt; essentia in Patre, species in
+            <lb ed="#Q"/>Imagine, usus in Munere »; et hoc modo reSpon<lb ed="#Q"/>det
+            illi esse creatum, quod reducitur ad modum.
+            —- Posset tamen aliter solvi, iaciendo vim in hoc
+            <lb ed="#Q"/>quod dicitur ;cquo constat ». « Quo constati»
+            <lb ed="#Q"/>enim plus dicit quam ' quo est ': dicit enim ' con<lb ed="#Q"/>stare'
+            tixionem5 esse; et ita si 'constare' reduci<lb ed="#Q"/>bile
+            sit ad modum, non tamen 'quo est', quia
+            'constare' ex additione potest reduci ad 'esse'.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4730">
+            <lb ed="#Q"/>3. Ad id quod obicitur de tribus quaestioni<lb ed="#Q"/>bus:
+            dicimus quod si esse communiter dictum non
+            <lb ed="#Q"/>dividatur contra speciem et ordinem sicut modus,
+            <lb ed="#Q"/>quia sic est sustinens illa tria, esse tamen, prout
+            <lb ed="#Q"/>appropriate dicitur *, potest condividi aliis duobus
+            <lb ed="#Q"/>et cadit sub ratione modi: esse enim creaturae
+            <lb ed="#Q"/>esse terminatum est, ex eo quod creaturae est;
+            <lb ed="#Q"/>impossibile est enim esse creaturael infinitum
+            <lb ed="#Q"/>esse. Constat autem quod aliud est dicere 'esse
+            <lb ed="#Q"/>terminatum' et 'esse formatum vel distinctum? et
+            ' esse ordinatum '. Materia enim, quantum est de se, <lb ed="#Q"/>etsi
+            habeat esse terminatum, non tamen distinc<lb ed="#Q"/>tum,
+            nisi capacitas sua assignetur ei pro distin<lb ed="#Q"/>guente,
+            tamen proprie'" loquendo nec terminatio<lb ed="#Q"/>nem
+            perfectam nec distinctionem habet sine forma:
+            <lb ed="#Q"/>et ita distinguitur ibi 'esse' contra quaestionem
+            <lb ed="#Q"/>quaerentem de specie et ordine. — Sed notan<lb ed="#Q"/>dum,
+            quod cum " legitur in Scriptura quod omnis
+            <lb ed="#Q"/>res habet modum, speciem et ordinem, de ordine
+            <lb ed="#Q"/>iit sermo dupliciter; est enim duplex ordo: unus,
+            <lb ed="#Q"/>quem habent res inter se in universo et etiam
+            <lb ed="#Q"/>quem habent ex suis partibus ex quibus com<lb ed="#Q"/>ponuntur:
+            et secundum hoc dicit Augustinus 6,
+            <lb ed="#Q"/>quando " loquitur de pertinente ad ordinem: « quo
+            <lb ed="#Q"/>suis partibus congruit»; est etiam ordo omnium
+            <lb ed="#Q"/>rerum relatione ad Deum sicut ad finem: et se<lb ed="#Q"/>cundum
+            hoc aliter dicitur de ordine quod est
+            <lb ed="#Q"/>illud secundum quod res ad summum bonum or<pb ed="#Q" n="178"/><cb ed="#Q" n="a"/><lb ed="#Q"/>dinatur. 
+            'Unde si diversae rationes inveniantur 
+            <lb ed="#Q"/>aliquando de ordine, non est mirandum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4798">
+            <lb ed="#Q"/>II. Ad aliud dicimus quod causa universalis 
+            <lb ed="#Q"/>omnium una est, scilicet Deus; causa particularis
+            <lb ed="#Q"/>non est una omnium, sed diversorum " differentes,
+            <lb ed="#Q"/>et in aliquibus non est differentia causae uni<lb ed="#Q"/>versalis
+            ad particularem, sicut patet in angelis
+            <lb ed="#Q"/>et in illis quae Deus nullo alio agente operatur.
+            <lb ed="#Q"/>Relatio ergo rerum b ad causam universalem ponit
+            ' esse' secundum rationem vel rationes communes;
+            <lb ed="#Q"/>relatio autem ad causas particulares, cum illae
+            <lb ed="#Q"/>sint multae, non ponit 'esse' uniuslmodi. — Prae<lb ed="#Q"/>terea,
+            relatio ad causam particularem non facit co<lb ed="#Q"/>gnoscere
+            rem secundum illud quod habet deitorme
+            <lb ed="#Q"/>in se, sed relatio ad causam universalem, quae
+            <lb ed="#Q"/>Deus est, facit cognoscere rem secundum illud
+            <lb ed="#Q"/>quod habet deiforme. Quia ergo theologi est co<lb ed="#Q"/>gnoscere
+            res non: secundum proprias rationes,
+            <lb ed="#Q"/>sed magis secundum illud quod habent de dei<lb ed="#Q"/>tormi,
+            et quia etiam non possent inveniri com<lb ed="#Q"/>munes
+            rationes referendi res ad causas particu<lb ed="#Q"/>lares
+            sicut ad universalem, etd hoc exigeretur
+            <lb ed="#Q"/>ad unitatem scientiae: ideo magis accipiuntur
+            <lb ed="#Q"/>modus, species et ordo penes relationem ad cau<lb ed="#Q"/>sam
+            universalem quam ad particulares 2.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4848">
+            <lb ed="#Q"/>Si ergo obicitur quod 'in aliis scientiis
+            <lb ed="#Q"/>modus, species et ordo non exiguntur ad cogni<lb ed="#Q"/>tionem
+            rerum — dicimus quod etsi cognoscantur
+            <lb ed="#Q"/>res sine illis, non cognoscuntur cognitione theo<lb ed="#Q"/>logica:
+            ad illam enim necessaria sunt haec.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4862">
+            <lb ed="#Q"/>Sed<!--f--> obiciet aliquis quia sicut in Theolo<lb ed="#Q"/>gia
+            cognoscuntur res in relatione ad causam uni<lb ed="#Q"/>versalem,
+            sic in aliis scientiis cognoscuntur res
+            <lb ed="#Q"/>in relatione ad causam particularem; ergog sicut
+            <lb ed="#Q"/>in aliis scientiis particularibus demonstrantur res
+            <lb ed="#Q"/>et detiniunturh per suas causas, ita in Theologia
+            <lb ed="#Q"/>manifestatio et definitio uniuscuiusque erit per
+            <lb ed="#Q"/>causam universalem, quae Deus est, vel dicatur
+            <lb ed="#Q"/>quare non. — Ad quod dicimus quod aliter
+            <lb ed="#Q"/>est in causis universalii et particularibus re<lb ed="#Q"/>spectu
+            cognitionis faciendae in causatis *. Causae
+            <lb ed="#Q"/>enim particulares ducunt nos in comprehensionem
+            <lb ed="#Q"/>certam suorum causatorum; possumus enim certe
+            <lb ed="#Q"/>comprehendere causas aliquando in se, et tunc
+            <lb ed="#Q"/>ex causis devenimus in causata, et ibi' demon<lb ed="#Q"/>strantur
+            et detiniuntur res per causas. Causam
+            <lb ed="#Q"/>vero universalem, quae Deus est, non possumus
+            <lb ed="#Q"/>comprehendere nec etiam intelligere secundum
+            <lb ed="#Q"/>quod est, quamdiu hic sumus; unde oportet,
+            <lb ed="#Q"/>quamdiu hic sumus, ut'" per cognitionem causa<lb ed="#Q"/>torum
+            deveniamus in cognitionem causae primae ",
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>
+            aliter enim nullatenus intelligeremus eam. Et ideo
+            <lb ed="#Q"/>non est simile de causis particularibus et de uni<lb ed="#Q"/>versali,
+            quamdiu hic sumus. Unde modus et ce<lb ed="#Q"/>tera
+            magis ducunt nos a rebus creatis ad ipSum
+            <lb ed="#Q"/>Creatorem. In futuro erit e converso: ibi enim
+            <lb ed="#Q"/>cognoscemus sicut et cogniti sumus]; quia ergo
+            <lb ed="#Q"/>se ipso sumus cogniti a Deo, ibi similiter cogno<lb ed="#Q"/>scemus
+            ipso Deo.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4932">
+            <lb ed="#Q"/>III. Ad aliud" dicimus quod non loquitur
+            <lb ed="#Q"/>Glossa illa proprie, sed magis secundum trans<lb ed="#Q"/>lationem.
+            Sicut enim videmus quod in figuris sunt
+            <lb ed="#Q"/>duo —— est enim ibi contentum, et ratione huius
+            <lb ed="#Q"/>est dicere quod non sunt qualitates, sed magis
+            <lb ed="#Q"/>quantitatesP; est etiam ibi figuratio talis vel talis,
+            <lb ed="#Q"/>quae resultat ex clausione spatii contenti, et
+            <lb ed="#Q"/>quantum ad hoc figura est in quarto genere qua<lb ed="#Q"/>litatis2
+            — ita secundum hunc ultimum modum
+            <lb ed="#Q"/>per similitudinem loquitur Glossa illa. Cum
+            <lb ed="#Q"/>enim suo modo mensuratur unaquaeque res et
+            <lb ed="#Q"/>dicitur 3 'tantum extenditur et non plus', sicut ex
+            <lb ed="#Q"/>spatii clausione in sensibilibus resultatP figura
+            <lb ed="#Q"/>quae dicitur qualitas, ita similiter ex hac appli<lb ed="#Q"/>catione
+            modi ad ipsam rem, cum dicitur 'tan<lb ed="#Q"/>tum
+            potest et non ultra': hic enim estf quasi
+            <lb ed="#Q"/>quaedam clausio, ex qua resultats quasi iiguratio
+            <lb ed="#Q"/>quaedam potentiae ipsius rei. Et hoc est quod
+            <lb ed="#Q"/>in illa Glossa appellatur «qualitas », et ita
+            <lb ed="#Q"/>patet quod secundum hoc recte dicitur « in men<lb ed="#Q"/>sura
+            qualitas ». — Similiter cum dicit quod « in
+            <lb ed="#Q"/>numero quantitast»: dicimus quod in corpori<lb ed="#Q"/>bus,
+            ubi est partium multitudo determinatarum
+            <lb ed="#Q"/>sub unitate formae, hoc quod dicitur «quanti<lb ed="#Q"/>tas
+            » actipitur ibi pro ipsa quantitate vel nume<lb ed="#Q"/>rositate
+            partium; unde intelligenda est in tali<lb ed="#Q"/>bus
+            quantum ad numerum quantitas" materialis,
+            <lb ed="#Q"/>scilicet ratione partium. Sed universaliter non
+            <lb ed="#Q"/>posset ita dici in spiritualibus, ubi non est mul<lb ed="#Q"/>titudo
+            partium; non enim potest dici quod id
+            <lb ed="#Q"/>quod est « quantitas » accipiatur pro numerosi<lb ed="#Q"/>tate
+            partium, et ideo in huiusmodiv potest dici
+            <lb ed="#Q"/>quod quantitas ibi accipitur non pro numerosi<lb ed="#Q"/>tate
+            partium, sed pro unitate formae vel unitate
+            <lb ed="#Q"/>specieix secundum quam est distinctio ab aliis,
+            <lb ed="#Q"/>et secundum hanc est principium connumerandi
+            <lb ed="#Q"/>ipsam rem cuilibet alii, a qua ipsa est distincta;
+            <lb ed="#Q"/>quando autem connumeratur aliquid alii, habetur
+            <lb ed="#Q"/>quantitas discreta, quae est numerus 4. Et sic
+            <lb ed="#Q"/>patet quod dicitur « in numero quantitas 1' ». — In
+            <lb ed="#Q"/>tertio autem, scilicet pondere, non est vis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5023">
+            <lb ed="#Q"/>IV. Ad illud vero: quod quaeritur de diffe<lb ed="#Q"/>renti 
+            assignatione horum secundum differentes 
+            <pb ed="#Q" n="179"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>intentiones vocabulorum: dicendum quoniam",
+            <lb ed="#Q"/>cum sint in creatura ut vestigium Trinitatis, crea<lb ed="#Q"/>tura
+            autem secundum omnem suae bonitatis sive
+            <lb ed="#Q"/>esse variam considerationem sit vestigium, varia<lb ed="#Q"/>tur
+            horum consideratio in creaturis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5045">
+            <lb ed="#Q"/>Unde nota quod in hac via assignatur. vesti<lb ed="#Q"/>gium
+            Trinitatis multipliciter 1. Primo in re secun<lb ed="#Q"/>dum
+            quam fit, et sic accipitur in Sap. 11,21:
+            <lb ed="#Q"/>mensura, numero et pondere. Unde Augusti<lb ed="#Q"/>nus,
+            Ad Orosiumzt «Si in numero, mensurab
+            <lb ed="#Q"/>et pondere disposuit Deus omnia: numerum et
+            <lb ed="#Q"/>pondus et mensuram ubi disposuit? Numerus,
+            <lb ed="#Q"/>pondus et mensura est ipse Deus; numerus sine
+            <lb ed="#Q"/>numero, a quo est omnis numerus, mensura sine
+            <lb ed="#Q"/>mensura, a quo est omnis mensura» etc. Idem
+            <lb ed="#Q"/>ergo est qui omnia in se disposuit: non enim
+            <lb ed="#Q"/>creaturam extra se vidit, sicut homo qui retinet
+            <lb ed="#Q"/>in memoria quae facit. — Secunda trinitas est,
+            <lb ed="#Q"/>secundum quam res est: et haec est unitas sive
+            <lb ed="#Q"/>aeternitas, veritas, bonitas. Unde Bernardus,
+            <lb ed="#Q"/>Super Canticum 3: « 0 beata Trinitas: veritas, bo<lb ed="#Q"/>nitas,
+            aeternitas »; primum Filio, secundum Spi<lb ed="#Q"/>ritui
+            Sancto, tertium Patri coaptatur. —- Tertia
+            <lb ed="#Q"/>est, secundum quam res perfecte est, scilicet mo<lb ed="#Q"/>dus,
+            species et ordo. Augustinus, 'in libro De
+            <lb ed="#Q"/>natura summi boni 4: «Ubi haec magna sunt,
+            <lb ed="#Q"/>magnum bonum est, ubi minima minimum, ubi 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>mediocria mediocre ». — Quarta est 0, secundum
+            <lb ed="#Q"/>quam res disponitur ad actum: substantia, spe<lb ed="#Q"/>cies
+            et virtus. Unde in Psalmo5 Bonum est con<lb ed="#Q"/>fiteri
+            Domino ", versus: Et stultus non intelliget
+            <lb ed="#Q"/>haec, ibi Glossa6 ponit: «Substantiae, forma
+            <lb ed="#Q"/>et virtus ». —— Quinta est, secundum quod in actu
+            <lb ed="#Q"/>est: et haec est essentia, virtus et operatio. Hanc
+            <lb ed="#Q"/>ponit Dionysius, in Hierarchia, cap. Quare
+            <lb ed="#Q"/>angeli dicuntur virtutes 7. - Sexta est, secundum
+            <lb ed="#Q"/>quodf res ad cognitionem disponitur: substantia,
+            <lb ed="#Q"/>species, ratio; hanc ponit Trismegistuss phi<lb ed="#Q"/>losophus.
+            -— Septima est, secundum-5 quod est
+            <lb ed="#Q"/>in cognitione, et secundum hoc «quoh constat,
+            <lb ed="#Q"/>quo congruit, quo discernitur »; hanc ponit Au<lb ed="#Q"/>gustinus,
+            in 83 Quaesiion. 9, iis verbis: « Omne
+            <lb ed="#Q"/>quod constat aliud esti quo constat, aliud quo
+            <lb ed="#Q"/>discernitur, aliud quo congruit. Universa ergo
+            <lb ed="#Q"/>creatura si est, et ab eo, quod ipsa non est, distat
+            <lb ed="#Q"/>et suis partibus sibimet congruit, causam eius
+            <lb ed="#Q"/>trinam oportet esse: qua sit, qua hoc sit, qua sibi
+            <lb ed="#Q"/>amica sit; creaturae autem causam Deum dicimus;
+            <lb ed="#Q"/>oportet ergo Trinitatem esse, qua " nihil praestan<lb ed="#Q"/>tius,
+            intelligentius, beatius' queat nominari. Ideo
+            <lb ed="#Q"/>cum veritas quaeritur,,non plura quam tria ge<lb ed="#Q"/>nera
+            quaestionum esse possunt: utrum omnino
+            <lb ed="#Q"/>sit, utrum hoc an'" aliud, utrum probandum vel
+            <lb ed="#Q"/>improbandum sit ». '
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q3m3c1-Dd1e5157" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e5159">ARTICULUS IV.</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e5162" type="question-title">An sint eadem in omni creatura.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5165">
+            <lb ed="#Q"/>Postea quaeritur an ista tria sint eadem in omni 
+            <lb ed="#Q"/>creatura.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5172">
+            <lb ed="#Q"/>Constat enim quod " omni rei creatae insunt eo
+            <lb ed="#Q"/>quod creata est, nec 'solum eSsentiae, sed etiam "
+            <lb ed="#Q"/>potentiis etP omnibus quae sunt.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5181">
+            <lb ed="#Q"/>Voluntas ergo, cum sit quaedam potentia, ha<lb ed="#Q"/>bebit
+            modum, speciem et ordinem, secundum quod
+            <lb ed="#Q"/>creatura? est. Cum autem non contingat modum,
+            <lb ed="#Q"/>speciem et ordinem, quae insunt cuilibet rei, cor<lb ed="#Q"/>rumpi
+            per peccatum, patet quoniam ipsa voluntas,
+            <lb ed="#Q"/>non solum ut creatura est, sed etiam ut est potens 
+            <lb ed="#Q"/>peccare, habet modum, speciem et ordinem, quae
+            <lb ed="#Q"/>sunt corruptibiles vel diminubiles f per peccatum:
+            <lb ed="#Q"/>quaeritur ergo utrum modus, species et ordo, quae
+            <lb ed="#Q"/>insunt voluntati in eo quod creatura et in eo quod
+            <lb ed="#Q"/>est potens peccare, secundum idem insunt aut
+            <lb ed="#Q"/>secundum diversa.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5211">
+            <lb ed="#Q"/>Illud autem, secundum quod insunt modus, spe<lb ed="#Q"/>cies 
+            et ordo omni creaturae, sit A; illud autem
+            <lb ed="#Q"/>secundum quod insunt modus, species et ordo 5,
+            <lb ed="#Q"/>quae sunt diminubiles per peccatum, sit B. Tunc,
+            <lb ed="#Q"/>quaeritur: B non solum habet modum, speciem
+            <lb ed="#Q"/>et ordinem uno modo, sed duplici, cum sit crea<pb ed="#Q" n="180"/><cb ed="#Q"/><lb ed="#Q"/>tura; 
+            quia si non haberet modum, speciem et
+            <lb ed="#Q"/>ordinem, nisi prout insunt omni creaturae, tunc
+            <lb ed="#Q"/>B non esset illud secundum quod modus, species
+            <lb ed="#Q"/>et ordo, quae sunt diminubiles per peccatum,
+            <lb ed="#Q"/>ipsi voluntati insunt. Si ergo Ba utroque modo
+            <lb ed="#Q"/>habet modum, speciem et ordinem, tuncb quaeri<lb ed="#Q"/>tur:
+            illi duplices modus, species et ordo aut in<lb ed="#Q"/>sunt
+            illi secundum idem aut secundum diversa.
+            <lb ed="#Q"/>Si secundum diversa: ita semper quaerendo po<lb ed="#Q"/>test
+            abiric in infinitum, quod non est possibile;
+            <lb ed="#Q"/>oportet ergo ponere 'quod secundum idem ali<lb ed="#Q"/>quando
+            insunt illi duplicesrmodus, species et
+            <lb ed="#Q"/>ordo; sed sicut staretur alibi, ita potest starid
+            <lb ed="#Q"/>in primo;»sic ergo potentia, quae est voluntas,
+            <lb ed="#Q"/>secundum idem erit habens modum, speciem et
+            <lb ed="#Q"/>ordinem ut sunt communiter in omni re et ut
+            <lb ed="#Q"/>sunt corruptibilia per peccatum. Aut ergo illud
+            <lb ed="#Q"/>erite eodem modo se habens aut non., Si eo<lb ed="#Q"/>dem:
+            ergo, cumf secundum speciem, modum
+            <lb ed="#Q"/>et ordinem, ut sunt in omni re, non fiat dimi<lb ed="#Q"/>nutio,
+            secundum autem modum, speciem et or<lb ed="#Q"/>dinem
+            alio modo sumptos fiat diminutio, tunc se<lb ed="#Q"/>cundum
+            idem et eodem modo se habens fieret et
+            <lb ed="#Q"/>non fieret diminutio; quod est inconveniens. Re<lb ed="#Q"/>linquitur
+            ergo quod erit idem, sed aliter et aliter
+            <lb ed="#Q"/>se habens, secundum quod inerit voluntati rnodus,
+            <lb ed="#Q"/>species et ordo et prout sunt diminubiles per
+            <lb ed="#Q"/>peccatum. "
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5289">
+            <lb ed="#Q"/>[Solutio]: Quod concedimus. Dicimus enim quod
+            <lb ed="#Q"/>eadem voluntas est quae habet utrosque modum,
+            <lb ed="#Q"/>speciem et ordinem — eadem dico secundum sub<lb ed="#Q"/>stantiam
+            -— sed aliterg et aliter considerata. Di<lb ed="#Q"/>cimus
+            enim quod ipsa voluntas potest considerari
+            <lb ed="#Q"/>ut natura quaedam vel ut voluntas. Secundum
+            <lb ed="#Q"/>ergo quod natura est, sic ipsah habet modum,
+            <lb ed="#Q"/>speciem et ordinem quae consequuntur omnem
+            <lb ed="#Q"/>rem, sicut et aliae creaturae; et sic non sunt di<lb ed="#Q"/>minubiles
+            per peccatum. Secundum autem quod
+            <lb ed="#Q"/>ipsa consideratur ut voluntas, sic estf ordinabilis
+            <lb ed="#Q"/>ad gratuitum bonum voluntarie, quod non repe<lb ed="#Q"/>ritur
+            in aliis creaturis: sic in ipsa reperiuntur
+            <lb ed="#Q"/>rnodus, species et ordo qui non sunt nisik in ra<lb ed="#Q"/>tionabilibus
+            creaturis, et ii sunt diminubiles' per
+            <lb ed="#Q"/>peccatum. Unde secundum hoc dicimus quod du<cb ed="#Q" n="b"/><lb ed="#Q"/>plex
+            <lb ed="#Q"/>plex est vertibilitas: est enim quaedam vertibili<lb ed="#Q"/>tas,
+            quae concomitatur omnem creaturam eo quod
+            <lb ed="#Q"/>creatura est: et haec vertibilitas per naturam est
+            <lb ed="#Q"/>de esse in non-esse, et haec vertibilitas respon<lb ed="#Q"/>det
+            modo, Speciei et ordini prout sunt in omni
+            <lb ed="#Q"/>creatura. Est autem'" vertibilitas alia, quae non
+            <lb ed="#Q"/>est in non-esse simpliciter, sed in non-esse moris,
+            <lb ed="#Q"/>quod est malum: et haec vertibilitas est electio<lb ed="#Q"/>nis,
+            et haec respondet modo, speciei et ordini
+            <lb ed="#Q"/>quae sunt'1 in rationabilibus tantum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5351">
+            <lb ed="#Q"/>Sed posset quaeri: cum secundum hanc
+            <lb ed="#Q"/>vertibilitatem corrumpantur modus, species et ordo,
+            <lb ed="#Q"/>ut insunt rationabilibus, et hoc per peccatum, cum
+            <lb ed="#Q"/>modus, species et ordo 0, ut insunt omni rei, non
+            <lb ed="#Q"/>sunt vertibilia per-peccatum, ut dictum est, quid
+            <lb ed="#Q"/>erit causa illius vertibilitatis aut illius corruptio<lb ed="#Q"/>nis,
+            quaP corrumpuntur modus, species et ordo
+            <lb ed="#Q"/>secundum quod insunt omni rei.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5371">
+            <lb ed="#Q"/>Ad quod intelligendum est quod dicit Augu<lb ed="#Q"/>stinus,
+            in? XI Confessionum': «Domine, duo
+            <lb ed="#Q"/>fecisti: unum prope te et aliud' prope nihil»;
+            « prope nihil» appellatur ibi materia quantum
+            <lb ed="#Q"/>est de se; «prope Deum» appellatur angelica
+            <lb ed="#Q"/>natura sive quaecumque a materia separata inter
+            <lb ed="#Q"/>creaturas. Quanto ergo minus habet creatura de
+            <lb ed="#Q"/>eo quod est «prope nihil», tanto minus habet
+            <lb ed="#Q"/>de vertibilitate communiter dicta; quanto autem
+            <lb ed="#Q"/>magis habet creatura de eo quod est8 « prope
+            <lb ed="#Q"/>nihil », tanto magis habet de vertibilitate et cor<lb ed="#Q"/>ruptibilior
+            est. Sicut ergo peccatum secundum ali<lb ed="#Q"/>quam
+            vertibilitatem erat corruptivum modi, speciei
+            <lb ed="#Q"/>et ordinis quae insunt rationabilibus tantum, ita
+            <lb ed="#Q"/>accessus ad « prope nihil », secundum hanc ver<lb ed="#Q"/>tibilitatem
+            quae inest omni creaturae ', est cor<lb ed="#Q"/>ruptivus
+            modi, Speciei et ordinis communiter dic<lb ed="#Q"/>torum.
+            Unde etiam" secundum hoc est differen<lb ed="#Q"/>tia
+            inter istas duas V vertibilitates. Corruptio enim,
+            <lb ed="#Q"/>quae est secundum vertibilitatem electionis *, est
+            <lb ed="#Q"/>proprie et solum penes recessum et elongationem
+            <lb ed="#Q"/>a summo bono et non penes accessum ad oppo<lb ed="#Q"/>situm.
+            Corruptio autem, quae est secundum ver—
+            <lb ed="#Q"/>tibilitatem communem, est secundum accessum
+            <lb ed="#Q"/>ad nihil vel ad id quod est «prope nihil ».
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q3m3c1-Dd1e5427" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e5429">ARTICULUS V.</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e5432" type="question-title">An secundum haec determinetur bonum in Creatore et creatura.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5435">
+            <lb ed="#Q"/>Consequenter quaeritur penes quid attendatur 
+            <lb ed="#Q"/>vel dignoscatur bonum in Creatore et creatura, 
+            <lb ed="#Q"/>an scilicet penes modum, speciem et ordinem.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5444">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Ad quod sic: a. Augustinus, in libro De na<lb ed="#Q"/>tura 
+            summi boni 2: «Omnis modus, species et 
+            <lb ed="#Q"/>ordo a Deo sunt; quantumy moderata, speciosa, 
+            <lb ed="#Q"/>ordinata [sunt], tantum bona sunt ». Ex quo
+            <lb ed="#Q"/>obicitur: Si ea quae sunt, ex eo quod sunt
+            <lb ed="#Q"/>magis moderata, speciosa, ordinata, magis bona
+            <lb ed="#Q"/>sunt, sed penes modum dicuntur moderata, penes
+            <lb ed="#Q"/>speciem speciosa, ab ordine ordinata: ergo de<lb ed="#Q"/>terminatur
+            vel dignoscitur bonum penes ista tria.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5468">
+            <lb ed="#Q"/>b. Item, Augustinus, in 83 Quaestion.':
+            « Ubi est" aliqua species, necessario est aliquis
+            <lb ed="#Q"/>modus, et modus aliquid boni est; summum ergo
+            <lb ed="#Q"/>malum nullum modum '? habet: caret enim bono »;
+            <lb ed="#Q"/>et similiter, cum careat modo et specie, caret et
+            <lb ed="#Q"/>ordine, quoniam ordo ponit speciem et modum;
+            <lb ed="#Q"/>ergo cognitio boni in creatura est per ista tria,
+            <lb ed="#Q"/>quia aliter non diceretur summum malum quod
+            <lb ed="#Q"/>caret istis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5489">
+            <lb ed="#Q"/>Contra: 1. Augustinus, Super Genesim ad
+            <lb ed="#Q"/>litteram 2, accipit hanc auctoritatem Sap. 11,21:
+            <lb ed="#Q"/>Omnia disposuistiin numero, pondere et mensura,
+            <lb ed="#Q"/>et dicit quod haec tria sunt in omni creatura.
+            <lb ed="#Q"/>Unde dicit: « Mensura omni rei modum praefigit,
+            <lb ed="#Q"/>et numerus omni rei speciem praebet, et pondus
+            <lb ed="#Q"/>omnem rem ad quietem acc stabilitatem trahit;
+            <lb ed="#Q"/>ille primitus et singulariter et veraciter istad est,
+            <lb ed="#Q"/>qui terminat omnia et format omniac et ordinat
+            <lb ed="#Q"/>omnia ». ln quantum «terminat omnia », dicitur
+            <lb ed="#Q"/>causa efficiens quae dat mensuram vel modum; in
+            <lb ed="#Q"/>quantum autem « format », dicitur causa formalis et
+            <lb ed="#Q"/>dat numerum sive speciem; in quantum est causa
+            <lb ed="#Q"/>finalis, « trahit rem ad stabilitatem et quietem », si<lb ed="#Q"/>cutf
+            tacit pondus in corporibus. Ex quo patet quod
+            <lb ed="#Q"/>ordo refertur ad causam finalem. Sed bonum se<lb ed="#Q"/>cundum
+            Boethium3 dicitur, quia ad bonum
+            <lb ed="#Q"/>tendit; unde bonum dicit comparationem! ad
+            <lb ed="#Q"/>finem; ergo bonum secundum ordinem solum
+            <lb ed="#Q"/>determinatur et dignoscitur et non secundum illa
+            <lb ed="#Q"/>tria.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5537">
+            2. Item, Augustinus, in 83 Quaestions'f:
+            « Quasi " totum nomen mali de speciei '" privatione
+            <lb ed="#Q"/>repertum est ». Maxima ergo est oppositio mali
+            <lb ed="#Q"/>contra speciem; ergo bonum, quod opponitur
+            <lb ed="#Q"/>malo, maxime consistit circa * speciem; sicut ergo
+            <lb ed="#Q"/>notificatio mali est per speciei privationem, ita no<lb ed="#Q"/>tificatio
+            boni solum per speciem.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5550">
+            <lb ed="#Q"/>3. Item, virtus est de genere boni. Si ergo vir<lb ed="#Q"/>tus
+            determinatur penes superfluum et diminutum,
+            <lb ed="#Q"/>ergo et bonum; sed medium istud reducitur ad
+            <lb ed="#Q"/>modum; ergo solum penes modum determinatur
+            <lb ed="#Q"/>bonum. — Item, Augustinus, De natura summi
+            <lb ed="#Q"/>boni5, dicit quod ista recipiunt determinationem
+            <lb ed="#Q"/>mali '; unde dicitur « malus rnodus, mala species,
+            <lb ed="#Q"/>malus ordo »; sed bonum non potest cadere in 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>malum; ergo penes ista non determinatur vel di<lb ed="#Q"/>gnoscitur 
+            bonum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5576">
+            <lb ed="#Q"/>Solutio: Dicendum quod penes haec tria de<lb ed="#Q"/>terminatur
+            et dignoscitur bonum .in Creatore et
+            <lb ed="#Q"/>creatura. Bonum enim increatum, sicut dicit Dio<lb ed="#Q"/>nysiusö,
+            dicitur « ex quo omnia subsistunt »:
+            <lb ed="#Q"/>et sic se habet in ratione efficientis ad bonum
+            <lb ed="#Q"/>creatum, quod ab ipso est; et dicitur bonum in<lb ed="#Q"/>creatum
+            « in quo omnia contenta sunt »: et sic se
+            <lb ed="#Q"/>habet in ratione causae formalis ad bonum crea<lb ed="#Q"/>tum,
+            quod in ipso est tamquam in continente;
+            <lb ed="#Q"/>item, bonum increatum dicitur « quod omnia af<lb ed="#Q"/>fectant
+            et ad quod omnia convertuntur »: et sic
+            <lb ed="#Q"/>habet intentionem causae finalis. Bonum vero'"
+            <lb ed="#Q"/>creatum dicitur quia a bono, quia in bono, quia
+            <lb ed="#Q"/>ad bonum 7. Modus autem sumitur ex compara<lb ed="#Q"/>tione
+            creaturae ad efficientem, quia ipsa dat mo<lb ed="#Q"/>dum;
+            species ex ordinatione rei ad causam forma<lb ed="#Q"/>lem;
+            ordo vero ex comparatione ad finalem. In
+            <lb ed="#Q"/>quantum ergo bonum creatum dicitur quia 'a
+            <lb ed="#Q"/>bono ', habet modum; in quantum dicitur bonum
+            <lb ed="#Q"/>quia ' in bono ', dicitur " habere speciem; in quan<lb ed="#Q"/>tum
+            dicitur bonum quia 'ad bonum', dicitur ha<lb ed="#Q"/>bere
+            ordinem. Licet autem haec omnia indicent
+            <lb ed="#Q"/>bonitatem, principaliter tamen secundum ordinem
+            <lb ed="#Q"/>dignoscitur, quia species in intellectu suo ponit
+            <lb ed="#Q"/>modum, ordo autem dat praeintelligere modum et.
+            <lb ed="#Q"/>speciem et non e converso, unde ponit illa; et ideo
+            <lb ed="#Q"/>tamquam per summum notificatur per ordinem,
+            <lb ed="#Q"/>quia notificatio illius per ordinem est notificatio
+            <lb ed="#Q"/>illius per modum et speciem, cum ordo,i11a prae<lb ed="#Q"/>intelligat.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5644">
+            <lb ed="#Q"/>[Ad obiecta,]: ]. Ad aliud quod obicitur
+            <lb ed="#Q"/>quod * bonum dignoscitur penes ordinem, cum di<lb ed="#Q"/>cat
+            comparationem ad finem *: dicendum quod no<lb ed="#Q"/>tificatur
+            per haec tria. Licet ergo bonum dicat
+            <lb ed="#Q"/>comparationem ad finem principaliter, haec tamen
+            <lb ed="#Q"/>comparatio non excludit comparationem eius ad
+            <lb ed="#Q"/>formam et efficientem, quin scilicet dicatur bo<lb ed="#Q"/>num
+            quod *ex bono ', quod 'in bono ', immo
+            <lb ed="#Q"/>potius ponunt illas, quia causa finalis induit ra<lb ed="#Q"/>tionem
+            aliarum causarum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5668">
+            <lb ed="#Q"/>2. Ad aliud dicendum quod species dicitur
+            <lb ed="#Q"/>duobus modis. Uno modo species dicitur quo
+            <lb ed="#Q"/>res distinguitur: et sic condividitur contra modum
+            <lb ed="#Q"/>et ordinem, quia modus est quo res limitatur,
+            <lb ed="#Q"/>species quoo distinguitur, ordo quo ad aliud or<lb ed="#Q"/>dinatur.
+            Alio modo dicitur Species quo res placet
+            <lb ed="#Q"/>et accepta est: et hoc modo dicit rationem boni
+            <lb ed="#Q"/>decurrentis per illa tria. Et sic intelligitur totum
+            <lb ed="#Q"/>malum de speciei privatione descendere.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5691">
+            <lb ed="#Q"/>3. Ad ultimum dicendum quod ista non
+            <lb ed="#Q"/>possunt cadere in malum in se manentia secun<lb ed="#Q"/>dum
+            idem, sed sicut dicitur de eo quod est bo<lb ed="#Q"/>num
+            natura, quod est malum voluntate, ut de
+            <lb ed="#Q"/>homine malo, et, dicitur bonum malum, sed non
+            <lb ed="#Q"/>secundum idem, quia bonum secundum naturam,
+            <lb ed="#Q"/>malum secundum voluntatem: sic modus, species
+            <lb ed="#Q"/>et ordo dicuntur mali, non secundum idem; verbi
+            <lb ed="#Q"/>gratia, malus modus in anima prava, quae ser<lb ed="#Q"/>vata
+            modum natura, quamvis non voluntate; vel,
+            <lb ed="#Q"/>quemadmodum dicit Augustinus, in libro De
+            <lb ed="#Q"/>natura bonil' «Malus modus vel mala species
+            <lb ed="#Q"/>vel malus ordo aut ideo dicuntur quia minora
+            <lb ed="#Q"/>sunt quam esse debuerunt, aut quia non iis rebus
+            <lb ed="#Q"/>accommodantur quibus accommodanda sunt, ut
+            <lb ed="#Q"/>ideo dicantur mala quod sunt aliena et incongrua,
+            <lb ed="#Q"/>tamquam si dicatur aliquis non bono modo egisse,
+            <lb ed="#Q"/>quia minus bene egit quam debuit, aut quia ita
+            <lb ed="#Q"/>egit sicut in re tali non debuit vel amplius quam 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>oportebat vel nonb convenienter, ut hoc ipsum
+            <lb ed="#Q"/>quod reprehenditur malo modo actum, non ob
+            <lb ed="#Q"/>aliud iuste reprehendatur nisi quia ibi non est
+            <lb ed="#Q"/>servatus modus. Item, species mala vel in com<lb ed="#Q"/>paratione
+            dicitur formosioris atque- pulcrioris,
+            <lb ed="#Q"/>quod ista sit minor species, illa maior, non
+            <lb ed="#Q"/>mole 0, sed decore; aut quia non congruit huic
+            <lb ed="#Q"/>rei cui adhibita est, ut aliena et inconveniens
+            <lb ed="#Q"/>videatur: tamquam si nudus homo in foro deam<lb ed="#Q"/>bulet,
+            quod non offendit si in balneo videatur.
+            <lb ed="#Q"/>Similiter et ordo tunc malus dicitur cum mi<lb ed="#Q"/>nus
+            ipse'71 ordo servatur: unde non ibi ordo,
+            <lb ed="#Q"/>sed potius inordinatio mala est cum aut mi<lb ed="#Q"/>nus
+            ordinatum est quam debuit aut non sicut
+            <lb ed="#Q"/>debuit. Ubi tamen aliquis modus, aliqua spe<lb ed="#Q"/>cies,
+            aliquis ordo est, aliquod bonum et aliqua
+            <lb ed="#Q"/>natura este; ubi autem nullus modus, nulla spe<lb ed="#Q"/>cies, 
+            nullus ordo est, nullum bonum est, nulla 
+            <lb ed="#Q"/>natura est». 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

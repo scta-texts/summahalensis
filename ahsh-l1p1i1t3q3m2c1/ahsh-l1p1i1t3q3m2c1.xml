@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. II, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="169"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m2c1">
+        <head xml:id="ahsh-l1p1i1t3q3m2c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. II, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t3q3m2c1-Hd1e3744" type="question-title">AN NOTIO ET AMOR SUMMI BONI SINT NOBIS A CONDITIONE INDITA.</head>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur an notio et amor summi 
+          boni sint nobis a conditione indita et im<lb ed="#Q"/>pressa 
+          menti.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3754">
+          <lb ed="#Q"/>a. Omnes enim volunt esse beati ; sed beatitudo
+          <lb ed="#Q"/>est summum bonum, ut dicit Boethius, De con<lb ed="#Q"/>solatione
+          1; ergo omnes volunt summum bonum;
+          <lb ed="#Q"/>ergo amor summi boni est omnik naturae ratio<lb ed="#Q"/>nali
+          impressus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3767">
+          <lb ed="#Q"/>b. Item, bonum summum est quod desideratur
+          <lb ed="#Q"/>ab omnibus; sed quod omni convenit est im<lb ed="#Q"/>pressum
+          naturae; ergo desiderium et amor summi
+          <lb ed="#Q"/>boni est impressus naturae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3779">
+          <lb ed="#Q"/>c. Item, Augustinus, II De libero arbitriozz
+          « Antequam beati' simus, impressa est nobis no<lb ed="#Q"/>tio
+          beatitatis '": per hanc scimus et sine ulla dubi<lb ed="#Q"/>tatione
+          dicimus beatos nos esse velle »; nemo au<lb ed="#Q"/>tem"
+          beatus est nisi summo bono; ergo notio
+          <lb ed="#Q"/>summi boni et beatitudinis est nobis "impressa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3792">
+          <lb ed="#Q"/>d. Item, B 0 e t h i u s, in libro De consolatione 32" 
+          « Omnes homines boni et mali pariter indiscreta
+          <lb ed="#Q"/>intentione ad bonum pervenire nituntur ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3799">
+          <lb ed="#Q"/>Contra: 1. Omnis voluntas directa ad id, ad
+          <lb ed="#Q"/>quod nata est, recta est et laudabilis. Si ergo
+          <lb ed="#Q"/>voluntas et intentio rationalis est ad summum
+          <lb ed="#Q"/>bonum nata, cum omnis voluntas sive bonorum 
+          <lb ed="#Q"/>sive malorum sit nata ad summum bonum: ergo
+          <cb ed="#Q" n="b"/>sive malorum sit nata ad summum bonum: ergo 
+          <lb ed="#Q"/>omnis voluntas sive omnium voluntates sunt 
+          <lb ed="#Q"/>rectae; quod est manifeste falsum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3819">
+          <lb ed="#Q"/>2. Item, ignorantia veri boni invenitur in mul<lb ed="#Q"/>tis; 
+          ergo simul erit scientia et ignorantia boni.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3826">
+          <lb ed="#Q"/>Respondeo, secundum Boethium, De conso<lb ed="#Q"/>latione4:
+          « Summum bonum, quod aeque bonis
+          <lb ed="#Q"/>et malis propositum est, boni quidem naturali
+          <lb ed="#Q"/>officio virtutum petunt, mali vero per variam "
+          <lb ed="#Q"/>cupiditatem, quod adipiscendi boni naturale offi<lb ed="#Q"/>cium
+          non est, idem ipsum conantur adipisci ».
+          <lb ed="#Q"/>Amor ergo et notio summi boni nobis impres—
+          <lb ed="#Q"/>sus est secundum habitum et sensumP naturae,
+          <lb ed="#Q"/>quamvis a bono contingat oberrare et deviare
+          <lb ed="#Q"/>secundum opinionem et appetitum electionisq
+          <lb ed="#Q"/>pravae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3852">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod obicit: di<lb ed="#Q"/>stinguendum,
+          secundum Damascenum5, quod
+          <lb ed="#Q"/>est voluntas naturalis, secundum quam omnes
+          <lb ed="#Q"/>recte ' appetunt summum bonum; et voluntas
+          <lb ed="#Q"/>electiva sive consiliatas, secundum quam eligitur
+          <lb ed="#Q"/>quod non est summum bonum et praefertur
+          <lb ed="#Q"/>summo, et ideo est non recta. In malis ergo est
+          <lb ed="#Q"/>voluntas naturalis recta sine errore, electiva non
+          <lb ed="#Q"/>recta et cum errore. Unde Augustinus, II De
+          <lb ed="#Q"/>libero arbitrioür «In quantum omnes homines
+          <lb ed="#Q"/>appetunt vitam beatam, non errant; in quantum
+          <lb ed="#Q"/>vero quisque non tenet eam vitae viam, quae 
+          <pb ed="#Q" n="170"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>ducit ad beatitudinem, errant, cum fateantur nolle
+          <lb ed="#Q"/>nisi ad beatitudinem pervenire; error est enim
+          <lb ed="#Q"/>cum sequimur " aliquid quod non ad id ducit quo
+          <lb ed="#Q"/>volumus pervenire ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3895">
+          <lb ed="#Q"/>2. Ad illud vero quod obicit: dicendum quod
+          <lb ed="#Q"/>notio est in sensu naturae, ignorantia vero in
+          <lb ed="#Q"/>in perversitate opinionis erroneae. Unde nota
+          <lb ed="#Q"/>quod dicit Augustinus, inb libro De libero
+          <lb ed="#Q"/>arbitrio 1: « Sensus aliquando veracior est quam
+          <lb ed="#Q"/>opinio, sic illa de errore, ille4 de natura est:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>velut cum aeger plerumque aqua frigida condu<lb ed="#Q"/>cibiliter 
+          delectatur, quam tamen si biberit, credit
+          <lb ed="#Q"/>esse nocituram. Aliquando veracior-opinio quam
+          <lb ed="#Q"/>sensus, si credit arti medicinae obesse frigidam,
+          <lb ed="#Q"/>cum revera oberitf, et tamen bibere-E delectet.
+          <lb ed="#Q"/>Aliquando utrumque in veritate est, cum id, quod
+          <lb ed="#Q"/>prodest, non "solum ita creditur, sed etiam libet.
+          <lb ed="#Q"/>Aliquando utrumque est in errore ", cum id quod 
+          <lb ed="#Q"/>nocet et prodessel creditur et libere non de<lb ed="#Q"/>sinit».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

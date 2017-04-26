@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-14">February 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="66"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t2c3">
+        <head xml:id="ahsh-l1p1i1t2q3t2c3-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t2q3t2c3-Hd1e3732" type="question-title">QUID SIT DEUM ESSE UBIQUE.</head>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3735">
+          <lb ed="#Q"/>Tertio quaeritur quid est Deum esse ubique,
+          <lb ed="#Q"/>scilicet utrum sit idem quod Deum esse in
+          <lb ed="#Q"/>omnibus locis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3744">
+          <lb ed="#Q"/>I. Ad quod sic: a. Deus est in omnibus rebus
+          <lb ed="#Q"/>continentibus et non continentibus, et hoc ponit
+          <lb ed="#Q"/>suum esse ubique; sed locus est solummodo con<pb ed="#Q" n="67"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tinens; 
+          ergo plus dicit esse ubique quam esse 
+          in omni loco.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3757">
+          <lb ed="#Q"/>Ad oppositum: 1. Augustinus, in libro De
+          <lb ed="#Q"/>anima et spiritu': . Ex eo intellectuales naturas
+          <lb ed="#Q"/>corporeas dicimus, quia loco circumscribuntur :;
+          <lb ed="#Q"/>sed quod in: loco circumscribitur, locale est;
+          <lb ed="#Q"/>ergo omnis natura spiritualis localis est, multo
+          <lb ed="#Q"/>fortius et natura corporalis; ergo omnis creatura
+          <lb ed="#Q"/>localis est; ergo per hoc quodd ponitur esse in
+          <lb ed="#Q"/>omni re, ponetur esse in omni loco; sed hoc po<lb ed="#Q"/>nitur
+          per hoc quod est Deum esse ubique, sci—
+          <lb ed="#Q"/>licet quod sit in omnibus rebus; ergo et quod
+          <lb ed="#Q"/>sit in omnibus locis, et ita' idem est dicere 'Deus
+          <lb ed="#Q"/>est ubique' etf ' Deus est in omnibus locis '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3787">
+          <lb ed="#Q"/>II. Item, gratia huius quaeritur utrum idem sit
+          <lb ed="#Q"/>dicere 'Deus est ubique' quod 'Deus est in
+          <lb ed="#Q"/>omni re '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3796">
+          <lb ed="#Q"/>Quod non, videtur: a. Quia cum dico 'Deus 
+          <lb ed="#Q"/>est in omni re', dico habitudinem conservantis ad 
+          <lb ed="#Q"/>conservatum; sed conservatum magis est in con<lb ed="#Q"/>servante
+          quam e converso, quia conservans con<lb ed="#Q"/>tinet
+          conservatum ad minus virtualiter; ergo ex
+          <lb ed="#Q"/>hoc quod dicitur 'Deus est in omni re'! ponitur
+          <lb ed="#Q"/>quod res sinth in Deo, et contineanturi ab illo,
+          <lb ed="#Q"/>et non e converso. Sed cum dico 'Deus est ubi<lb ed="#Q"/>que
+          ', nihil pono esse in Deo, sed pono ipsum re<lb ed="#Q"/>plere
+          omnia 'ubi'; ergo non est idem dicere etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3820">
+          <lb ed="#Q"/>b. Item, destructo omni loco et manentibus
+          <lb ed="#Q"/>adhuc rebus, adhuc esset dicere 'Deus est in omni
+          <lb ed="#Q"/>re ', sed non contingeret dicere ' Deus est ubique ',
+          <lb ed="#Q"/>quia ' ubique ' * ponit aggregaüonem locorum;
+          <lb ed="#Q"/>ergo aliud est dicere hoc et illud.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3833">
+          <lb ed="#Q"/>Respondeo quod est locus corporalis, de quo
+          <lb ed="#Q"/>Damascenus ait'2: «Locus corporalis est finis
+          <lb ed="#Q"/>eius quod continet secundum id quod continet
+          <lb ed="#Q"/>quod continetur ., — Est etiam locus spiritualis, de
+          <lb ed="#Q"/>quo idem "' Damascenus3: . Est autem intelli<lb ed="#Q"/>gibilis
+           locus, ubi intelligitur et est intellectualis et
+          <lb ed="#Q"/>incorporea natura; et non corporaliter continetur,
+          <lb ed="#Q"/>sed intelligibiliter ». - Est autem " locus corporalis
+          <lb ed="#Q"/>communis, scilicet primum caelum, quod continet
+          <lb ed="#Q"/>visibilia et invisibilia, de quo Damascenus':
+          « Caelum est continentia visibilium et invisibilium
+          <lb ed="#Q"/>creaturarum; intra enim ipsum intellectuales an<cb ed="#Q" n="b"/><lb ed="#Q"/>gelorum 
+          virtutes et omnia sensibilia concluduntur
+          <lb ed="#Q"/>et circumterminanturor. — Similiter est locus
+          <lb ed="#Q"/>spiritualis communis P, scilicet divina virtus sive
+          <lb ed="#Q"/>potentia, de qua 9 dicit Gregorius 5 quod « quo<lb ed="#Q"/>libet
+           mittantur angeli, intra Deum currunt». —
+          <lb ed="#Q"/>Est iterum locus spiritualis specialis, scilicet li<lb ed="#Q"/>mitatio
+           sive terminatio propriae potentiae. Unde
+          <lb ed="#Q"/>Am brosiu s, in libro De Spiritu Sancto 6: . Om<lb ed="#Q"/>nis
+           creatura certis naturae suae circumscripta est
+          <lb ed="#Q"/>limitibus ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3882">
+          <lb ed="#Q"/>Modis propriis loci respondent modi proprii
+          <lb ed="#Q"/>eius quod est ' ubi '. Unde modo proprio loci cor<lb ed="#Q"/>poralis
+          respondet modus proprius eius quod est
+          'ubi" secundum quod describit Philosophus "'
+          <lb ed="#Q"/>dicens: «'Ubi' est circumscriptio corporis a loci
+          <lb ed="#Q"/>circumscriptione procedens ». - Similiter modo
+          <lb ed="#Q"/>proprio loci spiritualis respondet ' ubi ' de quo
+          <lb ed="#Q"/>Augustinus, in libro De anima et spiritus:
+          « Sicut Deus ubique3 est in semetipso, sic anima
+          <lb ed="#Q"/>ubique est in semetipsa quodammodo ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3902">
+          <lb ed="#Q"/>Sumendo igitur ' ubi' communiter, prout res<lb ed="#Q"/>pondet
+          loco corporali et spirituali, Deum esse
+          <lb ed="#Q"/>ubique est Deum adesse omni ' ubi ' et nulli ' ubi '
+          <lb ed="#Q"/>deesse; et hoc est quod ,dicit Augustinus9,
+          <lb ed="#Q"/>quod' Deum esse ubique est nusquam Deum
+          <lb ed="#Q"/>abesse. Sic igitur sumpto"ubi ', omnia habent
+          ' ubi ': spiritualia, 'ubi' quod respondet loco pro<lb ed="#Q"/>prio
+          spirituali; et corporalia, 'ubi' quod respon<lb ed="#Q"/>det
+          loco proprio corporali. -— Si" obicitur
+          <lb ed="#Q"/>quod primum caelum " non habet locum corpora<lb ed="#Q"/>lem
+          nec spiritualem: dicendum quod quoadx
+          <lb ed="#Q"/>esse partium habet locum proprium corporalem;
+          <lb ed="#Q"/>quoad esse totius habet locum proprium spiritua<lb ed="#Q"/>lem,
+          qui est limitatio suae essentiae et potentiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3934">
+          <lb ed="#Q"/>Dicendum ergo quod differt Deum esse in
+          <lb ed="#Q"/>omni loco et ubique et in omni re. Cum ergo
+          <lb ed="#Q"/>dicitur 'Deus est ubique ', notatur habitudo re<lb ed="#Q"/>plentis
+          ad repletum; unde sensus est: 'Deus est
+          <lb ed="#Q"/>ubique ', id est 'Deus est praesens omni ubi et
+          <lb ed="#Q"/>replens omne ubi '; et similiter 'Deus est in
+          <lb ed="#Q"/>omni loco', id est 'Deus est praesens? omni
+          <lb ed="#Q"/>loco et replens omnem locum '. Unde aliud et aliud
+          <lb ed="#Q"/>dicitur per ista. Cum autem dicitur 'Deus est in
+          <lb ed="#Q"/>omni re', notatur habitudo conservantis ad con<lb ed="#Q"/>servatum 
+          per hanc praepositionem 'in'.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3960">
+          <pb ed="#Q" n="68"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad hoc quod obicitur
+          <lb ed="#Q"/>quod 'omnis' creatura est corporalis': dicendum
+          <lb ed="#Q"/>quod spiritualis creatura non est corporalis sim<lb ed="#Q"/>pliciter;
+          dicitur tamen corporalis, habito" res<lb ed="#Q"/>pectu
+          ad simplicitatem primi '. Unde dicit Da<lb ed="#Q"/>mascenus 2: 
+          « Omne quod est, comparatum ad
+          <lb ed="#Q"/>Deum, qui solus est incorporalis, grossum et ma<lb ed="#Q"/>teriale
+          invenitur; solus enim essentialiter immate<lb ed="#Q"/>rialis'
+          et incorporeus Deus est ». Unde ex tali
+          <lb ed="#Q"/>modo existendi corporalis non sequitur quod sit
+          <lb ed="#Q"/>localis nisi nomine extenso, eo modo quo locus
+          <lb ed="#Q"/>dicitur limitatio essentiae et potentiae rei.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3993">
+          <lb ed="#Q"/>II. Ad aliud dicendum quod duplex est conti<lb ed="#Q"/>nens,
+          scilicet virtuale et dimensivum. Virtuale est
+          <lb ed="#Q"/>duplex, scilicet extra et intra: intra ", sicut anima
+          <lb ed="#Q"/>virtualiter continet corpus; Deus autem est vir<lb ed="#Q"/>tuale 
+          continens intra et extra: ipse enim « est intra
+          <lb ed="#Q"/>omnia non inclusus et extra omnia non exclu<lb ed="#Q"/>suss
+          ». Ea ergod ratione qua ipse est continens
+          <lb ed="#Q"/>intra, sicut anima corpus, dicitur esse in rebus,
+          <lb ed="#Q"/>sicut anima in suo corpore et in singulis mem-.
+          <lb ed="#Q"/>bris tota ; ea vero ratione qua ipse est * continens
+          <lb ed="#Q"/>extra, dicuntur res esse in Deo. Et sic cum dici<lb ed="#Q"/>tur
+          'Deus' est in omni loco', notatur habitudo re<lb ed="#Q"/>plentis
+          ad omnem locum; et similiter cum dici<lb ed="#Q"/>tur
+          ' Deus est ubique ', notatur-f habitudo ut re<lb ed="#Q"/>plentis
+          et praesentis ad omne 'ubi'; cum dicitur
+          ' Deus est in rebus ', notatur habitudo continentis
+          <lb ed="#Q"/>intra ad ea quae continet; cum dicitur ' res sunt
+          <lb ed="#Q"/>in Deo ', notatur habitudo continentis extra ad ea
+          <lb ed="#Q"/>quae continet. Et sic patet qualiter Deus est! in
+          <lb ed="#Q"/>rebus, et etiam qualiter res sunt in Deo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

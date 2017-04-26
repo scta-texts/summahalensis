@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 2, Q. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-13">February 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="58"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q2c1">
+        <head xml:id="ahsh-l1p1i1t2q2c1-Hd1e3729">I, Pars 1, Inq. 1, Tract. 2, Q. 2, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t2q2c1-Hd1e3732" type="question-title">UTRUM DIVINA ESSENTIA SIT COMPREHENSIBILIS VEL INCOMPREHENSIBILIS</head>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3735">
+          <lb ed="#Q"/>Quantum ad primum sic obicitur: a. Ierem. 
+          <lb ed="#Q"/>32, 19: Magnus consilio, incomprehensibilis co<lb ed="#Q"/>gitatu, 
+          et loquitur de Deo; sed dicendo 'Deum'
+          <lb ed="#Q"/>dico divinam essentiam, quia dico ipsum sine no<lb ed="#Q"/>tione 
+          personali; et sic loquitur; ergo divina es<lb ed="#Q"/>sentia 
+          est incomprehensibilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3751">
+          <lb ed="#Q"/>b. Item, <name>Damescenus</name>: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e3758">Infinitus est Deus 
+          <lb ed="#Q"/>et incomprehensibilis</quote>.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3764">
+          <pb ed="#Q" n="59"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>c. Item, Augustinus, in libro De videndo
+          'Deo 1, ponit auctoritatem Ambrosii2 dicens:
+          « Plenitudinem divinitatis eius nemo aspexit, nemo '
+          <lb ed="#Q"/>mente aut oculis comprehendit ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3776">
+          <lb ed="#Q"/>d. Item, communis. animi conceptio 3 est quod
+          <lb ed="#Q"/>tinitum non potest comprehendere infinitum. Ergo,
+          <lb ed="#Q"/>cum" intellectus humanus sit finitus, divina es<lb ed="#Q"/>sentia
+          infinita, ut visum est 4, est ergo incompre<lb ed="#Q"/>hensibilis
+          ab intellectu humano.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3789">
+          <lb ed="#Q"/>Contra: 1. Multiplex est cognitio de Deo: est
+          <lb ed="#Q"/>enim " cognoscere de Deo ' quia est ', ' quid est',
+          'sicut est ', 'quantus est'5. Cognitio prima, se<lb ed="#Q"/>cunda
+          et tertia non ponunt comprehensibilitatem,
+          <lb ed="#Q"/>sed quarta ", scilicet qua cognoscitur quantus est,
+          <lb ed="#Q"/>ponit comprehensibilitatem; sed creatura potest
+          <lb ed="#Q"/>cognoscere quantus est; ergo potest ipsum com<lb ed="#Q"/>prehendere; 
+          ergo est comprehensibilis. — Minor
+          <lb ed="#Q"/>patet, Rom. l,20: Invisibilia Dei d. GlossaG:
+          -. Tam pulcra astra condidit, ut ex magnitudine
+          <lb ed="#Q"/>eorum quantus esset posset cognosci' ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3811">
+          <lb ed="#Q"/>2. Item, Philipp. 3,12: Sequorf, si quo modo
+          <lb ed="#Q"/>comprehendam, in quo et comprehensus sum.
+          <lb ed="#Q"/>Glossa interlinearisU: «Si aliquo modo
+          <lb ed="#Q"/>potero perfecte cognoscere Christum", qui est
+          <lb ed="#Q"/>summa beatitudo ». Intendebat ergo Apostolus
+          <lb ed="#Q"/>quod posset Christum comprehendere; sed non
+          <lb ed="#Q"/>sequeretur, nisi esset possibile; non esset autemi
+          <lb ed="#Q"/>hoc possibile, nisi totam divinitatem comprehen<lb ed="#Q"/>deret;
+          ergo est comprehensibilis. — Item, ibidem
+          <lb ed="#Q"/>super illud: In quo et comprehensus sum, Glos<lb ed="#Q"/>saa:
+          « Ut scilicet videam eum sicut est, sicut
+          <lb ed="#Q"/>ipse me videt sicut sum »; sed constat quod ipse *
+          <lb ed="#Q"/>Christus videbat Apostolum per comprehensio<lb ed="#Q"/>nem;
+          ergo Apostolus intendebat ipsum compre<lb ed="#Q"/>hendere.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3846">
+          <lb ed="#Q"/>3. Item, Eph. 3,18: Ut possitis comprehendere
+          <lb ed="#Q"/>cum omnibus sanctis, quae sit longitudo, latitudo,
+          <lb ed="#Q"/>sublimitas et profundum, scilicet Dei longitudo,
+          <lb ed="#Q"/>scilicet aeternitatis; latitudo, scilicet caritatis; su<lb ed="#Q"/>blimitas,
+          scilicet maiestatis; profundum, scilicet
+          <lb ed="#Q"/>sapientiae Dei 9. Et sequitur '0: Ut impleamini
+          "lll amnem plenitudinem Dei. Ergo vult quodl sit 
+          <lb ed="#Q"/>comprehensibilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3864">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>4. Item, I Cor. 2,10: Spiritus scrutatur omnia,
+          <lb ed="#Q"/>etiam profunda Dei, id est « facit nos scrutariu »;
+          <lb ed="#Q"/>sed quod facit nos scrutari "' cognoscemus. in pa<lb ed="#Q"/>tria;
+          sed si omnia et etiam profunda Dei cogno<lb ed="#Q"/>scemus,
+          ergo comprehendemus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3880">
+          <lb ed="#Q"/>5. Item, Augustinus, in libro De anima et
+          <lb ed="#Q"/>spiritu 12: « Anima, ad similitudinem "totius sa<lb ed="#Q"/>pientiae
+          facta, omnium similitudines in se gerit" ».
+          <lb ed="#Q"/>Anima autem, quia est similitudo Dei, se utitur
+          <lb ed="#Q"/>ut similitudine ad Deum cognoscendum ; sed ipsa
+          <lb ed="#Q"/>est similitudo totius sapientiae divinae, quae est
+          <lb ed="#Q"/>ipse Deus; ergo potest se nti ut similitudine ad
+          <lb ed="#Q"/>cognoscendam totam sapientiam, quae est Deus;
+          <lb ed="#Q"/>ergo potest ipsum comprehendere.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3903">
+          <lb ed="#Q"/>Solutio: Dicendum quod potest appellari com<lb ed="#Q"/>prehensio
+          cognitio intellectus apprehendentis sive
+          <lb ed="#Q"/>adhaerentis veritati 13 0, vel potest appellari com<lb ed="#Q"/>prehensio
+          cognitio intellectus includentis. Su<lb ed="#Q"/>mendo
+          comprehensionem primo modo, dicendum
+          <lb ed="#Q"/>quod Deus est comprehensibilis, quia intellectus
+          <lb ed="#Q"/>noster adhaeret veritati quae Deus est; unde
+          <lb ed="#Q"/>Sponsa in Canticis": Tenui eum, non dimittam.
+          <lb ed="#Q"/>Et haec comprehensio nihil aliud est quam quae<lb ed="#Q"/>dam
+          apprehensio. Hoc modo loquitur Apostolus,
+          <lb ed="#Q"/>cum dicit 15: Sequor, si quo modo comprehendam,
+          <lb ed="#Q"/>id est « si quo modo perfecte!J potero cognoscere
+          <lb ed="#Q"/>Christum "3 », et istud ' perfecte ' attenditur in ad<lb ed="#Q"/>haesione
+          ad Deum. — Si dicatur comprehensio co<lb ed="#Q"/>gnitio
+          intellectus includentis: hoc modo facit Au<lb ed="#Q"/>gustinus,
+          in libro De videndo Deo, Ad Pauli<lb ed="#Q"/>nam
+          ", differentiam inter ' comprehendere ' et ' vi<lb ed="#Q"/>dere
+          ', dicens quod 'videre' non ponit nisi prae<lb ed="#Q"/>sentiam
+          rei 4, ' comprehendere' vero ponit totum
+          <lb ed="#Q"/>in videndo includere, ita quod de re nihil lateat.
+          <lb ed="#Q"/>Hoc modo impossibile est Deum comprehendi,
+          <lb ed="#Q"/>quia impossibile est quod intellectus includat di<lb ed="#Q"/>vinam
+          essentiam; secundum enim Augu sti<lb ed="#Q"/>num
+          19, illud solum comprehendere possumus
+          «cuius fines circumspici possunt»; illud autem
+          <lb ed="#Q"/>impossibile est in Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e3960">
+          <lb ed="#Q"/>Sed obicitur: « Omne simplex, cum non ha<lb ed="#Q"/>beat
+          partem, cum attingitur, attingitur totum 19 »;
+          <lb ed="#Q"/>cum vero attingitur totum, comprehenditur; cum 
+          <pb ed="#Q" n="60"/>
+          <cb ed="#Q"/>
+          <lb ed="#Q"/>ergo divina essentia intellectu humano attingatur
+          <lb ed="#Q"/>aliquo modo, cum ipsa sit simplex, comprehende<lb ed="#Q"/>tur;
+          ergo, si cognoscetur cognitione visionis, cogno<lb ed="#Q"/>scetur
+          cognitione comprehensionis. * Respondeo
+          <lb ed="#Q"/>quod non sequitur: 'attingitur totum, ergo com<lb ed="#Q"/>prehenditur'.
+          'Comprehendere' enim est secun<lb ed="#Q"/>dum
+          totam substantiam et virtutem et respectum
+          <lb ed="#Q"/>rem comprehensam includere; ' attingere ' vero est
+          <lb ed="#Q"/>totum ad totum coniungi, quamvis non secundum
+          <lb ed="#Q"/>totum fiat inclusio 1. Verbi gratia: linea ducta ad
+          <lb ed="#Q"/>centrum attingit ipsum centrum, nec tamen compre<lb ed="#Q"/>hendit,
+          quia non omnem virtutem et respectum
+          <lb ed="#Q"/>centri respicit; immo infiniti sunt respectus ipsius
+          <lb ed="#Q"/>centri et virtus infinita ad lineas, quae possunt duci
+          <lb ed="#Q"/>ab ipso et ad ipsum praeter respectum huius li<lb ed="#Q"/>neae,
+          sed circumferentia sola ipsum centrum com<lb ed="#Q"/>prehendit.
+          Secundum hunc modum est dicere
+          <lb ed="#Q"/>quod intellectus creatus est velut quaedam linea
+          <lb ed="#Q"/>ducta ad centrum, hoc est simplicitatem divinae
+          <lb ed="#Q"/>substantiae, quae, secundum esse quod habet in
+          <lb ed="#Q"/>creatura, intelligitur velut centrum habens vir<lb ed="#Q"/>tualem
+          positionem in creatura" et simplicem;
+          <lb ed="#Q"/>sed id quod. habet esse in se, habet esse velut
+          <lb ed="#Q"/>in circumferentia infinita, quae non habet princi<lb ed="#Q"/>pium
+          nec finem, sed in infinitum excedens es<lb ed="#Q"/>sendib
+          modum in creatura, sicut circumferentia
+          <lb ed="#Q"/>centrum 2. Propter quod dicit Trismegistus3:
+          «Deus est sphaera intelligibilis, .,cuius centrum
+          <lb ed="#Q"/>est ubique, circumferentia nusquam ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e4034">
+          <lb ed="#Q"/>[Ad obiecta]: Ad alias rationes respondendum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e4039">
+          <lb ed="#Q"/>1. Ad primum dicendum quod est cognitio de
+          <lb ed="#Q"/>Deo per c positionem, sicut cognitio de ipso 'quia
+          <lb ed="#Q"/>est', et cognitiod per privationem, sicut cognitio
+          <lb ed="#Q"/>de Deo 'quid non est' 4, sicut dicit Dionysius 5:
+          « Contingit de Deo cognoscere non ' quid est, sed
+          <lb ed="#Q"/>quid non est ». Cognitione ergo qua cognoscitur
+          <lb ed="#Q"/>de Deo 'quid est, non potest cognoscif quantus
+          <lb ed="#Q"/>est Deus; sed cognitione qua cognoscitur per pri—
+          <lb ed="#Q"/>vationem et abnegationem aliorum bene cogno<lb ed="#Q"/>scitur!
+          'quantus est': bene enim cognoscimus
+          <lb ed="#Q"/>quod maior est"! quam quaelibet creatura et quam
+          <lb ed="#Q"/>omnes simul, sicut supra dictum est in Quaestione
+          <lb ed="#Q"/>de cognitione -Dei, an cognoscatur quantus sit 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e4068">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod loquitur
+          <lb ed="#Q"/>Apostolus de comprehensione quae esti secun—
+          <lb ed="#Q"/>dum adhaesionemk sive quae est idem quod 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>apprehensio, et non de comprehensione quae
+          <lb ed="#Q"/>est intellectus includentis. Et prima' appellatur
+          <lb ed="#Q"/>velut comprehensio manu, quia comprehensio
+          <lb ed="#Q"/>manu non includit necessario totam rem; sic"l
+          <lb ed="#Q"/>loquitur Apostolus: Ut comprehendam", id est
+          <lb ed="#Q"/>ut apprehendam et adhaeream etc. Secunda ap<lb ed="#Q"/>pellatur
+          comprehensio visu, quia comprehensio
+          <lb ed="#Q"/>visu non est nisi" totam rem includat; unde ipsa
+          <lb ed="#Q"/>est comprehensio per inclusionem, et non prima.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e4099">
+          <lb ed="#Q"/>3. Ad tertium dicendum, secundum Augu<lb ed="#Q"/>stinum7,
+          quod illud quod dicit Apostolus non
+          <lb ed="#Q"/>intelligitur quod simus « plenus Deus », sed quod
+          <lb ed="#Q"/>simus : pleni Deo »; et dicimurP « pleni Deo »,
+          <lb ed="#Q"/>quia' intellectus noster secundum suam capacitatem
+          <lb ed="#Q"/>impletur divinitate. Sed si ipsum comprehende<lb ed="#Q"/>remus
+          totum, aequaremur ei — quod est impossi<lb ed="#Q"/>bile
+          4, quia cum sit infinitus, nihil ipsum com-.
+          <lb ed="#Q"/>prehendit nisi ipse — ex ' hoc sequeretur, si ei ac.L
+          <lb ed="#Q"/>quaremur, quod: essemus plenus Deus et quod
+          <lb ed="#Q"/>in- nos verteretur; quod est impossibile. Et propter
+          <lb ed="#Q"/>hoc dicit A ugu stinu 88 super illud: « Hanc ple<lb ed="#Q"/>nitudinem
+          Dei quidam in iis verbis sic ' intellexe<lb ed="#Q"/>runt,
+          ut putarent nos hoc idem futuros quod
+          <lb ed="#Q"/>Deus est, dicentes: si aliquid minus quam Deus
+          <lb ed="#Q"/>habebimus et minores erimus, quomodo imple<lb ed="#Q"/>bimur
+          in omnem plenitudinem Dei? Sed quoniam
+          <lb ed="#Q"/>implebimur, profecto erimus aequales ». Et certe
+          <lb ed="#Q"/>ex "hoc sequeretur quod essemus Deus, quia nihil
+          <lb ed="#Q"/>aequale Deo" nisi Deus. Et propter hoc dicit 9:
+          <lb ed="#Q"/>Detestandus est error iste: non enim sic imple<lb ed="#Q"/>buntur,
+          « ut sint plenus Deus, sed ut perfecte"
+          <lb ed="#Q"/>sint pleni Deo ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e4152">
+          <lb ed="#Q"/>4. Ad quartum dicendum quod verum est
+          <lb ed="#Q"/>quod Spiritus tacit nos scrutari omnia, sed non
+          <lb ed="#Q"/>secundum omnem virtutem; ideo non est com<lb ed="#Q"/>prehensio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c1-d1e4163">
+          <lb ed="#Q"/>5. Ad quintum dicendum quod anima est' ad
+          <lb ed="#Q"/>imaginem * to'tius sapientiae, hoc est perfecte et in
+          <lb ed="#Q"/>genere; unde debet ibi sumi 'totius' pro 'per<lb ed="#Q"/>fecte
+          '. — Ad aliud dicendum quod anima ad co<lb ed="#Q"/>gnoscendum
+          Deum utitur se ipsa ut similitudine,
+          <lb ed="#Q"/>sed non sequitur quod comprehendat, quia totalitas
+          <lb ed="#Q"/>similitudinis non attenditur quantum ad aequalita<lb ed="#Q"/>tem,
+          sed quantum ad repraesentationem ?. Unde
+          <lb ed="#Q"/>Augustinus, in libro 83 Quaestionum m: « Ubi
+          <lb ed="#Q"/>imago et similitudo', non continuo est aequa<pb ed="#Q" n="61"/><lb ed="#Q" n="a"/><lb ed="#Q"/>litas: 
+          ut in speculo est imago [hominis], quia de
+          <lb ed="#Q"/>illo" expressa est; est etiam necessario simili<lb ed="#Q"/>tudo,
+          non tamen aequalitas, quia multa desunt
+          <lb ed="#Q"/>imagini, quae insunt illi rei" de qua expressa 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>est ». Vel dicendum quod licet possit uti se ut
+          <lb ed="#Q"/>similitudine ad cognoscendam divinam sapientiam
+          <lb ed="#Q"/>totam, non tamen secundum totum, sicut superius1
+          <lb ed="#Q"/>dictum est de puncto et linea. '
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

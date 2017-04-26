@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="78"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t3m2c2">
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c2-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c2-Hd1e3732" type="question-title">UTRUM DEUS SIT lN SACRAMENTIS PER INHABITANTEM GRATIAM</head>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3735">
+          <lb ed="#Q"/>secundo quaeritur utrum Deus sit in sacramen<lb ed="#Q"/>tis 
+          per gratiam inhabitantem '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3742">
+          <lb ed="#Q"/>Ad quod sic: 1. Cant. 5,17: Quo abiit dilectus
+          <lb ed="#Q"/>tuus? Gregori u s 2: « Cum Deus universaliter in
+          <lb ed="#Q"/>omnibus rebus sit substantia, praesentia, potentia,
+          <lb ed="#Q"/>tamen .familiariori " quodam modo est per gra—
+          <lb ed="#Q"/>tiam »; sed constat quod Deus familiari modo est
+          <lb ed="#Q"/>in sacramentis, et inb aliis rebus sanctificatis;
+          <lb ed="#Q"/>ergo est in illis per gratiam inhabitantem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3760">
+          2. Item, Hugo de S. Victore3: . Sacramen<lb ed="#Q"/>tum
+          est elementum corporale, ex similitudine re<lb ed="#Q"/>praesentans,
+          ex institutione significans, ex sancti<lb ed="#Q"/>ficatione
+          invisibilem gratiam continens ». Ergo
+          <lb ed="#Q"/>Deus habitat in sacramentis per gratiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3772">
+          <lb ed="#Q"/>3. item, Augustinus4: « Unde est tanta: vir<lb ed="#Q"/>tus
+          aquae ut corpus tingat et cor abluat » ? sed
+          <lb ed="#Q"/>quod abluit cor, illud non potest facere sine gra<lb ed="#Q"/>tia;
+          ergo Deus est in sacramentis per gratiam. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3783">
+          <lb ed="#Q"/>Contra: 1. Inter datorem gratiae et suscipien<lb ed="#Q"/>tem
+          nihil est medium, quia sicut per se et sine
+          <lb ed="#Q"/>medio creat, ita per se et sine mediod recreat;
+          <lb ed="#Q"/>ergo non dat animae gratiam mediante sacra<lb ed="#Q"/>mento;
+          ergo in sacramento non continetur gratia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3796">
+          <lb ed="#Q"/>2. Item, omnis forma, quae est in aliquo tam<lb ed="#Q"/>quam
+          in continente, ponitur in ea sicut in subiecto;
+          <lb ed="#Q"/>sed gratia non potest esse in sacramento sicut in
+          <lb ed="#Q"/>subiecto, quia sacramentum est corporale, gratia
+          <lb ed="#Q"/>vero est quid spirituale; ergo gratia non conti<lb ed="#Q"/>netur
+          in sacramento; non ergo est Deus in sa<lb ed="#Q"/>cramentis
+          per gratiam. — Si dicatur secundum
+          <lb ed="#Q"/>Augustinum, supra 5, quod ibi non est gratia,
+          <lb ed="#Q"/>sed . virtus » gratiae, — contra: haec virtus est
+          <lb ed="#Q"/>diSpositio vel forma; ergo est in aliquo sicut in
+          <lb ed="#Q"/>subiecto; sed non potest esse in sacramento ut
+          <lb ed="#Q"/>in subiecto ratione praedicta, et ita redite idem
+          <lb ed="#Q"/>quod prius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3827">
+          <lb ed="#Q"/>Solutio: Dicendum f sine praeiudicio quod
+          <lb ed="#Q"/>Deus est in sacramento per gratiam, non tamen
+          <lb ed="#Q"/>per inhabitantem gratiam est in sacramento. No<lb ed="#Q"/>men
+          enim inhabitationis dicit terminum motus;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>unde nec in iis quae pertinent ad viam nec in
+          <lb ed="#Q"/>via nec in iis quae sunt ad finem proprie est
+          <lb ed="#Q"/>inhabitatio. Quia igitur motus iniusionis gratiae
+          <lb ed="#Q"/>gratificantis non terminatur nisi in anima vel in!
+          <lb ed="#Q"/>substantia spirituali, sacramentum vero est quod<lb ed="#Q"/>dam
+          adminiculum velut via ad gratiam, dicitur
+          <lb ed="#Q"/>Deus velut in sacramento esse per gratiam, sed
+          <lb ed="#Q"/>non inhabitare per gratiam, quia est via ad gra<lb ed="#Q"/>tiam
+          et disponens ad hoc ut gratiam suscipiat. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3860">
+          <lb ed="#Q"/>Et bene concedo 5 quod ' quodam modo iami<lb ed="#Q"/>liari
+          ' est Deus in sacramentis ': et hic est modus,
+          <lb ed="#Q"/>quia gratia, quae est Opus solius Dei, ipsa est in
+          <lb ed="#Q"/>sacramento sicut in causa disponente suscipien<lb ed="#Q"/>tem
+          ad susceptionem gratiae; et hic" est ille mo<lb ed="#Q"/>dus
+          iamiliaris secundum quem Deus est in sacra<lb ed="#Q"/>mentis.
+          — Et in hoc sensu intelligitur illud quod'
+          <lb ed="#Q"/>sacramentum 'continet gratiam et virtutem gra<lb ed="#Q"/>tiae
+          ' 8, quia in eo est virtus qua disponitur susci<lb ed="#Q"/>piens
+          ad gratiam. — Nec est dicendum quod in
+          <lb ed="#Q"/>sacramento sit gratia forr'naliter sicut in subiecto 9,
+          <lb ed="#Q"/>sed sicut in causa disponente. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3889">
+          <lb ed="#Q"/>[Ad obiecta.]: 1. Ad primum 1" dicendum quod
+          <lb ed="#Q"/>ex parte dantis gratiam nihil-est medium, sed
+          <lb ed="#Q"/>ex parte suscipientis, quia oportet quod anima
+          <lb ed="#Q"/>disponatur ad hoc quod gratiam suscipiat'f ; ipsa
+          <lb ed="#Q"/>autem virtus sacramentalis est quae disponit ip<lb ed="#Q"/>sum
+          ad gratiam; Deus ergo de se Operatur et
+          <lb ed="#Q"/>immediate dat gratiam, anima autem mediante
+          <lb ed="#Q"/>sacramento recipit eam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c2-d1e3910">
+          <lb ed="#Q"/>2. Ad illud' vero quod quaeritur 'in quo sit
+          <lb ed="#Q"/>virtus ista sacramentalis': dicendum quod sicut
+          <lb ed="#Q"/>sermo significativus"l duplex habet esse " — unum
+          <lb ed="#Q"/>naturae, secundum quod est vox vel sonus ab 
+          <lb ed="#Q"/>ore prolatus, aliud secundum quod esse habet
+          <lb ed="#Q"/>ex institutione, secundum quod est signum desi<lb ed="#Q"/>gnativum
+          alicuius rei ad movendum intellectum ——
+          <lb ed="#Q"/>sic virtus in voce potest esse dupliciter": ut ha<lb ed="#Q"/>bet
+          esse naturae et ut habet esse institutionis
+          <lb ed="#Q"/>et significantiae. Similiter dicendum P, cum sacra<lb ed="#Q"/>mentum
+          sit invisibilem gratiam conierens, quod du<lb ed="#Q"/>plex
+          est esse sacramenti: unum naturae, in quan<pb ed="#Q" n="79"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tum 
+          est elementum corporale, aliud ex divina
+          <lb ed="#Q"/>institutione ex qua ordinatur ad significandum
+          <lb ed="#Q"/>et sanctificandum ; unde est ei virtus ad instru<lb ed="#Q"/>endum
+          " intellectum, in quantum est ad signifi<cb ed="#Q" n="b"/><lb ed="#Q"/>candum 
+          institutum, et virtus ad sanctificandum,
+          <lb ed="#Q"/>eo modo quo dictum est, in quantum ad hoc
+          <lb ed="#Q"/>ex divina ordinatione et ministri executione ordi<lb ed="#Q"/>natum
+          est.
+          </p>
+      </div>
+    </body>
+  </text>
+</TEI>

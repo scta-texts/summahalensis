@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 1, Q. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Pars 1, Inq. 1, Tract. 1, Q. 3, C. 2</title>
+          <date when="2017-02-13">February 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="51"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t1q3c2">
+        <head xml:id="ahsh-l1p1i1t1q3c2-Hd1e3732">I, Pars 1, Inq. 1, Tract. 1, Q. 3, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t1q3c2-Hd1e3735" type="questionTitle">QUOMODO DIVINAE ESSENTIAE SIT SIMPLICITAS SUMMA.</head>
+        <p xml:id="ahsh-l1p1i1t1q3c2-d1e3738">
+          <lb ed="#Q"/>Deinde quaeritur quomodo divinae essentiae sit 
+          <lb ed="#Q"/>simplicitas summa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c2-d1e3745">
+          <lb ed="#Q"/>Ad quod sic obicitur: 1. Maior est indiffe<lb ed="#Q"/>rentia 
+          ubi eest unitas essentiae et personae quam 
+          <lb ed="#Q"/>ubi est unitas in essentia et distinctio in per<lb ed="#Q"/>sona 
+          vel e converso. Si ergo divina essentia in
+          <lb ed="#Q"/>summo est simplex, et simplicitas sequitur indit<lb ed="#Q"/>ierentiam,
+          intelligetur in ea unitas essentiae et
+          <lb ed="#Q"/>personae; sed hoc est falsum, immo solum unitas
+          <lb ed="#Q"/>essentiae et distinctio personae ; ergo non est sim<lb ed="#Q"/>plex 
+          in summo simplicitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c2-d1e3767">
+          <pb ed="#Q" n="52"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>2. Item, non est idem dicere 'Pater est Deus ' et
+          ' Pater est Pater ': non enim quo est Deus, eo est
+          <lb ed="#Q"/>Pater, immo deitate" est Deus et paternitate est
+          <lb ed="#Q"/>Pater, et non paternitate est Deus vel deitate Pater;
+          <lb ed="#Q"/>ergo alio est Deus et alio est Pater"; ergo in Deo
+          <lb ed="#Q"/>invenitur numerus; non ergo summa simplicitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c2-d1e3786">
+          <lb ed="#Q"/>3. Item, quaedam dicuntur de Deo secundum sub<lb ed="#Q"/>stantiam,
+          ut Deus, omnipotens, iustus et huiusmodi;
+          <lb ed="#Q"/>quaedam secundum relationem, sicut quae dicuntur
+          <lb ed="#Q"/>de Deo personaliter, ut cum dico ' Deus est Pater '.
+          <lb ed="#Q"/>Aut ergo substantia et relatio distinguuntur in Deo
+          <lb ed="#Q"/>secundum rem aut secundum intellectum solum. Si
+          <lb ed="#Q"/>secundum intellectum solum: ergo solus intellectus
+          <lb ed="#Q"/>faceret Trinitatem hanc, scilicet Patrem et Filium
+          <lb ed="#Q"/>et Spiritum Sanctum, esse tres, si non esset ibi
+          <lb ed="#Q"/>rei distinctio. Si secundum rem distinguuntur: ergo
+          <lb ed="#Q"/>est ibi differentia substantiae et relationis. Ergo
+          <lb ed="#Q"/>non est in Deo accipere terminum simplicitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c2-d1e3815">
+          <lb ed="#Q"/>Contra: a. Nos videmus in puncto ' differentes
+          <lb ed="#Q"/>habitudines; non tamen hoc ponit aliquam com<lb ed="#Q"/>positionem
+          in puncto, immo ex eo quod simplex
+          <lb ed="#Q"/>est, convenit ei quod habeat plures habitudines.
+          <lb ed="#Q"/>Quamvis ergo similiter ponatur in Deo differentia
+          <lb ed="#Q"/>habitudinum personalium, non tamen hoc detrahit
+          <lb ed="#Q"/>simplicitati eius; et ita vere simplex est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c2-d1e3833">
+          <lb ed="#Q"/>Solutio: Dicendum quod est unitas essentialis
+          <lb ed="#Q"/>et personalis : ; similiter est differentia essentialis
+          <lb ed="#Q"/>opposita unitati essentiali, et differentia personalis
+          <lb ed="#Q"/>sive multiplicitas opposita unitati personali; sed
+          <lb ed="#Q"/>diversitas essentialis non opponitur personali uni<lb ed="#Q"/>tati
+          necii unitas essentialis differentiae personali.
+          <lb ed="#Q"/>Unde Richardus de S, VictoreZ: «Sicut esse
+          <lb ed="#Q"/>substantialiter aliud et aliud non tollit ubique
+          <lb ed="#Q"/>unitatem personae, sic esse personaliter alium et
+          <lb ed="#Q"/>alium non scindit ubique unitatem substantiae ».
+          <lb ed="#Q"/>Exemplum in homine: nec pluralitas substantia<lb ed="#Q"/>rum
+          ibi dividit unitatem personae. Nec pluralitas
+          <lb ed="#Q"/>personarum hic dissolvit unitatem substantiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c2-d1e3864">
+          <lb ed="#Q"/>[Ad obiecta]: 1. -Ad primum ergo dicendum 
+          <lb ed="#Q"/>quod prima propositio est falsa: nam unitas di<cb ed="#Q" n="b"/><lb ed="#Q"/>citur 
+          maior, quia simplicior ' et quia virtuosior;
+          <lb ed="#Q"/>posita autem unitate personali curn unitatef es<lb ed="#Q"/>sentiali,
+          minor erit unitas et simplicitas in virtute,
+          <lb ed="#Q"/>quam si ponatur cum differentia personali, quia
+          <lb ed="#Q"/>simplicissima et maxima unitas est quae habet
+          <lb ed="#Q"/>esse in pluribus non multiplicata, sicut proba<lb ed="#Q"/>bitur
+          infra 3. Quanto enim aliquid est magis unum
+          <lb ed="#Q"/>in simplicitate essentiae, tanto maius est in vir- <lb ed="#Q"/>tute
+          4; et ideo summa unitas vel simplicitas ponit
+          <lb ed="#Q"/>pluralitatem: aliter non esset simplex in summo
+          <lb ed="#Q"/>simplicitatis. Exemplum de puncto sicut supra85.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c2-d1e3896">
+          <lb ed="#Q"/>2. Ad secundam rationem dicendum quod
+          <lb ed="#Q"/>non sequitur: ' non eo quo est Deus, est Pater, ergo
+          <lb ed="#Q"/>alio et alio ' ". Si enim paternitas non esset deitas
+          <lb ed="#Q"/>vel Pater deitas, bene procederet ratio; sed pa<lb ed="#Q"/>ternitas
+          est deitas, et Pater est' Deus, et Pater est
+          <lb ed="#Q"/>deitas 6: Pater enim dicit habitudinem illam qua
+          <lb ed="#Q"/>Deus est ens a quo * alius per generationem; haec
+          <lb ed="#Q"/>autem habitudo non connumeratur cum' essentia,
+          <lb ed="#Q"/>nec etiam aliquid addit essentiae, et ita non est
+          <lb ed="#Q"/>causa compositionis aliquo modo circa essentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c2-d1e3920">
+          <lb ed="#Q"/>3. Ad tertiu m dicendum "', supposito quod in<lb ed="#Q"/>ira
+          7 declarabitur, quod divinum esse est unum idem
+          <lb ed="#Q"/>esse habitum " secundum rationem ordinis seu ori<lb ed="#Q"/>ginis.
+          Intelligitur enim divinum esse, quod est ha<lb ed="#Q"/>bitum
+          a Patre non ab alio nec per generationem nec
+          <lb ed="#Q"/>per processionem, a quo idem esse " est habitum a
+          <lb ed="#Q"/>Filio per generationem, et illud idem habitum a Spi<lb ed="#Q"/>ritu
+          Sancto per processionem ab utroque. Et hoc
+          <lb ed="#Q"/>modo est non solum secundum acceptionem nostri
+          <lb ed="#Q"/>intellectus, sed etiam? secundum ipsam rem. Ne<lb ed="#Q"/>cessario
+          ergo est ibi quod est identitatis substan<lb ed="#Q"/>tiae
+          et quod4 est habitudinis secundum rationem
+          <lb ed="#Q"/>originis seu principii ad id quod est de principio.
+          <lb ed="#Q"/>Ex illa ergo parte, qua intelligitur identitas, sume<lb ed="#Q"/>tur
+          velut praedicamentum substantiae in enuntia<lb ed="#Q"/>tione
+          divinorum; ex illa vero parte, qua est ' habi<lb ed="#Q"/>tudo
+          et pluralitas, praedicamentum' relationis. Nec
+          <lb ed="#Q"/>tamen hoc detrahit summae simplicitati, sicut ex
+          <lb ed="#Q"/>praedictis manifestum est et plenius declarabitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. I, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="113"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m1c2">
+        <head xml:id="ahsh-l1p1i1t3q1m1c2-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 1, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t3q1m1c2-Hd1e3732" type="question-title">DE COMPARATIONE UNIUS AD ENS ET VERUM ET BONUM.</head>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3735">
+          <lb ed="#Q"/>Secundo quaeritur de comparatione ' unius' ad 
+          <lb ed="#Q"/>ens et verum et bonum. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3742">
+          <lb ed="#Q"/>I. Et obicitur primo de comparatione 'unius'
+          <lb ed="#Q"/>ad 'ens' secundum differentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3749"> 
+          <lb ed="#Q"/>1. Quia, cum ' unum ' convertatur cum ente —
+          <lb ed="#Q"/>smut dicit B. Dio n ys i u s 5: « Nihil est entium ex<lb ed="#Q"/>pers
+          unius »—non videbitur addere intentio ' unius '
+          <lb ed="#Q"/>ad ens; quia si addit, illa determinatio addita con<lb ed="#Q"/>trahet
+          intentionem entis et restringet ad * pauciora
+          <lb ed="#Q"/>supposita quam sit intentio entis " absoluta; ergo 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>iam non convertetur cum ente simpliciter; quod 
+          <lb ed="#Q"/>est' falsum. Relinquitur ergo quod non addit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3772">
+          <lb ed="#Q"/>2. Item, cum assignantur vestigia Trinitatis in
+          <lb ed="#Q"/>creatura secundum intentionem unitatis, veritatis
+          <lb ed="#Q"/>etx bonitatis, alternatim ponitur intentio 'unius'
+          <lb ed="#Q"/>et entis, et ponuntur pro eodem, quod attribuitur
+          <lb ed="#Q"/>Patri, sicut veritas Filio, bonitas Spiritui Sancto;
+          <lb ed="#Q"/>ergo non separantur intentiones ' unius ' et? entis
+          <lb ed="#Q"/>nisi sicut additiones ' unius' ad ens. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3790">
+          <lb ed="#Q"/>Hoc autem manifestum est sic. Augustinus, 
+          <lb ed="#Q"/>in 83 Quaestion.5: In omni « quod est, aliud est 
+          <pb ed="#Q" n="114"/>
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quo "' constat, aliud quo discernitur, aliud quo
+          <lb ed="#Q"/>congruit»: « quo constat» est entitas; « quo dis<lb ed="#Q"/>cernitur
+          », veritas ; . quo congruit», bonitas. Item,
+          <lb ed="#Q"/>in * libro De Trinitate ', ponit alium modum Tri<lb ed="#Q"/>nitatis
+          dicens: «Omnia, quae arte divina facta
+          <lb ed="#Q"/>sunt, et unitatem quamdam ostendunt et Speciem
+          <lb ed="#Q"/>et ordinem ». Si ergoc comparemus: ordo est"
+          <lb ed="#Q"/>quo res congruit, ut bonitas; species, quo discer<lb ed="#Q"/>nitur,
+          ut veritas; unitas erit quo res constat, sive
+          <lb ed="#Q"/>rei entitas. —— Item,. in libro De civitate Dei2:
+          « In iis rebus, quae intra nos sunt, vestigia Tri<lb ed="#Q"/>nitatis
+          colligamus per hoc quod suntet Specie
+          <lb ed="#Q"/>aliqua continentur et ordinem appetunt aut te<lb ed="#Q"/>nent
+          ». Ecce quod ens assignatur vestigium Pa<lb ed="#Q"/>tris,
+          sicut species Filii et .ordo Spiritus Sancti.
+          — Sed iterum, Augustinus, De vera religio<lb ed="#Q"/>ne3:
+          « Omnis vel substantia vel essentia vel na<lb ed="#Q"/>tura
+          vel si aliquo verbo melius enuntiatur, ha<lb ed="#Q"/>bet
+          haec tria: ut unum aliquid sit, propria Spe<lb ed="#Q"/>cie
+          discernatur, rerum ordinem non excedat ». Ecce
+          <lb ed="#Q"/>quod 'unum' assignatur vestigium Patris; ea<lb ed="#Q"/>dem
+          ergo erit intentio 'unius' et entis non ad<lb ed="#Q"/>dens
+          ad ens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3847">
+          <lb ed="#Q"/>Contra: a. Enti non opponuntur multa, cum
+          <lb ed="#Q"/>multa comprehendantur ' 'sub ente; sed unitati op<lb ed="#Q"/>ponuntur
+          multa ; ergo aliqua est additio ' unius'
+          <lb ed="#Q"/>ad ens. 4
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3858">
+          <lb ed="#Q"/>II. Item, contraf distinctionem 'unius' et 'veri' 
+          <lb ed="#Q"/>obicitur:
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3865">
+          <lb ed="#Q"/>1. Nam 'verum' dicit illud quod est principium
+          <lb ed="#Q"/>distinguendi rem a re. — Quod patet: nam
+          <lb ed="#Q"/>veritas rei accipitur secundum speciem ;' secundum
+          <lb ed="#Q"/>speciem autem fit rei distinctio, ut dicitur in libro
+          <lb ed="#Q"/>De vera religione 4. Cum ergo intentionis unitatis
+          <lb ed="#Q"/>similiter sit per se distinguere — quod patet ex
+          <lb ed="#Q"/>ratiOne 'unius': 'indivisum in se, divisum au<lb ed="#Q"/>tem!
+          ab aliis' — ergo indifferens erit intentio
+          <lb ed="#Q"/>unitatis et veritatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3887">
+          <lb ed="#Q"/>2. Item, sicut. quidam5 posuerunt iuxta phi<lb ed="#Q"/>losophos:
+          veritas est indivisio esse et eius quod
+          <lb ed="#Q"/>est; sed indivisio entis est unitas; ergo per eam<lb ed="#Q"/>dem
+          rationem erit unitas et" veritas. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3899">
+          <lb ed="#Q"/>Contra: a. Multitudo et falsitas non sunt idem,
+          <lb ed="#Q"/>immo multitudo continet veritatem, ut in multis
+          <lb ed="#Q"/>veris; ergo nec secundum rationem erit unitas
+          <lb ed="#Q"/>veritas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3910">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>III. Item, de comparatione ' unius ' ad ' bonum ' 
+          <lb ed="#Q"/>obicitur:
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3919">
+          <lb ed="#Q"/>1. Boethius', in libro De consolationes:
+          « Omne, quod subsistere aut permanere appetit,
+          <lb ed="#Q"/>id 'unum' esse desiderat; omnia igitur 'unum'
+          <lb ed="#Q"/>desiderant ». Si ergo ratio boni ab eodemk est
+          'quod omnia appetunt ', relinquitur quod eadem
+          <lb ed="#Q"/>est intentio 'unius' et 'boni '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3930">
+          <lb ed="#Q"/>Contra: a. Non intellecto bono, intelligitur
+          <lb ed="#Q"/>' unum ', immo praedicatur de malo, cum dicitur:
+          <lb ed="#Q"/>'malum est unum '; ergo non est eadem intentio
+          <lb ed="#Q"/>' boni ' et ' unius".
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3941">
+          <lb ed="#Q"/>Et haec quaeruntur de comparatione quae est 
+          <lb ed="#Q"/>secundum differentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3948">
+          <lb ed="#Q"/>IV. Item, quaeritur de comparatione1 quae est 
+          <lb ed="#Q"/>secundum ordinem:
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3956">
+          <lb ed="#Q"/>1. Nam cum omnis creatura componatur'" ex
+          <lb ed="#Q"/>hoc et hoc, sicut dicit Boethius, in libro De
+          <lb ed="#Q"/>Trinitate 7: « In omni eo quod est citra " primum,
+          <lb ed="#Q"/>est hoc et hoc :; ergo ad hoc quod res sit, oportet
+          <lb ed="#Q"/>sicut causam praecedere unionem eorum ex qui<lb ed="#Q"/>bus
+          est; ergo unitas erit causa entitatis; ergo
+          'unum' prius ente. Simili ratione causa erit ve<lb ed="#Q"/>ritatis,
+          quia unionem illam consequitur veritas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3974">
+          <lb ed="#Q"/>2. Item, Boethius, in libro" De consola<lb ed="#Q"/>tiones:
+          «Sublato 'uno', nec esse quibusquam
+          <lb ed="#Q"/>permanebit», similiter nec verum esse. Ergo uni<lb ed="#Q"/>tas
+          causa est entitatis et veritatis P.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3985">
+          <lb ed="#Q"/>3. Item, Boethius, De consolatione 9: « Quae
+          <lb ed="#Q"/>discrepant, bona minime sunt; cum vero 9 *unum'
+          <lb ed="#Q"/>esse coeperint ', bona fiunt; ut ergo bona sint,
+          <lb ed="#Q"/>unitatis * adeptione contingit ». Ergo unitas causa
+          <lb ed="#Q"/>est bonitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3998">
+          <lb ed="#Q"/>Respondeo: Dicendum quod ens est primum 
+          <lb ed="#Q"/>intelligibile; primae autem entis determinationes 
+          <lb ed="#Q"/>sunt ' unum ' et ' verum ' et ' bonum ': determi<lb ed="#Q"/>nant 
+          enim ens secundum quod consideratur esse 
+          <lb ed="#Q"/>rerum in proprio genere, et etiam secundum re<lb ed="#Q"/>lationem 
+          ' esse earum ad divinam causam, et se<lb ed="#Q"/>cundum 
+          relationem rerum ad animam, quae est
+          <lb ed="#Q"/>imago divinae essentiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4018">
+          <lb ed="#Q"/>Secundum autem quod esse rerum eonsideratur
+          <lb ed="#Q"/>in proprio genere, triplicatur entis determinatio.
+          <lb ed="#Q"/>Aut enim consideratur absolutum aut compara<lb ed="#Q"/>tum;
+          et comparatum: aut secundum differentiam
+          <lb ed="#Q"/>aut secundum convenientiam. Secundum quod ens 
+          <pb ed="#Q" n="115"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>aliquod consideratur absolutum, ut divisum ab
+          <lb ed="#Q"/>aliis et in se indivisum b, determinatur per ' unum '.
+          <lb ed="#Q"/>Secundum vero quod consideratur aliquod ens
+          <lb ed="#Q"/>comparatum ad aliud secundum distinctionem,
+          <lb ed="#Q"/>determinatur per ' verum ': ' verum ' enim est quo
+          <lb ed="#Q"/>res habet discemi '. Secundum vero quod consi<lb ed="#Q"/>deratur
+          comparatum ad aliud secundum : conve<lb ed="#Q"/>nientiam
+          sive ordinem, determinatur per ' bonum ':
+          'bonum' enim est ex quo res habet ordinari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4053">
+          <lb ed="#Q"/>Item, secundum quod esse rerum comparatur
+          <lb ed="#Q"/>in relatione ad causam divinam, simili modo tri<lb ed="#Q"/>plicatur
+          determinatio. Causa enim divina est causa
+          <lb ed="#Q"/>in triplici genere causae: efficiens, formalis ut
+          <lb ed="#Q"/>exemplar, finalis. Quae quidem causalitas, cum sit
+          <lb ed="#Q"/>communis toti Trinitati, appropriatur ut causa et<lb ed="#Q"/>ficiens
+          Patri, exemplaris Filio, finalis Spiritui
+          <lb ed="#Q"/>Sancto. Secundum hoc, esse in creatura, quod fluit
+          <lb ed="#Q"/>a causa, triplicem sortitur impressionem, ut in con<lb ed="#Q"/>formationed
+          ad causam. Impressio ergo disposi<lb ed="#Q"/>tionis
+          in esse creaturae, secundum quam fit in
+          <lb ed="#Q"/>conformitate ad efficientem causam, est unitas: ut
+          <lb ed="#Q"/>sicut efficiens causa est una, indivisa, multipli<lb ed="#Q"/>catae
+          in qualibet creatura, sic fitf, ut sibi pos<lb ed="#Q"/>sibile
+          est, esse indivisum. Item, impressio dispo<lb ed="#Q"/>sitionis,
+          secundum quam fit in conformitate ad
+          <lb ed="#Q"/>causam formalem exemplarem, est veritas: ut sicut
+          <lb ed="#Q"/>causa exemplaris est ars prima veritatis, sic crea<lb ed="#Q"/>tura,
+          secundum quod sibi!! possibile est, fit in
+          <lb ed="#Q"/>imitatione" artis: et hoc est habere veritatem.
+          <lb ed="#Q"/>Praeterea, impressio secundum quam fit in con<lb ed="#Q"/>formitate
+          ad causam finalem est bonum: ut sicut
+          <lb ed="#Q"/>causa finalis est summa bonitas, sic cuilibet crea<lb ed="#Q"/>turae
+          sit inclinatio et conformitas ad summam bo<lb ed="#Q"/>nitatem:
+          et haec est creaturae bonitas. Unitas
+          <lb ed="#Q"/>esse creaturae monstrat unitatem efficientis, ve<lb ed="#Q"/>ritas
+          veritatem exemplaris, bonitas bonitatem
+          <lb ed="#Q"/>finis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4117">
+          <lb ed="#Q"/>Item, per comparationem ad animam triplicatur
+          <lb ed="#Q"/>eadem determinatio. Nam esse rerumi tripliciter
+          <lb ed="#Q"/>comparatur ad animam: videlicet ut res ordinen<lb ed="#Q"/>tur
+          in memoria, percipiantur intelligentia, diligan<lb ed="#Q"/>tur
+          voluntate. Est igitur in ente quolibet a causa
+          <lb ed="#Q"/>efficiente unitas, per quam ordinetur in memoria
+          <lb ed="#Q"/>Et servetur: memoria enim ea quae retinet secun<lb ed="#Q"/>dum
+          aliquam coordinationem relationis ad 'unum'
+          €t discretionem componit. Item, a causa exemplari
+          <lb ed="#Q"/>est veritas in quolibet ente, per quam percipiatur *
+          <lb ed="#Q"/>ab intelligentia. Item, a causa finali est bonitas,
+          <lb ed="#Q"/>per Quam diligatur vel approbetur voluntate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4143">
+          <lb ed="#Q"/>I. Ad primo quaesitum, an 'unum' secun<lb ed="#Q"/>dum 
+          differentiam addat ad ens: dico quod sic; et 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>haec additio est determinatio esse rei ut se habet
+          <lb ed="#Q"/>absolute et ut in conformitate ad primum efficiens
+          <lb ed="#Q"/>et ordinabile in memoria: quod non importatur
+          <lb ed="#Q"/>per intentionem entis, sed exprimitur per inten<lb ed="#Q"/>tionem
+          ' unius '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4163">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod primo' obi<lb ed="#Q"/>citur
+          quod ' illa determinatio coarctabit ens ': dicen<lb ed="#Q"/>dum
+          quod est coarctatio dupliciter: quantum ad
+          <lb ed="#Q"/>rationem intelligendi et quantum ad ambitum sup<lb ed="#Q"/>positorum,
+          qui consequitur actum existendi. Di<lb ed="#Q"/>cendum
+          ergo quod addita determinatio unitatis ad
+          <lb ed="#Q"/>ens coarctat ipsum quantum ad rationem intelli—
+          <lb ed="#Q"/>gendi; cum enim dico 'unum ', non intelligitur
+          <lb ed="#Q"/>ens '" sub quacumque ratione, sed sub determinata
+          <lb ed="#Q"/>tali, quae est ratio indivisionis. Quantum vero ad
+          <lb ed="#Q"/>ambitum suppositorum non coarctat, quia non exi<lb ed="#Q"/>stit
+          aliquod ens quod non participet unitatem,
+          <lb ed="#Q"/>sicut dicit" Dionysiuszz « Sicut omnis nume<lb ed="#Q"/>rus
+          unitatem participat, et unus binarius et de<lb ed="#Q"/>narius
+          dicitur, et dimidium unum et decimum
+          <lb ed="#Q"/>unum, sic omnia et omnium omnis particula uno
+          <lb ed="#Q"/>participat et in 0 esse ' unum' sunt omnia entia ».
+          — Et si obicitur: ergo sub intentione unius 
+          <lb ed="#Q"/>continentur ' multa' - dicendum quod verum
+          <lb ed="#Q"/>est, secundum quod 'unum' communiter accipitur
+          <lb ed="#Q"/>et 'multa' ponunt actum existendi: actum enim
+          <lb ed="#Q"/>existendi habent ex relatione ad 'unum'; secun<lb ed="#Q"/>dum
+          autem quod intentio 'unius' coarctatur ad
+          ' unum ' simpliciter, sic est in differentia opposita
+          <lb ed="#Q"/>ad multa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4215">
+          <lb ed="#Q"/>2. Ad secundum quod obicitur quod 'pro
+          <lb ed="#Q"/>eodem accipiuntur unum et ens in vestigio Tri<lb ed="#Q"/>nitatis
+          ': concedendum. Non tamen ex hoc sequitur
+          <lb ed="#Q"/>quod non differat intentio unius ab intentione al—
+          <lb ed="#Q"/>terius. Nam'1 quia ens aliquod non accipitur a
+          <lb ed="#Q"/>nostro' intellectu nisi cointellectas indivisione,
+          <lb ed="#Q"/>inde est quod pro eodem accipiuntur, cum ta<lb ed="#Q"/>men
+          indistinctio non importetur per ens, sed per
+          'unum '. Non sic autem est de intentione veri et
+          <lb ed="#Q"/>boni: noster enim intellectus accipit ens, non coin<lb ed="#Q"/>tellecto
+          bono; similiter quantum est ex parte rei
+          — nisi illud prohiberet ratio intelligendi, qua non
+          <lb ed="#Q"/>potest intelligi nisi verum — acciperet ens, non co<lb ed="#Q"/>intellecto
+          vero.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4244">
+          <lb ed="#Q"/>II. Ad illud quod quaerit circa differen<lb ed="#Q"/>tiam 
+          ' unius' ad ' verum' patet ex dictis' diffe—
+          <lb ed="#Q"/>rentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4253">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod obicit quod
+          ' per se tam unum quam verum distinguunt': di<lb ed="#Q"/>cendum
+          quod est discretio secundum quam sepa<lb ed="#Q"/>ratur 
+          res a re in esse, et est discretio secundum 
+          <pb ed="#Q" n="116"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>quam separatur res a re ut habet esse cognosci<lb ed="#Q"/>bile
+          ;- discernitur enim res a re in quantum est et
+          <lb ed="#Q"/>in quantum cognoscibilis est. Primam discretionem
+          <lb ed="#Q"/>efficit per se unitas, secundam vero veritas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4276">
+          <lb ed="#Q"/>2. Ad aliud " vero dicendum, secundum quod
+          <lb ed="#Q"/>posuerunt plures: indivisio cadit in ratione
+          ' unius' et 'veri' et 'boni'; sed indivisio in ra<lb ed="#Q"/>tioneb
+          ' unius ' est indivisio entis: unde 'unum,
+          <lb ed="#Q"/>est ens indivisum; in ratione 'veri'" indivisio
+          <lb ed="#Q"/>esse, quia veritas " est indivisio esse et eius quod
+          <lb ed="#Q"/>est; in ratione ' boni' indivisio complementi a po<lb ed="#Q"/>tentia,
+          quae est nata compleri, cum attingit" suo
+          <lb ed="#Q"/>fini: unde bonitas est indivisio actus a potentia,
+          <lb ed="#Q"/>et actus dicitur perfectio sive complementum. Est
+          <lb ed="#Q"/>enim indivisio principiorum ut constituunt rem in
+          <lb ed="#Q"/>esse simpliciter: et ab illa est unitas in rebus;
+          <lb ed="#Q"/>et estf indivisio secundum quod constituunt il<lb ed="#Q"/>lam
+          in esse cognoscibili: et ab hac est veritas;
+          <lb ed="#Q"/>et est indivisio principiorum secundum quod con<lb ed="#Q"/>stituunt
+          rem!—' in ordine ad suum finem: et" ab
+          <lb ed="#Q"/>illa est bonitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4313">
+          <lb ed="#Q"/>III. Ad tertio quaesitum circa compara<lb ed="#Q"/>tionem
+          ' unius ' ad ' bonum ': dicendum quod istae
+          <lb ed="#Q"/>intentiones, ' unum, verum, bonum ', se circumin<lb ed="#Q"/>cedunt
+          ", et inde est quod aliae rationes induunt
+          <lb ed="#Q"/>rationem causae finalis et ita ratiouemk boni:
+          <lb ed="#Q"/>unde 'verum " non appetitur nisi quia bonum;
+          ' unum ' '" similiter non appetitur nisi quia bonum ;
+          <lb ed="#Q"/>nec ' bonum ' " nisi in quantum bonum. Similiter
+          <lb ed="#Q"/>in quantum apprehenduntur intellectu, induunt ra<cb ed="#Q" n="b"/><lb ed="#Q"/>tionem 
+          veri: non enim intelligitur 'bonum' nisi
+          <lb ed="#Q"/>in quantum verum; nec ' unum ' nisi in quantum
+          <lb ed="#Q"/>verum "; nec 'verum' nisi in quantum verum P.
+          <lb ed="#Q"/>Similiter in quantum ordinantur in memoria in<lb ed="#Q"/>duunt
+          rationem ' unius ': non enim ordinatur bo<lb ed="#Q"/>num
+          in memoria nisi ut ' unum', nec verum nisi
+          <lb ed="#Q"/>ut ' unum ', nec unum nisi ut ' unum '. Dicendum
+          <lb ed="#Q"/>ergo secundum hoc quod desideratur non ratione
+          <lb ed="#Q"/>propria principaliter, sed ratione boni quam induit:
+          <lb ed="#Q"/>nihil enim desideratur nisi ut bonum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4356">
+          <lb ed="#Q"/>IV. Ad quarto quaesitum de ordine: di<lb ed="#Q"/>cendum
+          quod intentio 'entis' naturaliter prae<lb ed="#Q"/>cedit
+          intentionem ' unius ' et intentio ' unius ' in<lb ed="#Q"/>tentionem
+          'veri' et 'boni': absolutior enim est in<lb ed="#Q"/>tentio
+          'entis' intentione ' unius ', sicut ostensum
+          <lb ed="#Q"/>est 1; et absolutior intentio ' unius ', quae est entis
+          <lb ed="#Q"/>in quantum consideratur absolutum, quam intentio
+          <lb ed="#Q"/>veri et boni, quae sunt entis comparati. Item,
+          <lb ed="#Q"/>intentio veri absolutior est intentione boni, sicut
+          <lb ed="#Q"/>esse rei consideratum sine sua utilitate vel or<lb ed="#Q"/>dine,
+          et esse rei cum sua utilitate et ordine 9.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e4382">
+          <lb ed="#Q"/>[Ad obiecta]: 1-3. Ad illud quod obicit quod
+          ' unitas est causa entitatis ': dicendum quod fa<lb ed="#Q"/>ciendo
+          comparationem ad idem, semper entitas prae—
+          <lb ed="#Q"/>cedit unitatem; sed faciendo comparationem ad ' di<lb ed="#Q"/>versa,
+          contingit quod unitas praecedit entitatem:
+          <lb ed="#Q"/>ut unitas in principiis, ex quibus est res, praecedit
+          <lb ed="#Q"/>entitatem compositi; referendo vero ad idem, en<lb ed="#Q"/>titas
+          in principiis praecedit unitatem' in princi<lb ed="#Q"/>piis,
+          entitas in composito unitatem in composito.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

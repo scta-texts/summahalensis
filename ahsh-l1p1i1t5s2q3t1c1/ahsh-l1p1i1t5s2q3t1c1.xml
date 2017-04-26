@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-12">March 12, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="281"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q3t1c1">
+        <head xml:id="ahsh-l1p1i1t5s2q3t1c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. I, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t5s2q3t1c1-Hd1e3744" type="question-title">AN SIT PROVIDENTIA.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3776">
+          <lb ed="#Q"/>Ad primum sic: a. Sap. 14,3: <quote xml:id="ahsh-l1p1i1t5s2q3t1c1-Qd1e3780" ana="#sap14_3">Tu autem, Pater,
+          <lb ed="#Q"/>A gubernas omnia providentia</quote>. Ergo providentia
+          <lb ed="#Q"/>est apud Patrem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3788">
+          <lb ed="#Q"/>b. Item, Gen. 22,8: <quote xml:id="ahsh-l1p1i1t5s2q3t1c1-Qd1e3792" ana="#gen22_8">Dominus providebit sibi
+          <lb ed="#Q"/>victimam holocausti</quote> etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3798">
+          <lb ed="#Q"/>c. Item, Ioannes Damascen'us3: « Necesse
+          <lb ed="#Q"/>est eumdem esse factorem eorum quae sunt et pro<lb ed="#Q"/>visorem:
+          neque enim decens neque consequens
+          <lb ed="#Q"/>est alium esse factorem, alium provisorem, quia
+          <lb ed="#Q"/>si hoc esset, in ** imbecillitate essent utrique c, hic
+          <lb ed="#Q"/>faciendi, ille providendi; Deus igitur est factor
+          <lb ed="#Q"/>et provisor». Exd hoc potest elici ratio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3816">
+          <lb ed="#Q"/>d. Item, Damascenus, ibidem ad idem « Ho<lb ed="#Q"/>mines
+          et irrationabilia provident propriis filiis
+          <lb ed="#Q"/>naturaliter, et qui non providet, exprobratur ». Si
+          <lb ed="#Q"/>igitur opprobrium est non providere ei qui est
+          <lb ed="#Q"/>ab ipso et bonitatis est providere, ergo provi<lb ed="#Q"/>dentia
+          estc in Deo, quia bonus est et non potest
+          <lb ed="#Q"/>ei opprobrium obici.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3834">
+          <lb ed="#Q"/>e. Item, Eccle. 5,5: Ne dicas coram angelo: non
+          <lb ed="#Q"/>est providentia, ne forte Deus iratus super ser<lb ed="#Q"/>mones
+          tuos, dissipet cuncta opera manuum tuarum.
+          <lb ed="#Q"/>Ex quo patet quod divina providentia est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3845">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>f. Item, hoc patet ex ratione: quoniam videmus
+          <lb ed="#Q"/>res istas in universo habere ordinem, sicut ele<lb ed="#Q"/>menta
+          et quae sunt super elementa; quod ergo
+          <lb ed="#Q"/>sic ordinate currunt, non posset esse nisi esset
+          <lb ed="#Q"/>aliquid nobilius illis, quia non a se ipsis hoc
+          <lb ed="#Q"/>habent. Similiter videmus de creaturis spirituali<lb ed="#Q"/>bus:
+          quoniam videmus ordinatos motu'sf angelo<lb ed="#Q"/>rum;
+          ergo aliquid est super illos nobilius illis g.
+          <lb ed="#Q"/>Haec ergo ordinatio eorum quae sunt in universo
+          <lb ed="#Q"/>et motuum rerum ostendit aliquid nobilius omni
+          <lb ed="#Q"/>creatura, cuius est ordinare illas, cum a se ipsis
+          <lb ed="#Q"/>non habeant illam ordinationem "
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3877">
+          <lb ed="#Q"/>g. Item, sapientis non est facere domum nisi et
+          <lb ed="#Q"/>ipsam factam conservet4; ergo et summei sapientis
+          <lb ed="#Q"/>Artificis erit non tantum producere universum, sed et
+          <lb ed="#Q"/>productum gubernare: quod quidem est providere.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3888">
+          <lb ed="#Q"/>h. Item, Ioan. 5,17: <quote xml:id="ahsh-l1p1i1t5s2q3t1c1-Qd1e3892" ana="#io5_17">Pater meus usque modo
+          <lb ed="#Q"/>operatur et ego operor</quote>; constatk quod intelligit
+          <lb ed="#Q"/>de illa gubernatione quae nunquam deficit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3900">
+          <lb ed="#Q"/>Ex iis ergo patet divinam providentiam esse
+          <lb ed="#Q"/>in rerum universitate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3907">
+          <lb ed="#Q"/>Contra: 1. Damascenus5: «Necesse est 
+          <lb ed="#Q"/>omnia, quae providentia fiunt, secundum rectam
+          <pb ed="#Q" n="282"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>rationem et optima et Deo decentissima fieri et
+          <lb ed="#Q"/>ut non est" melius fieri »; sed ea quae sunt in
+          <lb ed="#Q"/>mundo confusa sunt: quod enim interius est di<lb ed="#Q"/>gnitate,
+          superius est loco et e converso. Unde
+          <lb ed="#Q"/>Eccle. 10,5: <quote xml:id="ahsh-l1p1i1t5s2q3t1c1-Qd1e3928" ana="#sir10_5">Vidi quasi malum sub sole, quasi
+          <lb ed="#Q"/>per errorem egrediens a facie principis, stultum
+          <lb ed="#Q"/>positum in dignitate sublimi et divites sedere
+          <lb ed="#Q"/>deorsum</quote> —— et dicuntur ibi divites moribus, secun-,
+          <lb ed="#Q"/>dum quod dicitur Isai. 33,6: <quote xml:id="ahsh-l1p1i1t5s2q3t1c1-Qd1e3940" ana="#is33_6">Divitiae salutis sa<lb ed="#Q"/>pientia
+          et scientia</quote> — item, in Eccle. ', post illud:
+          <lb ed="#Q"/>Vidi servos in equis et principes ambulantes quasi
+          <lb ed="#Q"/>servos super terram etc. Si b ergo stultitia est
+          <lb ed="#Q"/>in superiori loco, divitiae sapientiae et scientiae
+          <lb ed="#Q"/>in inferiori —- et haec est confusio et inordinatio,
+          <lb ed="#Q"/>quoniam e contrario erit post iudicium, quando
+          <lb ed="#Q"/>ordinabuntur et meliorabuntur res — ergo non est
+          <lb ed="#Q"/>providentia eorum quae sunt in mundo; et constat
+          <lb ed="#Q"/>quod si esset, illorum esset; ergo providentia di<lb ed="#Q"/>vina
+          non est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3965">
+          <lb ed="#Q"/>2. Ad idem facit illudc quod habetur Prov.
+          30, 21-23: Per tria movetur terra, et quartum quod
+          <lb ed="#Q"/>non potest sustinere: per servum cum regnaverit,
+          <lb ed="#Q"/>per stultum cum saturatus fuerit, per odiosam mu<lb ed="#Q"/>lierem
+          cum in matrimonio fuerit assumpta ** et per
+          <lb ed="#Q"/>ancillam cum heres fuerit dominae suae. Hoc autem
+          <lb ed="#Q"/>est quia inordinatum est quod est in terra; ergo
+          <lb ed="#Q"/>eorum quae sunt in mundo non est providentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e3983">
+          <lb ed="#Q"/>3. Item, si esset providentia eorum quae sunt
+          <lb ed="#Q"/>in mundo, ergo bonis bona redderentur et malis
+          <lb ed="#Q"/>mala; sed non est ita, immo malis quibusdam
+          <lb ed="#Q"/>redduntur bona et bonis mala. Unde exclamat
+          <lb ed="#Q"/>Propheta Ierem. 12,1: Quare via impiorume pro<lb ed="#Q"/>speratur?
+          bene est omnibus qui praevaricantur et
+          <lb ed="#Q"/>inique agunt. Et similiter Habac. exclamatz: Quare
+          <lb ed="#Q"/>non respicis super inique agentes, et taces, devo<lb ed="#Q"/>rante
+          impio iustiorem sef ? Et constat quod haec
+          <lb ed="#Q"/>omnia sunt inordinationes. Ex iis-3 ergo patet quod 
+          <lb ed="#Q"/>non est divina providentia eorum quae sunt in
+          <lb ed="#Q"/>mundo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4013">
+          <lb ed="#Q"/>4. Praeterea, cum Deus sit pronior ad mise<lb ed="#Q"/>rendum
+          quam ad condemnandum, si esset pro<lb ed="#Q"/>videntia,
+          non tot crearentur mali. Nam ponatur
+          <lb ed="#Q"/>quod aliquis debeat providere domui suae, non
+          <lb ed="#Q"/>esset bona providentia, si plures haberet in car<lb ed="#Q"/>cere
+          et paucos in " quibus confideret in domo, ex
+          <lb ed="#Q"/>quo posset habere plures; sed maior pars mundi
+          <lb ed="#Q"/>tenet illos qui sunt deputati carceri divino, quia
+          <lb ed="#Q"/>minima est pars electorum eorum qui sunt in
+          <lb ed="#Q"/>mundo; ergo non est providentia eorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4037">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>5. Item, cum Deus suam imaginem, quae tam
+          <lb ed="#Q"/>pretiosa est, in malis impressit sicut in bonis, nul<lb ed="#Q"/>latenus,
+          si provideret, vellet aut permitteret suam
+          <lb ed="#Q"/>imaginem in tot deturpari et in paucis reformari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4050">
+          <lb ed="#Q"/>Respondeo, secundum Boethium, qui eam<lb ed="#Q"/>dem
+          movet quaestionem, in libro De consolatione,
+          <lb ed="#Q"/>dicens3: « Quae vero, inquies 1, potest esse ulla
+          <lb ed="#Q"/>iniquior contusio quam ut bonis tumk adversa
+          <lb ed="#Q"/>tum' prospera, malis etiam tum optata turn odiosa
+          <lb ed="#Q"/>contingant?» Et dicit ad hoc, ponens simile:
+          « Non dissimile est miraculum nescienti cur sanis f",
+          <lb ed="#Q"/>iis quaedam dulcia, illis vero amara communi<lb ed="#Q"/>cant,
+          cur aegri quidam etiam lenibus " medicinis,
+          <lb ed="#Q"/>quidam vero acribus curantur. At hoc" medi<lb ed="#Q"/>cus,
+          qui sanitatis ipsius atque aegritudinis mo<lb ed="#Q"/>dum
+          temperamentumque dignoscit, minime mira<lb ed="#Q"/>tur.
+          Quid vero aliud animarum-17 salus videtur
+          <lb ed="#Q"/>esse quam probitas? quid aegritudo quam vitia?
+          <lb ed="#Q"/>quis autem alius est vel servatori bonorum vel
+          <lb ed="#Q"/>malorum dispulsor quam rector atque medica<lb ed="#Q"/>tor'
+          mentium Deus? qui cum ex alta providen<lb ed="#Q"/>tiae
+          specula respicit, quid unicuique conveniat
+          <lb ed="#Q"/>agnoscit, et quod convenire agnovit 8, accom<lb ed="#Q"/>modat».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4094">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad primum ergo quod obi<lb ed="#Q"/>citur
+          de Eccle. in contrarium: dicendum quod, li<lb ed="#Q"/>cet
+          ea quae sunt in mundo, illo modo in se ipsis
+          <lb ed="#Q"/>considerata videantur esse inordinata in mundo,
+          <lb ed="#Q"/>respectu tamen ipsius providentiae sunt bene ordi<lb ed="#Q"/>nata;
+          unde respectu ipsius non est ibi confusio
+          <lb ed="#Q"/>nec inordinatio. Et ponit Au gustinus4 exem<lb ed="#Q"/>plum:
+          sicut quando estf collisio nubium, videtur
+          <lb ed="#Q"/>esse ibi quaedam confusio in ipsis vaporibus,
+          <lb ed="#Q"/>quia quod terrestre est videtur superius et quod
+          <lb ed="#Q"/>est igneum inferius ; nihilominus haec quae vif
+          <lb ed="#Q"/>detur" esse confusio est recta ordinatio secun<lb ed="#Q"/>dum
+          considerationem ipsius universi; unde re<lb ed="#Q"/>spectu
+          ipsius ordinatum est et ipsi ordini uni<lb ed="#Q"/>versitatis
+          congruit. Similiter quando pluit in ali<lb ed="#Q"/>qua
+          parte mundi, licet noceat illi parti et sit
+          <lb ed="#Q"/>forte ad malum ipsius, tamen secundum ordina<lb ed="#Q"/>tionem
+          universi prodest: unde non est hoc ma<lb ed="#Q"/>lum'
+          ipsi universo, licet illi parti videatur esse
+          <lb ed="#Q"/>malum, quia nocet illi et non ipsi universo 5. Eo<lb ed="#Q"/>demV
+          modo dicimus quod in hoc mundo ita fit
+          <lb ed="#Q"/>quod mali sursum sint : dignitate et stulti, sapien<lb ed="#Q"/>tes
+          inierius, licet non sit in se bene ordinatum, ta<lb ed="#Q"/>men
+          respectu divinae providentiae est ordinatum,
+          <lb ed="#Q"/>quae semper ordinat ad bonum, sive ut eliciatur<!--y-->
+          <pb ed="#Q" n="283"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sic bonum, sive sinta bona sive mala. Unde
+          <lb ed="#Q"/>quod mali sint sursum, istud prodestb bonis qui
+          <lb ed="#Q"/>sunt deorsum; item potest prodesse illis, scilicet
+          <lb ed="#Q"/>malis. Hoc autem facit totum providentia quae
+          <lb ed="#Q"/>sic ordinat; unde semper respectu divinae provi<lb ed="#Q"/>dentiae
+          bene ordinata sunt et non contusa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4170">
+          <lb ed="#Q"/>2. Ad secundum de Prov. similisc est re<lb ed="#Q"/>sponsio;
+          unde Psalm.]: Et in eo paravit vasa
+          <lb ed="#Q"/>mortis, Glossazz « Hoc autem divinae disposi<lb ed="#Q"/>tioni
+          tribuitur, non quia ipsa peccatores faciat,
+          <lb ed="#Q"/>sed quia ipsa de malis eorum ordinat, cum pec<lb ed="#Q"/>caverint
+          ». Et sic respectu divinae providentiae
+          <lb ed="#Q"/>sunt omnia bene ordinata, quia secundum ipsam
+          <lb ed="#Q"/>ordinantur sic, licet videantur aliquando d homini<lb ed="#Q"/>bus
+          confusa. Unde Psalm. 3: Avertit faciem suam,
+          <lb ed="#Q"/>ne videat in finem, dicit ** Glo ssa 4: « Terra finis
+          <lb ed="#Q"/>est et ultimum elementum, in quo nil agitur sine
+          <lb ed="#Q"/>ordine, sed homines eum non vident, quia per<lb ed="#Q"/>tinetf
+          ad occulta5 Filii» vel consilii.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4201">
+          <lb ed="#Q"/>3. Ad illud ergo quod quaeritur-E ' si est pro—
+          <lb ed="#Q"/>videntia, quare bonis redduntur mala ': dicendum
+          <lb ed="#Q"/>quod hoc est a divina providentia quae sic or<lb ed="#Q"/>dinat.
+          Quod enim bonis veniunt mala poenae,
+          <lb ed="#Q"/>hoc est ad probationem illorum et ad meritum
+          <lb ed="#Q"/>ipsorum. Unde Tob. 12,13 dicitur: Quia acceptus
+          <lb ed="#Q"/>eras Deo ", necesse fuit ut tentatio probaret te ;
+          <lb ed="#Q"/>unde ex hoc elicitur maius bonum. Et hoc- esti
+          <lb ed="#Q"/>quod dicit Boethius 6: « Est alius * cunctis vir<lb ed="#Q"/>tutibus
+          absolutus, sanctus ac' Deo proximus;
+          <lb ed="#Q"/>hunc contingi"l quibuslibet adversis nefas esse
+          <lb ed="#Q"/>providentia iudicat, adeo ut nec corporeis quidem
+          <lb ed="#Q"/>morbis sinat agitari». Et post dicit7: «Alios
+          <lb ed="#Q"/>duris agitari patitur, ut virtutes animi " patientiae
+          <lb ed="#Q"/>usu atque exercitatione confirment ». Sed alius
+          <lb ed="#Q"/>est cui Deus nunquam infert mala sive adversi<lb ed="#Q"/>tates;
+          et reddit rationem Boethius, dicensa:
+          "« Si sit aliquis ita bene morigeratus ut de eo
+          <lb ed="#Q"/>divinum iudicium pariterque humanum consentiat,
+          <lb ed="#Q"/>sed est animi viribus infirmus, cui si quid adve<lb ed="#Q"/>niat
+          adversi, desinet colere forsitan innocentiam 0,
+          <lb ed="#Q"/>per quam non potuit retinere fortunam P: parcit ita<lb ed="#Q"/>que
+          sapiens dispensator ei quem deteriorem fa<lb ed="#Q"/>cere
+          possit adversitas, nec cuiq non convenit,
+          <lb ed="#Q"/>laborare patitur ». Et sic illud est divinae provi<lb ed="#Q"/>dentiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4259">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Ad illud autem quod exclamat Propheta lerem.:
+          ' Quare mali prosperantur?"': dicendum quod
+          <lb ed="#Q"/>hocb est ab ordine providentiae quae bonum in<lb ed="#Q"/>tendit;
+          ex hoc aliquando enim contigit quod dat eis c
+          <lb ed="#Q"/>prospera, ut per haec revocentur a malo suo: quia
+          <lb ed="#Q"/>considerant beneficium Dei revocantur citius, et
+          <lb ed="#Q"/>hoc est magnum bonum; unde ad hocd bonum
+          <lb ed="#Q"/>ordinat, quod ipsis dat aliquando prospera. Et
+          <lb ed="#Q"/>hoc est, quod dicit Boethius 9: « Credo quod
+          <lb ed="#Q"/>est forsitan alicuius tam * praeceps atque impor<lb ed="#Q"/>tuna
+          natura ut eumf in scelera potius exacer<lb ed="#Q"/>bareg
+          possit rei familiaris inopia: huiusmodi
+          <lb ed="#Q"/>morbo providentia collatae pecuniae remedio me<lb ed="#Q"/>detur.
+          l-lic ioedatam probris conscientiam spec<lb ed="#Q"/>tans
+          et se cum fortuna sua comparans, forsitan
+          <lb ed="#Q"/>pertimescit ne eius 11 rei, cuius usus iucundus est,
+          <lb ed="#Q"/>sit tristis amissio. Mutabit igitur mores, ac dum
+          <lb ed="#Q"/>fortunam metuit amittere, nequitiam derelinquit».
+          —- Item, ponatur quod permaneat adhuc in suo
+          <lb ed="#Q"/>malo cum illis prosperitatibusi : adhuc Dominus
+          <lb ed="#Q"/>ponit ibi finem et ordinat de illis, quia aliquando
+          <lb ed="#Q"/>contingit quod haec bona, quae proveniunt ipsis
+          <lb ed="#Q"/>malis et quae acquirunt per suum laborem, ali<lb ed="#Q"/>quando
+          postea utuntur illis boni et redeunt ad
+          <lb ed="#Q"/>ususk et profectum bonorum. Et hoc est quod di<lb ed="#Q"/>citur
+          Iob 27,1s-17, ubi loquitur de impio: Si com<lb ed="#Q"/>portaverit
+          quasi terram argentum, et sicut lutum
+          <lb ed="#Q"/>praeparaverit vestimenta, praeparabit ( quidem, sed
+          <lb ed="#Q"/>iustus, vestietur illis et argentum innocens dividet.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4322">
+          <lb ed="#Q"/>Similiter, ad illud Habac.: <quote xml:id="ahsh-l1p1i1t5s2q3t1c1-Qd1e4326">Quare impius deva<lb ed="#Q"/>rat
+          et subicit '" iustiorem se?</quote> dicimus quod hoc est
+          <lb ed="#Q"/>ab ordinatione" divinae providentiae, quae hoc
+          <lb ed="#Q"/>totum ordinat ad magnum bonum. Et hoc') dicit'
+          <lb ed="#Q"/>Boethius 10: « Quibusdam permissum ,est pu<lb ed="#Q"/>niendi
+          ius, ut exercitii P bonis, et malis esset
+          <lb ed="#Q"/>causa supplicii 9 »; et sic Dominus non sinit' hoc
+          <lb ed="#Q"/>esse inordinatum, immo ordinat hoc vel ad s exer<lb ed="#Q"/>citium
+          bonorum in bono vel ad supplicium ma<lb ed="#Q"/>lorum.
+          —- Item, nota: similiter dicit Boethius
+          <lb ed="#Q"/>quod aliquando est ita quod Dominus permittit
+          <lb ed="#Q"/>inter malos iurgia et discordias, et hoc totum or<lb ed="#Q"/>dinat
+          ipsa Dei providentia, quia aliquando ex hoc
+          <lb ed="#Q"/>elicit magnum bonum, scilicet conversionem ma<lb ed="#Q"/>lorum.
+          Unde dicit: «Nam ut probis atque im<lb ed="#Q"/>probis
+          nullum foedus est, ita ipsi inter se improbi 
+          <pb ed="#Q" n="284"/>
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>nequeunt convenire. Quid mirum? cum a semet<lb ed="#Q"/>ipsis
+          discerpentibus conscientiam vitiis quique dis<lb ed="#Q"/>sentiant",
+          faciantque saepe quae congesserint,
+          <lb ed="#Q"/>non fuisse gerenda decernantb? Ex quo saepe
+          <lb ed="#Q"/>illa summa providentia protulit insigne miraculum,
+          <lb ed="#Q"/>ut malos mali bonos iacerent: nam dum iniqua
+          <lb ed="#Q"/>sibi a pessimis quidam perpeti videntur, noxiorum
+          <lb ed="#Q"/>odio flagrantes c ad virtutis frugem rediere ", dum
+          <lb ed="#Q"/>se eis dissimiles student" esse quos oderantf ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4386">
+          <lb ed="#Q"/>4. Ad illud quod obicitur de multitudineg re<lb ed="#Q"/>proborum
+          et" paucitate electorum: dicimus quod
+          <lb ed="#Q"/>non omnes sunt electi nec omnes sunt reprobi,
+          <lb ed="#Q"/>et hoc secundum ordinem providentiae determi<lb ed="#Q"/>natur;
+          unde ordinatio est et non contusio. Et
+          <lb ed="#Q"/>ratio huius habetur ROm. 9, 21: Deus sustinuit
+          <lb ed="#Q"/>vasa quaedam in honorem etc. Dicit G I o ss a A u<lb ed="#Q"/>gustini
+          ': «Bene dispensavit Dominus, ut nec
+          <lb ed="#Q"/>omnes damnaret nec omnes liberaret: si enim
+          <lb ed="#Q"/>omnes liberarentur, lateret quid pro peccato per
+          <lb ed="#Q"/>iustitiam deberetur; si vero nulli liberarentur, la<lb ed="#Q"/>teret
+          quid gratia largiretur, quia proculdubio,
+          <lb ed="#Q"/>quantum pertinet ad originale peccatum, omnes
+          <lb ed="#Q"/>pares erant, sed misericordia quos voluit discre<lb ed="#Q"/>vit
+          i » liberandas 2.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4421">
+          <lb ed="#Q"/>Sed iterum est quaestio quare Dei providentia
+          <lb ed="#Q"/>sunt reprobi aliqui/f ; item quare plures quam
+          <lb ed="#Q"/>electi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4430">
+          <lb ed="#Q"/>Respondeo: Ad p ri m u m dicendum quod Apo<lb ed="#Q"/>stolus
+          hoc ostendit, 11 Tim. 2, 20, per quamdam
+          <lb ed="#Q"/>similitudinem dicens: In magna domo non so<lb ed="#Q"/>lum
+          sunt' vasa aurea et argentea, sed et li<lb ed="#Q"/>gnea
+          et fictilia: per vasa aurea et argentea boni
+          <lb ed="#Q"/>significantur, per lignea et fictilia mali; et « sicut
+          <lb ed="#Q"/>vasa lignea et fictilia valent ut purgentur aurea
+          <lb ed="#Q"/>et argentea, sic mali prosunt ad profectum bo<lb ed="#Q"/>norum
+          3 ». Et dicit Psalm. 4: <quote xml:id="ahsh-l1p1i1t5s2q3t1c1-Qd1e4451">Dum superbit impius,
+          <lb ed="#Q"/>incenditur pauper</quote>; Glossa5 dicit ibi quod « ex
+          <lb ed="#Q"/>iis patet vel liquetquod mire providentia Dei de
+          <lb ed="#Q"/>malis operatur. Comparatione namque peccantium
+          <lb ed="#Q"/>boni magno studio. bonae .spei accenduntur-"' ad
+          <lb ed="#Q"/>recte vivendum ». Et sic expedit ipsis bOnis quod
+          <lb ed="#Q"/>mali sunt et est ad bonum eorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4468">
+          <lb ed="#Q"/>A d secu n d 11 in quod quaeritur quare " plures
+          <lb ed="#Q"/>sint mali quam boni: dicimus quod hoc non est 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>a Deo quod plures sint mali quam boni in uni<lb ed="#Q"/>verso,
+          immo a libertate liberi arbitrii, deficiente
+          <lb ed="#Q"/>scilicet, quia liberum arbitrium de" se sufficiens
+          <lb ed="#Q"/>est ad cadendum, sed non ad proficiendum b sine
+          <lb ed="#Q"/>gratia: nam ex ipsa corruptione originalis culpae
+          <lb ed="#Q"/>trahitur ad cadendum, et ita de se habet homo
+          <lb ed="#Q"/>quod cadat per peccatum, sed non quod proficiat
+          <lb ed="#Q"/>sine gratia Dei miserentec; et ideo maior est
+          <lb ed="#Q"/>multitudo malorum quam bonorum, quia de se
+          <lb ed="#Q"/>habent quod sint mali, non solum de se quod
+          <lb ed="#Q"/>sint boni vel electi. Et hoc est quod Au gusti—
+          <lb ed="#Q"/>nus dicit. Super illum locum Rom. 9, 21: <quote xml:id="ahsh-l1p1i1t5s2q3t1c1-Qd1e4502">An non
+          <lb ed="#Q"/>habet potestatem figulus luti ex eadem massa
+          <lb ed="#Q"/>facere quidem aliud vas in honorem?</quote> etc., dicit
+          <lb ed="#Q"/>Augustinuse: «Deus, cum omnesd ex una
+          <lb ed="#Q"/>eademque massa simus in substantia et cuncti
+          <lb ed="#Q"/>peccatores, alii miseretur ex misericordia et al<lb ed="#Q"/>terum
+          .despicit non sine iustitia. In figulo enim
+          <lb ed="#Q"/>sola voluntas est, in Deo autem voluntas cum
+          <lb ed="#Q"/>iustitia. Sicut igitur vas, quod fit non in 110<lb ed="#Q"/>norem,
+          si vile est, ex se luto habet, non ex fi<lb ed="#Q"/>gulo:
+          sic tota massa humani generis non ex
+          <lb ed="#Q"/>Deo, sed'-' suo vitio iuste corrupta et lutosa est.
+          <lb ed="#Q"/>Ideoque sif inde vas fit in honorem, miseri<lb ed="#Q"/>cordia
+          est; si in contumeliam, iustum est, quia
+          <lb ed="#Q"/>hoc erat ex materia: tota enim nostra natura, in
+          <lb ed="#Q"/>radice ipsa vitiata, divino iudicio debitae damna<lb ed="#Q"/>tioni
+          est subiecta 8, et merito peccati universa
+          <lb ed="#Q"/>damnata est ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4544">
+          <lb ed="#Q"/>Ad exemplum supra7 positum: dicendum'!
+          <lb ed="#Q"/>quod aliud est de ordine iustitiae, aliud de or<lb ed="#Q"/>dine
+          misericordiae. Si enim aliquis homo plures
+          <lb ed="#Q"/>haberet in suaï potestate, qui ab» ipso recederent
+          <lb ed="#Q"/>exk sua propria perversitate et non ex! perver—
+          <lb ed="#Q"/>sitate domini, et adhaererent adversario ipsius,
+          <lb ed="#Q"/>numquid iustum esset quod illos incarceraret, etsi
+          <lb ed="#Q"/>tamen ex"[ misericordia posset illos dimittere?
+          <lb ed="#Q"/>Constat quod sic; sed si ex domini sui perversi<lb ed="#Q"/>tate
+          recederent, non esset iustum. Ita dicimus hic:
+          <lb ed="#Q"/>quia quod" homines sint mali et recedentesa
+          <lb ed="#Q"/>Deo, hoc est ex propria sua 0 perversitate et non
+          <lb ed="#Q"/>ex Deo, ut dictum est; cum multiplicati sunt inP
+          <lb ed="#Q"/>malitia sua et impietates, quod ipsa Dei provi<lb ed="#Q"/>dentia
+          ordinet illorum impietates et ex illis eliciat
+          <pb ed="#Q" n="285"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>bonum. Et hoc est quod dicit Augustinus,
+          <lb ed="#Q"/>in libro De agone christiano 1: «Omnis crea<lb ed="#Q"/>tura
+          ", velit nolit, uni Deo et Domino suo sub<lb ed="#Q"/>iecta
+          est». Et post dicit: «Omnes providen<lb ed="#Q"/>tiae
+          divinae serviunt: sed alii obediunt tamquam
+          <lb ed="#Q"/>filii et faciunt quod bonum est, alii vero ligantur
+          <lb ed="#Q"/>tamquam servi et fit de illis quod iustum est 0.
+          <lb ed="#Q"/>Ita Deus omnipotens, Dominus universae crea<lb ed="#Q"/>turae,
+          quae fecit, sicut scriptum est 2, valde bona,
+          <lb ed="#Q"/>sic ea ordinat ut et de bonis et de malis bene
+          <lb ed="#Q"/>faciat: quod enim iuste fit, bene fit; iuste autem
+          <lb ed="#Q"/>sunt beati boni et iuste mali poenas patiuntur;
+          <lb ed="#Q"/>ergo et de bonis et de malis bene iacit Deus,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quoniam omnia iuste tacit; boni autem sunt qui
+          <lb ed="#Q"/>tota virtute Deo serviunt vel voluntate 0, mali
+          <lb ed="#Q"/>vero qui necessitated serviunt».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4620">
+          <lb ed="#Q"/>5. Ad ultimum dicendum quod ipsius pro<lb ed="#Q"/>videntiae
+          non est nec ab ipsa est quod deturpe<lb ed="#Q"/>tur
+          ipsa imago Dei in malis hominibus,, immo ab
+          <lb ed="#Q"/>ipsis, quoniam a se est quod-cadunt; sed ipsius
+          <lb ed="#Q"/>providentiae est ordinare illud malum, et hoc
+          <lb ed="#Q"/>etiamde ordine iustitiae, et ex * illo elicere bonum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c1-d1e4636">
+          <lb ed="#Q"/>Sic igitur patet quod divina providentia est et
+          <lb ed="#Q"/>quod «ordo ipsius cuncta complectitur»3 nec
+          <lb ed="#Q"/>ipsam aliqua evadunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

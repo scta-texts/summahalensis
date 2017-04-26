@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, M. I, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, M. I, C. 2</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="17"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2m1c2">
+        <head xml:id="ahsh-l1tinq2m1c2-Hd1e3729">I, Tract. Intro., Q. 2, M. I, C. 2</head>
+        <head xml:id="ahsh-l1tinq2m1c2-Hd1e3732" type="questionTitle">AN DIVINA SUBSTANTIA SIT COGNOSCIBILIS IN SUA IMMENSITATE</head>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3735">
+          <lb ed="#Q"/>Consequenter quaeritur an divina substantia
+          <lb ed="#Q"/>C sit cognoscibilis in sua immensitate 1.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3742">
+          <lb ed="#Q"/>Ad quod sic: 1. Rom. 1, 20: Invisibilia Dei etc.
+          <lb ed="#Q"/>Glossa 2: « Tam pulcra astra condidit ut ex iis
+          <lb ed="#Q"/>quantus et- quam admirabilis est Creator eorum
+          <lb ed="#Q"/>possit agnosci " ». Ergo de Deo potest haberi co<lb ed="#Q"/>gnitio
+          * quantus sit'; sed quantus est virtute in<lb ed="#Q"/>finita
+          et immensa, et idem est ei esse quantum
+          <lb ed="#Q"/>quod magnum: « nec mole magnus est, sed vir<lb ed="#Q"/>tute
+          », sicut dicit Augustinus 3; ergo * potest
+          <lb ed="#Q"/>cognosci in sua immensitate sive infinitate.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3764">
+          2. Item ", Eph. 3,19: Ut impleamini omni ple—'
+          <lb ed="#Q"/>nitudine Dei; sed omnis plenitudo Dei est sua im<lb ed="#Q"/>mensitas;
+          impletio autem * ista est per cognitionem
+          <lb ed="#Q"/>et amorem; ergo immensitas Dei f poterit cognosci.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3774">
+          
+          <lb ed="#Q"/>3. item, Ioan. 15,15: Omnia, quaecumque au<lb ed="#Q"/>divi'a
+          Patre meo 5, nata feci vobis; sed 'omnia'
+          <lb ed="#Q"/>ibi intelliguntur potentia, veritas, bonitas, aeter—
+          <lb ed="#Q"/>nitas et etiam immensitas, quia omnia ista nota
+          <lb ed="#Q"/>sunt Filio,; ergo et ipsam aeternitatem et immen<lb ed="#Q"/>sitatem
+          notam iecit Apostolis. '
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3790">
+          <lb ed="#Q"/>4. Item, omnia quaecumque sunt in Deo,.sunt
+          <lb ed="#Q"/>unum, scilicet aeternitas, veritas, immensitas; si
+          <lb ed="#Q"/>ergo est cognoscibilis veritas, erit cognoscibilis
+          <lb ed="#Q"/>immensitas.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3801">
+          <lb ed="#Q"/>Contra: a. Ambrosius, Super Lucae 14, in
+          <lb ed="#Q"/>originali: « Deum nemo vidit utiquam." 5, quia
+          <lb ed="#Q"/>eam, quae habitat in Deo, plenitudinem divinitatis
+          <lb ed="#Q"/>nemo conspexit, nemo mente aut oculis compre<lb ed="#Q"/>hendit
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3814">
+          <lb ed="#Q"/>b. Item, Boethius 6: « Omne quod scitur vel
+          <lb ed="#Q"/>cognoscitur, 'non ex sua natura, sed secundum
+          <lb ed="#Q"/>comprehendentium cognoscitur facultatem ». Cum
+          <lb ed="#Q"/>ergo facultas animae comprehendentis sit finita,
+          <lb ed="#Q"/>divina autem substantia secundum suam immen<lb ed="#Q"/>sitatem
+          sit intinita: ergo non erit cognoscibilis in
+          <lb ed="#Q"/>sua immensitate ab anima rationali.
+        </p>
+        
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3832">
+          <lb ed="#Q"/>Solutio: Dicendum quod est cognitio de Deo
+          <lb ed="#Q"/>per modum positionis et per modum privationis 7.
+          <lb ed="#Q"/>Per modum privationis cognoscimus de Deo quid
+          <lb ed="#Q"/>non est; per modum positionis cognoscimus quid 
+          <lb ed="#Q"/>est. Divina ergo substantia in sua immensitate
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>non est cognoscibilis ab anima rationali cogni<lb ed="#Q"/>tione
+          positiva, sed est cognoscibilis cognitione
+          <lb ed="#Q"/>privativa 
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3854">
+          <lb ed="#Q"/>[Ad obiecta]: l.Ad illud ergo'quod primo
+          <lb ed="#Q"/>obicitur quod « ex creaturis quantus sit Creator
+          <lb ed="#Q"/>possit agnosci »: dicendum quod quantus sit
+          <lb ed="#Q"/>potest cognosci per modum privationis, non per
+          <lb ed="#Q"/>modum positionis. Verbi gratia, quantus sit du—
+          <lb ed="#Q"/>ratione cognoscitur per modum privationis, cum
+          <lb ed="#Q"/>dicitur aeternus, id est sine principio et tine; simi<lb ed="#Q"/>liter
+          quantus sit repletione, cognoscitur per hoc
+          <lb ed="#Q"/>quod dicitur incircumscriptus, per abnegationem
+          <lb ed="#Q"/>loci et ubi; similiter quantus sit virtute, per ab<lb ed="#Q"/>negationem
+          mensurae virtutis ipsius, cum dicitur
+          <lb ed="#Q"/>immensus. Per modum vero positionis, ut deter<lb ed="#Q"/>minaretur
+          quanta sit ei magnitudo sive virtus
+          <lb ed="#Q"/>sive duratio, non est possibile.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3888">
+          <lb ed="#Q"/>2. Ad secundum respondet Augustinusg
+          <lb ed="#Q"/>quod non est intelligendum lllud ad Eph. 3'9, 19:
+          <lb ed="#Q"/>Ut Impleumini omni plenitudine Dei, ut habeamus
+          <lb ed="#Q"/>plenitudinem quam habet: « Sic enim implebuntur
+          <lb ed="#Q"/>in omnem plenitudinem Dei, non cum fuerint et ipsi
+          <lb ed="#Q"/>plenus Deus, sed cum perfecte fuerint pleni Deo ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3904">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod omnia nota
+          <lb ed="#Q"/>feci vobis W intelligendum est ': id est praeordi—
+          <lb ed="#Q"/>navi ut omnia nota faciam vobis"; 'omnia' autem
+          <lb ed="#Q"/>ibi distribuit 'pro creaturis, non universaliter pro
+          <lb ed="#Q"/>omnibus conditionibus immensae et intinitae dl<lb ed="#Q"/>vinae
+          essentialitatis. Tamen etsi diceretur distri<lb ed="#Q"/>buere
+          pro divina immensitate et aeternitate et hu<lb ed="#Q"/>iusmodi
+          "', tunc distinguendum est: divina essen<lb ed="#Q"/>tia
+          cognoscibilis est in sua immensitate, hoc est
+          <lb ed="#Q"/>quia immensa est, et hoc modo verum est; vel est
+          <lb ed="#Q"/>cognoscibilis secundum suam immensitatem, et
+          <lb ed="#Q"/>hoc modo falsum est, secundum quod'modus im<lb ed="#Q"/>mensitatis
+          determinat cognitionem in compara<lb ed="#Q"/>tione
+          ad cognoscentem: nam si determinaret co<lb ed="#Q"/>gnitionem
+          in comparatione ad rem cognitam, vera
+          <lb ed="#Q"/>esset et esset idem sensus qui prius.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c2-d1e3941">
+          <lb ed="#Q"/>4. Ad ultimum dicendum quod non sequitur
+          <lb ed="#Q"/>in divinis talis modus argumentandi: "in divinis
+          <lb ed="#Q"/>idem est sapientia, bonitas et immensitas; ergo
+          <lb ed="#Q"/>quod de uno dicitur, et de altero '. Ista enim no<pb ed="#Q" n="18"/><cb ed="#Q" n="a"/><lb ed="#Q"/>mina, 
+          etsi unum designent ratione principalis si<lb ed="#Q"/>gnificati,
+          tamen differunt ratione connotati et ra<lb ed="#Q"/>tione
+          modi significandi. Unde cum idem sit in 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Deo scientia et voluntas, non tamen sequitur:
+          <lb ed="#Q"/>'scientia est malorum, ergo voluntas malorum'.
+          <lb ed="#Q"/>ita-nec illud quod obicitur sequitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

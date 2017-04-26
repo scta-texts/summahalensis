@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, M. I, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, M. I, C. 5</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="21"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2m1c5">
+        <head xml:id="ahsh-l1tinq2m1c5-Hd1e3729">I, Tract. Intro., Q. 2, M. I, C. 5</head>
+        <head xml:id="ahsh-l1tinq2m1c5-Hd1e3732" type="questionTitle">UTRUM DEUS SIT COGNOSCIBILIS IN SUA SPECIE IN VITA ISTA.</head>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3735">
+          <lb ed="#Q"/>Postea quaeritur utrum Deus sit cognoscibilis in
+          <lb ed="#Q"/>sua specie, hoc est utrum cognoscatur sicuti
+          <lb ed="#Q"/>est, in vita ista.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3744">
+          <lb ed="#Q"/>Et probatur quod non: ]. Exod. 33,20: Non 
+          <lb ed="#Q"/>videbit me homo, et vivet.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3751">
+          Item, I Tim. ultimo, 16: Habitat lucem ina<lb ed="#Q"/>cessibilem, 
+          quam nullus hominum vidit, sed nec
+          <lb ed="#Q"/>videre potuit. Glossa7: « In hac vita, post au—
+          <lb ed="#Q"/>tem videbit ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3761">
+          <lb ed="#Q"/>3. item, Gregoriu s, in Moralibusa: « Deum
+          <lb ed="#Q"/>nemo vidit unquam. Per' quod patenter datur
+          <lb ed="#Q"/>intelligi quod, quamdiu in hac vita mortali vivi—
+          <lb ed="#Q"/>tur,,videri per quasdam. imagines Deus potest:
+          <lb ed="#Q"/>sed per ipsam naturae suae speciemOnon. potest,
+          <lb ed="#Q"/>ut anima,. gratia Spiritus afflata, per figuras quas<lb ed="#Q"/>dam
+          Deum videat; sed ad ipsam speciem non
+          <lb ed="#Q"/>pertingat :; ergo in hac vitaf non potest videri,
+          <lb ed="#Q"/>etiam per gratiam, sicut est.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3783">
+          <lb ed="#Q"/>4. Item, species omnino abstracta et absoluta 
+          <lb ed="#Q"/>a corporeitatelgsi intelligitur sicuti est, non in<lb ed="#Q"/>telligitur 
+          nisi a vi " intellectiva omnino absoluta 
+          <lb ed="#Q"/>a corpore et expedita a mole corporeae.:Si ergo 
+          <lb ed="#Q"/>intellectus humanus; quamdiu hic vivitur morta<cb ed="#Q" n="b"/><lb ed="#Q"/>liter, 
+          est praegravatus a corpore, secundum quod 
+          <lb ed="#Q"/>dicitur Sap. 9, 15 : Corpus, quod corrumpitur, ag—
+          <lb ed="#Q"/>gravat animam, et terrena inhabitatio deprimit
+          <lb ed="#Q"/>sensum multa cogitantem: ergo relinquitur quod
+          <lb ed="#Q"/>nonk potest cognoscere speciem divinam sicuti
+          <lb ed="#Q"/>est, quae' est omnino abstracta a corpore.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3811">
+          <lb ed="#Q"/>Contra: a. Augustinus, in libro De videndo
+          <lb ed="#Q"/>DeoQ: « in libro Numerorum, scilicet 12 '" 'O, dicit
+          <lb ed="#Q"/>Dominus aliis Prophetis" in visione se appa<lb ed="#Q"/>rere
+          et in somnis, Moysi autem per speciem, non
+          <lb ed="#Q"/>per aenigmata. Ubi etiam addit, dicens": Et glo<lb ed="#Q"/>riam
+          Domini vidit. Quid ergo est quod eum sic
+          <lb ed="#Q"/>fecit exceptum? nisi forte quia in illa contempla<lb ed="#Q"/>tione
+          dignum tunc habuit ministrum in tota domo
+          <lb ed="#Q"/>sua fidelem ", ut quemadmodum concupierat, vi<lb ed="#Q"/>deret
+          Deum sicuti est ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3835">
+          <lb ed="#Q"/>b. Item, Augustinus, in eodem 13: « Ita etiam
+          <lb ed="#Q"/>verum est quod. dictum est ": Nemo potest faciem
+          <lb ed="#Q"/>meam videre et vivere, quia necesse est ab hac
+          <lb ed="#Q"/>vita abstrahi mentem, quando in illius ineffabili—
+          <lb ed="#Q"/>tatem visionis assumitur, et non sit incredibile,
+          <lb ed="#Q"/>quibusdam sanctis, nondum" ita defunctis ut se<lb ed="#Q"/>pelienda
+          cadavera remanerent, etiam istam excel<lb ed="#Q"/>lentiam
+          revelationis tuisse concessam ». Et ponit 
+          <pb ed="#Q" n="22"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>exemplum de Paulo in raptu, II Cor. 12. Relin<lb ed="#Q"/>quitur 
+          ergo quod potest in hac vita videri.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3864">
+          <lb ed="#Q"/>c. item, non est aliquis defectus in potentia na—
+          <lb ed="#Q"/>tnrae, qui non possit removeri per potentiam gra—
+          <lb ed="#Q"/>tiae et superari; ergo, si potentia naturae est ad
+          <lb ed="#Q"/>videndum Deum sicuti est, dum vivitur in carne,
+          <lb ed="#Q"/>tamen cum multiplici deiectu, per potentiam gratiae
+          <lb ed="#Q"/>poterit ille detectus amoveri; ergo per adiutorium
+          <lb ed="#Q"/>gratiae potest Deus videri in praesenti sicuti est.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3882">
+          <lb ed="#Q"/>Solutio: Per naturam, constans est, non potest"
+          <lb ed="#Q"/>videri sicuti est. Distinguendum ergo est quod
+          <lb ed="#Q"/>est gratia perfecta et est gratia imperfecta. Dico
+          <lb ed="#Q"/>autem gratiam imperfectam, quae est in homi<lb ed="#Q"/>nibus
+          imperfectis; pertectam vero gratiam, quae
+          <lb ed="#Q"/>est" perfectorum, secundum quod est esse per<lb ed="#Q"/>fectum
+          in via. Dicendum ergo 'quod non est
+          <lb ed="#Q"/>possibile videre Deum in praesenti per gratiam
+          <lb ed="#Q"/>imperfectae contemplationis, sed per gratiam per<lb ed="#Q"/>fectae
+          contemplationis potest, non tamen adeo
+          <lb ed="#Q"/>plene ut post hanc vitam. Et hoc est quod dicit"
+          <lb ed="#Q"/>Gregorius, super Iob 28,21, ubi dicitur]: « Su<lb ed="#Q"/>pientia
+          ubscondita est ab oculis omnium viven<lb ed="#Q"/>tium,
+          quia in hac mortali carne consistentibus et
+          <lb ed="#Q"/>videri potest per quasdam circumscriptas imagina<lb ed="#Q"/>tiones, 
+          et videri non potest per incircumscriptum
+          <lb ed="#Q"/>lumen aeternitatis ; a quibusdam videri non potest",
+          <lb ed="#Q"/>in hac mortali carne existentibus, tamen inaestima<lb ed="#Q"/>bili
+          virtute crescentibus quodam contemplationis
+          <lb ed="#Q"/>acumine aeterna Dei claritas videri potest ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3929">
+          <lb ed="#Q"/>[Ad obiecta]: 1—4. Unde notandum, secundum
+          <lb ed="#Q"/>Augustinum, in libro De Trinitatez, ad sol—
+          <lb ed="#Q"/>venda obiecta, quod «Dei facies dicitur forma,
+          <lb ed="#Q"/>in qua non rapinam arbitratus est esse se aequa—
+          <lb ed="#Q"/>lem Patri, quam nemo potest videre et vivere,
+          <lb ed="#Q"/>sive quia post hanc vitam videbimus facie ad fa<lb ed="#Q"/>ciem,
+          secundum quod dicit Apostolus, ! Cor. 13,12
+          <lb ed="#Q"/>et secundum ioannem, I Ioan. 3,2: Nondum ap—
+          <lb ed="#Q"/>paret quid erimus; cum autem 2 apparuerit, tunc
+          <lb ed="#Q"/>similes ei erimus, quaniamf videbimus eum sicuti
+          <lb ed="#Q"/>est. Quod utique post hanc vitam intelligi voluit,
+          <lb ed="#Q"/>curn mortis debitum solverimus; sive etiam nunc,
+          <lb ed="#Q"/>in quantum Dei Sapientiam, per quam tacta sunt
+          <lb ed="#Q"/>omnia, spiritualiter intelligimus, in tantum9 car—
+          <lb ed="#Q"/>nalibus affectibus morimur, ut mortuum nobis
+          <lb ed="#Q"/>hunc mundum deputantes, nos quoque ipsi" huic
+          <lb ed="#Q"/>mundo moriamur et dicamus quod ait Apostolus,
+          <lb ed="#Q"/>a'd Gal. ultimo, 14: Mihi mundus crucüixus est
+          <lb ed="#Q"/>et ego mundo ». —- Et per haec patet solutio ad
+          <lb ed="#Q"/>omnialr obiecta.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c5-d1e3975">
+          <lb ed="#Q"/>Unde et secundum hoc nota quod dicit Au<lb ed="#Q"/>gustinus, 
+          in quaestione penultima Ad Oro<lb ed="#Q"/>sium
+          3, de raptu Pauli.: «Ob! id raptus iuerat
+          <lb ed="#Q"/>apostolus Paulus in tertium caelum, id est in<lb ed="#Q"/>tellectualem
+          visionem, ut Deum non- per corpus,
+          <lb ed="#Q"/>non per similitudinem corporis, sed sicut est ipsa
+          <lb ed="#Q"/>veritas, cerneret. Ad hoc- profecto pervenerat Pau<lb ed="#Q"/>lus
+          ut Deum sic in hac vita videret, sicut sancti
+          <lb ed="#Q"/>post hanc vitam videbunt».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 1, Q. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Pars 1, Inq. 1, Tract. 1, Q. 3, C. 3</title>
+          <date when="2017-02-13">February 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="52"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t1q3c3">
+        <head xml:id="ahsh-l1p1i1t1q3c3-Hd1e3732">I, Pars 1, Inq. 1, Tract. 1, Q. 3, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t1q3c3-Hd1e3735" type="questionTitle">AN SIMPLICITAS SIT PROPRIUM DIVINAE ESSENTIAE.</head>
+        <p xml:id="ahsh-l1p1i1t1q3c3-d1e3738">
+          <lb ed="#Q"/>Consequenter quaeritur an simplicitas sit pro<lb ed="#Q"/>prium
+          divinae essentiae ita quod nulli alii rei
+          <lb ed="#Q"/>conveniat.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c3-d1e3747">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Ad quod sic obicitur: 1. Omne quod non ha<lb ed="#Q"/>bet
+          compositionem partium vel accidentium vel
+          <lb ed="#Q"/>formarum est summe et vere simplex, sicut patet 
+          <pb ed="#Q" n="53"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>ex <ref target="http://scta.info/resource/pl-l1d8c3">dist. 8, I libri <title>Sententiarum</title></ref>; 
+          sed prima ma<lb ed="#Q"/>teria
+          non habet compositionem partium nec ac<lb ed="#Q"/>cidentium
+          nec formarum; ergo prima materia est
+          <lb ed="#Q"/>in simplicitate. Non enim habet compositionem"
+          <lb ed="#Q"/>integralium partium: cum abstrahamus ab ipsa
+          <lb ed="#Q"/>quantitatem; nec compositionem essentialium,
+          <lb ed="#Q"/>sicut materiae et formae: quia b sic esset materia
+          <lb ed="#Q"/>de materia et ita non esset prima ; nec etiam acci<lb ed="#Q"/>dentium:
+          quia intelligimus eam spoliatam" om<lb ed="#Q"/>nibus
+          accidentibus; nec formarum: quia intelli<lb ed="#Q"/>gimus
+          eam nudam ab omni forma. Similiter obi<lb ed="#Q"/>citur
+          de forma.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c3-d1e3794">
+          <lb ed="#Q"/>2. Item, de specie sive forma universali obi<lb ed="#Q"/>citur
+          quia, sicut dicit Philosophusz, «forma
+          <lb ed="#Q"/>est compositioni contingens, simplici et invariabili
+          <lb ed="#Q"/>essentia consistens ». Ergo, cum sit in simplici et
+          <lb ed="#Q"/>invariabili essentia, relinquitur quod simplicitas
+          <lb ed="#Q"/>vera conveniet ei.— Si vero diceretur quod
+          <lb ed="#Q"/>simplicitas formae universalis est compositioni
+          <lb ed="#Q"/>contingens, simplicitas vero divinae essentiae non,
+          <lb ed="#Q"/>unde non est comparabilis simplicitas simplicitati
+          - contra: divina essentia est unibilis. humanae,
+          <lb ed="#Q"/>quae quidem est composita ex anima et corpore;
+          <lb ed="#Q"/>ergo est adveniens compositioni, cum unitur hu<lb ed="#Q"/>manae
+          naturae, necd aliquid detrahitur eius sim<lb ed="#Q"/>plicitati
+          et invariabilitatie essentiae. Relinquitur
+          <lb ed="#Q"/>ergo quod nec ipsi formae universali, quantum
+          <lb ed="#Q"/>ad simplicitatem, detrahetur ex hoc quod est com<lb ed="#Q"/>positioni
+          contingens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c3-d1e3832">
+          <lb ed="#Q"/>3. Item, Boethius, in libro De Trinitate3:
+          «In omni eo quod est citra primum, differt 'quod
+          <lb ed="#Q"/>est' et 'quo est'-; sed ipsum 'quod est' aut
+          <lb ed="#Q"/>est aliquid citra primum aut nihil; constans est
+          <lb ed="#Q"/>quod non nihil; ergo aliquid; inf eo ergo erit
+          <lb ed="#Q"/>differentia eius ' quod est' et ' quo est', et ita
+          <lb ed="#Q"/>in infinitum; aut erit dicere ipsum 'quod est'
+          <lb ed="#Q"/>et ipsum 'quo est' ita esse simplicia sicut pri<lb ed="#Q"/>mum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c3-d1e3852">
+          <lb ed="#Q"/>Respondeo: Vere-B' et summe simplex excludit
+          <lb ed="#Q"/>tria: compositionem, componibilitatem et compo<lb ed="#Q"/>sitioni
+          contingentiam, ita quod illud vere et pro<lb ed="#Q"/>prie
+          est simplex quod non est compositum nec 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>componibile nec compositioni contingens. Nec
+          <lb ed="#Q"/>compositum ex aliis: sicut est in omni creatura
+          <lb ed="#Q"/>per se existenti; nec componibile cum alio: sicut
+          <lb ed="#Q"/>est materia, quae est componibilis formae, et forma
+          <lb ed="#Q"/>componibilis materiae, et ipsum ' quo est' " compo<lb ed="#Q"/>nibile
+          ei ' quod est ' ; nec compositioni contingens:
+          <lb ed="#Q"/>sicut est forma universalis, quae supponit ante
+          <lb ed="#Q"/>se compositionem ex materia et forma: est enim
+          <lb ed="#Q"/>forma materiae, ut est anima' forma corporis; et
+          <lb ed="#Q"/>est forma compositioni contingens, sicut ex ipsa
+          <lb ed="#Q"/>compositione adveniens, sicut forma universalis
+          ' homo ' vel ' humanitas ', quae advenit constituto
+          <lb ed="#Q"/>ex anima rationali et corpore 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c3-d1e3891">
+          <lb ed="#Q"/>[Ad obiecta]: 1-2. Et per hoc patet responsio
+          <lb ed="#Q"/>ad duo prima. — Ad illud vero quod
+          <lb ed="#Q"/>obiciturk de divina essentia, quae est unibilis'
+          <lb ed="#Q"/>et ita compositioni contingens: dicendum quod
+          <lb ed="#Q"/>non sequi-tur. Nam hoc quod dico ' contingens
+          <lb ed="#Q"/>compositioni'm importat dependentiam ab ipsa
+          <lb ed="#Q"/>compositione, ita quod nec habeat subsistere sine
+          <lb ed="#Q"/>ipsa, sicut humanitas non subsistit nisi manente
+          <lb ed="#Q"/>compositione animae et corporis. Divina autem
+          <lb ed="#Q"/>essentia nullo modo habet dependentiam ab hu<lb ed="#Q"/>mana,
+          immo sine ipsa consistit; unde hoc ipsum
+          <lb ed="#Q"/>quod unibilis est vel unita divina natura huma<lb ed="#Q"/>nae
+          non dicit dependentiam vel dispositionem
+          <lb ed="#Q"/>in ipsa, sed in ipsa humana natura, quae qui<lb ed="#Q"/>dem-unibilis
+          est et unita.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c3-d1e3926">
+          <lb ed="#Q"/>3. Ad aliud vero quod obicit ultimo, quod
+          <lb ed="#Q"/>dicit Boethius « in- eo quod est citra pri<lb ed="#Q"/>mum
+          » etc.: intelligitur de iis quae secundum se
+          <lb ed="#Q"/>habent esse; 'quod est' autem" et 'quo est', prout
+          <lb ed="#Q"/>dicunt principia esse cuiusque, non habent esse
+          <lb ed="#Q"/>ut ens, sed sunt entis: ut distinguamus quod quae<lb ed="#Q"/>dam
+          sunt entia, quaedam vero entium, ut dispo<lb ed="#Q"/>sitioneso
+          vel partes, et ista non sunt entia sim<lb ed="#Q"/>pliciter,
+          sed sunt entium. ,Non tamen sequitur
+          <lb ed="#Q"/>quod sint nih-il: 'nihil' enim negat et quod est ens
+          <lb ed="#Q"/>et quod est entis P. Praeterea-, ea quae sunt en<lb ed="#Q"/>tium
+          iam habent dependentiam a se ipsis et com<lb ed="#Q"/>ponibilia
+          sunt 4 ad invicem et propterea non sunt '
+          <lb ed="#Q"/>vere simplicia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

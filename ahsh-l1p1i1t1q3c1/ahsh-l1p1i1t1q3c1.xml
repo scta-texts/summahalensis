@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 1, Q. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Pars 1, Inq. 1, Tract. 1, Q. 3, C. 1</title>
+          <date when="2017-02-13">February 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="50"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t1q3c1">
+        <head xml:id="ahsh-l1p1i1t1q3c1-Hd1e3732">I, Pars 1, Inq. 1, Tract. 1, Q. 3, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t1q3c1-Hd1e3735" type="questionTitle">QUOMODO SIT SIMPLICITAS DIVINAE SUBSTANTIAE</head>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3738">
+          <lb ed="#Q"/>Ad primum arguet aliquis hoc modo: 1. In
+          <lb ed="#Q"/>A divino esse est ponere esse distinctum et in<lb ed="#Q"/>distinctum;
+          ergo in eo est differentia ; non "ergo
+          <lb ed="#Q"/>simplicitas. — Maior patet: quia in Deo est
+          <lb ed="#Q"/>esse essentiale, et istud est indistinctum; et esse
+          <lb ed="#Q"/>personale, et istud est distinctum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3754">
+          <lb ed="#Q"/>2. Item, in Deo est unitas substantiae et plu<lb ed="#Q"/>ralitas
+          personarum; ergo in eo est disparatio;
+          <lb ed="#Q"/>ergo non est in eo omnimoda simplicitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3763">
+          <lb ed="#Q"/>3. Item, in Patre sunt duo, quorum unum non est
+          <lb ed="#Q"/>alterum, scilicet innascibilitas et paternitas; ergo
+          <lb ed="#Q"/>in eo est compositio et non omnimoda simplicitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3773">
+          <lb ed="#Q"/>4. Item, in Deo " est esse communicabile ", sicut
+          <lb ed="#Q"/>est esse substantiale, et esse incommunicabile ",
+          <lb ed="#Q"/>sicut esse personale; non ergo omnimoda simpli<lb ed="#Q"/>citas,
+          cum hoc non sit' illud.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3784">
+          <lb ed="#Q"/>5. Item, impossibile est quod divina essentia
+          <lb ed="#Q"/>comprehendatur vel tota videatur; sed si aliquod
+          <lb ed="#Q"/>simplex videtur, videtur secundum totum, quia
+          <lb ed="#Q"/>simplex non habet partem et partem 2: unde si
+          <lb ed="#Q"/>punctus videtur, videtur secundum totum vel to<lb ed="#Q"/>tus;
+          ergo divina essentia non est simplex. — Ma<lb ed="#Q"/>iorem
+          propositionem supponimus: si enim'
+          <lb ed="#Q"/>tota videretur, comprehenderetur; sed hoc est im<lb ed="#Q"/>possibile,
+          sicut supponimus ad praesens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3806">
+          <lb ed="#Q"/>Solutio: Dicimus quod divina essentia est sim<lb ed="#Q"/>plex 
+          omnimoda simplicitate, ita quod non est in 
+          <lb ed="#Q"/>ea compositio essentialis nec accidentalis. Omne, 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>enim compositum potest intelligi non esse, quia 
+          <lb ed="#Q"/>potest intelligi resolubile; sed divina essentia non
+          <lb ed="#Q"/>potest intelligi non esse, ideo nec composita esse 3.
+          — ltem, ubi est compositio, est dependentia et' in<lb ed="#Q"/>digentia
+          compositi a componentibus, quia omne
+          <lb ed="#Q"/>compositum componentibus indiget, sicut habetur
+          <lb ed="#Q"/>in libro De regulis fidei 4; et ideo repugnat quod
+          <lb ed="#Q"/>Deus sit Creator omnium et compositus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3832">
+          <lb ed="#Q"/>[Ad obiecta]: Ad rationes ergo in contrarium di<lb ed="#Q"/>cendum, 
+          secundum Boethium, in libro De Tri<lb ed="#Q"/>nitate
+          5, qui dicit: « Non dici potest praedicationem
+          <lb ed="#Q"/>relativam" quidquam rei, de qua dicitur, secundum
+          <lb ed="#Q"/>se adderef vel minuere. vel mutare, quae tota non
+          <lb ed="#Q"/>in eo quod est "esse consistit, sed in eo-quod est
+          <lb ed="#Q"/>in comparatione alio modo se habere, nec Semper
+          <lb ed="#Q"/>ad aliud, sed aliquotiens ad idem. Age enim 3: .Stet
+          <lb ed="#Q"/>quisquam " ; ei ergo si accedam dexter, erit ille
+          <lb ed="#Q"/>sinister ad me comparatus, non quod ille sinister
+          <lb ed="#Q"/>sit, sed quod ego dexter accesserim. Rursus ego
+          <lb ed="#Q"/>accedo sinister, item ille iitl dexter, non quod
+          <lb ed="#Q"/>ita sit * per se dexter, velut albus vel longus, sed
+          <lb ed="#Q"/>quod, me accedente, fit' dexter, atque id quod
+          <lb ed="#Q"/>est, a me et ex me est,. minime vero ex se. Quare "'
+          <lb ed="#Q"/>quae secundum rei alicuius, in eo quod ipsa est,
+          <lb ed="#Q"/>proprietatem, non faciunt praedicationem, nihil'l
+          <lb ed="#Q"/>alternare vel mutare [queunt] nullamque" omnino
+          <lb ed="#Q"/>variare essentiam ». Ex quo patet quod relatio
+          <lb ed="#Q"/>nihil addit vel mutat vel minuit. Secundum hoc
+          <pb ed="#Q" n="51"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>dicendum " quod in divino esse est esse ** substan<lb ed="#Q"/>tiae
+          et esse relationis; et esse substantiae dicitur
+          <lb ed="#Q"/>essentialiter :, esse vero relationis personaliter.
+          <lb ed="#Q"/>Unde Boethius 1: « Substantia continet unita<lb ed="#Q"/>tem,
+          relatio multiplicat Trinitatem ». Quamvis ergo
+          <lb ed="#Q"/>in Deo d intelligamus unitatem substantiae et mul<lb ed="#Q"/>titudinem
+          personarum — quae quidem est se<lb ed="#Q"/>cundum
+          relationem, relatio autem non addit ad
+          <lb ed="#Q"/>unitatem nec mutat, et maxime in Deo —- non
+          <lb ed="#Q"/>est ulla compositio in ipso, cum nihil addat
+          <lb ed="#Q"/>in eo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3906">
+          <lb ed="#Q"/>1. Secundum hoc dicendum ad primum quod
+          <lb ed="#Q"/>non secundum idem dicitur esse distinctum et in<lb ed="#Q"/>distinctum
+          in Deo; immo esse indistinctum di<lb ed="#Q"/>citur
+          secundum substantiam, distinctum secundum
+          <lb ed="#Q"/>relationem, quod solum dicit existentiae modum
+          <lb ed="#Q"/>et nihil addit ad substantiam. -— Similiter est di<lb ed="#Q"/>cendum
+          ad illam rationem 2, qua obicitur de esse
+          <lb ed="#Q"/>communicabili- et' incommunicabili.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3926">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod si. pluralitas illa
+          <lb ed="#Q"/>esset in genere unitatis illius, bene sequeretur
+          <lb ed="#Q"/>ratio, sed non estf ita. Et est exemplum de puncto,
+          <lb ed="#Q"/>qui est principium et finis respectu'linearum di<lb ed="#Q"/>versarum'3i
+          potest enim esse2 principium unius
+          <lb ed="#Q"/>lineae et terminus alterius, vel " finis et principium
+          <lb ed="#Q"/>alterius; idem dico secundum substantiam 4; sed
+          <lb ed="#Q"/>constat quod ex iis nihil detrahitur s'uae simpli<lb ed="#Q"/>citati 
+          nec ex hoc est' ei aliquid additum. Sic nec 
+          <lb ed="#Q"/>perit simplicitas in Deo propter pluralitatem per<lb ed="#Q"/>sonarum,
+          quia ex hoc nihil est sibi additum ; unde
+          <lb ed="#Q"/>cum dicitur in Deo persona et substantia, non est
+          <lb ed="#Q"/>per hoc nomen ' persona ' additio ad divinam sub<lb ed="#Q"/>stantiam
+          facta. -— Similiter posset obici: In
+          <lb ed="#Q"/>persona Patris est natura divina vel essentia et
+          <lb ed="#Q"/>personalitas; ergo hoc et hoc; ergo compositio.
+          <lb ed="#Q"/>Dicendum quod istud sequeretur, si persona<lb ed="#Q"/>litas
+          diceret in Patre aliquid secundum substantiam
+          <lb ed="#Q"/>vel accidens, quod adderet ad esse; sed solum
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>dicit aliquid secundum relationem, quae nihil ad<lb ed="#Q"/>dit 
+          ad esse.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e3977">
+          <lb ed="#Q"/>3. Ad tertium quod obicitur 'in Patre sunt
+          <lb ed="#Q"/>duo, quorum unumnon est alterum': dicendum
+          <lb ed="#Q"/>quod hoc est verum notionaliter ' unum non est
+          <lb ed="#Q"/>alterum '; et sic nihil additur ad esse. Unde" haec
+          <lb ed="#Q"/>habitudo non est illa, quia innascibilitas dicit quod
+          <lb ed="#Q"/>non estk ens ab alio, paternitas dicit quod est
+          <lb ed="#Q"/>ens a quo est alius; unde ibi est numerus ha<lb ed="#Q"/>bitudinis
+          solum et non Substantiae. Sicut punctus
+          <lb ed="#Q"/>habet habitudinem ad hanc lineam et ad illam
+          <lb ed="#Q"/>aliam, et haec habitudo non est illa; manet tamen
+          <lb ed="#Q"/>punctus in simplicitate essentiae suae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e4003">
+          <lb ed="#Q"/>4. Ad quartum solutum est 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3c1-d1e4008">
+          <lb ed="#Q"/>5. Ad quintum concedendum, secundum Au<lb ed="#Q"/>gustinum, 
+          quod divina essentia non compre<lb ed="#Q"/>henditur,
+          cum '" tota videtur ab animabus sanctis
+          <lb ed="#Q"/>et angelis. Unde bene sequitur quod, si aliquid
+          <lb ed="#Q"/>est simplex, quod videtur totum; sed ex hoc non
+          <lb ed="#Q"/>sequitur quod comprehendatur. Nam simplex po<lb ed="#Q"/>test
+          videri totum et non secundum totum vel to<lb ed="#Q"/>tum
+          et secundum totum. Si videtur totum et se<lb ed="#Q"/>cundum
+          totum", sequitur quod comprehendatur:
+          <lb ed="#Q"/>et hoc modo non potest videri Deus, ut scilicet vi<lb ed="#Q"/>deatur
+          totus et secundum totum, tamen totus bene
+          <lb ed="#Q"/>videtur. Et est exemplum hic" de puncto: video
+          <lb ed="#Q"/>enim punctum totum, quia non habet partem et
+          <lb ed="#Q"/>partem7; sed non secundum totum ipsum video,
+          <lb ed="#Q"/>quia non video ipsum secundum totam suam po<lb ed="#Q"/>tentiam
+          et-virtutem 8. Unde ponatur quod ab hoc
+          <lb ed="#Q"/>puncto exeant etiam plures lineae: possm dicere
+          <lb ed="#Q"/>de qualibet illarum linearum quod tangit punctum
+          <lb ed="#Q"/>totum, sed non tangit secundum totum, hoc est se<lb ed="#Q"/>cundum
+          totam habitudinem ipsius puncti. Sic di<lb ed="#Q"/>cendum
+          quod Deus totus videbitur, non tamenP se<lb ed="#Q"/>cundum
+          totum, hoc est secundum omnem modum
+          <lb ed="#Q"/>suae virtutis et infinitatis; nec propter hoc sequitur
+          <lb ed="#Q"/>quod habeat partem et partem, sicut nec de puncto.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 2, Q. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-13">February 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="61"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q2c2">
+        <head xml:id="ahsh-l1p1i1t2q2c2-Hd1e3729">I, Pars 1, Inq. 1, Tract. 2, Q. 2, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t2q2c2-Hd1e3732" type="question-title">DE DIFFERENTIA COMPREI'IENSIONIS IN PATRIA</head>
+        <p xml:id="ahsh-l1p1i1t2q2c2-d1e3735">
+          <lb ed="#Q"/>Secundo quaeritur de differentia comprehensio<lb ed="#Q"/>nis
+          divinae essentiae in patria 2.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c2-d1e3742">
+          <lb ed="#Q"/>1. Cum enim Deus in gloria sit simplex et im<lb ed="#Q"/>partibilis
+          secundum omnem modum, ergo quilibet
+          <lb ed="#Q"/>videbit ipsum totum, non plus unus quam alius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c2-d1e3751">
+          <lb ed="#Q"/>2. Item, cum impartibilis sit, ergo una creatura
+          <lb ed="#Q"/>non magis erit in participatione eius quam "alia,
+          <lb ed="#Q"/>immo quaelibet totum participabit; ergo nihil est
+          <lb ed="#Q"/>dictu quod unus plus participabit in patria de
+          <lb ed="#Q"/>bonitate divinac quam alius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c2-d1e3765">
+          <lb ed="#Q"/>3. Item, duplex distinguitur Theologia, scilicet
+          <lb ed="#Q"/>mystica et parabolica 3. Mystica est qua Deus
+          <lb ed="#Q"/>cognoscitur per similitudines rerum spiritualium,
+          <lb ed="#Q"/>sicut dicitur quod Deus est sapiens, benignus.
+          ' Parabolica est qua Deus cognoscitur per simili<lb ed="#Q"/>tudines
+          acceptas a rebus corporalibus. Sed nec
+          <lb ed="#Q"/>mystice nec parabolice videbitur Deus in patria,
+          <lb ed="#Q"/>quia se ipso videbitur, non per similitudinem; sed
+          <lb ed="#Q"/>ex similitudine venit quod plus cognoscit unus
+          <lb ed="#Q"/>quam alius; ergo, cum removeatur similitudo, vi<lb ed="#Q"/>debitur
+          in sui-4 praesentia, et ita aequaliter ab!
+          <lb ed="#Q"/>omnibus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c2-d1e3791">
+          <lb ed="#Q"/>Solutio: Dicendum quod diversitas visionis ex
+          <lb ed="#Q"/>triplici causa provenit, scilicet ex parte rei visae
+          <lb ed="#Q"/>et ex parte medii videndi et ex parte videntis.
+          <lb ed="#Q"/>Ex parte rei visae provenit diversitas visionis:
+          <lb ed="#Q"/>sicut dicimus quod aliter videtur lucidum, aliter
+          <lb ed="#Q"/>tenebrosum. Ex parte medii videndif provenit:
+          <lb ed="#Q"/>sicut aliter videtur res mediante vitro rubeo, aliter
+          <lb ed="#Q"/>mediante vitro albo 4. Ex parte videntis : quia aliter
+          <lb ed="#Q"/>videt! oculus acutus quam oculus obtusus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c2-d1e3813">
+          <lb ed="#Q"/>Dicendum ergo quod diversitas visionis Dei nec
+          <lb ed="#Q"/>hic'nec in patria provenit ex prima causa, immo
+          <lb ed="#Q"/>ipse, quantum est de se, ab omnibus videtur ae<lb ed="#Q"/>qualiter,
+          quia omnibus aequaliter se offert. Ex se<lb ed="#Q"/>cunda
+          vero et tertia provenit hic " diversitas, quia
+          <lb ed="#Q"/>aliter videtur Deus hic' in via per istas simili<cb ed="#Q" n="b"/><lb ed="#Q"/>tudines 
+          et aliter per illas; similiter videtur hic
+          <lb ed="#Q"/>aliter ab uno et aliter ab alio. In gloria autem di<lb ed="#Q"/>versitas
+          visionis eius nec erit ex parte rei visae
+          <lb ed="#Q"/>nec ex parte medii videndi -— quia * non videbitur
+          <lb ed="#Q"/>per similitudines aliquas, sed videbitur per se et'
+          <lb ed="#Q"/>in se -— sed solum erit ibi diversitas ex parte
+          <lb ed="#Q"/>videntis: sicut enim dicit Boet-hius'F: « Omne
+          <lb ed="#Q"/>quod apprehenditur est in apprehendente per mo<lb ed="#Q"/>dum
+          rei apprehendentis et non per modum rei
+          <lb ed="#Q"/>apprehensae :. Quia ergo in gloria erit differentia
+          <lb ed="#Q"/>intellectuum apprehendendum, erit et differentia
+          <lb ed="#Q"/>apprehensionum. Exemplum autem "' patet in luce.
+          <lb ed="#Q"/>Luce enim manente eadem, non intensa, unus ocu<lb ed="#Q"/>lus,
+          secundum quod est" perspicacior, plus de ea
+          <lb ed="#Q"/>videt quam alius 0: sic luce divina manente eadem
+          <lb ed="#Q"/>et in eadem dispositione ad res, quantum est de
+          <lb ed="#Q"/>se, ille intellectus, qui erit perspicacior per glo<lb ed="#Q"/>riam,
+          plus de ipsa percipietP quam alius minus
+          <lb ed="#Q"/>perspicax. Sicut enim stella differt a stella in
+          <lb ed="#Q"/>claritate 5, sic corpora glorificata different in cla<lb ed="#Q"/>ritate';
+          ita etiam animae different in claritate in
+          <lb ed="#Q"/>gloria. Et ita, licet divina essentia sit simplex et
+          <lb ed="#Q"/>impartibilis, tamen est"! differentia visionum ex
+          <lb ed="#Q"/>parte videntis ', non ex parte sui 3.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c2-d1e3882">
+          <lb ed="#Q"/>[Ad obiecta.]: 2. Ad illudf quod obicitur de
+          <lb ed="#Q"/>participatione: dicendum quod non dicitur di<lb ed="#Q"/>vina
+          essentia participabilis, quia trahatur in par<lb ed="#Q"/>tem,
+          sed participatio ista refertur ad effectum,
+          <lb ed="#Q"/>scilicet' illustrationis, secundum quem dicitur dif<lb ed="#Q"/>ferens
+          participatio. Differentia autem istius par<lb ed="#Q"/>ticipationis
+          est ex parte participandum, non ex
+          <lb ed="#Q"/>parte Dei, quia sicut dicit Philosophus, in
+          <lb ed="#Q"/>libro De causis9: « Causa prima se habet ad res
+          <lb ed="#Q"/>omnes secundum dispositionem unam; non ta<lb ed="#Q"/>men
+          omnes res secundum dispositionem unam
+          <lb ed="#Q"/>ab ipsa recipiunt influentiam ». Sicut idemu-ra<lb ed="#Q"/>dius
+          secundum dispositionem unam, quantum est
+          <lb ed="#Q"/>de se, se habet ad materias: non tamen mate<pb ed="#Q" n="62"/><cb ed="#Q" n="a"/><lb ed="#Q"/><lb ed="#Q"/>riae 
+          eodem modo se habent ad receptionem radii 
+          <lb ed="#Q"/>illius lucis, immo quaedam materia liquescit ex 
+          <lb ed="#Q"/>eius receptione et quaedam condensatur, et ita 
+          <lb ed="#Q"/>haec diversitas effectuum est ex parte recipien<cb ed="#Q" n="b"/><lb ed="#Q"/>tium: 
+          sic est in receptione radii divinae lucis. 
+          <lb ed="#Q"/>Et sicut aer purior aliter recipit lucem quam aer 
+          <lb ed="#Q"/>tenebrosior, sic est hic.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q2c2-d1e3935">
+          <lb ed="#Q"/>3. Et per hoc patet solutio ad cetera.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

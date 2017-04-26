@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 7</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-25">April 25, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-25" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="592"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q1m3c7">
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c7-Hd1e118">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 6</head>
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c7-Hd1e121" type="question-title">DE COMPARATIONE 'HVPOSTASIS' AD PROPRIETATEM.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e124">
+          <lb ed="#Q"/>Deinde quaeritur de comparatione hypostasis ad 
+          <lb ed="#Q"/>proprietatem I. utrum una hypostasis subsit
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>tribus proprietatibus vel tres hypostases solum
+          <lb ed="#Q"/>quia tres proprietates.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e137">
+          <pb ed="#Q" n="593"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Ad quod sic: 1. Maior est simplicitas, in-esse
+          <lb ed="#Q"/>divino quam in aliquo esse creato ?; sed videmus
+          <lb ed="#Q"/>in igne quod ibib est forma ignis et calor 'et
+          <lb ed="#Q"/>splendor, et licet haec tria sunt ibi,,non tamen
+          <lb ed="#Q"/>sunt ibi plures hypostases, sed una sub tribus
+          <lb ed="#Q"/>proprietatibus; ergo multo magis in divino esse
+          <lb ed="#Q"/>erit una hypostasis sub tribus proprietatibus et
+          <lb ed="#Q"/>ita non erit ibi numerus hypostasum. — Item, in
+          <lb ed="#Q"/>divinis invenimus aliquid quod nec est distingui<lb ed="#Q"/>bile 
+          nec distinctum, et hoc est essentia; item, in<lb ed="#Q"/>venimus 
+          distinguibile et distinctum, et huiusmodi
+          <lb ed="#Q"/>est persona. Inter autem haec duo extrema inter<lb ed="#Q"/>cidunt
+          secundum rationem intelligentiae duo me<lb ed="#Q"/>dia,
+          scilicet substantia et hypostasis, sicut inter
+          'quo est' et 'quis est' intercidunt 'quod est-' et
+          <lb ed="#Q"/>fqui est'; essentia autem dicit 'quo est', substan<lb ed="#Q"/>tia
+          'quod est', hypostasis 'qui est', persona 'quis
+          <lb ed="#Q"/>est'.; hypostasis ergo est medium illorum * quan-'
+          <lb ed="#Q"/>tum ad distingui et non distingui; ergo neutrum
+          <lb ed="#Q"/>est illorum de se; ergo non est distincta; sed
+          <lb ed="#Q"/>quod non est distinctum non cadit sub numero, et
+          <lb ed="#Q"/>quod tale est non est numerabile; ergo hypostasis
+          <lb ed="#Q"/>non est numerabilis sicut nec essentia.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e192">
+          <lb ed="#Q"/>2. Item, substantia in divinis dicitur idem quod
+          <lb ed="#Q"/>essentia; sed essentia non multiplicatur; ergo nec
+          <lb ed="#Q"/>substantia; si ergo idem est apud Graecos hy<lb ed="#Q"/>postasis
+          quod substantia apud nos, ergo non nu<lb ed="#Q"/>meratur
+          nec multiplicatur hypostasis sicut nec
+          <lb ed="#Q"/>substantia.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e209">
+          <lb ed="#Q"/>3. Item, Boethius, De Trinitate 1: « Substantia
+          <lb ed="#Q"/>continet unitatem, relatio multiplicat Trinitatem »;
+          <lb ed="#Q"/>auferatur ergo relatio per intellectum, non rema<lb ed="#Q"/>nebit
+          nisi substantia quae continet unitatem; au<lb ed="#Q"/>fertur
+          ergo multiplicatio; sed dicit Damasce<lb ed="#Q"/>nus2
+          quod hypostasis est sub proprietatibus;
+          <lb ed="#Q"/>sicut ergo eadem est substantia in tribus — quo<lb ed="#Q"/>niam,
+          ut dicit Damascenus 3: « Substantia est
+          <lb ed="#Q"/>commune» et tale commune cui insunt proprie<lb ed="#Q"/>tates
+          — ita-erit eadem hypostasis sub hac pro<lb ed="#Q"/>prietate
+          et illa; non est ergo numerus hypostasum
+          <lb ed="#Q"/>in divinis, sed una sub distinctis proprietatibus.
+          — Item, si essent plures in se, abstractis relatio<lb ed="#Q"/>nibus
+          iam relatio nond multiplicaret Trinitatem,
+          <lb ed="#Q"/>sicut dicit Boethius.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e242">
+          <lb ed="#Q"/>Contra: a. Communis animi conceptio est quod
+          <lb ed="#Q"/>oppositae relationes non possunt simul inesse
+          <lb ed="#Q"/>uni * subiecto. Unde paternitas et filiatio, cum sint
+          <lb ed="#Q"/>oppositae relationes respicientes se invicem, non
+          <lb ed="#Q"/>possunt inesse simulf uni et eidem rei subsistenti,
+          <lb ed="#Q"/>sed differentibus; sed res subsistentes illis proprie<lb ed="#Q"/>tatibus
+          vel relationibus suntä' hypostases; ergo
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>positis h proprietatibus vel relationibus differenti<lb ed="#Q"/>busf
+          in divinis, necesse est ibi ponere'dift'erentes
+          <lb ed="#Q"/>hypostases. Et hoc etiam'f est quod vult dicere
+          <lb ed="#Q"/>Damascen us 4: « Quod in hypostaticis proprie<lb ed="#Q"/>tatibus
+          differunt ad invicem sanctae Trinitatis tres
+          <lb ed="#Q"/>hypostases ». Et vult ostendere quod nonest si<lb ed="#Q"/>mile
+          de igne et de Deo, quoniam in Deo quae<lb ed="#Q"/>libet
+          hypostasis est perfecta hypostasis in se:
+          <lb ed="#Q"/>unde Filius est perfecta hypostasis quae non est
+          <lb ed="#Q"/>Pater, et Spiritus Sanctus similiter; sed in igne
+          <lb ed="#Q"/>non sic: non enim lumenl habet propriam hypo<lb ed="#Q"/>stasim
+          praeter ignem sive- praeter illam quae
+          <lb ed="#Q"/>ignis est sive praeter formam substantialem ignis,
+          <lb ed="#Q"/>ideoque non oportet, si in igne hoc'" non distin<lb ed="#Q"/>guantur'l
+          tres hypostases, quod similiter in divi<lb ed="#Q"/>nis"
+          non sint tres hypostases.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e297">
+          <lb ed="#Q"/>[Solutio]: Quod concedendum est, scilicet quod
+          <lb ed="#Q"/>proprietates sive relationes in divinis exigunt
+          <lb ed="#Q"/>tresP hypostases differentes.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e306">
+          <lb ed="#Q"/>[Ad obiecta.]: 1. Ad primum ergo dicendum
+          <lb ed="#Q"/>quod non est simile de igne, quoniam secus est'!
+          <lb ed="#Q"/>ubi sunt proprietates incompossibiles et ubi sunt
+          <lb ed="#Q"/>compossibiles: quoniam ubi sunt incompossibi<lb ed="#Q"/>les
+          ', requirunt diversas hypostases, sicut album
+          <lb ed="#Q"/>et nigrum in creaturis sunt formae incompossibi<lb ed="#Q"/>les,
+          ideo requirunt diversa subiecta. Quia ergo
+          <lb ed="#Q"/>proprietates vel relationes in Deo sunt distinctae
+          <lb ed="#Q"/>et incompossibiles, scilicet paternitas et filiatio et
+          <lb ed="#Q"/>processio, ideo distinctas habent hypostases; sed
+          <lb ed="#Q"/>in igne formae illae, quae sunt lumen, calor et
+          <lb ed="#Q"/>splendor, compossibiles sunt omnino.: unde etiam
+          <lb ed="#Q"/>simul sunt nec una alterislrepugnat, et ideo non
+          <lb ed="#Q"/>exigunt diversas hypostases. Ad f illud etiam
+          <lb ed="#Q"/>habes manifestam declarationem Quaestione De
+          <lb ed="#Q"/>numero personarum 5. — A d illud quod obicitur
+          <lb ed="#Q"/>de illis duobus mediis, quaeu sunt substantia et
+          <lb ed="#Q"/>hypostasis: dicendum quod verum est quod haec
+          <lb ed="#Q"/>duo sunt media inter illa duo secundum rationem
+          <lb ed="#Q"/>intelligentiae, licet non secundum rem; verumta—
+          <lb ed="#Q"/>men ita se habent quod unum magis se tenet cum
+          <lb ed="#Q"/>uno extremorum et reliquum cum reliquo, quia
+          <lb ed="#Q"/>substantia apud nos tenet se magis cum essentia,
+          <lb ed="#Q"/>hypostasis vero tenet" se magis cum persona; unde
+          <lb ed="#Q"/>non sunt media propter hoc quod differenterx
+          <lb ed="#Q"/>participent naturam extremorum,, immo substantia
+          <lb ed="#Q"/>tenet se cum ipsa essentia et dicitur esse una
+          <lb ed="#Q"/>sicutet essentia. Similiter sicut dicimus tres per<lb ed="#Q"/>sonas,
+          ita dicimus tres hypostases, differenter ta<lb ed="#Q"/>men
+          in hoc quod hypostasis dicit distinctum, sed
+          <lb ed="#Q"/>non habet in suo nomine unde distinguitur, sed
+          <lb ed="#Q"/>dicit respectum ad distinguentem: hypostasis
+          <pb ed="#Q" n="594"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>enim dicit rem subsistentem" respectu proprieta<lb ed="#Q"/>tis;
+          non habet ergo <!--b--> in suo nomine proprietatem
+          <lb ed="#Q"/>distinguentem, sed dicit respectum ' ad illam. Per<lb ed="#Q"/>sona
+          autem est hypostasis. proprietate distincta;
+          <lb ed="#Q"/>unde in hoc addit quantum ad rationem intelli<lb ed="#Q"/>gentiae
+          nomen personae respectu nominis hypo<lb ed="#Q"/>stasis,
+          quia persona dicit distinctum et iterum
+          <lb ed="#Q"/>habet in suo intellectu et de suo nomine proprie<lb ed="#Q"/>tatem
+          distinguentem; nihilominus tamen distinc<lb ed="#Q"/>tum
+          est hypostasis actu sicut persona, sed non
+          <lb ed="#Q"/>habet de suo intellectu proprietatem distinguen<lb ed="#Q"/>tem.
+          Unde, quia hypostasis dicit respectum ad
+          <lb ed="#Q"/>illam etd etiam dicit distinctum, ideo dicitur
+          <lb ed="#Q"/>quod magis tenet se ex parte personae. Quantum
+          <lb ed="#Q"/>ergo ad quide dicuntur esse media substantia et
+          <lb ed="#Q"/>hypostasis. — Quod sic patet: Essentia in di<lb ed="#Q"/>vinis
+          suo nomine dicit 'quo est', substantiaf vero
+          'quod est'; unde suo nomine substantia plus
+          <lb ed="#Q"/>propinquat ad personam quam essentia; tamen
+          <lb ed="#Q"/>sicut est ibi unum 'quo est', ita est. ibi unum
+          'quod est'g: 'quod est' enim plus tenet se ex
+          <lb ed="#Q"/>parte 'quo est' quantum ad unitatem vel multi<lb ed="#Q"/>plicationem
+          quam ex parte 'qui est' vel 'quis '.
+          <lb ed="#Q"/>Item, hypostasis dicit in divinis'1 'qui est'; per<lb ed="#Q"/>sona
+          autem dicit 'quis est'; In hoc autem abun<lb ed="#Q"/>dat
+          'quis est', quia 'quis est' dicit habentem
+          <lb ed="#Q"/>actu proprietatem, 'qui' est' autem dicit rem
+          <lb ed="#Q"/>subsistentem habentem respectum ad illam, tamen
+          <lb ed="#Q"/>sicut 'quis est Pater' non est .'quis est Filius'
+          <lb ed="#Q"/>sive persona quae est Pater non est persona
+          <lb ed="#Q"/>quae est Filius, ita ' qui est Pater ' non est ' qui
+          <lb ed="#Q"/>est Filius ', nec hypostasis quae'f est Pater est
+          <lb ed="#Q"/>hypostasis quae' est Filius. Sicut ergo 'quod est'
+          <lb ed="#Q"/>et 'qui est' sunt media inter 'quo est' et 'quis
+          <lb ed="#Q"/>est ', ita substantia et hypostasis sunt media inter
+          <lb ed="#Q"/>essentiam et personam; et sicut" 'quodest' ma<lb ed="#Q"/>gis
+          propinquat ipsi 'quo est' et ipsi immedia<lb ed="#Q"/>tius
+          " respondet quam ipsi 'quis est', et 'qui est'
+          <lb ed="#Q"/>magis se tenet ex parte 'quis est', quia sine me<lb ed="#Q"/>dio
+          intelligendi, quam 'quod est', ita substantia
+          <lb ed="#Q"/>plus se tenet ex parte hypostasis quam ex parte
+          <lb ed="#Q"/>personae: nec" tamen substantia ita appropin<lb ed="#Q"/>quatP
+          hypostasi sicut hypostasis personaeq nec
+          <lb ed="#Q"/>hypostasis ita appropinquat substantiae sicut sub<lb ed="#Q"/>stantia
+          essentiae. Unde substantia proprie appro<lb ed="#Q"/>pinquat
+          unitati essentiae, hypostasis distinctioni
+          <lb ed="#Q"/>personae: unde sicut essentia non est multipli<lb ed="#Q"/>cabilis,
+          nec substantia, et sicut persona' est
+          <lb ed="#Q"/>multiplicabilis, ita et hypostasis. In hoc tamen
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>differunt quod unum' habet in se proprietatem
+          <lb ed="#Q"/>distinguentem", alterum non, sed habet respectum
+          <lb ed="#Q"/>ad illam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e495">
+          <lb ed="#Q"/>2. Ad secundum patet solutio ex praedictis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e500">
+          <lb ed="#Q"/>3. Ad ultimum dicendum, quod perb illud
+          <lb ed="#Q"/>verbum Boethii non intelligitur quod in Deo
+          <lb ed="#Q"/>non sit. distinctio nisi relationum, immo est ibi
+          <lb ed="#Q"/>distinctio rerum subsistentium, scilicet hoc modo
+          <lb ed="#Q"/>quod haec res subsistens non est illa; verumta<lb ed="#Q"/>men
+          relatio manitestat distinctionem in divinis,
+          <lb ed="#Q"/>et respectu diversarum proprietatum sunt plures
+          <lb ed="#Q"/>res subsistentes, non quod non sint'plures solum,
+          <lb ed="#Q"/>per illas, immo etiam se ipsis, sed respectu illa<lb ed="#Q"/>rum,
+          non respectu essentiae, quia hypostasis di<lb ed="#Q"/>cit
+          respectuni ad proprietatem, sicut dictum est 1.
+          <lb ed="#Q"/>Unde remota per intellectum proprietate perso<lb ed="#Q"/>nali
+          est intelligere hypostasim, quia adhuc est
+          <lb ed="#Q"/>intelligere rem subsistentem habentem respectum
+          <lb ed="#Q"/>ad proprietatem et licet tollatur proprietas per
+          <lb ed="#Q"/>intellectum, non tamen in re potest tolli; 'unde
+          <lb ed="#Q"/>adhuc est intelligere res distinctas actu, sed non
+          <lb ed="#Q"/>per proprietates personales, sed se ipsis. Unde
+          <lb ed="#Q"/>Bernardus2: «Proprietates sunt* ipsae per<lb ed="#Q"/>sonae,
+          ipsae personae sunt ipsa essentia; nu<lb ed="#Q"/>mera
+          4 ergo, si potes, aut sine substantia personas
+          <lb ed="#Q"/>quae ipsae sunt, aut sine proprietatibus' perso<lb ed="#Q"/>nas
+          quae ipsae sunt». Et est exemplum: Petrus
+          <lb ed="#Q"/>et Paulus sunt duo homines, unus pater, alius
+          <lb ed="#Q"/>filius: distinguitur ergof relatione et hypostasi;
+          <lb ed="#Q"/>abstraheg per intellectum paternitatem et filia<lb ed="#Q"/>tionem,
+          nihilominns remanent duae hypostases,
+          <lb ed="#Q"/>immo etiam duae substantiae individuae 71; unde
+          <lb ed="#Q"/>non tantum dicuntur duae res subsistentes rela<lb ed="#Q"/>tionibus,
+          sed etiam duo homines. In divinis simi<lb ed="#Q"/>liter,
+          ablatis per intellectum proprietatibus, rema<lb ed="#Q"/>nent
+          duae hypostases sive duae res subsistentes,
+          <lb ed="#Q"/>non tamen duae substantiae sicut in creatura:
+          <lb ed="#Q"/>et in hoc est dissimilitudo; et hoc est quia in
+          <lb ed="#Q"/>divinis propter unitatem essentiae una hypostasis
+          <lb ed="#Q"/>est' in altera et e converso, et ita licet sint duae
+          <lb ed="#Q"/>hypostases, non tamen duaek substantiae, id est
+          <lb ed="#Q"/>essentiae. Unde Damascenus 3: « Divinae hy<lb ed="#Q"/>postases
+          in se ipsis sunt, ut non multiplicatio<lb ed="#Q"/>nem
+          deorum' dicamus, secundum quod dicitur
+          <lb ed="#Q"/>in Evangelio 4: Ego in Patre et Pater in me est ».
+          <lb ed="#Q"/>ln hypostasibus vero humanis non sic est, immo
+          <lb ed="#Q"/>differunt plurima differentiam separativa: unde
+          <lb ed="#Q"/>non tantum dicuntur hypostases, immo etiam di<lb ed="#Q"/>versae
+          substantiae. Fit" igitur ut non sit una
+          <pb ed="#Q" n="595"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>hypostasis in divinis sub tribus relationibus vel
+          <lb ed="#Q"/>proprietatibus, sicut ponebat Manichaeusl quod
+          <lb ed="#Q"/>una erat a persona Patris et Filii et Spiritus Sancti,
+          <lb ed="#Q"/>quae quando volebat erat Pater, quando volebat
+          <lb ed="#Q"/>erat Spiritus Sanctus, 'et quando volebat erat 6
+          <lb ed="#Q"/>Filius; immo sicut distinctae sunt proprietatesf
+          <lb ed="#Q"/>et differentes, ita plures sunt habentes illas, qui "
+          <lb ed="#Q"/>dicuntur plures, sed subsistentes, ut habens hanc
+          <lb ed="#Q"/>proprietatem non sit' habens illam, qui intelli<lb ed="#Q"/>guntur
+          sine illis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e627">
+          <lb ed="#Q"/>Et ad hoc sunt rationes. Prima est talis: gene<lb ed="#Q"/>ratiof
+          in divinis dicitur per translationem; sed
+          <lb ed="#Q"/>generatio motus est; motus autem non est in ' ad
+          <lb ed="#Q"/>aliquid' secundum quod sic est, immo consequitur
+          <lb ed="#Q"/>relatio ad illud quod est terminus motus; unde
+          <lb ed="#Q"/>aliquo facto fit consequenter 'ad aliquid', et cor<lb ed="#Q"/>rupto
+          similiter desinit esse ' ad aliquid '; ergo ing
+          <lb ed="#Q"/>relatione oportet intelligere qui est principium
+          <lb ed="#Q"/>motus et qui est terminus motush; ergo praeter
+          <lb ed="#Q"/>illam relationem qua est Pater et qua est Filius,
+          <lb ed="#Q"/>oportet intelligere hunc et hunc. — Praeterea,
+          <lb ed="#Q"/>omne relativum' aliquid est extra hoc quod di<lb ed="#Q"/>citur
+          relative 2, ut nummus et arrha. Si ergo Pater
+          <lb ed="#Q"/>dicitur relative, praeter relationem est aliquid;
+          <lb ed="#Q"/>ergo praeter relationem est aliquis Pater et non
+          <lb ed="#Q"/>in uno et eodem est paternitas et filiatio et pro<lb ed="#Q"/>cessio;
+          ergo erunt ibi tres aliqui, exceptis rela<lb ed="#Q"/>tionibus; 
+          ergo tres distincti erunt praeter re<lb ed="#Q"/>lationes 3.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e671">
+          <lb ed="#Q"/>II. Hic non est praetermittendum, cum dictum
+          <lb ed="#Q"/>sit quod hypostasis est res naturae, ank conceden<lb ed="#Q"/>dum
+          sit' tres res esse Trinitatem, sicut tres hy<lb ed="#Q"/>postases;
+          et haec quaestio est de comparatione
+          <lb ed="#Q"/>hypostasis ad rem naturae.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e684">
+          <lb ed="#Q"/>Ad quod a. Augustinus, in libro De doc<lb ed="#Q"/>trina-christiana4:
+          « Res quibus fruendum est
+          <lb ed="#Q"/>beatos'" nos faciunt».
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e693">
+          <lb ed="#Q"/>Contra: 1. Dicitur consequenter 5 quod " « tres
+          <lb ed="#Q"/>personae sunt una summa res »; ergo non sunt
+          <lb ed="#Q"/>tres res.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e702">
+          <lb ed="#Q"/>2. Item, Damascenusüzk Aliud est consi<lb ed="#Q"/>derare
+          re, aliud ratione»; et dicit quod ista e
+          <lb ed="#Q"/>contrario se habent in creaturis et divinis. In
+          <lb ed="#Q"/>creaturis enim differentia re" consideratur: dif<lb ed="#Q"/>ferunt
+          enim secundum rem Petrus et Paulus;
+          <lb ed="#Q"/>communitas vero ratione consideratur; in divinis
+          <lb ed="#Q"/>autem-e converso: communitas sive unitas re<cb ed="#Q" n="b"/><lb ed="#Q"/>consideratur, 
+          differentia ratione, et ita personae
+          <lb ed="#Q"/>in divinis non differunt secundum rem; ergo non
+          <lb ed="#Q"/>sunt tres res.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e727">
+          <lb ed="#Q"/>3. Item, Hilarius, in libro De Trinitate7:
+          « Pater et Filius et Spiritus Sanctus solum no<lb ed="#Q"/>minibus
+          differunt». Non ergo re; ergo non sunt
+          <lb ed="#Q"/>tres res.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e737">
+          <lb ed="#Q"/>Respondeo 1. ad primum":- res dicitur du<lb ed="#Q"/>pliciter;
+          quandoque enim est' personale, et sic'di-'
+          <lb ed="#Q"/>cuntur tres personae tres res; quandoque autem
+          <lb ed="#Q"/>sumitur essentialiter, et':7 sic tres personae di<lb ed="#Q"/>cuntur
+          una res, 'non tres res '.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e750">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod ratio medium est
+          <lb ed="#Q"/>inter remet intellectum; et ratio, quae vana non
+          <lb ed="#Q"/>est, non causatur totaliter ab intellectu, sed a re.
+          <lb ed="#Q"/>Cum ergo dicit Damascenus quod in crea<lb ed="#Q"/>turis 
+          differentia consideratur re, communitas ra<lb ed="#Q"/>tione, 
+          non dicitur communitas considerari ratione
+          <lb ed="#Q"/>eo quod non sit aliqua communitas secundum
+          <lb ed="#Q"/>rem, sed quia communitas S secundum rem est ibi
+          <lb ed="#Q"/>diminuta, sed differentia perfecta; unde sequitur ':
+          'si creaturae differunt numero, quod differunt
+          <lb ed="#Q"/>simpliciter'; sed non sequitur: 'sunt unum ge<lb ed="#Q"/>nere",
+          unum specie, ergo sunt unum'; propter
+          <lb ed="#Q"/>hoc ergo dicitur quod communitas eorum non re
+          <lb ed="#Q"/>consideratur. ln divinis autem est e converso:
+          <lb ed="#Q"/>Sequitur enim: 'si personae sunt unum in es<lb ed="#Q"/>sentia,
+          quod sunt unum simpliciter'; sed non
+          <lb ed="#Q"/>sequitur: 'differunt secundum personas, ergo sunt
+          <lb ed="#Q"/>diversae simpliciter '. Licet ergo differentia per<lb ed="#Q"/>sonarum
+          sit secundum rem, tamen, quia ista dif<lb ed="#Q"/>ferentia
+          non facit diversitatem nisi secundum quid,<lb ed="#Q"/>ideo
+          dicit Damascenus quod differentia hy<lb ed="#Q"/>postasum
+          consideratur ratione, nonV re: non
+          <lb ed="#Q"/>enim in divinis est dicenda diversitas hyposta<lb ed="#Q"/>sum,
+          sed distinctio solum. '
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c7-d1e802">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod nomen dicitur
+          <lb ed="#Q"/>multipliciter: est enim nomen sensibile sive au<lb ed="#Q"/>dibile,
+          ut quo homines loquuntur sibi invicem,
+          <lb ed="#Q"/>et est nomen intelligibile, ut quo angeli « tradunt
+          <lb ed="#Q"/>sibi invicem intelligentias suas etx consilia»,
+          <lb ed="#Q"/>sicut dicit Damascenuss. Quorum nominum
+          <lb ed="#Q"/>diversitas non est sine aliqual' rei differentia:
+          <lb ed="#Q"/>unus enim intellectus non potest esse signum re-<lb ed="#Q"/>rum
+          multarum, licet un-u-m/nomen pdssit'signum
+          <lb ed="#Q"/>esse multorum intellectuum. Quod ergo dicit fii-'
+          <lb ed="#Q"/>larius, intelligitur de nomine: intelligibili, non
+          <lb ed="#Q"/>vocali, quod ponit'rei differentiam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="155"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m3c2">
+        <head xml:id="ahsh-l1p1i1t3q2m3c2-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 3, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t3q2m3c2-Hd1e3732" type="question-title">AN CAUSA PROXIMA FALSITATIS SIT IN SENSU VEL IN INTELLECTU.</head>
+        <div xml:id="ahsh-l1p1i1t3q2m3c2-Dd1e3735">
+          <head xml:id="ahsh-l1p1i1t3q2m3c2-Hd1e3737">Articulus I</head>
+          <head xml:id="ahsh-l1p1i1t3q2m3c2-Hd1e3740" type="question-title">An falsitas sit in sensu.</head>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3743">
+            <lb ed="#Q"/>Deinde quaeritur an falsitas habeat esse in sensu 
+            <lb ed="#Q"/>an etiam in intellectu.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3750">
+            <lb ed="#Q"/>1. Ad quod Augustinus, in Soliloquiis":
+            « Apparet nos in omnibus sensibus sive in aequa<lb ed="#Q"/>libus
+            sive in deterioribus rebusb similitudine le<lb ed="#Q"/>nocinante
+            falli aut c, etiam si non fallamur, sus<lb ed="#Q"/>pendentes
+            consensionem nostram aut etiam dif<lb ed="#Q"/>ferentias
+            dignoscentes, tamen eas res falsas nomi<lb ed="#Q"/>namus
+            quas veri similes deprehendimus ». Ergo in
+            <lb ed="#Q"/>sensibus contingit esse falsitatem.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3768">
+            <lb ed="#Q"/>2. Item, Augu stinus 2 inducit per sensus om<lb ed="#Q"/>nes,
+            ex quo contingit « ratiocinari veri "similitu<lb ed="#Q"/>dined
+            falsitatem », ute navigantibus aquamf vi<lb ed="#Q"/>detur
+            turris moveri quae stat 3, et in horologiis
+            <lb ed="#Q"/>audiri videtur cantus merulae vel corvi 4.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3782">
+            <lb ed="#Q"/>3. Item, Anselmus, in libro De veritate5: « Est
+            <lb ed="#Q"/>quidem in sensibus corporis veritas, sed non
+            <lb ed="#Q"/>semper: nam fallunt nos aliquando. Nam cum
+            <lb ed="#Q"/>video aliquando per medium vitrum aliquid, fallit
+            <lb ed="#Q"/>me visus, quia aliquando renuntiat mihi corpus,
+            <lb ed="#Q"/>quod video ultra vitrum, eiusdem esse coloris
+            <lb ed="#Q"/>cuius est vitrum, cum alterius sit coloris; ali<lb ed="#Q"/>quando
+            vero facit me putareg vitrum habere co<lb ed="#Q"/>lorem
+            rei quam ultra video, cum non habeat.
+            <lb ed="#Q"/>Multa sunt alia, in quibus sensus visus et alii
+            <lb ed="#Q"/>sensus fallunt ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3808">
+            <lb ed="#Q"/>Contra: a. Augu stinus, De vera religione 6:
+            «Ipsi oculi non fallunt: non enim renuntiare'x
+            <lb ed="#Q"/>possunt animo nisi affectionem; quod si non so<lb ed="#Q"/>lum
+            ipsi 1, sed et omnes corporis sensus ita nun<lb ed="#Q"/>tiantk
+            ut afficiuntur, quid amplius ab eis exigere
+            <lb ed="#Q"/>debemus ignoro ». Relinquitur ergo' ex hoc quod
+            <lb ed="#Q"/>ln sensibus non est falsitas.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3824">
+            <lb ed="#Q"/>b. Item 7. « si quis remum fractum in aqua opina<lb ed="#Q"/>tur,
+            quando auferetur, integrari, non malum habet
+            <lb ed="#Q"/>Internuntium, sed malus est iudex: nam ille pro
+            5111 natura non potuit aliter in aqua sentire nec
+            <lb ed="#Q"/>aliud debuit. Si enim aliud est aer, aliud'" aqua,
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>iustum est ut aliter in aere, aliter in aqua sen<lb ed="#Q"/>tiatur ». 
+            Relinquitur igitur quod falsitas non ha<lb ed="#Q"/>bet 
+            locum in sensu.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3844">
+            <lb ed="#Q"/>Respondeo, secundum Ans'elmum, in libro
+            <lb ed="#Q"/>De veritates: Est sensus exterior sive particu<lb ed="#Q"/>laris,
+            in quo non accidit falsitas; et est" sensus
+            <lb ed="#Q"/>interior sive communis, ad quem pertinet iudicare
+            <lb ed="#Q"/>differentias et communia sensuum et componere
+            <lb ed="#Q"/>et dividere de sensibilibus: et in ipso accidit fal<lb ed="#Q"/>sitas,
+            sicut dicit <name ref="#Anselm">Anselmus</name> iis verbis: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e3864">«Non
+            <lb ed="#Q"/>mihi videtur falsitas in sensibus esse, sed in opi<lb ed="#Q"/>nione
+            ; ipse namque sensus interior se fallit, non
+            <lb ed="#Q"/>illi" mentitur exterior. Quod facile cognoscitur.
+            <lb ed="#Q"/>Cum enim puer timet sculptum draconem aperto
+            <lb ed="#Q"/>ore, facile cognoscitur quia non fallit visus, sed
+            <lb ed="#Q"/>puerilis sensus interior, qui nondum!" bene scit
+            <lb ed="#Q"/>discernere inter rem et rei similitudinem. Quod
+            <lb ed="#Q"/>autem dicis de vitro, ideo est quia, cum? visus
+            <lb ed="#Q"/>transit per aliquod corpus aörei coloris, non aliter
+            <lb ed="#Q"/>impeditur assumere similitudinem coloris quem'
+            <lb ed="#Q"/>ultra videt, quam cum transit per aera, nisi in
+            <lb ed="#Q"/>quantum illud corpus, quod transit, spissius aut
+            <lb ed="#Q"/>obscurius est aere: ut cum transit per vitrum sui
+            <lb ed="#Q"/>coloris, id est cui nullus alius admixtus est color,
+            <lb ed="#Q"/>aut per purissimam aquam aut per crystallum aut
+            <lb ed="#Q"/>per aliuds similem habensf colorem; cum vero
+            <lb ed="#Q"/>transit idem visus per alium colorem, ut per vi<lb ed="#Q"/>trum
+            non" sui coloris, sed cui alius color est
+            <lb ed="#Q"/>additus, ipsum colorem, qui prius occurrit, accipit.
+            <lb ed="#Q"/>Quapropter quoniam post unum acceptum colo<lb ed="#Q"/>rem,
+            secundum quod illo affectus est, alium, qui<lb ed="#Q"/>cumque
+            occurrat, aut nullatenus aut minus integre
+            <lb ed="#Q"/>suscipit, ideo illum, quem prius cepit, aut solum
+            <lb ed="#Q"/>aut cum eo, qui post occurrit, renuntiat. Si enim
+            <lb ed="#Q"/>visus, quantum capax est coloris, tantum afficitur
+            <lb ed="#Q"/>priori colore, non potest alium simul sentire co<lb ed="#Q"/>lorem;
+            si autem minus quam colorem sentire
+            <lb ed="#Q"/>possit, priori afficitur, potest alium sentire: ut si
+            <lb ed="#Q"/>transit per aliquod corpus, velut per vitrum quod
+            <pb ed="#Q" n="156"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>ita sit perfecte rubicundum ut omnino ipse" visus
+            <lb ed="#Q"/>afficiatur eius rubore, nequit diverso simul affici
+            <lb ed="#Q"/>colore. Si autem non tantum perfectum invenit
+            <lb ed="#Q"/>ruborem, qui priorï7 occurrit, quantum coloris
+            <lb ed="#Q"/>capax est, quasi nondum plenus, adhuc alium
+            <lb ed="#Q"/>valet assumere colorem, in quantum eius capa<lb ed="#Q"/>citas 
+            priori colore non est satiata. Qui autem:
+            <lb ed="#Q"/>hoc nescit, putat visum renuntiare, quia omnia
+            <lb ed="#Q"/>quae post prius assumptum colorem sentit aut
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>omnino aut aliquatenus eiusdem sunt coloris;
+            <lb ed="#Q"/>unde contingit ut sensus interiord culpam suam
+            <lb ed="#Q"/>imputet sensui exteriori *. Similiter, cum fustis in<lb ed="#Q"/>teger, 
+            cuius pars est intra aquam et pars extra,
+            <lb ed="#Q"/>putatur fractus, non culpa sensuum est, quia re<lb ed="#Q"/>nuntiant 
+            quod possunt, quoniamf ita posse acce<lb ed="#Q"/>perunt, 
+            sed iudicio animae imputandum est quod
+            <lb ed="#Q"/>non bene discernit quid illi possint aut quid
+            <lb ed="#Q"/>debeant»</quote>. Haec <name ref="#Anselm">Anselmus</name>.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q2m3c2-Dd1e3980">
+          <head xml:id="ahsh-l1p1i1t3q2m3c2-Hd1e3982">ARTICULUS II</head>
+          <head xml:id="ahsh-l1p1i1t3q2m3c2-Hd1e3985" type="question-title">An falsitas sit in intellectu. '</head>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3988">
+            <lb ed="#Q"/>Item, quaeritur an possit esse falsitas in intel<lb ed="#Q"/>lectu.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3995">
+            <lb ed="#Q"/>a. Augustinus, De vera religione': «Ego
+            <lb ed="#Q"/>unus sum, et hoc loco sentio corpus meum, et
+            <lb ed="#Q"/>tamen figmento cogitationis pergo quolibet et lo<lb ed="#Q"/>quor 
+            cum quolibet: falsa sunt haec, neci quis<lb ed="#Q"/>quam 
+            intelligit falsa. Non ergo intelligo, cum ista
+            <lb ed="#Q"/>contemplor, quia verum esse oportet quod * intel<lb ed="#Q"/>lectu 
+            contemplor ». Cum ergo ea quae fiunt in
+            <lb ed="#Q"/>intellectu, fiant intelligendo, curn falsitas non pos-
+            <lb ed="#Q"/>sit intelligi, non potest fieri in intellectu.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e4017">
+            <lb ed="#Q"/>Contra: l. <name ref="#Augustine">Augustinus</name>: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e4024">«Lux vera est
+            <lb ed="#Q"/>qua haec omnia non esse vera cognoscis »</quote>; sed
+            <lb ed="#Q"/>constat quod illa est prima veritas, quae est lux
+            <lb ed="#Q"/>solius intellectus; intellectu ergo cognoscuntur
+            <lb ed="#Q"/>praedicta falsa non esse' vera; ergo intellectus
+            <lb ed="#Q"/>apprehendit ipsa falsa. Quomodo ergo si falsa
+            <lb ed="#Q"/>sunt in intellectu, non erit falsitas in eodem?
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e4042">
+            <lb ed="#Q"/>2. Item, nonne contingit errare circa' intelligi<lb ed="#Q"/>bilia, 
+            quae non percipiuntur sensu, ut circa di-
+            <lb ed="#Q"/>vina? Ergo falsitas erit in intellectu, non solum
+            <lb ed="#Q"/>apprehendendo, sed credendo vel assentiendo.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e4053">
+            <lb ed="#Q"/>Respondeo: Rectitudo est principium cogno<lb ed="#Q"/>scendi 
+            rectum et obliquum, et ars principium
+            <lb ed="#Q"/>cognoscendi virtutem et vitium, et lux principium
+            <lb ed="#Q"/>cognoscendi luminosum et tenebrosum esseo lu<lb ed="#Q"/>cem 
+            et tenebras; non tamen obliquitas est in
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>recto nec vitium in virtute nec tenebra in luce:
+            <lb ed="#Q"/>sic lux recti intellectus, quae est veritas, est prin<lb ed="#Q"/>cipium 
+            cognoscendi tenebram falsi. Nec sequitur
+            <lb ed="#Q"/>falsitatem esse in intellectu: quia non cognos'citur
+            <lb ed="#Q"/>per se, sed per accidens, hoc est per aliud, et
+            <lb ed="#Q"/>illud est verum; sicut obliquum cognoscitur per
+            <lb ed="#Q"/>rectum, in quantum est per declinationem .a
+            <lb ed="#Q"/>recto.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e4086">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Et per hoc patet responsio ad
+            <lb ed="#Q"/>primo obiectum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e4093">
+            <lb ed="#Q"/>2. Ad secundum dicendum quod est intel<lb ed="#Q"/>lectus 
+            rectus et non rectus. Rectus est, cum est
+            <lb ed="#Q"/>ad quod est, scilicet ad cognoscendum rem se<lb ed="#Q"/>cundum 
+            quod est; unde intellectus dicitur ab
+            <lb ed="#Q"/>'intus legendo ', quia intuetur prout se habet ve<lb ed="#Q"/>ritas 
+            interius, non prout apparet exterius; et hoc
+            <lb ed="#Q"/>modo nihil-contemplamur intellectu quod non sit
+            <lb ed="#Q"/>verum. Intellectus non rectus est, cum incidit in
+            <lb ed="#Q"/>quod natus non est; non est autem natus ut iu-
+            <lb ed="#Q"/>dicet per rei apparentiam: ad hoc enim nata est
+            <lb ed="#Q"/>phantasia, quae dicitur a epowo'r. quod est appa<lb ed="#Q"/>ritio, 
+            quae scilicet nata est ad discernenda ea
+            <lb ed="#Q"/>quae apparent; cum ergo hocP modo iudicat in<lb ed="#Q"/>tellectus, 
+            iam non est rectus, sed phantasticus, et
+            <lb ed="#Q"/>in eo contingit esse errorem. Unde <name ref="#Augustine">Augusti<lb ed="#Q"/>nus</name>, <title>De vera religione</title> 3, dicit quod hoc modo
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e4137">«phantasmataq dici solent; unde4: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e4139">Anima mea
+            <lb ed="#Q"/>impleta est illusionibus</quote> »</quote>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

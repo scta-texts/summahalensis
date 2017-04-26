@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, M. 2, C. 2</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="24"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2m2c2">
+        <head xml:id="ahsh-l1tinq2m2c2-Hd1e3732">I, Tract. Intro., Q. 2, M. 2, C. 2</head>
+        <head xml:id="ahsh-l1tinq2m2c2-Hd1e3735" type="questionTitle">UTRUM POSSIT DEUS COGNOSCI A BONIS ET A MALIS</head>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3738">
+          <lb ed="#Q"/>Postea quaeritur utrum possit Deus' cognosci
+          <lb ed="#Q"/>a bonis et a' malis.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3745">
+          <lb ed="#Q"/>Et probatur quod none: I. 'i. Augustinus,
+          <lb ed="#Q"/>in libro De Trinitate 9: « Mentis humanae acies
+          <lb ed="#Q"/>invalida. in tam excellenti luce non figitur, nisi
+          <lb ed="#Q"/>per iustitiam fidei emundetur ». Ergo non potest
+          <lb ed="#Q"/>cognosci nisi a mundis.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3758">
+          <lb ed="#Q"/>2. Item, Augustinus lc': « Trinitas, quae est
+          <lb ed="#Q"/>summum bonum, purgatissimis mentibus cerni<lb ed="#Q"/>tur
+          ». Ergo requiritur/', ad hoc quod cernatur, pur<lb ed="#Q"/>gatissima
+          mens; non ergo potest cognosci' a
+          <lb ed="#Q"/>malis.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3772">
+          <lb ed="#Q"/>3. item, Matth. 5,s: Beati mundo corde, quoniam
+          <lb ed="#Q"/>ipsi Deum videbunt. Ambrosius ": «Si qui
+          <lb ed="#Q"/>mundo corde Deum videbunt, ergo alii'" non vi<lb ed="#Q"/>debunt;
+          neque enim indigni Deum videbunt, ne<lb ed="#Q"/>que
+          is qui Deum videre voluerit, potest videre
+          <lb ed="#Q"/>Deum ». .
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3788">
+          <lb ed="#Q"/>II. Contra: 1. Rom. 1,21: Qui cum " cognovis<lb ed="#Q"/>sent
+          Deum etc. non sicut Deum glorificaverunt etc.
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Et in eodem, 19: Quod notum est Dei, manife<lb ed="#Q"/>stum
+          est-in " illis', "
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3801">
+          <lb ed="#Q"/>2. Item, Augustinus, in libro Retractatio—
+          <lb ed="#Q"/>num 12, retractans illud quod dixerat in Soliloqniis'3,
+          <lb ed="#Q"/>dicens: «Non approbo quod in oratione dixi:
+          'Deus, qui non nisi mundos verum" scire volui<lb ed="#Q"/>sti';
+          responderi enim potest multos-non mundos
+          <lb ed="#Q"/>multa vera scivisse », etiam de Deo.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3814">
+          <lb ed="#Q"/>3. Item, Iob 1, o legitur quod ipse diabolus venit
+          <lb ed="#Q"/>ante conspectum Dei interfilios Dei. Ergo ipse dia<lb ed="#Q"/>bolus,
+          qui est immundissimus, conspexit Deum 'I.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3823">
+          <lb ed="#Q"/>4. Item, Apoc. l,7: Ecce venit cum nubibus,
+          <lb ed="#Q"/>et videbit eum omnis oculus et qui eum pupuge<lb ed="#Q"/>runt.
+          Ergo mali videbunt eum in iudicio
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3832">
+          <lb ed="#Q"/>Respondeo: Sicut dictum est ", est cognitio de
+          <lb ed="#Q"/>Deo ' quia est', et haec potest esse malorum; et
+          <lb ed="#Q"/>est cognitio de Deo 'quid est ', et haec duobus
+          <lb ed="#Q"/>modis: quid est secundum operationem in crea<lb ed="#Q"/>turis,
+          ut quia potens in operatione, sapiens in
+          <lb ed="#Q"/>gubernatione, iustus in retributione, et hoc modo
+          <lb ed="#Q"/>etiam potest cognosci a malis; et est cognitio
+          <pb ed="#Q" n="25"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>de Deo quid in se est", et hoc "modo non est 
+          <lb ed="#Q"/>cognoscibilis a malis. '
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3859">
+          <lb ed="#Q"/>[Ad obiecta.]: Respondendnm ergo ad obiecta 
+          <lb ed="#Q"/>utriusque partis:
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3866">
+          <lb ed="#Q"/>l. 1. Ad primum iam patet solutio, quia in<lb ed="#Q"/>tellectus
+          malorum non figitur in ipsa luce, quia
+          <lb ed="#Q"/>non videt eam in se, sed in umbra creaturae.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3875">
+          2. Ad secundum dicendum ut fiat vis in hoc
+          <lb ed="#Q"/>quod dico ' cernere ', et assignetur differentia eius
+          <lb ed="#Q"/>quod est 'cernere' et eius quod est 'videre'. "Vi<lb ed="#Q"/>dere'
+          enim est remi sub specie aliqua apprehen<lb ed="#Q"/>deref;
+          'cernere' vero est rem sub certa specie et
+          ' distincta et determinata apprehendere. Propterea **
+          <lb ed="#Q"/>ille qui videt a remotis hominem et non discernit
+          <lb ed="#Q"/>an sit homo, sed corpus aliquod vel animal 1, non
+          <lb ed="#Q"/>dicitur 'cernere', quamvis dicatur ' videre'; sed
+          <lb ed="#Q"/>cum videt eum de prope sub sua certa specie, tunc
+          <lb ed="#Q"/>dicitur 'cernere '. —- Secundum istum modum di<lb ed="#Q"/>cendum
+          quod, cum cognoscatur Deus per effectus
+          <lb ed="#Q"/>naturales et per effectus gratiaei —- in «effectibus
+          <lb ed="#Q"/>naturalibus cognoscitur Deus sub ratione bonitatis
+          <lb ed="#Q"/>generali, qua est participabilis ab omni creatura;
+          <lb ed="#Q"/>in effectibus vero gratiae participatur sub ratione
+          <lb ed="#Q"/>bonitatis speciali, qua solum praebet se animabus
+          <lb ed="#Q"/>sanctis ut dulcis et delectabilis —- ideo primo modo
+          <lb ed="#Q"/>dicetur * videri ' aliquo modo, sed secundo modo
+          'cerni'; ldeo, quamvis a malis aliquo modo 'vi<lb ed="#Q"/>der?
+          possit.;in effectibus naturae, tamen a purgatis<lb ed="#Q"/>simis
+          mentibus 'cerni' potest in effectibus gratiae.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3919">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod est videre Deum
+          <lb ed="#Q"/>in eo quod est, scilicet in se, et est videre Deum
+          <lb ed="#Q"/>in eo quod non est, scilicet in suo eiiectu, quod
+          <lb ed="#Q"/>non est ipse, 'sed ab ipso. Primo modo vide<lb ed="#Q"/>turf
+          solum a mundis corde, secundo modo vide<cb ed="#Q" n="b"/><lb ed="#Q"/>tur 
+          a malis - Item, Augustinus, in libro De vi<lb ed="#Q"/>dendo 
+          Deo 2: « Si nostra voluntas apud se manens
+          <lb ed="#Q"/>et latens, sine ulla sui"l commutatione, per quas se
+          <lb ed="#Q"/>extendat exprimit voces, quanto facilius Deus orn<lb ed="#Q"/>nipotens,
+          sua latente et incommutabiliter manente
+          <lb ed="#Q"/>natura, in qua voluerit specie et cui voluerit pote<lb ed="#Q"/>rit
+          appareret Ad visionem vero illam, in qua vi<lb ed="#Q"/>debimus
+          eum sicuti est, munda corda perveniunt ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3951">
+          <lb ed="#Q"/>II. 1—2. Ad obiecta. alterius partis iam patet
+          <lb ed="#Q"/>solutio quantum ad primum et secundum.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3958">3. Ad tertium * tamen dicendum, secundum
+          <lb ed="#Q"/>quod dicit Augustinus, in libro De videndo
+          <lb ed="#Q"/>Deo 3: « Quod scriptum est venisse angelos in con<lb ed="#Q"/>spectum'
+          Dei, non ideo diabolusvidisse Deum
+          <lb ed="#Q"/>credendus est-; ipse enim dicitur venisse in con<lb ed="#Q"/>spectum
+          Dei, non Deus in conspectum eius; ve<lb ed="#Q"/>niunt
+          autem in conspectum '" nostrum quae vide<lb ed="#Q"/>mus,
+          non a quibus videmur ». —— Si ergo obi<lb ed="#Q"/>ciatur,
+          quod " semper diabolus venit in conspec<lb ed="#Q"/>tum
+          Dei, cum " semper videatur a Deo: respon<lb ed="#Q"/>dendumP
+          quod, quamvis sit in conspectu Dei
+          <lb ed="#Q"/>quantum ad sapientiam, quae omnia videt, tamen
+          <lb ed="#Q"/>dicitur venire in conspectum Dei quantum ad or<lb ed="#Q"/>dinem
+          iustitiae, qua ordinatur differenter mala vo—
+          <lb ed="#Q"/>luntas diaboli ad tentationem bonorum, sicut in
+          <lb ed="#Q"/>lob 4, et ad seductionem reproborum, sicut lll
+          <lb ed="#Q"/>Reg. 22 5 de Achab. Unde distinguetur conspectus
+          <lb ed="#Q"/>sapientiae et conspectus iustitiae.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c2-d1e3998">
+          4. Ad ultimum respondet Augustinus, in.
+          <lb ed="#Q"/>eodem libro De videndo Deo ö.: « Videbant in quem
+          <lb ed="#Q"/>pupugerunt 7, secundum humanam formam, non ii<lb ed="#Q"/>lam
+          Dei formam, in qua non rapinam arbitratus
+          <lb ed="#Q"/>est esse se aequalem Deo 8; in illa Dei torma tunc
+          <lb ed="#Q"/>videbunt eum, qui videbunt eum sicut est ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

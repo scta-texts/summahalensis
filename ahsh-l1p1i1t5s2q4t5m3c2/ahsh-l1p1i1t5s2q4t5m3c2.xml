@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-24">March 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="352"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t5m3c2">
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m3c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 3, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m3c2-Hd1e3744" type="question-title">UTRUM LIBER VITAE SIT RESPECTU OMNIUM CREATURARUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c2-d1e3747">
+          <lb ed="#Q"/>Deinde quaeritur utrum liber vitae' sit omnium
+          <lb ed="#Q"/>aut solum rationalium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c2-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: 1. Ioan. 1,3—4: Quod factum est,
+          <lb ed="#Q"/>in ipsa vita erat, quia rationes omnium viven<lb ed="#Q"/>tium
+          sunt in ipso 7. Sicut enim arca in mente
+          <lb ed="#Q"/>artificis vivit vita artificis, arca tamen in opere 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>non vivit 5, ita 'omnia vivunt in Deo et sunt vita
+          <lb ed="#Q"/>in ipso, licet multa" non vivant in natura sua; si
+          <lb ed="#Q"/>ergo omnia" sunt vita in ipso, quia rationes om<lb ed="#Q"/>nium
+          vivunt" in ipso et possunt legi illa in ipso,
+          <lb ed="#Q"/>ergo ipse potest dici liber .vitae respectu omnium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c2-d1e3778">
+          <lb ed="#Q"/>2. Item, Apoc. 3, 5, super illud: Qui vicerit,
+          <lb ed="#Q"/>non delebo eum de libro vitae, Glossa 9: « Liber
+          <pb ed="#Q" n="352"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>vitae est praescientia Dei, in quo omnia sunt
+          <lb ed="#Q"/>constantia». Ergo liber vitae est respectu om<lb ed="#Q"/>nium,
+          quia omnia constant in ipso 1.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c2-d1e3797">
+          <lb ed="#Q"/>Contra: a. Augustinus, XX De civitate Dei?:
+          «Liber vitae est praedestinatio eorum quibus
+          <lb ed="#Q"/>aeterna dabitur vita »; sed vita aeterna non om<lb ed="#Q"/>nibus
+          dabitur, sed solum electis hominibus; non
+          <lb ed="#Q"/>ergo liber vitae dicitur respectu omnium creatu<lb ed="#Q"/>rarum,
+          sed solum rationalium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c2-d1e3810">
+          <lb ed="#Q"/>Respondeo: Liber vitae non dicitur'1 respectu
+          <lb ed="#Q"/>cuiuscumque creaturae, sed respectu rationalium
+          <lb ed="#Q"/>tantum. Et notandum quod quaedam dicuntur
+          <lb ed="#Q"/>vivere in se, quaedam in alio. Res enim inani<lb ed="#Q"/>matae
+          non vivunt in se, sed solum b in alio, quia
+          <lb ed="#Q"/>non habent principium vitae in se,.sed solum in
+          <lb ed="#Q"/>Deo; et cum dicuntur res vivere in Deo, non cli<lb ed="#Q"/>cuntur
+          vivere in sua natura seu in proprio ge<lb ed="#Q"/>nere,
+          sed in mente divina. Animata vero vivunt
+          <lb ed="#Q"/>in se seu in proprio generet; sed istorum quae<lb ed="#Q"/>dam
+          vivunt vita non libera, quaedam vero vita
+          <lb ed="#Q"/>libera: vita non libera d vivunt vegetabilia et sen<lb ed="#Q"/>sibilia,
+          quia vegetabilia de necessitate ordinantur
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>ad quosdam actus, sensibilia etiam" non mo<lb ed="#Q"/>ventur
+          secundum libertatem, sed secundum im<lb ed="#Q"/>petum,
+          et ideo nec anima vegetabilis nec sensi<lb ed="#Q"/>bilis
+          habet vitam liberam, quia non est domina
+          <lb ed="#Q"/>sui actus: sola enim anima rationalis habet li<lb ed="#Q"/>beram
+          vitam, quia est domina sui actus, et ideo
+          <lb ed="#Q"/>actus eius sunt laudabiles et vituperabiles, et
+          <lb ed="#Q"/>circa hos consistit meritum vel demeritum. Liber
+          <lb ed="#Q"/>ergo vitae non dicitur respectu cuiuscumque vi<lb ed="#Q"/>tae,
+          sed respectu vitae quaef meritoria potest
+          <lb ed="#Q"/>esse vitae aeternae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c2-d1e3867">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Et per hoc patet solutio ad
+          <lb ed="#Q"/>primum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c2-d1e3874">
+          <lb ed="#Q"/>2. Ad secunduum dicendum quod omnia quae
+          <lb ed="#Q"/>sunt in praescientia Dei sunt in ipsa constantia,
+          <lb ed="#Q"/>sicut dicit Glossa Apoc. 3,5. Nec propter hoc
+          <lb ed="#Q"/>sequitur quod omnia sint in libro vitae, quia
+          <lb ed="#Q"/>licet idem sint in essentia liber vitae et prae<lb ed="#Q"/>scientia,
+          non tamen quaecumque sunt in prae<lb ed="#Q"/>scientia
+          sunt in libro vitae, quia praescientia est
+          <lb ed="#Q"/>respectu futurorum, liber vitae tantum respectu
+          <lb ed="#Q"/>electorum, et ideo non tenet argumentatio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

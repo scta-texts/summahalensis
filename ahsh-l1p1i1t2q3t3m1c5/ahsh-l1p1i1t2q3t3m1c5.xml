@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. I, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="76"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t3m1c5">
+        <head xml:id="ahsh-l1p1i1t2q3t3m1c5-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. I, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t2q3t3m1c5-Hd1e3732" type="question-title">UTRUM PRAEDICTIS TRIBUS MODIS EXlSTAT DEUS lN REBUS AEQUALITER.</head>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3735">
+          <lb ed="#Q"/>Quinto quaeritur utrum praedictis tribus modis
+          <lb ed="#Q"/>existat Deus in rebus aequaliter sive unifor<lb ed="#Q"/>miter
+          vel non 1.
+        </p>
+        
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3744">
+          <lb ed="#Q"/>Ad quod sic: 1. Augustinus, in libro De
+          <lb ed="#Q"/>praesentia Dei, Ad Dardanum 2, insinuat duplicem
+          <lb ed="#Q"/>modum existendi Deum in creaturis, scilicet ge<lb ed="#Q"/>neralem,
+          qui est secundum praedictos modos, et
+          <lb ed="#Q"/>specialem, qui est per inhabitantem gratiam. Unde
+          <lb ed="#Q"/>dicit: «Deus, natura incorporea et immutabiliter
+          <lb ed="#Q"/>una, totus adesse omnibus rebus potest et" sin<lb ed="#Q"/>gulis
+          totus, quamvis illi ", in quibus habitat, ha<lb ed="#Q"/>beant
+          eum pro suae capacitatis diversitate, alii
+          <lb ed="#Q"/>amplius :, alii minus ». Si ergo isti modi referun<lb ed="#Q"/>tur
+          ad modum" generalem, ergo secundum illos
+          <lb ed="#Q"/>est aequaliter in omnibus rebus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3773">
+          <lb ed="#Q"/>2. Item, esse non recipit magis et minus 3; ergo
+          <lb ed="#Q"/>si in rebus est, quantum ad esse secundum istos
+          <lb ed="#Q"/>modos non est magis et minus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3783">
+          <lb ed="#Q"/>3. Item, Philosophus, in libro De caua-ist:
+          <lb ed="#Q"/>« Causa prima est in omnibus rebus secundum
+          <lb ed="#Q"/>dispositionem unam ** ». Ergo nec plus nec minus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3792">
+          <lb ed="#Q"/>Contra: a. Augustinus, in libro De natura
+          <lb ed="#Q"/>boni 5, distinguens modum, speciem et ordinem,
+          <lb ed="#Q"/>dicit: « Ubi haec magna sunt, magnum bonum
+          <lb ed="#Q"/>est, et ubi maiora, maius bonum est, et ubi nulla,
+          <lb ed="#Q"/>nullum bonum est »; sed secundum ista partici<lb ed="#Q"/>patur
+          divina bonitas; ergo magis et minus par<lb ed="#Q"/>ticipatur
+          ; ergo secundum' magis et minus par<lb ed="#Q"/>ticipatur
+          in creaturis secundum illos modos.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3812">
+          <lb ed="#Q"/>b. Item, quaedam res magis conservantur a Deo,
+          <lb ed="#Q"/>quaedam minus, sicut res incorruptibiles magis
+          <lb ed="#Q"/>conservantur quam corruptibiles; ergo magis est
+          <lb ed="#Q"/>in quibusdam rebus praesentialiter quam in aliis,
+          <lb ed="#Q"/>cum in rebus dicatur esse praesentialiter quantum
+          <lb ed="#Q"/>ad conservationem 6.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3828">
+          <lb ed="#Q"/>Solutio: Dicendum quod contingit loqui de di<lb ed="#Q"/>vina
+          essentia dupliciter: in se, et sic semper se
+          <lb ed="#Q"/>habet aequaliter et secundum dispositionem unam;
+          <lb ed="#Q"/>vel secundum quod participari dicitur a creaturis,
+          <lb ed="#Q"/>et sic non dicitur se habere secundum disposi<lb ed="#Q"/>tionem
+          unam, sed secundum magis et minus. Nam
+          <lb ed="#Q"/>creaturae quaedam sunt in participatione essen<lb ed="#Q"/>tiae;
+          quaedamf in participatione essentiae et vi<lb ed="#Q"/>tae
+          ; quaedam in participatione essentiae et vitae
+          <lb ed="#Q"/>et cognitionis "'. Sed haec inaequalitas non est
+          <lb ed="#Q"/>ex parte ipsius, sed ex parte creaturarum partici<lb ed="#Q"/>pantium
+          ipsam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3857">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum obiectum dicen<lb ed="#Q"/>dumg
+          quod differt dicere 'divina essentia est in
+          <lb ed="#Q"/>rebus' et 'divina essentia habetur': quia non pos<lb ed="#Q"/>sum
+          dicere quod habeatur, nisi'l ubi est per in<lb ed="#Q"/>habitantem
+          gratiam, quia gratia habitus est per
+          <lb ed="#Q"/>quam efficitur anima deitormis; quod autem
+          <lb ed="#Q"/>est deiforme dicitur habere divinam formam et
+          <lb ed="#Q"/>sic per consequens Deum. Et propter hoc se<lb ed="#Q"/>cundum
+          istos modos generales non 'habetur' a
+          <lb ed="#Q"/>rebus, sed secundum ipsos 'est' in rebus et ab
+          <lb ed="#Q"/>ipsis participatur. Licet ergo secundum istos
+          <lb ed="#Q"/>modos non habeatur secundum magis et mi<lb ed="#Q"/>nus,
+          tamen secundum ipsos participatur plus vel
+          <lb ed="#Q"/>minus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3890">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod est esse
+          <lb ed="#Q"/>duplex, scilicet essei naturae et esse ordinis.
+          <lb ed="#Q"/>Primum ergo esse non recipit magis" et minus,
+          <lb ed="#Q"/>sed secundum: et a parte illius esse participatur
+          <lb ed="#Q"/>divina bonitas a creaturis secundum1 magis et
+          <lb ed="#Q"/>minus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3907">
+          <lb ed="#Q"/>3. Et per hoc solvitur tertia ratio. Et ra<lb ed="#Q"/>tione
+          huius dicit Hugoa: «Quantum ad esse
+          <lb ed="#Q"/>semper est uniformis, tamen quantum ad esse
+          <lb ed="#Q"/>in aliis et in aliis, magis et minus'" ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

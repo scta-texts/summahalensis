@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 1, M. 4, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-18">March 18, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="326"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t1m4c2">
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m4c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. I, M. 4, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m4c2-Hd1e3744" type="question-title">AN PRAEDESTINATIO PONAT ALIQUEM EPFECTUM IN PRAEDESTINATO.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3747">
+          <lb ed="#Q"/>Quantum ad secundum proceditur sic: 1. Ioan.
+          <lb ed="#Q"/>1,50, Glossa Augustini': «Melius fuit
+          <lb ed="#Q"/>Nathanaeli cognoscere utramque naturam in Chri<lb ed="#Q"/>sto
+          quam esse praedestinatum -; sed non fieret
+          <lb ed="#Q"/>comparatio nisi praedestinatio esset aliquod bo<lb ed="#Q"/>num
+          in praedestinata ; ergo etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3763">
+          <lb ed="#Q"/>2. item, Augustinus 2: « Praedestinatio mul<lb ed="#Q"/>tis/
+          fuit causa standi :.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3770">
+          <lb ed="#Q"/>3. Item, Luc. 10,20: <quote xml:id="ahsh-l1p1i1t5s2q4t1m4c2-Qd1e3774" ana="#lc10_20">Gaudete, quia nomina ve<lb ed="#Q"/>stra</quote>
+          etc.; sed ! gaudium non est nisi de bono ; ergo
+          <lb ed="#Q"/>praedestinatio est aliquod bonum in praedestinato.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3783">
+          <lb ed="#Q"/>Contra: a. Praedestinatio est non-entis"; in
+          <lb ed="#Q"/>non-ente nihil ponitur; ergo praedestinatio nihil
+          <lb ed="#Q"/>ponit in praedestinato.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3792">
+          <lb ed="#Q"/>b. item, Augustinus, in libro De fide ad
+          <lb ed="#Q"/>Petrumt: « Nisi non esses, non praedestinareris ».
+          <lb ed="#Q"/>Ergo praedestinatio est non-entis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3801">
+          <lb ed="#Q"/>c. Item, si' praedestinatio ponit aliquod bo<lb ed="#Q"/>num,
+          ergo reprobatio ponit aliquod malum; ergo
+          <lb ed="#Q"/>in Esau tuit aliquod malum antequam esset; sed
+          <lb ed="#Q"/>hoc * falsum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3812">
+          <lb ed="#Q"/>Respondeo: Praedestinatio nullum bonum1 po<lb ed="#Q"/>nit
+          secundum actum, sed secundum habitum tan<lb ed="#Q"/>tum,
+          hoc est secundum aliquod tempus. Non
+          <lb ed="#Q"/>enim sequitur: ' est praedestinatus, ergo est ', sed
+          <lb ed="#Q"/>sequitur: 'ergo erit habens gratiam et gloriam ';
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>unde ponitur potentia ad gratiam et gloriam: po<lb ed="#Q"/>tentiam
+          dico non in recipiente, sed in agente. Se<lb ed="#Q"/>cundum
+          actum ergo praedestinatio nihil ponit 'in
+          <lb ed="#Q"/>praedestinata, sed in Deo ponit secundum actum
+          <lb ed="#Q"/>praeparationem, sicut cum dicitur ' Caesar lauda<lb ed="#Q"/>tur
+          ', nihil ponitur in Caesare, sed in laudante.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3841">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud'" de Nathanaele
+          <lb ed="#Q"/>volunt quidam5 dicere quod impropria sit'l
+          <lb ed="#Q"/>comparatio. Sed melius dicendum, secundum il<lb ed="#Q"/>lud
+          quod sequitur in illa Glossat: «Melius
+          <lb ed="#Q"/>tuit Nathanaeli etc. quam esse praedestinatum et
+          <lb ed="#Q"/>esse in umbra mortis ». Unde vult comparare
+          <lb ed="#Q"/>electos ante incarnationem electis post incama<lb ed="#Q"/>tionem;
+          et multo melius est electis post incarna<lb ed="#Q"/>tionem",
+          quia non sunt in umbra mortis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3863">
+          <lb ed="#Q"/>2. Ad illud Augustini: -Praedestinatio
+          <lb ed="#Q"/>multis tuit causa standi :, respondeo quod ita
+          <lb ed="#Q"/>debet intelligi: praedestinatio, id est? Deus prae<lb ed="#Q"/>destinans,
+          vel'l praedestinatio, id est gratia quae
+          <lb ed="#Q"/>est ex praedestinatione.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c2-d1e3877">
+          <lb ed="#Q"/>3. Ad aliud dicendum quod gaudium non
+          <lb ed="#Q"/>solum est de bono habito, sed habendo; unde
+          <lb ed="#Q"/>non' sequitur: si gaudendum est de praedesti<lb ed="#Q"/>natione,
+          quod praedestinatio aliquid ponat co<lb ed="#Q"/>existenst
+          praedestinata, sed quod aliquo tempore
+          <lb ed="#Q"/>ponat' aliquid.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

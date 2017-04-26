@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-18">March 18, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="330"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t2c4">
+        <head xml:id="ahsh-l1p1i1t5s2q4t2c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 2, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t2c4-Hd1e3744" type="question-title">DE EFFECTU REPROBATIONIS QUI EST EXCAECATIO.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c4-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur de excaecatione.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c4-d1e3752">
+          <lb ed="#Q"/>Ad quod; sic: I. 1. 11 Cor. 4,4: <quote xml:id="ahsh-l1p1i1t5s2q4t2c4-Qd1e3756" ana="#Icor4_4">Deus huius
+          <lb ed="#Q"/>saeculi excaecauit mentes infidelium</quote>. Glossa9:
+          « Deus huius saeculi, id est Deus qui non solum
+          <lb ed="#Q"/>bonos regit, sed et malos pro merito praecipitat,
+          <lb ed="#Q"/>excaecavit mentes infidelium»; sed huiusmodi
+          <lb ed="#Q"/>Deus est verus Deus; ergo excaecatio est ab
+          <lb ed="#Q"/>ipso summo Deo, et ita a divina providentia, et
+          <lb ed="#Q"/>sic effectus eius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c4-d1e3773">
+          <lb ed="#Q"/>2. Item, ibidem dicit Glossa 10: « Deus verus et'
+          <lb ed="#Q"/>iustus excaecauit mentes infidelium huius saeculi ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c4-d1e3781">
+          <lb ed="#Q"/>Ad oppositum: a. Sap. 2,21: <quote xml:id="ahsh-l1p1i1t5s2q4t2c4-Qd1e3785" ana="#sap2_21">Excaecavit eos
+          <lb ed="#Q"/>malitia eorum</quote>. Non ergo Deus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c4-d1e3791">
+          <lb ed="#Q"/>b. Item, Augustinus, in libro 83 Quaestio<lb ed="#Q"/>num",
+          dicit quod-opus Dei est illuminare: ipse
+          <lb ed="#Q"/>enim ostendit ibi opera Domini, et dicit quod
+          « quaedam sunt quae ipse per se iacit, quae ab
+          <lb ed="#Q"/>illo solo sunt et illi soli conveniunt, sicut illu<lb ed="#Q"/>minare
+          animas et se ipsum ad perimendum
+          <lb ed="#Q"/>praestare »; sed illuminare et excaecare sunt 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>contraria, quia illuminare est lumen in aliis im<lb ed="#Q"/>primere,
+          contrarium autem dicit excaecatio; ergo
+          <lb ed="#Q"/>excaecare non est opus Dei; igitur excaecatio "
+          <lb ed="#Q"/>non est effectus divinae providentiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c4-d1e3817">
+          <lb ed="#Q"/>II. Praeterea, si Deus excaecat et diabolus ex<lb ed="#Q"/>caecat
+          et superbia excaecat 13, quaeritur " differen<lb ed="#Q"/>tia,
+          qualiter differenter P. Item, cui debemus excae<lb ed="#Q"/>cationem
+          istorum dare tamquam causae? num<lb ed="#Q"/>quid'7
+          quodlibet istorum est causa per se?
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c4-d1e3830">
+          <lb ed="#Q"/>Solutio: I. Dicendum quod duobus modis est .
+          <lb ed="#Q"/>loqui de excaecatione: uno modo, prout est culpa;
+          <lb ed="#Q"/>alio modo, prout est poena iuste intlicta propter
+          <lb ed="#Q"/>culpam. Primo modo, nullo modo est a Deo, sed
+          <lb ed="#Q"/>ab homine deficiente: et de ista non loquimur.
+          <lb ed="#Q"/>Si autem loquamur de excaecatione, prout est'"
+          <lb ed="#Q"/>poena propter peccatum8 inflicta: hoc est dupli<lb ed="#Q"/>citer,
+          quia contingit loqui de ipsa absolute, alio
+          <lb ed="#Q"/>modo prout est in ratione poenae iuste sequentis
+          <lb ed="#Q"/>ex peccato. Notandumf enim quod est duplex 
+          poena: una est poena illata, ut poena gehennae 
+          <pb ed="#Q" n="331"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>et haec absolute dicitur esse a Deo, quia Deus
+          <lb ed="#Q"/>punit illa poena; unde absolute dicitur esse a
+          <lb ed="#Q"/>Deo quia iste damnabitur, prout nominatur poena
+          <lb ed="#Q"/>illata. Alia autem a est poena, quae dicitur poena b
+          <lb ed="#Q"/>contracta: haec est illa quae contrahitur cum
+          <lb ed="#Q"/>peccato, et talis poena est excaecatio; ipsa enim
+          <lb ed="#Q"/>cum peccato mortali contrahitur, quia peccatum
+          <lb ed="#Q"/>est in voluntate, excaecatio vero in ratione,
+          <lb ed="#Q"/>quae comes est voluntatis, quia «liberum arbi<lb ed="#Q"/>trium
+          facultas est voluntatis et rationis1 ». Et
+          <lb ed="#Q"/>de tali poena non dicitur quod sit a Deo
+          <lb ed="#Q"/>absolute, sed a Deo permittente vel a Dei
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>permissione, quia ut est contracta, est causa<lb ed="#Q"/>liter
+          a peccato. Ideoque Scriptura sicc consuevit
+          <lb ed="#Q"/>loqui: Excaecavit eos Dominus 4, id est permisit
+          <lb ed="#Q"/>excaecari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c4-d1e3895">
+          <lb ed="#Q"/>II. Ad aliud<!--e--> quod quaeritur de diversi<lb ed="#Q"/>tate
+          causae 'quomodo differenter a Deo, af
+          <lb ed="#Q"/>diabolo et ag superbia': patet responsio, quia
+          <lb ed="#Q"/>est a peccato tamquamh a causa simpliciter
+          <lb ed="#Q"/>meritoria; a diabolo tamquam suggerentei il<lb ed="#Q"/>lud
+          unde venit excaecatio ; a Deo autem est
+          <lb ed="#Q"/>ut estk iusta, tamquam a iusto puniente vel
+          <lb ed="#Q"/>permittente '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

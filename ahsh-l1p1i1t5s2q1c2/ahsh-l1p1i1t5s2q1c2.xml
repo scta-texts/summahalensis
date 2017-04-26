@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-10">March 10, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="268"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q1c2">
+        <head xml:id="ahsh-l1p1i1t5s2q1c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 1, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t5s2q1c2-Hd1e3744" type="question-title">UTRUM PRAESCIENTIA SIT CAUSA RERUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q1c2-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum praescientia sit
+          <lb ed="#Q"/>causa rerum 1.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c2-d1e3754">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Causa enim " est cuius
+          <lb ed="#Q"/>esse sequitur aliud"; sed sequitur: 'si Deus
+          <lb ed="#Q"/>praescit hoc, hocc erit'; ergo praescientia Dei
+          <lb ed="#Q"/>est causa futuri.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c2-d1e3765">
+          <lb ed="#Q"/>2. Item, Augustinus, XV De Trinitate3:
+          « Non quia sunt,. ideo novit Deus res, sed quia
+          <lb ed="#Q"/>praescit vel novit, magis sunt ». Ergo praescientia
+          <lb ed="#Q"/>Dei. est causa rerum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c2-d1e3775">
+          <lb ed="#Q"/>Contra: a. Si praescientia Dei est causa, cum
+          <lb ed="#Q"/>ipse praesciat mala, ipse esset auctor et causa
+          <lb ed="#Q"/>mali; quod est inconveniens 4. Impossibile-enim est
+          <lb ed="#Q"/>quod a summo bono sit aliquod malum; posset
+          <lb ed="#Q"/>enim melius excogitari: melius enim est a quo
+          <lb ed="#Q"/>nullum malum quam illud d a quo aliquod malum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c2-d1e3791">
+          <lb ed="#Q"/>b. Item 6, Anselmus, De concordia prae<lb ed="#Q"/>scientiae
+          et liberi arbitrii 5: « Cum dico ' si prae<lb ed="#Q"/>scit
+          aliquid, necessariumf est illud futurum esse',
+          <lb ed="#Q"/>idem est ac si dicam * si erit, ex necessitate erit ' »;
+          <lb ed="#Q"/>hic vero non notatur habitudo causae ad causa<lb ed="#Q"/>tum,
+          sed necessitas ordinis; ergo praescientia non
+          <lb ed="#Q"/>dicit causam, sed ordinem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c2-d1e3809">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Respondeo 6: Sicut dicitur scientia simplicis no<lb ed="#Q"/>titiae
+          et approbationis, sicg praescientia dicitur/'l
+          <lb ed="#Q"/>dupliciter. Dicendum ergo quod praescientia ap<lb ed="#Q"/>probationis
+          potest dicere causam ratione appro<lb ed="#Q"/>bationis
+          intellectae ", non ratione antecessionis,
+          <lb ed="#Q"/>quae intelligitur per 'prae'k. Praescientia vero
+          <lb ed="#Q"/>simplicis notitiae nul-lo modo dicit causam re<lb ed="#Q"/>spectu
+          eius quod est praescitum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c2-d1e3831">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Quod autem' obicitur
+          <lb ed="#Q"/>quod *causa est cuius esse sequitur aliud ', sol<lb ed="#Q"/>vitur
+          per distinctionem. Aliquid enim dicitur se<lb ed="#Q"/>qui
+          aliud dupliciter: secundum esse et secundum
+          <lb ed="#Q"/>rationem consequentiae. 'Secundum quod *sequi
+          <lb ed="#Q"/>aliud, dicitur'" secundum esse, sic sumitur in
+          <lb ed="#Q"/>definitione " causae: ' causa est cuius esse sequi<lb ed="#Q"/>tur
+          aliud'; sed secundum quod sumitur 'sequi
+          <lb ed="#Q"/>aliud'" secundum rationem vel ordinem conse<lb ed="#Q"/>quentiae,
+          non requirit causam essendi, sed solum
+          <lb ed="#Q"/>consequendi, quia concomitaturp.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c2-d1e3857">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod Augu<lb ed="#Q"/>stinu
+          s accipit notitiam practice, non solum spe<lb ed="#Q"/>culative,
+          sive pro approbatione, non pro simplici
+          <lb ed="#Q"/>notitia; scientia autem practica sive beneplaciti est
+          <lb ed="#Q"/>causa rerum, sed non scientiaq simplicis notitiae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

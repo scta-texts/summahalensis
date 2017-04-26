@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 1, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-10">March 10, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="270"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q1c5">
+        <head xml:id="ahsh-l1p1i1t5s2q1c5-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 1, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t5s2q1c5-Hd1e3744" type="question-title">QUOMODO PRAESCIENTIA POSSIT STARE CUM LIBERO ARBITRIO.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q1c5-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur quomodo possit prae<lb ed="#Q"/>scientia 
+          stare cum libero arbitrio-; et hoc to<lb ed="#Q"/>tum
+          fere determinatum est prius <!--6-->.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c5-d1e3758">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>1. Sed propter simplices repetendum est primo, 
+          <lb ed="#Q"/>quod dicit <name ref="#Anselm">Anselmus</name>: <quote xml:id="ahsh-l1p1i1t5s2q1c5-Qd1e3769">Quaecumque prae<lb ed="#Q"/>sciuntur, 
+          de necessitate eveniunt</quote>: quaecumque
+          <pb ed="#Q" n=""/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sunt a libero arbitrio, non de necessitate eve<lb ed="#Q"/>niunt;
+          ergo quaecumque-sunt a libero arbitrio,
+          <lb ed="#Q"/>non sunt praescita.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c5-d1e3786">
+          <lb ed="#Q"/>2. Item, omne quod comprehenditur est in '
+          <lb ed="#Q"/>comprehendente per modum ipsius 1,; ergo omne
+          <lb ed="#Q"/>quod est in divina,-scientia 4, est permodum
+          <lb ed="#Q"/>ipsius; sed ipse est immutabilis;
+          <lb ed="#Q"/>gentia non possunt esse in eius, praescientia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c5-d1e3800">
+          <lb ed="#Q"/>3. Item, quaeritur si haecest vera 'praescitum
+          <lb ed="#Q"/>evenire est necessarium ? b et dicitur-vera de dicto, '
+          <lb ed="#Q"/>de re autem falsa -, contra: si albedine exi<lb ed="#Q"/>stente
+          in subiecto aliquo, non sit possibilitas in eo<lb ed="#Q"/>dem
+          subiecto ad formam oppositam, ita scilicet ut
+          <lb ed="#Q"/>possit albedini succedere nigredo, nun-q-uamhaec
+          <lb ed="#Q"/>erit vera ' album potest esse nigrum'; ergocum
+          <lb ed="#Q"/>sit similiter ex illa parte, cum dico 'praescitum
+          <lb ed="#Q"/>possibile est non evenire ', nunquam 0, existente
+          <lb ed="#Q"/>praescientia in illo, est possibilitas ad non eve—'
+          <lb ed="#Q"/>niendum; haec non 4 potest esse vera ' praescitum
+          <lb ed="#Q"/>potest non evenire'; ergo. 'etc. -— Pro-batio
+          <lb ed="#Q"/>quod non site potentia ad non evenien<lb ed="#Q"/>dum, 
+          posito quod sit praescitumf : praescitum f; sed semper, posito
+          <lb ed="#Q"/>enim dicit scitum futurum;
+          <lb ed="#Q"/>quod sit scitum futurum, impossibile est nong
+          <lb ed="#Q"/>evenire nec est potentia ad non evenien'dum";
+          <lb ed="#Q"/>ergo omnia de, necessitate eveniunt.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c5-d1e3842">
+          <lb ed="#Q"/>Solutio omnium istorum i patet ex dictis 2. Nam,
+          <lb ed="#Q"/>secundum <name>Anselmum</name>, <title> 
+          <lb ed="#Q"/>arbitrio</title>, est necessitas antecedens, quae est se<lb ed="#Q"/>cundum 
+          praeordinata causas rei, sicut necesse
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>est solem oriri cras;. et est necessitas sequens
+          *teïk sedere, dum
+          <lb ed="#Q"/>sedes, est necessarium . '
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c5-d1e3866">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Quod ergo dicitur «quae
+          <lb ed="#Q"/>praesciuntur, de necessitate eveniunt», hic acci<lb ed="#Q"/>pitur
+          necessitas- consequens rei pbsitionem'. Quod
+          <lb ed="#Q"/>dicitur ' quae sunt a libero arbitrio non de ne<lb ed="#Q"/>cessitate 
+          eveniunt ', negatur necessitas antecedens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c5-d1e3879">
+          <lb ed="#Q"/>Potest ergo simul stare" quod'sit in illo contin<lb ed="#Q"/>gentia
+          antecedens et necessitas consequens; ne<lb ed="#Q"/>cessitas
+          ergo sequens rei positionem! n'on'tollit
+          <lb ed="#Q"/>rei contingentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c5-d1e3890">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod 'Deus immutabi<lb ed="#Q"/>liter
+          comprehendit quidquid- comprehendit et non 
+          <lb ed="#Q"/>solum necessaria comprehendit immutabiliter, sed
+          <lb ed="#Q"/>etiam contingentia; scit enim contingentia per mo<lb ed="#Q"/>dum
+          necessarium; unde non sequitur ex illa me
+          <lb ed="#Q"/>tione: ' ergo non scit contingentia ', sed ' ergo non
+          <lb ed="#Q"/>scit contingenter ' '" 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c5-d1e3908">
+          <lb ed="#Q"/>3. Ad aliud" dicendum quod haec est vera
+          ' praescitum necesse est evenire' et haec est falsa
+          <lb ed="#Q"/>praescitum potest non" evenire ; sed Si argu<lb ed="#Q"/>menteturP.
+          - ' hoc est praescitum, ergo hoc nece's'se
+          <lb ed="#Q"/>estq evenire' , non valet, ut dictum est 5, quia ex
+          <lb ed="#Q"/>maiori de necessario et minori "de "inesse ut nunc ',
+          <lb ed="#Q"/>non sequitur conclusio de necessario, sed de
+          <lb ed="#Q"/>inesse; unde- non .valet: fsi Sortes currit, ne<lb ed="#Q"/>cessario
+          movetur, 'sed. Sortes currit, ergo neces<lb ed="#Q"/>sario 
+          movetur'; bene tamen sequitur: 'ergo mo<lb ed="#Q"/>vetur'.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. I, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="168"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m1c4">
+        <head xml:id="ahsh-l1p1i1t3q3m1c4-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. I, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t3q3m1c4-Hd1e3732" type="question-title">DE CONVENIENTIA BONITATIS IN BONIS.</head>
+        <p xml:id="ahsh-l1p1i1t3q3m1c4-d1e3735">
+          <lb ed="#Q"/>Quaeritur consequenter de convenientia bonitatis
+          <lb ed="#Q"/>in bonis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c4-d1e3742">
+          <lb ed="#Q"/>Et videtur quod non, possit esse commune
+          <lb ed="#Q"/>secundum aliquid rei: et. Dictum enim de summo
+          <lb ed="#Q"/>bono est id ipsum, quia sicut dicit <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Q"/>IV libro De Trinitate 6: « Non est in Deo alterum
+          <lb ed="#Q"/>esse Deum et esse bonum, vel esse et esse bo<lb ed="#Q"/>num
+          ». Ergo bonum dictum de Deo '" est indifferens
+          <lb ed="#Q"/>illi; ergo non potest esse commune in summo
+          <lb ed="#Q"/>bono et increato bono, sicut nec hoc ipsum * Deus '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c4-d1e3762">
+          <lb ed="#Q"/>6. Item, si est commune, ergo est accipere
+          <lb ed="#Q"/>quod est commune et quod est proprium, ergo
+          <lb ed="#Q"/>compositionem quamdam. — Si forte dicas bo<lb ed="#Q"/>num
+          esse commune secundum communem habi<cb ed="#Q" n="b"/><lb ed="#Q"/>tudinem 
+          ad consimilem effectum in creaturis, et
+          <lb ed="#Q"/>sic bonum non oportet ponere in Primo nisi es<lb ed="#Q"/>sentiam
+          k ipsam, sed praeter hoc additi quamdam
+          <lb ed="#Q"/>relationem ad quemdam effectum in creatura <lb ed="#Q"/>contra:
+          si bonum est ex hac ratione commune,
+          <lb ed="#Q"/>sed aeque se habet creatura ad suam effectio<lb ed="#Q"/>nem
+          sicut Deus ad suam; ergo bonum aequa<lb ed="#Q"/>liter
+          participabile, quia sicut ab hac egreditur
+          [suus effectus], ita ab illo "'. — Item, secundum
+          <lb ed="#Q"/>hoc bonum trahit rationem a posteriori, scilicet
+          <lb ed="#Q"/>ab effectu, cum aliter determinentur intentiones
+          <lb ed="#Q"/>scilicet quod summum bonum sit bonum per se
+          <lb ed="#Q"/>et quod ista sint bona ab ipso.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c4-d1e3801">
+          <lb ed="#Q"/>[Solutio]: Propter hoc aliter dicendum est in
+          <lb ed="#Q"/>bono et in iis quae non" manifeste exprimunt
+          <pb ed="#Q" n="169"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>actum respicientem " creaturam specialiter, et ali<lb ed="#Q"/>ter
+          in illis quae exprimunt. In illis enim est com<lb ed="#Q"/>munitas
+          secundum comparationem<!--b--> aut habitu<lb ed="#Q"/>dinem
+          quae est in effectu: ut in illis quae con<lb ed="#Q"/>notant,
+          ut 'punit ', liustificat,; istac non sunt
+          <lb ed="#Q"/>communia<!--d--> nisi quantum ad effectum connota<lb ed="#Q"/>tum:
+          unde 'punit), dictum de Deo, nihil copulat
+          <lb ed="#Q"/>creatum, sed connotat; dictum de creatura, copulat
+          <lb ed="#Q"/>quod prius connotat. —— Sed in illis quae non
+          <lb ed="#Q"/>exprimunt, aliter est communitas praeter praedic<lb ed="#Q"/>tam
+          2, quia per se et propter se conveniunt Deo,
+          <lb ed="#Q"/>creaturis secundum quod ab ipso et ad ipsum;
+          <lb ed="#Q"/>et haec est communitas secundum prius et po<cb ed="#Q" n="b"/><lb ed="#Q"/>sterius. 
+          Et hoc manifestum est, quia hocf obli<lb ed="#Q"/>que
+          intelligiturg in illo. Bonum enim de Deo di<lb ed="#Q"/>citur,
+          quia finis; bonum de creatura,'quia'l or<lb ed="#Q"/>dinatiOnem
+          habet ad finem: sicut ens secundum
+          <lb ed="#Q"/>prius dicitur de substantia, quae est per se ens,
+          <lb ed="#Q"/>secundum posterius de accidente, quod est per
+          <lb ed="#Q"/>substantiam; et ita indirecte [intelligitur de illo.
+          <lb ed="#Q"/>Dico ergo quod bonum quod dicitur de Deo in<lb ed="#Q"/>differens
+          est illi et tamen bonum commune potest
+          <lb ed="#Q"/>esse, quia directe et secundum prius dicitur de
+          <lb ed="#Q"/>ipso et indirecte'] et per posterius de creatura; et
+          <lb ed="#Q"/>ibi est accipere commune et proprium quantum
+          <lb ed="#Q"/>ad modum dicendi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

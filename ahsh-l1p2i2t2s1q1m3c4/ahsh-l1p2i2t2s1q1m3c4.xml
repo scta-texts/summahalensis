@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-25">April 25, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-25" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="590"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q1m3c4">
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c4-Hd1e118">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 4</head>
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c4-Hd1e121" type="question-title">QUOMODO COMPARETUR 'HYPOSTASIS' AD ESSENTIAM QUANTUM AD SIGNIFICATIONEM.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e124">
+          <lb ed="#Q"/>Consequenter quaeritur de comparatione hypo<lb ed="#Q"/>stasis
+          ad essentiam quantum ad significatio<lb ed="#Q"/>nem
+          utrum significet essentiam aliquo addito.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e133">
+          <lb ed="#Q"/>Ad quod sic: 1. Damascenus<!--1-->: «Hyposta<lb ed="#Q"/>sis
+          est substantia cum caracteristicis idiomati<lb ed="#Q"/>bus
+          ». Ergo hocll nomine suo addit super inten<lb ed="#Q"/>tionem
+          substantiae vel essentiae.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e146">
+          <lb ed="#Q"/>2. Item, Damascenus dicit quod in divinis
+          «commune est substantia, particulare vero hy<lb ed="#Q"/>postasis
+          »; sed particulare super commune addit
+          <lb ed="#Q"/>aliquid. — Item, ' B 0 et hi u sz: « Substantiae, cum
+          <lb ed="#Q"/>substant in particularibus, hypostases dicuntur ».
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e158">
+          <lb ed="#Q"/>3. Item, sicut in intellectu 'personae 'est intel<lb ed="#Q"/>lectUs
+          ' hypostasis ', tamen aliquo addito, sic poni<lb ed="#Q"/>tur
+          in intellectu 'hypo'stasis' intellectus ' essentiae ',
+          <lb ed="#Q"/>sed non praecise, quia si praecise, tunc idem utri<lb ed="#Q"/>que
+          conveniret; ergo aliquo addito; ergo ' hypo<lb ed="#Q"/>stasis'
+          addit ad essentiam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e174">
+          <lb ed="#Q"/>Contra: a. ln divinis sicut essentia una ** est in
+          <lb ed="#Q"/>tribus personis, ita et substantia una, non multi<lb ed="#Q"/>plicata:
+          unde addas proprietates, ipsae proprie<lb ed="#Q"/>tates
+          non multiplicant substantiamf ; si ergo hy<lb ed="#Q"/>postasis
+          dicit distinguibile et etiam distinctum,
+          <lb ed="#Q"/>quia tres sunt hypostases, ergo neutrum illorum
+          <lb ed="#Q"/>est alterum cum additione, quia si! sic poneret
+          <lb ed="#Q"/>unum alterum in rectitudine, tunc " substantia, ad<lb ed="#Q"/>veniente
+          proprietate, multiplicaretur et ipsa mul<lb ed="#Q"/>tiplicata'
+          [multiplicata] esset hypostasis — sicut
+          <lb ed="#Q"/>patet de 'homine', quik addit ultral 'animal'3 et
+          <lb ed="#Q"/>ponit illud in rectitudine: unde multiplicato ho<lb ed="#Q"/>mine
+          multiplicatur animal — quod cum sit incon<lb ed="#Q"/>veniens,
+          ergo 'hypostasis' non est substantia cum
+          <lb ed="#Q"/>additione, prout substantia idem dicit quod es<lb ed="#Q"/>sentia,
+          licet dicamus tres hypostases esse unius
+          <lb ed="#Q"/>substantiae vel essentiae. J
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e213">
+          <lb ed="#Q"/>b. Item, Boethius4: « Persona est substan<lb ed="#Q"/>tia
+          individua rationalis naturae»; et hoc male
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>diceretur "', si hypostasis idem esset quod natura
+          <lb ed="#Q"/>vel si esset natura aliquo addito: tunc enim natura
+          <lb ed="#Q"/>deberet poni in definitione personae in rectitudine.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e229">
+          <lb ed="#Q"/>c. Praeterea, non est ita in creatura, quia *hypo<lb ed="#Q"/>stasis'
+          in creatura non dicit idem quod essentia
+          <lb ed="#Q"/>aliquo addito. Ut 'iste est homo ': 'iste ' dicit hypo<lb ed="#Q"/>stasim, 
+          'homo' essentiam; si quis autem resolvat 
+          <lb ed="#Q"/>significatum per hoc nomen 'iste', resolvet in
+          <lb ed="#Q"/>materiam" et formam, 'ut in animam et corpus,
+          <lb ed="#Q"/>significatum 'hominis' in genus et differentiam 0,
+          <lb ed="#Q"/>dicendo 'homo est animal rationale'P etc. Cum
+          <lb ed="#Q"/>ergo alia sint principia huius et illius, manifestum
+          <lb ed="#Q"/>est quod 'hypostasis' non dicit essentiam aliquo
+          <lb ed="#Q"/>addito.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e255">
+          <lb ed="#Q"/>d. Praeterea, hypostasis in natura est particulare,
+          <lb ed="#Q"/>essentia autem commune; istud? autem additum
+          <lb ed="#Q"/>aut est particulare aut' commune. Si commune:
+          <lb ed="#Q"/>sed-* commune communi additum facit commune
+          <lb ed="#Q"/>et non omnino particulare, et sic hypostasis non
+          <lb ed="#Q"/>esset particulare. Si vero illud additum sit par<lb ed="#Q"/>ticulare,
+          cum particulare dicat hypostasim: aut
+          <lb ed="#Q"/>eamdem hypostasim aut non;"si eiusdem essen<lb ed="#Q"/>tiae,
+          ergo erit idem in ratione sui; si alterum,
+          <lb ed="#Q"/>erit in infinitum abire. Eodem modo in divinis,
+          <lb ed="#Q"/>cum essentia simplex sit- et hypostasis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e281">
+          <lb ed="#Q"/>Solutio: Cum quaeritur an 'hypostasis' addat
+          <lb ed="#Q"/>aliquid ad substantiam, aut sumitur substantia
+          <lb ed="#Q"/>pro re subsistente ', et sic addit ei hoc quod dico
+          'incommunicabile'; aut accipitur substantia pro
+          <lb ed="#Q"/>essentia, et sic oblique venit in ratione hyposta<lb ed="#Q"/>sis
+          sicut essentia, quia hypostasis est res incom<lb ed="#Q"/>municabilis
+          subsistens divinae essentiae sive
+          <lb ed="#Q"/>ipsius divinae essentiae"; ideo cadit ibi in obli<lb ed="#Q"/>quo,
+          quia" si caderet ibi in recto, ad multiplica<lb ed="#Q"/>tionem
+          hypostasis sequeretur multiplicatio essen<lb ed="#Q"/>tiae
+          vel substantiae; et ita non addit aliquid in
+          <lb ed="#Q"/>rectitudine, addit tamen in hoc quod substantia
+          <lb ed="#Q"/>vel essentia cadit oblique in eius definitione 5.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e311">
+          <pb ed="#Q" n="591"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>[Ad obiecta]: 1-2. Ad duo obiecta patet so—
+          <lb ed="#Q"/>lutio per praedicta " superius, in ' Quaestione De
+          <lb ed="#Q"/>persona '.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c4-d1e324">
+          <lb ed="#Q"/>3. Ad ultimum dicendum quod 'hypostasis'
+          <lb ed="#Q"/>non supponit essentiam aliquo addito, sed obli—
+          <lb ed="#Q"/>que cadit essentia in ratione hypostaseos, sicut
+          <lb ed="#Q"/>dictum est2 et sicut patet ex definitione quam
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>ponit Boethius3, et hoc idem vocatur ibi na<lb ed="#Q"/>tura
+          quod essentia. Nec est simile de persona
+          <lb ed="#Q"/>respectu hypostaseos et hypostasic respectu es<lb ed="#Q"/>sentiae.
+          Quod ex eorum definitionibus patet: per<lb ed="#Q"/>sona
+          enim ' est hypostasis distincta proprietate;
+          <lb ed="#Q"/>hypostasis vero est res substans vel subsistens
+          <lb ed="#Q"/>proprietati'.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

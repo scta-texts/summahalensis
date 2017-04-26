@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 4, Mem. III, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-19">February 18, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-19" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="101"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q4m3c2">
+        <head xml:id="ahsh-l1p1i1t2q4m3c2-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 4, Mem. III, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t2q4m3c2-Hd1e3732" type="question-title">DE UNITATE AEVI.</head>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3735">
+          <lb ed="#Q"/>Consequenter quaeritur de unitate aevi 3.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3740">
+          <lb ed="#Q"/>Et obicitur: 1. Primo, cum nos videamus in
+          <lb ed="#Q"/>aeviternis quod quaedam prius? recipiunt perpe<lb ed="#Q"/>tuitatem,
+          quaedam consequenter — ut angeli qui a
+          <lb ed="#Q"/>principio receperunt esse perpetuum, consequen<lb ed="#Q"/>ter
+          autem rationales animae — et in ipsis etiam
+          <lb ed="#Q"/>consequitur inchoatio esse unius ad esse alterius,
+          <lb ed="#Q"/>non erit aliquo modo una perpetuitas" omnium
+          <lb ed="#Q"/>aevitemorum nec similis protensio durationis,
+          <lb ed="#Q"/>cum una excedat aliam ex parte ante.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3762">
+          <lb ed="#Q"/>2. Item, perpetua, ut animae, angeli et mate—
+          <lb ed="#Q"/>ria, habent omnino absolutum modum essendi et
+          <lb ed="#Q"/>non dependent ab invicem; ergo habent omnino
+          <lb ed="#Q"/>disparatam durationem; sed duratio cuiuslibet est
+          <lb ed="#Q"/>aevum; est igitur aevum disparatum et diversum,
+          <lb ed="#Q"/>non unum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3779">
+          <lb ed="#Q"/>3. item, tempus primo est mensura motus primi
+          <lb ed="#Q"/>mobilis et per hoc est tempus mensura una om—
+          <lb ed="#Q"/>nium inferiorum; unde si aeque principaliter et
+          <lb ed="#Q"/>primo, et non per aliquod unutn prius vel cau—
+          <lb ed="#Q"/>sam, esset tempus mensura omnium temporalium,
+          <lb ed="#Q"/>non posset esse iam unum tempus. Si ergo ex
+          <lb ed="#Q"/>Parte aevi non est aliquod aeviternum sustinensi
+          <lb ed="#Q"/>primo aevum, quod aeviternumk sit causa[ om<lb ed="#Q"/>nium
+          aliorum, immo aevum est aeque primo men—
+          <lb ed="#Q"/>sura omnium aevitemorum, non per aliquod: vi<lb ed="#Q"/>detur
+          quod quot sunt aeviterna, tot debeant esse
+          <lb ed="#Q"/>aeva, ut ita dicatur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3808">
+          <lb ed="#Q"/>4. Item, in Apocryphis Esdrae4: Maiestas et
+          <lb ed="#Q"/>Potestas aevorum est apud te, Domine.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3815">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>5. Item, Dionysiuss: «Ipse est aevum ae<lb ed="#Q"/>vorum 
+          »; loquitur de Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3824">
+          <lb ed="#Q"/>Contra: a. Maior est unitas ex parte esse per<lb ed="#Q"/>fectioris.
+          Si ergo esse perpetuum est perfectius
+          <lb ed="#Q"/>temporali, maior erit unitas ex parte esse per<lb ed="#Q"/>petui
+          quam temporalis; ergo duratio mensurans
+          <lb ed="#Q"/>esse perpetuum magis erit una quam quae men<lb ed="#Q"/>surat
+          esse'" temporale; ergo aevum est" magis
+          <lb ed="#Q"/>unum tempore. Cum ergo « tempus sit unum om<lb ed="#Q"/>nium
+          temporalium », ut dicit An s el m u s, in libro
+          <lb ed="#Q"/>De veritates: « Dicitur tempus huius rei et illius,
+          <lb ed="#Q"/>cum unum et idem" sit tempus omnium quae in
+          <lb ed="#Q"/>eodem tempore simul sunt, et si non esset haec
+          <lb ed="#Q"/>res vel illa, non minus esset idem tempus ». Ergo
+          <lb ed="#Q"/>multo magis erit unum aevum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3855">
+          <lb ed="#Q"/>b. Item, Eccli. 1,1: Omnis sapientia a Domino
+          <lb ed="#Q"/>Deo est et cum illa fuit semper et est ante aevum.
+          — Item, 42,19: Respexit Dominus in signum aevi.
+          <lb ed="#Q"/>In omnibus iis auctoritatibus nominatur in sin<lb ed="#Q"/>gulari,
+          non in plurali, et tamen nominatur per to<lb ed="#Q"/>tam
+          durationem suam; ex quo videtur quod non
+          <lb ed="#Q"/>habeat pluralitatem.
+          </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3871">
+          <lb ed="#Q"/>c. item, ratione potest ostendi sic: Si plura
+          <lb ed="#Q"/>ponuntur aeva, aut ergo unum iterum? ponetur
+          <lb ed="#Q"/>praecessisse aliud aut sequi aut simul esse cum
+          <lb ed="#Q"/>illo. Non praecessit aliud: quia ante hoc non fuit
+          <lb ed="#Q"/>nisi aeternitas; itemq post hoc' non erit aliud:
+          <lb ed="#Q"/>quia illud quod modo est, nunquam deficiet; si
+          <lb ed="#Q"/>ergo plura sunt, aliud erit simul cum isto. Cum
+          <lb ed="#Q"/>ergo in quantitatibus non habentibus positionem,
+          <lb ed="#Q"/>quod potest mensurare una, potest mensurare:
+          <pb ed="#Q" n="102"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>reliqua eiusdem generis, ut explanabitur intral:
+          <lb ed="#Q"/>et ideo non possunt plures partes temporis esse
+          <lb ed="#Q"/>simul, quia semper" altera superflueret; et simi<lb ed="#Q"/>liter
+          videtur quod non possunt esse plura aeva
+          <lb ed="#Q"/>simul, quoniam semper alterum superflueret.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3909">
+          <lb ed="#Q"/>Ad solutionem huius quaestionis nota primo
+          <lb ed="#Q"/>opinionem quorumdam quod D, sicut dicit Boe<lb ed="#Q"/>thi
+          u s, in libro De consolationez: « Sic se habet ta<lb ed="#Q"/>tum
+          ad providentiam divinam, ut tempus ad aeter<lb ed="#Q"/>nitatem
+          »; « providentia vero est ratio divina quae
+          <lb ed="#Q"/>cuncta disponit, fatum vero inhaerens rebus mo<lb ed="#Q"/>bilibus
+          dispositio, per quam providentia suis quae<lb ed="#Q"/>quec
+          nectit ordinibus3 ». Quamvis autem dican<lb ed="#Q"/>tur
+          plura fata, quia quaelibet res per providen<lb ed="#Q"/>tiam
+          habet assignatum ordinem, hoc non est
+          <lb ed="#Q"/>nisi quia fatum est huius reid et illius; fatum
+          <lb ed="#Q"/>autem est unum, quia, sicut dicit Boethius, in
+          <lb ed="#Q"/>eodemtz « Ordo quidam' cuncta complectitur, ut
+          <lb ed="#Q"/>si quis ab assignato ordine recesserit, in alium
+          <lb ed="#Q"/>ordinem relabatur ». Ab unitate ergo huius ordinis
+          <lb ed="#Q"/>cuncta complectentis erit fatum unum, non ab
+          <lb ed="#Q"/>unitate illorum quorum est fatum. Si ergo simili
+          <lb ed="#Q"/>modo se habet tempus ad aeternitatem, erit tem<lb ed="#Q"/>pus
+          unum, non ab unitate temporalium, quae men<lb ed="#Q"/>suranturf
+          tempore, sicut patet ex praedicta sen<lb ed="#Q"/>tentia
+          Anselmi, in libro De veritate 5, sed ab
+          <lb ed="#Q"/>unitate causae, quae est influentia seu virtus du—
+          <lb ed="#Q"/>rationis ab aeternitate, secundum quod res sunt
+          <lb ed="#Q"/>in participatione aeternitatis; simili modo unitas
+          <lb ed="#Q"/>aevi, in quo est primo et principaliter! influentia
+          <lb ed="#Q"/>virtutis" durationis ab aeternitate. Et secundum
+          <lb ed="#Q"/>hanc rationem B. Dionysius, in libro De divinis
+          <lb ed="#Q"/>nominibus 6, dicit: « Oportet divinum' tamquam
+          <lb ed="#Q"/>aevum et tamquam tempus hymnire », id est lau—
+          <lb ed="#Q"/>dare, « ut omnis temporis et aevi causam ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3977">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Secundum hoc respondendum
+          <lb ed="#Q"/>ad primum et dicendum unum esse aevum ae<lb ed="#Q"/>viternorum,
+          sicut unum tempus omnium tempora<lb ed="#Q"/>lium,
+          quemadmodum dicitAnselmus7: «Tem<lb ed="#Q"/>pus
+          unum et idem est omnium eorum quae in
+          <lb ed="#Q"/>eodem tempore simul sunt; et si * non esset haec
+          <lb ed="#Q"/>res vel illa, nihilominus est tempus unum'». Ita
+          <lb ed="#Q"/>dicendumm unum et idem aevum omnium quae
+          <lb ed="#Q"/>in aevo sunt; et licet haec anima vel illa inci—
+          <lb ed="#Q"/>piat esse in aevo post illam, nihilominus aevum,
+          <lb ed="#Q"/>quod ingrediuntur, unum est ab unitate unius in<lb ed="#Q"/>fluentiae
+          virtutis durationis sine fine ab aeterni<cb ed="#Q" n="b"/><lb ed="#Q"/>tate, 
+          quae una est, quamvis differentia" sint re<lb ed="#Q"/>ceptiva
+          ipsius intluentiae 3. Quemadmodum una est
+          <lb ed="#Q"/>influentia lucis a sole et tamen differentia recep<lb ed="#Q"/>tiva
+          intluentiae" lucis et receptio multiplicatur,
+          <lb ed="#Q"/>non infusio vel influentia: sic receptio virtutis
+          <lb ed="#Q"/>durationis sine fine, quae est perpetuitas, potest
+          <lb ed="#Q"/>multiplicari, cum recipitur ab angelo et ab anima,
+          <lb ed="#Q"/>et non simul: nonP tamen ipsa perpetuitas, sicut
+          <lb ed="#Q"/>nec ipsa influentia, multiplicatur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e4026">
+          <lb ed="#Q"/>2. Ad secundum dicendum sine praeiudicio
+          <lb ed="#Q"/>quod quamvis duratio materiae, animae et angeli
+          <lb ed="#Q"/>et aliorum aeviternorum habeat disparationem,
+          <lb ed="#Q"/>non dependentiam ab ? invicem secundum causa<lb ed="#Q"/>litatem,
+          dico tamen quod proportionaliter se ha<lb ed="#Q"/>bent
+          secundum virtutem durationis, ut dictum est 9,
+          <lb ed="#Q"/>in' quantum sunt in participatione divinae aeter<lb ed="#Q"/>nitatis.
+          Quamvis enim secundum actum durationis,
+          <lb ed="#Q"/>nec esse angeli nec esse animae nec esse mate<lb ed="#Q"/>riae
+          se excedant 5, ut nec esse angeli esse ani<lb ed="#Q"/>mae
+          nec esse animae esse materiae, virtute ta<lb ed="#Q"/>men
+          durationis et continuationis 'esse' nihil pro<lb ed="#Q"/>hibebit
+          esse animae excedere esse materiae et
+          <lb ed="#Q"/>esse angeli esse animae, ita quod, posito quod
+          <lb ed="#Q"/>relinquerentur propriae naturae et essent verti<lb ed="#Q"/>bilia
+          in non esse, citius deficeret materia quae
+          <lb ed="#Q"/>in essendo est ignobilior anima et forsitan anima
+          <lb ed="#Q"/>angelo per naturam. Et sic, quamvis non exce<lb ed="#Q"/>dant
+          set secundum actum durationis nec depen<lb ed="#Q"/>deant
+          ab invicem secundum rationem causalitatis,
+          <lb ed="#Q"/>nihil videtur prohibere quin dependeant et ordi<lb ed="#Q"/>nentur
+          secundum virtutem durationis et quin vir<lb ed="#Q"/>tus
+          durationis nobilior possit se habere virtua<lb ed="#Q"/>liter
+          ut mensura durationis ignobilioris, etsi non
+          <lb ed="#Q"/>ut causa: ut secundum ordinem virtutis dura<lb ed="#Q"/>tionis
+          ascendendo ad aeternitatem, a virtute mi<lb ed="#Q"/>nori
+          ad maiorem, perveniatur ad unam aeternitati
+          <lb ed="#Q"/>proximam, in qua primo appareat unitas aevi,
+          <lb ed="#Q"/>quemadmodum in motu caeli apparet unitas tem<lb ed="#Q"/>poris
+          secundum praesentem statum. Hoc autem
+          <lb ed="#Q"/>cogitur", quoniam sicut dicit B. Dionysius 10:
+          « Omnia exeunt" a primo secundum ordinem »;
+          <lb ed="#Q"/>item, propter hoc quod dicit B. A ugu sti n u s ":
+          « Omnia sunt inaequalia *, ad hoc inaequalia ut
+          <lb ed="#Q"/>essent omnia ». Erit ergo ponere gradum in virtute
+          <lb ed="#Q"/>durationis in aeviternis, sicut in temporalibus po<lb ed="#Q"/>nitur
+          secundum actum durationis. Hoc tamen abs—
+          <lb ed="#Q"/>que? praeiudicio melioris sententiae dictum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e4107">
+          <pb ed="#Q" n="103"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>3-5. Ad reliqua obiecta patet solutio ex
+          <lb ed="#Q"/>praedictis ". Nam plura aeva dicuntur materialiter
+          <lb ed="#Q"/>sicut plura tempora, non formaliter, sive quia
+          <lb ed="#Q"/>plura sunt in aevo vel plura in tempore, dicuntur
+          <lb ed="#Q"/>plura tempora vel aeva, cum tamen aevum et
+          <lb ed="#Q"/>tempus unum; vel dicuntur plura aeva in alia si<lb ed="#Q"/>gnificatione
+          quam in propria.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e4129">
+          <lb ed="#Q"/>Aliter potest dici quod sunt plura aeva, sci<lb ed="#Q"/>licetb
+          secundum pluralitatem aeviternorum, nec
+          <lb ed="#Q"/>habent unitatem essentiae nec ab hac unitate unum
+          <lb ed="#Q"/>dicitur aevum. Potest tamen dici unum ab unitate
+          <lb ed="#Q"/>conformitatis, quia omnia aeva, distincta secundum
+          <lb ed="#Q"/>distinctionem aeviternorum, conformitatem habent
+          <lb ed="#Q"/>in imitatione aeternitatis et temporis: aeternitatis,
+          <lb ed="#Q"/>quantum ad infinitatem ex parte finis et carentiam
+          <lb ed="#Q"/>prioris et posterioris; temporis, quantum ad ha<lb ed="#Q"/>bere
+          principium. Nec oportet quod aevum om<lb ed="#Q"/>nium
+          aevitemorum sit unum sicut unum tempus
+          <lb ed="#Q"/>omnium temporalium: aeviterna enim omnia im<lb ed="#Q"/>mediate
+          exeunt a primo; propter quod non inter<lb ed="#Q"/>cipitur
+          aliquod medium a quo dependeant se<lb ed="#Q"/>cundum
+          essentiam vel actum: sicut omnia tem<lb ed="#Q"/>poralia,
+          quantum ad esse et operationem, in quan<lb ed="#Q"/>tum
+          huiusmodi, dependent a primo c motu; prop<lb ed="#Q"/>ter
+          quod etd eorum motuum est regula tempus
+          <lb ed="#Q"/>unum, scilicet illud quod est numerus primi
+          <lb ed="#Q"/>motus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e4175">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Si autem obicitur quod dicit Philoso<lb ed="#Q"/>phusl
+          quod si essent plures caeli, nihilominus
+          <lb ed="#Q"/>esset tempus unum, similiter etsi sint plura ae<lb ed="#Q"/>viterna,
+          nihilominus erit aevum unum: potest dici
+          <lb ed="#Q"/>quod, ut ponunt in Philosophia Naturali edocti,
+          <lb ed="#Q"/>proprium subiectum et primum motus est ma.<lb ed="#Q"/>teria
+          prima 2, quae est subiectum totius transmu<lb ed="#Q"/>tationis,
+          cuius mensura propria est tempus. Se<lb ed="#Q"/>cundum
+          etiam horum opinionem non est ponere
+          <lb ed="#Q"/>tempus esse in primo caelo mobili ut in subiecto,
+          <lb ed="#Q"/>sed in prima materia; iuxta quorum positionem
+          <lb ed="#Q"/>non est inconveniens ponere tempus unum ab
+          <lb ed="#Q"/>unitate motus et subiecti materiae primae, etsi
+          <lb ed="#Q"/>sint plures caeli. luxta positionem eorum qui di<lb ed="#Q"/>cunt
+          tempus esse in primo caelo mobili sicut in
+          <lb ed="#Q"/>subiecto, dicendum quod, si essent plures caeli,
+          <lb ed="#Q"/>non esset unum tempus per essentiam, posset
+          <lb ed="#Q"/>tamen esse unum per conformitatem sive indif<lb ed="#Q"/>ferentiam
+          participationis aevi et aeternitatis. Quot<lb ed="#Q"/>quot
+          enim essent motus huiusmodi, eorum men<lb ed="#Q"/>surae
+          consimiliter et conformiter se haberent ad
+          <lb ed="#Q"/>aevum et aeternitatem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e4228">
+          <lb ed="#Q"/>Ad hoc quod primo3 obicitur dicendum
+          <lb ed="#Q"/>quod aevum, quantum ad esse proprium quod
+          <lb ed="#Q"/>non numeratur per prius et posterius, maioris est
+          <lb ed="#Q"/>unitatis quam tempus quod numeratur; unde pro<lb ed="#Q"/>ximius 
+          se conformat aeternitati et magis naturam
+          <lb ed="#Q"/>illius participat quam tempus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

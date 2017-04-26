@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 6, Q. 6, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-31">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="408"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t6q6c3">
+        <head xml:id="ahsh-l1p1i1t6q6c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 6, Q. 6, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t6q6c3-Hd1e3744" type="question-title">AN TENEAMUR CONFORMARE VOLUNTATEM NOSTRAM VOLUNTATI DIVINAE<!--2-->.</head>
+        <p xml:id="ahsh-l1p1i1t6q6c3-d1e3749">
+          <lb ed="#Q"/>Tertio quaeritur an teneamur conformare vo<lb ed="#Q"/>luntatem
+          nostram voluntati divinae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c3-d1e3756">
+          <lb ed="#Q"/>Videtur quod sic: a. Rom. 13,10: Perfectio
+          <lb ed="#Q"/>legis est dilectio; tenemur ergo ad dilectionem;
+          <lb ed="#Q"/>dilectio autem conformat voluntatem nostram vo<lb ed="#Q"/>luntati
+          divinae; tenemur ergo' ad conformationem.
+          -— Quod autem dilectio confor'met, dicit
+          <lb ed="#Q"/>Hugo de S. 'Victore3: «Scio, anima mea,
+          <lb ed="#Q"/>quiae quidquid diligis, vi dilectionis in eius si<lb ed="#Q"/>militudinem
+          transformaris ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c3-d1e3774">
+          <lb ed="#Q"/>b. Item, Glossa4 super Psalm.: «Voluntas
+          <lb ed="#Q"/>Dei semper recta est, cui debemus conformari
+          <lb ed="#Q"/>ut simus recti»; sed tenemur esse recti; ergo te<lb ed="#Q"/>nemur
+          conformare.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c3-d1e3786">
+          <lb ed="#Q"/>Contra: 1. Nullus tenetur ad impossibile; .sed
+          <lb ed="#Q"/>obstinati et damnati non possunt conformare; ergo
+          <lb ed="#Q"/>non tenentur.  
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c3-d1e3795">
+          <lb ed="#Q"/>2. Item, si tenetur conformare existens in mor<lb ed="#Q"/>tali
+          peccato, continue peccat.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c3-d1e3802">
+          <lb ed="#Q"/>Respondeo: Praecepta negativa obligant sem<lb ed="#Q"/>per
+          et ad semper, affirmativa verof obligant sem<lb ed="#Q"/>per,
+          sed non ad semper.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c3-d1e3811">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud vero quod <!--5--> obicitur 
+          <lb ed="#Q"/>de obstinatis et damnatis: dicendum quod quam<lb ed="#Q"/>vis
+          absolute teneantur qui sunt obstinati, ta<lb ed="#Q"/>men
+          pro statu obstinationis dixerunt quidam
+          <lb ed="#Q"/>quod obstinati non tenentur, quia hoc est eis 'l im<lb ed="#Q"/>possibile.
+          — Sedi obicitur: ergo reportant lu<lb ed="#Q"/>crum
+          de culpa. Respondeo: non est verum; si
+          <lb ed="#Q"/>enim non est obligatus ad conformationem, tamen 'f
+          <lb ed="#Q"/>est obligatus ad poenam. — Secundum alios
+          <lb ed="#Q"/>distinguendum, iuxta B. Anselmum5, quod
+          <lb ed="#Q"/>aut illa impossibilitas, qua non potest quis con<lb ed="#Q"/>formare
+          vo1untatem suam voluntati divinae, surgit
+          <lb ed="#Q"/>ex culpa vel non. Si non surgit ex. culpa: non
+          <lb ed="#Q"/>tenetur ad conformationem; si- vero surgit ex
+          <lb ed="#Q"/>culpa: non absolvitur-a tentione; et secundum
+          <lb ed="#Q"/>hoc dicunt quod obstinatus tenetur ad conforma<lb ed="#Q"/>tionem,
+          licet illud sit impossibile.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c3-d1e3853">
+          <lb ed="#Q"/>2. Ad illud quod obicitur de illis qui 'sunt
+          <lb ed="#Q"/>in peccato, quod continue peccant: responden<lb ed="#Q"/>dum'
+          sicut-de caritate, ad quam tenemursem<lb ed="#Q"/>per,
+          sed non ad semper; requiritur enim ad hoc
+          <lb ed="#Q"/>quod teneatur" [quis] moveri motu caritatis, quod
+          <lb ed="#Q"/>sit in comprehensione bonitatis Dei" et quod ha<lb ed="#Q"/>beat
+          habitum quo possit ferri ad dilectionem Dei.
+          <lb ed="#Q"/>Similiter dicendum de conformatione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

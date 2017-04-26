@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. II, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="125"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m2c3">
+        <head xml:id="ahsh-l1p1i1t3q1m2c3-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 2, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t3q1m2c3-Hd1e3732" type="question-title">AN DIVINA UNITAS SECUM COMPATIATUR PLURALITATEM PRINCIPIORUM.</head>
+        <div xml:id="ahsh-l1p1i1t3q1m2c3-Dd1e3735" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q1m2c3-Hd1e3737">Articulus I</head>
+          <head xml:id="ahsh-l1p1i1t3q1m2c3-Hd1e3740" type="question-title">Utrum sit ponere duo principia summe bona.</head>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3743">
+            <lb ed="#Q"/>Quaeritur postea utrum unitas divini esse se<lb ed="#Q"/>.
+            cum compatiatur: pluralitatem principiorum,
+            <lb ed="#Q"/>Ita quod esset ponere duo principia boni, quo<lb ed="#Q"/>tum
+            utrumque diceretur summum bonum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3754">
+            <lb ed="#Q"/>Ad quod sic: a. Boethius, in libro De con<lb ed="#Q"/>s0101'1'01183:
+            «Quaef discrepant bona, non esse
+            "Ul-lm" quod alterum est liquet: quare neutrum
+            ., Poterit esse perfectum, cum alterum alteri desit;
+            - sed quod perfectum non est, illud non esse sum<lb ed="#Q"/>mum 
+            manifestum est; non ergo summe bona sunt 
+            <lb ed="#Q"/>quae sunt diversa ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3765">
+            <lb ed="#Q"/>b. Item 4, si essent plura principia, qualiter ab
+            <lb ed="#Q"/>illis gubemaretur mundus? Si enim quis parti
+            <lb ed="#Q"/>mundi principatur, quis mundum ordinat et per<lb ed="#Q"/>manentiam
+            eius facit? illud enim magis utroque
+            <lb ed="#Q"/>erit principium, quod scilicet ordinat universum.
+            <lb ed="#Q"/>Et sic relinquitur solum esse unum principium
+            <lb ed="#Q"/>perfectum sive summe ' bonum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3784">
+            <lb ed="#Q"/>c. Item 5, quod superlative dicitur uni soli con<lb ed="#Q"/>venit.
+            Si ergo summum bonum est, relinquitur
+            <lb ed="#Q"/>quod unum solum est summe bonum, non habens
+            <lb ed="#Q"/>parem vel superiorem ; si enim habet superiorem,
+            <lb ed="#Q"/>iam non est summum; similiter si 'parem; simi<pb ed="#Q" n="126"/><cb ed="#Q" n="a"/><lb ed="#Q"/>liter 
+            si habeat inferiorem, illud inferius non est 
+            <lb ed="#Q"/>summe b bonum ; manebit ergo unum solum summe 
+            <lb ed="#Q"/>bonum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3806">
+            <lb ed="#Q"/>Contra: 1. Boethius, in libro De consola<lb ed="#Q"/>tione
+            1: « Quae discrepant bona » etc., per" hoc vo—
+            <lb ed="#Q"/>lens probare quod "' non sunt duo principia summe
+            <lb ed="#Q"/>bona, quia unum non esset alterum: et sic utrum<lb ed="#Q"/>que
+            esset imperfectum. -—- Sed quod haec
+            <lb ed="#Q"/>ratio nulla sit, patet: quia est bonum crea<lb ed="#Q"/>tum
+            et increatum, et unum non est alterum, nec
+            <lb ed="#Q"/>e converso. Si ergo non ponit quod aliquid ' desit
+            <lb ed="#Q"/>summo bono increato, quia scilicet non est ip—
+            <lb ed="#Q"/>sum f bonum creatum: similiter nec si esset
+            <lb ed="#Q"/>aliud! bonum increatum differens ab ipso, hoc
+            <lb ed="#Q"/>non poneret defectum in ipso; possunt ergo esse
+            <lb ed="#Q"/>duo summe bona.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3837">
+            <lb ed="#Q"/>2. Item, unitas et multitudo dividuntur ex op—
+            <lb ed="#Q"/>positoz; ergo multitudo non est principium uni<lb ed="#Q"/>tatis
+            vel'. e converso,- aliud ergo principium est;
+            <lb ed="#Q"/>unitatis, in quantum unitas, et aliud multitudinis;
+            <lb ed="#Q"/>ergo duo sunt principia bonorum. '
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3850">
+            <lb ed="#Q"/>3. item, « beatitudo creata est status omnium
+            <lb ed="#Q"/>bonorum congregatione perfectus3 »; sed beati<lb ed="#Q"/>tudo
+            creata non est ipsa beatitudo increata; cum
+            <lb ed="#Q"/>ergo ratio summi boni sit ex aggregationek per<lb ed="#Q"/>fecta
+            totius bonitatis, relinquitur quod erunt duo
+            <lb ed="#Q"/>summe bona.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3866">
+            <lb ed="#Q"/>Solutio: Concedendum secundum rationes prae<lb ed="#Q"/>dictas
+            quod non sit ponere duo principia summe
+            <lb ed="#Q"/>bona.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3875">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum dicendum quod
+            <lb ed="#Q"/>intentio Boethii est: si poneretur cum summo
+            <lb ed="#Q"/>bono bonum aliud, quod non esset ipsum vel ab
+            <lb ed="#Q"/>ipso differret ', quia illud ei deesset et ita non
+            <lb ed="#Q"/>esset perfectum, quia perfecto nihil deest; si au<lb ed="#Q"/>tem
+            poneretur summe bonum increatum, non '" es<lb ed="#Q"/>set
+            ipsum nec ab ipso; et propter hoc non pos<lb ed="#Q"/>sunt
+            stare simul. Sed bonum creatum, licet non
+            <lb ed="#Q"/>sit ipsum bonum increatum, tamen est ab eo,
+            <lb ed="#Q"/>unde non est summum; et propter hoc bonitas
+            <lb ed="#Q"/>creata potest stare cum summo bono increato,
+            <lb ed="#Q"/>licet non sit ipsum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3905">
+            <lb ed="#Q"/>2. Ad secundum dicendum quod, quamvis
+            <lb ed="#Q"/>secundum rationem unitas et multitudo dividantur
+            <lb ed="#Q"/>ex opposito, tamen secundum rem minime, immo
+            <lb ed="#Q"/>ipsa multitudo substantialiter est multitudo" ex
+            <lb ed="#Q"/>unitatibus aggregata 4. Si vero substantialiter est
+            <lb ed="#Q"/>multitudo ex unitatibus aggregatis ", quae erit
+            <lb ed="#Q"/>causa ipsarum unitatum, erit et causa multitudinis.
+            <lb ed="#Q"/>Ideo unum erit principium unitatis et multitudinis
+            <lb ed="#Q"/>et unius et multorum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3927">
+            <lb ed="#Q"/>3. Ad tertiam rationem dicendum quod sum<lb ed="#Q"/>mum
+            bonum diciturP dupliciter, scilicet simplici<lb ed="#Q"/>citer
+            et secundum quid. Summum bOnumq sim<lb ed="#Q"/>pliciter
+            est bonum increatum ; summum bonum
+            <lb ed="#Q"/>secundum quid est beatitudo creata, quia est sum<lb ed="#Q"/>mum
+            bonum in creatis bonis eo'" quod est a summo
+            <lb ed="#Q"/>bono increata: prapterea non numerantur 8- ut di<lb ed="#Q"/>cantur
+            duo summa; et ita intelligendum de con<lb ed="#Q"/>gregatione
+            perfecta bonorum.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q1m2c3-Dd1e3950" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q1m2c3-Hd1e3952">Articulus II</head>
+          <head xml:id="ahsh-l1p1i1t3q1m2c3-Hd1e3955" type="question-title">Utrum sit ponere duo summa principia, aliud boni et aliud mali.</head>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3958">
+            <lb ed="#Q"/>Deinde quaeritur utrum ' unitas divini esse com<lb ed="#Q"/>patiatur 
+            secum pluralitatem principiorum, ita quod 
+            <lb ed="#Q"/>unum dicatur principium boni, reliquum vero prin<lb ed="#Q"/>cipium 
+            mali, ut scilicet dicatur summum bonum et 
+            <lb ed="#Q"/>summum malum, sicut posuerunt Manichaei 5.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3971">
+            <lb ed="#Q"/>Ad quod sic: a. Bonum, verum et ens conver<lb ed="#Q"/>tuntur;
+            ergo eorum opposita, scilicet " malum, fal<lb ed="#Q"/>sum,
+            non-ens; malum ergo, in quantum malum,
+            <lb ed="#Q"/>est non-ens ; ergo multo magis summum malum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3982">
+            <lb ed="#Q"/>b. Item, unumquodque, in quantum est, bonum
+            <lb ed="#Q"/>est, sicut probatur a Boethios; ergo malum,
+            <lb ed="#Q"/>in quantum malum, non est, quia, in quantum ma<cb ed="#Q" n="b"/><lb ed="#Q"/>lum, 
+            non est malum; summum igitur malum om<lb ed="#Q"/>nino 
+            non est.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e3997">
+            <lb ed="#Q"/>c. Item, si summum bonum habeat oppositum "
+            <lb ed="#Q"/>summum malum, ergo sicut: summum bonum
+            <lb ed="#Q"/>est bonum per essentiam, ita summum malum
+            <lb ed="#Q"/>erit maium per essentiam; nihil ergo bonitatis erit
+            <lb ed="#Q"/>velJ' intelligetur in summo malo; ergo nec po<lb ed="#Q"/>tentia
+            nec notitia nec etiam esse. Relinquitur ergo
+            <lb ed="#Q"/>quod non erit potens nec etiam ens, ergo nec
+            <lb ed="#Q"/>principium.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4017">
+            <lb ed="#Q"/>d. Item, in summo bono intelligitur summa vo<lb ed="#Q"/>luntas
+            boni et summa potentia, ergo summum
+            <lb ed="#Q"/>odium sive detestatio mali et summa potentia ad
+            <pb ed="#Q" n="127"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>destruendum malum. Posito ergo summo malo,
+            <lb ed="#Q"/>quaeritur an summe bonum habeat voluntatem
+            <lb ed="#Q"/>destruendi ipsum. Et si non habet: non summe
+            <lb ed="#Q"/>detestatur malum; ergo non est summe" bonum.
+            <lb ed="#Q"/>Si habet: aut ergo potest destruere summe ma<lb ed="#Q"/>lum
+            aut non potest. Si non potest: ergo non est
+            <lb ed="#Q"/>summe potens; ergo non est summum. Si potest
+            <lb ed="#Q"/>et vult et constat quod scit *: ergo non est aliquo
+            <lb ed="#Q"/>modo compatiens summum malum in esse.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4050">
+            <lb ed="#Q"/>Contra: I. 1. Si simpliciter ad simpliciter et ma<lb ed="#Q"/>gis
+            ad magisc et maxime ad maximel: ergo si
+            <lb ed="#Q"/>bonum habet oppositum malum et magis bonum
+            <lb ed="#Q"/>magis malum et summum bonum summum ma<lb ed="#Q"/>lum,
+            ergo summum malum est.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4063">
+            <lb ed="#Q"/>2. Item, in bonis sequitur: ' aliquid est bonum "'
+            <lb ed="#Q"/>et aliquid' melius, ergo aliquid optimum '; ergo
+            <lb ed="#Q"/>similiter in malis: 'aliquid est malum, aliquidf
+            <lb ed="#Q"/>peius, ergo aliquid pessimum'; ergo summum
+            <lb ed="#Q"/>malum est. .
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4076">
+            <lb ed="#Q"/>3. Item, contrariorum contrariae sunt causae;
+            <lb ed="#Q"/>sed in universitate sunt multae contrarietates et
+            <lb ed="#Q"/>multa contraria; ergo et causae contrariae; sed
+            <lb ed="#Q"/>una est causa omnium bonorum, quae nec est
+            <lb ed="#Q"/>causa malorum; ergo necesse est quod sit una
+            <lb ed="#Q"/>causa omnium malorum; sicut ergo illa ponitur
+            <lb ed="#Q"/>summum bonum, ita et ista ponetur summum
+            <lb ed="#Q"/>malum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4096">
+            <lb ed="#Q"/>4. Item, sequitur: 'si aliquid est bonum partici<lb ed="#Q"/>patione, 
+            ergo aliquid est bonum per essentiam';
+            <lb ed="#Q"/>ergo similiter: 'aliquid est malum participatione,
+            <lb ed="#Q"/>ergo aliquid est malum per essentiam'.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4108">
+            <lb ed="#Q"/>5. Item, nihil est principium salvativum et cor<lb ed="#Q"/>ruptivum;
+            cum ergo bonorum et incorruptorum
+            <lb ed="#Q"/>sit principium salvativum: ergo et malorum et
+            <lb ed="#Q"/>corruptibilium erit principium corruptivum 8. <lb ed="#Q"/>Si
+            dicatur quod corruptibilium non est ponen<lb ed="#Q"/>dum
+            principium, cum corruptio accidat ex de<lb ed="#Q"/>fectu
+            et ideo ex non-causa potius quam ex causa
+            - contra: omne corruptivum est activum; omne
+            <lb ed="#Q"/>autem activum habet naturam per quam agit; erit
+            <lb ed="#Q"/>lgitur aliqua natura principium corruptivum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4130">
+            <lb ed="#Q"/>II. Item, per auctoritates " voluerunt ostendere 
+            <lb ed="#Q"/>Manichaei duo principia hoc modo:
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4137">
+            1. Matth. 12,33: Aut facite arborem bonam et
+            <lb ed="#Q"/>fructum eius bonum : aut facite arborem malam
+            <lb ed="#Q"/>et fructum. eius malum. Glossa Rabanif:
+            «Non potest ex bono malum vel ex malo nasci
+            <lb ed="#Q"/>bonum-. Et ibidem 5: « Nihil .medium quin boni 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>auctoris tantum sint bona et mali mala ». Ex qui<lb ed="#Q"/>bus 
+            colligitur quod boni et mali non est idem 
+            <lb ed="#Q"/>principium, sed diversa.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4155">
+            <lb ed="#Q"/>2. Item, I Ioan. 3,8: Qui facit peccatum, ex
+            <lb ed="#Q"/>diabolo est, non materialiter, sed * effective. Ergo
+            <lb ed="#Q"/>diabolus est principium efficiens mali, et Deus
+            <lb ed="#Q"/>boni.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4166">
+            <lb ed="#Q"/>3. Item, Matth. 15,13: Omnis plantatio, quam
+            <lb ed="#Q"/>non plantavit Pater meus caelestis, eradicabitur.
+            <lb ed="#Q"/>Ergo aliquid est quod non plantavit Pater caele<lb ed="#Q"/>stis
+            ; haec plantatio quid aliud est quam' ali<lb ed="#Q"/>cuius
+            rei in esse productio? Est igitur aliud prin<lb ed="#Q"/>cipium
+            a Deo producens res in esse.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4182">
+            <lb ed="#Q"/>4. Item, Ioan. 8,44: Vos ex patre diabolo estis; 
+            <lb ed="#Q"/>et constat quod non est pater nisi'" creatione.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4190">
+            <lb ed="#Q"/>5. Item, II Cor. 4,3-4: Si evangelium nostrum
+            <lb ed="#Q"/>apertum est, in iis qui pereunt, est opertum, in qui<lb ed="#Q"/>bus
+            deus huius saeculi excaecauit" mentes infi—
+            <lb ed="#Q"/>delium; non autem intelligendum est de bono
+            <lb ed="#Q"/>Deo " quod excaecat mentes infidelium; igitur de
+            <lb ed="#Q"/>malo.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4206">
+            <lb ed="#Q"/>6. Item, Ioan. 14,30: Venit princeps mundi
+            <lb ed="#Q"/>huius. Unde innuit quod unus sit princeps mundi
+            <lb ed="#Q"/>huius et alter alterius; et intelligiturP de diabolo.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4215">
+            <lb ed="#Q"/>7. Item, Rom. 7,23: Video aliam legem in mem<lb ed="#Q"/>bris
+            meis repugnantem legi mentis meae. Ergo
+            <lb ed="#Q"/>duae leges sunt in homine; sed lex spiritus est
+            <lb ed="#Q"/>a Deo; ergo contraria est a contrario principio.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4226">
+            <lb ed="#Q"/>8. Item, Ioan. 8,44: Diabolus homicida fuit ab
+            <lb ed="#Q"/>initio. Igitur vel essentialiter malus vel a malo
+            <lb ed="#Q"/>principio ?.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4235">
+            <lb ed="#Q"/>9. Item, Ioan. 8,44: Diabolus est mendax et
+            <lb ed="#Q"/>pater eius. Si pater', igitur efficiens causas et
+            <lb ed="#Q"/>non ab altero'; sed causa et principium idem;
+            <lb ed="#Q"/>ergo " etc.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4246">
+            <lb ed="#Q"/>10. Item, Gen. l,31: Vidit Deus cuncta, quae
+            <lb ed="#Q"/>fecerat: et erant valde bona. -- Item, Eccle. 1,2:
+            <lb ed="#Q"/>Vanitas vanitatum, et omnia vanitas. Non igitur
+            <lb ed="#Q"/>haec a Deo.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4258">
+            <lb ed="#Q"/>Respondeo: Deceptio Manichaeorum fuit
+            <lb ed="#Q"/>quia aestimaverunt privationes causari" sicut po<lb ed="#Q"/>sitiones;
+            quod non est vemm: privationes enim *
+            <lb ed="#Q"/>non habent causam efficientem, quemadmodum po<lb ed="#Q"/>sitiones,
+            sed deficientem. Unde A u gu stin u 5, XII
+            <lb ed="#Q"/>De civitate Dei 6: « Non est efficiens causa mali,
+            <lb ed="#Q"/>sed deficiens, quia nec mala voluntas est eftectio 7,
+            <lb ed="#Q"/>sed defectio. Causam ergo mali velle invenire
+            <lb ed="#Q"/>est acsi aliquis velit videre tenebras vel audire 
+            <lb ed="#Q"/>silentium, quae nobis per oculos nota sunt, non
+            <lb ed="#Q"/>specie, sed speciei privatione; talia vero nescien<lb ed="#Q"/>do
+            sciuntur uta sciendo nesciantur: silentium
+            <lb ed="#Q"/>enim nonnisi non audiendo auditur ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4289">
+            <lb ed="#Q"/>[Ad obiecta]: Respondendum ergo ad obiecta 
+            <lb ed="#Q"/>per ordinem.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4296">
+            <lb ed="#Q"/>I. 1. Ad primum dicendum quod regula ista
+            'si simpliciter add simpliciter' etc. differenter
+            <lb ed="#Q"/>intelligitur in positionibus et privationibus. ln po<lb ed="#Q"/>sitionibus
+            enim est magis et minus per: partici<lb ed="#Q"/>pationem
+            unius formae vel naturae, sicut in co<lb ed="#Q"/>loribus
+            secundum participationem formae albe<lb ed="#Q"/>dinis
+            secundum plus et minus dicitur plus et
+            <lb ed="#Q"/>minus album. ln privationibus vero aliter est.
+            <lb ed="#Q"/>Nam in privationibus nonf dicitur magis et mi<lb ed="#Q"/>nus
+            per! participationem unius formae secundum
+            <lb ed="#Q"/>magis et minus, sed'. per recessum a forma sive
+            <lb ed="#Q"/>habitu respectu cuius dicuntur privationes secun<lb ed="#Q"/>dum
+            magis et minus. Propterea non est ponere
+            <lb ed="#Q"/>terminum, et ideo nec summum simpliciter, sicut
+            <lb ed="#Q"/>patet in curvo: dicitur enim curvum per elonga—
+            <lb ed="#Q"/>tionem a recto, curvius per maiorem elongatio<lb ed="#Q"/>nem,
+            curvissimum per summami elongationem.
+            <lb ed="#Q"/>Sic igitur malum et peius dicuntur per elonga<lb ed="#Q"/>tionem
+            a bono seu privationem boni secundum
+            <lb ed="#Q"/>magis et minus, et summum malum dicetur per
+            <lb ed="#Q"/>summam elongationem. Si igitur non est possi<lb ed="#Q"/>bilis
+            summa elongatio a bono, quia hoc esset
+            <lb ed="#Q"/>summa elongatio ab esse, sicut superius1 osten<lb ed="#Q"/>sumk
+            est, relinquitur quod nullo modo est sum<lb ed="#Q"/>mum
+            malum. Illa ergo regula 'si simpliciter ad
+            <lb ed="#Q"/>simpliciter' etc. tenet in illis in quibus est maxi<lb ed="#Q"/>mum
+            et terminus secundum accessum sive se<lb ed="#Q"/>cundum'
+            recessum; sed in malo non est termi<lb ed="#Q"/>nus'"
+            recessus, quia malum est infinitum; prop<lb ed="#Q"/>terea
+            non erit ponere summum malum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4361">
+            <lb ed="#Q"/>2. Ad secundum iam patet responsio, quia
+            <lb ed="#Q"/>non est similis comparatio in bono et in malo.
+            <lb ed="#Q"/>Unde non sequitur: si in bono ponitur maximum,
+            <lb ed="#Q"/>quod in malo ponatur; cum enim malum privatio
+            <lb ed="#Q"/>sit, non habet esse subsistens nisi in natura, quae
+            <lb ed="#Q"/>quidem privata est a bono et nata ad bonum.
+            <lb ed="#Q"/>Propterea non potest aliquo modo esse nec etiam
+            <lb ed="#Q"/>intelligi summum malum simpliciter. Distinguen<lb ed="#Q"/>dum 
+            tamen est quod summum malum potest"
+            <lb ed="#Q"/>dici duobus modis: uno modo, quo nihil potest
+            <lb ed="#Q"/>esse peius nec habet aliquid boni, et hoc modo
+            <lb ed="#Q"/>nihil est summum malum ; alio modo dicitur sum<lb ed="#Q"/>mum 
+            malum, quo nihil est peius, et hoc modo 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>summum malum est ipsa inordinatio creaturae, 
+            <lb ed="#Q"/>qua nil est peius.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4398">
+            <lb ed="#Q"/>3. Ad tertium dicendum quod est causa pro<lb ed="#Q"/>xima
+            propria et immediata et est causa prima
+            <lb ed="#Q"/>communis. Causa proxima propria et immediata
+            <lb ed="#Q"/>differens est contrariorum, sed causa principalis et
+            <lb ed="#Q"/>prima est una contrariorum 3. —— Quod patet:
+            <lb ed="#Q"/>contraria sunt unius generis, sicut albedo et ni<lb ed="#Q"/>gredo
+            in genere coloris. Una igitur est natura in
+            <lb ed="#Q"/>contrariis, et quae est causa illius est " causa con<lb ed="#Q"/>trariorum,
+            sicut quae est causa coloris simpliciter
+            <lb ed="#Q"/>est causa albi et nigri coloris; una igitur erit
+            <lb ed="#Q"/>causa prima? albi et nigri coloris, quamvis
+            <lb ed="#Q"/>proxima causa differat. Similiter nota in omni
+            <lb ed="#Q"/>oppositioneq per se esse aliquid commune ipsis
+            <lb ed="#Q"/>oppositis: vel commune secundum dictionem,
+            <lb ed="#Q"/>sicut est in oppositis secundum affirmationem et
+            <lb ed="#Q"/>negationem, una essentia est communis secundum
+            <lb ed="#Q"/>dictionem; aut commune secundum rem: et hoc
+            <lb ed="#Q"/>vel commune materiale, et hoc modo est com<lb ed="#Q"/>mune
+            secundum privationem et habitum; vel com<lb ed="#Q"/>mune
+            formale, et hoc absolutum vel respectivum '.
+            <lb ed="#Q"/>Commune absolutum est in oppositione contra<lb ed="#Q"/>riorum,
+            quia ibi est una forma generis communis
+            <lb ed="#Q"/>ipsis speciebus; commune formale comparatum
+            <lb ed="#Q"/>est in relativis, quia ibi est communitas habitu—
+            <lb ed="#Q"/>dinis. Cum ergo in omni oppositione oppositorum
+            <lb ed="#Q"/>inveniatur unum quod est fundamentum ipsius
+            <lb ed="#Q"/>oppositionis, quae erit causa illius unius erit
+            <lb ed="#Q"/>causa ipsis oppositis; una igitur causa erit om<lb ed="#Q"/>nium
+            oppositorum: prima, dico, non proxima.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4463">
+            <lb ed="#Q"/>4. Ad quartum dicendum quod* participa<lb ed="#Q"/>tione
+            dicitur bonum proprie, quia bonitas una est
+            <lb ed="#Q"/>quae est prima, quae secundum magis et minus
+            <lb ed="#Q"/>communicatur ab omnibus creaturis' et illa est
+            <lb ed="#Q"/>bonitas per essentiam; malum vero participatione
+            <lb ed="#Q"/>improprie ", quia una malitia non est causa ma<lb ed="#Q"/>litiae
+            in omnibus, sicut ostendit B. Dionysius,
+            <lb ed="#Q"/>in libro De divinis nominibus2: « Bonum est ex
+            <lb ed="#Q"/>una et generali causa, malum autem ex multis et
+            <lb ed="#Q"/>particularibus defectibus " ». Quod declarat conse<lb ed="#Q"/>quenter4:
+            « Non omnibus eadem omnino secun<lb ed="#Q"/>dum
+            idem mala: daemoni enim malum estx prae<lb ed="#Q"/>ter
+            divinum intellectum esse;,animae, quod est
+            <lb ed="#Q"/>praeter rationem; corpori, quod est praeter natu<lb ed="#Q"/>ram».
+            Malum ergo-V participatione non dicitur
+            <lb ed="#Q"/>ex communione alicuius entis, sed ex similitudine
+            <lb ed="#Q"/>defectus et alicuius non—entis; et ideo non se<lb ed="#Q"/>quitur:
+            'ergo aliquid est malum per essentiam'.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4506">
+            <lb ed="#Q"/>5. Ad quintum dicendum quod corruptivum
+            <lb ed="#Q"/>principium, in quantum agit, activum est ex na<lb ed="#Q"/>tura
+            boni quod substantificat malum; in quantum
+            <lb ed="#Q"/>vero corrumpit, defectivum est, et ideo non erit
+            <lb ed="#Q"/>causa efficiens, in quantum huiusmodi, sed defi<lb ed="#Q"/>ciens:
+            quare neque principium. Et hoc intendit
+            <lb ed="#Q"/>B. Dionysius'. Unde" cum dicitur: 'malum
+            <lb ed="#Q"/>agit', hoc dicitur per accidens; sed cum dicitur:
+            'corrumpit', hoc dicitur per se. Nec tamen ex hoc *
+            <lb ed="#Q"/>ponetur principium: agit enim per naturam sub<lb ed="#Q"/>sistentis
+            boni, corrumpit autem ': per defectum et
+            <lb ed="#Q"/>privationem boni. Per hoc quod a bono, agit; per
+            <lb ed="#Q"/>hoc quod de nihilo, corrumpit, ut dicitd Augu<lb ed="#Q"/>stinusz.
+            Exemplum BH Dionysii3 in morbi
+            <lb ed="#Q"/>actione.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4539">
+            <lb ed="#Q"/>II. Ad auctoritates vero respondendum:
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4544">
+            <lb ed="#Q"/>1. Ad primam dicendum quod per arborem
+            <lb ed="#Q"/>significatur voluntas et per bonam bona, per ma<lb ed="#Q"/>lam
+            mala, per fructum vero opus 4. Unde sensus
+            <lb ed="#Q"/>est: non potest ex mala voluntate nasci bonum
+            <lb ed="#Q"/>opus, nec ex bona malum, in quantum huiusmodi.
+            <lb ed="#Q"/>Ex libero tamen arbitrio procedit voluntas bona
+            <lb ed="#Q"/>et mala: sed per modum efficientis, in quantum
+            <lb ed="#Q"/>scilicet a Deo est, procedit voluntas bona; per mo<lb ed="#Q"/>dum
+            vero deficientis, in quantum scilicetf ver<lb ed="#Q"/>tibile
+            per electionem est et de nihilo, est causa vo<lb ed="#Q"/>luntatis
+            malae; et sic, secundum quod declinat in
+            <lb ed="#Q"/>non-causam per aversionem a summa causa, ideo
+            <lb ed="#Q"/>simpliciter non ponetur principium secundum hoc.
+            — Praeterea, esto quod diceretur principium li<lb ed="#Q"/>berum
+            arbitrium mali, non sequeretur quod esset
+            <lb ed="#Q"/>unum, immo tot principia quot essent libera ar<lb ed="#Q"/>bitria
+            deficientia ! in diversis rationalibus " creatu<lb ed="#Q"/>ris;
+            et hoc vult dicere B. Dionysius—", quod
+            «malum est ex multis defectibus, non ex una
+            <lb ed="#Q"/>causa».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4586">
+            <lb ed="#Q"/>2. Ad aliam auctoritatem respondendum quod
+            <lb ed="#Q"/>diabolus non dicitur principium peccati effective
+            <lb ed="#Q"/>seui per efficientiam, sed per suggestionem 6; et
+            <lb ed="#Q"/>qui facit peccatum non dicitur esse ex diabolo
+            <lb ed="#Q"/>secundum rationem efficientiae ", sed per confor<lb ed="#Q"/>mitatem
+            malitiae 7.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4602">
+            <lb ed="#Q"/>3. Ad tertiam' auctoritatem qua dicitur
+            'omnis plantatio* etc.: dicendum quod planta<lb ed="#Q"/>tionem
+            dicit ibi non naturam, sed traditionem
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>seu doctrinam Pharisaeorum contra legem Dei; et 
+            <lb ed="#Q"/>hanc dicit"1 eradicandam, id est reprobandam.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4615">
+            <lb ed="#Q"/>4. Ad quartam dicendum, sicut prius, quod
+            <lb ed="#Q"/>ludaei dicuntur ex patre diabolo, non conditione ",
+            <lb ed="#Q"/>sed malitiae imitatione 3.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4625">
+            <lb ed="#Q"/>5. Ad quintam dicendum quod 'deus huius
+            <lb ed="#Q"/>saeculi ' intelligitur dupliciter: uno modo intelli<lb ed="#Q"/>gitur
+            diabolus, secundum quod 'saeculum' dicitur
+            <lb ed="#Q"/>perversi amatores saecularium, quorum dicitur
+            <lb ed="#Q"/>diabolus deus, non causando, sed principando et
+            <lb ed="#Q"/>eos ad mala agendo". Vel 'deus huius saeculi '
+            <lb ed="#Q"/>dicitur Deus, secundum quod ' saeculum, accipitur
+            <lb ed="#Q"/>pro universitate rerum mundialium: et tunc quod
+            <lb ed="#Q"/>dicitur 'excaecasse mentes infidelium' intelligitur
+            <lb ed="#Q"/>non effective, sed permissive, secundum quod di<lb ed="#Q"/>citur
+            Rom. 1,28: Tradidit illos Deus in reprobum
+            <lb ed="#Q"/>sensum, id est tradi permisit.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4654">
+            <lb ed="#Q"/>6. Ad sextam patet simili modo responsio.
+            <lb ed="#Q"/>Nam princeps mundi dicitur diabolus, non crea<lb ed="#Q"/>turarum
+            mundi, sed amatorum mundi, quorum
+            <lb ed="#Q"/>affectionibus dominatur 9.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4665">
+            <lb ed="#Q"/>7. Ad septimam dicendum quod 'lex camis'
+            <lb ed="#Q"/>non dicitur nisi defectus rectitudinis debiti or<lb ed="#Q"/>dinis
+            ipsius carnis ad spiritum, contractus ex
+            <lb ed="#Q"/>culpa originali; causa ergo eius non ponetur nisi
+            <lb ed="#Q"/>quae est causa peccati, scilicet deficiens, quae
+            <lb ed="#Q"/>scilicet estP prima voluntas inordinata ad Deum;
+            <lb ed="#Q"/>tamen, in quantum est poena afflictiva, potest
+            <lb ed="#Q"/>poni a Deo sive a divina iustitia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4685">
+            <lb ed="#Q"/>8. Ad octavam dicendum quod homicida di<lb ed="#Q"/>citur
+            diabolus ab initio, id est ex quo homo fuit,
+            <lb ed="#Q"/>quem decipiendo interfecit. Vel dicitur homicida
+            <lb ed="#Q"/>ab initio, scilicet mundi, id est statim post ini<lb ed="#Q"/>tium,
+            cum hominem decepit, non ab initio sui
+            <lb ed="#Q"/>esse 10.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4701">
+            <lb ed="#Q"/>9. Ad nonam dicendum quod diabolus di<lb ed="#Q"/>citur
+            pater mendacii, quia ab ipso et non ab alio
+            <lb ed="#Q"/>mendacium incepit ", non per modum efficientis
+            <lb ed="#Q"/>causae, sed per modum deficientis a veritate.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m2c3-d1e4712">
+            <lb ed="#Q"/>10. Ad ultimam dicendum quod cum dicitur:
+            <lb ed="#Q"/>Vidit Deus cuncta quae fecerat et erant valde
+            <lb ed="#Q"/>bona, ostenditur quod creatura duplicem bonita<lb ed="#Q"/>tem
+            habet, scilicet in se et in ordine universi.
+            <lb ed="#Q"/>Unde in conditione creaturarum de qualibet dic<lb ed="#Q"/>tum
+            est: Vidit Deus quod esset bonum, ad signi<pb ed="#Q" n="130"/><cb ed="#Q" n="a"/><lb ed="#Q"/>ficandum 
+            bonitatem quam habent in proprio ge<lb ed="#Q"/>nere; 
+            sed de universis dictum est: Erant valde
+            <lb ed="#Q"/>bona, ad significandum bonitatem quam habent
+            <lb ed="#Q"/>in rerum universitate". — Quod vero obi<lb ed="#Q"/>citur
+            'aniversa vanitas', intelligendum quod
+            <lb ed="#Q"/>creaturae, secundum quod referuntur ad princi<cb ed="#Q" n="130"/><lb ed="#Q"/>pium 
+            a quo sunt, bona sunt et in se bona sunt
+            <lb ed="#Q"/>et in b universo valde bona sunt 2 ; secundum vero
+            <lb ed="#Q"/>quod referuntur ad originem de qua sunt, scilicet
+            <lb ed="#Q"/>de nihilo, vanitas sunt et vertibiles ad non-esse
+            <lb ed="#Q"/>sunt, vel simpliciter vel quodam modo. Per hoc
+            <lb ed="#Q"/>ergo nunquam adstruetur aliud principium.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, M. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, M. 3, C. 1</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2m3c1">
+        <head xml:id="ahsh-l1tinq2m3c1-Hd1e3732">I, Tract. Intro., Q. 2, M. 3, C. 1</head>
+        <head xml:id="ahsh-l1tinq2m3c1-Hd1e3735" type="questionTitle">UTRUM DEUS VIDEATUR VEL COGNOSCATUR SE IPSO VEL REQUIRATUR ALIUD SICUT MEDIUM AD COGNOSCENDUM IPSUM</head>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3738">
+          <lb ed="#Q"/>Quaeritur ergo in principio utrum Deus videa<lb ed="#Q"/>ttur 
+          vel cognoscatur se ipso vel requiratur 
+          <lb ed="#Q"/>aliquid aliud sicut medium ad cognoscendum 
+          <lb ed="#Q"/>ipsum.
+        </p>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3749">
+          <lb ed="#Q"/>Ad quod sic obicitur: 1. Sicut se habet lux
+          <lb ed="#Q"/>istad corporalis ad sensum et visibilia, ita se
+          <lb ed="#Q"/>habet lux divina ad intellectum et intelligibilia,
+          <lb ed="#Q"/>sicut dicit Augustinus, in libro Soiiiaquio<lb ed="#Q"/>rum
+          5, quod « terra visibilis est et lux. Sed terra
+          <lb ed="#Q"/>nisi luce illustrata videri non potest; similiter di<lb ed="#Q"/>sciplinarumB
+          spectamina non possunt intelligi,
+          <lb ed="#Q"/>nisi aliquo suof sole illustrentur »; et illud est
+          <lb ed="#Q"/>Deus. Si ergo lux corporalis per se ipsam vi<lb ed="#Q"/>detur
+          et non per aliud, ergo lux, quae est Deus,
+          <lb ed="#Q"/>per se ipsamb' videtur et non alio.
+        </p>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3775">
+          <lb ed="#Q"/>2. Item, cum tria sint genera visionis ", sicut 
+          <lb ed="#Q"/>dicit Augustinust, corporalis,. imaginaria et
+          <lb ed="#Q"/>intellectualis, tertio genere videntur « res quae non
+          <lb ed="#Q"/>habent similitudinem nisi se ipsas », ut dicitur
+          <lb ed="#Q"/>I»Cor.ï 12, 2, in Glossa Augustini5; ergo
+          <lb ed="#Q"/>non videtur per imaginem'f sive per' similitudi<lb ed="#Q"/>nem. 
+          Quod autem tertio genere visionis videatur, 
+          <lb ed="#Q"/>Deus, habetur Rom. 1,20 super illud: Invisibilia
+          <lb ed="#Q"/>Dei etc., quod philosophi viderunt Deum tertio
+          <lb ed="#Q"/>genere visionis 5.
+        </p>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3800">
+          <lb ed="#Q"/>3. Item, dicit Augustinus7 quod «mens, 
+          <lb ed="#Q"/>nulla interposita natura, ab ipsa prima veritate 
+          <lb ed="#Q"/>formatur». Nulla igitur alia natura intercurret'" 
+          <lb ed="#Q"/>inter primam veritatem et mentem, quae sit sicut 
+          <lb ed="#Q"/>medium ad cognoscendum Deum. 
+        </p>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3813">
+          <lb ed="#Q"/>Contra: a. 1 Cor. 13,12: Videmus nunc per 
+          <lb ed="#Q"/>speculum et in aenigmate. Glossae: «Per 
+          <lb ed="#Q"/>speculum" in aenigmate, id est per imaginem
+          <lb ed="#Q"/>obscuram: videmus enim aliquas creaturas in
+          <lb ed="#Q"/>quibus aliqua Dei similitudo relucet». Et sequi<lb ed="#Q"/>tur9:
+          « Sicut speculi nomine imaginemil signifi<lb ed="#Q"/>cavit,
+          ita nomine aenigmatis similitudinem, quam<lb ed="#Q"/>vis 
+          obscuram. Utroque igitur nomine similitudines
+          <lb ed="#Q"/>significatae'sunt quae valent ad intelligendum
+          <lb ed="#Q"/>Deum, licet obscure ». Relinquitur ergo quod non
+          <lb ed="#Q"/>cognoscitur in praesenti Deus nisi per similitu—<lb ed="#Q"/>dines
+          creaturarum.</p>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3842">
+          <lb ed="#Q"/>b. Item ", Dionysius, in principio Hierar<lb ed="#Q"/>chiae
+          W: « Non est possibile animo nostro ad non *
+          <lb ed="#Q"/>materialem illam ascendere caelestium hierarchia<lb ed="#Q"/>rum
+          contemplationem, nisi ea quae secundum ip<lb ed="#Q"/>sum
+          est materiali manuductione utatur: huius rei
+          <lb ed="#Q"/>gratia misericors perfectionis principium sensibi—
+          <lb ed="#Q"/>libus imaginibus caelestes descripsit intellectus ».
+          <lb ed="#Q"/>Relinquitur ergo quod non possunt percipi spiri<lb ed="#Q"/>tuales
+          creaturae nisi per medias similitudines;
+          <pb ed="#Q" n="31"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>ergo multo magis nec ipsa spiritualis substantia 
+          <lb ed="#Q"/>increata.
+        </p>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3873">
+          <lb ed="#Q"/>Respondeo: In praesenti non est cognoscere
+          <lb ed="#Q"/>Deum sine medio; Utrum autem in futuro " possit
+          <lb ed="#Q"/>cognosci sine medio aliquo, alias inquiretur'.
+        </p>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3882">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo dicendum
+          <lb ed="#Q"/>quod .' videri se ipso ' dicitur dupliciter: effective
+          <lb ed="#Q"/>et materialiter. Dicendum ergo quod lux etiam
+          <lb ed="#Q"/>videtur se ipsa et per se ipsam etiective, quia
+          <lb ed="#Q"/>non est alia causa quae faciat lucem videre nisi
+          <lb ed="#Q"/>ipsa. Est tamen aliqua causa materialis, in qua
+          <lb ed="#Q"/>scilicet lux videtur, quemadmodum in ara vel
+          <lb ed="#Q"/>colore. Unde videtur lux se ipsa effective, non
+          <lb ed="#Q"/>tamen se ipsa materialiter, hoc est in se ipsa,
+          <lb ed="#Q"/>id est in sua spiritualitate et absolutione natu—
+          <lb ed="#Q"/>rae suae, sed in alia, ut in" aöre vel colore. Eo<lb ed="#Q"/>dem
+          modo lux aeterna in praesenti videtur se
+          <lb ed="#Q"/>ipsa, non tamen in se ipsa, sed in creatura, quae
+          <lb ed="#Q"/>est quasi medium materiale deferens ipsam lucem
+          <lb ed="#Q"/>ad intellectum.
+        </p>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3917">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod intellectua<lb ed="#Q"/>lis
+          visio dicitur duobus modis: uno modo intellec<lb ed="#Q"/>tualis
+          visio '-' cognitio per intellectum, sive sit per
+          <lb ed="#Q"/>similitudinem ipsius rei intellectae 4, sive per fern
+          <lb ed="#Q"/>ipsam. Et hoc modo dicitur intellectualis visio
+          <lb ed="#Q"/>Rom. 1, 20, in 010 ssa 2. —— Alio modo dicitur in<lb ed="#Q"/>tellectualis
+          visio prout dicitur caelum, et hoc modo 
+          <lb ed="#Q"/>non quaecumque cognitio per intellectum dicitur
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>visio intellectualis, sed solum illa qua res videtur
+          <lb ed="#Q"/>non per similitudinem aliam a re. Et hoc modo
+          <lb ed="#Q"/>accipitur Ii Cor. 12, 2, in Glossa3 super illud:
+          <lb ed="#Q"/>Raptus usque ad tertium caelum, ubi dicitur:
+          « Tertium genus visionis est illud quo dilectio *
+          <lb ed="#Q"/>intellecta conspicitur, eas res continet quae non
+          <lb ed="#Q"/>habent imagines sui similes ». Et sequitur: « Di<lb ed="#Q"/>lectio
+          enim non aliter videtur praesens in specie
+          <lb ed="#Q"/>qua est et aliter absens in aliqua imagine suif
+          <lb ed="#Q"/>simili». Dicendum ergo quod primo modo, vi<lb ed="#Q"/>sione
+          intellectuali, videtur Deus in praesenti, sed
+          <lb ed="#Q"/>secundo modo videbitur in patria.
+        </p>
+        <p xml:id="ahsh-l1tinq2m3c1-d1e3964">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod natura potest
+          <lb ed="#Q"/>accipi dupliciter, scilicet substantia aliqua vel dis<lb ed="#Q"/>positio
+          ipsius substantiae. Secundum quod natura
+          <lb ed="#Q"/>appellatur substantia aliqua, sicg dicit Augu<lb ed="#Q"/>stinus
+          ** quod « nulla est interposita natura inter
+          <lb ed="#Q"/>mentem et Deum, ut scilicet sit aliqua substantia
+          <lb ed="#Q"/>intellectualis », velut angelus, per quam formetur
+          <lb ed="#Q"/>et perficiatur ipsa mens, quemadmodum 'l philo<lb ed="#Q"/>sophi5
+          mentiti sunt, dicentes intelligentiam hu—
+          <lb ed="#Q"/>manam educi in actum et perfici per intelligentiam
+          <lb ed="#Q"/>angelicam. — Secundum vero quod natura di—
+          <lb ed="#Q"/>citur dispositio substantiae, sic i non est inconve<lb ed="#Q"/>niens
+          dispositionem aliquam esse ex parte mentis
+          <lb ed="#Q"/>ad videndum Deum, ut utaturk ibi se ipsa sicut
+          <lb ed="#Q"/>imagine quadam ad videndum. Deum, vel etiam 
+          <lb ed="#Q"/>speciebus aliis intelligibilibus.
+        </p>        
+      </div>
+    </body>
+  </text>
+</TEI>

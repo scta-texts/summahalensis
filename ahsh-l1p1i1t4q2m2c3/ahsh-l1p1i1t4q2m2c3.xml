@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="221"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q2m2c3">
+        <head xml:id="ahsh-l1p1i1t4q2m2c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 2, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t4q2m2c3-Hd1e3744" type="question-title">AN POTENTIA DIVINA LIMITARI POSSIT EX PARTE PRAESCIENTIAE ET RATIONIS AETERNAE.</head>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3747">
+          <lb ed="#Q"/>Iterum, arguunt ex parte praescientiae et
+          <lb ed="#Q"/>Irationis aeternae ad ]imitationem poten<lb ed="#Q"/>tiae
+          divinae sic: l. « Si potest aliud omni<lb ed="#Q"/>potens
+          facere quam facit, ergo potest facere
+          <lb ed="#Q"/>quod non praescivit; ergo potest- sine prae<lb ed="#Q"/>scientia
+          operari, quia quod iacturum'l se prae<lb ed="#Q"/>scivit,
+          tacit, nec facit aliquid aliud quod non
+          <lb ed="#Q"/>praescivit 3 ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3767">
+          <lb ed="#Q"/>2. Item, « nihil facit aut dimittit nisi optima ra<lb ed="#Q"/>tione
+          et semper manente; sed, illa manente, non
+          <lb ed="#Q"/>potest quod facit, dimittere, vel quod dimittit, fa<lb ed="#Q"/>cere;
+          ergo non potest facere nisi quod facit »,
+          <lb ed="#Q"/>nec dimittere nisi quod dimittit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3780">
+          <lb ed="#Q"/>3. Si dicatur quod non est verum quod', ma<lb ed="#Q"/>nente
+          ratione, non potest dimittere quod facit etc.,
+          <lb ed="#Q"/>quia « secundum eamdem rationem potest facere
+          <lb ed="#Q"/>quae 8 dimittit et dimittere quae facit » — contra:
+          « non potest facere nisi quod ratio est eum ta—
+          <lb ed="#Q"/>cere »; sed non est ratio eum dimittere quae fa<lb ed="#Q"/>cit,
+          nec facere quae dimittit; ergo non potest
+          <lb ed="#Q"/>dimittere quae facit4 etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3799">
+          <lb ed="#Q"/>4. Si vero respondeatur, ut priuss, quod
+          <lb ed="#Q"/>cum dicitur ' ratio est eum facere vel dimittere ',
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>potest copulare rationem in actu, et sic falsa est
+          <lb ed="#Q"/>propositio et est sensus t: 'non potest facere nisi
+          <lb ed="#Q"/>quod ratio est eum facere nunc'; vel in habitu:
+          <lb ed="#Q"/>et sic vera est, id est ratio esset, si faceret - obi<lb ed="#Q"/>citur
+          iterum: quomodo ** potest esse eadem ratio
+          <lb ed="#Q"/>faciendi et dimittendi? nani facere et dimittere
+          <lb ed="#Q"/>opposita sunt ; sed oppositorum oppositi sunt
+          <lb ed="#Q"/>fines; ergo et oppositae rationes, cum ratio V su<lb ed="#Q"/>matur
+          a fine.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3828">
+          <lb ed="#Q"/>5. Item, iustificat illum, et hoc facit secundum
+          <lb ed="#Q"/>rationem misericordiae, et non illum, et hoc facit
+          <lb ed="#Q"/>secundum rationem iustitiae; ergo rationex mi<lb ed="#Q"/>sericordiae
+          facit iustificationem istius, ratione iu<lb ed="#Q"/>stitiae
+          dimittit in illo; ergo alia ratio qua facit
+          <lb ed="#Q"/>et dimittit. —, Item, Augustinus, in 83 Quae<lb ed="#Q"/>stion.
+          5: « Alia est ratio qua conditus est homo et
+          <lb ed="#Q"/>qua conditus est equus »; sed facere et dimittere
+          <lb ed="#Q"/>diversa sunt sicut homo et equus; ergo alia est
+          <lb ed="#Q"/>ratio faciendi et dimittendi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3852">
+          <lb ed="#Q"/>Respondeo quod nullo modo limitatur divina
+          <lb ed="#Q"/>potentia: nec actu nec voluntate nec iustitia nec
+          <lb ed="#Q"/>bonitate nec praescientia nec3 ratione, quamvis
+          <lb ed="#Q"/>egressum divinae potentiae in actum semper con<pb ed="#Q" n="222"/><cb ed="#Q" n="a"/>comitetur 
+          voluntas, iustitia", bonitas, praescien<lb ed="#Q"/>tia,
+          ratio, quae in Deo eadem sunt secundum
+          <lb ed="#Q"/>rem, quamvis differant secundum intelligentiae
+          <lb ed="#Q"/>rationem. lnfinita est ergo potentia respectu agen<lb ed="#Q"/>dorum,
+          quamvis non voluntas nec iustitia nec
+          <lb ed="#Q"/>praescientia nec ratio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3877">
+          <lb ed="#Q"/>[Ad obiecta.]: ]. Ad illud quod obicitb de
+          <lb ed="#Q"/>praescientia: dicendum quod non sequitur 'po<lb ed="#Q"/>test
+          operari quod non praescivit, ergo c potest ope<lb ed="#Q"/>rari
+          sine praescientia ', « et est transitus a divi<lb ed="#Q"/>sione
+          ad compositionem. Et est simile: 'iste po<lb ed="#Q"/>test
+          te docere litteras, quasi non[1 novit, quia
+          <lb ed="#Q"/>adhuc illitteratus est et litteras discet, ergo potest
+          <lb ed="#Q"/>te docere litteras sine notitia'; item, potest vi<lb ed="#Q"/>dere
+          qui non habet oculos, quia Antichristus,
+          <lb ed="#Q"/>ergo aliquis potest videre sine oculis1 ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3901">
+          <lb ed="#Q"/>2. Ad illud quod obicitt ex parte rationis
+          <lb ed="#Q"/>patet solutio per responsionem in opponendo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3908">
+          <lb ed="#Q"/>3. Sed ad illud quod obicit de ratione, di<lb ed="#Q"/>cendum,
+          secundum Augustinum,.in libro Re<lb ed="#Q"/>tractationumzz
+          « Non erravit Plato dicens 'mun<lb ed="#Q"/>dum
+          intelligibilem, rationem sempiternam et in<lb ed="#Q"/>commutabilem
+          f, qua fecit Deus mundum et omne
+          <lb ed="#Q"/>quod fecit; quam qui negat dicit Deumg irratio<lb ed="#Q"/>nabiliter
+          fecisse quod fecit ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3927">
+          <lb ed="#Q"/>4. Ad illud quod obicit quod ' non esth ea<lb ed="#Q"/>dem
+          ratio operationis et dimissionis': dicendum
+          <lb ed="#Q"/>quod ratio operationis sive dimissionis est bo<cb ed="#Q" n="b"/><lb ed="#Q"/>nitas 
+          ipsius. Quare enim facit quod facit? propter
+          <lb ed="#Q"/>bonitatem suam; bonitas autem potest conside<lb ed="#Q"/>rari
+          dupliciter: in se vel secundum comparatio<lb ed="#Q"/>nem
+          ad creaturam. Ratio ergo potest dicere di<lb ed="#Q"/>vinam
+          bonitatem in se, et sic una tantum est
+          <lb ed="#Q"/>ratio; sed si dicat bonitatem in comparatione ad
+          <lb ed="#Q"/>creaturam, connotato respectui ad creaturam, se<lb ed="#Q"/>cundum
+          hoc alia est ratio qua creatus est homo,
+          <lb ed="#Q"/>alia qua equus: homo enim magis accedit ad
+          <lb ed="#Q"/>bonitatem quam equus. — Quod ergo obi<lb ed="#Q"/>citur
+          quod 'oppositorum oppositi sunt iines':
+          <lb ed="#Q"/>dicendum quod loquendo de fine proximo et 'im<lb ed="#Q"/>mediato,
+          verum est ; loquendo de fine ultimo, non
+          <lb ed="#Q"/>est verum: bonitas enimk divina est finis ulti<lb ed="#Q"/>mus
+          omnium, et illa est una ratio et eadem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m2c3-d1e3970">
+          <lb ed="#Q"/>5. Ad aliud' dicendum quod ratio miseri<lb ed="#Q"/>cordiae
+          et iustitiae dicuntur differre propter re<lb ed="#Q"/>spectus
+          ad creaturam; sed secundum quod di<lb ed="#Q"/>cunt
+          divinam bonitatem non est alia ratio mise<lb ed="#Q"/>ricordiae
+          et iustitiae, sed eadem. Et est exemplum
+          <lb ed="#Q"/>in vasis, quod ponit Apostolus, Rom. 9,21, quod
+          <lb ed="#Q"/>figulus facit vas in contumeliam, hoc debeturm
+          <lb ed="#Q"/>vilitati materiae; quod vas in honorem, hoc ex
+          <lb ed="#Q"/>bonitate artificis. Similiter, quod Dominus damnat
+          <lb ed="#Q"/>istum, hoc est propter exigentiam meritorum et
+          <lb ed="#Q"/>massam corruptam—"': unde connotatur respectus
+          <lb ed="#Q"/>ad meritum; quod vero salvat istum, hoc est ex
+          <lb ed="#Q"/>bonitate" sola.
+        </p>
+                  
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+
+
+      </div>
+    </body>
+  </text>
+</TEI>

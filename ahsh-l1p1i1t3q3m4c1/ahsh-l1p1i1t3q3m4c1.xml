@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="192"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m4c1">
+        <head xml:id="ahsh-l1p1i1t3q3m4c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t3q3m4c1-Hd1e3744" type="question-title">ANINCREATO BONO OPPONATUR MALUM</head>
+        <p xml:id="ahsh-l1p1i1t3q3m4c1-d1e3796">
+          <lb ed="#Q"/>Circa primum sic obicitur: 1. Augustinus,.
+          <lb ed="#Q"/>XI De civitate Deizz- « Vitium est contrarium
+          <lb ed="#Q"/>Deo quemadmodum malum bono »; sed malum
+          <lb ed="#Q"/>opponitur simpliciter bono; ergo et vitium Deo;
+          <lb ed="#Q"/>sed nihil aliud est vitium'1 quam malum; ergo
+          <lb ed="#Q"/>malumb est Deo contrarium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c1-d1e3812">
+          <lb ed="#Q"/>2. Item, quod deficit a minori, secundum quod
+          <lb ed="#Q"/>huiusmodi, deficit a maiori existente in illo mi<lb ed="#Q"/>nori,
+          sine: quo nec est nec intelligitur illud mi<lb ed="#Q"/>nus;.
+          sed omne bonum creatum minus est bono
+          <lb ed="#Q"/>increato et tale minusd quod nec esse ,nec in<lb ed="#Q"/>telligi
+          potest sine bono increatoi; ergo quod de<lb ed="#Q"/>ficit
+          a bono creato deficit ab increato; sed de<lb ed="#Q"/>ficiens
+          a creato bono dicitur malum; ergo sicut
+          <lb ed="#Q"/>est malum respondens bono creato,,sic .erit ma.<lb ed="#Q"/>1um.respondens.
+          .bono increato.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c1-d1e3836">
+          <lb ed="#Q"/>Contra: a.. Vitium vel malum, sicut dicit Au<lb ed="#Q"/>gustinusä-
+          dicitur de' eo quod nocet vel vi'<lb ed="#Q"/>tiat.
+          Ergo cui non contingitnocerif vel quod non 
+          <lb ed="#Q"/>contingit vitiari, nullum! malum est vel vitium ' 
+          <lb ed="#Q"/>oppositum; sed summum bonum " nec, vitiati po<lb ed="#Q"/>test 
+          nec ei noceri; ergo summo bono non est 
+          <lb ed="#Q"/>malum contrarium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c1-d1e3854">
+          <lb ed="#Q"/>b. Praeterea, malum privatio est; ergo quod non
+          <lb ed="#Q"/>habet aliquid quod possit privari, non habet ma<lb ed="#Q"/>lum
+          sibi oppositum; sed primum nihil habet pri<lb ed="#Q"/>vabile;
+          ergo malum non est, oppositum summo
+          <lb ed="#Q"/>bono.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c1-d1e3867">
+          <lb ed="#Q"/>Solutio: 1. Dicunt .quod summo bono negative
+          <lb ed="#Q"/>opponituri aliquid; et si malum ei opponitur in
+          <lb ed="#Q"/>se, hoc non est malum dictum privative,. sed so<lb ed="#Q"/>lum
+          secundum negationem. Verumtamen, quia
+          <lb ed="#Q"/>auctoritas Augustini4 plus dicit -— dicit enim 
+          <lb ed="#Q"/>quod « vitium est contrarium Deo sicut malum ' 
+          <lb ed="#Q"/>bono » — ideo plus Oportet dicere. Dicimus ergo
+          <lb ed="#Q"/>quod aliquidk potest alicui contrariari dupliciter;
+          <lb ed="#Q"/>vel in se vel in suo effectu, scilicet effectum
+          <lb ed="#Q"/>ipsius impediendo', quia efficienti praebere non
+          <lb ed="#Q"/>poterat impedimentum. Si ergo loquamur de
+          <lb ed="#Q"/>summo bono in se: sic nullum est ei "'" malum<lb ed="#Q"/>contrarium.
+          Si autem velimus dicere contrarium
+          <lb ed="#Q"/>in eius effectu: sic aliquid ;est contrarium Deo;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>aliquid enim est impeditivum vel destructivum
+          <lb ed="#Q"/>facti et conservati" ab ipso, et si non possit
+          <lb ed="#Q"/>impediri Deus nec destrui" illud ex parte sua
+          <lb ed="#Q"/>quo suos effectus conservat,. ipsi tamen effectus
+          <lb ed="#Q"/>conservati" impediuntur et destruuntur .a malo.
+          <lb ed="#Q"/>Exemplum ,autemP Augusti ni,- in XI De civi<lb ed="#Q"/>tate
+          Dei 5, est illud Iac. '4,4: Amicus huius mundi
+          <lb ed="#Q"/>inimicus. est Dei 4; dicitur ergo inimicus, non quia
+          <lb ed="#Q"/>Deo directe adversatur, sed quia alicui effectui eius,
+          <lb ed="#Q"/>qui signum est beneplaciti eius, resistit. Unde Au<lb ed="#Q"/>gustinus,
+          ibidem 6: .« Inimici sunt voluntate re<lb ed="#Q"/>sistendi,.
+          non potestate laedendi». Secundum hoc
+          <lb ed="#Q"/>intelligitur auctoritas Augustini: « Vitium est
+          <lb ed="#Q"/>contrarium Deo », non in se, sed in suo effectu.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c1-d1e3932">
+          <lb ed="#Q"/>2. Ad aliud" quod obicitur 'quidquid -de<lb ed="#Q"/>ficit
+          a minori' etc.: dicimus quod duplex est de<lb ed="#Q"/>fectus. 
+          Unus qui est pura negatio, secundum quod 
+          <lb ed="#Q"/>dicitur "quod non est alterum, deficit ab illo'; et
+          <lb ed="#Q"/>secundum hoc dicimus quod omne creatum de<lb ed="#Q"/>ficit
+          a Deo, quia nullum creatum est Deus;.sed
+          <lb ed="#Q"/>iste defectus non facit malum. — Alius est de<lb ed="#Q"/>fectus?
+          qui non est pura negatio, sed privatio, 
+          <lb ed="#Q"/>ut non. dicatur deficiens ,ab alio- quidquid non
+          <lb ed="#Q"/>est habens illud, sed quod est aptum natum ha<lb ed="#Q"/>bere
+          non habens: et-hic est defectus qui est:-in
+          <lb ed="#Q"/>malo; sic autem nihil est deficiens a Deo. Unde non
+          <lb ed="#Q"/>sequitur in proposito 'si deficit-a minori' etc.—,
+          <lb ed="#Q"/>quia nec sequitur ' natum est esse minus, ergo'
+          <lb ed="#Q"/>natum est esse maius '.. Unde etsi quidlibet eo<lb ed="#Q"/>rum
+          quae sunt natum est habere summum bo<lb ed="#Q"/>num
+          in se, sicut quod est tenens ipsum in esse -—
+          <lb ed="#Q"/>et non [ut] est substratum " malo, quia ex parte ex
+          <lb ed="#Q"/>qua detectibilis est res, ex illa subicitur malo —— ni<lb ed="#Q"/>hil
+          tamen eorum quae sunt natum est esse' Deus;
+          <lb ed="#Q"/>et ideo, si nihil eorum, quae sunt extra" Deum,
+          <lb ed="#Q"/>sit Deus, nihil tamen dicendum est deficere a Deo,
+          <lb ed="#Q"/>hoc modo dicendo defectum: et ideo non erit*
+          <lb ed="#Q"/>aliquod malum contrarie .vel privative opposi<lb ed="#Q"/>tum
+          summo bono 7, nisi sicut prius dictum est 7.
+          ', Si autem rationes ultimae probant quod malum
+          <lb ed="#Q"/>non est contrarium Deo, hoc' est verum in se,
+          <lb ed="#Q"/>sed non est verum de contrario in suo effectu.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

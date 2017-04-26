@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-24">March 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="352"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t5m3c3">
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m3c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 3, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m3c3-Hd1e3744" type="question-title">UTRUM LIBER VITAE SIT RESPECTU BONORUM ET MALORUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3747">
+          <lb ed="#Q"/>Tertio quaeritur utrum liber vitae sit respectu
+          <lb ed="#Q"/>bonorum et maiorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3754">
+          <lb ed="#Q"/>Et videtur quod non dicatur respectu malo—
+          <lb ed="#Q"/>rum: 0. Rom. 9,23 super illud: Uf ostenderet- di<lb ed="#Q"/>vitias
+          gloriae suae, Glossa3 : « De iustitia iu<lb ed="#Q"/>dicat
+          Deus, non de praescientia, quia iustitia, non
+          <lb ed="#Q"/>praescientia, est causa quare aliquis dignus sit
+          <lb ed="#Q"/>vita apud Deum; unde Moysi dixit, Exod. 32,33:
+          <lb ed="#Q"/>Si quis peccaverit in me, delebo eum de libro
+          <lb ed="#Q"/>meo etc., ut secundum iustitiam iudicis videatur
+          <lb ed="#Q"/>deleri cum peccat». Ex hac auctoritate obicitur
+          <lb ed="#Q"/>sic: Si «iustitia-!, non praescientia, est causa
+          <lb ed="#Q"/>quare aliquis dignus sit vita apud Deum », et
+          <lb ed="#Q"/>omnis qui scriptus est in libro", in quantum
+          <lb ed="#Q"/>huiusmodi, «dignus est vita », quia liber vitae
+          <lb ed="#Q"/>est notitia dignitatis vitae, ergo solum boni et
+          <lb ed="#Q"/>iusti scripti sunt in libro vitae. '
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3789">
+          <lb ed="#Q"/>b. Item, qui peccat deletur de libro illo; sed
+          <lb ed="#Q"/>qui deletur non est ibi scriptus; ergo nullus
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>peccator est ibi scriptus; ergo liber vitae non
+          <lb ed="#Q"/>est respectu malorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3803">
+          <lb ed="#Q"/>Contra: 1. Luc. lO,20, super illud: Nomina
+          <lb ed="#Q"/>vestra scripta sunt in caelis, Glossa4: « Si quis
+          <lb ed="#Q"/>terrestria sive caelestia opera gesserit, per hoc
+          <lb ed="#Q"/>quasi litteris annotatus f apud Dei memoriam ae<lb ed="#Q"/>ternaliter
+          est affixus »; sed nihil aliud est'f « quasi
+          <lb ed="#Q"/>litteris annotari apud Dei memoriam » quam scribi
+          <lb ed="#Q"/>in libro vitae; ergo qui facit terrestria opera
+          <lb ed="#Q"/>scriptus est in libro vitae! ; sed qui facit terre<lb ed="#Q"/>stria
+          opera malus est; ergo mali scripti sunt in
+          <lb ed="#Q"/>libro vitae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3827">
+          <lb ed="#Q"/>2. Item, Philip. 4,3: Quorum nomina sunt in
+          <lb ed="#Q"/>libro vitae. Glossa5: « Liber vitae est praede<lb ed="#Q"/>stinatio
+          »; sed praedestinatio est de bonis et
+          <lb ed="#Q"/>malis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3838">
+          <lb ed="#Q"/>3. Item '", Apoc. 3, 5, super illud: Non delebo
+          <lb ed="#Q"/>eum de libro vitae, Glos sa 6: « Delet reprobos »;
+          <lb ed="#Q"/>sed quicumque delentur scripti fuerunt; ergo re<lb ed="#Q"/>probi
+          aliquando scripti sunt in libro vitae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3849">
+          <pb ed="#Q" n="353"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Solutio: Dicendum quod liber vitae" dicitur
+          <lb ed="#Q"/>solum respectu. bonorum. Illud enim solum di<lb ed="#Q"/>citur
+          scribif' in libro vitae quod habet notitiam
+          <lb ed="#Q"/>et exemplar in Deo; sed mali, in quantum mali,
+          <lb ed="#Q"/>non habent notitiam et exemplar 0, et ideo mali
+          <lb ed="#Q"/>non possunt dici scripti in libro vitae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3869">
+          <lb ed="#Q"/>Et si obiciaturd quia «liber vitae est prae<lb ed="#Q"/>destinatio
+          », sicut dicit Glo ssa1 Philip. 4,3; sed
+          <lb ed="#Q"/>quandoque e contingit quod aliquis praedestinatus
+          <lb ed="#Q"/>est malus, ut patet de Magdalena2 in statu pec<lb ed="#Q"/>cati,
+          et ita aliqui mali scripti sunt ibi; non ergo
+          <lb ed="#Q"/>universaliter est verum quod liber vitae sit re<lb ed="#Q"/>spectu
+          bonorum — ad hoc dicendum quod
+          <lb ed="#Q"/>malorum alii sunt electi et aliif reprobi, et aliter
+          <lb ed="#Q"/>est in his et in illis.- quia mali, qui sunt reprobi,
+          <lb ed="#Q"/>nullo modo sunt scripti in libro vitae; mali vero
+          <lb ed="#Q"/>electi g, etsi quandoque cadant a iustitia, adhuc
+          <lb ed="#Q"/>tamen dicuntur scribi in libro vitae, quia etiam
+          <lb ed="#Q"/>ille casus ordinat eos ad vitam, etsi non causa<lb ed="#Q"/>liter,
+          materialiter tamen sive occasionaliter. Unde
+          <lb ed="#Q"/>Rom. 8,28: Omnia cooperantur in bonum iis qui
+          <lb ed="#Q"/>secundum propositum vocati sunt sancti, Glos<lb ed="#Q"/>sa
+          3: « Etiam casus, quia post peccata sunt humi<lb ed="#Q"/>liores
+          et etiam terventiores aliquando, ut patet
+          <lb ed="#Q"/>in Magdalena », '« quae etiam recedentibus di<lb ed="#Q"/>scipulis
+          non recedebat ** ». Unde super illud
+          <lb ed="#Q"/>I Esdr. 2,1: Hi sunt provinciae filii, Glossa5:
+          « Nullus praedestinatus perire in perpetuum po<lb ed="#Q"/>test;
+          si quando enim in Babylonem, id est in
+          <lb ed="#Q"/>confusionem peccatorum, abducuntur fl, divina pro<lb ed="#Q"/>visione
+          ad pacem Ecclesiae reducuntur ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3924">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad aliud quod obicitur6 de
+          <lb ed="#Q"/>malo praedestinato quod « secundum iustitiam iu<lb ed="#Q"/>dicis
+          videtur deleri »: dicendum quod facienda est
+          <lb ed="#Q"/>vis in hoc quod dicitï « videtur»: videtur enim
+          <lb ed="#Q"/>deleri, sed non deletur. Unde dicit Glossa7 ibi<lb ed="#Q"/>dem
+          sic: « Dicit Dominus": Si quis peccaverit
+          <lb ed="#Q"/>in me, delebo eum de libro meo, ut Secundum iu<lb ed="#Q"/>stitiam
+          iudicis videatur deleri, curn peccat; iuxta
+          <lb ed="#Q"/>praescientiam autem nunquam ibi scriptus tue—
+          <lb ed="#Q"/>rat », intellige de peccante finaliter. Et sequitur':
+          « E contrario vero'" aliquis videtur scribi, qui ta—
+          <lb ed="#Q"/>men secundum praescientiam nunquam fuit», in—
+          <lb ed="#Q"/>tellige de praescitis, « qui tamen secundum prae<lb ed="#Q"/>sentem
+          iustitiam aliquando sunt boni ». Vult ergo
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quod praesciti sive reprobi, cum a iustitia prae<lb ed="#Q"/>senti
+          cadunt, videntur deleri de libro vitae, cum
+          <lb ed="#Q"/>tamen ibi nunquam fuerint; similiter cum sunt in
+          <lb ed="#Q"/>statu" praesentis iustitiae, videntur ibib scribi,
+          <lb ed="#Q"/>et tamen apud Dei praescientiam nunquam ibi
+          <lb ed="#Q"/>scripti c fuerunt. Similiter dicendum 91 de praedesti—
+          <lb ed="#Q"/>natis: quia semper scripti sunt, etsi aliquando ca<lb ed="#Q"/>dant
+          et ita deleri videantur, nunquam tamen sim<lb ed="#Q"/>pliciterd
+          vel in veritate delentur. Est enim consi<lb ed="#Q"/>derare
+          meritum istius praedestinati ut nunc, scilicet
+          <lb ed="#Q"/>dum est in peccato mortali, vel meritum simplici<lb ed="#Q"/>ter,
+          ut est in praedestinatione aeterna sivee divina.
+          <lb ed="#Q"/>Si consideretur meritum istius ut nunc, secundum
+          <lb ed="#Q"/>hoc non potest dici quodf sit scriptus in libro vi<lb ed="#Q"/>tae;
+          sed si consideretur meritum istius simpliciter,
+          <lb ed="#Q"/>sive ut est in praedestinatione divina g, sic potest
+          <lb ed="#Q"/>dici scriptus in libro vitae, nec potest deleri quoad
+          <lb ed="#Q"/>meritum; ergo ut nunc videtur deleri, sed tamen
+          <lb ed="#Q"/>quoad meritumh simpliciter non deletur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e3999">
+          2. Ad aliud dicendum quod praedestinatio est
+          <lb ed="#Q"/>solum de bonis finaliter, quorumi tamen aliqui
+          <lb ed="#Q"/>possunt esse mali ut nunc et cadere a iustitia prae<lb ed="#Q"/>senti,
+          sed tamen resurgent et finaliter erunt boni.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c3-d1e4008">
+          <lb ed="#Q"/>3. Ad ultimum dicendum quod non potest
+          <lb ed="#Q"/>dici proprie quod reprobi scripti sunt in libro
+          <lb ed="#Q"/>vitae. Et ratio huius est quia in libro vitae non
+          <lb ed="#Q"/>dicitur aliquid scribi nisi quod cum effectu or<lb ed="#Q"/>dinat
+          ad vitam; et ideo praedestinati dicuntur
+          <lb ed="#Q"/>scribik in libro vitae, quia tota vita eorum or<lb ed="#Q"/>dinat
+          ad vitam, etiam peccata ', ut dicitur Rom.
+          8, 28 10: ordinat, dico, non ut causa, sed ut occasio
+          <lb ed="#Q"/>vel ut materia. Eodem modo in reprobis tota vita
+          <lb ed="#Q"/>eorum ordinat .ad poenam: quod enim creati sunt
+          <lb ed="#Q"/>possibiles m ad salutem et quod habent " gratiam,
+          <lb ed="#Q"/>totum cedit eis ad poenam propter ingratitudinem.
+          <lb ed="#Q"/>Illud autem quod ordinatur ad poenam, de se non
+          <lb ed="#Q"/>potest dici " ordinari ad vitam; solum autem illud
+          <lb ed="#Q"/>quod ordinatP ad vitam dicitur scribi in libro
+          <lb ed="#Q"/>vitae: et ideo reprobi non possunt scribiq in li<lb ed="#Q"/>bro
+          vitae ' , licet sint in praescientia divina. Ve<lb ed="#Q"/>rumtamen
+          praesens iustitia potest dupliciter con<lb ed="#Q"/>siderari:
+          secundum se vel secundum suum exi<lb ed="#Q"/>tum.
+          Secundum quod consideratur secundum se,
+          <lb ed="#Q"/>quoad quid potest dici reprobus scriptus in libro
+          <lb ed="#Q"/>vitae: quoad quid vero et non simpliciter dico,
+          <pb ed="#Q" n="354"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>id est quoad nunc, non simpliciter, quia gratia
+          <lb ed="#Q"/>nunquam facit simpliciter dignum vita aeterna nisi
+          <lb ed="#Q"/>sit gratia finalis. 'Si vero :consideretur secundum 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>suum exitum, id est quantum ad" abusum ha<lb ed="#Q"/>bentis
+          gratiam, non dicetur propter illum scriptus,
+          <lb ed="#Q"/>quia sequitur casus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

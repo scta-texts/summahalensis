@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 6, Q. 6, C. 7</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-31">March 31, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="411"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t6q6c7">
+        <head xml:id="ahsh-l1p1i1t6q6c7-Hd1e3741">I, P. 1, Inq. 1, Tract. 6, Q. 6, C. 7</head>
+        <head xml:id="ahsh-l1p1i1t6q6c7-Hd1e3744" type="question-title">UTRUM MERITORIUM SIT DOLERE DE PASSIONIBUS SANCTORUM.</head>
+        <p xml:id="ahsh-l1p1i1t6q6c7-d1e3747">
+          <lb ed="#Q"/>Item, quaeritur utrum meritorium sit dolere de
+          <lb ed="#Q"/>passionibus sanctorum vel velle illas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c7-d1e3754">
+          <lb ed="#Q"/>a. Quia pium est lugere Martinum et pium est!
+          <lb ed="#Q"/>gaudere de? Martino "'; ergo est meritorium
+          <lb ed="#Q"/>nolle' mortem Martini ".
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c7-d1e3763">
+          <lb ed="#Q"/>Contra: 1. Hoc erat contrarium voluntati divi<lb ed="#Q"/>nae,
+          et hoc sciebant.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c7-d1e3771">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Respondeo: Velle contrarium divinae voluntati
+          <lb ed="#Q"/>dicltur dupliciter: velle contrarium eius quod scio
+          <lb ed="#Q"/>Deum' velle, et hoc potest esse' meritorium;
+          <lb ed="#Q"/>vel volendo contrarium eius quod scio Deum me "
+          <lb ed="#Q"/>velle, et hoc non potest esse meritorium. — Vel
+          <lb ed="#Q"/>aliter: de praesentibus passionibus sanctorum
+          <lb ed="#Q"/>debemus dolere, de praeteritis vero possumus
+          <lb ed="#Q"/>gaudere.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

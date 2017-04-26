@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. III, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="187"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m3c4">
+        <head xml:id="ahsh-l1p1i1t3q3m3c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. III, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t3q3m3c4-Hd1e3744" type="question-title">DE EFFECTU BONI.</head>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur de effectu boni. Est igi<lb ed="#Q"/>tur
+          quaestio an bonum creatum sit eftectiva
+          <lb ed="#Q"/>causa mali auta boni.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3756">
+          <lb ed="#Q"/>I. Quaeritur ergo de malo culpae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3761">
+          <lb ed="#Q"/>Ad quod<!--b--> a. Dionysius, De divinis nomini<lb ed="#Q"/>bnsl:
+          « Confidimus dicere: "malum non est ex
+          <lb ed="#Q"/>bono; non est ignis intrigidare; ergo nec erit boni
+          <lb ed="#Q"/>malum producere ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3775">
+          <lb ed="#Q"/>b. Item, idemf in eodem: « Natura est bono
+          <lb ed="#Q"/>producere et salvare, malo autem corrumpere et
+          <lb ed="#Q"/>disperdere ». Ergo malum non erit causatum ex
+          <lb ed="#Q"/>bono.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3786">
+          <lb ed="#Q"/>c. Item, idem in eodemz: « Bonum ex una et
+          <lb ed="#Q"/>generali causa, malum autem ex multis et parti<lb ed="#Q"/>cularibus
+          defectibus ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3795">
+          <lb ed="#Q"/>d. Item, Matth. 7,18: Non potest arbor bona
+          <lb ed="#Q"/>fractus malos facere. Ergo malum non erit ex
+          <lb ed="#Q"/>bono.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3804">
+          <lb ed="#Q"/>Contra: ]. Augustinus, in Enchiridion3:
+          « Ex bono orta sunt mala nec nisi in aliquibus
+          <lb ed="#Q"/>bonis non sunt nec erat aliud unde oriretur ulla
+          <lb ed="#Q"/>mali natura ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3813">
+          <lb ed="#Q"/>2. Item, Augustinus, in eodem4: «Cum mala
+          <lb ed="#Q"/>ex bonis orta esse dicimus, non putetur hoc di<lb ed="#Q"/>vinae
+          sententiae refragari'qua d dicit 5: Non potest
+          <lb ed="#Q"/>arbor bona fructus malos facere, nec mala bonos,<lb ed="#Q"/>non
+          potest enim, sicut Salvator ait 6, colligi uva
+          <lb ed="#Q"/>de spinis, sed ex bona terra et vites nasci posse
+          <lb ed="#Q"/>videmus et spinas. Et eodem " modo tamquam ar<lb ed="#Q"/>bor
+          mala fructus bonos, id est opera bona, non
+          <lb ed="#Q"/>potest facere voluntas mala, sed ex bona homi<lb ed="#Q"/>nis
+          natura oriri voluntas et bona potest et mala;
+          <lb ed="#Q"/>nec fuit prorsus uncle primitus oriretur voluntas
+          <lb ed="#Q"/>mala nisi ex angeli et hominis natura bona. Quod
+          <lb ed="#Q"/>et ipse Dominus eodem loco, ubi de arbore et
+          <lb ed="#Q"/>fructibus loquebatur apertissime ostendit; ait
+          <lb ed="#Q"/>enim 7: Aut facite arborem bonam et fructum eius
+          <lb ed="#Q"/>bonum, aut facite arborem mala/n etf fructum
+          <lb ed="#Q"/>eius malum, satis admonens ex arbore quidem
+          <lb ed="#Q"/>mala bonos aut exg bona malos nasci fructus"
+          <lb ed="#Q"/>non posse; ex ipsa tamenh terra, cui loquebatur,
+          <lb ed="#Q"/>utramque arborem posse ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3859">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Respondeo, secundum Augustinum, in En<lb ed="#Q"/>chiridion
+          3: « Nequaquam dubitare debemus rerum,
+          <lb ed="#Q"/>quae ad nos pertinent, bonarum causam non esse
+          <lb ed="#Q"/>nisi bonitatem Dei, malarumi vero ab immu<lb ed="#Q"/>tabili
+          bono deficientem boni mutabilis volunta<lb ed="#Q"/>tem,
+          angeli primo, hominis postea. l-loc primum
+          <lb ed="#Q"/>est creaturae rationalis malum, id est prima pri<lb ed="#Q"/>vatio
+          boni; deinde etiam iam nolentibusk subin<lb ed="#Q"/>travit
+          ignorantia rerum agendarum et concupiscen<lb ed="#Q"/>tia'
+          noxiarum, quibus comites subinferuntur error
+          <lb ed="#Q"/>et dolor: quae duo mala quando imminentia 
+          <lb ed="#Q"/>sentiuntur, ea fugientis animi motus vocatur me<lb ed="#Q"/>tus. 
+          Porro animus cum adipiscitur concupitam
+          <lb ed="#Q"/>quamvis perniciosa vel inania, quoniam id errore
+          <lb ed="#Q"/>non sentit, vel delectatione morbida vincitur, [vel]
+          <lb ed="#Q"/>vana" etiam laetitia ventilatur. Ex iis morborum
+          <lb ed="#Q"/>non ubertatis, sed indigentiae tamquam fontibus
+          <lb ed="#Q"/>omnis miseria naturae rationalis emanat ». Bonum
+          <lb ed="#Q"/>ergo non est causa mali culpae in quantum bo<lb ed="#Q"/>num,
+          sed in quantum deficiens a bono 0, quod
+          <lb ed="#Q"/>est: bonum est causa mali, sed non in quantum
+          <lb ed="#Q"/>bonum. Et haec est intentio Augustini.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3912">
+          <lb ed="#Q"/>II. Item, quaeritur an bonum increatum sit
+          <lb ed="#Q"/>causa mali.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3919">
+          <lb ed="#Q"/>Ad quod respondet a. Augustinus, in IDe
+          <lb ed="#Q"/>libero arbitrio 9, sicP: «Duobus modis malum
+          <lb ed="#Q"/>appellare solemus: uno, cum malum quemqueq
+          <lb ed="#Q"/>fecisse dicimus; alio, cum mali aliquid esse per<lb ed="#Q"/>pessum.
+          At' si bonum Deum esse nosti vel credis,
+          <lb ed="#Q"/>neque enim aliter fas est, male non facit. Rursum 5,
+          <lb ed="#Q"/>si Deum iustum fatemur, nam et hoc negare sa<lb ed="#Q"/>crilegium
+          est, ut bonis praemia, ita malis sup<lb ed="#Q"/>plicia
+          tribuit: quae utique patientibus mala sunt.
+          <lb ed="#Q"/>Quamobrem, si nemo iniuste poenas luit —— quod
+          <lb ed="#Q"/>necesse est credamus, quandoquidem providen<lb ed="#Q"/>tia
+          divina hoc-universum regi f credimus — illius
+          <lb ed="#Q"/>primi generis malorum nullo modo, huius autem
+          <lb ed="#Q"/>secundi auctor est Deus: non enim nullo auctore
+          <lb ed="#Q"/>fieri posset. Si autem quaeris quisnam iste sit,
+          <lb ed="#Q"/>dici non potest; non enim unus aliquis est, sed
+          <lb ed="#Q"/>quisque malus sui male facti auctor est. Unde si
+          <lb ed="#Q"/>dubitas, illud attende quod supra dictum est:
+          <pb ed="#Q" n="188"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>male facta iustitia Dei vindicari; non enim iuste
+          <lb ed="#Q"/>vindicarentur, nisi fierent voluntate 1 ». — Sed
+          <lb ed="#Q"/>tun c quaeritur de corruptione naturalium, pro
+          <lb ed="#Q"/>qua dicitur homo vulneratus in naturalibus, quae
+          <lb ed="#Q"/>est poena. Cum enim omnis poena iusta sit et
+          <lb ed="#Q"/>omne iustum a Deo, erit haec poena a Deo;
+          <lb ed="#Q"/>item, hoc patet ex praedicta auctoritate Augu<lb ed="#Q"/>stini,
+          De libero arbitrio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3982">
+          <lb ed="#Q"/>Contra: 1. Augustinus, in libro 83 Quae<lb ed="#Q"/>stionumz:
+          « Omne quod deficit ab eo quod est
+          <lb ed="#Q"/>esse, tendit in non-esse; ille autem, ad quem
+          <lb ed="#Q"/>non—esse non pertinet, non est causa a deficiendi »;
+          <lb ed="#Q"/>corruptio ista est defectus; ergo Deus non est 
+          <lb ed="#Q"/>causa eius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3998">
+          <lb ed="#Q"/>2. Item, poena ista aut dicitur iusta, quia a
+          <lb ed="#Q"/>iusto infertur, aut quia propter iustamb et debi<lb ed="#Q"/>tam
+          causam infertur. Non quia a iusto, scilicet a 
+          <lb ed="#Q"/>Deo, quia sic quaelibet res diceretur iusta; ergo. 
+          <lb ed="#Q"/>dicitur iusta, quia prOpter iustum d meritum. Et
+          <lb ed="#Q"/>hoc est quod dicit Augustinus, in libro De
+          <lb ed="#Q"/>summo bono 3: « Peccantes in suppliciis ordinan<lb ed="#Q"/>tur;
+          quae ordinatio, quia naturae eorum non com<lb ed="#Q"/>petit,
+          ideo poena est, sed quia culpae competit,
+          <lb ed="#Q"/>ideo iustitiae est». Ergo. participat rationem bo<lb ed="#Q"/>nitatis
+          per comparationem ad culpam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e4024">
+          <lb ed="#Q"/>Solutio: Dicendum quod secundum debitum
+          <lb ed="#Q"/>statum naturae debet esse ut ipsa vis rationalis
+          <lb ed="#Q"/>in homine dominetur aliis viribus, scilicet irasci<lb ed="#Q"/>bili
+          et concupiscibili, et istae subiciantur ei et
+          <lb ed="#Q"/>trahat ipsas ad se; unde sic condita est humana
+          <lb ed="#Q"/>natura et ex hocf habet ipsa vis rationalis fa<lb ed="#Q"/>cilitatem
+          sive pronitatem ad bonum et difficulta<lb ed="#Q"/>tem
+          ad-malum; per hanc autem facilitatem et
+          <lb ed="#Q"/>difficultatem attenditur habilitatio rationis ad bo<cb ed="#Q" n="b"/><lb ed="#Q"/>num 
+          gratiae et per hoc ad gloriam, ad quam nata
+          <lb ed="#Q"/>est et ordinata. Unde si - homo esset recte ordi<lb ed="#Q"/>natus,
+          aliae vires subicerentur rationi et semper
+          <lb ed="#Q"/>esset homo facilis ad bonum et difficilis ad ma—
+          <lb ed="#Q"/>lum; sed quando peccat homo, tunc subicitur
+          <lb ed="#Q"/>ratio illisE et illae dominantur et trahunt ipsam
+          <lb ed="#Q"/>secum in affectionibus malis, ita quod e contrario
+          <lb ed="#Q"/>sit difficilis et resistens bono et habilis h et prona
+          <lb ed="#Q"/>ad malum: et ita fuit in peccato primi hominis,
+          <lb ed="#Q"/>et ex hoc est inordinatio quaedam et poena. Isti
+          <lb ed="#Q"/>enim motus, quibus sic movetur rationalis secun<lb ed="#Q"/>dum
+          motumi aliarum, poena est, quia inordi<lb ed="#Q"/>nati
+          *. « Motus enim inordinatus poena est», ut
+          <lb ed="#Q"/>dicit Au gustinus4, quia corrumpitur naturalis
+          <lb ed="#Q"/>habilitatio rationis, secundum quam movetur ad
+          <lb ed="#Q"/>bonum et resistit malo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e4082">
+          <lb ed="#Q"/>[Ad obiecta]:1. Quod ergo obicitur quod
+          'haec corruptio non sit a Deo': dicendum quod
+          <lb ed="#Q"/>haec corruptio, secundum quod nominat' defec<lb ed="#Q"/>tum
+          culpabilem, non est a Deo; sed secundum
+          <lb ed="#Q"/>quod nominat defectum "' poenalem sive poenam,
+          <lb ed="#Q"/>qua punitur anima, est a Deo, quia fundatur in
+          <lb ed="#Q"/>aliquo ente, ut dictum est 5, scilicet in resistentia
+          <lb ed="#Q"/>istius vis ad bonum et pronitate ad malum; et
+          <lb ed="#Q"/>per hoc ponitur ens quoddam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e4103">
+          <lb ed="#Q"/>2. Ad ultimum dicendum quod Augustinus
+          <lb ed="#Q"/>non intendit" dicere quod bonitas vel iustitia
+          <lb ed="#Q"/>poenaeo referatur ad culpam, immo ad Deum.
+          <lb ed="#Q"/>Unde cum dicitur: 'iusta estP propter culpam ',
+          <lb ed="#Q"/>id est iusta est, quia a Deo est, cuius bonitatem
+          <lb ed="#Q"/>decet ut pro culpa reddat poenam; quod autem
+          <lb ed="#Q"/>suam bonitatem decet, iustum est: et ita quod
+          <lb ed="#Q"/>poena bona sit, hoc habet a bonitate prima, non
+          <lb ed="#Q"/>ab ipsa culpa.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="224"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q2m3c2">
+        <head xml:id="ahsh-l1p1i1t4q2m3c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 3, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t4q2m3c2-Hd1e3744" type="question-title">UTRUM DEUS POTUERIT RES MELIORI MODO FACERE</head>
+        <p xml:id="ahsh-l1p1i1t4q2m3c2-d1e3747">
+          <lb ed="#Q"/>Deinde quaeritur utrum potuerit res meliori modo
+          <lb ed="#Q"/>facere.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c2-d1e3754">
+          <lb ed="#Q"/>Ad quod obicitur 1. secundum Hugonem,
+          <lb ed="#Q"/>in suis Sententiisz: «Quidquid facit Deus, si
+          -melius potest facere quam facit, in hoc ipso non
+          <lb ed="#Q"/>bene facit quod non optime facit quod facit: fa<lb ed="#Q"/>cere
+          quippe et nolle melius facere quod bonum
+          <lb ed="#Q"/>etiam est[ facienti, male est facere; sed haec pia
+          <lb ed="#Q"/>mens in Deum dici non sustinet; ergo non'" po<lb ed="#Q"/>test
+          facere meliori modo quam" facit ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c2-d1e3772">
+          <lb ed="#Q"/>Contra: a. Si non potest facere meliori modo
+          <lb ed="#Q"/>quam facit, ergo limitata est " eius potentia: quod
+          <lb ed="#Q"/>falsum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c2-d1e3782">
+          <lb ed="#Q"/>Respondeo: Melior modus potest intelligi ex
+          <lb ed="#Q"/>parte facientis: et sic non potest facere meliori 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>modo quam facit, hoc est meliori sapientia,
+          <lb ed="#Q"/>meliori bonitate, meliori potentia, quia sua sa<lb ed="#Q"/>pientia,
+          bonitate, potentia, quae ipse est, facit
+          <lb ed="#Q"/>omnia. Si vero modus intelligatur ex parte rei
+          <lb ed="#Q"/>factae: potest meliori modo facere, hoc est ut
+          <lb ed="#Q"/>res sit in meliori modo quam sit, potest ta<lb ed="#Q"/>cere
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m3c2-d1e3806">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad illud ergo quod obicit
+          <lb ed="#Q"/>H u go, respondendum per interemptionem 4: « Quid<lb ed="#Q"/>quid
+          facitP, si melius» etc.; illud enim teneret
+          <lb ed="#Q"/>ubi est debitum operationis in agente, sed ipse
+          <lb ed="#Q"/>agens summus nec debet opus nec aliquid debet
+          <lb ed="#Q"/>operi; AnselmusqS: «Deus nulli quidquam
+          <lb ed="#Q"/>debet ». Praeterea, optime, quantum est de se,
+          <lb ed="#Q"/>facit semper, etsi non optime quantum ex parte
+          <lb ed="#Q"/>creaturae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

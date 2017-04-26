@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-20">April 20, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-20" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="544"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q3c2">
+        <head xml:id="ahsh-l1p2i2t1q3c2-Hd1e118">I, P. 2, Inq. 2, Tract. 1, Q. 3, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t1q3c2-Hd1e121" type="question-title">UTRUM AFFIRMATIONES DE DEO DICANTUR VERE.</head>
+        <p xml:id="ahsh-l1p2i2t1q3c2-d1e124">
+          <lb ed="#Q"/>Consequenter quaeritur utrum affirmationes de
+          <lb ed="#Q"/>Deo <!--u--> sint verae.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q3c2-d1e133">
+          <lb ed="#Q"/>Ad quod a. B. Dionysius 5: « Affirmationes
+          <lb ed="#Q"/>dictae de Deo sunt incompactae, negationes ve<lb ed="#Q"/>rae». 
+          Simpliciter ergo nomina positiva non vere
+          <lb ed="#Q"/>enuntiantur de Deo.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q3c2-d1e144">
+          <lb ed="#Q"/>b. Item, Dionysius dicit omnium negationes
+          <lb ed="#Q"/>veras de Deo, in libro" De mystica Theologia 7,
+          <lb ed="#Q"/>hoc modo; « Neque anima est neque intellectus, 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>neque phantasiam * aut opinionem aut intellectum
+          <lb ed="#Q"/>aut intelligentiam habet, neque ratio "est neque in—'
+          <lb ed="#Q"/>teliigentia neque dicitur neque intelligitur»; et;
+          <lb ed="#Q"/>sequitur: « Neque habet virtutem neque virtus
+          <lb ed="#Q"/>est neque in neque vita»; et sequitur?: « Ne<lb ed="#Q"/>que
+          lux neque sapientia neque. deitas aut bo<lb ed="#Q"/>nitas
+          neque spiritusz neque filiatio neque pater<lb ed="#Q"/>nitas
+          ». Ex hoc videtur quod omnes affirmationes,
+          <lb ed="#Q"/>quae maxime attribuuntur Deo, sunt. simpliciter
+          <lb ed="#Q"/>falsae.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q3c2-d1e178">
+          <pb ed="#Q" n="545"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Contra: 1. B. Dionysius, in libroaDe my<lb ed="#Q"/>stica
+          Theologia 1: « Dicamus igitur quod omnium
+          <lb ed="#Q"/>causa et 5 super omnia existens neque sine" sub<lb ed="#Q"/>stantia
+          est neque sine vita neque sine ratione ».
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q3c2-d1e194">
+          <lb ed="#Q"/>2. Item, idem, in eodemz: « Diximus in libro
+          <lb ed="#Q"/>qui estd De divinis nominibus 3, quomodo opti<lb ed="#Q"/>mus
+          nominatur, quomodo ens, quomodo vita et
+          <lb ed="#Q"/>sapientia et virtus et quaecumque alia intelligi<lb ed="#Q"/>biliae
+          sunt divinae nominationis ». Vere igitur
+          <lb ed="#Q"/>est ista deiipso affirmare.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q3c2-d1e210">
+          <lb ed="#Q"/>Respondeo, secundum Dionysium, in librof
+          <lb ed="#Q"/>De mystica Theologiatz « In ipsog oportet omnes
+          <lb ed="#Q"/>existentium ponere et'affirmare positiones veluti
+          <lb ed="#Q"/>omnium causa et omnes ipsash proprie negare
+          <lb ed="#Q"/>sicut super omnia existente et non opinari nega—
+          <lb ed="#Q"/>tiones Oppositas esse affirmationibus ». Ex hoc1
+          <lb ed="#Q"/>accipitur quod sunt verae affirmationes et nega<lb ed="#Q"/>tiones
+          omnium in divinis nec opponuntur affir<lb ed="#Q"/>mationes
+          negationibus. Nam affirmationes aut
+          <lb ed="#Q"/>accipiuntur symbolice aut mystice. Si symbolice,
+          <lb ed="#Q"/>accipiuntur per translationem, ut lapis, Psalm.5:
+          <lb ed="#Q"/>Lapidem, quem reprobaverunt etc.; et aer, in III
+          <lb ed="#Q"/>libro Reg. 6: In sibilo aurae tenuis, ibi Dominus;
+          <lb ed="#Q"/>negationes vero 'non-lapis, non—aer' accipiuntur
+          <lb ed="#Q"/>proprie. Sed mystice accipiuntur per superexcel<lb ed="#Q"/>lentiam
+          et perfectionem, quae est supra nos, ut
+          ' vita, bonitas ' et huiusmodi; unde Dionysius,
+          <lb ed="#Q"/>in eodem 7: « An non magis Deus est vita et bo<lb ed="#Q"/>nitas
+          quam aer et lapis? » Negationes vero ac<lb ed="#Q"/>cipiuntur
+          secundum nos et nostram comprehen<lb ed="#Q"/>sionem
+          et ideo non opponuntur affirmationibus.
+          <lb ed="#Q"/>Unde Dionysiussz « Neque spiritus est, sicut
+          <lb ed="#Q"/>nos scimus, neque filiatio neque paternitas ne<lb ed="#Q"/>que
+          aliud cognitum a nobis neque est aliquid
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>non-existentium neque aliquid existentium k ne<lb ed="#Q"/>que
+          existentia eum cognoscunt'».
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q3c2-d1e269">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primo autem '" obiectum
+          <lb ed="#Q"/>dicendum quoci9 « quadruplex est compositio, sci<lb ed="#Q"/>licet
+          compositio partium, secundum quod corpus
+          <lb ed="#Q"/>dicitur compositum; et compositio proprietatis ad.
+          <lb ed="#Q"/>subiectum, et secundum hoc anima dicitur com<lb ed="#Q"/>posita;
+          materia etiam dicitur composita, quia com<lb ed="#Q"/>ponitur
+          formae; quarto modo forma dicitur com<lb ed="#Q"/>posita,
+          quia componitur materiae. Item, per con<lb ed="#Q"/>trarium,
+          quadruplex est simplicitas; solus autem
+          <lb ed="#Q"/>Deus dicitur proprie simplex, quia caret omni ge<lb ed="#Q"/>nere
+          compositionis. Item, notandum quod vocabula
+          <lb ed="#Q"/>quaedam significant proprietates in' adiacentia vel
+          <lb ed="#Q"/>inhaerentia, quaedam in subsistentia, ut hoc no<lb ed="#Q"/>men
+          'album' significat albedinem " in adiacentia,
+          <lb ed="#Q"/>quia ostendit 0 eam alii inesse; sed hoc vocabulum
+          ' albedo' significat albedinem in subsistentia, quia
+          <lb ed="#Q"/>supponit eam; similiter hoc nomen 'homo' signi<lb ed="#Q"/>ficat
+          humanitatem in adiacentia sive inhaerentia,
+          <lb ed="#Q"/>quia ostendit eam inesse subiecto, sed hoc voca<lb ed="#Q"/>bulum
+          'humanitas' P significat humanitatem in
+          <lb ed="#Q"/>subsistentia 4. Quia vero Deus omni genere simpli<lb ed="#Q"/>citatis
+          simplex est, non ostenditur aliqua composi<lb ed="#Q"/>tio
+          simplicitatis circa eumf: unde cum dico 'Deus
+          <lb ed="#Q"/>est bonus ', non ostenditur bonitas inesse Deo quae
+          <lb ed="#Q"/>ipse non sit. Quod attendens Dionysius dixit:
+          "Affirmationes de Deo sunt incompactae ", quia
+          <lb ed="#Q"/>nullam compositionem proprietatis ad subiectum
+          <lb ed="#Q"/>ostendunt; de negationibusvero dixit quod " sunt
+          <lb ed="#Q"/>verae", quia quiddam veri innuunt, scilicet quod
+          <lb ed="#Q"/>ibi non est compositio proprietatis ad subiectum ».
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q3c2-d1e332">
+          <lb ed="#Q"/>2. Ad secundum iam patet responsio ex
+          <lb ed="#Q"/>dictis 8.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

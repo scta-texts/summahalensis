@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-14">February 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="64"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t2c1">
+        <head xml:id="ahsh-l1p1i1t2q3t2c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t2q3t2c1-Hd1e3732" type="question-title"><lb ed="#Q"/>AN DEUS SIT ALICUBI VEL NUSQUAM VEL IN SE IPSO</head>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3736">
+          <lb ed="#Q"/>Quantum ad primum, scilicet an Deus sit ali<lb ed="#Q"/>cubi 
+          sive in loco, sic obicitur: I. a. Cant. 5, 17:
+          <lb ed="#Q"/>Qua abiit dilectus tuus? Grego ri us 2: « Notan—
+          <lb ed="#Q"/>dum quod Deus, qui,ubique est, in loco est, sed
+          <lb ed="#Q"/>localis non est »; sed sib in loco est, ergo ali<lb ed="#Q"/>cubi 
+          est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3752">
+          <lb ed="#Q"/>Contra: ]. Boethius, in libro De Trini<lb ed="#Q"/>tate
+          4: « Omnino in loco esse non potest qui ubi<lb ed="#Q"/>que
+          est »; sed Deus ubique est; ergo non potest
+          <lb ed="#Q"/>esse in aliquo loco; ergo nec alicubi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3763">
+          <lb ed="#Q"/>2. Item, Anselmus, in Manologions: « In
+          <lb ed="#Q"/>nullo loco aut tempore est, quia nullum locum aut
+          <lb ed="#Q"/>tempus habet; nec in se recipit locorum distinctio<lb ed="#Q"/>nem,
+          ut hic vel ibi vel alicubi, neque temporum, ut
+          <lb ed="#Q"/>nunc vel tunc vel aliquando ». Ergo non est alicubi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3777">
+          <lb ed="#Q"/>3. Item, non potest inveniri comparatio Dei ad
+          <lb ed="#Q"/>creaturam ut ad locum; ergo non est in aliquoc
+          <lb ed="#Q"/>loco. —M aior patet: quia quidquid est in " loco
+          <lb ed="#Q"/>est in ipso velut contentum vel ut salvatum vel '
+          <lb ed="#Q"/>quietatum in ipso; sed Deus non est in re utf
+          <lb ed="#Q"/>contentum in re, nec ut salvatum a re, nec etiam
+          <lb ed="#Q"/>quietatur in te; ergo non potest esse in aliqua
+          <lb ed="#Q"/>sicut in loco; ergo non est alicubi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3797">
+          <lb ed="#Q"/>II. Sed tunc iux-ta hoc obicitur: quo<lb ed="#Q"/>niam
+          si non est dicere ipSum esse alicubi, ergo
+          <lb ed="#Q"/>nusquam est. -— Si dicatur quod esse in
+          <lb ed="#Q"/>loco est dupliciter: vel per definitionem, sicut
+          <lb ed="#Q"/>spiritus sunt in loco, vel per circumscriptionem, 
+          <lb ed="#Q"/>sicut corpora 5: istis modis non est Deus in loco, 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>tamen alio modo est in loco! - se d ta m en, quid<lb ed="#Q"/>quid 
+          dicatur, eo modo quo haec est falsa: ' Deus
+          <lb ed="#Q"/>est alicubi ', est haec vera: 'Deus est nusquam ',
+          <lb ed="#Q"/>quae est sua contradictoria. — item, Boethius,
+          <lb ed="#Q"/>in '" libro De Trinitate 7: « Ideo nusquam esse
+          <lb ed="#Q"/>dicitur, quia ubique est ». Ergo est nusquam. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3828">
+          <lb ed="#Q"/>III. Ulterius quaeritur de hac: 'Deus est in se
+          <lb ed="#Q"/>ipso'
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3835">
+          <lb ed="#Q"/>a. Augustinus, AdDardanumS: «Deus est
+          <lb ed="#Q"/>ubique et in se ipso; ubique, quia nusquam
+          <lb ed="#Q"/>est absens; in se ipso, quia1 non continetur ubi
+          <lb ed="#Q"/>est praesens, tamquam sine ipsis'esse non pos—
+          <lb ed="#Q"/>sit ». Ergo Deus est in se ipso.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3848">
+          <lb ed="#Q"/>Contra: 1. Deus est ubique; sed hoc quod
+          <lb ed="#Q"/>est esse ubique non estk esse in se ipso; ergo
+          <lb ed="#Q"/>est alibi quam in se ipso; ergo est extra se; non
+          <lb ed="#Q"/>ergo in se ipso. — Si dicatur quod ly 'ubi—<lb ed="#Q"/>que'
+          non ponit 'aiibi' - contra: constat' quod
+          'ubique' dicit aggregationem locorum; sed con<lb ed="#Q"/>stat
+          quod haec aggregatio est in rebus creatis
+          <lb ed="#Q"/>et non in Deo; ergo ponit 'alibi '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3866">
+          <lb ed="#Q"/>Solutio: Dicendum '", secundum <ref><name ref="#Boethius">Boethium</name>,
+          <lb ed="#Q"/>in libro <title>De Trinitate</title></ref>g: « ' Deus est ubique ' ita
+          <lb ed="#Q"/>dici videtur non quod sit in omni loco, sed quod
+          <lb ed="#Q"/>omnis locus ei adsit ad eum capiendum, cum ipse
+          <lb ed="#Q"/>non capiatur in loco ». Est ergo esse in loco mul<lb ed="#Q"/>tipliciter:
+          ut dicatur ' esse in loco ' contineri a loco,
+          <lb ed="#Q"/>vel" 'esse in loco' non deesse loco, sed ei esse
+          <lb ed="#Q"/>praesentem et replere iocum. Primo modo non
+          <pb ed="#Q" n="65"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>est Deus in loco; et hoc ,volunt dicere auctori<lb ed="#Q"/>tates
+          ad istud positae, scilicet quod non" sit in
+          <lb ed="#Q"/>loco ut contentus a loco. Secundo modo est in
+          <lb ed="#Q"/>loco 0, non tamen ut dicatur replere locum mate<lb ed="#Q"/>rialiter,
+          sed virtualiter; secundum quod dicit <ref><name ref="#Augustine">Au<lb ed="#Q"/>gustinus</name>,
+          <title>Ad Dardanum</title> </ref>, quod aliter dicitur
+          <lb ed="#Q"/>sapientia replere sapientem et aqua vas. Eo modo
+          <lb ed="#Q"/>quo sapientia replet sapientes, eo modo divina
+          <lb ed="#Q"/>essentia replet loca: sapientia enim non maior
+          <lb ed="#Q"/>est in maiore nec minord in minore. Sic Deus
+          'est in locis virtualiter et consummative, in hoc
+          <lb ed="#Q"/>quod dat locis esse et virtutem qua repleantur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3930">
+          <lb ed="#Q"/>[Ad obiecta]: [. 1. Ad primam rationem Boe<lb ed="#Q"/>thii
+          «omnino esse in loco non potest-etc.: si
+          <lb ed="#Q"/>dicatur esse in loco contentive, verum est; si di<lb ed="#Q"/>catur
+          esse in loco per praesentiam, falsum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3941">
+          <lb ed="#Q"/>2. Ad Anselmi rationem dicendum quod ex
+          <lb ed="#Q"/>illa auctoritate sequitur quod non sit in loco distinc<lb ed="#Q"/>tive,
+          ita quod sit in uno loco et non in alio; sed non
+          <lb ed="#Q"/>sequitur ex hoc quod non sit in loco aliquo modo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3952">
+          <lb ed="#Q"/>3. Ad tertium concedendum quod, secundum
+          <lb ed="#Q"/>praedictas conditiones loci, non est Deus in loco.
+          <lb ed="#Q"/>Sed praeter has est alia proprietas loci, secundum
+          <lb ed="#Q"/>quam quidem habet rationem perfectibilis * ab eo
+          <lb ed="#Q"/>quod est in ipso, et secundum hanc Deus est in
+          <lb ed="#Q"/>loco. Dicerentur enim loca vacua et imperfecta,
+          <lb ed="#Q"/>nisi replerentur locato: et propter hoc locus dicit
+          <lb ed="#Q"/>imperfectionem respectu locati; Deus autem per<lb ed="#Q"/>ficit
+          locum, dando ei virtutem qua continet et sal<lb ed="#Q"/>vat:
+          et sic est in eo, et non quia ab eo continea—
+          <lb ed="#Q"/>tur et salvetur; et sic replet repletione virtuali.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3978">
+          <lb ed="#Q"/>II. Ad al iudf dicendum quod haec ' Deus est
+          <lb ed="#Q"/>nusquam' non est recipienda! sine determinatio<lb ed="#Q"/>nemegationes
+          enim universaliores sunt affirmatio<lb ed="#Q"/>nibus; 
+          et propter hoc ex hac non solum videntur
+          <lb ed="#Q"/>tolli a Deo aliae conditiones existendi in loco, immo
+          <lb ed="#Q"/>etiam repletio, secundum quam dicitur esse in loco.
+          <lb ed="#Q"/>Et propter hoc, ut concedatur, oportet addi ' Deus
+          <lb ed="#Q"/>est nusquam circumscriptive vel contentive '. Et
+          <lb ed="#Q"/>in hoc sensu" haec est falsa 'Deus est alicubi '
+          <lb ed="#Q"/>et non aliter; et in' hoc sensu dicit Boethiuszz
+          « Nusquam esse dicitur, quia ubique est ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e4002">
+          <lb ed="#Q"/>III. A d u l ti m u m dicendum quod haec est vera
+          ' Deus est in se ipso ', et haec similiter 'Deus est
+          <lb ed="#Q"/>ubique '. Et ex una istarum vult Augustinus
+          <lb ed="#Q"/>ostendere praesentiam Dei ad omnem locum, scili<lb ed="#Q"/>cet
+          ex hac ' Deus est ubique', cum dicit 3: . Ubique
+          <lb ed="#Q"/>est, quia nusquam est absens »; resolvatur enim
+          <lb ed="#Q"/>haec negatio 'nusquam est absens": in affinna<lb ed="#Q"/>tivam,
+          sensus est: 'praesens est omni loco'. Ex
+          <lb ed="#Q"/>hac autem ' Deus est in se ipso ' removet omnem
+          <lb ed="#Q"/>dependentiam eius a loco; et propter hoc dicit
+          'in se ipso ', quia non continetur iis quibus est
+          <lb ed="#Q"/>praesens; non enim dependet a loco, sed locus
+          <lb ed="#Q"/>et mundus ab ipso.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e4028">
+          <lb ed="#Q"/>1. Ad hoc quod obicitur quod 'est alibi
+          <lb ed="#Q"/>quam in se ipso et ita extra se ': dicendum quod'
+          <lb ed="#Q"/>alia ratione Deus est ubique et Deus est'" in se ipso:
+          <lb ed="#Q"/>dicitur enim ens " in se ipso 0, quia est per se ens,
+          <lb ed="#Q"/>non indigens alio; unde non notatur hic habi<lb ed="#Q"/>tudo
+          eius ad rem aliam. Sed cum dicitur <mentioned>Deus
+          <lb ed="#Q"/>est ubique</mentioned> notatur habitudo eius ad rem aliam,
+          <lb ed="#Q"/>quae est habitudo replentis ad repletum, et non
+          <lb ed="#Q"/>cum dicitur <mentioned>Deus est ens? in se ipso</mentioned>. Ad hoc au<lb ed="#Q"/>tem
+          quod praedicta ratio procederet, scilicet quod
+          <lb ed="#Q"/>esset alibi, oporteret quod uniformis modus es<lb ed="#Q"/>sendi
+          in utrobique notaretur; quod falsum est,
+          <lb ed="#Q"/>et propter hoc nulla est illa ratio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

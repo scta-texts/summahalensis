@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="249"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m2c4">
+        <head xml:id="ahsh-l1p1i1t5s1q1m2c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 2, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m2c4-Hd1e3744" type="question-title">UTRUM DIVINA SCIENTIA SIT PER EXEMPLAR.</head>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c4-d1e3747">
+          <lb ed="#Q"/>Quarto quaeritur utrum divina scientia sit4 per
+          <lb ed="#Q"/>exemplar 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c4-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: a. Augustinus, in'83 Quae<lb ed="#Q"/>stion.6:
+          «Ideas vel rationes ubi esse arbitran—
+          <lb ed="#Q"/>dum est nisi in mente Creatoris? Non enim ex<lb ed="#Q"/>tras
+          positum quidquam intuebatur ut secundum
+          <lb ed="#Q"/>id constitueret quod constituebat ». Cum ergo idea
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>non sit aliud quam exemplar rei, intuetur autemt
+          <lb ed="#Q"/>Deus per ideam rern, sicut ex hac auctoritate"
+          <lb ed="#Q"/>relinquitur, cognoscit igitur rem per " exemplar.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c4-d1e3776">
+          <lb ed="#Q"/>b. Item, omnis agens per rationem agit per ex<lb ed="#Q"/>emplar
+          vel perx ideam rei quam habet apud se;
+          <lb ed="#Q"/>ergo et Deus ipse, qui maximey per rationem 
+          <lb ed="#Q"/>agit; sed idem est quo agit rem et quo praeco<lb ed="#Q"/>gnoscitz 
+          rem; ergo praecognoscit rem per ideam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c4-d1e3790">
+          <pb ed="#Q" n="250"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Contra: 1. Dionysius, De divinis nomini<lb ed="#Q"/>bus
+          1: <quote xml:id="ahsh-l1p1i1t5s1q1m2c4-Qd1e3800">« Omnium" notitiam et scientiam et sub<lb ed="#Q"/>stantiam
+          praehabet et praeconcepit ", non secun<lb ed="#Q"/>dum
+          «ideam »</quote>.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c4-d1e3808">
+          <lb ed="#Q"/>2. Item, eodem cognoscit bona et mala; sed
+          <lb ed="#Q"/>mala non cognoscit per ideam; ergo nec bona;
+          <lb ed="#Q"/>ergo non cognoscit per exemplar.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c4-d1e3817">
+          <lb ed="#Q"/>Solutio: 1. Si idea vel exemplar diceret differens
+          <lb ed="#Q"/>a divina essentia, nullo modo divina scientia est
+          <lb ed="#Q"/>per exemplar velc ideam. Unde in hoc erravit
+          <lb ed="#Q"/>Plato 2, qui posuit tria principia: Deum, ideam et
+          <lb ed="#Q"/>materiam; et hoc non" intendit B. Dionysius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c4-d1e3830">
+          <lb ed="#Q"/>Si vero ideae dicat ipsam essentiam, in quan<lb ed="#Q"/>tum
+          est ars vel species secundum quam sunt res,
+          <lb ed="#Q"/>secundumf hoc est divina scientia per ideam,
+          <lb ed="#Q"/>quia per se ipsam, quae est ars et exemplar
+          <lb ed="#Q"/>rerum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c4-d1e3843">
+          <lb ed="#Q"/>2. Et ad illud quod obicitur de malis, est
+          <lb ed="#Q"/>responsio: quia malum cognoscit per ideam boni,
+          <lb ed="#Q"/>in quantum deficit ab illo, ut patebit infra 3.
+          <lb ed="#Q"/>Unde Dionysius4 ponit exemplum de luce
+          <lb ed="#Q"/>quae secundum causam8 in se notitiam tenebra<lb ed="#Q"/>rum
+          percipit <!--h-->, <quote xml:id="ahsh-l1p1i1t5s1q1m2c4-Qd1e3860">« non aliunde cognoscens tenebras
+          <lb ed="#Q"/>quam a lucis defectu<!--i--> »</quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

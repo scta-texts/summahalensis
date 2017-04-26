@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-14">February 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="68"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t2c4">
+        <head xml:id="ahsh-l1p1i1t2q3t2c4-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 2, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t2q3t2c4-Hd1e3732" type="question-title">UTRUM DEO CONVENIAT AB AETERNO ESSE UBIQUE.</head>
+        
+        <p xml:id="ahsh-l1p1i1t2q3t2c4-d1e3735">
+          <lb ed="#Q"/>Quarto quaeritur utrum Deo conveniat ab ae<lb ed="#Q"/>terno
+          esse ubique.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c4-d1e3742">
+          <lb ed="#Q"/>Ad quod sic: a. Sicut ' semper' dicit aggrega<lb ed="#Q"/>tionem
+          omnium temporum, sic ' ubique' omnium
+          ' ubi '; sed est dicere ab aeterno quod Deus est
+          <lb ed="#Q"/>semper, ex hoc scilicet quod est in suo ' nunc '
+          <lb ed="#Q"/>aeterno, quod excedit'' sua virtute omnia ' nunc '
+          <lb ed="#Q"/>temporis quae transierunt et transeunt; ergo si<lb ed="#Q"/>militer
+          debet dici esse ubique ab aeterno, vel
+          <lb ed="#Q"/>quare non?
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c4-d1e3760">
+          <lb ed="#Q"/>b. Item, Augustinus, Ad Dardanum 5: « Ubi<lb ed="#Q"/>que
+          ' dicitur Deus, quia nusquam est absens :; sed
+          <lb ed="#Q"/>istud convenit ei ab aeterno; ergo et esse ubique.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c4-d1e3770">
+          <lb ed="#Q"/>Contra: ]. ' Ubique' dicit aggregationem om<lb ed="#Q"/>nium
+          ubi'; haec" autem aggregatio est creata;
+          <lb ed="#Q"/>ergo non est ab aeterno; ergo nec Deus est ubi<lb ed="#Q"/>que
+          ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c4-d1e3781">
+          <lb ed="#Q"/>Solutio: Dicendum quod cum dicitur 'Deus
+          <lb ed="#Q"/>est semper ', in intellectu eius quod est ' semper '
+          <lb ed="#Q"/>sunt duo, scilicet principale et counotatum 5, quia
+          <lb ed="#Q"/>ly 'semper' supponit' ipsum 'nunc' vel'" prae<lb ed="#Q"/>sens
+          divinum, et hoc est principale, connotando
+          <lb ed="#Q"/>tamen respectum ad omnia ' nunc ' temporis quae<cb ed="#Q" n="b"/><lb ed="#Q"/>fluunt. 
+          Et propter hoc sensus est: 'Deus est sem<lb ed="#Q"/>per
+          ', id est ' Deus est" in suo nunc et nun<lb ed="#Q"/>quam
+          deest alicui praesenti, praeterito et futuro '.
+          — Similiter ' ubique ' dicit plenitudinem divinae
+          <lb ed="#Q"/>bonitatis, connotando tamen respectum ad omne
+          ' ubi ' in creatura. Nam Deus comparatur ad
+          <lb ed="#Q"/>res ut bonitas et ut entitas ". Et sicut ' nunc '
+          <lb ed="#Q"/>suaeP aeternitatis, quod est? ex parte esse, com—
+          <lb ed="#Q"/>paratur ad omne" ' nunc ' temporis, quae com—
+          <lb ed="#Q"/>paratio designatur, cum dicitur ' Deus est sem<lb ed="#Q"/>per
+          ': ita plenitudo suae bonitatis ad omnem capa<lb ed="#Q"/>citatem
+          et ad * omne ' ubi " repiendum in creatura
+          <lb ed="#Q"/>comparatur, quae comparatio designatur cum di<lb ed="#Q"/>citur
+          'Deus est ubique'. Hic enim designatur prae<lb ed="#Q"/>sentia
+          bonitatis divinae et respectus ad omne 'ubi '
+          <lb ed="#Q"/>repiendum. Unde sensus est: ' Deus est praesens
+          <lb ed="#Q"/>omni ubi et replens omne ubi'; et principaliter de<lb ed="#Q"/>signatur
+          praesentia' et plenitudo bonitatis divinae,
+          <lb ed="#Q"/>cum dicitur ' Deus est praesens ', et resPectus con<lb ed="#Q"/>notatus,
+          cum dicitur 'Deus est' replens omne
+          <lb ed="#Q"/>ubi': huiusmodi autem respectus connotatus tem<lb ed="#Q"/>poralis
+          est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t2c4-d1e3841">
+          <lb ed="#Q"/>Potest autem dici respectus iste vel secundum
+          <lb ed="#Q"/>actum" vel secundum habitum. Si dicatur secun<pb ed="#Q" n="69"/><cb ed="#Q" n="a"/><lb ed="#Q"/>dum 
+          habitum, sic verum est dicere ab aeterno 
+          <lb ed="#Q"/>Deus est semper quia Deus ab aeterno est in 
+          <lb ed="#Q"/>suo 'nunc', quod est aptum ut non desit alicui 
+          <lb ed="#Q"/>tempori: similiter hoc modo ab aeterno est ubi<lb ed="#Q"/>que,
+          ut sit sensus: 'bonitas divina apta est re<lb ed="#Q"/>plere 
+          omne ubi'. Si in utraque dicatur conno<lb ed="#Q"/>tatum 
+          in actu: sic haec non est vera 'ab aeterno 
+          <lb ed="#Q"/>Deus est semper', quia per hoc notaretur quod 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>tempus esset ab aeterno; similiter haec non est 
+          <lb ed="#Q"/>vera: 'ab aeterno Deus est ubique', quia sic no<lb ed="#Q"/>taretur 
+          quod 'ubi' esset ab aeterno. Unde sicut 
+          <lb ed="#Q"/>Deus non dicitur dominator ab aeterno, dicitur 
+          <lb ed="#Q"/>tamen Dominus ab aeterno, quia 'dominator' con<lb ed="#Q"/>notat 
+          respectum ad creaturam secundum subiectio<lb ed="#Q"/>nem 
+          in actu, 'Dominus' in habitu: sic ex parte 
+          <lb ed="#Q"/>ista Deus est ubique, Deus est semper.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

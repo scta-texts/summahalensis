@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-12">March 12, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="289"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q3t1c3">
+        <head xml:id="ahsh-l1p1i1t5s2q3t1c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. I, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s2q3t1c3-Hd1e3744" type="question-title">QUOMODO SIT PROVIDENTIA.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur de providentia quomodo
+          <lb ed="#Q"/>sit, in hunc modum:
+          <lb ed="#Q"/>Primo, utrum sit temporalis vel aeterna;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundo, utrum<!--m--> simplex vel multiplex;
+          <lb ed="#Q"/>tertio, utrum sit causa rerum, et in quo ge<lb ed="#Q"/>nere
+          causae.
+        </p>
+        <div xml:id="ahsh-l1p1i1t5s2q3t1c3-Dd1e3767" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c3-Hd1e3769">ARTICULUS 1</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c3-Hd1e3772" type="question-title">Utrum providentia sit temporalis vel aeterna.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3775">
+            <lb ed="#Q"/>Ad. primum sic: Videtur quod sit aeterna:
+            1. Boethius, in libro De consolatione—"': «Ab
+            <lb ed="#Q"/>aeterno cuncta prospiciens, providentiae cernit in<lb ed="#Q"/>tuitus
+            ». Ergo providentia cernit ab aeterno; ergo
+            <lb ed="#Q"/>est ab aeterno".
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3786">
+            <lb ed="#Q"/>2. Item, in eodem4: « Ut bonus est, providet:
+            <lb ed="#Q"/>qui enim non providet, non est bonus »; sed ab
+            <lb ed="#Q"/>aeterno bonus est; ergo ab aeterno providet. —
+            <lb ed="#Q"/>Si dicatur quod non valet —contra: da op<lb ed="#Q"/>positum:
+            non providet ab aeterno; ergo non est
+            <lb ed="#Q"/>bonus ab aeterno, quia, sicut dicit loannes Da<lb ed="#Q"/>mascenus5:
+            « Qui non providet, non est bo<lb ed="#Q"/>nus
+            ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3806">
+            <lb ed="#Q"/>3. Item, in eodem, Boethiusöz «Utio ad in<lb ed="#Q"/>tellectum
+            est ratiocinatio, ad id quod est idP quod
+            <lb ed="#Q"/>gignitur, ad aeternitatem tempus, ad punctum
+            <lb ed="#Q"/>medium circulus: ita est series fati mobilis ad
+            <lb ed="#Q"/>providentiae stabilem simplicitatem ». Ergo sic
+            <lb ed="#Q"/>se habet fatum ad providentiam sicuttempus ad 
+            <lb ed="#Q"/>aeternitatem; ergo providentia est aeterna, fatum
+            <lb ed="#Q"/>temporale.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3827">
+            <lb ed="#Q"/>Contra: a. Providentia est curaq qua Deus
+            <lb ed="#Q"/>ministrat subditis bona vel mala poenae"; hoc
+            <lb ed="#Q"/>autem est ex tempore.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3836">
+            <lb ed="#Q"/>b. Item, Ioannes Damascenuse: «Provi<lb ed="#Q"/>dentia
+            est ad existentia cura »; ergo solum po<lb ed="#Q"/>sitis
+            existentibus est providentia; sed hoc3 est
+            <lb ed="#Q"/>ex tempore.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3847">
+            <lb ed="#Q"/>c. Item, « providentia est gubemandorum » 9;
+            <lb ed="#Q"/>gubernanda autem sunt temporalia; ergo provi<lb ed="#Q"/>dentia
+            temporalis: si enim non sunt gubernanda,
+            <lb ed="#Q"/>non est cura gubernandorum et ita nec' cura.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3858">
+            <lb ed="#Q"/>Respondeo: 1. In intellectu providentiae sunt
+            <lb ed="#Q"/>duo: cognitio et causalitas. Si restringimus pro<lb ed="#Q"/>videntiam
+            ad cognitionem ", qua gubernanda prae<lb ed="#Q"/>cognovit,
+            sicut obicit Boethius, sic est aeterna.
+            <lb ed="#Q"/>Si vero dicat causalitatem, adhuc hoc" potest
+            <lb ed="#Q"/>esse dupliciter: in actu vel in habitu, sicut ' Do<lb ed="#Q"/>minus'
+            potest dicere respectum ad creaturam in
+            <lb ed="#Q"/>actu vel in habitu. Si in habitu, sic dicitur Do<lb ed="#Q"/>minus
+            ab aeterno: est enim * talis qui ab aeterno
+            <lb ed="#Q"/>habilis est dominari; si in actu, sic ex tempore,
+            <pb ed="#Q" n="289"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>ex quo servum habuit in actu. Similiter si dica<lb ed="#Q"/>tur
+            providentia cura in habitu, sic potest dici ab
+            <lb ed="#Q"/>aeterno, quia dicit divinam essentiam ut habilem
+            <lb ed="#Q"/>ad gubernandum creaturam; sed " si dicatur cura
+            <lb ed="#Q"/>in actu, sic dicitur ex tempore. Dicendumb ergo
+            <lb ed="#Q"/>quod intuitus providentiae est ab aeterno, sicut
+            <lb ed="#Q"/>dicit Boethius; sed causalitas, secundum quod
+            <lb ed="#Q"/>dicitur in actu,-ex tempore.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3904">
+            <lb ed="#Q"/>3. Ad illud Boethii "ultimo: dicendum quod
+            <lb ed="#Q"/>fit comparatio providentiae ad fatum" non quan<lb ed="#Q"/>tum
+            ad durationem, sed quantum ad simplicita<lb ed="#Q"/>tem
+            et compositionem. Et ponit exemplum in
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>materialibus, utd in puncto et circulo, et exemplum
+            <lb ed="#Q"/>in immaterialibus *, ut in intellectu et inf ratio<lb ed="#Q"/>cinatione.
+            Vult ergo dicere quod sicut intellectus
+            <lb ed="#Q"/>simplex est respectu ratiocinationis — tamen ratio<lb ed="#Q"/>cinatio
+            est ab intellectu similiter et de aliis sic
+            <lb ed="#Q"/>providentia se habet ad fatum, ut providentia
+            <lb ed="#Q"/>sit ipsa divina dispositio rerum gubernandarum,
+            <lb ed="#Q"/>fatum ipsa deductio gubernationis, et est haec ab
+            <lb ed="#Q"/>illa, et ipsa providentia immobilis stat, fatum!
+            <lb ed="#Q"/>vero mobile.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3939">
+            <lb ed="#Q"/>2. Et per hoc patet solutio ad secundo ob<lb ed="#Q"/>iectum.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q3t1c3-Dd1e3947">
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c3-Hd1e3949">Articulus II</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c3-Hd1e3952" type="question-title">Utrum providentia sit simplex vel non.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3955">
+            <lb ed="#Q"/>Ad illud quod secundo quaeritur, utrum pro<lb ed="#Q"/>videntia
+            sit simplex vel non,
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3962">
+            <lb ed="#Q"/>Proceditur sic: ]. Omne contentivum multitu<lb ed="#Q"/>dinis,
+            in quantum huiusmodi, non habet simpli—
+            <lb ed="#Q"/>citatem; sed providentia est contentiva multitu<lb ed="#Q"/>dinis,
+            quia providentia tot rerum esth contentiva
+            <lb ed="#Q"/>quot capit et e converso; multas autemres capit
+            <lb ed="#Q"/>et amplectitur, immo omnia, sicut dicit Boe<lb ed="#Q"/>th
+            i u s 1; ergo providentia non habet simplicitatem.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3980">
+            <lb ed="#Q"/>Ad oppositum: a. Boethius, in libro De con<lb ed="#Q"/>solationez:
+            « Illud certe manifestum est: immo<lb ed="#Q"/>bilem
+            simplicemque gerendarumï formam rerum
+            <lb ed="#Q"/>esse providentiam ». Ergo providentia est simplex.
+          </p>
+          
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3992">
+            <lb ed="#Q"/>Respondeo: Dicendum'f quod providentia est'
+            <lb ed="#Q"/>simplex et omnimoda simplicitate.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e3999">
+            <lb ed="#Q"/>1. Ad obiectum'" in contrarium dicendum':
+            <lb ed="#Q"/>quod providentia continet rerum species tienda—
+            <lb ed="#Q"/>rum sicut causa, non. sicut universum, in quo 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>continentur tamquam " partes constituentes ipsum
+            <lb ed="#Q"/>et ideo ponunt in ipso multitudinem; non sic
+            <lb ed="#Q"/>autem estP de providentia. Continere autem ut
+            <lb ed="#Q"/>causa non repugnat simplicitati causae, maxime
+            <lb ed="#Q"/>in Deo, in quo continentur omnia sicut in sua
+            <lb ed="#Q"/>causa. Unde Boethius3: «Sicut artifex, fa<lb ed="#Q"/>ciendae
+            domus vel rei formam mente percipiens,
+            <lb ed="#Q"/>movet "operis effectum, et quod simpliciter prae<lb ed="#Q"/>senterque
+            prospexerat 0, per temporales ordines
+            <lb ed="#Q"/>ducit, ita Deus providentia quidem singulariter
+            <lb ed="#Q"/>stabiliterque fienda disponit ». Et hoc est quod
+            <lb ed="#Q"/>dicit Augustinus, super illud Rom. ll,364: Ex
+            <lb ed="#Q"/>ipso et per ipsum etc.: « Ars omnipotentis atque
+            <lb ed="#Q"/>sapientis dicitur plena omnium rationum et in<lb ed="#Q"/>commutabilium'
+            viventium, et omnes unum in
+            <lb ed="#Q"/>ea ». Sunt enim in ipsa causa secundum modum
+            <lb ed="#Q"/>causae: unde cum sit causa simplicissima, non
+            <lb ed="#Q"/>compatiens multiplicitatem aliquam, sunt ibi modo
+            <lb ed="#Q"/>simplicissimo.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q3t1c3-Dd1e4053" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c3-Hd1e4055">Articulus III</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c3-Hd1e4058" type="question-title">Utrum providentia sit causa rerum et in quo genere causae.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e4061">
+            <lb ed="#Q"/>Ad illud quod quaeritur, utrum providentia sit
+            <lb ed="#Q"/>causa rerum-* et in quo genere causae, .
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e4068">
+            <lb ed="#Q"/>I. Proceditur sic: a. Boethius, in IV libro De
+            <lb ed="#Q"/>consolatioue5: « Omnium generatio rerum cunc<lb ed="#Q"/>tusque
+            * mutabilium naturarum progressus et
+            <lb ed="#Q"/>quidquid aliquo movetur modo, causas, ordines,
+            <lb ed="#Q"/>formas ex divinae mentis stabilitate sortitur; haec
+            <lb ed="#Q"/>in suaeu simplicitatis arce composita multiplicem "
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>rebus gerendis modum statuit: qui modus", cumx
+            <lb ed="#Q"/>in ipsa divinae intelligentiae puritate conspicitur,
+            <lb ed="#Q"/>providentia nominatur». Ex hac auctoritate patet
+            <lb ed="#Q"/>quod providentia respicit res gerendas sive fien<lb ed="#Q"/>das
+            ab ipso Artitice primo, et ita est causa rerum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e4097">
+            <lb ed="#Q"/>II. Sed quod sit causa formalis, osten<lb ed="#Q"/>ditur:
+            0. Quoniam dicit B 0 ethius, in eo<lb ed="#Q"/>dem
+            6: « Manifestum est immobilem simplicemque
+            <pb ed="#Q" n="290"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>gerendarum a rerum formam esse providentiam ».
+            <lb ed="#Q"/>Ex quo sic arguiturb: Providentia est forma re<lb ed="#Q"/>rum
+            gerendarum; sed forma rerum gerendarum
+            <lb ed="#Q"/>est ipsa causa formalis exemplaris-; ergo provi<lb ed="#Q"/>dentia
+            est causa formalis exemplaris rerum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e4122">
+            <lb ed="#Q"/>b. Item, Boethius, in eodem 1: « Providentia est
+            <lb ed="#Q"/>ipsa illa divina ratio in summo omnium Principe
+            <lb ed="#Q"/>constituta, qua cuncta disponit»; et post dicit2:
+            « Deus providentia quidem singulariter stabili<lb ed="#Q"/>terque
+            facienda disponit». Sed quod est huius<lb ed="#Q"/>modi
+            in efficiente est causa formalis exemplaris 6,
+            <lb ed="#Q"/>quia huiusmodi ratio sive ars est exemplaris .
+            <lb ed="#Q"/>causa; ergo 'et providentia in Deo est causa for<lb ed="#Q"/>malis
+            exemplaris rerum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e4142">
+            <lb ed="#Q"/>Quod autem sit causa efficiens, patet:
+            <lb ed="#Q"/>a. Quia dicit Damascenus3: « Providentia est
+            <lb ed="#Q"/>bona voluntas Dei»; sed voluntas Dei est causa
+            <lb ed="#Q"/>efficiens rerum: unde dicit Augustinus, Super »
+            <lb ed="#Q"/>Genesim 4, quod « voluntas Dei ponit necessita<lb ed="#Q"/>tem
+            rebus », et dicit etiam d in Enchiridion, quod
+            .« voluntas Deie est causa omnium motionum et
+            <lb ed="#Q"/>specierum ». Providentia ergo est causa efficiens
+            <lb ed="#Q"/>rerum. 
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e4162">
+            <lb ed="#Q"/>b Item, Boethius, in IIIf De consolatione5,
+            <lb ed="#Q"/>dicit quod« «dedit providentia a se creatis hanc
+            <lb ed="#Q"/>maximam manendi causam, ut quoad-13 possint,
+            <lb ed="#Q"/>naturaliter [manere] desiderent ». Ex hac aucto<lb ed="#Q"/>ritate
+            habetur quod providentiae sit creare; sed
+            <lb ed="#Q"/>creare est ipsius efficientis causae, quia creare dicit
+            <lb ed="#Q"/>producere res. ad esse, quod proprium est effi<lb ed="#Q"/>cientis
+            causae ; ergo providentia est causa efficiens.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e4182">
+            <lb ed="#Q"/>Quod autem-sit causa finalis, videtur: <lb ed="#Q"/>Quoniam
+            dicit Augustinus, in libro 83 Quae<lb ed="#Q"/>stionumü:
+            « Summe illud bonum est'1 cuius par—
+            <lb ed="#Q"/>ticipatione cetera sunt bona; porro illud cuius :
+            , participatione cetera sunt bona'" per se ipsum bo— <lb ed="#Q"/>num
+            est: quam * divinam providentiam vocamus ».
+            <lb ed="#Q"/>Providentia ergo est summum bonum; sed sum<lb ed="#Q"/>mum
+            bonum est finis Omnium, sicut etiam[ pro<lb ed="#Q"/>bat
+            Boethius7; ergo providentia est finis re<lb ed="#Q"/>rum;
+            ergo et'" causa finalis rerum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e4204">
+            <lb ed="#Q"/>Solutio: I-II. Dicendum, sicut dictum est supra 8,
+            <lb ed="#Q"/>quod-in providentia sunt duo: ipsa cognitio quae
+            <lb ed="#Q"/>determinatur ex parte videntiae; item, est ibi
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>causalitas superaddita ipsi cognitioni vel videntiae,
+            <lb ed="#Q"/>quae notatur per praepositionem additam. Con:
+            <lb ed="#Q"/>cedimus ergo " quod providentia est causa; sed
+            <lb ed="#Q"/>quantum ad cognitionem vel videntiam, quam im<lb ed="#Q"/>portat,
+            est causa formalis exemplaris, quia sicut
+            <lb ed="#Q"/>in 0 scientia aedificandi in artifice est causa exem<lb ed="#Q"/>plaris
+            domus, ita in? scientia divina est causa
+            <lb ed="#Q"/>exemplaris formarum fiendarum; unde' ipsa di<lb ed="#Q"/>citur
+            idea rerum. Et quod se habeat providentia
+            <lb ed="#Q"/>ad modum rationis vel causae 4, exemplaris in
+            <lb ed="#Q"/>artifice, dicit Boet-hiusg: «Sicut artifex fa—
+            <lb ed="#Q"/>ciendae rei formam mente' prospiciens vel per<lb ed="#Q"/>cipienss
+            movet operis effectum [et quod simpli<lb ed="#Q"/>citer]
+            praesenterque prospexerat per temporales
+            <lb ed="#Q"/>ordines ducit: ita Deus providentia quidem singu<lb ed="#Q"/>lariter
+            stabiliterque facienda disponit ». Sed ratione
+            <lb ed="#Q"/>causalitatis superadditae se habet in ratione ef<lb ed="#Q"/>ficientis:
+            et hoc modo dicitur providentia « b'o'na
+            <lb ed="#Q"/>voluntas Dei », qua cuncta gubernantur atque re<lb ed="#Q"/>guntur.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c3-d1e4259">
+            <lb ed="#Q"/>Ad illud autem quod obicitur de causa fi<lb ed="#Q"/>n
+            a 1 i: dicimus quod providentia non est causa fina<lb ed="#Q"/>lis
+            rerum. — Et ad illud quod obicitur quod 'ipsa
+            <lb ed="#Q"/>est summum bonum ': dicendum quod in fine duo
+            <lb ed="#Q"/>sunt, scilicet terminare et finire ipsas res et or<lb ed="#Q"/>dinem
+            * rerum; item, finis est movere efficientem,
+            <lb ed="#Q"/>sicut dicit Philosophus 'O; propria tamen ratio
+            <lb ed="#Q"/>finis, in quantum finis, determinatur in " hoc quod
+            <lb ed="#Q"/>terminat res et quod ad ipsum velut ad termi<lb ed="#Q"/>num
+            ordinantur res: et sic summum bonum habet
+            <lb ed="#Q"/>has" duas rationes. In providentia ergo est illud
+            <lb ed="#Q"/>finis, quod est movere efficientem, et sic habet '
+            . in se virtutem ordinandi omnes res, sicut finis;
+            <lb ed="#Q"/>sed non dicitur in ratione .terminantis res. Verum<lb ed="#Q"/>tamen
+            perx hoc quodfhabet de ratione finis, ma<lb ed="#Q"/>gis
+            refertur ad ipsam efficientem. Providentia
+            <lb ed="#Q"/>ergo est summum bonum, et summum bonum
+            <lb ed="#Q"/>habet. praedictas duas rationes, quarum una con<lb ed="#Q"/>venit
+            providentiae. De causa autem materiali non
+            <lb ed="#Q"/>habet locum quaestio. — Vel potest dici quod
+            <lb ed="#Q"/>summum bonum dicitur finis et efficiens: efficiens
+            <lb ed="#Q"/>autem dicitur in quantum est sui communicati<lb ed="#Q"/>vum
+            vel diffusivum, et per hanc rationem dicitur
+            <lb ed="#Q"/>providentia bonum. Quod patet ex illo verbo
+            <pb ed="#Q" n="291"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>
+            <lb ed="#Q"/><name ref="#Augustine">Augustini</name>, in libro 83 Quaestionum 1: <quote xml:id="ahsh-l1p1i1t5s2q3t1c3-Qd1e4321">« Summe
+            <lb ed="#Q"/>illud bonum est, cuius participatione cetera bona
+            <lb ed="#Q"/>sunt, quam divinam providentiam vocamus»</quote>. Non
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>igitur sequitur: 'provide'ntia" .est summum bo<lb ed="#Q"/>num,
+            ergo est finis', sed est peccatum2 secun<lb ed="#Q"/>dum
+            accidens. '
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

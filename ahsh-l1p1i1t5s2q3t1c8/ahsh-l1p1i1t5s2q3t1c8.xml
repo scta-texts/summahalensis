@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. 1, C. 8</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-12">March 12, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="303"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q3t1c8">
+        <head xml:id="ahsh-l1p1i1t5s2q3t1c8-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. I, C. 8</head>
+        <head xml:id="ahsh-l1p1i1t5s2q3t1c8-Hd1e3744" type="question-title">DE FIDE PROVIDENTIAE.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3747">
+          <lb ed="#Q"/>Restat quaerere de fide providentiae. Et quae<lb ed="#Q"/>runtur
+          duo:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Primo, quaeritur" quare non ponitur in. Sym<lb ed="#Q"/>bolo
+          pro articulo;
+          <lb ed="#Q"/>secundo, de errore circa providentiam 4.
+        </p>
+        <div xml:id="ahsh-l1p1i1t5s2q3t1c8-Dd1e3763" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c8-Hd1e3765">Articulus I</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c8-Hd1e3768" type="question-title">Quare providentia non ponitur in Symbolo pro articulo.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3771">
+            <lb ed="#Q"/>Quantum ad primum quaeritur: I. Cum in Sym<lb ed="#Q"/>bolo
+            sit unus articulus ' Deum esse omnium crea<lb ed="#Q"/>torem
+            ', quare non ponitur similiter unus arti<lb ed="#Q"/>culus
+            e 'Deum esse omnium gubernatorem '?
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3782">
+            <lb ed="#Q"/>Et videtur quod deberet esse, quia sicut fides
+            <lb ed="#Q"/>supponit quod Deus sit omnium creator, ita
+            <lb ed="#Q"/>tenet quod ipse est omnium gubernator et con<lb ed="#Q"/>servator.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3793">
+            <lb ed="#Q"/>II. Item, quaeritur: Cum in Symbolo sint diversi
+            <lb ed="#Q"/>articuli ut excludantur per ipsos haereses inci<lb ed="#Q"/>dentes
+            contra veritatem fidei; sed sicut erant
+            <lb ed="#Q"/>haereses incidentes circa creationem, videlicet
+            <lb ed="#Q"/>Manichaeorum, qui ponebant duplex esse re<lb ed="#Q"/>rum
+            principium, scilicet deum lucis etf deum
+            <lb ed="#Q"/>tenebrarum, ita errabant aliqui circa gubernatio<lb ed="#Q"/>nem
+            seu providentiam, sicut Epicuraei, qui po<lb ed="#Q"/>nebant
+            omnia esse a casu et nihil esse providen<lb ed="#Q"/>tiam;
+            sicut ergo fuit articulus excludens errorem
+            <lb ed="#Q"/>Manichaeorum circa creationem, ita debuis<lb ed="#Q"/>set
+            esse articulus excludens errorem Epicu<lb ed="#Q"/>raeorumg
+            circa providentiam.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3825">
+            <lb ed="#Q"/>[Solutio]: Dicimusf' quod verum est quod per
+            <lb ed="#Q"/>articulos positos in Symbolo debent excludi hae<lb ed="#Q"/>reses.
+            Interl7 articulos igitur quidam sunt qui per<lb ed="#Q"/>tinent
+            ad opera creationis; quidam ad opera re<lb ed="#Q"/>creationis,
+            sicut illi qui sunt de incarnatione et
+            <lb ed="#Q"/>passione; quidam vero ad opera iustificationis
+            <lb ed="#Q"/>et glorificationis, sicut ultimi articuli Symboli.
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Quoniam autem circa articulum creationis ab initio
+            <lb ed="#Q"/>error erat circa principium creationis, quoniam
+            <lb ed="#Q"/>qui dam 2 ponebant quod unum eratk principium
+            <lb ed="#Q"/>boni et aliud mali; alii 3 quod unum erat princi<lb ed="#Q"/>pium
+            superiorum, aliud inferiorum; item, alii4
+            <lb ed="#Q"/>quod unus erat creator spiritualium, aliusl corpo<lb ed="#Q"/>ralium:
+            istis igitur erroribus, quia vigebant quasi
+            <lb ed="#Q"/>a principio, oportuit opponi'" articulos explicite
+            <lb ed="#Q"/>per quos excluderentur. Sed quia haeresis circa
+            <lb ed="#Q"/>gubernationem vel providentiam non erat ita a
+            <lb ed="#Q"/>principio, sufficit quod huiusmodi error exclu<lb ed="#Q"/>datur"
+            implicite per aliquem articulorum. Unde
+            <lb ed="#Q"/>dicimus quod bene excluditur cum ponimus Deum
+            <lb ed="#Q"/>creatorem: cum enim dicimus eum creatorem,
+            <lb ed="#Q"/>dicimus similiter eum gubernatorem et proviso<lb ed="#Q"/>rem,
+            sicut dicit Damascenus 5. Et est simile,
+            <lb ed="#Q"/>quod Deus sex diebus creavit universum: ibi
+            <lb ed="#Q"/>enim per creationem intelligitur distinctio pariter
+            <lb ed="#Q"/>et ornatus; similiter cum dicimus Deum creato<lb ed="#Q"/>rem,
+            innuimus simul creationem, gubernationem
+            <lb ed="#Q"/>et providentiam. — Et sic patet responsio ad
+            <lb ed="#Q"/>illud quod quaerebatur.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3893">
+            <lb ed="#Q"/>Ad excludendum autem errorem eorum" qui
+            <lb ed="#Q"/>ponebant unum principium boni et aliud mali,
+            <lb ed="#Q"/>dicimus sufficere articulum de creatore. Cum enim
+            <lb ed="#Q"/>dicimus eum creatorem, intelligimus per hoc esse
+            <lb ed="#Q"/>principium onmium quae per creationem in esse
+            <lb ed="#Q"/>producuntur, secundum quod dicitur, Eccli. 18,1:
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t5s2q3t1c8-Qd1e3909">Qui vivit in aeternum, creavit omnia simul</quote>.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q3t1c8-Dd1e3914" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c8-Hd1e3916">Articulus II</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t1c8-Hd1e3919" type="question-title">De errore circa providentiam.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3922">
+            <lb ed="#Q"/>Consequenter quaeritur de errore circa divinam
+            <lb ed="#Q"/>providentiam. Et quaeritur qui magis peccant:
+            <lb ed="#Q"/>an " qui negant divinam providentiam esse, an illi
+            <lb ed="#Q"/>qui ipsam ponunt, sed ipsum auctorem, scilicet
+            <lb ed="#Q"/>Deum, accusant, scilicet de malis, dicendo quod
+            <lb ed="#Q"/>non bene regit permittendo mala fieri.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3938">
+            <lb ed="#Q"/>Ad quod sic: Ostenditur quod illi qui b negant
+            <lb ed="#Q"/>providentiam, deterius peccant: ]. Quia tales
+            <lb ed="#Q"/>sunt infideles, quiac credunt Deum non omnia
+            <lb ed="#Q"/>scire vel gubernare; ergo si infidelitas est ma<lb ed="#Q"/>ximum
+            peccatum ", quia est contra fundamentum
+            <lb ed="#Q"/>totius boni, ergo tales deterius peccant.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3954">
+            <lb ed="#Q"/>2. Item, 1 Cor. 3,14: Si <quote xml:id="ahsh-l1p1i1t5s2q3t1c8-Qd1e3958">cuiuse opus manse<lb ed="#Q"/>rit, 
+            quod superaedificavit</quote> etc. Dicit Gilossal
+            <lb ed="#Q"/>quod «cum perfidi in aeternum pereant, prod<lb ed="#Q"/>est
+            illis ex parte credidisse Christum ». Ergo il<lb ed="#Q"/>lis
+            prodest quod credunt et ponunt providen<lb ed="#Q"/>tiam;
+            ergo illi magis peccant qui negant ipsam
+            <lb ed="#Q"/>providentiam. <lb ed="#Q"/>
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e3978">
+            <lb ed="#Q"/>Contra: a. lsai. 18,1: Vae terrae cymbala ala<lb ed="#Q"/>rum/Glossa
+            Hieronymiz: «Dicit Epicurus
+            <lb ed="#Q"/>non esse providentiam, etf voluptatem esse sum<lb ed="#Q"/>mum 
+            bonum; sed illi peiores qui providentiam, 
+            <lb ed="#Q"/>recipiunt, sed auctorem accusant, quasi errando<!--g-->            
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>inutilia fecerit Dominus ». Ergo isti secundi peius
+            <lb ed="#Q"/>peccant quam alii.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e4000">
+            <lb ed="#Q"/>Respondeo: 1. Dicendum quod illi peius peccant
+            <lb ed="#Q"/>et deterius qui ponunt providentiam, sed aucto<lb ed="#Q"/>rem
+            accusant.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t1c8-d1e4009">
+            <lb ed="#Q"/>2. Et quod obicitur quod «prodest illis
+            <lb ed="#Q"/>credidisse»: dicimus" quod haec Glossa vult
+            <lb ed="#Q"/>dicere quodl pro illo quod crediderunt non pu<lb ed="#Q"/>nientur,
+            sed alii punientur qui non crediderunt; isti
+            <lb ed="#Q"/>autem non punientur pro illo, tamen gravius et
+            <lb ed="#Q"/>acerbius punientur simpliciter, quia scientia fidei in
+            <lb ed="#Q"/>ipsis aggravat peccatum suum ratione contemptus.
+            <lb ed="#Q"/>Unde Iac. 4, 17 : <quote xml:id="ahsh-l1p1i1t5s2q3t1c8-Qd1e4028" ana="#iac4_17">Scienti bonum et non facienti, pec<lb ed="#Q"/>catum
+            est illi</quote> ; et Luc. 12, 47: <quote xml:id="ahsh-l1p1i1t5s2q3t1c8-Qd1e4033" ana="#lc12_47">Servus, qui cognovit
+            <lb ed="#Q"/>voluntatem domini sui'f et non facit, vapulabit
+            <lb ed="#Q"/>plagis multis; qui autem non cognovit, vapulabit
+            <lb ed="#Q"/>paucis</quote>. Unde patet quod gravius est peccatum il<lb ed="#Q"/>lud,
+            quia graviuspunietur', et hoc propter con<lb ed="#Q"/>temptum.
+            Nihilominus tamen alius punietur ra<lb ed="#Q"/>tione
+            ignorantiae eorum quae sunt necessaria ad
+            <lb ed="#Q"/>salutem, pro qua non alius; unde 1 Cor. 14,38:
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t5s2q3t1c8-Qd1e4052" ana="#Icor14_38">Ignorans ignorabitur</quote>, quia cum posset scirem
+            <lb ed="#Q"/>quae Sunt necessaria ad salutem, ignoravit tamen
+            <lb ed="#Q"/>illa: ex quo punietur; alius autem ratione con<lb ed="#Q"/>temptus,
+            qui occasionaliter ex scientia generatur.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

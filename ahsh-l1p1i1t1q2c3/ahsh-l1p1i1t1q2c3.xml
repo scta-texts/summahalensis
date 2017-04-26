@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 1, Q. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Pars 1, Inq. 1, Tract. 1, Q. 2, C. 3</title>
+          <date when="2017-02-12">February 12, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="48"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t1q2c3">
+        <head xml:id="ahsh-l1p1i1t1q2c3-Hd1e3732">I, Pars 1, Inq. 1, Tract. 1, Q. 2, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t1q2c3-Hd1e3735" type="questionTitle">AN SIT PROPRIUM DIVINAE ESSENTIAE QUOD SIT INCOMMUTABILIS</head>
+        <p xml:id="ahsh-l1p1i1t1q2c3-d1e3738">
+          <lb ed="#Q"/>Tertio quaeritur an sit proprium divinae es<lb ed="#Q"/>sentiae 
+          quod sit incommutabilis ita quod non
+          <lb ed="#Q"/>conveniat creaturae, sed soli Deo
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c3-d1e3747">
+          <lb ed="#Q"/>Obicitur ergo sic: a. Augustinus, in libro
+          <lb ed="#Q"/>De natura boni 7: «Solus Deus incommutabilis
+          <lb ed="#Q"/>est; quae autem fecit, quia ex nihilo, mutabilia 
+          <pb ed="#Q" n="49"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sunt: moventur enim spiritus iniquitate, corpora
+          <lb ed="#Q"/>mortalitate ». Ergo soli Deo convenit immutabi<lb ed="#Q"/>litas; 
+          ergo est ei proprium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c3-d1e3767">
+          <lb ed="#Q"/>b. Item, Augustinus, VII De Trinitate ':
+          « Quod mutatur non servat ipsum esse; et quod
+          <lb ed="#Q"/>mutari potest, etiam si non mutetur, potest'quod
+          <lb ed="#Q"/>iuerat non esse ». Si ergo soli divinae essentiae
+          <lb ed="#Q"/>conveniat quod non possit quod fuerat vel est
+          <lb ed="#Q"/>non esse, et non alicui " creaturae: ergo proprium
+          <lb ed="#Q"/>est ei esse immutabile.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c3-d1e3784">
+          <lb ed="#Q"/>c. Item, Augustinus, Contra Maximinumzz
+          «Solus dicitur 3 habere immortalitatem. In omni
+          <lb ed="#Q"/>mutabili natura nonnulla mors est ipsa mutatio,
+          <lb ed="#Q"/>quae facit aliquid non esse in ea 'quod eratb ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c3-d1e3793">
+          <lb ed="#Q"/>Contra: 1. Omnis mutabilitas aut est secun<lb ed="#Q"/>dum
+          esse aut secundum bene esse; sed in crea<lb ed="#Q"/>tura
+          rationali, scilicet anima, est immutabilitas
+          <lb ed="#Q"/>quantum ad esse, quia habet esse perpetuum,
+          <lb ed="#Q"/>nec est possibilis ad non esse; similiter in ani<lb ed="#Q"/>mabus
+          beatis est immutabilitas quantum ad bene
+          <lb ed="#Q"/>esse; ergo .alii quam Deo convenit esse incom<lb ed="#Q"/>mutabile.
+          - Si dicatur quod immutabilitas
+          <lb ed="#Q"/>quantum ad esse non est in anima per naturam,
+          <lb ed="#Q"/>sed per gratiam, et ita nulli per naturam convenit
+          <lb ed="#Q"/>esse immutabile nisi Deo — contra: quod anima
+          <lb ed="#Q"/>sit imago, est ei a c natura; sed eo quod est
+          <lb ed="#Q"/>imago, est immortalis d, quia, ut dicit Cassio<lb ed="#Q"/>dorust,
+          «non esset imago, si mortis termino
+          <lb ed="#Q"/>clauderetur »; eo autem quo immortalis, est im<lb ed="#Q"/>mutabilis;
+          ergo est immutabilis quantum ad esse
+          <lb ed="#Q"/>per naturam et non solum per gratiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c3-d1e3832">
+          <lb ed="#Q"/>2. Item, triplex- est' esse, scilicet esse quod
+          <lb ed="#Q"/>incipit et desinit: et hoc est esse temporale; et
+          <lb ed="#Q"/>esse quod non incipit nec desinit: et hoc est esse
+          <lb ed="#Q"/>aeternum; et esse quod incipit et non desinit: et
+          <lb ed="#Q"/>hoc est esse perpetuum. Primum esse, scilicet
+          <lb ed="#Q"/>temporale, est vestigium secundi, quod est aeter<lb ed="#Q"/>num. 
+          Tertium, scilicet esse perpetuum, magis
+          <lb ed="#Q"/>est in expressione! esse aeterni quam esse" tem<lb ed="#Q"/>porale,
+          quia non desinit, sicut nec esse aeternum;
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>et propter hoc est imago ipsius esse aeterni, et
+          <lb ed="#Q"/>non primum, quia imago est in maiori expres<lb ed="#Q"/>sione. 
+          Si ergo hoc quod ponit expressionem ae<lb ed="#Q"/>terni 
+          esse ponit immutabilitatem per naturam,
+          <lb ed="#Q"/>quia ponit quod non desinit, nec posset ipsum
+          <lb ed="#Q"/>exprimere si desineret: ergo ipsa anima ratio<lb ed="#Q"/>nalis,
+          cui convenit esse perpetuum, est immuta<lb ed="#Q"/>bilis
+          per naturam 5; et ita esse immutabile non est
+          <lb ed="#Q"/>proprium Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c3-d1e3876">
+          <lb ed="#Q"/>Solutio: Dicendum ' quod est duplex mutatio:
+          <lb ed="#Q"/>scilicet mutatio'" 'ad esse et mutatio in esse; si<lb ed="#Q"/>militer
+          duplex est immutabilitas: ad esse et in
+          <lb ed="#Q"/>esse. In esse autem divino est immutabilitas ad
+          <lb ed="#Q"/>esse et in esse; sed in omni' creatura, eo quod
+          <lb ed="#Q"/>est de nihilo "' et ita mutatur de non esse ad esse,
+          <lb ed="#Q"/>est mutabilitas ad essa. Unde sicut ens de nihilo
+          <lb ed="#Q"/>a nulla creatura separatur, ita nec ista mutabi<lb ed="#Q"/>litas
+          quae est ad esse -— Mutabilitas autem in
+          <lb ed="#Q"/>esse est" duplex: scilicet secundum substantiam
+          <lb ed="#Q"/>et secundum accidens ?. Mutabilitas in esse se<lb ed="#Q"/>cundum
+          Substantiam est corruptio 0, cum scilicet
+          <lb ed="#Q"/>mutatur creatura ab esse in non esse. Et immu<lb ed="#Q"/>tabilitatem
+          contrariam huic mutabilitati habent
+          <lb ed="#Q"/>creaturae quae primo et immediate exeunt a Deo -",
+          <lb ed="#Q"/>sicut angeli et animae rationales, et etiam? prima
+          <lb ed="#Q"/>materia, prout est de primo creatis, habet eam.
+          <lb ed="#Q"/>Sed in aliis, quae consequenter fiunt ex ipsa, est
+          <lb ed="#Q"/>mutabilitas ista et secundum substantiam et se<lb ed="#Q"/>cundum
+          accidens, sicut. in elementis et huius<lb ed="#Q"/>modi.
+          Mutabilitas autem in esse secundum ac<lb ed="#Q"/>cidens
+          ista est in creaturis, etiam perpetuis, sicut
+          <lb ed="#Q"/>in anima, cum mutatur ab una affectione in aliam,
+          <lb ed="#Q"/>ut a tristitia in gaudium et ab iniustitia in iusti<lb ed="#Q"/>tiam.
+          Solum autem illud simpliciter et vere est
+          <lb ed="#Q"/>immutabile, quod nec habet mutabilitatem ' ad
+          <lb ed="#Q"/>esse, quae est a non esse in esse, nec mutabili<lb ed="#Q"/>tatem
+          in esse secundum substantiam, nec secun<lb ed="#Q"/>dum
+          accidens; talis est divina essentia solum 8:
+          <lb ed="#Q"/>et ideo proprium est ei esse immutabile vere
+          <lb ed="#Q"/>et simpliciter.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

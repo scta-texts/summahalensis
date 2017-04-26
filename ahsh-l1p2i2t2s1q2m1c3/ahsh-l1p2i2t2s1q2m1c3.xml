@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-26">April 26, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-26" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="599"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q2m1c2">
+        <head xml:id="ahsh-l1p2i2t2s1q2m1c2-Hd1e118">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 1, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t2s1q2m1c2-Hd1e121" type="question-title">SECUNDUM QUID DE PATRE NOTIO GENERATIONIS DICATUR.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e124">
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Consequenter quaeritur, cum generare Filium con<lb ed="#Q"/>-
+          veniat Patri, utrum conveniat ei quia Pater
+          <lb ed="#Q"/>aut secundum alteram rationem 5.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e135">
+          <lb ed="#Q"/>Ad quod sic: 1. In creaturis pater, in quantum
+          <lb ed="#Q"/>pater, sequitur generationem, quoniam pater et
+          <lb ed="#Q"/>filius, quoniam sunt relativa, simul sunt natura 6;
+          <lb ed="#Q"/>sed filius, in quantum filius, naturaliter sequitur
+          <lb ed="#Q"/>generationem; ergo in creaturis pater sequitur
+          <lb ed="#Q"/>secundum naturam generationem; generatio vero
+          <lb ed="#Q"/>sequitur illud cuius est generatio; ergo cum in
+          <lb ed="#Q"/>divinis habeant ordinem secundum-intelligentiam,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Pater secundum rationem intelligentiae sequitur
+          <lb ed="#Q"/>generationem et generatios secundum rationem
+          <lb ed="#Q"/>intelligentiae illud cuius est generatio, patet quodt
+          <lb ed="#Q"/>non quia Pater, generat; et ita circumscripta pa<lb ed="#Q"/>ternitate
+          secundum rationem intelligentiae a Patre,
+          <lb ed="#Q"/>adhuc-remanet 'generans'; sed circumscripta pa<lb ed="#Q"/>ternitate
+          non remanet nisi 'Deus'; ergo Pater
+          <lb ed="#Q"/>generat quia Deus.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e174">
+          <lb ed="#Q"/>2. Item, Anselmus, in libro De processione
+          <lb ed="#Q"/>Spiritus Sancti 7: « Pater spirat. non quia Pater,
+          <lb ed="#Q"/>sed quia Deus; et Filius similiter-"». Ergo ea<lb ed="#Q"/>dem
+          ratione Pater generat quia Deus.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e186">
+          <pb ed="#Q" n="600"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Contra: <!--a-->. Si Patera generat quia Deus, sed
+          <lb ed="#Q"/>quaelibet persona est Deus; ergo quaelibet per<lb ed="#Q"/>sona
+          generat.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e202">
+          <lb ed="#Q"/>b., Item, dicit Augustinusb, De Trinitate 1,
+          <lb ed="#Q"/>quod « nihil se ipsum generat», et ita generans
+          <lb ed="#Q"/>distinguitur a genito; sed Pater, in quantum. Deus,
+          <lb ed="#Q"/>non distinguitur a genito, sed solum in quantum
+          <lb ed="#Q"/>Pater; ergo Pater, in quantum Pater, generat.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e215">
+          <lb ed="#Q"/>c. Item, cum dicitur 'Deus generat', iste ter<lb ed="#Q"/>minus
+          'Deus' tenetur personaliter, et ita solius c
+          <lb ed="#Q"/>personae est generare-; ergo Pater, quia Pater,
+          <lb ed="#Q"/>generat. "
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e226">
+          <lb ed="#Q"/>d. Si dicatur, ut quidam 2 dicuntd, quod
+          <lb ed="#Q"/>Pater, quia est Deus innascibilis, generat - sed
+          <lb ed="#Q"/>innascibilis est ens non ab alio, sed sive agat
+          <lb ed="#Q"/>sive generet, none tamen quia non ab alio.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e237">
+          <lb ed="#Q"/>e. Si dicatur, ut quidam dicunt, quod ge<lb ed="#Q"/>nerat,
+          non quia Pater, sed quia potens generare
+          - contra: hoc quod dico 'potens'generare' aut
+          <lb ed="#Q"/>significat'idem quod hoc nomen 'Deus' aut non.
+          <lb ed="#Q"/>Si aliud: quid aliud nisi relationem? et quam
+          <lb ed="#Q"/>relationem nisi paternitatem f ? et ita idem est di<lb ed="#Q"/>cere
+          'Pater 8, quia potens est generare, generat'
+          <lb ed="#Q"/>et 'Pater, quia Pater, generat *. .
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e255">
+          <lb ed="#Q"/>Respondeo: Quidam dicunt quod paternitas
+          <lb ed="#Q"/>relatio est et proprietas. Proprietas dicitur per
+          <lb ed="#Q"/>relationem ad- id cuius est, relatio dicitur in quan<lb ed="#Q"/>tum
+          per ipsum refertur persona Patris ad alium:
+          <lb ed="#Q"/>et secundum hoc non est distinctiva personae,
+          <lb ed="#Q"/>sed in quantum proprietas; paternitas ergo, ut
+          <lb ed="#Q"/>relatio est, secundum rationem intelligentiae se<lb ed="#Q"/>quitur
+          generationem, Sed ut est proprietas, prae<lb ed="#Q"/>cedit.
+          Secundum hoc ergo dicendum quod gene<lb ed="#Q"/>rare
+          convenit Patri quia Pater 3, sed non notatur
+          <lb ed="#Q"/>paternitas ratio generationis ut est relatio, sed ut
+          <lb ed="#Q"/>est proprietas; similiter Filius non est terminus
+          <lb ed="#Q"/>generationis, prout filiatio '! se habet per modum
+          <lb ed="#Q"/>relationis, sed prout se habet per modum pro<lb ed="#Q"/>prietatis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e291">
+          <lb ed="#Q"/>Sed obicitur: Anselmus, in Monolo<lb ed="#Q"/>gion4: 
+          « Non ex relationibusi quae plures sunt,
+          <lb ed="#Q"/>sed ex substantia sua ", Pater et Filius spirant
+          <lb ed="#Q"/>Spiritum Sanctum ». Ergo a simili Pater ex sua
+          <lb ed="#Q"/>relatione non generat Filium, sed ex sua sub<lb ed="#Q"/>stantia.
+          - Item, idem ', ibidem5 : «Nullatenus
+          <lb ed="#Q"/>Patris et Filii secundum ipsas proprietates, ut
+          <lb ed="#Q"/>secundum paternitatem et filiationem, est po<lb ed="#Q"/>testas
+          vel voluntas »; sed posse generare et velle
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e313">
+          <lb ed="#Q"/>generare secundum idem attribuuntur secun<lb ed="#Q"/>dum
+          quod generare; non ergo generare erit ra<lb ed="#Q"/>tione
+          proprietatis; ergo non generat in quantum
+          <lb ed="#Q"/>Pater.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e324">
+          <lb ed="#Q"/>Respondeo: Cum generatio sit productio si<lb ed="#Q"/>milis
+          in natura 5, actus generandi per se ponit na<lb ed="#Q"/>turam
+          generantis et productionem similis vel con<lb ed="#Q"/>formis.
+          Potest ergo attribui personae generanti
+          <lb ed="#Q"/>per se"' ratione naturae et-ratione"'proprietatis
+          <lb ed="#Q"/>productionis. Verum ergo est quod Pater, in quan<lb ed="#Q"/>tum
+          " Deus, generat, ut sit attributio ratione na<lb ed="#Q"/>turae
+          ; et Pater, in quantum Pater, generat, ut sit
+          <lb ed="#Q"/>attributio ratione proprietatis productionis. Si au<lb ed="#Q"/>temP
+          coniungis utrumque 'Pater-, in quantum Deus
+          <lb ed="#Q"/>Pater, generat', habes expressam totam rationem
+          <lb ed="#Q"/>per se generationis, ut in hoc quod dico 'Deus'
+          <lb ed="#Q"/>exprimatur natura, in hoc quod dico 'Pater'
+          <lb ed="#Q"/>proprietas productionis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e357">
+          <lb ed="#Q"/>[Ad obiecta,]: 1. Ad illud? quod obicitur
+          <lb ed="#Q"/>quod esse patrem consequitur generare: dicen<lb ed="#Q"/>dum
+          quod verum est in creaturis, sed non in
+          <lb ed="#Q"/>divinis. Relationes enim in creaturis sunt rerum
+          <lb ed="#Q"/>comparatarum ad se invicem, et ideo sunt ad<lb ed="#Q"/>venientes".
+          In divinis autem sunt rerum, id
+          <lb ed="#Q"/>est personarum 5, relatarum et in invicem exi<lb ed="#Q"/>stentium
+          et ideo insistentes — quia sicut dicitur
+          <lb ed="#Q"/>Ioan. 14,10: Ego in Patre et Pater in me- estf;
+          <lb ed="#Q"/>unde Damascenus 8: « Deitatis " hypostases in
+          <lb ed="#Q"/>invicem sunt» — et quia in divinis relationes sunt
+          <lb ed="#Q"/>insistentes et ideo sunt proprietates et" relatio<lb ed="#Q"/>nes
+          idem. Unde paternitas et proprietas est et
+          <lb ed="#Q"/>relatio:-in quantum proprietas, secundum ratio<lb ed="#Q"/>nem
+          intelligentiae praecedit generare, in quantum
+          <lb ed="#Q"/>vero relatio, simul est.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e394">
+          <lb ed="#Q"/>2. Ad illud vero Anselmi patet responsio.
+          <lb ed="#Q"/>Nam, sicut dictum est 9, generare attribuitur Deo
+          <lb ed="#Q"/>Patri ut tota ratio determinetur: Deus enim genuit
+          <lb ed="#Q"/>Deum, Pater Filium, sed in uno determinaturx
+          <lb ed="#Q"/>natura gignean 1", in altero proprietas genera<lb ed="#Q"/>tionis,
+          et sic verum est quod dicit Anselmus
+          <lb ed="#Q"/>quod Deus genuit Deum, tangendo naturam, non
+          <lb ed="#Q"/>generantis proprietatem.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m1c2-d1e414">
+          <lb ed="#Q"/>a. Ad aliud dicunt 'quod non sequitur: 'si
+          <lb ed="#Q"/>generat secundum quod Deus, quod generare con—
+          <lb ed="#Q"/>veniat toti Trinitati ', quia cum'dicitur 'Deus ge<lb ed="#Q"/>nuit
+          Deum *, hoc nomen 'Deus' ex adiunctione
+          <lb ed="#Q"/>verbi trahitur2 ad supponendum pro Patre; simi<lb ed="#Q"/>liter
+          cum dicitur 'Deus spirat Deum', trahitur
+          <pb ed="#Q" n="601"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>ad supponendum pro Patre vel Filio. Cum itaque
+          <lb ed="#Q"/>dicitur" '-ve11e vel posse generare ', dicuntur
+          <lb ed="#Q"/>duo: 'velle et posse ', quod ad Deum pertinet,
+          <cb ed="#Q" n="b"/>
+          'generare' quod ad Patrem, et ideo sic intel<lb ed="#Q"/>ligendum
+          est: suppositum Deus Pater potuit vel
+          <lb ed="#Q"/>voluit generare.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

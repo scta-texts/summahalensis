@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 1, M. 4, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-18">March 18, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="326"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t1m4c3">
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m4c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. I, M. 4, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m4c3-Hd1e3744" type="question-title">UTRUM EFFECTUS PRAEDESTINATIONIS POSSIT CASSARI.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum effectus praede<lb ed="#Q"/>stinationis
+          possit cassari, hoc est utrum ali<lb ed="#Q"/>quis
+          praedestinatus possit damnari "'.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3756">
+          <lb ed="#Q"/>Ad quod sic: !. a. Augustinus, De correp<lb ed="#Q"/>tione
+          et gratias: : Certus est numerus elec<lb ed="#Q"/>torum
+          ». Ergo certum est de praedestinato quod 
+          <pb ed="#Q" n="327"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>est praedestinatus; ergo non potest non sal<lb ed="#Q"/>vari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3774">
+          <lb ed="#Q"/>Contra ' : 1. Deus posset apponere gratiam qui<lb ed="#Q"/>bus 
+          non apponit et subtrahere quibus non sub<lb ed="#Q"/>trahit;
+          sed si subtraheret, damnarentur<!--a-->; possent
+          <lb ed="#Q"/>ergo isti damnari qui tamen salvabuntur; ergo
+          <lb ed="#Q"/>praedestinati possunt damnari '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3791">
+          <lb ed="#Q"/>Ad hoc respondet Magister, in Sententiisz,
+          <lb ed="#Q"/>per distinctionem illius propositionis 'praedesti<lb ed="#Q"/>natum
+          impossibile est damnari ', quia potest esse
+          <lb ed="#Q"/>coniuncta vel divisa. Secundum quod intelligitur
+          <lb ed="#Q"/>coniuncta, sic fit sermo de supposito cum forma:
+          <lb ed="#Q"/>et hoc modo est vera; quemadmodum haec est
+          <lb ed="#Q"/>vera 'album non potest esse nigrum', id est
+          <lb ed="#Q"/>non potest esse ut album sit et! nigrum simul, et
+          <lb ed="#Q"/>ita haec est vera composita 'praedestinatus non
+          <lb ed="#Q"/>potest damnari', quia non potest esse' ut prae<lb ed="#Q"/>destinatus
+          sit et damnetur. Secundum vero quod
+          <lb ed="#Q"/>intelligitur divisa, tit sermo de supposito tantum,
+          <lb ed="#Q"/>et secundum hoc, sicut haec est vera 'album
+          <lb ed="#Q"/>potest esse nigrum', quia hoc quod est album
+          <lb ed="#Q"/>potest esse nigrum, ita haec est vera 'praede<lb ed="#Q"/>stinatus potest damnari ', quia ille potest damnari
+          <lb ed="#Q"/>qui est praedestinatus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3830">
+          <lb ed="#Q"/>Contra: Secundum quod composita intelligi<lb ed="#Q"/>tur
+          illa, verum est quod non potest esse simul
+          <lb ed="#Q"/>ut aliquis praedestinatus sit et damnetur; sed
+          <lb ed="#Q"/>alterum istorum non potest non esse, scilicet quin
+          <lb ed="#Q"/>iste sit praedestinatus, quia ab aeterno est prae<lb ed="#Q"/>destinatus;
+          ergo impossibile est alterum esse,
+          <lb ed="#Q"/>scilicet quod iste damnetur, quia ab aeterno est
+          <lb ed="#Q"/>praedestinatus' et non potest non esse praede<lb ed="#Q"/>stinatus 3.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3852">
+          <lb ed="#Q"/>Ad hoc respondet <name ref="#Lombard">Magister</name>, in Senten<lb ed="#Q"/>tiis
+          ", distinguens istam ex compositione et divisione
+          ' non. potest esse quin iste modo sit praedestinatus,
+          <lb ed="#Q"/>qui! ab aeterno est praedestinatus ', quia si intel<lb ed="#Q"/>ligitur
+          composita, vera est, et est sensus: 'non
+          <lb ed="#Q"/>potest simul esse quod iste modo non sit prae<lb ed="#Q"/>destinatus
+          et ab aeterno sit praedestinatus '. Si
+          <lb ed="#Q"/>vero intelligatur divisa, falsa est, et est sensus:
+          'non potest esse non praedestinatus qui est ab
+          <lb ed="#Q"/>aeterno praedestinatus ', quia accidit istum esse
+          <lb ed="#Q"/>praedestinatum: accidit enim quod iste praevisus
+          <lb ed="#Q"/>sit futurus salvari, quod intelligitur cum dico
+          ' praedestinatum '. — Si o ppo n itu r: est dictum
+          <lb ed="#Q"/>de praeterito verum; ergo est necessarium: dico
+          <lb ed="#Q"/>quod non valet, quia non est simile in dictis et
+          <lb ed="#Q"/>factis hominum et praescientia et praedestinatione
+          <lb ed="#Q"/>Dei, quia in dictis vel tactis hominum impossi<lb ed="#Q"/>bilitas
+          refertur ad naturam rei, in praescientia et
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>praedestinatione refertur possibilitas vel impos<lb ed="#Q"/>sibilitas
+          ad potentiam Dei, quae" eadem semper
+          <lb ed="#Q"/>fuit et erit: praedestinatio enim et potentia in
+          <lb ed="#Q"/>Deo idem sunt.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3901">
+          <lb ed="#Q"/>II. Sed opponitur de hac propositione
+          ' praedestinatum impossibile est damnari ' ', et se<lb ed="#Q"/>cundum
+          quod intelligitur composita et secundum
+          <lb ed="#Q"/>quod intelligitur divisa: dicit enim Magister,
+          <lb ed="#Q"/>in Sententia-5, quod composita [est] vera, divisa
+          <lb ed="#Q"/>falsa. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3914">
+          <lb ed="#Q"/>Sed videtur quod vera sit etiam di<lb ed="#Q"/>visa:
+          1. Quia causa et causatum dicuntur rela<lb ed="#Q"/>tive,
+          et posita se ponunt; ergo si causa est im<lb ed="#Q"/>mutabilis,
+          et etiectus; ergo si praedestinatio est
+          <lb ed="#Q"/>causa salutis, et immutabilis; ergo necessario con—
+          <lb ed="#Q"/>sequitur ettectus salutis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3930">
+          <lb ed="#Q"/>2. Item, videtur ratio syllogistica: omnem prae<lb ed="#Q"/>destinatum
+          necesse est salvari; iste est praede<lb ed="#Q"/>stinatus;
+          ergo istum necesse est salvari. — Pro<lb ed="#Q"/>batio
+          primae: in hoc quod dicitur 'praede—
+          <lb ed="#Q"/>stinatus' intelligitur futurus salvandus; sed om<lb ed="#Q"/>nem
+          tuturum salvandum necesse est salvari; ergo
+          <lb ed="#Q"/>omnem praedestinatum necesse est salvari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3949">
+          <lb ed="#Q"/>3. Item, omnem immutabiliter salvandum ne<lb ed="#Q"/>cesse
+          est salvari; iste immutabiliter est salvandus ;
+          <lb ed="#Q"/>ergo necesse est istum salvari. — Probatio
+          <lb ed="#Q"/>primae: immutabiliter est praedestinatus, quia
+          <lb ed="#Q"/>ab aeterno fuit praedestinatus et semper erit prae<lb ed="#Q"/>destinatus
+          et non potest non esse praedestinatus;
+          <lb ed="#Q"/>ergo immutabiliter est praedestinatus; ergo im<lb ed="#Q"/>mutabiliter
+          -est * saIVandus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3969">
+          <lb ed="#Q"/>Item, obicitur quod' videtur falsa com<lb ed="#Q"/>posita:
+          0. Quia si torma albedinis non posset
+          <lb ed="#Q"/>succedere nigredini, nunquam aliquo 'sensu esset
+          <lb ed="#Q"/>haec vera 'album possibile est esse nigrum';
+          <lb ed="#Q"/>sed in parte ista non potest torma succedere
+          <lb ed="#Q"/>formae ; ergo nullo modo potest esse vera, quia
+          <lb ed="#Q"/>praedestinationi non potest succedere damnatio,
+          <lb ed="#Q"/>quia praedestinatio ponit futuram salvationem;
+          <lb ed="#Q"/>ergo haec est falsa, sive intelligatur composita
+          <lb ed="#Q"/>sive divisa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e3993">
+          <lb ed="#Q"/>b. Item, ad hoc quod haec sit vera ' album pos<lb ed="#Q"/>sibile
+          est esse nigrum ', exigitur" quod existente
+          <lb ed="#Q"/>una forma, altera possit inesse. Si ergo haec
+          <lb ed="#Q"/>esset vera aliquo modo 'praedestinatum possi<lb ed="#Q"/>bile
+          est damnari ', sequeretur quod existente prae<lb ed="#Q"/>destinatione
+          huius", posset esse damnatio huius:
+          <lb ed="#Q"/>quod est falsum, quia existente immutabili ordi<lb ed="#Q"/>natione
+          salutis huius, impossibilis est damnatio
+          <lb ed="#Q"/>huius. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e4015">
+          <pb ed="#Q" n="328"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>c. Item, posito possibili, nullum accidit impossi<lb ed="#Q"/>bile
+          '. Si ergo praedestinatum est possibile dam<lb ed="#Q"/>nari,
+          si poneretur inesse 2, nullum accidit" incon<lb ed="#Q"/>veniens,
+          sicut si poneretur inesse albedo cui inest
+          <lb ed="#Q"/>nigredo, nullum acciditb inconveniens ', quia sen<lb ed="#Q"/>sus
+          erit: ' hoc 'est nigrum quod fuit album'; ergo
+          <lb ed="#Q"/>similiter si ponitur inesse praedestinatum dam<lb ed="#Q"/>nari,
+          nullum erit inconveniens, et erit sensus" :
+          'iste damnabitur, qui fuit praedestinatus '; et
+          <lb ed="#Q"/>constat quod hoc est falsum: ista enim incom<lb ed="#Q"/>possibilia4
+          sunt 'istum damnari' et 'fuisse prae<lb ed="#Q"/>destinatum
+          '. Relinquitur igitur quod haec est
+          <lb ed="#Q"/>falsa utroque modo 'possibile.est praedestina<lb ed="#Q"/>tum!
+          damnari '. — Quod concedendum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e4050">
+          <lb ed="#Q"/>Respondeo: in huiusmodi locutionibus aliter est
+          <lb ed="#Q"/>cum fit sermo de supposito tantum, et cum fit! de
+          <lb ed="#Q"/>supposito cum" forma 3. Cum enim fit sermo de
+          <lb ed="#Q"/>supposito cum forma, sive intelligatur composita
+          <lb ed="#Q"/>sive divisa, omnes sunt falsae; si vero fit sermo de
+          <lb ed="#Q"/>supposito tantum, verae sunt, ut' haec 'istum pos<lb ed="#Q"/>sibile
+          est damnari, qui tamen est praedestinatus '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e4068">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad illud quod obicitur 'si
+          <lb ed="#Q"/>causa immutabilis, et* effectus consequitur im<lb ed="#Q"/>mutabiliter':
+          dicendum' quod aliter est in causa
+          <lb ed="#Q"/>suprema et in'" causis inferioribus. Causae enim
+          <lb ed="#Q"/>interiores perficiuntur ex suis effectibus, et ideo
+          <lb ed="#Q"/>alligatae sunt effectibus; sed causa superior nulli
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>effectui<!--"--> est alligata, quia non perficitur ex suo
+          <lb ed="#Q"/>effectu; unde sicut necessitas in effectu non ponit
+          <lb ed="#Q"/>necessitatem in causa suprema — ut solem mo<lb ed="#Q"/>veri,
+          cum sit necessarium, non tamen est neces<lb ed="#Q"/>sarium
+          quantum ad causam supremam, quia
+          <lb ed="#Q"/>causa suprema potest eum facere stare, ut patet
+          <lb ed="#Q"/>in losue' — sic necessitas in causa suprema
+          <lb ed="#Q"/>non ponit necessitatem in effectu inferiori 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e4106">
+          <lb ed="#Q"/>2. Item, ad illud quod 'videtur syllogistica
+          <lb ed="#Q"/>ratio": dicendum quod est coniugatio inutilis,
+          <lb ed="#Q"/>quia ex maiori de necessario et minori de inesse?
+          <lb ed="#Q"/>non sequitur conclusio de? necessario, sed de
+          <lb ed="#Q"/>inesse; unde non sequitur: ' omnis currens de ne<lb ed="#Q"/>cessitate
+          movetur; iste currit; ergo' de necessi<lb ed="#Q"/>tate
+          movetur', sed sequitur: 'ergo movetur '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m4c3-d1e4124">
+          <lb ed="#Q"/>3. Item, ad illud' quod obicitur quod 'iste
+          <lb ed="#Q"/>immutabiliter est praedestinatus, vel necessario
+          <lb ed="#Q"/>est praedestinatus, quia semper fuit verum et
+          <lb ed="#Q"/>erit verum ', et quia est dictum" de praeterito
+          <lb ed="#Q"/>verum, ergo est necessarium': dicendum quod
+          <lb ed="#Q"/>haec est duplex 'iste est necessario praedesti<lb ed="#Q"/>natus
+          ', sicut haec in quam resolvitur 'iste est
+          <lb ed="#Q"/>necessario praevisus salvandus '. Si necessitas re<lb ed="#Q"/>feratur
+          ad praevisionem, vera est; si ad salva<lb ed="#Q"/>tionem,
+          falsa; nec est dictum simpliciter de prae<lb ed="#Q"/>terlto,
+          et ideo non simpliciter' est necessarium
+          <lb ed="#Q"/>nisi dictum quantum ad praeteritum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. I, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="112"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m1c1">
+        <head xml:id="ahsh-l1p1i1t3q1m1c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 1, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t3q1m1c1-Hd1e3732" type="question-title">QUID SIT UNUM</head>
+        <!-- praeam -->
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3737">
+          <lb ed="#Q"/>Adiuvante Dei gratia, ordine consequenti inquirendum est de unitate, veritate,
+          <lb ed="#Q"/>bonitate" divinae naturae: quia hae tres intentiones sunt unius coordinationis.
+          <lb ed="#Q"/>Et quantum ad primum, ut clarius fiat quod quaerendum est circa divinam
+          <lb ed="#Q"/>unitatem, in primis inquirendab sunt ista quantum ad intentionem unius et unitatis: 
+          <lb ed="#Q"/>Primo, quid 'unum';
+          <lb ed="#Q"/>secundo, quomodo se habeat 'unum ' ad intentionem entis C, veri et boni;
+          <lb ed="#Q"/>tertio, unde causetur 'unum ' in rebus;
+          <lb ed="#Q"/>quarto, quae differentiae 'unius ';
+          <lb ed="#Q"/>quinto, quae est " oppositio 'unius' ad ' multa ': nam ista faciunt ambiguitatem circa 
+          <lb ed="#Q"/>inquisitionem sequentium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3761">
+          <lb ed="#Q"/>Consequenter vero, quod est principalis propositi, de divina unitate quaerenda sunt 
+          <lb ed="#Q"/>haec: 
+          <lb ed="#Q"/>1. An divina unitas secum' compatiatur pluralitatem; 
+          <lb ed="#Q"/>2. habito quod sic, an compatiatur secum pluralitatem naturarum;
+          <lb ed="#Q"/>3. habito quod non, an compatiatur secum pluralitatem principiorum;
+          <lb ed="#Q"/>4. probato quod non, an compatiatur secum pluralitatem idearum;
+          <lb ed="#Q"/>5. dato quod sic, an compatiatur secum pluralitatem personarum;
+          <lb ed="#Q"/>6. ultimo, de conformitate aliarum unitatum ad divinam f.
+          <!-- end prae --></p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3783">
+          <lb ed="#Q"/>Quantum ad primum quaeritur I. de ratione  
+          'unius' quae ponitur a Philosopho 1: 
+          ' Unum ' est ens indivisum in se, divisum autem 
+          <lb ed="#Q"/>ab aliis, et unitas est indivisio entis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3790">
+          <lb ed="#Q"/>Sede obicitur: ]. Cum omnis definitio debeat 
+          <lb ed="#Q"/>dari per priora et notiora 2, haec autem data
+          <lb ed="#Q"/>sit per posterius et minus notum — quia est data
+          <lb ed="#Q"/>per indivisionem, quae est privatio divisionis, di<pb ed="#Q" n="113"/><cb ed="#Q" n="a"/><lb ed="#Q"/>visio 
+          visio autem posterior est unitatel et minus nota,
+          <lb ed="#Q"/>cum per unitatem notificatur: simili ergo ratione,
+          <lb ed="#Q"/>indivisio minus est nota quam unitas — ergo
+          <lb ed="#Q"/>praedicta definitio est male assignata.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3812">
+          I. Item, quaeritur an 'unum ', quod est de pri<lb ed="#Q"/>mis 
+          intentionibus, possit notificari per aliquod prius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3817">
+          <lb ed="#Q"/>Et arguitur 510 b: 1. Cum ' unum ' ponat ens
+          <lb ed="#Q"/>in: intellectu et superaddat rationem aliquam,
+          <lb ed="#Q"/>quae positione aliqua determinatur: ergo 'unum'
+          <lb ed="#Q"/>poterit notificari per ensd et illam rationem su<lb ed="#Q"/>peradditam
+          sicut per priora; ens enim intelligi<lb ed="#Q"/>tur'
+          prius, similiter et illa ratio, quae additur ad
+          <lb ed="#Q"/>ens, intelligitur prior ' uno 'f.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3835">
+          <lb ed="#Q"/>2. Item, ' bonum ' dicit ens in comparatione ad
+          <lb ed="#Q"/>causam finalem, et 'verum' dicit ens in quodam
+          <lb ed="#Q"/>respectu ad causam formalem, 'unum' vero ? di<lb ed="#Q"/>cit
+          ens in quodam respectu ad efficiens; ergo
+          <lb ed="#Q"/>ista poterunt notificari per 'ens' et illas rationes
+          <lb ed="#Q"/>sicut per'' priora. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3851">
+          <lb ed="#Q"/>Contra: a. Si per rationem additam ad 'ens'
+          <lb ed="#Q"/>ista, quae sunt primae intentiones ', possint no<lb ed="#Q"/>tificari,
+          cum in illis rationibus intelligatur ' ens'
+          <lb ed="#Q"/>et praeter hoc aliquidk superadditum, erit adhuc
+          <lb ed="#Q"/>definibilis per 'ens' et illam rationem superad<lb ed="#Q"/>ditam;
+          et iterum erit quaerere de illa ratione,
+          <lb ed="#Q"/>et sic in infinitum, aut erit stare in primo; primae
+          <lb ed="#Q"/>ergo intentiones non erunt definibiles per priora.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3872">
+          <lb ed="#Q"/>Respondeo: II. Dicendum quod cum sit 'ens'
+          <lb ed="#Q"/>primum intelligibile, eius intentio apud intellectum
+          <lb ed="#Q"/>est notaz; primae' ergo determinationes" entis
+          <lb ed="#Q"/>sunt primae impressiones apud intellectum: eae
+          <lb ed="#Q"/>sunt unum, verum, bonum, sicut patebit 3; non
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3885">
+          <lb ed="#Q"/>poterunt ergo habere aliqua priora specialiter ad 
+          <lb ed="#Q"/>sui notificationem. Si ergo notificatio fiat eorum,
+          <lb ed="#Q"/>hoc non erit nisi per posteriora, ut per abnega<lb ed="#Q"/>tionem
+          vel effectum consequentem. Hinc est quod
+          <lb ed="#Q"/>in notificatione 'unius' est una notio per abnega<lb ed="#Q"/>tionem,
+          alia vero per effectum consequentem: per
+          <lb ed="#Q"/>abnegationem oppositae intentionis, quae est di<lb ed="#Q"/>visio
+          vel multitudo, cum dicitur ' ens indivisum ';
+          <lb ed="#Q"/>per effectum consequentem, qui est distinguere
+          <lb ed="#Q"/>ab aliis: unitas enim distinguit 'unum' ab alio
+          <lb ed="#Q"/>et ideo dicitur 'divisum ab aliis '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3911">
+          <lb ed="#Q"/>[Ad obiecta]: I. 1. Ad illud quod obicitur
+          <lb ed="#Q"/>quod ' definitio debet esse per priora et notiora ':
+          <lb ed="#Q"/>respondendum quod " sunt priora et notiora " sim<lb ed="#Q"/>pliciter
+          et sunt priora et notiora quoad nos; pri<lb ed="#Q"/>mae
+          autem impressiones intellectus, cum non ha<lb ed="#Q"/>beant
+          prius et notius simpliciter, non possunt no<lb ed="#Q"/>tificari
+          per priora simpliciter", sed notificantur
+          <lb ed="#Q"/>per priora et notiora quoad nos 4. Notius autem
+          <lb ed="#Q"/>quoad nos est quod primo occurrit secundum
+          <lb ed="#Q"/>sensum: sensui autem primo occurrit partitio et
+          <lb ed="#Q"/>distinctio; multitudo autem sive divisio opposita
+          <lb ed="#Q"/>est unitati, distinctio consequens effectus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3940">
+          <lb ed="#Q"/>II. 1. Ad ill ud quod obicitur quod ' ex ratione
+          <lb ed="#Q"/>addita enu" posset esse'notificatio, quae quidem
+          <lb ed="#Q"/>est prior'q: dicendum quod ratio quae additur
+          <lb ed="#Q"/>enti non est aliud ab unitate, cum unitas sit prima
+          <lb ed="#Q"/>entis determinatio, et ideo per illam notificare nihil
+          <lb ed="#Q"/>aliud est quam idem notificare per se. Si ergo
+          <lb ed="#Q"/>notificetur, hoc non poterit esse nisi per poste<lb ed="#Q"/>riora
+          ', hoc est per abnegationem oppositae inten<lb ed="#Q"/>tionis
+          et per positionem effectus consequentis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c1-d1e3962">
+          <lb ed="#Q"/>2. Per hoc patet responsio ad cetera.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

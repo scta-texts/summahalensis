@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 2, Q. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-13">February 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="57"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q1c2">
+        <head xml:id="ahsh-l1p1i1t2q1c2-Hd1e3729">I, Pars 1, Inq. 1, Tract. 2, Q. 2, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t2q1c2-Hd1e3732" type="question-title">UTRUM SIT PROPRIUM DIVINAE ESSENTIAE QUOD SIT INFINITA.</head>
+        <p xml:id="ahsh-l1p1i1t2q1c2-d1e3735">
+          <lb ed="#Q"/>Postea quaeritur, supposito quod infinitas con<lb ed="#Q"/>veniat
+          Deo, utrum sit proprium divinae es<lb ed="#Q"/>sentiae
+          quod sit infinita.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c2-d1e3744">
+          <lb ed="#Q"/>Ad Quod sic: 1. Ioan. 3,34: Non est ei da<lb ed="#Q"/>tus
+          spiritus ad mensuram 3, et loquitur de gratia
+          <lb ed="#Q"/>Chus-tl; ergo gratia Christi est spiritus non ad 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>mensuram; ergo est infinita; ergo alii quam di<lb ed="#Q"/>vinae
+          essentiae convenit esse infinitum, et ita non
+          <lb ed="#Q"/>est ei proprium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c2-d1e3762">
+          <lb ed="#Q"/>Contra: a. Omnia creata sunt sub numero, pon<lb ed="#Q"/>dere
+          et mensura, Sap. 11,21; ergo omnia creata
+          <lb ed="#Q"/>sunt finita; ergo, si convenit infinitas alicui, hoc
+          <lb ed="#Q"/>est soli Creatori.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c2-d1e3774">
+          <pb ed="#Q" n="58"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Solutio: Ad hoc dicendum quod tinitum dicitur
+          <lb ed="#Q"/>multipliciter: scilicet finitum principio et finitum
+          <lb ed="#Q"/>fine, finitum subiecto et finitum virtute. Tot etiam
+          <lb ed="#Q"/>modis dicitur infinitum. Si ergo consideremus
+          <lb ed="#Q"/>finitum et infinitum principio vel tine: sic gratia
+          <lb ed="#Q"/>Christi estiinita et non infinita; habet enim termi<lb ed="#Q"/>num
+          a quo est, et hoc est principium, et finem
+          <lb ed="#Q"/>ad quem est. Et hoc modo sola divina essentia est
+          <lb ed="#Q"/>infinita. —— Similiter si accipiamus finitum subiecto:
+          <lb ed="#Q"/>sic adhuc gratia Christi est finita, quia anima
+          <lb ed="#Q"/>Christi est suum subiectum, quae est quaedam res
+          <lb ed="#Q"/>finita. - Si autem accipiamus finitum et infini<lb ed="#Q"/>tum
+          virtute: sic gratia aliquo modo est finita, ali<lb ed="#Q"/>quo
+          modo infinita; finita enim secundum quod di<lb ed="#Q"/>citur
+          " ' in Christo est gratia singularis personae';
+          <lb ed="#Q"/>aliquo tamen modob dicitur gratia Christi ini-inita:
+          <lb ed="#Q"/>nam praeter gratiam, quae est in Christo 0 ut est
+          <lb ed="#Q"/>homo singularis, est in ipso gratia secundum quam
+          <lb ed="#Q"/>est caput et gratia unionis. Dicitur ergo gratia Chri<lb ed="#Q"/>sti,
+          secundum quod est caput, aliquo modo infinita
+          <lb ed="#Q"/>quantum ad virtutem influendi, quia potest in<lb ed="#Q"/>fluere
+          in infinitum in membra corporis Ecclesiae.
+          <lb ed="#Q"/>Similiter gratia unionis aliquo modo dicitur inti<lb ed="#Q"/>nita, 
+          scilicet potestate satisfaciendi, quia non est
+          <lb ed="#Q"/>ponere tot peccata quin pro pluribus posset sa<cb ed="#Q" n="b"/><lb ed="#Q"/>tisfacere, 
+          nec ita magna quin et pro maioribus,
+          <lb ed="#Q"/>si essent, sicutd dicit Anselmus': « Putasne
+          <lb ed="#Q"/>tanturn bonum,'tam amabile, posse sufficere ad
+          <lb ed="#Q"/>solvendum quod debetur pro peccatis totius 
+          <lb ed="#Q"/>mundi? Immo plus potest in infinitum ». Unde 
+          <lb ed="#Q"/>si maius esset peccatum totius mundi in infini<lb ed="#Q"/>tum,
+          sufficeret ad illud solvendum 2.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c2-d1e3851">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod obicitur quod
+          <lb ed="#Q"/>'datus est eif spiritus non ad mensuram': di<lb ed="#Q"/>cendum
+          quod hoc intelligitur non absolute, sed
+          <lb ed="#Q"/>facta comparatione ad alios homines, quibus data
+          <lb ed="#Q"/>est gratia secundum mensuram donationis Chri<lb ed="#Q"/>sti
+          2; nam, sicut dicituri Cor. 12, 8: Aliis datur per
+          <lb ed="#Q"/>Spiritum sermo sapientiae, aliis sermo scientiae
+          <lb ed="#Q"/>secundum eumdem Spiritum etc. Quia ergo in
+          <lb ed="#Q"/>Christo erat gratia universaliter ad omnia quae
+          <lb ed="#Q"/>dabantur aliis, particulariter dicitur habuisse spi<lb ed="#Q"/>ritum
+          non ad mensuram, quia non habuit ad men<lb ed="#Q"/>suram
+          aliorum. Unde super illud Ioan. 3, 35: Omnia
+          <lb ed="#Q"/>dedit inmanueius, Glossa Augustini3: « Ho<lb ed="#Q"/>minibus
+          dat ad mensuram, Filio non ad mensuram,
+          <lb ed="#Q"/>sed sicut totum ex se ipso toto genuit Filium
+          <lb ed="#Q"/>suum, ita incarnato Filio suo totumg suum Spi<lb ed="#Q"/>ritum
+          [dedit] non particulariter, non per subdivi<lb ed="#Q"/>siones
+          ", sed generaliter et universaliter ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

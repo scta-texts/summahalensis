@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. I, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="120"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m1c4">
+        <head xml:id="ahsh-l1p1i1t3q1m1c4-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 1, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t3q1m1c4-Hd1e3732" type="question-title">QUAE SIT OPPOSITIO UNIUS AD MULTA.</head>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3735">
+          <lb ed="#Q"/>Restat quaerere, quantum ad intelligentiam plenam
+          <lb ed="#Q"/>' unius ', de oppositione ' unius ' ad ' multa '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3742">
+          <lb ed="#Q"/>a. Et cum omnis multitudo constet d ex unitati<lb ed="#Q"/>bus, 
+          non erit oppositio inter 'unum' et ' multa ',
+          <lb ed="#Q"/>cum esse multitudinis sit ex unitatibus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3751">
+          <lb ed="#Q"/>6. Item, non potest poni Oppositio contrarie<lb ed="#Q"/>tatis,
+          cum natura contrariorum sit, « ut cum unum
+          <lb ed="#Q"/>venit in subiectum, destruit alterum2 »; 'unum'
+          <lb ed="#Q"/>autem non destruit 'multum ', cum ponitur in sub<lb ed="#Q"/>iecto
+          quod erat multitudinis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3765">
+          <lb ed="#Q"/>c. Item, « ad conditionem ' contrariorum non sui—
+          <lb ed="#Q"/>ficit quodf sit unum subiectum et quod sibi succe<lb ed="#Q"/>dant,
+          sed L' oportet quod naturae sint " refugientes a
+          <lb ed="#Q"/>se et multum distantes 3 »; non sic autem est inter
+          ' unum' et 'multa ', cum sint naturae convenientes.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3776">
+          <lb ed="#Q"/>d. Item, non potest poni quod sit oppositio
+          <lb ed="#Q"/>sicut privationis et habitus: nam « unitas est in
+          <lb ed="#Q"/>multitudine ut constituens eam ** ». Si ergo ponatur
+          <lb ed="#Q"/>multitudo privatio unitatis, sicut habitus, erit « pri<lb ed="#Q"/>vatio
+          composita ex habitibus »; quod nunquami
+          <lb ed="#Q"/>contingit. Similiter, si poneretur habitus multitudo
+          <lb ed="#Q"/>et unitas privatio, « erit privatio composita ex
+          <lb ed="#Q"/>suis habitibus »; quod est inconvenientissimum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3796">
+          <lb ed="#Q"/>e. Item, nec potest poni oppositio relativa: nam
+          <lb ed="#Q"/>si multitudo esset correlativum unitatis, sequere<lb ed="#Q"/>tur
+          « quod sicut quidditas multitudinis dicitur re<lb ed="#Q"/>spectu
+          unitatis, sic quidditas unitatis, in quantum
+          <lb ed="#Q"/>est unitas, diceretur respectu multitudinis secun<lb ed="#Q"/>dum
+          conditionem "conversionis relativorum et 
+          <lb ed="#Q"/>essent coaequaeva in esse, in quantum scilicet
+          <lb ed="#Q"/>haec est unitas et illa multitudo5»; impossibile
+          <lb ed="#Q"/>ergo esset unitatem intelligi et esse sine multitu<lb ed="#Q"/>dine.
+          Relinquitur ergo quod non est oppositio re—
+          <lb ed="#Q"/>lativa. Nec constat contradictoria, et haec' est
+          <lb ed="#Q"/>secundum affirmationem et negationem. Ergo nullo
+          <lb ed="#Q"/>genere oppositionis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3827">
+          <lb ed="#Q"/>f. Item, *multum' opponitur ei quod est 'pau<lb ed="#Q"/>cum'
+          ; sed 'paucum' non dicitur 'unum ', sed'"
+          <lb ed="#Q"/>quod est in numero parvo "; relinquitur ergo quod
+          'multum' non opponitur ei quod est 'unum' 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3836">
+          <lb ed="#Q"/>Contra: 1. Prima entis divisio est in " 'unum'
+          <lb ed="#Q"/>et 'multa'P ; omnis autem divisio est secundum
+          <lb ed="#Q"/>oppositas differentias.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3845">
+          <lb ed="#Q"/>Respondeo: Multitudo dicitur duobus modis.
+          <lb ed="#Q"/>Est enim multitudo absoluta, quae ponit plurali<lb ed="#Q"/>tatem 
+          4, sed non excessum: et hoc modo multi<lb ed="#Q"/>titudo 
+          est oppositaunitati, non oppositione quae 
+          <lb ed="#Q"/>sit aliqua illarum quatuor, sed oppositione dispa<lb ed="#Q"/>rationis
+          qua aliquid, quod est de principio, oppo<lb ed="#Q"/>nitur
+          suis principiis ex quibus perficitur. Et hoc
+          <lb ed="#Q"/>dicit B. Dionysius'I quod « non est multi<lb ed="#Q"/>tudo,
+          quae non participet uno ». Alio modo dicit
+          <lb ed="#Q"/>multitudo pluralitatem excedentem: et secundum
+          <lb ed="#Q"/>hoc multitudo opponitur paucitati oppositione re<lb ed="#Q"/>lationis;
+          sed paucitas dicitur respectu parvi nu<lb ed="#Q"/>meri
+          et multitudo respectu magni sive excedentis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3877">
+          <lb ed="#Q"/>Haec ergo praeter intentionem principalem in<lb ed="#Q"/>quisita
+          sunt ad intelligentiam' sequentium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

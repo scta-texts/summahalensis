@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 4, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-21">April 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-21" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="548"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q4c2">
+        <head xml:id="ahsh-l1p2i2t1q4c2-Hd1e118">I, P. 2, Inq. 2, Tract. 1, Q. 4, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t1q4c2-Hd1e121" type="question-title">AN 'IUSTUM' ET HUIUSMODI CONNOTENT EFFECTUM</head>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e124">
+          <lb ed="#Q"/>Deinde quaeritur an 'iustum' connotet effec<lb ed="#Q"/>tum 
+          in creatura.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e131">
+          <lb ed="#Q"/>1. Boethiusö: «Deus est substantia super
+          <lb ed="#Q"/>omnem substantiam et iustitia super omnem iu<lb ed="#Q"/>stitiam
+          »; sed cum dicitur 'homo est iustus',
+          <lb ed="#Q"/>nihil praedicatur vel compraedicatur sive conno<lb ed="#Q"/>tatur
+          nisi iustitia ,hominis; ergo cum dicitur
+          'Deusg iustus', nihil praedicatur vel comprae—
+          <lb ed="#Q"/>dicatur nisi iustitia Dei.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e147">
+          <lb ed="#Q"/>2. Item, sicut prima veritas influit super ef—
+          <lb ed="#Q"/>fectus suos, sic summa bonitas vel summum ens;
+          <lb ed="#Q"/>sed cum dicitur 'Deus est'! bonus, Deus est
+          <lb ed="#Q"/>ens', nullus effectus praedicatur vel compraedi—
+          <lb ed="#Q"/>catur vel connotatur; ergo neci cum dicitur
+          ' Deus * iustus ' 7.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e161">
+          <lb ed="#Q"/>3. Item, si connotatur effectus, cum dicitur
+          ' Deus est iustus ', ergo hoc nomen ' iustus ' dicit
+          <lb ed="#Q"/>respectum ad creaturam: nam effectus est in. crea<lb ed="#Q"/>tura;
+          sed omne nomen designans respectum est
+          <lb ed="#Q"/>nomen habitudinis, quae est quinta differentia no—
+          <lb ed="#Q"/>minum essentialium, secundum Damascenum,
+          <lb ed="#Q"/>ut 'Creator et Dominus' ; non ergo esset in
+          <lb ed="#Q"/>opposita differentia.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e179">
+          <lb ed="#Q"/>Contra: Sive dicatur ' Deus iustus ' sive ' homo
+          <lb ed="#Q"/>iustus', semper ponitur redditio unicuique eius'
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quod suum est. Effectus igitur iste aut signifi<lb ed="#Q"/>catur,
+          cum dicitur 'Deus iustus', aut connotatur
+          <lb ed="#Q"/>cum principali significato;"sed non significatur:
+          <lb ed="#Q"/>nam significatum est divina iustitia, quae est di<lb ed="#Q"/>vina
+          essentia, ut dicit Boethiusa; ergo con<lb ed="#Q"/>notatur.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e201">  
+          <lb ed="#Q"/>Respondeo: Cum divinum esse significetur mul<lb ed="#Q"/>tis
+          modis — ut'" substantia, cum dicitur ' Deus *,
+          <lb ed="#Q"/>ut quantitas, cum dicitur ' magnus ', ut qualitas,
+          <lb ed="#Q"/>cum dicitur * sapiens, iustus ' et sic de ceteris ge<lb ed="#Q"/>neribus,
+          ut supra declaratum est9 — attendendum
+          <lb ed="#Q"/>est" regulariter utrum nomen divinum significet
+          <lb ed="#Q"/>differentiam 0 alicuius, generis absolutam: et tunc
+          <lb ed="#Q"/>non" connotatur effectus, sed solum significatur
+          <lb ed="#Q"/>divina essentia, sicut cum dicitur 'magnus'. Si
+          <lb ed="#Q"/>vero secundum differentiam comparatam 4, consi<lb ed="#Q"/>derandum
+          an comparatio sit determinata' ad ac<lb ed="#Q"/>tum
+          temporalem vel ad actum aeternum, liceat sic
+          <lb ed="#Q"/>loqui, ut 'sapere, generare, communicare', quae
+          <lb ed="#Q"/>significantydivina per modum actus. Si signifie
+          <lb ed="#Q"/>cent 'secundum differentiam generis comparatam
+          <lb ed="#Q"/>ad actum temporalem, connotatur effectus in
+          <lb ed="#Q"/>creatura. Verbi gratia, *iustus vel iustitia, mise<lb ed="#Q"/>ricors
+          vel misericordia' significant divinam es<lb ed="#Q"/>sentiam
+          per modum habitus, habitus autem com<lb ed="#Q"/>parationem
+          habet ad actum; huiusmodi autem
+          <pb ed="#Q" n="549"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>comparationem habent ad actum retribuendi, ad
+          <lb ed="#Q"/>actum miserendi, et ideo cum" dicitur 'mi'sericors, '
+          <lb ed="#Q"/>iustus ', praedicatur divina essentia et connotatur
+          <lb ed="#Q"/>vel compraedicaturb actus retributionis. Si vero
+          <lb ed="#Q"/>significent secundum differentiam generis cOm—
+          <lb ed="#Q"/>paratam, sed non determinatec ad actum tempo<lb ed="#Q"/>ralem,
+          immo indifferenter add actum temporalem
+          <lb ed="#Q"/>et aeternum, non connotatur effectus temporalis.
+          <lb ed="#Q"/>Verbi gratia, cum dicitur 'sapiens, potens vel
+          <lb ed="#Q"/>bonus' de Deo, significatur divina essentia per
+          <lb ed="#Q"/>modum habitus et ideo in comparatione'; sed
+          <lb ed="#Q"/>comparatio huiusmodi non determinatur ad ac—
+          <lb ed="#Q"/>tum temporalem: 'sapiens' enime vel 'sapien<lb ed="#Q"/>tia' 
+          dicitur in comparatione ad sapere, qui non' 
+          <lb ed="#Q"/>determinatur ad temporale, cum dicitur Deus sa<lb ed="#Q"/>pere
+          se. Similiter ' potens ' vel ' potentia ' non de<lb ed="#Q"/>terminatur
+          ad temporalef, quia dicitur posse ge<lb ed="#Q"/>nerare,
+          posse cognoscere; similiter 'bonus' vel
+          'bonitas ', quae dicuntur ad hunc actum 'com—
+          <lb ed="#Q"/>municare' vel 'se diffundere ', quia communi<lb ed="#Q"/>catio
+          est aeterna in divinisg personis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e295">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad illud2 quod obicitur
+          'cum dicitur homo iustus, nihil connotatur':
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>dico quod praedicatur habitus qui est virtus iu<lb ed="#Q"/>stitiae 
+          et per consequens connotatur effectus qui
+          <lb ed="#Q"/>est reddere unicuique etc., quia habitus dicit com<lb ed="#Q"/>parationem
+          ad actum. '
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e311">
+          <lb ed="#Q"/>2. Ad secundum iam '1 patet responsio, quo<lb ed="#Q"/>niam
+          non est simile de hoc' nomine 'en's' vel
+          <lb ed="#Q"/>de hoc nominei 'bonus' et de hoc nomine
+          ' iustus '.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e320">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod nomen desi<lb ed="#Q"/>gnans
+          comparationem est duobus modis: aut
+          <lb ed="#Q"/>enim designatur comparatio in actu aut'in habitu.
+          <lb ed="#Q"/>Si in actu: tunc dicitur talek nomen habitudinis,
+          <lb ed="#Q"/>sicut 'miserator, creator'; si vero in habitu: non
+          <lb ed="#Q"/>dicitur nomen habitudinis nisi principaliter si<lb ed="#Q"/>gnificaretur
+          ipsa comparatio, sicut hoc nomine
+          'Dominus '. Inde est quod hoc nomen 'miseri<lb ed="#Q"/>cors
+          ', quod significat divinam essentiam et con<lb ed="#Q"/>notat
+          aptitudinem' ad miserendum, non est no<lb ed="#Q"/>men
+          habitudinis; similiter nec'" hoc nomen ' ius<lb ed="#Q"/>tus
+          ', quod significat divinam essentiam et con<lb ed="#Q"/>notat
+          aptitudinem ad effectum retributionis: unde
+          <lb ed="#Q"/>et dicitur misericors et iustus ab aeterno, mise<lb ed="#Q"/>rator
+          vero " et retributor ex tempore.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

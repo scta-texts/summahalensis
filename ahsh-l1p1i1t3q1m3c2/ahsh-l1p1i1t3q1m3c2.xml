@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. III, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-23">February 23, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="134"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m3c2">
+        <head xml:id="ahsh-l1p1i1t3q1m3c2-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 3, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t3q1m3c2-Hd1e3732" type="question-title">DE COMPARATIONE UNITATIS DIVINAE AD UNITATEM INTELLIGIBILEM.</head>
+        <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3735">
+          <lb ed="#Q"/>Deinde quaeritur de comparatione unitatis di<lb ed="#Q"/>vinae 
+          ad unitatem intelligibilem. Quaeritur 
+          <lb ed="#Q"/>ergo an sit maior unitas quae possit intelligi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3744">
+          <lb ed="#Q"/>Ad quod sic: a. Bernardus, Ad Eugenium3: 
+          « Inter omnia quae recte dicuntur unum, arcem
+          <lb ed="#Q"/>tenet unitas Trinitatis »; sed haec est illaf quam
+          <lb ed="#Q"/>ponimus in Deo et quam divinam appellamus;
+          <lb ed="#Q"/>ergo summa est inter omnes unitas divina.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3755">
+          <lb ed="#Q"/>b. Item, in omnibus, ing quibus communicat
+          <lb ed="#Q"/>creatura cum Creatore, Creator excedit creaturam
+          <lb ed="#Q"/>in infinitum; unde creatura bona, Creator autem
+          <lb ed="#Q"/>bonus summe et h infinitum bonum et sic de aliis;
+          <lb ed="#Q"/>ergo unitas Creatoris summa est et infinita re<lb ed="#Q"/>spectu
+          aliarum unitatum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3772">
+          <lb ed="#Q"/>Contra: 1. Maior est unitas quae est sine omni
+          <lb ed="#Q"/>pluralitate quam unitas quae est cum pluralitate
+          <lb ed="#Q"/>aliqua. Cum igitur in Deo sit unitas cum plura<lb ed="#Q"/>litate'
+          aliqua, scilicet personarum et notionum:
+          <lb ed="#Q"/>ergo in Deo non est summa unitas quae possit
+          <lb ed="#Q"/>esse vel intelligi; aut si est summa inter omnes,
+          <lb ed="#Q"/>videtur quod in Deo non deberet * esse pluralitas
+          <lb ed="#Q"/>personarum. —— Et iterum ex hoc videtur quod,
+          <lb ed="#Q"/>cum in anima vel in' angelo sit unitas essentiae
+          <lb ed="#Q"/>sine pluralitate personarum, quod maior sit aut
+          <lb ed="#Q"/>etiam "' aequalis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3798">
+          <lb ed="#Q"/>Solutio: Dicimus quod inter omnes unitates,
+          <lb ed="#Q"/>quae possunt esse vel intelligi, unitas divina
+          <lb ed="#Q"/>maior est et summa quae esse vel intelligi pos<lb ed="#Q"/>sit;
+          nec est dicendum quod ei repugnat plurali<lb ed="#Q"/>tas
+          personarum et notionum 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3811">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Et quod " dicitur quod 'maior
+          <lb ed="#Q"/>est unitas sine pluralitate' " etc.: dicendum quod
+          <lb ed="#Q"/>hoc!, verum est referendo ad creaturas; sed in
+          <lb ed="#Q"/>divinis non est hoc? verum, immo ibi non con<lb ed="#Q"/>tradicit
+          pluralitas personarum summae unitati.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3824">
+          <lb ed="#Q"/>Et ad hoc prima ratio est. Nam nos videmus 
+          <lb ed="#Q"/>quod unitatem summae potentiae plus declarat
+          <lb ed="#Q"/>multitudo creaturarum et effectuum quam unitas
+          <lb ed="#Q"/>effectus; multitudo enim creaturarum declarat uni<lb ed="#Q"/>tatem
+          summae potentiae et eius infinitatem vel '
+          <lb ed="#Q"/>summitatem: unde quanto plures sunt effectus et
+          <lb ed="#Q"/>quanto plures possunt esse, tanto plus est de
+          <lb ed="#Q"/>potentia. Unde per hoc manifestatur divina po<lb ed="#Q"/>tentia
+          esse summa. Sic dicimus quod pluralitas
+          <lb ed="#Q"/>personarum plus declarat et manifestat unitatem
+          <lb ed="#Q"/>essentiae divinae * quam unitas personae sive no<lb ed="#Q"/>tionis.
+          Unde secundum Augustinum 5: « Sicut
+          <lb ed="#Q"/>verbum declarat illud quod habemus ' in animo »,
+          <lb ed="#Q"/>sic et ista pluralitas personarum virtutem et uni<lb ed="#Q"/>tatem
+          essentiae manifestat.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3859">
+          <lb ed="#Q"/>Item, alia est ratio. Nam cum eadem sit es<lb ed="#Q"/>sentia
+          et omnino simplex " in istis personis, non
+          <lb ed="#Q"/>multiplicata secundum multiplicationem earum,
+          <lb ed="#Q"/>patet quod in ipsa est magna et summa perfec<lb ed="#Q"/>tio
+          unitatis. Unde in hoc deficit unitas essentiae
+          <lb ed="#Q"/>universalis ab unitate essentiae primae, quia licet
+          <lb ed="#Q"/>utraque sit in pluribus, tamen essentia univer<lb ed="#Q"/>salis
+          ita est in pluribus quod multiplicatur et
+          <lb ed="#Q"/>numeratur per illa; essentia autem divina non
+          <lb ed="#Q"/>multiplicatur per illa, immo eadem estv non mul<lb ed="#Q"/>tiplicata
+          in personis 5. Unde cum dicitur: 'Deus
+          <pb ed="#Q" n="135"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>generat Deum' sive 'Pater generat, Filius ge<lb ed="#Q"/>neratur,
+          Spiritus Sanctus procedit ab utroque ',
+          <lb ed="#Q"/>totum refertur ad unitatem essentiae, sicut "dicit
+          <lb ed="#Q"/>Anselmus '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3898">
+          <lb ed="#Q"/>Item, tertia ratio est: quia quidquid est in di<lb ed="#Q"/>vinis
+          ad eius unitatem refertur; unde 'Patrem
+          <lb ed="#Q"/>generare' nihil aliud est quam 'Patrem esse Pa<cb ed="#Q" n="b"/><lb ed="#Q"/>trem'; 
+          *Patrem autem esse Patrem ' nihil aliud est
+          <lb ed="#Q"/>quam 'Patrem esse'; 'Patrem esse' nihil aliud
+          <lb ed="#Q"/>est quam divina essentia. Unde omnia ista et om<lb ed="#Q"/>nes
+          rationes personales ad unitatem essentiae re<lb ed="#Q"/>ducuntur,
+          quae in ipsis non multiplicatur: et sic
+          <lb ed="#Q"/>fecunditas generationis, sicut loquitur B. Diony<lb ed="#Q"/>siusz,
+          iacit declarationem unitatis essentiae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

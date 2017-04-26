@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, M. I, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, M. I, C. 3</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="17"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2m1c3">
+        <head xml:id="ahsh-l1tinq2m1c3-Hd1e3729">I, Tract. Intro., Q. 2, M. I, C. 3</head>
+        <head xml:id="ahsh-l1tinq2m1c3-Hd1e3732" type="questionTitle">AN COGNOSCATUR PER NATURALEM RATIONEM TRINITAS PERSONARUM.</head>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3735">
+          <lb ed="#Q"/>Quaeritur consequenter an cognoscatur per na<lb ed="#Q"/>turalem 
+          rationem Trinitas personarum.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3742">
+          <lb ed="#Q"/>Et videtur quoduis: (1. Rom. 1,20:Invisibllia
+          <lb ed="#Q"/>Dei per ea quae facta sunt, intellecta conspiciun—
+          <lb ed="#Q"/>tur; sempiterna quoque" eius virtus et divinitas.
+          <lb ed="#Q"/>Ibi dicit Glossa? quod per illa tria *invisibl—
+          <lb ed="#Q"/>lia, sempiterna virtus et divinitas' intelligitur Tri<lb ed="#Q"/>nitas
+          personarum; ergo Trinitas personarum co<lb ed="#Q"/>gnoscebatur
+          a philosophis per naturalem ra—
+          <lb ed="#Q"/>tionem.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3762">
+          b. Item, Philosophus, in libro De caelo et
+          <lb ed="#Q"/>munda, in principio 3, ostendit quod ternarius est
+          <lb ed="#Q"/>numerus omnis rei, et. inducit4 in naturalibus,
+          <lb ed="#Q"/>mathematicis et divinis: in naturalibus, ut : motus
+          <lb ed="#Q"/>a medio, motus ad medium, motusd circa me<lb ed="#Q"/>dium;
+          in mathematicis ', ut linea, superficies, cor<lb ed="#Q"/>pus;
+          in divinis similiter. Unde dicit5: « Hoc nu<lb ed="#Q"/>mero.
+          adhibuimus nosmetipsi magnificare Deum
+          <lb ed="#Q"/>unum, creatorem, eminentemf, ex proprietatibus
+          <lb ed="#Q"/>eorum quae creata sunt ». Ergo et ipse Philo<cb ed="#Q" n="b"/><lb ed="#Q"/>sophus 
+          per naturalem rationem habuit notitiam 
+          <lb ed="#Q"/>Trinitatis.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3791">
+          <lb ed="#Q"/>c. item, Trismegistusöz « Monas monadem
+          <lb ed="#Q"/>genuit et in se suumh reflectit ardorem »; ergo
+          <lb ed="#Q"/>Trismegistus habuit notitiam Trinitatis, quia
+          <lb ed="#Q"/>monas gignens est Pater, monas genita Filius et
+          <lb ed="#Q"/>ardor Spiritus Sanctus.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3804">
+          <lb ed="#Q"/>d. Item, A ugustinus, in libro De Trinitate "':
+          « Philosophi sapientiam tripartitam esse » dixe<lb ed="#Q"/>runt,
+          qua '" est significatio Trinitatis. « Cui enim
+          <lb ed="#Q"/>sunt eae adscribendac nisi auctori omnium crea<lb ed="#Q"/>turarum,
+          datori intelligentiae, amoris inspiratori »?
+          <lb ed="#Q"/>Unde vult dicere Augustinus quod Naturalis
+          <lb ed="#Q"/>Philosophia est de iis quae pertinent ad condi<lb ed="#Q"/>tionem
+          naturae ; Rationalis, de iis quae pertinent
+          <lb ed="#Q"/>ad rationem et intelligentiam; Moralis, de iis quae
+          <lb ed="#Q"/>pertinent ad" amorem. Ideo Naturalis adscribitur
+          <lb ed="#Q"/>auctori, Patri; Rationalis, sapientiae, Filio; Mo—
+          <lb ed="#Q"/>ralis, amori seu bonitati, Spiritui Sancto.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3830">
+          <lb ed="#Q"/>Contra: 1.. Rom. 1, 20: Invisibilia Dei etc.
+          <lb ed="#Q"/>Glossas: « Augustinus dicit philosophos non
+          <pb ed="#Q" n="19"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>
+          <lb ed="#Q"/>pertigisse usque ad notitiam tertiae personae, sci<lb ed="#Q"/>licet
+          Spiritus Sancti, super Exod. 8,1e, ubi magi
+          <lb ed="#Q"/>Pharaonis deiecerunt in tertio signo: quia summi
+          <lb ed="#Q"/>gentium philosophi de 16 armüöv, id estsummo "
+          <lb ed="#Q"/>Patreiet de vaö;. scilicet mente eius, philosophati
+          <lb ed="#Q"/>sunt; sed inb tertio signo deiecerunt magi, quia
+          <lb ed="#Q"/>usque ad tertiam personam pervenire non value<lb ed="#Q"/>runt
+          philosophi». -- Respondeo, secundum
+          <lb ed="#Q"/>Glossam 1, quod « cognitionem ipsius Trinitatis
+          <lb ed="#Q"/>per propria ipsarum personarum non habuerunt
+          <lb ed="#Q"/>nec habere potueruntc, nisi per doctrinam aut
+          <lb ed="#Q"/>inspirationem ;-sed notitiam Trinitatis per appro<lb ed="#Q"/>priata
+          ipsis personis, scilicet potentiam, sapien<lb ed="#Q"/>tiam
+          et benignitatem, habuerunt et habere po<lb ed="#Q"/>tuerunt'l
+          ». -— Sed obicitur: Nam sicut scive<lb ed="#Q"/>runt
+          appropriata Patri et Filio, ita sciverunt ap<lb ed="#Q"/>propriata
+          Spiritui Sancto; et sicut nescierunt"
+          <lb ed="#Q"/>proprium Spiritus Sancti, sic nescierunt proprium
+          <lb ed="#Q"/>Patris et Filii; ergo sicut ignoraverunt personam
+          <lb ed="#Q"/>Spiritus Sancti, ita ignoraverunt personam Patris .
+          <lb ed="#Q"/>et Flliif ; et sicut cognoverunt! personas Patris
+          <lb ed="#Q"/>et Filii, ita et personam Spiritus Sancti.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3891">
+          <lb ed="#Q"/>2. item, nonne Trismegistus cognovit per<lb ed="#Q"/>sonas
+          per prcpria, cum dixit 2: « Monas mona<lb ed="#Q"/>dem
+          genuit et ardorem procedentem »?
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3900">
+          <lb ed="#Q"/>3. Item, Richardus de'S. Victore3: « Credo
+          <lb ed="#Q"/>sine dubio quod ad quorumcumqueh explanatio<lb ed="#Q"/>nem
+          quae necesse est esse, non modo probabilia,
+          <lb ed="#Q"/>immo et necessaria argumenta non deesse »; sed
+          <lb ed="#Q"/>nihil adeo' necesse est esse sicut Trinitatem per—
+          <lb ed="#Q"/>sonarum; ergo ad ipsam ostendendam possunt
+          <lb ed="#Q"/>haberi argumenta necessaria et rationes natura<lb ed="#Q"/>les;
+          ergo per rationem naturalem potest cognosci
+          <lb ed="#Q"/>Trinitas.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3922">
+          <lb ed="#Q"/>Respondeo quod per naturalem ratiOnem de
+          <lb ed="#Q"/>se non potest haberi cognitio Trinitatis secundum
+          <lb ed="#Q"/>propria; tamen per naturalem rationem, adiutam
+          <lb ed="#Q"/>per aliquam gratiam aut gratis datam aut gra<lb ed="#Q"/>tum 
+          facientem, potest. Et ratio huius est: quia in<lb ed="#Q"/>tellectus
+          noster, obtenebratus per originalem cor<lb ed="#Q"/>ruptionem, 
+          deficit in iis quae verissime' sunt; et 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>ideo circa maxime intelligibilia deficit et etiam
+          <lb ed="#Q"/>de iis quae minime sunt et ideo minime intelligi<lb ed="#Q"/>bilia
+          sunt'" —- sicut est esse motus et temporis,
+          <lb ed="#Q"/>quae habent debilissimum esse —— quemadmodum
+          <lb ed="#Q"/>sensus deficit in extremis, id est maxime sensi-,
+          <lb ed="#Q"/>bilibus et minime. Hinc est: cum esse divinarum
+          <lb ed="#Q"/>personarum in unitate essentiae sit maxime et
+          <lb ed="#Q"/>verissime, intellectus noster obtenebratus deficit.
+          <lb ed="#Q"/>Nec hoc est mirum, quia, sicut dicit Aristote<lb ed="#Q"/>les,
+          in Prima Philosophia 4: « Intellectus nostern
+          <lb ed="#Q"/>se habet ad manifestissima naturae sicut oculus
+          <lb ed="#Q"/>noctuae ad solem ». .
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e3969">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Dicendum ergo ad primo
+          <lb ed="#Q"/>obiectum quod ideo dicuntur" deiecisse in co<lb ed="#Q"/>gnitione
+          tertiae personae, quia deiecerunt in co<lb ed="#Q"/>gnitione
+          bonitatis ", Et hoc multipliciter: primo,
+          <lb ed="#Q"/>quia non cognoverunt potissimum effectum bo<lb ed="#Q"/>nitatis,
+          scilicet. incarnationem et redemptionem;
+          <lb ed="#Q"/>secundo, quia etsi? bonitatem cognoverunt, non
+          <lb ed="#Q"/>tamen ut summam et primam venerati sunt, quia
+          <lb ed="#Q"/>sua bona sibi attribuerunt; tertio, quia etsi ha<lb ed="#Q"/>buerunt 
+          appropriata duabus personis, scilicet po<lb ed="#Q"/>tentiam
+          et sapientiam, non tamen habuerunt ap<lb ed="#Q"/>propriatum
+          tertiae personae, scilicet bonitatem 5.
+          2. Ad secundum dicendum quod', etsi Tris<lb ed="#Q"/>megistus
+          intellexit propria personarum, cum
+          <lb ed="#Q"/>dixit: « Monas monadem genuit» etc., quod hoc
+          <lb ed="#Q"/>habuit non per naturalem rationem, sed per doc<lb ed="#Q"/>trinam
+          vel inspirationem.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c3-d1e4006">
+          3. Ad tertium dicendum quod non: deest
+          <lb ed="#Q"/>argumentum ad probandum Trinitatem, id est
+          <lb ed="#Q"/>medium sive ratio inferens 'de necessitate* Tri<lb ed="#Q"/>nitatem
+          esse, sed tamen deest ratio conterens ex
+          <lb ed="#Q"/>parte nostra". Non est ergo detectus ex parte
+          <lb ed="#Q"/>rei, sed est detectus ex partev rationis conte<lb ed="#Q"/>rentis,
+          id est intellectus nostri, qui non potest
+          <lb ed="#Q"/>ipsum medium invenire et inventum conferre ad
+          <lb ed="#Q"/>concludendum veritatem. Unde dicit Richardus *, ibidem 7: « Ad quaecumque necessaria est
+          <lb ed="#Q"/>esse argumenta, non deesse, quamvis contingat
+          <lb ed="#Q"/>nostram industriam latere ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

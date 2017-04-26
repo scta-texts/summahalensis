@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 4, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-21">April 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-21" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="548"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q4c2">
+        <head xml:id="ahsh-l1p2i2t1q4c2-Hd1e118">I, P. 2, Inq. 2, Tract. 1, Q. 4, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t1q4c2-Hd1e121" type="question-title">AN EODEM MODO DICANTUR 'IUSTUM' ET 'BONUM' DE DEO.</head>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e124">
+          <pb ed="#P" n="548"/>
+          <cb ed="#Q" n="a"/>
+          <!-- c2 -->
+          <lb ed="#Q"/>Consequenter quaeritur an eodem modo dicantur
+          'iustum' et "bonum' de Deo.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e135">
+          <lb ed="#Q"/>Quod videtur: 1. Quia utrumque est nomen con<lb ed="#Q"/>sequens
+          naturam in ratione quae dicta est]; eo<lb ed="#Q"/>dem
+          ergo modo dicuntur.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e144">
+          <lb ed="#Q"/>Contra: a. Nomen boni" derivatur ad omnes
+          <lb ed="#Q"/>creaturas; unde Boethiuszz «Omnia bona»,
+          <lb ed="#Q"/>quia a bono, «iustum autem non »; non enim
+          <lb ed="#Q"/>omnia iusta, quia a iusto.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c2-d1e156">
+          <lb ed="#Q"/>Responsio <!--b--> dicta est supra, in <!--c--> Quaestione De 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>bonitate 3. Narn 'bonum, est conditio generalis
+          <lb ed="#Q"/>ipsius causae, quae est Deus: quia enim bonus,
+          <lb ed="#Q"/>ideo fecit creaturam; unde Augustinus4:
+          « Quia bonus est, sumus »; et ideo "bonum' re<lb ed="#Q"/>spicit
+          omnem creaturam cuius est causa. * Iu<lb ed="#Q"/>stum
+          ' vero est conditio '1 specialis et respicit spe<lb ed="#Q"/>cialem
+          actum, scilicete reddere unicuique quod
+          <lb ed="#Q"/>suum est, quod pertinet ad rationalem creatu<lb ed="#Q"/>ram;
+          et ideo 'iustum? « non descendit ad om<lb ed="#Q"/>nia
+          », sicut 'dicit Boethius, in librof De heb<lb ed="#Q"/>domadibus
+          5.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

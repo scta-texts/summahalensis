@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="244"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m1">
+        <head xml:id="ahsh-l1p1i1t5s1q1m1-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 1</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m1-Hd1e3744" type="question-title">Quid sit scientia divina.</head>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3768">
+          <lb ed="#Q"/>Circa primum" quaeritur quid sit scientia di<lb ed="#Q"/>vina 
+          secundum rationem intelligentiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3775">
+          <lb ed="#Q"/>Ad quod sic procediturb: a. Augustinus, in
+          <lb ed="#Q"/>libro De Trinitate 1: « Scientia est ipsa sapientia,
+          <lb ed="#Q"/>sapientia idemc quod ipsa essentia, quia in illa
+          <lb ed="#Q"/>Trinitate non est aliud sapere quam esse ». Ergo
+          <lb ed="#Q"/>scientiad nihil aliud est quam divina essentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3788">
+          <lb ed="#Q"/>I. Quaeritur ergo utrum aliquid connotetur prae<lb ed="#Q"/>ter
+          rationem essentiae in scientia 2.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3795">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Dicit enim Hugo de
+          <lb ed="#Q"/>S. Victore3: «Scientia quae de nullo est, et
+          <lb ed="#Q"/>ipsa nulla est. Omnis ergo scientia de aliquo est,
+          <lb ed="#Q"/>quia si nihil esset de quo scientia esset, scientia
+          <lb ed="#Q"/>nulla esset». Ergo in omni scientia connotatur
+          <lb ed="#Q"/>respectus ad scibile.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3811">
+          <lb ed="#Q"/>2. Item, scientia est assimilatio intellectus ad
+          <lb ed="#Q"/>rem scitam 4. Si ergo assimilatio connotat respec<lb ed="#Q"/>tum,
+          similiter et scientia connotabit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3820">
+          <lb ed="#Q"/>3. Item, Hugo de S. Victore, in suis<!--e--> Sen<lb ed="#Q"/>tentiis5:
+          « Scientia est existentium, praescientia
+          <lb ed="#Q"/>futurorum » etc. Ergo scientia dicit respectum ad
+          <lb ed="#Q"/>res existentes, sicut praescientia ad res futuras.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3834">
+          <lb ed="#Q"/>Contra: a. 35 Dist. 6 dicitur: « Si nulla essent
+          <lb ed="#Q"/>futura, nulla esset praescientia, esset tamen in
+          <lb ed="#Q"/>Deo scientia »; sed si res non essent futurae, non
+          <lb ed="#Q"/>esset dicere respectum ad creaturam; ergo in
+          <lb ed="#Q"/>scientia non requiritur respectus ad creaturam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3847">
+          <lb ed="#Q"/>b. Item, cum dicitur Deus scire se, dicitur di<lb ed="#Q"/>vina
+          essentia f, non tamen connotatur respectus
+          <lb ed="#Q"/>ad creaturam; ergo virtute significationis nomi<lb ed="#Q"/>nis
+          scientiae non importatur respectus ad crea<lb ed="#Q"/>turam
+          5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3860">
+          <lb ed="#Q"/>c. Item, ad idem, Dionysius, in libro De di<lb ed="#Q"/>vinis
+          nominibus 7: « Divina sapientia, cognoscens
+          <lb ed="#Q"/>se ipsam, cognoscit omnia ». Non igitur alio modo
+          <lb ed="#Q"/>cognoscit et scit quam per se ipsam; sed cum
+          <lb ed="#Q"/>dico 'cognoscit se sive scit ', non connotatur
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3873">
+          <pb ed="#Q" n="245"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>respectus ad creaturam; ergo nec similiter cum
+          <lb ed="#Q"/>dicitur 'scit res '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3884">
+          <lb ed="#Q"/>d. Ad hoc potest responderi quod'sci<lb ed="#Q"/>re
+          ' aliquando " dicitur absolute: et tunc non con<lb ed="#Q"/>notatur
+          respectus; et aliquando dicitur respective
+          <lb ed="#Q"/>cum determinatione, sed hoc dupliciter, quia quan<lb ed="#Q"/>doque
+          cum determinatione eiusdem respectu sui:
+          <lb ed="#Q"/>et sic non importatur respectus; quandoque vero
+          <lb ed="#Q"/>respectu diversi: et sic importatur respectusb; et
+          <lb ed="#Q"/>hoc dupliciter, scilicetc quasi in actu vel quasi
+          <lb ed="#Q"/>in habitu. — Sed c o ntra: Deus dicitur scire se,
+          <lb ed="#Q"/>scire creaturam: aut ergo univoce aut aequivoce.
+          <lb ed="#Q"/>Si univoce: ergo una est ratio intelligentiae utro—
+          <lb ed="#Q"/>bique; si ergo non connotatur respectus, cum di<lb ed="#Q"/>citur
+          * scit se', nec similiter connotatur, cum di<lb ed="#Q"/>citur
+          ' scit creaturas '. Si aequivoce: ergo alia
+          <lb ed="#Q"/>ratione scit se et creaturas — contra: sciendo se,
+          <lb ed="#Q"/>scit creaturas, utd dicit Dionysius 1; ergo non
+          <lb ed="#Q"/>alia ratione scit se quam creaturas; ergo eadem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3923">
+          <lb ed="#Q"/>e. Item, obicitur contra hoc quod dicitur cum
+          <lb ed="#Q"/>dicitur 'Deus scit creaturas *, connotatur respec<lb ed="#Q"/>tus':
+          cum dicitur? 'Deus scit' absolute, non
+          <lb ed="#Q"/>connotatur respectus aliquis; si ergo non conno<lb ed="#Q"/>tatur
+          hic respectus aliquis, ergo scientia de vir<lb ed="#Q"/>tute
+          nominis nihil connotat. — I-Ioc iterum vi<lb ed="#Q"/>detur:
+          Est enim considerare nomen divinum in
+          <lb ed="#Q"/>se et in coordinatione. Si nomen aliquod nihil
+          <lb ed="#Q"/>connotat in se, nec de virtute nominis aliquid
+          <lb ed="#Q"/>connotatur in coordinatione. Patet autem quod
+          <lb ed="#Q"/>in omnibus nominibus divinis connotantibus est
+          <lb ed="#Q"/>connotatio etiam extra coordinationemf : ut patet
+          <lb ed="#Q"/>in hoc nomine 'creator' et ' dominus' et huius<lb ed="#Q"/>modi,
+          et sic de singulisg. Si ergo hoc verbum
+          'scit' extra coordinationem nihil connotat, nec in
+          <lb ed="#Q"/>coordinatione connotabit, quantum est de virtute
+          <lb ed="#Q"/>significationis nominis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e3961">
+          <lb ed="#Q"/>II. Item, obicitur contra hoc quod dicitur quod
+          'nihil connotatur, cum dicitur: Deus scit se', et
+          <lb ed="#Q"/>probatur quod connotatur respectus, sed non ad
+          <lb ed="#Q"/>creaturam. Nam cum dicitur scientia, intelligitur
+          <lb ed="#Q"/>essentia; aut igiturIr additur aliquid supra essen<lb ed="#Q"/>tiam
+          ini ratione intelligentiae, cum dicitur ' scien<lb ed="#Q"/>tia
+          ,, aut non. Et constat quod sic, quia scientia
+          <lb ed="#Q"/>est assimilatio intellectus ad rem scitam; sed k,
+          <lb ed="#Q"/>sicut dicit Hilarius 2: « Similitudo non sibi est »,
+          <lb ed="#Q"/>immoLsimilitudo semper dicit convenientiam ali—
+          <lb ed="#Q"/>quorum in aliquo uno; ubi ergo est similitudo,
+          <lb ed="#Q"/>est et respectus pluralitatis; ergo cum intelligitur
+          <lb ed="#Q"/>scientia, intelligitur respectus per quem probatur
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>pluralitas personarum. Quamvis ergo divina scien<lb ed="#Q"/>tia!
+          dicatur ad se, ut cum dicitur ' Deus scit se *,
+          <lb ed="#Q"/>tamen connotatur respectus personarum, quia<lb ed="#Q"/>connotatur
+          similitudo vel assimilatio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4000">
+          <lb ed="#Q"/>III. Sed quaeritur ulterius si ista similitudo in<lb ed="#Q"/>telligatur
+          ut exemplar, secundum quod dicitur
+          <lb ed="#Q"/>quod divina scientia nihil aliud est quam divina
+          <lb ed="#Q"/>essentia significata ut exemplar 3. Si hoc — con<lb ed="#Q"/>tra:
+          scientia non est causa rerum, quia scientia
+          <lb ed="#Q"/>Dei est malorum, non tamen Deus est causa malo<lb ed="#Q"/>rum;
+          sed exemplar est causa formalis: Deus enim
+          <lb ed="#Q"/>est causa formalis'" exemplaris4 ; ergo scientia
+          <lb ed="#Q"/>non dicit divinam essentiam ut exemplar. -— Item,
+          <lb ed="#Q"/>exemplar non est rerum non- existentium; sed
+          <lb ed="#Q"/>scientia est rerum non existentium"; ergo non
+          <lb ed="#Q"/>sunt idem scientia et exemplar.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4029">
+          <lb ed="#Q"/>IV. Item, quaeritur quare diversimode nomina<lb ed="#Q"/>tur
+          divina scientia, ut patet 
+          <cit>
+            <ref target="http://scta.info/resource/pl-l1d35c1">35 dist. I libri Senten<lb ed="#Q"/>tiarum</ref>
+            <bibl>
+              <ref target="http://scta.info/resource/pl-l1d35c1">Lombard, I, d. 35, c. 1</ref>
+            </bibl>
+          </cit>
+          5: nominatur enim scientia sapientia, prae<lb ed="#Q"/>scientia,
+          dispositio, providentia, praedestinatio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4052">
+          <lb ed="#Q"/>1. Videtur enim quod pluribus modis deberet"
+          <lb ed="#Q"/>nominari: nam sicut praedestinatio est praescien<lb ed="#Q"/>tia
+          salvandorum, sic reprobatio est praescientia
+          <lb ed="#Q"/>damnandorum; sicut ergo praedestinatio dicitur
+          <lb ed="#Q"/>differentia scientiae, sic debet dici reprobatio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4065">
+          <lb ed="#Q"/>2. Item, quaeriturP quare non dicitur memoria
+          <lb ed="#Q"/>scientia praeteritorum, sicut praescientia futuro<lb ed="#Q"/>rum,
+          ,cum ita sciantur ab ipso praeterita sicut
+          <lb ed="#Q"/>futura.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4076">
+          <lb ed="#Q"/>Respondeo: I. Nomen scientiae significat divi<lb ed="#Q"/>nam
+          essentiam principaliter, non tamen significat
+          <lb ed="#Q"/>divinam essentiam ut essentiam, sed ut habitum:
+          <lb ed="#Q"/>scientia enim in nobis est habitus ad cogno<lb ed="#Q"/>scendum,
+          sicut virtus est habitus ad operandum.
+          <lb ed="#Q"/>Est autem nihil aliud scientia sive iste habitus
+          <lb ed="#Q"/>quam assimilatio intellectus ad rem. Sed simili<lb ed="#Q"/>tudo
+          potest esse in actu vel in'? habitu, sicut
+          <lb ed="#Q"/>patet: posito quod nullus esset color et quod lux
+          <lb ed="#Q"/>haberet similitudinem omnium colorum, lux ha<lb ed="#Q"/>beret
+          similitudinem ' ad omnes colores in habitu;
+          <lb ed="#Q"/>similiter, remotis scibilibus, scientia, quae est sicut
+          <lb ed="#Q"/>lux, habet similitudinem ad illa in habitu, sed non
+          <lb ed="#Q"/>in actu. Dicendum ergo est quod est similitudo
+          <lb ed="#Q"/>in actu et est 3 similitudo inlhabitu; item, est si<lb ed="#Q"/>militudo
+          ad res et estf similitudo a rebus: simi<lb ed="#Q"/>litüdo
+          ad res ut patet in arte; item, est simili<lb ed="#Q"/>tudo
+          rei penes intellectum speculativum et" si<lb ed="#Q"/>militudo 
+          rei penes intellectum practicum, quae, si:
+          <pb ed="#Q" n="246"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>comparetur ad opus, dicitur ars. scientia ergo
+          <lb ed="#Q"/>Dei, loquendo secundum nos, dicit similitudinem "
+          <lb ed="#Q"/>speculativam, non a rebus, sed ad res, in habitu,
+          <lb ed="#Q"/>non in actu, ad se autem in actu: dico autem
+          ' scire in actu ', quando b intelligit res existentes in
+          <lb ed="#Q"/>actu sive in natura propria, non solum in causa;
+          ' in habitu ', quando intelligit in suo exemplari vel
+          <lb ed="#Q"/>in arte. Similitudo ergo 'speculativa' dicitur ut
+          <lb ed="#Q"/>ostendatur quod prima intentio scientiae non est
+          <lb ed="#Q"/>ut intentio artis, in quantum huiusmodi, vel exem<lb ed="#Q"/>plaris
+          vel virtutis, quia est bonorum etc malo<lb ed="#Q"/>rum.
+          ' Ad res ' vero dicitur non secundum depen<lb ed="#Q"/>dentiam,
+          sed secundum causam, ut separetur ab
+          <lb ed="#Q"/>humana scientia, quae accipitd a rebus. Unde
+          <lb ed="#Q"/>Dionysius, De'divinz's nominibus 1: « Non a ex
+          <lb ed="#Q"/>entibus entia discens novit divinus intellectus, sed
+          <lb ed="#Q"/>ex ipso, in ipsof, secundum causam omnium-no<lb ed="#Q"/>titiam
+          et scientiam praeconcepit ». * Ad res ' vero
+          <lb ed="#Q"/>dicitur in habitu, quia sicut dicit H u go d e S. Vic<lb ed="#Q"/>tore
+          2: « Ang dicemus, quia omnia in Creatore
+          <lb ed="#Q"/>ab aeterno increata fuerunt, quae ab ipso tempo<lb ed="#Q"/>raliter
+          creata sunt? Et illic sciebantur ubi h ha<lb ed="#Q"/>bebantur,
+          et eo modo sciebantur quo habebantur,
+          <lb ed="#Q"/>et non cognovit aliquid extra se Deus qui omnia
+          <lb ed="#Q"/>habebat in se ». ' Ad se' vero in actu dicitur, quia
+          <lb ed="#Q"/>semper est actu[ sibi praesens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4177">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud ergo Hugonis
+          <lb ed="#Q"/>quod obicitur quod « scientia est de aliquo »: di<lb ed="#Q"/>cendumk
+          quod, quantum est de nomine scien<lb ed="#Q"/>tiae,
+          non dicit respectum ad creaturas in actu, sed
+          <lb ed="#Q"/>in habitu; sed cum dicitur ' scit creaturas ', quasi
+          <lb ed="#Q"/>reducitur respectus ab habitu in actum: tunc enim
+          <lb ed="#Q"/>dicit respectum in actu.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4195">
+          <lb ed="#Q"/>3. Ad illud quod obicitur quod « scientia
+          <lb ed="#Q"/>est existentium »: dicendum quod existentia in<lb ed="#Q"/>telliguntur
+          vel in sua natura vel in causa; item,
+          <lb ed="#Q"/>in causa intelliguntur vel ut' in potentia causae,
+          <lb ed="#Q"/>vel ut"' in dispositione suae causae. Cum ergo
+          <lb ed="#Q"/>dicitur'1 « scientia est existentium », debet accipi
+          « existentium » in potentia Causae, sicut dicit
+          <lb ed="#Q"/>Hugo. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4213">
+          <lb ed="#Q"/>2. Similiter, dicendum quod assimilatio cle<lb ed="#Q"/>bet
+          intelligi in habitu, non in actu, cum dicitur
+          <lb ed="#Q"/>scientia velut assimilatio intellectus ad rem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4222">
+          <lb ed="#Q"/>a—e. Item, ad illud quod obicitur ' cum dicitur
+          <lb ed="#Q"/>Deus scit se, non connotatur respectus-'aliquis ',
+          <lb ed="#Q"/>respondeo: verum est, non connotatur respectus
+          <lb ed="#Q"/>in actu, sed significatur divina essentia 0 ut si<lb ed="#Q"/>militudo.
+          Ipsa autem divina natura de sua po<lb ed="#Q"/>testate
+          habet similitudinem: non quae sit? a 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>creaturis, sed magis ad creaturas 7, etiam 'si nulla
+          <lb ed="#Q"/>sit creatura; unde etiam connotatur respectus in
+          <lb ed="#Q"/>habitu. Conceditur ergo quod eadem ratione Deus
+          <lb ed="#Q"/>scit se et scit creaturam; sed tamen cum dicitur
+          'Deus scit se', connotatur respectus in habitu;
+          <lb ed="#Q"/>cum dicitur 'scit creaturam *, in actu.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4251">
+          <lb ed="#Q"/>II. Ad illud quod quaeritur utrum notetur '
+          <lb ed="#Q"/>respectus personarum, cum dicitur 'Deus scit se':
+          <lb ed="#Q"/>dicendum qiiod quidam dixerunt, quod non;
+          <lb ed="#Q"/>immo, abstractis personis, esset dicere ' Deus scit
+          <lb ed="#Q"/>se, intelligit se, meminit se'; tamen cum dicitur
+          'Deus? scit se ', intelligitur divina essentia ut si<lb ed="#Q"/>militudo,
+          nec est diversitas nisi secundum ratio<lb ed="#Q"/>nem
+          intelligentiae. — Vel dicendum, ut a q u i b us<lb ed="#Q"/>dam
+          dicitur, secundum Anselmum, quod facit
+          <lb ed="#Q"/>ad fidem quod ipsa. scientia, quae est similitudo,
+          <lb ed="#Q"/>significat essentiam et * connotat pluralitatem per<lb ed="#Q"/>sonarum,
+          quia similitudo plurium est. Unde An<lb ed="#Q"/>selmus,
+          in Proslogion 3: «In hoc quod sum<lb ed="#Q"/>mus
+          Spiritus intelligit se, Pater generat et Filius
+          <lb ed="#Q"/>generatur, quia intelligere se ponit similitudinem
+          <lb ed="#Q"/>habere apud se »; et ita ponitur relatio unius et
+          <lb ed="#Q"/>alterius, qui tamen sint per omnia similes, id est
+          <lb ed="#Q"/>eadem essentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4290">
+          <lb ed="#Q"/>III. Ad illud quod quaeritur 'utrum nomine
+          <lb ed="#Q"/>scientiae intelligitur ratio exemplaris ,, respondeo:
+          <lb ed="#Q"/>est scientia simplicis notitiae sive speculativa et est
+          <lb ed="#Q"/>scientia practiba sive cum approbatione 4. Primo
+          <lb ed="#Q"/>modo non dicit scientia rationem exemplaris, sed
+          <lb ed="#Q"/>secundo modo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4307">
+          <lb ed="#Q"/>IV. Ad illud quod quaeritur de" distinctione
+          <lb ed="#Q"/>istorum vocabulorum, quibus nominatur divina
+          <lb ed="#Q"/>scientia, dixerunt quidam 5, quod divina intelli<lb ed="#Q"/>gentia
+          potest considerari secundum quod abstra<lb ed="#Q"/>hitur
+          reSpectus a rebus quae sunt sub tempore
+          <lb ed="#Q"/>aut secundum quod respicit res quae sunt sub
+          <lb ed="#Q"/>temporev. Secundum quod respicit res abstra<lb ed="#Q"/>hendo
+          respectum a conditione temporis, sic dici<lb ed="#Q"/>tur
+          sapientia et scientia; secundum vero quod
+          <lb ed="#Q"/>respicit res sub conditione temporis, sic est prae<lb ed="#Q"/>scientia,
+          dispositio, praedestinatio etc. Differentia
+          <lb ed="#Q"/>autem est inter sapientiam et scientiam: nam est
+          <lb ed="#Q"/>considerare ipsamï causam, et secundum hoc
+          <lb ed="#Q"/>dicitur sapientia; vel effectum in causa, et sic di—
+          <lb ed="#Q"/>citur scientia, quia scientia est comprehensio rei
+          <lb ed="#Q"/>per causam 5. Item, secundum quod divina in<lb ed="#Q"/>telligentia
+          considerat res sub conditione temporis,
+          <lb ed="#Q"/>est differentia: quia aut respicit bonum et? ma<lb ed="#Q"/>lum
+          communiter, et sic est praescientia; aut bo<lb ed="#Q"/>num
+          tantum, etz hoc multipliciter: nam quaedam
+          <pb ed="#Q" n="247"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>respiciunt bona tam naturae quam gratiae, quae<lb ed="#Q"/>dam
+          bonum gratiae tantum. Bonum autem natu<lb ed="#Q"/>rae
+          est dupliciter; aut in fieri aut in facto esse. Si
+          <lb ed="#Q"/>in fieri, sic est dispositio ; si in facto esse ", sic est
+          <lb ed="#Q"/>providentia. Bonum vero gratiae respicit praede<lb ed="#Q"/>stinatio.
+          — Vel aliter, secundum quod dicit H 11 go
+          <lb ed="#Q"/>de S. Victore, in suis Senteniiis 1: « Divina au<lb ed="#Q"/>tem
+          sapientia et scientia vocatur et praescientia
+          <lb ed="#Q"/>et dispositio et praedestinatio et providentia:
+          <lb ed="#Q"/>scientia existentium, praescientia futurorum, dis<lb ed="#Q"/>positio
+          faciendorum, praedestinatio salvandorum,
+          <lb ed="#Q"/>providentia subiectorum ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4383">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>1. Quod vero quaeritur quare inter haec
+          <lb ed="#Q"/>non nominetur reprobatio: dicendum quod nihil
+          <lb ed="#Q"/>addit supra haec vel ultra. Nam in intellectu re<lb ed="#Q"/>probationis
+          non sunt nisi duo: praescientia iniqui<lb ed="#Q"/>tatis
+          et praeparatio poenae2 ; praescientia iniqui<lb ed="#Q"/>tatis
+          intelligitur in praescientia, praeparatio poe<lb ed="#Q"/>nae
+          in dispositione; sed praedestinatio addit, quia
+          <lb ed="#Q"/>dicit respectum ad bonum gratiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m1-d1e4405">
+          <lb ed="#Q"/>2. Ad illud quod obicitur 'quare non dicitur
+          <lb ed="#Q"/>memoria scientiab praeteritorum, sicut praescien<lb ed="#Q"/>tia
+          futurorum ': dicendum quod hoc fitc nevide<lb ed="#Q"/>retur
+          quod res antecessissent divinam <!--d--> scientiam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

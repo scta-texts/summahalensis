@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-23">March 23, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+        <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-23" status="draft" n="0.0.0">
+        <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="346"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t5m1c1">
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m1c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 1, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m1c1-Hd1e3744" type="question-title">UTRUM LIBER VITAE SIT QUID CREATUM VEL INCREATUM.</head>
+        <!-- t. 5 prae -->
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c1-d1e3749">
+          <lb ed="#Q"/>Post quaestionem de praedestinatione,"electione, dilectione divina, quaerendum
+          <lb ed="#Q"/> est de libro vitae 1, in quo scribuntur praedestinati, electi et dilecti ab aeterno.
+          <lb ed="#Q"/>Nam sicut dilectio est omnium futurorum bonorum, praedestinatio salvando<lb ed="#Q"/>rum 
+          et electio eorumdem in quantum separantur a malis, ita liber vitae est ipsorum
+          <lb ed="#Q"/>remunerandorum. Quaeritur ergo in hunc modum:
+          <lb ed="#Q"/>Primo, quid sit liber vitae;
+          <lb ed="#Q"/>secundo, quid dicatur liber vitae;
+          <lb ed="#Q"/>tertio, quorum sit liber vitae. 
+          <lb ed="#Q"/>quarto, quomodo se habet liber Vitae.
+        </p>
+        <!-- end t 5 prae -->
+        <!-- t.5, m.1 prae -->
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c1-d1e3776">
+          <lb ed="#Q"/>Quantum ad primum quaeruntur duo: 
+          <lb ed="#Q"/>Primum est, utrum liber vitae sit<!--a--> quid 
+          <lb ed="#Q"/>creatum vel increatum ;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundum est, supposito quod increatum, utrum
+          una persona vel<!--b--> omnes.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c1-d1e3794">
+          <lb ed="#Q"/>Circa primum sic obicitur: 1. Eccli. 24, 32:
+          <lb ed="#Q"/>Haec omnia liber vitae. Glossa—"*: « Hic est
+          <lb ed="#Q"/>liber vitae 6, Novum scilicet et Vetus Testamen<lb ed="#Q"/>tum,
+          in quo est agnitioal veritatis »; sed constat
+          <lb ed="#Q"/>quod liber .Novi et Veteris Testamenti est quid
+          <lb ed="#Q"/>creatum; ergo liber vitae est quid creatum f.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c1-d1e3810">
+          <lb ed="#Q"/>2. Si dicatur quod liber vitae dicitur dupli<lb ed="#Q"/>citer,
+          scilicet Dei Filius et Scriptura Novi et Ve<lb ed="#Q"/>teris
+          Testamenti: liber enim vitae dicitur in quo
+          <lb ed="#Q"/>est cognitio vitae, et sic. Filius Dei dicitur 'liber
+          <lb ed="#Q"/>vitae; liber etiamf vitae dicitur quod est ordi<lb ed="#Q"/>nans
+          vel instruens ad vitam, et sic dicitur "liber
+          <lb ed="#Q"/>vitae Novum et Vetus Testamentum - 'contra:
+          <lb ed="#Q"/>videtur quod Christus etiam secundum humanam
+          <lb ed="#Q"/>naturam, et non tantum secundum divinam, di<lb ed="#Q"/>catur
+          liber vitae, Apoc. 20,12: Alius liber apertus 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>est, qui est vitae, « id est Christus, qui tunc ap<lb ed="#Q"/>parebit 
+          patens<!--g--> omnibus4 »; sed hoc erit secun<lb ed="#Q"/>dum
+          humanitatem: non enim tunc mali videbunt h
+          <lb ed="#Q"/>divinitatem-5; ergo Christus secundum humani<lb ed="#Q"/>tatem
+          est liber vitae; ergo liber vitae est [quid
+          <lb ed="#Q"/>creatum et non solum quid increatum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c1-d1e3852">
+          <lb ed="#Q"/>3. Item, liber dicituri in quo est scriptura;
+          <lb ed="#Q"/>ergo ibik est intentio causae materialis; quamvis
+          <lb ed="#Q"/>autem tres causae possint inveniri in "Deo, ratio' 
+          <lb ed="#Q"/>efficientis et formalis exemplaris et finalis, nun<lb ed="#Q"/>quam 
+          tamen in eo cadet ratio causae materialis 5.
+          <lb ed="#Q"/>Si ergo in libro est intentio .sive ratio causae
+          <lb ed="#Q"/>materialis, non poterit liber vitae dici proprie
+          <lb ed="#Q"/>quid increatum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c1-d1e3872">
+          <lb ed="#Q"/>Contra: a. Super illud Psalmi 7: Deleantur de
+          <lb ed="#Q"/>libro viventium, Glo ssa 8: « Liber iste est notitia 
+          <pb ed="#Q" n="347"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Dei, qua praedestinavit ad vitam quos praescivit
+          <lb ed="#Q"/>conformes fieri imagini Filii sui * »; sed notitia
+          <lb ed="#Q"/>Dei est increata; ergo liber vitae est quid increa<lb ed="#Q"/>tum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c1-d1e3892">
+          <lb ed="#Q"/>[Solutio]: 1-2. Ad hoc dicendum quod liber
+          <lb ed="#Q"/>vitae dicitur tripliciter. Uno modo liber vitae di<lb ed="#Q"/>citur
+          exemplar vitae; alio modo dicitur liber vi<lb ed="#Q"/>tae
+          exemplum vit—ae; tertio modo dicitur liber
+          <lb ed="#Q"/>vitae signum vel significatio vitae. Primo modo
+          <lb ed="#Q"/>dicitur notitia Dei liber vitae, sicut dicit Glos<lb ed="#Q"/>sa2
+          super illud Psalmi: Delearztur de libro vi<lb ed="#Q"/>ventium.
+          Secundo modo dicitur Filius Dei secun<lb ed="#Q"/>dum
+          humanitatem liber vitae, quia fuit exemplum
+          <lb ed="#Q"/>expressissimuma ad exemplar divinum; unde in
+          <lb ed="#Q"/>Psalmo 3: In libro tuo omnes scribentur, loquitur
+          <lb ed="#Q"/>Filius ad Patrem; Glossa't: «Id est in me, qui
+          <lb ed="#Q"/>dedi formam iustitiae hominibus, scribentur, id est
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>instruentur, omnes, non modo perfecti, sed etiam **
+          <lb ed="#Q"/>imperfecti ». Tertio modo dicitur liber vitae sacra
+          <lb ed="#Q"/>Scriptura, sicut dicit G l o s s a 5 Eccli. 24, 32: <quote xml:id="ahsh-l1p1i1t5s2q4t5m1c1-Qd1e3931" ana="#sir24_32">Haec
+          <lb ed="#Q"/>omnia liber vitae</quote>: <quote xml:id="ahsh-l1p1i1t5s2q4t5m1c1-Qd1e3936">« Liber iste est sermo Novi 'et
+          <lb ed="#Q"/>Veteris Testamenti »</quote>. Dicendum ergo quod liber
+          <lb ed="#Q"/>vitae, secundum quod dicitur primo modo, est in<lb ed="#Q"/>creatum;
+          prout vero secundo modo et tertio, crea<lb ed="#Q"/>tum
+          quid est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c1-d1e3949">
+          <lb ed="#Q"/>3. Ad illud quod obicit quod 'in intentione
+          <lb ed="#Q"/>libri est intentio causae materialis, quae nullo
+          <lb ed="#Q"/>modo cadit in Deo' 0: dicendum 'quod liber
+          <lb ed="#Q"/>vitae non dicitur secundum intentionem causae
+          <lb ed="#Q"/>materialis, immo secundum rationem causae exem<lb ed="#Q"/>plaris.
+          Non enim transfertur ratio libri quantum
+          <lb ed="#Q"/>ad hoc quod ab eo fitd aliquid, sed quantum
+          <lb ed="#Q"/>ad hoc quod in eo est aliquid, sicut libri exem<lb ed="#Q"/>plares 
+          iuxta quos fiunt alii libri 5.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 4, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-23">March 23, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="358"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t5m4c3">
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m4c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 4, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m4c3-Hd1e3744" type="question-title">QUOMODO SE HABEAT LIBER VITAE QUANTUM AD LECTIONEM.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur quomodo liber vitae se
+          <lb ed="#Q"/>habet quantum ad lectionem<!--P-->. Circa hoc autem
+          <lb ed="#Q"/>quaeruntur duo:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Primo, utrum uniformiter legatur in eo et in<lb ed="#Q"/>distincte; 
+          <lb ed="#Q"/>secundo, utrum reprobi legant in libro vitae.
+        </p>
+        <div xml:id="ahsh-l1p1i1t5s2q4t5m4c3-Dd1e3767" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q4t5m4c3-Hd1e3769">ARTICULUS 1</head>
+          <head xml:id="ahsh-l1p1i1t5s2q4t5m4c3-Hd1e3772" type="question-title">Utrum in eo legatur uniformiter et indistincte.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q4t5m4c3-d1e3775">
+            <lb ed="#Q"/>Ad primum obicitur sic: 1. « Liber vitae est
+            <lb ed="#Q"/>Dei notitia 7 » sive sapientia eius ; sed in notitia vel
+            <lb ed="#Q"/>in sapientia Dei ? uniformiter sunt contraria 3; ergo .
+            <lb ed="#Q"/>secundum unum modum; non ergo potest f ibi vi<lb ed="#Q"/>deri
+            multiplicitas * sive diversitas; non ergo in li<lb ed="#Q"/>bro
+            vitae possunt videri * diversitates sive distinc<lb ed="#Q"/>tiones
+            meritorum. Et ponitur exemplum beati D i o<lb ed="#Q"/>nysii9
+            de lineis et centro, quia omnes lineae, sive '
+            <lb ed="#Q"/>finitae sive infinitae, uniuntur in centro: similiter
+            <lb ed="#Q"/>omnia considerantur ut unum in Dei sapientia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t5m4c3-d1e3799">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Contra: a. Augustin u 5, XX De civitate Dei,
+            <lb ed="#Q"/>cap. 1410: « Liber vitae est quaedam vis divina,
+            <lb ed="#Q"/>qua fiet ut cuique opera sua, vel bona vel mala,
+            <lb ed="#Q"/>cuncta in memoriam revocentur et mentis " intuitu <lb ed="#Q"/>mira
+            celeritate cernantur, ut accuset [vel excuset]
+            <lb ed="#Q"/>scientiaV conscientiam, atque ita simul omnes et
+            <lb ed="#Q"/>singuli iudicentur. Quae nimirum vis divina libri
+            <lb ed="#Q"/>nomen accepit: in ea quippe quodammodo legitur
+            <lb ed="#Q"/>quidquid ea faciente recolitur ». .Ergo in libro
+            <lb ed="#Q"/>vitae videbunt distinctiones meritorum; non ergo
+            <pb ed="#Q" n="359"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>ibi legitur uniformiter vel indistincte ", sed potius
+            <lb ed="#Q"/>distincte.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t5m4c3-d1e3834">
+            <lb ed="#Q"/>Solutio: Dicendum quod unumquodque quanto
+            <lb ed="#Q"/>simplicius in natura, tanto multiplicius in virtute 1.
+            <lb ed="#Q"/>Unde ** ubi est summa simplicitas in natura, bene
+            <lb ed="#Q"/>potest esse multiplicitas virtutis, scilicet in Deo:
+            <lb ed="#Q"/>unde potentia Dei simplicissima est, sicut sub<lb ed="#Q"/>stantia,
+            tamen ad infinita potest 2; similiter et sua
+            <lb ed="#Q"/>sapientia, cum simplicissima sit, infinita tamen
+            <lb ed="#Q"/>cognoscit 3. Similiter est de libro vitae; quamvis
+            <lb ed="#Q"/>ergo unicus sit liber vitae simplicissimus et uni<lb ed="#Q"/>formis,
+            et unus dicatur c in essentia et natura, ta<lb ed="#Q"/>men
+            multiplex est in virtute, quia ad multa est;
+            <lb ed="#Q"/>et ex hoc est videre in ipso omnia ** distinctissime
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>sicut ipse operatur distinctissime 3. Et est simile
+            <lb ed="#Q"/>optimum ad hoc quod adducebatur ad contrarium,
+            <lb ed="#Q"/>scilicet de lineis etf centro 4. Ponatur quod ali<lb ed="#Q"/>quod
+            centrum intelligat se totum et suam essen<lb ed="#Q"/>tiam
+            et suam virtutem5: in essentia sua videbit
+            <lb ed="#Q"/>simplicitatem, in virtute autem multiplicitatem ; in
+            <lb ed="#Q"/>lineis etiam! esset videre unitatem et multiplici<lb ed="#Q"/>tatem:
+            unitatem secundum quod sunt ad centrum
+            <lb ed="#Q"/>et uniuntur et reducuntur ad ipsam, multiplicitatem
+            <lb ed="#Q"/>secundum quod sunt ab ipso. Similiter est in Deo
+            <lb ed="#Q"/>et" creaturis: Deus enim est quasi centrum 5,
+            <lb ed="#Q"/>creaturae quasi lineae exeuntes ab ipso; videt
+            <lb ed="#Q"/>ergo in sei unitatem essentiae et multiplicitatem *
+            <lb ed="#Q"/>virtutis, qua omnes creaturae exeunt ab ipso.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q4t5m4c3-Dd1e3896" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q4t5m4c3-Hd1e3898">ARTICULUS II.</head>
+          <head xml:id="ahsh-l1p1i1t5s2q4t5m4c3-Hd1e3901" type="question-title">Utrum mali legant in libro vitae.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q4t5m4c3-d1e3904">
+            <lb ed="#Q"/>Deinde quaeritur utrum mali legantl in libro
+            <lb ed="#Q"/>vitae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t5m4c3-d1e3911">
+            <lb ed="#Q"/>Et videtur quod non: a. « Liber enim vitae'"
+            <lb ed="#Q"/>est notitia Dei7 »; Dei autem notitia est sua es<lb ed="#Q"/>sentias;
+            sed mali non videbunt divinam essen<lb ed="#Q"/>tiam,
+            Isai. 26,10: Tollatur impius, ne videat gla<lb ed="#Q"/>riam
+            Dei, secundum aliam litteramg; ergo mali
+            <lb ed="#Q"/>non videbunt" in libro vitae; ergo legere non po<lb ed="#Q"/>terunt
+            in libro vitae.
+            .Contra: 1. Apoc. 20,12: Alius liber apertus
+            <lb ed="#Q"/>est, qui est vitae. Glossa 10: «Id est" Christus,
+            <lb ed="#Q"/>qui tunc omnibus apparebit»; ergo et malis;
+            <lb ed="#Q"/>ergo mali legent in libro vitae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t5m4c3-d1e3935">
+            <lb ed="#Q"/>2. Item, ibidem, alia Glossa": « Liber, id est
+            <lb ed="#Q"/>praescientia Dei, quia tunc aperte scient mali
+            <lb ed="#Q"/>se non esse praedestinatos ad vitam ». Ergo in
+            <lb ed="#Q"/>libro vitae videbunt se non esse praedestinatos;
+            <lb ed="#Q"/>ergo legent ibi.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q4t5m4c3-d1e3949">
+            <lb ed="#Q"/>Respondeo: 1. Liber vitae dicitur multipli<lb ed="#Q"/>citer,
+            scilicet divina praescientia, sicut habetur
+            <lb ed="#Q"/>Apoc. 3,5;« dicitur etiam liber vitae Christus se<lb ed="#Q"/>cundum
+            humanitatem, in Psalmo 12: In libro tuo
+            <lb ed="#Q"/>omnes scribentur — loquitur Filius ad Patrem: In
+            <lb ed="#Q"/>libro tuo, « id est!' in me, quem dedisti formam iu<lb ed="#Q"/>stitiae
+            hominibus 13 » — item, «liber vitae dicitur
+            <lb ed="#Q"/>vis divina in iudicio, qua fiet utq unicuique opera
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>sua, bona vel ' mala, in memoriam revocentur " ».
+            <lb ed="#Q"/>Dicendum ergo quod primo modo sumendo librum
+            <lb ed="#Q"/>vitae, nunquam legent ibi mali, scilicet in divina
+            <lb ed="#Q"/>sapientia, quae3 idem est quod divina essentia,
+            <lb ed="#Q"/>secundum quod dicitur Isai. 26,10 quod non vi<lb ed="#Q"/>debunt
+            gloriam Dei: proprie enim legere in libro
+            <lb ed="#Q"/>vitae est in divina praescientia merita sua bona
+            <lb ed="#Q"/>aspicere. Secundo r'nodo legent et videbunt in
+            <lb ed="#Q"/>libro vitae, quia videbunt mali in iudicio Chri<lb ed="#Q"/>stum
+            secundum humanitatem, gloriam tamen suae
+            <lb ed="#Q"/>humanitatis vel divinitatisf non videbunt, secun<lb ed="#Q"/>dum
+            quod in Isaia dicitur ", ut dictum est 15. Ter<lb ed="#Q"/>tio
+            vero modo sumendo librum vitae, secundum
+            <lb ed="#Q"/>quod dicit Augustinuslö, pro illa virtuteV di<lb ed="#Q"/>vina
+            quae erit in iudicio, «per quam singuli
+            <lb ed="#Q"/>legent in conscientiis suis bona vel mala me<lb ed="#Q"/>rita
+            »: sic dicentur mali legere in libro vitae; sed
+            <lb ed="#Q"/>hoc non est proprie legere in libro vitae, sedx
+            <lb ed="#Q"/>virtute divina in mente sua merita sua legere.
+            2. Ad illud quod obicitur quod 'scient se? non
+            <lb ed="#Q"/>esse praedestinatos per librum vitae': dicendum
+            <lb ed="#Q"/>quod est scire scientia privativa et scientia posi<lb ed="#Q"/>tiva,
+            sicut aliter cognoscit videns se videre lumen,
+            <lb ed="#Q"/>et aliter scit caecus se non videre lumen": ille
+            <lb ed="#Q"/>scientia positiva seu experientiae 2, iste scientia
+            <lb ed="#Q"/>privativa. Similiter mali scient se non esse prae<lb ed="#Q"/>destinatos,
+            sicut caecus scit se non videre lumen.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

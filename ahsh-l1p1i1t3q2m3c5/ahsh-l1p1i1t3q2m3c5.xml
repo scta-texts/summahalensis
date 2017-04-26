@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 3, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-27">February 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="158"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m3c5">
+        <head xml:id="ahsh-l1p1i1t3q2m3c5-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 3, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t3q2m3c5-Hd1e3732" type="question-title">AN PRIMAE VERITATI OPPONATUR FALSUM.</head>
+        <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3735">
+          <lb ed="#Q"/>Restat nunc quaerendum an primae veritati
+          <lb ed="#Q"/>opponatur falsum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3742">
+          <lb ed="#Q"/>Ad quod sic: 1. Summae bonitati non opponi<cb ed="#Q" n="b"/><lb ed="#Q"/>tur 
+          malum 8 ; ergo summae veritati non opponitur
+          <lb ed="#Q"/>falsum nec aliud; ergo etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3752">
+          <lb ed="#Q"/>2. Item, si opponitur, ergo aliquo genere op<lb ed="#Q"/>positionis:
+          non sicut affirmatio et negatio, ut
+          <pb ed="#Q" n="159"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>aliquid et nihil; nam negatio nullum ens ponit,
+          <lb ed="#Q"/>falsum autem habet ens subsistens, sicut dic<lb ed="#Q"/>tum
+          est, secundum <name ref="#Augustine">Augustinum</name>; relinquitur
+          <lb ed="#Q"/>ergo quod primae veritati non opponitur falsum
+          <lb ed="#Q"/>ut affirmationi" negatio. — Item, nec ut pri<lb ed="#Q"/>vatio
+          habitui, quia « prima veritas, sicut dicit
+          <lb ed="#Q"/>Augustinus, est similitudo summa ", in qua
+          <lb ed="#Q"/>nulla est dissimilitudo, ex qua falsitas oritur ».
+          <lb ed="#Q"/>Ergo nulla est ei privatio opposita. Praeterea, si
+          <lb ed="#Q"/>esset privabilis habitus, esset mutabilis: quod
+          <lb ed="#Q"/>falsum est. — Item, nec sicut contraria: quia con—
+          <lb ed="#Q"/>traria nata sunt fieri circa idem; ergo circa idem
+          <lb ed="#Q"/>subiectum esset falsitas et prima veritas; cadet
+          <lb ed="#Q"/>ergo in Deo talsitasc: quod est impossibile. ——
+          <lb ed="#Q"/>Item, nec oppositione relationis: quia unum rela<lb ed="#Q"/>tivorum
+          ponit alterum, veritas vero et falsitas se
+          <lb ed="#Q"/>removent. Nullo ergo modo veritati primae oppo<lb ed="#Q"/>nitur
+          falsitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3806">
+          <lb ed="#Q"/>Contra: a. Sicut idolum et Deus opponuntur in
+          <lb ed="#Q"/>Scriptura, ita veritas et mendacium, Psalm.3:
+          <lb ed="#Q"/>Quaeritis mendacium, « id est idola, quae vana sunt
+          <lb ed="#Q"/>et a vero esse aliena »; similiter, lerem. 8,5: Appre<lb ed="#Q"/>henderunt
+          mendacium, Glossa4: «Mendacium
+          <lb ed="#Q"/>dicuntur idola ». Ergo veritas prima habet Oppo<lb ed="#Q"/>sitionem
+          cum mendacio; sed mendacium illud fal<lb ed="#Q"/>sitas
+          est; ergo habet falsitatem sibi oppositam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3826">
+          <lb ed="#Q"/>b. Item, dicit Philosophus5: « Falsumd di<lb ed="#Q"/>citur
+          esse umbra vel phantasmate rei»; sed hae
+          <lb ed="#Q"/>creaturae sunt umbrae et phantasmata respectu
+          <lb ed="#Q"/>veritatis increatae 5. Cum ergo coluntur, sicut inter
+          <lb ed="#Q"/>umbram et lumen est oppositio, et phantasrna et
+          <lb ed="#Q"/>speciem veram: ita erit hic oppositio tamquam
+          <lb ed="#Q"/>falsitatis ad veritatem, quia falsum dicitur umbra;
+          <lb ed="#Q"/>ergo habet sibi oppositam falsitatem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3846">
+          <lb ed="#Q"/>Solutio: Secundum quosdam dicendum quod
+          <lb ed="#Q"/>est falsitas opposita primae veritati. Unde dicitur
+          <lb ed="#Q"/>Deuter. 4,16: Ne forte decepti f faciatis vobis
+          <lb ed="#Q"/>sculptam similitudinem aut imaginem; haec si<lb ed="#Q"/>militudo
+          est mater falsitatis, cum ipsa est deficiens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3859">
+          <lb ed="#Q"/>[Ad obiecta]:l. Ad rationem in contra<lb ed="#Q"/>rium
+          dicendum quod non est omnino simile de
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>summo bono et de vero. Nam malum dicitur du—
+          <lb ed="#Q"/>pliciter: uno modo, quia deficiens a bono; alio
+          <lb ed="#Q"/>modo, quia potest nocere bono. -—-Quod ergo dicit
+          <lb ed="#Q"/>Augustinus, quod summo bono non est ma<lb ed="#Q"/>lum
+          oppositum: intelligitur quantum ad illam ra<lb ed="#Q"/>tionem 
+          qua dicitur malum quod potest nocere,
+          <lb ed="#Q"/>quia summo bono nihil potest nocere; sed alio
+          <lb ed="#Q"/>modo dicitur malum oppositum bono, quia scilicet
+          <lb ed="#Q"/>deficit a summo bono. Falsum autem dicitur sem<lb ed="#Q"/>per
+          opponi vero, quia deficit et non quia possit
+          <lb ed="#Q"/>nocere; et ideo, licet posset dici aliquo modo
+          <lb ed="#Q"/>malum non opponi summo bono, tamen falsum'l
+          <lb ed="#Q"/>opponitur summo vero.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3896">
+          <lb ed="#Q"/>2. Ad secundo obiectum dicendum quod
+          <lb ed="#Q"/>oppositio veri ad falsum est non sicut affirma<lb ed="#Q"/>tionis
+          et negationis simpliciter, ut est aliquid et
+          <lb ed="#Q"/>nihil, sed sicut affirmationis et negationis in ge<lb ed="#Q"/>nere,
+          ut homo et non-homo, prout non-homo est
+          <lb ed="#Q"/>terminus infinitus, sicut dicitur: ' falsus deus sive
+          <lb ed="#Q"/>falsum numen opponitur vero Deo,; ut, cum di<lb ed="#Q"/>citur
+          'non-homo', non negatur ens simpliciter,
+          <lb ed="#Q"/>sed ens-homo, ita cum dicitur: ' falsus deus ', non
+          <lb ed="#Q"/>negatur ens simpliciter, sedk Deus; unde falsus
+          <lb ed="#Q"/>deus ens aliud quam Deus. — Sed melius videtur
+          <lb ed="#Q"/>esse dicendum quod summum verum' considera<lb ed="#Q"/>tur
+          dupliciter: in se et ut participatur a creatura.
+          <lb ed="#Q"/>Summo ergo vero primo modo non opponitur
+          <lb ed="#Q"/>falsum aliquo modo, quia secundum hoc nihil est
+          <lb ed="#Q"/>in ipsius imitatione; falsum autem est, sicut dic<lb ed="#Q"/>tum
+          esta, «quod est longe a similitudine veri,
+          <lb ed="#Q"/>dum tamen habeat ad verum nonnullam imitatio<lb ed="#Q"/>nem
+          ». Secundo modo, prout consideratur in par<lb ed="#Q"/>ticipatione,
+          secundum quam creatura est in imita<lb ed="#Q"/>tione
+          summi veri, dicitur'" opponi falsum, sicut
+          <lb ed="#Q"/>luci opacum vel obliquo rectum. Et reducitur
+          <lb ed="#Q"/>haec oppositio ad oppositionem privationis et ha<lb ed="#Q"/>bitus,
+          non quae habeant esse" circa divinam na<lb ed="#Q"/>turam,
+          sed circa creaturam quae habeat esse in
+          <lb ed="#Q"/>participatione veritatis primae: et ex participa<lb ed="#Q"/>tione
+          est ei habitus; ex defectu participationis, ad
+          <lb ed="#Q"/>quam nata est, privatio, quae est falsitas.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

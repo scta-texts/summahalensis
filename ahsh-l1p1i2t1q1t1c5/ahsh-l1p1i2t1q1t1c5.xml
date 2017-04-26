@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 1, T. 1, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-04">April 4, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-04-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="434"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q1t1c5">
+        <head xml:id="ahsh-l1p1i2t1q1t1c5-Hd1e3741">I, P. 1, Inq. 2, Tract. 1, Q. 1, T. 1, C. 5</head>
+        <head xml:id="ahsh-l1p1i2t1q1t1c5-Hd1e3744" type="question-title">QUOMODO SIT GENERATIO DIVINA</head>
+        <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur de aeterna generatione
+          <lb ed="#Q"/>quomodo sit:
+          <lb ed="#Q"/>Et primo, utrum sit voluntaria vel necessa<lb ed="#Q"/>ria;
+          <lb ed="#Q"/>secundo, utrum sit semper in fieri vel intacto
+          <lb ed="#Q"/>esse;
+          <lb ed="#Q"/>tertio, cum multi sint modi generationis, quis
+          <lb ed="#Q"/>modus ei attribui" debeat.
+        </p>
+        <div xml:id="ahsh-l1p1i2t1q1t1c5-Dd1e3767">
+          <head xml:id="ahsh-l1p1i2t1q1t1c5-Hd1e3769">ARTICULUS I</head>
+          <head xml:id="ahsh-l1p1i2t1q1t1c5-Hd1e3772" type="question-title">Utrum generatio divina sit voluntaria vel necessaria</head>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e3775">
+            <lb ed="#Q"/>Quantum ad primum obicitur sic: l. Oro<lb ed="#Q"/>sius
+            ad Augustinum 2: « Voluntate genuit Pater
+            <lb ed="#Q"/>Filium vel necessitate?» Respondet Au gusti—
+            <lb ed="#Q"/>nus: « Nec voluntate genuit Filiumb nec neces<lb ed="#Q"/>sitate,
+            quia necessitas in Deo non est, praeire
+            <lb ed="#Q"/>sapientiam voluntas non potest». — Contra:
+            <lb ed="#Q"/>Dicit Philosophus3 quod omnia quae fiunt
+            <lb ed="#Q"/>fiunt vel a proposito vel a natura, et 'propo—
+            <lb ed="#Q"/>situm' appellat voluntatem, 'naturam' vero ne<lb ed="#Q"/>cessitatem;
+            immediate ergo se habent voluntas
+            <lb ed="#Q"/>et necessitas circa entia. Si ergo Pater genuit Fi<lb ed="#Q"/>lium,
+            vel necessitate genuit vel voluntate.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e3804">
+            <lb ed="#Q"/>2. Item, si non genuit Filium voluntate, ergo in—
+            <lb ed="#Q"/>voluntarie; sed dicit Ioannes Damascenus4
+            <lb ed="#Q"/>quod «involuntarium est quod per ignorantiam
+            <lb ed="#Q"/>vel violentiam iit »: voluntarium enim exigite
+            <lb ed="#Q"/>quod sit principium sufficiens in nobis et quod
+            <lb ed="#Q"/>sit notitia eius quod debet fieri; unde quod fit
+            <lb ed="#Q"/>per violentiam non est voluntarium simpliciter;
+            <lb ed="#Q"/>quod vero fit per ignorantiam non est volunta—
+            <lb ed="#Q"/>rium, quia ibi est ignorantia eius quod debet fieri.
+            <lb ed="#Q"/>Si ergo Pater genuit Filiumd involuntarie, ergo
+            <lb ed="#Q"/>genuit violenter vel ignoranter; sed nullum horum
+            <lb ed="#Q"/>cadit in Deo; ergo relinquitur quod voluntarie
+            <lb ed="#Q"/>genuit.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e3835">
+            <lb ed="#Q"/>3. Item, immediate se habent circa entia neces<lb ed="#Q"/>sarium
+            et contingens 5; si ergo non genuit contin<lb ed="#Q"/>genter,
+            ergo genuit necessario; ergo necessitate
+            <lb ed="#Q"/>genuit.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e3847">
+            <lb ed="#Q"/>4. Item, obicitur de hoc quod dicit Augusti<lb ed="#Q"/>nus 6: 
+            « Sapientiam praeire voluntas non potest». 
+            — Contra: Augustinus, IX De Trinitate7:
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>« Parium mentis praecedit appetitus quidam quo '
+            <lb ed="#Q"/>id quod nosse volumus, quaerendo et inveniendo
+            <lb ed="#Q"/>nascitur proles ipsa notitia ». Ergo voluntas prae<lb ed="#Q"/>cedit
+            sapientiam. Quod patet etiam: quia antequam
+            <lb ed="#Q"/>addiscam, volo addiscere.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e3867">
+            <lb ed="#Q"/>5. Item, quaeritur an haec duo sese compa<lb ed="#Q"/>tiantur
+            f, voluntas et necessitas, ut Pater genuerit<lb ed="#Q"/>Filium
+            voluntate et necessitate vel voluntarie et
+            <lb ed="#Q"/>necessario. — Et videtur quod non: Quia
+            <lb ed="#Q"/>necessitas dicit principium determinatum ad alte<lb ed="#Q"/>rum
+            8, ita quod alio modo se habere non potest 3;
+            <lb ed="#Q"/>sed voluntas est principium ad utrumlibet oppo<lb ed="#Q"/>sitorum;
+            ergo non se compatiuntur in uno volun<lb ed="#Q"/>tas
+            et necessitas, quia sese non compatiuntur prin<lb ed="#Q"/>cipium
+            determinatum et indeterminatum; ergo si
+            <lb ed="#Q"/>Pater genuit Filium voluntate, non genuit ne<lb ed="#Q"/>cessitate,
+            vel si genuit necessitate, non genuit vo<lb ed="#Q"/>luntate.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e3898">
+            <lb ed="#Q"/>Respondeo: 1. Ad primum dicendum quod
+            <lb ed="#Q"/>propositum et natura sive voluntas et necessitas
+            <lb ed="#Q"/>se habent immediate circa tacta vel ea quae fiunt,
+            <lb ed="#Q"/>quia omnium quae fiunt aut principium est" na<lb ed="#Q"/>tura,
+            et sic necessitas, aut propositum, et sic vo<lb ed="#Q"/>luntas,
+            sed non se habent ad ea quae non fiunt.
+            <lb ed="#Q"/>Unde procedit * divisio rerum: quaedam sunt
+            <lb ed="#Q"/>quae fiunt, quaedam quae non fiunt; quae non
+            <lb ed="#Q"/>fiunt sunt aeterna; quae vero fiunt, aut tiunt pro<lb ed="#Q"/>posito
+            aut natura. Non igitur habet locum in ae<lb ed="#Q"/>terna
+            generatione illa divisio.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e3924">
+            <lb ed="#Q"/>2. Ad secundum dicendum quod volun<lb ed="#Q"/>tas
+            dicitur dupliciter: est enim voluntas absoluta
+            <lb ed="#Q"/>et simpliciter ", et est voluntas comparata et 
+            <lb ed="#Q"/>conditionalis. Voluntas comparata sive conditiona<lb ed="#Q"/>lis
+            est, quando non volumus aliquid simpliciter,
+            <lb ed="#Q"/>sed sub conditione, qua remota, nolumus illud ; et
+            <lb ed="#Q"/>hoc contingit dupliciter: potest enim conditio illa
+            <lb ed="#Q"/>esse trahens, ut cum aliquis propter magnum lu<lb ed="#Q"/>crum
+            vellet peccare, quod simpliciter nollet; vel
+            <lb ed="#Q"/>potest esse impellens ", ut cum aliquis propter mor<lb ed="#Q"/>tem
+            fugiendam peccaret, quo remoto, non peccaret;
+            <lb ed="#Q"/>et ita voluntas conditionalis est dupliciter: tra<lb ed="#Q"/>hens
+            videlicet et impellens. Item, voluntas ab<lb ed="#Q"/>soluta
+            et simplex est triplex: praecedens, acce<lb ed="#Q"/>dens
+            et concomitans; praecedens opus inceptum,
+            <lb ed="#Q"/>accedens operi iam incepto sive post opus, con<lb ed="#Q"/>comitans
+            vero in opere. Accedensb ergovoluntas
+            <lb ed="#Q"/>et praecedens dicunt conditiOnes" temporales, sed
+            <lb ed="#Q"/>concomitans non. Dicendum igitur quod volun<lb ed="#Q"/>tate
+            conditionali non genuit Pater Filium nec
+            <lb ed="#Q"/>etiam voluntate simpliciter quae quidem est prae<lb ed="#Q"/>cedens
+            vel accedens, quia nec prius voluit quam
+            <lb ed="#Q"/>generaret nec ei nova voluntas ut generaret ac<lb ed="#Q"/>cessit
+            nec etiam eum aliqua causa exterior traxit
+            <lb ed="#Q"/>vel impulit ut generaret Filium, sed genuit vo<lb ed="#Q"/>luntate
+            absoluta concomitante, ut sit sensus: vo<lb ed="#Q"/>luntate
+            genuit Filium, id est voluntas generationem
+            <lb ed="#Q"/>Filii concomitata est.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e3987">
+            <lb ed="#Q"/>3. Ad tertium dicendum quod necessitas di<lb ed="#Q"/>citur
+            multipliciter. Dicitur enim necessitas secun<lb ed="#Q"/>dum
+            rationem causae materialis necessitas indi<lb ed="#Q"/>gentiae,
+            I Ioan. 3,17: Qai viderit fratrem suum
+            <lb ed="#Q"/>necessitatem d habere etc. Dicitur etiam necessitas
+            <lb ed="#Q"/>secundum rationem causae efficientis necessitas
+            <lb ed="#Q"/>coactionis 1. Est autem coactio duplexzz inducens
+            <lb ed="#Q"/>et non sufficiens, sicut aliquando cogitur liberum
+            <lb ed="#Q"/>arbitrium, ut patet in voluntate conditionali; et
+            <lb ed="#Q"/>est coactio sufficiens, quae non est in libero ar<lb ed="#Q"/>bitrio,
+            sed in rebus naturae, ut in actionibus vio<lb ed="#Q"/>lentis
+            corporum, et hoc modo dicit Augusti<lb ed="#Q"/>nus
+            quod-«z necessitas in Deo non est3». Item,
+            <lb ed="#Q"/>dicitur necessitas secundum rationem causae for<lb ed="#Q"/>malis
+            uno modo necessitas inevitabilitatis, secun—
+            <lb ed="#Q"/>dum quod dicitur in Psalmo4: De necessitatibus
+            <lb ed="#Q"/>meis erue me ; alio modo necessitas immutabilitatis,
+            <lb ed="#Q"/>et sic dicuntur necessaria quorum veritas non est
+            <lb ed="#Q"/>mutabilis vel contingens. Item, dicitur necessitas
+            <lb ed="#Q"/>in ratione causae finalis, et hoc dupliciter: re<lb ed="#Q"/>spectu
+            finis, et hoc modo dicitur, Luc. 10,422:
+            <lb ed="#Q"/>Unum est necessarium; et respectu eorum quae
+            <lb ed="#Q"/>sunt ad finem, et hoc modo dicuntur necessaria
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>utilia et expedientia. Sed expedientia dicuntur
+            <lb ed="#Q"/>mala 5, in quantum ordinata, secundum quod ha<lb ed="#Q"/>beturf
+            Matth. 18,7: Necesse estg ut veniant scan<lb ed="#Q"/>data
+            ; utilia dicuntur ipsa bona quae appetimus
+            <lb ed="#Q"/>propter finem, sicut dicitur Philip. l,24: Per<lb ed="#Q"/>manere
+            in carne necessarium propter fratres. Cum
+            <lb ed="#Q"/>ergo quaeritur utrum genuerit necessitate: dicen—
+            <lb ed="#Q"/>dum quod non necessitate indigentiae vel coac<lb ed="#Q"/>tionis
+            vel expedientiae vel utilitatis vel etiam
+            <lb ed="#Q"/>inevitabilitatis, sed necessitate immutabilitatis.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4063">
+            <lb ed="#Q"/>4. Ad quartum dicendum quod voluntas
+            <lb ed="#Q"/>uno modo praecedit sapientiam, alio modo sequi<lb ed="#Q"/>tur.
+            Est enim voluntas addiscendi sapientiam non
+            <lb ed="#Q"/>habitam'l et est voluntas conservandi sapientiam
+            <lb ed="#Q"/>iam habitam. Voluntas addiscendi sapientiam
+            <lb ed="#Q"/>praecedit sapientiam, voluntas vero conservandi
+            <lb ed="#Q"/>consequitur nec potest praeire '". In Deo autem
+            <lb ed="#Q"/>non est voluntas respectu sapientiae non habitaek
+            <lb ed="#Q"/>habendae, sed conservandi' iam habitam, et ideo
+            <lb ed="#Q"/>bene dicit Augustinus: « In Deo praeire sa<lb ed="#Q"/>pientiam
+            voluntas non potest».
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4090">
+            <lb ed="#Q"/>5. Ad quintum et ultimum dicendum quod est
+            <lb ed="#Q"/>voluntas finis simpliciter et est voluntas eorum
+            <lb ed="#Q"/>quae sunt ad finem: voluntas finis est cum volo
+            <lb ed="#Q"/>aliquid propter se, voluntas eorum quae sunt ad
+            <lb ed="#Q"/>finem est cum volom aliquid propter aliud. Vo<lb ed="#Q"/>luntas
+            ergo finis simpliciter non est ad opposita,.
+            <lb ed="#Q"/>sed voluntas eorum quae sunt ad finem, sicut
+            <lb ed="#Q"/>patet: voluntas finis est voluntas beatitudinis,
+            <lb ed="#Q"/>haec autem voluntas non potest esse ad opposi<lb ed="#Q"/>tum;
+            nemo enim vult miseriam oppositam beati<lb ed="#Q"/>tudini
+            nec potest velle. In aliis vero quae sunt
+            <lb ed="#Q"/>citra beatitudinem, sicut loqui, comedere, ambu<lb ed="#Q"/>lare
+            et huiusmodi, est voluntas ad utrumque op<lb ed="#Q"/>positum;
+            et hoc intelligitur ante actum, non cum
+            <lb ed="#Q"/>iam est in actu, quia tunc non potest se habere
+            <lb ed="#Q"/>ad opposita. Compatiuntur ergo se voluntas et
+            <lb ed="#Q"/>necessitas, cum, dicitur voluntas respectu finis et
+            <lb ed="#Q"/>cum dicitur voluntas respectu" eorum quae sunt
+            <lb ed="#Q"/>ad finem, cum iam sunt in actu. Secundum hoc
+            <lb ed="#Q"/>ergo" est voluntas in suo complemento et non
+            <lb ed="#Q"/>se habens ad opposita, secundum vero quod non
+            <lb ed="#Q"/>est in suo complemento se habet ad opposita. In
+            <lb ed="#Q"/>DeoP ergo, ubi est voluntas in suo complemento,
+            <lb ed="#Q"/>non est dicere quod sit voluntas ad opposita,
+            <lb ed="#Q"/>quamvis sint opposita subiecta voluntati eius, ut
+            <lb ed="#Q"/>te esse, te non esse; simul ergo sunt in Deo vo- .
+            <lb ed="#Q"/>luntas et necessitas, id est immutabilitas.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i2t1q1t1c5-Dd1e4152" type="articulus">
+          <head xml:id="ahsh-l1p1i2t1q1t1c5-Hd1e4154">ARTICULUS II</head>
+          <head xml:id="ahsh-l1p1i2t1q1t1c5-Hd1e4157" type="question-title">Utrum generatio divina sit semper in fieri vel in facta esse.</head>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4160">
+            <lb ed="#Q"/>Consequenter quaeritur I. utrum generatio ae<lb ed="#Q"/>terna
+            semper sit in fieri vel in facto esse 1.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4167">
+            <lb ed="#Q"/>Et quod in fieri sic videtur: 1. Cum generatio
+            <lb ed="#Q"/>Filii a Patre sit velut splendoris a luce, ad Hebr.
+            <lb ed="#Q"/>l,3: Qui cum sit splendor gloriae et figura sub<lb ed="#Q"/>stantiae
+            eius; sed generatio splendoris a luce
+            <lb ed="#Q"/>semper est in fieri; ergo generatio Filii a Patre
+            <lb ed="#Q"/>semper" est in fieri.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4183">
+            <lb ed="#Q"/>2. Item, Origenes 2: « Salvator noster splendor
+            <lb ed="#Q"/>est claritatis 1'; quotiens autem ortum fuerit lumen,
+            <lb ed="#Q"/>ex quo 0 splendor oritur, totiens oritur splendor
+            <lb ed="#Q"/>claritatis ». Sic ergo Salvator noster semper oritur.
+            <lb ed="#Q"/>Unde "' Prov. 8, 25: Ante omnes colles generat me,
+            « non ut quidam male legunt 'generavit'e».
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4197">
+            <lb ed="#Q"/>Contra: a. Augustinus, in 83 Quaestion.3:
+            « Melius est semper natus, quam qui semper na<lb ed="#Q"/>scitur»,
+            quia sif semper nascitur, nondum est
+            <lb ed="#Q"/>natus, ac per hoc nunquam Filius est, [si nun<lb ed="#Q"/>quam
+            natus est; Filius autem est etsemper; sem<lb ed="#Q"/>perg
+            igitur natus. Aeterna igitur generatio intel<lb ed="#Q"/>ligitur
+            ut'l in facto esse seu completo, ut non
+            <lb ed="#Q"/>fiat vis in hoc quod dico 'iacto '.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4215">
+            <lb ed="#Q"/>b. Item 4, « non possumus dicere ' semper nasci<lb ed="#Q"/>tur
+            ', ne impertectusf videatur; at vero ut aeter<lb ed="#Q"/>nus
+            designari valeat et perfectus, ' semper ' dica<lb ed="#Q"/>mus.
+            'est natus ', quatenus et 'natus' ad per<lb ed="#Q"/>fectionem
+            pertineat et 'semper' ad aeternitatem ».
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4228">
+            <lb ed="#Q"/>II. Item, quaeritur quod istorum verius dicitur:
+            'semper nascitur' aut 'semper natus '. Et cum
+            <lb ed="#Q"/>verbum praesentis temporis ratione praesentiali<lb ed="#Q"/>tatis
+            conveniat cum aeternitate, quod non'f prae<lb ed="#Q"/>teritum,
+            melius et verius exprimitur aeterna ge<lb ed="#Q"/>neratio,
+            cum dicitur ' semper nascitur', quam cum '
+            <lb ed="#Q"/>dicitur ' se*mper natus '.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4244">
+            <lb ed="#Q"/>III. Item, debetne concedi cum verbo futuri tem<lb ed="#Q"/>poris
+            ut dicatur ' semper nascetur' ?
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4251">
+            <lb ed="#Q"/>Probatur quod non: 1. Quia, sicut dicit
+            <lb ed="#Q"/>Augustinus 5, super illud Psalmi 2,7: Ego
+            <lb ed="#Q"/>hodie genui te, « in aeternitate nec praeteritum
+            <lb ed="#Q"/>quidquam est, quasi esse desierit", nec futurum,
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>quasi nondum sit, sed praesens tantum ». Ergo
+            <lb ed="#Q"/>locutiones de praeterito et de futuro sunt falsae;
+            <lb ed="#Q"/>igitur falsae sunt istae 'semper natus est ', ' sem<lb ed="#Q"/>per
+            nascetur '.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4273">
+            <lb ed="#Q"/>Contra: a. Cum hoc secundum unum modum
+            <lb ed="#Q"/>concedatur ' semper natus est ', quae est de prae<lb ed="#Q"/>terito, 
+            ergo magis debet ista concedi ' semper na<lb ed="#Q"/>scetur ', 
+            quia praeteritum secessit in non-ens, fu<lb ed="#Q"/>turum
+            autem aliquando erit; ergo magis se habet
+            <lb ed="#Q"/>futurum ad ens quam praeteritum; ergo magis
+            <lb ed="#Q"/>conveniet dici 'nascetur' quam 'natus est'".
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4292">
+            <lb ed="#Q"/>Respondeo: I. Dicendum quod aeterna generatio
+            <lb ed="#Q"/>non est in fieri nec in facto esse, sed in esse,
+            <lb ed="#Q"/>quia fieri et factum esse " solum conveniunt crea<lb ed="#Q"/>turis,
+            esse vero semper uno modo convenit di<lb ed="#Q"/>vinis.
+            Tamen cum dico ' esse in fieri ', in creatura
+            <lb ed="#Q"/>duobus modis est: in successivis enim esse in
+            <lb ed="#Q"/>iieri est esse actu, in permanentibus vero esse
+            <lb ed="#Q"/>in fieri non est esse actu sive esse in comple<lb ed="#Q"/>mento;
+            unde et in successivis sequitur: 'si fit,
+            <lb ed="#Q"/>est', in permanentibus: 'si fit, non est' 5. Simi<lb ed="#Q"/>liter
+            'esse in iacto' dicitur dupliciter: nam in
+            <lb ed="#Q"/>successivis 'factum esse' non ponit esse actu in
+            <lb ed="#Q"/>praesenti, sed ponit fuisse in praeterito, in per<lb ed="#Q"/>manentibus
+            vero ponit esse actu in praesenti P.
+            <lb ed="#Q"/>Cum ergo loquimur de aeterna generatione, si
+            <lb ed="#Q"/>loquimur de esse eius per modum fieri, loquimur
+            <lb ed="#Q"/>de ea secundum quod accipitur fieri4 in succes—
+            <lb ed="#Q"/>sivis, et hoc solum ratione praesentialitatis, non
+            <lb ed="#Q"/>ratione successionis. Si loquamur de ipsa per
+            <lb ed="#Q"/>modum' facti esse, loquimur de ipsa per mo<lb ed="#Q"/>dums
+            facti esse in permanentibus, et hoc ratione
+            <lb ed="#Q"/>completionis, non praeteritionis. Ex hoc igitur est '
+            <lb ed="#Q"/>quod inspiciendo" ad praesentialitatem aeterni<lb ed="#Q"/>tatis,
+            diciturV de Filio 'semper nascitur'; inspi<lb ed="#Q"/>ciendox
+            vero ad perfectionem vel completionem,
+            <lb ed="#Q"/>dicitur 'semper natus '. —— Et per hoc patet so<lb ed="#Q"/>lutio
+            ad primo obiectum.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4353">
+            <lb ed="#Q"/>II. Ad illud vero quod consequenter obicitur
+            <lb ed="#Q"/>de ratione dicendi per? praesens et praeteritum,
+            <lb ed="#Q"/>dicendum 7 quod praesens Z dicitur dupliciter: uno
+            <lb ed="#Q"/>modo ut partibile, cuius pars praeteriit, pars futura
+            <lb ed="#Q"/>est; et sic non convenit aeternae generationi, ne
+            <pb ed="#Q" n="437"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>imperfecta esse'credatur et quia nihil est ibi praete<lb ed="#Q"/>ritum
+            vel futurum. Vel potest dici praesens impar<lb ed="#Q"/>tibile,
+            scilicet ipsum 'nunc', quod dicitur finis prae<lb ed="#Q"/>teriti
+            et initium futuri; et sic ratione impartibilitatis
+            <lb ed="#Q"/>et praesentialitatis convenit cum 'nunc' aeterni<lb ed="#Q"/>tatis,
+            et sic recte dicitur 'semper nascitur '. Si<lb ed="#Q"/>militer
+            cum dicitur 'natus', consignificatio esta
+            <lb ed="#Q"/>praeteriti perfecti; ratione praeteritionis non con<lb ed="#Q"/>venit
+            cum aeternitate, sed ratione perfectionis.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4390">
+            <lb ed="#Q"/>III. Ad ultimum dicendum quod, cum verbum
+            <lb ed="#Q"/>futuri temporis non consignificat actu en-s nec
+            <lb ed="#Q"/>perfectum 5, non erit aliquo modo'-' dicere, 10<lb ed="#Q"/>quendo
+            de aeterna generatione, 'semper nasce<lb ed="#Q"/>tur'd,
+            sicut ratione actualitatis est dicere ' na<lb ed="#Q"/>scitur'
+            et ratione perfectionis ' natus est'. Quan<lb ed="#Q"/>tum
+            ergo" ad rationem praeteritionis non dicitur
+            ' natus ', quomodo procedebat obiectio, sed quan<lb ed="#Q"/>tum
+            ad rationem perfectionis.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i2t1q1t1c5-Dd1e4412" type="articulus">
+          <head xml:id="ahsh-l1p1i2t1q1t1c5-Hd1e4414">ARTICULUS III</head>
+          <head xml:id="ahsh-l1p1i2t1q1t1c5-Hd1e4417" type="question-title">Quis modus generationis debeat attribui generationi aeternae.</head>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4420">
+            <lb ed="#Q"/>Consequenter quaeritur quis modus generatio<lb ed="#Q"/>nis
+            debeat attribui aeternae generationi.
+          </p>
+          <p xml:id="ahsh-l1p1i2t1q1t1c5-d1e4427">
+            <lb ed="#Q"/>Et Ariusf, disputans contra Victorinum2 de
+            <lb ed="#Q"/>generatione aeterna, duodecim modos generationisg
+            <lb ed="#Q"/>assignat. Primus modus est iuxta fluxum lineae a
+            <lb ed="#Q"/>puncto: et hic modus non potest attribui aeternae
+            <lb ed="#Q"/>generationi, quia non est ibi " aequalitas simplici<lb ed="#Q"/>tatis
+            in puncto et linea, sicut est in Patre et Filio.
+            <lb ed="#Q"/>Secundus modus est iuxta emissionem radiorum a
+            <lb ed="#Q"/>sole: et hic etiam modus non potest attribui ge<lb ed="#Q"/>nerationi
+            aeternae, quia hic non est aequalitas na<lb ed="#Q"/>turae
+            in radiis genitis a sole. Tertius modus est
+            <lb ed="#Q"/>iuxta caracterem sive impressionem a sigillo: et
+            <lb ed="#Q"/>hic modus non potest attribui, quia sigillum et
+            <lb ed="#Q"/>caracter se habent ut effectus ad causam nec
+            <lb ed="#Q"/>etiam sunt in eadem substantia. Quartus modus
+            <lb ed="#Q"/>est iuxta immissionem! bonae voluntatis a Deo:
+            <lb ed="#Q"/>et hic modus non potest attribui, quia voluntas
+            <lb ed="#Q"/>immissa non est eiusdem substantiae cum Deo.
+            <lb ed="#Q"/>Quintus modus est iuxta exitum accidentis a sub<lb ed="#Q"/>stantia:
+            et hic modus non potest attribui, quia
+            <lb ed="#Q"/>accidens non habet esse per se. Sextus rnodus
+            <lb ed="#Q"/>estk iuxta abstractionem speciei a materia, sicut
+            <lb ed="#Q"/>est in intellectu qui abstrahit' species a phan<lb ed="#Q"/>tasmatibus,
+            et in sensu qui suscipit speciem ge<lb ed="#Q"/>nitam
+            a specie quae est in materia: et hic modus
+            <lb ed="#Q"/>non potest attribui, quia spiritualior est species
+            <lb ed="#Q"/>abstracta et simplicior; praeterea, in diversis sunt
+            <lb ed="#Q"/>subiectisf". Septimus modus est iuxta excitationem
+            <lb ed="#Q"/>voluntatis a cogitatione, ut voluntas excitatur ad
+            <lb ed="#Q"/>desiderium per bonam cogitationem: et hic modus
+            <lb ed="#Q"/>non potest attribui, quia huiusmodi excitatio est 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>temporalis. Octavus modus est iuxta transfigura<lb ed="#Q"/>tionem,
+            ut cum ex aere iit aliqua imago: et hic
+            <lb ed="#Q"/>modus non potest attribui, quia est materialis,
+            <lb ed="#Q"/>quod nullo modo convenit divinis. Nonus modus
+            <lb ed="#Q"/>est iuxta productionem motus a causa movente:
+            <lb ed="#Q"/>et hic modus non potest attribui, quia iste mo<lb ed="#Q"/>dus"
+            est productio effectus a causa. Decimus
+            <lb ed="#Q"/>modus est iuxta eductionem specierum a genere,
+            <lb ed="#Q"/>in quantum genus est principium suarum" spe-.
+            <lb ed="#Q"/>cierum: et hic modus non potest attribui, quia est
+            <lb ed="#Q"/>velut modus materialis, quia etiam genus de specie
+            <lb ed="#Q"/>praedicatur, quod non potestP de Filio Pater.
+            <lb ed="#Q"/>Undecimus modus est iuxta ideationem 3, ut area
+            <lb ed="#Q"/>exterior generatur ab arca in mente, quae est.ars
+            <lb ed="#Q"/>exemplaris: et hic modus non potest attribui, quia
+            <lb ed="#Q"/>est in comparatione effectus ad causam. Duode<lb ed="#Q"/>cimus
+            modus est iuxta nascentiam, ut homo 4 fi<lb ed="#Q"/>lius
+            nascitur a patre suo: et hic modus non potest
+            <lb ed="#Q"/>attribui, quia prior est tempore pater filio, non
+            <lb ed="#Q"/>coaevus; non sic autem est in divinis, immo est
+            <lb ed="#Q"/>coaeternitas in personis divinis; praeterea, n0n
+            <lb ed="#Q"/>est eadem numero humanitas patris et filii; item,
+            <lb ed="#Q"/>de parte ipsius substantiae patris est filius homo ',
+            <lb ed="#Q"/>non de tota substantia generatur filius. Cum ergo
+            <lb ed="#Q"/>sint isti modi generationis et non plures, et nullus
+            <lb ed="#Q"/>istorum conveniat aeternae generationi, videtur
+            <lb ed="#Q"/>quod non debeat dici nec sit generatio aetema.
+            <lb ed="#Q"/>Respondeo: Secundum Victorinum 4 non
+            <lb ed="#Q"/>sufficienter divisi sunt modi, quia aeterna gene<lb ed="#Q"/>ratio
+            est improportionalis omni generationi tem<lb ed="#Q"/>porali.
+            Unde notandum est, secundum quod di<lb ed="#Q"/>citur
+            ad Hebr. 1,3: Quis cum sit splendor gla<lb ed="#Q"/>riae
+            * etc., Glossa5: « Attendendum" quod cum
+            <pb ed="#Q" n="438"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>in igne et splendore sit coaevitas, non tamen ibi
+            <lb ed="#Q"/>est" omnimoda aequalitas, quia splendor, qui fun<lb ed="#Q"/>ditur 
+            de igne, minus lucet quam ignis. Undeb 
+            <lb ed="#Q"/>cum dicitur 'talis est Filius ad Patrem qualis 
+            ad ignem ', non omnino est verum, sed 
+            aequalitas omnimoda est hic. Ex aliorum enim 
+            <lb ed="#Q"/>proportione temporalium, quorum alterum est ex 
+            <lb ed="#Q"/>altero, etsi non coaevum, tamen consubstantiale <!--0-->, 
+            <lb ed="#Q"/>Filius Patri consubstantialis ostenditur. Cum enim 
+            <lb ed="#Q"/>homo nasciturde homine, eiusdem substantiae sunt, 
+            <lb ed="#Q"/>diversaed tamen tempore ; hic laudatur aequalitas 
+            <lb ed="#Q"/>substantiae, deest vero aequalitas temporis. In
+            prima vero similitudine splendoris et ignis lau<lb ed="#Q"/>datur 
+            coaevitas, deest vero aequalitase naturae.
+            Coniunge quod laudas et attribue generationi ae<lb ed="#Q"/>ternae: 
+            ex prima similitudine pro coaevitate coae<lb ed="#Q"/>aequalitas
+            ternitatem, ex secunda similitudine naturae aequa<lb ed="#Q"/>litatem; 
+            totum quod laudabile est in creaturis,
+            <lb ed="#Q"/>quibus aliquid deest, simul est in Creatore, cui
+            <lb ed="#Q"/>nihil deest». Unde modus generationis aeternae
+            <lb ed="#Q"/>non accipitur ab uno modo tantum generationis
+            <lb ed="#Q"/>in creaturis, sed ex pluribus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. I, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="75"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t3m1c4">
+        <head xml:id="ahsh-l1p1i1t2q3t3m1c4-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. I, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t2q3t3m1c4-Hd1e3732" type="question-title">DE MODIS ASSIGNANDI DlSTlNCTIONEM ISTORUM MODORUM</head>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3735">
+          <lb ed="#Q"/>Quarto quaeritur de modis c assignandi distinc<lb ed="#Q"/>tionem 
+          istorum modorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3742">
+          <lb ed="#Q"/>I. Primus modus assignandi distinctionem ta<lb ed="#Q"/>lis
+          est: Deus comparatur ad res ut dans esse rebus,
+          <lb ed="#Q"/>ut regens res et ut cognoscens. In quantum com<lb ed="#Q"/>paratur
+          ad res ut cognoscens, praesentialiter di<lb ed="#Q"/>citur
+          esse in rebus; in quantum dans esse, po<lb ed="#Q"/>tentialiter;
+          in quantum regens, essentialiter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3758">
+          <lb ed="#Q"/>Sed contra istam distinctionem sic " obicitur:
+          <lb ed="#Q"/>In hoc quod Deus cognoscit res, magis dicuntur
+          <lb ed="#Q"/>res esse in ipso quam e converso secundum istum
+          <lb ed="#Q"/>modum assignandi; ergo nullus est modus distin<lb ed="#Q"/>guendi
+          modos istos.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3772">
+          <lb ed="#Q"/>Secundus modus distinguendi est secundum
+          <lb ed="#Q"/>quod dicit Dionysius ', quod tribus modis ex<lb ed="#Q"/>eunt
+          res a Deo, scilicet per ' processionem essen<lb ed="#Q"/>tialem,
+          vitalem, cognoscibilem. Et iterum 2: « Quae
+          <lb ed="#Q"/>exeunt per processionem cognoscibilem, exeunt
+          <lb ed="#Q"/>tribus modis, scilicet per processionem sensua<lb ed="#Q"/>lemf,
+          rationalem et intelligibilem ., ln quantum
+          <lb ed="#Q"/>exeunt res ab ipso per processionem essentialem,
+          <lb ed="#Q"/>dicitur esse essentialiter; in quantum vero per
+          <lb ed="#Q"/>processionem vitalem, cum vita sit motus per<lb ed="#Q"/>fectus
+          3, dicitur esse in rebus potentialiter; in
+          <lb ed="#Q"/>quantum vero res exeunt ab ipso per processio<lb ed="#Q"/>nem
+          cognoscibilem, sic facit se praesentem in
+          <lb ed="#Q"/>rebus et sic dicitur esse in rebus praesentialiter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3805">
+          <lb ed="#Q"/>Sed contra: Si sic esset, ergo Deus in rebus
+          <lb ed="#Q"/>entibus tantum, quae non vivunt nec cognoscunt,
+          <lb ed="#Q"/>non esset illis tribus modis, sed solum uno modo,
+          <lb ed="#Q"/>scilicet essentialiter; quod est falsum, cum in om—
+          <lb ed="#Q"/>nibus rebus sit illis tribus modis praedictis; et
+          <lb ed="#Q"/>ita nulla est assignatio ista.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3821">
+          <lb ed="#Q"/>Tertius modus distinguendi talis est: Nos
+          <lb ed="#Q"/>Videmus in rebus creatis quod alicubi est res per
+          <lb ed="#Q"/>potentiam, ubi non est per praesentiam vel per
+          <lb ed="#Q"/>essentiam, sicut rex in toto regno 4. Item, alicubi
+          <lb ed="#Q"/>est res per praesentiam, ubi non est per poten<lb ed="#Q"/>tiam,
+          sicut rex extra regnum suum. Item, alicubi 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>est per essentiam, ubi non est per potentiam".
+          <lb ed="#Q"/>Ut ergo ostendatur in Deo perfectus modus es—
+          <lb ed="#Q"/>sendi" respectu creaturarum, dicitur Deus esse in
+          <lb ed="#Q"/>omnibus rebus istis tribus modis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3847">
+          <lb ed="#Q"/>Sed contra: Iste rnodus distinguendi non dis<lb ed="#Q"/>tinguit
+          praesentiam ab essentia, quia ubicumque
+          <lb ed="#Q"/>est praesentialiter, est' essentialiter; ergo secun<lb ed="#Q"/>dum
+          istum modum idem est ' praesentialiter ' et
+          ' essentialiter'; quod est inconveniens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3858">
+          <lb ed="#Q"/>Quartus modus distinguendi est quod haec
+          <lb ed="#Q"/>tria respiciunt essentiam, virtutem et operationem:
+          <lb ed="#Q"/>secundum quae tria est vestigium Trinitatis in crea—
+          <lb ed="#Q"/>turis, ut dicatur quod essentialiter est in essentia,
+          <lb ed="#Q"/>potentialiter in virtute, praesentialiter in operatione.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3871">
+          <lb ed="#Q"/>Contra: Constat quod praesentiak Dei non
+          <lb ed="#Q"/>abest essentiae rei, nec potentia, similiter nec es<lb ed="#Q"/>sentia'
+          ; ergo in essentia rei'" est potentialiter,
+          <lb ed="#Q"/>praesentialiter, essentialiter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3883">
+          <lb ed="#Q"/>[Solutio]: Quod concedendum est. Et dicendum,
+          <lb ed="#Q"/>sicut prius 5, quod isti modi respiciunt essentiam,
+          <lb ed="#Q"/>virtutem et operationem Creatoris, quae quamvis
+          <lb ed="#Q"/>in Deo non differant re, differunt tamen in ratione
+          <lb ed="#Q"/>intelligentiae, sicut supra dictum est 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3896">
+          <lb ed="#Q"/>II. Iuxta hoc quaeritur: Cum Deus sit in rebus
+          <lb ed="#Q"/>essentialiter, praesentialiter, potentialiter, utrum
+          <lb ed="#Q"/>e converso creaturae sint in Deo essentialiter,
+          <lb ed="#Q"/>praesentialiter, potentialiter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3907">
+          <lb ed="#Q"/>Respondeo: Res sunt in Deo praesentialiter;
+          <lb ed="#Q"/>quia in eius cognitione; potentialiter, quia in eo
+          <lb ed="#Q"/>sicut in causa; sed essentialiter non sunt in ipso,
+          <lb ed="#Q"/>quia secundum hoc intelligeretur divina essentia
+          <lb ed="#Q"/>dependere ab essentia creaturae; quod non est
+          <lb ed="#Q"/>verum: causa enim non dependet a causato ut
+          <lb ed="#Q"/>sit, sed e converso. Unde esse creaturae ponit esse
+          causae necessarium ad suum esse, sed non e con<lb ed="#Q"/>verso. 
+          Unde essentialiter est Deus in rebus, quia
+          <lb ed="#Q"/>eius esse necessarium est ad esse rerum, sed non e
+          <lb ed="#Q"/>converso sunt" res in Deo essentialiter, quia essen<lb ed="#Q"/>tia
+          rerum " non est necessaria Deo ad hoc ut sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

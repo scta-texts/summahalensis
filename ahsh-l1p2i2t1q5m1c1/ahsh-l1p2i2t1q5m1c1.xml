@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 5, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-21">April 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-21" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="550"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q5m1c1">
+        <head xml:id="ahsh-l1p2i2t1q5m1c1-Hd1e118">I, P. 2, Inq. 2, Tract. 1, Q. 5, M. 1, C. 1</head>
+        <head xml:id="ahsh-l1p2i2t1q5m1c1-Hd1e121" type="question-title">UTRUM HAEC NOMINA SIGNIFICENT ESSENTIAM ET CDNVENIANT DEO AB AETERNO.</head>
+        <!-- q 5 prae -->
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e126">
+          Restat, opitulante divina gratia, inquirere de nominibus esssentialibus, quae sunt
+          <lb ed="#Q"/>nomina habitudinis sive respectiva, quae est quinta differentia secundum
+          <lb ed="#Q"/>Damascenum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e133">
+          <lb ed="#Q"/>Horum omnium est differentia: name quaedam sunt quae dicunt sive connotant
+          <lb ed="#Q"/>respectum personae ad personam, ut 'aequalitas, similitudo ,; quaedam vero reSpectum
+          <lb ed="#Q"/>ad creaturam, 'ut Dominus f, Creator '. Item, connotantium respectum ad creaturam
+          <lb ed="#Q"/>quaedam connotant respectum tantum, ut 'Dominus '; quaedam respectum et effectum,
+          <lb ed="#Q"/>ut 'Creator et misericors'.
+        </p>
+        <!--end q 5 prae -->
+        <!-- begin q5 m1 prae -->
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e151">
+          <lb ed="#Q"/>Quaeritur circa haec nomina: 
+          <lb ed="#Q"/>Primo, utrum significent essentiam et con<lb ed="#Q"/>veniant
+          Deo ab aeterno;
+          <lb ed="#Q"/>secundo, utrum Deus omnium rerum sit Do<lb ed="#Q"/>minus
+          ex tempore ;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>tertio, utrum dominium et huiusmodi respectus
+          <lb ed="#Q"/>sint creata vel increata<!--g--> ;
+          <lb ed="#Q"/>quarto, utrum reSpectus connotatus sit in Crea—
+          <lb ed="#Q"/>tore vel creatura.
+        </p>
+        <!-- c 1 -->
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e179">
+          <lb ed="#Q"/>Ad primum Sieg: 1. Augustinus3: « Cum
+          <lb ed="#Q"/>A quaeritur cuius rei ab aeterno fuit Dominus,
+          <lb ed="#Q"/>si creatura non fuit ab aeterno ", non audeo prae<lb ed="#Q"/>cipitarei
+          sententiam; nam et me ipsum intueor et
+          <lb ed="#Q"/>recolo scriptum esse4: Quis potest scire consi<lb ed="#Q"/>lium
+          Domini aut quis potest cogitare quid velit
+          <cb ed="#Q" n="b"/>
+          Dominus?» Ergo ipse ab aeterno fuit Dominus
+          <lb ed="#Q"/>alicuius rei; ergo ex tempore non convenit ei.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e199">
+          <lb ed="#Q"/>2. Item, 'Dominus, est illi nomen essentiale;
+          <lb ed="#Q"/>ergo ipsum significat essentiam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e206">
+          <lb ed="#Q"/>3. Item, Ambrosius5 dicit quod « 'Deus' est
+          <lb ed="#Q"/>nomen naturae, ' Dominus' nomen potestatis »; sed
+          <pb ed="#Q" n="551"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>potestas nihil aliud 'est quam essentia; ergo hoc
+          <lb ed="#Q"/>nomen ' Dominus ' " significat essentiam; ergo hoc
+          <lb ed="#Q"/>nomen ' Dominus ' non convenit Deo ex tempore,.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e224">
+          <lb ed="#Q"/>Contra: a. Augustinus1 dicit quod « haec
+          <lb ed="#Q"/>relativa appellatio 'Dominus' est Deo ex tem<lb ed="#Q"/>pore
+          ». Ergo convenit ei ex tempore.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e234">
+          <lb ed="#Q"/>b. Item, « si quis cogitet et dicat quod Deus non
+          <lb ed="#Q"/>fuit Dominus ex tempore, quia non fuit prius
+          <lb ed="#Q"/>tempus quam esset Dominus, et certe ipse coepit
+          <lb ed="#Q"/>esse Dominus temporis, et certe ut meus esset
+          <lb ed="#Q"/>Dominus vel tuus ex tempore incepit esse ». Ergo
+          <lb ed="#Q"/>hoc nomen 'Dominus, non convenit eic ab ae<lb ed="#Q"/>terno.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e252">
+          <lb ed="#Q"/>Respondeo : 2-3. l-loc nomen ' Dominus* quando<lb ed="#Q"/>que
+          absolute ponitur et tunc notat essentiam tan<lb ed="#Q"/>tum
+          et ab aeterno convenit Deo; quandoque '1 re—
+          <lb ed="#Q"/>spective et tunc ** principaliter significat essentiam
+          <lb ed="#Q"/>et secundario relationem, et est sensus: ' Deus est
+          <lb ed="#Q"/>Dominus ', id estf 'Deus est Deus cui creatura
+          <lb ed="#Q"/>subiecta est'. Similiter haec vocabula 'Creator*
+          <lb ed="#Q"/>etg similia principaliter essentiam significant et
+          <lb ed="#Q"/>secundario correlationemh quae inest creaturae.
+          <lb ed="#Q"/>Est enim sensus: 'Deus est Creator, Deus est
+          <lb ed="#Q"/>Deus a quo incipit esse creatura *.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e278">
+          <lb ed="#Q"/>Sed si inferatur: hoc ergo vocabulum "Crea<lb ed="#Q"/>tor'
+          ab aeterno convenit Deo - non sequitur:
+          <lb ed="#Q"/>nam destruere facilius est quam construere om<lb ed="#Q"/>nino
+          1", ut dicit Aristotelesz. Ad hoc enim ut
+          <lb ed="#Q"/>sim homo albus, necessaria sunt duo, scilicet ut
+          <lb ed="#Q"/>sim homo et ut sim albus; et ad hoc ut non sim
+          <lb ed="#Q"/>homo albus, sufficit ut non sim albus. A simili
+          <lb ed="#Q"/>dico quod ad hoc ut Deus sit Creator, duo sunt
+          <lb ed="#Q"/>necessaria, scilicet ut sit Deus et ut ab ipso
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>incipiat esse creatura; sed ad hoc ut .non sit
+          <lb ed="#Q"/>Creator, sufficit ut ab eo non sit creatura.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e307">
+          <lb ed="#Q"/>Instantia'f : Deus non semper erit praescius
+          <lb ed="#Q"/>huius rei; ergo hoc nomen 'praescius' non si<lb ed="#Q"/>gnificat
+          divinam naturam? Sicut enim ad hoc ut
+          <lb ed="#Q"/>vocabulum significet divinam naturam non exi<lb ed="#Q"/>gitur
+          ut semper conveniat ut in futuro, et hoc'
+          <lb ed="#Q"/>consignificatione faciente, ita'" non exigitur ut
+          <lb ed="#Q"/>semper conveniat" significatione faciente ".
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e325">
+          <lb ed="#Q"/>1. AdP illud quod dicit Augustinus, quod
+          <lb ed="#Q"/>non audet praecipitare sententiam: dicimus quod
+          <lb ed="#Q"/>tunc non audebat, sed post fecit 3. Haec est sen<lb ed="#Q"/>tentia
+          Praepositini.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q5m1c1-d1e336">
+          <lb ed="#Q"/>Sed quia<!--q--> videbitur alicui quod hoc nomen
+          ' Dominus 7 nunquam significet absolute, sed sem<lb ed="#Q"/>per
+          respective -— unde Augustin us, V De Tri<lb ed="#Q"/>nitate4:
+          « Creator relative dicitur ad creaturam,
+          <lb ed="#Q"/>sicut dominus ad servum » — non videbitur con<lb ed="#Q"/>
+          <lb ed="#Q"/>venire Deo ab aeterno; unde Augustinus, in
+          <lb ed="#Q"/>eodem5: « Dominus non dicitur nisi cum habere
+          <lb ed="#Q"/>incipit servum, unde ista appellatio relativa ex
+          <lb ed="#Q"/>tempore est Deo». Respondeo: Dicendum quod
+          <lb ed="#Q"/>hoc nomen 'Dominus' semper accipitur respec<lb ed="#Q"/>tive,
+          sed hoc duobus modis: nam' potest notari
+          <lb ed="#Q"/>respectus in habitu vel in actu. Si in habitu: sic
+          <lb ed="#Q"/>convenit Deo ab aeterno quod est Dominus, id <lb ed="#Q"/>est
+          dominabilis sive potens coercere subditos, et
+          <lb ed="#Q"/>est sensus: ' Deus est Dominus ,, id est Deus est
+          <lb ed="#Q"/>Deus cui subicibilis est creatura, sive sit sive
+          <lb ed="#Q"/>non sit. Si in actu: convenit ex tempore et idem
+          <lb ed="#Q"/>est *Dominus' quod 'Dominator ', et est seu<lb ed="#Q"/>sus
+          8: * Deus est Dominus ', id est Deus est Deus
+          <lb ed="#Q"/>cui subiecta est creatura.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

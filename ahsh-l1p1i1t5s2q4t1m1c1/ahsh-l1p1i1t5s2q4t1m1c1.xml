@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 1, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-14">March 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+        <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-14" status="draft" n="0.0.0">
+        <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="315"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t1m1c1">
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m1c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. I, M. 1, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m1c1-Hd1e3744" type="question-title">QUID SIT PRAEDESTINATIO SECUNDUM NOMEN.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c1-d1e3747">
+          <lb ed="#Q"/>Ad primum sic: Dicitur1 quod salvandi sunt 
+          <lb ed="#Q"/>praedestinati et dilecti 8, Malach. i,2: Iacob 
+          <lb ed="#Q"/>dilexi, etc., et sunt electi, unde Rom. 11,5: Se<lb ed="#Q"/>lectionem 
+          reliquiae salvae fient, et etiam <lb ed="#Q"/>pore; 
+          <lb ed="#Q"/>sunt vocati, iustificati, magnificati, ad Rom. 8,30:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t5s2q4t1m1c1-Qd1e3763" ana="#rom8_30">Quos praedestinavit</quote> etc. Praedestinatio est ab ae<lb ed="#Q"/>terno, 
+          vocatio, iustificatio et magnificatio ex tem<lb ed="#Q"/>cundum
+          Dilectio dicitur ab aeterno, Malach. 1,2, et
+          <pb ed="#Q" n="316"/>
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>ex tempore, Ioan. 14, 21: <quote xml:id="ahsh-l1p1i1t5s2q4t1m1c1-Qd1e3777" ana="#io14_21">Qui diligit me, diligetur
+          <lb ed="#Q"/>a Patre meo</quote>. Similiter electio aeterna, Matth. 20,16:
+          <lb ed="#Q"/>Pauci electi, et ex tempore, Ioan. 6, 71 : Nonne duo<lb ed="#Q"/>decim
+          vos elegi? etc., sic enim Iudas electus fuit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c1-d1e3787">
+          <lb ed="#Q"/>Quaeritur unde hoc ", scilicet quod praedesti<lb ed="#Q"/>natio
+          semper est aeterna," dilectio et electio ae<lb ed="#Q"/>terna
+          et temporalis 1, vocatio vero et iustificatio
+          <lb ed="#Q"/>et magnificatio tantum temporalis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c1-d1e3798">
+          <lb ed="#Q"/>Respondeo<!--2-->: In nomine praedestinationis duo
+          <lb ed="#Q"/>sunt: antecessio et destinatio, et in destinatione
+          <lb ed="#Q"/>tria: oportet enim quod sit'? alicuius et de ali<lb ed="#Q"/>quo
+          et ad aliquid. Et ideo in praedestinatione
+          <lb ed="#Q"/>sunt tria: unum ut principium, scilicet 'praepa<lb ed="#Q"/>ratio
+          ', a quo est; quod dicitur ' gloriae in futuro ,,
+          <lb ed="#Q"/>dicit ut terminum ad quem est; quod dicitur ' gra<lb ed="#Q"/>tiae
+          in praesenti ', dicit ut medium per quod " est;
+          <lb ed="#Q"/>destinatio ergo dicitur ex tempore; sed praede<lb ed="#Q"/>stinatio
+          ratione antecessionis est aeterna: haec
+          <lb ed="#Q"/>enim praepositio ' prae ' dicit antecessionem aeter<lb ed="#Q"/>nitatis
+          ad tempus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c1-d1e3830">
+          <lb ed="#Q"/>Notanda ergo est differentia aliter quam prius,
+          <lb ed="#Q"/>secundum quod" haec nomina respiciunt gra<lb ed="#Q"/>tiame;
+          nam salvandi ab aeterno dicuntur prae<lb ed="#Q"/>destinati,
+          similiter dilecti et electi: nam praede<lb ed="#Q"/>stinatio
+          est gratiae, similiter dilectio et electio;
+          <lb ed="#Q"/>gratia autem primo datur, postea habetur, postea
+          <lb ed="#Q"/>ipsa aliquis utitur. Praedestinatio autem respicit
+          <lb ed="#Q"/>quod conferatur gratia: quod notatur, cum dici<lb ed="#Q"/>turf
+          ' praeparatio gratiae '. Dilectio respicit gra<lb ed="#Q"/>tiam
+          habitam: bonum enim est ratio dilectionis;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>cum ergo Deus diligit hunc, videtur aliquod bo<lb ed="#Q"/>numg
+          in eo, ratione cuius Deus diligit ipsum; .
+          <lb ed="#Q"/>unde etiam dicitur gratia gratum faciens. Electio
+          <lb ed="#Q"/>vero dicitur secundum duos modos: uno modo,
+          <lb ed="#Q"/>ut connoteth effectum separationis boni a malo,
+          <lb ed="#Q"/>et hoc modo prior est intentio electionis inten<lb ed="#Q"/>tione
+          dilectionis; alio modo, ut connotet effectum
+          <lb ed="#Q"/>assumptionis a minus bono ad melius, et hoc
+          <lb ed="#Q"/>modo sequitur intentio electionis intentionem di<lb ed="#Q"/>lectionis.
+          Electio vero connotat usum gratiae:
+          <lb ed="#Q"/>« electio enim est de duobus oppositis alterum
+          <lb ed="#Q"/>praeoptare "3 » ; unde etiam respicit usum liberi ar<lb ed="#Q"/>bitrii.
+          -— Item, differunt vocatio, iustificatio et
+          <lb ed="#Q"/>magnificatio: quia non est nisi bonum gratiae et
+          <lb ed="#Q"/>gloriae, magnificatio est respectu gloriae, vocatio
+          <lb ed="#Q"/>et iustificatio respectu gratiae. Sed gratia 'i habet
+          <lb ed="#Q"/>duos effectus: unum revocare a malo, quod di<lb ed="#Q"/>citur
+          vocatio; alium ordinare ad bonum, quod
+          <lb ed="#Q"/>dicitur iustificatio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c1-d1e3898">
+          <lb ed="#Q"/>Si ergo quaeritur quare praedestinatio est' so<lb ed="#Q"/>lum
+          aeterna, dilectio et electio aeterna et tempo<lb ed="#Q"/>ralis,
+          vocatio et iustificatio ex tempore: dico quod
+          <lb ed="#Q"/>praedestinatio dicit approbationem Dei aeternam,
+          <lb ed="#Q"/>secundum quod est respectu boni, etiam ante
+          <lb ed="#Q"/>omne tempus; dilectio autem et electio dicunt di<lb ed="#Q"/>vinam
+          approbationem, sed non determinant eam
+          <lb ed="#Q"/>utrum boni ab aeterno vel ex tempore; vocatio
+          <lb ed="#Q"/>et iustificatio determinant divinam approbationem
+          <lb ed="#Q"/>vel'" voluntatem respectu boni secundum quod
+          <lb ed="#Q"/>confertur in tempore.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

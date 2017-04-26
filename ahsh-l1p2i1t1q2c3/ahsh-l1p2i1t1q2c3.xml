@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 1, Tract. 1, Q. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-14">April 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-14" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="502"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i1t1q2c3">
+        <head xml:id="ahsh-l1p2i1t1q2c3-Hd1e118">I, P. 2, Inq. 1, Tract. 1, Q. 2, C. 3</head>
+        <head xml:id="ahsh-l1p2i1t1q2c3-Hd1e121" type="question-title">AN IN DEO SIT ACCIPERE INTENTIONES PRAEDICAMENTORUM SUBSTANTIAE ET RELATIONIS.</head>
+        <p xml:id="ahsh-l1p2i1t1q2c3-d1e124">
+          <lb ed="#Q"/>Tertio quaeritur an in Deo sit accipere inten<lb ed="#Q"/>tiones
+          praedicamentorum substantiae et rela<lb ed="#Q"/>tionis.
+          Et quaeritur in hunc modum:
+          <lb ed="#Q"/>Primo, an intentionem substantiae sit accipere
+          <lb ed="#Q"/>in divinis;
+          <lb ed="#Q"/>secundo, an omnia accipiantur in divinis se<lb ed="#Q"/>cundum
+          intentionem substantiae;
+          <lb ed="#Q"/>tertio, supposito quod non, an in divinis sit
+          <lb ed="#Q"/>accipere, praeter intentionem substantiae, intentio<lb ed="#Q"/>nem
+          relationis.
+        </p>
+        <div xml:id="ahsh-l1p2i1t1q2c3-Dd1e148" type="articulus">
+          <head xml:id="ahsh-l1p2i1t1q2c3-Hd1e150">ARTICULUS I</head>
+          <head xml:id="ahsh-l1p2i1t1q2c3-Hd1e153" type="question-title">An intentionem substantiae sit accipere in divinis.</head>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e156">
+            <lb ed="#Q"/>Ad. primum: 1.Augustinus, V De Trinitate-2:
+            « Quidquid Deus ad se ipsum dicitur, secundum
+            <lb ed="#Q"/>substantiam dicitur ». Ergo in divinis accipitur
+            <lb ed="#Q"/>modus dicendi secundum praedicamentum sub<lb ed="#Q"/>stantiae.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e167">
+            <lb ed="#Q"/>2.ltem, in eodem, Augustinus3: « Est" sine
+            <lb ed="#Q"/>dubitatione substantia, vel, si melius appellatur,
+            <lb ed="#Q"/>essentia, quam Graeci usiam vocant».
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e176">
+            <lb ed="#Q"/>3. Item, ratio substantiae est ens per se b 4; sed
+            <lb ed="#Q"/>Deo maxime convenit ens per se; ergo maxime
+            <lb ed="#Q"/>eia convenit nomen substantiae.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e186">
+            <lb ed="#Q"/>Contra,: a. Augustinus, VII libro De Trini<lb ed="#Q"/>tate5:
+            «Nefas est dicere ut subsistat Deus et
+            <lb ed="#Q"/>subsit bonitati suae atque illa bonitas non sub<lb ed="#Q"/>stantia
+            sit, sed in illo sit tamquam in subiecto.
+            <lb ed="#Q"/>Unde manifestum est Deum abusive substantiam
+            <lb ed="#Q"/>dici d ».
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e202">
+            <lb ed="#Q"/>b. Item, idem, in eodem: « Res mutabiles neque
+            <lb ed="#Q"/>simplices proprie dicuntur substantiae; Deus au<lb ed="#Q"/>tem
+            si subsistit, ut substantia proprie dici possit,
+            <lb ed="#Q"/>inest in eo aliquid tamquam in subiecto et non
+            <lb ed="#Q"/>est simplex »: quod est falsum 2. Relinquitur igi<lb ed="#Q"/>tur
+            quod non dicitur in eo substantia proprie.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e218">
+            <lb ed="#Q"/>c. Item, Boethius, in libro De Trinitateöz
+            « Deusinon est substantia, sed supra omnem
+            <lb ed="#Q"/>substantiam est ponendus ».
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e225">
+            <lb ed="#Q"/>Respondeo: Substantia dicitur dupliciter: vel
+            <lb ed="#Q"/>a proprietate substandi formae vel accidenti7:
+            <lb ed="#Q"/>sic. non potest Deus dici substantia, quia nec est
+            <lb ed="#Q"/>in eo accidens cui subsistat, vel forma quae dit<lb ed="#Q"/>feratf
+            a substantia; vel a per se existendo, ut di<lb ed="#Q"/>caturg
+            substantia ens per seh non indigens alio
+            <lb ed="#Q"/>ut sit: sic dicitur de Deo.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e243">
+            <lb ed="#Q"/>Ad obiecta ergo respondendum ', secundum
+            <lb ed="#Q"/>Dio ny siu rn, De mystica theologia B ; dicit enim:
+            «In ipsa oportet omnium existentium affirmare
+            <lb ed="#Q"/>positiones velut omnium causas, et omnes eas
+            <lb ed="#Q"/>potentius negare, tamquam super omnia existente,
+            <lb ed="#Q"/>et non existimare depulsiones oppositas esse in<lb ed="#Q"/>tentionibus
+            ». Ex quo derelinquitur quod conve<lb ed="#Q"/>nienter
+            dicitur 'Deus est substantia' et 'Deus
+            <lb ed="#Q"/>non est substantia'. Nam sik ipsa accipiatur ab
+            <lb ed="#Q"/>eo quod est ' sub", quod a materia est, non di<lb ed="#Q"/>cetur
+            substantia; si vero ratione eius quod est
+            'esse per se et causaliter ', dicetur substantia.
+            <lb ed="#Q"/>Et ita non erit negatio opposita affirmationi.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i1t1q2c3-Dd1e270" type="articulus">
+          <head xml:id="ahsh-l1p2i1t1q2c3-Hd1e272">ARTICULUS II.</head>
+          <head xml:id="ahsh-l1p2i1t1q2c3-Hd1e275" type="question-title">An omnia accipiantur in divinis secundum intentionem substantiae.</head>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e278">
+            <lb ed="#Q"/>Consequenter quaeritur utrum quidquid dicitur
+            <lb ed="#Q"/>in divinis, dicatur secundum intentionem sub<lb ed="#Q"/>stantiae.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e287">
+            <lb ed="#Q"/>Ad quod 1. ponit obiectionem Arianorum Au<lb ed="#Q"/>gustinus,
+            V De Trinitate 9: « Quidquid de Deo
+            <lb ed="#Q"/>dicitur vel intelligitur, non secundum accidens,
+            <lb ed="#Q"/>sed secundum substantiam dicitur. Quapropter
+            'ingenitum esse' Patrim secundum substantiam
+            <lb ed="#Q"/>est, et ' genitum esse' Filio" secundum substan—
+            <lb ed="#Q"/>tiam est"; diversa est ergo substantia Patris
+            <lb ed="#Q"/>et Filii». Contra quos ex eadem propositione
+            <lb ed="#Q"/>obicit Augustinus: «Si quidquid de Deo di<lb ed="#Q"/>citur,
+            secundum substantiam dicitur, ergo quod
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>dictum est 10 : Ego et Pater unum sumus, secundum
+            <lb ed="#Q"/>substantiam dictum est; una igitur est substantia
+            <lb ed="#Q"/>Patris et Filii». — Sed tamen obicitur:
+            <lb ed="#Q"/>omne quod dicitur de aliquo, aut dicitur secun<lb ed="#Q"/>dum
+            substantiam aut secundum accidens"; si
+            <lb ed="#Q"/>ergo deP Deo nihil dicitur secundum accidens,
+            <lb ed="#Q"/>ergo quidquid de Deo 4 dicitur, dicitur secundum
+            <lb ed="#Q"/>substantiam.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e329">
+            <lb ed="#Q"/>2. Item, immediata est oppositio: omne quod
+            <lb ed="#Q"/>est aut est ens per se aut non ens per se, sed
+            <lb ed="#Q"/>ens in alio; sed omne non ens per se, sed in
+            <lb ed="#Q"/>alio, est accidens, omne ens per se, non in
+            <lb ed="#Q"/>alio, est substantia; immediata igitur est oppo<lb ed="#Q"/>sitio
+            entis quod est substantia et entis quod est
+            <pb ed="#Q" n="504"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>accidens. Si ergo in Deo nihil est vel intelligitur
+            <lb ed="#Q"/>quod sit ens secundum accidens, ergo quidquid
+            <lb ed="#Q"/>est vel intelligitur vel dicitur de" Deo, dicitur ut
+            <lb ed="#Q"/>ens substantia.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e359">
+            <lb ed="#Q"/>3. Item, Boethius, in libro De Trinitate 1,
+            <lb ed="#Q"/>dicit quod praedicamenta, quae sunt secundum
+            <lb ed="#Q"/>accidens, «cum quis in divinam praedicationem
+            <lb ed="#Q"/>verterit, cuncta mutantur quae praedicari pos<lb ed="#Q"/>sunt
+            ». Quaeritur ergo:"aut praedicamentum re<lb ed="#Q"/>lationis
+            cum assumitur ad divinam praedicatio<lb ed="#Q"/>nem,
+            ut cum 0 dicitur ' Deus est Pater' aut ' Deus
+            <lb ed="#Q"/>est generans ', aut manet in ratione propria aut
+            <lb ed="#Q"/>mutatur. Si manet: sede in ratione propria est
+            <lb ed="#Q"/>accidens; ergo de Deo diceretur aliquid secun<lb ed="#Q"/>dum
+            accidens: quod est falsum. Si mutatur: ergo
+            <lb ed="#Q"/>sicut alia mutantur in praedicamentum substan<lb ed="#Q"/>tiae,
+            ut cum dicitur 'Deus magnus ', praedicatur
+            <lb ed="#Q"/>magnitudo secundum substantiam, cum diciturd
+            'Deus bonus', bonitas secundum substantiam?;
+            <lb ed="#Q"/>ergo 'ad aliquid', dictumf de Deo, mutabitur in
+            <lb ed="#Q"/>substantiam.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e396">
+            <lb ed="#Q"/>Contra: a. Damascenuszz « Pater et Filius
+            <lb ed="#Q"/>non sunt nomina significantia substantiam, sed
+            <lb ed="#Q"/>habitudinesg ad invicem et significant existentiae
+            <lb ed="#Q"/>modum ». Relinquitur igitur, cum Pater et Filius
+            <lb ed="#Q"/>dicantur in Trinitate et non significent substan<lb ed="#Q"/>tiam,
+            quod non quidquid dicitur in Trinitate, di<lb ed="#Q"/>citur
+            secundum substantiam.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e414">
+            <lb ed="#Q"/>b. Item, Augustinus, V De Trinitate3: « Illud
+            <lb ed="#Q"/>praecipue teneamus: quidquid ad se dicitur prae<lb ed="#Q"/>stantissima
+            illa et divina sublimitas, substantia<lb ed="#Q"/>liter
+            dici; quod autem ad aliquid, non substan<lb ed="#Q"/>tialiter,
+            sed relative ». Relative autem dicitur Pa<lb ed="#Q"/>ter
+            et relative dicitur Filius et Spiritus Sanctus h;
+            <lb ed="#Q"/>ergo etc. - Quod concedendum est.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e432">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Ad primo' ergo obiectum di<lb ed="#Q"/>cendum,
+            secundum Augustinum, V De Trini<lb ed="#Q"/>tate
+            4: « Nihil in Deo secundum accidens dicitur,
+            <lb ed="#Q"/>quia nihil ei accidit; nec tamen omne quod dicitur,
+            <lb ed="#Q"/>secundum substantiam dicitur — in rebus enim
+            <lb ed="#Q"/>creatis et mutabilibus, quod non secundum sub<lb ed="#Q"/>stantiam
+            dicitur, restat ut secundum accidens di—
+            <lb ed="#Q"/>catur — quia nihil in eo mutabile est k nec tamen
+            <lb ed="#Q"/>omne quod dicitur, secundum substantiam dici<lb ed="#Q"/>tur.
+            Dicitur enim 'ad aliquid", sicut Pater ad
+            <lb ed="#Q"/>Filium et Filius ad Patrem: quod non est acci<lb ed="#Q"/>dens,
+            quia ille semper est Pater et ille semper est
+            <lb ed="#Q"/>Filius ». Per hoc patet responsio ad primum.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e463">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Sed"' si obiciatur5 contra hanc solutionem
+            <lb ed="#Q"/>quia in creaturis" sunt accidentia inseparabilia'j
+            <lb ed="#Q"/>et semper sunt in subiectis, manentibus subiectis,
+            <lb ed="#Q"/>sicut nigredo in corvo et vita in anima, et ita
+            <lb ed="#Q"/>sunt inamissibilia ; ergo quamvis Pater in divi<lb ed="#Q"/>nitate
+            semper sit Pater et Filius semper" Filius,
+            <lb ed="#Q"/>et non dicantur secundum substantiam, videntur
+            <lb ed="#Q"/>dici secundum accidens — ad quod respon—
+            <lb ed="#Q"/>det Augustinus, V De Trinitate, quod in ac<lb ed="#Q"/>ciden'tibus
+            intelligitur semper mutabilitas aut per
+            <lb ed="#Q"/>destructionem formae, sicut in separabilibus ac<lb ed="#Q"/>cidentibus,
+            aut per mutationem subiecti, ut mi'
+            <lb ed="#Q"/>inseparabilibus corporalibus, sicut in nigredine
+            <lb ed="#Q"/>corvi, aut per diminutionem vel augmentum, sicut
+            <lb ed="#Q"/>in vita animae: anima enim «magis vivit cum
+            <lb ed="#Q"/>sapit, minus cum desipit»; et ideo neque secun<lb ed="#Q"/>dum
+            accidens dicitur quod dicitur "Pater' et
+            <lb ed="#Q"/>quod dicitur 'Filius ', quia aeternum et incom<lb ed="#Q"/>mutabile
+            est.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e509">
+            <lb ed="#Q"/>2. Ad secundum dicendum quod in creatu<lb ed="#Q"/>ris7
+            haec divisio est sufficiens 'omne quod est
+            <lb ed="#Q"/>autq est ens per se, non in alio, aut est " ens non
+            <lb ed="#Q"/>per se, sed in alio ', hoc est omne quod est aut
+            <lb ed="#Q"/>est substantia aut accidens. Non sic autem est
+            <lb ed="#Q"/>in divinis, quia ut dicit Boethius, De Trini<lb ed="#Q"/>tate
+            s: « Nihil est subiectum in Trinitate »; et ideo
+            <lb ed="#Q"/>cum accidens dicat esse in subiecto, nihil est vel
+            <lb ed="#Q"/>dicitur in8 Deo secundum accidens. Intelligitur
+            <lb ed="#Q"/>ergo haec divisio *ens aut est ab alio aut non
+            <lb ed="#Q"/>ab alio': si non ab alio, sic est enst divinum;
+            <lb ed="#Q"/>si ab alio, sic est" ens creatum, quod subdivi<lb ed="#Q"/>ditur
+            in ens in alio etV ens non in alio. Non habet
+            <lb ed="#Q"/>igitur locum dicta distinctio in divinis.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e543">
+            <lb ed="#Q"/>3. Ad ultimum dicendum quod quemadmodum
+            <lb ed="#Q"/>substantia, secundum quod dicitur unum de decem
+            <lb ed="#Q"/>generibus, non continet divinam essentiam -— quo<lb ed="#Q"/>niam
+            huiusmodi substantiax dicitur subiectum et
+            <lb ed="#Q"/>habet intentionem compositionis -— sed substantia,
+            <lb ed="#Q"/>si abstrahatur ab? intentione subiecti et composi<lb ed="#Q"/>tionis,
+            dicitur de divina essentia, sicut dictum
+            <lb ed="#Q"/>est9: similiter dicendum quod relatio, secundum
+            <lb ed="#Q"/>quod dicitur unum de decem generibus, non con<lb ed="#Q"/>tinet
+            relationes divinas, sed secundum quod abs<lb ed="#Q"/>trahit
+            a ratione accidentis, sic dicitur in divinis;
+            <lb ed="#Q"/>mutatur igitur secundum intentionem qua acci- »
+            <lb ed="#Q"/>pitur in genere accidentis, manet tamen secun<lb ed="#Q"/>dum
+            intentionem veritatis respectus vel habitu<lb ed="#Q"/>dinis,
+            sicut iam pleniusz patebit.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i1t1q2c3-Dd1e580" type="articulus">
+          <head xml:id="ahsh-l1p2i1t1q2c3-Hd1e582">ARTICULUS III.</head>
+          <head xml:id="ahsh-l1p2i1t1q2c3-Hd1e585" type="question-title">Utrum in divinis sit accipere intentionem relationis.</head>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e588">
+            <pb ed="#Q" n="505"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>Consequenter quaeritur utrum in divinis po<lb ed="#Q"/>nendum
+            sit praedicamentum relationis.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e599">
+            <lb ed="#Q"/>Ad quod sic: 1. Boethius, De Trinitate 1: «'Ad
+            <lb ed="#Q"/>aliquid ' omnino praedicari non potest »; sed nihil
+            <lb ed="#Q"/>ponendum est" in divinis quod praedicari non
+            <lb ed="#Q"/>potestb; ergo 'ad aliquid' in divinis ponendum
+            <lb ed="#Q"/>non est pro praedicamento.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e612">
+            <lb ed="#Q"/>2. Item, genera praedicamentorum sunt imper<lb ed="#Q"/>mixta,
+            ita quod unum genus non est aliud nec
+            <lb ed="#Q"/>unum praedicamentum est aliud; unde in Philo<lb ed="#Q"/>sophia2
+            nulla veriore est ista: 'nullum ad ali<lb ed="#Q"/>quid
+            d est substantia'; sed in divinis nulla fal<lb ed="#Q"/>sior:
+            ' nullum ad aliquid est substantia ', quoniam
+            <lb ed="#Q"/>Pater est essentia divina. Relinquitur igitur quod
+            <lb ed="#Q"/>in divinise substantia et 'ad aliquid' sive relatio
+            <lb ed="#Q"/>non faciunt differre praedicamenta.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e635">
+            <lb ed="#Q"/>3. Item, Boethius, in libro De Trinitate, dicit
+            <lb ed="#Q"/>quod omnia praedicamenta, cum assumuntur « in
+            <lb ed="#Q"/>divinam praedicationem, mutantur »; ergo aeque
+            <lb ed="#Q"/>mutantur substantia et 'ad aliquid', sicut alia
+            <lb ed="#Q"/>praedicamenta; ergo vel omnia praedicamenta
+            <lb ed="#Q"/>erunt ponenda in Trinitate vel nulla; sed non
+            <lb ed="#Q"/>omnia; ergo nulla; ergo nec praedicamentum
+            <lb ed="#Q"/>substantiae nec relationisf.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e655">
+            <lb ed="#Q"/>4. Item, 'ad aliquid' secundum suam inten<lb ed="#Q"/>tionem
+            dicit idem quod 'ad aliud quid,; ergo,
+            <lb ed="#Q"/>cum nihil in Trinitate possit dici se habere ut
+            <lb ed="#Q"/>aliud ' ad aliud quid *, ergo in Trinitate non po<lb ed="#Q"/>terit
+            vere poni ' ad aliquid'.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e668">
+            <lb ed="#Q"/>Contra: a. Sicut probatum est supra 3, in di<lb ed="#Q"/>vino
+            esse est unitas in pluribus. Constans est
+            <lb ed="#Q"/>quod ex parte unitatis accipitur vere intentio sub<lb ed="#Q"/>stantiae,
+            secundum quod supra dictum est4; ex
+            <lb ed="#Q"/>parte pluralitatis non potest accipi intentio sub<lb ed="#Q"/>stantiae,
+            sicut probatum est supra, De unitate divi<lb ed="#Q"/>nae
+            naturae 5, nec H pluralitas alicuius intentionis "
+            <lb ed="#Q"/>quae non maneat cum summa simplicitate; nulla
+            <lb ed="#Q"/>autem intentio alicuius generis nec qualitatis nec
+            <lb ed="#Q"/>quantitatis et ceterorum est quae non addat aut mi<lb ed="#Q"/>nuat
+            aut mutet respectu substantiae, praeter solam
+            <lb ed="#Q"/>intentionem relationis, quae, sicut probat Boe<lb ed="#Q"/>thi
+            us, in libro De Trinitate 5, non addit aut' mu<lb ed="#Q"/>tat
+            aut minuit substantiam; pluralitas ergo divina
+            <lb ed="#Q"/>accipietur secundum intentionem relationis. Unde 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Boethius, in libro De Trinitate7: « Substantia
+            <lb ed="#Q"/>continet unitatem, relatio multiplicat Trinitatem ».
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e710">
+            <lb ed="#Q"/>b. ltem k, sicut supra probatum est( Quae<lb ed="#Q"/>stione
+            de ordine divinarum personarum 8, in di<lb ed="#Q"/>vino
+            esse necessario ponitur natura et ordo na<lb ed="#Q"/>turae
+            secundum rationem originis; sed dicit Au<lb ed="#Q"/>gustinu
+            5, Ad Maximinum 9: Cum dicitur ' Pater
+            <lb ed="#Q"/>et Filius ', non indicatur substantia, sed origo, sive
+            <lb ed="#Q"/>genitus et ingenitus, id est non quid sit, sed
+            <lb ed="#Q"/>unde quisque sit vel non sit: ita in Deo Patre
+            <lb ed="#Q"/>et Deo Filio, si utriusque natura quaeratur, uter<lb ed="#Q"/>que
+            Deus'" nec magis alter altero Deus; si au<lb ed="#Q"/>tem
+            origo, Pater est Deus de quo Filius Deus ",
+            <lb ed="#Q"/>de quo autem Pater, nullus est Deus; et haec
+            <lb ed="#Q"/>nomina propinquitatis sunt nomina, non naturae,
+            <lb ed="#Q"/>et ideo * ad aliquid' dicta vel relativa dicuntur.
+            <lb ed="#Q"/>Relinquitur igitur quod vere est ponere in divinis
+            <lb ed="#Q"/>intentionem ' ad aliquid ' sive relationis.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e747">
+            <lb ed="#Q"/>[Solutio]: Quod concedendum est. Dicendum
+            <lb ed="#Q"/>igitur quod in divinis accipitur praedicatio se<lb ed="#Q"/>cundum
+            relationem nec tamen relatio illa intel<lb ed="#Q"/>ligitur
+            ut accidens sicut in creatura: intentio
+            <lb ed="#Q"/>enim relationis est accidens, quae consequitur
+            <lb ed="#Q"/>substantiam compositam sicut est in creatura.
+            <lb ed="#Q"/>Nam in principiis substantiae, quae sunt materia
+            <lb ed="#Q"/>et forma, accipitur relatio quae non est acciden<lb ed="#Q"/>talis,
+            sed connaturalis: sicut in esse materiae
+            <lb ed="#Q"/>coaccipitur intentio potentiae, unde materia dicit
+            <lb ed="#Q"/>possibile ad formam; in essentia formae coacci—
+            <lb ed="#Q"/>pitur intentio actus, secundum quem est perfectio
+            <lb ed="#Q"/>potentiae materiae 0. Relationes ergo potentiae et
+            <lb ed="#Q"/>actus accipiuntur in principiis substantiae conna<lb ed="#Q"/>turaliter;
+            multo ergo magis in infinitum relatio in
+            <lb ed="#Q"/>divinis accipietur connaturalis, non accidentalis.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e784">
+            <lb ed="#Q"/>Unde nota quod *ad aliquid'P prius est *? inten<lb ed="#Q"/>tione
+            accidentis simpliciter, tamen in creaturis mu<lb ed="#Q"/>tabilibus
+            consequitur. — Quod sic manife—
+            <lb ed="#Q"/>statur: tria haec accipit intellectus: esse et esse
+            <lb ed="#Q"/>ad et adesse. ' Esse ', quod accipit absolute et ut
+            <lb ed="#Q"/>per se, accipit secundum intentionem substantiae;
+            'adesse' vero accipit secundum intentionem'
+            <lb ed="#Q"/>accidentis: accidens enim est «quod adest et
+            <lb ed="#Q"/>abest 10 »; sed ' esse ad ' accipit secundum inten<lb ed="#Q"/>tionem
+            relationis sive ' ad aliquid-', quoniam ' ad
+            <lb ed="#Q"/>aliquid' dicitur secundum esse suum ad aliud
+            <pb ed="#Q" n="506"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>se habens. Cum ergo intentio eius quod est ' esse
+            <lb ed="#Q"/>ad' sit" prior quam intentio eius quod est 'ad<lb ed="#Q"/>esse';
+            prior est simpliciter intentio 'ad aliquid '
+            <lb ed="#Q"/>sive relationis quam intentio accidentis, quamvis
+            <lb ed="#Q"/>in creaturis, propter esse quod est mutabile, 'esse
+            <lb ed="#Q"/>ad' cadat in intentionem accidentis.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e827">
+            <lb ed="#Q"/>[Ad obiecta]: !. Respondendum" igitur ad
+            <lb ed="#Q"/>primum quod illud quod dicit Boethius quod
+            - 'ad aliquid' omnino non praedicatur :, intelligi<lb ed="#Q"/>tur
+            quia non praedicatur universaliter — et hoc
+            <lb ed="#Q"/>est quod dicit: «non praedicatur omnino» —
+            <lb ed="#Q"/>sed" de uno solo, sicut 'Pater ', ' Filius' de uno
+            <lb ed="#Q"/>solo praedicantur, non sicut essentialia quae di<lb ed="#Q"/>cuntur
+            secundum substantiam, ut 'Deus, bonus ',
+            <lb ed="#Q"/>et praedicantur universaliter de tribus personis.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e847">
+            <lb ed="#Q"/>2. Ad secundum dicendum quod'1 in Tri<lb ed="#Q"/>nitate
+            'ad aliquid' est substantia propter sum<lb ed="#Q"/>mam
+            simplicitatem, secundum quam verum est
+            <lb ed="#Q"/>quod Deus est omnia sua; unde Pater est Deus
+            <lb ed="#Q"/>et Pater est' divina essentia. Sed in creaturis,
+            <lb ed="#Q"/>ubi est compositio et mutabilitas, nec secundum
+            <lb ed="#Q"/>rem nec secundum rationem ' ad aliquid ' et sub<lb ed="#Q"/>stantia
+            idem esse possunt'; non tamen ex hoc
+            <lb ed="#Q"/>sequitur quod in divinis non sit differens prae<lb ed="#Q"/>dicamentum
+            substantiae et 'ad aliquid'. Quod
+            <lb ed="#Q"/>enim in divinis dicitur 'ad aliquid' esse sub<lb ed="#Q"/>stantia,
+            istud habet veritatem propter indifferen<lb ed="#Q"/>tiam
+            simplicitatis in essendo; quod vero dicitur
+            <lb ed="#Q"/>differens praedicamentum substantiae et 'ad ali—
+            <lb ed="#Q"/>quid', istud habet veritatem propter differentiam
+            <lb ed="#Q"/>rationis in dicendof ; cui tamen differentiae subest
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>veritas, quia est ibi veritas substantiae, veritas
+            <lb ed="#Q"/>relationis et! aliquid dicitur de uno quod non
+            <lb ed="#Q"/>de altero: unitas enim de substantia, pluralitas
+            <lb ed="#Q"/>vero de relatione vere" intelligitur.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e895">
+            <lb ed="#Q"/>3. Ad illud vero quod dicit Boethius quod
+            - omnia praedicamenta mutantur -: dicendum quod
+            <lb ed="#Q"/>omnia mutantur, sed tamen dissimiliter. Alia enim
+            <lb ed="#Q"/>praedicamenta a substantia et relatione mutantur
+            <lb ed="#Q"/>dupliciter: secundum rationem sui generis et se<lb ed="#Q"/>cundum
+            rationem qua sunt in creatura, sicut patet
+            <lb ed="#Q"/>in singulis. Substantia vero et ' ad aliquid ' ' mu<lb ed="#Q"/>tantur
+            uno modo: mutantur enim a ratione qua
+            <lb ed="#Q"/>sunt in creatura, sed manent secundum intentio<lb ed="#Q"/>nem
+            primam sui generis. Nam substantia ut est
+            <lb ed="#Q"/>in creatura, subsistens scilicet accidentibus, non
+            <lb ed="#Q"/>est in divinis; tamen in divinis est substantia ut
+            <lb ed="#Q"/>ens" per se. Item, in creatura 'ad aliquid' est
+            <lb ed="#Q"/>accidens, quo modo non est in divinis; sed ta<lb ed="#Q"/>men
+            in divinis est ' ad aliquid ', hoc est 'ad aliud'
+            <lb ed="#Q"/>se habens vel potius 'ad alium' se' habens.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c3-d1e930">
+            <lb ed="#Q"/>4. Ad ultimum dicendum quod intentio eius
+            <lb ed="#Q"/>quod est 'ad aliquid' comprehendit 'esse ad' '
+            <lb ed="#Q"/>in respectu". ad aliud quid vel in respectu ad'.
+            <lb ed="#Q"/>alium quem. Secundum quod ' ad aliquid ' dicitur
+            <lb ed="#Q"/>in respectu ad aliud quid, per quod ponitur dit<lb ed="#Q"/>ferentia
+            substantiae, est in creatura; ' ad aliquid '
+            <lb ed="#Q"/>vero, secundum quod dicitur in respectu ad alium
+            <lb ed="#Q"/>quem, per quod ponitur differentia personae, non
+            <lb ed="#Q"/>substantiae, ponitur in divinis, sicut probatum
+            <lb ed="#Q"/>est supra, Quaestione de veritate divinarum per<lb ed="#Q"/>sonarum
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-21">March 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="335"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t3c2">
+        <head xml:id="ahsh-l1p1i1t5s2q4t3c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 3, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t3c2-Hd1e3744" type="question-title">AD QUID SIT ELECTIO DIVINA EX PARTE NOSTRA.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t3c2-d1e3747">
+          <pb ed="#Q" n="335"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Sequitur ad quid sit electio divina" ex parte
+          <lb ed="#Q"/>nostra.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t3c2-d1e3758">
+          <lb ed="#Q"/>a. Ioan. 15,16: Elegi vos, ut eatis et fructum
+          <lb ed="#Q"/>afferatis, etc.; item, ad Eph. 1,4: Elegi vos, ut
+          <lb ed="#Q"/>essetis sancti. Ergo electio est vel ad faciendum
+          <lb ed="#Q"/>fructum vel ad esse sanctum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t3c2-d1e3769">
+          <lb ed="#Q"/>Sed obicitur: 1. Ioan. 6,71: Nonne duodecim
+          <lb ed="#Q"/>vos elegi? et unus ex vobis diabolus est; et 10<lb ed="#Q"/>quitur
+          de Iuda, de quo constat quod ad neutrum
+          <lb ed="#Q"/>istorum fuit electus, scilicetb ut faceret fructum
+          <lb ed="#Q"/>qui maneret, vel uti esset sanctus; ergo non fuit
+          <lb ed="#Q"/>electus Iudas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t3c2-d1e3786">
+          <lb ed="#Q"/>Respondeo: Duplex est electio, scilicet prae<lb ed="#Q"/>sentis
+          iustitiae, et haec est ad faciendum fruc<lb ed="#Q"/>tum;
+          et electio iustitiae finalis 1, et haec est ad esse
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sanctum. Et sic differentes sunt fines differ-entis
+          <lb ed="#Q"/>electionis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t3c2-d1e3802">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad hoc quod obicitur de Iuda,
+          <lb ed="#Q"/>respondeozz Iudas dicebatur electus vel ratione
+          <lb ed="#Q"/>praesentis iustitiae quam aliquando habuit, vel
+          <lb ed="#Q"/>ratione illius optimi quod de eo dispositurus fuit
+          <lb ed="#Q"/>Dominus; et ratione huius a multitudine malorum
+          <lb ed="#Q"/>fuit separatus in consortio Domini, ut per ipsum
+          <lb ed="#Q"/>congruentius traderetur Dominus et ad instructio<lb ed="#Q"/>nem
+          Ecclesiae. Unde Marc. 3,19, ubi enumeratur
+          <lb ed="#Q"/>electio Apostolorum, super illud "' : Et Iudas [sea—
+          <lb ed="#Q"/>riotlz qui tradidit eum, 01 o s s a 3: « Hic inter Apo<lb ed="#Q"/>stolos
+          eligitur, quia magna est veritas quam nec
+          <lb ed="#Q"/>adversarius minister infirmat: voluit Dominus
+          <lb ed="#Q"/>tradi a discipulo, ut tu, a socio proditus, modeste
+          <lb ed="#Q"/>feras tuum errasse iudicium, periisse beneficium ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

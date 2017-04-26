@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 2, M. 1, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-19">April 19, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-19" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="527"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q2m1prae">
+        <head xml:id="ahsh-l1p2i2t1q2m1prae-Hd1e118">I, P. 2, Inq. 2, Tract. 1, Q. 2, M. 1, Praeambulum</head>
+        <p xml:id="ahsh-l1p2i2t1q2m1prae-d1e121">
+          <lb ed="#Q"/>Quantum ad primum notandum, secundum
+          <lb ed="#Q"/>Sanctos 1, quod hoc nomen 'Deus" acci<lb ed="#Q"/>pitur
+          tripliciter: naturaliter, cum accipitur pro es<lb ed="#Q"/>sentialiterc
+          Deo, ut2: In principio creavit Deus
+          <lb ed="#Q"/>caelum et terram; adoptive, cum accipitur pro
+          <lb ed="#Q"/>sanctis, eo quod sunt in participatione divinitatis
+          —- et hoc vel in participatione potentiae, propter
+          <lb ed="#Q"/>quod dicitur Moysi, Exod. 7,1 et 2228" : Consti<lb ed="#Q"/>tui
+          te deum Pharaonis. Diis non detrahes 2; vel
+          <lb ed="#Q"/>in participatione sapientiae, ut in Psalmo3: Ego
+          <lb ed="#Q"/>dixi: dii estis, quod exponit Dominus, Ioan. 10, 34;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>vel in participatione bonitatis, unde4: Deusdeo<lb ed="#Q"/>rum
+          Dominus locutus est — nuncupative, utf cum
+          <lb ed="#Q"/>hoc nomen 'Deus'8 attribuitur iis qui non sunt
+          <lb ed="#Q"/>dii participatione deitatis, ut idolis vel daemo<lb ed="#Q"/>niis,
+          in Psalmo-":. <quote xml:id="ahsh-l1p2i2t1q2m1prae-Qd1e157">Omnes dii gentium daemonia</quote> ".
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q2m1prae-d1e161">
+          <lb ed="#Q"/>Quaeruntur igitur duo: 
+          <lb ed="#Q"/>Primo, utrum hoc nomen 'Deus' dicatur ae<lb ed="#Q"/>quivoce
+          vel univoce, cum ".. accipitur naturaliter,
+          <lb ed="#Q"/>adoptive, nuncupative; 
+          <lb ed="#Q"/>secundo, utrum hoc nomen 'Deus ', secundum
+          <lb ed="#Q"/>quod accipitur naturaliter, sit nomen operationis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

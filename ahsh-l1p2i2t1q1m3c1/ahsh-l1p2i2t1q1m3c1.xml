@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 1, M. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-17">April 17, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-17" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="523"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q1m3c1">
+        <head xml:id="ahsh-l1p2i2t1q1m3c1-Hd1e118">I, P. 2, Inq. 2, Tract. 1, Q.1, M. 3, C. 1</head>
+        <head xml:id="ahsh-l1p2i2t1q1m3c1-Hd1e121" type="question-title">UTRUM DIVINA ESSENTIA HABEAT SIGNIFICARI PER PRONOMEN.</head>
+        <!-- m3 prae -->
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e126">
+          <lb ed="#Q"/>Consequenter quaeritur de significatione pro<lb ed="#Q"/>,
+          nominali, qua designatur divinum esse ab<lb ed="#Q"/>solute. 
+          <lb ed="#Q"/>Quaeruntur ergo duo:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Primo, utrum divina essentia habeat significari
+          <lb ed="#Q"/>per pronomen;
+          <lb ed="#Q"/>secundo, utrum per pronomina masculini et
+          <lb ed="#Q"/>feminini generis <!--i-->.
+        </p>
+          <!-- m3,c1 -->
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e153">
+          <lb ed="#Q"/>et primum sic: I. 1. Cum dicitur-9: Ego sum
+          <lb ed="#Q"/>A qui sunt, constans est quod hoc. pronomen
+          *ego* non significabat Moysi aliquam personam,
+          <lb ed="#Q"/>sed divinam essentiam de se ad ipsum loquen<lb ed="#Q"/>tem;
+          ergo per pronomen 'ego* significabatur et
+          <lb ed="#Q"/>supponebatur divina essentia.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e166">
+          <lb ed="#Q"/>2. Item, Isai. 19: Non cognoverunt me, 0 l 0 s s a " :
+          « mek verum Deum », ducti propriis rationibus,
+          <lb ed="#Q"/>et loquitur de gentilibus] qui non attendebant
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>
+          <lb ed="#Q"/>nisi essentiam; ergo hoc pronomen 'me' signi<lb ed="#Q"/>ficat
+          et supponit essentiam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e182">
+          <lb ed="#Q"/>3. Item, pronomina primae personae significant
+          <lb ed="#Q"/>substantiam de se loquentem, secundae personae
+          <lb ed="#Q"/>substantiam ad quam fit sermo '", tertiae personae
+          <lb ed="#Q"/>substantiam de qua fit sermo"; sed divina es<lb ed="#Q"/>sentia
+          potest loqui de se, et ad" ipsam et de
+          <lb ed="#Q"/>ipsa potest fieri sermo; ergo potest significari per
+          <lb ed="#Q"/>pronomina primae et secundae et tertiae personae.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e200">
+          <pb ed="#Q" n="524"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>4. Item, in libro De regulis fideli: « Omne
+          <lb ed="#Q"/>nomen datum a forma, dictum de forma cadit a
+          <lb ed="#Q"/>forma ». Quod exponitur ibi: « Cum omne nomen
+          <lb ed="#Q"/>secundum primam institutionem datum sit a pro<lb ed="#Q"/>prietate
+          sive a forma — unde B 0 eth i u s 2: " Re<lb ed="#Q"/>bus
+          ex materia et forma constantibus solus hu<lb ed="#Q"/>manus
+          animus extitit qui, prout voluit 0, nomina
+          <lb ed="#Q"/>rebus impressi " — ad significandum divinam for<lb ed="#Q"/>mam
+          translatum cadit a forma ex qua est datum
+          <lb ed="#Q"/>et ita quodammodo tit informe et pronominatur
+          <lb ed="#Q"/>ipsum nomen, cum significat divinam usiam: me<lb ed="#Q"/>ram
+          enim significat substantiam ». Ex hoc videtur
+          <lb ed="#Q"/>quod divina essentia propriusb designetur prono<lb ed="#Q"/>minaliter
+          quam nominaliter.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e237">
+          <lb ed="#Q"/>Contra: a. Proprium est pronominis pro pro<lb ed="#Q"/>prio
+          nomine poni et certas significare personas;
+          <lb ed="#Q"/>ergo pronomen semper habet accipi pro persona,
+          <lb ed="#Q"/>non pro essentia; ergo divina essentia non signi<lb ed="#Q"/>ficatur
+          nec supponitur per pronomen.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e250">
+          <lb ed="#Q"/>b. Item, sicut dicitur in libro De regulis fidei 3:
+          «Omne pronomen demonstrativum cadit a sua
+          <lb ed="#Q"/>demonstratione in divinis»; sed pronomen cum
+          <lb ed="#Q"/>cadit a demonstratione et relatione, cassum est
+          <lb ed="#Q"/>et vanum; ergo omne pronomen demonstrativum
+          <lb ed="#Q"/>cassum erit significando divinam essentiam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e264">
+          <lb ed="#Q"/>c. Item 4, ad hoc est ratio, quia Deus nec sensu
+          <lb ed="#Q"/>nec intellectu demonstrabilis est, quia nec intel<lb ed="#Q"/>lectu
+          nec sensu capi potest 6, omnis autem de<lb ed="#Q"/>monstratio
+          fit ad sensum vel ad intellectum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e275">
+          <lb ed="#Q"/>Respondeo: Dicuntdï' quod pronomina in mas<lb ed="#Q"/>culino
+          ete feminino genere substantivaf non pos<lb ed="#Q"/>sunt
+          supponere!»r essentiam, in neutro vero genere
+          <lb ed="#Q"/>significant et supponunt essentiam. '
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e286">
+          <lb ed="#Q"/>Notandum tamen, sicut dicitur in libro De re<lb ed="#Q"/>gulis 
+          fidei 5, quod cum sint pronomina demonstra<lb ed="#Q"/>tiva
+          et relativa et possessiva, «pronomina de<lb ed="#Q"/>monstrativah
+          magis improprie conveniunti Deo
+          <lb ed="#Q"/>quam relativa ». Et ratio est: quia quamvis in<lb ed="#Q"/>troducatur
+          divina essentia « loquens de se, non
+          <lb ed="#Q"/>habet ibi proprium locum demonstratio, quae fitk
+          <lb ed="#Q"/>ad oculum », quia ipsa' non est sensibilis; « nec
+          <lb ed="#Q"/>habet ibi locum demonstratio ad veri nominis
+          <lb ed="#Q"/>intellectum »; et ratio est: quia «intellectus veri
+          <lb ed="#Q"/>nominis surgit ex formae perceptione, qua res
+          <lb ed="#Q"/>intelligitur esse quid vel qualis vel quanta. Cum
+          <lb ed="#Q"/>ergo in Deo nulla forma sit qua intelligamus de eo
+          <lb ed="#Q"/>quid sit vel qualis, proprie non erit demonstrabilis
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>apud intellectum, sed magis per remotionem in<lb ed="#Q"/>telligimus
+          quid non est».
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e325">
+          <lb ed="#Q"/>Unde nota quod « cum introducitur'" Deus
+          <lb ed="#Q"/>loquens de se », ut Exod. 3,14: Ego sum qui
+          <lb ed="#Q"/>sum, « duplex intelligitur prosopopeia": una, quae
+          <lb ed="#Q"/>dicitur anthropopathos 0, id est humana passioP;
+          <lb ed="#Q"/>alia, quae dicitur ideotheos, id est divina proprie<lb ed="#Q"/>tas.
+          In hoc enim anthropopathos est, quia verba
+          <lb ed="#Q"/>creaturae, id est angeli qui loquebatur in persona
+          <lb ed="#Q"/>Dei quasi recitando quae legerat in mente divina,
+          <lb ed="#Q"/>attribuuntur Creatori; in hoc vero attenditur ideo—
+          <lb ed="#Q"/>theos, quia creaturae attribuitur quod Creatoris
+          <lb ed="#Q"/>est, quia illa verba, quae ab angelo proferuntur,
+          <lb ed="#Q"/>de solo Deo vera esse intelliguntur ». Hinc patet
+          <lb ed="#Q"/>quod pronomina demonstrativa improprie dicuntur
+          <lb ed="#Q"/>in'! divinis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e358">
+          <lb ed="#Q"/>[Ad obiecta.]: 1. Ad illud ergo quod primo
+          <lb ed="#Q"/>obicitur: dicendum quod hoc pronomen ' ego '
+          <lb ed="#Q"/>potest dicere substantiam de se loquentem; et
+          <lb ed="#Q"/>hoc modo potest stare pro divina essentia, quia
+          <lb ed="#Q"/>cum quaelibet persona de se loquatur, quidquid
+          <lb ed="#Q"/>autem convenit tribus personis, est essentiale,
+          <lb ed="#Q"/>stabit pro persona qualibet essentialiter. Item,
+          <lb ed="#Q"/>potest dicere substantiam de se loquentem cum
+          <lb ed="#Q"/>discretione, et hoc modo accipitur personaliter,
+          <lb ed="#Q"/>et aliquando pro' persona Patris, ut Isai. penul<lb ed="#Q"/>timo
+          7: Numquid ego, qui alios parere facio, ipse
+          <lb ed="#Q"/>sterilis ero? aliquando pro persona Filii, Isai. 65, 1:
+          <lb ed="#Q"/>Ecce ego ad gentes, Glossas: « Filius loqui-.
+          <lb ed="#Q"/>tur »; aliquando pro persona Spiritus Sancti 3, ut
+          <lb ed="#Q"/>Malach. 3,1: Ecce ego mitto angelum meum, di<lb ed="#Q"/>cit
+          Spiritus Sanctus de Ioanne.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e395">
+          <lb ed="#Q"/>2. Ad 'illud vero quod obicitur secundo
+          <lb ed="#Q"/>quod non cognoverunt me: dicendum quod * me '
+          <lb ed="#Q"/>supponit divinam essentiam, sed potest accipi
+          <lb ed="#Q"/>substantive vel adiective. Si substantive, accipitur
+          <lb ed="#Q"/>in neutro genere; si adiective, accipitur in mas<lb ed="#Q"/>culino
+          et debet suppleri hoc nomen 'Deus', sicut
+          <lb ed="#Q"/>supplet Glossa «me verum Deum9».
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e414">
+          <lb ed="#Q"/>3. Ad tertium iam patet responsio, quia di<lb ed="#Q"/>vina
+          essentia potest de se loqui et ad ipsam po<lb ed="#Q"/>test
+          fieri sermo secundum illam improprietatem
+          <lb ed="#Q"/>quae supra dicta est 10, tamen absque nota discre<lb ed="#Q"/>tionis
+          sive distinctionis quam insinuat pronomina<lb ed="#Q"/>lis
+          designatio in masculino etf feminino genere.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e430">
+          <lb ed="#Q"/>4. Ad quartum dicendum quod pronomina pro<lb ed="#Q"/>prie
+          significant substantiam, quae est hypostasis,
+          <pb ed="#Q" n="525"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>non quae est usia, et dicitur 'substantia hypo<lb ed="#Q"/>stasis' 
+          substantia discreta" sive singularis, sicut
+          'usia' substantia communis. Ideo proprie 'desi<lb ed="#Q"/>gnatio
+          pronominalis secundum primam intentionem
+          <lb ed="#Q"/>pertinet ad personam, non ad essentiam. Quod
+          <lb ed="#Q"/>ergo dicitur 'ipsum nomen pronominari, cum si<lb ed="#Q"/>gnificatur
+          divina essentia', non intelligitur quod
+          <lb ed="#Q"/>significetur proprius per pronomina quam per
+          <lb ed="#Q"/>nomina, sed quia in divinis nominibus debet
+          <lb ed="#Q"/>intelligi substantia mera et simplex, abstractis
+          <lb ed="#Q"/>accidentalibus proprietatibus et formis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e463">
+          <lb ed="#Q"/>a—b. Ad ea vero quae exnparte opposita
+          <lb ed="#Q"/>obiciuntur: dicendum quod rationes decurrunt in
+          <lb ed="#Q"/>quantum pronominalis designatio accipitur pro<lb ed="#Q"/>prieb;
+          in divinis autem non est acceptio propria,
+          <lb ed="#Q"/>sicut dictum est 1.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e476">
+          <lb ed="#Q"/>c. Et ad illudc quod obicitur de demonstra<lb ed="#Q"/>tione:
+          dicendum quod proprie in divinis non est
+          <lb ed="#Q"/>accipienda demonstratio nec ad sensum nec ad
+          <lb ed="#Q"/>intellectum; sed, sicut dicitur in libro De regulis
+          <lb ed="#Q"/>fidei 2, dicatur quod « demonstratio fit ad fidem ».
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e489">
+          <lb ed="#Q"/>II. Item, iuxta hoc quaeritur de pronominibus
+          <lb ed="#Q"/>possessivis " utrum possint accipi ad significatio<lb ed="#Q"/>nem
+          divinae essentiae.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e498">
+          <lb ed="#Q"/>Ad quod sic: 1. Isai. l,14: Solemnitates vestras
+          <lb ed="#Q"/>odivitf anima mea ; et constans est quod 'anima
+          <lb ed="#Q"/>mea' non dicit aliud ibi nisif essentiam divi—
+          <lb ed="#Q"/>nam; ergo nomen possessivum designat divinam
+          <lb ed="#Q"/>essentiam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e512">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>2. Item, in aliis locis pluribus: Faciamus ho<lb ed="#Q"/>minem
+          ad imaginem et similitudinem nostram,
+          <lb ed="#Q"/>Gen. '1,26.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e523">
+          <lb ed="#Q"/>Contra: a. « Possessivum notat differentiam pos<lb ed="#Q"/>sidentis
+          ad possessum3» secundum essentiam;
+          <lb ed="#Q"/>sed in divinis nullo modo est accipere differen<lb ed="#Q"/>tiam!g
+          secundum essentiam; ergo nullo modo est
+          <lb ed="#Q"/>accipere possessivum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q1m3c1-d1e536">
+          <lb ed="#Q"/>Respondeo, secundum quod dicitur in libro De
+          <lb ed="#Q"/>regulis fidei 4: « Pronomina possessLiva per maxi<lb ed="#Q"/>mam
+          improprietatem dicuntur in divinis, tamen
+          <lb ed="#Q"/>secundum gradus improprietatis. Maxime enim
+          <lb ed="#Q"/>improprie dicuntur de essentia respectu sui h,.ut
+          <lb ed="#Q"/>Isai.'1,14: Solemnitates vestras odivit anima mea,
+          <lb ed="#Q"/>impropriissime ponitur *mea': nulla enim'" est
+          <lb ed="#Q"/>differentia inter animam Dei et Deum; anima enim
+          <lb ed="#Q"/>Dei est ipsa voluntas, quae est ipse Deus. Minus
+          <lb ed="#Q"/>vero impropriek dicuntur, cum dicuntur-' de per<lb ed="#Q"/>sona
+          respectu personae, inter quas non est diffe<lb ed="#Q"/>rentia
+          substantialitatis, quamvis personalitatis, ut
+          <lb ed="#Q"/>cum dicitur Matth. 3,17: Hic est Filius meus di<lb ed="#Q"/>lectus;
+          et quod dico 'meus' insinuat divinae ge<lb ed="#Q"/>nerationis
+          proprietatem. Minime vero improprie
+          <lb ed="#Q"/>dicuntur, cum dicuntur de essentia sive de per<lb ed="#Q"/>sona
+          respectu creaturae. Quod contingit duobus
+          <lb ed="#Q"/>modis: aliquando ut notetur auctoritas guberna<lb ed="#Q"/>tionis
+          vel creationis, ut in Ioan. 17,10: Omnia
+          <lb ed="#Q"/>mea tua sunt; Mea est terra5 etc.; aliquando ut
+          <lb ed="#Q"/>notetur gratia recreationis '", ut in Luc. 11, 7:
+          <lb ed="#Q"/>Filii" mei mecum sunt in cubili ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

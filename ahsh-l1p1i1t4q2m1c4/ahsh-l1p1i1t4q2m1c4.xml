@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="215"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q2m1c4">
+        <head xml:id="ahsh-l1p1i1t4q2m1c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 1, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t4q2m1c4-Hd1e3744" type="question-title">AN PROPRIA SIT SOLIUS DEI OMNIPOTENTIA.</head>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3747">
+          <lb ed="#Q"/>Quarto quaeritur an propria 'l sit solius Dei omni<lb ed="#Q"/>potentia.
+          Quaeritur ergo utrum Christo sit data
+          <lb ed="#Q"/>potentia faciendi omnia sive creandi 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3756">
+          <lb ed="#Q"/>1. Et cum dicatur, Ioan. 3,34, quod non est ei
+          <lb ed="#Q"/>datus spiritus ad mensuram.- ergo data est eii
+          <lb ed="#Q"/>gratia nonk mensurata; ergo cum gratia sit ad
+          <lb ed="#Q"/>cognoscendum et ad operandum, ergo sicut per
+          <lb ed="#Q"/>gratiam immensam sive non mensuratam habuit
+          <lb ed="#Q"/>scientiam omnium, ita per gratiam operandi im<lb ed="#Q"/>mensam
+          poterit' operari omnia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3774">
+          <lb ed="#Q"/>2. Item, anima rationalis est imago Trinitatis
+          <lb ed="#Q"/>per naturam5; sed imago Trinitatis attenditur
+          <lb ed="#Q"/>quantum ad potentiam, scientiam et voluntatem;
+          <lb ed="#Q"/>ergo sicut per naturam anima est capax divinae
+          <lb ed="#Q"/>scientiae, ita et potentiae; ergo sicut anima Christi
+          <lb ed="#Q"/>naturali potentia potuit capere omnium scientiam,
+          <lb ed="#Q"/>ita et omnipotentiam. *
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3793">
+          <lb ed="#Q"/>3. Item, cum sint tria 6, potentia, scientia et
+          <lb ed="#Q"/>voluntas: potentia non ponit scientiam, nec
+          <lb ed="#Q"/>scientia voluntatem, sed e converso scientia
+          <lb ed="#Q"/>ponit potentiam et voluntas scientiam, ita quod
+          <lb ed="#Q"/>consequitur necessario: *si voluntas est, scien<lb ed="#Q"/>tia
+          est '", et si scientia est, potentia est': non
+          <lb ed="#Q"/>enim est scientia nisi a potentia sciendi. Ex
+          <lb ed="#Q"/>hoc ergo relinquitur quod natura, quae est ca<lb ed="#Q"/>pax
+          voluntatis et scientiae Dei, erit capax poten<lb ed="#Q"/>tia 
+          eiusdem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3817">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>4. Item, omnis scientia practica alicuius operis
+          <lb ed="#Q"/>est causa effectiva vel exemplar illius operis. Cum
+          <lb ed="#Q"/>ergo scientia omnium comprehendat scientiam spe<lb ed="#Q"/>culativam
+          et practicam et in Christo sit omnis
+          <lb ed="#Q"/>scientia, erit igitur in Christo scientia" practica;
+          <lb ed="#Q"/>ergo erit causa effectiva vel exemplaris omnium;
+          <lb ed="#Q"/>si ergo scientiam huiusmodi consequitur poten<lb ed="#Q"/>tia
+          0 activa, erit in anima Christi potentia faciendi
+          <lb ed="#Q"/>omnia. —- Item, artifex naturalis non solum con<lb ed="#Q"/>fert
+          alii scientiam speculativam sui operis, sed
+          <lb ed="#Q"/>etiam activam; ergo cum Artifex summus contu<lb ed="#Q"/>lerit
+          Christo homini omnium scientiamP7, relin<lb ed="#Q"/>quitur
+          quod non dedit solum "scientiam speculati<lb ed="#Q"/>vam,
+          sed etiam activam 4; ergo et per consequens
+          <lb ed="#Q"/>omnipotentiam: frustra enim esset activa scientia
+          <lb ed="#Q"/>nisi esset potentia ad actum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3856">
+          <lb ed="#Q"/>5. Item, si diceretur quod non potest esse om<lb ed="#Q"/>nipotentia
+          creaturae propter hoc quia est infinita <lb ed="#Q"/>ergo
+          similiter nec omniscientia f, cum sit infinita
+          <lb ed="#Q"/>et maioris extensionis quam potentia Dei: ad quae—
+          <lb ed="#Q"/>cumque enim se extendit potentia, et scientia; sed
+          <lb ed="#Q"/>non convertitur, quia scientia se extendit ad bona
+          <lb ed="#Q"/>et * mala, entia et non-entia, potentia vero non se
+          <lb ed="#Q"/>extendit ad mala; magis igitur estf capax poten<lb ed="#Q"/>tiae ", 
+          cum sit minoris extensionis, quam scientiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3878">
+          <lb ed="#Q"/>6. Item, Col. 1,20: Reconciliavit omnia. Glos<lb ed="#Q"/>saB:
+          «Omnia potest per se, ut nihil exceptum
+          <lb ed="#Q"/>sit quod per eum praestari non possit»; et loqui<pb ed="#Q" n="216"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tur 
+          de Christo. Ergo et Christus potest omnia
+          <lb ed="#Q"/>facere, etiam secundum quod homo, quia sica
+          <lb ed="#Q"/>loquitur de ipso Glossa; s'ed Christus secun<lb ed="#Q"/>dum
+          quod homo est creatura; ergo omnipotentia
+          <lb ed="#Q"/>convenit creaturae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3900">
+          <lb ed="#Q"/>7. Item, Col. l,22: Nuncb autem reconciliavit.
+          <lb ed="#Q"/>Glossaï: «Si mortalis et mortuus potuit re<lb ed="#Q"/>conciliare,
+          iam .: immortalis potest omnia facere »;
+          <lb ed="#Q"/>sed ' mortalis ' et ' immortalis ' non ** attribuuntur
+          <lb ed="#Q"/>Christo nisie ratione humanae naturae, quia ra<lb ed="#Q"/>tionef
+          divinae naturae est aeternaliter immortalis
+          <lb ed="#Q"/>et non iam; ergo Christo, secundum quod homo,
+          <lb ed="#Q"/>convenit omnipotentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3920">
+          <lb ed="#Q"/>8. Item, Matth. ultimo, 18: Data est mihi omnis
+          <lb ed="#Q"/>potestas etc.; et loquitur ibig Christus de se se<lb ed="#Q"/>cundum
+          quod homo, quia, secundum quod Filius
+          <lb ed="#Q"/>Dei, habet hoc ex generatione aeterna, secundum
+          <lb ed="#Q"/>quod homo, habet hoc" ex dono, quia datum dicit
+          <lb ed="#Q"/>ex tempore; ergo Christus secundum quod homo
+          <lb ed="#Q"/>habuit omnipotentiam l.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3939">
+          <lb ed="#Q"/>9. Item, Marc. 9, 22: Omnia possibilia sunt c're<lb ed="#Q"/>denti,
+          et Matth. l7,19: Si habueritis fidem sicut
+          <lb ed="#Q"/>granum sinapis, omnia possibilia erunt vobis.
+          <lb ed="#Q"/>Ergo non tantum Christo, sed etiam aliis ratione
+          <lb ed="#Q"/>fidei communicatur omnipotentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3952">
+          <lb ed="#Q"/>Contra: a. Omnis potentia, cuius- est suscepti<lb ed="#Q"/>bilis
+          creatura, consequitur esse creaturae. Si ergo
+          <lb ed="#Q"/>potentia iaciendi vel creandi omnia non conse<lb ed="#Q"/>quitur
+          esse creaturae, non est susceptibilis a crea<lb ed="#Q"/>tura;
+          ergo nec ab anima Christi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3965">
+          <lb ed="#Q"/>b. Item, nihil potest sui ipsius esse principium 2.
+          <lb ed="#Q"/>Ergo, cum omnipotentia sit animae Christi et om<lb ed="#Q"/>nium
+          principium, ergo nec anima Christi nec ali<lb ed="#Q"/>quid
+          omnium potest habere omnipotentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3976">
+          <lb ed="#Q"/>c. Item, nulla potentia entis creati transcendit
+          <lb ed="#Q"/>ens. Cum ergo potentia creandi transcendat ens,
+          <lb ed="#Q"/>quia est operativa de non-ente simpliciter ens et
+          <lb ed="#Q"/>de nihilo aliquid: ergo nulla potentia * entis creati
+          <lb ed="#Q"/>potest esse potentia creandi; ergo nec per con<lb ed="#Q"/>sequens
+          omnipotentia; ergo anima Christi non
+          <lb ed="#Q"/>habuit nec habere potuit omnipotentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e3994">
+          <lb ed="#Q"/>Respondeo: Dico quod omnipotentia potest dici
+          <lb ed="#Q"/>prout includit potentiam creandi omnes res de
+          <lb ed="#Q"/>nihilo: et haec potentia omnia antecedit, quia omnia
+          <lb ed="#Q"/>ab ipso; et haec potentia non potest convenire'
+          <lb ed="#Q"/>creaturae, quia sic creatura esset a se et antece<lb ed="#Q"/>deret
+          eius potentia suam essentiam. —AIio modo
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>potest dici omnipotentia potentiam faciendi na<lb ed="#Q"/>turalia
+          omnia et miracula", et hoc modo accipi<lb ed="#Q"/>tur
+          aliquando" in Scriptura3; sed haec non est
+          <lb ed="#Q"/>omnipotentia secundum quod in prima ratione at<lb ed="#Q"/>tribuitur
+          Deo: et hoc'modo omnipotentia convenit
+          <lb ed="#Q"/>Christo homini. Sic igitur creaturae non convenit
+          <lb ed="#Q"/>omnipotentia secundum quod in prima ratione at<lb ed="#Q"/>tribuitur
+          Deo, scilicet secundum primam rationem
+          <lb ed="#Q"/>et principalem 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4031">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo dicendum
+          <lb ed="#Q"/>quod 'data est eiP gratia sine mensura ad cogno<lb ed="#Q"/>scendum
+          et operandum ? ', secundum possibilitatem
+          <lb ed="#Q"/>naturae cognoscentis et operantis: data est gratia
+          <lb ed="#Q"/>sine mensura ad omnia cognoscibilia creaturae et
+          <lb ed="#Q"/>ad omnia operabilia creaturae. Tamen omnia sim<lb ed="#Q"/>pliciter
+          sunt cognoscibilia creaturae ' rationali, non
+          <lb ed="#Q"/>tamen operabilia 3, propterea non sequitur quod
+          <lb ed="#Q"/>sicut per gratiam habuit omniscientiam, quod
+          <lb ed="#Q"/>propter hoc omnipotentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4056">
+          <lb ed="#Q"/>2. Ad! secundum dicendum quod scientia
+          <lb ed="#Q"/>non p0nit causalitatem vel principium rerum, sed
+          <lb ed="#Q"/>solum ponit similitudinem ad res omnes. Et ideo,
+          <lb ed="#Q"/>cum « anima », sicut dicit Augustinus 5, « ad "
+          <lb ed="#Q"/>similitudinem totius sapientiae iacta », omnium sit
+          <lb ed="#Q"/>similitudo in potentia per intellectum, scientia au<lb ed="#Q"/>tem
+          nihil aliud est quam assimilatio intellectus ad
+          <lb ed="#Q"/>rem 5, ergo anima per naturam capax est omni<lb ed="#Q"/>scientiae.
+          Omnipotentia vero ponit causalitatem et
+          <lb ed="#Q"/>principium rerum omnium, quod nullo modo potest
+          <lb ed="#Q"/>conveniret habenti principium: talis autem est om<lb ed="#Q"/>nis
+          creatura et rationalis anima; ex quo evidens *
+          <lb ed="#Q"/>est quod nullo modo est capax omnipotentiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4087">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod potentia di<lb ed="#Q"/>citur
+          dupliciter7: uno modo dicitur potentia re<lb ed="#Q"/>spectu
+          actus interioris, secundum quod dicitur
+          <lb ed="#Q"/>potentia cognoscendi vel volendi; alio modo di<lb ed="#Q"/>citur
+          potentia respectu actus exterioris, secundum
+          <lb ed="#Q"/>quod dicitur potentia operandi. Primo modo dicta
+          <lb ed="#Q"/>potentia consequitur? ad scientiam, secundo modo
+          <lb ed="#Q"/>non; sequitur enim: * si scientia est, potentia co<lb ed="#Q"/>gnoscendi
+          est ', sed non sequitur: ' si scientia est,
+          <lb ed="#Q"/>potentia operandi est '. Illo ergo modo, quo po<lb ed="#Q"/>tentia
+          consequiturz ad scientiam, est potentia ad
+          <lb ed="#Q"/>omnia, sicut et scientia; sed haec non est po<lb ed="#Q"/>tentia
+          operandi, sed cognoscendi omnia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4118">
+          <lb ed="#Q"/>4. Ad q uartum dicendum quod scientia prac<lb ed="#Q"/>tica
+          duobus modis. habetur. Habetur enim scientia
+          <pb ed="#Q" n="217"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>practica practice et habetur scientia practica specu<lb ed="#Q"/>lative
+          1. Practice secundum quod refertur ad opus
+          <lb ed="#Q"/>sive ad executionema operis; speculative vero,
+          <lb ed="#Q"/>cum non refertur ad executionem operis ", sed ad
+          <lb ed="#Q"/>contemplationem operis. Secundum hunc ergo mo<lb ed="#Q"/>dum
+          dicendum quod anima Christi habuit scien<lb ed="#Q"/>tiam
+          practicam omnium speculative, non practice ;
+          <lb ed="#Q"/>et ita scientia omnium practica, quae fuit in Deo
+          <lb ed="#Q"/>practice, scilicet ad operis executionem, fuit in
+          <lb ed="#Q"/>Christo speculative, scilicetc ad contemplationem
+          <lb ed="#Q"/>operis; et hoc modo summus Artifex omnium de<lb ed="#Q"/>dit
+          scientiam practicam omnium d Christo homini.
+          <lb ed="#Q"/>Ad scientiam ergo dictam hoc modo non sequitur
+          <lb ed="#Q"/>omnipotentia, sed ad scientiam? alio modo dictam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4160">
+          <lb ed="#Q"/>5. Ad quintum dicendum quod quidquid est
+          <lb ed="#Q"/>creaturae est finitum actu, tamen rationalis anima
+          <lb ed="#Q"/>quantum ad potentiam uno modo est finita, alio
+          <lb ed="#Q"/>modo infinita. Infinitaf est quantum ad potentiam
+          <lb ed="#Q"/>cognoscendi: non enim determinatur ad aliqua
+          <lb ed="#Q"/>cognoscibilia quin adhuc posset in plura, si es<lb ed="#Q"/>sent;
+          et ideo, quantum est de se, est infinita po<lb ed="#Q"/>tentia.
+          Quantum vero ad potentiam operandi, anima
+          <lb ed="#Q"/>rationalis finita est et determinatur ad finita ope<lb ed="#Q"/>rabilia,
+          quia8 ita determinatur ad tot quod non
+          <lb ed="#Q"/>ad plura. Ex quo patet quod non est similis ra<lb ed="#Q"/>tio'l
+          ex parte capacitatis scientiae et potentiae:
+          <lb ed="#Q"/>nam potentia operandi finita est et non est capax
+          <lb ed="#Q"/>potentiae infinitae Dei.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4193">
+          <lb ed="#Q"/>Item, si quaeratur propter quid creaturae
+          <lb ed="#Q"/>non potest conferri potentia creandi, sicuti generato
+          <lb ed="#Q"/>confertur potentia generandi k: generatus enim
+          <lb ed="#Q"/>homo habet potentiam generandi hominem'; ergo
+          <lb ed="#Q"/>pari ratione videtur quod creatum possit habere po<lb ed="#Q"/>tentiam
+          creandi: respon den d u m"[ quod hoc est
+          <lb ed="#Q"/>quia omnis creatura agit ex suppositione materiae " ;
+          <lb ed="#Q"/>non enim potest esse tota causa sui operis, sicut
+          <lb ed="#Q"/>potentia prima Dei; quia ergo potentia creandi
+          <lb ed="#Q"/>est in non-subiectam materiam, inde est quod
+          <lb ed="#Q"/>creatura non est susceptibilis potentiae creandi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4219">
+          <lb ed="#Q"/>6. Ad sextum dicendum quod cum dicatur 2,
+          <lb ed="#Q"/>Col. 1,20: « Omnia potest », hoc est *potest'
+          <lb ed="#Q"/>ut " fiat nostra redemptio per ipsum et omnia quae
+          <lb ed="#Q"/>pertinent ad ipsam. Unde omnia potest quae per<lb ed="#Q"/>tinent
+          ad nostram redemptionem, sicut patet per
+          <lb ed="#Q"/>intentionem Apostoli in illo loco; sed hoc potest
+          <lb ed="#Q"/>vel per ipsum in quantum est homo, hoc est se<lb ed="#Q"/>cundum
+          quod in humana natura solvit pretium
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>nostrae redemptionis: et quantum ad solutionem
+          <lb ed="#Q"/>huius pretii potest omnia quae pertinent ad no<lb ed="#Q"/>stram'redemptionem;
+          sed non continetur sub hoc
+          <lb ed="#Q"/>quod dico 'omnia' quod ipse secundum quod
+          <lb ed="#Q"/>homo daret gratiam, sed in quantum Filius Dei.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4253">
+          <lb ed="#Q"/>7. Ad septimam rationem dicendum quod
+          <lb ed="#Q"/>cum dicitur « immortalis potest omnia facere », hic
+          <lb ed="#Q"/>est distributio accommoda3 sicut prius. Unde quod
+          <lb ed="#Q"/>dicit «immortalis potest omnia facere », hoc est
+          <lb ed="#Q"/>ut mediator; vel etiam omnia potest facere, si
+          <lb ed="#Q"/>referatur potentia ad miracula, ut dictum est 4. Si
+          <lb ed="#Q"/>autem'loquamur ratione divinae naturae de ipso,
+          <lb ed="#Q"/>sic omnia potest facere; sed quia loquitur ibi Apo<lb ed="#Q"/>stolus
+          de reconciliatione, quae fuit? ratione hu<lb ed="#Q"/>manae
+          naturae, ideo recipiendum est quod dicitur
+          « omnia potest», scilicet ut mediator.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4277">
+          <lb ed="#Q"/>8. Ad octavum dicendum quod dicitur: Data
+          <lb ed="#Q"/>est mihi omnis potestas etc., id est manife<lb ed="#Q"/>stata!
+          est omnis potestas in caelo et in terra per
+          <lb ed="#Q"/>me. Unde, Philipp.,2,9: Dedit illi nomen, quod
+          <lb ed="#Q"/>est super omne nomen etc. Istud ' dare' dicitur per
+          <lb ed="#Q"/>manifestationem': Christo, in quantum est Filius
+          <lb ed="#Q"/>Dei, dedit Deus nomen ab aeterno excelsum super
+          <lb ed="#Q"/>omne nomen, id est-* super omne quod nominatur
+          <lb ed="#Q"/>in caelo et in terra 5; sed, in quantum homo, mani<lb ed="#Q"/>festando
+          dedit illi, quia in homine Christo mani<lb ed="#Q"/>festatum
+          est nomen illud, et hoc est quod praeest
+          <lb ed="#Q"/>creaturae dignitate et potestate. Unde Ephes.t 1, 22:
+          <lb ed="#Q"/>Omnia subiecit'sub pedibus eius 6. GlossaI:
+          « Omnia subiecta sunt ei non solum dignitate, sed
+          <lb ed="#Q"/>etiam potestate». — Et quod istud 'dare'
+          <lb ed="#Q"/>sit manifestare, patet per Glossam, Phi<lb ed="#Q"/>lipp.
+          2,95: Nomen quod est super omne nomen.<lb ed="#Q"/>«
+          id est honorificentiam quod vocatur Deus, et hoc
+          <lb ed="#Q"/>ante resurrectionem habuit, sed post mortem et
+          <lb ed="#Q"/>resurrectionem " quod erat in evidenti positum est
+          <lb ed="#Q"/>ut scirent daemones. Ita res dicitur fieri quando
+          <lb ed="#Q"/>innotescit ». Et per hoc patet solutio ad illud
+          <lb ed="#Q"/>quod obicit de illo verbo quod dicitur Col. 1,22.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m1c4-d1e4327">
+          <lb ed="#Q"/>9. Ad illud quod obicitur quod omnia pos<lb ed="#Q"/>sibilia
+          sunt credenti: ' omnia ' dicit hic " distribu- '
+          <lb ed="#Q"/>tionem accommodam. Unde non est dictum quod
+          <lb ed="#Q"/>iste, qui x credit, faciat omnia, sed quod ad invo<lb ed="#Q"/>cationem
+          vere credentis ipse Deus faciat omnia,
+          <lb ed="#Q"/>sicut miracula et mirabilia, de quibus ibi loqui<lb ed="#Q"/>tur;
+          unde non attribuitur omnipotentia ipsis cre<lb ed="#Q"/>dentibus,
+          sed ipsi Deo facienti omnia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 8</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-09">April 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-09" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="481"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q4c7">
+        <head xml:id="ahsh-l1p1i2t1q4c7-Hd1e115">I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 7</head>
+        <head xml:id="ahsh-l1p1i2t1q4c7-Hd1e118" type="question-title">&gt;AN ABSTRACTIS HVPOSTASIBUS SIT INTELLIGERE ORDINEM NATURAE IN TRINITATE</head>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e121">
+          <lb ed="#Q"/>Octavo quaeritur I. abstracto ordine naturae per
+          <lb ed="#Q"/>intellectum, an adhuc sit intelligere hypostases "
+          <lb ed="#Q"/>in esse divino.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e130">
+          <lb ed="#Q"/>Et ostenditur quod sic: a. Quia non intelligendo
+          <lb ed="#Q"/>Patrem, Filium non intelligendo, adhuc intelli<lb ed="#Q"/>gendo
+          'non ab alio et quo alius, ab alio a quo
+          <lb ed="#Q"/>alius ", ab alio a quo non alius ', adhuc intelligo
+          <lb ed="#Q"/>unitatem perfectissimam divini esse; sed perfec<lb ed="#Q"/>tissima
+          unitas est, ut ostensum est ', quae est in
+          <lb ed="#Q"/>pluribus non multiplicata; ergo adhuc intelligo in
+          <lb ed="#Q"/>unitate divina unum et unum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e150">
+          <lb ed="#Q"/>II. Similiter quaeritur utrum, abstractis per in<lb ed="#Q"/>tellectum
+          hypostasibus sive personis, sit adhuc
+          <lb ed="#Q"/>intelligere ordinem naturae in esse divino.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e160">
+          <lb ed="#Q"/>Et ostenditur quod non: 0. Quia abstractis
+          <lb ed="#Q"/>personis sive hypostasibus, non intelligitur aliquis
+          <lb ed="#Q"/>quia a nullo a quo alius, nec aliquis qui sit ab
+          <lb ed="#Q"/>alio a quo alius, nec aliquis qui sit ab alio a quo
+          <lb ed="#Q"/>nullus; sed secundum has divisiones d intelligitur
+          <lb ed="#Q"/>ordo naturae et est in divinis; ergo abstractis
+          <lb ed="#Q"/>personis sive hypostasibus in divinis non erit
+          <lb ed="#Q"/>intelligere ordinem naturae.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e180">
+          <lb ed="#Q"/>Ad oppositum: 1. Constat quod, abstractis hy<lb ed="#Q"/>postasibus,
+          potest intelligi mens summa noscere
+          <lb ed="#Q"/>se et etiam cognoscens se diligit se; ergo, abs<lb ed="#Q"/>tractis
+          personis, est ibi intelligere mentem, no<lb ed="#Q"/>titiam
+          et amorem; sed ordo naturae est notitiae
+          <lb ed="#Q"/>ad mentem et amoris ad utrumque; relinquitur
+          <lb ed="#Q"/>igitur quod est intelligere ordinem naturae in Deo
+          <lb ed="#Q"/>etiam abstractis personis.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e200">
+          <lb ed="#Q"/>2. Secunda ratio. In anima rationali non sunt
+          <lb ed="#Q"/>hypostases et tamen ibi intelligitur ordo naturae
+          <lb ed="#Q"/>inter mentem 9, intelligentiam et voluntatem, se<lb ed="#Q"/>cundum
+          quas vires animaf est imago Trinitatis
+          <lb ed="#Q"/>increatae; ergo similiter ine? increata Trinitate
+          <lb ed="#Q"/>potest intelligi ordo naturae, si abstrahantur hy<lb ed="#Q"/>postases
+          et personae.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e218">
+          <lb ed="#Q"/>Solutio: I. Ad primum dicendum quod, ab<lb ed="#Q"/>stracto
+          ordine naturali vel naturae ah divinis per
+          <lb ed="#Q"/>intellectum, adhuc possunt intelligi hypostases;
+          <lb ed="#Q"/>unde potest adhuc ibii intelligi unus et unus, ta<lb ed="#Q"/>men
+          indistincte. Unde notandum quod k hyposta<lb ed="#Q"/>sis,
+          cum sit substantia, aliquando dicit per modum 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>substantiae pronominalis, hoc est sub qualitate
+          <lb ed="#Q"/>indeterminata sicut substantia! pronominalis; ali—
+          <lb ed="#Q"/>quando dicit per modum substantiae nominalis
+          <lb ed="#Q"/>singularis, ut Sortes, et tunc dicit sub qualitate
+          <lb ed="#Q"/>determinata et definita vel distincta, et tunc, si sit
+          <lb ed="#Q"/>circa rem rationalis naturae singularem, dicetur
+          <lb ed="#Q"/>esse persona. Abstracto ergo ordine naturae'" a
+          <lb ed="#Q"/>divinis, qui est secundum istas proprietates 'non
+          <lb ed="#Q"/>ab alio a quo alius' etc., esset intelligere primo
+          <lb ed="#Q"/>modo hypostases in divinis, quia posset intelligi
+          <lb ed="#Q"/>unus et unus, tamen indistincte ", sicut substantia
+          <lb ed="#Q"/>pronominalis dat intelligere substantiam sine quao
+          <lb ed="#Q"/>non possent ibi intelligi personae, quae dicuntur
+          <lb ed="#Q"/>ad modum substantiae singularis nominalis sub
+          <lb ed="#Q"/>proprietate incommunicabili discreta, sicut patet
+          <lb ed="#Q"/>in Sorte. Ad modum ergo substantiae pronomi<lb ed="#Q"/>nalis
+          possent ibi hypostases intelligi, non nomi<lb ed="#Q"/>nalis,
+          ordine naturae subtracto.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e275">
+          <lb ed="#Q"/>II. Ad secundo quaesitum dicendum quod,
+          <lb ed="#Q"/>abstractis personis sive hypostasibus, non essetP
+          <lb ed="#Q"/>intelligere in divinis ordinem naturae; duplex
+          <lb ed="#Q"/>enim est ordo, scilicet ordo naturae et ordo in<lb ed="#Q"/>telligentiae.
+          In divinis ordo naturae ponit ratio<lb ed="#Q"/>nem
+          originis, quia circa ipsam attenditur ratio
+          <lb ed="#Q"/>originis; origoq autem dum iit' circa rem quae
+          <lb ed="#Q"/>sit in genere substantiae, ponit rationem eius
+          <lb ed="#Q"/>quod est de principio et principii, scilicet quod
+          <lb ed="#Q"/>alius ab alio; et ideo impossibile est quod in
+          <lb ed="#Q"/>Deo intelligatur hic ordo nisi ibis intelligatur
+          <lb ed="#Q"/>alius et alius *, quia, sicut dicit Anselmusz,
+          « nec intellectus capit nec natura permittit illum
+          <lb ed="#Q"/>qui de alio est, esse" illum de quo est »; ab<lb ed="#Q"/>stractis
+          autem personis et hypostasibus, non esset
+          <lb ed="#Q"/>ibi alius et alius, et ideo non posset ibi esse nec
+          <lb ed="#Q"/>intelligi iste ordo. Ordo vero secundum intelligen<lb ed="#Q"/>tiam
+          non ponit "ordinem ex parte rei,'sed ex parte
+          <lb ed="#Q"/>acceptionis" nostrae. Unde secundum hoc nos
+          <lb ed="#Q"/>dicimus quod secundum ordinem intelligentiae
+          <lb ed="#Q"/>praecedit essentia potentiam et scientiam, in Deo
+          <lb ed="#Q"/>tamen idem sunt essentia, potentia, scientia. Et
+          <lb ed="#Q"/>secundum hoc dicendum quod si in divinis in—
+          <lb ed="#Q"/>telligeretur mens, notitia et amor, abstractis di—
+          <lb ed="#Q"/>vinis personis, non esset inter haec ordo naturae,
+          <lb ed="#Q"/>sed solum ordo intelligentiae, quia non esset di<lb ed="#Q"/>cere 
+          notitiam a mente nec amorem ab utroque,
+          <pb ed="#Q" n="482"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>immo esset dicere mentem esse notitiam et amo<lb ed="#Q"/>rem,
+          quamvis secundum acceptionem intellectus
+          <lb ed="#Q"/>nostri prius intelligeretur mens quam notitia 'et
+          <lb ed="#Q"/>notitia quam amor.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e347">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Per hoc patet solutio ad pri<lb ed="#Q"/>mam 
+          rationem in contrarium.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e355">
+          <lb ed="#Q"/>2. Ad secundam rationem qua obicitur" de
+          <lb ed="#Q"/>viribus animae, secundum quasb anima dicitur
+          <lb ed="#Q"/>esse imago Trinitatis increatae: dicendum quod
+          <lb ed="#Q"/>hypostasis est res habens esse substantiae singu<lb ed="#Q"/>laris
+          cum proprietate incommunicabili'l; ordo
+          <lb ed="#Q"/>ergo naturae et originis non ponit pluralitatem
+          <lb ed="#Q"/>hypostasum nisi quando fit c in rebus, quae 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sunt de genere substantiae; et quia viri
+          <lb ed="#Q"/>non sunt de genere substantiae, sed su
+          <lb ed="#Q"/>substantiae animae et non substantia
+          <lb ed="#Q"/>ideo ordo naturae et originis non poni
+          <lb ed="#Q"/>hypostases. In divinis autem ordo n:
+          <lb ed="#Q"/>originis est circa rem quae est substani
+          <lb ed="#Q"/>quid enim est in Deo, est ipsa divina s
+          <lb ed="#Q"/>et ideo non potest ibi esse ordo natur
+          <lb ed="#Q"/>sint ibi plures hypostases, immo cum h
+          <lb ed="#Q"/>substantia sit, ponit ibi ordo naturae
+          <lb ed="#Q"/>postases.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c7-d1e399">
+          <lb ed="#Q"/>Et sit patet responsio ad Quaestione
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

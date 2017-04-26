@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 4, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-21">April 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-21" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="547"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q4c1">
+        <head xml:id="ahsh-l1p2i2t1q4c1-Hd1e118">I, P. 2, Inq. 2, Tract. 1, Q. 4, C. 1</head>
+        <head xml:id="ahsh-l1p2i2t1q4c1-Hd1e121" type="question-title">AN NOMINA CONSEQUENTIA NATURAM SIGNIFICENT SUBSTANTIAM DIVINAM.</head>
+        <p xml:id="ahsh-l1p2i2t1q4c1-d1e152">
+          <lb ed="#Q"/>Ad primum sic: I. a. Boethius, in libro De 
+          <lb ed="#Q"/>Trinitate 1 : : Cum dicitur 'Deus iustus vel bo<lb ed="#Q"/>nus ', 
+          praedicatur iustitia vel bonitas quae est di<lb ed="#Q"/>vina <!--b--> 
+          substantia ». Ergo significant substantiam ".
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c1-d1e165">
+          <lb ed="#Q"/>b. Item, 'iustum' et 'bonum ' conveniunt tribus 
+          <lb ed="#Q"/>personis et in summa singulariter 4; ergo dicuntur
+          <lb ed="#Q"/>essentialiter, secundum regulam A u g u s ti ni 2.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c1-d1e174">
+          <lb ed="#Q"/>Contra: 1. Damascenus3: « 'Iustum' et 
+          <lb ed="#Q"/>' bonum' et 'sanctum ' sequuntur naturam, non 
+          <lb ed="#Q"/>ipsam substantiam ostendunt ».
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c1-d1e183">
+          <lb ed="#Q"/>II. Item, quaeritur de hoc quod dicit Dama<lb ed="#Q"/>scenus,
+          4 cap. I 1ibri4: « Quaecumque in Deo
+          <lb ed="#Q"/>affirmative dicuntur, non naturam, sed ea, quae
+          <lb ed="#Q"/>sunt circa: naturam eius, ostendunt, ut si bonumf,
+          <lb ed="#Q"/>si iustum, si sapiens, si! quodcumque dixeris,
+          <lb ed="#Q"/>non naturam dicis Dei, sed ea quae sunt circa
+          <lb ed="#Q"/>naturam ».
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c1-d1e201">
+          <lb ed="#Q"/>Respondeo: I. 1. Est considerare dupliciter no<lb ed="#Q"/>men 
+          Dei: aut quantum ad significatum aut quan<lb ed="#Q"/>tum
+          ad modum significandi. Considerando signi<lb ed="#Q"/>ficatum,
+          omnia huiusmodi nomina ", sive opera<lb ed="#Q"/>tionis
+          sive privationis sive' consequentia naturam 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sive habitudinis, ostendunt naturam. Conside<lb ed="#Q"/>rando
+          vero modum significandi qui est sicut in
+          <lb ed="#Q"/>creatura, dicit Damascenus5 quod non'signi<lb ed="#Q"/>ficant
+          naturam, sed consequentia naturam, quia
+          <lb ed="#Q"/>ad similitudinem dicuntur eorum k quae sequuntur
+          <lb ed="#Q"/>naturam in creaturis et non significant substan<lb ed="#Q"/>tiam,
+          sed proprietatem substantiae": significant
+          <lb ed="#Q"/>enim divinam naturam ut qualitatem sive ut ha<lb ed="#Q"/>bitum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t1q4c1-d1e236">
+          <lb ed="#Q"/>II. Ad secundum quod quaeritur quod « quae<lb ed="#Q"/>cumque
+          dicuntur affirmative de Deo, non natu<lb ed="#Q"/>ram,
+          sed ea, quae circa naturam sunt', osten<lb ed="#Q"/>dunt
+          », dicendum secundum istamm regulam fi<lb ed="#Q"/>dei
+          6: « Omne simplex alio est ", alio dicitur esse,
+          <lb ed="#Q"/>quia sua" propria essentia est, nominatur autem
+          <lb ed="#Q"/>suo effectu». Quia ergo nomen positivumP in
+          <lb ed="#Q"/>divinis acceptum est ab «effectu, ideo dicitur quan<lb ed="#Q"/>tum
+          ad modum significandi non significare na—
+          <lb ed="#Q"/>turam; et istud intelligitur de nominibus positivis
+          <lb ed="#Q"/>significantibus Deum sub aliqua forma determi<lb ed="#Q"/>nata,
+          ut 'bonus, iustus, sapiens' etc.; nam istud
+          <lb ed="#Q"/>non intelligitur de significantibus absolute et in<lb ed="#Q"/>determinate,
+          ut 'ens ' et * qui est'.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

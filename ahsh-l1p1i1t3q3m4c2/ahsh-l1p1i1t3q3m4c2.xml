@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="194"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m4c2">
+        <head xml:id="ahsh-l1p1i1t3q3m4c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t3q3m4c2-Hd1e3744" type="question-title">QUOMODO OPPONITUR MALUM BONO GRATIAE ET NATURAE</head>
+        <p xml:id="ahsh-l1p1i1t3q3m4c2-d1e3747">
+          <lb ed="#Q"/>Secundo-quaeritur de genere oppositionis mali 
+          <lb ed="#Q"/>ad bonum naturae et gratiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c2-d1e3754">
+          <lb ed="#Q"/>Ad quod. sic: Malum culpae" opponitur con<lb ed="#Q"/>trarie
+          bono naturae et gratiae 1; ergo si haec duo
+          <lb ed="#Q"/>bona sunt duo," videtur quod unum opponatur
+          <lb ed="#Q"/>duobus uno genere oppositionis : quod est inconve<lb ed="#Q"/>niens.
+          — Quia autem b pbsset dici quod non oppo<lb ed="#Q"/>nitur
+          ut contrarium, ostenditur quod immo. Primo,
+          <lb ed="#Q"/>quod bono gratiae. Non enim opponitur con<lb ed="#Q"/>tradictorie
+          tantum nec "relative: hoc supponitur;
+          <lb ed="#Q"/>opponitur ergo privative vel contrarie. Privative
+          <lb ed="#Q"/>non: hoc patet, quia bonum et malum non deter<lb ed="#Q"/>minantur"
+          ordine irregressibili c circa suum subiec<lb ed="#Q"/>tum,
+          immo alternantur frequenter circad idem,
+          <lb ed="#Q"/>et in aliquo malum praecedit bonum, in aliquo
+          <lb ed="#Q"/>e contrario. Si ergo quae huiusmodi sunt' non
+          <lb ed="#Q"/>sunt privative opposita, sed contrarie f, relinquitur
+          <lb ed="#Q"/>quod malum culpae contrarie opponetur bono gra<lb ed="#Q"/>tiae.
+          — Quod autem sit contrarium bono
+          <lb ed="#Q"/>naturae, videtur: quoniam nihil est corrup<lb ed="#Q"/>tivum
+          alterius proprie nisi sit contrarium illi;
+          <lb ed="#Q"/>ergo si malum est corruptivum boni naturalis,
+          <lb ed="#Q"/>ut dicit Augustinus:-in pluribus locis 2, con—
+          <lb ed="#Q"/>trarium est malum culpae bono naturae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c2-d1e3804">
+          <lb ed="#Q"/>Solutio: Dicimus quod cum duo sint bona,
+          <lb ed="#Q"/>naturae et gratiae, prOprie et per se loquendo non
+          <lb ed="#Q"/>est idem malum quod utrique opponitur. Nam
+          <lb ed="#Q"/>bono gratiae proprie et per se respondet malum
+          <lb ed="#Q"/>scilicet culpae; bono autem naturae respondet
+          <lb ed="#Q"/>oppositum proprie et per se loquendo malum,
+          <lb ed="#Q"/>poenae. Unde non opponitur unum duobus, sed
+          <lb ed="#Q"/>duo duobus!-': unde si bono naturae opponitur 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>malum culpae, hoc non est primo et per se, sed
+          <lb ed="#Q"/>mediante'z malo poenae ; sic auteml non est in<lb ed="#Q"/>conveniens
+          duo opponi uni: unum immediate et
+          <lb ed="#Q"/>per se, reliquum mediate et per consequens; 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c2-d1e3836">
+          <lb ed="#Q"/>Si autem quaeritur qualiter opponitur" malum
+          <lb ed="#Q"/>culpae ipsi bono gratiae: dico quod in ipso malo
+          <lb ed="#Q"/>culpae duo sunt. Est enim ibi' hoc quod dico
+          ' malum'; est'" etiam ibi'actio sive dispositio relicta
+          <lb ed="#Q"/>ex mala actione: relinquitur enim in male agente
+          <lb ed="#Q"/>aliqua dispositio mala ex" ipsa mala operatione,
+          <lb ed="#Q"/>sicut in bene" operante relinquitur aliqua bona
+          <lb ed="#Q"/>dispositio; sed in hoc est differentia quod mala
+          <lb ed="#Q"/>dispositio semper sequitur malum opus in male
+          <lb ed="#Q"/>agente; ubi autem "est gratia, ipsa bona dispositio
+          <lb ed="#Q"/>relinquitur aliquando ante bonam operationem.
+          <lb ed="#Q"/>Quantum ergo ad hoc quod dicit malum, di<lb ed="#Q"/>cimus
+          quod opponitur privative malum culpae
+          <lb ed="#Q"/>ipsi bono gratiae; Quantum vero ad dispositio—
+          <lb ed="#Q"/>nem relictam, quae est ad malum in male " agente,
+          <lb ed="#Q"/>dicimus quod cum haec dispositio sit contraria
+          <lb ed="#Q"/>dispositioni quae est in habente gratiam, sic quan<lb ed="#Q"/>tum
+          ad hoc opponetur malum culpae contrarie
+          <lb ed="#Q"/>bono gratiae; unde nec huiusmodi "simpliciter lo<lb ed="#Q"/>quendo
+          dicendum est contrarium tantum vel pri<lb ed="#Q"/>vativum
+          tantumP, sed contrarium sub privatione.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c2-d1e3882">
+          <lb ed="#Q"/>Si autem quaeritur quomodo opponitur malum
+          <lb ed="#Q"/>poenae bono sibi opposito: dicimus quod'eodem
+          <lb ed="#Q"/>modo sicut et malum culpae suo opposito. Tamen
+          <lb ed="#Q"/>in h0c "est differentia oppositionis 0 hinc et inde,
+          <lb ed="#Q"/>quod malum culpae adveniens in eo in quo est
+          <lb ed="#Q"/>suum oppositum, totaliter abicit illud, scilicet bo<lb ed="#Q"/>num
+          gratiae; malum autem poenae non totaliter
+          <lb ed="#Q"/>abicit" bonum naturae, sed solum diminuit".
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

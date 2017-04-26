@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-25">April 25, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-25" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q1m3c5">
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c5-Hd1e118">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 5</head>
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c5-Hd1e121" type="question-title">QUOMODO COMPARETUR 'HVPOSTASIS' AD ESSENTIAM QUANTUM AD SUPPOSITIONEM.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c5-d1e124">
+          <lb ed="#Q"/>Consequenter quaeritur de comparatione hypo<lb ed="#Q"/>stasis 
+          ad essentiam quantum ad suppositio<lb ed="#Q"/>nem.
+          Quamvis istud posset solvi ex Quaestione
+          <lb ed="#Q"/>superiori De suppositione personae 5, tamen ad
+          <lb ed="#Q"/>maiorem intelligentiam repetendo aliqua praedicta,
+          <lb ed="#Q"/>addimuse alia. Quaeritur igitur, cum supposita
+          <lb ed="#Q"/>persona supponatur hypostasis, an supposita hy<lb ed="#Q"/>postasi
+          supponatur essentia.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c5-d1e144">
+          <lb ed="#Q"/>Ad quod sic: 1. In rebus creatis<!--f--> ita est quod
+          <lb ed="#Q"/>cum unum attribuitur alteri et non secundum ac<lb ed="#Q"/>cidens,
+          supposito ! uno supponitur reliquum ; sed
+          <lb ed="#Q"/>non dicitur secundum accidens 'persona divina
+          <lb ed="#Q"/>est essentia', per illam regulam Boethiiö: « In
+          <lb ed="#Q"/>simplici non"1 differt 'quod est' et 'quo est' »
+          <lb ed="#Q"/>sive 'qui est' et 'quod est'. Cum ergo hypo<lb ed="#Q"/>stasis
+          dicat 'qui est', essentia 'quo est ', non dit<lb ed="#Q"/>iert
+          hypostasis ab essentia; ergo supposita per<lb ed="#Q"/>sona
+          supponitur Deus sive essentia.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c5-d1e170">
+          <lb ed="#Q"/>2. Praeterea, in quibus est omnimoda indiffe<lb ed="#Q"/>rentia'
+          secundum substantiam, supposito uno sup<lb ed="#Q"/>ponitur
+          alterum; sed omnimoda indifferentia est
+          <lb ed="#Q"/>hypostasis et essentiae; ergo primum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c5-d1e182">
+          <lb ed="#Q"/>Contra: a. Hypostasis distinguitur, essentia
+          <lb ed="#Q"/>non; ergo supposito uno non supponitur alterum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c5-d1e189">
+          <lb ed="#Q"/>b. Item, haec dicuntur de creaturis" et Creatore,
+          <lb ed="#Q"/>ut dicit Augustinus, VII De Trinitate 7, qui
+          <lb ed="#Q"/>dicit haec esse nomina generalia; sed in creaturis
+          <lb ed="#Q"/>sic est quod supposita hypostasi non supponitur
+          <lb ed="#Q"/>essentia: est enim de persona hominis dicere quod
+          <lb ed="#Q"/>est animal rationale, de essentia auteml non,
+          <lb ed="#Q"/>et de hypostasi hominis quod est individuum, de
+          <lb ed="#Q"/>essentia quod est universale; sic ergo erit in di<lb ed="#Q"/>vinis'":
+          hypostasis gignit vel gignitur vel procedit,
+          <lb ed="#Q"/>essentia non; ergo Supposita hypostasi non sup<lb ed="#Q"/>ponitur
+          essentia.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c5-d1e215">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>[Solutio]: 1-2. Ad hoc dicendum quod supposita
+          <lb ed="#Q"/>hypostasi" non supponitur essentia, licet qui<lb ed="#Q"/>dam
+          antiquorum ita dicerent. Haec enim fuit
+          <lb ed="#Q"/>haeresis reprobata 0 in Concilio Lateranensi prop<lb ed="#Q"/>ter
+          Ioachim 8: concessit enim quod essentia ge<lb ed="#Q"/>neratur.
+          Ratio autem haec est: quia aliquid dici<lb ed="#Q"/>tur
+          supponi altero supposito, quando ipsum est
+          <lb ed="#Q"/>in ratione eius secundum rectitudinem, utP sup<lb ed="#Q"/>posito
+          homine supponitur animal et supposito
+          <lb ed="#Q"/>Petro supponitur animal'! et homo, et ideo quia
+          <lb ed="#Q"/>hypostasis est secundum rectitudinem in persona,
+          <lb ed="#Q"/>ideo supposita persona' supponitur hypostasis;
+          <lb ed="#Q"/>essentia autem non est in ratione hypostaseos
+          <lb ed="#Q"/>vel personae in rectitudine, sed oblique, et ideo
+          <lb ed="#Q"/>per unum non supponitur alterum. Similiter sup<lb ed="#Q"/>posita
+          notione non supponitur persona, et qua<lb ed="#Q"/>liter
+          hoc sit posteag dicetur. Si autem coarcte—
+          <lb ed="#Q"/>mus omnino intentionem eiuss quod est 'sup<lb ed="#Q"/>poni
+          ', illud dicitur supponi supposito altero,
+          <lb ed="#Q"/>quando quidquid attribuitur uni, et alteri; ideo
+          <lb ed="#Q"/>dixerunt quidam antiqui quod licet persona
+          <lb ed="#Q"/>sive hypostasis essentia esset, quia tamen persona
+          <lb ed="#Q"/>generat, essentia non, ideo supposita persona non
+          <lb ed="#Q"/>supponitur essentia. lsta autem nomina generalia
+          <lb ed="#Q"/>sunt in Creatore et creatura; in creatura autem
+          <lb ed="#Q"/>differt? 'quod est' et 'quo est';-'quo est ' au<lb ed="#Q"/>tem
+          est essentia, 'quod est' substantia; unde "
+          <lb ed="#Q"/>non est homo sua humanitas; eodem modo in
+          <lb ed="#Q"/>creatura differt 'quis est' sive 'qui est' et 'quod
+          <lb ed="#Q"/>est'; unde non est homo iste sua humanitas. Cum
+          <lb ed="#Q"/>autem « in omni simplici omnino V sint idem ' quo
+          <lb ed="#Q"/>est' et 'quod est' "' » sive 'quo est' et 'quis est'
+          <lb ed="#Q"/>et non differant, nihilominus tamen modus si<lb ed="#Q"/>gnificandi
+          est differens; et ideo quantum est de
+          <lb ed="#Q"/>se, supposita persona vel hypostasi non suppo<lb ed="#Q"/>nitur
+          essentia, sed distinguitur quadamx ratione
+          <pb ed="#Q" n="592"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>intelligentiae. Nec sequitur: 'si hoc est idem illi,
+          <lb ed="#Q"/>quod hoc supposito supponatur illud'. Quod enim
+          <lb ed="#Q"/>persona est idem quod essentia in divinis, hoc
+          <lb ed="#Q"/>est quia in divinis, ubi est summa simplicitas,
+          <lb ed="#Q"/>non quia persona, non quia essentia: tunc enim
+          <lb ed="#Q"/>teneret in creaturis, in quibus et illa reperiuntur.
+          <lb ed="#Q"/>Nec si omnino est indifferentia secundum rem,
+          <lb ed="#Q"/>sequitur quod uno supposito supponatur reli<lb ed="#Q"/>quum;
+          sed si est indifferentia secundum rationem
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>intelligentiae, tunc uno supposito-supponitur alte<lb ed="#Q"/>rum
+          4. Estautem dii-ferens ratio intelligentiae in
+          <lb ed="#Q"/>hoc nomine 'persona sive hypostasis' et in hoc
+          <lb ed="#Q"/>nomine 'essentia', sicut in creaturis est videre,
+          <lb ed="#Q"/>et ideo non sequitur: 'personab gignit vel gigni<lb ed="#Q"/>tur
+          vel procedit, essentia non, non ergo est-es<lb ed="#Q"/>sentia
+          persona ', quia altera est ratio intelligen<lb ed="#Q"/>tiae 
+          in hoc nomine 'persona' et inc hoc nomine
+          <lb ed="#Q"/>' essentia '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

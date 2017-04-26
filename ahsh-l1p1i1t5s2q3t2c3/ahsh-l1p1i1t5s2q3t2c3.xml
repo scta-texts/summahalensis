@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-13">March 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="309"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q3t2c3">
+        <head xml:id="ahsh-l1p1i1t5s2q3t2c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. II, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s2q3t2c3-Hd1e3744" type="question-title">QUORUM SIT FATUM.</head>
+        <div xml:id="ahsh-l1p1i1t5s2q3t2c3-Dd1e3747" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t2c3-Hd1e3749">Articulus I</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t2c3-Hd1e3752" type="question-title">An fatum sit omnium quorum est providentia.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e3755">
+            <lb ed="#Q"/>Consequenter quaeritur quorum sit fatum. Primo,
+            <lb ed="#Q"/>an omnium quorum est divina providentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e3762">
+            <lb ed="#Q"/>Et videtur quod sic: 1. Boethiusl: «Fa<lb ed="#Q"/>tum
+            est rebus mobilibus inhaerens dispositio, per
+            <lb ed="#Q"/>quam providentia suis quaeque nectit ordinibus ».
+            <lb ed="#Q"/>Si autem providentia quaeque nectit per dispo<lb ed="#Q"/>sitionem,
+            quae est fatum: sed quaecumque dispo<lb ed="#Q"/>sitione,
+            quae est fatum, nectuntur, sunt fatalia;
+            <lb ed="#Q"/>ergo quaecumque nectitf providentia nectuntur
+            <lb ed="#Q"/>per fatum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e3782">
+            <lb ed="#Q"/>2. Item, idem<!--!--> BoethiusZ: « Fatum est" eo<lb ed="#Q"/>rum,
+            quae divina simplicitas gerenda disposuit,
+            <lb ed="#Q"/>mobilis nexus ». Ergo fatum est eorum quae ca<lb ed="#Q"/>dunt
+            sub divina dispositione; sed quaecumque
+            <lb ed="#Q"/>subsunt divinae providentiae, subsunt divinae
+            <lb ed="#Q"/>dispositioni; ergo fatum est omnium eorum quo<lb ed="#Q"/>rum
+            est providentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e3803">
+            <lb ed="#Q"/>3. Item, in hoc videtur esse differentia inter
+            <lb ed="#Q"/>providentiam et fatum, quantum ad illa quae illis
+            <lb ed="#Q"/>subsunt, quod providentia est dispositio simul
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>omnia disponens; fatum est per quod unumquod<lb ed="#Q"/>que
+            ad effectum perduciti: sicut artifex digerit
+            <lb ed="#Q"/>mente quaecumque vult ad effectum ducere, et
+            <lb ed="#Q"/>post operatur unumquodque secundum quod
+            <lb ed="#Q"/>primo in mente digessit 3. Et hoc est quod dicit
+            <lb ed="#Q"/>B 0 ethi us 4: « Providentia cuncta pariter, quam<lb ed="#Q"/>vis
+            diversa, quamvis infinita, complectitur; fatum
+            <lb ed="#Q"/>vero singula digerit in motu, locis, formis, tem<lb ed="#Q"/>poribus
+            distributa: ut "haec temporalis ordinis
+            <lb ed="#Q"/>explicatio, in' divinae mentis adunata prospectum *,
+            <lb ed="#Q"/>providentia sit, eadem vero adunatio, digesta at<lb ed="#Q"/>que
+            explicata temporibus, fatum vocetur». Ex
+            <lb ed="#Q"/>iis patet quod non est differentia inter haec in
+            <lb ed="#Q"/>numero eorum quae illis subsunt. — Praeterea,
+            <lb ed="#Q"/>nonne dicit Boethius5 quod fatum «singula.
+            <lb ed="#Q"/>digerit' », quae scilicet cadunt sub providen<lb ed="#Q"/>tia?
+            Ergo fatum est'" omnium quorum est provi<lb ed="#Q"/>dentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e3853">
+            <lb ed="#Q"/>4. Item, dicit Boethius6 quod Deus « omne
+            <lb ed="#Q"/>malum de reipublicae suae" terminis per fatalis
+            <lb ed="#Q"/>seriem necessitatis eliminat ». Ergo, ut videtur,
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>nihil excluditur a serie fatali nisi malum; ergo
+            <lb ed="#Q"/>omne bonum cadit sub fato sicut sub provi<lb ed="#Q"/>dentia;
+            ergo etc.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e3871">
+            <lb ed="#Q"/>Contra: a. Boethiuslz «Manifestuma est
+            <lb ed="#Q"/>immobilem simplicemque gerendarum b formam re<lb ed="#Q"/>rum
+            esse providentiam, fatum vero eorum ", quae
+            <lb ed="#Q"/>divina simplicitas gerenda disposuit, mobilemii
+            <lb ed="#Q"/>nexum atque ordinem temporalem. Quot fit ut
+            <lb ed="#Q"/>omnia, quae tato subsunt, providentiae quoque
+            <lb ed="#Q"/>subiecta sint, cui ipsum etiam subiacet tatum;
+            <lb ed="#Q"/>quaedam vero, quae sub providentia locata sunt,
+            <lb ed="#Q"/>fati seriem superent »; Et dicit Expositor2
+            <lb ed="#Q"/>quod fatum subest providentiae, sicut species
+            <lb ed="#Q"/>generi; unde" quaecumque sunt sub fato sunt sub
+            <lb ed="#Q"/>providentia, et non e'converso; ergo non omnium
+            <lb ed="#Q"/>est fatum quorum est providentia.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e3902">
+            <lb ed="#Q"/>[Solutio]: Quod concedimus, dicentes quod
+            <lb ed="#Q"/>quaedam exeunt simpliciter de non-esse in esse,
+            <lb ed="#Q"/>quorum Deus est tota causa; quaedam de
+            <lb ed="#Q"/>non—essef in esse simpliciter, quorum Deus non
+            <lb ed="#Q"/>est tota causa, sed concurrentibus causis inferio<lb ed="#Q"/>ribus
+            illa producit in esse, sicut est de omnibus
+            <lb ed="#Q"/>illis quae mediantibus causis inferioribus produ<lb ed="#Q"/>cuntur
+            in esse. Quae primo modo sunt, quantum
+            <lb ed="#Q"/>ad esse quod sunt, non subiacent fato, subiacent
+            <lb ed="#Q"/>tameng quantum ad actus et operationes conse<lb ed="#Q"/>quentes,
+            quorum ipsa sunt causae vel concaus'ae;
+            <lb ed="#Q"/>unde generaliter operationes et operata, quae sunt
+            <lb ed="#Q"/>immediate a divina providentia sive a Deo ut a
+            <lb ed="#Q"/>tota causa, non subiacent fato ". Alia vero, sive
+            <lb ed="#Q"/>sint operata sive operationes, aliquo modo sub<lb ed="#Q"/>iacenti
+            secundum quod esse vel operatio eorum
+            <lb ed="#Q"/>motione vel motu decernitur ", Et hoc est quod
+            <lb ed="#Q"/>dicit Boethius3 quod «ea quae primae' pro<lb ed="#Q"/>pinqua
+            divinitati stabiliter fixa sunt, fatalis ordi<lb ed="#Q"/>nem
+            mobilitatism excedunt»; illa autem sunt di<lb ed="#Q"/>vinitati"
+            stabiliter fixa, quae ab ea0 sunt ut a
+            <lb ed="#Q"/>tota causa, ut sunt angeli et animae, quantum
+            <lb ed="#Q"/>ad esse dico, et haec excedunt ordinem mobi<lb ed="#Q"/>litatis
+            fatalis. Unde dicit Expositor Boe<lb ed="#Q"/>thii,
+            exponens illudtz « Quaedam, quae sub
+            <lb ed="#Q"/>providentia locata sunt, fati seriem superant»,
+            <lb ed="#Q"/>dicit5: quaedam Sunt sub providentia, quae non
+            <lb ed="#Q"/>subsunt? fato, sicut angelici spiritus et alia quae
+            <lb ed="#Q"/>simplicitatem divinitatis circumsunt. Istud patet
+            <lb ed="#Q"/>exemplo Boethii de orbibus vertentibus circa
+            <lb ed="#Q"/>eumdem—cardinem; dicit enim sic 6: « Ut orbium <!--q-->
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>circa eumdem'cardinem sese vertentium, qui est
+            <lb ed="#Q"/>intimus" ad simplicitatem medietatis accedit, cete<lb ed="#Q"/>rorumqueb
+            extra locatorum velut cardo quidam,
+            <lb ed="#Q"/>circa quem versentur, existit; extimus vero maiori
+            <lb ed="#Q"/>ambitu rotatus, quanto ac puncti media individua<lb ed="#Q"/>litate
+            discedit, tanto amplioribus spatiis explica<lb ed="#Q"/>tur;
+            si quid vero illi se medio connectat et societ,
+            <lb ed="#Q"/>in simplicitate cogitur, diffundique ac diffluere ces<lb ed="#Q"/>sat.
+            Simili ratione quod longius a prima(1 mente
+            <lb ed="#Q"/>discedit, maioribus fati nexibus implicatur ac"
+            <lb ed="#Q"/>tanto aliquid a fato liberum est, quanto illum rerum
+            <lb ed="#Q"/>cardinem vicinius petit. Quod si supernae mentis
+            <lb ed="#Q"/>haeserit firmitati motu carens, fati quoque super—
+            <lb ed="#Q"/>greditur necessitatem ». Concedimus igitur quod
+            <lb ed="#Q"/>non omnia quae subsunt divinae providentiae,
+            <lb ed="#Q"/>subsunt fato, ut sunt illa quae illi coniuncta sunt
+            <lb ed="#Q"/>vicinissime, cuiusmodi sunt illa quae sunt ab illo
+            <lb ed="#Q"/>ut a tota causa, et hoc dico in quantum huiusmodi.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4015">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Ad hoc quod obicitur quod
+            'providentia dispositione, quae est fatum, « suis
+            <lb ed="#Q"/>quaeque nectit ordinibus » ': dicendum quod hoc,
+            <lb ed="#Q"/>quod dico « quaeque », non habet pronuntiationem
+            <lb ed="#Q"/>generalem simpliciter, sed pro illis quae producun<lb ed="#Q"/>tur
+            in esse cooperationef causae causatae; earum
+            <lb ed="#Q"/>enim operationum et operatorum fatum est nexus.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4031">
+            <lb ed="#Q"/>2. Ad aliud quod obicitur quod «fatum est
+            <lb ed="#Q"/>eorum quae divina simplicitas gerenda dispo<lb ed="#Q"/>suitg
+            » etc.: dicendum quod haec auctoritas est
+            <lb ed="#Q"/>potius " ad contrarium quam ad propositum. Ponit
+            <lb ed="#Q"/>enim auctor ibidem differentiam inter providen<lb ed="#Q"/>tiam
+            et fatum: quod providentia quadam simpli<lb ed="#Q"/>citate,
+            id est simultate et immobilitate, omnes for<lb ed="#Q"/>mas
+            rerum continet sive complectitur; sed fatum
+            <lb ed="#Q"/>est eorum quae multipliciter 'et temporaliter di—
+            <lb ed="#Q"/>geruntur; unde et divina providentia formas re<lb ed="#Q"/>rum
+            complectitur quocumque modo producenda<lb ed="#Q"/>rum
+            in esse, sed fatum solum eorum quae mo<lb ed="#Q"/>biliter
+            et temporaliteri producenda sunt in esse.
+            <lb ed="#Q"/>Unde cum dicit: «fatum est eorum» etc., hoc
+            <lb ed="#Q"/>quod dico « eorum » est ibi partitive * intellectum:
+            <lb ed="#Q"/>fatum estl aliquorum eorum nexus quae divina
+            <lb ed="#Q"/>simplicitas etc. Unde ex hoc et ex praedictis con<lb ed="#Q"/>cludit
+            Boethius qudd fatum non complectitur
+            <lb ed="#Q"/>omnia quae complectitur providentiam.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4076">
+            <lb ed="#Q"/>3. Ad aliud dicendum quod cum dicitur, se<lb ed="#Q"/>cundum
+            Bo ethi u m, quod haec est" * differentia
+            <lb ed="#Q"/>inter providentiam et fatum, quod providentia est 
+            <pb ed="#Q" n="311"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>« dispositio disponens omnia simul, fatum est per
+            <lb ed="#Q"/>quod unumquodque ad effectum producitur»:
+            <lb ed="#Q"/>dicendum quod haec differentia intelligenda est
+            <lb ed="#Q"/>quantum ad illa quae cooperatione causarum"
+            <lb ed="#Q"/>causatarum .producunturb in esse. Et hoc patetc
+            <lb ed="#Q"/>per verba Expositoris [in] verba Boethii,
+            <lb ed="#Q"/>quae sunt ': « Fatum singula digerit »; dicit enim
+            <lb ed="#Q"/>exponendo 2: Fatum est per quod ** Deus unam<lb ed="#Q"/>quamque
+            rem ,ad effectum perducit suis" locis
+            'et suis temporibus. Ex iis patet quod verbum
+            <lb ed="#Q"/>Boethii intelligi habet de iis quae aliquo modo
+            <lb ed="#Q"/>mediate fiunt a Deo. Non enim dicendum quod
+            <lb ed="#Q"/>quae omnino immediate exeunt in esse a Deo,
+            <lb ed="#Q"/>sicut sunt illa-quae sunt a Deo ut a'tota causa,
+            <lb ed="#Q"/>producunturf in esse per fatum; non enim pro<lb ed="#Q"/>ducuntur
+            in esse per fatum nisi illa inter quae
+            <lb ed="#Q"/>et causam primam aliquo modo cadit medium 3.
+            <lb ed="#Q"/>Ex iis patet qualiter respondetur ad illud Boe<lb ed="#Q"/>thii:
+            « Fatum singula digerit»; quod enim dico
+            « singula », distribuit pro iis quae exeunt in esse
+            <lb ed="#Q"/>cooperatione causae causatae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4131">
+            <lb ed="#Q"/>4. Ad illud Boethii: «Deus malum omne
+            <lb ed="#Q"/>de reipublicae suaei terminis per fatalis seriem
+            <lb ed="#Q"/>necessitatis eliminat »: dicendum quod hoc potest
+            <lb ed="#Q"/>dici ratione multiplici, scilicet quia fatum nihil
+            <lb ed="#Q"/>mali intendit sive causa mali agit, sicut habetur a
+            <lb ed="#Q"/>Boethio dicente—**: « Hic ordo », scilicet fatalis,
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>« res mutabiles et alioquin temere fluituras * pro<lb ed="#Q"/>pria
+            incommutabilitate coercet. Quo fit ut tam<lb ed="#Q"/>etsi
+            nobis, hunc ordinem minime considerare va<lb ed="#Q"/>lentibus,
+            confusa omnia perturbataque videantur,
+            <lb ed="#Q"/>nihilominus suus modus ad bona dirigens cuncta
+            <lb ed="#Q"/>disponat; nihil est enim quod mali causa nec ab
+            <lb ed="#Q"/>ipsis quidem improbis fiat ». —- Alia ratione po<lb ed="#Q"/>test
+            illud dici, scilicet quia necessitatem malitiae
+            <lb ed="#Q"/>fiendae' non imponit, sicut ponebant quidam
+            <lb ed="#Q"/>dicentes malitiae humanae causam esse seriem
+            <lb ed="#Q"/>fatalem ex necessitate. Ponebant enim quod si
+            <lb ed="#Q"/>aliquis esset fur vel religiosus, quod talis esset
+            <lb ed="#Q"/>a necessitate fati; cuius contrarium ponens Boe<lb ed="#Q"/>thius
+            dicit quod « malum omne de reipublicae
+            <lb ed="#Q"/>suae terminis per fatalis '" seriem necessitatis eli<lb ed="#Q"/>minat
+            », id est eliminat malum necessario con<lb ed="#Q"/>tingere
+            per seriem fatalis necessitatis; ex hoc
+            <lb ed="#Q"/>autem non sequitur aliquo modo quod omnia,
+            <lb ed="#Q"/>quae non " sunt mala, subsunt fato. — Alia etiam
+            <lb ed="#Q"/>ratione potest istud dici, scilicet quia fatalia, prout
+            <lb ed="#Q"/>ordinantur a divina providentia, bona sunt, id
+            <lb ed="#Q"/>est ex illis elicitur bonum. Unde Boethius:
+            « Deus malum omne de reipublicae suae terminis
+            <lb ed="#Q"/>per fatalis seriem necessitatis eliminat. Quo fit
+            <lb ed="#Q"/>ut" ea quae in terris abundareP creduntur, si
+            <lb ed="#Q"/>disponentem providentiam spectes, nihil usquam
+            <lb ed="#Q"/>mali esse perpendas ».
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q3t2c3-Dd1e4206" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t2c3-Hd1e4208">Articulus II</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t2c3-Hd1e4211" type="question-title">An naturalia omnia inferiora subiaceant fato.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4214">
+            <lb ed="#Q"/>Consequenter quaeritur utrum naturalia omnia
+            <lb ed="#Q"/>inferiora, ut corporalia, subiaceant fato, secundum
+            <lb ed="#Q"/>quod fatum dicitur vis positionis siderum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4223">
+            <lb ed="#Q"/>Quod videtur: a. Nam si illa quae inter na—
+            <lb ed="#Q"/>turalia sunt nobilissima, ut corpora humana, sub<lb ed="#Q"/>iacent
+            positioni siderum et motuiq corporum su<lb ed="#Q"/>percaelestium
+            4 — nam « homo generat hominem,
+            <lb ed="#Q"/>et sol5 » - ergo multo fortius alia naturalia; si
+            <lb ed="#Q"/>ergo huiusmodi positio sive constellatio habet
+            <lb ed="#Q"/>effectum in .conceptu et partu hominum, ergo ha<lb ed="#Q"/>bebit
+            effectum respectu brutorum et vegetabilium
+            <lb ed="#Q"/>et omnium etiam naturalium, et' maxime re<lb ed="#Q"/>spectu
+            corporalium.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4247">
+            <lb ed="#Q"/>Contra: 1. Augustinus, V De civitate Deis:
+            « Quid tam ad corpus pertinens quam corporis
+            <lb ed="#Q"/>sexus? et tamen sub eadem positione siderum
+            <lb ed="#Q"/>diversi "sexus gemini * concipi potuerunt ». Si ergo
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>illud, quod est maxime pertinens ad corpus, non
+            <lb ed="#Q"/>subiacet fato, videtur quod nec alia debeant sub<lb ed="#Q"/>iacere
+            vel ad minus non omnia naturalia seu cor<lb ed="#Q"/>poralia
+            debent dici subiacere positioni siderum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4268">
+            <lb ed="#Q"/>[Solutio]: Ad hoc dicendum quod omnia natu<lb ed="#Q"/>ralia
+            inferiora subiacent iato, secundum quod fa<lb ed="#Q"/>tum
+            dicitur vis positionis siderum. Unde secun<lb ed="#Q"/>dum
+            quod consideratur radicatio quaedam in vi
+            <lb ed="#Q"/>positionis siderum, ex qua apta nata sunt quae<lb ed="#Q"/>dam
+            derelinqui int inferioribus, non solum po<lb ed="#Q"/>nenda
+            " est respectu hominum, sed etiam respectu
+            <lb ed="#Q"/>aliorum interiorum. Tamen secundum quod phi<lb ed="#Q"/>losophi
+            ponebant fatum radicati in stellis, sci<lb ed="#Q"/>licetV
+            eo modo quo dictum est supra 7, nec fatum
+            <lb ed="#Q"/>aliquid est, nec usquamx est.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4294">
+            <lb ed="#Q"/>[Ad obiecta]: ]. Ad h oc quod obicitur 'quodl',
+            <lb ed="#Q"/>secundum Augustinumz, non omnia naturalia
+            <lb ed="#Q"/>seu corporalia subiacent constellationi, ut corporis
+            <pb ed="#Q" n="312"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>sexus': dicendum quod Augustinus non in<lb ed="#Q"/>tendit
+            dicere quin sexus subiaceat positioni si<lb ed="#Q"/>derum
+            aliquo modo —— nam sexus est ex ope<lb ed="#Q"/>ratione
+            naturae; operatio autem naturae aliquo
+            <lb ed="#Q"/>modo subiacet operationi corporum supercaele<lb ed="#Q"/>stium
+            — sed intendit dicere quod constellatio
+            <lb ed="#Q"/>non est totaa causa diversitatis sexus, seduetiam
+            <lb ed="#Q"/>alia quae concurrunt ad hoc; nec b oportet quod 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>si diversi sexus nascuntur vel concipiuntur sub "'
+            <lb ed="#Q"/>eadem constellatione, quin constellatio ibideme
+            <lb ed="#Q"/>aliquid operetur: nam eadem virtute imprimuntur
+            <lb ed="#Q"/>diversi effectus, secundum quod sunt diversa re<lb ed="#Q"/>ceptibiliaf
+            ; et ideo quia alio modo disposita est
+            <lb ed="#Q"/>materia huius conceptus quam sit illa,.alium ei<lb ed="#Q"/>fectum
+            recipit a corpore supercaelesti quam illa;
+            <lb ed="#Q"/>unde eadem vis potest operari ad diversum sexum.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t5s2q3t2c3-Dd1e4345" type="articulus">
+          <head xml:id="ahsh-l1p1i1t5s2q3t2c3-Hd1e4347">Articulus III</head>
+          <head xml:id="ahsh-l1p1i1t5s2q3t2c3-Hd1e4350" type="question-title">Utrum corpus Christi, aliquo modo fuerit fato subiectum.</head>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4353">
+            <lb ed="#Q"/>Deinde quaeritur utrum corpus Christi in suo
+            <lb ed="#Q"/>conceptu vel partu aliquo modo tueritg fato sub<lb ed="#Q"/>iectum
+            1. Et appello fatum vim positionis siderum,
+            <lb ed="#Q"/>non sicut" accipiebant philosophi, sed secun<lb ed="#Q"/>dum
+            quod illa vis habet potentiam aliquo modo
+            <lb ed="#Q"/>disponendi vel habilitandi corpus humanum; nam
+            <lb ed="#Q"/>sic aliquo modo habet intentionem entis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4371">
+            <lb ed="#Q"/>Quod sic: 1. Arguunt quidam ex stella quae
+            <lb ed="#Q"/>apparuit Magis, Matth. 2,1, et ex illo verbo Ioan.
+            2,4: Nondum venit-hora mea, et Ioan. 8,20 simi<lb ed="#Q"/>liter:
+            Nondum venerat hora eius.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4380">
+            <lb ed="#Q"/>2. Praeterea, hoc ipsum videtur per rationem.
+            <lb ed="#Q"/>Assumpsit enim Christus omnes defectus nostros
+            <lb ed="#Q"/>et miserias praeter ignorantiam et peccatum 2,
+            <lb ed="#Q"/>sicut famem, sitim, lassitudinem et huiusmodi. Si
+            <lb ed="#Q"/>ergo in istis habet vim positio siderum, videtur
+            <lb ed="#Q"/>quod Christus, quantum fuit ex parte corporis,
+            <lb ed="#Q"/>quantum ad aliquid subiectus fuerit positioni si<lb ed="#Q"/>derum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4401">
+            <lb ed="#Q"/>Contra: a. Augustinus, in Sermone de Epi<lb ed="#Q"/>phania3:
+            « De Christo. verum non esset, etiam
+            <lb ed="#Q"/>sit sub decreto stellae alii homines nascerentur;
+            <lb ed="#Q"/>nam Christus Dei Filius-* propria voluntate, ho<lb ed="#Q"/>mines
+            mortales conditione naturae nascuntur»
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4414">
+            <lb ed="#Q"/>b. Item, super illud Ioan. 2,4: Nondum venit
+            <lb ed="#Q"/>hora mea, Augustinust: «Si fatum est sub
+            <lb ed="#Q"/>sideribus, non poterat esse sub necessitate side<lb ed="#Q"/>rum
+            Conditor siderum ». Ergo Christus non sub<lb ed="#Q"/>erat
+            vi positionis siderum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4427">
+            <lb ed="#Q"/>c. Item, super illud' Ioan. 8, 20: Nondum ve<lb ed="#Q"/>nerat
+            hora eius, Augustinus5: «Non Domi<lb ed="#Q"/>nus
+            sub fato natus est; hoc nec de te credendum
+            <lb ed="#Q"/>est, quanto magis de illo per quem factus es '"! »
+            <lb ed="#Q"/>Ergo Christus72 non fuit subiectus positioni si<lb ed="#Q"/>derum
+            -- Quod condedimus
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4443">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>[Ad obiecta]: 1. Dicimus ergo quod non ideo
+            <lb ed="#Q"/>quia stella in eius ortu apparuit, dicendus est na<lb ed="#Q"/>tus 
+            esse sub decreto stellae, immo, sicut dicit ibi
+            <lb ed="#Q"/>Glossaö: « Stella, antequam nasceretur, non
+            <lb ed="#Q"/>erat, immo propter" ministerium eius iacta, mi<lb ed="#Q"/>nisterioP
+            eius expleto, statim desiit esse ». — Si<lb ed="#Q"/>militer
+            autem quod'1 dicitur Ioan. 8,20: Nondum
+            <lb ed="#Q"/>venerat hora eius, non est referendum ad fatum.
+            <lb ed="#Q"/>Unde ibidem dicit Interlinearis 7-: « Hora eius,
+            <lb ed="#Q"/>non fatalis»; et super illud idem dicit Augu<lb ed="#Q"/>stinuss:
+            « Si tua hora voluntas illius », id est
+            <lb ed="#Q"/>Christi, «fuit, illius hora quae est nisi voluntas
+            <lb ed="#Q"/>sua? Non ergo horam dixit qua cogeretur mori,
+            <lb ed="#Q"/>sed qua dignaretur occidi; tempus enim expec<lb ed="#Q"/>tavit
+            quo moreretur, quia tempus expectavit quo
+            <lb ed="#Q"/>nasceretur '. Nec hora cogebatur mori, sed horam
+            <lb ed="#Q"/>expectabat qua opportune fieret voluntas, non
+            <lb ed="#Q"/>qua invitis expleretur necessitas ». —— Et simi<lb ed="#Q"/>liter
+            intelligendum * illud Ioan. 2,4: Nondum venit
+            <lb ed="#Q"/>hora mea, non fatalis, sed qua facere volebat
+            <lb ed="#Q"/>aliqua quae facturus erat. .
+          </p>
+          <p xml:id="ahsh-l1p1i1t5s2q3t2c3-d1e4493">
+            <lb ed="#Q"/>2. Ad illud autem quod obicitur quod" "as<lb ed="#Q"/>sumpsit
+            miserias nostras, positio autem siderum
+            <lb ed="#Q"/>vim habet in " nostras miserias ': respondeo quod,
+            <lb ed="#Q"/>cum dicitur 'positio siderum vim habet super
+            <lb ed="#Q"/>miserias nostras', hoc est verum quando mise<lb ed="#Q"/>riae
+            naturaliter sunt contractae; similiter, eisix
+            <lb ed="#Q"/>dispositiones fatales dicuntur esse in aliquo, hoc
+            <lb ed="#Q"/>est per relationem 1' ad conceptum vel nativitatem.
+            <lb ed="#Q"/>In Christo autem nec conceptio fuit per naturam,
+            <lb ed="#Q"/>immo de Spiritu Sancto conceptus est, nec na<lb ed="#Q"/>tivitas
+            omnino per naturam, quia clauso utero
+            <lb ed="#Q"/>exivit; unde talis conceptus vel partus non fuit
+            <lb ed="#Q"/>subiectus positioni siderum. Similiter autem si
+            <lb ed="#Q"/>habuit deiectus nostros et . miserias, non eas
+            <pb ed="#Q" n="313"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>naturaliter contraxit, sed voluntarie assumpsit ; in
+            <lb ed="#Q"/>voluntariis autem non sequitur quod si voluit as<lb ed="#Q"/>sumere
+            illos defectus, qui in aliis aliquo modo
+            <lb ed="#Q"/>subiciebantur positioni stellarum ", quod ideo
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>subiciebaturb positioni siderum; unde etsi nos
+            <lb ed="#Q"/>aliquo modo subiciamur quantum ad conceptum
+            <lb ed="#Q"/>et nativitatem, eo modo quo expositum est su<lb ed="#Q"/>pra
+            1, ipse tamen nullatenus fuit subiectus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

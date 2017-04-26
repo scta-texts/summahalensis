@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. I, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-28">February 28, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="164"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m1c2">
+        <head xml:id="ahsh-l1p1i1t3q3m1c2-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. I, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t3q3m1c2-Hd1e3732" type="question-title">AN EADEM SIT BONITAS IN OMNIBUS BONIS</head>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3735">
+          <lb ed="#Q"/>Postea quaeritur an eadem sit bonitas in om<lb ed="#Q"/>nibus 
+          bonis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3742">
+          <lb ed="#Q"/>Ad quod sic: 1. Boethius, De consolatione 1:
+          « Omnia unum desiderant; sed unum ipsum mon<lb ed="#Q"/>stravimus
+          esse quod est summum bonum ; cuncta '-'
+          <lb ed="#Q"/>igitur bonum petunt"r ; quod ita describas: bo<lb ed="#Q"/>num
+          est quod desideratur ab omnibus ». Ex quo
+          <lb ed="#Q"/>relinquitur quod unum est bonum et unae bo<lb ed="#Q"/>nitas
+          in bonis omnibus: et illud bonum summum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3758">
+          <lb ed="#Q"/>2. Item, Augustinus, VIII De Trinitatez:
+          « Bonum est hoc, bonum est illud: tolle 'hoc ',
+          <lb ed="#Q"/>tolle (illud,, et vide ipsum bonum, si potes: ita
+          <lb ed="#Q"/>Deum videbis, non alio bono bonum, sed bonum
+          <lb ed="#Q"/>omnis boni». Ergo una summa bonitas est bo<lb ed="#Q"/>nitas
+          omnis boni.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3772">
+          <lb ed="#Q"/>3. Item, Augustinus, in eodem3: «Pudeat,
+          <lb ed="#Q"/>cum alia non amentur nisi quia bona sunt, eis
+          <lb ed="#Q"/>inhaerendo, non amare bonum ipsum unde alia
+          <lb ed="#Q"/>bona sunt». Ergo ipsum bonum, quod amatur,
+          <lb ed="#Q"/>est in bonis unum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3785">
+          <lb ed="#Q"/>4. Item, Augustinus, in eodem4: «Cum
+          <lb ed="#Q"/>animus [ita] nobis placet ut eum lucif corporeae
+          <lb ed="#Q"/>praeteramus, non in se ipso nobis placet, sed in
+          <lb ed="#Q"/>illa arte qua factus est; inde enim approbatur
+          <lb ed="#Q"/>factus, ubi videtur faciendus: haec est veritas et
+          <lb ed="#Q"/>simplex5 bonum». Ex hoc relinquitur, si non
+          <lb ed="#Q"/>alio h approbatur et placet quam simplici bono ",
+          <lb ed="#Q"/>quod non est bonum nisi primum in bonis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3805">
+          <lb ed="#Q"/>5. Item, cum dicitur 'res est bona ', aut praedi<lb ed="#Q"/>catur
+          prima bonitas, et tunc habetur propositum;
+          <lb ed="#Q"/>aut bonitas aliak a prima. Quaeritur ergo de illa,
+          <lb ed="#Q"/>cum sit bona ipsa: aut est bona bonitate prima,
+          <lb ed="#Q"/>aut alia; erit ergo deducere in infinitum aut di<cb ed="#Q" n="b"/><lb ed="#Q"/>cetur 
+          quod bonitas, quae praedicatur, est bona' 
+          <lb ed="#Q"/>se ipsa; si hoc, ergo est prima bonitas 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3824">
+          <lb ed="#Q"/>6. Item, iuxta Boethium, De hebdomadibusü:
+          «Sublato primo bono mente et cogitatione, ea
+          <lb ed="#Q"/>quae sunt, bona sunt, non tamen sunt bona sim<lb ed="#Q"/>pliciter<!--m--> ». 
+          Relinquitur ergo quod primum bonum 
+          <lb ed="#Q"/>de omnibus bonis praedicatur, cum dicantur bona.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3837">
+          <lb ed="#Q"/>Contra: a. Bonum convertitur cum ente7 et
+          <lb ed="#Q"/>bonum esse cum" esse. Si ergo non est unum
+          <lb ed="#Q"/>esse in omnibus entibus, ergo nec unum bonum
+          <lb ed="#Q"/>vel bonitas, sed differens in omnibus bonis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3848">
+          <lb ed="#Q"/>b. Item, si convertuntur ' esse ' et ' bonum ' —
+          <lb ed="#Q"/>quia quidquid est, in eo quod est, bonum est, ut
+          <lb ed="#Q"/>dicunt Boethius8 et Augustinus9 — cum
+          <lb ed="#Q"/>dicitur 'hoc bonum', praedicatur bonum quod est
+          <lb ed="#Q"/>Deus, ergo et esse quod est Deus; ergo et om<lb ed="#Q"/>nia
+          habent esse quod 'est Deus: quod est fal<lb ed="#Q"/>sissimum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3867">
+          <lb ed="#Q"/>c. Item, duobus modis dicitur animus bonus,
+          <lb ed="#Q"/>secundum Augustinuma, VIII De Trinitatem:
+          <lb ed="#Q"/>voluntate et natura; sedP bonitas, qua est ani<lb ed="#Q"/>mus
+          bonus voluntate, est accidentalis nec est
+          <lb ed="#Q"/>prima bonitas; item, bonitas, qua est bonus natura
+          <lb ed="#Q"/>sui generis, non est prima bonitas, quia illa est
+          <lb ed="#Q"/>secundum quam difterta bonitate corporis et diei<lb ed="#Q"/>tur
+          animus corpore melior — unde dicit Au gu<lb ed="#Q"/>stin
+          us 11: « Ut sit animus bonus video agendum
+          <lb ed="#Q"/>esse voluntate; non quia id ipsum quo animus
+          <lb ed="#Q"/>est, non est aliquid boni: nam unde 9 iam dicitur,
+          <lb ed="#Q"/>et' verissime, corpore melior?» — et constat
+          <lb ed="#Q"/>quod utrumque multiplicatur in creatis bonis; re<lb ed="#Q"/>linquitur
+          ergo quod plures sunt bonitates in bonis,
+          <lb ed="#Q"/>aliae as prima bonitate, et quod prima bonitas
+          <lb ed="#Q"/>non praedicatur, cum dicitur 'hoc est bonum'.
+          <pb ed="#Q" n="165"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>d. Item, "Augustinus, in libroa De libero
+          <lb ed="#Q"/>arbitrio]: «Sicut multa et diversa sunt quae
+          <lb ed="#Q"/>in luce solis homines vident, lux tamen una est,
+          <lb ed="#Q"/>ita multa sunt bona atque diversa ex quibus
+          <lb ed="#Q"/>quisque eligat ad fruendum sibi summum bonum:
+          <lb ed="#Q"/>ipsa tamen lux sapientiae, qua haec videri pos<lb ed="#Q"/>sunt,
+          omnibus-estb una communis ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3924">
+          <lb ed="#Q"/>Respondeo secundum diversos differenter. Qui<lb ed="#Q"/>dam 
+          enim distinguunt quod dico 'bonum ab<lb ed="#Q"/>solute'
+          et quod dico 'bonum" aliquid tale vel
+          <lb ed="#Q"/>tale', sicut 'esse absolute' et 'esse tale sive
+          <lb ed="#Q"/>aliquid', secundum quod dicit Porretanus, in
+          <lb ed="#Q"/>Commenta Hebdomadumd B oetlzi iz, exponens
+          <lb ed="#Q"/>illam hebdomadem ' diversum ' est esse et id quod
+          <lb ed="#Q"/>est': « l-lic commemorandum videtur quod diver<lb ed="#Q"/>sorum
+          philosophorum in diversis facultatibus usu
+          <lb ed="#Q"/>diverso 'esse' et 'esse [aliquid]' multipliciter
+          <lb ed="#Q"/>dicuntur. Nam secundum theologicosf divina es<lb ed="#Q"/>sentia,
+          quam de Deo praedicamus, cum dicimus
+          'Deus est', omnium creaturarum dicitur esse.
+          <lb ed="#Q"/>Cum enim dicimus 'corpus est' vel 'homo est'
+          <lb ed="#Q"/>vel huiusmodi, theologicig hoc esse dictum in<lb ed="#Q"/>telligunt
+          quadam extrinseca denominatione ab es<lb ed="#Q"/>sentia
+          sui principii: non enim dicunt corporali<lb ed="#Q"/>tate
+          corpus ' esse ', sed 'esse aliquid '; et similiter
+          <lb ed="#Q"/>unumquodque subsistens essentia sui principii
+          <lb ed="#Q"/>praedicanth non 'esse aliquid ', sed ' esse'; illa
+          <lb ed="#Q"/>vero quae cumiipsa sunt creata subsistentia »,
+          <lb ed="#Q"/>sicut cum k corporeitate esse substantiam, quan<lb ed="#Q"/>tum,
+          quale etc., «non 'esse' absolutum, sed 'esse
+          <lb ed="#Q"/>aliquid'; et ad eumdem modum quidquid operante
+          <lb ed="#Q"/>summo principio est, eadem principali et increata
+          <lb ed="#Q"/>essentia dicunt 'esse', suo vero quolibet genere
+          'aliquid esse'. Illorum vero philosophorum, qui<lb ed="#Q"/>bus
+          suae iacultatis' genera sunt sola illa quae ex
+          <lb ed="#Q"/>principio esse coeperunt, alii quaelibet illa ora<lb ed="#Q"/>tionum
+          suarum themata, id est materias de qui<lb ed="#Q"/>bus
+          loquuntur, eodem quo dicunt 'esse', dicunt
+          <lb ed="#Q"/>etiam 'esse aliquid': unde etiam hoc verbum 'est'
+          <lb ed="#Q"/>dicunt de omnibus aequivoce praedicari; alii vero
+          <lb ed="#Q"/>dividunt, et ea quae subsistunt dicunt ' esse' sub<lb ed="#Q"/>sistentiis,
+          et ' esse aliquid ' iis quae subsistentias
+          <lb ed="#Q"/>comitantur, intervallaribusm scilicet mensuris et
+          <lb ed="#Q"/>qualitatibus; ceteris Vero septem generum prae<lb ed="#Q"/>dicamentis
+          eadem subsistentia nec ' esse' nec
+          'aliquid esse' concedunt; similiter et nullum ho<lb ed="#Q"/>rum,
+          quae abstractio mathematica ab iis de quibus
+          <lb ed="#Q"/>praedicantur dividit, vel 'esse' vel 'aliquid esse' 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>consentiunt. Ergo, cum dicitur 'diversum est et
+          <lb ed="#Q"/>esse et id quod est', secundum theologicos quidem
+          <lb ed="#Q"/>intelligitur 'esse' id quod principium est, 'id vero
+          <lb ed="#Q"/>quod est' est illud quod ex principio est; sed
+          <lb ed="#Q"/>secundum alios philosophos 'esse'" subsisten<lb ed="#Q"/>tium
+          solae illorum quae praedicantur subsisten<lb ed="#Q"/>tiae,
+          'quae vero sunt' ea tantum quae illas in se
+          <lb ed="#Q"/>habendo subsistunt. Sic ergo secundum theolo<lb ed="#Q"/>gicos"
+          et secundum alios philosophos recte po<lb ed="#Q"/>test
+          dici 'diversum est esseP et id quod est' ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4033">
+          <lb ed="#Q"/>Simili modo dicendum de bono: quia secun<lb ed="#Q"/>dum
+          theologos bonitas, qua 'id quod est'. habet
+          <lb ed="#Q"/>esse bonum, una est in omni bono; bonitas vero
+          <lb ed="#Q"/>qua habet esse bonum aliquod vel tale 3, ut 9 bona
+          <lb ed="#Q"/>natura, bonus animus, bonum corpus, est multi<lb ed="#Q"/>plex
+          in bonis et multiplicatur in bonis. Secundum
+          <lb ed="#Q"/>primum modum, diversum est id quod [est] bonum
+          <lb ed="#Q"/>ab 'esse bonum', sicut' diversum [est] 'esse'
+          <lb ed="#Q"/>et ' id * quod est'; 'esse' enim rerum et ' esse bo<lb ed="#Q"/>num'
+          dicitur essentia principii et essentia finis,
+          'id quod est' vero est ipsa substantia rei crea<lb ed="#Q"/>tae.
+          Et ideo non sequitur quod ' habent' esse [quod
+          <lb ed="#Q"/>est] Deus ': quia hoc modo non est praedicatio for<lb ed="#Q"/>malis,
+          cum dicitur 'res est bona absolute ', sed est
+          <lb ed="#Q"/>praedicatio per denominationem a causa; sicut di<lb ed="#Q"/>citur
+          opus humanum, non quia humanitas insit
+          <lb ed="#Q"/>operi vel opus idem humanitati, sed humanum,
+          <lb ed="#Q"/>quia ab homine: ita res dicitur bona, quia a bono
+          <lb ed="#Q"/>principio vel ad bonum finem. Secundum modum
+          <lb ed="#Q"/>secundum, cum dicitur 'haec est bona natura'
+          <lb ed="#Q"/>vel" 'bonus homo' etc., est praedicatio per in—
+          <lb ed="#Q"/>haerentiam. Secundum vero philosophos bonitas,
+          <lb ed="#Q"/>qua habet res esse bona et esse bonum tale, est'
+          <lb ed="#Q"/>bonitas suae perfectionis, et est multiplex bonitas
+          <lb ed="#Q"/>in omnibus bOnis ; tamen propter relationem, quam
+          <lb ed="#Q"/>habent ad summam bonitatem, dicitur bonitas, ab<lb ed="#Q"/>solute
+          vero ipsa rei essentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4092">
+          <lb ed="#Q"/>Aliis vero visum est aliter esse dicendum':
+          « Cum dicitur 'creatura est', supponitur duplex
+          <lb ed="#Q"/>esse, scilicet esse * creatum, quod est in creatura, '
+          <lb ed="#Q"/>et esse Deum, ut a quo est illud esse. Eodem modo,
+          <lb ed="#Q"/>cum dicitur 'quidquid est, bonum [est]', secun<lb ed="#Q"/>dum
+          quod 'est'? intelligitur de substantiis, sic po<lb ed="#Q"/>nitur
+          duplex bonitas, scilicet creata et increata:
+          <lb ed="#Q"/>bonitas creata, ut quae inestz ipsi substantiae,
+          <lb ed="#Q"/>bonitas autem increata, ut ad quam omnis bo<lb ed="#Q"/>nitas
+          creata; quoniam bonitas naturalis cuiuslibet
+          <lb ed="#Q"/>substantiae nihil aliud est quam substantialis dif<pb ed="#Q" n="166"/><cb ed="#Q" n="a"/><lb ed="#Q"/>ferentia, 
+          quae dicitur bonitas secundum compa<lb ed="#Q"/>rationem
+          quam habet ad primam bonitatem, id
+          <lb ed="#Q"/>est secundum quod est ductiva vel ducibilis" ad
+          <lb ed="#Q"/>primam bonitatem ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4127">
+          <lb ed="#Q"/>[Ad obiecta]: 6. « Ex hoc patet quod, circum<lb ed="#Q"/>scripta
+          prima bonitate et re et intellectu, nihil est
+          <lb ed="#Q"/>bonum vel intelligitur esse bonum, sed aliquid
+          <lb ed="#Q"/>est album, aliquid rotundum ", sicut dicit Boe<lb ed="#Q"/>thius 1 .
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4140">
+          <lb ed="#Q"/>2. «Ex hoc patet veritas auctoritatis Augu<lb ed="#Q"/>stini
+          supradictae: quoniam omnis creatura est
+          <lb ed="#Q"/>bonum c, hoc bonum, illud bonum; si sublatum
+          <lb ed="#Q"/>fuerit 'hoc' et 'illud ', non remanebit nisi bo<lb ed="#Q"/>num,
+          quod est Deus ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4154">
+          <lb ed="#Q"/>3-4. Item, secundum hoc intelliguntur amari in
+          <lb ed="#Q"/>arte, in qua facta sunt, cum scilicet referuntur ad
+          <lb ed="#Q"/>causam summamd quae est primum bonum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4163">
+          <lb ed="#Q"/>5. Praeterea, ad hoc quod obicit 'cum cli<lb ed="#Q"/>citur
+          'bonitas est bona, aut praedicatur bonitas
+          <lb ed="#Q"/>prima' etc.: dicendum quod in rectitudine prae<lb ed="#Q"/>dicatur
+          bonitas creata, sed in obliquitate est bo<lb ed="#Q"/>nitase
+          increata, quia intelligitur bonitas quae est
+          <lb ed="#Q"/>ad primam bonitatem: quod aliter dicitur de re
+          'bona' quod dicitur 'bonum ', aliter de bonitate
+          <lb ed="#Q"/>qua dicitur res ' bona'. Cum enim dicitur: 'haec res
+          <lb ed="#Q"/>est bona', praedicatur bonitas per inhaerentiam,
+          <lb ed="#Q"/>quia bonitas inest huic rei; cum vero dicitur: ' boni<lb ed="#Q"/>tas
+          huius rei est bona ', praedicatio est perf iden<lb ed="#Q"/>titatem.
+          Et cum infertur ' ergo est bona se ipsa et
+          <lb ed="#Q"/>non alia bonitate ', distinguendum: quia si quod 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>dicitur 'se ipsa' excludit aliam bonitatem? for<lb ed="#Q"/>malem,
+          verum est; si excludit aliam bonitatem
+          <lb ed="#Q"/>effectivam vel finalem, falsum est. Et ideo non
+          <lb ed="#Q"/>sequitur 'ergo est prima bonitas ', sed sequitur
+          'ergo non informatur alia bonitate ', quamvis sit
+          <lb ed="#Q"/>ab alia " bonitate et ad aliam bonitatem, quae est
+          <lb ed="#Q"/>prima bonitas. Sed cum ens dicatur absolute
+          <lb ed="#Q"/>sine intentione causali, bonum vero dicatur se<lb ed="#Q"/>cundum
+          intentionem causalem, non videtur ha<lb ed="#Q"/>bere
+          veritatem quod inducunt de ente, quod sci<lb ed="#Q"/>licet,
+          cum dicitur de creatura-'est ', intelligitur ens
+          <lb ed="#Q"/>primum, nisi per consequentiam, quia sequitur
+          'est, et non esti a se ipso, ergo ab alio, et illud
+          <lb ed="#Q"/>est ens primum ', et ita ens primurn intelligitur
+          <lb ed="#Q"/>in ente creato; sed quantum ad primam inten<lb ed="#Q"/>tionem
+          boni intelligitur bonum increatum, quia si
+          <lb ed="#Q"/>intelligitur bonum" creatum, intelligitur bonum
+          <lb ed="#Q"/>per participationem: in eo quod est per participa<lb ed="#Q"/>tionem
+          bonum necessario intelligitur quod par—
+          <lb ed="#Q"/>ticipatur bonum, et illud est bonum summum. Bre<lb ed="#Q"/>viter
+          ergo dicendum, secundum Augustinum,
+          <lb ed="#Q"/>in VIII De Trinitate2: « Si potueris ', sine illis
+          <lb ed="#Q"/>quae participatione bona sunt perspice ipsum
+          <lb ed="#Q"/>bonum cuius participatione bona sunt: simul
+          <lb ed="#Q"/>enim et ipsum intelligis, cum audis 'hoc bonum',
+          <lb ed="#Q"/>et 'illud bonum' ». Dicendum ergo quod bonum
+          <lb ed="#Q"/>per essentiam est idem in omnibus bonis, et il<lb ed="#Q"/>lud'"
+          est summum bonum; bonum vero per par<lb ed="#Q"/>ticipationem,
+          sive bonitas, differens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4252">
+          <lb ed="#Q"/>Et ex dictis patet solutio ad obiecta 3.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 1, M. I, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="202"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q1m1c2">
+        <head xml:id="ahsh-l1p1i1t4q1m1c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 1, M. I, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t4q1m1c2-Hd1e3744" type="question-title">UTRUM POTENTIA DICATUR UNIVOCE VEL AEQUIVOCE DE CREATURA ET DE CREATORE.</head>
+        <p xml:id="ahsh-l1p1i1t4q1m1c2-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum potentia dicatur
+          <lb ed="#Q"/>aequivoce vel univoce in Deo.
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>1. Nam in Deo est potentia ad intelligendum, in
+          <lb ed="#Q"/>Deo est potentia ad generandum, in Deo est po<pb ed="#Q" n="203"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tentia 
+          ad creandum: aut ergo potentia dicitur 
+          <lb ed="#Q"/>univoce vel aequivoce.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c2-d1e3767">
+          <lb ed="#Q"/>Si univoce .- contra: potentia creandi est
+          <lb ed="#Q"/>principium transmutationis a non-esse in esse, po<lb ed="#Q"/>tentia
+          autem generandi sive intelligendi nullo modo
+          <lb ed="#Q"/>est principium transmutationis; ergo non est ea<lb ed="#Q"/>dem
+          ratio potentiae in Deo hinc et inde. — Item,
+          <lb ed="#Q"/>potentia generandi non est potentia ad 'quid', sed
+          'ad aliquid', quia generare non est 'quid', sed
+          'ad aliquid'"; sed potentia creandi est potentia
+          <lb ed="#Q"/>in 'quid'; ergo non univoce. .
+          </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c2-d1e3785">
+          <lb ed="#Q"/>Item, si aequivoce — contra: potentiae '" intel<lb ed="#Q"/>ligendi
+          et generandi et creandi .erunt differentes
+          <lb ed="#Q"/>secundum essentiam. Ergo cum in Patresit po<lb ed="#Q"/>tentia
+          et generandi et intelligendi et creandi, in
+          <lb ed="#Q"/>Filio vero. solum potentia intelligendi et creandi 0,
+          <lb ed="#Q"/>sed4 non generandi: relinquitur quod aliqua po<lb ed="#Q"/>tentia
+          est-in Patre quae non est iii-Filio; quod
+          <lb ed="#Q"/>est falsum., Relinquitur ergo quod non est aequi<lb ed="#Q"/>voce
+          dicta potentia, cum dicitur potentia gene—
+          <lb ed="#Q"/>iandi, intelligendi et creandi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c2-d1e3810">
+          <lb ed="#Q"/>Solutio: Potentia non dicitur in Deo aequivoce,
+          <lb ed="#Q"/>cum dicitur potentia generandi etintelligendi et
+          <lb ed="#Q"/>creandi, sed analogice, hoc est per prius et po—
+          <lb ed="#Q"/>sterius secundum rationem intelligentiae. Ratio
+          <lb ed="#Q"/>vero ** intentionis divinae potentiae secundum ana<lb ed="#Q"/>logiam
+          est haec: potentia divina est potentia cuius
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>est actus per se. Per hoc quod dicitur 'per se'
+          <lb ed="#Q"/>separatur intentio potentiae in Deo ab intentione
+          <lb ed="#Q"/>potentiae creaturae, quae, sive dicatur activa sive
+          <lb ed="#Q"/>passiva, non est principium ad actum ' per se '.
+          <lb ed="#Q"/>Item f, hoc quod dicitur 'principium actus' per se
+          <lb ed="#Q"/>convenit et potentiae intelligendi et potentiae ge<lb ed="#Q"/>nerandi
+          et potentiae creandi; sed potentia dicta
+          <lb ed="#Q"/>ad actum qui est intelligere, est actus qui quidem
+          <lb ed="#Q"/>est ipsa substantia: intelligere enim significat di<lb ed="#Q"/>vinam
+          substantiam, sed per modum actus; po<lb ed="#Q"/>tentia
+          vero dicta ad actum qui est generare, est
+          <lb ed="#Q"/>actus qui est de substantia: generare enimE cli<lb ed="#Q"/>cit
+          actum productionis de divina substantia, tamen
+          <lb ed="#Q"/>generare dicit relationem per modum actus; po<lb ed="#Q"/>tentia
+          vero' dicta ad actum, qui est creare, est
+          <lb ed="#Q"/>potentia actus, qui non est de divina substantia,
+          <lb ed="#Q"/>sed de nihilo: creatio enim est de nihilo 1. Se<lb ed="#Q"/>cundum
+          hoc ergo. quod dicitur ' potentia actus ',
+          <lb ed="#Q"/>dicitur per prius et posterius de potentia intelli<lb ed="#Q"/>gendi,
+          generandi et creandi secundum intelligen<lb ed="#Q"/>tiam
+          rationis; quod vero dicitur ' per se ', excludit
+          <lb ed="#Q"/>indigentiam motoris vel agentis, sicut est in po<lb ed="#Q"/>tentia
+          passiva, et indigentiam materiae et perfec<lb ed="#Q"/>tionis
+          ulterioris, sicut est in potentia activa crea<lb ed="#Q"/>turae
+          ", Una igitur est potentia, cum dicitur 'po<lb ed="#Q"/>tentia
+          intelligendi, generandi', creandi, sed per
+          <lb ed="#Q"/>actum aliter et aliter dictum determinatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

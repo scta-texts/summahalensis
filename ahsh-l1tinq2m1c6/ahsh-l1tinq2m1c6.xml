@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, M. I, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, M. I, C. 6</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="22"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2m1c6">
+        <head xml:id="ahsh-l1tinq2m1c6-Hd1e3729">I, Tract. Intro., Q. 2, M. I, C. 6</head>
+        <head xml:id="ahsh-l1tinq2m1c6-Hd1e3732" type="questionTitle">&gt;UTRUM DEUS POSSIT NATURALITER COGNOSCI IN SUA PRAESENTIALITATE</head>
+        <p xml:id="ahsh-l1tinq2m1c6-d1e3735">
+          <lb ed="#Q"/>Consequenter quaeritur utrum Deus possit na<lb ed="#Q"/>turaliter
+          cognosci in. sua praesentialitate, .se<lb ed="#Q"/><lb ed="#Q"/>cundum 
+          quod praesens est creaturae, hoc est' 
+          <lb ed="#Q"/>utrum possit cognosci de Deo naturaliter quod
+          <lb ed="#Q"/>praesens est omnibus rebus.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c6-d1e3749">
+          <lb ed="#Q"/>Et videtur quod sic:. a. Rom. l,20: Invisibilia
+          <lb ed="#Q"/>Dei etc. Glosse4: « Per gubernationem videtur
+          <lb ed="#Q"/>quod praesens est omni rei ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c6-d1e3758">
+          <lb ed="#Q"/>Contra: 1. Cognitio per gratiam maior' est 
+          <lb ed="#Q"/>quam illa quae est per naturam; sed per gratiam 
+          <lb ed="#Q"/>non cognoscitur" esse praesens per gratiam de
+          <lb ed="#Q"/>necessitate; ergo multo minus per naturam po<cb ed="#Q" n="b"/><lb ed="#Q"/>terit 
+          cognosci esse praesens rebus per essen<lb ed="#Q"/>tiam: 
+          nam illa cognitio certior est.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c6-d1e3776">
+          <lb ed="#Q"/>2. item, Ambrosius5: «Cum absens puta<lb ed="#Q"/>tur,
+          videtur; cum praesens est, non videtur ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c6-d1e3783">
+          <lb ed="#Q"/>Respondeo: 1. Dicendum quod per naturam po<lb ed="#Q"/>test
+          cognosci esse praesens rebus per essentiam ";
+          <lb ed="#Q"/>tamen non potest cognosci esse praesens per gra<lb ed="#Q"/>tiam":
+          quia medium in cognitione naturali est
+          <lb ed="#Q"/>effectus creatus, qui potest comprehendi; gratia
+          <lb ed="#Q"/>autem dicit acceptionem in Deo, ratione cuius
+          <lb ed="#Q"/>non est in potestate nostra comprehendere gra<lb ed="#Q"/>tiam
+          esse, et ita nec Deum praesentem esse per
+          <lb ed="#Q"/>gratiam.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c6-d1e3805">
+          <lb ed="#Q"/>2. Ad auctoritatem Ambro sii potest dici, se<lb ed="#Q"/>cundumtr
+          quod exponitur a pluribus 1: « Cum absens
+          <lb ed="#Q"/>putatur », id est reputatur ut absens per humilita—
+          <lb ed="#Q"/>tem, « videtur », quia tunc est praesens per gratiam;
+          <lb ed="#Q"/>item, « cum praesens est » per gratiam, « non vide<lb ed="#Q"/>tur
+          », quia reputatur absens per humilitatem. —— No<lb ed="#Q"/>tandum
+          tamen, secundum A u gus ti n u 111, in libro
+          <lb ed="#Q"/>De videnda Deo 2, . quod A rn b r 0 si 11 s intendit
+          <lb ed="#Q"/>tractare " verba illa Ioan. 13 3: Tanto tempore vo—
+          <lb ed="#Q"/>biscum sum etc. Philippe, qui videt me etc. Se<lb ed="#Q"/>cundum
+          hoc ergo dicit Am br o siu 5 quod, quam<lb ed="#Q"/>vis 
+          ubique sit praesens per immensitatem, tamen 
+          <lb ed="#Q"/>putatur f esse absens per incomprehensibilitatem.
+          <lb ed="#Q"/>Secundum hoc-ergo sic exponitur auctoritas: « Cum 
+          <lb ed="#Q"/>absens putatur », id esttl incomprehensibilis, « tunc 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>videtur », id est cognoscitur; item, « cum praesens
+          « est, non videtur », quia non putatur eius praesen<lb ed="#Q"/>tia 
+          incomprehensibilis. Unde Philippus et alii
+          <lb ed="#Q"/>Apostoli'habebant Christum praesentem et non vi<lb ed="#Q"/>debant,
+          quia non cogitabant '-' eum ut absentem,
+          <lb ed="#Q"/>id est incomprehensibilem. Unde Augustinus,
+          <lb ed="#Q"/>exponens verbum Ambrosii, in libro De vi<lb ed="#Q"/>dando
+          Deo 4': « *Cum absens putatur, videtur ';
+          <lb ed="#Q"/>non dicit ' cum absens est', sed * cum absens pu<lb ed="#Q"/>tatur':
+          nusquam enim absens est qui caelum et
+          <lb ed="#Q"/>terram implet 5, nec spatiis intercluditur parvis
+          <lb ed="#Q"/>nec magnisf diffunditur; ubique totus est'et a
+          <lb ed="#Q"/>nullo continetur loco. Haec qui excedente mente
+          <lb ed="#Q"/>intelligit, videt Deum, etiam cum absens pu<lb ed="#Q"/>tatur».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

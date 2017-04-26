@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 6, Q. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-25">March 25, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="363"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t6q1c3">
+        <head xml:id="ahsh-l1p1i1t6q1c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 6, Q. 1, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t6q1c3-Hd1e3744" type="question-title">DE COMPARATIONE VOLUNTATIS AD POTENTIAM ET SCIENTIAM.</head>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3747">
+          <lb ed="#Q"/>Tertio quaeritur de comparatione intentionis vo<lb ed="#Q"/>luntatis
+          ad intentiones potentiae et scientiae
+          <lb ed="#Q"/>secundum extensionem et ordinem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3756">
+          <lb ed="#Q"/>I. Quaeritur ergo utrum voluntas sit respectu
+          <lb ed="#Q"/>omnium eorum respectu quorum est scientia et
+          <lb ed="#Q"/>potentia 3.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3765">
+          <lb ed="#Q"/>Et videtur quod sic: !. Voluntas enim est re<lb ed="#Q"/>spectug
+          bonorum, et omne quod potest, vult se
+          <lb ed="#Q"/>posse; similiter omne quod scit, vult se scire;
+          <lb ed="#Q"/>ergo ad eadem se extendit voluntas ad quae
+          <lb ed="#Q"/>scientia et potentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3779">
+          <lb ed="#Q"/>2. Item, verum et' bonum convertuntur4; sed
+          <lb ed="#Q"/>sicut se habet verum ad scientiam, ita se habet
+          <lb ed="#Q"/>bonum ad voluntatem; ergo sicut omne verum
+          <lb ed="#Q"/>est scibile, ita omne bonum est volitum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3790">
+          <lb ed="#Q"/>Contra: a. Voluntas est respectu bonorum en<lb ed="#Q"/>tium
+          tantum, scientia respectu bonorum et ma<lb ed="#Q"/>lorum,
+          potentia respectu bonorum entium et non<lb ed="#Q"/>entium;
+          ergo non ad omnia se extendit voluntas
+          <lb ed="#Q"/>ad quae scientia et potentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3803">
+          <lb ed="#Q"/>II. Item, quaeritur de ordine voluntatis, sapien<lb ed="#Q"/>tiae
+          et scientiae, scilicet quid horumh sit prius
+          <lb ed="#Q"/>intentione.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3812">
+          <lb ed="#Q"/>Et videtur quod voluntas: 1. Quia dicit Hugo5
+          <lb ed="#Q"/>quod «haec. tria, scilicet potentia, sapientia et
+          <lb ed="#Q"/>voluntas, ad omnem effectum concurrunt; sed
+          <lb ed="#Q"/>voluntas movet, sapientia disponit, potentia ope<lb ed="#Q"/>ratur
+          ». Ergo voluntas praecedit scientiam et po<lb ed="#Q"/>tentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3828">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>2. Item, idem 6: « Bonitate voluit, sapientia dis<lb ed="#Q"/>posuit,
+          potentia fecit ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3837">
+          <lb ed="#Q"/>Contra: a. Ri c b a r cl u s, in libro De Trinitate 7:
+          «Quibus inest sapientia, inest potentia », sed
+          <lb ed="#Q"/>non convertitur, ut patet in plantis, in quibus est
+          <lb ed="#Q"/>potentia, sed non scientia; sed ubi est scientia,
+          <lb ed="#Q"/>est potentia, quia omnis scientia egreditur ab
+          <lb ed="#Q"/>aliqua potentia. Similiter, ubi est voluntas, est
+          <lb ed="#Q"/>scientia et potentia, sed non convertitur: in ali<lb ed="#Q"/>quibus
+          enim est scientia et potentia, sed non vo<lb ed="#Q"/>luntas.
+          Ergo potentia et sapientia praecedunt vo<lb ed="#Q"/>luntatem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3860">
+          <lb ed="#Q"/>b. Item <!--i-->, Hugos: «In anima rationali primo
+          <lb ed="#Q"/>est potentia, secundo sapientia, tertio amor; et
+          <lb ed="#Q"/>hic est ordo naturalis: quia potentia non est ab
+          <lb ed="#Q"/>alio, sed sapientia est ab alio, amor vero est a
+          <lb ed="#Q"/>sapientia et potentia; secundum haec tria anima
+          <lb ed="#Q"/>est ad similitudinem Trinitatis: Patris per po<lb ed="#Q"/>tentiam,
+          Filii per sapientiam, Spiritus Sancti per
+          <lb ed="#Q"/>amorem ». Ergo idem quod prius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3882">
+          <lb ed="#Q"/>[Solutio]: 1. Ad hoc patet solutio in Tractatu
+          <lb ed="#Q"/>de potentia 9. Nam voluntas uno modo dicitur"
+          <lb ed="#Q"/>respectu actuum temporalium et aeternorum, ut
+          <lb ed="#Q"/>cum dicitur 'Deus vult se' etc.: et sic est re<lb ed="#Q"/>spectu
+          eorum quorum est scientia, quia vult se
+          <lb ed="#Q"/>scire quidquid scit ', similiter et posse; alio modo
+          <lb ed="#Q"/>dicitur respectu temporalium tantum: et sic non
+          <lb ed="#Q"/>se extendit voluntas ad omnia ad quae scientia
+          <lb ed="#Q"/>et potentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q1c3-d1e3904">
+          <lb ed="#Q"/>II. Ad illud quod quaeritur de ordine, patet
+          <lb ed="#Q"/>responsio ex dictis in Tractatu de potentiam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

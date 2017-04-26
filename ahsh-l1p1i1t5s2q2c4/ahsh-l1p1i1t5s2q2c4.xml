@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-10">March 10, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="278"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q2c4">
+        <head xml:id="ahsh-l1p1i1t5s2q2c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 2, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t5s2q2c4-Hd1e3744" type="question-title">QUOMODO SIT DISPOSITIO.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3747">
+          <lb ed="#Q"/>Ad quartum, quomodo sit dispositio, utrum
+          <lb ed="#Q"/>temporalis vel aeterna,
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3754">
+          <lb ed="#Q"/>Proceditur sic: 1. Sap. 8,1: <quote xml:id="ahsh-l1p1i1t5s2q2c4-Qd1e3758" ana="#sap8_1">Disponit omnia
+          <lb ed="#Q"/>suaviter</quote>; ista suavis dispositio non videtur esse
+          <lb ed="#Q"/>rerum nisi postquam factae sunt; sed factio crea<lb ed="#Q"/>turarum 
+          temporalis est; ergo et dispositio est'
+          <lb ed="#Q"/>temporalis, non aeterna.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3770">
+          <lb ed="#Q"/>2. Item, dispositio aut est facti, et sic idem
+          <lb ed="#Q"/>quod prius, aut est fiendi; sed fiendum est tem<lb ed="#Q"/>porale;
+          ergo dispositio temporalis est, non ae<lb ed="#Q"/>terna,
+          quia dicitur ad temporale.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3782">
+          <lb ed="#Q"/>3. Item, tria sunt opera prima, scilicetd crea<lb ed="#Q"/>tionis,
+          distinctionis et dispositionis sive ornatus.
+          <lb ed="#Q"/>Opus autem creationis primo narratur, deinde
+          <lb ed="#Q"/>opus distinctionis, tertio opus dispositionis 2; sed
+          <lb ed="#Q"/>creatio et distinctio solum ex tempore dicuntur
+          <lb ed="#Q"/>et non ab aeterno; ergo similiter dispositio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3798">
+          <lb ed="#Q"/>4. Item, Sap. 7,17: Dedit mihi Deuse scientiam
+          <lb ed="#Q"/>veramf ut sciam dispositionem orbis terrarum.
+          <lb ed="#Q"/>Constat autem quod dispositio orbis terrarum est
+          <lb ed="#Q"/>dispositio Dei; dispositio autem terrarum est
+          <lb ed="#Q"/>temporalis; ergo et dispositio divina.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3811">
+          <lb ed="#Q"/>5. Item, Augustinus, in libro De civitate
+          <lb ed="#Q"/>Dei-"': « Qrdo est parium dispariumque sua cui<lb ed="#Q"/>que
+          tribuens loca dispositio »; sed tribuere sua
+          <lb ed="#Q"/>cuique loca est ex tempore «3 ; ergo et dispositio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3822">
+          <lb ed="#Q"/>Contra: 'a. Augustinus, Super Genesim4:
+          « Omnia in numero etc. nihil aliud intelligitur nisi
+          <lb ed="#Q"/>quia omnia in te disposuisti »; sed haec dispositio,
+          <lb ed="#Q"/>quae est in Deo, non est temporalis, sed illa quae
+          <lb ed="#Q"/>est in creatura; ergo dispositio Dei est aeterna.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3833">
+          <lb ed="#Q"/>Respondeo: Dispositio Dei dicitur multipliciter:
+          <lb ed="#Q"/>uno modo dispositio Dei dicitur dispositio quae
+          <lb ed="#Q"/>est a Deo, alio modo dispositio quae est in Deo,
+          <lb ed="#Q"/>sicut dicitur dispositio disponentis et dispositio
+          <lb ed="#Q"/>dispositi. De dispositione Dei quae est a Deo,
+          <lb ed="#Q"/>dicitur illud Sap. 7,17: Dispositionem orbis ter<lb ed="#Q"/>rarum,
+          etc. Dispositio Dei disponentis adhuc
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>dicitur multipliciter: potest enim considerari fieri
+          <lb ed="#Q"/>rei ut faciendum est et ut est in fieri et ut iam
+          <lb ed="#Q"/>factum est. Similiter dispositio quandoque respicit
+          <lb ed="#Q"/>fieri rei ut in futuro est, et sic potest accipi
+          <lb ed="#Q"/>illud Sap. 11,21: <quote xml:id="ahsh-l1p1i1t5s2q2c4-Qd1e3863" ana="#sap11_21">Omnia in numero, pondere et
+          <lb ed="#Q"/>mensura disposuisti</quote> etc.; sic dicitur dispositio rei
+          <lb ed="#Q"/>ante fieri. Alio modo dicitur dispositio rei cum
+          <lb ed="#Q"/>ipso fieri/1, et sic dicitur tantum opus primae
+          <lb ed="#Q"/>conditionis, quia illa tria concurrunt ad iieri.
+          <lb ed="#Q"/>Tertio modo dicitur dispositio rei, ut iam facta
+          <lb ed="#Q"/>esti, et sic dicitur Sap. 8,1: <quote xml:id="ahsh-l1p1i1t5s2q2c4-Qd1e3879" ana="#sap8_1">Dispanit omnia sua<lb ed="#Q"/>viter</quote>;
+          sed huiusmodi dispositio sequitur fieri rei
+          <lb ed="#Q"/>ad esse, tamen dicitur respectu fieri in esse, sicut
+          <lb ed="#Q"/>dictum est 5. Sic ergo dicitur dispositio tripli<lb ed="#Q"/>citer.
+          Dispositio primo modo est aeterna, secundo
+          <lb ed="#Q"/>modo et tertio temporalis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3894">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad illud quod obicitur
+          <lb ed="#Q"/>primo per illud Sap. 8,1: <quote xml:id="ahsh-l1p1i1t5s2q2c4-Qd1e3900" ana="#sap8_1">Dispanit omnia sua<lb ed="#Q"/>viter</quote>:
+          dicendum quod intelligitur de dispositione
+          <lb ed="#Q"/>quae est rei secundum quod est in facto esse, et
+          <lb ed="#Q"/>tamen tunc est quoddam fieri: et de illa bene
+          <lb ed="#Q"/>conceditur quod sit temporalis, non aeterna.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3914">
+          <lb ed="#Q"/>2. Item, ad aliud quod obiciturk quod 'dis<lb ed="#Q"/>positio 
+          est tiendiiz dicendum quod dispositio
+          <lb ed="#Q"/>quandoque! respicit fiendum. Sed notandum quod
+          <lb ed="#Q"/>quandoque connotatur '" temporale intemporaliter:
+          <lb ed="#Q"/>ut cum dicitur praescientia et praedestinatio; quan<lb ed="#Q"/>doque"
+          temporale temporaliter: ut cum dicitur
+          <lb ed="#Q"/>creator, dominator. In illis ergo ubi connotatur"
+          <lb ed="#Q"/>temporale intemporaliter, non sequitur: 'dicitur
+          <lb ed="#Q"/>adP temporale, ergo est? temporale '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c4-d1e3936">
+          <lb ed="#Q"/>3. Ad illud de tertio opere, quod dicitur dis<lb ed="#Q"/>positio:
+          dicendum quod verum est, sed illa est
+          <lb ed="#Q"/>dispositio quae concomitatur' ipsum fieri; et si<lb ed="#Q"/>militer
+          de illa conceditur quod sit temporalis. Et
+          <lb ed="#Q"/>si quaeritur differentia horum trium ' creatio, dis<lb ed="#Q"/>tinctio,
+          dispositio ', dicendum: esse rei aut consi<lb ed="#Q"/>deratur
+          secundum se aut in comparatione. Si ab<lb ed="#Q"/>solute:
+          sic dicitur ens, et creatio secundum hoc 
+          <pb ed="#Q" n="279"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>est eius. Item, si consideratur in comparatione:
+          <lb ed="#Q"/>aut hoc erit secundum differentiam, et sic distinc<lb ed="#Q"/>tio;
+          aut secundum convenientiam 4, et sic ordo vel
+          <lb ed="#Q"/>dispositio. Et secundum hoc dicit <name ref="#Augustine">Augustinus</name> 1
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quod non est nisi triplex quaestio, cum quae<lb ed="#Q"/>ritur
+          veritas: an sit res, et haec est naturalis;
+          <lb ed="#Q"/>quid sit, et haec est rationalis; an ordinata sit, et
+          <lb ed="#Q"/>haec est moralis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

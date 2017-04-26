@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 5, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-13">April 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-13" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="487"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q5c4">
+        <head xml:id="ahsh-l1p1i2t1q5c4-Hd1e118">I, P. 1, Inq. 2, Tract. 1, Q. 5, C. 4</head>
+        <head xml:id="ahsh-l1p1i2t1q5c4-Hd1e121" type="question-title">UTRUM UNA PERSONA SIT AEQUALIS DUABUS VEL IPSI TRINITATI.</head>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e124">
+          <lb ed="#Q"/>Quarto quaeritur utrum una persona sit aequalis
+          <lb ed="#Q"/>duabus vel ipsi<!--a--> Trinitati.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e133">
+          <lb ed="#Q"/>Quod sic videtur: a. <ref>1 Sententiarum, 19 dist.</ref> <!--1-->,
+          <lb ed="#Q"/>dicitur: <quote xml:id="ahsh-l1p1i2t1q5c4-Qd1e144" source="http://scta.info/resource/pll1d19c3-d1e3480">Pater non est maior Filio nec Pater
+          <lb ed="#Q"/>velb Filius maior Spiritu Sancto nec maius ali<lb ed="#Q"/>quid
+          d'uae personae sunt simul quam una nec
+          <lb ed="#Q"/>tres magis aliquid" quam duae</quote>.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e154">
+          <lb ed="#Q"/>Contrad: ]. Pars in nullo genere partis est
+          <lb ed="#Q"/>aequalis toti 2; sed una persona est pars Trinitatis
+          — quod videtur, Levit. 5,11: Decima pars ,ephi,
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e162">
+          <lb ed="#Q"/>Glossa 3: « Pars in Trinitate est Christus * », et 
+          <lb ed="#Q"/>constat quod loquitur de Christo in quantum est
+          <lb ed="#Q"/>persona — ergo non est aequalis ipsi Trinitati.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e171">
+          <lb ed="#Q"/>2. Item f, si virtus aequalis esset trium perso<lb ed="#Q"/>narum
+          creatarum vel etiam si eadem esset, sup<lb ed="#Q"/>posito
+          hoc per-? impossibile, virtus unius non
+          <lb ed="#Q"/>posset tantum quantum virtus duarum nec etiam '1
+          <lb ed="#Q"/>esset aequalis virtuti duarum; similiter videtur de
+          <lb ed="#Q"/>virtute personarum increatarum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e187">
+          <lb ed="#Q"/>3. Item, aequalitasi in divinis attenditur penes
+          <lb ed="#Q"/>identitatem et distinctionem 4: si enim nulla esset
+          <lb ed="#Q"/>in divinis distinctio, non esset aequalitas ibi; sed
+          <lb ed="#Q"/>habito respectu ad distinctionem, non est una
+          <lb ed="#Q"/>persona aequalis duabus sicut nec unitas duali<lb ed="#Q"/>tati;
+          similiter nec una erit aequalis duabus ", ha<lb ed="#Q"/>bito
+          respectu ad identitatem.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e205">
+          <lb ed="#Q"/>Respondeo quod summa aequalitas est in di<lb ed="#Q"/>vinis
+          personis ; unde una est aequalis duabus om<lb ed="#Q"/>nino.
+          Unde Richardus de S. Victore5: «At<lb ed="#Q"/>tende
+          illa conformis et omnifaria' magnitudinis
+          <lb ed="#Q"/>coaequalitas in illa summa Trinitate quam in<lb ed="#Q"/>comprehensibilis
+          sit, ubi unitas pluralitati non
+          <lb ed="#Q"/>cedit nec pluralitas unitatem excedit».
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e223">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad id '" quod p rimo obicitur
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>dicendum quod nulla persona dicitur pars in illa
+          <lb ed="#Q"/>summa Trinitate. Unde Augustinus, in libro
+          <lb ed="#Q"/>Contra Maximinum 6: « Pars Trinitatis esse non
+          <lb ed="#Q"/>potest quicumque unus in tribus nec huius Tri<lb ed="#Q"/>nitatis
+          tertia pars est nec maius" aliquid duo
+          <lb ed="#Q"/>quam unus nec maius aliquid ** omnes quarn
+          <lb ed="#Q"/>singuli». Ratio autem quare non est dicenda
+          <lb ed="#Q"/>pars in Trinitate est P, quia pars est in potentia et
+          <lb ed="#Q"/>habens esse finitum et diminutum et imperfectum 7
+          <lb ed="#Q"/>in quantum huiusmodi: quod non convenit per<lb ed="#Q"/>sonae
+          in divinis.— Ad illam Glossam quae
+          <lb ed="#Q"/>dicit quod « Christus est pars in Trinitate »: di<lb ed="#Q"/>cendum
+          quod intellectus Glossae est de Chri<lb ed="#Q"/>sto
+          in quantum est sub signo; significatur enim
+          <lb ed="#Q"/>per tertiam partem ephi: unde sic est pars in
+          <lb ed="#Q"/>quantum est sub signo, id est significatur per illud
+          <lb ed="#Q"/>quod est pars, non tamen propter hoc est pars.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e267">
+          <lb ed="#Q"/>2. Ad-aliud dicendum quod non est simile
+          <lb ed="#Q"/>de personis creatis, quarum est potentia finita et
+          <lb ed="#Q"/>essentia, et de personis increatis, quarum essentia
+          <lb ed="#Q"/>et potentia est summe infinita. Quia enim in di<lb ed="#Q"/>vinis
+          personis potentia et magnitudo et omnia ea,
+          <lb ed="#Q"/>penes quae est aequalitas, sunt summe infinita,
+          <lb ed="#Q"/>liceat sic loqui, magnitudo trium non excedit ma<lb ed="#Q"/>gnitudinem
+          unius nec potentia potentiam 9.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q5c4-d1e288">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod aequalitas
+          <lb ed="#Q"/>quodammodo importatr distinctionem, quia dis<lb ed="#Q"/>tinctio
+          cadit ibi oblique; proprie et per se re<lb ed="#Q"/>spicits
+          unitatem et identitatem, quia aequalitas
+          <lb ed="#Q"/>non est aliud quam personarum distinctarum iden<lb ed="#Q"/>titas
+          in quantitate sive quasi quantitate'; propter
+          <lb ed="#Q"/>quod magis attenditur aequalitas penes identitatem
+          <lb ed="#Q"/>quam distinctionem. Unde quia illud, penes quod
+          <lb ed="#Q"/>est unitas sive identitas, indifferens est omnino in
+          <lb ed="#Q"/>una persona et in tribus, una est aequalis tribus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

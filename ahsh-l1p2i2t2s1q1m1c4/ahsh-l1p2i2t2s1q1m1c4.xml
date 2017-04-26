@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-24">April 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-24" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="572"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q1m1c4">
+        <head xml:id="ahsh-l1p2i2t2s1q1m1c4-Hd1e118">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 1, C. 4</head>
+        <head xml:id="ahsh-l1p2i2t2s1q1m1c4-Hd1e121" type="question-title">DE COMMUNITATE HUIUS NOMINIS 'PERSONA'.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e124">
+          <pb ed="#Q" n="572"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Consequenter quaeritur de communitate huius
+          <lb ed="#Q"/>nominis 'persona '.
+          <lb ed="#Q"/>Et quaeruntur duo:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Primo, utrum dicatur univoce;
+          <lb ed="#Q"/>secundo, quae sit communitas personae in di<lb ed="#Q"/>vinis.
+        </p>
+        <div xml:id="ahsh-l1p2i2t2s1q1m1c4-Dd1e146" type="articulus">
+          <head xml:id="ahsh-l1p2i2t2s1q1m1c4-Hd1e148">ARTICULUS I</head>
+          <head xml:id="ahsh-l1p2i2t2s1q1m1c4-Hd1e151" type="question-title">Utrum 'persona' dicatur univoce.</head>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e154">
+            <lb ed="#Q"/>Ad primum sic: 1. Hoc nomen ' persona' dicitur
+            <lb ed="#Q"/>multipliciter: dicitur enim hoc nomen 'persona'
+            <lb ed="#Q"/>essentialiter, ut cum dicitur ' Pater est persona,
+            <lb ed="#Q"/>Filius est persona'; alio modo dicitur personaliter,
+            <lb ed="#Q"/>ut cum dicitur « alia est persona Patris, alia Fi<lb ed="#Q"/>lii
+            2» etc.; alio modo dicitur significare proprie, ut
+            <lb ed="#Q"/>cum dicitur'Pater in persona differre a persona
+            <lb ed="#Q"/>Filii; ergo persona non dicitur univoce".
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e174">
+            <lb ed="#Q"/>2. Item, differentia personarumb in creaturis
+            <lb ed="#Q"/>est rerum differentium, in divinis autem indiffe<lb ed="#Q"/>rentium;
+            ergo non est una ratio. — Praeterea,
+            <lb ed="#Q"/>personae in creaturis determinantur per proprie<lb ed="#Q"/>tates
+            accidentales, in divinis per relationes. —
+            <lb ed="#Q"/>Praeterea, haec" est definitio personae creatae3:
+            « Rationalis naturae substantia individua », et re<lb ed="#Q"/>movetur
+            a divinis, tum quia rationalis, tum quia
+            <lb ed="#Q"/>individua, tum quiad substantia; nam in divinis
+            <lb ed="#Q"/>non tres sunt substantiae, nec individua dicitur,
+            <lb ed="#Q"/>aut si dicitur, eadem videtur esse ratio individui
+            <lb ed="#Q"/>et personae. Definitio autem divinae personae est
+            <lb ed="#Q"/>haec: «Naturae divinae incommunicabilis exi<lb ed="#Q"/>stentia
+            », sicut dicit Richard us 4; ergo cum alia
+            <lb ed="#Q"/>et alia sit hic definitio personae, non dicetur per<lb ed="#Q"/>sona
+            univoce.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e209">
+            <lb ed="#Q"/>Respondeo: Conceditur a Magistro, in Sen<lb ed="#Q"/>tentiis
+            5, quod nomen personae diversam facit
+            <lb ed="#Q"/>intelligentiam: aliquando intelligentiam essentiae,
+            <lb ed="#Q"/>aliquando hypostasis, aliquando proprietatis 2.
+            <lb ed="#Q"/>Intelligentiam essentiae, cum dicitur 'Pater est
+            <lb ed="#Q"/>persona'; hypostasis, ut cum dicitur « aliaf per<lb ed="#Q"/>sona
+            Patris, alia Filii»; proprietatis, cum dicitur
+            <lb ed="#Q"/>Pater differre persona, id est personali proprie<lb ed="#Q"/>tate;
+            et concederet ex hoc quod aequivoce dice<lb ed="#Q"/>retur
+            hoc nomen 'persona' in divinis.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e234">
+            <lb ed="#Q"/>Sed contra: Non aequivoce dicitur ' homo',
+            <lb ed="#Q"/>cum dicitur * alius homo est Petrus, aliusE Pau<lb ed="#Q"/>lus', 
+            cum dicitur ' Petrus est homo, Paulus est
+            <lb ed="#Q"/>homo ' ", et cum dicitur 'Petrus dii-terti a Paulo
+            <lb ed="#Q"/>in sua humanitate '; ergo nec ex alia parte. 
+            <lb ed="#Q"/>Quod concedendum estk.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e250">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Et' dicendum ad primum
+            <lb ed="#Q"/>quod talis diversitas non facit diversam signifi<lb ed="#Q"/>cationem,
+            sed potius diversum modum praedi<lb ed="#Q"/>candi:
+            unde talia sunt praedicata., qualia permi<lb ed="#Q"/>serint
+            subiectaö ; et ita alio modo sumitur cum
+            <lb ed="#Q"/>hoc verbo 'est' et cum hoc verbo 'differtï
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e266">
+            <lb ed="#Q"/>2. Ad aliud dicendum quod persona non
+            <lb ed="#Q"/>dicitur communiter de persona creata et increata,
+            <lb ed="#Q"/>sed per prius et posterius; tamen aliquo modo
+            <lb ed="#Q"/>est una ratio quae est: « persona est existentia"
+            <lb ed="#Q"/>incommunicabilis intellectualis naturae » vel "
+            <lb ed="#Q"/>existens per se solum secundum quemdam mo<lb ed="#Q"/>dum
+            existendi. Illa tamen ratio est communis etP
+            <lb ed="#Q"/>dicitur secundum prius et posterius de Deo et de'!
+            <lb ed="#Q"/>creaturis. — Si vero quaeritur utrum secundum
+            <lb ed="#Q"/>prius dicatur de divinis et rationabilibus: dicen<lb ed="#Q"/>dum
+            quod principalius dicitur de divinis, sed
+            <lb ed="#Q"/>secundumf usum nominis dicitur de creaturis 3.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e295">
+            <lb ed="#Q"/>Notandumt hic secundum quosdam7 quod
+            <lb ed="#Q"/>multiplex" est univocatio. « Est enim univocatio
+            <lb ed="#Q"/>quaedam per conformitatem, sicut hoc nomen
+            'homo' est univocum ad omnes homines et 'al<lb ed="#Q"/>bum'
+            ad omnia alba. Secunda univocatio est se<lb ed="#Q"/>cundum
+            generalem naturam intellectus: est enim
+            <lb ed="#Q"/>intellectus imago Dei, qui habet similitudinem
+            <lb ed="#Q"/>cum qualibet re, et propter hoc intellectus est
+            <lb ed="#Q"/>imago cuiuslibet rei; unde et utitur se ipso sicut 
+            <lb ed="#Q"/>imagine, cum intelligit omnia, et hoc modo est 
+            <lb ed="#Q"/>univocum hoc nomen 'res' ad personas creatas
+            <pb ed="#Q" n="573"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>et increatas in illa divisione rerum': " Quaedam
+            <lb ed="#Q"/>sunt quibus fruendum" et quaedam quibus uten—
+            <lb ed="#Q"/>dum ". Tertia univocatio est per denominationem
+            <lb ed="#Q"/>formae quae est ex parte animae, ut ' intelligibile,
+            <lb ed="#Q"/>opinabile ' et similia; et hoc modo " univocum est
+            <lb ed="#Q"/>hoc nomen ' notio ' ad proprietates personales.
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Quarta univocatio est secundum convenientiam
+            <lb ed="#Q"/>effectuum, sicut dictum est superius 2 de hoc no<lb ed="#Q"/>mine
+            ' iustus ', et hoc modo hoc nomen ' persona '
+            <lb ed="#Q"/>univocum est ad personas creatas et increatas,
+            <lb ed="#Q"/>quia rationalitas creata et rationalitas increata
+            <lb ed="#Q"/>conveniunt in effectu ».
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i2t2s1q1m1c4-Dd1e353" type="articulus">
+          <head xml:id="ahsh-l1p2i2t2s1q1m1c4-Hd1e355">Articulus II</head>
+          <head xml:id="ahsh-l1p2i2t2s1q1m1c4-Hd1e358" type="question-title">Quae sit communitas personae in divinis.</head>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e361">
+            <lb ed="#Q"/>Deinde quaeritur quae sit communitas personae
+            <lb ed="#Q"/>in divinis C 3.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e368">
+            <lb ed="#Q"/>Ad quod sic: 1. Nihil est commune tribus nisi
+            <lb ed="#Q"/>divina essentia secundum rem 4; sed significatum
+            <lb ed="#Q"/>per nomen ' personae ' est commune tribus ** ; ergo
+            <lb ed="#Q"/>significat idem quod essentia. — Contra: Una
+            <lb ed="#Q"/>est essentia in tribus, non una persona.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e381">
+            <lb ed="#Q"/>2. Unde quidam dixerunt duplex e commune:
+            <lb ed="#Q"/>secundum rem et secundum intellectum; secundum
+            <lb ed="#Q"/>rem, ut significatur per hoc nomen ' essentia '; se—
+            <lb ed="#Q"/>cundum intellectum f, ut significatur per hoc no<lb ed="#Q"/>rnen
+            'persona '. — Contra: Intellectus cassus est
+            <lb ed="#Q"/>etg vanus nisi habeat rem sibi respondentem ; ergo
+            <lb ed="#Q"/>communitas intellectus est a communitate rei.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e400">
+            <lb ed="#Q"/>3. Item, si" significatum huius nominis 'per<lb ed="#Q"/>sona'
+            dicitur de tribus' ita quod in illis multi<lb ed="#Q"/>plicatur,
+            quia alia est persona unius, et alterius;
+            <lb ed="#Q"/>omne autem quod est in multis multiplicatum, est
+            <lb ed="#Q"/>aptum natum praedicari de illis et omne tale est
+            <lb ed="#Q"/>universale; ergo persona est universale — con<lb ed="#Q"/>tra:
+            Boethius, in libro De Trinitate 5: « In
+            <lb ed="#Q"/>omni simplici non differt ' quod est ' et ' quo
+            <lb ed="#Q"/>est' »; si ergo unaquaeque persona est simplex,
+            <lb ed="#Q"/>non differt 'quod est' et 'quo est; ergo nec uni<lb ed="#Q"/>versale
+            nec particulare; et hoc idem dicit Boe<lb ed="#Q"/>thius
+            'CG quod in divinis nec universale [est] nec
+            <lb ed="#Q"/>particulare.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e431">
+            <lb ed="#Q"/>4. Item, si persona dicitur de tribus: aut ergo
+            <lb ed="#Q"/>sicut ens de ratione trium aut non. Si primo modo,
+            <lb ed="#Q"/>et non adaequatum alicui illorum: ergo erit aut
+            <lb ed="#Q"/>sicut genus aut sicut species aut sicut differentia.
+            <lb ed="#Q"/>Non sicut differentia: haec enim est ' quo alterum
+            <lb ed="#Q"/>ab altero differt; sed intentione personalitatis non
+            <lb ed="#Q"/>differt Pater a Filio. Quod autem non sicut genus,
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>patet per Augustinum, 23 dist.] libri'" Sen<lb ed="#Q"/>tentiaru1n7.
+            Si non de ratione: ergo persona non
+            <lb ed="#Q"/>dicitur secundum substantiam de illis; cuius con<lb ed="#Q"/>trarium
+            supra habitum est 3.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e460">
+            <lb ed="#Q"/>Respondeo: Cum dicitur 'Petrus est homo et
+            <lb ed="#Q"/>Paulus ', hic accipitur" communis essentia, cuius
+            <lb ed="#Q"/>supposita sunt illi duo: unde haec intentio ' sup<lb ed="#Q"/>positum'
+            dicitur de illis; unde quiao communi<lb ed="#Q"/>cant
+            idem secundum rem, consequitur quod ha<lb ed="#Q"/>bent
+            unam communem habitudinem: unde unum
+            <lb ed="#Q"/>est commune secundum rem, alterum commune
+            <lb ed="#Q"/>secundum rationem. Similiter 'Pater est Deus,
+            <lb ed="#Q"/>Filius est Deus, Spiritus Sanctus est Deus ', tres
+            <lb ed="#Q"/>habitudinem habent ad unum in hoc quod Pater
+            <lb ed="#Q"/>est suppositum divinae essentiaeP et Filius. et
+            <lb ed="#Q"/>Spiritus Sanctus, et idem designaturq per hyposta<lb ed="#Q"/>sim
+            et suppositum: 'hypostasis' enim dicit idem
+            <lb ed="#Q"/>quod 'stans sub' 9. Unde, quia idem est commune
+            <lb ed="#Q"/>secundum rem, una ratio est communis, quae de<lb ed="#Q"/>signatur
+            per hypostasim'; sed idem designatur
+            <lb ed="#Q"/>per hoc nomen 'persona' quod'per hoc quod
+            <lb ed="#Q"/>dico hypostasim distinctam proprietates; cum ergo
+            <lb ed="#Q"/>ista duo similem habeant mod'um- communitatis
+            <lb ed="#Q"/>et hoc nomen ' hypostasis ' sitt commune secun<lb ed="#Q"/>dum
+            rationem, id est secundum consimilem mo<lb ed="#Q"/>dum
+            habendi trium" ad unum, erit significatum
+            <lb ed="#Q"/>per hoc nomen 'persona' commune" secundum
+            <lb ed="#Q"/>rationem ab eadem habitudine; sed haec habi<lb ed="#Q"/>tudo
+            non est communis nisi ex consequentix:
+            <lb ed="#Q"/>quia enim est habitudo ad unum commune, ideo
+            <lb ed="#Q"/>est communis habitudo; quia vero? illa habitudo
+            <lb ed="#Q"/>est trium habitudo, ideo pluraliter dicitur hoc
+            <lb ed="#Q"/>nomen 'persona' et 'hypostasis' ; sed sic non
+            <lb ed="#Q"/>est de hoc nomine 'essentia vel 'substantia ',
+            <lb ed="#Q"/>quia ibit est habitudo simplex 'O.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e530">
+            <pb ed="#Q" n="574"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>[Ad obiecta]: 1. Cum ergo quaeritur utrum hoc
+            <lb ed="#Q"/>nomen 'persona' sit commune secundum rem:
+            <lb ed="#Q"/>dicendum quod ita, ex consequenti.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e543">
+            <lb ed="#Q"/>2. Si autem quaeratur, cum dicitur 'persona
+            <lb ed="#Q"/>est commune, essentia est commune *, utrum ibi
+            <lb ed="#Q"/>duplex sit commune: dico quod non, immo idem,
+            <lb ed="#Q"/>sed aliter et aliter. Nam ut est in hoc nomine
+            'essentia ', est commune secundum se, in hypo<lb ed="#Q"/>stasi
+            vero est commune in habitudine ad illud;
+            <lb ed="#Q"/>haec autem habitudo non est in intellectu tan<lb ed="#Q"/>tum
+            4, sed designatur, cum . dicitur ' tres sunt
+            <lb ed="#Q"/>unus Deus *. Cum enimb dicitur 'Deus ', dicitur
+            <lb ed="#Q"/>una essentia; cum vero dicitur 'sunt', dicitur
+            <lb ed="#Q"/>essentia eadem, sed non sub ratione essentiae,
+            <lb ed="#Q"/>sed habitudinis trium ad unum.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e569">
+            <lb ed="#Q"/>3. Si vero quaeritur cuiusmodi commune est si<lb ed="#Q"/>gnificatum
+            per hoc nomen ' persona': dicendum
+            <lb ed="#Q"/>est quod commune c proportione; commune enim
+            <lb ed="#Q"/>proportione dicitur commune habitudine. Tale au<lb ed="#Q"/>tem
+            ** commune dicitur dupliciter 8: quandoque ex
+            <lb ed="#Q"/>habitudine duorum ad unum, quandoque ex ha<lb ed="#Q"/>bitudine
+            alterius ad alterum; duorum ad unum,
+            <lb ed="#Q"/>sicut dicitur ' rector in navi et scholis'; alterius
+            <lb ed="#Q"/>ad alterum, ut cum dicitur 'corpus est sanum
+            <lb ed="#Q"/>et urina est sana *: omnia enim haec referuntur ad
+            <lb ed="#Q"/>sanitatem humani corporis. Cum ergo dicitur 'Deus
+            <lb ed="#Q"/>est bonus, creatura est bona ', commune dicitur
+            <lb ed="#Q"/>proportione; cum autem dicitur 'divinaef personae
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>sunt personae, creatae personae sunt personae ',
+            <lb ed="#Q"/>dicitur ibi commune secundum communem habi<lb ed="#Q"/>tudinem
+            alterius ad alterum, quemadmodum cum
+            <lb ed="#Q"/>dicitur 'Pater est persona, Filius est persona ',
+            <lb ed="#Q"/>dicitur secundum habitudinem ad idem; sed quia
+            <lb ed="#Q"/>non secundum eiusdem habitudinem ad idem ",
+            <lb ed="#Q"/>ideo persona dicitur pluraliter, essentia vero non.
+            — Si vero obicitur secundum hoc quodi
+            <lb ed="#Q"/>erit universale; dicendum quod non, quia uni<lb ed="#Q"/>versale
+            dicitur ubi est communis natura, non ubi
+            <lb ed="#Q"/>est communitas habitudinis. — Si autem quae<lb ed="#Q"/>ritur
+            utrum contingat abstrahere huiusmodi com<lb ed="#Q"/>mune
+            ab illis quibus est commune: dico'quod
+            <lb ed="#Q"/>non. Sicut enim cum dicitur ' essentia divina
+            <lb ed="#Q"/>est'f communis ', non aliud dicitur communitas
+            <lb ed="#Q"/>quam ipsa essentia; sed cum dicitur 'Pater est
+            <lb ed="#Q"/>divina essentia' et ' Pater est suppositum essen<lb ed="#Q"/>tiae
+            divinae ,, non aliud secundum rem est Pater
+            <lb ed="#Q"/>et suppositum.
+          </p>
+          <p xml:id="ahsh-l1p2i2t2s1q1m1c4-d1e642">
+            <lb ed="#Q"/>4. Ad illud quod quaeritur' 'utrum persona
+            <lb ed="#Q"/>dicitur de Patre et Filio etc. ut ens de ratione * etc.:
+            <lb ed="#Q"/>respondeo quod dicitur ens ipsum et non sicut'"
+            <lb ed="#Q"/>substantiale aut accidentale. Unde licet'[ per mo<lb ed="#Q"/>dum
+            dicendi hoc nomen 'persona' sit commune
+            <lb ed="#Q"/>tribus secundum rem, tamen nihil aliud est 'Pa<lb ed="#Q"/>ter
+            est persona' quam 'Pater est Pater', et si<lb ed="#Q"/>militer
+            de aliis. Unde hoc nomen" 'persona' se<lb ed="#Q"/>cundum
+            substantiam idem est quod hypostasis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-08">March 08, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="252"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m3c3">
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c3-Hd1e3744" type="question-title">UTRUM SCIENTIA DEI SIT BONORUM ET MALORUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3747">
+          <lb ed="#Q"/>Postea quaeritur utrum scientia Dei sit bono<lb ed="#Q"/>rum
+          et malorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: 0. Non iudicaret Deus * de bonis
+          <lb ed="#Q"/>et malis nisi haberet scientiam de illis; sed de
+          <lb ed="#Q"/>illis iudicat; ergo illa scit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3763">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>b. Item, quidquid capit humana scientia, capit
+          <lb ed="#Q"/>divina; sed scientia humana? est capax malo<lb ed="#Q"/>rum;
+          ergo et divina.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3775">
+          <lb ed="#Q"/>Contra: 1. Augustinus, in Sententiis, 36
+          <lb ed="#Q"/>dist. 9: «De absconditis tuis adimpletus est
+          <lb ed="#Q"/>venter eorum. Abscondita, inquit, peccata sunt,
+          <pb ed="#Q" n="253"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>quae a lumine veritatis tuae a abscondun<lb ed="#Q"/>tur».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3793">
+          <lb ed="#Q"/>2. Item, scientia nihil aliud est quam assimi<lb ed="#Q"/>latio
+          intellectus ad rem scitam; sed nulla est as<lb ed="#Q"/>similatio
+          intellectus Dei ad malum, quia nulla est
+          <lb ed="#Q"/>participatio Christi ad Belial 1; ergo etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3804">
+          <lb ed="#Q"/>3. Item, scientia eius est per causam; ipse au<lb ed="#Q"/>tem
+          non est causa malorum; ergo non scit mala.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3811">
+          <lb ed="#Q"/>4. Item, quaeritur qualiter scit mala, utrum vi<lb ed="#Q"/>deat
+          illa extra se vel in se 2. Si extra sei ergo
+          <lb ed="#Q"/>scit per aliud quod est extra se, et hoc est in<lb ed="#Q"/>conveniens.
+          Si in se videt— contra: in se non
+          <lb ed="#Q"/>est aliquod malum nec aliquis defectus; ergo in
+          <lb ed="#Q"/>se non 17 potest videre mala.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3827">
+          <lb ed="#Q"/>5. Item, Augustinus, De libero arbitrio3:
+          « Naturae vitiosae in tantum recte vituperantur,
+          <lb ed="#Q"/>in quantum vituperator earum artem, qua factae
+          <lb ed="#Q"/>sunt, videt, ute hoc in eis vituperet 4, quod ibi
+          <lb ed="#Q"/>non videt ». Ergo vitia naturarum non videt Deus
+          <lb ed="#Q"/>in arte.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3840">
+          <lb ed="#Q"/>Respondeo: 1. Ad hoc dicendum, secundum
+          <lb ed="#Q"/>Cassiodorum. Propheta dicit4: Nec ab oriente,
+          <lb ed="#Q"/>nec ab occidente deest Deus; quod exponens
+          <lb ed="#Q"/>Cassiodorus dicite5: «Nec a bonis nec a
+          <lb ed="#Q"/>malis deest Deus, sed omnibus praesens et co-ï
+          <lb ed="#Q"/>gnitor est». Cognoscit ergo Deus bona et mala
+          <lb ed="#Q"/>per scientiam, sed bona etiam cognoscit per ap<lb ed="#Q"/>probationem
+          et perf beneplacitum, mala vero non.
+          <lb ed="#Q"/>Unde Cassiodorus, Super Psalmum, dicitG:
+          « Peccata abscondita sunt Deo, quia non novit,
+          <lb ed="#Q"/>id est nong approbat». Et ex eo Sensu Augu<lb ed="#Q"/>stinus7
+          dixit ea abscondi a lumine Dei. Haec
+          <lb ed="#Q"/>verba sunt 36 dist. I libri Sententiarum 8. Di<lb ed="#Q"/>cendum
+          ergo quod est scientia approbationis et "
+          <lb ed="#Q"/>scientia simplicis notitiae. Scientia approbatio<lb ed="#Q"/>nis
+          non cognoscit Deus mala, ut habetur Matth.
+          25,12: Non novi vos etc. et in Psalmog: Quae
+          <lb ed="#Q"/>ignorabam, interrogabant me etc. Sed scientia
+          <lb ed="#Q"/>simplicis notitiae scit ipse mala 10, et eadem, sci<lb ed="#Q"/>licet
+          se ipso, scit bona'et mala '. Et est exemplum
+          <lb ed="#Q"/>Augustini" in arte: Deus enim ita scit ma—
+          <lb ed="#Q"/>lum sicut ars novit vitium. Quaedam enim sunt
+          <lb ed="#Q"/>in arte ut approbanda, quaedam ut reprobanda,
+          <lb ed="#Q"/>sicut in grammatica congruum et incongruum:
+          <lb ed="#Q"/>congruum, ut approbandum; incongruum, ut
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>reprobandum. Ita Deus in se ipso arte scit malum
+          <lb ed="#Q"/>ut reprobandum, bonum verok ut approbandum.
+          <lb ed="#Q"/>Et exemplum huius patet in luce: ut si lux vi<lb ed="#Q"/>deret
+          se et suam operationem, videret bene quod
+          <lb ed="#Q"/>hoc eSSet receptivum luminis sui, aliud non, sci<lb ed="#Q"/>licet
+          tenebra, et ita se ipsa videret et se et te<lb ed="#Q"/>nebras.
+          Unde Dionysius 13: « Sicut lux secun<lb ed="#Q"/>dum
+          causam in se tenebrarum notitiam percipit,
+          <lb ed="#Q"/>aliunde non cognoscens tenebras quam a lucis
+          <lb ed="#Q"/>defectu », eodem modo rectum est principium
+          <lb ed="#Q"/>cognoscendi se et obliquitatem. Et sic est in
+          <lb ed="#Q"/>scientia Dei.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3922">
+          <lb ed="#Q"/>2. Quod ergo obicitur quod 'scientia est
+          <lb ed="#Q"/>assimilatio intellectus ad rem scitam': dicendum
+          <lb ed="#Q"/>quod quaedam sunt res quae sciuntur per se,
+          <lb ed="#Q"/>et quaedam quae' per accidens. Quaedam enim "'
+          <lb ed="#Q"/>res scitur ut positio: et haec scitur ut assimi<lb ed="#Q"/>latio
+          intellectus ad rem; quaedam scitur ut pri<lb ed="#Q"/>vatio:
+          et haec non scitur ut assimilatio, sed ut
+          <lb ed="#Q"/>dissimilitudo ; similitudo vero " principium est co<lb ed="#Q"/>gnoscendi
+          simile et dissimile. Bonum ergo, quod
+          <lb ed="#Q"/>est simile, scitur a Deo per similitudinem ; malum
+          <lb ed="#Q"/>vero, quod est dissimile, per eamdem similitudinem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3948">
+          <lb ed="#Q"/>3. Ad aliud" quod obiciturP *scientia Dei
+          <lb ed="#Q"/>est per causam ': dicendum quod malorum scien<lb ed="#Q"/>tia
+          est in Deo non per causam malorum, sed
+          <lb ed="#Q"/>per causam bonorum 13. Quaedam enim sciuntur
+          <lb ed="#Q"/>per causam suam, sicut illa quae habent cau<lb ed="#Q"/>sam,
+          ut bona; quaedam non per causam pro<lb ed="#Q"/>priam,
+          sed alienam, ut mala, quae non habent
+          <lb ed="#Q"/>causam: non enim cognoscuntur nisi per de—
+          <lb ed="#Q"/>tectum et causa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3970">
+          <lb ed="#Q"/>4. Ad aliud quod quaeritur 'utrum videat
+          <lb ed="#Q"/>in se mala' etc.: dicendum quodq malaycogno<lb ed="#Q"/>scit
+          in se; non tamen sequitur quod malum sit
+          <lb ed="#Q"/>in ipso, sed quod bonum vel exemplar boni sit
+          <lb ed="#Q"/>in ipso, per quod cognoscit bonum sicut effectum,
+          <lb ed="#Q"/>malum vero ut deficiens ab illo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c3-d1e3986">
+          <lb ed="#Q"/>5. Item, ad illud Augustini quod obici<lb ed="#Q"/>tur
+          « naturae vitiosae » etc.: dicendum quod mala
+          <lb ed="#Q"/>non sunt in arte divina, quamvis reprobentur et
+          <lb ed="#Q"/>sciantur; sunt tamen in scientia: ars enim addit
+          <lb ed="#Q"/>supra ' scientiam causalitatem 14; Deus autem non
+          <lb ed="#Q"/>est causa malorum, et ideo non sunt mala in
+          <lb ed="#Q"/>arte divina, quamvis sint in scientia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-28">February 28, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="160"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3prae">
+        <head xml:id="ahsh-l1p1i1t3q3prae-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 3, Praeambulum</head>
+        <p xml:id="ahsh-l1p1i1t3q3prae-d1e3732">
+          <lb ed="#Q"/>Illustrante gratia Christi," post inquisitiones de unitate et veritate divina inqui<lb ed="#Q"/>rendum 
+          est de bonitate. Et ad intelligentiam faciliorem et perfectiorem inqui<lb ed="#Q"/>renda 
+          sunt haec: 
+          <lb ed="#Q"/>I. 1. Quid bonum secundum rationem suae intentionis; 
+          <lb ed="#Q"/>2. an una" sola sit bonitas in bonis, quae est summa; 
+          <lb ed="#Q"/>3. quae sint differentiae bonitatis et boni;
+          <lb ed="#Q"/>4. quae convenientia bonitatis in bonis.
+          <lb ed="#Q"/><lb ed="#Q"/>II. De summo bono: 1. An notio et amor eiusb sint nobis impressa; 
+          <lb ed="#Q"/>. an summum bonum dicat additionem ad bonum;
+          <lb ed="#Q"/>si summum bonum compatitur secum diversitatem;
+          <lb ed="#Q"/>si compatitur secum pluralitatem;
+          <lb ed="#Q"/>si exigit coexistentiam aliorum bonorum;
+          <lb ed="#Q"/>de fluxu aliorum bonorum et summo bono.
+          <lb ed="#Q"/>III. 1. Secundum quae discernatur et determinetur bonitas in bonis, scilicet de
+          <lb ed="#Q"/>modo, Specie et ordine;
+          <lb ed="#Q"/>2.si bonum creatum est bonum per essentiam aut per participationem;
+          <lb ed="#Q"/>3. si aliquod bonum sit immutabiliter bonum;
+          <lb ed="#Q"/>4. de effectu boni;
+          <lb ed="#Q"/>5. de bono universitatis.
+          <lb ed="#Q"/>IV. De oppositione mali ad bonum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

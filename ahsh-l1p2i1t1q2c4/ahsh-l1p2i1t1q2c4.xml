@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 1, Tract. 1, Q. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-14">April 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-14" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="506"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i1t1q2c4">
+        <head xml:id="ahsh-l1p2i1t1q2c4-Hd1e118">I, P. 2, Inq. 1, Tract. 1, Q. 2, C. 4</head>
+        <head xml:id="ahsh-l1p2i1t1q2c4-Hd1e121" type="question-title">QUALITER CIRCA DIVINA SIT ACCIPERE INTENTIONES ALIORUM PRAEDICAMENTORUM.</head>
+        <p xml:id="ahsh-l1p2i1t1q2c4-d1e124">
+          <lb ed="#Q"/>Consequenter quaeritur qualiter circa divina sit
+          <lb ed="#Q"/>accipere intentiones aliorum praedicamento<lb ed="#Q"/>rum,
+          ut quantitatis", qualitatis etc. 
+          <lb ed="#Q"/>Circa quod quaeruntur tria:
+          <lb ed="#Q"/>Primo, utrum alia praedicamenta a substantia
+          <lb ed="#Q"/>et relatione sint accipienda in divinis;
+          <lb ed="#Q"/>secundo, utrum omnia aliquo modo ;
+          <lb ed="#Q"/>tertio, utrum aliqua proprie, aliqua improprie.
+        </p>
+        <div xml:id="ahsh-l1p2i1t1q2c4-Dd1e144" type="articulus">
+          <head xml:id="ahsh-l1p2i1t1q2c4-Hd1e146">ARTICULUS I</head>
+          <head xml:id="ahsh-l1p2i1t1q2c4-Hd1e149" type="question-title">Utrum alia praedicamenta a substantia et relatione sint accipienda in divinis.</head>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e152">
+            <lb ed="#Q"/>Ad primum sic: 1. Cum praedicamenta ordinata
+            <lb ed="#Q"/>sint, ut primo sit substantia, secundo quantitas,
+            <lb ed="#Q"/>tertio qualitas, quarto ' ad aliquid ' 3: ergo propin<lb ed="#Q"/>quius
+            ordinatur ad substantiam qualitas et quantitas
+            <lb ed="#Q"/>quam 'ad aliquid '. Cum ergo potius" sit ponendum
+            <lb ed="#Q"/>in divinis praedicamentum quod est propinquius
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>substantiae quam quod est remotius, ergo potius
+            <lb ed="#Q"/>debent poni in divinis quantitas et qualitas quam
+            'ad aliquid'; si ergo ponitur ' ad aliquid' in di—
+            <lb ed="#Q"/>vinis, 'multo magis ponetur quantitas et qualitas.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e176">
+            <lb ed="#Q"/>2. item, dicit Augustinus ' quod in relatione
+            <lb ed="#Q"/>personarum numerus cernitur; sed numerus est
+            <pb ed="#Q" n="507"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>species quantitatis<!--l-->; &gt; ergo et in divinis ponitur  
+            <lb ed="#Q"/>quantitas.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e194">
+            <lb ed="#Q"/>3. Item, Boethius, in libro De Trinitatez:
+            « Quod dicitur 'Deus est magnus ', refertur ad
+            <lb ed="#Q"/>quantitatem; quod dicitur 'Deus est iustus ', re<lb ed="#Q"/>fertur
+            ad qualitatem ». Ergo vere sunt in divinis
+            <lb ed="#Q"/>haec praedicamenta.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e206">
+            <lb ed="#Q"/>4. Item, ubi est ponere speciem, ibi est ponere
+            <lb ed="#Q"/>genus3; sed in divinis ponimus iustitiam, scien<lb ed="#Q"/>tiam,
+            quae sunt species qualitatis; ergo et qua<lb ed="#Q"/>litatem.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e217">
+            5. Item, si ' bonus, iustus, magnus ', dicta de Deo,
+            <lb ed="#Q"/>vertuntur in substantiam 4, quare similiter non
+            <lb ed="#Q"/>possunt verti eorum genera? — Item, cum multae
+            <lb ed="#Q"/>sint species qualitatis, sicut passibiles qualitates,
+            <lb ed="#Q"/>color, sapor, et impotentiae naturales 5, quae, con<lb ed="#Q"/>stat,
+            non dicuntur de Deo, quae erit ratio quare
+            <lb ed="#Q"/>nomina quarumdam specierum quantitatis et qua<lb ed="#Q"/>litatis
+            vertuntur i-n divinam praedicationem, ut
+            <lb ed="#Q"/>iustus et bonus, et non alia?
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e237">
+            <lb ed="#Q"/>6. Item, cum decem sint genera: substantia,
+            <lb ed="#Q"/>quantitas, qualitas, relatio etc.-, quomodo acci<lb ed="#Q"/>pientur
+            in divinis?
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e246">
+            <lb ed="#Q"/>Contra: a. Augustinus, V De Trinitate 6: « In<lb ed="#Q"/>telligamus
+            Deum sine qualitate bonum, sine quan<lb ed="#Q"/>titate
+            magnum, sine indigentia creatorem, sine situ
+            <lb ed="#Q"/>praesidentem, sine loco ubique totum, sine ulla sui
+            <lb ed="#Q"/>commutatione mutabilia facientem nihilque patien<lb ed="#Q"/>tem,
+            sine habitu omnia continentem ». Ex quo re<lb ed="#Q"/>linquitur"
+            huiusmodi praedicamenta non esse po<lb ed="#Q"/>nenda
+            in divinis.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e266">
+            <lb ed="#Q"/>Respondeo" quod cetera praedicamenta secun<lb ed="#Q"/>dum
+            sua genera raro attribuuntur divinis, se<lb ed="#Q"/>cundum
+            vero suas Species sub distinctione, quae
+            <lb ed="#Q"/>iam dicetur, attribuuntur Deoc secundum illum
+            <lb ed="#Q"/>modum, quo dicit Boethius 3 quod «talia erunt
+            <lb ed="#Q"/>praedicata'i qualia permiserint subiecta ». Unde
+            « cum de creaturis praedicamenta dicuntur, quae<lb ed="#Q"/>dam
+            eorum significant substantiam, quaedam ac<lb ed="#Q"/>cidentiag».
+            « Cum vero quis haec? in divinam
+            <lb ed="#Q"/>praedicationem verterit, cuncta mutantur. Nam
+            <lb ed="#Q"/>cum dicimus 'Deus', substantiam quidem signi<lb ed="#Q"/>ficare
+            videmur, sed eam quae sit ultra substan<lb ed="#Q"/>tiam;
+            cum vero 'iustus ', qualitatem quidem, sed
+            <lb ed="#Q"/>non accidentem, sed eam quae sit substantia;
+            <lb ed="#Q"/>item, cum ' magnus ' , quantitatem significare vi<lb ed="#Q"/>demur,
+            sed eam quae sit ipsag substantiam».
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e301">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>[Ad obiecta]: ]. Ad primoh ergo obiectum
+            <lb ed="#Q"/>dicendum quod relatio, sicut dictum est '", dupli<lb ed="#Q"/>citer-accipitur.
+            Uno modo secundum quod con<lb ed="#Q"/>sequitur
+            esse compositum et mutabile *, et hoc
+            <lb ed="#Q"/>modo consequitur ordine rationis esse substantiae,
+            <lb ed="#Q"/>qualitatis et quantitatis, quia consequentem ad
+            <lb ed="#Q"/>substantiaml est accipere relationem, quae est
+            <lb ed="#Q"/>identitas; secundum quantitatem, relationem quae
+            <lb ed="#Q"/>est aequalitas; secundum qualitatem, relationem
+            <lb ed="#Q"/>quae est similitudo. Praeterea, quantitas conse<lb ed="#Q"/>quitur
+            substantiam '" ratione materiae, qualitas ra<lb ed="#Q"/>tione
+            formae, relatio, quae est accidens, ratione
+            <lb ed="#Q"/>compositi. Alio modo accipitur relatio secundum
+            <lb ed="#Q"/>quod intentio relationis antecedit esse accidentis "
+            <lb ed="#Q"/>sicut *esse ad' 'adesse"), et hoc modo conna<lb ed="#Q"/>turalis
+            est ipsi substantiae, non " accidentalis, et
+            <lb ed="#Q"/>propinquius adhaeret ipsi substantiae quam qua<lb ed="#Q"/>litas
+            vel quantitas, sicut supralz declaratum est
+            <lb ed="#Q"/>in principiis substantiae quae sunt? materia et
+            <lb ed="#Q"/>forma. . '
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e350">
+            <lb ed="#Q"/>2. Ad secundum dicendum quod numerus,
+            <lb ed="#Q"/>qui est in divinis, transcendit genus quantitatis,
+            <lb ed="#Q"/>sicut declaratum est supra, Quaestione' de nu<lb ed="#Q"/>mero
+            personarum 13; numerus enim, qui est quan<lb ed="#Q"/>titas,
+            est aggregatio unitatum substantialiter dif<lb ed="#Q"/>ferentium:
+            quod nullo modo est in divinis; est
+            <lb ed="#Q"/>tamen ibi numerus vere personarum, sicut supra
+            <lb ed="#Q"/>dictum est 14.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e370">
+            <lb ed="#Q"/>3. Ad tertium quod dicit Boethius «quods
+            ' Deus est magnus' refertur ad quantitatem, quod
+            ' iustus ', ad qualitatem », intelligitur quantum ad
+            <lb ed="#Q"/>modum dicendi, quia dicitur per modum qua<lb ed="#Q"/>litatis
+            et per modum quantitatis etc., non quan<lb ed="#Q"/>tum
+            ad existentiam rei, ut praedicetur forma
+            <lb ed="#Q"/>qualitatis et quantitatis.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e383">
+            <lb ed="#Q"/>4. Ad quartum dicendum quod non sequitur
+            <lb ed="#Q"/>quod ubi sit ponere nominationem speciei t, sit
+            <lb ed="#Q"/>ponere nominationem generis; et ratio est, quia
+            <lb ed="#Q"/>genera generalissima, sicut quantitas et qualitas,
+            <lb ed="#Q"/>dicuntur" in dependentia ad substantiam, sed
+            <lb ed="#Q"/>ipsaeV species non dicuntur in huiusmodi depen<lb ed="#Q"/>dentia
+            X. Praeterea, nomina generum accidentium
+            <lb ed="#Q"/>dicunt respectum in concretione '5 ad substantiam
+            <lb ed="#Q"/>et in oppositione, et ideo non convenienter pos<lb ed="#Q"/>sunt
+            converti in praedicationem substantiae; hinc
+            <lb ed="#Q"/>ergo est quod nomina specierum convertuntur in
+            <lb ed="#Q"/>divinam praedicationem, non nomina generum.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e412">
+            <pb ed="#Q" n="508"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>5. Ad quintum dicendum quod omne acci<lb ed="#Q"/>dens
+            dicit detectum a substantia, unde defectionem
+            <lb ed="#Q"/>entis; nomina ergo quaedam specierum addunt
+            <lb ed="#Q"/>deiectum supra defectum generis, quaedam vero
+            <lb ed="#Q"/>addunt ultra genus complementum et perfectio<lb ed="#Q"/>nem
+            potius" quam defectum. Prima nomina non
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>convenit assumere in divinam praedicationem, sicut
+            <lb ed="#Q"/>passibiles qualitates, color et sapor, ratione defec<lb ed="#Q"/>tus 
+            quem addunt; alia vero, ratione complementi 
+            <lb ed="#Q"/>quod addunt supra intentionem generis, possunt,
+            <lb ed="#Q"/>qualia sunt bonus, iustus, sapiens et huiusmodi 0.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e445">
+            <lb ed="#Q"/>6. Ad aliud vero iam patebitc solutio '.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i1t1q2c4-Dd1e451" type="articulus">
+          <head xml:id="ahsh-l1p2i1t1q2c4-Hd1e453">ARTICULUS II.</head>
+          <head xml:id="ahsh-l1p2i1t1q2c4-Hd1e456" type="question-title">Utrum alia omnia praedicamenta sit accipere in divinis.</head>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e459">
+            <lb ed="#Q"/>Consequenter quaeritur utrum omnia alia prae<lb ed="#Q"/>dicamenta
+            secundum aliquam differentiam a sub<lb ed="#Q"/>stantia
+            et relatione sit accipere in divinam prae<lb ed="#Q"/>dicationem.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e470">
+            <lb ed="#Q"/>Quod videtur: 0. Quia in Scripturisd nomina
+            <lb ed="#Q"/>accipiuntur secundum omnia genera 2, quia secun<lb ed="#Q"/>dum
+            quantitatem dicitur magnus, secundum qua<lb ed="#Q"/>litatem
+            iustus, secundum agere dicitur creare, se<lb ed="#Q"/>cundum
+            pati, irasci, secundum quando dicitur
+            <lb ed="#Q"/>semper esse, secundum ubi dicitur ubique, secun<lb ed="#Q"/>dum
+            situm dicitur sedere super Cherubim 3, 'se<lb ed="#Q"/>cundum
+            habitum dicitur amictus lumine 4, secun<lb ed="#Q"/>dume
+            relationem dicitur Dominus universorum 5.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e492">
+            <lb ed="#Q"/>Contra: 1. Boethius, in libro De Trinitate 6:
+            « ' Deus ' secundum substantiam dicitur, ' iustus'
+            <lb ed="#Q"/>secundum qualitatem, 'magnus ' secundum quan<lb ed="#Q"/>titatem;
+            reliqua vero » septem generum, quae
+            <lb ed="#Q"/>sunt accidentia, « neque de .Deo neque de ceteris
+            <lb ed="#Q"/>praedicantur». Ex quo videtur quod solum tria
+            <lb ed="#Q"/>genera, hoc est nomina trium generum tantum,
+            <lb ed="#Q"/>de Deo praedicentur.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e511">
+            <lb ed="#Q"/>2. Item, Boethius, in libro De Trinitate7:
+            « Situm et passionem requiri in Deo non opor—
+            <lb ed="#Q"/>tet». Ergo videtur quod in Deo non debeat re<lb ed="#Q"/>quiri
+            praedicatio secundum situm et secundumf
+            <lb ed="#Q"/>passionem. Sed quaeritur quare potius excludit
+            <lb ed="#Q"/>ista duo quam alia?
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e524">
+            <lb ed="#Q"/>3. Item, fuerunt qui dixerunt3 quod « cum du<lb ed="#Q"/>plex
+            sit passio, corporalis et animalis, corporalis
+            <lb ed="#Q"/>passio de Deo non dicitur, sed animalis, ut ira<lb ed="#Q"/>tus
+            estgfurore Dominus9 ». —- Sed contra: Ad
+            <lb ed="#Q"/>Hebr. 6,6: Rursum crucifigentes sibimet Filium
+            <lb ed="#Q"/>Dei, et Malach. 3,9: Vos canfigiti's'z me gens
+            <lb ed="#Q"/>tota; et constat1 quod ista verba. sunt signifi<lb ed="#Q"/>cantia
+            corporales passiones.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e544">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Respondeo: Dicendum quod omnium praedi<lb ed="#Q"/>camentorum
+            nomina dicuntur de Deo, sed tamen
+            <lb ed="#Q"/>differenter, sicut et de aliis. Nam nomina trium
+            <lb ed="#Q"/>praedicamentorum, ut substantiae, qualitatis, quan<lb ed="#Q"/>titatis,
+            cum praedicantur, « quasi rern monstrant 10 »,
+            <lb ed="#Q"/>reliqua veroseptem « quasi circumstantias rei ».
+            <lb ed="#Q"/>Tria enim prima rem « esse aliquid ostendunt»,
+            <lb ed="#Q"/>ut cum dicitur res esse substantia vel res esse
+            <lb ed="#Q"/>magna vel/' bona; reliqua vero « non esse, sed
+            <lb ed="#Q"/>potius extrinsecus aliquid quodammodo attigunt »,
+            <lb ed="#Q"/>ut cum res dicitur alicubi vel aliquando vel agere
+            <lb ed="#Q"/>vel pati et sic de ceteris. Cum enim dicitur
+            'homo iustus vel magnus ', sicut dicit Boe<lb ed="#Q"/>thius
+            ", homo est id quod praedicatur; sed cum
+            <lb ed="#Q"/>dicitur 'homo est in foro vel hodie ', non dici<lb ed="#Q"/>tur!
+            quod homo sit hoc, sed quod homo men<lb ed="#Q"/>suratur
+            iis vel continetur. Simili modo, cum dici<lb ed="#Q"/>tur
+            12 'Deus est iustus vel magnus ', Deus di<lb ed="#Q"/>citur
+            idem esse quod iustum et magnum; sed
+            <lb ed="#Q"/>cum dicitur 'Deus est ubique' vel 'Deus est
+            <lb ed="#Q"/>semper ', significatur aliqua habitudo rerum a
+            <lb ed="#Q"/>Deo, quae continentur aut mensurantur loco vel
+            <lb ed="#Q"/>tempore.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e596">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo'" quod obi<lb ed="#Q"/>cit,
+            hoc modo dicendum, secundum Boethium 13,
+            <lb ed="#Q"/>quod eorum quae praedicantur quaedam prae<lb ed="#Q"/>dicantur
+            ex eo quod sunt id" ipsum de quo praedi<lb ed="#Q"/>cantur,
+            ut ea quae dicuntur secundum substantiam,
+            <lb ed="#Q"/>quantitatem, qualitatem; alia " vero ex eo quod se
+            <lb ed="#Q"/>habent in aliqua habitudine ad illud de quo prae<lb ed="#Q"/>dicantur,
+            ut relatio et quando et ubi et agere et
+            <lb ed="#Q"/>pati, situs et habitus. Secundum primum modum
+            <lb ed="#Q"/>dicit Boethius quod « reliqua non praedicantur
+            <lb ed="#Q"/>nec de Deo nec de ceteris »; sed si praedicari acci<lb ed="#Q"/>piatur
+            communiter adP praedicari secundum inhae<lb ed="#Q"/>rentiam
+            et ad praedicari per? assistentiam, omnia 
+            <pb ed="#Q" n="509"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>praedicantur. Cum vero" assumuntur in divinam
+            <lb ed="#Q"/>praedicationem, nomina horum generum mutantur
+            <lb ed="#Q"/>sicut et alia. Unde cum dicitur secundum prae<lb ed="#Q"/>dicamentum
+            relationis ' Deus, Dominus ', desi<lb ed="#Q"/>gnatur
+            habitudo relationum quae est dominiib
+            <lb ed="#Q"/>respectu servitutis vel 6 subiectionis creaturae.
+            <lb ed="#Q"/>Cum dicitur,CI 'Deus creat', secundum praedica<lb ed="#Q"/>mentum
+            actionis designatio est habitudinis cau<lb ed="#Q"/>sae
+            ad effectum ; cum dicitur Deus iratus, secun<lb ed="#Q"/>dum
+            praedicamentum passionis designatur ex con<lb ed="#Q"/>sequenti
+            habitudo, quae est in e vindicandis male<lb ed="#Q"/>ticiisf,
+            scilicet illatio poenae; cum dicitur sedere
+            <lb ed="#Q"/>super Cherubim, secundum praedicamentum situs
+            <lb ed="#Q"/>designatur «quomodo se habeat ad superiores
+            <lb ed="#Q"/>creaturas 3, scilicet ut excedens eashl » ; cum
+            <lb ed="#Q"/>dicitur Deus esse semper, designatur quomodo
+            « se habeat ad temporalia, scilicet ut concomitans
+            <lb ed="#Q"/>ea» secundum omne tempus, praesens, praeteri<lb ed="#Q"/>tum
+            et futurum; cum dicitur[. esse ubique, de<lb ed="#Q"/>signatur
+            quomodo se habeat ad omnem locum et
+            <lb ed="#Q"/>circumscriptionem, 'scilicet ut praesens omni k loco
+            <lb ed="#Q"/>et omni circumscriptioni ; cum vero' dicitur,
+            <lb ed="#Q"/>Psalm. 103,2: Amictus lumine sicut vestimento,
+            <lb ed="#Q"/>secundum praedicamentum habitus significatur
+            <lb ed="#Q"/>habitudo ad- exteriores?" creaturas, quae exterius
+            <lb ed="#Q"/>ipsum declarant.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e685">
+            <lb ed="#Q"/>2. Ad secundum" quod dicit Boethius 
+            « situm et passionem in Deo requiri non oportet»
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>plus quam" de ceteris, dicendum quod P- haec est
+            <lb ed="#Q"/>ratio: quia situs ponit materiam, passio vero mu<lb ed="#Q"/>tabilitatem;
+            materia autem et mutabilitas maxime
+            <lb ed="#Q"/>relegantur a Deo, et ideo ista secundum maiorem
+            <lb ed="#Q"/>improprietatemq dicuntur de Deo quam cetera.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e703">
+            <lb ed="#Q"/>3. Ad ultimum f quod obicitur quod 'verbas
+            <lb ed="#Q"/>passionis corporalis et passionis animalis inve<lb ed="#Q"/>niuntur
+            dici de Deo,: dicendum quod hoc est
+            <lb ed="#Q"/>secundum maximam improprietatem, qua solent
+            <lb ed="#Q"/>attribui nomina aliquarum * rerum propter effec<lb ed="#Q"/>tum"
+            consequentem 2. Unde hoc modo dicitur
+            <lb ed="#Q"/>Deus poenitere, non quia passio poenitentiae
+            <lb ed="#Q"/>insit, sed quia illud quod solet consequi poeni<lb ed="#Q"/>tentem-ei
+            convenit, scilicet mutare opus. Similiter,
+            <lb ed="#Q"/>cum dicitur irasci, non significatur quod passio
+            <lb ed="#Q"/>irae ei insit", sed actus qui solet consequi ira;
+            <lb ed="#Q"/>tum, scilicet punire 363. Similiter, cum dicitur con<lb ed="#Q"/>figi,
+            hoc dicitur adhuc per maiorem improprie<lb ed="#Q"/>tatem;
+            duplex enim est hic improprietas: una,
+            <lb ed="#Q"/>quia attribuitur causae quod est effectus, hoc
+            <lb ed="#Q"/>est Deo quod est gratiae; alia, quia ponitur actus
+            <lb ed="#Q"/>praecedens pro consequenti. Unde cum dicitur
+            *Filius Dei crudi-igitur in nobis', non aliud in<lb ed="#Q"/>telligitur
+            nisi quodJ' gratia eius interit vel de<lb ed="#Q"/>ficit
+            in nobis per peccatum. Poniturz ergo ' cru<lb ed="#Q"/>cifigi'
+            pro "interire,, quia crucifixionem solet
+            <lb ed="#Q"/>consequimors sive interitus, et Filio Dei attri<lb ed="#Q"/>buitur
+            quod est gratiae.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i1t1q2c4-Dd1e755" type="articulus">
+          <head xml:id="ahsh-l1p2i1t1q2c4-Hd1e757">ARTICULUS III</head>
+          <head xml:id="ahsh-l1p2i1t1q2c4-Hd1e760" type="question-title">Utrum aliqua praedicamenta dicantur proprie de Deo, aliqua improprie.</head>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e763">
+            <lb ed="#Q"/>Consequenter quaeritur de huiusmodi praedi<lb ed="#Q"/>camentis 
+            an aliqua dicantur de Deo proprie.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e770">
+            <lb ed="#Q"/>Ad quod: a. Augustinus, V De Trinitate4:
+            « Quod ad faciendum attinet, fortassis . de solo
+            <lb ed="#Q"/>Deo verissime dicitur; solus enim Deus facit et
+            <lb ed="#Q"/>ipse non fit neque patitur ». Ergo praedicamen<lb ed="#Q"/>tum
+            actionis proprie convenit Deo.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e781">
+            <lb ed="#Q"/>b. Item, Augustinus, in eodem 5: « Non parti<lb ed="#Q"/>cipatione
+            magnitudinis Deus magnus est, sed se
+            <lb ed="#Q"/>ipso, quia ipse est sua" magnitudo, hoc etb de
+            <lb ed="#Q"/>bonitate et de 0 aeternitate et de omnipotentia Dei
+            <lb ed="#Q"/>dictum est: omnibusque praedicamentis quae de
+            <lb ed="#Q"/>Deo possunt pronuntiari, quoadd se ipsum dicitur
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>non translativee aut per similitudinem, sedf pro<lb ed="#Q"/>prie».
+            Ergo 'magnum* et 'bonum ', quae di<lb ed="#Q"/>cuntur
+            de Deo secundum praedicamentum quan<lb ed="#Q"/>titatis
+            et qualitatis, dicuntur de Deo proprie.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e808">
+            <lb ed="#Q"/>Contra: 1. Praedicta auctoritas Augustini,
+            <lb ed="#Q"/>ing eodem libro 6: « Intelligamus Deum sine qua<lb ed="#Q"/>litate
+            bonum, sine quantitate magnum, sine indi<lb ed="#Q"/>gentia
+            creatorem, sine ulla sui mutatione muta<lb ed="#Q"/>bilia
+            iacientem » etc. Ergo ista, dicta de Deo,
+            <lb ed="#Q"/>transferuntur" a significatione propria, quia a
+            <lb ed="#Q"/>genere proprio; ergo dicuntur improprie.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e826">
+            2. Item, quaeritur quare non dicit Au gusti—
+            <lb ed="#Q"/>nus Deum 'sine relatione creatorem', sicut dicitï
+            « sine qualitate bonum, sine quantitate magnum ».
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e831">
+            <pb ed="#Q" n="510"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>3. item, quaeritur" similiter quare non dicit
+            'sine actione facientem ', sicut dicit « sine qualitate
+            <lb ed="#Q"/>bonum », sed dicit « sine mutatione facientem ».
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e842">
+            <lb ed="#Q"/>Respondeo: in" intentionibus nominum quae
+            <lb ed="#Q"/>accipiuntur secundum haec genera attendendum
+            <lb ed="#Q"/>est' regulariter quod illa nomina, quae dicunt in<lb ed="#Q"/>tentionem
+            materialitatis vel corporeitatis vel mu<lb ed="#Q"/>tabilitatis
+            vel imperfectionis, translative et non
+            <lb ed="#Q"/>proprie dicuntur de Deo indistincte. inde est quod
+            <lb ed="#Q"/>nomina quae dicunt situm seu positionem, prop<lb ed="#Q"/>ter'
+            materialitatem, et nomina quae dicunt ha<lb ed="#Q"/>bitum,
+            propter corporeitatem, et nomina quae
+            <lb ed="#Q"/>dicunt ' ubi ', propter imperfectionem, et nomina
+            <lb ed="#Q"/>quae dicunt 'quando ', propter mutabilitatem, non
+            <lb ed="#Q"/>dicuntur de Deo proprie, sed translative. Unde
+            <lb ed="#Q"/>Augustinus, V De Trinitate': «Situs et ha<lb ed="#Q"/>bitus
+            et loca et tempora non proprie, sed trans<lb ed="#Q"/>lative'
+            ac per similitudinesf, dicuntur in Deo.
+            <lb ed="#Q"/>Nam et sedere super Cherubim dicitur quoad ! si<lb ed="#Q"/>tum,
+            et abyssum " tamquam vestimentum ' amictus
+            <lb ed="#Q"/>quoad * habitum, et anni tui non deficient' quoad
+            <lb ed="#Q"/>tempus, et si ascendero In caelum, tu Illlc' es 5,
+            <lb ed="#Q"/>quoad locum ». Nomina vero generum quae non
+            <lb ed="#Q"/>dicunt nec materialitatem seu corporeitatem nec
+            <lb ed="#Q"/>mutabilitatem seu imperfectionem, si abstrahantur
+            <lb ed="#Q"/>intentiones eorum a modo quo sunt in creaturis,
+            <lb ed="#Q"/>dicuntur Deo proprie convenire, « si tamen », sicut
+            <lb ed="#Q"/>dicit Augustinus', «de Deo proprie aliquid
+            <lb ed="#Q"/>dici potest ». Secundum vero modum quo sunt in
+            <lb ed="#Q"/>creaturis accepta de Deo dicentur improprie. Unde
+            <lb ed="#Q"/>Augustinus, V De TrinituteS, dicit quod cum
+            <lb ed="#Q"/>dicitur 'magnum' de creatura, ut'" de domo vel
+            <lb ed="#Q"/>de monte, dicitur magnum participatione et non
+            <lb ed="#Q"/>est creatura sua magnitudo; sed cum dicitur
+            'magnum ' de Deo, dicitur magnitudo per essen<lb ed="#Q"/>tiam
+            et « ipse est sua magnitudo ». Accipit autem
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>hic 'magnum' Augustinus secundum quod
+            <lb ed="#Q"/>est commune ad magnum dimensione et magnum
+            <lb ed="#Q"/>virtute; nam in Deo non est magnum dimensione,
+            <lb ed="#Q"/>sed magnum virtutes. ita etiam intelligendum
+            <lb ed="#Q"/>est'' cum dicitur 'bonus' et huiusmodi.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e927">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Hoc ergo modo vult dicere
+            <lb ed="#Q"/>Augustinus quod dicuntur de Deo proprie
+            <lb ed="#Q"/>huiusmodi nomina, abstrahendo a modo quo sunt
+            <lb ed="#Q"/>in creatura; unde dicit: « Sine qualitate bonus,
+            <lb ed="#Q"/>sine quantitate magnus ».
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e940">
+            <lb ed="#Q"/>2. Ad illud quod dicit 'quare non dicit sine
+            <lb ed="#Q"/>relatione creatorem': respondeo dicendo quod
+            <lb ed="#Q"/>intentio relationis secundum se non dicit muta<lb ed="#Q"/>bilitatem
+            nec materiaiitatem nec imperfectionem "';
+            <lb ed="#Q"/>unde, sicut dicit Boethius", «non auget nec
+            <lb ed="#Q"/>mutat nec minuit» quod secundum ipsam deno<lb ed="#Q"/>minatur,
+            et ideo divino esse non " repugnat, immo
+            <lb ed="#Q"/>convenit; sed secundum quod intentio relationis
+            <lb ed="#Q"/>consideratur in creatura, notat dependentiam vel
+            <lb ed="#Q"/>in utroque vel in altero extremorum relationis"
+            <lb ed="#Q"/>et ita ponit indigentiam. ldeo A u gu sti n u 5 con<lb ed="#Q"/>venienter
+            dixit: « Sine indigentia creatorem », si<lb ed="#Q"/>gnificans
+            nomine creatoris habitudinem relationis
+            <lb ed="#Q"/>divinae-causae ad creaturas, privans indigentiam,
+            <lb ed="#Q"/>id est modum imperfectionis relationis, prout est
+            <lb ed="#Q"/>in creatura, non ipsam relationem.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e978">
+            <lb ed="#Q"/>3. Simili modo respondendum est' ad ulti<lb ed="#Q"/>mum,
+            quia intentio actionis' secundum se non
+            <lb ed="#Q"/>dicit imperfectionem seu mutabilitatem, sed in<lb ed="#Q"/>tentio
+            actionis ", prout est in creatura, ponit in
+            <lb ed="#Q"/>agente mutabilitatem. Ideo' Augustinus con<lb ed="#Q"/>venienter
+            dixit': . Sine mutatione mutabilia ta<lb ed="#Q"/>cientem
+            », privans " mutabilitatem, non actionem.
+          </p>
+          <p xml:id="ahsh-l1p2i1t1q2c4-d1e996">
+            <lb ed="#Q"/>Et in hunc modum terminatur introductoria et
+            <lb ed="#Q"/>in generali inquisitio nominum divinorum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

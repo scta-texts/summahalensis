@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 1, c. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 1, c. 4</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Early Franciscan Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="7"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq1c4">
+        <head xml:id="ahsh-l1tinq1c4-Hd1e3729">I, Tract. Intro., Q. 1, c. 4</head>
+        <head xml:id="ahsh-l1tinq1c4-Hd1e3732" type="questionTitle">DE MODO TRADlTIONIS SACRAE SCRIPTURAE</head>
+        
+        <p xml:id="ahsh-l1tinq1c4-d1e3735">
+          <lb ed="#Q"/>Consequenter quaeritur de modo, sacrae Scrip<lb ed="#Q"/>turae.
+          </p>
+        <p xml:id="ahsh-l1tinq1c4-d1e3742">
+          <lb ed="#Q"/>Et est prima quaestio an modus in sacra Scrip<lb ed="#Q"/>tura 
+          sit artificialis vel scientialis';
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secunda, an sit certitudiualis;
+          <lb ed="#Q"/>tertia, an sit uniformis vel muitiformis; 
+          <lb ed="#Q"/>et supposito quod multiformisl', quarta quaestio
+          <lb ed="#Q"/>est de muitiiormitate modorum'sacrae Scripturae.
+        </p>
+        <div xml:id="ahsh-l1tinq1c4-Dd1e3760" type="articulus">
+          <head xml:id="ahsh-l1tinq1c4-Hd1e3762">Articulus I</head>
+          <head xml:id="ahsh-l1tinq1c4-Hd1e3765" type="questionTitle">An modus sacrae Scripturae sit artificialis vel scientialis.</head>
+          <p xml:id="ahsh-l1tinq1c4-d1e3768">
+            <lb ed="#Q"/>Ad primum obicitur sic: 1. Omnis modus poe<lb ed="#Q"/>ticus 
+            est inartificialis sive non scientiaiis 4, quia 
+            <lb ed="#Q"/>est modus historicus vel transumptus, qui qui<lb ed="#Q"/>dem 
+            non competunt arti: sed theologicus mo<lb ed="#Q"/>dus 
+            est poeticus vel historialis vel parabolicus; 
+            ergo non eset artificialis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e3781">
+            <pb ed="#Q" n="8"/>
+            <lb ed="#Q" n="a"/>
+            <lb ed="#Q"/>2. item, omnis modus scientiae est deiinitivus,
+            <lb ed="#Q"/>divisivus, collectivus '; sed modus sacrae Scriptu<lb ed="#Q"/>rae'non
+             est huiusmodi; ergo non est scientialis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e3794">
+            <lb ed="#Q"/>3. item, omnis modus artis et scientiae est per
+            <lb ed="#Q"/>sermones manifestos; modus sacrae Seripturae
+            <lb ed="#Q"/>est per sermones mysticos; ergo non est artifi—
+            <lb ed="#Q"/>cialis vel scientialis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e3806">
+            <lb ed="#Q"/>Respondeo: Dicendum" quod non est modus
+            <lb ed="#Q"/>sacrae Scripturae "- artis vel scientiae secundum
+            <lb ed="#Q"/>comprehensionem rationis humanae, sed per dis<lb ed="#Q"/>positionem
+            divinae sapientiae ad informationem
+            <lb ed="#Q"/>animae in .iis quae pertinent ad salutem. Unde
+            <lb ed="#Q"/>Augustinus, XIV De Trinitate 2: « Non quid<lb ed="#Q"/>quid
+            " sciri ab hominibus potest in rebus huma<lb ed="#Q"/>nis,
+            ubi plurimum vanitatis vel noxiae curiosita<lb ed="#Q"/>tatis
+            4 est, huic scientiae tribuo, sed illud tan<lb ed="#Q"/>tummodo
+            quo fides saluberrima, quae ad veram
+            <lb ed="#Q"/>beatitudinem ducit, gignitur, nutritur, roboratur »:
+            <lb ed="#Q"/>quae scientia est in rebus quae ad salutem e per—
+            <lb ed="#Q"/>tinent.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e3837">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo quod obici<lb ed="#Q"/>tur,
+            respondendum, secundum B. Dio nys iu rn, in
+            <lb ed="#Q"/>Hierarchia angelica 3, dicentem: « Valde artificiali<lb ed="#Q"/>ter-'
+            Theologia poeticis Sacris formationibus in non
+            <lb ed="#Q"/>figuratis intellectibus usa est, nostrum intellectum
+            <lb ed="#Q"/>respiciens ». « Etenim non est possibile aliter no<lb ed="#Q"/>bis
+            lucere divinum radium nisi varietate sacrorum
+            <lb ed="#Q"/>velaminum anagogice circumvelatum », * quoniam
+            <lb ed="#Q"/>non est possibile animo nostro ad non mate—
+            <lb ed="#Q"/>rialem-'! iliam ascendere caelestium hierarchiarum
+            <lb ed="#Q"/>contemplationem, nisi ea, quae secundumipsum
+            <lb ed="#Q"/>est ", materiali manuductione utaturl ». Propterea
+            « pulcre in sacra Scriptura procreatae sunt in—
+            <lb ed="#Q"/>formium formae et figurae carentium figuris ».
+            <lb ed="#Q"/>Propterea « decentissimum est eloquiis divina
+            <lb ed="#Q"/>aenigmata occultare et inviam't multis ponere
+            <lb ed="#Q"/>sacram abditamque supermundanorum intellec—
+            <lb ed="#Q"/>tuum veritatem; est enim non omnis sacer neque
+            <lb ed="#Q"/>omnium, ut Eloquia dicunt sacra, sciential ». Ex
+            <lb ed="#Q"/>quibus verbis B. Dionysii patet quod ratio
+            <lb ed="#Q"/>quare sacra Scriptura valdem artificialiter secun—
+            <lb ed="#Q"/>dum modum poeticum tradatur, potest esse ne—
+            <lb ed="#Q"/>cessitas intellectus'nostri, qui deficit in compre<lb ed="#Q"/>hensione
+            " divinorum; secunda est dignitas veri—
+            <lb ed="#Q"/>tatis quae debet celari hominibus malis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e3892">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>2. A d 5 ec und u m dicendum quod" alius "est
+            <lb ed="#Q"/>modus scientiae, 'qui " est secundum comprehen<lb ed="#Q"/>sionem
+            veritatis per humanam rationem; alius
+            <lb ed="#Q"/>est modusscientiae secundum affectum pieta<lb ed="#Q"/>tis
+            per divinam traditionem. ——- Primus modus
+            .deiinitivus debet esse,'divisivus 5, collectivus; et
+            <lb ed="#Q"/>talis modus debet esse in humanis scientiis, quia
+            <lb ed="#Q"/>apprehensio veritatis secundumc humanam ratio<lb ed="#Q"/>nem
+            expiicaturper divisiones, definitiones et ra<lb ed="#Q"/>tiocinationes.
+            -— Secundus modus debet esse
+            <lb ed="#Q"/>praeceptivus, exemplificativus 'i, exhortativus, re<lb ed="#Q"/>velativus,
+            oratlvus, quia ii modi competunt affec<lb ed="#Q"/>tui
+            pietatis; et hic modus est in sacra Scriptura:
+            <lb ed="#Q"/>unde ad Titum 1,1 dicitur scientia secundum
+            <lb ed="#Q"/>pietatem. Praeterea, modus praecepiivus est'in
+            <lb ed="#Q"/>Lege et Evangelio, exemplificativus in historio<lb ed="#Q"/>graphis,
+            exhortativus in libris Salomonis et Epi<lb ed="#Q"/>stolis,
+            revelativus in Prophetis, orativus in Psal—
+            <lb ed="#Q"/>mis. — Nota etiam quod alius modus debet esse
+            <lb ed="#Q"/>scientiae ' quae habet informare affectum secun<lb ed="#Q"/>dum
+            pietatem; alius scientiae quae habet infor<lb ed="#Q"/>mare
+            ! ' intellectum solum ad cognoscendam veri<lb ed="#Q"/>tatem.
+            Ille qui erit ad informationem affectus, erit
+            <lb ed="#Q"/>per differentias quae dictae sunt, quia praecepta L',
+            <lb ed="#Q"/>exempla, exhortationes, revelationes, orationes in—
+            <lb ed="#Q"/>troducunt pietatis affectiones. Est autem pietas
+            « cultus Dei », sicut dicit Augustinus, Xii De
+            <lb ed="#Q"/>Trinitate 4, introducens illud Iob 28,28, alia lit<lb ed="#Q"/>tera * 5 
+              Ecce, ' pietas ipsa est sapientia. Est autem
+            <lb ed="#Q"/>cu1tus Dei « quo nunc desideramus eum videre,
+            <lb ed="#Q"/>credimusque' et speramus visuros », ' desideramus
+            <lb ed="#Q"/>caritate, credimus fide, speramus spe 5, secundum
+            ;quas tres virtutes * pietatis disciplina formatur.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e3962">
+            <lb ed="#Q"/>3. Ad tertium dicendum' quod, sicut pro—
+            <lb ed="#Q"/>prium est scientiae humanae tradi per sermones
+            <lb ed="#Q"/>manifestos, ita proprium '" divinae sapientiae ut
+            <lb ed="#Q"/>sit per sermones occultos. Est enim sapientia in
+            <lb ed="#Q"/>mysterio,.secundum quod dicitur I Cor. 2,7:
+            <lb ed="#Q"/>Loquimur sapientiam, quae in mysterio est abs—
+            <lb ed="#Q"/>condita. Ratio autem" absconsionis est triplex.
+            <lb ed="#Q"/>Prima est meritum fidei: in hoc enim meretur,
+            <lb ed="#Q"/>quia credit quod non videt. Propter hoc, Apoc. 5, 1 :,
+            <lb ed="#Q"/>Vidi " in dextera sedentis libram scriptum" intus
+            <lb ed="#Q"/>vei foris, signatum sigillis septem. —— Secunda
+            <lb ed="#Q"/>causa est exercitium studii. Propter quod dicitur
+            <pb ed="#Q" n="9"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>
+            <lb ed="#Q"/>Dan. 12,4: Claade sermones, signa librum usque 
+            <lb ed="#Q"/>ad tempus statutum-,- pertransibunt enim plurimi, 
+            <lb ed="#Q"/>et multiplex erit scientia. —- Tertia causa est
+            <lb ed="#Q"/>dignitas veritatis quae debet abscondi malignis,
+            <lb ed="#Q"/>Matth. 7,6: Nolite sanctum dare canibus, neque
+            <lb ed="#Q"/>mittatis margaritas ante porcos.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1tinq1c4-Dd1e4012" type="articlus">
+          <head xml:id="ahsh-l1tinq1c4-Hd1e4014">Articulus II</head>
+          <head xml:id="ahsh-l1tinq1c4-Hd1e4017" type="questionTitle">An modus sacrae Scripturae sit certitudinalis.</head>
+          <p xml:id="ahsh-l1tinq1c4-d1e4020">
+            <lb ed="#Q"/>Consequenter quaeritur an modus sacrae Scrip<lb ed="#Q"/>turae
+            sit certitudinaiis, scilicet an is modus **
+            <lb ed="#Q"/>sacrae Scripturae sit certior quam in aliis scien<lb ed="#Q"/>tiis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4031">
+            <lb ed="#Q"/>1. Et cum certior sit intellectus quam fides, in 
+            <lb ed="#Q"/>aliis scientiis est intellectus, in hac vero fides:
+            <lb ed="#Q"/>ergo certior est modus in aliis scientiis quam
+            <lb ed="#Q"/>in ista.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4042">
+            <lb ed="#Q"/>2. Item, certior est scientia quae procedit ex
+            <lb ed="#Q"/>principiis per se manifestis intellectui-, quam illa
+            <lb ed="#Q"/>quae procedit ex principiis occultis b intellectui;
+            <lb ed="#Q"/>sed aliae scientiae procedunt ex principiis per se
+            <lb ed="#Q"/>manifestis intellectui, haec' autem ex occultis in<lb ed="#Q"/>tellectui,
+            quia ex principiis fidei-, ergo modus in
+            <lb ed="#Q"/>aliis scientiis 0 est certior.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4061">
+            <lb ed="#Q"/>3. item, certior est modus in illa scientia quae
+            <lb ed="#Q"/>traditur ex sermonibus propriis, quam in "' illa
+            <lb ed="#Q"/>quae procedit ex sermonibus transumptis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4070">
+            <lb ed="#Q"/>4. item certior est quae per univoca et simpli<lb ed="#Q"/>citer
+            dicta tractatur, quam quae per aequivoca
+            <lb ed="#Q"/>et multipliciter dicta E,.quia ex iis dubia senten<lb ed="#Q"/>tia
+            generatur. Relinquitur ergo quod certior est
+            <lb ed="#Q"/>modus in aliis scientiis quam in Theologia.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4083">
+            <lb ed="#Q"/>Contra: a. Certior est. modus sciendi periu<lb ed="#Q"/>spirattonem
+            quam per humanam ratiocinationem;
+            <lb ed="#Q"/>item, certius est quod scitur testimonio Spiritus,
+            <lb ed="#Q"/>quam quod testimonio creaturarum; item, certius
+            <lb ed="#Q"/>estf quod scitur per modum gustus quam quod
+            <lb ed="#Q"/>per modum visus. Cum ergo modus sacrae Scrip—
+            <lb ed="#Q"/>turae sit modus sciendi per inspirationem 8, per
+            <lb ed="#Q"/>testimonium Spiritus", per modum gustus, in
+            <lb ed="#Q"/>aliis vero modusi sciendi per ratiocinationem,
+            <lb ed="#Q"/>per testimonium k creaturae, per modum visust-.
+            <lb ed="#Q"/>manifestum est quod certior est modus sciendi in
+            <lb ed="#Q"/>Theologia quam in aliis scientiis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4112">
+            <lb ed="#Q"/>Respondeo: Est certitudo speculationis et est
+            <lb ed="#Q"/>certitudo experientiae; praeterea, est certitudo
+            <lb ed="#Q"/>secundum intellectum et' est certitudo secundum
+            <lb ed="#Q"/>affectum; item, est certitudo quoad animum spiri—
+            <lb ed="#Q"/>tualem et est certitudo quoad "' animum animalem.
+            <lb ed="#Q"/>Dico ergo quod modus theologicus est certior
+            <lb ed="#Q"/>certitudine experientiae, certitudine quoad affec<cb ed="#Q" n="b"/><lb ed="#Q"/>tum, 
+            quae est per modum gustus, in Psalmo: 
+            <lb ed="#Q"/><quote xml:id="ahsh-l1tinq1c4-Qd1e4133">Quam dulcia faucibus meis eloquia tua</quote> etc., 
+            <lb ed="#Q"/>quamvis non certior quoad speculationem intel<lb ed="#Q"/>lectus, 
+            quae eset per modum visus. Item, certior 
+            <lb ed="#Q"/>est homini spirituali, quamvis inertior animali, 
+            <lb ed="#Q"/><ref>I Cor. 2, 14</ref>: <quote xml:id="ahsh-l1tinq1c4-Qd1e4147">Animalis enim homo non percipit 
+            <lb ed="#Q"/>ea, quae sunt spiritus Dei: spiritualis autem 
+            <lb ed="#Q"/>omnia diiudicat</quote>.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4155">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo quod obi<lb ed="#Q"/>citur 
+            iam patet solutio;.quod iides certior est in<lb ed="#Q"/>tellectu
+            aliarum scientiarum certitudine affectio<lb ed="#Q"/>nis,
+            non certitudine speculationis. '
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4166">
+            <lb ed="#Q"/>2. Ad secundum dicendum quod sunt prin<lb ed="#Q"/>cipia
+            veritatis ut veritatis, et sunt principia veri<lb ed="#Q"/>tatis
+            ut bonitatis. Dico ergo quod aliae scientiae
+            <lb ed="#Q"/>procedunt ex principiis veritatis ut veritatis per se
+            <lb ed="#Q"/>notis; haec autem scientia procedit ex principiis
+            <lb ed="#Q"/>veritatis ut- bonitatis et per se notis ut bonitatis,
+            <lb ed="#Q"/>quamvis occultis ut veritatis 3. Unde haec scientia
+            <lb ed="#Q"/>magis est virtutis quam artis 'I, et sapientia magis
+            <lb ed="#Q"/>quam scientia; magis enim consistit ' in virtute
+            <lb ed="#Q"/>etetlicacia quam in contemplationeet notitia,
+            <lb ed="#Q"/>l Cor. 2,4: Sermo noster non in persuasibilibus
+            <lb ed="#Q"/>humanae sapientiae verbts, sed in ostensione spi<lb ed="#Q"/>ritus
+            et virtutis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4198">
+            <lb ed="#Q"/>3. Ad tertium dicendum quod est certitudo
+            <lb ed="#Q"/>animali homini, qui non habet notitiam nisi ex—
+            <lb ed="#Q"/>perimento sensibilium; et est certitudo homini
+            <lb ed="#Q"/>spirituali, qui habet spiritum ad contemplatio<lb ed="#Q"/>nem
+            divinorum. Animali ergo homini non est
+            <lb ed="#Q"/>certus modus per mysticas locutiones, quamvis sit
+            <lb ed="#Q"/>certus homini spirituali, l Cor. 2,9: Quod acu<lb ed="#Q"/>las
+            non vidit nec auris audivit nec in cor hominis
+            <lb ed="#Q"/>ascendit, nobis revelavit per Spiritum; Spiritus
+            <lb ed="#Q"/>enim omnia scrutatur. -— Praeterea, proprium est,
+            <lb ed="#Q"/>sicut dictum est *, huius scientiae tradi in myste<lb ed="#Q"/>rio
+            et ideo in sermonibus occultis; propterea *,
+            <lb ed="#Q"/>cum modus sermonum occultorum vel mystico<lb ed="#Q"/>rum
+            sit secundum proprietatem scientiae, certior
+            <lb ed="#Q"/>erit ille modus animae dispositae ad illam, quae
+            <lb ed="#Q"/>scilicet est spiritualis, non animalis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4235">
+            <lb ed="#Q"/>4. Ad ultimum dicendum quod alius est mo<lb ed="#Q"/>dus 
+            certitudinalis in scientia tradita secundum spi<pb ed="#Q" n="10"/><cb ed="#Q" n="10"/><lb ed="#Q"/>ritum 
+            humanum et in scientia tradita secundum
+            <lb ed="#Q"/>Spiritum divinum. Illa enim est coarctata secun<lb ed="#Q"/>dum
+            intellectum unum per modumspiritus hu<lb ed="#Q"/>mani,
+            qui simul et semel non intelligit nisi unum;
+            <lb ed="#Q"/>in ista " vero non est coarctatio, quia Spiritus
+            <lb ed="#Q"/>divinus, secundum quem tradita est, est unicus, 
+            <cb ed="#Q" n="b"/><lb ed="#Q"/>multiplex, sicut dicitur Sap. 7, 22. Et ideo hic
+            <lb ed="#Q"/>modus est in scientia sacra ", ut sit unicus sen<lb ed="#Q"/>sus
+            litterae, multiplex vero in mysterio. Et hoc
+            <lb ed="#Q"/>non detrahit certitudini in anima, quae est dispo<lb ed="#Q"/>sita
+            ad illam, quae scilicet est" spiritualis, ut
+            <lb ed="#Q"/>dictum est
+          </p>
+        </div>
+        <div xml:id="ahsh-l1tinq1c4-Dd1e4272" type="articulus">
+          <head xml:id="ahsh-l1tinq1c4-Hd1e4274">Articulus III</head>
+          <head xml:id="ahsh-l1tinq1c4-Hd1e4277" type="questionTitle">An modus sacrae Sripturue sit uniformis vel multiplex.</head>
+          <p xml:id="ahsh-l1tinq1c4-d1e4280">
+            <lb ed="#Q"/>Consequenter quaeritur an modus sacrae Scrip<lb ed="#Q"/>turae 
+            sit uniformis vel multiformis 2. <lb ed="#Q"/>
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4289">
+            <lb ed="#Q"/>Quod- autem sit multiformis: a. Hebr. 1, 1:
+            <lb ed="#Q"/>Multifarie multisque modis olim Deus loquens
+            <lb ed="#Q"/>patribus in Prophetis" etc. Ex quo relinquitur
+            <lb ed="#Q"/>quod non est uniformis modus in Veteri Testa<lb ed="#Q"/>mento.
+            <lb ed="#Q"/>
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4305">
+            <lb ed="#Q"/>b. Item, Eph. 3,s-1o: Mihi omnium sanctorum
+            <lb ed="#Q"/>minimo data est gratia in gentibus evangelizare
+            <lb ed="#Q"/>investigabiles divitias gratiae Christi; et sequi<lb ed="#Q"/>tur:
+             Ut innotescat principibus et potestatibus per
+            <lb ed="#Q"/>Ecclesiam multiformis sapientia Dei. Ex quo re<lb ed="#Q"/>linquitur
+             quod non est uniformis modus in Novo
+            <lb ed="#Q"/>Testamento.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4324">
+            <lb ed="#Q"/>c. Item, quadruplex sensus est in verbis sa—
+            <lb ed="#Q"/>crae Scripturae, sicut dicit Beda 2 3, Super prin<lb ed="#Q"/>cipiurn
+             Genesis: «Quatuor sunt sensus sacrae
+            <lb ed="#Q"/>Scripturae: historia, quae res gestas loquitur;
+            <lb ed="#Q"/>allegoria, in qua aliud ex alio intelligitur; tropo—
+            <lb ed="#Q"/>logia, id estf moralis locutio, in qua de mori—
+            <lb ed="#Q"/>bus ordinandis tractatur; anagogia, per quam de
+            <lb ed="#Q"/>summis et caelestibus tractaturi ad superiora
+            <lb ed="#Q"/>ducimur. Verbi gratia, Ierusalem secundumä hi—
+            <lb ed="#Q"/>storiam est civitas; allegorice significat Eccle—
+            <lb ed="#Q"/>siam; secundum tropologiam, id est moraliter,
+            <lb ed="#Q"/>animam cuiuslibet fidelis; secundum anagogtam,
+            <lb ed="#Q"/>caelestium omnium vitam ",-qui revelata facie
+            <lb ed="#Q"/>Deum vident», ll Cor. 3,1e. Ergo sensus intelli—
+            <lb ed="#Q"/>gentiae sacrae Scripturae est multiformis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4359">
+            <lb ed="#Q"/>d. Item, in Lege" est modus praecepttvus; in
+            <lb ed="#Q"/>historicis rnodus historicus, exemplificativus; in
+            <lb ed="#Q"/>libris Salomonis modus exhortativus; in Psalmis
+            <lb ed="#Q"/>modus orativus'; in Prophetis modus revelati<lb ed="#Q"/>vus.
+            Relinquitur ergo non esse modum uniformem 
+            <lb ed="#Q"/>in libris Veteris Testamenti.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4375">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>e. Item, in Evangelio est'f modus historicus
+            <lb ed="#Q"/>quoad narrationem vitae Christi et actionum;
+            <lb ed="#Q"/>mandatorius et consultorius' in doctrina Christi;
+            <lb ed="#Q"/>in Epistolis Pauli et Canonicis est modus commo<lb ed="#Q"/>nitoriusm;
+            in Actibus modus historicus; in Apo—
+            <lb ed="#Q"/>calypsi modus revelativus. Ergo non est unitor<lb ed="#Q"/>mis
+            modus in Novo Testamento.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4395">
+            <lb ed="#Q"/>f. item, Di onysiu s, in Angelica " hierarchiat:
+            « Duplex' est sanctae " manifestationis modus.
+            <lb ed="#Q"/>Unus. quidem sicut conveniens per similes pro<lb ed="#Q"/>cedens
+            imagines; alter vero per dissimiles ior<lb ed="#Q"/>mationes
+            [in] omnino inconveniens et indecorum
+            <lb ed="#Q"/>formatus ». Per similes imagines: ut « cum eloquia
+            <lb ed="#Q"/>Domini ut rationem et intellectumet essentiam
+            <lb ed="#Q"/>laudant, divinam rationalitatem et sapientiam et
+            <lb ed="#Q"/>vere eiristentem subsistentiam declarantes ». Per
+            <lb ed="#Q"/>dissimiles: ut «: cum invisibilem et infinitam et
+            <lb ed="#Q"/>incomprehensibilem. vocant, ex quibus non quid!
+            <lb ed="#Q"/>est, sed quid non est signiiicatur ». Relinquitur
+            <lb ed="#Q"/>ergo quod non est 'I uniformis modus manifesta<lb ed="#Q"/>tionis
+            sacrae Scripturae.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4426">
+            <lb ed="#Q"/>Contra: ]. Rom. 15,4: Quaecumque scripta
+            <lb ed="#Q"/>sunt ad nostram doctrinam scripta sunt. Si igi<lb ed="#Q"/>tur
+             ad nostram doctrinam magis est modus zunt—
+            <lb ed="#Q"/>formis quam'multitormis, quia in multiformi con—
+            <lb ed="#Q"/>funduntur intellectus: relinquitur ergo quod mo—
+            <lb ed="#Q"/>dus sacrae doctrinae debet esse uniformis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4442">
+            <lb ed="#Q"/>2. Item, noster intellectus magis instruitur per
+            <lb ed="#Q"/>pauciora quam per multa, quia in paucioribus
+            <lb ed="#Q"/>via magis 5; debet igitur esse uniformis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4452">
+            <lb ed="#Q"/>3. Item, planior est modus et facilior qui est
+            <lb ed="#Q"/>uniformis quam qui est multiformis; sed modus
+            <lb ed="#Q"/>Scripturae debet esse per planiora'et manifestiora,
+            <lb ed="#Q"/>unde dicitur Hab. 2, 2: Scribe visum et explana
+            <lb ed="#Q"/>eum ', ut percurrat qui legerit eum; relinquitur 
+            <lb ed="#Q"/>ergo quod debet esse uniformis
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4468">
+            <pb ed="#Q" n="11"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>Respondeo": Dicendum quod modus sacrae
+            <lb ed="#Q"/>Scripturae multiformis debet esse. Et hoch tri<lb ed="#Q"/>plici
+            ratione: prima est ratio efficientis, id est
+            <lb ed="#Q"/>Spiritus Sancti, qui est, sicut dicitur Sap. 7,22:
+            <lb ed="#Q"/>Spiritus intelligentiae multiplex, unicas. Prop<lb ed="#Q"/>terea,
+            ut in scientia sacra rnodus efiicientis ap<lb ed="#Q"/>pareat,
+            debet esse multiplex seu multiformis-. -—
+            <lb ed="#Q"/>Secunda est ratio materiae, quae est multifor<lb ed="#Q"/>mis
+            sapientia Dei. Propterea, ut, materiae mo—
+            <lb ed="#Q"/>dus respondeat, debet esse 0 multiformis. - Ter<lb ed="#Q"/>tia
+            est ratio finis, qui est instructio in iis quae
+            <lb ed="#Q"/>pertinent ad salutem. Cum ergo sint multiformes
+            <lb ed="#Q"/>status hominum; in Lege, post Legem, tetnpore
+            <lb ed="#Q"/>prophetiae, tempore gratiae; et etiam in iis status
+            <lb ed="#Q"/>multiformis hominum: quia alii hebetes in iis
+            <lb ed="#Q"/>quae ad fidem, alii difficiles ind iis quae ad bo<lb ed="#Q"/>nos
+            mores; et ditterentibus modis-. alii in' pro<lb ed="#Q"/>speris,
+            alii in adversis vitam agunt f, alii in bonis,
+            <lb ed="#Q"/>alii in peccatis: relinquitur-4 quod. instructio sa<lb ed="#Q"/>crae
+            Scripturae, quae est ordinata ad hominis sa—
+            <lb ed="#Q"/>lutem, debet habere modum multiformem, ut rno—
+            <lb ed="#Q"/>dus respondeat fini.
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>quod modus multiformis contundit intellectum : di<lb ed="#Q"/>cendum
+            quod non est verum, immo instruit intel—
+            <lb ed="#Q"/>lectum. Cum enim sit intellectus hebes, acutus et
+            <lb ed="#Q"/>mediocris, aliter et in alio debet fieri demonstratio
+            <lb ed="#Q"/>veritatis hebeti, acuto et mediocri, ut quod non
+            <lb ed="#Q"/>capit intellectus hebes in una torma, capiat in alia.
+            <lb ed="#Q"/>Praeterea, aliter instruendi sunt parvuli simplices,
+            <lb ed="#Q"/>aliter adulti perfecti, sicut dicit Apostolus,l Cor.
+            3, 1-2: Tamquam parvulis in Christo lac dedi vobis
+            <lb ed="#Q"/>potum, non escam; nondum enim poteratis, sed
+            <lb ed="#Q"/>nec adhuc potestis. Propter hoc necessarius est
+            <lb ed="#Q"/>modus multiformis.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4549">
+            <lb ed="#Q"/>2. Ad aliud vero" quod obicit, eodem modo
+            <lb ed="#Q"/>solvendum est per interemptionern ': quod intel—
+            <lb ed="#Q"/>lectus magis instruitur per pauciora, ubii refer<lb ed="#Q"/>tur
+            ad statum unius singularis personae.; sed reie<lb ed="#Q"/>rendo
+            ad intellectus differentiam secundum-diver<lb ed="#Q"/>sitatem
+            hominum'et status, non est verum.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4565">
+            <lb ed="#Q"/>3. Similiter est dicendum ad aliud quod
+            <lb ed="#Q"/>obiciebat quod 'planior et facilior est uniformis
+            <lb ed="#Q"/>quam multiformisï: dicendum quod non est verum
+            <lb ed="#Q"/>ubi multiformis modus ponitur in manifestatione
+            <lb ed="#Q"/>unius rei, sed tamen secundum formas differentes.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1tinq1c4-Dd1e4579" type="articulus">
+          <head xml:id="ahsh-l1tinq1c4-Hd1e4581">Articulus IV</head>
+          <head xml:id="ahsh-l1tinq1c4-Hd1e4584" type="questionTitle">De multiformitate modorum sacrae Scripturae</head>
+          <p xml:id="ahsh-l1tinq1c4-d1e4587">
+            <lb ed="#Q"/>Consequenter quaeritur de multiformitate.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4592">
+            <lb ed="#Q"/>I. Et primo de multitormitate' quae est in in<lb ed="#Q"/>tellectibus 
+            sacrae Scripturae.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4599">
+            <lb ed="#Q"/>a. Et videtur ex praedicta auctoritate Bedae 2,
+            <lb ed="#Q"/>quod multiformitas intellectuum sacrae Scripturae
+            <lb ed="#Q"/>est in quatuor: in historia, allegoria,. tropologia,
+            <lb ed="#Q"/>anagogia.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4611">
+            <lb ed="#Q"/>Sed contra hoc obicitur: 1. Quia. Hugo' de
+            <lb ed="#Q"/>S. Victore ponit tantum tres: historiam, alle<lb ed="#Q"/>goriam,
+            tropologiam. Unde dicit, in lIl Senten<lb ed="#Q"/>tiarum
+            suarum'" 3: « Historia est rerum gestarum
+            <lb ed="#Q"/>narratio, quae in prima litterae significatione con<lb ed="#Q"/>tinetur;
+            allegoria "est, cum per id quod factum
+            <lb ed="#Q"/>dicitur, alind faetum sive in praeterito sive in
+            <lb ed="#Q"/>futuro significatur-; tropologia est, cum per id
+            <lb ed="#Q"/>quod factum dicitur, aliquid faciendum signifi<lb ed="#Q"/>catur
+            -. Per hoc ergo." videtursupertlua assignatio
+            <lb ed="#Q"/>Bedae quantum ad anagogiam.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4637">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>2. Item ", in sacra Scriptura sunt proverbia et
+            <lb ed="#Q"/>parabolae quantum ad litteram scriptae; et con<lb ed="#Q"/>stat
+            quod "modus parabolicus non est historicus
+            <lb ed="#Q"/>nec allegoricus nec tropologicus. nec anagogicus;
+            <lb ed="#Q"/>ergo plures sunt intellectus quam illi quatuor;
+            <lb ed="#Q"/>diminuta igitur est assignatiopraedicta.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4655">
+            <lb ed="#Q"/>3. item, Augustinus, in libro De utilitate
+            <lb ed="#Q"/>credendih « Omnis Scriptura, quae Vetus Testa<lb ed="#Q"/>mentum
+            'dicitur, quadrifariel' traditur: vel secun<lb ed="#Q"/>dum
+            historiam, cum docetur quid ? scriptum est;
+            <lb ed="#Q"/>vel secundum aetiologiam ', cum docetur de qua
+            <lb ed="#Q"/>causa scriptum est; vel secundum analogiam s, cum
+            <lb ed="#Q"/>docetur convenientia inter duo Testamenta; vel
+            <lb ed="#Q"/>secundum allegoriam, cum docetur ad litteram
+            <lb ed="#Q"/>non esse accipienda, sed spiritualiter intelligen<lb ed="#Q"/>da ». 
+            Ex iis ergo relinquitur" quod est unus sen<lb ed="#Q"/>sus
+            mysti'cus et triplex litteralis; in supradicta
+            <lb ed="#Q"/>vero assignatione Bedae unus litteralis et tres
+            <lb ed="#Q"/>mystici.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4686">
+            <pb ed="#Q" n="12"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>Respondeo: Dicendum " quod, cum veritas pri<lb ed="#Q"/>ma
+            trina sit et una, modus scientiae veritatis pri<lb ed="#Q"/>mae
+            est trinus in uno: unus litteralis, triplex spi<lb ed="#Q"/>ritualisq
+            anagogicus, qui est sursum ducens in
+            <lb ed="#Q"/>primum principium; allegoricus, qui est enuntia—
+            <lb ed="#Q"/>tivus arcanorum primae veritatis; tropologicus
+            <lb ed="#Q"/>vel moralis, qui est ordinativus ad summam bo<lb ed="#Q"/>nitatem.
+            Unde anagogicus ad Patrem, allegoricus
+            <lb ed="#Q"/>ad Filium, moralis refertur ad Spiritum Sanctum.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4712">
+            <lb ed="#Q"/>Accipitur autem " numerus intellectuum hoc
+            <lb ed="#Q"/>modo: quia aut est litteralis exterior aut spiri<lb ed="#Q"/>tualis
+            interior. Primo modo non multiplicatur".
+            <lb ed="#Q"/>Secundo modo spiritualis variatur, quia" aut re<lb ed="#Q"/>fertur
+            ad mores aut ad fidem; et si ad fidem: aut
+            <lb ed="#Q"/>ad fidem divinitatis aut ad fidem humanitatis.
+            <lb ed="#Q"/>Primo modo moralis, secundo anagogicus, tertio
+            <lb ed="#Q"/>aliegoricus. —— Alio modo possunt accipi, ut di—
+            <lb ed="#Q"/>camus quod intellectus" sacrae Scripturae aut
+            <lb ed="#Q"/>est de causa aut de effectu. De causa, quae ae<lb ed="#Q"/>tema
+            est!, Deus, est anagogicus intellectus. De
+            <lb ed="#Q"/>effectu dupliciterg potest esse:. aut de facto aut
+            <lb ed="#Q"/>de faciendo. Si de faciendo, sic est moralis
+            <lb ed="#Q"/>intellectus sive tropologicus. Si de facto, hoc est
+            <lb ed="#Q"/>dupliciter: aut enim intelligitur in prima facie iit<lb ed="#Q"/>terae,
+            hoc est per'. significationem verbi, et sic
+            <lb ed="#Q"/>est litteralis sive historicus: «historia enim est'
+            <lb ed="#Q"/>rerum gestarum narratio quae in prima facie litte<lb ed="#Q"/>rae
+            continentur », sicut dicit Hugo ! ; aut intelli<lb ed="#Q"/>gitur
+            per significationem tacti, et sic est allegori<lb ed="#Q"/>cus,
+            secundum quod dicit Hugo, quod « allegoria
+            <lb ed="#Q"/>est cum per id quod factum dicitur, aliquod *
+            <lb ed="#Q"/>aliud tactum sive in. praesenti sive in futuro sive
+            <lb ed="#Q"/>in praeterito significatur».
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4767">
+            <lb ed="#Q"/>[Ad, obiecta]: 1. Nota'ergo quod Hugo de
+            <lb ed="#Q"/>S. Victore, qui posuit materiam divinarum
+            <lb ed="#Q"/>Scripturarum opera restaurationis 3, posuit tantum
+            <lb ed="#Q"/>tres intellectus sacrae Scripturae, quiquidem fun—
+            <lb ed="#Q"/>dantur in opere, scilicet historicum, allegoricam et
+            <lb ed="#Q"/>tropologicum. Beda3 vero, qui intellexit mate—'
+            <lb ed="#Q"/>riam divinarum Scripturarum non solum opus re—
+            <lb ed="#Q"/>parationis, immo causam, addidit anagogicum, qui
+            <lb ed="#Q"/>quidem intellectus respicit causam, sicut alii tres
+            <lb ed="#Q"/>effectum. .
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4792">
+            <lb ed="#Q"/>2. Ad illud vero quod opponitur' de para<lb ed="#Q"/>bolico
+            intellectu, dicendum quod" reducitur ad
+            <lb ed="#Q"/>historicum. Sed historicum dicitur "' dupliciter: se<lb ed="#Q"/>cundum
+            rem et secundum rei similitudinem. Se<lb ed="#Q"/>cundum
+            rem, sicut in rebus gestis-; secundum
+            <lb ed="#Q"/>similitudinem, sicut in parabolis. Parabola enim
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>est similitudo rerum, cum per rerum differentem
+            <lb ed="#Q"/>similitudinem ad id quod per ipsam intelligitur,
+            <lb ed="#Q"/>pervenitur. Unde de parabolicis " evangelicis 'di<lb ed="#Q"/>cit
+            Augustinus'I quod. sic accipienda sunt:
+            <lb ed="#Q"/>non ut essent, sed ut esse possent.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4821">
+            3. Ad tertium quod obicitur, dicendum "
+            'quod Augustinus distinguit intellectus, in 11<lb ed="#Q"/>bro
+            De utilitate credendi 5,.non secundum diver<lb ed="#Q"/>sitatem
+            quae est in ratione intelligentiae seu eius
+            <lb ed="#Q"/>quod intelligitur, sed17 secundum differentiam quae
+            <lb ed="#Q"/>est in modo intelligendi. Unde. tres primi sensus
+            <lb ed="#Q"/>intelliguntur et comprehenduntur-sub sensu litte—
+            <lb ed="#Q"/>raii: illi enim tres sensus conveniunt in modo 4 di<lb ed="#Q"/>cendi
+            cum litterali; quartus vero sensus compre<lb ed="#Q"/>hendit
+            tres spirituales, et ideo non est contrarietas.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4841">
+            <lb ed="#Q"/>II. Quaeritur iterum ' de sensu litterali an iun<lb ed="#Q"/>detur 
+            supra verum.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4848">
+            1. Nam videtur-aliquando tonderi supra men<lb ed="#Q"/>dacium:
+            ludic. 9, 8: Ierunt ligna silvarum ut un<lb ed="#Q"/>gerent
+            sibi regem; sed istud videtur extraneum
+            <lb ed="#Q"/>a scientia veritatis, Iob 13,7: Non indiget Deus
+            <lb ed="#Q"/>nostra mendacia. . .
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4859">
+            <lb ed="#Q"/>Respondeo quod veritas in sermone est du—
+            <lb ed="#Q"/>pliciter: quantum ad illud quod dicitur, et quan<lb ed="#Q"/>tum
+            ad illud propter quod dicitur. Dicendum
+            <lb ed="#Q"/>ergo quod in huiusmodi parabolis est veritas quan<lb ed="#Q"/>tum.ad'
+            id propter quod dicuntur, quia sunt ad
+            <lb ed="#Q"/>designationem alicuius' .facti vel rei secundum
+            <lb ed="#Q"/>veritatem; et isto modo assumuntur non quantum
+            <lb ed="#Q"/>ad significationem primam, sed quantum ad si—
+            <lb ed="#Q"/>gnificationem secundam. Unde notandum quod in 
+            <lb ed="#Q"/>historicis est veritas quantum ad significationem 
+            <lb ed="#Q"/>vocum, in parabolicis quantum ad significatio<lb ed="#Q"/>nem 
+            rerum 5.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4888">
+            <lb ed="#Q"/>III. Item, quaeritur " de spirituali sive mystico, 
+            <lb ed="#Q"/>qui maxime utitur similitudinibus rerum corpo<lb ed="#Q"/>ralium 
+            et passibilium.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4898">
+            <lb ed="#Q"/>1. Nam, cum convenientes. similitudines sint
+            <lb ed="#Q"/>magis ad demonstrationem divinorum quam dis—
+            <lb ed="#Q"/>convenientes, mysticusintellectus dehoretx ha<lb ed="#Q"/>bere
+            convenientiores similitudines-; ergo, cum spi<lb ed="#Q"/>ritualium
+            similitudines. sint convenientiores divi—
+            <lb ed="#Q"/>nis quam similitudines corporalium, non debent ?
+            <lb ed="#Q"/>assumi similitudines in mystico intellectu nisi spi—
+            <lb ed="#Q"/>rituales. *
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4918">
+            <lb ed="#Q"/>2. item, inconveniens est tormationes turpes
+            <lb ed="#Q"/>summae pulcritudini coaptare 7; sed turpes torma<pb ed="#Q" n="13"/><lb ed="#Q" n="b"/><lb ed="#Q"/>tiones 
+            sunt tormationes " quae sunt ex rebus ma<lb ed="#Q"/>terialibus
+            et obtusis et inordinatis, sicut ira et
+            <lb ed="#Q"/>furor et concupiscentia; ergo per huiusmodi non
+            <lb ed="#Q"/>debet fieri demonstratio de Deo; inconvenienter
+            <lb ed="#Q"/>ergo hic agitur in mysticis intellectibus Scriptu-j
+            <lb ed="#Q"/>rarum, qui nominant Deum ut ignem, lapidem an<lb ed="#Q"/>gularem,
+            ut bestiam, ut leonem, ut vermem et
+            <lb ed="#Q"/>huiusmodi, et furentem, irascentem et concupi<lb ed="#Q"/>scentem
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4947">
+            <lb ed="#Q"/>Contra: a. Dionysius 2: « Negationes in
+            <lb ed="#Q"/>divinis verae sunt, affirmationes incompactae »,
+            <lb ed="#Q"/>quia ex iis affirmationibus « non ostenditur quid
+            <lb ed="#Q"/>est Deus, sed magis quid non est ». Si igitur dis<lb ed="#Q"/>similes
+             iormationes'magis sunt ad negationem
+            <lb ed="#Q"/>quam" ad atiirmationem, ergo magis competit osten<lb ed="#Q"/>sioni
+             divinorum ostensio per dissimiles formatio<lb ed="#Q"/>nes
+             quam per similes.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e4967">
+            <lb ed="#Q"/>b. Item, per pretiosiores tormationes seducitur
+            <lb ed="#Q"/>intellectus simplicium, credens * ipsa divina sive
+            <lb ed="#Q"/>caelestes essentias esse huiusmodi res unde su—
+            <lb ed="#Q"/>muntur similitudines pretiosae; sed per dissimiles
+            <lb ed="#Q"/>tormationes reducitur intellectus; ergo convenien<lb ed="#Q"/>tiores
+             sunt dissimiles iormationes mysticis intel<lb ed="#Q"/>lectibus
+             quam similes. Unde '-' Dionysius 3:
+            « Per pretiosiores iormationes contingit seduci,
+            <lb ed="#Q"/>auriformes quasdam aestimantes esse caelestes
+            <lb ed="#Q"/>essentias et quosdam d viros iulgureos, et quibus—
+            <lb ed="#Q"/>cumque aliis formis quibus Theologia. caelestes
+            <lb ed="#Q"/>formavit intellectus. Quod quidem ne paterentur
+            <lb ed="#Q"/>qui nihil visibilibus bonis altius intelligunt, sanc<lb ed="#Q"/>torum
+             theologorum sapientia ad indecorum de
+            <lb ed="#Q"/>scendit. non concedens materiale nostrum », hoc
+            <lb ed="#Q"/>est intellectum, « in turpibus imaginibus remanens
+            <lb ed="#Q"/>quiescere ». '
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e5004">
+            <lb ed="#Q"/>c. item, dicit' Dionysiust: «Nihil eorum
+            <lb ed="#Q"/>quae sunt estf universaliter boni participatione £
+            <lb ed="#Q"/>privatum, siquidem, ut Eloquiorum veritas ait,
+            <lb ed="#Q"/>Omnia valde bona, Gen. 1,31; est ergo ex omni<lb ed="#Q"/>bus
+            intelligere bonas speculationes et " invisibi<lb ed="#Q"/>libus
+            et immaterialibus rebus ex' materialibus
+            <lb ed="#Q"/>formare dissimiles similitudines ».
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e5022">
+            <lb ed="#Q"/>[Solutio]: Quod concedendum est.» Et dicen<lb ed="#Q"/>dum 
+            secundumB. Dionysiumö, quoniam ma<lb ed="#Q"/>nifestatio
+            divinorum tit duobus modis: per si<cb ed="#Q" n="b"/><lb ed="#Q"/>ritualis 
+            creaturae, quae est ad eius similitudi<lb ed="#Q"/>nem,
+            ut ratio et intellectus et sapientia; et per
+            <lb ed="#Q"/>dissimilia, sicut cum laudatur per dispositiones
+            <lb ed="#Q"/>rei corporalis. Quod " contingit tripliciter 5: « Ali<lb ed="#Q"/>quando
+            enim laudatur ex supremis, sicut cum
+            <lb ed="#Q"/>dicitur sol iustitiae, stella matutina; aliquando
+            <lb ed="#Q"/>ex mediis, ut cum dicimus ipsum ignem resplen<lb ed="#Q"/>deniem;
+            aliquando ex novissimis, ut cum dicimus
+            <lb ed="#Q"/>ipsum lapidem angularem aut " bestiam aut etiam
+            <lb ed="#Q"/>vermem ».
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e5055">
+            <lb ed="#Q"/>Et ratio convenientiae assignetur a " Diony<lb ed="#Q"/>sio
+            7 multiplex 'i: prima est, quia ista sunt magis
+            <lb ed="#Q"/>ad negationem quam ad affirmationem et ideo
+            <lb ed="#Q"/>veriora, quia « negationes veriores sunt in divi<lb ed="#Q"/>nis».
+            - Secunda est, quoniam per ista  magis re<lb ed="#Q"/>ducitur
+            noster intellectus ». Unde, cum intellectus
+            <lb ed="#Q"/>noster ** ad Deum cognoscendumf illa accipit E,
+            <lb ed="#Q"/>nullo modo quiescit in illis ut credat Deum esse
+            <lb ed="#Q"/>huiusmodi, sicut accideret ex locutione quae esset
+            <lb ed="#Q"/>per similia in dispositionibus spiritualium. —
+            <lb ed="#Q"/>Tertia est, quia * « ex omnibus est bonas specula<lb ed="#Q"/>tiones
+            elicere » et convenientes formare caelestibus
+            <lb ed="#Q"/>formas ex vilibusfmateriae partibus, quoniam
+            <lb ed="#Q"/>ex vere bono 'f subsistentia imagines intellectua<lb ed="#Q"/>lis
+            pulcritudinis habent. —- Quarta, ut celentur
+            <lb ed="#Q"/>divina immundis et malis. Unde Dionysius 3:
+            « Sic omnes Prophetae dissimilem sanctam ' tigu<lb ed="#Q"/>rationem
+            honorant, ut neque divina ab immundis
+            <lb ed="#Q"/>accipi possint ». — Quinta-ratio est'", quia per
+            <lb ed="#Q"/>ista noster manuducitur intellectus. Unde '! Diony»
+            <lb ed="#Q"/>siu s 9: « Pulcre procreatae " sunt informium ior—
+            <lb ed="#Q"/>mae propter nostram analogiamP non valentem im<lb ed="#Q"/>mediate
+            in *! invisibiles extendi contemplationes ».
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e5105">
+            <lb ed="#Q"/>[Ad obiecta]: 1-2. Et perr hoc patet solutio
+            <lb ed="#Q"/>ad obiecta. '
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e5112">
+            <lb ed="#Q"/>In hunc ergo modum terminatur haec quaestio,
+            <lb ed="#Q"/>quae est sicut exordium sequentis inquisitionis 10.
+          </p>
+          <p xml:id="ahsh-l1tinq1c4-d1e5119">
+            <lb ed="#Q"/>Ex praedictis manifestum est quod doctrina
+            <lb ed="#Q"/>Theologiae est de substantia Dei etiiciente per
+            <lb ed="#Q"/>Christum * opus reparationis humanae. Ideo * par<lb ed="#Q"/>tes
+            primae inquisitionis theologicae sunt circa
+            <lb ed="#Q"/>excellentiam divinae. sublimitatis, consequentes "
+            <lb ed="#Q"/>vero erunt de Christo et pertinentibus ad opus
+            <lb ed="#Q"/>reparationis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
+

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-08">April 08, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-08" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="472"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q4c2">
+        <head xml:id="ahsh-l1p1i2t1q4c2-Hd1e115">I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 2</head>
+        <head xml:id="ahsh-l1p1i2t1q4c2-Hd1e118" type="question-title">UTRUM IN DIVINIS PERSONIS SIT ORDO NATURAE VEL ORIGINIS.</head>
+        <p xml:id="ahsh-l1p1i2t1q4c2-d1e121">
+          <lb ed="#Q"/>Secundo quaeritur, supposito ordine in' divinis
+          <lb ed="#Q"/>personis, cuiusmodi sit ille ordo, utrum sit
+          <lb ed="#Q"/>ibit ordo naturae. .
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c2-d1e130">
+          <lb ed="#Q"/>Ad quod sic obicitur: a. Per auctoritatem A n<lb ed="#Q"/>gu
+          stini praedictam 5: Cum dicitur ' Filius 'et Pa<lb ed="#Q"/>tre
+          ', non dicitur «inaequalitas substantiae, sed
+          <lb ed="#Q"/>ordo naturae ». Ergo ibi est ordo naturae.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c2-d1e141">
+          <lb ed="#Q"/>b. Secunda ratio. Ubicumque intelligitur diffu<lb ed="#Q"/>sio 
+          bonitatis unius in alium, intelligitur ordo se<lb ed="#Q"/>cundum
+          rationem principii vel originis; sed sic
+          <lb ed="#Q"/>est in divinis; ergo ibi est ordo originis; sed
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>cum ille ordo sit ita quod unus habeat naturam
+          <lb ed="#Q"/>ab alio, relinquitur quod sit" ordo naturae.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c2-d1e160">
+          <lb ed="#Q"/>Ad oppositum: l.'Ubicumque intelligitur ordo,
+          <lb ed="#Q"/>intelligitur distinctio; ergo ubicumque intelligitur
+          <lb ed="#Q"/>ordo naturae, intelligitur distinctiol' naturae. Si
+          <lb ed="#Q"/>ergo natura in divinis personis se habet secun<lb ed="#Q"/>dum
+          omnimodam indistinctionem, relinquitur quod
+          <lb ed="#Q"/>non 'est ibi ordo" naturae. — Maior patet:
+          <lb ed="#Q"/>quoniam idem adx se non ordinatur 5.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c2-d1e178">
+          <lb ed="#Q"/>2. Secunda ratio. Si ibi est ordo secun<lb ed="#Q"/>dumy
+          rationem principii in ordine naturae: sed
+          <lb ed="#Q"/>ad principium in ordine naturaez sequitur prius
+          <lb ed="#Q"/>natura; ergo si'Pater est principium Filii secun<lb ed="#Q"/>dum
+          ordinem naturae, Pater esta prior Filio na<lb ed="#Q"/>tura:
+          hoc autemb falsum et inconveniens. Narn
+          <lb ed="#Q"/>dicit Augustinus, in praedicta auctoritate 1,
+          « quod non est alter c prior altero »; et in Sym<lb ed="#Q"/>bolo
+          Athanasii d habetur quod « in hac Tri<lb ed="#Q"/>nitate
+          nihil prius aut posterius ». Ergo non est
+          <lb ed="#Q"/>ibi ordo naturae.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c2-d1e202">
+          <lb ed="#Q"/>3. Tertia ratio. Idem est in divinis natura quod
+          <lb ed="#Q"/>substantia vel essentia. Si ergo in divinis est
+          <lb ed="#Q"/>ordo naturae, relinquitur quod est ibi * ordo sub<lb ed="#Q"/>stantiae
+          vel essentiae; sed nullo modo potest dici
+          <lb ed="#Q"/>ibi esse ordo substantiae vel essentiaef, quia
+          <lb ed="#Q"/>ordo essentiae non posset dici nisi vel quia esset
+          <lb ed="#Q"/>principium ordinis vel quia ordinaretur. Sed es<lb ed="#Q"/>sentia
+          non potest dici principium ordinis, quia
+          <lb ed="#Q"/>principium ordinis dicitur respective, essentia
+          <lb ed="#Q"/>vero absolute; non enim est principium vel per
+          <lb ed="#Q"/>generationem vel per spirationem: sequeretur
+          <lb ed="#Q"/>enim quod esset principium distinctionis. Prae<lb ed="#Q"/>terea,
+          simul est una essentia in tribus personis.
+          <lb ed="#Q"/>Non ergo potest dici principium ordinis. ——Item,
+          <lb ed="#Q"/>non potest dici-! quod ipsa ordinetur, quia si or<lb ed="#Q"/>dinatur,
+          aut ordinatur ad essentiam aut ad per<lb ed="#Q"/>sonam.
+          Non ad essentiam, quia una sola essentia
+          <lb ed="#Q"/>est, idem autem ad se non ordinatur; similiter
+          <lb ed="#Q"/>nec ad personam, quia ordo" semper est diffe<lb ed="#Q"/>rentium,
+          persona autem non differt ab essentia
+          <lb ed="#Q"/>in divinis '". Relinquitur igitur quod ibi non est
+          <lb ed="#Q"/>aliquo modo ordo naturae.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c2-d1e252">
+          <lb ed="#Q"/>Solutio: Dicendum'f quod in divinis personis'
+          <lb ed="#Q"/>est ordo naturae.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c2-d1e259">
+          <lb ed="#Q"/>[Ad obiecta]; 1-3. Ad primam rationem et ad
+          <lb ed="#Q"/>tertiam simul'" dicendum quod, cum dicitur
+          <lb ed="#Q"/>ordo personarum, dicitur ordo respectu eius quod
+          <lb ed="#Q"/>ordinatur; cum vero dicitur ordo naturae" in di<lb ed="#Q"/>vinis,
+          dicitur ordo respectu eius quod est ratio
+          <lb ed="#Q"/>ordinis: licet enim natura et essentia in divinis
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>idem sint, tamen alio modo dicitur natura, alio
+          <lb ed="#Q"/>modo essentia, quia essentia dicit" absolute, na<lb ed="#Q"/>tura
+          vero dicit'essentiam cum additione, quia dicit
+          <lb ed="#Q"/>essentiam cum virtute productionissirnilis; unde
+          <lb ed="#Q"/>in? intellectu naturae habetur ratio'1 ordinis, quo<lb ed="#Q"/>niam
+          ubi intelligitur haec virtus, intelligitur ratio '
+          <lb ed="#Q"/>ordinis et principii. Non enim potest intelligi vir<lb ed="#Q"/>tus
+          productiva quin intelligatur ratio principii, et
+          <lb ed="#Q"/>ratione huius connotati dicitur ordo naturae et
+          <lb ed="#Q"/>ratione huius dicit distinctionem. Sed ratione
+          <lb ed="#Q"/>principalis signiiicati, quod est essentia, dicit in<lb ed="#Q"/>distinctionem;
+          nec ratione huius dicitur ordo na<lb ed="#Q"/>turae,
+          sed ratione connotati, ratione cuius conno—
+          <lb ed="#Q"/>tatur ratio distinctionis. — Et ita per hoc solvitur
+          <lb ed="#Q"/>prima ratio similiter et tertia, quia non di<lb ed="#Q"/>citur
+          ordo naturae quias natura ordinetur, sed
+          <lb ed="#Q"/>quia dicit rationem ordinis, per hoc scilicet quod
+          <lb ed="#Q"/>connotat unde sit principium ad distinctionem,
+          <lb ed="#Q"/>virtutem scilicet ad *. productionem similis, sicut
+          <lb ed="#Q"/>visum est.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c2-d1e320">
+          <lb ed="#Q"/>2. Ad secundam rationem dicendum quod
+          <lb ed="#Q"/>principium in ordine naturae non semper ponit
+          <lb ed="#Q"/>prius, sed solum quando est diversitas essentiae
+          <lb ed="#Q"/>vel substantiae eius a quo est aliquid et eius
+          <lb ed="#Q"/>quod est ab eo, ut in causa et causato; sed in
+          <lb ed="#Q"/>divinis est unitas essentiae et substantiae, et ideo
+          <lb ed="#Q"/>non debet concedi 'Pater est prior Filio natura ,,
+          <lb ed="#Q"/>quia non est in illis, altera essentia. Nec etiam
+          'prius' et *posterius' debet accipi in divinis,
+          <lb ed="#Q"/>quamvis ibi sit ordo naturae,- quia hae disposi<lb ed="#Q"/>tiones,
+          ut dicit Philosophusz, proprie sunt in
+          <lb ed="#Q"/>tempore vel duratione, quaell a Trinitate remo<lb ed="#Q"/>ventur,
+          eo quod in personis est aeternitas. Unde
+          <lb ed="#Q"/>istae differentiae ordinis temporis non cadunt in
+          <lb ed="#Q"/>ordine naturae immutabilis, quae est in divinis
+          <lb ed="#Q"/>personis, licet ordo naturae mutabilis eas recipiat,
+          <lb ed="#Q"/>quia « in hac Trinitate nihil prius aut posterius »,
+          <lb ed="#Q"/>sicut habetur in Symbolo Athanasii.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

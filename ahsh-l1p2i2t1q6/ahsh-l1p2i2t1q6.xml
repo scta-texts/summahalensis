@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-24">April 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-24" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="564"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q6">
+        <head>I, P. 2, Inq. 2, Tract. 1, Q. 6</head>
+        <head type="question-title">DE NOMINIBUS SYMBOLICIS</head>
+        <p>
+          <lb ed="#Q"/>Expedito per Dei gratiam de nominibus divinis essentialibus mysticis, restat
+          <lb ed="#Q"/>dicendum de nominibus symbolicis. Notandum ergo: « Quia plura », secundum
+          <lb ed="#Q"/>Damascenum 6, « in Deo corporaliter in divina Scriptura symbolice dicta 
+          <lb ed="#Q"/>inveniuntur », scire oportet ut homines existentes nos et grossam hanc carnem indutos
+          <lb ed="#Q"/>divinas et excelsas et immateriales deitatis operationes intelligere et dicere impossibile
+          <lb ed="#Q"/>est nisi imaginibus et formis et notis, quae sunt secundum nos, usi fuerimus. Quaecumque
+          <lb ed="#Q"/>igitur de Deo dicuntur corporaliter, symbolice dicta sunt; habent enim quamdamq ex<lb ed="#Q"/>celsiorem
+          ' intelligentiam: simplex enim est* Deus et infigurabilis ».
+        </p>
+        <p>
+          « Oculos igitur Dei et palpebras et visionem
+          <lb ed="#Q"/>quidem universorumlt considerativam eius virtu<lb ed="#Q"/>tem
+          et quod nihil cognitionem eius lateat intelli<lb ed="#Q"/>gimus
+          ex eo quod apud nos per hunc sensum
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>perfectior et" cognitio etV certitudo innascitur *.
+          <lb ed="#Q"/>Aures autem et auditum eius propitiationem et
+          <lb ed="#Q"/>nostrae susceptionem deprecationis: etenim iis
+          <lb ed="#Q"/>qui deprecationem faciunt, per hunc sensum mites
+          <pb ed="#Q" n="564"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sumus, familiarius eis aures inclinantes. Os au<lb ed="#Q"/>tem
+          et loquelam demonstrationem voluntatis,
+          <lb ed="#Q"/>quia apud nos per os et loquelam significantur
+          <lb ed="#Q"/>quae" in corde sunt cogitationes. Cibum vero et
+          <lb ed="#Q"/>potum nostrum ad eius voluntatem concursum:
+          <lb ed="#Q"/>etenim nos per sensum gustum naturae replemus
+          <lb ed="#Q"/>necessarium appetitum. Odoratum vero eius ac<lb ed="#Q"/>ceptionem
+          quae ad ipsum nostrae intelligentiae
+          <lb ed="#Q"/>et benevolentiae, quia apud nos per hunc sensum
+          <lb ed="#Q"/>boni odoris acceptio" innascitur. Faciem vero
+          <lb ed="#Q"/>eam 0 quae per operationes est ** demonstrationem
+          <lb ed="#Q"/>et manifestationem, quia nostra manifestatio per
+          <lb ed="#Q"/>faciem fit. Manus autem perfectionem operis eius:
+          <lb ed="#Q"/>etenim nos ete utilia et maxime pretiosiora diri<lb ed="#Q"/>gimus
+          manibus. Dexteram autem id quod in
+          <lb ed="#Q"/>prosperis eius auxilium, quia et nos magis in po<lb ed="#Q"/>tioribus
+          et plurima indigentibus virtute dextera
+          <lb ed="#Q"/>utimur. Palpationem vero certiorem eius et valde
+          <lb ed="#Q"/>subtilium et occultorum dignotionem et exquisi<lb ed="#Q"/>tionem, 
+          quia apud nos non possunt ii qui pal<lb ed="#Q"/>pantur
+          in se ipsis quid occultare. Pedes autem
+          <lb ed="#Q"/>et incessum auxilium indigentium vel inimicorum
+          <lb ed="#Q"/>ultionem vel alium quemdam actum et gressum
+          <lb ed="#Q"/>et praesentiam f, ex eo quod apud nos per pedum 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>usum<!--g--> accessus perficitur. iuramentum autem'i
+          <lb ed="#Q"/>immutabilitatem consilii voluntatis eius, ex eo
+          <lb ed="#Q"/>quod apud nos! per iuramentum hae quae ad in<lb ed="#Q"/>vicem
+          sunt certiticantur conventiones. Iram autem
+          <lb ed="#Q"/>et furorem eam quae ad malitiam, inimicitiam *
+          <lb ed="#Q"/>et aversionem: etenim nos, contraria mentis
+          <lb ed="#Q"/>nostrae odio habentes, irascimur et avertimur.
+          <lb ed="#Q"/>Obiivionem autem et somnum * et dormitationem'"
+          <lb ed="#Q"/>dilationem eius quae ad inimicos ultionis et con<lb ed="#Q"/>sueti
+          acl familiares auxilii retardationem ».
+        </p>
+        <p>
+          <lb ed="#Q"/><quote>Et simpliciter dicendum: omnia, quae cor<lb ed="#Q"/>poraliter
+          dicuntur in Deo, occultam habent quam<lb ed="#Q"/>dam
+          intelligentiam ex iis, quae sunt apud nos,
+          <lb ed="#Q"/>ea quae Sunt supra nos edocentem, nisi quod de
+          <lb ed="#Q"/>corporali Verbi Dei adventu dictum est. Ipse
+          <lb ed="#Q"/>enim universum hominem propter nostram salu<lb ed="#Q"/>tem
+          suscepit: animam intellectualem et corpus et
+          <lb ed="#Q"/>humanae naturae" proprietates et naturales et
+          <lb ed="#Q"/>non detractabiles" passiones</quote>.
+        </p>
+        <p>
+          <lb ed="#Q"/>Dubitabilia circa partem istam determinantur
+          <lb ed="#Q"/>supra, Quaestione De doctrina TheologiaeP 1,
+          <lb ed="#Q"/>quaestione ultima, et supra, Quaestione De no—
+          <lb ed="#Q"/>minibus divinis in generali 2.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

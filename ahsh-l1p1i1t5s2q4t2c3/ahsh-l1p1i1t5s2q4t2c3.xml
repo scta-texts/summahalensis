@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-18">March 18, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="329"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t2c3">
+        <head xml:id="ahsh-l1p1i1t5s2q4t2c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 2, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t2c3-Hd1e3744" type="question-title">DE EFFECTU REPROBATIONIS QUI EST SUBTRACTIO GRATIAE.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur de effectu reprobationis,
+          qui est subtractio gratiae. Quaeritur ergo
+          <lb ed="#Q"/>utrum sit a Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3754">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Omne enim'" iustum
+          <lb ed="#Q"/>a Deo; sed iustum est ut peccatori subtrahatur
+          <lb ed="#Q"/>gratia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3763">
+          <lb ed="#Q"/>2. Item, Augustinus, in libro De gratia et
+          libero arbitrio: <quote xml:id="ahsh-l1p1i1t5s2q4t2c3-Qd1e3767">Deus obduravit Pharaonem
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>iusto iudicio, ipse Pharao per liberum arbi<lb ed="#Q"/>trium</quote>.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3778">
+          <lb ed="#Q"/>3. Item, ad Rom. 9,17: <quote xml:id="ahsh-l1p1i1t5s2q4t2c3-Qd1e3782" ana="#rom9_17">In hoc ipsum excae<lb ed="#Q"/>cavi
+          te</quote> etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3788">
+          <lb ed="#Q"/>4. Item, Rom. 1,21: <quote xml:id="ahsh-l1p1i1t5s2q4t2c3-Qd1e3792" ana="#rom1_21">Obscuraium est<!--"--> insipiens
+          <lb ed="#Q"/>cor eorum</quote>. Augustinusez « Ista obscuratio
+          <lb ed="#Q"/>poena et vindicta sunt, per quam poenam, id est
+          <lb ed="#Q"/>cordis caecitatem, quae fit deserente luce sapien<lb ed="#Q"/>tiae, 
+          in plura peccata lapsi sunt"».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3806">
+          <pb ed="#Q" n="330"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>5. Item, Augustinus, Contra Felicianum':
+          «Una lucis substantia noctem videtur facere et
+          <lb ed="#Q"/>diem.». Ergo similiter lux spiritualis, Deus, erit
+          <lb ed="#Q"/>causa noctis spiritualis 4, id est obdurationis, et
+          <lb ed="#Q"/>diei, id est illuminationis gratiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3822">
+          <lb ed="#Q"/>Contra: a. Dionysius 2: « Optimi est optima
+          <lb ed="#Q"/>facere »; sed obduratio nunquam est bonab ra<lb ed="#Q"/>tionali
+          creaturae; ergo non est ab optimo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3831">
+          <lb ed="#Q"/>b. Item, Anselmus3: Homo « non habet gra<lb ed="#Q"/>tiam,
+          non quia Deus non dat, sed quia homo
+          <lb ed="#Q"/>non accipit»: ipse enim stat ad ostium et pul<lb ed="#Q"/>sat
+          4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3842">
+          <lb ed="#Q"/>c. Item, Augustinuss, [super] Ioan. 1,5:
+          <lb ed="#Q"/>Lux in tenebris lucet: « Sicut" caeco posito in
+          <lb ed="#Q"/>sole praesens est ei lux et ipse absens est ab
+          <lb ed="#Q"/>illa, ita omnisd iniquus caecus corde, praesens
+          <lb ed="#Q"/>est ei sapientia et ipse absens est ab illa ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3856">
+          <lb ed="#Q"/>d. Item, Augustinus, in Soliloquiisö: « Domine, 
+          <lb ed="#Q"/>si deseris, peritur; sed non deseris, quia tu es
+          <lb ed="#Q"/>summum bonum ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3865">
+          <lb ed="#Q"/>e. Item, Is. 59,2: <quote xml:id="ahsh-l1p1i1t5s2q4t2c3-Qd1e3869" ana="#is59_2">Iniquitates nostrae diviserunt
+          <lb ed="#Q"/>inter nos et Deum</quote> 2. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t2c3-d1e3875">
+          <lb ed="#Q"/>Respondeo: Quidam 7 dixerunt quod sicut na<lb ed="#Q"/>tura
+          est principium motus et quietis— sed motus
+          <lb ed="#Q"/>per se, quietis per cessationem — ita Deus est causa
+          <lb ed="#Q"/>appositionis gratiae et non subtractionis nisi ces<lb ed="#Q"/>sando
+          ab appositionef. — Alii8 dixerunt quod de
+          <lb ed="#Q"/>istis non est causa quaerenda nisi defectus; nullus
+          <lb ed="#Q"/>autem defectus g ex parte Dei ponendus est ", sed
+          <lb ed="#Q"/>solum ex parte nostra. -— Alii dicunt quod non<lb ed="#Q"/>appositio
+          gratiae potest considerari dupliciter: in
+          <lb ed="#Q"/>esse absoluto et in esse ordinato. Si consideretur
+          <lb ed="#Q"/>in esse absoluto, obduratio non est a Deo; sed
+          <lb ed="#Q"/>secundum quod habet essei in ordine et habet
+          <lb ed="#Q"/>esse poenae, sic est a Deo: ex iustitia enim sua
+          <lb ed="#Q"/>ordinat hanc privationem *, quae poena est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-08">April 08, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+        <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-08" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="471"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q4c1">
+        <head xml:id="ahsh-l1p1i2t1q4c1-Hd1e115">I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 1</head>
+        <head xml:id="ahsh-l1p1i2t1q4c1-Hd1e118" type="question-title">AN SIT ORDO IN DIVINIS PERSONIS</head>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e156">
+          <pb ed="#Q" n="471"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Quantum ad primum proceditur sic: a. Au<lb ed="#Q"/>Q
+          gustinus, Contra Maximinumzz Cum dicitur
+          ' Filius a Patre ', non dicitur «inaequalitas sub<lb ed="#Q"/>stantiae,
+          sed ordo naturae, non quod alter prius
+          <lb ed="#Q"/>altero, sed quod alter ex altero ». ln divinis igitur
+          <lb ed="#Q"/>personis est ordo naturae; ergo est ibi ordo.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e175">
+          <lb ed="#Q"/>b. Secunda ratio. Nobilius est esse ordinatum
+          <lb ed="#Q"/>quam non ordinatum", quia esse in ordine est
+          <lb ed="#Q"/>perfectionis et dignitatis, negatio vero ordinis in<lb ed="#Q"/>dignitatem
+          ponit. Cum ergo esse divinarum per<lb ed="#Q"/>sonarum
+          sit nobilissimum, relinquitur quod ipsum
+          <lb ed="#Q"/>est ordinatum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e191">
+          <lb ed="#Q"/>c. Tertia ratio. Bonum non potest intelligi sine
+          <lb ed="#Q"/>ordine3, sicut e contra !' malum ponit inordinatio<lb ed="#Q"/>nem
+          et est privatio ordinis4. Item, ipsum esse, in
+          <lb ed="#Q"/>quantum huiusmodi, non est sine ordine; unde
+          <lb ed="#Q"/>dicit Boethius5 quod «esse est quod retinet
+          <lb ed="#Q"/>ordinem servatque naturam ». Si ergo esse divi<lb ed="#Q"/>narum
+          personarum, quod est divinum esse, est
+          <lb ed="#Q"/>verissimumc esse et verissimum bonum, relin<lb ed="#Q"/>quitur
+          quod in eo est verissimus ordo.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e213">
+          <lb ed="#Q"/>Ad oppositum: 1. Omnis ordo aut attenditur
+          <lb ed="#Q"/>secundum prius et posterius aut simul aut se<lb ed="#Q"/>cundum
+          superius et inferius aut iuxta 5. Sed in
+          <lb ed="#Q"/>divinis personis non est ordo secundum prius et
+          <lb ed="#Q"/>posterius, quia « inTrinitate nihil prius aut po<lb ed="#Q"/>steriusd»,
+          sicut dicit Symbolum Athanasii",
+          <lb ed="#Q"/>quia 'prius' et 'posterius'f dicunt antecessio—
+          <lb ed="#Q"/>nem et successionem in tempore 8. Nec etiam est
+          <lb ed="#Q"/>ibi 'simul ', quia 'simul' dicit praesentiam vel
+          <lb ed="#Q"/>concomitantiam in tempore vel in locog. Item,
+          <lb ed="#Q"/>non est ibi ordo secundum superius et inferius
+          <lb ed="#Q"/>et iuxta, quia huiusmodi differentiae ordinis atten<lb ed="#Q"/>duntur
+          secundum situm, situs autem non est nisi
+          <lb ed="#Q"/>ubi est dispositio partium in toto vel in loco 'O.
+          <lb ed="#Q"/>Cum igitur nulla differentia ordinis possit poni
+          <lb ed="#Q"/>in divino esse, simpliciter non est ibi ordo 5.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e250">
+          <lb ed="#Q"/>2. Si diceretur'1 quod ibi est ordo naturae
+          <lb ed="#Q"/>et ille non attenditur secundum praedictas-diffe<lb ed="#Q"/>rentias
+          — quaeritur quid sit'" ille ordo. Aut est
+          <lb ed="#Q"/>essentia aut persona aut notio, quia quidquid est
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>in divinis, est aliquod horum. Sed huiusmodi
+          <lb ed="#Q"/>ordo non est ipsa essentia divina, cum essentia
+          <lb ed="#Q"/>dicatur per indistinctionem, ordo verok dicitur
+          <lb ed="#Q"/>per distinctionem sive secundum rationem etl
+          <lb ed="#Q"/>differentiam originis vel principii ; divina vero es<lb ed="#Q"/>sentia
+          non potest diei in ratione principii vel ori<lb ed="#Q"/>ginis
+          vel quod sit a principio vel quod habeat
+          <lb ed="#Q"/>originem, quia divina essentia nec generat nec ge<lb ed="#Q"/>neratur
+          nec spirat nec spiratur". Item, nec potest
+          <lb ed="#Q"/>dici quod ordo illem sit persona, immo est per<lb ed="#Q"/>sonarum,
+          quia dicit habitudinem personae ad per<lb ed="#Q"/>sonam.
+          Item, nec potest dici quod dicat notionem,
+          <lb ed="#Q"/>quia omnis notio sive- proprietas in divinis est
+          <lb ed="#Q"/>distinctiva personae a persona; sed ordo magis
+          <lb ed="#Q"/>dicit convenientiam quam distinctionem; relin<lb ed="#Q"/>quitur
+          igitu-r quod ordo penitus nihil est in di<lb ed="#Q"/>vinis.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e300">
+          <lb ed="#Q"/>3. Tertia ratio. Augustinus, in libro De ci<lb ed="#Q"/>vitate
+          Dei" 12: « Ordo est parium dispariumque
+          <lb ed="#Q"/>sua cuique tribuens loca dispositio ». Ubi ergo
+          <lb ed="#Q"/>non est" localis dispositioP, non erit ordo; si
+          <lb ed="#Q"/>ergo in divinis personis non est localis dispositio,
+          <lb ed="#Q"/>ergo nec ibi eritq ordo.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e316">
+          <lb ed="#Q"/>Solutio: Dicendum quod in divinis personis
+          <lb ed="#Q"/>est ordo. Sed distinguendum est' quod multiplex
+          <lb ed="#Q"/>est ordo 13: est enim ordo secundum locum, est
+          <lb ed="#Q"/>ordo 5 secundum tempus, est ordo secundum cau<lb ed="#Q"/>sam,
+          est ordo secundum rationem, est ordo se<lb ed="#Q"/>cundum
+          originem naturae, qui est principii ad
+          <lb ed="#Q"/>illud quod est de principio. Ordo secundum 10<lb ed="#Q"/>cum
+          attenditur secundum istas differentias: su<lb ed="#Q"/>perius
+          ', inferius et iuxta; ordo secundum tem<lb ed="#Q"/>pus
+          attenditur secundum istas differentias: prius",
+          <lb ed="#Q"/>posterius, simul. Et iis modis non est ordo in di<lb ed="#Q"/>vinis
+          personis. Ordo autem secundum causam est
+          <lb ed="#Q"/>secundum quod dicimus quod causa prior est
+          <lb ed="#Q"/>effectu: hoc modo proprie non est ordoV in di<lb ed="#Q"/>vinis
+          personis, quia causa semper est prior ef<lb ed="#Q"/>ftectu 
+          in diversitate essentiae. Dicitur ulterius ordo 
+          <lb ed="#Q"/>rationis, sicut ordo differentiarum ad unum ge<lb ed="#Q"/>nus,
+          qui ordo est a latere, vel primi, medii et
+          <pb ed="#Q" n="472"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>postremi, sicut patet in linea praedicamentali. quta
+          <lb ed="#Q"/>veroa ordinem rationis differentiarum ad genus
+          <lb ed="#Q"/>non sumitur aliquisb ordo in divinis personis,
+          <lb ed="#Q"/>quia iste ordo dicit imperfectionem, sicut infra
+          <lb ed="#Q"/>videbitur 1 ; sed iuxta alium ordinem rationis, qui
+          <lb ed="#Q"/>est primi, medii et postremi, sumitur ordo in di<lb ed="#Q"/>vinis
+          personis.'Sicut enim in hoc ordine " rationis
+          <lb ed="#Q"/>est unum commune, quod de aliis dicitur et nul—
+          <lb ed="#Q"/>lum de ipso, et istud appellatur generalissimum
+          <lb ed="#Q"/>in linea praedicamentali, et istud est primum; et
+          <lb ed="#Q"/>unum ", de quoralia dicuntur et ipsum de nullo,
+          <lb ed="#Q"/>sicut species specialissima, etc hoc postremum;
+          <lb ed="#Q"/>et aliquid, de quo alia dicuntur et quod de aliis
+          <lb ed="#Q"/>quibusdam dicitur, et hoc est genus subalternum,
+          <lb ed="#Q"/>et istud vocatur mediumzz sic in ordine qui est
+          <lb ed="#Q"/>secundum rationem-originis, qui est in personis
+          <lb ed="#Q"/>divinis f, est persona quae de nulla et a qua alia,
+          <lb ed="#Q"/>et persona de qua nulla et quae ab alia, et per<lb ed="#Q"/>sona
+          quasi media- quae de alia et dei-' qua alia.
+          <lb ed="#Q"/>Et sic patet quod ibi est ordo originis, qui sumi<lb ed="#Q"/>tur
+          iuxta ordinem rationis et secundum istas dif<lb ed="#Q"/>ferentias
+          quae sunt: non ab alio, a quo aliush etc.,
+          <lb ed="#Q"/>et non secundum praedictas differentias 3. Et si
+          <lb ed="#Q"/>quaeratur utrum iste sit ordo simpliciter: dicen<lb ed="#Q"/>dum
+          quod non est ordo simpliciter, sed ordo
+          <lb ed="#Q"/>cum additione, scilicet ordo naturae vel originis.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e419">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Per hoc solvitur p rima ratio,
+          <lb ed="#Q"/>quoniamï procedit de duobus primis ordinibus.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e426">
+          <lb ed="#Q"/>2. Ad secundam * dicendum quod ordo dicit
+          <lb ed="#Q"/>ibi notionem; sed notio aliquando significatur
+          <lb ed="#Q"/>distincte, ut cum dico 'paternitas', aliquando
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>indistincte, sed per additionem determinatur. Pri<lb ed="#Q"/>mae
+          notiones distinguunt personam a persona
+          <lb ed="#Q"/>absolute et sine determinatione, sicut generarel
+          <lb ed="#Q"/>et generari et huiusmodi; aliae'" vero' notiones
+          <lb ed="#Q"/>cum determinatione distinguunt, sicut principium.
+          <lb ed="#Q"/>Si enim dicatur 'Pater est principium ', nisi adda<lb ed="#Q"/>tur
+          Filii -vel Spiritus Sancti, indistincte importa<lb ed="#Q"/>tur
+          notio ; sed per additionem determinatur, ut
+          <lb ed="#Q"/>cum dico 'Pater est principium Filii, Pater est
+          <lb ed="#Q"/>principium Spiritus Sancti': iam enim dicit notio<lb ed="#Q"/>nem
+          paternitatis distincte, quae est notio gene<lb ed="#Q"/>rationis
+          et notio prccessionis. Dicendum ergo
+          <lb ed="#Q"/>quod ordo de se dicit notionem indistincte sive
+          <lb ed="#Q"/>confuse, sed distinguitur" per additionem: ut si
+          <lb ed="#Q"/>dicatur 'ordo " Filii ad Patrem ', dicit? notionem
+          <lb ed="#Q"/>filiationis sive generationis passivae, et similiter
+          'ordo Patris ad Filium' dicitq notionem pater<lb ed="#Q"/>nitatis
+          vel generationis, secundum " quod est eius
+          <lb ed="#Q"/>qui generat: per hoc enim dicitur unuss ad al<lb ed="#Q"/>terum;
+          cum dicitur 'ordo Patris et Filii ad Spi<lb ed="#Q"/>ritum
+          Sanctum', hic dicit notionem spirationis
+          <lb ed="#Q"/>communis ab utroque: ordo vero Spiritus Sancti
+          <lb ed="#Q"/>ad Patrem et Filium est processio. Patet ergo
+          <lb ed="#Q"/>quod ordo sine determinatione notionem sive no<lb ed="#Q"/>tiones
+          dicit indeterminate et confuse, cum deter<lb ed="#Q"/>minatione
+          vero distincte.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e491">
+          <lb ed="#Q"/>3. Ad tertiam rationem dicendum quod illa
+          <lb ed="#Q"/>ratio Augustini procedit de ordine secundum
+          <lb ed="#Q"/>locum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c1-d1e500">
+          <lb ed="#Q"/>Et sic patet responsio ad istam Quaestionem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

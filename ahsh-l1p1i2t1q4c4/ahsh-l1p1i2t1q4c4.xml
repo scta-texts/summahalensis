@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-08">April 08, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-08" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="474"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q4c4">
+        <head xml:id="ahsh-l1p1i2t1q4c4-Hd1e115">I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 4</head>
+        <head xml:id="ahsh-l1p1i2t1q4c4-Hd1e118" type="question-title">AN POSSINT ESSE PLURES PERSONAE SINE ORIGINE.</head>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e121">
+          <lb ed="#Q"/>Quarto quaeritur an possint esse plures per<lb ed="#Q"/>sonae
+          sine origine.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e128">
+          <lb ed="#Q"/>Ad quod sic-: a. Hilariust: «Si sunt duo
+          <lb ed="#Q"/>innascibiles, ergo duo dii». Sed sit sunt duae
+          <lb ed="#Q"/>personae sine origine, sunt duo innascibiles ; ergo
+          <lb ed="#Q"/>duo dii: quod est inconveniens. — Quod au<lb ed="#Q"/>tem
+          istud sequatur, patet:- nam si sunt
+          <lb ed="#Q"/>duae " sine origine, omnis differentia, quae potest
+          <lb ed="#Q"/>ibi esse, aut est secundum essentiam aut secundum
+          <lb ed="#Q"/>modum essendi. Constat autem" quod dicendo
+          <lb ed="#Q"/>duas sine origine ponitur in eis indifferentia 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundum modum essendi; ergo non differunt
+          <lb ed="#Q"/>secundum essendi modum. Si ergo differunt,
+          <lb ed="#Q"/>esse divinum est in illis differens; sed sunt duae;
+          <lb ed="#Q"/>sequitur ergox quod sint duo dii: quod est im<lb ed="#Q"/>possibile.
+          Est igitur in divinis impossibile plures
+          <lb ed="#Q"/>esse personas sine origine.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e165">
+          <lb ed="#Q"/>b. Secunda ratio. quta Richardum, in libro
+          <lb ed="#Q"/>De Trinitate5: « Omnis? differentia personalis
+          <lb ed="#Q"/>aut est secundum qualitatem substantialem autZ
+          <lb ed="#Q"/>secundum originem ». Si ergo hae duae personae
+          <lb ed="#Q"/>differunt, aut differunt sic' vel sic; sed non dif<lb ed="#Q"/>ferunt
+          secundum originem, ut planum est; ergo
+          <pb ed="#Q" n="475"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>si differunt, dii-terunt secundum qualitatem s'ub<lb ed="#Q"/>stantialem;
+          ergo alia est deitas in una et alia
+          <lb ed="#Q"/>in alia; ergo duo dii: quod est impossibile. —
+          <lb ed="#Q"/>Si dicatur quod differunt secundum existendi
+          <lb ed="#Q"/>modum, in hoc scilicet quod una illarum est a
+          <lb ed="#Q"/>qua esta alia- persona, alia vero a qua est nulla
+          — contra: si est ibi persona sine origine a qua
+          <lb ed="#Q"/>nulla alia, iam ipsa estb solitaria; sed solitudo
+          <lb ed="#Q"/>non potest stare cum summa caritate ', quae qui<lb ed="#Q"/>dem
+          est in divinis personis; relinquitur ergo quod
+          <lb ed="#Q"/>non differt ab alia sine origine in modo existendi,
+          <lb ed="#Q"/>sed in esse. Sequitur ergo quode si sunt duo in<lb ed="#Q"/>nascibiles,
+          quod sunt duo dii.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e212">
+          <lb ed="#Q"/>c. Tertia ratio. Omnis pluralitas habet unitatem d
+          <lb ed="#Q"/>aliquam primam sui generis 2; ergo pluralitas per<lb ed="#Q"/>sonalis
+          habet aliquam primam " unitatem persona<lb ed="#Q"/>lem
+          ;- sed si ponerentur duae personae sine origine,
+          <lb ed="#Q"/>poneretur pluralitas quae non habet ante se unita<lb ed="#Q"/>tem
+          sui generis: quod est inconveniens; est igitur
+          <lb ed="#Q"/>inconveniensf duas esse personas sine origine.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e230">
+          <lb ed="#Q"/>d. Quarta ratio. Sicut se habet pluralitas es<lb ed="#Q"/>sentiae
+          ad unitatem essentiae, ita se habet plura<lb ed="#Q"/>litas
+          personae ad unitatem personae; sed omnis
+          <lb ed="#Q"/>pluralitas essentiae habet unam solam primam
+          <lb ed="#Q"/>essentiam a qua est; ergo et omnis pluralitas
+          <lb ed="#Q"/>personae habet unam solam primam personam g:
+          <lb ed="#Q"/>quod non potest esse, si sint duae sine origine.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e248">
+          <lb ed="#Q"/>e. Quinta ratio. Richardus, in libro De Tri<lb ed="#Q"/>nitate3:
+          Si duae essent sine origine, neutra « al<lb ed="#Q"/>teri
+          immediate adhaereret »; non esset ergo summa
+          <lb ed="#Q"/>connexio et germanitas in personis divinis; etsi
+          <lb ed="#Q"/>etiam haberent ordinem ad tertiam quae ab illis
+          <lb ed="#Q"/>procederet, non tamen una h ad aliam ordinem ha<lb ed="#Q"/>beret;
+          non igitur esset summa germanitas, summa
+          <lb ed="#Q"/>concordia, summa ordinatio in personis divinis:
+          <lb ed="#Q"/>quod est inconveniens.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e270">
+          <lb ed="#Q"/>f. Sexta ratio. Persona est'substant'iaicum pro<lb ed="#Q"/>prietate
+          incommunicabili4 ; sed si essent duae
+          <lb ed="#Q"/>personae sine origine, esset earum-communis pro<lb ed="#Q"/>prietas
+          et non differens, scilicet innas'cibilitas;
+          <lb ed="#Q"/>ergo non possent esse duae, sed una.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e283">
+          <lb ed="#Q"/>Sic igitur patet quod impossibile est esse .plu<lb ed="#Q"/>res'
+          personas in divinis sine originek.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e290">
+          <lb ed="#Q"/>Ad oppositum: 1. Non est' inconveniens ibi
+          <lb ed="#Q"/>ponere duas habentes originem; ergo non est in<lb ed="#Q"/>conveniens
+          duas aut plures ponere sine origine;
+          <lb ed="#Q"/>poneremus ergo adhuc ordinem harum ad invicem,
+          <lb ed="#Q"/>licet essent sine origine, sicut ponimus ordinem
+          <lb ed="#Q"/>illarum quae habent originem: nam si non distin<lb ed="#Q"/>guitur
+          ordo in istis, ergo nec in illis.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e309">
+          <lb ed="#Q"/>Solutio: Dicendum quod impossibile est in di<lb ed="#Q"/>vinis
+          esse plures personas sine origine, sed unam
+          <lb ed="#Q"/>solam oportet esse sine origine '", sicut patet per
+          <lb ed="#Q"/>rationes supra positas.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c4-d1e320">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad rationem in contrarium
+          <lb ed="#Q"/>dicendum quod 'habere originem ', dictum de dua<lb ed="#Q"/>bus
+          personis, potest esse dupliciter: aut quod ita
+          <lb ed="#Q"/>habent originem ab una quod neutra ab alia aut ita
+          <lb ed="#Q"/>quod una habet originem ab alia. Primo modo, po<lb ed="#Q"/>sitis
+          duabus personis " habentibus originem ab una,
+          <lb ed="#Q"/>dico quod destrueretur summus ordo et connexio in
+          <lb ed="#Q"/>divinis personis, immo maior esset earum connexio
+          <lb ed="#Q"/>ad tertiam quam ad invicem, et ita0 non esset in eis
+          <lb ed="#Q"/>summa proportio, sed coniunderetur .summa ger<lb ed="#Q"/>manitas;
+          et ideo hoc modo non est poSsibile eas
+          <lb ed="#Q"/>poni in divinis. Sed secundO/modo,.positis duabus
+          <lb ed="#Q"/>habentibus originem ab una, dico quod ponitur
+          <lb ed="#Q"/>summa connexio earum adP invicem et ad t'er<lb ed="#Q"/>tiam,
+          et ideo summa ordinatio et summa originis
+          <lb ed="#Q"/>ratio; sed si ponerentur duae sine origine, nulla
+          <lb ed="#Q"/>poneretur in eis connexio nullaque originis ratio,
+          <lb ed="#Q"/>et ideo non possunt esse duae sine origine.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

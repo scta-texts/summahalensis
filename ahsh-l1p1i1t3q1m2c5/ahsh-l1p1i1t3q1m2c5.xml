@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. II, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="132"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m2c5">
+        <head xml:id="ahsh-l1p1i1t3q1m2c5-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 2, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t3q1m2c5-Hd1e3732" type="question-title">UTRUM UNITAS DIVINA COMPATIATUR SECUM PLURALITATEM PERSONARUM.</head>
+        <p xml:id="ahsh-l1p1i1t3q1m2c5-d1e3735">
+          <lb ed="#Q"/>Consequenter quaeritur utrum unitas divini esse
+          <lb ed="#Q"/>compatiatur secum pluralitatem personarum 3.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c5-d1e3742">
+          <lb ed="#Q"/>Ad quod sic obicitur: a. Supposita proposi<lb ed="#Q"/>tione
+          per se nota, scilicet quod divinum esse est
+          <lb ed="#Q"/>exemplar omnis esse creati ** ; item, supposita alia
+          <lb ed="#Q"/>propositione per se nota, quod unitas non potest
+          <lb ed="#Q"/>esse causa multitudinis, nisi intelligatur repetita 5;
+          <lb ed="#Q"/>item, supposita alia, scilicet quod divinum esse
+          <lb ed="#Q"/>est unum in natura 5, ex iis arguitur: in esse creato
+          <lb ed="#Q"/>est differentia unius et multorum; ergo divinum
+          <lb ed="#Q"/>esse est exemplar unius et multorum, quod patet
+          <lb ed="#Q"/>per primam propositionem; sed divinum esse est
+          <lb ed="#Q"/>unitas, quod patet per tertiam propositionem;
+          <lb ed="#Q"/>ergo divinum esse est unitas exemplaris unius
+          <lb ed="#Q"/>et multorum; sed unitas non est exemplar mul<lb ed="#Q"/>titudinis,
+          nisi intelligatur repetita, sicut patet per
+          <lb ed="#Q"/>secundam propositionem; relinquitur ergo quod
+          <lb ed="#Q"/>divinum esse est unitas repetita; sed non est
+          <lb ed="#Q"/>repetita in aliquibus pluribus naturis; relinquitur
+          <lb ed="#Q"/>ergo quod est repetita in aliquibus pluribus per—
+          <lb ed="#Q"/>sonis. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c5-d1e3786">
+          <lb ed="#Q"/>b. Item, hoc patet per connexionem perfectionis
+          <lb ed="#Q"/>universi. Est esse naturas plurium personarum,
+          <lb ed="#Q"/>sicut patet, demonstrato homine uno et angelo
+          <lb ed="#Q"/>uno; et estd esse plures naturas unius personae,
+          <lb ed="#Q"/>sicut patet in uno homine..Si' ergo duo sunt
+          <lb ed="#Q"/>extrema in rerum naturaf, et etiam. unum me<lb ed="#Q"/>dium
+          est accipere quod similiter necessario in<lb ed="#Q"/>telligitur
+          inter extrema, scilicet unam naturam
+          <lb ed="#Q"/>plurium personarum; sed non invenitur in esse
+          <lb ed="#Q"/>creato; relinquitur ergo quod est in esse divino.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c5-d1e3811">
+          <lb ed="#Q"/>Contra: 1. Richardus de S. Victore7: « Ubi
+          <lb ed="#Q"/>nulla differentia, nulla pluralitas esse potest»;
+          <lb ed="#Q"/>ubi autem est summe simplex, nulla potest esse
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>differentia; ergo nulla pluralitas; sed divinum
+          <lb ed="#Q"/>esse est Summe simplex; ergo nulla differentia,
+          <lb ed="#Q"/>nulla pluralitas est in illo; non ergo pluralitas
+          <lb ed="#Q"/>personarum est in illo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c5-d1e3831">
+          <lb ed="#Q"/>2. Item, Boethius, in libro De TrinitateB:
+          « Deus nullas-habet differentias; ubi autem dif<lb ed="#Q"/>ferentiae
+          absunt, abest et pluralitas ». Ergo ibi
+          <lb ed="#Q"/>non est pluralitas personarum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c5-d1e3840">
+          <lb ed="#Q"/>Solutio: Dicendum secundum primas ratio<lb ed="#Q"/>nes,
+          quod divinum esse est unitas existens in
+          <lb ed="#Q"/>pluralitate personali.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c5-d1e3849">
+          <lb ed="#Q"/>1-2. Ad rationes in contrarium dicendum quod
+          <lb ed="#Q"/>triplex est differentia: differentia' secundum sub<lb ed="#Q"/>stantiam,
+          differentia secundum accidens et diffe<lb ed="#Q"/>rentia
+          secundum originem sive secundum rela<lb ed="#Q"/>tionem.
+          Cum ergo dicit Boethius quodk in Deo
+          <lb ed="#Q"/>nulla est differentia, intendit excludere a Deo
+          <lb ed="#Q"/>differentiam secundum substantiam et differen<lb ed="#Q"/>tiam
+          secundum accidens, sed non differentiam
+          <lb ed="#Q"/>secundum originem, immo ponit eam in unitate
+          <lb ed="#Q"/>divini esse: et hoc facit differentiam persenalem
+          <lb ed="#Q"/>in divino esse. Immo dicit Boethius, in libro
+          <lb ed="#Q"/>De Trinitate9: Quia « nulla relatio ad se ipsam re<lb ed="#Q"/>ferri
+          potest, facta est quidem Trinitatis numero<lb ed="#Q"/>sitas
+          in eo quod est praedicatio relationis, ser<lb ed="#Q"/>vata
+          vero unitas in eo quod est indifferentia sub<lb ed="#Q"/>stantiae
+          et operationis ». Ex quo concludit 10: : Ita
+          <lb ed="#Q"/>igitur substantia continet unitatem, relatio multi<lb ed="#Q"/>plicat
+          Trinitatem », quae provenit ex differentia
+          <lb ed="#Q"/>originis. Similiter Richardus, in libro De Tri<lb ed="#Q"/>nitate":
+          « Tres illae in Trinitate, sive dicantur
+          <lb ed="#Q"/>personae sive subsistentiae sive substantiae, nihil
+          <lb ed="#Q"/>aliud oportet intelligere quam habentes substan<lb ed="#Q"/>tiale
+          esse sub discreta et differenti preprietate »:
+          <lb ed="#Q"/>et haec est differentia in persona, ad quam con<pb ed="#Q" n="133"/><lb ed="#Q" n="b"/><lb ed="#Q"/>sequitur 
+          pluralitas non in essentia, sed in per<lb ed="#Q"/>sona.
+          Sic ergo in' Deo non est differentia secun<lb ed="#Q"/>dum
+          substantiam nec secundum accidens, quia ibi
+          <lb ed="#Q"/>non est accidens, sed solum originis: quia" est
+          <lb ed="#Q"/>ibi habens naturam non ab alio, et" habens na<lb ed="#Q"/>turam
+          ab alio per generationem, et habens ab alio
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>per processionem. Et sic illa proprietas diffe<lb ed="#Q"/>rens,
+          de qua loquitur Richardus, non est acci.<lb ed="#Q"/>dentalis'l
+          neque substantialis; sed est proprietas
+          <lb ed="#Q"/>originis sive habitudinis, quae simplicitati—divinae"
+          <lb ed="#Q"/>substantiae! non derogat. Et sic patet veritas
+          <lb ed="#Q"/>quaestionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

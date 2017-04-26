@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 7</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="257"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m3c7">
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c7-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 7</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c7-Hd1e3744" type="question-title">UTRUM SCIENTIA DEI SIT OPPOSITORUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c7-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum scientia Dei sit
+          <lb ed="#Q"/>oppositorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c7-d1e3754">
+          <lb ed="#Q"/>Ad quod sic :. 1. Si nihil est quod non "' sem<lb ed="#Q"/>per
+          videat Deus — sicut dicit Augustinus 1:
+          «Omnia simul videt, quorum nullum est quod
+          <lb ed="#Q"/>non semper videat» — ergo cum contingat utrum<lb ed="#Q"/>que
+          oppositorum esse, ut te sedere et'-' non se<lb ed="#Q"/>dere,
+          utrumquef istorum videt Deus; sed non
+          <lb ed="#Q"/>videt hoc post illud, ita ut sit successio in vi<lb ed="#Q"/>dendo;
+          ergo simul videt hoc et illud; sed utrum<lb ed="#Q"/>que
+          istorum esse simul est falsum et impossie
+          <lb ed="#Q"/>bile; ergo Deus videt vel sci-t falsum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c7-d1e3776">
+          <lb ed="#Q"/>2. Item, posito uno oppositorum removetur
+          <lb ed="#Q"/>alterum; ergo si ponitur scire unum oppositorum,
+          <lb ed="#Q"/>ponitur non scire alterum 2. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c7-d1e3786">
+          <lb ed="#Q"/>Contra: a. Oppositorum .eadem estg disci<lb ed="#Q"/>plina3;
+          ergo et eadem scientia; ergo et multo
+          <lb ed="#Q"/>magis': scientia Dei poterit esse oppositorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c7-d1e3795">
+          <lb ed="#Q"/>Respondeo: Dicendum quod scientia Dei potest
+          <lb ed="#Q"/>esse oppositorum sine oppositione et falsitate, quia
+          <lb ed="#Q"/>non sciuntur opposita a Deo secundum modum
+          <lb ed="#Q"/>ipsorum enuntiabilium, sed magis peri modum
+          <lb ed="#Q"/>comprehensionis rerum de quibus sunt enuntiabi<lb ed="#Q"/>lia;
+          quae quidem comprehensio omnino abstracta
+          <lb ed="#Q"/>est a compositione et oppositione enuntiabilium:
+          <lb ed="#Q"/>et dico rerum enuntia-bilium non per mod-um illum
+          <lb ed="#Q"/>quo'" sunt in propria natura, sed per modum il<lb ed="#Q"/>lum
+          quo sunt in sua causa, ut tactum est supra 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c7-d1e3819">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud ergo quod primo
+          <lb ed="#Q"/>obicit, dicendum quod haec est duplex: 'utrum<lb ed="#Q"/>que
+          oppositorum simul videt Deus ', quia si haec
+          <lb ed="#Q"/>dictio 'simul' determinet hoc verbum 'videre'
+          <lb ed="#Q"/>in comparatione ad videntem, vera est; et est
+          <lb ed="#Q"/>sensus: Deus utrumque oppositorum. simul videt,
+          <lb ed="#Q"/>quia eodem praesenti aeternitatis simul videt utrum<lb ed="#Q"/>que.
+          Si vero determinet hoc verbum 'videref in
+          <lb ed="#Q"/>comparatione ad rem visam, falsa est; et est sen<lb ed="#Q"/>susi
+          Deus utrumquel oppositorum simul videt "',
+          <lb ed="#Q"/>simul scilicet " esse;. et in hoc sensu procedit, cum
+          <lb ed="#Q"/>accipit: ' utrumque oppositorum esse simul est
+          <lb ed="#Q"/>falsum '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c7-d1e3852">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod non est
+          <lb ed="#Q"/>similis modus essendi, cum dicuntur opposita
+          <lb ed="#Q"/>esse in rerum natura et cum" dicuntur esse in
+          <lb ed="#Q"/>scientia Dei. In rerum enim natura impossibile
+          <lb ed="#Q"/>est quod simul ponantur opposita in eodem sub<lb ed="#Q"/>iecto,
+          sed tamen simul sunt in scientia. Nota tamen
+          <lb ed="#Q"/>quod etiam in rerum natura diiiertP, cum dicun<lb ed="#Q"/>tur
+          contraria— esse in aliquo secundum veritatem
+          <lb ed="#Q"/>et cum dicuntur esse'1 in aliquo secundum spe<lb ed="#Q"/>ciem
+          sive intentionem. Nam contraria secundum
+          <lb ed="#Q"/>veritatem non possuntf esse in eodem subiecto
+          <lb ed="#Q"/>sirnul pers naturam, velut contrarii colores in
+          <lb ed="#Q"/>eadem parte parietis, et tamen simul possunt esse
+          <lb ed="#Q"/>in medio5 per intentionem; sicut patet quod in<lb ed="#Q"/>tentiones
+          innumerabiliumf contra-riorum colorum
+          <lb ed="#Q"/>possunt esse et sunt in una et " eadem parte aeris.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

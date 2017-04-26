@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="82"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t3m2c5">
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c5-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c5-Hd1e3732" type="question-title">UTRUM DEUS SIT IN PARVULIS PER INHABITANTEM GRATIAM</head>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3735">
+          <lb ed="#Q"/>Quinto quaeritur utrum Deus sit in parvulis
+          <lb ed="#Q"/>per inhabitantem gratiam '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3742">
+          <lb ed="#Q"/>Ad quod sic opponitur: ]. Bernardus, in li<lb ed="#Q"/>bro
+          De libero arbitrio 2: « Deus auctor salutis est,
+          <lb ed="#Q"/>liberum autem ' arbitrium capax; nec dare valet
+          <lb ed="#Q"/>eam nisi Deus, nec capere nisi liberum arbi<lb ed="#Q"/>trium
+          ». Si ergo in parvulis non est liberum ar<lb ed="#Q"/>bitrium
+          secundum actum, quia in eis non est usus
+          <lb ed="#Q"/>liberi arbitrii, relinquitur quod parvuli non sunt
+          <lb ed="#Q"/>capaces gratiae et ita Deus non est in eis per
+          <lb ed="#Q"/>inhabitantem gratiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3764">
+          <lb ed="#Q"/>2. Si dicatur quod liberum arbitrium est in
+          <lb ed="#Q"/>parvulis secundumf potentiam et hoc sufficit ad
+          <lb ed="#Q"/>susceptionem gratiae inhabitantis — contra:
+          <lb ed="#Q"/>Bernardus, ibidem: «Tam absque consensu
+          <lb ed="#Q"/>esse non potest recipientis quam absque gratia
+          <lb ed="#Q"/>dantis -; sed impossibile est quod gratia salutis
+          "detur absque gratia dantis; ergo impossibile est
+          <lb ed="#Q"/>quod detur absque consensu recipientis; cum
+          <lb ed="#Q"/>ergo in parvulis non sit consensus, non est in
+          <lb ed="#Q"/>eis potentia ad susceptionem gratiae inhabi<lb ed="#Q"/>tantis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3789">
+          <lb ed="#Q"/>3. Item, dicit Augustinus, in libro Retracta<lb ed="#Q"/>tionum3:
+          « Non miseretur. Deus, nisi voluntas
+          <lb ed="#Q"/>praecesserit»; sed Dei miseratio est suae gratiae
+          <lb ed="#Q"/>donatio; ergo non dat gratiam, nisi praecedat vo<lb ed="#Q"/>luntas;
+          cum ergo in parvulis non possit esse vo<lb ed="#Q"/>luntas
+          vel motus voluntarius, non erunt suscep<lb ed="#Q"/>tibiles
+          gratiae inhabitantis; ergo Deus non habitat
+          <lb ed="#Q"/>per gratiam in parvulis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3809">
+          <lb ed="#Q"/>Contra ! : a. Rom. 5,20-21: Ubi abundavit" de<lb ed="#Q"/>lictum,
+          superabundavit et gratia, ut sicut regna<lb ed="#Q"/>vit
+          peccatum in mortem, ita et gratia regnet per
+          <lb ed="#Q"/>iustitiam in vitam aeternam per Iesum Christum;
+          <lb ed="#Q"/>sed peccatum regnavit usque ad mortem in par<lb ed="#Q"/>vulis
+          et adultis; ergo gratia, quae est per Iesum
+          <lb ed="#Q"/>Christum, attinget non solum adultos, sed par<cb ed="#Q" n="b"/><lb ed="#Q"/>vulos; 
+          ergo in ipsis est Deus per inhabitantem
+          <lb ed="#Q"/>gratiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3832">
+          <lb ed="#Q"/>b. Item, Rom. 5,15: Non sicut delictum, ita et
+          <lb ed="#Q"/>donum, quia gratia unius hominis Iesu Christi in
+          <lb ed="#Q"/>plures abundavit. Si ergo gratia Iesu Christi in
+          <lb ed="#Q"/>plures abundat' quam peccatum originale, et
+          <lb ed="#Q"/>peccatum originale attingit parvulos: ergo gratia
+          <lb ed="#Q"/>Iesu Christi attinget parvulos; ergo in ipsis est
+          <lb ed="#Q"/>Deus per inhabitantem gratiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3850">
+          <lb ed="#Q"/>c. Item, ! Cor. 15,22: Sicut in Adam omnes
+          <lb ed="#Q"/>moriuntur, ita et in Christo omnes vivificabun—
+          <lb ed="#Q"/>tur. Si ergo in Adam moriuntur non solum adulti,
+          <lb ed="#Q"/>sed parvuli, et vivificatio illa est per susceptio<lb ed="#Q"/>nem
+          gratiae: ergo in parvulis est potentiak ad
+          <lb ed="#Q"/>suscipiendam gratiam4; et ita' redit idem quod
+          <lb ed="#Q"/>prius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3868">
+          <lb ed="#Q"/>Solutio: Dicendum quod'" in parvulis per vir<lb ed="#Q"/>tutem
+          Baptismi est Deus per inhabitantem gra<lb ed="#Q"/>tiam.
+          Sed notandum quod duplex est iniustitia:
+          <lb ed="#Q"/>est enim iniustitia" quam sibi homo facit, et est
+          <lb ed="#Q"/>iniustitia quae homini fit. Iniustitia prima est
+          <lb ed="#Q"/>culpa actualis, quam homo facit per suum libe<lb ed="#Q"/>rum
+          arbitrium; iniustitia secunda est 'culpa ori<lb ed="#Q"/>ginalis,
+          quae contrahitur ex culpa Adae et non ex 
+          <lb ed="#Q"/>libero arbitrio eius qui contrahit. Similiter cum<lb ed="#Q"/>
+          <lb ed="#Q"/>iustiiicatio nihil aliud sit quam reditus de iniu<lb ed="#Q"/>stitia
+          ad iustitiam, est" iustificatio duplex: una
+          <lb ed="#Q"/>ad P quam homo facit, alia ad quam 41 non facit, sed
+          <lb ed="#Q"/>ei iit. Et debet esse quod iniustitia, quae homini.
+          <lb ed="#Q"/>iit, removeatur per iustificationem, quae homini
+          <lb ed="#Q"/>tif ; iniustitia vero, quam facit, removeatur per iu<lb ed="#Q"/>stitiam
+          ad quam iaciat aliquid. De qua iustifica<lb ed="#Q"/>tione
+          dicit Augustinus5: «Qui' te creavit
+          <lb ed="#Q"/>sine .te, non te iustificat sine te ». Prima est in
+          <lb ed="#Q"/>parvulo, secunda in adulto. Ex hoc patet quod
+          <lb ed="#Q"/>non requiritur consensus in iustificatione prima,
+          <lb ed="#Q"/>quae est parvuli, cum parvulus nihil debeat ibi-'
+          <lb ed="#Q"/>tacere, sed totum ei fieri; sed in secunda requi<pb ed="#Q" n="83"/><cb ed="#Q" n="a"/><lb ed="#Q"/>ritur 
+          consensus, quia oportet quod faciat aliquid
+          <lb ed="#Q"/>quod in se est a ad iustificationem, sicut fecit ali<lb ed="#Q"/>quid.
+          quod erat in se ad iniustitiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3929">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Per hoc patet quod sufficit
+          <lb ed="#Q"/>potentia liberi arbitrii in parvulo, licet non sit
+          <lb ed="#Q"/>usus, ad susceptionem gratiae iustificantis, licet
+          <lb ed="#Q"/>non sufficiat in adulto.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3941">
+          <lb ed="#Q"/>2-3. Ad aliud " quod obicitur de consensu: di<lb ed="#Q"/>cendum
+          quod est consensus in potentia et in ha<lb ed="#Q"/>bitu:
+          et in actu. Consensus in potentia est in
+          <lb ed="#Q"/>parvulo; consensus in habitu est in dormiente
+          <lb ed="#Q"/>adulto, qui firmo proposito, dum vigilaret, con<lb ed="#Q"/>sensit
+          ut convertereturd ad Deum et petiit gra<lb ed="#Q"/>tiam;
+          consensus in actu est in vigilante, qui fir<cb ed="#Q" n="b"/><lb ed="#Q"/>mum 
+          habet propositum ut ad Deum convertatur.
+          <lb ed="#Q"/>Si ergo generaliter intelligatur illa auctoritas, de<lb ed="#Q"/>bet
+          intelligi secundum quod consensus generaliter
+          <lb ed="#Q"/>dicatur istis tribus modis: et sic verum est quod
+          <lb ed="#Q"/>non potest esse [potentia] susceptiva gratiae in
+          <lb ed="#Q"/>qua non est consensus sic vel sic. Consimili au<lb ed="#Q"/>tem
+          distinctione voluntatis respondendum est ad
+          <lb ed="#Q"/>obiectum sequens. — Si tamen intelligere<lb ed="#Q"/>mus
+          illud quod sequitur, loquitur illa auctoritas
+          <lb ed="#Q"/>de adultis ; unde dicitl: « Gratiae operanti salutem
+          <lb ed="#Q"/>cooperari dicitur liberum arbitrium ». Sed libe<lb ed="#Q"/>rum
+          arbitrium non cooperatur nisi adulto, cum'
+          <lb ed="#Q"/>in ipso solo sit usus liberi arbitrii; et propter hoc
+          <lb ed="#Q"/>intelligitur de adulto.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

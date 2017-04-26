@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="83"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t3m2c6">
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c6-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 6</head>
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c6-Hd1e3732" type="question-title">UTRUM DEUS DICITUR INHABITARE IN HABENTIBUS GRATIAM GRATIS DATAM.</head>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c6-d1e3735">
+          <lb ed="#Q"/>sexto quaeritur utrum Deus dicitur inhabitare
+          <lb ed="#Q"/>in hominibus habentibus gratiam gratis datam,
+          <lb ed="#Q"/>ut in <name ref="#Balaam">Balaam</name> et <name ref="#Caiaphas">Caipha</name> et! aliis peccatoribus
+          <lb ed="#Q"/>habentibus fidem informem et timorem servilem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c6-d1e3753">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Quoniam gratia gratis
+          <lb ed="#Q"/>data est donum Dei; ubi ergo est gratia ista, ibi
+          <lb ed="#Q"/>est Deus; ergo per ipsam inhabitat.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c6-d1e3762">
+          <lb ed="#Q"/>Contra: a. Tales sunt templum diaboli per pec<lb ed="#Q"/>catum;
+          ergo Deus non inhabitat in illis per gra<lb ed="#Q"/>tiam
+          gratis datam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c6-d1e3772">
+          <lb ed="#Q"/>Solutio: Dicendum quod Deus non dicitur in<lb ed="#Q"/>habitare
+          nisi per gratiam gratum facientem et non
+          <lb ed="#Q"/>per gratiam gratis datam. — Quid ergo valet gratia
+          <lb ed="#Q"/>gratis data in homine? Dicendum quod sicut vi<lb ed="#Q"/>demus
+          in natura quod primo est possibilitas in
+          <lb ed="#Q"/>materia ad suscipiendum formam, postea sunt dis<lb ed="#Q"/>positiones
+          quae disponunt materiam ad suscep<lb ed="#Q"/>tionem
+          illius formae, sed ultimo" advenit dispo<lb ed="#Q"/>sitio
+          quae est necessitas, ad quam necessario se<cb ed="#Q" n="b"/><lb ed="#Q"/>quitur 
+          positio illius formae in materia: sic dico
+          <lb ed="#Q"/>quod in natura rationali est possibilitas ad hoc
+          <lb ed="#Q"/>ut sit templum; gratia vero gratis data sive dona
+          <lb ed="#Q"/>gratis data1 sunt sicut dispositiones quae animam
+          <lb ed="#Q"/>ad hoc disponunt, sicutk est prophetia, scientia
+          <lb ed="#Q"/>et huiusmodi, nec tamen animal adhuc est tem<lb ed="#Q"/>plum
+          Dei; sed ultimo sequitur dispositio, quae
+          <lb ed="#Q"/>est necessitas ad quam necessario sequitur quod
+          <lb ed="#Q"/>anima sit templum in quo habitat Deus: et haec
+          <lb ed="#Q"/>dispositio est gratia gratum faciens quae perficit
+          <lb ed="#Q"/>templum ; unde ipsa est sicut '" necessitas uniendi
+          <lb ed="#Q"/>animam veritati" summae et bonitati. Quia ergo
+          <lb ed="#Q"/>haec gratia unit et coniungit Deo, alia non;.prop<lb ed="#Q"/>ter
+          hoc inhabitare dicitur Deus secundum" gra<lb ed="#Q"/>tiam
+          gratum facientem, sed non secundum gra<lb ed="#Q"/>tiam
+          gratis datam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c6-d1e3830">
+          [Ad obiecta]: 1. Ad hoc ergoP quod obicitur
+          <lb ed="#Q"/>quod ' ubi est gratia ista, ibi! est Deus': dicendum
+          <lb ed="#Q"/>quod verum est; nec tamen sequitur: 'ergo [per]
+          <lb ed="#Q"/>ipsam inhabitat ', ut patet ex praedictis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

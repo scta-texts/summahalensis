@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 2, Q. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-13">February 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="54"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q1c1">
+        <head xml:id="ahsh-l1p1i1t2q1c1-Hd1e3729">I, Pars 1, Inq. 1, Tract. 2, Q. 1, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t2q1c1-Hd1e3732" type="question-title">UTRUM DIVINA ESSENTIA SIT FINITA VEL INFINITA</head>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3735">
+          <lb ed="#Q"/>Quantum ad primum sic obicitur: 1. Finitum
+          <lb ed="#Q"/>et infinitum congruunt quantitati; unde semper
+          <lb ed="#Q"/>dicitur finitum et infinitum sub ratione quanti<lb ed="#Q"/>tatis
+          2, simplex autem : et compositum sub ratione
+          <lb ed="#Q"/>substantiae vel essentiae. Si ergo quantitatem non
+          <lb ed="#Q"/>dicimus circa divinam essentiam nisi solum [circa]
+          <lb ed="#Q"/>virtutem eius, quae dicitur aliquo modo quanta,
+          <lb ed="#Q"/>secundum quod ponit Au gu stinu s quantitatem
+          <lb ed="#Q"/>virtualem et dimensivam, in libro De quantitate
+          <lb ed="#Q"/>animae: ergo non est dicere de essentia divina
+          -quod sit finita vel infinita, sed solum de eius vir<lb ed="#Q"/>tute
+          vel potentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3761">
+          <lb ed="#Q"/>2. Item, finitum et completum idem; sed divina 
+          <lb ed="#Q"/>essentia est completissima ; ergo est iinitissima.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3768">
+          <lb ed="#Q"/>3. Item, sicut se habet potentia ad posse, ita
+          <lb ed="#Q"/>et essentia ad esse; sed potentia dicitur finita,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>
+          cum potest in tot quod non potest in plura; ergo
+          <lb ed="#Q"/>similiter est in esse; ergo similiter estd in es<lb ed="#Q"/>sentia
+          quod, cum ita est haec essentia quod non 
+          alia essentia, dicetur finita; sed divina essentia 
+          <lb ed="#Q"/>ita est haec essentia quod non aliae; ergo est 
+          <lb ed="#Q"/>finita.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3789">
+          <lb ed="#Q"/>4. Item, inter differentias entis semper nobilior
+          <lb ed="#Q"/>dicitur de Deo. Unde, quia ens actu nobilius est
+          <lb ed="#Q"/>quam ens in potentia, dicitur Deus 'ens actu' et
+          <lb ed="#Q"/>nonf 'ens potentia'g; sed finitum est nobilior
+          <lb ed="#Q"/>conditio quarn infinitum; ergo finitum dicetur de
+          <lb ed="#Q"/>divina essentia et non infinitum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3805">
+          <lb ed="#Q"/>5. Item, finitum magis ducit in Deum quam
+          <lb ed="#Q"/>infinitum, et hoc est quia creatura ducit in Deum
+          <lb ed="#Q"/>secundum rationem qua est finita: quia, in quan<lb ed="#Q"/>tum
+          finita, dicitur per ordinem ad finem; infini<pb ed="#Q" n="55"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tum 
+          autem privat huiusmodi ordinem; ergo fini<lb ed="#Q"/>tum 
+          magis dicit similitudinem Dei in esse et eius 
+          <lb ed="#Q"/>expressionem quam infinitum. Si ergo exemplari 
+          <lb ed="#Q"/>debet attribui quod ipsum magis exprimit, ergo 
+          <lb ed="#Q"/>Deo debet attribui tinitum, non infinitum. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3829">
+          <lb ed="#Q"/>Contra: a. Idem est in Deo potentia et es<lb ed="#Q"/>sentia
+          1; sed potentia eius est infinita; ergo et eius
+          <lb ed="#Q"/>essentia. -— Et co ntirmatio istius rationis est:
+          'quoniam in summe" simplici non differunt po<lb ed="#Q"/>tentia
+          et essentia, aliter non esset summe sim<lb ed="#Q"/>plex;
+          ergo non attingit aliquid potentia quin es<lb ed="#Q"/>sentia
+          illud attingat; ergo, cum infinitum dicat
+          <lb ed="#Q"/>extensionem ultra tinitum, esset dicere quod po<lb ed="#Q"/>tentia
+          extenderetur ultra essentiam, nisi essentia
+          <lb ed="#Q"/>essetb infinita.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3851">
+          <lb ed="#Q"/>b. Item, divina essentia potest considerari 0 ab<lb ed="#Q"/>solute
+          .et in se, et sic est absoluta ab omni re<lb ed="#Q"/>spectu.
+          Si ergo finitum et infinitum dicunt inten<lb ed="#Q"/>tiones,
+          respectus ergo non sunt in ea absolute,
+          <lb ed="#Q"/>sed in ea prout intelligitur secundum extensio<lb ed="#Q"/>nem,
+          secundum quod dicimus quod se extendit
+          <lb ed="#Q"/>divina essentia in omni esse rerum, sicut sua
+          <lb ed="#Q"/>potentia in omni" posse ; sed hoc modo essentia est
+          <lb ed="#Q"/>infinita. —— Probatio quia potentia eius"
+          <lb ed="#Q"/>est infinita: quia non est in tot nec potest esse
+          <lb ed="#Q"/>in tot quin adhuc posset esse in plura; ergo, sif
+          <lb ed="#Q"/>similiter non est dicere de divina essentia quod
+          <lb ed="#Q"/>ita sit in! essentiis rerum nec possit esse quia
+          <lb ed="#Q"/>adhuc possit esse in pluribus, constat quod ipsa
+          <lb ed="#Q"/>est infinita.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3886">
+          <lb ed="#Q"/>c. Item, bonitas illa dicitur infinita a .qua est
+          <lb ed="#Q"/>omnis bonitas et qua maior excogitari non po<lb ed="#Q"/>test
+          et similiter illa potentia infinita" a qua est
+          <lb ed="#Q"/>omnis potentia et qua maior excogitari non po<lb ed="#Q"/>testi
+          ; ergo et illud esse dicetur infinitum a quo
+          <lb ed="#Q"/>est omne esse et quo maius * excogitari non po<lb ed="#Q"/>test;
+          sed tale est esse divinum; ergo illud est
+          <lb ed="#Q"/>infinitum. Dico autem maxime esse, sicut dicit
+          <lb ed="#Q"/>Ans-elmusz, quod maxime distat a non esse,
+          <lb ed="#Q"/>quod scilicet nec habet non esse post esse
+          <lb ed="#Q"/>nec esse post non esse nec potest cogitari non
+          <lb ed="#Q"/>esse. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3915">
+          <lb ed="#Q"/>d. Item, circumscripta per impossibile divina
+          <lb ed="#Q"/>Potentia ab essentia, adhuc possum dicere quod
+          <lb ed="#Q"/>Deus est. ubique, nec tantum potest cogitari ubi
+          <lb ed="#Q"/>srt quin adhuc possitdici quod ultra sit. Sicut
+          <lb ed="#Q"/>ergo Corpus diceretur infinitum quod totum mun<cb ed="#Q" n="b"/><lb ed="#Q"/>dum 
+          repleret et ultra, si essent mundi infiniti, ita 
+          <lb ed="#Q"/>divina essentia debet dici infinita. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3935">
+          <lb ed="#Q"/>e. Item, III Reg. 8,27: Si enim caelum et caeli
+          <lb ed="#Q"/>caelorum capere te non possunt, quasi diceret si
+          <lb ed="#Q"/>multi essent caeli, ipsum capere non possent,
+          <lb ed="#Q"/>sed repleret omnes; ergo ipse Deus secundum
+          <lb ed="#Q"/>essentiam est infinitus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3948">
+          <lb ed="#Q"/>f. Item, Deus est causa efficiens prima, for<lb ed="#Q"/>malis3
+          et finalis; ergo si non est dicere de ipsa,
+          <lb ed="#Q"/>in quantum est causa efficiens prima, quod sit
+          <lb ed="#Q"/>effecta ', nec in quantum est causa formalis, quod
+          <lb ed="#Q"/>sit formata 4: ergo non est dicere, cum sit causa
+          <lb ed="#Q"/>finalis, quod sit finita; ergo si secundum essen<lb ed="#Q"/>tiam
+          ipse est finis sive finalis causa, constat quod
+          <lb ed="#Q"/>eius essentia est infinita. — Si'" dicatur quod
+          <lb ed="#Q"/>divina essentia dicitur finita, non quia habeat fi<lb ed="#Q"/>nem
+          vel terminum ad quem terminetur, sed quia
+          <lb ed="#Q"/>ita est haec essentia quod non est illa: unde iste
+          <lb ed="#Q"/>est unus modus tinitatis - sed quod ratione
+          <lb ed="#Q"/>ista non debeat dic-i tinita'l patet: quia
+          <lb ed="#Q"/>antequam alia essentia crearetur, erat dicere quo<lb ed="#Q"/>niam
+          divina essentia erat, nec tamen erat dicere
+          <lb ed="#Q"/>quod finiretur ad alia, quia res " non erant; sed
+          <lb ed="#Q"/>idem est esse eius ante rerum creationem et post;
+          <lb ed="#Q"/>ergo si non dicebatur tunc finita per compara<lb ed="#Q"/>tionem
+          ad res, ergo nec modo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e3992">
+          <lb ed="#Q"/>g. Item, si propter hoc diceretur finita essentia,
+          <lb ed="#Q"/>quia ita est haec essentia quod non illa?, simili
+          <lb ed="#Q"/>ratione eius potentia diceretur finita, cum sit ita ..
+          <lb ed="#Q"/>haec potentia quod non illa; quod tamen incon<lb ed="#Q"/>veniens
+          est dicere. — Si di catu r ad hoc quod di<lb ed="#Q"/>.vina
+          potentia est ens et operatur ?, et verum est,
+          <lb ed="#Q"/>in quantum est ens est finita, tamen in quantum
+          <lb ed="#Q"/>operatur' est infinita, quia non potest in tot quin
+          <lb ed="#Q"/>adhuc in plura — contra: adhuc videtur quod sit
+          <lb ed="#Q"/>finita in quantum operatur secundum hunc mo<lb ed="#Q"/>dum,
+          quoniam sicut contingit dicere ' divina po<lb ed="#Q"/>tentia
+          est haec et non illa ', ita contingit diceres
+          <lb ed="#Q"/>quod ' divina potentia operatur haec et non illa ' ';
+          <lb ed="#Q"/>potentia ergo hac ratione dicetur finita in quan<lb ed="#Q"/>tum
+          operatur, si': hoc facit finitatem; quod ta<lb ed="#Q"/>men
+          inconveniens est dicere.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4029">
+          <lb ed="#Q"/>h. Item, Damascenuss: « Credendum est
+          <lb ed="#Q"/>unum Deum immortalem, aeternum, infinitum, in<lb ed="#Q"/>circumscriptum
+          »; sed cum dico 'unum Deum',
+          <lb ed="#Q"/>loquor de Deo secundum essentiam; ergo divina
+          <lb ed="#Q"/>essentia est infinita.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4042">
+          <pb ed="#Q" n="56"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>i. Item, Exod. 33,20: Non videbit me homo et
+          <lb ed="#Q"/>vivet. Super hoc reprobat Augustinusl opi<lb ed="#Q"/>nionem
+          dicentium quod Deus non videbitur in
+          <lb ed="#Q"/>sua essentia, sed in sua luce; et obicit sic: Cum
+          <lb ed="#Q"/>sua lux non sit aliud quam sua essentia, ergo
+          <lb ed="#Q"/>non est aliud videri in sua luce et in sua es<lb ed="#Q"/>sentia.
+          Similiter, cum potentia non sit aliud quam
+          <lb ed="#Q"/>sua essentia, non est aliud infinitum in potentia
+          <lb ed="#Q"/>quam in essentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4068">
+          <lb ed="#Q"/>Solutio: Dicendum, sicut dicit B. Diony<lb ed="#Q"/>siuszz
+          « Universaliter non audendum dicere ali<lb ed="#Q"/>quid
+          de insuperabili et occulta divinitate, quam
+          <lb ed="#Q"/>ea quae nobis divinitus ex sacris Eloquiis cla<lb ed="#Q"/>ruerint
+          ». Propterea, cum " in sacra Scriptura nihil
+          <lb ed="#Q"/>de finitate divinae essentiae inveniatur, non est
+          <lb ed="#Q"/>asserendum ipsam esse finitam simpliciter, sed
+          <lb ed="#Q"/>infinitam. Proprie ergo est dicendum ipsum esse
+          <lb ed="#Q"/>infinitum secundum substantiam et non finitum,
+          <lb ed="#Q"/>nisi dicatur finitum 'completum '. Unde Dama<lb ed="#Q"/>scenus
+          3: « Deus est incircumscriptus, increatus,
+          <lb ed="#Q"/>infinitus ». Item, in eodem4: «Videtur quidemb
+          <lb ed="#Q"/>omnibus principalius: eorum quae de Deo di<lb ed="#Q"/>cuntur
+          nominibus esse 'qui est'; totum enim d in
+          <lb ed="#Q"/>se ipso comprehendens habet esse' velut 'quod<lb ed="#Q"/>dam
+          pelagus substantiae infinitumf et indetermi<lb ed="#Q"/>natum
+          ». Ecce, secundum Damascenum, quod
+          <lb ed="#Q"/>est infinitus secundum essentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4111">
+          <lb ed="#Q"/>Sed tamen infinitum dicitur tripliciter: scilicet
+          . negative, privative, contrarie sive disparate. Inti<lb ed="#Q"/>nitum
+          negative dicitur per abnegationem finis, et
+          <lb ed="#Q"/>sic dicitur infinitum idem quod non finitum, et
+          <lb ed="#Q"/>hoc modo infinitum est quod non est natum finiri.
+          -— Infinitum privative est8 quod est natum fi<lb ed="#Q"/>niri,
+          non tamen finitur. — Infinitum contrarie est "
+          <lb ed="#Q"/>quod habet contrariam dispositionem sive dispara<lb ed="#Q"/>tam
+          ad finiendum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4129">
+          <lb ed="#Q"/>Primo modo divina essentia est infinita, quia non
+          <lb ed="#Q"/>habet finem, sed est finiens omnia: neque enimf
+          <lb ed="#Q"/>est nata finiri. — Similiter si dicatur infinitum dis-<lb ed="#Q"/>parate,
+          sick adhuc est infinita, quia habet dis<lb ed="#Q"/>paratam
+          dispositionem respectu finitatis: dici<lb ed="#Q"/>mus
+          enim aliquid finitum, cum' in tot est quod
+          <lb ed="#Q"/>non potest esse in plura. In Deo autem est dis<lb ed="#Q"/>positio
+          disparata respectu huius, quae est quod 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>divina essentia est in omnibus et extra omnia, et
+          <lb ed="#Q"/>adhuc, si essent infinita, impleret illa. Unde hoc
+          <lb ed="#Q"/>quod ' est in omnibus non inclusa et implens illa,
+          <lb ed="#Q"/>immo infinita, si essent ', est dispositio disparata
+          <lb ed="#Q"/>respectu finitatis. —- Si dicatur infinitum priva<lb ed="#Q"/>tive,
+          non potest dici infinita, quia non est nata
+          <lb ed="#Q"/>finiri, immo est tiniens omnia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4166">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad p-rimam ergo'" rationem
+          <lb ed="#Q"/>in contrarium dicendum quod, cum tinitum dicatur
+          <lb ed="#Q"/>per positionem tinis, infinitum [dicetur] per abla<lb ed="#Q"/>tionem
+          finis. Finis autem dicitur tripliciter, et [si<lb ed="#Q"/>militer]
+          finitum et infinitum. Finis enim'[ dicitur
+          <lb ed="#Q"/>terminus: et sic finitum et infinitum, secundum
+          <lb ed="#Q"/>quod a fine accipiuntur, soli quantitati congruunt;
+          <lb ed="#Q"/>ratione enim termini in quantitate sumuntur. Quia
+          <lb ed="#Q"/>enim in continuo non est terminus suae divisionis,
+          <lb ed="#Q"/>dicimus ipsum " divisibile in infinitum sive infini<lb ed="#Q"/>tum
+          divisione; similiter, quia in numero non est
+          <lb ed="#Q"/>terminus in addendo, dicimus ipsum esse infini<lb ed="#Q"/>tum
+          additione; similiter iuxta locum dicitur fini<lb ed="#Q"/>tum
+          et infinitum circumscriptione, et iuxta tempus
+          <lb ed="#Q"/>finitum et infinitum duratione. —- Alio modo finis
+          <lb ed="#Q"/>dicitur idem quod perfectio 5: et sic dicitur finitum
+          <lb ed="#Q"/>et infinitum in substantia; et sic dicitur materia
+          <lb ed="#Q"/>secundum se infinita, quia caret perfectione 5. ——
+          <lb ed="#Q"/>Tertio modo dicitur finis secundum rationem pro<lb ed="#Q"/>priam,
+          qua quidem est idP propter quod unum<lb ed="#Q"/>quodque7:
+          et sic tinitum dicitur a fine per or<lb ed="#Q"/>dinationemq
+          ad finem, infinitum vero per deor<lb ed="#Q"/>dinationem':
+          et sic malum culpae dicitur in<lb ed="#Q"/>finitum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4221">
+          <lb ed="#Q"/>Primo ergo modo, secundum quod finitum et
+          <lb ed="#Q"/>infinitum dicuntur in quantitate, est dicere infi<lb ed="#Q"/>nitum
+          in Deo. Sed quantitas duplex est, secundum
+          <lb ed="#Q"/>quod dicit Augustinus 3, scilicet quantitas di<lb ed="#Q"/>mensiva
+          et virtualis. Prout finitum et infinitum
+          <lb ed="#Q"/>sunt circa quantitatem dimensivam, neutrum est
+          <lb ed="#Q"/>in Deo, quia talis quantitas non est in eo; sed
+          <lb ed="#Q"/>iuxta quantitatem virtualem, quae in ipso est, di<lb ed="#Q"/>citur
+          in eo infinitum 8. Sed quia in Deo omnimoda
+          <lb ed="#Q"/>est indivisio virtutis et essentiae, non potest esse
+          <lb ed="#Q"/>infinitas virtutis quin etiam sit essentiae; ubi au<lb ed="#Q"/>tem
+          dii-ferunt virtus et essentia, quod est unius
+          <lb ed="#Q"/>non est' alterius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4252">
+          <pb ed="#Q" n="57"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>2. Ad secundum dicendum quod completum
+          <lb ed="#Q"/>dicitur duobus modis, scilicet ex se et ex alio.
+          <lb ed="#Q"/>Completum ex se dicitur finis, quia finis est com<lb ed="#Q"/>plementum;
+          completum vero ex alio accipitur so<lb ed="#Q"/>lum
+          in illis quae. sunt ad finem; finis ergo " com<lb ed="#Q"/>pletur
+          non ex alio, sed ex se. Quia ergo finitum
+          <lb ed="#Q"/>dicit quod aliquid finiatur et compleatur ex alio,
+          <lb ed="#Q"/>quia dicitur passive, propter hoc non sequitur:
+          ' est finis, ergo non est infinitus ' sive * ' ergo est
+          <lb ed="#Q"/>finitus", immo 'ergo est finiens '. Et ideo non
+          <lb ed="#Q"/>sequitur quod, si Deus est completus, cum sit
+          <lb ed="#Q"/>completus in se, quia est finis omnium, quod sit
+          <lb ed="#Q"/>finitus, sed quod sit omnia finiens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4285">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod aliquid non de<lb ed="#Q"/>bet 
+          dici finitum, quia sit" hoc. et non aliud, sed
+          <lb ed="#Q"/>quia terminatur ad aliud vel quia est propter
+          <lb ed="#Q"/>aliud vel quia perficitur ab alio. Ete hoc sumitur
+          <lb ed="#Q"/>iuxta triplicem rationem finis, cum finitum dicatur
+          <lb ed="#Q"/>a fine: finis enim terminus est, finis est propter
+          <lb ed="#Q"/>quod unumquodque, et finis est perfectio. Si ergo
+          <lb ed="#Q"/>divinae essentiae non possunt ista convenire —<lb ed="#Q"/>quia
+          non terminaturf ad aliud, immo non est ali<lb ed="#Q"/>qua
+          essentia in qua non sit essentialiter, etiam si
+          <lb ed="#Q"/>essent infinitae, immo etiam terminat! omnia alia
+          <lb ed="#Q"/>et non e converso; similiter non est propter aliud,
+          <lb ed="#Q"/>immo omnia " alia propter ipsam ; similiter nec ab
+          <lb ed="#Q"/>alio perficitur, sed perficit alia — constat quod
+          <lb ed="#Q"/>non potest dici finita. Et ratio illa male assumit
+          <lb ed="#Q"/>rationem finiti ï, sicut etiam probatum est in ra<lb ed="#Q"/>tionibus
+          quae sunt ad veram partem 1.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4325">
+          4. Ad quartum dicendum quod sicut in re
+          <lb ed="#Q"/>quae habet ordinem ad formam, nobilitatis est esse
+          <lb ed="#Q"/>formatum 2, ita in re quae est ad finem, nobili<lb ed="#Q"/>tatis'f
+          est esse finitum; et quia omnis creatura
+          <lb ed="#Q"/>ordinatur ad finem, ideo in omni creatura nobi<lb ed="#Q"/>litatis
+          est quod sit finita. Similiter in iis quae
+          <lb ed="#Q"/>habent ordinem ad efficiens, nobilitatis est esse
+          <lb ed="#Q"/>effectum, sed in ipso efficiente non est nobilitatis,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>immo ignobilitatis '. Similiter in forma esset igno<lb ed="#Q"/>bilitatis
+          quod esset formata, et similiter in fine
+          <lb ed="#Q"/>quod esset finitus. Et ideo esse effectum, esse
+          <lb ed="#Q"/>formatum, esse finitum, omnia ista". sunt nobili<lb ed="#Q"/>tatis
+          in creatura, quia ordinatur ad efficiens, for<lb ed="#Q"/>mam
+          et finem; in Deo tamen, qui est efficiens
+          <lb ed="#Q"/>primum et prima forma omnium exemplaris 3,
+          <lb ed="#Q"/>erunt ista ignobilitatis, et ideo contraria istorum
+          <lb ed="#Q"/>sunt'l nobilitatis in illo. '
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q1c1-d1e4364">
+          5. Ad quintum dicendum quod Deus est causa
+          <lb ed="#Q"/>efficiens, formalis exemplaris et finalis 4. Secundum
+          <lb ed="#Q"/>ergo duas primas causalitates comparantur crea<lb ed="#Q"/>turae
+          ad Deum tamquam ad illud a quo sunt ut
+          <lb ed="#Q"/>a suo principio; in quantum vero est" causa fi<lb ed="#Q"/>nalis,
+          sunt creaturae ad ipsum. Licet ergo finitum
+          <lb ed="#Q"/>magis ducat in Deum, in? quantum est finis, non
+          <lb ed="#Q"/>tamen in quantum est efficiens vel exemplar, immo
+          <lb ed="#Q"/>istis modis magis infinitum ducit in'! ipsum, sci<lb ed="#Q"/>licet
+          in quantum est' efficiens et exemplar. Unde
+          <lb ed="#Q"/>prima materia, quae est infinita in potentia pas<lb ed="#Q"/>siva,
+          ducit in potentiam Dei infinitam, non in ra<lb ed="#Q"/>tione
+          qua ordinatur ad ipsum ut ad finem, sed in
+          <lb ed="#Q"/>ratione qua ordinatur ad ipsum ut ad * efficiens et
+          <lb ed="#Q"/>exemplar; et magis ducit in ipsum hoc modo, quam
+          <lb ed="#Q"/>si esset finita in potentia. Similiter creatura ratio<lb ed="#Q"/>nalis
+          quae habet potentiam infinitam ad cognoscen<lb ed="#Q"/>dum,
+          quia non potest tot intelligere quin plura pos<lb ed="#Q"/>sit
+          intelligere, per hoc magis ducit in suum effi<lb ed="#Q"/>ciens
+          et exemplar quam si esset finita. Similiter
+          <lb ed="#Q"/>infinitas duratione in rationali creatura magis ducit
+          <lb ed="#Q"/>in Deum quantum ' ad aeternitatem sive duratio<lb ed="#Q"/>nem
+          quam finitas durationis, quia eius est imago,
+          <lb ed="#Q"/>ista non: «non enim esset imago, si" mortis
+          <lb ed="#Q"/>termino clauderetur », ut dicit Cassiodorus 5.
+          <lb ed="#Q"/>Licet ergo finitum aliquo modo magis ducat in
+          <lb ed="#Q"/>Deum quam infinitum, non tamen simpliciter,
+          <lb ed="#Q"/>immo magis e converso secundum alias consi- <lb ed="#Q"/>derationes.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

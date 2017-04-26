@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-24">February 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="139"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m1c2">
+        <head xml:id="ahsh-l1p1i1t3q2m1c2-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t3q2m1c2-Hd1e3732" type="question-title">AN INTENTIO VERITATIS DIFFERAT AB ILLA ENTITATIS UNITATIS ET BONITATIS.</head>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3735">
+          <lb ed="#Q"/>Deinde quaeritur de intentione veritatis, in quo
+          <lb ed="#Q"/>differat ab intentione entitatis, unitatis! et
+          <lb ed="#Q"/>bonitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3744">
+          <lb ed="#Q"/>I. 1. Nam definiendo dicit Augustinus, in
+          <lb ed="#Q"/>Soliloquiis: « Verum est id quod est ». Ergo ve<lb ed="#Q"/>ritas
+          definitive est entitas ; ergo non differt in<lb ed="#Q"/>tentio
+          veritatis et entitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3755">
+          <lb ed="#Q"/>2. Item, Augustinus, De vera religione 4:
+          <lb ed="#Q"/>« Vera in tantum vera sunt, in quantum sunt ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3763">
+          <lb ed="#Q"/>Contra: a. A u gu s tin u 5, De vera religione 5 :
+          « Cui manifestum est falsitatem esse qua putatur
+          <lb ed="#Q"/>quod non est 5, intelligat eam esse veritatem qua
+          <lb ed="#Q"/>ostenditur id quod est ». Cum ergo differant inten<lb ed="#Q"/>tione
+          id quo " res est et quo ostenditur — entitas
+          <lb ed="#Q"/>vel essentia est id quo res" est, veritas qua osten<lb ed="#Q"/>ditur
+          — ergo differunt intentione veritas et entitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3779">
+          <lb ed="#Q"/>H. 3. Item, Augustinus, in libro* De vera
+          <lb ed="#Q"/>religione 6, dicit quod veritas prima est secun<lb ed="#Q"/>dum
+          quam de inferioribus iudicamus. - item,
+          <lb ed="#Q"/>in eodem 7: « Cum aliquis dicit' corporibus:
+          'vos quidem, nisi aliqua unitas contineret, nihil
+          <lb ed="#Q"/>essetis', sed rursus: *si vos essetis ipsa unitas,
+          <lb ed="#Q"/>corpora non essetis ', recte illi dicitur: ' unde nosti
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>istam unitatem, secundum quam iudicas corpora?
+          <lb ed="#Q"/>quam nisi videres "', iudicare non posses quod
+          <lb ed="#Q"/>eam non impleant' ». Cum ergo secundum unita<lb ed="#Q"/>tem
+          iudicemus interiora, erit eadem intentio uni<lb ed="#Q"/>tatis
+          et veritatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3808">
+          <lb ed="#Q"/>Contra: a. Non contingit de eodem accipere
+          <lb ed="#Q"/>veritatem et falsitatem secundum idem; sed de
+          <lb ed="#Q"/>corpore accipimus veritatem corporeitatis " et fal<lb ed="#Q"/>sitatem
+          unitatis — unde Augustinus, De vera
+          <lb ed="#Q"/>religione ff: . Omne corpus verum corpus est, sed
+          <lb ed="#Q"/>falsa unitas » —- ergo non est idem veritas cor<lb ed="#Q"/>poreitatis
+          et unitas corporeitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3826">
+          <lb ed="#Q"/>b. Item, aliae sunt differentiae veritatis et uni<lb ed="#Q"/>tatis:
+          unitatis differentiae sunt quae supra di<lb ed="#Q"/>ximus;
+          veritatis differentiae sunt: quia est veri<lb ed="#Q"/>tas
+          rei et veritas signi 10, et hoc multipliciter; ergo
+          <lb ed="#Q"/>non sunt intentione idem veritas et unitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3839">
+          <lb ed="#Q"/>III. 4. Item, A ugu stin u 5, super illud Psalmi 1':
+          <lb ed="#Q"/>Quaeritis mendacium, dicit quod «sola veritas
+          <lb ed="#Q"/>perficit bona, qua omnia vera sunt ». Si ergo bo<lb ed="#Q"/>nitas
+          est quae bona perficit, secundum intentio-'
+          <lb ed="#Q"/>nem idem erit veritas et bonitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3852">
+          <lb ed="#Q"/>5. Item, Augustinus, in libro De vera re<lb ed="#Q"/>ligione 
+          12: Verum est lux intelligibilis. Et B. Dio<pb ed="#Q" n="140"/><cb ed="#Q" n="a"/><lb ed="#Q"/>nysius 
+          dicit quod «lux intelligibilis est bo<lb ed="#Q"/>num,
+          quod est super omnem lucem, ut fontalis
+          <lb ed="#Q"/>radius et emergens lucis effusio omnem super<lb ed="#Q"/>mundanum
+          et mundanum intellectum illustrans ».
+          <lb ed="#Q"/>Ergo eadem est intentio veri et boni, scilicet quod
+          <lb ed="#Q"/>est lux intelligibilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3875">
+          <lb ed="#Q"/>6. Item, Augustinus, in" 83 Quaestion.2:
+          « Totum malum de speciei privatione repertum
+          <lb ed="#Q"/>est ». Ergo totum bonum ex speciei positione; sed
+          <lb ed="#Q"/>ex positione speciei est" in re veritas; ex eodem
+          <lb ed="#Q"/>ergo est in re veritas et bonitas; ergo non diffe<lb ed="#Q"/>runt
+          secundum intentionem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3888">
+          <lb ed="#Q"/>Contra: 0. Verum se extendit ad malum, bonum
+          <lb ed="#Q"/>autem non; ergo non : idem secundum intentionem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3895">
+          <lb ed="#Q"/>17. Item, nihild quod est obiectum unius poten<lb ed="#Q"/>tiae
+          est idem secundum intentionem cum obiecto
+          <lb ed="#Q"/>alterius potentiae; cum ergo verum sit obiectum
+          <lb ed="#Q"/>rationis, bonum voluntatis: non erit secundum
+          <lb ed="#Q"/>intentionem idem verum et bonum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3908">
+          <lb ed="#Q"/>Respondeo: Quamvis secundum rem coincidant
+          <lb ed="#Q"/>in idem verum, unum et bonum, tamen differunt
+          <lb ed="#Q"/>intentiones eorum, sicut supra dictum est in Quae<lb ed="#Q"/>stione
+          de unitate 3. Ens enim et entitas absolu<lb ed="#Q"/>tam
+          habent intelligentiam; ' unum ' vero addit ad
+          <lb ed="#Q"/>ens indivisionem: unde unitas est indivisio entis;
+          'verum' veroaddit ad indivisionem entis indivisio<lb ed="#Q"/>nem!
+          esse: unde veritas est indivisio esse et
+          <lb ed="#Q"/>eiusf quod est4 ; 'bonum' vero addit ad indivisio<lb ed="#Q"/>nem!
+          entis et esse indivisionem secundum bene
+          <lb ed="#Q"/>esse: unde bonum dicitur indivisio actus a po<lb ed="#Q"/>tentia
+          5, et actus dicitur complementum sive per<lb ed="#Q"/>fectio
+          possibilitatis, ad quam res nata est. Item,
+          <lb ed="#Q"/>sicut supra tactum est in Quaestione de unitate 5,
+          <lb ed="#Q"/>differunt intentiones istae secundum relationem
+          <lb ed="#Q"/>ad " causam, quae est: 'unum ', principium in ra<lb ed="#Q"/>tione
+          efficientis, *veritas' in ratione formalis, 'bo<lb ed="#Q"/>nitas
+          ' in ratione causae finalis: quae appropriantur
+          <lb ed="#Q"/>Trinitati. Unde Augustinus, De civitate Dei 7:
+          « Dixit Deus: fiat lux, et facta est lux: vidit lu<lb ed="#Q"/>cem
+          quod esset bona '. Ecce dicens et quod dicit
+          <lb ed="#Q"/>et propter quodk dicit». Intentio 'unius' refertur
+          <lb ed="#Q"/>ad dicentem, intentio ' veritatis' ad verbum, intentio
+          *bonitatis' ad bonum propter quod est. Dicens est
+          <lb ed="#Q"/>Pater, cui appropriatur ratio efficientis; verbum
+          <lb ed="#Q"/>Filius, cui [appropriatur] ratio' formalis; bonum
+          <lb ed="#Q"/>Spiritus Sanctus, cui appropriatur ratio finalis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3963">
+          <lb ed="#Q"/>Istae ergo intentiones non separantur ab es<lb ed="#Q"/>sentia
+          rei velut vestigia primae causae, quae est
+          <lb ed="#Q"/>Trinitas unius essentiae. Unde secundum hoc dicit
+          <lb ed="#Q"/>Augustinus, in fine De vera religiones: : Co<lb ed="#Q"/>lere
+          et tenere nos convenit unius substantiae Tri<lb ed="#Q"/>nitatem,
+          unum Deum quo auctore conditi sumus,
+          <lb ed="#Q"/>similitudinem eius per quam ad imitationem for<lb ed="#Q"/>mamur,
+          et pacem qua unitati adhaeremus; Deum,
+          <lb ed="#Q"/>qui dixit fiat, et Verbum eius, per quod factum
+          <lb ed="#Q"/>est quod "' naturaliter est, et donum benignitatis,
+          <lb ed="#Q"/>quo placuit ut non interiret quidquid per Verbum
+          <lb ed="#Q"/>ab eo factum est; unum Deum, quo creatore vi<lb ed="#Q"/>vimus,
+          per quem reformati sapienter vivimus,
+          <lb ed="#Q"/>quem diligentes et quo fruentes beate vivimus ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3996">
+          <lb ed="#Q"/>[Ad obiecta]: I. 1. Respondeo igitur ad obiecta
+          <lb ed="#Q"/>quod, quamvis ' id quod est ' definiat verum, non
+          <lb ed="#Q"/>tamen eadem erit intentio entis et veri. Nam per
+          <lb ed="#Q"/>hoc quod dicitur 'id quod est' intelligitur id
+          <lb ed="#Q"/>quod habet esse ; in illo vero quod habet esse
+          <lb ed="#Q"/>intelligitur indivisio esse et eius " quod est. Unde
+          <lb ed="#Q"/>eadem est per intellectum illa definitio" Augu<lb ed="#Q"/>stinig:
+          . Verum est id quod est », cum ista:
+          'Verum est quod habet indivisum esse ab eo
+          <lb ed="#Q"/>quod est', sicut explanatum est prius 10; hoc au<lb ed="#Q"/>tem
+          dicitur per additionem ad ens
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e4021">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod cum di<lb ed="#Q"/>citur: 
+          « omnia sunt vera in quantum sunt », quod
+          <lb ed="#Q"/>dico « in quantum », quod est determinatio, potest
+          <lb ed="#Q"/>referri ad conditionem suppositi per hoc quod
+          <lb ed="#Q"/>dico « vera »: et hoc modo verum est « omnia sunt
+          <lb ed="#Q"/>vera in quantum sunt », quia nunquam in aliquo
+          <lb ed="#Q"/>supposito separantur verum et ens, immo sequitur:
+          'si est, verum est'. Vel potest referri ad conditio<lb ed="#Q"/>nem
+          formae sive rationem eius quod dico 've<lb ed="#Q"/>rum
+          ': et hoc modo non est verum; ens enim non
+          <lb ed="#Q"/>est ratio veri, sed indivisio esse ab ente, ut dic<lb ed="#Q"/>tum
+          est".
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e4047">
+          <lb ed="#Q"/>II. 3. Ad tertium quod obicit de unitate: dicen—
+          <lb ed="#Q"/>dum quod 'secundum unitatem iudicamus' sicut
+          <lb ed="#Q"/>secundum artem et exemplar de opere, secundum
+          <lb ed="#Q"/>veritatem ut lucem?. Unde dicit A 11 gu sti 11 us, in
+          <lb ed="#Q"/>libro De vera religione 9: « Ista est lux vera per
+          <lb ed="#Q"/>quam phantasmata non vera esse cognoscis, et ita
+          <lb ed="#Q"/>differenter ». Notandum quod cum dicis quod 'se<lb ed="#Q"/>cundum
+          unitatem iudicamus ', hoc est in quantum
+          <lb ed="#Q"/>unitas assumit rationem causae formalis, et sic 
+          <lb ed="#Q"/>in quantum induit rationem veritatis, sicut supra 
+          <lb ed="#Q"/>ostendimus in Quaestione de unitate '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e4073">
+          <lb ed="#Q"/>III. 4. Ad quartum quod obicit: intelligendum
+          <lb ed="#Q"/>quod « veritas perficit bona » in ratione causae for<lb ed="#Q"/>malis,
+          bonitas in ratione causae finalis. Utramque
+          <lb ed="#Q"/>autem perfectionem habent bona": veritas perfi<lb ed="#Q"/>citb
+          quantum ad esse naturae relatum ad causam
+          <lb ed="#Q"/>exemplarem, bonitas quantum ad esse relatum ad
+          <lb ed="#Q"/>causam finalem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e4091">
+          <lb ed="#Q"/>5. Ad quintum quod obicit circa : idem,
+          <lb ed="#Q"/>quod 'veritas est lux intelligibilis et bonitas si<lb ed="#Q"/>militer
+          ': dicendum quod verum est, sed differenter,
+          <lb ed="#Q"/>quia vemm est lux quantum ad intellectum spe<lb ed="#Q"/>culativum,
+          bonum est lux quantum ad practicum.
+          — Praeterea, lux duplicem habet effectum: manife<lb ed="#Q"/>stare
+          et movere. Est enim principium manifestandi
+          <lb ed="#Q"/>se et alia, ut dicit Au gustin u s, in quadam Ho<lb ed="#Q"/>milia
+          super Ioannem 2, ex illo verbo Eph. 5,13:
+          <lb ed="#Q"/>Quae arguantur, a lumine manifestantur: omne
+          <lb ed="#Q"/>enim quod manifestatur lumen est; et secundum
+          <lb ed="#Q"/>hunc modum ' verum est lux intelligibilis ', quia
+          <lb ed="#Q"/>principium manifestativum. Unde Hilarius 3:
+          « Verum est declarativum esse ». -— Item, est prin<cb ed="#Q" n="b"/><lb ed="#Q"/>cipium 
+          motivum. Unde corpora" quae non sunt
+          <lb ed="#Q"/>in participatione lucis, ut opaca et terrea, natu<lb ed="#Q"/>raliter
+          sunt immobilia; quae vero in participa<lb ed="#Q"/>tione
+          lucis, ut perspicua aqua et aer, sunt mo<lb ed="#Q"/>bilia,
+          sed non per se, et magis aör quam aqua,
+          <lb ed="#Q"/>quia magis est in participatione lucis; quorum
+          <lb ed="#Q"/>vero lux est de substantia sunt mobilia per se,
+          <lb ed="#Q"/>ut corpora caelestia et ignis: et hac ratione bo<lb ed="#Q"/>num,
+          quod est principium movendi, est lux in<lb ed="#Q"/>telligibilis.
+          Unde Dionysius4: « Bonum est
+          <lb ed="#Q"/>ad' quod omnia convertuntur et quod omnia
+          <lb ed="#Q"/>affectant ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e4147">
+          <lb ed="#Q"/>6. Ad ultimumf dicendum quod sicut ad
+          <lb ed="#Q"/>privationem vitae, quae est prima perfectio ani<lb ed="#Q"/>malis,
+          sequitur privatio sensus, sic ad privationem
+          <lb ed="#Q"/>speciei, secundum quam ponitur veritas, sequitur
+          <lb ed="#Q"/>privatio ordinis, secundum quem! accipitur bo<lb ed="#Q"/>nitas:
+          et ideo dicitur totum malum ex hoc pro<lb ed="#Q"/>venire.
+          Vel species dicitur dupliciter: scilicet per<lb ed="#Q"/>fectio
+          esse et bene esse; et totum malum secun—
+          <lb ed="#Q"/>dum hoc provenit ex privatione speciei, tamen
+          <lb ed="#Q"/>species secundum hoc se extendit ad bonitatem
+          <lb ed="#Q"/>sicut ad veritatem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

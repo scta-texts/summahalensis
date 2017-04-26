@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-26">April 26, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-26" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="601"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q2m2c2">
+        <head xml:id="ahsh-l1p2i2t2s1q2m2c2-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 2, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t2s1q2m2c2-Hd1e3744" type="question-title">AN NOS DICAMUR FILII DEI PER NATURAM VEL PER SOLAM GRATIAM.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c2-d1e3747">
+          <lb ed="#Q"/>secundo quaeritur an nos dicamur filiil per
+          <lb ed="#Q"/>naturam vel per solam gratiam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c2-d1e3754">
+          <lb ed="#Q"/>a. Cum enim sit in nobis duplex esse, scilicet na<lb ed="#Q"/>turae
+          et gratiae, aut ergo dicimur filii propter esse
+          <lb ed="#Q"/>naturae aut propter esse gratiae. Si propter esse
+          <lb ed="#Q"/>naturae: tunc quaelibet creatura potest dici fi<lb ed="#Q"/>lius
+          Dei sicut et rationalis, quoniam illo modo
+          .non dicitur Deus Pater '" nisi per creationem; sed
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c2-d1e3767">
+          <lb ed="#Q"/>Creator est omnium; ergo paternitas, quae inest
+          <lb ed="#Q"/>ei per creationem, erit respectu cuiuslibet crea<lb ed="#Q"/>turae.
+          Si autem dicimur filii solum propter esse
+          <lb ed="#Q"/>gratiae, hoc non videtur: dicimur enim filii'l
+          <lb ed="#Q"/>propter imaginem Dei, quae est in nobis; sed
+          <lb ed="#Q"/>imago" non differt nisi" secundum magis et mi—
+          <lb ed="#Q"/>nus in conformatione-" adDeum, prout dicitur
+          <lb ed="#Q"/>imago creationis et rec'reationis sive imago na<lb ed="#Q"/>turae
+          et gratiae; sed magis et minus non facit
+          <pb ed="#Q" n="602"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>differre filium a non-filio; ergo utroque modo
+          <lb ed="#Q"/>dicemur esse filii.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c2-d1e3799">
+          <lb ed="#Q"/>[Solutio]: Quod concedendum est. Rationalis
+          <lb ed="#Q"/>enimb creatura eo dicitur filius Dei in quantum ca<lb ed="#Q"/>pax
+          Dei est ; hoc autem est in quantum ad imaginem
+          <lb ed="#Q"/>et similitudinem Dei est c; et, in quantum capax Dei
+          <lb ed="#Q"/>est ", potest participare Deum ; et in quantum potest
+          <lb ed="#Q"/>participare Deum, potest esse deus participatione,
+          <lb ed="#Q"/>non natural; et ideo ratione praedictae capacita<lb ed="#Q"/>tis,
+          rationalis creatura tilius Dei appellatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

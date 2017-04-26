@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-07">April 07, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-04-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="460"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q3c2">
+        <head xml:id="ahsh-l1p1i2t1q3c2-Hd1e3741">I, P. 1, Inq. 2, Tract. 1, Q. 3, C. 2</head>
+        <head xml:id="ahsh-l1p1i2t1q3c2-Hd1e3744" type="question-title">AN SIT NUMERUS IN TRINITATE SICUT IN CREATURIS.</head>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e3747">
+          <lb ed="#Q"/>Secundo quaeritur, supposito quod in divino esse
+          <lb ed="#Q"/>S sit aliquo modo numerus personarum, quae<lb ed="#Q"/>ritur
+          si ibi est numerus per univocationem cum
+          <lb ed="#Q"/>creaturis, hoc est si est ibi vere numerus sicut
+          <lb ed="#Q"/>in creaturis.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e3760">
+          <lb ed="#Q"/>Ad quod sic: 1. Bo ethius 8 definit nume<lb ed="#Q"/>rum
+          dicens: « Numerus est acervus ex unitatibus
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>
+          <lb ed="#Q"/>profusus »; sed cum dicitur 'Pater est unus, Fi<lb ed="#Q"/>lius
+          est unus et alius, Spiritus Sanctus est unus
+          <lb ed="#Q"/>et alius ', colligitur" acervus trium ex unitatibus
+          <lb ed="#Q"/>praedictis; ergo est vere numerus per definitio<lb ed="#Q"/>nem<!--"--> 
+          numeri sicut est in creaturis.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e3784">
+          <lb ed="#Q"/>2. Secunda ratio. Ubicumque est dicere unitatem
+          <lb ed="#Q"/>et unitatem, est dicere dualitatem; ergo ubi est
+          <lb ed="#Q"/>dicere unitatem et unitatem et tertiam unitatem,
+          <pb ed="#Q" n="460"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>ibi est dicere ternarium; sed ita est dicere in
+          <lb ed="#Q"/>divinis personis, quia ibi est unitas qua Pater
+          <lb ed="#Q"/>est unus, et alia esta ab ista unitas qua Filius
+          <lb ed="#Q"/>est unus, et alia ab iis tertia unitas qua Spiritus
+          <lb ed="#Q"/>Sanctus est unus; ergo recte et vere est ibi b nu<lb ed="#Q"/>merus
+          ternarius.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e3811">
+          <lb ed="#Q"/>3. Tertia ratio. Pluralitas personarum plus po<lb ed="#Q"/>nit
+          in numerum quam pluralitas essentiarum. —
+          <lb ed="#Q"/>Quod patet: quia pluralitas essentiarum potest
+          <lb ed="#Q"/>esse in uno numero, ut pluralitas accidentium in
+          <lb ed="#Q"/>Sorte, nec ponunt ibi numerum, immo idem est
+          <lb ed="#Q"/>Sortes et Sortes0 albus, grammaticus etd musi<lb ed="#Q"/>cus';
+          sed pluralitas personarum non, sicut patet
+          <lb ed="#Q"/>de duobus angelis vel hominibus; pluralitas ergo **
+          <lb ed="#Q"/>personarum vere facit numerum in divinis; ergo
+          <lb ed="#Q"/>in personis vere est numerus sicut in creaturis.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e3835">
+          <lb ed="#Q"/>4. Quarta ratio. Richardus, inf libro De
+          <lb ed="#Q"/>Trinitatez: « Cum nominantur tres personae, in<lb ed="#Q"/>telliguntur
+          tres aliqui, quorum unusquisque sit
+          <lb ed="#Q"/>substantia rationalis naturae »; et cum dico ' per<lb ed="#Q"/>sona
+          ', intelligitur aliquis unus qui sit rationalis
+          <lb ed="#Q"/>substantia. Ubi igitur sunt plures personae, sunt
+          <lb ed="#Q"/>plures aliqui, et ubi tres personae, ibi tres aliqui.
+          <lb ed="#Q"/>Si ergo ternarius constituitur ex uno et alio et
+          <lb ed="#Q"/>tertio, relinquitur quod in divinis personis vere
+          <lb ed="#Q"/>est numerus.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e3859">
+          <lb ed="#Q"/>Ad oppositum: a. Est differentia secundum
+          <lb ed="#Q"/>substantiam et secundum accidens et secundum
+          <lb ed="#Q"/>relationem3: prima maior, secunda minor, tertia
+          <lb ed="#Q"/>minima. Si ergo differentia unitatum per accidens
+          <lb ed="#Q"/>non facit numerum simpliciter 4, ergo multo minus
+          <lb ed="#Q"/>differentia unitatum secundum relationem; sola
+          <lb ed="#Q"/>igitur unitatum differentia secundum substantiam
+          <lb ed="#Q"/>facit numerum simpliciter; sed haec non est in
+          <lb ed="#Q"/>divinis, sed sola illa quae est secundum relatio<lb ed="#Q"/>nem;
+          ergo non est ibi numerus simpliciter.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e3883">
+          <lb ed="#Q"/>b. Secunda ratio. Sola existentia plurium in
+          <lb ed="#Q"/>uno aufert distinctionem secundum numerum, ita
+          <lb ed="#Q"/>quod illa plura non faciunt numerum in illo; ergo
+          <lb ed="#Q"/>etg multo magis existentia plurium in uno quae
+          <lb ed="#Q"/>sunt'[ unum illud. Nam si inesse aufert rationem
+          <lb ed="#Q"/>numeri, multo magis unum esse alicui; sed plu<lb ed="#Q"/>ralitas
+          accidentium, quae insunt solum alicui, non
+          <lb ed="#Q"/>facit numerum, sicut pluralitas accidentiumi in
+          <lb ed="#Q"/>Sorte: non enim per hoc est numerosita'sk in
+          <lb ed="#Q"/>Sorte; cum ergo personae divinae sint idem quod
+          <lb ed="#Q"/>divina essentia, multo magis non faciunt nec po<lb ed="#Q"/>nunt
+          numerum in esse1 divino. Et con<lb ed="#Q"/>firmatur
+          hoc per exemplum: ponatur" quod
+          <lb ed="#Q"/>Sortes sit sua grammatica et sua musica, non
+          <lb ed="#Q"/>
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>esset Sortes ex iis numerabilis nec poneretur.nu-'
+          <lb ed="#Q"/>merus circa ipsum; ergo similiter ex parte divi<lb ed="#Q"/>narum
+          personarum, quae sunt idem quod divina
+          <lb ed="#Q"/>essentia.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e3929">
+          <lb ed="#Q"/>Solutio: Dicendum quod in divinis personis
+          <lb ed="#Q"/>non est numerus secundum univocationem cum
+          <lb ed="#Q"/>creaturis. ln creaturis enim est numerus qui est
+          <lb ed="#Q"/>accidens et quantitas, hic autem numerus non
+          <lb ed="#Q"/>potest esse in divinis personis — unde A mbro—
+          <lb ed="#Q"/>sius5 dicit quod in divinis" «personis non est
+          <lb ed="#Q"/>quantitas nec numerus — hic autem numerus est
+          <lb ed="#Q"/>numeruso simpliciter, et ideo in divinis non est
+          <lb ed="#Q"/>numerus simpliciter, sed numerus personarum. Ut
+          <lb ed="#Q"/>autem cognoscatur melius ex quibus unitatibus
+          <lb ed="#Q"/>sit numerus simpliciter, notandum quod numerus
+          <lb ed="#Q"/>est ex uno et uno; unum autem est quodP. est
+          <lb ed="#Q"/>in se indivisum et ab aliis divisum 6, et haec est
+          <lb ed="#Q"/>tota ratio unius sive unitatis. Est ergo in quibus<lb ed="#Q"/>dam
+          invenire unitatem secundum hanc totam ra<lb ed="#Q"/>tionem
+          unitatis, ut scilicet ibi inveniatur utrumque,
+          <lb ed="#Q"/>scilicet quod sit indivisum in se et abq aliis cli<lb ed="#Q"/>visum;
+          item, in quibusdam est unitas secundum
+          <lb ed="#Q"/>partem istius rationis, scilicet quod est 'ens indi-'
+          <lb ed="#Q"/>visum in .se solum, sed non ab aliis divisum. Uni<lb ed="#Q"/>tates,
+          in quibus utrumque invenitur, sunt unitates
+          <lb ed="#Q"/>substantiarum, ut Sortes, Plato; unitates autem,
+          <lb ed="#Q"/>in quibus alterum solum, sunt unitates pluriumf
+          <lb ed="#Q"/>accidentium in subiecto uno, ut grammatica et
+          <lb ed="#Q"/>musica in Sorte, et albedo et nigredo: albedo
+          <lb ed="#Q"/>enim in se indivisums est, sed non contingit di<lb ed="#Q"/>cere
+          quod sit divisa ab aliis plene sive ab alio,
+          <lb ed="#Q"/>quia accidentia per se non sunt, sed in substantiis.
+          <lb ed="#Q"/>Ex aggregatione ergo illarum unitatum, quae plene
+          <lb ed="#Q"/>habent rationem unitatis, dicendum quod sit nu<lb ed="#Q"/>merus
+          simpliciter, sed non ex aliis; hae autem
+          <lb ed="#Q"/>sunt unitates differentes substantia sive differen<lb ed="#Q"/>tium
+          substantiarum. Quia ergo unitatest divina<lb ed="#Q"/>rum
+          personarum non sunt tales, ideo non faciunt
+          <lb ed="#Q"/>numerum simpliciter vel ternarium, sed Trinitatem
+          <lb ed="#Q"/>solum, hoc est trium unitatem, quia tres illae uni<lb ed="#Q"/>tates
+          personales sunt una unitas" et non sunt
+          <lb ed="#Q"/>ternarius. Ita ergo patet quod acervus unitatum
+          <lb ed="#Q"/>in divinis personis non facit numerum simpli<lb ed="#Q"/>citer,
+          sicut est numerus in creaturis, et causa
+          <lb ed="#Q"/>dicta est.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e4020">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primam ergo rationem di<lb ed="#Q"/>cendum
+          quod *numerus est acervus unitatum, etc.,
+          <lb ed="#Q"/>hoc est verum: unitatum quae non sunt unum nec
+          <lb ed="#Q"/>insunt uni; sic non est hic, immo in divinis per<lb ed="#Q"/>sonis
+          colligitur unum et unum masculine solum,
+          <pb ed="#Q" n="461"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>quae tamen sunt unum neutraliter", hoc est una
+          <lb ed="#Q"/>essentia; et propter hoc in ipsis dicitur unum in
+          <lb ed="#Q"/>se indivisum, sed nonb ab aliis divisum secundum
+          <lb ed="#Q"/>essentiam, quia sunt una essentia.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e4047">
+          <lb ed="#Q"/>2. Ad secundam rationem dicendum quod
+          <lb ed="#Q"/>ratio illa procedit de unitatibus differentium sub<lb ed="#Q"/>stantiarum;
+          unitates autem personales in divinis
+          <lb ed="#Q"/>sunt una unitas essentialis, et ideo non procedit
+          <lb ed="#Q"/>ratio de illis, nec in eis est discretio quae est in
+          <lb ed="#Q"/>numero simpliciter 1.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e4063">
+          <lb ed="#Q"/>3. Ad tertiam rationem ': qua obiciturd quod
+          *pluralitas personarum plus ponit in numerum
+          <lb ed="#Q"/>quam pluralitas essentiarum': dicendum quod
+          <lb ed="#Q"/>hoc verum est ubi pluralitase personarum sup<lb ed="#Q"/>ponit
+          pluralitatem essentiarum, non autem ubi est
+          <lb ed="#Q"/>unitas essentiae in personis 2. Nam sicut plures
+          <lb ed="#Q"/>essentiae perf se faciunt numerum simpliciter,
+          <lb ed="#Q"/>plures tamen essentiae vel naturae in aliquo pos<lb ed="#Q"/>sunt
+          uniri, ita quod non faciant numerum, ut in
+          <lb ed="#Q"/>homine sunt plures naturae in una persona non
+          <lb ed="#Q"/>facientes numerum simpliciter, ita nec in una na<lb ed="#Q"/>tura
+          divina plures personae faciunt numerum sim<lb ed="#Q"/>pliciter,
+          sed solum numerum personarum, sicut
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>in uno homine est numerus naturarum, non tamen
+          <lb ed="#Q"/>numerus simpliciter.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c2-d1e4098">
+          <lb ed="#Q"/>4; Ad quartam rationem dicendum quod ex
+          <lb ed="#Q"/>uno etalio et tertio constituitur numerus simpli<lb ed="#Q"/>citer,
+          cum suntg dii-ferentium substantiarum; cum
+          <lb ed="#Q"/>vero sunt unius substantiae, non proprie consti<lb ed="#Q"/>tuitur
+          ex" eis numerus ternarius, ut patet, quia
+          <lb ed="#Q"/>numerus ternarius ubi est, requiritur quod sit dif<lb ed="#Q"/>ferens
+          substantia in tribus. Est autem indifferens
+          <lb ed="#Q"/>unitas substantiae in tribus personis divinis; ideo
+          <lb ed="#Q"/>non est ex eis numerus ternarius, sed solum « nu<lb ed="#Q"/>merositash
+          Trinitatis ». Unde Boethius, in libro
+          <lb ed="#Q"/>De Trinitate3: « Quoniami nulla relatio 'ad se
+          <lb ed="#Q"/>ipsum'k referri potest idcirco quod ea 'secundum
+          <lb ed="#Q"/>se ipsum' est praedicatio quae relatione caret,
+          <lb ed="#Q"/>facta est quaedam Trinitatis numerositas in eo
+          <lb ed="#Q"/>quod est' praedicatio relationis, servata vero
+          <lb ed="#Q"/>unitas in eo quod est indifferentia'" substantiae
+          <lb ed="#Q"/>vel operationis vel omnino eius quae secundum
+          <lb ed="#Q"/>se dicitur praedicationis». Sed numerus secun<lb ed="#Q"/>dum
+          relationem non'' est numerus simpliciter,
+          <lb ed="#Q"/>immo solum cum determinatione, ut dicatur nu<lb ed="#Q"/>merus
+          personarum aut numerus Trinitatis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

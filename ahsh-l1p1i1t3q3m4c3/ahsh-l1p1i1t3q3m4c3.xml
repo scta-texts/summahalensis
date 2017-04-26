@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="125"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m4c3">
+        <head xml:id="ahsh-l1p1i1t3q3m4c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t3q3m4c3-Hd1e3744" type="question-title">QUOMODO MALUM-HABEAT SUBSISTENTIAM IN BONO NATURAE.</head>
+        <p xml:id="ahsh-l1p1i1t3q3m4c3-d1e3747">
+          <lb ed="#Q"/>Tertio quaeritur qualiter malum habeat subsi<lb ed="#Q"/>stentiam 
+          in bono naturae 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c3-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: 1. Nullum contrarium. est in suo 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>contrario5 ; malum' culpae est in bono naturae;
+          <lb ed="#Q"/>ergo 'non est illi contrarium.
+          </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c3-d1e3765">
+          <lb ed="#Q"/>2. Cum ergo habitum sit quod malum culpae 
+          <lb ed="#Q"/>oppositum sit bono naturae mediante aliquo'
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c3-d1e3773">
+          <pb ed="#Q" n="195"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>malo poenae ', quaeritur quomodo differat ip<lb ed="#Q"/>sum
+          bonum secundum quod est ut contrarium
+          <lb ed="#Q"/>malo et secundum quod est ut" subiectum ip<lb ed="#Q"/>sius.
+          — Quod autem idem sit bonum
+          <lb ed="#Q"/>naturae penitus quod habet malum
+          <lb ed="#Q"/>pro subiecto et pro contrario, videtur
+          <lb ed="#Q"/>hoc modo. Posset enim dici quodbonum, cui
+          <lb ed="#Q"/>est malum contrarium 17, sunt ipsae habilitates
+          <lb ed="#Q"/>quas corrumpit; bonum autem, quod est sicut
+          <lb ed="#Q"/>mali subiectum'et non contrarium, est ipsa prima
+          <lb ed="#Q"/>natura et essentia liberi arbitrii in quo sunt ha<lb ed="#Q"/>bilitates
+          illae. Sed quod malumsit in ipsis ha<lb ed="#Q"/>bilitatibus
+          ut in subiectis ostenditur hoc modo.
+          <lb ed="#Q"/>Sit Cc malum quod. est corruptivum. habilita<lb ed="#Q"/>tum;
+          sit A illud bonum quod iam corruptum
+          <lb ed="#Q"/>vel diminutum est; subiectum autemd primum
+          <lb ed="#Q"/>et residuum boni, quod non est adhuc dimi<lb ed="#Q"/>nutum,
+          sit B. Tunc quaeritur: B diminubile
+          <lb ed="#Q"/>est adhuc nonnisi per C, quia nonnisi per
+          <lb ed="#Q"/>malum quod est in ipso; si ergo diminuitur
+          <lb ed="#Q"/>per malum quod est in ipso ete diminuitur
+          <lb ed="#Q"/>per C, [C] ergo in B est ut in subiecto; sed B
+          <lb ed="#Q"/>dicebat ipsam habilitationem; erit ergo malum in
+          <lb ed="#Q"/>ipsa habilitatione cui est contrarium, sicut in
+          <lb ed="#Q"/>subiecto: et itaf idem erit omnino contrarium
+          <lb ed="#Q"/>et subiectum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c3-d1e3836">
+          <lb ed="#Q"/>3. Item, quaeritur: dicit Augustinus, in En—
+          <lb ed="#Q"/>chiridion 2, quodg in hoc loco deficit regula dia<lb ed="#Q"/>lecticorum,
+          quae est: contraria simul, esse non
+          <lb ed="#Q"/>posse aut unum contrariorum non esse in alio 3.
+          <lb ed="#Q"/>Sed quaeritur ergo quomodo hoc possit esse. De
+          <lb ed="#Q"/>ratione enim contrarii est ut non possit compati
+          <lb ed="#Q"/>suum contrarium 4, nec etiam intellectus capere
+          <lb ed="#Q"/>posset quod contrarium sit subsuo contrario.
+          <lb ed="#Q"/>Solutio: Dicimus quod duplex fuit bonum na<lb ed="#Q"/>turae
+          in ipsa anima respondens malo. Fuit enim
+          <lb ed="#Q"/>ipsa substantia liberi arbitrii, quae nullo modo
+          <lb ed="#Q"/>fuit diminubilis per malum. Dic-it enim Diony<lb ed="#Q"/>sius5
+          quod « nihil existentium corrumpitur se<lb ed="#Q"/>cundum
+          quod essentia" vel natura, sed defectui
+          <lb ed="#Q"/>iuxta naturam ordinis, harmoniae et commensu<lb ed="#Q"/>rationis
+          » 'fit corruptum' supple; unde non
+          <lb ed="#Q"/>vult quod'f per corruptionem naturae primae
+          <lb ed="#Q"/>corrumpatur aliquid a malo, sed per corruptio<lb ed="#Q"/>nem
+          naturalium habitudinum, quae sunt iuxta
+          <lb ed="#Q"/>naturam illam primam, ad bonum gratuitum.
+          <lb ed="#Q"/>Illae ergo habilitationes, modus, species et ordo,
+          <lb ed="#Q"/>sive « commensuratio » quam dicit Dionysius
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>pro eo quod est modus, et «harmonia» loco
+          <lb ed="#Q"/>speciei, sunt mediae inter illam naturam et
+          <lb ed="#Q"/>bonum gratuitum ad quod ordinant vel ha<lb ed="#Q"/>bilitant
+          ipsam; illa ergo natura non diminu<lb ed="#Q"/>bilis
+          malo substernitur..Aliud vero bonum quod
+          <lb ed="#Q"/>diminubile est a malo, etsi non omnino cor<lb ed="#Q"/>ruptibile,
+          scilicet ipsae habilitates5 sunt bo<lb ed="#Q"/>num
+          contrarium malo. Bonum autem primum
+          <lb ed="#Q"/>non est malo contrarium, sed est subiectum ope<lb ed="#Q"/>rationis
+          illius, quae est inter ' malum et ipsas
+          <lb ed="#Q"/>habilitates; unde erat possibile ad habilitatem
+          <lb ed="#Q"/>maiorem ad bonum vel ad minorem, non ad nul<lb ed="#Q"/>lam,
+          quia non potuit totaliter esse privatio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c3-d1e3917">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Et sic patet solutio ad pri<lb ed="#Q"/>mum, 
+          quoniam contrarium non est in suo con<lb ed="#Q"/>trario.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c3-d1e3926">
+          <lb ed="#Q"/>2. Ad aliud quod obicitur secundo" quod
+          'malum oportet esse in ipsis habitudinibus':
+          <lb ed="#Q"/>dicimus quod, cum habilitas sit media inter
+          <lb ed="#Q"/>subiectum primum et bonum gratuitum, dupli<lb ed="#Q"/>cem
+          habet comparationem: unam ad naturam
+          <lb ed="#Q"/>cuius est, a qua tenetur, et secundum istam
+          <lb ed="#Q"/>comparationem nec corrumpitur nec diminui<lb ed="#Q"/>tur;
+          aliam vero ad id ad quod ordinat vel
+          <lb ed="#Q"/>habilitat: et quia malum proprie tollit hunc
+          <lb ed="#Q"/>ordinem qui fuit ad bonum gratiae, ideo quan<lb ed="#Q"/>tum
+          ad hanc comparationem diminuitur ipsa
+          <lb ed="#Q"/>habilitas et plus et minus, secundum quod est"
+          <lb ed="#Q"/>maius vel minus malum. Quia ergo quoad pri<lb ed="#Q"/>mam
+          comparationem, scilicet ad naturam a qua
+          <lb ed="#Q"/>tenetur, non diminuitur 7, patet etiam" quod
+          <lb ed="#Q"/>adhuc ipsa habilitas secundum!" illam viam non
+          <lb ed="#Q"/>est in ratione contrarii ipsi malo, et ideo ce<lb ed="#Q"/>dit
+          in naturam subiecti vel substrati; secun<lb ed="#Q"/>dum
+          autem viam in qua diminuitur, non est
+          <lb ed="#Q"/>in ratione substrati, sed contrarii. Concedo ergo
+          <lb ed="#Q"/>quod malum in ipsis habilitatibus est, sed non
+          <lb ed="#Q"/>secundum quod contrariantur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q3m4c3-d1e3974">
+          <lb ed="#Q"/>3. Ex hoc etiam apparet quod non est intelli<lb ed="#Q"/>gendum
+          quod contrarium sit in contrario per mo<lb ed="#Q"/>dum?
+          quo contrariantur: hoc enim non esset in<lb ed="#Q"/>telligibile
+          nec hoc' voluit dicere Augustinus,
+          <lb ed="#Q"/>sed quod aliquid sit in aliquo quod ei subicitur
+          <lb ed="#Q"/>quoad aliquid et quoad aliquid contrariatur; hoc
+          <lb ed="#Q"/>enim non est inconveniens. Hoc8 tamen fre<lb ed="#Q"/>quenter
+          non invenitur, nisi in huiusmodi, quod
+          <lb ed="#Q"/>idem sit secundum substantiam contrarium et
+          <lb ed="#Q"/>subiectum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="230"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q3c1">
+        <head xml:id="ahsh-l1p1i1t4q3c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 3, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t4q3c1-Hd1e3744" type="question-title">QUID SIT SIMPLICITER POSSIBILE ET IMPOSSIBILE</head>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3747">
+          <pb ed="#Q" n="230"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Ad primum nota tres opiniones <!--2-->, quarum
+          <lb ed="#Q"/>prima est dicentium: quod est" possibile se<lb ed="#Q"/>cundum 
+          inferiores causas est possibile simpliciter
+          <lb ed="#Q"/>et solum 3. —- Alii dicunt: quod estb possibile se<lb ed="#Q"/>cundum
+          superiorem causam est simpliciter possi<lb ed="#Q"/>bile
+          4. — Alii dicunt, quasi c tenentes viam me<lb ed="#Q"/>diam,
+          « quod non solum dicitur possibile secun<lb ed="#Q"/>dum
+          inferiores causas nec solum secundum su<lb ed="#Q"/>periores,
+          sed aliquando secundum has 4, aliquando
+          <lb ed="#Q"/>secundum illas, dicitur possibile secundum diversa
+          <lb ed="#Q"/>adiuncta 5 ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3780">
+          <lb ed="#Q"/>I. Contra primam obicitur hoc modo: 1. Quod
+          <lb ed="#Q"/>potest causa inferior, potest superior; et non po<lb ed="#Q"/>test
+          inferior causa contradicere superiori; ergo
+          <lb ed="#Q"/>illud est simpliciter possibile quod potest causa
+          <lb ed="#Q"/>superior.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3793">
+          <lb ed="#Q"/>2. Item, [ Cor.-l,20: Stultum fecit Deus sapien<lb ed="#Q"/>tiam
+          huius mundi. Glossaa5: « Sapientia mun<lb ed="#Q"/>di
+          2, ubi stultum- et infirmum Dei contemnitur,
+          <lb ed="#Q"/>quod est secundum rationes huius mundi, quae
+          <lb ed="#Q"/>impossibile iudicatf quod in naturis rerum non
+          <lb ed="#Q"/>reperitur; hanc Deus stultam fecit, possibile fore
+          <lb ed="#Q"/>declarando quod illa impossibile iudicat ». Ergo
+          <lb ed="#Q"/>possibile secundum superiorem causam est pos<lb ed="#Q"/>sibile
+          simpliciter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3816">
+          <lb ed="#Q"/>3. Item, verum est differentia possibilis; omne
+          <lb ed="#Q"/>ergo verum est possibile; sed virginem fore pa<lb ed="#Q"/>rituram
+          erat verum, quando Prophetae istud prae<lb ed="#Q"/>dicebant-9
+          ; ergo erat simpliciter possibile; sed non
+          <lb ed="#Q"/>secundum interiorem causam; ergo secundum su<lb ed="#Q"/>periorem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3832">
+          <lb ed="#Q"/>4. Item, animam creari est possibile simpliciter;
+          <lb ed="#Q"/>sed non secundum causam inferiorem; igitur se<lb ed="#Q"/>cundum
+          superiorem 7.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3841">
+          <lb ed="#Q"/>5. Item, Deum esse bonum et trinum et unum est
+          <lb ed="#Q"/>necessarium; ergo est possibile l'; sed non secun<lb ed="#Q"/>dum
+          interiores causas' ; ergo secundum superiores.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3850">
+          <lb ed="#Q"/>6. Item, si aliquidk sequitur ad aliud, si pri<lb ed="#Q"/>mum
+          est' possibile, et secundum S.; sed bene' se<lb ed="#Q"/>quitur
+          'si Deus facit quod virgo, manens virgo,
+          <lb ed="#Q"/>pariat, virgo, manens virgo, parit'; sed primum
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>est possibile simpliciter, scilicet quod Deus facit
+          <lb ed="#Q"/>virginem parere -'" ; ergo virginem parere simpli<lb ed="#Q"/>citer
+          est possibile. Relinquitur igitur: quod pos<lb ed="#Q"/>sibile
+          est secundum causam superiorem est pos<lb ed="#Q"/>sibile
+          simpliciter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3874">
+          <lb ed="#Q"/>Et haec est opinio secunda.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3879">
+          <lb ed="#Q"/>II. Contra quam obicitur: 1. Matth. 19, 26:
+          <lb ed="#Q"/>Omnia sunt possibilia Deo. Quaeritur ergo: aut fit
+          <lb ed="#Q"/>distributio pro possibili simpliciter aut non. Si- pro
+          <lb ed="#Q"/>possibili simpliciter: non est magna laus divinae
+          <lb ed="#Q"/>potentiae, quod scilicet possit ea quae sunt sim<lb ed="#Q"/>pliciter
+          possibilia; cum ergo hoc" dicatur in lau<lb ed="#Q"/>dem
+          divinae potentiae, non fit distributio pro pos<lb ed="#Q"/>sibilibus
+          simpliciter, sed pro impossibilibus; si
+          <lb ed="#Q"/>hoc, ergo impossibile est possibile. -— Si di<lb ed="#Q"/>catur
+          quod non sequitur, quia ex impossibili se<lb ed="#Q"/>cundum
+          quid infertur possibile simpliciter —. [c o n<lb ed="#Q"/>tra]:
+          cum enim dicitur 'omnia possibilia sunt
+          <lb ed="#Q"/>Deo', includitur quod est possibile secundum
+          <lb ed="#Q"/>quid; ex hoc ergo relinquitur quod 'possibile
+          <lb ed="#Q"/>Deo ' non ponit possibile simpliciter; ergo .pos—
+          <lb ed="#Q"/>sibile secundum causam superiorem non est.0 pos<lb ed="#Q"/>sibile
+          simpliciter, sed secundum causam inferiorem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3919">
+          <lb ed="#Q"/>2. Item, cum dicitur 'virginem, manentem vir<lb ed="#Q"/>ginem,
+          parere, est possibile Deo, vel caecum vi<lb ed="#Q"/>dere
+          ', haec possibilitas est cum contrario actu
+          <lb ed="#Q"/>materiae; illa vero possibilitas, quae est!' secun<lb ed="#Q"/>dum
+          causam inferiorem, est sine omni contrarie<lb ed="#Q"/>tate/;
+          ergo illud est simpliciter possibile quod est
+          <lb ed="#Q"/>secundum inferiorem causam et naturam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3937">
+          <lb ed="#Q"/>3. Item, quod est possibile secundum omnem
+          <lb ed="#Q"/>modum et solum est possibile simpliciter; sed
+          <lb ed="#Q"/>quod est possibile secundum interiorem causam
+          <lb ed="#Q"/>est possibile secundum omnem modum, quia est
+          <lb ed="#Q"/>possibile respectu causae interioris et superioris:
+          <lb ed="#Q"/>quia quidquid potest causa inferior, potest causa 
+          <lb ed="#Q"/>superior; ergo illud est possibile simpliciter; pos<lb ed="#Q"/>sibile
+          vero solum secundum causam superiorem
+          <lb ed="#Q"/>non est possibile secundum omnem modum; re<lb ed="#Q"/>linquitur
+          ergo quod non est possibile simpliciter 9.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3961">
+          <pb ed="#Q" n="231"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>4. Item, videtur per se oppositio in extremis,
+          <lb ed="#Q"/>cum dicitur ' virgo parit'; sed ubi est per se op<lb ed="#Q"/>positio
+          in extremis est impossibile per se, ut al<lb ed="#Q"/>bum
+          esse nigrum; ergo per se impossibile est
+          <lb ed="#Q"/>virginem, manentem virginem, parere. Ex iis ergo
+          <lb ed="#Q"/>relinquitur quod illud quod est possibile " secun<lb ed="#Q"/>dum
+          causam inferiorem est possibile simpliciter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e3983">
+          <lb ed="#Q"/>III. Propter ista obiecta tertia opinio est
+          <lb ed="#Q"/>quod 'possibile'b « aliquando dicitur secundum
+          <lb ed="#Q"/>causas inferiores, aliquando secundum f causas su<lb ed="#Q"/>periores,
+          quia haec dictio 'possibile' secundum
+          <lb ed="#Q"/>diversa adiuncta copulat pro diversis possibili<lb ed="#Q"/>bus
+          d. Unde cum dicitur ' possibile est Deum esse
+          <lb ed="#Q"/>bonum ', haec dictio * * possibile' copulat pro pos<lb ed="#Q"/>sibilitate
+          secundum causas superiores, et ideo vera
+          <lb ed="#Q"/>est; cum vero dicitur 'possibile est caecum vl<lb ed="#Q"/>dere
+          ', copulat pro possibilitate secundum causas
+          <lb ed="#Q"/>inferiores, et ideo falsa est. Istorum sententia est
+          <lb ed="#Q"/>quod 'virginem peperisse' modo est possibile, ali<lb ed="#Q"/>quando
+          tamen fuit impossibile. Et Deus de im<lb ed="#Q"/>possibili
+          iacit possibile duobus modis: uno modo
+          <lb ed="#Q"/>reparando naturam, sicut in caeco illuminato, et
+          <lb ed="#Q"/>tunc potentia miraculosa, sed actus naturalis;
+          <lb ed="#Q"/>aliof modo dando novam potentiam, sicut dedit
+          <lb ed="#Q"/>B. <!--g--> Virgini potentiam concipiendi sine viro, et est
+          <lb ed="#Q"/>haec potentia miraculosa et actus miraculosus 1 ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4029">
+          <lb ed="#Q"/>Contra: 1. « Si aliquid est album aliqua albe<lb ed="#Q"/>dine,
+          est album simpliciter; ergo si aliquid est
+          <lb ed="#Q"/>possibile aliqua possibilitate est possibile simpli<lb ed="#Q"/>citer;
+          sed virginem, manentem virginem, parere
+          <lb ed="#Q"/>fuit semper- possibile aliqua possibilitate"; ergo
+          <lb ed="#Q"/>simpliciter iuit possibile ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4045">
+          <lb ed="#Q"/>2. Item, Augustinus, Super Genesimzz « In
+          <lb ed="#Q"/>costa erat ut ex ea'posset fieri mulier, sed non
+          <lb ed="#Q"/>ut ex ea fieret mulier »; similiter in caeco est ut
+          <lb ed="#Q"/>possit fieri videns. Arguitur ergo hoc modo:
+          « In quocumque est potentia currendi, in eo est
+          <lb ed="#Q"/>ut currat3 »; ergo simili ratione, in quocumque est
+          <lb ed="#Q"/>potentia videndi, in eo est ut videat; ergo in caeco
+          <lb ed="#Q"/>erit potentia ut videat, et « in costa ut ex ea fiat
+          <lb ed="#Q"/>mulier »; ergo caecum videre et costam iieri mu<lb ed="#Q"/>lierem
+          est possibile simpliciter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4068">
+          <lb ed="#Q"/>3. Item, loquamur de caeco illuminato pro tem—
+          <lb ed="#Q"/>pore ante illuminationem: caecus videbit; ergo
+          <lb ed="#Q"/>possibile est caecum videre; ergo iste caecus po<lb ed="#Q"/>test
+          videre.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4079">
+          <lb ed="#Q"/>4. Item, possibile est hunc caecum habere po<lb ed="#Q"/>tentiam
+          videndi, quia iam erit verum cum fiet
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>miraculum; sed si habet potentiam videndi, pos<lb ed="#Q"/>sibile
+          est videre; ergo possibile esth hunc cae<lb ed="#Q"/>cum-
+          videre 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4095">
+          <lb ed="#Q"/>Respondeo: Dicendum quod intentio 'possibi<lb ed="#Q"/>lis'
+          solet dici de dicto et de re subiecta. Secun<lb ed="#Q"/>dum
+          quod dicitur de dicto, noni pertinet ad prae<lb ed="#Q"/>sentem
+          quaestionem, quiak dictum 'possibile'
+          <lb ed="#Q"/>dicitur respectu veritatis necessariae vel contin<lb ed="#Q"/>gentis
+          5 in dicto, quae quidem fundatur in affirma<lb ed="#Q"/>tionibus
+          et negationibus, et secundum omne ge<lb ed="#Q"/>nus'
+          causalitatis; et tantum" de hoc intendebant
+          <lb ed="#Q"/>qui erant tertiae opinionis. - 'Possibile'
+          <lb ed="#Q"/>vero de re subiecta potest accipi proprie vel ap<lb ed="#Q"/>propriate.
+          Appropriate, secundum quod ascendit'z
+          <lb ed="#Q"/>scientia Theologiae, quae intendit" in causam su<lb ed="#Q"/>periorem:
+          et hoc modo dixerunt ' possibile ' quod
+          <lb ed="#Q"/>est possibile secundum causam superiorem, qui
+          <lb ed="#Q"/>iuerunt secundae opinionisö, prout ascen<lb ed="#Q"/>dunt
+          nomina, sicut ascendunt scientiae, sicut in<lb ed="#Q"/>tentio
+          totius in geometricis pro toto continuo, in lo<lb ed="#Q"/>gicis
+          pro toto universali, in metaphysicisP pro toto
+          <lb ed="#Q"/>perfecto 7. - Proprie vero ' possibile' [est] quod
+          <lb ed="#Q"/>est possibile secundum causam inferiorem, quia
+          <lb ed="#Q"/>illud est possibile et secundum superiorem, et
+          <lb ed="#Q"/>ideo ex parte agentis omnino possibile;.praeterea,
+          <lb ed="#Q"/>ex parte materiae est potentia et aptitudo seu
+          <lb ed="#Q"/>privatio, sicut patet in naturalibus et artificiali<lb ed="#Q"/>bus:
+          et hoc modo intendebant, et recte, qui fue<lb ed="#Q"/>runt
+          primae opinionis, quia possibile sim<lb ed="#Q"/>pliciter
+          et proprie [est] quod est possibile secun<lb ed="#Q"/>dum
+          causam interiorem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4158">
+          <lb ed="#Q"/>Ad obiecta vero per ordinem respondendum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4163">
+          <lb ed="#Q"/>I. 1. Ad primum dicendum quod verum est
+          <lb ed="#Q"/>quod causa interior non contradicit superiori ; sed
+          <lb ed="#Q"/>dispositioq in causa inferiori potest contradicere
+          <lb ed="#Q"/>actioni quae potest elici a causa superiori, ut
+          <lb ed="#Q"/>patet: oculus caecus non contradicit causae' su<lb ed="#Q"/>periori,
+          sed tamen caecitas, quae est dispositio
+          <lb ed="#Q"/>in oculo, contradicit actui videndi qui potest elici
+          <lb ed="#Q"/>a causa superiori; nec diciturs possibile simpli<lb ed="#Q"/>citer
+          quod tantum est possibile.Deo,,sed quod est
+          <lb ed="#Q"/>possibile secundum omnem modum; videre autem
+          <lb ed="#Q"/>non est possibile secundum istumf modum isti
+          <lb ed="#Q"/>caeco, licet'sit possibile Deo; unde non est pos<lb ed="#Q"/>sibile
+          simpliciter. Et notanda est differentia in
+          <lb ed="#Q"/>actionibus naturalibus et miraculosis: in miracu<lb ed="#Q"/>losis
+          enim praecedit actus potentiam, sed in na<lb ed="#Q"/>turalibus
+          praecedit potentia, deinde sequitur actus.
+          <lb ed="#Q"/>Et inde est quod hic ponitur simpliciter possibile,
+          <pb ed="#Q" n="232"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>quia potentia praecedit actum; ibi vero" non,
+          <lb ed="#Q"/>quia actus praecedit potentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4211">
+          <lb ed="#Q"/>2. Ad illud quod obicitur I Cor. 1,20: Stul<lb ed="#Q"/>tam
+          fecit Deus sapientiam etc. inb Glossa,
+          <lb ed="#Q"/>respondeo: ibi loquitur de possibilic secundum
+          <lb ed="#Q"/>proprietatem Theologiae; unde sensus illius lo<lb ed="#Q"/>cutionis
+          est talis: « sapientia mundi iudicat impos<lb ed="#Q"/>sibile
+          » non solum secundum causam inferiorem,
+          <lb ed="#Q"/>sed etiam secundum causam superiorem, « quod
+          <lb ed="#Q"/>in naturis rerum non reperitd »; sed « Deus decla<lb ed="#Q"/>ravit
+          sibi fore possibile »; unde sumitur ibi ' pos<lb ed="#Q"/>sibile'
+          pro possibili Deo secundum proprietatem
+          <lb ed="#Q"/>Theologiae, quia loquitur de incarnatione et pas<lb ed="#Q"/>sione
+          et potentia incarnationis et passionis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4241">
+          <lb ed="#Q"/>5. Ad illud quod quaeritur 'utrum possibile
+          <lb ed="#Q"/>sit virginem parere ', dicendum * quod haec est du<lb ed="#Q"/>plex
+          ' virginem parere est possibile ': potest enim
+          <lb ed="#Q"/>intelligi de re vel de dicto. Si de re subiecta,
+          <lb ed="#Q"/>falsa est, et est sensus: '.virgo potest parere ', id
+          <lb ed="#Q"/>est ' habet potentiam pariendi '; nulla enim virgo
+          <lb ed="#Q"/>ad hoc habuit possibilitatem, donec B. Virgini
+          <lb ed="#Q"/>data fuit illa potentia, sicut dicit Damasce<lb ed="#Q"/>nus':
+          «Spiritus Sanctus supervenitf purgans
+          <lb ed="#Q"/>ipsam et virtutem generativam Verbi Dei tri<lb ed="#Q"/>buens
+          ». Si intelligatur de dicto, vera est, et est
+          <lb ed="#Q"/>sensus: hoc dictum *virginem parere, est pos<lb ed="#Q"/>sibile;
+          nec notatur potentia respectu rei subiectae,
+          <lb ed="#Q"/>sed respectu dicti; et notatur possibilitas secun<lb ed="#Q"/>dum
+          causam superiorem, sicut antequam mundus
+          <lb ed="#Q"/>esset, fuit possibile mundum tore, scilicet quoad
+          <lb ed="#Q"/>Deum: et haec estg possibilitas in dicto, quae
+          <lb ed="#Q"/>fundatur. in causa agente, non in materia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4283">
+          <lb ed="#Q"/>6. Quod'' obicitur *si aliquid sequitur ad
+          <lb ed="#Q"/>aliud, si antecedens est possibile, et consequens ',
+          <lb ed="#Q"/>non sequitur generaliter; sequitur tamen sumpto
+          <lb ed="#Q"/>possibili in eodem genere. Est autemï possibilitas
+          <lb ed="#Q"/>secundum causam inferiorem et superiorem; nec
+          <lb ed="#Q"/>sequitur ' aliquid est possibile secundum causam
+          <lb ed="#Q"/>superiorem, ergo et secundum * inferiorem '. * Pos<lb ed="#Q"/>sibile'
+          autem determinatur secundum adiunctum,
+          <lb ed="#Q"/>ut quando coniungitur' cum dictione notante cau<lb ed="#Q"/>sam
+          superiorem, notatur *possibile' secundum
+          <lb ed="#Q"/>causam superiorem ; sed cum dicitur '" ' virgo po<lb ed="#Q"/>test
+          parere ', notatur possibile simpliciter et re<lb ed="#Q"/>spectu
+          causae inferioris; cum vero dicitur ' possi<lb ed="#Q"/>bile
+          est quod Deus faciat virginem parere ', no<lb ed="#Q"/>tatur
+          possibilitas secundum causam superiorem.
+          <lb ed="#Q"/>Unde habent quidam2 pro regula quod non
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sequitur: ' si est veritas in essentia, quod sit pos<lb ed="#Q"/>sibilitas
+          in natura ', quia veritatem in essentia facit
+          <lb ed="#Q"/>causa. superior, ut asinam loquia vel virginem
+          <lb ed="#Q"/>parere, deficiente possibilitate causae inferioris. Vel
+          <lb ed="#Q"/>melius 'est ut dicamus3: « 'omne verum est pos<lb ed="#Q"/>sibile';
+          unde'1 sicut 'verum' ampliatur ad ea quae
+          <lb ed="#Q"/>fiunt secundum causam superiorem, ita 'possibi<lb ed="#Q"/>le":
+          verum enim est species possibilis 4. Non
+          <lb ed="#Q"/>est enimd concedendum quod aliquid sit possi—
+          <lb ed="#Q"/>bile nisi in veritate sit vel secundum naturam
+          <lb ed="#Q"/>fieri possit. Unde non c0ncedimus dictum *? *facere
+          <lb ed="#Q"/>loqui asinam Balaam5 esse possibile', quia nec
+          <lb ed="#Q"/>in veritate est nec secundum naturam fieri po<lb ed="#Q"/>test;
+          sed tamen concedimus Deumposse hoc
+          <lb ed="#Q"/>facere ; utf autem fiat sermo de re, non de dicto,
+          <lb ed="#Q"/>possibile est Deo «tacere asinam Balaam loqui;
+          <lb ed="#Q"/>et sic verum fuit et possibile asinam Balaam 10<lb ed="#Q"/>qui,
+          sed modo nec vcrum est nec possibile».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4361">
+          <lb ed="#Q"/>4. Ad illud quod obicitur de creatione-? ani<lb ed="#Q"/>mae:
+          dicendum quod'l possibile secundum natu<lb ed="#Q"/>ram
+          dicitur duobus modis'". Uno modo, cuius prin<lb ed="#Q"/>cipium
+          est natura sive cuiusk principium est in
+          <lb ed="#Q"/>natura; alio modo, quod non est a potentia naturae,
+          <lb ed="#Q"/>sed tamen est consuetum ut fiat in natura a causa
+          <lb ed="#Q"/>superiori, secundum quod dicitur 'consuetudo est
+          <lb ed="#Q"/>altera natura' 6, ut creatio, et iustificatio et huius—
+          <lb ed="#Q"/>modi. Simpliciter ergo possibile dicitur quod est
+          <lb ed="#Q"/>possibile secundum naturam istis duobus modis;
+          <lb ed="#Q"/>unde etiam definitur miraculum' per arduum et
+          <lb ed="#Q"/>insolitum7: per arduum, quia eius principium non
+          <lb ed="#Q"/>est natura; et per insolitum, quia non est consue<lb ed="#Q"/>tum
+          ut fiat in natura, licet non a natura 3.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4394">
+          <lb ed="#Q"/>5. Ad illud 'Deum esse trinum et unum est
+          <lb ed="#Q"/>possibile ' patet reSponsio, quia non dicitur ' pos<lb ed="#Q"/>sibile
+          ' respectu rei subiectae; secundum hoc' enim
+          <lb ed="#Q"/>significaretur quod Deus esset ens in potentia,
+          <lb ed="#Q"/>quod est falsum, sed significatur potestas Dei,
+          <lb ed="#Q"/>quae fundaturm super veritatem rei, qua verum
+          <lb ed="#Q"/>est Deum esse trinum et unum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4412">
+          <lb ed="#Q"/>II. Ad obiecta vero contra secundam opinio<lb ed="#Q"/>nem
+          sic:
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4419">
+          <lb ed="#Q"/>1. Ad illud quod primo quaerit ex Matth.
+          19, 26: Omnia possibilia sunt credenti, 'utrum
+          <lb ed="#Q"/>fiat distributio pro possibilibus vel pro" impos<lb ed="#Q"/>sibilibus':
+          dicendum quod'fit distributio pro pos<lb ed="#Q"/>sibilibus
+          et impossibilibus secundum causam in<lb ed="#Q"/>feriorem;
+          non tamen ex hocP sequitur quod im<lb ed="#Q"/>possibilia 
+          sint possibilia simpliciter, sed sunt pos<pb ed="#Q" n="233"/><cb ed="#Q" n="a"/><lb ed="#Q"/>sibilia 
+          Deo; nec sequitur * ergo possibilia '. Unde
+          <lb ed="#Q"/>in libro" De regulis Theologiael: « Deus omni<lb ed="#Q"/>potens
+          dicitur, quiab potest-non solum quae sunt
+          <lb ed="#Q"/>vel fieri possunt, sed etiam quae fieri non pos<lb ed="#Q"/>sunt:
+          potest enim impossibilia; et multa, quae sunt
+          <lb ed="#Q"/>impossibilia secundum inferiorem causam vel se<lb ed="#Q"/>cundum
+          naturam, sunt possibilia secundum supe<lb ed="#Q"/>riorem
+          causam: quidquid enim est possibile se<lb ed="#Q"/>cundum
+          inferiorem causam, est possibile secun<lb ed="#Q"/>dum
+          superiorem 0, sed non convertitur; illud au<lb ed="#Q"/>tem
+          quod possibile est secundum naturam sim<lb ed="#Q"/>pliciter
+          dicitur possibile; quod autem possibile
+          [est] secundum superiorem causam non dicitur
+          <lb ed="#Q"/>simpliciter possibile, sed possibile Deo ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4466">
+          <lb ed="#Q"/>2-3-4. Reliqua vero quae obiciuntur conce<lb ed="#Q"/>denda
+          sunt ", ut patet ex dictis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4473">
+          <lb ed="#Q"/>III. Ad obiecta vero contra tertiam opinionem,
+          <lb ed="#Q"/>quae quodammodo veritatem habet, dicendum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4480">
+          <lb ed="#Q"/>1. Ad illud quod primo obicit quod 'virgi<lb ed="#Q"/>nem
+          pariturame est possibile aliqua possibilitate,
+          <lb ed="#Q"/>ergo est possibile ': dicendum quod non sequitur,
+          <lb ed="#Q"/>nisi illa possibilitas sit possibilitas simpliciter; sedf
+          <lb ed="#Q"/>patet ex dictis2 quod possibilitas secundum cau<lb ed="#Q"/>sam
+          superiorem tantum, cum sit ratione potentiae
+          <lb ed="#Q"/>agentis, non materiae, non ponit possibilitatem sim<lb ed="#Q"/>pliciter,
+          sed secundum quid, in re, sicut esse in causa
+          <lb ed="#Q"/>non ponit esse simpliciter, sed? esse secundum quid.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4502">
+          <lb ed="#Q"/>2. Ad aliud quod obicit quod *in costa erat
+          <lb ed="#Q"/>unde posset fieri mulier, et similiter?2 in caeco
+          <lb ed="#Q"/>ut possit fieri videns': dicendum quod est po<lb ed="#Q"/>tentia
+          activa et passiva 3. Activa duplex est: creata
+          <lb ed="#Q"/>et increata; passiva duplex: respectu potentiae 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>creatae et respectu potentiae increatae. Dicendum
+          <lb ed="#Q"/>ergo quod in costa erat potentia passiva sive
+          <lb ed="#Q"/>materialis unclei posset fieri mulier a potentia
+          <lb ed="#Q"/>activa increata, cui subiecta est et obediens omnis
+          <lb ed="#Q"/>materia ut faciat de ea quidquid vult; sed non
+          <lb ed="#Q"/>erat in costa potentia passiva unde posset iieri
+          <lb ed="#Q"/>mulier a potentia activa creata sive causa infe<lb ed="#Q"/>riori/':
+          et ideo non sequitur quod in costa esset
+          <lb ed="#Q"/>undel fieret. Et hoc modo intelligendum est in
+          <lb ed="#Q"/>caeco illuminato et ceteris miraculis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4539">
+          <lb ed="#Q"/>3. Ad aliud'" quod proponit 'iste caecus
+          <lb ed="#Q"/>videbit, ergo possibile est istum caecum videre *,
+          <lb ed="#Q"/>distinguendum: de dicto, vera ", et hoc modo se<lb ed="#Q"/>quitur
+          ex praecedenti, quia dictum est verum, ex
+          <lb ed="#Q"/>quo iste caecus est visurus; de re, falsa, quia
+          <lb ed="#Q"/>falsum est" quod iste caecus potest videre.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4555">
+          <lb ed="#Q"/>4. Ad aliud dicendum quod possibile est
+          <lb ed="#Q"/>quod iste caecus habeat potentiam videndi, lo—
+          <lb ed="#Q"/>quendo de potentia passiva. Sed si arguatur * ergo
+          <lb ed="#Q"/>iste caecus potest videre vel possibile est istum
+          <lb ed="#Q"/>caecum videre', non valet: infertur enim potentia
+          <lb ed="#Q"/>activa a potentia passiva.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c1-d1e4572">
+          <lb ed="#Q"/>Sed si q uaeritur si potest dici possibile se<lb ed="#Q"/>cundum
+          potentiam activam, postquam factum est
+          <lb ed="#Q"/>miraculum -4 respondeo: in aliquibus potentia
+          <lb ed="#Q"/>estP miraculosa, actus naturalis, ut in caeco illumi<lb ed="#Q"/>nato;
+          in aliis potentia miraculosa et actus miraculo<lb ed="#Q"/>sus,
+          ut quod asina loquatur, quia contra naturam
+          <lb ed="#Q"/>est quod asina habeat potentiam loquendi, et etiam 4
+          <lb ed="#Q"/>quod loquatur. In iis ergo' dicendum quod asina
+          <lb ed="#Q"/>non potest loqui, quamvis loquatur; sed non sic
+          <lb ed="#Q"/>de caeco, immo postquams videt, potest videre.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

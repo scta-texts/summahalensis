@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 1, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-10">March 10, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="271"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q1c6">
+        <head xml:id="ahsh-l1p1i1t5s2q1c6-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 1, C. 6</head>
+        <head xml:id="ahsh-l1p1i1t5s2q1c6-Hd1e3744" type="question-title">UTRUM DIVINA PRAESCIENTIA SIT INFALLIBILIS.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q1c6-d1e3747">
+          <lb ed="#Q"/>consequenter quaeritur an divina, praescientia
+          possit falli <!--6-->.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c6-d1e3754">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Praescit enim hoc ",
+          <lb ed="#Q"/>demonstrato aliquo contingente; Sed possibile est
+          <lb ed="#Q"/>hoc non evenire; ponatur ergo quod non eveniat;
+          <lb ed="#Q"/>hoc est praescitum et tamenv non eveniet; ergo
+          <lb ed="#Q"/>quod praescitur non" eveniet; ergo fallitur prae<lb ed="#Q"/>scientia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c6-d1e3770">
+          <lb ed="#Q"/>2. Item, praescitum potest non esse praescitum,
+          <lb ed="#Q"/>quia potest non-esse futurum, cum sit contingens;
+          <lb ed="#Q"/>sed si non erit, non est scitumx futurum; nec
+          <lb ed="#Q"/>ergo praescitum; ergo praescientia potest falli.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c6-d1e3782">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>3. Item, 'scientia'Dei et praescientia sunt 'eo<lb ed="#Q"/>rum 
+          quae non sunt; scit enim Deus praesentia,
+          <lb ed="#Q"/>praeterita et futura, sed omnia<!--y--> scit ut prae<lb ed="#Q"/>sentia 7; 
+          sed praeterita secundum quod sunt prae<lb ed="#Q"/>terita, 
+          non sunt praesentia, similiter nec futura;
+          <lb ed="#Q"/>ergo alio modo scit res quam sint; ergo fallitur
+          <lb ed="#Q"/>praescientia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c6-d1e3804">
+          <lb ed="#Q"/>Respondeo: Non potest falli praescientia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c6-d1e3809">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Et ad illud quod primo
+          <lb ed="#Q"/>obicitur: dicendum quod, cum praescientia dica-'
+          <lb ed="#Q"/>turz in ordine et relatione ad futurum, et amoto
+          <lb ed="#Q"/>uno relativorum amovetur reliquum, eo ipso quo
+          <lb ed="#Q"/>ponit non evenire, ponit non praescitum fuisse.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c6-d1e3822">
+          <pb ed="#Q" n="272"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>2. Ad aliud dicendum quod haec 'praescitum
+          <lb ed="#Q"/>potest esse non praescitum' distinguenda est,
+          <lb ed="#Q"/>sicut haec 'album potest esse nigrum': potest
+          <lb ed="#Q"/>enim praedicatum attribui subiecto cum forma, et '
+          <lb ed="#Q"/>sic est falsa; vel ratione supposi-ti solum, et sic
+          <lb ed="#Q"/>vera. Primo autem modo falsa est": sicut enim
+          <lb ed="#Q"/>album, manens album, non potest esse nigrum,
+          <lb ed="#Q"/>sic praescitum, in quantum praescitum, non po<lb ed="#Q"/>test
+          non evenire. Secundo modo vera est ", quia
+          <lb ed="#Q"/>id quod est album potest esse nigrum et id quod
+          <lb ed="#Q"/>est praescitum potest non evenire et non esse
+          <lb ed="#Q"/>praescitum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q1c6-d1e3855">
+          <lb ed="#Q"/>3. Ad aliud<!--c--> dicendum quod haec 'Deus
+          <lb ed="#Q"/>non scit praeterita ut praeterita ' d duplex est: quia
+          <lb ed="#Q"/>haec determinatio ' ut praeterita' potest determi<cb ed="#Q" n="b"/><lb ed="#Q"/>nare 
+          verbum in comparatione ad scientem, et sic
+          <lb ed="#Q"/>vera, quia praeteritae non sunt in Deo per mo<lb ed="#Q"/>dum
+          praeteriti, sed per modum suum ; vel potest de<lb ed="#Q"/>terminare
+          verbum in comparatione ad scitum», et
+          <lb ed="#Q"/>sic falsa est: scit enim Deus res praeteritas etf
+          <lb ed="#Q"/>quae sunt sub conditione praeteritionis et futuri<lb ed="#Q"/>t-ionis,
+          sed non scit sub iis conditionibus, Sed ae<lb ed="#Q"/>ternaliter
+          .et praesentialiter. — Similiter ad
+          <lb ed="#Q"/>illudg .'Deus scit res aliter quam sunt': haec
+          <lb ed="#Q"/>est duplex, quia haec determinatio ' aliter ' in du<lb ed="#Q"/>plici
+          comparatione. potest determinare verbum. Sih
+          <lb ed="#Q"/>in comparatione ad scitum, falsa est; si in com<lb ed="#Q"/>paratione
+          ad scientem, vera ". Quod enim compre<lb ed="#Q"/>henditur
+          est in comprehendente secundum modum
+          <lb ed="#Q"/>ipsius, non secundum. modum rei comprehensae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

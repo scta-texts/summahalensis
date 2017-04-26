@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-25">April 25, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-25" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="588"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q1m3c2">
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c2-Hd1e118">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 1, M. 3, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t2s1q1m3c2-Hd1e121" type="question-title">QUID DICATUR ' HYPOSTASIS '</head>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c2-d1e124">
+          <lb ed="#Q"/>Consequenter quaeritur quid sit" *hypostasis'
+          <lb ed="#Q"/>secundum quod accipitur in divinis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c2-d1e131">
+          <lb ed="#Q"/>a. Ponitur autem haec ratio: Hypostasis est
+          <lb ed="#Q"/>substantia? cum proprietate. Quaeritur ergo: hoc
+          "nomen 'substantia' aut dicit ibi4 essentiam sive"
+          ' quo est' aut ' quod est' aut dicit idem quod ' hypo<lb ed="#Q"/>stasis,.
+          Si autem dicit 'quo est' vel 'quod est,,
+          <lb ed="#Q"/>ut scilicet addita proprietate faciat hypostasim,
+          <lb ed="#Q"/>obicitur sic: una est substantia Patris et Filii et
+          <lb ed="#Q"/>Spiritus Sancti; adveniat ergo per intelligentiam
+          <lb ed="#Q"/>paternitas substantiae, ergo inest paternitas sub<lb ed="#Q"/>stantiaes
+          ut fiat hypostasis Patris; similiter fi<lb ed="#Q"/>liatio
+          addatur ad hoc uti fiat hypostasis Filii; ergo 
+          <lb ed="#Q"/>eadem substantia est sub oppositis " relationibus:
+          <lb ed="#Q"/>quod est impossibile intelligere. Si autem" su<lb ed="#Q"/>mitur
+          ibi substantia pro hypostasi, ergo idem no<lb ed="#Q"/>tificatur
+          per se ipsum, et sic,erit abire in infinitum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c2-d1e162">
+          <lb ed="#Q"/>Contra: 1. Damascenuss: «Substantia est
+          <lb ed="#Q"/>quod commune est, hypostasis vero individuum ».
+          <lb ed="#Q"/>Ergo substantia, secundum quod ponitur in ra<lb ed="#Q"/>tione
+          hypostasis, dicit substantiam communemx
+          <lb ed="#Q"/>quae dicit *quo est' vel ' quod est '.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q1m3c2-d1e176">
+          <lb ed="#Q"/>Solutio: Dicendum quod haec propositio 'hy<lb ed="#Q"/>postasis
+          est substantia cum proprietate, valet
+          <lb ed="#Q"/>tantum quantum haec 'hypostasis est res- sub<lb ed="#Q"/>sistens
+          cumJ' proprietate '. Unde substantia acci<lb ed="#Q"/>pitur
+          ibi pro re- naturae ;- unde hypostasis hic
+          <pb ed="#Q" n="589"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>dicitur res naturae subsistens, unde hypostasis",
+          <lb ed="#Q"/>sub proprietate. Non dico 'substans ', quia sub<lb ed="#Q"/>gtare
+          proprie non dicitur in divinis, quia, sicut
+          <lb ed="#Q"/>vult Augustin-us', non est proprie substare
+          <lb ed="#Q"/>nisi ubi est subiectum et accidens; sed 'subsi<lb ed="#Q"/>stere'
+          proprie est respectu proprietatis. Haec au<lb ed="#Q"/>tem
+          res naturae non determinat ipsum 'quo est'
+          <lb ed="#Q"/>vel" ipsum 'quod est'; unde substantia non ac<lb ed="#Q"/>cipitur
+          ibi secundum quod dicit 'quod est' vel
+          'quo est', immo accipitur ibi substantia ' secun<lb ed="#Q"/>dum
+          quod dicit 'qui est', secundum quod accipi<lb ed="#Q"/>tur
+          in ratione personae cum dicitur:: . Persona
+          <lb ed="#Q"/>est substantia individua rationalis naturae ». Haec
+          <lb ed="#Q"/>autem substantia dicitur res naturae et per ipsam
+          <lb ed="#Q"/>bene notificatur hypostasis, quoniam " in intellectu
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>hypostasis non solum debet cadere quid re—
+          <lb ed="#Q"/>spectivum, immo etiam quid absolutum, aliter'
+          <lb ed="#Q"/>non haberet intellectus super quod quiesceret in<lb ed="#Q"/>telligendo
+          hypostasim: ideo oportet ibi-f ponere
+          <lb ed="#Q"/>quid absolutum et hoc est res naturae. Haec au<lb ed="#Q"/>tem
+          res naturae dicitur hic substantia, hypostasis
+          <lb ed="#Q"/>autem dicit illam-' rem naturae cum proprietate
+          <lb ed="#Q"/>et ita cum respectu.—Et si quaeritur: aut"
+          <lb ed="#Q"/>res illa est substantia aut hypostasis - dicen<lb ed="#Q"/>dum
+          quod in re haec omnia sunt unum, tamen
+          <lb ed="#Q"/>quantum ad notiiicationem non' est bona quae<lb ed="#Q"/>stio,
+          quia licet idem sint in re, tamen alio et alio
+          <lb ed="#Q"/>modo dicitur per ista. Et sic potest notificari hy<lb ed="#Q"/>postasis
+          per illam rem naturae tamquam per iiiud
+          <lb ed="#Q"/>quod est in suo intellectu.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

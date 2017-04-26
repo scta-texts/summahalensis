@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-08">March 08, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="254"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m3c4">
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c4-Hd1e3744" type="question-title">UTRUM SCIENTIA DEI SIT NECESSARIORUM ET CONTINGENTIUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum scientia Dei sit
+          <lb ed="#Q"/>necessariorum vel contingentium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3754">
+          <lb ed="#Q"/>Ad quod sic proceditur: 1. Certior est neces<lb ed="#Q"/>sariorum 
+          cognitio quam contingentium, quia cer<lb ed="#Q"/>tius
+          est omne" necessarium quam contingens; et
+          <lb ed="#Q"/>quod perfectius est Deo est tribuendum; ergo etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3765">
+          <lb ed="#Q"/>2. Item, perfectior est divina scientia quam hu<lb ed="#Q"/>mana;
+          sed de perfectione humanae scientiae est
+          <lb ed="#Q"/>quod est necessariorum tantum 5; ergo scientia
+          <lb ed="#Q"/>divina est "solumc necessariorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3777">
+          <lb ed="#Q"/>3. Item, proportio est scientis ** ad scibile; ergo
+          <lb ed="#Q"/>sicut necessarium scitur per causam necessariam,
+          <lb ed="#Q"/>ita contingens per causam contingentem; sed Deus
+          <lb ed="#Q"/>scit res per se et non scit " per se causam contin<lb ed="#Q"/>gentem;
+          ergo non scit contingentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3790">
+          <lb ed="#Q"/>4. Si dicatur quod contingens habet causam
+          <lb ed="#Q"/>inferiorem, ut naturam vel voluntatem, et haec
+          <lb ed="#Q"/>est causa contingens, et 'habet causam superio<lb ed="#Q"/>rem,
+          scilicet Deum, quaef est causa necessaria
+          - contra: in quantum habet causam necessa<lb ed="#Q"/>riam,
+          necesse est evenire; in quantum habet cau<lb ed="#Q"/>samg
+          contingentem, non est necesse evenire; ergo
+          <lb ed="#Q"/>idem necesse est evenire et non evenire,: quod
+          <lb ed="#Q"/>est inconveniens. -— Item, Deus scit hoc futurum
+          <lb ed="#Q"/>contingens; et si est futurum, contingens neces<lb ed="#Q"/>sario
+          erit, ut loquamur de necessitate conse<lb ed="#Q"/>quente/';
+          praeterea, si est contingens, non 'de
+          <lb ed="#Q"/>necessitate eveniet; ergo de necessitate eveniet
+          <lb ed="#Q"/>et non'de necessitate eveniet.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3821">
+          <lb ed="#Q"/>Contra: a. Perfectius est cognoscere mutabi—r
+          <lb ed="#Q"/>lia et immutabilia per causam necessariam quam
+          <lb ed="#Q"/>cognoscere solum necessaria per causam neces<lb ed="#Q"/>sariam;
+          sed quodi perfectius est Deo est tri<lb ed="#Q"/>buendumk
+          ; ergo etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3834">
+          <lb ed="#Q"/>[Solutio]: Quod concedendum est et dicendum
+          <lb ed="#Q"/>secundum Dionysium ', ut supra.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3841">
+          <lb ed="#Q"/>[Ad, obiecta.]: 1. Ad illud autem' quod obici<lb ed="#Q"/>tur
+          quod ' certior est cognitio necessariorum' etc.:
+          <lb ed="#Q"/>dicendum quod est scientia a rebus et est scien<lb ed="#Q"/>tia
+          ad res. Scientia nostra, quae est a rebus, est
+          <lb ed="#Q"/>secundum conditiones rerum; sed divina scientia,
+          <lb ed="#Q"/>quae est ad res, non sequitur conditiones rerum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3857">
+          <lb ed="#Q"/>Sequitur ergo in nostra scientia necessarias res
+          <lb ed="#Q"/>cognitio necessaria; si autem res sit contingens,
+          <lb ed="#Q"/>cognitio contingens est'" de ipsa. Quia ergo
+          <lb ed="#Q"/>scientia dicit cognitionem immutabilem, et nos
+          <lb ed="#Q"/>non possumus habere de contingentibus immu<lb ed="#Q"/>tabilem
+          cognitionem 2, ideo scientia nostra solum
+          <lb ed="#Q"/>est necessariorum; sed scientia Dei, quae est ad
+          <lb ed="#Q"/>res, non est per res, sed se ipso; unde cum ipse
+          <lb ed="#Q"/>sit causa immutabilis, per causam immutabilem
+          <lb ed="#Q"/>et necessariam cognoscit etiam contingentia 3.
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>2. Ad aliud quod obicitur quod 'nos cogno<lb ed="#Q"/>scimus
+          necessaria necessario, contingentia con<lb ed="#Q"/>tingenter
+          ': dicendum quod hoc" non est de per<lb ed="#Q"/>fectione
+          scientiae nostrae, sed de imperfectione.
+          <lb ed="#Q"/>Quia enim scientia nostra est accepta a rebus et
+          <lb ed="#Q"/>ipsa res est contingens, oportet quod cognosca<lb ed="#Q"/>mus
+          contingenter; sed de» perfectione divinae scien<lb ed="#Q"/>tiae
+          est, quae" cognoscit se ipsa, quod contin<lb ed="#Q"/>gentia
+          scit necessario. Exemplum patet in artifice
+          <lb ed="#Q"/>et in me: cognoscimus domum ego et artifex, sed
+          <lb ed="#Q"/>cognitio mea de domo mutatur secundum muta<lb ed="#Q"/>tiones
+          domus, sed cognitio artificis de domo non
+          <lb ed="#Q"/>mutatur, etiam ante aedificationem domus et post
+          <lb ed="#Q"/>destructionem, etiam si fiat vel si non fiat!".
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3915">
+          <lb ed="#Q"/>3. Ad illud quod obicitur quod (proportio
+          <lb ed="#Q"/>debet esse scientis? ad scibile, ergo sicut neces<lb ed="#Q"/>sarium
+          scitur per causam necessariam, ita con<lb ed="#Q"/>tingens
+          per causam contingentem' : dicendum quod
+          <lb ed="#Q"/>est ens per se et ens per aliud, et ens per aliud '
+          <lb ed="#Q"/>reducitur ad ens per se; ita causa contingens ad
+          <lb ed="#Q"/>causam necessariam est reducibilis: omne enim
+          <lb ed="#Q"/>per accidens reducitur ad aliquid5 per se 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c4-d1e3935">
+          <lb ed="#Q"/>4. Ad illudf quod obicitur de duplici causa,
+          <lb ed="#Q"/>scilicet inferiori et superiori ": dicendum quod est
+          <lb ed="#Q"/>causa superior, Deus, et est causa inferior, natura
+          <lb ed="#Q"/>vel voluntas. Quaedam autem sunt immutabilia
+          <lb ed="#Q"/>secundum causam inferiorem, ut caelum moveri
+          <lb ed="#Q"/>usque ad finem mundi: Deus enim ita disposuit et
+          <lb ed="#Q"/>etiam natura motrix ad hoc est necessario dispo<lb ed="#Q"/>sita;
+          unde est causa immutabilis ad hoc, tam su<lb ed="#Q"/>perior
+          quam inferior. Item, quoddam est immuta<lb ed="#Q"/>bile
+          secundum causam inferiorem, quod tamen est
+          <lb ed="#Q"/>mutabile secundum superiorem, ut solem moveri,
+          <pb ed="#Q" n="255"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>quod habet causam immutabilem necessariam in<lb ed="#Q"/>feriorem,
+          quod tamen secundum causam supe<lb ed="#Q"/>riorem
+          est mutabile, ut patet in Iosue 10,12.
+          <lb ed="#Q"/>Item, est quoddam immutabile secundum causam
+          <lb ed="#Q"/>superiorem, tamen mutabile est secundum cau<lb ed="#Q"/>sam
+          inieriorem: ut si Deus praevidit me iturum
+          <lb ed="#Q"/>Romam, secundum causam superiorem est immu<lb ed="#Q"/>tabile,
+          secundum causam inferiorem mutabile est,
+          <lb ed="#Q"/>cum Deus praeviderit et disposuerit quod iste
+          <lb ed="#Q"/>actus<!--a--> eliciatur ab voluntate non coacta. Non
+          <lb ed="#Q"/>sequitur ergo: 'hoc est immutabile secundum
+          <lb ed="#Q"/>causam superiorem, ergo est immutabile ', immo
+          <lb ed="#Q"/>est quid et simpliciter; quod enim dicitur immu<lb ed="#Q"/>tabile
+          secundum causam superiorem, secundum
+          <lb ed="#Q"/>quid dicitur, et ideo secundum quid: necesse
+          <lb ed="#Q"/>est evenire. Nam illa causa superior non est de<lb ed="#Q"/>terminata
+          causa huius nec cogenscl interiorem
+          <lb ed="#Q"/>ad hoc quod res sit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

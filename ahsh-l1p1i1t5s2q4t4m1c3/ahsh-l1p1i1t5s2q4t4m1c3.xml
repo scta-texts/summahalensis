@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 4, M. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-22">March 22, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="340"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t4m1c3">
+        <head xml:id="ahsh-l1p1i1t5s2q4t4m1c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 4, M. 1, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t4m1c3-Hd1e3744" type="question-title">UTRUM DEUS AEQUE DILIGAT OMNEM CREATURAM.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum Deus aeque di<lb ed="#Q"/>ligat
+          omnem creaturam<!--3-->.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c3-d1e3756">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Cum enim dico ' Deus
+          <lb ed="#Q"/>diligit creaturas ', in hoc verbo 'diligit' duo no<lb ed="#Q"/>tantur
+          4, scilicet Dei dilectio, quae est ipsa8 eius
+          <lb ed="#Q"/>essentia, et connotatum ex parte creaturae. Con<lb ed="#Q"/>stat
+          autem quod ex parte essentiae est aequalitas
+          <lb ed="#Q"/>vel paritas, immo omnino unitas, cum dico '
+          *diligit hanc creaturam, diligit illam vel illam '.
+          <lb ed="#Q"/>Quantum ex parte connotati probatur ibi esse
+          <lb ed="#Q"/>aequalitas sic: illud connotatum videtur esse con<cb ed="#Q" n="b"/><lb ed="#Q"/>servatio 
+          vel curat<!--l--> conservandi creaturas; sed
+          <lb ed="#Q"/>haec cura aequalis est respectu omnium secun<lb ed="#Q"/>dum
+          illud Sap. 6,8: Aequaliter est illi cum de
+          <lb ed="#Q"/>omnibus; ergo tum" ex parte principalis signifi<lb ed="#Q"/>cati
+          tum ex parte connotati est ibi aequalitas et
+          <lb ed="#Q"/>non sunt ibi plura; ergo vere potest dici quod
+          <lb ed="#Q"/>Deus aequaliter diligit omnem creaturam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c3-d1e3794">
+          <lb ed="#Q"/>2. Item, secundum rationem cognitionis vel no<lb ed="#Q"/>titiae
+          est dilectio, secundum illud ' quantum ali<lb ed="#Q"/>quis
+          cognoscit, tantum diligit'5; sed constat
+          <lb ed="#Q"/>quod Deus aequaliter novitx omnia; ergo ae<lb ed="#Q"/>qualiter
+          diligit omnia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c3-d1e3808">
+          <pb ed="#Q" n="341"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Contra: a. Bonum ratione boni diligibile est];
+          <lb ed="#Q"/>ergo quantum est in qualibet creatura de bono,
+          <lb ed="#Q"/>tantum .diligibilis est; sed plus est in una de
+          <lb ed="#Q"/>bono quam in alia; ergo una plus est" diligibilis
+          <lb ed="#Q"/>quam alia; ergo plus diligitur ab eo qui habet
+          <lb ed="#Q"/>voluntatem bene, mensuratam et ordinatam; sic
+          <lb ed="#Q"/>autem est in Deo; ergo plus diligit Deus'J unam
+          <lb ed="#Q"/>quam aliam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c3-d1e3832">
+          <lb ed="#Q"/>b. Praeterea, non esset bene mensurata hominis
+          <lb ed="#Q"/>voluntas, si aeque diligeret quod plus esset dili<lb ed="#Q"/>gendum;
+          ergo similiter nec voluntas Dei; ergo etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c3-d1e3841">
+          <lb ed="#Q"/>[Solutio]: Quod concedimus, dicentes quod se<lb ed="#Q"/>cundum
+          quod meliores sunt creaturae in ordine
+          <lb ed="#Q"/>suo et gradu, secundum hoc magis et magis diligit
+          <lb ed="#Q"/>eas Deus, prout ly ' magis, dicit comparationem
+          <lb ed="#Q"/>respectu eorum quae connotantur : in creaturis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c3-d1e3854">
+          <lb ed="#Q"/>[Ad obiecta.]: 1. Ad hoc quod oþicitur quod
+          'aequaliter est ei "' cura de amnibus': dicimus
+          <lb ed="#Q"/>quod, quantum est ex parte Dei, ipse aeque con<lb ed="#Q"/>servat
+          omnia, quia L' quantum in se estf, omnibus
+          <lb ed="#Q"/>dat vel offertg effectum conservationis, sed non
+          <lb ed="#Q"/>omnia" aeque recipiunt istum effectum nec om<lb ed="#Q"/>nia
+          aeque capacia sunt illius: 'quia res quaedam
+          <lb ed="#Q"/>habent esse defectibile de se, ut res corruptibi<lb ed="#Q"/>les;
+          aliae vero res, quamvis in eo quod creataei
+          <lb ed="#Q"/>sunt, defectibiles sint, tamen ex voluntate Crea<lb ed="#Q"/>toris
+          indefectibile habent esse, ut resk incorpo<lb ed="#Q"/>rales.
+          Ita enim ordinavit Deus ut post essentiam
+          <lb ed="#Q"/>quae non habet principium nec finem, scilicet
+          <lb ed="#Q"/>Deum, sit' essentia habens principium et non
+          <lb ed="#Q"/>finem, scilicet essentia rerum immutabilium, et
+          <lb ed="#Q"/>post hanc sit essentia habens principium et finem,
+          <lb ed="#Q"/>scilicet essentia rerum corruptibilium. Tertia au<lb ed="#Q"/>tem
+          coniunctio est irritabilis, quia non potest esse
+          <lb ed="#Q"/>quod aliqua essentia non habeat principium et ha<lb ed="#Q"/>beat
+          finem: quidquid enim"! caret principio, caret
+          <lb ed="#Q"/>fine. Ex parte ergo rerum, quae non aeque ca<lb ed="#Q"/>paces
+          sunt conservationis, est quod non aeque
+          <lb ed="#Q"/>conservantur; tamen ex parte Dei indifferen<lb ed="#Q"/>tia
+          est. Et sic potest intelligi illud Sap. 6,8:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t5s2q4t4m1c3-Qd1e3909" ana="#sap6_8">Aequaliter est illi cum de omnibus</quote>, scilicet quan<lb ed="#Q"/>tum
+          in se est. —. Tamen illud posset exponi bre<lb ed="#Q"/>viter,
+          ut ly ' aeque' dicat similitudinem, non
+          <lb ed="#Q"/>mensuram; sub hoc sensu aeque est illi cum de
+          <lb ed="#Q"/>omnibus, id est similiter est illi cura de omni<lb ed="#Q"/>bus
+          ", de hoc scilicet et de illo, quia de omnibus
+          <lb ed="#Q"/>habet curam, non tamen tanta est ei cura de hoc
+          <lb ed="#Q"/>quanta de illo. Simile est: demonstratis duobus
+          <lb ed="#Q"/>pannis bonis 0, alio tamen meliore altero, potest
+          <lb ed="#Q"/>dici quod sicut!" iste pannus est bonus, similiter
+          <lb ed="#Q"/>ille, non tamen tantum est bonus iste quan<lb ed="#Q"/>tum
+          estq ille. Dicimus ergo exponendo quod non
+          <lb ed="#Q"/>sequitur: * aeque conservat quantum est de se,
+          <lb ed="#Q"/>ergo aeque diligit ', quia * diligere' ultra huius<lb ed="#Q"/>modi
+          ' conservare ' addit et connotat bonum quod
+          <lb ed="#Q"/>est in creatura; et ideo secundum quod' plus
+          <lb ed="#Q"/>vel minus participat de bono, secundum hoc
+          <lb ed="#Q"/>plus vel* minus diligitur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m1c3-d1e3950">
+          <lb ed="#Q"/>2. Ad hoc quod obicitur 'sit aeque novit"
+          <lb ed="#Q"/>omnia, ergo aeque diligit omnia ': dicendum quod
+          <lb ed="#Q"/>duplex est Dei cognitio vel notitia; est enim no<lb ed="#Q"/>titia
+          simplex et est notitia beneplaciti. Notitia
+          <lb ed="#Q"/>simplex dicitur per modum intellectus specula<lb ed="#Q"/>tivi:
+          et de hac verum est quod aeque novit om<lb ed="#Q"/>nia,
+          quia novit ea" prout in ipso relucent; et de
+          <lb ed="#Q"/>hac non est verum quod quantum quis novit,
+          <lb ed="#Q"/>tantum diligit. Secunda autem cognitio est bene<lb ed="#Q"/>placiti,
+          et haec est per modum intellectus prac<lb ed="#Q"/>tici:
+          et de hac, quae est coniuncta cum actu bene<lb ed="#Q"/>placiti,
+          intelligitur illud ' quantum cognoscit quis,
+          <lb ed="#Q"/>tanturn diligit'; sed de hac non est verum quod
+          <lb ed="#Q"/>Deusx aeque novit omnia, sicut non aeque di<lb ed="#Q"/>ligit
+          omnia; immo meliora magis novit, id est
+          <lb ed="#Q"/>magis approbat, minus bona minus. Et intelli<lb ed="#Q"/>gatur
+          istud 'magis et minus' non in compara<lb ed="#Q"/>tione
+          ad principale significatum, quia ex illa
+          <lb ed="#Q"/>parte est aequalitas, sed in comparatione ad con<lb ed="#Q"/>notatum.
+          Et hoc modo dicitur Deus nescire mala,
+          <lb ed="#Q"/>secundum quod dicturus est in iudicio quibus<lb ed="#Q"/>dam:
+          Nescio vos, Luc. 13, 25, Matth. 25,12.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

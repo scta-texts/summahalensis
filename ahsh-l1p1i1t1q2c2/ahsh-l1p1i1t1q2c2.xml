@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 1, Q. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Pars 1, Inq. 1, Tract. 1, Q. 2, C. 2</title>
+          <date when="2017-02-12">February 12, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="48"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t1q2c2">
+        <head xml:id="ahsh-l1p1i1t1q2c2-Hd1e3732">I, Pars 1, Inq. 1, Tract. 1, Q. 2, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t1q2c2-Hd1e3735" type="questionTitle">AN CONVENIAT DlVINAE ESSENTIAE ALIQUO MODO QUOD SIT MUTABILIS.</head>
+        <p xml:id="ahsh-l1p1i1t1q2c2-d1e3738">
+          <lb ed="#Q"/>Secundo quaeritur an conveniat divinae essen<lb ed="#Q"/>tiae
+          aliquo modo quod sit mutabilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c2-d1e3745">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Nam divina essentia
+          <lb ed="#Q"/>dicitur simplex et immutabilis et utraque est sua
+          <lb ed="#Q"/>proprietas; sed licet ipsa sit simplex per essen<lb ed="#Q"/>tiam,
+          est tamen multiplex in effectu sive in quan<lb ed="#Q"/>tum
+          causa; ergo similiter, licet sit immutabilis
+          <lb ed="#Q"/>per essentiam, potest tamen dici mutabilis, in
+          <lb ed="#Q"/>quantum est causa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c2-d1e3763">
+          <lb ed="#Q"/>2. Item, Sap. 7,24: Omnibusc mobilibus mo<lb ed="#Q"/>bilior
+          est sapientia; sed ipsa sapientia est di<lb ed="#Q"/>vina
+          essentia; ergo est omnibus mobilior-; sed ad
+          <lb ed="#Q"/>mobile sequitur mutabile; ergo divina essentia
+          <lb ed="#Q"/>est mutabilis aliquo modo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c2-d1e3777">
+          <lb ed="#Q"/>Respondeo: 1. Dicendum quod quaedam pro<lb ed="#Q"/>prietates
+          sunt creaturae ex parte illa qua de
+          <lb ed="#Q"/>nihilo est; quaedam ex parte illa qua a ,Deo est.
+          <lb ed="#Q"/>Proprietates quae consequuntur esse creaturae,
+          <lb ed="#Q"/>in quantum de nihilo est, non possunt dici de
+          <lb ed="#Q"/>Deo per causam. Talis autem est mutabilitas. Ex
+          <lb ed="#Q"/>hoc enim creatura mutabilis est, quia de nihilo
+          <lb ed="#Q"/>est, quia sicut dicit Damascenust: «Quae<lb ed="#Q"/>cumque
+          a versione incipiunt, versioni subiecta
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sunt ». Sed proprietates consequentes esse crea<lb ed="#Q"/>turae,
+          in quantum est a Deo ut a principio,
+          <lb ed="#Q"/>possunt dici de Deo per causam. Tales sunt
+          <lb ed="#Q"/>unitas, multiplicitas, simplicitas: emanant enim
+          <lb ed="#Q"/>in esse creaturae secundum quod est a Deo;
+          <lb ed="#Q"/>et ideo potest dici de Deo multiplicitas per
+          <lb ed="#Q"/>causam, sed non formaliter, non autem muta<lb ed="#Q"/>bilitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c2-d1e3819">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod *mobile'
+          <lb ed="#Q"/>potest dicere aptitudinem agl movere'vel ad mo<lb ed="#Q"/>veri.
+          Secundum quod 'mobile' dicit aptitudinem
+          <lb ed="#Q"/>ad moveri, sic dicit aptitudinem ad pati: et sic
+          <lb ed="#Q"/>non dicitur de Deo. Si autem dicat aptitudinem
+          <lb ed="#Q"/>ad movere, sic dicit aptitudinem ad agere: et sic
+          <lb ed="#Q"/>dicitur de Deo 5. Et est simile de sensibili, quia
+          <lb ed="#Q"/>sensibile dicitur dupliciter: vel secundum quod
+          <lb ed="#Q"/>dicit aptitudinem ad agendum, scilicet ad sen<lb ed="#Q"/>tire:
+          sic dicitur anima sensibilis vel'l corpus ani<lb ed="#Q"/>matum
+          sensibile;. vel prout dicit aptitudinem ad
+          <lb ed="#Q"/>sentiri: sic sensibile dicitur res apprehensa a
+          <lb ed="#Q"/>sensu. Ita mobile dupliciter. Sed ' mutabile ' sem<lb ed="#Q"/>per
+          dicit aptitudinemad patiendum sive ad pas<lb ed="#Q"/>sionem
+          quae est 'mutari', et non .ad actionem
+          <lb ed="#Q"/>quae est ' mutare'; et ideo non dicitur de Deo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

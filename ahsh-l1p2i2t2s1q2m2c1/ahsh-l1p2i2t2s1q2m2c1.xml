@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-26">April 26, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-26" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="601"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q2m2c1">
+        <head xml:id="ahsh-l1p2i2t2s1q2m2c1-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 2, C. 1</head>
+        <head xml:id="ahsh-l1p2i2t2s1q2m2c1-Hd1e3744" type="question-title">QUOMODO 'FILIUS' SIT NOMEN PROPRIUM PERSONAE DIVINAE</head>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c1-d1e3747">
+          <lb ed="#Q"/>Ad primum movetur quaestio, <ref>26 dist. I Senten<lb ed="#Q"/>tiarum</ref><!--z-->,
+          Quomodo .etc.: 
+          <cit>
+            <quote xml:id="ahsh-l1p2i2t2s1q2m2c1-Qd1e3759" source="http://scta.info/resource/pll1d26c4-d1e3501">
+              Quomodo sit pro<lb ed="#Q"/>prium
+              nato Deoe esse Dei Filium vel genitum
+              <lb ed="#Q"/>ex Deo, cum et homines filii Dei vocentur, se<lb ed="#Q"/>cundum
+              illud <ref><title>Psalmi</title> 81,6</ref>: 
+              <quote xml:id="ahsh-l1p2i2t2s1q2m2c1-Qd1e3772" ana="#ps81_6">
+                Ego dixi: Dii estis
+                <lb ed="#Q"/>et filii Excelsi omnes
+              </quote>; 
+              et <ref><title>Deuter</title>. 6 3</ref>: 
+              <quote xml:id="ahsh-l1p2i2t2s1q2m2c1-Qd1e3783" ana="#deut6_3">Filius meus
+                <lb ed="#Q"/>primogenitus Israel
+              </quote>
+            </quote>
+            <bibl><ref target="http://scta.info/resource/pll1d26c4-d1e3501">Lombardus, Sent. I, D. 26, c. 4 [n.1]</ref></bibl>
+          </cit>.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c1-d1e3795">
+          <lb ed="#Q"/>Et respondet4 quod Deus natus est Dei Filius
+          <lb ed="#Q"/>et nos, sed differenter: quoniam ille est Filius per 
+          <lb ed="#Q"/>naturam, nos per adoptionem; ille simulg natus et
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Filius, nos prius nati quam filii; ille originis pro<lb ed="#Q"/>prietate,
+          nos iactura; ille Filius vere, nos nuncupa<lb ed="#Q"/>tione;
+          ille Filius solius-Patris, nos totius Trinitatis.
+          <lb ed="#Q"/>Unde Hilarius<!--h-->, III libro De Trinitate-5: « Do<lb ed="#Q"/>minus
+          dicens: Pater ', clarifica Filium tuum etc.,
+          <lb ed="#Q"/>Ioan. 17,i, non solo nomine contestatus est se
+          <lb ed="#Q"/>esse Filium, sed etiam ': proprietate; nos filii Dei
+          <lb ed="#Q"/>sumus, sed non talis hic Fili-us: hic enim verus
+          <lb ed="#Q"/>et proprius Filius origine, non adoptione, veritate,
+          ] non nuncupatione, nativitate, non creatione ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

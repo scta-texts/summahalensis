@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-26">April 26, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-26" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="602"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q2m2c3">
+        <head xml:id="ahsh-l1p2i2t2s1q2m2c3-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 2, C. 3</head>
+        <head xml:id="ahsh-l1p2i2t2s1q2m2c3-Hd1e3744" type="question-title">UTRUM DAEMONES VEL MALI HOMINES DICANTUR FILII DEI.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur an mali homines vel
+          <lb ed="#Q"/>daemones possunt dicie filii Dei.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c3-d1e3754">
+          <lb ed="#Q"/>Quod sic, videtur per praedictae, a. cum sint
+          <lb ed="#Q"/>creati ad imaginem.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c3-d1e3761">
+          <lb ed="#Q"/>b. Praeterea, factura ipsius sunt ; dicit autemf
+          <lb ed="#Q"/>Hilarius 3 quod homines dicuntur <quote xml:id="ahsh-l1p2i2t2s1q2m2c3-Qd1e3767"> filii Dei per
+            <lb ed="#Q"/>facturam </quote>.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c3-d1e3774">
+          <lb ed="#Q"/>Contra: 1. Ezech. 16,3: <quote xml:id="ahsh-l1p2i2t2s1q2m2c3-Qd1e3778">Pater tuus amor<lb ed="#Q"/>rhaeus
+            et mater tua cet/mea</quote>, dicitur de malis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c3-d1e3784">
+          <lb ed="#Q"/>2. Item, Ioan. 8,44: Diabolus mendax est et pa<lb ed="#Q"/>ter
+          eius; sed per mendacium intelligitur omne pec<lb ed="#Q"/>catum:
+          <quote xml:id="ahsh-l1p2i2t2s1q2m2c3-Qd1e3792">omne enim peccatum mendacium est </quote>,
+          <lb ed="#Q"/>ut dicit Augustinus4; quilibet ergo peccator
+          <lb ed="#Q"/>filius est diaboli; non ergo Dei. Et Ioan. 8,44:
+          <lb ed="#Q"/>Vos ex patre diabolo estis; et I Ioan. 3,10: In
+          <lb ed="#Q"/>hoc manifesti sunt filii Dei et filii diaboli.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c3-d1e3805">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>3. Item, diabolus non habet possibilitatem ali<lb ed="#Q"/>quam
+          ad imitationem divinae bonitatis, cum
+          <lb ed="#Q"/>voluntas sua universaliter sit contraria volun<lb ed="#Q"/>tati
+          Dei.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c3-d1e3818">
+          <lb ed="#Q"/>Respondeo: Creatura rationalis dicitur imago
+          <lb ed="#Q"/>eo quod Dei capax. lsta capacitas sive potentia per
+          <lb ed="#Q"/>peccatum corrupta est in diabolo nec est recrea<lb ed="#Q"/>bilis
+          diabolus, nec poenitentiae! susceptibilis, ut
+          <lb ed="#Q"/>dicit Damascenus5; ideo non est filius Dei,
+          <lb ed="#Q"/>sed fuit, quia non est imago in eo, ut est ad
+          <lb ed="#Q"/>Deum participandum, sed fuit a principio crea<lb ed="#Q"/>tionis.
+          Similiter dicendum de damnatis. De aliis
+          <lb ed="#Q"/>malis dicendum quod simpliciter sunt filii dia<lb ed="#Q"/>boli,
+          secundum quid autem filii Dei, eo quod
+          <lb ed="#Q"/>in ipsisll potestas est ad recreationem, et ita
+          <lb ed="#Q"/>capacitas, licet diminuta, et ita eo modo filiii
+          <lb ed="#Q"/>quo capaces.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

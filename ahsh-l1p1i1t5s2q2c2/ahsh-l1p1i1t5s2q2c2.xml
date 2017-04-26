@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-10">March 10, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="276"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q2c2">
+        <head xml:id="ahsh-l1p1i1t5s2q2c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 2, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t5s2q2c2-Hd1e3744" type="question-title">QUID SIT DISPOSITIO.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q2c2-d1e3747">
+          <lb ed="#Q"/>Ad secundum, scilicet quid sit' dispositio:
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c2-d1e3752">
+          <lb ed="#Q"/>1. Dicit Magister6 quod dispositio est prae—
+          <lb ed="#Q"/>scientia faciendorum, Psalm.7: Omnia in sapien<lb ed="#Q"/>tia 
+          fecisti; "hoc non ob aliud dicitur nisi quia
+          <lb ed="#Q"/>scientias faciendorum erat in Deo; sed si dispo—
+          <lb ed="#Q"/>sitio est praescientia faciendorum, ergo idem sunt
+          <lb ed="#Q"/>sapientia et dispositio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c2-d1e3768">
+          <lb ed="#Q"/>Contra: a. Dicit Hugo de S. Victores: « Sa—
+          <lb ed="#Q"/>pientia est aeternorum, dispositio temporalium ».
+          <lb ed="#Q"/>Ergo non sunt idem, secundum rationem intel—
+          <lb ed="#Q"/>ligentiae, sapientia et dispositio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c2-d1e3780">
+          <lb ed="#Q"/>2. Item, Sap. 8,1: Attingit a fine usque ad
+          <lb ed="#Q"/>finem ', id est a termino initiati usque ad termi<lb ed="#Q"/>num
+          tinalem, fortiter", et disponit omnia suaviter.
+          <lb ed="#Q"/>Ergo dispositio est eorum quae iam facta sunt;
+          <pb ed="#Q" n="277"/>
+          <cb ed="#Q"/>
+          <lb ed="#Q"/>dispositio autem suavis eorum quae iam facta
+          <lb ed="#Q"/>sunt, est providentia vel gubernatio rerum; ergo
+          <lb ed="#Q"/>idem est dispositio et providentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c2-d1e3802">
+          <lb ed="#Q"/>Contra: b. Sap. ll,21: Omnia [in] numero, pon<lb ed="#Q"/>dere
+          et mensura disposuisti ; sed sic disponit an<lb ed="#Q"/>tequam
+          fiant res; providentia autem est rei factae;
+          <lb ed="#Q"/>igitur non sunt idem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c2-d1e3813">
+          <lb ed="#Q"/>Respondeo : Dispositio est praescientia " iacien<lb ed="#Q"/>dorum
+          <!--b--> ut fiant.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c2-d1e3822">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud: ergo quod obi<lb ed="#Q"/>citur
+          'omnia in sapientia fecisti ' etc., dicendum
+          <lb ed="#Q"/>quod scientia de faciendo diciturd dupliciter: vel
+          <lb ed="#Q"/>quoniam dignum est fieri vel ut fiat. Sapientia
+          <lb ed="#Q"/>ergo dicit scientiameaciendi, quia est dignum
+          <lb ed="#Q"/>fieri; dispositio scientiam) faciendi ut fiat. Sa<lb ed="#Q"/>pientia
+          igitur dicit iudicium,'quia 'bonum est ut
+          <lb ed="#Q"/>fiat, dispositioe addit intentionem faciendi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c2-d1e3842">
+          <lb ed="#Q"/>2. Item, ad illudf quod obicitur, quod 'dis<cb ed="#Q" n="277"/><lb ed="#Q"/>ponit 
+          omnia suaviter, sed non disponit omnia!
+          <lb ed="#Q"/>suaviter nisi postquam facta sunt, ergo dispositio
+          <lb ed="#Q"/>est factorum ', respondendum: dispositio est de
+          <lb ed="#Q"/>esse rei, similiter providentia; sed dispositio respi<lb ed="#Q"/>cit
+          esse rei ut fiat, providentia ipsum esse rei post<lb ed="#Q"/>quam
+          iactum est ut perficiatur vel ut permaneat.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q2c2-d1e3861">
+          <lb ed="#Q"/>b. Ad illud quodh obicitur, dicendum quod
+          <lb ed="#Q"/>est fieri in esse et est fieri ad esse: fieri ad
+          <lb ed="#Q"/>esse, cum primo creatura exit de non-esse ad
+          <lb ed="#Q"/>esse; fieri in esse quod etiam factum indiget
+          <lb ed="#Q"/>continuatione ipsius esse. Dicendum ergo quod
+          <lb ed="#Q"/>dispositio, ibi: Omnia in numero, pondere et men<lb ed="#Q"/>surai
+          etc., respicit fieri ad esse, quod est de exitu
+          <lb ed="#Q"/>rei de non—esse in esse; ibi autem: Disponit om<lb ed="#Q"/>nia
+          suaviter, respicit fieri in esse sive fieri quod
+          <lb ed="#Q"/>est in continuatione esse, sive fieri quod'est'c
+          <lb ed="#Q"/>in ordinatione esse. Primo modo dicitur idem
+          <lb ed="#Q"/>quod gubernatio, secundo idem quod providentia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

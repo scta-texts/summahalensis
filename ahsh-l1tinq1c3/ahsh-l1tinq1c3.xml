@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 1, c. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 1, c. 3</title>
+          <date when="2017-02-07">February 07, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Early Franciscan Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="5"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq1c3">
+        <head xml:id="ahsh-l1tinq1c3-Hd1e3729">I, Tract. Intro., Q. 1, c. 3</head>
+        <head xml:id="ahsh-l1tinq1c3-Hd1e3732" type="questionTitle">DE QUO SIT SCIENTIA SACRAE SCRIPTURAE</head>
+        <p xml:id="ahsh-l1tinq1c3-d1e3735">
+          <lb ed="#Q"/>Ordine sequenti : quaeritur de quo sit scientia
+          <lb ed="#Q"/>sacrae Scripturae 9.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3742">
+          <lb ed="#Q"/>Circa. quod diversa leguntur-: 1. a. Hugo de
+          <lb ed="#Q"/>S. Victore, in libro Sententiarum 19: « Materia
+          <lb ed="#Q"/>divinarum Scripturarum sunt opera reparationis;
+          <lb ed="#Q"/>aliarum vero scientiarum opera conditionis ».
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3753">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Contra: . Gen. 1 agitur de operibus condi<lb ed="#Q"/>tionis.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3763">
+          <lb ed="#Q"/>2. Item, Theologia est scientia de Deo; ergo
+          <lb ed="#Q"/>est scientia de causa operum conditionis et re—
+          <lb ed="#Q"/>parationis; non igitur materia divinarum Scriptu-
+          <lb ed="#Q"/>rarum erunt opera reparationis, sed magis ipsa
+          <lb ed="#Q"/>causa, quae Deus est.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3776">
+          <pb ed="#Q" n="6"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>II. 3. Item, Magister, in Sententiis .', secun—
+          <lb ed="#Q"/>dum B. A u gusti n um, De doctrina christiana 2.
+          <lb ed="#Q"/>ponit « continentiam Novae et Veteris Legis "circa
+          <lb ed="#Q"/>res et signa versari»; ergo materia divinarum
+          <lb ed="#Q"/>Scripturarum sunt res et signa.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3794">
+          <lb ed="#Q"/>Contra: 4. Non est eadem scientia rerum et
+          <lb ed="#Q"/>signorum, immo dividunturscientiae reales, .quae
+          <lb ed="#Q"/>sunt de rebus, contra scientias sermocinales, quae '
+          <lb ed="#Q"/>sunt de signis rerum; "ergo non est-una scientia
+          <lb ed="#Q"/>"rerum et signorum.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3807">
+          <lb ed="#Q"/>5. Item, res de quibus agit Theologia, .secun—
+          'dum Augustinum 3, sunt res « quibusiruen-
+          <lb ed="#Q"/>dum, quibusque " utendum, quae fruuntur et
+          <lb ed="#Q"/>utuntur »; sed sub iis' comprehenditur omne ge-
+          <lb ed="#Q"/>nus rerum ;' ergo Theologia est de omnibus.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3818">
+          <lb ed="#Q"/>III; 6. Item, ponunt alii 4 quod materia divina<lb ed="#Q"/>rum 
+          Scripturarum est « Christus integer, caput et
+          <lb ed="#Q"/>corpus, Christus et Ecclesia, sponsus et sponsa »,
+          <lb ed="#Q"/>iuxta'Glossam5 in principio Psalterii, quia
+          « nihil est in divina Scriptura quod non pertineat
+          <lb ed="#Q"/>ad Christum vel ad ", Ecclesiam 5 »..
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3831">
+          Sed contra: 7. Finis Legis est Christus, Rom.
+          10,4; et Eccli. 43, 29: Consummatio sermonum
+          <lb ed="#Q"/>ipse est; ergo non est materia. '
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3837">
+          Respondeo: Materiadupliciter accipitur in scientiis ": 
+          'dequa' et *circa quam '. 'Materia de qua'
+          <lb ed="#Q"/>potest as'signari tripliciter, secundum illud B."
+          <lb ed="#Q"/>Dionysii, in Hierarchia angelica 7: '« In tria di-
+          <lb ed="#Q"/>viduntur supermundana" ratione. omnes divini. in-
+          <lb ed="#Q"/>tellectus :. in essentiam, virtutem et operationem».
+          <lb ed="#Q"/>Secundum hoc ergo, si assignemus materiam di-
+          <lb ed="#Q"/>vinarum Scripturarum secundum rationem ope-
+          <lb ed="#Q"/>raticmis, dicemus quod materia divinarum Scriptu-
+          <lb ed="#Q"/>rarum sunt opera reparationis humani generis.
+          <lb ed="#Q"/>Si vero assignemus materiam divinarum Scriptu-
+          <lb ed="#Q"/>rarum secundum rationem virtutis, dicemus quod
+          <lb ed="#Q"/>materia divinarum Scripturarum est Christus, qui
+          <lb ed="#Q"/>est Dei virtus et Dei sapientia, I Cor. LM. Si
+          <lb ed="#Q"/>vero assignemus materiam divinarum Scriptura—
+          <lb ed="#Q"/>rum secundum ratlonemessentiae, dicemus quod
+          <lb ed="#Q"/>materia divinarum Scripturarum est Deus sive
+          <lb ed="#Q"/>divina substantia. Unde secundum hoc Theologia
+          <lb ed="#Q"/>est scientia de substantia divina cognoscenda per
+          <lb ed="#Q"/>Christum ? in opere reparationis 5.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3879">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illudf ergo quod primo
+          <lb ed="#Q"/>obicitur contraassignationem H u gon i 5, quod ' in
+          1 Gen. agitur de operibus conditionis-': dicendum B'
+          <lb ed="#Q"/>quod duplici ratione agitur in scientia de aliquo:
+          <lb ed="#Q"/>vel quia pertinet" ad genus rei de qua agitur in illa
+          <lb ed="#Q"/>scientia, sicut contentum in illo, vel ut clarius
+          <lb ed="#Q"/>fiat, et manifestius illud de quo agitur in illa scien—
+          <lb ed="#Q"/>tia-.. Secundum primum modum agitur etiam in
+          .sacra: Scriptura ' de operibus reparationis, sed
+          <lb ed="#Q"/>secundum modum» secundum agitur de operibus
+          <lb ed="#Q"/>conditionis. Unde Hugo d e 8. Victore, in Sen—
+          <lb ed="#Q"/>tendis?: « Ut competentius ad tractanda opera
+          <lb ed="#Q"/>restaurationis accedat, primum in ipso capite nar—
+          <lb ed="#Q"/>rationis constitutionem narrat operum conditio-
+          <lb ed="#Q"/>nis, Gen. ]. Non enim convenienter ostendere
+          <lb ed="#Q"/>posset qualiter homo reparatae sit, nisi prius
+          <lb ed="#Q"/>ostenderetqualiter sit lapsus, neque lapsum eius
+          <lb ed="#Q"/>convenienter ostenderet, nisi prius qualiter a Deo "
+          <lb ed="#Q"/>institutusiuerat explicaret. Ad- ostendendam au-
+          <lb ed="#Q"/>tem primam institutionem hominis oportuit ut
+          <lb ed="#Q"/>totiusmundi constitutio poneretur, quia propter
+          <lb ed="#Q"/>hominem 'factus est mundus ». -
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3927">
+          <lb ed="#Q"/>2. Ad secundum vero quod obicitur contra
+          <lb ed="#Q"/>eumdem, quod "Theologia est de causaoperum re-
+          <lb ed="#Q"/>creationis et conditionis ':».c0ncedend11m est. Non
+          <lb ed="#Q"/>tamen ex hoc sequitur quod materia divinae Scrip—
+          <lb ed="#Q"/>turae non sint. opera reparationis, quia summa
+          <lb ed="#Q"/>causa, quae Deus est, declaratur per opus repara-
+          <lb ed="#Q"/>tionis, per virtutem Christum, sicut dictum est 10, ut
+          <lb ed="#Q"/>in'operatione-cognoscamus virtutem et in virtute
+          <lb ed="#Q"/>divinitatem, 'Rom. 1, 20: Invisibilia Dei, scilicet
+          <lb ed="#Q"/>virtus et divinitas, cognoscuntur per ea quae 
+          facta sunt. — Nota ergo secundum I-l ugonem 
+          <lb ed="#Q"/>quod « opus conditionis est creatio mundi cum 
+          <lb ed="#Q"/>omnibus elementis suis; Opus vero restaurationis
+          est incarnatio Verbi cum omnibus sacramentis
+          <lb ed="#Q"/>suis. Mundanae sive saeculares scientiae mate-
+          <lb ed="#Q"/>riam habent opera conditionis, divina Scriptura
+          <lb ed="#Q"/>materiam habet opera restaurationis ».
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e3962">
+          <lb ed="#Q"/>3. Ad illud vero quod obicitur contra assi-
+          <lb ed="#Q"/>gnationem materiae sacrae Scripturae, in Senten-
+          <lb ed="#Q"/>tiis ", circa res et signa: dicendum quod res et
+          <lb ed="#Q"/>signa sunt materia circa quam est sacra Scrip<lb ed="#Q"/>tura, 
+          non materia'de qua est; et ideo conve<lb ed="#Q"/>nienter 
+          dixit, 'iuxta B. Augustinum *, materiam
+          <lb ed="#Q"/>sacrae Scripturae « circa res et signa" versari ».
+          <lb ed="#Q"/>Materia vero derqua est sacra Scriptura est di—
+          <lb ed="#Q"/>vina substantia cognoscenda per, Christum in
+          <lb ed="#Q"/>opere reparationis. Quemadmodum est- clicere de
+          <lb ed="#Q"/>Philosophia Prima quod materia-circa quam est
+          <lb ed="#Q"/>sunt omnia - unde et dicitur esse de omnibus,
+          <lb ed="#Q"/>quia est circa ens secundum omnem sui" diffe-
+          <lb ed="#Q"/>rentiam, secundum differentes b divisiones entis,
+          <lb ed="#Q"/>scilicet. ens potentia, ens actu, eris unum et multa,
+          <lb ed="#Q"/>ens substantia et accidens, 'et huiusmodi - ma-
+          <lb ed="#Q"/>teria vero de qua intentio, estc ens actu unum,
+          <lb ed="#Q"/>quod est substantia prima, a qua omnia depen-
+          <lb ed="#Q"/>dent: ita per quemdam , modum materia circa
+          <lb ed="#Q"/>quam est sacra Scriptura, sunt res; et signa;. ma—
+          <lb ed="#Q"/>teria vero de qua principalis intentio, est illa
+          <lb ed="#Q"/>quae dicta est. * -- . <lb ed="#Q"/>
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e4014">
+          <lb ed="#Q"/>4. Ad illud vero quod- obicitur de unitate
+          <lb ed="#Q"/>scientiae quae 4 non est rerum et signorum: re-
+          <lb ed="#Q"/>spondendum ? quod hoc est ubi est separata ra-
+          <lb ed="#Q"/>tio considerationis rei et signorum. Hic vero non
+          <lb ed="#Q"/>separatur consideratio, cum sit relatio considera<lb ed="#Q"/>tionis 
+          ad unum, quod est reformatio hominis ad
+          <lb ed="#Q"/>similitudinem Dei 2 seu conformatio hominis ad
+          <lb ed="#Q"/>Deum per opus f reparationis a- Christo.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e4034">
+          <lb ed="#Q"/>5. Ad illud vero quod obicit quod est de
+          <lb ed="#Q"/>omnibus, quia agit de rebus secundum omnem'
+          <lb ed="#Q"/>differentiam: dicendum quod, etsi agat de omni-
+          <lb ed="#Q"/>bus, non tamen secundum rationes differentes
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quae est res interftuenda et utenda constituta,
+          <lb ed="#Q"/>per utenda perveniat ad fruenda, quae sunt Pa-
+          <lb ed="#Q"/>teret Filius et Spiritus Sanctus, incommutabile
+          <lb ed="#Q"/>bonum. Etsi" ergo agat de omnibus in genere *,
+          <lb ed="#Q"/>non tamen de omnibus secundum omnem * mo-
+          <lb ed="#Q"/>dum- sive secundum omnium rationem, sed se-
+          <lb ed="#Q"/>cundum unum proprium modum et rationem quae
+          <lb ed="#Q"/>dicta est-.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e4066">
+          <lb ed="#Q"/>6. Ad illud quod obicitur contra assignatio- .
+          <lb ed="#Q"/>nem, quia' ponitur totus- Christus, caput et cor-
+          <lb ed="#Q"/>pus, materia 'sacrae Scripturae: concedendum est
+          <lb ed="#Q"/>secundum modum qui dictus est.
+        </p>
+        <p xml:id="ahsh-l1tinq1c3-d1e4077">
+          <lb ed="#Q"/>7. Et quod' obicitur quod * Christus est finis,
+          <lb ed="#Q"/>ergo non est materia':.dicendum quod nonsc-
+          <lb ed="#Q"/>quitur. Quemadmodum euim in virtutibus quae
+          <lb ed="#Q"/>sunt in finem, ut fides, spes, caritas, idem- est
+          <lb ed="#Q"/>materia sive obiectum '" et finis, ut fides mate-
+          <lb ed="#Q"/>riam et finem habet summum verum, credens
+          <lb ed="#Q"/>ipsum summum verum propter summum verum;
+          <lb ed="#Q"/>et caritas similiter amat summum bonum propter
+          <lb ed="#Q"/>summum bonum -— non autem sic est in virtutibus
+          <lb ed="#Q"/>quae sunt eorum quae sunt ad finem, utin"
+          <lb ed="#Q"/>iustitia et fortitudine, immo est alia materia vir-
+          <lb ed="#Q"/>tutis, alius finis; fortitudinis enim materia sunt
+          <lb ed="#Q"/>ardua et difficillima, sed finisest summum bo-
+          <lb ed="#Q"/>num: tolerat enim et aggreditur difficilia propter
+          <lb ed="#Q"/>summum bonum -- similiter est " dicere de scien-
+          <lb ed="#Q"/>tia quae est in finem, quae, est sacra Scriptura,
+          <lb ed="#Q"/>quoniam idem habet pro materiavet fine. Unde
+          <lb ed="#Q"/>omnium, sed secundum unam rationem, quae est' non sequitur: 'Christus est finis, ergo non est
+          <lb ed="#Q"/>ut homo reparatus per sacramenta incarnationis, materia'. »
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

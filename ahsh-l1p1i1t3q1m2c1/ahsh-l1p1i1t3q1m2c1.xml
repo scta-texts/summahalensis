@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. II, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-22">February 22, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="120"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m2c1">
+        <head xml:id="ahsh-l1p1i1t3q1m2c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 2, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t3q1m2c1-Hd1e3732" type="question-title">AN DIVINA UNITAS SECUM COMPATIATUR PLURALITATEM</head>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3735">
+          <lb ed="#Q"/>Consequenter quaeritur de unitate divinae es<lb ed="#Q"/>sentiae 
+          an compatiatur secum pluralitatem 8.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3742">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Ad quod sic: 1. Divina bonitas est qua maior 
+          <lb ed="#Q"/>cogitari non potest 9; ergo et tanta est divina uni<pb ed="#Q" n="121"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tas 
+          qua maior cogitari non potest"; ergo ipsa 
+          <lb ed="#Q"/>est unitas in termino unitatis; sed unitas, quae
+          <lb ed="#Q"/>est maior et'7 in termino unitatis, absolvitur ab
+          <lb ed="#Q"/>omni pluralitate; ergo divina unitas absolvitur ab
+          <lb ed="#Q"/>omni pluralitate; ergo secum non compatitur ali<lb ed="#Q"/>quam
+          pluralitatem. —- Item, super illud Eph. 3,18:
+          <lb ed="#Q"/>Ut possitis comprehendere etc. dicit Bernardus ':
+          « Cum videbimus Deum facie ad faciem, non dis<lb ed="#Q"/>siliet
+          anima in suam pluralitatem, sed congregabit
+          <lb ed="#Q"/>se in suam unitatem ». Si ergo ad hoc quod anima
+          <lb ed="#Q"/>congregetur in Deum, oportet quod congregetur
+          <lb ed="#Q"/>in suam unitatem, multo magis divina essentia
+          <lb ed="#Q"/>abstrahatur ab omni pluralitate et erit in C omni<lb ed="#Q"/>moda
+          unitate; et ita divinum esse non compatitur
+          <lb ed="#Q"/>secum pluralitatem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3784">
+          <lb ed="#Q"/>2. Item, communis estd animi conceptio quod
+          <lb ed="#Q"/>in unitate est2 perfectio, in multitudine imper<lb ed="#Q"/>fectioz.
+          Unde nos videmus in corporibus quod
+          <lb ed="#Q"/>nobiliora sunt corpora quorum species in uno
+          <lb ed="#Q"/>solo salvatur, sicut corpora caelestia, et inde est
+          <lb ed="#Q"/>quod sunt incorruptibilia, sed non alia, quorum
+          <lb ed="#Q"/>Species plura requirit in quibus habeat perfectio<lb ed="#Q"/>nem.
+          Sed quod nobilius est Deo tribuendum!
+          <lb ed="#Q"/>est, et etiam species divina maxime perfecta est;
+          <lb ed="#Q"/>ergo ipsa est in uno solo singulari siveg una
+          <lb ed="#Q"/>sola persona absque omni pluralitate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3811">
+          <lb ed="#Q"/>3. Item, vanum est ponere multitudinem ubi
+          <lb ed="#Q"/>natura perfectam habet unitatem; sed, posita uni<lb ed="#Q"/>tate
+          divina, in uno idem habetur, scilicet summa
+          <lb ed="#Q"/>potentia, summa felicitas etc.; ergo unitas divini
+          <lb ed="#Q"/>esse est solum in uno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3824">
+          <lb ed="#Q"/>4. Item, omnis multitudo et pluralitas reduci<lb ed="#Q"/>bilis
+          est ad aliquam unitatem3 ; sed si ponitur in
+          <lb ed="#Q"/>divino esse pluralitas, non est reducibilis ad ali<lb ed="#Q"/>quam
+          unitatem, quia nec ad unitatem naturae nec
+          <lb ed="#Q"/>ad unitatem personae; ergo in divino esse nullo
+          <lb ed="#Q"/>modo potest esse pluralitas. — Minor patet:
+          <lb ed="#Q"/>Constat quod illa pluralitas, si esset in Deo, non
+          <lb ed="#Q"/>esset pluralitas naturae; sed ad unitatem naturae
+          <lb ed="#Q"/>non reducitur nisi pluralitas naturae; ergo illa
+          <lb ed="#Q"/>pluralitas non reducitur ad unitatem naturae. Si<lb ed="#Q"/>militer
+          nec ad unitatem personae, quia unitas
+          <lb ed="#Q"/>personae nulla communis est illis pluribus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3853">
+          <lb ed="#Q"/>5. Item, unitas et pluralitas ex opposito condi<lb ed="#Q"/>vidunt
+          ens 4. Si ergo unitati per se, in quantum
+          <lb ed="#Q"/>huiusmodi, attribuitur permanentia et consistentia
+          <lb ed="#Q"/>ipsius esse: ergo multitudini" et pluralitati attri<lb ed="#Q"/>buitur
+          Oppositum, videlicet corruptio et desitio
+          <lb ed="#Q"/>ipsius esse. — Quod autem unitati attri<cb ed="#Q" n="b"/><lb ed="#Q"/>buatur 
+          permanentia et consistentia
+          <lb ed="#Q"/>ipsius esse, patet per Boethium, in libro
+          <lb ed="#Q"/>De consolationes: « Omne quod est tamdiu ma<lb ed="#Q"/>net
+          atque consistit quamdiu unum est, sed ne<lb ed="#Q"/>cesse
+          est interire atque dissolvi, cum unum esse
+          <lb ed="#Q"/>desierit ». Si ' ergo a divino esse relegata est om<lb ed="#Q"/>nino
+          desitio esse, ergo et omnis pluralitas rele<lb ed="#Q"/>gata
+          est ab ipso.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3887">
+          <lb ed="#Q"/>Contra: a. Virtuosior est unitas quae potest
+          <lb ed="#Q"/>esse eadem in pluribus non multiplicata quam
+          <lb ed="#Q"/>illa quae non potest esse nisi in * uno solo 6, quia
+          <lb ed="#Q"/>ista coarctatur, illa non; sed unitas divini esse
+          <lb ed="#Q"/>est cui nihil deest de virtute; ergo ipsa est unitas
+          <lb ed="#Q"/>in pluribus non multiplicata; ergo est in pluribus
+          <lb ed="#Q"/>ipsam habentibus, scilicet in Patre et Filio et
+          <lb ed="#Q"/>Spiritu Sancto.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3907">
+          <lb ed="#Q"/>b. Item, supposita hac propositione per se nota,
+          <lb ed="#Q"/>quod esse divinum est summum' et perfectum
+          <lb ed="#Q"/>bonum 7; itern, supposito quod perfectio boni con<lb ed="#Q"/>sistit
+          in communione, tertia suppositio est quod
+          <lb ed="#Q"/>communio non est eiusdem ad se, sed unius ad
+          <lb ed="#Q"/>alterum. Ex iis'" necessario relinquitur quod po<lb ed="#Q"/>nenda
+          est pluralitas in" esse divino: quia ubi—
+          <lb ed="#Q"/>cumque est ponere communionem boni unius ad
+          <lb ed="#Q"/>alterum, necesse est ponere pluralitatem, quia ibi
+          <lb ed="#Q"/>est ponere alterum et alterum vel alium et alium;
+          <lb ed="#Q"/>sed in Deo est ponere summum bonum, sicut
+          <lb ed="#Q"/>patet per primam propositionem, et communio<lb ed="#Q"/>nem
+          boni, sicut patet per secundam, quia aliter
+          <lb ed="#Q"/>non esset bonum perfectum, et unius ad alterum,
+          <lb ed="#Q"/>sicut patet per tertiam; ergo in esse divino est
+          <lb ed="#Q"/>ponere pluralitatem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3944">
+          <lb ed="#Q"/>c. Tertia est ratio Richardi8 per rationem ca<lb ed="#Q"/>ritatis,
+          suppositis tribus propositionibus per se
+          <lb ed="#Q"/>notis: prima est quod « ubi est summa bonitas,
+          <lb ed="#Q"/>non potest deesse summa caritas; secunda est
+          <lb ed="#Q"/>quod summa caritas non est amor privatus, sed
+          <lb ed="#Q"/>communis, quia sic esset diminutus" ; tertia est
+          <lb ed="#Q"/>quod amor communis, non privatus, est amor cur<lb ed="#Q"/>rens
+          in alterum ». luxta quod dicit Richardus,
+          <lb ed="#Q"/>in libro De Trinitate 9, quia « oportet ut amor in
+          <lb ed="#Q"/>alterum tendat ut caritas esse queat: nullus enim
+          <lb ed="#Q"/>pro privato et proprio sui ipsius amore dicitur
+          <lb ed="#Q"/>proprie caritatem habere. Ubi autemP totius bo<lb ed="#Q"/>nitatis
+          plenitudo est 9, vera et summa caritas de
+          <lb ed="#Q"/>esse non potest: nihil enim caritate melius, nihil
+          <lb ed="#Q"/>caritate perfectius». Ex iis relinquitur quod in
+          <lb ed="#Q"/>divino esse sit pluralitas, quia in Deo est summa
+          <lb ed="#Q"/>bonitas; ergo in ipso non deest summa caritas,
+          <pb ed="#Q" n="122"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sicut patet per primam; ergo in ipso est amor
+          <lb ed="#Q"/>communis currens in alterum, sicut: patet per
+          <lb ed="#Q"/>secundam et tertiam "' propositionem; ergo in
+          <lb ed="#Q"/>Deo est alter et alter sive alius et alius. Relin<lb ed="#Q"/>quitur
+          ergo quod in divino esse est pluralitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4000">
+          <lb ed="#Q"/>d. Item, ostendit Richardus de S. Vic<lb ed="#Q"/>torel
+          quod illa caritas vel amor non erit in
+          <lb ed="#Q"/>aliquid extrae Deum quod sit creatum, dicens:
+          « Summam caritatem erga personam creatam ha<lb ed="#Q"/>bere
+          non posset: inordinata enim caritas esset »,
+          <lb ed="#Q"/>si summe diligeret quod summe diligendum non
+          <lb ed="#Q"/>esset. « Ut autemf caritas summa et summe per<lb ed="#Q"/>fecta
+          sit, oportet ut sit tantat! ut maior esse non
+          <lb ed="#Q"/>possit et talis qua non possit esse melior. Quam<lb ed="#Q"/>diu
+          autem quis nullum alium quam se ipsum cli<lb ed="#Q"/>ligit,
+          ille, quem erga se habet, privatus amor'x con<lb ed="#Q"/>vincit
+          quoniam summum caritatis gradum nondum
+          <lb ed="#Q"/>apprehendit; sed persona divina proiecto' non ha<lb ed="#Q"/>beret
+          quem ut se ipsam diligeret, si condignam'f
+          <lb ed="#Q"/>personam omnino non haberet; divinae autem
+          <lb ed="#Q"/>personae condigna' non esset persona, quae Deus
+          <lb ed="#Q"/>non esset; ut ergo in illa divinitatis natura ple<lb ed="#Q"/>nitudo
+          caritatis possit locum habere, oportet di<lb ed="#Q"/>vinam
+          aliquam personam personae condignae ca<lb ed="#Q"/>ritatem
+          suam communicare, et, eo ipso, consortio '"
+          <lb ed="#Q"/>non carere ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4046">
+          <lb ed="#Q"/>e. Item, Richard us, in libro De Trinitate 2,
+          <lb ed="#Q"/>arguit istud per rationem beatitudinis, suppositis
+          <lb ed="#Q"/>tribus propositionibus'l per se notis: prima est
+          <lb ed="#Q"/>quod in Deo sit summa beatitudo; secunda, quod
+          <lb ed="#Q"/>ubi est summa beatitudo, ibi est iucundissima"
+          <lb ed="#Q"/>possessio; tertia est quod nullius rei sine con—
+          <lb ed="#Q"/>sortio iucunda est possessio. Ex iis igitur relin<lb ed="#Q"/>quitur
+          quodP in divino esse est ponere consor<lb ed="#Q"/>tium
+          plurium: quia in ipso est summa beatitudo,
+          <lb ed="#Q"/>ergo et iucundissima possessio, ergo et iucun—
+          <lb ed="#Q"/>ditas plurium. Relinquitur ergo quod in ipso est
+          <lb ed="#Q"/>pluralitas et iucundissima beatitudo possidentium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4075">
+          <lb ed="#Q"/>f. Item, alio modo, supposito quod esse divi<lb ed="#Q"/>num
+          sit esse perfectissimum ; sed esse ' in multis,
+          <lb ed="#Q"/>non de multis' est esse perfectissimum ; ergo esse
+          <lb ed="#Q"/>divinum est tale esse quod est *unum in multis,
+          <lb ed="#Q"/>non de multis'.— Manifestatio mediae est:
+          <lb ed="#Q"/>nam est esse universalis et est esse singularis.
+          <lb ed="#Q"/>Esse autem universalis est esse in multis et de
+          <lb ed="#Q"/>multis 3, ut esse hominis est esse in multis singu<lb ed="#Q"/>laribus
+          et de illis, quia non est totum esse quod
+          <lb ed="#Q"/>sint illa; ' homo' enim non dicit totum esse istius
+          <lb ed="#Q"/>hominis: in isto enim homine est esse quantitatis 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>et" esse qualitatis et * huiusmodi, quaec non dicit
+          <lb ed="#Q"/>esse hominis: propterea est de esse non'1 totum
+          <lb ed="#Q"/>quod est esse illius; et ideo de illo, non ut illud.
+          <lb ed="#Q"/>Esse vero singularis est e contrario esse non in
+          <lb ed="#Q"/>multis nec! de multis, immo esse in uno et esse
+          <lb ed="#Q"/>illud unum, non de illo. Constans autem estf quod
+          <lb ed="#Q"/>nobilius est esse in multis quam esse in uno; sed
+          <lb ed="#Q"/>quod est! nobilissimum est Deo tribuendum; ergo
+          <lb ed="#Q"/>tale erit esse divinum, scilicet quod habebit esse '1
+          <lb ed="#Q"/>in multis, non in uno1 solo. —- Item, nobilius
+          <lb ed="#Q"/>et perfectius est esse non de multis quam quod
+          <lb ed="#Q"/>estk esse de multis: quia cum' dico 'de', dico
+          <lb ed="#Q"/>partem, non totum. Cum ergo quod est perfectis<lb ed="#Q"/>simum
+          Deo sit tribuendum '", esse divinum est
+          <lb ed="#Q"/>esse tale quod" est in multis, non de multis,
+          <lb ed="#Q"/>immo unum et totum esse illorum. Ex hoc ergo
+          <lb ed="#Q"/>patet quod esse divinum non est universale vel
+          <lb ed="#Q"/>singulare, sed habens aliquid de utroque. Ex hoc
+          <lb ed="#Q"/>ergo relinquitur quod in Deo est" pluralitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4145">
+          <lb ed="#Q"/>g. Item, virtuosius est et nobilius esse quod
+          <lb ed="#Q"/>potest esse in multis4 quam quod potest esse in
+          <lb ed="#Q"/>uno solo, et hinc est quod nobilius est esse uni<lb ed="#Q"/>versalis
+          quam singularis. —- Item, nobilius est
+          <lb ed="#Q"/>esse unum in multis, non multiplicatum in illis,
+          <lb ed="#Q"/>sed manens omnino idem, quam esse unum in
+          <lb ed="#Q"/>multis P, multiplicatum in illis, velut est esse uni<lb ed="#Q"/>versale,
+          quod quidem est esse in multis singu<lb ed="#Q"/>laribus,
+          multiplicatum in illis. Nobilius autem et
+          <lb ed="#Q"/>virtuosius esse Deo est tribuendum; ergo divi<lb ed="#Q"/>num
+          esse est ' unum in multis, non multiplicatum
+          <lb ed="#Q"/>in illis'; ergo in divino esse est pluralitas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4174">
+          <lb ed="#Q"/>Solutio: Concedendum est quod unitas ? divini
+          <lb ed="#Q"/>esse est unitas in pluribus; et hoc ostendit per<lb ed="#Q"/>fectionem
+          ipsius ', quod est unitas in pluribus non
+          <lb ed="#Q"/>multiplicata, sed manens eadem, non de illis, sed
+          <lb ed="#Q"/>totum esse illorum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4187">
+          <lb ed="#Q"/>Quidam tamen* in contrarium obiciunt sic:
+          <lb ed="#Q"/>est pluralitas in pluribus et est pluralitas in uno,
+          <lb ed="#Q"/>est autem unitas in pluribus et est unitas in uno *;
+          <lb ed="#Q"/>primum imperfectionis maximae est; ergo ultimum,
+          <lb ed="#Q"/>quod maxime distat a primo, summae perfectionis
+          <lb ed="#Q"/>est; sed quod est summae perfectionis est Deo
+          <lb ed="#Q"/>tribuendum; ergo unitas divini esse est unitas in
+          <lb ed="#Q"/>uno. — Ad hoc dicendum, quod" unitas et
+          <lb ed="#Q"/>pluralitas possunt comparari in uno genere vel in V
+          <lb ed="#Q"/>pluribus. Si comparantur in eodem genere, ut vi<lb ed="#Q"/>delicet
+          pluralitas naturae ad unitatem naturae com<lb ed="#Q"/>paretur,
+          sic pluralitas in pluribus imperfectissi<lb ed="#Q"/>mum
+          est" et unitas in uno perfectissimum. Si in
+          <pb ed="#Q" n="123"/>
+          <cb ed="#Q"/>
+          <lb ed="#Q"/>diversis generibus, ut videlicet comparetur plu<lb ed="#Q"/>ralitas
+          personalis unitati essentiali, istud non se<lb ed="#Q"/>quitur,
+          immo perfectior est unitas quae est in plu<lb ed="#Q"/>ribus
+          personaliter differentibus sive secundum re<lb ed="#Q"/>lationem,
+          quam quae est sine, quia pluralitas,
+          <lb ed="#Q"/>quae est personalis sive secundum relationem,
+          <lb ed="#Q"/>demonstrat virtutem et perfectionem ipsius uni<lb ed="#Q"/>tatis.
+          Unde n0n detrahit ipsi unitati, quia sum<lb ed="#Q"/>mae
+          virtutis et perfectionis est b quod sit in pluri<lb ed="#Q"/>bus
+          ' eadem, non multiplicata. Unde 'esse ab alio ',
+          'non esse ab alio ', licet in divino esse reperiantur,
+          <lb ed="#Q"/>non tamen detrahunt simplicitati ipsius, quia so<lb ed="#Q"/>lum
+          dicunt differentiam secundum relationem:
+          <lb ed="#Q"/>unde, secundum B 0 ethi um ** ', nihil addunt ad
+          <lb ed="#Q"/>esse. Nec etiam pluralitas in personis, quae ab
+          <lb ed="#Q"/>iis est, unitati divini * esse opponiturf, sed plu<lb ed="#Q"/>ralitas
+          ! in naturis ei opponitur; et de hac procedit
+          <lb ed="#Q"/>ratio, secundum quod divinum esse maxime longe
+          <lb ed="#Q"/>sit'. a pluralitate naturarum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4262">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primam vero rationem
+          <lb ed="#Q"/>superius positam dicendum quod ratio illa bene
+          <lb ed="#Q"/>procederet, si pluralitas .'quaelibet opponeretur et
+          <lb ed="#Q"/>detraheret simplicitati divini esse; pluralitas autem
+          <lb ed="#Q"/>secundum relationem, quae est in divino esse, non
+          <lb ed="#Q"/>opponitur unitati naturae. Unde Richardus,
+          <lb ed="#Q"/>in libro De Trinitatez: « Habet homo quomodo
+          <lb ed="#Q"/>legat et discat in se ipso quid per contrarium de<lb ed="#Q"/>beat'
+          aestimare de Deo: ibi quidem pluralitas
+          <lb ed="#Q"/>personarum in unitate substantiae, hic autem plu<lb ed="#Q"/>ralitas
+          substantiarum in unitate personae; plura<lb ed="#Q"/>litas
+          autem naturae nunquam opponitur unitati
+          <lb ed="#Q"/>personae in homine; similiter nec pluralitas per—
+          <lb ed="#Q"/>sonae unitati naturae in Deo ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4295">
+          <lb ed="#Q"/>2. A d aliud dicendum quod duplex est unitas,
+          <lb ed="#Q"/>scilicet materialis et formalis. Unitas materialis
+          <lb ed="#Q"/>est unitas signata vel singularis; et quia haec
+          <lb ed="#Q"/>unitas signata est, non habet potestatem multi—
+          <lb ed="#Q"/>plicandi se, sed 'est materia multitudinis et etiam
+          <lb ed="#Q"/>subiecta ipsi multiplicationi '". Sed unitas formalis
+          <lb ed="#Q"/>est unitas ipsius formae, quae habet virtutem ad
+          <lb ed="#Q"/>multiplicationem' ut potens sit esse in multis. Sed
+          <lb ed="#Q"/>hoc potest esse dupliciter: quia haec unitas po<lb ed="#Q"/>test
+          esse in multis multiplicata in illis, vel non
+          <lb ed="#Q"/>multiplicata, sed una et eadem. Quod sit unitas
+          <lb ed="#Q"/>in multis, hoc dicit perfectionem; sed quod sit
+          <lb ed="#Q"/>multiplicata, hoc dicit imperfectionem; et talis
+          ?St" unitas formae universalis, quae multiplicatur
+          "i singularibus. -— Quod ergo dicitur quod 'no<lb ed="#Q"/>bilitatis"
+          est in corporibus caelestibus quod non
+          <lb ed="#Q"/>Possunt esse nisi in uno solo': dicendum quod
+          <lb ed="#Q"/>ex Parte ipsius singularis istud verum est quod
+          <lb ed="#Q"/>nobilitas ipsius solis est quod manet incorrupti<cb ed="#Q"/><lb ed="#Q"/>bilis, 
+          sed ex parte suae speciei nobilitas esset
+          <lb ed="#Q"/>quod esset in pluribus; et quod non possit nisi
+          <lb ed="#Q"/>in uno, istud ignobilitatis " est, quia istud ponit
+          <lb ed="#Q"/>coarctationem in ipsa. Constat igitur quod per<lb ed="#Q"/>fectior
+          est et virtuosior unitas quae potest esse
+          <lb ed="#Q"/>in multis quam quae nisi in uno solo, et per<lb ed="#Q"/>fectior,
+          immo? perfectissima, est illa quae potest
+          <lb ed="#Q"/>esse in pluribus, non multiplicata. Quia ergo quod
+          <lb ed="#Q"/>nobilitatis et perfectionis est Deo est tribuendum,
+          <lb ed="#Q"/>ideo ponimus unitatem divinae essentiae in plu—
+          <lb ed="#Q"/>ribus non multiplicatam. Et propter hoc distin<lb ed="#Q"/>guenda
+          est illa propositio quod 'in multitudine
+          <lb ed="#Q"/>est imperfectio ', dicendo quod est multitudo in
+          <lb ed="#Q"/>multitudine et multitudo in unitate: et multitudo
+          <lb ed="#Q"/>in multitudine ? imperfectionis est, quia deest ibi "
+          <lb ed="#Q"/>perfectio unitatis; sed multitudo in unitate, immo *
+          <lb ed="#Q"/>quae est unitas, perfectionis est, quamvis non
+          <lb ed="#Q"/>congrue dicatur multitudo in Deo, sed pluralitas,
+          <lb ed="#Q"/>et ideo pro pluralitate intelligatur cum dicitur
+          <lb ed="#Q"/>multitudo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4379">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod 'vanum est po<lb ed="#Q"/>nere
+          multitudinem ubi idem ' contingit per positam
+          <lb ed="#Q"/>unitatem vel ubi natura habet perfectam unitatem'
+          <lb ed="#Q"/>hoc verum esset, si multitudo et unitas accipe<lb ed="#Q"/>rentur
+          in eodem genere. Nos autem non ponimus
+          <lb ed="#Q"/>in divino esse unitatem et multitudinem in eodem
+          <lb ed="#Q"/>genere, immo unitatem essentiae et personarum
+          <lb ed="#Q"/>pluralitatem, et dicimus quod, licet sit'1 summa
+          <lb ed="#Q"/>potentia in Deo, etsi non sit aliqua pluralitas in
+          <lb ed="#Q"/>divino esse, dico tamen quod non idem contin<lb ed="#Q"/>geret,
+          quia per hoc manifestatur summa potentia
+          <lb ed="#Q"/>et ostenditur in Deo quod scilicet sit unum in
+          <lb ed="#Q"/>multis non multiplicatum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4410">
+          <lb ed="#Q"/>4. Ad quartum dicendum quod multitudo
+          <lb ed="#Q"/>sive pluralitas, quae ponitur in divinis personis,
+          <lb ed="#Q"/>reducibilis est ad unitatem eiusdem generis, scilicet
+          <lb ed="#Q"/>ad unitatem personae. —— Et quod obicitur
+          <lb ed="#Q"/>quod 'non est una communis persona ', distin<lb ed="#Q"/>guendum
+          est: quod est commune secundum ori<lb ed="#Q"/>ginem
+          et secundum praedicationem. Secundum
+          <lb ed="#Q"/>ergo * praedicationem non est una communis per<lb ed="#Q"/>sona,
+          sed dicendo commune secundum originem,
+          <lb ed="#Q"/>est una communis, scilicet persona Patris, a qua
+          <lb ed="#Q"/>ceterae habent originem: Filius per generationem,
+          <lb ed="#Q"/>Spiritus Sanctus per processionem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4439">
+          <lb ed="#Q"/>5. Ad quintum dicendum quod, cum unitas
+          <lb ed="#Q"/>et multitudo ex opposito dividantur, unitati se<lb ed="#Q"/>cundum
+          essentiam vel naturam opponitur multi<lb ed="#Q"/>tudo
+          secundum essentiam, et unitati modi exi<lb ed="#Q"/>stendi
+          multitudo modi existendi. Consistentia vero
+          <lb ed="#Q"/>et permanentia ipsius esse attribuitur unitati se<lb ed="#Q"/>cundum
+          naturam, non unitati secundum modum 
+          <pb ed="#Q" n="124"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>existendi; ita etiam e contrario corruptio vel de<lb ed="#Q"/>sitio
+          ipsius esse attribuitur multitudini naturae,
+          <lb ed="#Q"/>non pluralitati secundum modum existendi. Manet 
+          <lb ed="#Q"/>igitur pluralitas secundum existendi modum cum 
+          <lb ed="#Q"/>unitate naturae, non repugnans permanentiae ip<lb ed="#Q"/>sius 
+          divini esse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

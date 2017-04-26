@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="152"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m2c5">
+        <head xml:id="ahsh-l1p1i1t3q2m2c5-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 2, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t3q2m2c5-Hd1e3732" type="question-title">AN PRIMA VERITAS SIT CAUSA OMNIUM VERITATUM.</head>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3735">
+          <lb ed="#Q"/>Consequenter quaeritur an prima veritas sit causa
+          <lb ed="#Q"/>omnium veritatum.
+        </p>
+        
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3742">
+          <lb ed="#Q"/>Ad quod sic: a. Summa bonitas se habet ad
+          <lb ed="#Q"/>bona sicut summa veritas ad vera; si ergo summa
+          <lb ed="#Q"/>bonitas est causa omnium bonorum, ergo summa
+          <lb ed="#Q"/>veritas est causa omnium verorum, ergo et omnis
+          <lb ed="#Q"/>veritatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3755">
+          <lb ed="#Q"/>b. Item, I Cor. 12,3: Nemo potest dicere: Do<lb ed="#Q"/>minus
+          Iesus, nisi in Spiritu Sancto. Glossaz:
+          « Omne verum, a quocumque dicatur, a Spiritu
+          <lb ed="#Q"/>Sancto est » verum. Ergo et a prima veritate est
+          <lb ed="#Q"/>verum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3767">
+          <lb ed="#Q"/>c. Item, <name ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title>3:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e3778">Vides quoniam prima rectitudo causa sit omnium
+          <lb ed="#Q"/>veritatum et rectitudinum et nihil sit causa il<lb ed="#Q"/>lius?</quote>
+          Et respondet: <quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e3785">Video et animadverto in
+          <lb ed="#Q"/>aliis tantum esse effecta, quasdam veroi cau<lb ed="#Q"/>sas
+          et effecta: ut cum veritas, quae est in rerum
+          <lb ed="#Q"/>essentia, sit etiectumk summae veritatis, ipsa vero
+          <lb ed="#Q"/>causa est veritatis, quae cogitationis' est et eius
+          <lb ed="#Q"/>quae est in propositione; et istae duae veritates
+          <lb ed="#Q"/>nullius'" causa sunt veritatis</quote>.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3802">
+          <lb ed="#Q"/>Contra: 1. « Omne verum prima veritate est ve<lb ed="#Q"/>rum
+          4 »; sed ' istum fornicari ' vel quod" ' iste for<lb ed="#Q"/>nicatur'
+          est verum, demonstrato aliquo fornicante;
+          <lb ed="#Q"/>ergo a prima veritate est verum5; sed 'esse' et
+          'esse verum' convertuntur; ergo a prima veritate
+          <lb ed="#Q"/>habet esse quod iste fornicatur; ergo a Deo habet
+          <lb ed="#Q"/>esse quod iste fornicatur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3818">
+          <lb ed="#Q"/>2. Item, veritas, quae est in propositione creata,
+          <lb ed="#Q"/>est a veritate quae estin re, sicut dicit Ansel<lb ed="#Q"/>mus
+          5. Si ergo veritas, quae est fornicationis in
+          <lb ed="#Q"/>re, non est a prima veritate, ergo nec veritas pro<lb ed="#Q"/>positionis
+          qua enuntiatur istum fornicari ; non
+          <lb ed="#Q"/>ergo «omneo verum, a quocumque dicatur, a
+          <lb ed="#Q"/>Spiritu Sancto est» verum ",
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3836">
+          <lb ed="#Q"/>3. Item, si dicatur quod cum dico 'forni<lb ed="#Q"/>cationem', 
+          dico actum inordinatum et deformem:
+          <lb ed="#Q"/>veritas actus est a prima veritate in quantum
+          <lb ed="#Q"/>actus, sed non in quantum inordinatusP vel detor<lb ed="#Q"/>mis
+          — obicitur: verum est istum actum esse
+          <lb ed="#Q"/>deformem vel inordinatum; ergo verum est de<lb ed="#Q"/>formationem
+          vel inordinationem esse in hoc actu;
+          <lb ed="#Q"/>veritas ergo, qua istud est verum, aut est a prima
+          <lb ed="#Q"/>veritate aut non. Si sic: ergo a prima veritate
+          <lb ed="#Q"/>est detormatio et inordinatio in hoc actu; quod
+          <lb ed="#Q"/>est falsum. Si non: hoc verum non est verum a
+          <lb ed="#Q"/>veritate prima.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3865">
+          <lb ed="#Q"/>Respondeo, secundum <name ref="#Anselm">Anselmum</name>, in libro
+          <lb ed="#Q"/>De concordia praescientiae et liberi arbitriis:
+          « Deus facit in omnibus voluntatibus et operatio<lb ed="#Q"/>nibus
+          bonis quod essentialiter sunt et quod bona
+          <lb ed="#Q"/>sunt; in malis vero non quod mala sunt, sed tan<lb ed="#Q"/>tum
+          quod per essentiam sunt ». Ita per hunc
+          <lb ed="#Q"/>modum dicendum quod in malis facit quod per
+          <lb ed="#Q"/>veritatem sunt, non quod mala sunt, quia hoc per
+          <lb ed="#Q"/>detectum veritatis sunt. Dicendum ergo quod sicut
+          <lb ed="#Q"/>a prima essentia est omne quod est in quantum
+          <lb ed="#Q"/>est, et a prima bonitate? omne quod bonum est
+          <pb ed="#Q" n="153"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>in quantum bonum est, ita a summa veritate est
+          <lb ed="#Q"/>omne verum in quantum verum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3901">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primo ergo obiectum
+          <lb ed="#Q"/>dicendum quod cum sit veritas [dicti] quae con<lb ed="#Q"/>sistit
+          in adaequatione rei et intellectus ', et veritas
+          <lb ed="#Q"/>rei, ut accipitur res generaliter ad bonum et malum,
+          <lb ed="#Q"/>mutatio praedicamenti est, cum arguitur a veritate
+          <lb ed="#Q"/>dicti ad veritatem rei; et ideo cum dicitur ' istum
+          <lb ed="#Q"/>fornicari " vel quod iste fomicetur, est verum',
+          <lb ed="#Q"/>copulatur veritas dicti, non veritas rei. Sequitur
+          <lb ed="#Q"/>ergo: ' istum fornicari est verum veritate prima',
+          <lb ed="#Q"/>quia hoc dictum vel haec propositio est vera"
+          <lb ed="#Q"/>a veritate prima. Et cum arguitc ulterius: ' ergo
+          <lb ed="#Q"/>quod fornicatur est a veritate prima", proce<lb ed="#Q"/>dit
+          ad veritatem rei, sed deberet arguere: * ergo
+          <lb ed="#Q"/>habet esse dictum vel enuntiatum a veritate
+          <lb ed="#Q"/>prima '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3937">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod sicut in
+          <lb ed="#Q"/>malo non dicitur ' esse ' simpliciter, sed secundum
+          <lb ed="#Q"/>quid, scilicet ratione subsistentis boni, non ratione
+          <lb ed="#Q"/>defectus a quo nominatur malum: ita dicitur ha<lb ed="#Q"/>bere
+          veritatem' in re secundum quid, sed non
+          <lb ed="#Q"/>simpliciter. Cum ergo dicitur fornicatio habere
+          <lb ed="#Q"/>veritatem in re, secundum quid dicitur. Nam for<lb ed="#Q"/>nicatio
+          dicit deformitatem actus talis, scilicet coire:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>ratione actus subsistentis deformitas habet esse
+          <lb ed="#Q"/>in re et veritatem; ratione defectus vel carentiae
+          <lb ed="#Q"/>formalitatis vel ordinis dicit defectum ab esse et
+          <lb ed="#Q"/>veritate. Tamen veritas fornicationis, dicta de malo
+          <lb ed="#Q"/>vel fornicatione, habet veritatem et esse simpli—
+          <lb ed="#Q"/>citer, quia consistit in adaequatione dictionis ad
+          <lb ed="#Q"/>rem quae simpliciter est, quamvis res non sim—
+          <lb ed="#Q"/>pliciter habeat esse. Non ergo sequitur, quamvis
+          <lb ed="#Q"/>veritas enuntiationis causetur a veritate rei: ' si
+          <lb ed="#Q"/>veritas rei non est a veritate prima, quod nec
+          <lb ed="#Q"/>veritas dicti ', quia veritas huiusmodi secundum
+          <lb ed="#Q"/>quid est a veritate prima, non simpliciter, tamen
+          <lb ed="#Q"/>causa est veritatis dicti: non quod sit ipsa veritas
+          <lb ed="#Q"/>secundum quid, immo est veritas simpliciter, quia
+          <lb ed="#Q"/>de eo quod est secundum quid contingit enun<lb ed="#Q"/>tiare
+          verum simpliciter.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3994">
+          <lb ed="#Q"/>3. Ad tertium quod dicit 'verum est defor<lb ed="#Q"/>mationem
+          vel inordinationem esse in hoc actu ',
+          <lb ed="#Q"/>dicendum: quiaf copulatur veritas dicti, conce—
+          <lb ed="#Q"/>dendum quod veritas, qua hoc est verum, est
+          <lb ed="#Q"/>verum veritateg prima; sed non sequitur: 'ergo
+          <lb ed="#Q"/>deformatio est in actu a veritate prima', quia pro<lb ed="#Q"/>cedit
+          a veritate dicti ad veritatem rei; sed seque<lb ed="#Q"/>retur:
+          'ergo dictum vel enuntiatum de deforma<lb ed="#Q"/>tionex
+          in actu est a veritate prima '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

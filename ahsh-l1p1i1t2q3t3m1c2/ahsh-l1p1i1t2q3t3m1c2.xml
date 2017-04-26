@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. I, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="71"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t3m1c2">
+        <head xml:id="ahsh-l1p1i1t2q3t3m1c2-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. I, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t2q3t3m1c2-Hd1e3732" type="question-title">UTRUM DEUS SIT IN REBUS POTENTIALITER PRAESENTIALITER ESSENTIALITER</head>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3735">
+          <lb ed="#Q"/>Postea quaeritur utrum Deus sit in rebus po<lb ed="#Q"/>tentialiter, 
+          praesentialiter, essentialiter 3.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3742">
+          <lb ed="#Q"/>I. a. Quod potentialiter sit in rebus: Ri<lb ed="#Q"/>cha
+          rd u s, in libro De Trinitate 4: « Si Deus omni<lb ed="#Q"/>potens
+          est, consequenter et ubique potest"; si ubi<lb ed="#Q"/>que
+          potest, potentialiter ubique est ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3753">
+          <lb ed="#Q"/>b. Item, quod praesentialiter: Anselmus,
+          <lb ed="#Q"/>in Monologion 5: « Simili namque! per omnia ra<lb ed="#Q"/>tione
+          — qua collectum est omnia esse per unum
+          <lb ed="#Q"/>aliquid: unde ipsum solum est per se ipsum et alia
+          <lb ed="#Q"/>per aliudk — simili, inquam, ratione potest probari
+          <lb ed="#Q"/>quod quaecumque vigent, per unum aliquid vi<lb ed="#Q"/>gent:
+          unde solum illud viget per se ipsum, et alia
+          <lb ed="#Q"/>per aliud. Quod quoniam aliter esse non potest,
+          <lb ed="#Q"/>nisi ut ea quae tacta sunt vigeant per aliud ', et
+          <lb ed="#Q"/>id a quo facta sunt vigeat per se '" ipsum: necesse
+          <lb ed="#Q"/>est, ut sicut nihil factum est nisi per creatricem"
+          <lb ed="#Q"/>praesentem essentiam, ita nihil vigeat nisi per
+          <lb ed="#Q"/>eiusdem servatricem praesentiam ». Ex qua auc<lb ed="#Q"/>toritate
+          patet quod praesentialiter est in omnibus
+          <lb ed="#Q"/>quae sunt.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3789">
+          <lb ed="#Q"/>c. Item, quod sit ubique essentialiter: Ri<lb ed="#Q"/>chardus
+          de S. Victores: « Si ubique est po<cb ed="#Q" n="b"/><lb ed="#Q"/>tentialiter, 
+          ubique est essentialiter, cum non sit
+          <lb ed="#Q"/>aliud et aliud in ipso potentia et essentia »: aliter
+          <lb ed="#Q"/>extenderet se potentia ultra" essentiam; quod est
+          <lb ed="#Q"/>inconveniens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3806">
+          <lb ed="#Q"/>Contra: 1. Omne quod est essentialiter in ali<lb ed="#Q"/>quo
+          est de illo vel principium? essentiale illi;
+          <lb ed="#Q"/>sed divina essentia non est de rebus; ergo si es<lb ed="#Q"/>sentialiter
+          est in eis, est principium essentiale
+          <lb ed="#Q"/>illis; sed principium essentiale est secundum ? ali<lb ed="#Q"/>quod
+          genus causarum; Deus autem non est sicut
+          <lb ed="#Q"/>materia; ergo est forma vel finis vel efficiens.
+          <lb ed="#Q"/>Si' finis: non est essentialiter in rebus, immo extra
+          <lb ed="#Q"/>res; similiter in quantum efficiens, quia tiniss et
+          <lb ed="#Q"/>efficiens causae sunt extrinsecae7 ; ergo ponitur
+          <lb ed="#Q"/>necessario in rebus ut forma; sed tunc obicitur:
+          <lb ed="#Q"/>Deus non est forma rei, quae dat esse con<lb ed="#Q"/>iuncto
+          ", immo est forma exemplaris; sed torma
+          <lb ed="#Q"/>exemplaris est extra res, non intra; ergo Deus
+          <lb ed="#Q"/>aliquo modo non est" essentialiter in rebus, cum
+          <lb ed="#Q"/>non sit de re, nec principium essentiale quod sit
+          <lb ed="#Q"/>in rebus 9.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3845">
+          <lb ed="#Q"/>2. Item, illud per quod Deus dicitur esse in
+          <lb ed="#Q"/>rebus, dicitur in Deo per comparationem ad res;
+          <lb ed="#Q"/>sed essentia dicit omnino abstractum; ergo habet
+          <pb ed="#Q" n="72"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>intellectum absolutum a comparatione ad res;
+          <lb ed="#Q"/>ergo Deus secundum essentiam non debet dici in
+          <lb ed="#Q"/>rebus; sed ab essentia venit ' essentialiter'; ergo
+          <lb ed="#Q"/>nec essentialiter est in rebus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3867">
+          <lb ed="#Q"/>II. Quod autem Deus ita essentialiter sit in re<lb ed="#Q"/>bus
+          quod sit de esse rerum, videtur: 1. Augu<lb ed="#Q"/>stin
+          u s, in libro De spiritu et anima 1: « Deus est
+          <lb ed="#Q"/>rerum universitas, ita quod nullum singulorum;
+          <lb ed="#Q"/>propterea motibus rationis non subiacet, quia ra<lb ed="#Q"/>tio
+          non est nisi de re aliqua ». Aut .ergo iStud
+          <lb ed="#Q"/>dicitur per essentiam aut per causam, quod dicit
+          « Deus est universitas rerum ». Si" per causam,
+          <lb ed="#Q"/>non per essentiam: ergo similiter et b secundum
+          <lb ed="#Q"/>dicetur per causam, non per essentiam, quod est
+          . quod nullum singulorum » est; quod est incon<lb ed="#Q"/>veniens.
+          Cum ergo hoc abneget esse per essen<lb ed="#Q"/>tiam:
+          ergo et primum ponit esse per essentiam;
+          <lb ed="#Q"/>ergo ita est essentialiter in rebus, quod est de
+          <lb ed="#Q"/>illis sive de esse rerum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3898">
+          <lb ed="#Q"/>2. Item, Augustinus, VIII De Trinitatez:
+          <lb ed="#Q"/>Est bonum per essentiam, et ' bonum per parti<lb ed="#Q"/>cipationem;
+          et dicit: « Tolle hoc, tolle illud, et in<lb ed="#Q"/>venies
+          summum bonum », quod est bonum per
+          <lb ed="#Q"/>essentiam; ergo bonum per essentiam, quod est
+          <lb ed="#Q"/>Deus, est essentia- aliorum bonorum; sed sicut
+          <lb ed="#Q"/>se habet bonum ad bonum, ita essentia ad es<lb ed="#Q"/>sentiam;
+          ergo ita est essentialiter in aliis, quod
+          <lb ed="#Q"/>est de illorum essentia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3920">
+          <lb ed="#Q"/>III. Item, quaeritur utrum ita sit essentialiter in
+          <lb ed="#Q"/>rebus, quod formaliter:
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3928">
+          <lb ed="#Q"/>Ad quod sic: 1. Omne « esse est a torma3 »;
+          <lb ed="#Q"/>sed forma creata dat esse determinatum et tractum
+          <lb ed="#Q"/>in partem; ergo Oportet ponere "' causam formalem
+          <lb ed="#Q"/>universalem, quae faciat esse simpliciter; sed
+          <lb ed="#Q"/>Deus est huiusmodi forma; ergo est in rebus es<lb ed="#Q"/>sentialiter,
+          ita quod formaliter est principium ip<lb ed="#Q"/>sius
+          esse simpliciter, non determinati! in crea<lb ed="#Q"/>tura.
+          ——-Maior et minor patent per Boe<lb ed="#Q"/>thium,
+          in libro De Trinitate 4, dicentem: « Deus
+          <lb ed="#Q"/>est vere forma, quae neque imago est et quae
+          <lb ed="#Q"/>ipsum esse est, ex qua est omne esse: namque
+          <lb ed="#Q"/>esse ex forma est ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3957">
+          <lb ed="#Q"/>2. Item, sicut est bonum per essentiam et per
+          <lb ed="#Q"/>participationem, ita estf esse per essentiam et
+          <lb ed="#Q"/>per participationem. Si ergo creaturae dicuntur
+          <lb ed="#Q"/>bonae per participationem divinae bonitatis, ergo
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sunt entes per participationem divinae essentiae;
+          <lb ed="#Q"/>si ergo eo sunt quo participant divinamg essen<lb ed="#Q"/>tiam,
+          ergo est in illis formaliter, quia quo res
+          <lb ed="#Q"/>est, illud formale est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e3979">
+          <lb ed="#Q"/>3. Item, divina essentia simplex est; ergo non
+          <lb ed="#Q"/>potest trahi in partem; ergo nec participari a
+          <lb ed="#Q"/>creaturis hoc modo; ergo si ab eis participatur,
+          <lb ed="#Q"/>hoc est sicut nos dicimus «participatione spe<lb ed="#Q"/>ciei
+          plures homines sunt unus homo5-; sed in
+          <lb ed="#Q"/>hac participatione illud quod participatur, essen<lb ed="#Q"/>tialiter
+          et formaliter est in participatis; ergo di<lb ed="#Q"/>vina
+          essentia essentialiter et formaliter est in om<lb ed="#Q"/>nibus
+          rebus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e4001">
+          <lb ed="#Q"/>Solutio: Dicendum quod divina essentia est in
+          <lb ed="#Q"/>omnibus rebus secundum tres praedictos modos
+          <lb ed="#Q"/>generales, scilicet essentialiter, potentialiter, prae<lb ed="#Q"/>sentialiter.
+          Et hoc patet per auctoritatem G rego<lb ed="#Q"/>rii
+          super illud Cant. 5,17: an'l abiit dilectus
+          <lb ed="#Q"/>tuus? dicentisü: : Deus communii modo omni<lb ed="#Q"/>bus
+          inest essentia, praesentia, potentia ». Et istos
+          <lb ed="#Q"/>etiam tres modos tangit David propheta in Psalmo
+          <lb ed="#Q"/>dicens7: Si ascendero in caelum, tu illic es, per hoc
+          <lb ed="#Q"/>tangens modum existendi Deum essentialiter; per
+          <lb ed="#Q"/>hoc autem: Si descendero ad infernum, ades, tan<lb ed="#Q"/>git
+          modum existendi praesentialiter, quia ' adesse '
+          <lb ed="#Q"/>dicit praesentiam; per hoc autem quod dicit:Et
+          <lb ed="#Q"/>habitavere in extremis maris, etenim illac'f ma<lb ed="#Q"/>nas
+          tua deducet me, id est potentia, tangit modum
+          <lb ed="#Q"/>existendi potentialiter. Nec est intelligendum quod
+          <lb ed="#Q"/>ita reddantur singula "singulis quin illis tribus
+          <lb ed="#Q"/>modis sit in caelo et etiam ubique, sed sic ap<lb ed="#Q"/>prOpriando
+          tangit triplicem modum existendi in
+          <lb ed="#Q"/>omnibus rebus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e4047">
+          <lb ed="#Q"/>Et ad ' habendam distinctionem istorum modo<lb ed="#Q"/>rum
+          generalium, notandum quod in Deo sunt tria,
+          <lb ed="#Q"/>scilicet essentia, virtus et operatio 8 -— et dico
+          <lb ed="#Q"/>tria secundum rationem intelligentiae —— et distin<lb ed="#Q"/>guuntur
+          illi modi ita: quod per essentiam est in
+          <lb ed="#Q"/>rebus "' essentialiter, per virtutem est in rebus po<lb ed="#Q"/>tentialiter,
+          per operationem vero praesentialiter:
+          <lb ed="#Q"/>namper operationem innotescit rebus divina es<lb ed="#Q"/>sentia
+          et potentia, Rom. 1, 20: Invisibilia " Dei etc.,
+          <lb ed="#Q"/>et Sap. 13,5: A 0 magnitudine speciei creaturae
+          <lb ed="#Q"/>poterat cognoscibiliter Creator eorum videri. Quia
+          <lb ed="#Q"/>igitur sua essentia attingit omnem rem, propter
+          <lb ed="#Q"/>hoc dicitur esse in rebus omnibus essentialiter;
+          <lb ed="#Q"/>quia vero sua potentia vel virtus et sua? opera<lb ed="#Q"/>tio,
+          per quam ipse 4 est praesens, attingunt omnem 
+          <pb ed="#Q" n="73"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>rem, propter hoc in omnibus rebus est potentia<lb ed="#Q"/>liter,
+          praesentialiter. — Alii " voluerunt distin<lb ed="#Q"/>guere
+          dicentes * quod primum quod cadit in c in<lb ed="#Q"/>tellectu
+          est ens; et post, ens potentia; et post,
+          <lb ed="#Q"/>ens " actu. Connotatur ergo divinum esse respectu
+          <lb ed="#Q"/>entis simpliciter, cum dicitur essentialiter esse;
+          <lb ed="#Q"/>respectu entis potentia, cum dicitur potentialiter
+          <lb ed="#Q"/>esse; respectu vero entis actu, cum dicitur prae<lb ed="#Q"/>sentialiter
+          esse. Ut ostendatur ergo quod divinum
+          <lb ed="#Q"/>esse nusquam deest, quoquo modo accipiatur ens,
+          <lb ed="#Q"/>dicitur esse his tribus modis in rebus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e4110">
+          <lb ed="#Q"/>[Ad obiecta]: I. 1. Ad primam rationem in con<lb ed="#Q"/>trarium
+          dicendum quod Deus non est essentialiter
+          <lb ed="#Q"/>in rebus ut principium quod sit de esse, sed ut prin<lb ed="#Q"/>cipium
+          essentiale '. Sed distinguendum: est princi<lb ed="#Q"/>pium
+          [essentiale] partis esse, et est principium es<lb ed="#Q"/>sentiale
+          totius esse. Primo modo, anima est princi<lb ed="#Q"/>pium
+          essentiale corpori; non enim est eif princi<lb ed="#Q"/>pium
+          totius esse, sed partis: non! est principium
+          <lb ed="#Q"/>corporis quia corpus, sed corporis quia vivens
+          <lb ed="#Q"/>in" actu; et sic est ei principium partis esse. Sed
+          <lb ed="#Q"/>Deus dicitur principium essentiale, quia est prin<lb ed="#Q"/>cipium
+          totius esse; unde est principium corporis
+          <lb ed="#Q"/>et quia corpus et quia vivens, quia sicut dicit
+          <lb ed="#Q"/>Anselmus, in auctoritate praedicta, in Mono<lb ed="#Q"/>lbgion
+          1: « Quaecumque vigent, per ipsum vigent:
+          <lb ed="#Q"/>et ipse solus per se ipsum viget »; sine isto ergo
+          <lb ed="#Q"/>principio essentiali non possunt res esse. — Et
+          <lb ed="#Q"/>quod obicitur quod principium essentiale,
+          <lb ed="#Q"/>quod est in re, accipitur secundum causam for<lb ed="#Q"/>malem
+          intra: dicendum quod hoc est verum de
+          <lb ed="#Q"/>principio essentiali partis esse, sicut est anima.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e4159">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod divina es<lb ed="#Q"/>sentia
+          est abstracta a rebus per impermixtionem ' 2,
+          <lb ed="#Q"/>quia omnino non est ipsae res nec dependet ab
+          <lb ed="#Q"/>eis; sed non est abstracta per causalitatem quin
+          <lb ed="#Q"/>res dependeant et teneantur ab ipsa nec esse
+          <lb ed="#Q"/>possent sine ipsa 3: unde creatura ab ipso non po<lb ed="#Q"/>test
+          abstrahi. Unde sicut lucere solis est substan<lb ed="#Q"/>tificum'f
+          claritatis et illuminationis quae ab ipso
+          <lb ed="#Q"/>est in aere, ita quod non potest esse sine illo:
+          <lb ed="#Q"/>sic claritas esse creaturae non potest esse sine
+          <lb ed="#Q"/>claritate lucis aeternae quin semper irradiet et in<lb ed="#Q"/>
+          fluat in ipsam 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e4188">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>II. 1. Ad aliud quod quaeritur 'utrum Deus sit
+          <lb ed="#Q"/>ita essentialiter in rebus, quod sit de esse rerum 5:
+          <lb ed="#Q"/>dicendum ', sicut habetur ! Cor. 15,28: Ut sit
+          <lb ed="#Q"/>Deus omnia in omnibus; Glossaö: «Quia Deus
+          <lb ed="#Q"/>erit vita et victus et copia et gloria et salus et
+          <lb ed="#Q"/>honor et pax et finis desideriorum et omnia bona,
+          <lb ed="#Q"/>et hoc erit in omnibus». Sic potest dici quod
+          * Deus est universitas rerum ': aut quia est uni<lb ed="#Q"/>versae
+          res, aut quia est entitas, veritas, bonitas, a
+          <lb ed="#Q"/>quo universae res pendent. Primo modo non in<lb ed="#Q"/>tendit
+          Au gustin us quod Deus "' sit universitas
+          <lb ed="#Q"/>rerum, sed secundo modo. Et quod dicit post « et "
+          <lb ed="#Q"/>nullum singulorum », per hoc notat quod ipse sit ple<lb ed="#Q"/>num
+          ens a quo omnia alia, non tractum in partem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e4221">
+          <lb ed="#Q"/>2. [Per hoc patet solutio] ad aliam ratio<lb ed="#Q"/>nem 
+          Augustini, . tolle hoc, tolle illud . etc. ".
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e4228">
+          <lb ed="#Q"/>III. 1. [Ad aliud quod quaeritur] dicendum
+          <lb ed="#Q"/>quod si dicatur forma quae est secundo P per<lb ed="#Q"/>ficiens
+          et secundumq esse coniuncta: sic' non
+          <lb ed="#Q"/>potest Deus dici forma rerum; sed si dicatur
+          <lb ed="#Q"/>forma perfectio separata secundum esse, tenens
+          <lb ed="#Q"/>et complens omnia in esse: sic ipse Deus est vere
+          <lb ed="#Q"/>forma. Et hoc modo vult Boethius quod ipse
+          <lb ed="#Q"/>sit « vere forma » et omnis alia forma imago,
+          <lb ed="#Q"/>quia tenet omnes* formas in sua materia et est
+          <lb ed="#Q"/>perfectio perfectionum; sed propter hoc' non se<lb ed="#Q"/>quitur
+          quod sit de rebus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e4254">
+          <lb ed="#Q"/>2. Per hoc patet solutio ad aliam rationem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m1c2-d1e4259">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod Augustinus,
+          <lb ed="#Q"/>Ad Dardanum ", ponit exemplum de participatione
+          <lb ed="#Q"/>divinae bonitatis in creatura. Et ponit exemplum
+          <lb ed="#Q"/>in auditu: « In iis qui audiunt, cum pariter ei ap<lb ed="#Q"/>prOpinquant,
+          tanto magis alius alio capit, quanto
+          <lb ed="#Q"/>est acutioris auditus; tanto autem minus, quanto
+          <lb ed="#Q"/>est obtusioris: cum ille non magis minusve in<lb ed="#Q"/>sonet,
+          sed in eo loco, in quo sunt, omnibus ae<lb ed="#Q"/>qualiter
+          praesto sit ". Quanto excellentius Deus,
+          <lb ed="#Q"/>natura incorporea et immutabiliter" una, totus
+          <lb ed="#Q"/>adesse rebus omnibus potest et singulis totus,
+          <lb ed="#Q"/>quamvis in quibus habitat habeant eum pro suae
+          <lb ed="#Q"/>capacitatis diversitate, alii plus, alii minus »! Parti<lb ed="#Q"/>cipatio
+          ergo ista non est quia trahatur in partem,
+          <lb ed="#Q"/>immo quantum ad effectum, secundum scilicet
+          <lb ed="#Q"/>quod aliquid efficitur plus vel minus in confor<lb ed="#Q" n="74"/><cb ed="#Q" c="a"/><lb ed="#Q"/>mitatem 
+          divini esse et secundum quod aliquis
+          <lb ed="#Q"/>plus aptus est, tanto plus participat isto modo '. -—
+          <lb ed="#Q"/>Q u od ergo 0 bicitur, utrum participetur, sicut
+          <lb ed="#Q"/>dicimus speciem participari. a singularibus: dicen<lb ed="#Q"/>dum
+          quod non, quia essentia universalis una est,
+          <lb ed="#Q"/>sed tamen multiplicatur in participantibus, ita 
+          <cb ed="#Q" n="b"/><lb ed="#Q"/>quod partitur in hoc et in illo, et ita participatio 
+          <lb ed="#Q"/>ista est in una forma multiplicata, sed divina es<lb ed="#Q"/>sentia
+          non participatur multiplicata. — Item, uni<lb ed="#Q"/>versale
+          est de esse eorum quae participant ipsum ;
+          <lb ed="#Q"/>divina autem essentia est in rebus participantibus
+          <lb ed="#Q"/>ipsam, sed non est de illis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

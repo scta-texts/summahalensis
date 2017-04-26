@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 1, M. I, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q1m1c3">
+        <head xml:id="ahsh-l1p1i1t4q1m1c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 1, M. I, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t4q1m1c3-Hd1e3744" type="question-title">UTRUM INTENTIO POTENTIAE ALIQUOD CREATUM CONNOTET-PRAETER DIVINAM ESSENTIAIVI.</head>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3747">
+          <lb ed="#Q"/>Postea quaeritur utrum, cum determinatur po<lb ed="#Q"/>tentia 
+          respectu creaturae, connotetur aliquid
+          <lb ed="#Q"/>creatum, sicut cumk dicitur ' homo potest facere
+          <lb ed="#Q"/>domum ', notatur potentia in ipso et connotatur
+          <lb ed="#Q"/>possibilitas materiae 2.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3760">
+          <lb ed="#Q"/>Ad quod sic obicitur-: a. Cum dicitur ' Deus scit
+          <lb ed="#Q"/>mundum fore vel esse vel' fuisse ', connotatur
+          <lb ed="#Q"/>aliquid quod ponitur in creatura vel-'" in praesenti
+          <lb ed="#Q"/>vel in praeterito vel in futuro; similiter cum di<lb ed="#Q"/>citur
+          'Deus vult mundum iore', ex hoc ponitur
+          <lb ed="#Q"/>quod mundus erit: intentio enim '? scientiae et vo<lb ed="#Q"/>luntatis
+          dictae respectu creaturae connotat" ali<lb ed="#Q"/>quid
+          respectu creaturae; ergo similiter cum di<lb ed="#Q"/>citur
+          ' Deus potest .hoc facere', connotabitur ali<lb ed="#Q"/>quid
+          in creatura, scilicet? quod possibile est
+          <lb ed="#Q"/>hoc esse.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3786">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Contra: ]. Anselmus, in libro De conceptu
+          <lb ed="#Q"/>virginali 3: Deus potest de trunco iacere vitulum,
+          <lb ed="#Q"/>non tamen de trunco potest fieri vitulus, quia
+          <lb ed="#Q"/>deest aptitudo ex parte materiae. Relinquitur igi<lb ed="#Q"/>tur
+          quod, cum dicitur ' Deus potest facere hoc',
+          <lb ed="#Q"/>non connotatur aptitudo quae sit'! ex parte ma<lb ed="#Q"/>teriae,
+          sicut dicimus quod in grano est aptitudo
+          <lb ed="#Q"/>ut fiat messis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3809">
+          <lb ed="#Q"/>2. Item, Augustinus, in libro De Symbolo:
+          <lb ed="#Q"/>« Omnipotens dicitur, quia de nihilo fecit quae<lb ed="#Q"/>cumque
+          fecit; non enim aliqua materies eum iuvit,
+          <lb ed="#Q"/>ex qua demonstraret artis suae potentiam, sed'
+          <lb ed="#Q"/>ex nihilo cuncta creavit ». Ex hoc relinquitur quod,
+          <lb ed="#Q"/>cum dicitur 'Deus potest hocs facere', non po<lb ed="#Q"/>nitur
+          possibilitas materiae: nil igitur connotatur
+          <lb ed="#Q"/>creatum, ex quo non connotatur aptitudo nec pos<lb ed="#Q"/>sibilitas 
+          materiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3831">
+          <lb ed="#Q"/>3. Item, intentio potentiae non aequivocatur,
+          <lb ed="#Q"/>cum dicitur 'Deus potest hoc' facere' et cum di<lb ed="#Q"/>citur
+          'Deus .potest intelligere '. Si ergo nihil
+          <lb ed="#Q"/>connotatur creatum 4, cum dicitur 'Deus potest
+          <lb ed="#Q"/>intelligere': ergo nihil connotabitur, cum dicitur
+          *Deus potest aliquid facere' . '
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3844">
+          <lb ed="#Q"/>4. Item, cum potentia dicatur ad possibile sicut
+          <lb ed="#Q"/>scientia ad scibile respective, cum dicitur Deus
+          <lb ed="#Q"/>potest hoch faceref vel 'potest creare mundum
+          <lb ed="#Q"/>antequam mundus esset ', cum ponatur potentia,
+          <lb ed="#Q"/>ponetur et possibile, scilicet quod mundum creari
+          <lb ed="#Q"/>sit possibile; quaeritur ergo: aut illa pOssibilitas
+          <lb ed="#Q"/>est in creatura aut in causa? Si dicatur esse in
+          <lb ed="#Q"/>creatura: tunc non erit verum ' ab aeterno mun<lb ed="#Q"/>dum
+          creari est possibile '; si 0 in causa: cum pos<lb ed="#Q"/>sibilitas
+          causae nihil aliud- sit quam potentia cau<lb ed="#Q"/>sae,
+          quaecumque erunt in potentia causae, erunt
+          <lb ed="#Q"/>possibilia; cum ergo in potentia causae'sit po<lb ed="#Q"/>tentia
+          creandi innumerabiles d mundos, relinquitur
+          <lb ed="#Q"/>quod innumerabiles mundos esse est possibile:
+          <lb ed="#Q"/>quod videtur inconveniens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3879">
+          <lb ed="#Q"/>5. Item Athanasius, in Altercatione contra
+          <lb ed="#Q"/>Arium": « Vide quot et quantis vocabulis ap<lb ed="#Q"/>pellemus
+          sapientem, bonum et omnipotentem, et
+          <lb ed="#Q"/>hoc quoad se; quoad nos vero "misericordem,
+          <lb ed="#Q"/>pium et iustum ». Ergo nihil creatum connotatur,
+          <lb ed="#Q"/>cum dicitur sapiens, bonus, potens. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3895">
+          <lb ed="#Q"/>Respondeo: Intentio potentiae determinatur du<lb ed="#Q"/>pliciter:
+          per temporale et aeternum, ut potentia 
+          <lb ed="#Q"/>creandi, potentia intelligendi. Cumf determinatur"
+          <lb ed="#Q"/>per aeternum, nihil connotatur creatum ; cum vero
+          <lb ed="#Q"/>per temporale, connotatur ens possibile: sicut cum
+          <lb ed="#Q"/>determinatur scientia per temporale, connotatur
+          <lb ed="#Q"/>verum scibileg, sic cum voluntas determinatur
+          <lb ed="#Q"/>per temporale, connotatur bonum amabile seu vo<lb ed="#Q"/>luntabileh.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3917">
+          <lb ed="#Q"/>[Ad obiecta]: l-2. Ad illa ergo quae obi<lb ed="#Q"/>ciuntur
+          per auctoritatem Anselmi quod noni
+          <lb ed="#Q"/>connotatur aptitudo materiae, et per auctoritatem
+          <lb ed="#Q"/>Augustini quod nonk connotatur possibilitas
+          <lb ed="#Q"/>materiae: dicendum quod aptitudo. et.possibilitas
+          <lb ed="#Q"/>materiae possunt considerari ut in sua natura:
+          <lb ed="#Q"/>et hoc modo non connotantur, cum dicitur ' Deus
+          <lb ed="#Q"/>potest hoc facere,; vel possunt considerari se<lb ed="#Q"/>cundum
+          quod in causa, prout consideratur ef<lb ed="#Q"/>fectus
+          in sua causa: hoc modo potest dici con<lb ed="#Q"/>notari
+          possibilitas materiae vel aptitudo; sed exl
+          <lb ed="#Q"/>hoc non sequitur aptitudo vel materia esse ab
+          <lb ed="#Q"/>aeterno, quia tunc'" esse in potentia causae non 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>est' aliud quam esse ipsa potentia" causae, prout
+          <lb ed="#Q"/>dicit Anselmus2 quod « creatura in Creatore
+          <lb ed="#Q"/>est creatrix essentia », quod debet intelligi com<lb ed="#Q"/>positef's:
+          nam cum dicitur « creatura in Crea<lb ed="#Q"/>tore
+          », trahitur extra rationem creaturae" ad sup<lb ed="#Q"/>ponendumo
+          existentiam eius in' causa. ' ' - .
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3964">
+          <lb ed="#Q"/>3. Ad tertium vero dicendum quod aliquid
+          <lb ed="#Q"/>connotatur ex determinatione quod non'connota<lb ed="#Q"/>tur,
+          eum potentia accipitur sine determinatione,
+          <lb ed="#Q"/>sicut dictum est4. "'
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3975">
+          <lb ed="#Q"/>4. Ad quartum vero? quod quaerit: in "quo
+          <lb ed="#Q"/>sit' illa possibilitas, cum dicitur 'possibile est
+          <lb ed="#Q"/>mundum creari ': dicendum quod solum est in' po?
+          <lb ed="#Q"/>tentia causae, quae scilicet ita perfectaest ut sit
+          <lb ed="#Q"/>tota causa sui effectus, non indigens aliafma'ter-ia
+          <lb ed="#Q"/>subiecta vel aliqua specie obiecta. Unde notandum
+          <lb ed="#Q"/>quod .quaedam potentia indiget materia subiecta,
+          <lb ed="#Q"/>ut potentia4 naturae vel artificis ;1 item, est po<lb ed="#Q"/>tentia 
+          quae' non indiget materia subiecta, indiget
+          <lb ed="#Q"/>tamen specie obiecta, ut patet in potentia animae;
+          <lb ed="#Q"/>item, est potentia Dei, quae nec indiget materia
+          <lb ed="#Q"/>nec obiecto *, et haec est perfectissima: perfectior
+          <lb ed="#Q"/>enim est potentia quae est tota causa sui- effectus;
+          <lb ed="#Q"/>quod autem perfectius est semper est Deo tri<lb ed="#Q"/>buendum;
+          igitur potentia Dei est tota causa sui
+          <lb ed="#Q"/>effectus et ideo non indiget materia nec obiecto *.
+          —— Et si obicitur quod in Deo est possibi<lb ed="#Q"/>litas
+          ad infinitos mundos, ergo possibile est in<lb ed="#Q"/>finitos
+          <lb ed="#Q"/>mundos creari: dicendum quod sicut
+          <lb ed="#Q"/>in prima " materia est prima potentia passiva, ita 
+          <lb ed="#Q"/>in Deo est prima potentia activa; prima autem
+          <lb ed="#Q"/>materia, quantum est de sua prima " potentia, non
+          <lb ed="#Q"/>est determinata ad aliquam formam, sed indif<lb ed="#Q"/>ferens
+          ad omnes; sed tamen intelligitur materia
+          <lb ed="#Q"/>cum aliqua dispositione: et sic est determinata ad
+          <lb ed="#Q"/>aliquam formam. Similiter dicendum de potentia
+          <lb ed="#Q"/>Dei activa quia est:: potentia indeterminata, quae
+          <lb ed="#Q"/>se habet ad infinitos mundOs et secundum hoc
+          <lb ed="#Q"/>est potentia in causa ad infinitos mundos, et est
+          <lb ed="#Q"/>potentia determinata per dispositionem praeordi—
+          <lb ed="#Q"/>natam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e4045">
+          <lb ed="#Q"/>5. Ad ultimum iam patet solutio: nam mise<lb ed="#Q"/>ricors,
+          pius et iustus connotant, accepta absolute,
+          <lb ed="#Q"/>effectum in creatura: ut "iustus' significat divi<lb ed="#Q"/>nam
+          essentiam et connotat retributionem secundum
+          <lb ed="#Q"/>merita !' ; ' sapiens ' vero, ' bonus ' et ' potens"
+          <lb ed="#Q"/>non connotant creatum nisi addita determinatidne.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e4061">
+          <lb ed="#Q"/>Sic ergoz quaeritur de. intentione potentiae
+          <lb ed="#Q"/>absolute.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-14">February 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="62"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t1q3t1c1">
+        <head xml:id="ahsh-l1p1i1t1q3t1c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 1, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t1q3t1c1-Hd1e3732" type="question-title">AN DIVINA ESSENTIA SIT INCIRCUMSCRJPTIBILIS.</head>
+        <p xml:id="ahsh-l1p1i1t1q3t1c1-d1e3735">
+          <lb ed="#Q"/>Quantum ad primum obicitur sic: a. Dama<lb ed="#Q"/>scenus
+          3: « Circumscriptibile est quod loco
+          <lb ed="#Q"/>vel tempore vel comprehensione comprehenditur;
+          <lb ed="#Q"/>incircumscriptibile quod nullo horum continetur »;
+          <lb ed="#Q"/>sed Deus nullo horum continetur; ergo est in<lb ed="#Q"/>circumscriptibilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3t1c1-d1e3751">
+          <lb ed="#Q"/>Contra: 1. II Cor. 6,15: Quae estconventio
+          <lb ed="#Q"/>Christi ad Belial, lucis ad tenebras? « quasi dicat:
+          <lb ed="#Q"/>nullatn; sed semper est conventio existentis ad
+          <lb ed="#Q"/>illud in quo existit; ergo non existit Deus sive
+          <lb ed="#Q"/>lux divina in daemonibus; sed omne quod est
+          <lb ed="#Q"/>ita in aliquibus quod non" in alio, est circum<lb ed="#Q"/>scriptibile'
+          ; ergo Deus est circumscriptibilis f. —
+          <lb ed="#Q"/>item, iustitia non existit in iniquitate 5; ergo etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3t1c1-d1e3771">
+          <lb ed="#Q"/>2. Item, Sap. 1, 5: Spiritus Sanctus disciplinae ef<lb ed="#Q"/>fugiet
+          fictum. Ergo Spiritus Sanctus non est in ficto;
+          <lb ed="#Q"/>ergo est quid terminatum, ergo circumscriptibile. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3t1c1-d1e3781">
+          <lb ed="#Q"/>Respondeo: Simpliciter dicendum sine dis<lb ed="#Q"/>tinctione
+          quod divina essentia est incircumscrip<lb ed="#Q"/>tibilis,
+          quia non habet terminum nec essentiae
+          <lb ed="#Q"/>nec virtutis; item, nec loco nec tempore nec com<lb ed="#Q"/>prehensione
+          comprehenditur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3t1c1-d1e3794">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>[Ad obiecta]: Ad primum obiectum dicen<lb ed="#Q"/>dum
+          quod quaedam nomina imponuntur a natura
+          <lb ed="#Q"/>et perfectione naturarum rerum; quaedam autem
+          <lb ed="#Q"/>a deformitate et defectu. Quod patet in diabolo 5,
+          <lb ed="#Q"/>qui diabolus et spiritus dicitur: quod spiritus di<lb ed="#Q"/>catur,
+          hoc ei imponitur a natura et perfectione
+          <lb ed="#Q"/>naturae, in qua conditus est; quod dicatur dia<lb ed="#Q"/>bolus,
+          hoc'. ei imponitur a malitia sua' et de<lb ed="#Q"/>formitate.
+          Concedo ergo quod Deus non est in
+          <lb ed="#Q"/>rebus, in quantum nominantur nomine sumpto a
+          <lb ed="#Q"/>sua * deformitate vel malitia vel defectu, quia sic
+          <lb ed="#Q"/>videretur quod Deus esset causa defectus vel de<lb ed="#Q"/>formitatis
+          in rebus. In omnibus tamen rebus est,
+          <lb ed="#Q"/>in quantum conditae sunt ab ipso: et hoc essen<lb ed="#Q"/>tialiter,
+          praesentialiter, potentialiter-7; non tamen
+          <lb ed="#Q"/>secundum omnem modum, scilicet in quantum cor<lb ed="#Q"/>rumpuntur
+          et sunt deformes per peccatum".
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q3t1c1-d1e3836">
+          <lb ed="#Q"/>2. Per hoc patet solutio de ficto, qui potest
+          <lb ed="#Q"/>considerari in quantum fictus: et sic est Deo dis<lb ed="#Q"/>similis,
+          et sic spiritus disciplinae ipsum effugiet,<lb ed="#Q"/>non
+          tamen in quantum est substantia quaedam a
+          <lb ed="#Q"/>Deo condita.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

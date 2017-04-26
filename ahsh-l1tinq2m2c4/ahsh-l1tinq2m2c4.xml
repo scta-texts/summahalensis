@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, M. 2, C. 4</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="27"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2m2c4">
+        <head xml:id="ahsh-l1tinq2m2c4-Hd1e3732">I, Tract. Intro., Q. 2, M. 2, C. 4</head>
+        <head xml:id="ahsh-l1tinq2m2c4-Hd1e3735" type="questionTitle">UTRUM DEUS COGNOSCATUR RATIONE VEL INTELLIGENTIA</head>
+        <p xml:id="ahsh-l1tinq2m2c4-d1e3738">
+          <lb ed="#Q"/>Quaeritur iterum, cum cognitio Dei non sit per<lb ed="#Q"/>sensum, 
+          sed per intellectum,. ex parte autem
+          <lb ed="#Q"/>intellectus multiplicetur vis apprehensiva, secun<lb ed="#Q"/>dum
+          B. Augustinum 5, ut ratio et intelligentia,
+          <lb ed="#Q"/>quaeritur ergo utrum Deus cognoscatur ratione
+          <lb ed="#Q"/>vel intelligentia solum 9.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c4-d1e3754">
+          <lb ed="#Q"/>Ad. quod sic: a. in Psalmo "': Signatum est super
+          <lb ed="#Q"/>nos tamen vultus tui; Domine. G 1 o s s a " : « Lumen
+          <lb ed="#Q"/>vultus ratio est, quae est ad cognoscendum Deum ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c4-d1e3763">
+          <lb ed="#Q"/>b. Item ', illa vi, quae est in anima sublimior,
+          <lb ed="#Q"/>cognoscimus Deum; sed dicitur", in libro De li<lb ed="#Q"/>bero
+          arbitrio 12, quod .. nihil est sublimius ra—
+          <lb ed="#Q"/>tione »; ergo cognoscitur ratione.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c4-d1e3775">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Contra: L Augustinus, in libro De anima
+          <lb ed="#Q"/>et spiritu 13, assignans vires animae quinque ap<lb ed="#Q"/>prehensivas
+          : sensum, imaginationem, rationem, in<lb ed="#Q"/>tellectum,
+          intelligentiam, dicit: «Sensus est vis
+          <lb ed="#Q"/>quae percipit formas corporeas praesentes. ima<lb ed="#Q"/>ginatio
+          est vis quae percipit formas corporeas
+          <lb ed="#Q"/>absentes. Ratio est vis quae percipit corporum
+          <lb ed="#Q"/>naturas universales " abstractas, ut genera et spe—
+          <lb ed="#Q"/>cies, differentias, propria et accidentia: abstrahit
+          <lb ed="#Q"/>enim a corporibus quae fundantur in corporibus
+          <lb ed="#Q"/>universales naturas *, non actione, sed conside—
+          <lb ed="#Q"/>ratione. intellectus est vis quae? cognoscit spi<lb ed="#Q"/>ritum
+          z creatum. Intelligentia vero est vis quae
+          <lb ed="#Q"/>cognoscit spiritum increatum .": Deum. Relinquitur
+          <pb ed="#Q" n="28"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>ergo quod cognoscitur Deus intelligentia, non ra<lb ed="#Q"/>tione.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c4-d1e3819">
+          <lb ed="#Q"/>2. Item, Boethius, De consolatione", distin<lb ed="#Q"/>guens 
+          vires apprehensivae, dicit: «Sensus con—
+          <lb ed="#Q"/>tuetur" speciem in subiecta materia constitutam;
+          <lb ed="#Q"/>imaginatio vero solam sine materia inducitc ii<lb ed="#Q"/>guram;
+          ratio .vero hanc quoque '1 transcendit, spe<lb ed="#Q"/>ciemque
+          ipsam, quae singularibus * inest, univer<lb ed="#Q"/>sali.
+          consideratione perpendit.; intelligentia, super<lb ed="#Q"/>gressa
+          universitatis ambitum, ipsam simplicem
+          <lb ed="#Q"/>formam pura mentis acie contuetur ». Cum ergo
+          <lb ed="#Q"/>divina essentia sit simplex forma et talis quae
+          <lb ed="#Q"/>non inest singularibus ut universalis forma, relin<lb ed="#Q"/>quitur 
+          quod cognoscitur intelligentia, non ratione.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c4-d1e3848">
+          <lb ed="#Q"/>3. Item, Boethius, in eodem 2: « Superior vis
+          <lb ed="#Q"/>amplectitur inferiorem, interior vero ad superio<lb ed="#Q"/>rem
+          nullo modo consurgit; neque enim sensus
+          <lb ed="#Q"/>aliquid. extra materiam valet cognoscere, nec uni"
+          <lb ed="#Q"/>versales species imaginatio co'niuetur, nec ratio
+          <lb ed="#Q"/>capit simplicem formam ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c4-d1e3864">
+          <lb ed="#Q"/>Respondeo: 1. Ratio uno modo dicitur commu<lb ed="#Q"/>niter, 
+          sumitur, comprehendit intelligentiam, intellectum
+          <lb ed="#Q"/>et rationem stricte acceptam. Vis enim ratio<lb ed="#Q"/>nalis
+          secundum aspectum quem habet ad id quod
+          <lb ed="#Q"/>supra sef est, scilicet Deum, dicitur intelligentia ;
+          <lb ed="#Q"/>secundum aspectum quem habet ad id! quod-iuxta
+          <lb ed="#Q"/>se est, scilicet spiritualem naturam, dicitur 1934"
+          <lb ed="#Q"/>lectus; secundum vero respectum quem habet ad
+          <lb ed="#Q"/>id quod intra se est, scilicet corporum naturas,
+          <lb ed="#Q"/>dicitur ratio stricte. Et haec est intentio B: Au<lb ed="#Q"/>gustini,
+          in libro De anima et spiritu 3. -— Aliter:
+          <lb ed="#Q"/>secundum bimembrem divisionem dicit Augu<lb ed="#Q"/>stinus
+          ** quod ratio dividit se in'. duo, scilicet
+          <lb ed="#Q"/>in superiorem et inferiorem, scilicet1 in virum et
+          <lb ed="#Q"/>mulierem. Superior pars est ad contemplandum
+          <lb ed="#Q"/>Deum et aeterna, inferior ad contemplandas 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>
+          <lb ed="#Q"/>creaturas et temporalia. Ad superiorem pertinet 
+          <lb ed="#Q"/>sapientia, ad inferiorem scientia.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c4-d1e3910">
+          <lb ed="#Q"/>Dicendum ergo secundum hoc quod Deus com<lb ed="#Q"/>prehenditur
+          ratione, secundum quod rationis no<lb ed="#Q"/>men
+          extenditur ad superiorem partem, quae est
+          <lb ed="#Q"/>mens vel intelligentia dicta, non secundum quod
+          <lb ed="#Q"/>restringitur nomen rationis ad inferiorem partem,
+          <lb ed="#Q"/>quae est ad contemplandas creaturas vel interiores
+          <lb ed="#Q"/>naturas.
+        </p>
+        <p xml:id="ahsh-l1tinq2m2c4-d1e3928">
+          <lb ed="#Q"/>2—3. Ad aliud'" vero Boethii dicendum quod
+          <lb ed="#Q"/>est accipere rationem per modum rationis et per
+          <lb ed="#Q"/>modum intelligentiae; similiter intelligentiam per
+          <lb ed="#Q"/>modum intelligentiae et per modum rationis. Mo<lb ed="#Q"/>dus
+          vero proprius rationis est accipere in colla<lb ed="#Q"/>tione:
+          ut unum " in multis, velut universalem tor<lb ed="#Q"/>mam
+          " in multis singularibus, et unum ex alio et
+          <lb ed="#Q"/>post aliud, ut ex principiis conclusionem. Modus
+          <lb ed="#Q"/>vero intelligentiae est apprehendere" ipsam sim<lb ed="#Q"/>plicem
+          tormam 4, nec unum per aliud sive post
+          <lb ed="#Q"/>aliud, sed totum simul 5. ln nobis ergo est ratio
+          <lb ed="#Q"/>per modum rationis et ipsa intelligentia, secun—
+          <lb ed="#Q"/>dum statum praesentem, per modum rationis.- quia
+          <lb ed="#Q"/>nostra intelligentia comprehendit simplicem for<lb ed="#Q"/>mam
+          '., quae est Deus, non per modum simplici<lb ed="#Q"/>tatis
+          et simultatis, sed velut universalem causam
+          <lb ed="#Q"/>in multis effectibus, et per aliud, ut per effectus,
+          <lb ed="#Q"/>sciliceti creaturas. Ratio vero per modum intelli<lb ed="#Q"/>gentiae 
+          et intelligentia per modum intelligentiae
+          <lb ed="#Q"/>est divini intellectus. Hinc dicit Boethiu s, in li<lb ed="#Q"/>bro 
+          De consolatione 5, quod ratio solum hominis
+          <lb ed="#Q"/>est, intelligentia Dei. Et hoc est quod ipse dicit:
+          « Sensus solus, cunctis aliis cognitionibus desii<lb ed="#Q"/>tutus,
+          immobilibus animantibus cessit, quales sunt
+          <lb ed="#Q"/>conchae maris; imaginatio vero mobilibus beluis,
+          <lb ed="#Q"/>quibus iam inesse fugiendi appetendive aliquis
+          <lb ed="#Q"/>videtur attectus'; ratio vero tantum humani ge<lb ed="#Q"/>neris
+          est, sicut intelligentia sola divini».
+        </p>
+        
+        
+      </div>
+    </body>
+  </text>
+</TEI>

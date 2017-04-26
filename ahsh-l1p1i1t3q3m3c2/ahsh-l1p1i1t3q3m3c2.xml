@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. III, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="182"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m3c2">
+        <head xml:id="ahsh-l1p1i1t3q3m3c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. III, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t3q3m3c2-Hd1e3744" type="question-title">AN BONUM-CREATUM SIT BONUM IN QUANTUM EST ET PER ESSENTIAM.</head>
+        <div xml:id="ahsh-l1p1i1t3q3m3c2-Dd1e3747" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q3m3c2-Hd1e3749">Articulus I</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c2-Hd1e3752" type="question-title">Si unumquodque in quantum est bonum est.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e3755">
+            <lb ed="#Q"/>Consequenter inquirendum est si unumquodque, 
+            <lb ed="#Q"/>in quantum est, bonum est.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e3762">
+            <lb ed="#Q"/>Ad quod estf auctoritas Boethii, in libro
+            <lb ed="#Q"/>De hebdomadibus 2, item Augustini, "in libro
+            <lb ed="#Q"/>De libero arbitrio 3. et aliis locis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e3771">
+            <lb ed="#Q"/>Contra: 1. Si « unumquodque, in quantum est,
+            <lb ed="#Q"/>bonum est »: sed quidquid est, in quantum est, est
+            <lb ed="#Q"/>per suam essentiam; ergo si unumquodque, in
+            <lb ed="#Q"/>quantum est, bonum est, erit bonum per essen<lb ed="#Q"/>tiam;
+            ergo essentialiter bonum 2; ergo bonum sicut
+            <lb ed="#Q"/>Deus. — Si respondeatur iuxta Boethiumh,
+            <lb ed="#Q"/>in libro De hebdomadibus 4, quod « bonum dicitur
+            <lb ed="#Q"/>duobus modis: primum est, quod est vere bonum,
+            <lb ed="#Q"/>quoniam est bonum in eo quod est, id est suae
+            <lb ed="#Q"/>essentiae veritate; secundum, quod1 est bonum
+            <lb ed="#Q"/>non essentiae suae veritate, sed denominatione »
+            <lb ed="#Q"/>suae causae, quia fluit a bono vel est ad bonum —
+            <lb ed="#Q"/>quemadmodum « humanum dicitur duobus modis,
+            <lb ed="#Q"/>ut dicit Porretanus5: generis proprietate, ut
+            <lb ed="#Q"/>animal humanum, homine demonstrato; denomi<lb ed="#Q"/>natione
+            suae causae, quia ex eo fluxit cuius hu<lb ed="#Q"/>manum 
+            est esse, et hoc modo dicitur opus vel
+            <lb ed="#Q"/>artificium humanum »; et utrumque, sive hoc ani<lb ed="#Q"/>mal,
+            demonstrato homine, sive hoc opus quod
+            <lb ed="#Q"/>est ab homine, dicitur humanum in eo quod est,
+            <lb ed="#Q"/>sed differenter, quia hoc animal humanum in eo
+            <lb ed="#Q"/>quod est, quia eius esse est humanum esse,
+            <lb ed="#Q"/>hoc vero opus, non quia eius esse est humanum
+            <lb ed="#Q"/>esse, sed quia fluxit ab homine, cuius esse est
+            <lb ed="#Q"/>humanum — similiter cum dicitur Deus bonus
+            <lb ed="#Q"/>in eo quod est, hoc est quia eius esse est bo<lb ed="#Q"/>nitas,
+            cum dicitur creatura bona in eo quod est,
+            <lb ed="#Q"/>quia scilicet a bono est, hoc est ab eo cuius
+            <lb ed="#Q"/>esse est bonitas et ad illud est; unde Au gu—
+            <lb ed="#Q"/>stinus, in Enchiridion 6: « Naturae omnes, quo<lb ed="#Q"/>niam
+            Conditor earum est summe bonus, bonae
+            <lb ed="#Q"/>sunt» - contra obicitur: Nam [cum] hu<lb ed="#Q"/>manum,
+            cum dicitur de opere post factum esse,
+            <lb ed="#Q"/>non ponat aliquid in opere: ergo bonum non
+            <lb ed="#Q"/>ponet aliquid * in facto esse creaturae; quod
+            <lb ed="#Q"/>est falsum. Cum ergo bonum ponat in ipsa crea<lb ed="#Q"/>tura,
+            relinquitur quod non dicitur bonum sicut
+            <lb ed="#Q"/>humanum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e3857">
+            <pb ed="#Q" n="183"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>2. Item, obicitur de 11er sive prima materia, de
+            <lb ed="#Q"/>qua Augustinus, in libro De natura boni':
+            « Hyle non per aliquam speciem sentiri, sed per
+            <lb ed="#Q"/>omnimodam privationem speciei cogitari vix " po<lb ed="#Q"/>test».
+            Cum ergo determinetur bonitas secundum
+            <lb ed="#Q"/>modum, speciem et ordinem, ut dictum est 2, hyle
+            <lb ed="#Q"/>autem, in quantum est, intelligitur privata modo,
+            <lb ed="#Q"/>specie et ordine 3: relinquitur quod non erit bona
+            <lb ed="#Q"/>in quantum est.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e3881">
+            <lb ed="#Q"/>3. Item, fornicatio vel culpa est in fornicante
+            <lb ed="#Q"/>vel peccante. Si ergo unumquodque ", in quantum
+            <lb ed="#Q"/>est, bonum est: ergo fornicatio vel culpa, in quan<lb ed="#Q"/>tum
+            est, bona est; sed in quantum fornicatio vel
+            <lb ed="#Q"/>culpa, estf; ergo fornicatio, in quantum fornica<lb ed="#Q"/>tio,
+            bona est.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e3897">
+            <lb ed="#Q"/>Respondeo: Causa prima, sicut dicit Philo<lb ed="#Q"/>phus
+            4, magis est essentialis causato quam cau<lb ed="#Q"/>sae
+            aliae; quod tamen intelligendum est sic 5: non
+            <lb ed="#Q"/>quodd causa prima sit de esse causatorum, sed
+            <lb ed="#Q"/>quia causata nulla nisi ab ipsa sunt, nec nisi per
+            <lb ed="#Q"/>ipsam sunt et servantur, nec, nisi ut ad ipsam
+            <lb ed="#Q"/>sunt, habent esse. Sice bonum, quod dicit ratio<lb ed="#Q"/>nemf
+            causalem, sicut dicit B. Dionysiusez
+            « Bonum est, in quo omnia subsistunt et in quo
+            <lb ed="#Q"/>omnia servantur et ad quod omniag convertun<lb ed="#Q"/>tur
+            ». Hinc est quod unumquodque, in quantum
+            <lb ed="#Q"/>est, a bono et in bono et ad bonum est, et haec
+            <lb ed="#Q"/>est bonitas in creatura: esse a bono, in bono et
+            <lb ed="#Q"/>ad bonum ; et ideo bonitas creaturae non est bo<lb ed="#Q"/>nitas
+            per essentiam, et tamen est in eo quod est.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e3930">
+            <lb ed="#Q"/>[Ad obiecta]: ]. Concedo ergo quod non sic
+            <lb ed="#Q"/>dicitur omnino creatura bona sicut opus dicitur
+            <lb ed="#Q"/>humanum, quamvis utrumque dicatur per deno<lb ed="#Q"/>minationem
+            sumptam a causa h: quia causa divina
+            <lb ed="#Q"/>magis essentialiter se habet ad suum effectum,
+            <lb ed="#Q"/>quod est creatura, quam causa humana ad suum
+            <lb ed="#Q"/>opus.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e3948">
+            <lb ed="#Q"/>2. Ad aliud dicendum 1, secundum Augu<lb ed="#Q"/>stinumk,
+            De vera religione? «lllud, quod in
+            <lb ed="#Q"/>comparatione perfectorum informe dicitur, si' ha<cb ed="#Q" n="b"/><lb ed="#Q"/>bet 
+            aliquid formae, quamvis exiguum, nondum
+            <lb ed="#Q"/>est nihil: nonnullum ergo bonum est capacitas
+            <lb ed="#Q"/>formae, et ideo qui praestitit formam fecit etiam '"
+            <lb ed="#Q"/>posse formari ». Secundum ergo Augustinum,
+            <lb ed="#Q"/>De natura boni 8, « capacitas formae », secundum
+            <lb ed="#Q"/>quam dicimus quod materia est possibilis ad ca<lb ed="#Q"/>piendas
+            formas, est ipsi materiae pro forma, se<lb ed="#Q"/>cundum
+            quam dicimus in materia esse speciem.
+            <lb ed="#Q"/>Et hoc est etiam" quod dicit Augustinus,.in
+            <lb ed="#Q"/>libro De natura boni 9, quod « materia habet ca<lb ed="#Q"/>pacitatem
+            formarum »; unde dicit: « Habet enim
+            <lb ed="#Q"/>capacitatem formarum suarum; nam si capere im<lb ed="#Q"/>positam
+            formam ab artifice non posset, nec ma<lb ed="#Q"/>teries
+            diceretur ». Licet ergo materia secundum
+            <lb ed="#Q"/>se non habeat formam aliquam distinctam et quae
+            <lb ed="#Q"/>ducat ipsam 0 ad aliquod esse, est tamen ipsi ma<lb ed="#Q"/>teriae
+            potentia capiendi formas, sive capacitas
+            <lb ed="#Q"/>formarum, pro forma; sed quemadmodum materia
+            <lb ed="#Q"/>ratione huiusmodi non habet esse simpliciter, sed
+            <lb ed="#Q"/>secundum quid, ita ratione huiusmodi habet spe<lb ed="#Q"/>ciem
+            non simpliciter, sed secundum quid; unde
+            <lb ed="#Q"/>sicut ipsa est ens, ita habet illa tria, ita etiam est
+            <lb ed="#Q"/>bona. Et propter hoc dicit Augustinus 10 quod
+            « nonnullum bonum est capacitas formae », immo
+            <lb ed="#Q"/>aliquod bonum, ratione cuius habet materia spe<lb ed="#Q"/>ciem
+            et ita suam bonitatem; unde non est dicen<lb ed="#Q"/>dum
+            quod omnino careat istis. Et cum dicit Au<lb ed="#Q"/>gustinus
+            " quod « per omnimodam speciei pri<lb ed="#Q"/>vationem
+            cogitari vix potest », loquitur de specie
+            <lb ed="#Q"/>sive de forma quae ab extrinseco advenit mate<lb ed="#Q"/>riae,
+            perficiens ipsam et dansP esse completum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4023">
+            <lb ed="#Q"/>3. Ad ultimum dicendum quod quaedam no<lb ed="#Q"/>mina
+            sumuntur a privationibus et defectibus,- de
+            <lb ed="#Q"/>quibus non est dicere « in quantum est, bonum
+            <lb ed="#Q"/>est ». Et ratio est: quia eorum esse non est esse
+            <lb ed="#Q"/>simpliciter, sed deficere ab esse; tale est esse
+            <lb ed="#Q"/>privationum, defectuum et malorum. Cum ergo
+            <lb ed="#Q"/>dicitur « unumquodque, in quantum est, bonum
+            <lb ed="#Q"/>estq», intelligitur de illis quae servant esse, et
+            <lb ed="#Q"/>non' de illis quae deficiunt ab esse.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q3m3c2-Dd1e4046" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q3m3c2-Hd1e4048">Articulus II</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c2-Hd1e4051" type="question-title">Si unumquodque bonum creatum sit bonum per essentiam vel per participationem.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4054">
+            <lb ed="#Q"/>Consequenter quaeritur si unumquodque bonum
+            <lb ed="#Q"/>creatum sit bonum per essentiam vel pers par<lb ed="#Q"/>ticipationem. 
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4063">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>I. 1. Nam quod per essentiam, hoc videtur re<lb ed="#Q"/>linqui 
+            ex praecedentibus. Tamen circa hoc disputat 
+            <lb ed="#Q"/><name ref="#Boethius">Beothius</name> in libro <title ref="#deHebdomadibus">De hebdomadibus</title>; dicit 
+            <pb ed="#Q" n="184"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>enim, « quod si ea quae sunt, participatione bona
+            <lb ed="#Q"/>sunt, per se nullo modo bona sunt; nam quod
+            <lb ed="#Q"/>participatione album est, per se, in eo quod est,
+            <lb ed="#Q"/>album non est ». Sicut ergo participatione album
+            <lb ed="#Q"/>potest non esse album, ita creatura, si est parti<lb ed="#Q"/>cipatione
+             bona, poterit non esse bona; sed crea<lb ed="#Q"/>tura 
+            non potest non esse bona; ergo non est
+            <lb ed="#Q"/>participatione bona, sed substantialiter.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4101">
+            <lb ed="#Q"/>2. Item, participare est partem capere; sed Deus
+            <lb ed="#Q"/>vel divina bonitas non habet partem ; ergo non
+            <lb ed="#Q"/>potesta participari divina bonitas; sed divina bo—
+            <lb ed="#Q"/>nitateb est creatura bona; ergo non capit par<lb ed="#Q"/>tem
+            ipsius; ergo non est participatione bona.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4115">
+            <lb ed="#Q"/>3. Item, Augustinus, in libro 83 Quaestio<lb ed="#Q"/>num,
+            dicit<!--1-->: «Quae participatione similia sunt,
+            <lb ed="#Q"/>recipiunt dissimilitudinem »; sed creatura, manens
+            <lb ed="#Q"/>creatura, bona est, et per hoc habet similitudinem
+            <lb ed="#Q"/>cum primo bono et non potest recipere opposi<lb ed="#Q"/>tum
+            c illius bonitatis sive dissimilitudinem, ut di<lb ed="#Q"/>catur
+            creatura, in quantum creatura huiusmodi,
+            <lb ed="#Q"/>mala d ; ergo non dicitur participatione bona; ergo
+            <lb ed="#Q"/>est essentialiter bona.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4139">
+            <lb ed="#Q"/>4. Item, bonitas creata aut est participatione
+            <lb ed="#Q"/>bona aut essentialiter. Non est participatione
+            <lb ed="#Q"/>bona: quia quod est participatione bonum, ut
+            <lb ed="#Q"/>dictum est 2, potest recipere dissimilitudinem; sed
+            <lb ed="#Q"/>bonitas non potest non esse bona; ergo non est
+            <lb ed="#Q"/>bona participatione; ergo bona est essentialiter;
+            <lb ed="#Q"/>sed bonitas creatae haec est bonitas ipsius crea<lb ed="#Q"/>turae;
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4159">
+            <lb ed="#Q"/>Contra: 0. Quod substantialiter est bonum, di<lb ed="#Q"/>citur
+            simile Primo, sicut dicit Boethius, in li<lb ed="#Q"/>bro
+            De hebdomadibus 3; sed nihil est simile Primo
+            <lb ed="#Q"/>nisi Primum; ergo nihil est substantialiter bonum
+            <lb ed="#Q"/>nisi Primum; ergo creatura non est substantialiter
+            <lb ed="#Q"/>bona. — Quod autem nihil sit simile
+            <lb ed="#Q"/>Primo nisi Primum, patet: quoniam simi<lb ed="#Q"/>litudo
+            est convenientia in aliqua qualitate; sed
+            <lb ed="#Q"/>nihil est commune Creatori et creaturae, et ite<lb ed="#Q"/>rum
+            non est in ipso aliquid quod non sit ipsum:
+            <lb ed="#Q"/>unde non est in ipso aliqua qualitas; ergo quod
+            <lb ed="#Q"/>est ipsi simile, est ipsum. — Item, quod non
+            <lb ed="#Q"/>sit creatura similis Primo, patet per
+            <lb ed="#Q"/>Augustinum, in libro 83 Quaestionum 4: « Ipsa
+            <lb ed="#Q"/>similitudo ex aliqua parte nullo modo potest
+            <lb ed="#Q"/>esse dissimilis; unde fit ut, cum similitudo Patris
+            <lb ed="#Q"/>Filius dicitur, quia eius participatione similia
+            <lb ed="#Q"/>sunt quaecumque sunt vel inter se vel Deo si<lb ed="#Q"/>milia,
+            ex nulla parte potest esse dissimilis »;<lb ed="#Q"/>sed
+            omnis creatura potest essef dissimilis primo
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>ex parte et ita est; ergo nulla creatura est 'ei si<lb ed="#Q"/>milis; 
+            ergo nec bonitas creata; ergo non est sub<lb ed="#Q"/>stantialiter 
+            bona.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4214">
+            <lb ed="#Q"/>II. Iuxta hoc quaeritur de<!--g--> quadam ratione Boe—
+            <lb ed="#Q"/>thii5, per quam ostendit omnia esse bona, quae
+            <lb ed="#Q"/>talis est: « Tenet communis sententia Doctorum
+            <lb ed="#Q"/>omne quod est ad bonum tendere; omne autem
+            <lb ed="#Q"/>tendit ad simile; quae igitur' ad bonum tendunt,
+            <lb ed="#Q"/>ipsa bona sunt ». Ostenditur enim quod non va<lb ed="#Q"/>leat
+            ista ratio, quia non valet haec argumentatio:
+            'omnis homo tendit ad beatitudinem, et omne ten<lb ed="#Q"/>dit
+            ad suum s'imile, ergo omnis homo est beatus';
+            <lb ed="#Q"/>et ita vel falsum dicit dicendo quod « omne quod
+            <lb ed="#Q"/>est" tendit ad suum simile », vel oportet reddere
+            <lb ed="#Q"/>causam quare tentio ad bonum tacit creaturam
+            <lb ed="#Q"/>esse bonam, non autem tentio ad beatitudinem
+            <lb ed="#Q"/>tacit ipsam esse beatam.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4247">
+            <lb ed="#Q"/>Solutio: I. Secundum AB. Dionysium, in libro
+            <lb ed="#Q"/>De divinis nominibusö: « Sicut sol, qui apud nos
+            <lb ed="#Q"/>est, non existimans.vel arbitrio motus, sed ipso
+            <lb ed="#Q"/>esse illuminat omnia quae suo participare lumine
+            <lb ed="#Q"/>iuxta propriami possunt rationem: sic et bonum,
+            <lb ed="#Q"/>quod supra solem est, tamquam obscuram ima<lb ed="#Q"/>ginemk
+            omnibus entibus emittit bonitatis' totius
+            <lb ed="#Q"/>radios ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4267">
+            <lb ed="#Q"/>Ad obiecta: 1. Nota quod aliquid esse'" per
+            <lb ed="#Q"/>participationem dicitur tribus modis. Uno modo,
+            <lb ed="#Q"/>cum illud " habet formam quae non concomitatur 0
+            <lb ed="#Q"/>totam extensionem esse: et hoc modo formae se<lb ed="#Q"/>parabiles,
+            ut albedo et sanitas, in? suis subiectis
+            <lb ed="#Q"/>sunt participatione; quae vero semper insunt sunt
+            <lb ed="#Q"/>essentialiter, et hoc modo dicit Au gustinus7:
+            <lb ed="#Q"/>quae « participatione similia sunt, possunt esse
+            <lb ed="#Q"/>dissimilia ». Alio modo, cum habet formam conco<lb ed="#Q"/>mitantemq
+            totam extensionem esse, sed tamen
+            <lb ed="#Q"/>partitur et multiplicatur in illis, sicut forma uni<lb ed="#Q"/>versalis
+            quae multiplicatur in singulari: unde di<lb ed="#Q"/>citur
+            participatione speciei plures homines unus.
+            <lb ed="#Q"/>Tertio modo dicitur, cum habet formam aliquam
+            <lb ed="#Q"/>quae est' incompleta respectu alicuius com<lb ed="#Q"/>pletae
+            a qua habet dependentiam et causam: sicut
+            <lb ed="#Q"/>homo sapiens dicitur participatione, quia habet
+            <lb ed="#Q"/>sapientiam incompletam respectu sapientiaes divi<lb ed="#Q"/>nae,
+            quae est essentialiter completa. — Secundum
+            <lb ed="#Q"/>hoc 'bonum participatione' dicitur tribus modis.
+            <lb ed="#Q"/>Primo modo, dicitur homo bOnus participatione
+            <lb ed="#Q"/>bonitatet gratiae, quia gratia est forma separa<lb ed="#Q"/>bilis.
+            Secundo modo, dicitur angelus bonus par<lb ed="#Q"/>ticipatione
+            bonitate gloriae, quia bonitas gloriae,
+            <pb ed="#Q" n="185"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>cum sit inseparabilis, multiplicatur tamen'1 in
+            <lb ed="#Q"/>pluribus angelis beatis. Tertio modo, dicitur omnis
+            <lb ed="#Q"/>natura bona participatione, quia bonitas non est
+            <lb ed="#Q"/>eius esse, sed additum ipsi esse, et hoc per re<lb ed="#Q"/>lationem
+            ad bonum per essentiam, quod est
+            <lb ed="#Q"/>Deus.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4340">
+            <lb ed="#Q"/>Item, nota quod bonum substantialiter dicitur
+            <lb ed="#Q"/>duobus modis. Uno modo dicitur substantialiter
+            <lb ed="#Q"/>bonum, quando substantia est bonum, ita quod
+            <lb ed="#Q"/>idem sit bonitas; et hoc diciturb secundum pri<lb ed="#Q"/>mum
+            modum dicendi 'essentiale', secundum quod
+            <lb ed="#Q"/>nos dicimus essentiale quod est de esse sive quod
+            <lb ed="#Q"/>dicit esse rei: hoc modo solus Deus dicitur bo<lb ed="#Q"/>num
+            substantialiter. Alio modo dicitur bonum sub<lb ed="#Q"/>stantialiterc
+            secundum secundum modum dicendi
+            'essentiale'd, scilicet secundum quod 'essentiale'
+            <lb ed="#Q"/>dicitur proprietas immediate sequens essentiam et
+            <lb ed="#Q"/>inseparabiliter: hoc modo creatura est bona es-'
+            <lb ed="#Q"/>sentialiter, quia bonitas immediate sequiture es<lb ed="#Q"/>sentiam
+            creaturae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4371">
+            <lb ed="#Q"/>2. Ad secundum quod obicitur quod 'par<lb ed="#Q"/>ticipare
+            f est partem capere' etc.: dicendum
+            <lb ed="#Q"/>quod divina bonitas in se ipsa simplicissima
+            <lb ed="#Q"/>est nec habens partem et partem. Item, divina
+            <lb ed="#Q"/>bonitas infinita est quantum ad effectus: unde
+            <lb ed="#Q"/>si quaeratur quantum extenditurg bonitas cli<lb ed="#Q"/>vina,
+            non potest dici 'tantum'; nam in infi<lb ed="#Q"/>nitum
+            extenditur; ideo'l bonitas divina non di<lb ed="#Q"/>citur
+            esse *tanta', quia quantumi ad effectus
+            <lb ed="#Q"/>non est limitata, nec in se ipsa. Non autem sic
+            <lb ed="#Q"/>est de bonitate creata. Quod ergo dicitur quod
+            <lb ed="#Q"/>bonitas creata participat bonitatem increatam,
+            <lb ed="#Q"/>hoc non est dicere quod bonitas increata di<lb ed="#Q"/>vidatur
+            per partes in singulis bonitatibus crea<lb ed="#Q"/>tis,
+            sed hoc est dictum quod bonitas creata capit
+            <lb ed="#Q"/>partem in effectu, quia haec capit istum effec<lb ed="#Q"/>tum
+            primae bonitatis, alia alium; hoc ergo est
+            <lb ed="#Q"/>participare ipsam bonitatem, scilicet quantum ad
+            <lb ed="#Q"/>effectum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4415">
+            <lb ed="#Q"/>3. Ad tertium dicendum quod bonum crea<lb ed="#Q"/>tum,
+            manens in esse, non potest recipere omni
+            <lb ed="#Q"/>modo dissimilitudinem a primo bono, sed in quan<lb ed="#Q"/>tum
+            deficit ab esse, recipit dissimilitudinem k; de<lb ed="#Q"/>ficit
+            autem ab esse cum deficit ab ordine, et hoc
+            <lb ed="#Q"/>est malum fieri, secundum quod dicit Boe<lb ed="#Q"/>thius]:
+            «Esse est' quod ordinem retinet servat<lb ed="#Q"/>que
+            naturam »; unde dicit2 quod secundum hoc
+            <lb ed="#Q"/>mali homines non sunt, quia in suo ordine non
+            <lb ed="#Q"/>sunt
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4439">
+            <lb ed="#Q"/>4. Ad quartum dicendum quod bonitas
+            <lb ed="#Q"/>creata manens non potest non'" esse bona, sed
+            <lb ed="#Q"/>non habet ex se quod sit bona, sed ex hoc quod
+            <lb ed="#Q"/>ordinatur ad summum bonum; etideo non se<lb ed="#Q"/>quitur
+            quod essentialiter. '
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4452">
+            <lb ed="#Q"/>a. Ad obiecta oppositae partis, ad id
+            <lb ed="#Q"/>scilicet quod obicitur de bonitate creata, quod 'non
+            <lb ed="#Q"/>sit essentialiter bona, quia non est similis Primo,:
+            <lb ed="#Q"/>dicendum quod quaedam similitudo est, quae est
+            <lb ed="#Q"/>in identitate essentiae, et hoc modo Filius in di<lb ed="#Q"/>vinis
+            est similis Patri et de hac loquitur Au<lb ed="#Q"/>gustinus
+            in 83 Quaestion.3, cum dicit quod
+            «similitudo non potest esse dissimilis »..Quia
+            <lb ed="#Q"/>enim haec similitudo supponit identitatem essen<lb ed="#Q"/>tiae,
+            propter hoc ex nulla" parte potest esse dis<lb ed="#Q"/>similis;
+            hoc modo bonitas creata non est simili<lb ed="#Q"/>tudo
+            Primi sive bonitatis increatae: hoc enim
+            <lb ed="#Q"/>modo nihil est simile Primo nisi Primum. Alia
+            <lb ed="#Q"/>autem 0' est similitudo, quae est in participatione
+            <lb ed="#Q"/>effectus: sic est similitudo vel similis, quia par<lb ed="#Q"/>ticipat
+            hunc effectum. Augustinus, 83 Quae<lb ed="#Q"/>stionum
+            4, dicit quod « simile similitudine dicitur
+            <lb ed="#Q"/>simile, sed quod bonum est, bonitate dicitur bo—
+            <lb ed="#Q"/>num »; ergo bonum creatum bonitate creata di<lb ed="#Q"/>citur
+            bonum et bonum increatum bonitate in<lb ed="#Q"/>creata;
+            sed bonum creatum est simile illi bono,
+            <lb ed="#Q"/>prout dictum est5; ergo bonitas creata est simili<lb ed="#Q"/>tudo
+            bonitatis divinae, sicut dictum est G..
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4502">
+            <lb ed="#Q"/>Item, nota quod dicit P orretan us, in libro De
+            <lb ed="#Q"/>hebdomadibus, exponens nonam hebdomadamP 7:
+            « Est quaedam alterutrius numero diversorum
+            <lb ed="#Q"/>unio, quam conformitatisq ratio facit, quae ad
+            <lb ed="#Q"/>praesentem locum pertinet: et haec unio similitudo
+            <lb ed="#Q"/>dicitur et est vel secundum naturam vel secun<lb ed="#Q"/>dum
+            quaedam extrinseca. Secundum naturam vero
+            <lb ed="#Q"/>dupliciter: aut enim secundum propositae natu<lb ed="#Q"/>rae
+            plenitudinem, et dicitur substantialis simili<lb ed="#Q"/>tudo,
+            qualiter album albo simile est' aut homo
+            <lb ed="#Q"/>homini; aut secundum propositae naturae partes
+            <lb ed="#Q"/>aliquas, et vocatur imaginaria similitudo, qualiter
+            <lb ed="#Q"/>humana pictura vero homini similis dicitur. Illa
+            <lb ed="#Q"/>vero quae est secundum extrinseca aliqua, dicitur
+            <lb ed="#Q"/>imitatio: qualiter artifex aliquis alii artifici vel
+            <lb ed="#Q"/>homo Deo, iuxta voluntatem eius aliquid faciendo,
+            <lb ed="#Q"/>dicitur similis »; similiter creatura iuxta volunta<lb ed="#Q"/>tem
+            divinams et dispositionem existens diceturf
+            <lb ed="#Q"/>similis quoad hoc Creatori.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c2-d1e4545">
+            <lb ed="#Q"/>II. Ad hoc quod quaeritur quare non omnes di<lb ed="#Q"/>cantur
+            beati quia ad beatitudinem tendunt", sicut
+            <lb ed="#Q"/>boni quia ad bonum: dicendum .quod beatitudo
+            <lb ed="#Q"/>dicit ipsum finem ultimum vel coniunctionem,
+            <lb ed="#Q"/>quae est cum fine huiusmodi — est enim « status
+            <lb ed="#Q"/>omnium bonorum congregatione a perfectus 1 » —
+            <lb ed="#Q"/>et ideo nihil proprie dicitur beatum, donec coniun<lb ed="#Q"/><lb ed="#Q"/>gatur 
+            illi fini. Intentio vero boni generalior est:
+            <lb ed="#Q"/>nam dicit ipsum finem vel ordinabile ad illum
+            <lb ed="#Q"/>finem, et hoc sive sit coniunctum fini sive distans;
+            <lb ed="#Q"/>et ideo sequitur: si sit ordinatum ad bonum, quod
+            <lb ed="#Q"/>sit bonum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

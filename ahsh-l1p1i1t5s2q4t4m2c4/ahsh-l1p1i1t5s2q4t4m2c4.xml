@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 4, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-23">March 23, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="344"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t4m2c4">
+        <head xml:id="ahsh-l1p1i1t5s2q4t4m2c4-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 4, M. 2, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t4m2c4-Hd1e3744" type="question-title">UTRUM NECESSE SIT DE CONGRUO QUOD PLUS DILIGAT PLUS DILIGENTEM EUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m2c4-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum necesse sit de
+          <lb ed="#Q"/>congruo quod Deus plus diligat plusP dili<lb ed="#Q"/>gentem
+          eum 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m2c4-d1e3756">
+          <lb ed="#Q"/>Et videtur quod sic: a. Quia Prov. 8,17: Ego
+          <lb ed="#Q"/>diligentes me diligo; sed si4 simpliciter ad sim<lb ed="#Q"/>pliciter
+          et magis ad magis5 etc., ergo videtur
+          <lb ed="#Q"/>quod magis diligentes magis diligat.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m2c4-d1e3767">
+          <lb ed="#Q"/>b. Praeterea, hoc esset culpandum in homine
+          <lb ed="#Q"/>quod magis diligentes se minus diligeret et e
+          <lb ed="#Q"/>converso; ergo" hoc non est in Deo, in quo non
+          <lb ed="#Q"/>est aliquid culpabile vel reprehensibile <!--6-->.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m2c4-d1e3781">
+          <lb ed="#Q"/>Contra: 1. In Evangelio Ioannis 7 saepe dicitur
+          <lb ed="#Q"/>quod diligebat eum Iesus; in quo innuitur quod
+          <lb ed="#Q"/>ille s magis diligebat eum quam alios, et ita magis
+          <lb ed="#Q"/>quam Petrum; et hoc plane dicit Augustinus,
+          <lb ed="#Q"/>super illud Ioan. 21<!--1-->: <quote xml:id="ahsh-l1p1i1t5s2q4t4m2c4-Qd1e3796" ana="#io21_7"> <!-- maybe io21_24 -->Hic est discipulus ille,
+          <lb ed="#Q"/>quem diligebat Iesus</quote>, Glossa 2: « Tacito nomine,
+          <lb ed="#Q"/>hoc signo discernitur Ioannes a ceteris, non quod
+          <lb ed="#Q"/>solum eum, sed quod " plus ceteris diligebat eum ».
+          <lb ed="#Q"/>Cum igiturb Petrus plus diligeret illum, scilicet
+          <lb ed="#Q"/>Christum, quam Ioannes — sicut dicite super il<lb ed="#Q"/>lud3:
+          Simon Ioannis, diligis me plus his etc.,
+          <lb ed="#Q"/>Glossa Augustini4: « Quod scit, interrogat »
+          —— ergo Christus plus diligebat minus diligentem
+          <lb ed="#Q"/>se et e converso.
+        </p>
+        
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m2c4-d1e3819">
+          <lb ed="#Q"/>c. Sed contra hoc videtur quod Ioannes plus
+          <lb ed="#Q"/>diligebat Christum quam Petrus vel alii. Sicut
+          <lb ed="#Q"/>enim dicit Augustinus, in libro De Trinitate 5,
+          <lb ed="#Q"/>secundum rationem notitiae est ratio dilectionis;
+          <lb ed="#Q"/>sed Ioannes plus cognoscebat quam alii, quia de
+          <lb ed="#Q"/>ipso dominici pectoris fonte potavit<!--6-->; ergo et
+          <lb ed="#Q"/>plus dilexit; et ita restat quod prius, scilicet quod
+          <lb ed="#Q"/>plus diligentem se magis diligit Deus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m2c4-d1e3841">
+          <lb ed="#Q"/>Solutio: 1. Secundum litteram revera magis di<lb ed="#Q"/>ligebat
+          Petrum, sed plus dicitur diligere Ioannem,
+          <lb ed="#Q"/>quia plura signa dilectionis ei ostendit et maio- [
+          <lb ed="#Q"/>rem familiaritatem eili exhibuit 7. Et hoc videtur
+          <lb ed="#Q"/>dicet-ec plane Augustinus, super finem Ioan—
+          <lb ed="#Q"/>nis 8, in Magna Glossag, postf verbum supra<lb ed="#Q"/>dictum,
+          dicens: « Huius maioris dilectionis indi<lb ed="#Q"/>cium
+          est quod solus supra pectus Iesu recubuit;
+          <lb ed="#Q"/>porro Petrus Christum plus aliis dilexit. Unde
+          <lb ed="#Q"/>sciens quod interrogabat, dicit: Diligis me plus
+          <lb ed="#Q"/>his? » — Aliter potest dici et subtilius sic: dilectio
+          <lb ed="#Q"/>potest dici maior vel minor simpliciter vel quan<lb ed="#Q"/>tumg
+          ad eius effectus. Est 71 autem multiplex ef<lb ed="#Q"/>fectus
+          dilectionis Dei, quia eius effectus sunt
+          <lb ed="#Q"/>quaedam donata in praesenti excellentia, per quae
+          <lb ed="#Q"/>contingit mereri, ut est excellentia cognitionis et
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>huiusmodi, de quibus I Cor. 12,4: Divisiones
+          <lb ed="#Q"/>gratiarum sunt; est autem ï aliud donum in prae<lb ed="#Q"/>senti
+          excellentissimum in suo genere, scilicet ca<lb ed="#Q"/>ritas
+          W, de quo 1 Cor. 12,31: Adhuc excellentiorem
+          <lb ed="#Q"/>viam etc.; est autem effectus dilectionis Dei in
+          <lb ed="#Q"/>futuro, scilicet vita aeterna, quod maximum do<lb ed="#Q"/>num
+          est; per caritatem autem, quae est maximum
+          <lb ed="#Q"/>donum in praesenti, essentialiter meremur vitam
+          <lb ed="#Q"/>aeternam, quae maximum est donum simpliciter.
+          <lb ed="#Q"/>Possumus ergo loqui de dilectione Dei dupliciter: .
+          <lb ed="#Q"/>vel secundum quod respicit effectum vitae aeter<lb ed="#Q"/>nae
+          et caritatis per' quam est meritum illius vi<lb ed="#Q"/>tae,
+          et sic verum est quod Christus plus dilexit
+          <lb ed="#Q"/>Petrum quam Ioannem, quia ad maius, quia ma—
+          <lb ed="#Q"/>iorem caritatemk ei contulit et maiorem gloriam
+          <lb ed="#Q"/>praeparavit, et sic dicitur illud Prov. 8,17: Ego
+          <lb ed="#Q"/>diligentes me diligo; aut possumus loqui de di<lb ed="#Q"/>lectione
+          Dei' secundum quod respicit huiusmodi
+          <lb ed="#Q"/>dona excellentia in praesenti, ut cognitionem et
+          <lb ed="#Q"/>huiusmodi: et sic plus dilexit Ioannem, quia haec
+          <lb ed="#Q"/>dona ei contulit"1 in maiori excellentia quam Petro
+          <lb ed="#Q"/>vel aliis, ut obicitur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t4m2c4-d1e3928">
+          <lb ed="#Q"/>c. Ad illud quod obicitur quod 'simpliciter
+          <lb ed="#Q"/>plus diligebat Ioannes ", quia plus cognovit'":
+          <lb ed="#Q"/>dicendum, ut supraP", quod duplex est cogni<lb ed="#Q"/>tio:
+          una speculativa, et quoad hanc fuit Ioan<lb ed="#Q"/>nes
+          excellens respectu Petri et aliorum, sed de
+          <lb ed="#Q"/>hac non intelligitur illud 'quanto plus diligit,
+          <lb ed="#Q"/>plus cognovit'q ; est alia cognitio practica, et
+          <lb ed="#Q"/>haec duplex: quaedam ante actum, et de hac
+          <lb ed="#Q"/>adhuc non intelligitur illud'; quaedam coniuncta
+          <lb ed="#Q"/>cum ipso actu, et de hac intelligitur; sed quan<lb ed="#Q"/>tum
+          ad hanc non excellebat loannes Petrum, sed
+          <lb ed="#Q"/>potius e converso 12.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

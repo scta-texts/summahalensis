@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-24">February 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="146"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m1c4">
+        <head xml:id="ahsh-l1p1i1t3q2m1c4-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t3q2m1c4-Hd1e3732" type="question-title">QUID SIT VERITAS.</head>
+        <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3735">
+          <lb ed="#Q"/>Postea quaeritur de veritate, in quibus sit
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3740">
+          <lb ed="#Q"/>a. Et cum unumquodque sich se habeat ad 
+          <lb ed="#Q"/>esse sicut ad veritatem, in omni re erit veritas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3747">
+          <lb ed="#Q"/>Contra: 1. Augustinus, in libro Soliloquio<lb ed="#Q"/>rum: 
+          «Quidquid est in aliquo non potest ma<lb ed="#Q"/>nere, 
+          si non maneat illud c in quo est; rebus au- 
+          <lb ed="#Q"/>tern veris intereuntibus, manet veritas; non igitur 
+          <lb ed="#Q"/>est veritas in rebus mortalibus ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3761">
+          <lb ed="#Q"/>2. Item Augustinus, De vera religione: 
+          « Intere mentem nostram qua Deum intelligimus 
+          <lb ed="#Q"/>Patrem, et veritatem, lucem illam interiorem per 
+          <lb ed="#Q"/>quam Deum intelligimus, nulla interposita crea- 
+          estf. Quare ipsam veritatem nulla ex parte 
+          <lb ed="#Q"/>dissimiliter in ipso et cum ipso veneremur, quae 
+          <lb ed="#Q"/>forma est omnium quae ab uno'etg ad unum re- 
+          <lb ed="#Q"/>feruntur ». Si ergo veritas est lux interior, ergo 
+          <lb ed="#Q"/>est solum in spiritualibus et non h in corpora<lb ed="#Q"/>libus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3781">
+          <lb ed="#Q"/>3. Item, dicit Augustinus, Super Canonicum <lb ed="#Q"/>Ioannis'
+          6, quod « veritas est lux intelligibilis". 
+          <lb ed="#Q"/>Sicut ergo lux sensibilis non est nisi in sensi<lb ed="#Q"/>bilibus, 
+          similiter lux intelligibilis non erit nisi 
+          in intelligibilibus; ergo non est veritas in sen<lb ed="#Q"/>sibilibus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3794">
+          <lb ed="#Q"/>Respondeo: 1. Ad primum: veritas in rebus 
+          duplex est. Est enim' veritas necessitatis et ve- 
+          <lb ed="#Q"/>ritas contingentiae, 'sicut distinxit Anselmus7 
+          <lb ed="#Q"/>in veritate significationis, quemadmodum et esse 
+          <lb ed="#Q"/>necessarium et contingens. Loquitur ergo Augu- 
+          in Soliloquiis, de veritate necessitatis, 
+          quae est solum in rebus necessariis. Veritas vero 
+          <lb ed="#Q"/>communiter dicta est in omnibus contingentibus 
+          necessariis. — Praeterea, est veritas causae et 
+          veritas causati, et utraque veritate dicuntur 
+          <lb ed="#Q"/>res verae, sicut et" bonae duplici banitate, scili<lb ed="#Q"/>cet 
+          bonitate causae et bonitate causati. Veritas 
+          <lb ed="#Q"/>ergo causae non est in rebus ut dependens ab
+          <lb ed="#Q"/> illis: et ideo, quamvis res verae intereant, non
+          <lb ed="#Q"/>interit veritas; veritas vero causati, quae est in—
+          <lb ed="#Q"/>divisio esse rei, interit rebus veris intereun<lb ed="#Q"/>tibus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3823">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod veritas prima 
+          <lb ed="#Q"/>lux interior dicitur propter sui spiritualitatem et 
+          <lb ed="#Q"/>simplicitatem, quae prohibet ne' possit cognosci
+          <lb ed="#Q"/>nisi ab intellectu, qui est vis animae interior; ta<lb ed="#Q"/>men, 
+          quantum ad suam essentiam, attingit omne
+          <lb ed="#Q"/>quod est, sicut ponit Augustinus8 exemplum
+          <lb ed="#Q"/>de caeco posito in sole, quod praesens est ei lux,
+          ipse tamen absens est ab illa: ita ipsa summa sa<lb ed="#Q"/>pientia,
+          quae est prima veritas,.omni iniquo
+          <lb ed="#Q"/>praestans est, quamvis ipse absens. Est igitur
+          <lb ed="#Q"/>omni rei praesens per essentiam, per quam omnis
+          <lb ed="#Q"/>res in esse salvatur; unde Ioan. 1,5-10: Lux in
+          <lb ed="#Q"/>tenebris lucet, et tenebrae eam non comprehende<lb ed="#Q"/>runt; 
+          in mundo erat etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3854">
+          <lb ed="#Q"/>3. Ad ultimum dicendum quod « lux intelli<lb ed="#Q"/>gibilis » 
+          dicitur, non solum quia sit in intelligibili<lb ed="#Q"/>bus, 
+          sed solo intellectu percipitur. Unde notandum
+          ad illud quod obiciebatur in praecedenti Quae<lb ed="#Q"/>stione 9, 
+          'quod/sensibilium rectitudo sola' mente
+          <lb ed="#Q"/>percipitur, ergo non est in eis veritas, cum per<lb ed="#Q"/>cipiantur 
+          sensu: dicendum quod quamvis intel<lb ed="#Q"/>lectu 
+          non separentur" esse rei et veritas, quia
+          semper cointelliguntur, tamen in iudicio sensus
+          separantur, quia esse sensibilis, ut iudicatur et
+          accipitur sensu, semper apprehenditur cum con<lb ed="#Q"/>ditionibus 
+          materiae; veritas autem eius apprehen<lb ed="#Q"/>ditur 
+          absque omni conditione materiae et ideo
+          solo intellectu vel mente. Ex hoc autem? non se<lb ed="#Q"/>quitur 
+          quod in sensibilibus vel in rectitudine vi<lb ed="#Q"/>sibili 
+          non sit veritas, sed quod non percipiatur »
+          <lb ed="#Q"/>eorum veritas, in: quantum veritas, sensu sive
+          <lb ed="#Q"/>per sensum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

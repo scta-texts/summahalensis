@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. III, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-23">February 23, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="135"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m3c3">
+        <head xml:id="ahsh-l1p1i1t3q1m3c3-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 3, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t3q1m3c3-Hd1e3732" type="question-title">DE COMPARATIONE UNITATIS DIVINAE QUANTUM AD REPRAESENTATIONEM.</head>
+        <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3735">
+          <lb ed="#Q"/>Tertio quaeritur de comparatione divinae uni<lb ed="#Q"/>tatis 
+          ad unitatem realem quantum ad reprae<lb ed="#Q"/>sentationem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3744">
+          <lb ed="#Q"/>Quaeritur ergo:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>1. An magis repraesentetur in unitate compo<lb ed="#Q"/>nentium 
+          quam" compositi; 
+          <lb ed="#Q"/>2. deinde, an magis in unitate particularis quam 
+          <lb ed="#Q"/>universalis.
+        </p>
+        <div xml:id="ahsh-l1p1i1t3q1m3c3-Dd1e3760" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q1m3c3-Hd1e3762">Articulus I</head>
+          <head xml:id="ahsh-l1p1i1t3q1m3c3-Hd1e3765" type="question-title">An unitas divina magis repraesentetur in unitate componentium quam compositi.</head>
+          <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3768">
+            <lb ed="#Q"/>Quantum ad primum sic arguitur: a. Unitas
+            <lb ed="#Q"/>compositi deficit ab unitate componentium, quia
+            <lb ed="#Q"/>duae unitates'componentium uniuntur, ex quibus
+            <lb ed="#Q"/>surgit unitas compositi; ergo posterior est quam
+            <lb ed="#Q"/>unitas componentium; magis ergo elongatur ab
+            <lb ed="#Q"/>unitate prima, et ita magis repraesentatur unitas
+            <lb ed="#Q"/>inb unitate componentium quam compositi.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3786">
+            <lb ed="#Q"/>b. Item, unitas prima simplex est; ergo unitas
+            <lb ed="#Q"/>magis simplex in creaturis plus assimilatur uni<lb ed="#Q"/>tati
+            primae quam unitas minusc simplex; sed
+            <lb ed="#Q"/>simplicior est unitas in componentibus quam in **
+            <lb ed="#Q"/>composito, quoniam unitas componentium non
+            <lb ed="#Q"/>resolvitur in aliam unitatem, unitas autem com<lb ed="#Q"/>positi
+            in aliam resolvitur unitatem; ergo uni<lb ed="#Q"/>tas
+            componentium pluse assimilatur unitati di<lb ed="#Q"/>vinae.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3808">
+            <lb ed="#Q"/>Contra: ]. Unitas in componentibusf est unitas
+            <lb ed="#Q"/>secundum quid: unde Augustinus, in libro
+            <lb ed="#Q"/>De natura summi boni 3, dicit quod materia non
+            <lb ed="#Q"/>habet unitatem nisi secundum quid, sicut nec esse
+            <lb ed="#Q"/>nisi secundum quid; sed unitas simpliciter! ma<lb ed="#Q"/>gis
+            assimilatur primae ac summae unitati, quae 
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>verissime ac simpliciter est unitas, quam unitas
+            <lb ed="#Q"/>secundum quid; ergo unitas compositi magis as<lb ed="#Q"/>similatur
+            unitati primae quam unitas componen<lb ed="#Q"/>tium;
+            ergo unitas divina magis in ea repraesen<lb ed="#Q"/>tatur.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3838">
+            <lb ed="#Q"/>Solutio: Dicendum quod unitas prima, secun<lb ed="#Q"/>dum
+            quod huiusmodi, duo habet: unum est quod
+            <lb ed="#Q"/>ipsa est simplex; item, ipsa est simpliciter " unitas
+            <lb ed="#Q"/>et perfecta unitas. Quantum ergo ad hoc quod
+            <lb ed="#Q"/>ipsa est simplex unitas, ex hoc plus habent con<lb ed="#Q"/>venientiam
+            cum ipsa componentia quam ipsum
+            <lb ed="#Q"/>compositum, quia simpliciora sunt; et quantum
+            <lb ed="#Q"/>ad hoc magis participant rationem unitatis pri<lb ed="#Q"/>mae.
+            Quantum autem ad hoc quod dicitur ipsa uni<lb ed="#Q"/>tas
+            primal unitas simpliciter et perfecta, cui * nihil
+            <lb ed="#Q"/>deest, dicimus quod compositum plus habet de
+            <lb ed="#Q"/>convenientia cum ipsa1 quam componentia: unitas
+            <lb ed="#Q"/>enim compositi est unitas simpliciter" et perfecta;
+            <lb ed="#Q"/>unitas autem formae non est perfecta sine uni<lb ed="#Q"/>tate
+            materiae nec e converso. Sic ergo uno modo
+            <lb ed="#Q"/>plus repraesentatur unitas divina in unitate com<lb ed="#Q"/>ponentium,
+            alio modo in unitate compositi.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q1m3c3-Dd1e3879" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q1m3c3-Hd1e3881">Articulus II</head>
+          <head xml:id="ahsh-l1p1i1t3q1m3c3-Hd1e3884" type="question-title">An unitas divina magis repraesentetur in unitate universalis quam particularis.</head>
+          <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3887">
+            <lb ed="#Q"/>Deinde quaeritur an magis repraesentetur uni<lb ed="#Q"/>tas 
+            divina in unitate universalis aut particularis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3894">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Ad quod sic: a. Omne quod est 'unum numero' 
+            <lb ed="#Q"/>est 'unum specie et genere' et non e converso, se<pb ed="#Q" n="136"/><cb ed="#Q" n="a"/><lb ed="#Q"/>cundum 
+            quod huiusmodi. Unde unitas generis
+            <lb ed="#Q"/>non ponit unitatem speciei, nec unitas numeri
+            <lb ed="#Q"/>ponitur, posita unitate speciei, immo e converso "
+            <lb ed="#Q"/>unitas numeralis illas ponit; ergo unitas nume<lb ed="#Q"/>ralis
+            abundat respectu illarum unitatum; ergo
+            <lb ed="#Q"/>plus habet de natura unitatis quam illae unita<lb ed="#Q"/>tes;.ergo
+            particulare, quod est unum unitate nu<lb ed="#Q"/>merali,
+            magis est unum quam universale, quod
+            <lb ed="#Q"/>est unum reliquis unitatibus; ergo magis in ipso 
+            <lb ed="#Q"/>repraesentatur unitas divina.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3927">
+            <lb ed="#Q"/>b. Item, quidquid b est unum genere vel specie
+            <lb ed="#Q"/>communicabile est ac multis; sed communicari
+            <lb ed="#Q"/>a multitudine hoc recedit a perfectione unitatis,
+            <lb ed="#Q"/>et maxime sicut universale communicatur a multis
+            <lb ed="#Q"/>etd numeratur per illa multa: hoc igitur facit
+            <lb ed="#Q"/>elongari a perfectione unitatis; sed universale est
+            <lb ed="#Q"/>unum genere vel specie; ergo magis elongatur a
+            <lb ed="#Q"/>perfectione unitatis quam particulare; et ita par<lb ed="#Q"/>ticulare
+            magis est unum quam universale.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3950">
+            <lb ed="#Q"/>Contra: 1. Unitas universalis est simplicior, quia
+            <lb ed="#Q"/>unitas particularis addit ad illam. — Item, est in<lb ed="#Q"/>dissolubilior,
+            quia unitas universalis est unitas
+            <lb ed="#Q"/>secundum incorruptionem: quia universale perpe<lb ed="#Q"/>tuum
+            est' et incorruptibile, unitas autem inf nu<lb ed="#Q"/>mero
+            in ! aliquibus accedit ad corruptionem;
+            <lb ed="#Q"/>ergo unitas in numero plus elongatur ab uni<lb ed="#Q"/>tate
+            prima, quae nullo modo vergit ad corrup<lb ed="#Q"/>tionem,
+            quam unitas universalis; ergo magis re<lb ed="#Q"/>praesentatur
+            unitas divina in unitate universalis
+            <lb ed="#Q"/>quam particularis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3976">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Solutio: Dicendum quod unitas primi tria ha<lb ed="#Q"/>bet.
+            Primum enim est 'unum ', ita quod essentia
+            <lb ed="#Q"/>primi non est essentia istius vel illius, sed est
+            <lb ed="#Q"/>haec essentia distincta ab aliis rerum essentiis;
+            <lb ed="#Q"/>unde unitas prima ita se habet quod est haec
+            <lb ed="#Q"/>unitas distincta ab hac unitate et ab illa et" hu<lb ed="#Q"/>iusmodi.
+            Nihilominus tamen ipsa prima unitas
+            <lb ed="#Q"/>est in hac unitate et in illa et in alia, secundum
+            <lb ed="#Q"/>quod nos ponimus quod prima essentia est es<lb ed="#Q"/>sentialiter
+            in unoquoque, non tamen essentialiter
+            <lb ed="#Q"/>ita quod per praedicationem, sed causaliter'. Item,
+            <lb ed="#Q"/>divina unitas simplex est. Tres ergo rationes ha<lb ed="#Q"/>bet
+            unitas prima: scilicet quod est unitas in se,
+            <lb ed="#Q"/>distincta per essentiam ab omnibus aliis; item,
+            <lb ed="#Q"/>est essentialiter in omnibus aliis tamquam con<lb ed="#Q"/>servans
+            et continens; item, est simplicissima. Et
+            <lb ed="#Q"/>hoc totum est dictumf quod unitas prima tres
+            <lb ed="#Q"/>habet conditiones secundum rationem intelligen<lb ed="#Q"/>tiae.
+            Ipsa enim est virtualis unitas secundum
+            <lb ed="#Q"/>quod dicimus quod estin hac unitate et in * illa:
+            <lb ed="#Q"/>et quantum ad hoc magis assimilatur ei unitas
+            <lb ed="#Q"/>universalis. Item ', ipsa est unitas simplex: et hac
+            <lb ed="#Q"/>iterum ratione plus ei assimilatur unitas univer<lb ed="#Q"/>salis.
+            Item, prima unitas est completa unitas, se<lb ed="#Q"/>cundum
+            quod nos'" dicimus quod ipsa est" uni—
+            <lb ed="#Q"/>tas quaedam in se fixa et distincta ab aliis: et
+            <lb ed="#Q"/>quantum ad hoc plus ei assimilatur unitas parti<lb ed="#Q"/>cularis;
+            et hoc modo plus est unum particulare
+            <lb ed="#Q"/>quam universale, quia unitas universalis deficit
+            <lb ed="#Q"/>a perfectione unitatis particularis.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

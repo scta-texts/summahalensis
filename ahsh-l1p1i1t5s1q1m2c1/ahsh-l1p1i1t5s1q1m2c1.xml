@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="247"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m2c1">
+        <head xml:id="ahsh-l1p1i1t5s1q1m2c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 2, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m2c1-Hd1e3744" type="question-title">UTRUM DEUS SCIAT RES PER SE VEL PER ALIUD</head>
+        <!-- M2 prae -->
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c1-d1e3749">
+          <lb ed="#Q"/>Secundo quaeritur per quid sit scientia Dei.
+          <lb ed="#Q"/>Et primo 2, utrum Deus sciat res per se
+          <lb ed="#Q"/>vel per aliud;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundo, utrum per causam vel per non-causam f ;
+          <lb ed="#Q"/>tertio, utrum per unum vel per8 multa;
+          <lb ed="#Q"/>quarto, utrum per exemplar.
+        </p>
+        <!-- prae -->
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c1-d1e3770">
+          <lb ed="#Q"/>Ad primum sic proceditur et probatur quod
+          <lb ed="#Q"/>A per se sciat: a. Quia intelligibile est perfectio
+          <lb ed="#Q"/>intellectust; si ergo illud per 'l quod intelligimus,
+          <lb ed="#Q"/>est principium perfectionis, si Deus intelligereti
+          <lb ed="#Q"/>per-aliud quam per se, illud esset perfectio sui
+          <lb ed="#Q"/>intellectus; sed impossibile est quod habeat per<lb ed="#Q"/>fectionem
+          * extra; ergo non potest intelligere per
+          <lb ed="#Q"/>aliud quam per se.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c1-d1e3790">
+          <lb ed="#Q"/>b. Item, perfectius et nobilius est agere et in<lb ed="#Q"/>telligere
+          per se quam per aliud; quod autem no<lb ed="#Q"/>bilius
+          est tribuendum est Deo; ergo intelligere
+          <lb ed="#Q"/>per se est Deo tribuendum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c1-d1e3801">
+          <lb ed="#Q"/>c. Item, si intelligeret res per ipsas res, vile<lb ed="#Q"/>sceret
+          eius intellectus, quia res essent perfectio
+          <lb ed="#Q"/>intellectus eius; sed non potest vilescere eius'
+          <lb ed="#Q"/>intellectus5 ; ergo etc. .
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c1-d1e3812">
+          <lb ed="#Q"/>d. Item, Dionysius, in libro De divinis no<lb ed="#Q"/>minibusf':
+          « Deus cognoscendo se, cognoscit om<lb ed="#Q"/>nia
+          ». Cognoscit ergo non per aliud '".
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c1-d1e3821">
+          <lb ed="#Q"/>Contra: 1. Deus dicitur operari et scire, et
+          <lb ed="#Q"/>utrumque dicitur respectu creaturae, quia opera<lb ed="#Q"/>tur
+          et scit creaturas. Si ergo non inconvenienter
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>dicitur 'Deus operatur per creaturam ', eodem
+          <lb ed="#Q"/>modo non inconvenienter dicetur 'Deus scit per
+          <lb ed="#Q"/>creaturam *, vel " dicatur ratio quare dicatur"
+          <lb ed="#Q"/>operari per aliud et non scire per aliud.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c1-d1e3841">
+          <lb ed="#Q"/>Respondeo, secundum Dionysium, in libro
+          <lb ed="#Q"/>De divinis nominibus7: <quote xml:id="ahsh-l1p1i1t5s1q1m2c1-Qd1e3847">« Deus scit omnia, tam<lb ed="#Q"/>quam
+          in se entia et in se praesubsistentiaP, et
+          <lb ed="#Q"/>non ex entibus accipit scientiam eorum ».</quote>
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m2c1-d1e3856">
+          <lb ed="#Q"/>[Ad, obiecta]: 1. Ad illu d *1 quod obicitur, di<lb ed="#Q"/>cendum
+          quod differt actio quae significatur per
+          'scire ', ab actione quae significatur per 'ope—
+          <lb ed="#Q"/>rari ', ut patet in anima: anima enim scit, anima
+          <lb ed="#Q"/>operatur; cum autem dicitur anima operari ', si<lb ed="#Q"/>gnificatur
+          motus ab anima; cum vero dicitur scire,
+          <lb ed="#Q"/>dicitur motus ad animam. Similiter in Deo: cum
+          <lb ed="#Q"/>dicitur Deus operari; significatur motus ab ipso;,
+          <lb ed="#Q"/>cum autem dicitur scire, dicitur ut motus ad ipsum.
+          <lb ed="#Q"/>Haec autem praepositio ' per * dicit rationem prin<lb ed="#Q"/>cipii
+          quasi medii 8, sicut cum dicitur 'percutio
+          <lb ed="#Q"/>per baculum ', sicut *ex* vel 'a' dicit rationem
+          <lb ed="#Q"/>primit principii: unde cum dicitur 'ab artifice
+          <lb ed="#Q"/>fit domus per securim ', 'ab' dicit primum"
+          <pb ed="#Q" n="248"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>principium, 'per' dicit rationem principii quasi
+          <lb ed="#Q"/>medii. Ubi" ergo significatur actio transiens ab
+          <lb ed="#Q"/>ipso supra creaturam, quae scilicet dicit motum
+          <lb ed="#Q"/>ab ipso, beneb recipitur haec praepositio ' per'
+          <lb ed="#Q"/>quasi media, ita ut C Deus sit in ratione primi prin<lb ed="#Q"/>cipii,
+          'per' vero dicat rationem principii quasi
+          <lb ed="#Q"/>medii, ut cum dicitur 'Deus facit domumd per
+          <lb ed="#Q"/>artificem '. Ubi vero significatur motus ad ipsum,
+          <lb ed="#Q"/>non debet recipi haec praepositio 'per'; unde,
+          <lb ed="#Q"/>cum per: hoc verbum ' scire' dicatur motus ad
+          <lb ed="#Q"/>ipsum, non debet ibi recipi haec praepositio 'per ',
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quia sic sequeretur quod creatura esset principium
+          <lb ed="#Q"/>respectu Dei: quod est falsum. — Tamen potest
+          <lb ed="#Q"/>haec distinguif 'Deus operatur per creaturam':
+          <lb ed="#Q"/>quia si haec praepositio ' per ' determinat verbum
+          <lb ed="#Q"/>in comparatiOneg ad. suppositum, ut dicat cau<lb ed="#Q"/>sam
+          eius quod supponitur per nominativum, falsa
+          <lb ed="#Q"/>est, et est sensus: 'Deus per creaturam est ope<lb ed="#Q"/>rans
+          '; vel potest determinare verbum in compa<lb ed="#Q"/>ratione
+          ad accusativum, et sic vera est et est
+          <lb ed="#Q"/>sensus: ' Deus est operans mediante creatura '. Et
+          <lb ed="#Q"/>sic patet solutio '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

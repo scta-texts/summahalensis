@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="151"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m2c4">
+        <head xml:id="ahsh-l1p1i1t3q2m2c4-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 2, C. 4</head>
+        <head xml:id="ahsh-l1p1i1t3q2m2c4-Hd1e3732" type="question-title">AN VERITAS SIT MUTABILIS.</head>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3735">
+          <lb ed="#Q"/>Consequenter quaeritur an veritas sit mutabilis 
+          <lb ed="#Q"/>vel immutabilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3742">
+          <lb ed="#Q"/>Ad quod sic: a. <name ref="#Anselm">Anselmus</name>: <quote xml:id="ahsh-l1p1i1t3q2m2c4-Qd1e3749">« Omnino vi<lb ed="#Q"/>deo
+          ipsam rectitudinem immutabilem permanere »</quote>;
+          <lb ed="#Q"/>sed veritas est rectitudo; ergo veritas omnino est
+          <lb ed="#Q"/>immutabilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3759">
+          <lb ed="#Q"/>b. Item, <name ref="#Augustine">Augustinus</name>, in libro De libero ar<lb ed="#Q"/>bitrio: 
+          <quote xml:id="ahsh-l1p1i1t3q2m2c4-Qd1e3768">« Veritas non est inferior mente nostra,
+          <lb ed="#Q"/>quia de ea iudicaremus »</quote> — quod non est verum:
+          <lb ed="#Q"/>non enim de ipsa iudicamus, sed per ipsam —nec
+          <lb ed="#Q"/>menti aequalis, quia mutaretur sicut mens est mu<lb ed="#Q"/>tabilis.
+          Unde dicit3: . Mentes nostrae aliquando
+          <lb ed="#Q"/>plus vident, aliquando minus de ipsa: ipsa, in se
+          <lb ed="#Q"/>manens, nec proficit nec deficit». Ex quo vide<lb ed="#Q"/>tur
+          quod sit immutabilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3788">
+          <lb ed="#Q"/>c. Item, obicitur quod veritas creata sit immu<lb ed="#Q"/>tabilis,
+          quia res quaelibet veritatem habet, quia
+          <lb ed="#Q"/>habet similitudinem cum primo; sed ratione eius
+          <lb ed="#Q"/>quod habet similitudinem cum primo" est per<lb ed="#Q"/>manens;
+          ergo ratione permanentis est veritas in
+          <lb ed="#Q"/>omni re, et super ipsum b permanens est fundata
+          <lb ed="#Q"/>veritas; sed ratione illius est immutabilis, alioquin
+          <lb ed="#Q"/>non haberet per illud similitudinem cum primo,
+          <lb ed="#Q"/>qui est immutabilis; ergo veritas etiam creata
+          [est] immutabilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3810">
+          <lb ed="#Q"/>d. Item, sicut dicimus de caelo quod substantia
+          <lb ed="#Q"/>eius non mutatur, licet moveatur in tempore, ita
+          <lb ed="#Q"/>dicimus quod aliquid est in tempore quod secun<lb ed="#Q"/>dum
+          substantiam non mutatur 0, licet sit alterum
+          <lb ed="#Q"/>et alterum; et hoc est 'nunc ' quod fertur, quod
+          <lb ed="#Q"/>idem est secundum substantiam non mutatum 4,
+          <lb ed="#Q"/>sed manet, licet dicatur alterum et alterum 5: sicut
+          <lb ed="#Q"/>ille qui sedet in foro et post in theatro, non di<lb ed="#Q"/>citur
+          mutatus secundum substantiam, licet mute<lb ed="#Q"/>tur
+          secundum accidens. Ergo cum supra perma<lb ed="#Q"/>nens
+          fundetur veritas, eadem erit veritas sub hoc
+          <lb ed="#Q"/>praesenti, praeterito et futuro, et non mutata, cum
+          <lb ed="#Q"/>eadem sit substantia temporisf praesens, praete<lb ed="#Q"/>rita
+          et futura, sed altera et altera, et ita veritas 
+          <lb ed="#Q"/>est immutabilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3845">
+          <lb ed="#Q"/>e. Item, veritas praeteriti dicitur respectu ali<lb ed="#Q"/>cuius
+          praesentis, veritas praesentis respectu eius<lb ed="#Q"/>dem
+          cum est praesens, veritas futuri respectu
+          <lb ed="#Q"/>eiusdem cum est praesens; idem ergo est quod
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>subest veritati praeteriti, praesentis et futuri. Si
+          <lb ed="#Q"/>ergo quod est verum de praeterito, semper erit
+          <lb ed="#Q"/>verum, et quod est verum de futuro, semper fuit
+          <lb ed="#Q"/>verum, et quod est verum de praesenti ", nunc
+          <lb ed="#Q"/>est verum, cum idem subsit verumf praesenti,
+          <lb ed="#Q"/>praeterito et futuro: quodlibet ergo verum semper
+          <lb ed="#Q"/>fuit et est et erit verum; quaelibet ergo veritas
+          <lb ed="#Q"/>est immutabilis, quamvis enuntiatio de vero per
+          <lb ed="#Q"/>tempora varietur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3878">
+          <lb ed="#Q"/>f. Item, Anselmus, in libro De veritatet:
+          « Non existente significatione, non'f perit recti<lb ed="#Q"/>tudo
+          eius qua rectum est et qua exigitur ut
+          <lb ed="#Q"/>quod significandum est significetur. Nec ideo est
+          <lb ed="#Q"/>rectitudo in significatione, quia nunc incipit esse,
+          <lb ed="#Q"/>cum significatur esse quod est, vel non esse quod
+          <lb ed="#Q"/>non est, sed quia significatio tunc fit secundum
+          <lb ed="#Q"/>rectitudinem quae semper est: nec ob hoc' abest
+          <lb ed="#Q"/>a significatione, cum non sic ut debet aut cum
+          <lb ed="#Q"/>nulla sit significatio, sed quia tunc significatio
+          <lb ed="#Q"/>deperit a non deficiente rectitudine. Rectitudo igi<lb ed="#Q"/>tur,
+          qua significatio recta dicitur '", non habet esse
+          <lb ed="#Q"/>aut aliquem motum per significationem, quocum<lb ed="#Q"/>que
+          ipsa moveatur significatio; omnino ergo vi<lb ed="#Q"/>deo
+          hac ratione" probari, quoquo*' modo ipsa
+          <lb ed="#Q"/>sunt, rectitudinem immutabilem permanere ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3913">
+          <lb ed="#Q"/>Contra: 1. Diminufae sunt veritates? a filiis
+          <lb ed="#Q"/>hominum 5. Ergo multo magis in aliis creaturis
+          <lb ed="#Q"/>sunt diminutae, cum homo sit nobilior creatura et
+          <lb ed="#Q"/>magis similis Deo; sed omne diminutum est
+          <lb ed="#Q"/>mutatum sive mutabile 4; ergo veritas est mu<lb ed="#Q"/>tabilis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3929">
+          <lb ed="#Q"/>Solutio: Dicendum, secundum Anselmumö,
+          <lb ed="#Q"/>quod veritas prima est immutabilis. Et similiter
+          <lb ed="#Q"/>Augu stinu s loquitur de veritate prima in prae<lb ed="#Q"/>dicta
+          auctoritate'f: de hac enim simpliciter ve<lb ed="#Q"/>rum
+          est quod est immutabilis. Sed de veritate,
+          <lb ed="#Q"/>quae est increaturis, dicimus quod in aliquibus
+          <lb ed="#Q"/>est veritas mutabilis. Sed duplex est veritas in
+          <lb ed="#Q"/>istis creatis: una'., quae est in creatura ratione
+          <lb ed="#Q"/>eius quod habet similitudinem cum Deo, et illa
+          <lb ed="#Q"/>veritas fundatur super aliquid unde habet: simi<lb ed="#Q"/>litudinem
+          cum Deo. Unde tempus, licet non
+          <lb ed="#Q"/>permaneat, in quantum huiusmodi, in suis par<lb ed="#Q"/>tibus,
+          tamen in non permanendo habet quamdam
+          <lb ed="#Q"/>permanentiam; et similiter motus ; et ratione huius 
+          <pb ed="#Q" n="152"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>habet veritatem: et haec veritas est immutabilis
+          <lb ed="#Q"/>in re ". Unde haec veritas non interit, secundum
+          <lb ed="#Q"/>Augustinum ', existente re scilicet quae estb
+          <lb ed="#Q"/>fundamentum veritatis, nec variatur secundurn suc<lb ed="#Q"/>cessionem
+          motus et temporis. Sed est alia veritas,
+          <lb ed="#Q"/>quae est adaequatio rei et intellectus: et haec ve<lb ed="#Q"/>ritas
+          est in re, non solum ratione eius quod habet
+          <lb ed="#Q"/>similitudinem cum primo, immo etiam ratione dis—
+          <lb ed="#Q"/>similitudinis. Unde res corruptibilis, in quantum
+          <lb ed="#Q"/>huiusmodi, non habetc similitudinem cum primo d,
+          <lb ed="#Q"/>tamen habet veritatem quantum ad hoc unde in<lb ed="#Q"/>tellectus
+          apprehendit et intelligit quod haec res
+          <lb ed="#Q"/>est corruptibilis: et haec est veritas rei in se, et
+          <lb ed="#Q"/>haec veritas mutabilis est, sicut et res mutabiles 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sunt; haec enim variatur secundum variationem
+          <lb ed="#Q"/>et mutationem eorum quae accidunt circa essen<lb ed="#Q"/>tiam
+          rei, quae est subiectum veritatis invariabilis.
+          <lb ed="#Q"/>Secundum auteme hanc variationem sub signis
+          <lb ed="#Q"/>diversis accipitur, sive aptaf nata est accipi, res
+          <lb ed="#Q"/>ab intellectu: unde quandoque sub consignifica<lb ed="#Q"/>tionee
+          temporis talis vel talis, quandoque sub tali
+          <lb ed="#Q"/>accidente, quandoque sub opposito. Propter hoc
+          <lb ed="#Q"/>illa veritas, quae est rei secundum hanc variatio<lb ed="#Q"/>nem
+          acceptae, variabilis est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e4021">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Non est ergo auctoritas Psalmi
+          <lb ed="#Q"/>contraria ei quod dicitur veritatem esse immuta<lb ed="#Q"/>bilem,
+          quia loquitur de alia veritate. Et sic patet
+          <lb ed="#Q"/>responsio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

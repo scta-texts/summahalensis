@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="149"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m2c3">
+        <head xml:id="ahsh-l1p1i1t3q2m2c3-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 2, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t3q2m2c3-Hd1e3732" type="question-title">AN OMNIS VERITAS AETERNA SIT</head>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3735">
+          <lb ed="#Q"/>Postea quaeritur de aeternitate veritatis, I. an 
+          <lb ed="#Q"/>omnis veritas aeterna sit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3742">
+          <lb ed="#Q"/>Ad quod sic: 1. <name ref="#Augustine">Augustinus</name>: <quote xml:id="ahsh-l1p1i1t3q2m2c3-Qd1e3749">Nihil ma<lb ed="#Q"/>gis
+          est aeternum quam ratio circuli et duo et tria
+          <lb ed="#Q"/>esse quinque</quote>. Ergo aut dicetur ' Deus est ratio
+          <lb ed="#Q"/>circuli' et similiter 'duo et tria esse quinque'
+          <lb ed="#Q"/>vel quod plura sint ab aeterno; quorum utrum<lb ed="#Q"/>que
+          est inconveniens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3764">
+          <lb ed="#Q"/>2. Item, quod non incepit est aeternum ; sed ve<lb ed="#Q"/>ritas
+          huius propositionis 'Antichristus nascetur'
+          <lb ed="#Q"/>non incepit: non enim est dicere quando ince<lb ed="#Q"/>pits
+          ; ergo est aeterna.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3776">
+          <lb ed="#Q"/>Contra: a. Quod est aeternum nunquam de<lb ed="#Q"/>sinet;
+          sed veritas huius propositionis aliquando
+          <lb ed="#Q"/>desinet': postquam enim natus erit, non erit am<lb ed="#Q"/>plius
+          vera ; ergo non est aeterna.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3787">
+          <lb ed="#Q"/>II. Item, circa hoc quaeritur utrum enuntia<lb ed="#Q"/>bilia
+          sint" ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3794">
+          <lb ed="#Q"/>Ad quod sic: 1. Ab aeterno fuit verum 'mun<lb ed="#Q"/>dum 
+          fore': aliter enim praescientia, quae fuit de 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>hoc ab aeterno", non esset veri, et ita de aliis; 
+          <lb ed="#Q"/>ergo enuntiabilia fuerunt ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3807">
+          <lb ed="#Q"/>2. Item, A ugustin us, in libro Soliloquiorum 3,
+          <lb ed="#Q"/>dicit quod sequitur: 'si mundus non fuit, mun<lb ed="#Q"/>dum
+          non fuisse est verum '. Et per hoc intendit
+          <lb ed="#Q"/>probare quod veritas est aeterna, per hoc quod
+          <lb ed="#Q"/>necesse est alteram partem contradictionis esse
+          <lb ed="#Q"/>veram; et ita ' mundum non esse' fuit verum an<lb ed="#Q"/>tequam
+          fieret; ergo enuntiabile ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3825">
+          <lb ed="#Q"/>Contra: a. Cum dicitur 'mundum fore' hoc
+          <lb ed="#Q"/>enuntiabile affirmat de mundo quoniam : erit; si—
+          <lb ed="#Q"/>militer cum dicitur ' mundus non est', antequam
+          <lb ed="#Q"/>mundus esset, haec enuntiatio negat de mundo
+          <lb ed="#Q"/>quoniam est. Si ergo de hoc quod omnino non
+          <lb ed="#Q"/>est, nihil potest affirmari, et si universaliter nihil
+          <lb ed="#Q"/>esset, nihil posset de aliquo negari; cum? ergo
+          <lb ed="#Q"/>ab aeterno non fuerit mundus nec aliquod eorum
+          <lb ed="#Q"/>quae sunt in mundo, non erit verum dicere ab ae<lb ed="#Q"/>terno
+          ' mundus erit' et 'mundus non est'.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3849">
+          <lb ed="#Q"/>b. Item, ab aeterno non est enuntians nec res
+          <lb ed="#Q"/>de qua enuntiatur; ergo enuntiabilia non sunt ab
+          <lb ed="#Q"/>aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3859">
+          <lb ed="#Q"/>Respondeo: I. 1. Ad primum dicendum quod
+          <lb ed="#Q"/>veritas huius propositionis 'Antichristus nasce<lb ed="#Q"/>tur'
+          et huius ' duo et tria sunt quinque' et hu<lb ed="#Q"/>ius
+          ' circulus est figura plana" potest retorqueri
+          <lb ed="#Q"/>velc ad id in quo radicatur veritas illa sicut in
+          <lb ed="#Q"/>subiecto, sicut dicit Augustinus quod bre<lb ed="#Q"/>vis
+          definitio veri est «id quod est »: et sic istae
+          <lb ed="#Q"/>veritates non sunt aeternae; et quod4 dicit Au<lb ed="#Q"/>gustinus:
+          « Nihil magis est aeternum » etc. ac<lb ed="#Q"/>cipitur
+          ibi 'aetemum' pro perpetuo vel pro ae—
+          <lb ed="#Q"/>terno temporis. Vel potest retorqueri dictarum
+          <lb ed="#Q"/>propositionum veritas ad primam veritatem: et sic
+          <lb ed="#Q"/>est quaelibet illarum aeterna nec est aliud quam
+          <lb ed="#Q"/>ipse Deus; nec ideo dicetur quod circuli ratio sit
+          <lb ed="#Q"/>Deus, simpliciter loquendo ', sed circuli ratio prout
+          <lb ed="#Q"/>est in Deo.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3896">
+          <lb ed="#Q"/>2. Eodem modo respondendumf est de illa 'An<lb ed="#Q"/>tichristus
+          nascetur': quod sig veritas eius retor<lb ed="#Q"/>queatur
+          ad veritatem primam, hoc modo veritas
+          <lb ed="#Q"/>est aeterna "; si retorqueatur ad illud in 3 quo est:
+          <lb ed="#Q"/>sic non est aeterna simpliciter ", tamen in genere
+          <lb ed="#Q"/>temporis et in aeterno potest dici non habuisse
+          <lb ed="#Q"/>principium. Sequitur tamen, secundum quod di<lb ed="#Q"/>citur
+          quod' praeteritorum non est finis, sed prin<lb ed="#Q"/>cipium
+          in tempore, e contrario futurorum non est
+          <lb ed="#Q"/>principium, sed finis in'" tempore. Sicut enim,
+          <lb ed="#Q"/>quantum est de ordine temporis, non est assignare
+          <lb ed="#Q"/>tempus in quo ultimo haec sit vera: 'Caesar
+          <lb ed="#Q"/>tuit ', sed " est assignare in quo primo " fuit vera;
+          <lb ed="#Q"/>ita e contrario in ordine temporis non est assi<lb ed="#Q"/>gnare
+          tempusP, in quo primo haec fuit vera:
+          'Antichristus erit ', tamen erit assignare tempus
+          <lb ed="#Q"/>in quo ultimoq erit vera].
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3933">
+          <lb ed="#Q"/>II. Ad hoc quod quaeritur de enuntiabili—
+          <lb ed="#Q"/>bus, dicendum quod enuntiabile importat aptitu—
+          <lb ed="#Q"/>dinem unam ex parte enuntiantis et aptitudi<lb ed="#Q"/>nem
+          aliam ex parte eius quod enuntiatur. Quan<lb ed="#Q"/>tum
+          est de aptitudine ex parte rei enuntiatae,
+          <lb ed="#Q"/>distinguendum quod res enuntiata potest con<lb ed="#Q"/>siderari
+          in natura propria: sic' non sunt enun—
+          <lb ed="#Q"/>tiabilia ab aeterno, quia in enuntiabili est com—
+          <lb ed="#Q"/>positio vel divisio; compositio autem et divisio
+          <lb ed="#Q"/>tunc primo venerunt in esse, cum creatura pro<lb ed="#Q"/>cessit
+          in esse, in quas est prima compositio
+          <lb ed="#Q"/>eius 'quod est' et eius 'quo est': et ratione
+          <lb ed="#Q"/>eius 'quod est' accipitur ratio subiciendi, ra<lb ed="#Q"/>tione
+          eius 'quo est' ratio praedicandi. Quan<lb ed="#Q"/><lb ed="#Q"/>tum 
+          vero est de aptitudine rei enuntiatae se<cb ed="#Q" n="b"/><lb ed="#Q"/>cundum 
+          quod in causa, possent" dici enuntia<lb ed="#Q"/>bilia 
+          esse' ab aeterno: sed hoc non simpliciter,
+          <lb ed="#Q"/>sed secundum quid, secundum quode esse re<lb ed="#Q"/>rum
+          in causa non est esse simpliciter, sed se<lb ed="#Q"/>cundum
+          quid.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3981">
+          1-2. Ad obiecta ergo dicendum quod veritas
+          <lb ed="#Q"/>enuntiabilium secundum quemdam modum ae—
+          <lb ed="#Q"/>terna est; non tamen sequitur quod enuntiabilia 4
+          <lb ed="#Q"/>ab aeterno. Unde distinguendum quod est veritas
+          <lb ed="#Q"/>triplex. Est enim veritas rei, secundum quod dicit
+          <lb ed="#Q"/>Augustinus, in libro Salilaquiorum: «Verum
+          <lb ed="#Q"/>est id quod est». Est etiam veritas signi, secun<lb ed="#Q"/>dum
+          quod dicimus orationem veram esse cum
+          <lb ed="#Q"/>ostendit rem esse sicut est: et secundum hoc ve<lb ed="#Q"/>ritas
+          est adaequatio signi ad id cuius est signum.
+          <lb ed="#Q"/>Est etiam veritas causae, de qua dicit Ansel<lb ed="#Q"/>mus2
+          quod una et sola est veritas, licet plura
+          <lb ed="#Q"/>sint vera ; et ponit exemplum de tempore: sicut
+          <lb ed="#Q"/>est tempus unum, licet plura temporaliae eodem
+          <lb ed="#Q"/>tempore mensurataf ; et hoc modo dicit Augu<lb ed="#Q"/>stinus3
+          quod « omneg verum est verum prima
+          <lb ed="#Q"/>veritate ». Secundum primum modum "mundum "
+          <lb ed="#Q"/>non esse' et 'mundum futurum esse' non fuit
+          <lb ed="#Q"/>verum ', antequam mundus': et res essent: nulla
+          <lb ed="#Q"/>enim res subiacebat affirmationi vel negationi,
+          <lb ed="#Q"/>sicut nunc' affirmationi subiacet compositio ali<lb ed="#Q"/>cuius
+          rei, et negationi vere subiacet modo pro—
+          <lb ed="#Q"/>pria veritas, quia una res separationem habet ab
+          <lb ed="#Q"/>alia. Secundum modum secundum, secundum
+          <lb ed="#Q"/>quod "' dicitur veritas signi, cum veritas signi" de<lb ed="#Q"/>pendeat
+          a veritate rei, non erit dicere secundum
+          <lb ed="#Q"/>statum illum: 'mundum tore' vel 'mundum non
+          <lb ed="#Q"/>esse'. Secundum autem ultimum modum, prout
+          <lb ed="#Q"/>dicitur veritas causae, subest veritas ei quod est
+          'mundum fore' 'mundum non esse', antequam
+          <lb ed="#Q"/>mundus esset, et huic affirmationi 'mundum
+          <lb ed="#Q"/>fore' sufficit veritas ideae sive ratio mundi in
+          <lb ed="#Q"/>veritate sive arte divina, quae est respectu mundi
+          <lb ed="#Q"/>futuri 0. Huic autem negationi ' mundum non esse '
+          <lb ed="#Q"/>subest veritas ipsius esse divini, quod est vere
+          <lb ed="#Q"/>esse, ratione cuius veri esse removetur a mundo
+          <lb ed="#Q"/>et ab unaquaque creatura quae tunc non erat.
+          <lb ed="#Q"/>Nec ex hoc sequitur quod mundus sit vel alia
+          <lb ed="#Q"/>creatura, quamvis aliquid affirmetur vel negetur
+          <lb ed="#Q"/>de? mundo: sicut non sequitur: 'si hircocervus
+          <lb ed="#Q"/>est in opinione ', quod 4 ' hircocervus ' habeat es<lb ed="#Q"/>se,
+          sed quod 'opinio de hircocervo" habeat
+          <lb ed="#Q"/>esse 4.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

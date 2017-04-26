@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-26">April 26, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-08" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="602"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q2m2c4">
+        <head xml:id="ahsh-l1p2i2t2s1q2m2c4-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 2, C. 4</head>
+        <head xml:id="ahsh-l1p2i2t2s1q2m2c4-Hd1e3744" type="question-title">UTRUM ADAM IN STATU INNOCENTIAE DICERETUR FILIUS DEI.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c4-d1e3747">
+          <lb ed="#Q"/>Deinde quaeritur utrum Adam in statu inno<lb ed="#Q"/>centiae
+          diceretur filius Dei.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c4-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: I Sententiarum, 26 dist. 6, dicitur
+          <lb ed="#Q"/>quod nos sumus prius nati quam filii. Secundum
+          <lb ed="#Q"/>hoc videtur quod Adam in primo statu * non fuit
+          <lb ed="#Q"/>filius, nec angeli' similiter, et quod postea non
+          <lb ed="#Q"/>potuerunt dici filii adoptivi, quoniam adoptio'"
+          <lb ed="#Q"/>est mutatio ab irain amorem.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c4-d1e3770">
+          <lb ed="#Q"/>Respondeo: Quod . dicitur quod *nascimur
+          <lb ed="#Q"/>prius quam simus, tilii ', intelligendum est de statu
+          <lb ed="#Q"/>post lapsum. Unde Adam. fuit simul 'plasmatus
+          <lb ed="#Q"/>et filius et postea mutari potuit in filium gra<lb ed="#Q"/>tiae;
+          unde Magister loquitur de filiis per
+          <lb ed="#Q"/>adoptionem. Et similiter iuit in Adam, quia prius
+          <lb ed="#Q"/>fuit quam filius per gratiam gratum facientem,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sed in hoc est dissimile" quod nos sumus prius
+          <lb ed="#Q"/>filii irae, quod" ipse non fuit. Notandum etiam"
+          <lb ed="#Q"/>quod Adam etsi non tempore, tamen natura
+          <lb ed="#Q"/>prius fuit quam inerit filius Dei sive per gra<lb ed="#Q"/>tiam
+          innocentiaeq sive per gratiam gratum fa<lb ed="#Q"/>cientem,
+          sicut prius est considerare naturam,
+          <lb ed="#Q"/>postea eius innocentiam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m2c4-d1e3806">
+          <lb ed="#Q"/>Ad aliud dicendum quod, cum adoptio sit
+          <lb ed="#Q"/>mutatio in gratiam, duplex dicitur adoptio, sicut
+          <lb ed="#Q"/>duplex mutatio. Mutatio enim quaedam est se<lb ed="#Q"/>cundum 
+          contradictionem sive negationem, quae<lb ed="#Q"/>dam 
+          secundum contrarietatem, sicut cum ' anima
+          <lb ed="#Q"/>mutatur ab ignorantia'in scientiam: cum mutatur
+          <lb ed="#Q"/>ab ignorantia in scientiams secundum negatio<lb ed="#Q"/>nem,
+          tunc est mutatio secundum contradictionem;
+          <lb ed="#Q"/>cum vero ab ignorantia secundum dispositionem,
+          <pb ed="#Q" n="603"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>mutatio est secundum contrarietatem. Secundum 
+          <lb ed="#Q"/>hoc adoptio potest esse mutatio in gratiam se<lb ed="#Q"/>cundum
+          negationem, cum scilicet de non-grato tit
+          <lb ed="#Q"/>gratus; vel potest esse mutatio de ingrato se<lb ed="#Q"/>cundum 
+          dispositionem. Primo modo fuit adoptio
+          <lb ed="#Q"/>in Adam, secundo modo in. nobis.'
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

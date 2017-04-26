@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 3, M. III, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-02">March 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="188"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q3m3c5">
+        <head xml:id="ahsh-l1p1i1t3q3m3c5-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. III, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t3q3m3c5-Hd1e3744" type="question-title">DE BONO UNIVERSITATIS.</head>
+        <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3747">
+          <lb ed="#Q"/>ordine sequenti inquirendum est de bono uni<lb ed="#Q"/>versitatis. 
+          Quaeritur ergo:
+          <lb ed="#Q"/>1. An Deus permittat mala fieri in universitate; 
+          <lb ed="#Q"/>2. an universitas esset melior sine malis;
+          <lb ed="#Q"/>3. an universitas esset melior, si omnia essent 
+          <lb ed="#Q"/>aequaliter bona.
+        </p>
+        <div xml:id="ahsh-l1p1i1t3q3m3c5-Dd1e3763" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q3m3c5-Hd1e3765">ARTICULUS I</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c5-Hd1e3768" type="question-title">An Deus permittat mala fieri in universitate.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3771">
+            <lb ed="#Q"/>
+            <lb ed="#Q"/>Ad. primum sic: 1. « Optimi est optima addu<lb ed="#Q"/>cere », 
+            secundum quod dicit B. Dionysius 7; me<cb ed="#Q" n="b"/><lb ed="#Q"/>liores 
+            autem essent res, si essent impermixtae ma<lb ed="#Q"/>lis; 
+            quomodo ergo permittit mala admisceri bonis ?
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3785">
+            <pb ed="#Q" n="189"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>2. Item, non est optimus, cuius non est optima
+            <lb ed="#Q"/>Operatio in suo genere, quia bonum uniuscuius<lb ed="#Q"/>que
+            reperitur in suo opere; ergo optimi optima
+            <lb ed="#Q"/>est operatio in suo genere; ergo non potest esse
+            <lb ed="#Q"/>melior in suo genere" ; ergo debet esse imper<lb ed="#Q"/>mixta
+            malo ; dico ergo" operationem optimi quam
+            <lb ed="#Q"/>operatur optimus Deus.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3807">
+            <lb ed="#Q"/>Respondet Augustinus, in Enchiridion,
+            <lb ed="#Q"/>II cap. 1: « Malum bene ordinatum etc suo loco
+            <lb ed="#Q"/>positum eminentius commendatd bona, ut magis
+            <lb ed="#Q"/>placeant et laudabiliora tiant dum comparantur
+            <lb ed="#Q"/>malist». Propter ipsam ergo bonorum pulcritu<lb ed="#Q"/>dinem
+            mala permisit Deus fieri: si enim malum
+            <lb ed="#Q"/>non esset, in bono non esset nisi pulcritudo abso<lb ed="#Q"/>lutaf,
+            scilicet respectu boni; malo vero existente,
+            <lb ed="#Q"/>accrescit bono pulcritudo comparata, ut compa<lb ed="#Q"/>ratione
+            oppositi mali pulcrius elucescat 2.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3832">
+            <lb ed="#Q"/>Ad illud quod obicit3, respondet Augusti<lb ed="#Q"/>nus
+            alibi, dicens4: «Singula fecit Deus bona,
+            <lb ed="#Q"/>sed in universo valde bona». Optima ergo re<cb ed="#Q" n="b"/><lb ed="#Q"/>rum 
+            universitas, secundum quod possibile<!--g--> est,
+            <lb ed="#Q"/>quamvis quaelibet res non sit optima in suo ge<lb ed="#Q"/>nere.
+            Unde5 Gen. 1,10 ad singula dicitur: Vidit
+            <lb ed="#Q"/>Deus quod esset bonum; ad completionem vero
+            <lb ed="#Q"/>Scriptura veniens ait 6: Vidit Deus cuncta quae fe<lb ed="#Q"/>cerat,
+            et erant valde bona. Dicith ergo quod, suppo<lb ed="#Q"/>sito
+            quod malum non esset, non essent res in uni<lb ed="#Q"/>verso
+            pulcriores. — Per hocl solvuntur obiecta.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3862">
+            <lb ed="#Q"/>Aliam etiamk causam assignat Augustinus,
+            <lb ed="#Q"/>scilicet utilitatem; non enim, inquit, permittit
+            <lb ed="#Q"/>Deus mala fieri in re publica ', nisi utbonum ex
+            <lb ed="#Q"/>eo eliciat. Unde, in XI De civitate Dei7 ait'":
+            « Deus malis voluntatibus utitur bene" ; prosunt
+            <lb ed="#Q"/>enim diaboli tentationes sanctis. Neque enim Deus
+            <lb ed="#Q"/>aliquem angelorum aut hominum" malum tutu<lb ed="#Q"/>rum
+            praescivisset, nisi pariter nosset quibus eos
+            <lb ed="#Q"/>bonorum usibus accommodaret».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3882">
+            <lb ed="#Q"/>Duae ergo possunt reddi rationes quare Deus
+            <lb ed="#Q"/>permittit mala fieri: bonorum scilicet pulcritudo
+            <lb ed="#Q"/>maior etP utilitas.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q3m3c5-Dd1e3892" type="articulus">
+          <head xml:id="ahsh-l1p1i1t3q3m3c5-Hd1e3894">Articulus II</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c5-Hd1e3897" type="question-title">An universitas esset melior sine malis.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3900">
+            <lb ed="#Q"/>Quaeritur consequenter anq universitas esset 
+            <lb ed="#Q"/>melior sine malis.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3907">
+            <lb ed="#Q"/>1. Cum enim malum sit privatio ordinis, quo<lb ed="#Q"/>modo
+            est bene ordinatum?
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3914">
+            <lb ed="#Q"/>2. Item, «albius est quod est nigro imper<lb ed="#Q"/>mixtius
+            3 ». Ergo melius quod malo impermixtius '.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3922">
+            <lb ed="#Q"/>3. Item, mulier quae non habet maculam, pul<lb ed="#Q"/>crior
+            est quam si haberet maculam et laudabi<lb ed="#Q"/>lioris
+            pulcritudinis; unde in laude Sponsae dici<lb ed="#Q"/>tur
+            in Cant. 9: Tota pulcra es, amica mea, et ma<lb ed="#Q"/>cula
+            non est in te. Igitur" universitas rerum, si
+            <lb ed="#Q"/>macula careret mali, pulcrior esset et laudabilior.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3938">
+            <lb ed="#Q"/>4. Item, Eccle. 10,11 : Est malum, quod vidi sub
+            <lb ed="#Q"/>sole: stultum positum in dignitate sublimi; sed
+            <lb ed="#Q"/>sic videmus malos ordinatos ut in pluribus ; ergo
+            <lb ed="#Q"/>talis ordinatio est mala, cum scilicet illi qui de<lb ed="#Q"/>bent
+            ordinari deorsum, ponuntur sursum. Dicit
+            <lb ed="#Q"/>enim O rige n es, Super Numeros 10: « Homines vi<cb ed="#Q" n="b"/><lb ed="#Q"/>lis 
+            vitae bene ordinati sunt ad vilia officia, ut sci<lb ed="#Q"/>licet
+            purgent vias civitatis ». Mali ergo bene or<lb ed="#Q"/>dinantur
+            in vili loco; boni ergo in eminentiori.
+            <lb ed="#Q"/>Respondeo: Malum in se est inordinatum, ra<lb ed="#Q"/>tione
+            vero alteriuss ordinatum dupliciter. Uno
+            <lb ed="#Q"/>modo ratione subsistentis boni, scilicet naturae
+            <lb ed="#Q"/>peccantis, quae scilicet ordinatur ad poenam,
+            <lb ed="#Q"/>sicut dicit Augustinus, in libro De natura
+            <lb ed="#Q"/>boni " :" « Peccantes in suppliciis ordinantur; quae
+            <lb ed="#Q"/>ordinatio, quia naturae eorum non competit, ideo
+            <lb ed="#Q"/>poena est, sed quia culpae convenit, iustitia est ».
+            — Alio modo ordinatur ratione compositi boni,
+            <lb ed="#Q"/>secundum quod dicit Augustinus, in XI De
+            <lb ed="#Q"/>civitate "Dei 12: « Saeculum * quibusdam antithetis
+            <lb ed="#Q"/>honestavit tamquam carmen " pulcherrimum; anti<lb ed="#Q"/>theta
+            vero vocatur contrapositio. Sic ergo con<lb ed="#Q"/>traria
+            contrariis apposita 13 sermonis pulcritudi<lb ed="#Q"/>nem
+            reddunt, ut ait Apostolus, II Cor. 6,8: Per 
+            <lb ed="#Q"/>gloriam et ignobilitatem, per infamiam et bonam 
+            <lb ed="#Q"/>famam: in quadam non verborum, sed rerum
+            <lb ed="#Q"/>eloquentia saeculi pulcritudo componitur. Unde"
+            <lb ed="#Q"/>Eccli. 33,15: Contra malum bonum et contra vitam
+            <lb ed="#Q"/>mors, et sic intuere in omniab opera Altissimi
+            <lb ed="#Q"/>unum contra unum et duo contra duo ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4005">
+            <lb ed="#Q"/>[Ad obiecta.]: 1. Ad primo ergoc obiectum
+            <lb ed="#Q"/>distingue quod triplex est ordo: est enim ordod
+            <lb ed="#Q"/>ad sursum et deorsum et ad id quod est iuxta
+            <lb ed="#Q"/>vel contra. Iste triplex ordo in universitate bo<lb ed="#Q"/>norum
+            ordinatur ad sursum, scilicet ad Deum, et
+            <lb ed="#Q"/>ad deorsum, ut meliora bonis; ordinatur etiam
+            <lb ed="#Q"/>ad id quod est iuxta, ut bona aeque bonis, si
+            <lb ed="#Q"/>possit istae comparatio inveniri, sive ad id quod
+            <lb ed="#Q"/>est contra, ut ex opposito malorum. Malum vero
+            <lb ed="#Q"/>non habet ordinem ad id quod est sursum vel
+            <lb ed="#Q"/>deorsum; habet autem ordinemf ad id quod est
+            <lb ed="#Q"/>contra, sicut nunc ostensum est: et in hoc sensu
+            <lb ed="#Q"/>dicitur malum bene ordinatum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4036">
+            <lb ed="#Q"/>2. Ad secundo obiectum dicendum quod non
+            <lb ed="#Q"/>est simile: nam omne album est eiusdem ratio—
+            <lb ed="#Q"/>nis, bonum vero omne non est eiusdem rationis,
+            <lb ed="#Q"/>cum scilicet dicitur de bonis singulis et de uni<lb ed="#Q"/>versitate
+            bonorum. Unde quamvis teneat illa com<lb ed="#Q"/>paratiog
+            in bonis singulis, quod tanto melius
+            <lb ed="#Q"/>quanto impermixtius, non h tamen tenet in univer<lb ed="#Q"/>sitate
+            bonorum. Quod declaratur exemplo Augu<lb ed="#Q"/>stini,
+            in libroi De natura bonil: «Sicut nos
+            <lb ed="#Q"/>continendo vocem, decenter interponimus in lo<lb ed="#Q"/>quendo
+            silentium, quanto magis ille», scilicet
+            <lb ed="#Q"/>Deus, «quarumdam rerum privationes decenter
+            <lb ed="#Q"/>esse facit, sicut rerum omnium perfectus artifex!»
+            <lb ed="#Q"/>Ex quo ostenditur quod sicut sermonis decentia
+            <lb ed="#Q"/>maior est cumk interpositione silentii quam si
+            <lb ed="#Q"/>continue proferretur 1, sic universitatis pulcritudo
+            <lb ed="#Q"/>maior est ex interpositione bene ordinatorum
+            <lb ed="#Q"/>malorum.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4078">
+            <lb ed="#Q"/>3. Ad tertio obiectum dicendum quod prima
+            <lb ed="#Q"/>propositio est falsa indistincte sumpta: « in tali
+            <lb ed="#Q"/>enim loco posset mulier habere maculam 2 » quod
+            <lb ed="#Q"/>sederet convenienter et esset signum pulcritudi<lb ed="#Q"/>nis
+            maioris, sicut patet in cicatrice vulneris in
+            <lb ed="#Q"/>facie militis, cum est in loco debito, ipsum red<cb ed="#Q" n="b"/>dit 
+            pulcriorem. Unde Augustinus, De civitate
+            <lb ed="#Q"/>Dei 3, tale ponit exemplum: « Sicut pictura cum
+            <lb ed="#Q"/>colore nigro in suo loco posita, ita universitas
+            <lb ed="#Q"/>rerum» in suo loco posita «etiama [cum pec<lb ed="#Q"/>catoribus]
+            pulcra est, quamvis per se ipsos con—
+            <lb ed="#Q"/>sideratosb sua deformitas turpet».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4107">
+            <lb ed="#Q"/>4. Ad ultimum distinguendum quod duplex
+            <lb ed="#Q"/>est mali ordinatio: quaedam est manifesta, quae<lb ed="#Q"/>dam
+            estc occulta. « Manifesta, ut cum mali or<lb ed="#Q"/>dinantur
+            in poena aeterna4»: «melius enim d,
+            <lb ed="#Q"/>sicut dicit Augustinus5, ordinata est natura,
+            <lb ed="#Q"/>si iuste doleat in supplicio, quam si impune gau<lb ed="#Q"/>deat
+            in peccato ** »; vel in poena temporali, ut humi<lb ed="#Q"/>lietur
+            in peccatis: iustum enim est ut quiin sor—
+            <lb ed="#Q"/>dibus est sordescat adhuc, secundum quod dici<lb ed="#Q"/>tur
+            Apoc. ultimo, 11. — «Est etiam ordinatiof
+            <lb ed="#Q"/>mali occulta, secundum quod Deusg facit malum
+            <lb ed="#Q"/>principem regnare6 » propter multas causas. Prima
+            <lb ed="#Q"/>est [propter] peccata,! populi, sicut dicitur in [0b7;
+            <lb ed="#Q"/>congruum est enim ut talis sit rector civitatis,
+            <lb ed="#Q"/>quales habitantes" in ea, Eccli. 10,28. Secunda
+            <lb ed="#Q"/>propter utilitatem malorum: « dat enim Dominus
+            <lb ed="#Q"/>regem in furore, Osee 13,119, quasi virgam et
+            <lb ed="#Q"/>flagellum, ut compressi et ilagellati ad Deum re<lb ed="#Q"/>dire
+            compellantur»; Gregorius lo: « Poena oculos
+            <lb ed="#Q"/>aperit, quos culpa clauditk ». Tertia est propter
+            <lb ed="#Q"/>utilitatem bonorum, ut scilicet « erudiantur et pu<lb ed="#Q"/>rificentur
+            »; sicut enim in igne purgatur' aurum,
+            <lb ed="#Q"/>sic iusti in'" camino tribulationis, Eccli. 2, 5".
+            « Utraque tamen ordinatio" mali competens est,
+            <lb ed="#Q"/>sed secunda habet latentem" causam; et ideo
+            <lb ed="#Q"/>signanter dicit Eccle. 12: Vidi malum sub sole quasi
+            <lb ed="#Q"/>per errorem», quasi diceret '« non est error »,
+            <lb ed="#Q"/>sed videtur error'P: « error enim reputatur, dum
+            <lb ed="#Q"/>ordinationis utilitas ignoratur ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4171">
+            <lb ed="#Q"/>Item obicitur:- Augustinus, in III De li<lb ed="#Q"/>bero
+            arbitrio 13: « Non erat difficile aut laborio<lb ed="#Q"/>sum
+            omnipotenti Deo ut omnia quae fecit sic
+            <lb ed="#Q"/>haberent 4 ordinem suum, ut nulla creatura usque
+            <lb ed="#Q"/>ad miseriam perveniret; non enim hoc aut omni<lb ed="#Q"/>potens
+            non potuit aut bonus invidit».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4187">
+            <pb ed="#Q" n="191"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>Respondeo, secundum Augustinum, dicen<lb ed="#Q"/>tem1
+            « ordinem creaturarum a summa usque
+            <lb ed="#Q"/>ad infimam gradibus iustis ita decurrere ». Quem<lb ed="#Q"/>admodum
+            enim « corporum differentias contem<lb ed="#Q"/>plando
+            videns alia clariora, iniuste petis auferri
+            <lb ed="#Q"/>quae obscuriora conspexeris aut clarioribus ad<lb ed="#Q"/>aequari;
+            sed ad perfectionem universitatis refe<lb ed="#Q"/>rens
+            omnia, quanto magis et minus inter se clara
+            <lb ed="#Q"/>sunt, tanto magis cernis esse omnia; nec tibi oc<lb ed="#Q"/>currit
+            perfecta universitas, nisi ubi maiora sic
+            <lb ed="#Q"/>praesto sunt ut minora non desint. Sic etiam
+            <lb ed="#Q"/>differentias animarum cogites, in quibus hoc quo<lb ed="#Q"/>que
+            invenies ut miseriam, quam doles, ad id
+            <lb ed="#Q"/>quoque valere cognoscas ut universitatis per<lb ed="#Q"/>fectioni"
+            nec illae desint animae quae fieri mi<lb ed="#Q"/>serae
+            debuerunt, quia peccatrices esse volue<lb ed="#Q"/>runtb;
+            tantumque abest ut Deus tales facere non
+            <lb ed="#Q"/>debuerit, ut etiam ceteras creaturas laudabiliter
+            <lb ed="#Q"/>fecerit longe inferiores animis miseris ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4235">
+            <lb ed="#Q"/>Sed iterum obicitur sic: 1. Augusti<lb ed="#Q"/>nus,
+            in eodemz: « Si universitatis perfectio<lb ed="#Q"/>nem
+            complet etiam nostrac miseria, defuisset
+            <lb ed="#Q"/>aliquid huicd perfectioni, si beati semper esse<lb ed="#Q"/>mus
+            e ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4248">
+            <lb ed="#Q"/>2. Item, quaeritur quomodo malum culpae, quod
+            <lb ed="#Q"/>nullo modo est bonum, potest bene congruere?
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4255">
+            <lb ed="#Q"/>3. item, quomodo malum poenae, quod est con<lb ed="#Q"/>trarium
+            bono naturae, potest decori universitatis
+            <lb ed="#Q"/>naturarum congruere?
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4264">
+            <lb ed="#Q"/>Respondeo: ]. Ad primum, secundumf
+            <lb ed="#Q"/>Augustinum, in libro De libero arbitrio 3,
+            « non ipsa peccata vel ipsam miseriam perfec<lb ed="#Q"/>tioni
+            universitatis esse necessaria, sed animas,
+            <lb ed="#Q"/>in quantum animae sunt, quae si velint peccant,
+            <lb ed="#Q"/>si peccaverint miserae fiunt. Si enim, peccatis
+            <lb ed="#Q"/>earum detractis, miseria perseverat aut etiam
+            <lb ed="#Q"/>peccata praecedit, recte deformari dicitur ordo
+            <lb ed="#Q"/>atque administratio universitatis. Rursus, si pec<lb ed="#Q"/>cata
+            fiant et' desitg miseria, nihilominus deho<lb ed="#Q"/>nestat
+            ordinem iniquitas ". Cum autem non pec<lb ed="#Q"/>cantibus
+            adest beatitudo, perfecta est universitas.
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Quod autem ipsae non desunt animae, quasi
+            <lb ed="#Q"/>vel peccantes sequitur miseria vel recte iacientes
+            <lb ed="#Q"/>beatitudo, semper naturis omnibus universitas
+            <lb ed="#Q"/>plena atque perfecta est».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4302">
+            <lb ed="#Q"/>2. Ad secundum respondet Augustinus,
+            <lb ed="#Q"/>in eodem libro, dicens: « Non enim peccatumk
+            <lb ed="#Q"/>et supplicium peccati naturae sunt quaedam, sed
+            <lb ed="#Q"/>affectiones naturarum: illa voluntaria, ista poe<lb ed="#Q"/>nalis;
+            sed voluntaria, quae in' peccato fit, turpis
+            <lb ed="#Q"/>affectio est, cui propterea poenalis adhibetur ut
+            <lb ed="#Q"/>ordinet eam ubi tale esse'" non turpe sit, et de<lb ed="#Q"/>cori
+            universitatis congruere cogat, ut peccati de<lb ed="#Q"/>decus
+            emendet poena peccati ».
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4324">
+            <lb ed="#Q"/>3. Ad tertium similiter respondet Augusti<lb ed="#Q"/>nus,
+            in eodem libro 4, dicens: « Hinc fit ut" pec<lb ed="#Q"/>cans
+            creatura superior a creaturis inferioribus
+            <lb ed="#Q"/>puniatur, quia illae tantum" sunt infimae? ut
+            <lb ed="#Q"/>ornari? etiam a turpibus creaturis possint atque
+            <lb ed="#Q"/>ita decori universitatis congruere ». Et ponit exem<lb ed="#Q"/>plum
+            dicens: « Quid enim tam magnum in domo
+            <lb ed="#Q"/>est quam homo? et quid tam abiectum et infi<lb ed="#Q"/>mum
+            ut cloaca domus? Servus tamen in tali pec<lb ed="#Q"/>cato
+            detectusf ut mundandaef cloacae dignus
+            <lb ed="#Q"/>habeatur, ornat eamt etiam turpitudine sua; et
+            <lb ed="#Q"/>utrumque horum, id est" turpitudo servi et mun<lb ed="#Q"/>datio
+            cloacae, iam coniunctum et quasi redactum
+            <lb ed="#Q"/>in quamdam sui generis unitatem, ita dispositae
+            <lb ed="#Q"/>domui coaptatur atque subtexitur ut eius uni<lb ed="#Q"/>versitati
+            ordinatissimo decore conveniat ». —
+            <lb ed="#Q"/>Item,.aliud ponit exemplum, dicens 5: « Si bonum
+            <lb ed="#Q"/>et magnum aliquem virum ", hortante honestatis
+            <lb ed="#Q"/>officio, videamus ignibus, quantum ad corpus at<lb ed="#Q"/>tinet,
+            concremari, non hoc vocamus poenam pec—
+            <lb ed="#Q"/>cati, sed fortitudinis acx patientiae documentum
+            <lb ed="#Q"/>eumque? magis diligimus, cum foedissima cor<lb ed="#Q"/>ruptio
+            corporea membra eius absumat, quam si
+            <lb ed="#Q"/>nihil huiusmodi pateretur: miramur quippe animi
+            <lb ed="#Q"/>naturam mutabilitate corporis non mutari. At vero
+            <lb ed="#Q"/>crudelissimi latronis membra, cum tali supplicio
+            <lb ed="#Q"/>confici aspicimus 2, approbamus ordinem legum.
+            <lb ed="#Q"/>Ornant ergo ambo tormenta illa, sed ille merito 
+            <lb ed="#Q"/>virtutis, iste peccati».
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p1i1t3q3m3c5-Dd1e4391">
+          <head xml:id="ahsh-l1p1i1t3q3m3c5-Hd1e4393">Articulus III</head>
+          <head xml:id="ahsh-l1p1i1t3q3m3c5-Hd1e4396" type="question-title">An universitas esset melior si omnia essent aequaliter bona.</head>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4399">
+            <lb ed="#Q"/>Consequenter quaeritur I. an universitas esset 
+            <lb ed="#Q"/>melior, si omnia aequaliter essent bona.
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Ad quod sic: a. Augustinus, 83 Quaestio<lb ed="#Q"/>num: 
+            «Si essent aequalia, non essent omnia; 
+            <pb ed="#Q" n="192"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>non enim essent multa rerum genera quibus con<lb ed="#Q"/>stituitur
+            " universitas, primas et secundas et dein<lb ed="#Q"/>ceps
+            usque ad ultimas ordinatas habensb crea<lb ed="#Q"/>turas
+            ; et hoc est quod dicitur 'omnia' ». Ergo
+            <lb ed="#Q"/>necessario ad perfectionem universitatis oportet
+            <lb ed="#Q"/>ponere non aequale bonumc in omnibus. 
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4430">
+            <lb ed="#Q"/>II. Sed circa hoc quaeritur: numquid in infini<lb ed="#Q"/>tum
+            erit influentia in omnibus creaturis aut erit
+            <lb ed="#Q"/>status? .
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4439">
+            <lb ed="#Q"/>Obicitur enimd sic: Damascenus]: «Bo<lb ed="#Q"/>num
+            est communicativum sui esse: haec est
+            <lb ed="#Q"/>ratio communis omni bono»; sed status est in
+            <lb ed="#Q"/>bonis. Supponatur hoc. Sumamus ergo ultimum
+            <lb ed="#Q"/>bonum; illud bonum est communicativum non
+            <lb ed="#Q"/>nisi respectu inferioris; ergo aliquid este infe<lb ed="#Q"/>rius.
+            Ponatur illud. Illudf est communicativum;
+            <lb ed="#Q"/>ergo habet inferius, cui potest communicare,
+            <lb ed="#Q"/>quia potentia non est frustraz; et sic erit in in<lb ed="#Q"/>finitum
+            abire autg ponere quod ultimum bo<lb ed="#Q"/>num
+            non" sit communicativum, sed cui fit com<lb ed="#Q"/>municatio.
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4469">
+            <lb ed="#Q"/>Solutioi : 1. Ad primum dicendum quod
+            <lb ed="#Q"/>oportet quod bonitas universitatis in bonis crea<lb ed="#Q"/>tisk
+            sit secundum ordinem participationis pri<lb ed="#Q"/>mae
+            bonitatis' secundum plus et minus. Ratio'"
+            <lb ed="#Q"/>autem quare" oportet ibi ponere ordinem haec
+            <lb ed="#Q"/>est: quia Primum est agens per potentiam, quae
+            <lb ed="#Q"/>potentia est ordinata; Primum enim agit per po<lb ed="#Q"/>tentiam
+            et sapientiam, et eo quod per sapientiam,
+            <lb ed="#Q"/>eo agit per ordinem, quia sapientis est ordinare 3;
+            <lb ed="#Q"/>et ideo Primum ordinateo facit quae facit. Ideo
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>autem oportet esse ordinem in creaturis, ut una
+            <lb ed="#Q"/>sit superior etP magis recipiat de influentia bo<lb ed="#Q"/>nitatis
+            a Primo 4. Et ideo dicit Augustinus5
+            <lb ed="#Q"/>quod «si essent aequalia, non essent omnia ».
+            <lb ed="#Q"/>Quantum ergo est de potentia absoluta 4, bene
+            <lb ed="#Q"/>posset Primum facere omnia esse aequalia; sed
+            <lb ed="#Q"/>quod non sint aequalia ", hoc est quia Primum
+            <lb ed="#Q"/>agit per potentiam ordinatam: propter quod opor<lb ed="#Q"/>tet
+            ordinem esse in rebus. 
+          </p>
+          <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4515">
+            <lb ed="#Q"/>II. Ad illud quod quaeritur *utrum haecs
+            <lb ed="#Q"/>infuentia sit in intinitum': dicendum quod de po—
+            <lb ed="#Q"/>tentia absoluta'potest ipsa bonitas communicare
+            <lb ed="#Q"/>se in infinitum et quod una creatura influit in 
+            "aliam inferiorem; sed dicitur esse status et nu<lb ed="#Q"/>merus 
+            in hac influentia propter ordinem et per<lb ed="#Q"/>fectionem
+            universi. Si enim ita esset, non esset
+            <lb ed="#Q"/>status in ordinationet universi et sic nec com<lb ed="#Q"/>pletio
+            sive perfectio in universo et sic periret
+            <lb ed="#Q"/>ordinatio universi. Quia ergo Primum est agens
+            <lb ed="#Q"/>ordinate et perfecte, quia Dei perfecta sunt opera 6,
+            'ideo influentia ista non est in infinitum, immo est 
+            <lb ed="#Q"/>secundum reflexionem, ita quod ultimum " bonum,
+            <lb ed="#Q"/>in quo est status, est" secundum reflexionem;
+            <lb ed="#Q"/>nec quod alteri inferiori communicet actu, licet
+            <lb ed="#Q"/>possit communicare, immo ipsi fit communi<lb ed="#Q"/>catio
+            et per reflexionem communicat suo supe<lb ed="#Q"/>riori.
+            Sicutx dicimus quod materia communicat
+            <lb ed="#Q"/>suum posse formae et forma per reflexionem
+            <lb ed="#Q"/>suum esse materiae, ita dicimus quod in ordine
+            <lb ed="#Q"/>universi est completio per reflexionem in ultimo
+            <lb ed="#Q"/>bono, in quo est status; et sic non oportet pro<lb ed="#Q"/>cessum
+            bonorum et primo esse in infinitum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

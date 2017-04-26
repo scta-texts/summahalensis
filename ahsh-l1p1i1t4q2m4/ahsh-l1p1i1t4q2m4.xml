@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="227"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q2m4">
+        <head xml:id="ahsh-l1p1i1t4q2m4-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 2, M. 4</head>
+        <head xml:id="ahsh-l1p1i1t4q2m4-Hd1e3744" type="question-title">De divinae potentiae invariabilitate.</head>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur de invariabilitatek di<lb ed="#Q"/>,vinae 
+          potentiae. Ad quod ponitur quaestio
+          <lb ed="#Q"/>an Deus possit semper quod aliquando potuit 3.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3756">
+          <lb ed="#Q"/>a. Et cum non varietur eius potentia, sed sem<lb ed="#Q"/>per
+          sit uno modo se habens, quidquid semel
+          <lb ed="#Q"/>potuit, semper poterit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3765">
+          <lb ed="#Q"/>Contra: 1. Deus potuit incarnari et modo non
+          <lb ed="#Q"/>potest; ergo non quidquid' semel potuit, sem<lb ed="#Q"/>per
+          potest ; ergo alicuius potentia in eo fuit, quae
+          <lb ed="#Q"/>modo non est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3777">
+          <lb ed="#Q"/>Responsio Magistri, 44 dist. I Sententiarum 4,
+          <lb ed="#Q"/>est'" quod haec est distinguenda: 'quidquid
+          <lb ed="#Q"/>potuit, semper potest', quia potest" esse sensus.:
+          ' omnis rei quam habuit potentiam, semper habet ',
+          <lb ed="#Q"/>et hoc modo vera est; eadem est enim poten<lb ed="#Q"/>tia
+          qua potuit incarnari et qua potest incarnatus
+          <lb ed="#Q"/>fuisse. Sic" 'iste potest legere 'hodie ', cras di<lb ed="#Q"/>cemus:
+          'iste potest legisse', unius rei mon<lb ed="#Q"/>stratur
+          esse P potentia; et ideo non sequitur in prae<lb ed="#Q"/>dicto
+          sensu: 'non quidquid potuit, potest, ergo
+          <lb ed="#Q"/>alicuius q potentia in eo fuit, quae modo non est'.
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>— Item, potest esse sensus: ' quidquid potuit, sem<lb ed="#Q"/>per
+          potest', hoc est ' quidquid potuit facere, sem<lb ed="#Q"/>per
+          potest facere *, et hoc modo' falsum est; nec
+          <lb ed="#Q"/>propter hoc sequitur variabilitas potentiae, sed
+          <lb ed="#Q"/>variabilitas effectus. Verbilgratia, ' quidquid po<lb ed="#Q"/>tuit
+          sol 5, semper potest ': si dicatur 'cuiuscumque
+          <lb ed="#Q"/>potentiam habuitf [habet] ', verum est; sed si di—
+          <lb ed="#Q"/>catur ' quidquid potuit facere, potest ', falsum est,
+          <lb ed="#Q"/>quia potuit istum actum, scilicet illuminare, cum
+          <lb ed="#Q"/>effectu vel hanc rem quae modo non est, et ta-'
+          <lb ed="#Q"/>men modo non potest nec potentia alicuius in
+          <lb ed="#Q"/>eo fuit, quae" modo non sit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3829">
+          <lb ed="#Q"/>Sed obicitur: 1. Potentiae Dei non potest im<lb ed="#Q"/>pediri
+          effectus et ideo veraciter-V dicitur omni<lb ed="#Q"/>potens,
+          ut dicit Augustinus, in Enchiridion5;
+          <lb ed="#Q"/>sed* potentia, cuius non potest effectus impediri,
+          <lb ed="#Q"/>semper potest suum effectum elicere; ergo po<lb ed="#Q"/>tentia
+          Dei quidquid aliquando potest elicere, sem<lb ed="#Q"/>per
+          potest elicere P. — Item, si sol haberet po<lb ed="#Q"/>testatem
+          quod rem quam illuminat posset cen<lb ed="#Q"/>servare
+          et corruptamz reficere, quidquid ali<lb ed="#Q"/>quando
+          posset illuminare, semper posset illumi<pb ed="#Q" n="228"/><cb ed="#Q" n="a"/><lb ed="#Q"/>nare;
+          ergo quidquid Deus potuit tacere, semper
+          <lb ed="#Q"/>potest facere; ergo nullum est exemplum de sole.
+          —— Item, obicitur: quidquid potuit, potest, id est
+          <lb ed="#Q"/>cuiuscumque potentiam habuit, habet; sed habuit
+          <lb ed="#Q"/>potentiam creandi mundum in praesenti instanti;
+          <lb ed="#Q"/>ergo potest creare mundum in praesenti instanti ".
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3866">
+          <lb ed="#Q"/>2. Item, ad quemcumque actum se extendit ali<lb ed="#Q"/>quando
+          eius potentia, potest se extendere; sed
+          <lb ed="#Q"/>potuit se extendere ad creandum .mundum ante
+          <lb ed="#Q"/>creationem et ad sumendum carnem ante incar<lb ed="#Q"/>nationem;
+          ergo et potentia sua se potest exten<lb ed="#Q"/>dere
+          ad creandum et adb incamandum; ergo po<lb ed="#Q"/>test
+          modo creare mundum et incarnari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3884">
+          <lb ed="#Q"/>3. Item, si dicatur quod in huiusmodi argumen<lb ed="#Q"/>tationibus
+          mutatio est praedicamenti, quia mutatur
+          'quid' in 'quando' — ut si dicatur 'quidquid po<lb ed="#Q"/>tuisti,
+          potes, sed potuisti heri currere, ergo potes
+          <lb ed="#Q"/>heri currere '; cum enim c dicitur ' posse currere ',
+          <lb ed="#Q"/>dicitur posse ' quid ', sed cum assumitur d ' potui<lb ed="#Q"/>sti
+          heri ', non dicitur posse 'quid', sed posse
+          'quando '; similiter, cum dicitur 'quidquid potuit
+          <lb ed="#Q"/>Deus, potest', dicitur posse ' quid '; sed cum as<lb ed="#Q"/><lb ed="#Q"/>sumitur 
+          'potuit mundum creare in hoc instanti ',
+          <lb ed="#Q"/>dicitur posse respectu 'quando': et ideo non
+          <lb ed="#Q"/>sequitur; similiter ad sequens, cum assumit ' po<lb ed="#Q"/>tuit
+          eius potentia se extendere ad creandum ante
+          <lb ed="#Q"/>creationem' — sed obicitur: quandocumque
+          <lb ed="#Q"/>Deus aliquid potuit, semper illud potest; sed
+          <lb ed="#Q"/>potuit mundum creare in hoc instanti; ergo modo
+          <lb ed="#Q"/>potest; hic constat [quod] est assumptio in eodem
+          <lb ed="#Q"/>genere. — Si dicatur quod haec " est falsa ' quan<lb ed="#Q"/>documque
+          Deu's aliquidf potuit' etc. — contra:
+          <lb ed="#Q"/>sicut divina potentia non coarctatur actu, ita nec
+          <lb ed="#Q"/>tempore; si ergo in quemcumque actum potuit,
+          <lb ed="#Q"/>modo potest, ergo in quocumque tempore aliquid
+          <lb ed="#Q"/>potuit, modo illud potest.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3933">
+          <lb ed="#Q"/>4. Item, obicitur: quidquid Deus potuit, modo
+          <lb ed="#Q"/>potest; sed potuit iacere qudd mundus non fuis<lb ed="#Q"/>setl
+          nec ego natus fuissem; ergo potest facere
+          <lb ed="#Q"/>quod mundus non fuerit nec ego natus sim.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3944">
+          <lb ed="#Q"/>5. Si dicatur quod posse ista, non est poten<lb ed="#Q"/>tiae,
+          quia sunt impossibilia— contra: magis im<lb ed="#Q"/>possibile
+          est quod est impossibile per se quam
+          <lb ed="#Q"/>quod est!-' impossibile per accidensZ; sed posse im<lb ed="#Q"/>possibile
+          per se non est impossibile Deo, quia illud
+          <lb ed="#Q"/>potest, ut de trunco iacere vitulum, ut dicit A ns el<lb ed="#Q"/>m
+          u s 3; ergo nec posse impossibile per accidens est
+          <lb ed="#Q"/>impossibile Deo. Cum ergo me natum non fuisse
+          <lb ed="#Q"/>et mundum non fuisse sint impossibilia per ac—
+          <lb ed="#Q"/>cidens 'l, quia aliquando iuerunt possibilia, relin<lb ed="#Q"/>quitur
+          quod Deo ista posse non est impossibile.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3971">
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>6. Item, obicitur: nOn potuit aliquando creare
+          <lb ed="#Q"/>quin potuerit creare prius, ita quod 'prius' et
+          'aliquando' determinent hoc verbum 'creare';
+          <lb ed="#Q"/>ergo potuit creare ab aeterno, ita quod 'ab ae<lb ed="#Q"/>terno'
+          determinet 'creare': sicut sequitur ' non
+          <lb ed="#Q"/>aliqua sciuntur ab isto quin plura sciantur, ergo
+          <lb ed="#Q"/>infinita sciuntur ab isto '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e3989">
+          <lb ed="#Q"/>Respondeo: Fatendum divinam potentiam in<lb ed="#Q"/>variabilem,
+          sicut divinam essentiam immutabilem ;
+          <lb ed="#Q"/>tamen quiai subiecta divinae potentiae transmu<lb ed="#Q"/>tantur,
+          inde est quod sermones, quibus loquimur
+          <lb ed="#Q"/>de divina potentia, variantur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e4002">
+          <lb ed="#Q"/>Notandum igiturk quod sicut 'videre' acci<lb ed="#Q"/>pitur
+          duobus modis: -in.habitu, habere scilicet
+          <lb ed="#Q"/>potentiam videndi, vel in usu 1, scilicet uti visu
+          — primo modo dormiens videt, secundo modo
+          <lb ed="#Q"/>vigilans, luce praesente, videt — sic nos lo—
+          <lb ed="#Q"/>quimur de divino posse duobus modis: habere
+          <lb ed="#Q"/>potentiam vel uti potentia. Duobus ergo modis
+          <lb ed="#Q"/>potest intelligi ' quidquid potuit, potest': vel
+          'quandocumque '" vel cuiuscumque potentiam ha<lb ed="#Q"/>buit,
+          habet'", vel ' quidquid potuit facere, potest
+          <lb ed="#Q"/>facere,. — In primo sensu si diceretur ' quando<lb ed="#Q"/>cumque"
+          potentiam habuit, habet', indistincte
+          <lb ed="#Q"/>concedendum est P. Sed si diceretur ' cuiuscumque
+          <lb ed="#Q"/>potentiam habuit, habet', intelligendum quod per
+          -hoc quod dicit 'cuiuscumque' potest fieri distri<lb ed="#Q"/>butio
+          pro rebus secundum quod abstrahunt a
+          <lb ed="#Q"/>tempore, et hoc modo concedendum est; vel pro
+          <lb ed="#Q"/>rebus secundum quod concernunturq tempori, et
+          <lb ed="#Q"/>hoc modo non est concedendum: nam potentia Dei
+          <lb ed="#Q"/>respicit res supra tempus. Cum ergo arguit 'po<lb ed="#Q"/>tuit
+          incarnari, ergo potest incarnari ', accipit sub
+          <lb ed="#Q"/>conditione temporis et mutat praedicamentum;
+          <lb ed="#Q"/>sed deberet assumere 'sed potuit incarnationem
+          <lb ed="#Q"/>vel habuit potentiam incarnationis, ergo habet po<lb ed="#Q"/>tentiam
+          incarnationis eiusdem '. Sicut dicitur de
+          <lb ed="#Q"/>fide, quae est rerum supra tempus 4, ' quamcumque
+          <lb ed="#Q"/>fidem habuerunt patres antiqui, habent' moderni;
+          <lb ed="#Q"/>sed illi habuerunt fidem de Christo incarnando;
+          <lb ed="#Q"/>ergo et moderni de Christo incarnando ' non se<lb ed="#Q"/>quitur,
+          immo de incarnato; sed deberet assumi:
+          ' sed * antiqui habuerunt iidem incarnationis, ergo
+          <lb ed="#Q"/>et moderni '. — In secundo vero sensu quo dicitur
+          'quidquid potuitf facere, potest facere', intelli<lb ed="#Q"/>gendum
+          est si illud tacere modo potentiae est";
+          <lb ed="#Q"/>nam respectu aliquorum ' potuissev facere' dicit
+          <lb ed="#Q"/>quod est potentiae, ' posse vero modo facere' di<lb ed="#Q"/>cit
+          quod non est potentiae. Verbi gratia: ' potuisse
+          <lb ed="#Q"/>mundum creare in hoc instanti vel ante creatio<lb ed="#Q"/>nem'
+          dicit quod est potentiae; sed 'posse creare
+          <pb ed="#Q" n="229"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>in hoc instanti, postquam creatus est' non est
+          <lb ed="#Q"/>potentiae": sicut enim facere non est facti, sed
+          <lb ed="#Q"/>faciendi, et factum facere non est facere: sic posse
+          <lb ed="#Q"/>facere factum non est posse, sed posse facere.
+          <lb ed="#Q"/>faciendum. Simili modo posse creare mundum
+          <lb ed="#Q"/>creatum non est'7 posse, sed posse creare crean<lb ed="#Q"/>dum:
+          sicut enim c factum non fit, sed faciendum,
+          <lb ed="#Q"/>sic non est facere factum, sed faciendum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e4100">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad ** illud quod obicit quod
+          'non impeditur eius effectus, ergo quemcumque
+          <lb ed="#Q"/>effectum potuit facere c, et potest': concedo, dum<lb ed="#Q"/>modo
+          effectus sit in ratione faciendi, quia sicf
+          <lb ed="#Q"/>dicitur quod est potentiae; non in ratione facti,
+          <lb ed="#Q"/>quia sic dicitu1 quod «? nullius est potentiae, immo
+          <lb ed="#Q"/>quod est'1 cassum et vanum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e4116">
+          <lb ed="#Q"/>2. Ad illud vero quod obiciti quod 'ad
+          <lb ed="#Q"/>quemcumque actum se. extendit potentia' etc.:
+          <lb ed="#Q"/>concedendum eo 'i modo quo dictum est; potentia
+          <lb ed="#Q"/>enim se extendit modo ad creandum alium mun<lb ed="#Q"/>dum,
+          si Deus vellet, qui quidem non est; simi<lb ed="#Q"/>liter
+          se extendit potentia ad conservandum miin<lb ed="#Q"/>dum,
+          qui iam est. Sed dicere quod 'potentia Dei
+          <lb ed="#Q"/>se extendat ad faciendum mundum, qui factus est
+          <lb ed="#Q"/>et iam est', hoc est' dicere: 'se extendit ad illud
+          <lb ed="#Q"/>quod non est facere,; nam fieri mundum, qui
+          <lb ed="#Q"/>factus est, non est fieri, nec facere factum est fa<lb ed="#Q"/>cere.
+          Nam ponamus quod aliquis iaciat tactum:
+          <lb ed="#Q"/>faciendo factum aut facit aliquid aut nihil; s'
+          <lb ed="#Q"/>aliquid: ergo illud non fuit factum; ergo iam non
+          <lb ed="#Q"/>facit factum: quod est contra positum; si nihil:
+          <lb ed="#Q"/>ergo factum facere est nihil facere.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e4153">
+          <lb ed="#Q"/>3. Ad illud vero quod obicit ' quandocumque
+          <lb ed="#Q"/>est potens etc. est potensm', per hoc patet solutio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e4161">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>4. Ad illud vero quod obicitur ' potuit facere
+          <lb ed="#Q"/>quod non fuerim'Z vel quod mundus non fuerit':
+          <lb ed="#Q"/>dicendum quod, quamvis istud esset potentiaea
+          <lb ed="#Q"/>ante mundum factum vel antequam ego essem,
+          <lb ed="#Q"/>eo modo quoP liberi arbitrii est posse respectu
+          <lb ed="#Q"/>faciendi et non faciendi, tamen postquam mundus
+          <lb ed="#Q"/>factus est, hoc posse non est posse, quia, sicut
+          <lb ed="#Q"/>dicit Augustinus, Contra Faustum, libro II 1:
+          « Quisquis itaque dicit 'si omnipotens est Deus,
+          <lb ed="#Q"/>faciat ut? quae facta sunt, facta non fuerint ,, non
+          <lb ed="#Q"/>videt hoc ' se dicere: 'si omnipotens ests faciat ut
+          <lb ed="#Q"/>ea, quae vera sunt, eo ipso * quo vera sunt, falsa
+          <lb ed="#Q"/>sint '; potest enim facere ut aliquid non sit, quod
+          <lb ed="#Q"/>erat: tunc enim facit quod non sit ", quando id
+          <lb ed="#Q"/>esse invenerit de quo fiat, velut cum aliquem,
+          <lb ed="#Q"/>qui coepit esse nascendo, faciat non esse mo<lb ed="#Q"/>riendo;
+          hoc enim factum invenit de quo fieret.
+          <lb ed="#Q"/>Quis autem dicat ut idem, quod iam non est, fa<lb ed="#Q"/>ciat
+          non esse? quidquid enim praeteritum est iam
+          <lb ed="#Q"/>non est; quod si de ipso aliquid fieri potest, ad<lb ed="#Q"/>huc
+          est de quo fiat ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e4209">
+          <lb ed="#Q"/>5. Ad illud quod obicit" de impossibili per
+          <lb ed="#Q"/>accidens et per se, iam patet solutio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q2m4-d1e4216">
+          <lb ed="#Q"/>6. Ad ultimum vero dicendum quod illud
+          <lb ed="#Q"/>quod dicitur 'ab aeterno creare vel ab aeterno
+          <lb ed="#Q"/>creatum ' habet repugnantiam implicitam. Si enim
+          <lb ed="#Q"/>ab aeterno creatum est, ab aeterno est; et si ab
+          <lb ed="#Q"/>aeterno est, non habet esse post non-esse ; ergo
+          <lb ed="#Q"/>increatum est. Nec sequitur ' non potuit ali<lb ed="#Q"/>quando
+          creare quin potuerit creare prius, ergo ab
+          <lb ed="#Q"/>aeterno': nam quandocumque-* crearetur, esset
+          <lb ed="#Q"/>significare aliquod instans temporis in quo'est
+          <lb ed="#Q"/>creare, quae significatio non fuit prius 2.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

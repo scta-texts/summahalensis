@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 4, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-24">March 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="355"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t5m4c1">
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m4c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 4, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m4c1-Hd1e3744" type="question-title">QUOMODO SE HABEAT LIBER VITAE QUANTUM AD SCRIPTIONEM.</head>
+        <!-- m4 prae -->
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3749">
+          <lb ed="#Q"/>Consequenter quaeritur quomodo se habet li<lb ed="#Q"/>ber 
+          vitae 
+          <lb ed="#Q"/>Et quaeruntur tria:
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Primo, quomodo se habeat ad scriptionem;
+          <lb ed="#Q"/>secundo, quomodoe ad deletionem;
+          <lb ed="#Q"/>tertio, quomodof ad lectionem.
+        </p>
+        <!-- end prae -->
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3770">
+          <lb ed="#Q"/>Quantum ad primum quaeritur utrum aliquis, qui
+          <lb ed="#Q"/>non est scriptus, possit facere quod sit scriptus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3777">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Quia potest facere
+          <lb ed="#Q"/>quod in se est; sed si faciat quod in se est,
+          <lb ed="#Q"/>Deus dabit eig gratiam; et si habet gratiam,
+          <lb ed="#Q"/>potest eam custodire et ita perseverare"; et si
+          <lb ed="#Q"/>perseverat, habebit vitam aeternamz; ergo prae<lb ed="#Q"/>scitus
+          potest habere vitam aeternam; sed omnis
+          <lb ed="#Q"/>qui habebit vitam aeternam, scriptus est in libro
+          <lb ed="#Q"/>vitae; et iste potest habere vitam aeternam; ergo
+          <lb ed="#Q"/>potest scribi in libro vitae qui non est scriptus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3799">
+          <lb ed="#Q"/>2. Item, Apoc. 3,11: Tene quod habes, ne alius
+          <lb ed="#Q"/>accipiat coronam tuam. « Corona dicitur vita ae<lb ed="#Q"/>terna3
+          ». Ergo potest aliquis, qui non est scriptus ",
+          <lb ed="#Q"/>accipere coronam alterius; ergo potest scribi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3810">
+          <lb ed="#Q"/>Contra: a. Praescitus non potest salvari; ergo
+          <lb ed="#Q"/>non potest scribi '". -— Si dicatur quod haec
+          <lb ed="#Q"/>estk duplex 'praescitus potest salvari ', sicut
+          <lb ed="#Q"/>haec 'album possibile est esse nigrum': nam si
+          <lb ed="#Q"/>intelligatur de re, vera est; si de dicto, ialsa4
+          - contra: haec- distinctio solum vera est, ubi
+          <lb ed="#Q"/>formae contrariae sibi possunt sucöedere. Si enim
+          <lb ed="#Q"/>istae formae ', albedo et nigredo, non sibi pos<lb ed="#Q"/>sent
+          circa idem subiectum succedere, nunquam
+          <lb ed="#Q"/>esset ista vera ' album potest esse nigrum ' nec de
+          <lb ed="#Q"/>re nec de dicto; sed 'esse praescitum, et 'esse
+          <lb ed="#Q"/>praedestinatum' non possunt sibi succedere circa
+          <lb ed="#Q"/>idem subiectum; ergo ista'" nullo modo potest
+          <lb ed="#Q"/>esse vera 'praescitus potest esse praedestinatus
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sive salvari '; ergo praescitus nullo modo potest
+          <lb ed="#Q"/>facere quod'1 sit scriptus in libro vitae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3847">
+          <lb ed="#Q"/>b. Item, si aliqua conditionalis est vera, si ante<lb ed="#Q"/>cedens
+          est necessarium, et consequens5; sed ista
+          <lb ed="#Q"/>conditionalis est vera ' si iste est praescitus,
+          <lb ed="#Q"/>damnabitur', et antecedens est necessarium, sci<lb ed="#Q"/>licet
+          quod iste sit praescitus — qui enim prae<lb ed="#Q"/>scitus
+          est non potest non esse praescitusö: ista
+          <lb ed="#Q"/>enim est de praeterito vera; ergo est necessaria -—
+          <lb ed="#Q"/>ergo similiter consequens erit necessarium, scilicet
+          <lb ed="#Q"/>quod iste damnabitur; ergo nullo modo potest sal—
+          <lb ed="#Q"/>vari; ergo nullo modo potest 0 in libro" vitae scribi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3871">
+          <lb ed="#Q"/>c. Item, I Esdr. 2,1 super illud: Hi sunt provin<lb ed="#Q"/>ciae
+          filii etc., Glossa 7: «Nullus praedestinatusp
+          <lb ed="#Q"/>perire in perpetuumq potest: si quando enim in
+          <lb ed="#Q"/>Babylonem, id est in confusionem peccati, abdu<lb ed="#Q"/>cuntur
+          ' , per societatem iustorum ad pacem Eccle<lb ed="#Q"/>siae
+          reducuntur». Si ergo nullus praedestinatus
+          <lb ed="#Q"/>perire potest, ergo similiter nullus praescitus sal<lb ed="#Q"/>vari
+          potests; ergo neque scribi in libro vitae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3892">
+          <lb ed="#Q"/>Respondeo quod nullus reprobusf secundum
+          <lb ed="#Q"/>veritatem potest scribi in libro vitae nec potest
+          <lb ed="#Q"/>facere quod scribatur ibi; tamen " secundum suam
+          <lb ed="#Q"/>opinionem potest ibi esse scriptus, sicut dicitur<lb ed="#Q"/>in
+          Glossa: Deleanrur"B etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3905">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod obicitur quod"
+          'iste praescitus potest salvari, ergo potest scribi
+          <lb ed="#Q"/>in libro vitae ': dicendum9 quod haec est duplex
+          'iste praescitus potest salvari '. Si enim compo<lb ed="#Q"/>sita
+          intelligatur, falsa est; si divisa, vera: sicut
+          <pb ed="#Q" n="356"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>haec 'album potest esse nigrum'; nam in isto
+          <lb ed="#Q"/>praescito est potentia ut salvetur, quia quantum
+          <lb ed="#Q"/>est de se, salvabilisa est; sed si ponitur quod
+          <lb ed="#Q"/>salvetur, iam ponitur non esse praescitus, et ita
+          <lb ed="#Q"/>ponitur quod sit scriptus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3929">
+          <lb ed="#Q"/>2. Ad illud Apoc. 3,11: Ut nemo accipiat co<lb ed="#Q"/>ronam
+          triam": dicendum quod loquitur habito re<lb ed="#Q"/>spectu
+          ad praesentem iustitiam. Alicui enim se<lb ed="#Q"/>cundum
+          praesentem iustitiam debetur corona, si
+          <lb ed="#Q"/>perseverat", quam accipiet alius si cadat finaliter,
+          <lb ed="#Q"/>quia dicit Hilariuslz Cum «certus sit nu<lb ed="#Q"/>merus
+          electorum », aliis per negligentiam caden<lb ed="#Q"/>tibus
+          alii in locu-m illorum subrogantur d, in 10<lb ed="#Q"/>cum
+          illorum, dico, quem haberent si stetissent.
+          <lb ed="#Q"/>Sermo igitur ille: Tene quod habes conditionem
+          <lb ed="#Q"/>importat, quasi dicat: 'si perseveres, locus, qui
+          <lb ed="#Q"/>iam secundum praesentem iustitiam tuus est, non
+          <lb ed="#Q"/>auferetur tibi'; sed ex hoc non sequitur quod non<lb ed="#Q"/>scriptus
+          in libro vitae possite scribi, quia si
+          <lb ed="#Q"/>scriptus est, stabit; si non, non stabit. — Vel, ut
+          <lb ed="#Q"/>dicunt 2, loquitur pro statuf Iudaeorum et Gen<lb ed="#Q"/>tium,
+          non autem pro statu singularisg personae:
+          <lb ed="#Q"/>ludaeis enim fuit corona promissa cum" condi<lb ed="#Q"/>tione
+          tamen si Deo adhaererent, quam, illis a Deo
+          <lb ed="#Q"/>recedentibus, acceperunt Gentes, Rom. 11, 17: Ali<lb ed="#Q"/>qui
+          ex ramis fracti sunt; tu autem, cum oleaster
+          <lb ed="#Q"/>esses, insertus es in illis; et infra dicitur ibidem3:
+          <lb ed="#Q"/>Caecitas contigit ex parte in Israel, donec pleni<lb ed="#Q"/>tudo
+          Gentium intraret i.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e3984">
+          <lb ed="#Q"/>a. Ad illud * quod obicitur quod istae formae
+          'esse praescitum ' et 'esse praedestinatum ' non
+          <lb ed="#Q"/>sibi "invicem possunt succedere etc.: dicendum
+          <lb ed="#Q"/>quod praescientia vel praedestinatio nihil ponunt
+          <lb ed="#Q"/>in praescito vel' praedestinato 4, sicut laudatum
+          <lb ed="#Q"/>non'" ponit aliquid in eo qui laudatur, sed in eo
+          <lb ed="#Q"/>qui laudat. Cum ergo dicitur * iste est praescitus ',
+          <lb ed="#Q"/>non ponitur aliquid in isto, sed in Deo; unde
+          <lb ed="#Q"/>praescientia non est causa aliqua in damnandis
+          <lb ed="#Q"/>quare damnantur: « sicut enim memoria non cogit
+          <lb ed="#Q"/>ea quae" praeterierunt, sic nec praescientia" ea
+          <lb ed="#Q"/>quae futura sunt5 »; Deus tamen necessario scit
+          <lb ed="#Q"/>istum esse damnandum, quia omnia sunt in scien<lb ed="#Q"/>tia
+          Dei immutabiliter 6; sed tamen iste non est ne<lb ed="#Q"/>cessario
+          damnandus, immo contingenter, quia a
+          <lb ed="#Q"/>suo libero arbitrio. Nec est simile de istis for<lb ed="#Q"/>mis
+          ' albedo' et " nigredo ', quia aliquidponunt in
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>subiecto, praedestinatio autem et praescientia nihil
+          <lb ed="#Q"/>ponunt; ideo si istae formae non succederent, al<lb ed="#Q"/>bedo
+          et nigredo, non posset haec esse vera 'al<lb ed="#Q"/>bum
+          potest esse nigrum'; haec autem potest
+          <lb ed="#Q"/>esse vera 'iste qui est praescitus potest salvari ',
+          <lb ed="#Q"/>licet formae illae non sibi succedant in subiecto,
+          <lb ed="#Q"/>quia illae nihil ponunt in subiecto, sed in Deo a.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e4039">
+          <lb ed="#Q"/>b. Ad aliudb quod obicitur quod haecc est
+          <lb ed="#Q"/>necessaria ' iste est praescitus ': dicendum quod
+          <lb ed="#Q"/>si necessitas referatur ad praescientiam in com<lb ed="#Q"/>paratione
+          vel d relatione ad praescientem sive
+          <lb ed="#Q"/>ad illum cuius est praescientia, verae est; si
+          <lb ed="#Q"/>in comparatione ad praescitum sive de quo est
+          <lb ed="#Q"/>praescientia, falsa est. Praescientia enim semper
+          <lb ed="#Q"/>una est et invariabilis, quantum in se est, sicut
+          <lb ed="#Q"/>ipse est, tamen praescitum de contingentibus est.
+          <lb ed="#Q"/>Unde a parte istius de quo est praescientia non
+          <lb ed="#Q"/>est necessitas, quia iste operatur secundum libe<lb ed="#Q"/>rum
+          arbitrium et operatur contingenter; et contin<lb ed="#Q"/>gentia
+          sunt- merita velf demerita, et potest, si vult,
+          <lb ed="#Q"/>iacere opera pro quibus damnabitur et opera
+          <lb ed="#Q"/>pro quibus salvabitur. Undeg haec est duplex
+          'iste praescitus necessario damnabitur' et haec
+          <lb ed="#Q"/>similiter * iste" praedestinatus necessario salva<lb ed="#Q"/>bitur':
+          compositae enim falsae sunt, divisae ve<lb ed="#Q"/>rae,
+          ut habitum est supra 7.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m4c1-d1e4081">
+          <lb ed="#Q"/>Ad aliudi quod obicitur quod haec condi<lb ed="#Q"/>tionalis
+          est vera ' si Deus praevidit istum * dam<lb ed="#Q"/>nandum,
+          iste damnabitur; sed antecedensl est
+          <lb ed="#Q"/>necessarium; ergo et consequens ': dicendum
+          <lb ed="#Q"/>quod iste est sensus huius locutionis: 'Deus prae— '
+          <lb ed="#Q"/>scivit istum'" damnandum ', id est 'Deus scit.
+          <lb ed="#Q"/>istum" futurum damnandum ', et ex hoc bene
+          <lb ed="#Q"/>sequitur: 'iste" damnabitur'; hoc autem nonP
+          <lb ed="#Q"/>est ratione scientiae, quia ipse scit ea quae non
+          <lb ed="#Q"/>sunt sicut ea quae sunta; sequitur tamen ratione
+          <lb ed="#Q"/>futuritionis, quia 'si est futurus damnandus, dam<lb ed="#Q"/>nabitur';
+          haec autem intentio importatur per prae<lb ed="#Q"/>positionem?!
+          ' prae ', cum dicitur ' praescit istum
+          <lb ed="#Q"/>damnandum ,. Cum ergo dicitur" ' antecedens .
+          <lb ed="#Q"/>est necessarium, ergo consequens *, distinguen<lb ed="#Q"/>dum
+          esti: quia cum dicitur 'antecedens estf
+          <lb ed="#Q"/>necessarium ', scilicet" ' Deus scit istum futurum
+          <lb ed="#Q"/>sive fore" damnandum ', necessitas potest referri
+          <lb ed="#Q"/>ad hoc verbum * scit ', et sic est vera, quia Deus
+          <lb ed="#Q"/>immutabiliter scit istum damnandum; veli potest
+          <pb ed="#Q" n="357"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>referri ad hoc verbum 'tore' sive ad hoc par<lb ed="#Q"/>ticipium
+          'futurum ,, et sic est falsa, quia tunc is
+          <lb ed="#Q"/>est sensus: 'Deus scit istum necessario futurum
+          <lb ed="#Q"/>sive fore damnandum' ; consequentia vero unius
+          <lb ed="#Q"/>propositionis 'ad alteram non erat ratione scien<lb ed="#Q"/>tiae,
+          sed ratione futuritionis, necessitas vero est"
+          <lb ed="#Q"/>in scientia, non in iuturitione; et ideo non tenet
+          <lb ed="#Q"/>cum necessitate illa consequentia, sicut sineb:
+          <lb ed="#Q"/>ideo non valet illa argumentatio. Similiter distin<lb ed="#Q"/>guenda
+          est passiva haec, scilicet 'iste este ne<lb ed="#Q"/>cessario
+          scitus futurus damnandus '. — Aliter autem
+          <lb ed="#Q"/>potest distingui, sed forte[1 in idem redit: 'Deus
+          <lb ed="#Q"/>scit necessario istum futurum damnandum ', quia
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>si haec dictio 'necessario, determinet hoc ver<lb ed="#Q"/>bum
+          'scire' per comparationem ad scientem, sic .
+          <lb ed="#Q"/>est vera; si per comparationem ad scitum, falsa.
+          <lb ed="#Q"/>Similiter potest distingui in omnibus contingen<lb ed="#Q"/>tibus
+          quae exprimuntur sciri scientia Dei. Simi<lb ed="#Q"/>liter
+          distinguenda est haec ' istum praescitum est
+          <lb ed="#Q"/>necessarium damnari ', quia cum dico ' iste prae<lb ed="#Q"/>scitus
+          necessario damnabitur ', potest de isto ' ne<lb ed="#Q"/>cessario
+          ' affirmari quod dicitur de praeterito vel
+          <lb ed="#Q"/>quod dicitur de futuro, et necessitas ad hoc vel
+          <lb ed="#Q"/>ade illud referri. Si enim referatur necessitas ad
+          <lb ed="#Q"/>id quod dicitur de praeterito, vera est; si ad id
+          <lb ed="#Q"/>quod dicitur de futuro, falsaf
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 4, Q. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-01">March 01, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="235"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t4q3c3">
+        <head xml:id="ahsh-l1p1i1t4q3c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 4, Q. 3, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t4q3c3-Hd1e3744" type="question-title">UTRUM QUOD OPPOSITA SINT IDEM SIT DEO POSSIBILE.</head>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum quod opposita sint 
+          <lb ed="#Q"/>idem, sit Deo possibile.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3754">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Et videtur quod non: a. Quia si faceret quod
+          <lb ed="#Q"/>album, manens album, esset nigrum, faceret contra
+          <pb ed="#Q" n="236"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>ordinationem suam et institutionem"; non potest
+          <lb ed="#Q"/>autem tacere contra ordinationem suam; ergo non
+          <lb ed="#Q"/>potest facere quod album, manens album, sit ni<lb ed="#Q"/>grum 1.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3776">
+          <lb ed="#Q"/>b. Item, Augustinus, De vera innocentiazz
+          «Omne corpus in aliud corpus mutari posse
+          <lb ed="#Q"/>credibile est; sed quodlibet corpus in animam ra<lb ed="#Q"/>tionalem
+          posse converti credereb absurdum est,
+          <lb ed="#Q"/>quoniam sic Deus omnipotens est ut nunquam
+          <lb ed="#Q"/>suae rationis instituta avellat »; sed instituta suae
+          <lb ed="#Q"/>rationis sunt ut opposita non sint simul in eo<lb ed="#Q"/>dem;
+          ergo non potest contra-facere nec etiam
+          <lb ed="#Q"/>potest huiusmodi transmutationes,-quas ponite
+          <lb ed="#Q"/>Augustinus, facere.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3799">
+          <lb ed="#Q"/>c. Item, sicut non est possibile Deo facere con<lb ed="#Q"/>tra
+          potentiam, ita nec contra veritatem nec con<lb ed="#Q"/>trad
+          bonitatem; sed suae veritati repugnaret, si
+          'esse' et 'non-esse' simul acciperentur de eo<lb ed="#Q"/>dem,
+          quia si hoc taceret, contra veritatem faceret;
+          « omne autem verum est verum veritate prima 3 »;
+          <lb ed="#Q"/>ergo contra veritatem suam faceret, si opposita
+          <lb ed="#Q"/>simul esse verae faceret.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3815">
+          <lb ed="#Q"/>Contra: 1. Numquid Deus potest facere de
+          <lb ed="#Q"/>trunco vitulum et e converso? Ergo similiter quod
+          <lb ed="#Q"/>album sit nigrum 4. Item, magis discrepant Creator
+          <lb ed="#Q"/>et creatura quam album et nigrum, quia album
+          <lb ed="#Q"/>et nigrum sunt sub eodem genere, quod non estf
+          <lb ed="#Q"/>Creator et creatura; sed Deus potuit facere quod
+          <lb ed="#Q"/>Creator esset creatura; ergo potest facere quod
+          <lb ed="#Q"/>album sit nigrum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3835">
+          <lb ed="#Q"/>2. Item, primaes' differentiae entis sunt ens ab
+          <lb ed="#Q"/>alio, ens nonh ab alio; sed primae differentiae
+          <lb ed="#Q"/>entis magis differunt quarn album et nigrum; ergo
+          <lb ed="#Q"/>sit' Deus potuit facere quod ens non ab alio,
+          <lb ed="#Q"/>scilicet Deus, esset ens ab alio, scilicetk homo,
+          <lb ed="#Q"/>multo fortius potest facere quod album sit nigrum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3851">
+          <lb ed="#Q"/>3. Item, Hilarius, V libro De Trinitate5:
+          «Perfectae potestatis est id naturam posse fa<lb ed="#Q"/>cientis,
+          quod significat sermo dicentis ', et ita
+          <lb ed="#Q"/>cum '" quidquid dici potest effici possit, tenet ve<lb ed="#Q"/>ritatis
+          naturam quod dicto" exequatur ». Et vult
+          <lb ed="#Q"/>dicere quod perfectae potentiae est quod Deus
+          <lb ed="#Q"/>possit facere quidquid dici potest; sed «sermo 
+          <lb ed="#Q"/>dicentis» potest significare quod album sit ni<lb ed="#Q"/>grum; 
+          ergo Deus potest illud facere.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3871">
+          <lb ed="#Q"/>4. Item, communis animi conceptio est quod
+          <lb ed="#Q"/>virtuosior est potentia Dei ad faciendum quam
+          <lb ed="#Q"/>anima ad cogitandum, imaginandum vel huius<lb ed="#Q"/>modi;
+          ergo potest facere album esse nigrum, chi<lb ed="#Q"/>maeram
+          vel hominem esse" asinum 5; et videtur
+          <lb ed="#Q"/>etiam secundum hoc quod possit facere quidquid
+          <lb ed="#Q"/>potest imaginari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3889">
+          <lb ed="#Q"/>[Solutio]: Ad hoc P, nihil temere asserendo, cum
+          <lb ed="#Q"/>omni'modestia respondendum quod, si potentia
+          <lb ed="#Q"/>Dei concipiatur ab anima absolute, non poterit
+          <lb ed="#Q"/>anima determinare nec capere infinitum pelagus
+          <lb ed="#Q"/>suae potestatis 7. Sed cum anima speculatur di<lb ed="#Q"/>vinam
+          potentiam ut ordinatam secundum condi<lb ed="#Q"/>tionem
+          potestatis, veritatis, bonitatis, dico'1 quod
+          <lb ed="#Q"/>possibile Deo est quod posse potentiae est et
+          <lb ed="#Q"/>non potest quod est impotentiae '. Secundum hoc
+          <lb ed="#Q"/>dixerunt, sicut habetur in libro De regulis Theo<lb ed="#Q"/>logiae
+          8, quods quia contradicit suae potentiae vel
+          <lb ed="#Q"/>veritati vel bonitati, potentiae maiestatis non con—
+          <lb ed="#Q"/>veniret ut faceret maiorem se; item, veritati eius
+          <lb ed="#Q"/>contradiceret facere de eodem simul esse et non<lb ed="#Q"/>esse;
+          item, bonitati eius contradiceret damnare
+          <lb ed="#Q"/>Petrum et salvare Iudam et peccare. Semper ergo
+          <lb ed="#Q"/>cum debet dici aliquid Deo possibile, exigitur quod
+          <lb ed="#Q"/>non detrahat potentiae eius, veritati vel bonitati.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3932">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Quod ergo obicit' quod
+          ' potest facere quod album sit nigrum, quia " po<lb ed="#Q"/>tuit
+          facere quod Creator esset creatura *, respon<lb ed="#Q"/>deoQ:
+          aliquid incipit esse aliud per naturae con<lb ed="#Q"/>cretionem
+          vel per naturae unionem. Secundo modo
+          <lb ed="#Q"/>dicitur quod Deus fecit quod Creator esset crea<lb ed="#Q"/>tura,
+          non per naturae concretionem vel conver<lb ed="#Q"/>sionem;
+          et eodem modo potest Deus facere quod
+          <lb ed="#Q"/>album sit nigrum, id est" quod album uniatur ni<lb ed="#Q"/>gro
+          ; sed non est possibile quod album fiat nigrum
+          <lb ed="#Q"/>per naturae concretionem, sicut habeturx a parte
+          <lb ed="#Q"/>altera. Non enim hoc esset posse, quia, manente
+          <lb ed="#Q"/>natura albedinis et natura nigredinis a se facta,
+          <lb ed="#Q"/>non posset facere album nigrum; unde si faceret
+          <lb ed="#Q"/>album nigrum, oporteret mutari naturam a? se
+          <lb ed="#Q"/>factam: quod non est posse quid. -— P rob atio:
+          <lb ed="#Q"/>quia, manente natura albedinis, est dicere ' album
+          <lb ed="#Q"/>non est nigrum et e converso'; ergo faciens al<lb ed="#Q"/>bum
+          esse nigrum, faciet album non-album; et
+          <lb ed="#Q"/>hoc constat quod non est potentiae sive posse.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e3976">
+          <pb ed="#Q" n="237"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>2. Ad illud quod obicit 'plus differunt ens
+          <lb ed="#Q"/>ab alio, non ens ab alio quam duo entia" ab
+          <lb ed="#Q"/>alio' etc., respondeo: Deus potest facere quod
+          <lb ed="#Q"/>idem sit homo et Deus, id est quod eadem per<lb ed="#Q"/>sona
+          sit homo et Deus, non quod haec natura
+          <lb ed="#Q"/>sit illa; sic non potest Deus facere quod natura
+          <lb ed="#Q"/>albi sit natura nigri, potest tamen facere quod
+          <lb ed="#Q"/>eadem persona habeat albedinem et nigredinem,
+          <lb ed="#Q"/>non mutata natura 5.
+        </p>
+        <p xml:id="ahsh-l1p1i1t4q3c3-d1e4002">
+          <lb ed="#Q"/>3. Ad auctoritatem Hilarii dicendum
+          <lb ed="#Q"/>quod est loqui de dictione dupliciter: vel secun<lb ed="#Q"/>dum
+          quod copulatur ad rationem interius vel se<cb ed="#Q" n="b"/><lb ed="#Q"/>cundum 
+          quod copulatur ad imaginationem vel
+          <lb ed="#Q"/>phantasiam. Primo modo, quidquid potest dici,
+          <lb ed="#Q"/>quiac non discordat a prima veritate, Deus po<lb ed="#Q"/>test
+          facere. Secundo modo, possunt multa dici
+          <lb ed="#Q"/>quae non potest Deus facere, quia contradicerent
+          <lb ed="#Q"/>suae veritati '. — Vel aliter dicendum: quod non
+          <lb ed="#Q"/>fuit intentio Hilarii de dicente homine et verbo
+          <lb ed="#Q"/>eius, sed *dicentem ' d appellavit Patrem, 'Ver<lb ed="#Q"/>bum'
+          Filium; voluit ergo in hoc dicere quod ae<lb ed="#Q"/>qualis
+          potentiae sunt Pater et Filius, quia habent
+          <lb ed="#Q"/>eamdem naturam, ut sit sermo nen solum decla<lb ed="#Q"/>rativus 
+          vel significativus 6, sed etiam operativus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

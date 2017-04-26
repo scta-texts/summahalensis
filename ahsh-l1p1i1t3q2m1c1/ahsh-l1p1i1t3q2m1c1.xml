@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-24" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="138"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m1c1">
+        <head xml:id="ahsh-l1p1i1t3q2m1c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 1, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t3q2m1c1-Hd1e3732" type="question-title">An necesse sit veritatem esse</head>
+        <!-- praeam -->
+        <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3737">
+          <lb ed="#Q"/>Adiuvante gratia Iesu Christi, consequens est quaerere de veritate divina. Ad 
+          <lb ed="#Q"/>quam quaestionem inquirenda sunt haec: 
+          <lb ed="#Q"/>1. An sit necesse veritatem esse;
+          <lb ed="#Q"/>2. an intentio veritatis ab intentionibus
+          <lb ed="#Q"/>unitatis, entitatis, bonitatis differens sit ali<lb ed="#Q"/>quo 
+          modo; 
+          <lb ed="#Q"/>3. quid sit;
+          <lb ed="#Q"/>4. in quibus sit;
+          <lb ed="#Q"/>5. an una vel plures sit;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>6. an plures veritates sint ab aeterno ;
+          <lb ed="#Q"/>7. an omnis veritas aeterna sit;
+          <lb ed="#Q"/>8. an mutabilis vel immutabilis sit:;
+          <lb ed="#Q"/>9. an veritas prima sit causa omnium;
+          <lb ed="#Q"/>10. quae causa veritatis proxima et fal<lb ed="#Q"/>sitatis 
+          in rebus sit; 
+          <lb ed="#Q"/>11. an veritati primae falsitas sit opposita.
+          <!-- end proem -->
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3778">
+          <lb ed="#Q"/>Ad primum arguitur: a. Ex Soliloquiis Au<lb ed="#Q"/>gustini: 
+          « Si manebit mundus iste, ve<lb ed="#Q"/>rum
+          est mundum semper esse mansurum; si non
+          <lb ed="#Q"/>manebit, verum est non esse mansurum; si interi<lb ed="#Q"/>turus
+          est, cum interierit, vemm est mundum inte<lb ed="#Q"/>riisse:
+          non enim potest esse verum, nisi veritas
+          <lb ed="#Q"/>sit ., Erit igitur veritas, etiam si mundus intereat.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3797">
+          <lb ed="#Q"/>b. Item, Anselmus, in libro De veritate2 et
+          <lb ed="#Q"/>in Monologion 3, probat sic necessario veritatem
+          <lb ed="#Q"/>aeternaliter esse ut non possit cogitari non esse.
+          <lb ed="#Q"/>Primo sic ostensive: « Cogitet qui potest quando
+          <lb ed="#Q"/>incepit aut quando non fuit hoc verum, quia sci<lb ed="#Q"/>licet
+          futurum erat aliquid; aut quando desinet et
+          <lb ed="#Q"/>non erit hoc verum, videlicet quia praeteritum
+          <lb ed="#Q"/>eritd aliquid. Quod si neutrum horum cogitari
+          <lb ed="#Q"/>potest et utrumque hoc verum sine veritate esse
+          <lb ed="#Q"/>non potest, impossibile est quod veritas finem
+          <lb ed="#Q"/>aut principium habeat».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3823">
+          <lb ed="#Q"/>c. Item ', idem Anselmus, ibidem4: « Si ve<lb ed="#Q"/>ritas 
+          habuerit principium aut finem habebit, an<cb ed="#Q" n="b"/><lb ed="#Q"/>tequam 
+          ipsa inciperet, verum erat tunc quia non
+          <lb ed="#Q"/>erat veritas, et postquam finita erit, verum erit
+          <lb ed="#Q"/>tunc quia non erit veritas; eratE igitur veritas
+          <lb ed="#Q"/>antequam esset veritas ", et erit veritas postquam
+          <lb ed="#Q"/>finita erit veritas; quod inconvenientissimum est.
+          <lb ed="#Q"/>Sive' igitur dicatur veritas habere sive/f intel<lb ed="#Q"/>ligatur
+          non habere principium vel finem, nullo
+          <lb ed="#Q"/>claudi potest veritas principio vel fine. » Ex hoc
+          <lb ed="#Q"/>ergo relinquitur quod veritatem necesse est aeter<lb ed="#Q"/>naliter
+          esse et quod non possit cogitari non esse. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3853"> 
+          <lb ed="#Q"/>Contra: ]. Sicut verum convertitur cum ente 5,
+          <lb ed="#Q"/>quia unumquodque sic' se habet ad esse sicut
+          <lb ed="#Q"/>ad veritatem 6: sic bonum, quia unumquodque "',
+          <lb ed="#Q"/>in quantum est, bonum est 7. Cum ergo aliquid
+          <lb ed="#Q"/>possit cogitari esse et bonum non esse, sic ali<lb ed="#Q"/>quid
+          poterit cogitari esse et verum non esse;
+          <lb ed="#Q"/>multo ergo fortius et cogitari non esse et verum
+          <lb ed="#Q"/>non esse. Non igitur ad 'aliquid cogitari esse'
+          <lb ed="#Q"/>sequitur (cogitari verum esse', nec ad 'aliquid
+          <lb ed="#Q"/>non esse', 'verum non esse'.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3877">
+          <lb ed="#Q"/>2. Item, videtur argumentatio secundum quid
+          <lb ed="#Q"/>et simpliciter sophistica: 'aliquid non esse est
+          <lb ed="#Q"/>verum, ut mundum interiisse et huiusmodi, vel
+          <lb ed="#Q"/>mundum futurum esse est verum, ergo aliquid
+          <lb ed="#Q"/>est verum': nam" ex vero secundum.quid infer<lb ed="#Q"/>tur 
+          verum simpliciter. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3893">
+          <lb ed="#Q"/>Respondeo, secundum Augustinum, in libro
+          <lb ed="#Q"/>De vera religione): « Nullus intelligit falsa: nam
+          <lb ed="#Q"/>verum esse oportet quod intellectu contemplor ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3902">
+          <lb ed="#Q"/>[Ad obiecta.]: 1. Ad primum dicendum quod
+          <lb ed="#Q"/>rei essentia movet animum duobus modis: uno
+          <lb ed="#Q"/>modo secundum dispositionem veritatis movet in<lb ed="#Q"/>tellectum;
+          alio modo secundum dispositionem bo<lb ed="#Q"/>nitatis
+          movet affectum. Unde sicut essentia rei per 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>suam bonitatem diligitur, sic essentia reib per
+          <lb ed="#Q"/>suam veritatem intelligitur; et sicut impossibile
+          <lb ed="#Q"/>est bonitatem non diligi, cum diligitur rei essen<lb ed="#Q"/>tia,
+          sic impossibile est veritatem non intelligi, in<lb ed="#Q"/>tellecta
+          rei essentia. Ez: quo patet quod veritas
+          <lb ed="#Q"/>non est separabilis in cogitatione ab esse sivec
+          <lb ed="#Q"/>entitate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3934">
+          <lb ed="#Q"/>2. Ad secundum dicendum quoniam ", cum
+          <lb ed="#Q"/>omne quod dicitur secundum quid, dicitur respectu
+          <lb ed="#Q"/>alicuius simpliciter 2, necessario, si ponitur veritas
+          <lb ed="#Q"/>secundum quid, ponetur veritas simpliciter, quam<lb ed="#Q"/>vis
+          non respectu eiusdem, sed respectu diverso<lb ed="#Q"/>rum,
+          quia omne secundum quid reducitur ad sim<lb ed="#Q"/>pliciter.
+        </p>
+  
+        
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 6, Q. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-25">March 25, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="365"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t6q2c3">
+        <head xml:id="ahsh-l1p1i1t6q2c3-Hd1e3741">I, P. 1, Inq. 1, Tract. 6, Q. 2, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t6q2c3-Hd1e3744" type="question-title">UTRUM DIVINAE VOLUNTATIS SIT CAUSA VEL RATIO.</head>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum divinae volun<lb ed="#Q"/>tatis
+          sit causa vel ratio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3754">
+          <lb ed="#Q"/>1. Ad. quod: a. Augustinus, ins 83 Quae<lb ed="#Q"/>stion.
+          3: « Qui quaerit quare Deus voluit mundum
+          <lb ed="#Q"/>facere, causam quaerit voluntatis Dei. Omnis au<lb ed="#Q"/>temt
+          causa efficiens maior est eoquod efficitur;
+          <lb ed="#Q"/>nil autem maius voluntate [Dei]; non ergo causa 
+          <lb ed="#Q"/>eius quaerenda est ». Ex quo relinquitur quod
+          <lb ed="#Q"/>voluntatis divinae non est causa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3772">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>b. Ad hoc fuerunt qui dixerunt quod volun<lb ed="#Q"/>tatis
+          divinae non est causa efficiens, sed finalis.
+          - Contra: causa finalis alicuius melior est eo
+          <lb ed="#Q"/>cuius est causa vel ratio; sed nihil melius est 
+          <lb ed="#Q"/>voluntate divina; ergo voluntatis divinae non est
+          <lb ed="#Q"/>causa finalis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3789">
+          <lb ed="#Q"/>[Solutio]: Quod indistincte concedimus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3794">
+          <lb ed="#Q"/>II. Sed quaeritur utrum voluntatis divinae sit
+          <lb ed="#Q"/>aliqua ratio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3801">
+          <pb ed="#Q" n="366"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Ad quod sic: 1..Super illud Eph. 1,5: Propo<lb ed="#Q"/>situm
+          voluntatis eius, Glossaïz « Voluntas di<lb ed="#Q"/>vina
+          ex ratione est ». Ergo voluntas divina habet
+          <lb ed="#Q"/>rationem nec est sine ratione.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3817">
+          <lb ed="#Q"/>2. Item, cum nobilior et melior sit voluntas
+          <lb ed="#Q"/>cum ratione quam sine ratione, quod autem no<lb ed="#Q"/>bilius
+          est semper est Deo tribuendum: ergo vo<lb ed="#Q"/>luntas
+          Dei habet rationem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3828">
+          <lb ed="#Q"/>Contra: a. Ratio et voluntas idem, sicut dic<lb ed="#Q"/>tum
+          est supraz: « Ratio prohibuit, id est divina
+          <lb ed="#Q"/>voluntas »; ergo divina voluntas non est ex ratione.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3837">
+          <lb ed="#Q"/>b. Item, ratio est finis; finis autem est" me<lb ed="#Q"/>lius
+          quam idb quod est ad finem ; nihil autem
+          <lb ed="#Q"/>divina voluntate melius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3847">
+          <lb ed="#Q"/>Respondeo, secundum A n s e ! m u m 3: Voluntas
+          <lb ed="#Q"/>divina proprie non est ex ratione, ne aliquid sit ei
+          <lb ed="#Q"/>principium; nec praeter rationem-, ne irrationabi<lb ed="#Q"/>lis
+          esse videatur; dicitur tamen habere rationem,
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3858">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sicut idem dicitur habere se ipsum: idem enim est
+          <lb ed="#Q"/>in Deoc voluntas et ratio; sed si-dieatur ratiod
+          <lb ed="#Q"/>aliquis finis extra, nullo modo habet rationem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3869">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod obicitur di<lb ed="#Q"/>cendum
+          quod ratio dicit divinam voluntatem con<lb ed="#Q"/>notando
+          respectum ad. creaturam. Quod ergo di<lb ed="#Q"/>citur
+          « voluntas divina est ex ratione », non dicitur
+          <lb ed="#Q"/>hoc quantum ad principale significatum, immoe
+          <lb ed="#Q"/>quantum ad connotatum; unde sensus est: « vo<lb ed="#Q"/>luntas
+          divina est exratione », id est ' volitum est
+          <lb ed="#Q"/>ex ratione', id estf est ad bonitatem summam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q2c3-d1e3889">
+          <lb ed="#Q"/>2. Ad aliudg quod obicitur quod 'voluntas
+          <lb ed="#Q"/>cum ratione nobilior est, etc., dicendum quod
+          <lb ed="#Q"/>voluntas sine ratione dicitur duobus modis: vel
+          <lb ed="#Q"/>sine ratione concomitante, et sic nobilior est vo<lb ed="#Q"/>luntas
+          cum ratione quam sine; vel sine ratione
+          <lb ed="#Q"/>movente vel inducente, et sic melior est voluntas
+          <lb ed="#Q"/>sine ratione h.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

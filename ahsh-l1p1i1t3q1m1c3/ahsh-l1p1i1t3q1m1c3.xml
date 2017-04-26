@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. I, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="116"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m1c3">
+        <head xml:id="ahsh-l1p1i1t3q1m1c3-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 1, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t3q1m1c3-Hd1e3732" type="question-title">DE DIFFERENTIIS UNIUS ET UNITATIS.</head>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3735">
+          <lb ed="#Q"/>Consequenter quaerendum esset unde causetur
+          <lb ed="#Q"/>unitas et multitudo in rebus, sed istud reserva<lb ed="#Q"/>bimus
+          ' inquirendum cum quaeretur de conditiOne
+          <lb ed="#Q"/>rerum 2. Nunc autem quaerendum est de differen<lb ed="#Q"/>tiis
+          unitatis et unius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3748">
+          <lb ed="#Q"/>Assignantur autem multis modis differentiae
+          <lb ed="#Q"/>unius: I. Secundum B. Dionysium, in libro
+          <lb ed="#Q"/>De divinis nominibus 3, hoc modo"; dicit enim:
+          « Causa omnium non est unum ut unum multorum,
+          <lb ed="#Q"/>sed ante omne unum et multitudinem et omnis
+          <lb ed="#Q"/>unius et multitudinis terminativum. Non enim est
+          <lb ed="#Q"/>multitudo quae non participet alicubi unum, sed 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quod est multa partibus, unum est toto; quod est
+          <lb ed="#Q"/>multa accidentibus, unum est subiecto; quod est
+          <lb ed="#Q"/>multa numero, unumx specie; quod est multa
+          <lb ed="#Q"/>speciebus, unum? genere; quod est multa pro<lb ed="#Q"/>cessibus,
+          unum principio ». Ecce quod ponit sex
+          <lb ed="#Q"/>differentias 'unius': ' unum' sicut est in causa,
+          <lb ed="#Q"/>quod est Deus, et hoc est ' unum non in multis ';
+          <lb ed="#Q"/>et ' unum ' quod est in creatura, quod est ' unumz
+          <lb ed="#Q"/>multitudine'; et hoc quinque modis: unum toto,
+          <lb ed="#Q"/>unum subiecto, unum specie, unum genere, unum
+          <lb ed="#Q"/>principio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3790">
+          <lb ed="#Q"/>II. Item, alio modo B.Bernardus, in V li<lb ed="#Q"/>bro 
+          De consideratione, Ad Eugenium 4: : Est uni<pb ed="#Q" n=""/><cb ed="#Q" n=""/><lb ed="#Q"/>tas 
+          collectiva, ut multi lapides faciunt unum acer<lb ed="#Q"/>vum;
+          et est unitas constitutiva, ut multa membra **
+          <lb ed="#Q"/>corpus unum vel multae partes unumquodque
+          <lb ed="#Q"/>totum " constituunt; et est unitas coniugativa, qua
+          <lb ed="#Q"/>fit ut duo iam non sint duo, sed una caro 1; et est
+          <lb ed="#Q"/>unitas nativa, qua anima et caro: unus nascitur
+          <lb ed="#Q"/>homo; et est unitas potestativa, qua homo vir<lb ed="#Q"/>tutisd
+          non instabilis, non dissimilis, sed unus
+          <lb ed="#Q"/>sibimet semper nititur inveniri; et est unitas con<lb ed="#Q"/>sentanea,
+          cum per caritatem multorum hominum
+          <lb ed="#Q"/>est cor unum et anima una, Act. 4,32; et est uni<lb ed="#Q"/>tas
+          votiva, cum anima, votis omnibus adhaerens
+          <lb ed="#Q"/>Deo, unus spiritus est, I Cor. 6,17; et est unitas
+          <lb ed="#Q"/>dignativa, qua limus noster a Dei Verbo in unam
+          <lb ed="#Q"/>assumptus est personam; et este unitas, substan—
+          <lb ed="#Q"/>tificaf, quae est unitas Trinitatis, qua tres per<lb ed="#Q"/>sonae
+          sunt una substantia ». '
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3837">
+          <lb ed="#Q"/>III. Item, philosophi alio modo assignant dif<lb ed="#Q"/>ferentias
+          unitatis. Avicenna, in Metaphysica
+          <lb ed="#Q"/>sua 2: « ' Unum' dicitur ambigue de rebus, quae in
+          <lb ed="#Q"/>hoc conveniunt quod in eis non est divisio in et<lb ed="#Q"/>fectu,
+          in quantum unumquodque eorum est id quod
+          <lb ed="#Q"/>est; haec autem intentio est in eis secundum prius
+          <lb ed="#Q"/>et posterius ». Dicitur ergo ' unum' secundum ac<lb ed="#Q"/>cidens
+          et secundum essentiam. 'Unum secundum
+          <lb ed="#Q"/>accidens' dicitur tribus modis: uno modo, quia
+          <lb ed="#Q"/>unum accidit alicui, ut album Sorti; alio modo,
+          <lb ed="#Q"/>quia duo accidunt uni, ut grammaticum et mu<lb ed="#Q"/>siCum
+          Platoni; tertio, quia duobus accidit unum,
+          <lb ed="#Q"/>sicut albedo! Sorti et Platoni. — Item, 'unum
+          <lb ed="#Q"/>per essentiam' dicitur multis modis: unum ge<lb ed="#Q"/>nere,
+          unum specie, unum comparatione, unum
+          <lb ed="#Q"/>subiecto, unum numero.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3874">
+          <lb ed="#Q"/>Et postmodum subdividit3 'unum genere': ali<lb ed="#Q"/>quando
+          in genere propinquo, ut homo [et] asinus
+          'unum' in animali; aliquando in genere remoto,
+          <lb ed="#Q"/>ut homo et asinus ' unum' in substantia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3883">
+          <lb ed="#Q"/>Item, 'unum in specie' dupliciter: aliquando
+          <lb ed="#Q"/>in Propinqua specie, ut Sortes et Plato ' unum'
+          <lb ed="#Q"/>in homine; aliquando " in specie remota, ut Sor<lb ed="#Q"/>tes
+          et Plato ' unum' in animali.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3894">
+          <lb ed="#Q"/>Item, ' unum secundum comparationem ' decla<lb ed="#Q"/>ratur
+          ab eo14 sic: « ' Unum enim comparatione'
+          <lb ed="#Q"/>estk inter quae est' aliqua comparatio una, ut
+          <lb ed="#Q"/>comparatio navis ad rectorem et civitatis ad re<lb ed="#Q"/>gem
+          una est: eae enim duae comparationes con<lb ed="#Q"/>snmiles
+          '" sunt nec est earum unitio per accidens ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3910">
+          <lb ed="#Q"/>Item, 'unum subiecto'5, cuius partes secun<lb ed="#Q"/>flum
+          naturam suam, etsi dividantur, habent « uniri
+          <lb ed="#Q"/>m unum" subiectum », et divisae retinent natu<cb ed="#Q" n="b"/><lb ed="#Q"/>ram 
+          speciei: ut multae aquae dicuntur 'unum
+          <lb ed="#Q"/>in subiecto ', quia natura suorum subiectorum est
+          <lb ed="#Q"/>ut possint uniri et fieri 'unum subiecto ', ut multae
+          <lb ed="#Q"/>aquae una aqua. Et inde est quod « aggregatio
+          <lb ed="#Q"/>multitudinis non est unum subiecto ». Item, na<lb ed="#Q"/>tura
+          partium est ' unum specie': sunt enim eae<lb ed="#Q"/>dem
+          specie cum suo toto ", sicut partes aquae
+          <lb ed="#Q"/>sunt aqua; non autem sic est in partibus unius
+          <lb ed="#Q"/>hominis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3940">
+          <lb ed="#Q"/>Item, ' unum numero' subdividitur: aliquando
+          <lb ed="#Q"/>est ' unum numero' continuatione, aliquando per<lb ed="#Q"/>fectione,
+          aliquando per speciem suam, aliquando
+          <lb ed="#Q"/>per suam essentiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3952">
+          <lb ed="#Q"/>Item, 'unum *? continuatione' multipliciter: aut
+          <lb ed="#Q"/>quod sentitur secundum unum modum, «ut in
+          <lb ed="#Q"/>lineis illa in qua non est angulus, et in superfi<lb ed="#Q"/>ciebus
+          illa quae est planissima, et in corporibus
+          <lb ed="#Q"/>illud quod circumdat superficies, in qua non est
+          <lb ed="#Q"/>curvatura' secundum angulum 6 » ut sphaericum.
+          <lb ed="#Q"/>Aut sentitur secundum dispositionem differentem,
+          <lb ed="#Q"/>licet « duo extrema copulentur ad communem ter<lb ed="#Q"/>minum,
+          sicut totalitas duarum linearum continen<lb ed="#Q"/>tium
+          angulum ». Aut sentitur secundum differen<lb ed="#Q"/>tem
+          naturam, licet habeant unam cohaerentiam,
+          « ut : membra, quae sunt composita ex aliis * mem—
+          <lb ed="#Q"/>bris », et hoc velu naturaliter vel artificialiter:
+          <lb ed="#Q"/>naturaliter ut in corpore hominis, artificialiter ut
+          <lb ed="#Q"/>in arca. Prima unitas maior est secunda, et se<lb ed="#Q"/>cunda
+          tertia. — Item, nota quod ' unum continua<lb ed="#Q"/>tione'
+          dicitur" duobus modis: quantitate et na—
+          <lb ed="#Q"/>tura aut quantitate tantum. Quantitate et natura,
+          <lb ed="#Q"/>cuius quantitas necx natura dividitur: et haec
+          <lb ed="#Q"/>sunt 'unum subiecto ', ut haec aqua vel ille aär ;
+          ' unum ' vero quantitate tantum, cuius quantitas non
+          <lb ed="#Q"/>multiplicatur licet natura, ut unitas manus. Haec
+          <lb ed="#Q"/>ergo dicuntur ' unum numero per continuationem '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4000">
+          <lb ed="#Q"/>Item, 'unum numero secundum perfectionem'
+          <lb ed="#Q"/>est-" cuius partes non multiplicantur secundum na<lb ed="#Q"/>turam
+          suae speciei: quemadmodum « unus homo
+          <lb ed="#Q"/>numero non multiplicatur secundum naturam suam,
+          <lb ed="#Q"/>scilicet secundum quod est homo, cum dividitur;
+          <lb ed="#Q"/>multiplicatur autem alio modo, cum dividiturz
+          <lb ed="#Q"/>corpus et anima, quorum neutrum est homo 7 »: et
+          <lb ed="#Q"/>hoc modo est 'unum numero perfectione' sive
+          <lb ed="#Q"/>totalitate. Non autem sic est in eo quod est 'unum
+          <lb ed="#Q"/>numero' et potest multiplicari secundum naturam
+          <lb ed="#Q"/>speciei in partes: sicut una aqua in plures aquas
+          <lb ed="#Q"/>quae etiam conveniunt in specie aquae. Individua
+          <lb ed="#Q"/>ergo aqua est 'una numero continuatione ', in<lb ed="#Q"/>dividuus
+          homo 'unum numero perfectione'. Simili 
+          <pb ed="#Q" n="118"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>modo angularis figura erit': 'una numero conti<lb ed="#Q"/>nuatione
+          ', circularis vero erit ' una numero per<lb ed="#Q"/>fectione':
+          si enim sit partita, non perfecta, non
+          <lb ed="#Q"/>poterit dici unus circulus numero '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4046">
+          <lb ed="#Q"/>Item, 'unum numero secundum suam speciem'
+          <lb ed="#Q"/>est quod non est divisibile aliquo modo nec ex
+          <lb ed="#Q"/>sua natura, tamen habet additam aliquam natu<lb ed="#Q"/>ram
+          praeter unitatem, sicut punctus, qui prae<lb ed="#Q"/>terb
+          unitatem habet naturam situs et non estf
+          <lb ed="#Q"/>divisibile aliquo modo: unitas enim puncti est
+          <lb ed="#Q"/>unitas habens positionem 2.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4064">
+          <lb ed="#Q"/>Item, 'unum numero per suam essentiam' est
+          <lb ed="#Q"/>quod non est aliquo modo divisibile «et in quo
+          <lb ed="#Q"/>non 4 est natura aliarsicut ipsamet unitas, quae
+          <lb ed="#Q"/>est principium numeri, cui si adiungitur aliqua
+          <lb ed="#Q"/>alia unitas, iam earum coniunctio' erit nume<lb ed="#Q"/>rus3»;
+          et hoc modo 'unum' est quod non est
+          <lb ed="#Q"/>divisibile nec re nec intellectu.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4082">
+          <lb ed="#Q"/>IV. Item, secundum Aristotelem, in VMe<lb ed="#Q"/>taphysicae
+          4, assignantur differentiae ' unius ' hoc
+          <lb ed="#Q"/>modo: unum per se etf unum per accidens. Et
+          <lb ed="#Q"/>unum per accidens secundum tres modos, sicut
+          <lb ed="#Q"/>prius ab Avicenna.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4095">
+          <lb ed="#Q"/>Item, ' unum per se ' multipliciter: « ' unum con<lb ed="#Q"/>tinuatione
+          ', sicut linea vel lignum glutinatum vel
+          <lb ed="#Q"/>membrum, vel sicut motus, qui non dividitur se<lb ed="#Q"/>cundum
+          tempus; et 'unum' quorum subiectum
+          <lb ed="#Q"/>non dividitur secundum formam », quod ab Avi<lb ed="#Q"/>cenna
+          dicebatur 'unum subiecto ', quemadmo<lb ed="#Q"/>dum
+          'unum' dicitur vinum et aqua et oleum;
+          <lb ed="#Q"/>etL' 'unum genere ', «quorum genus est unum
+          <lb ed="#Q"/>et differunt per differentias subiectivas: sicut
+          <lb ed="#Q"/>homo et equus »; et ' unum ' secundum illud quod
+          <lb ed="#Q"/>intrat'l utriusque rei definitionem, « ut augmen<lb ed="#Q"/>tabile
+          et diminuibile sunt unum », quia definitio
+          <lb ed="#Q"/>sui generis est 'unum'; et 'unum modo sim<lb ed="#Q"/>plici
+          ', ut quod indivisibile est omnino, ut punc<lb ed="#Q"/>tus;
+          et1 'unum modo universali ', quod scilicet
+          <lb ed="#Q"/>non dividitur « secundum speciem suam, ut unum
+          <lb ed="#Q"/>os et unus homo», et haec dicuntur 'unum in
+          <lb ed="#Q"/>forma ': « unum autem in forma sunt quorum to<lb ed="#Q"/>talitas
+          est una », secundum quem modum dicitur
+          <lb ed="#Q"/>linea circuli una magis quam aliae lineae; et
+          'unum numero ', quorum materia est una; et
+          « unum secundum aequalitatem, quorum proportio
+          <lb ed="#Q"/>est una * ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4144">
+          <lb ed="#Q"/>V. Item ', <name ref="#Algazali">Algazel</name>, in sua Metaphysica 5, alio
+          <lb ed="#Q"/>modo distingui-t: « Est enim 'unum simpliciter' et
+          'unum secundum quid'. 'Unum simpliciter' tribus
+          <cb ed="#Q"/>
+          <lb ed="#Q"/>modis: est enim 'unum ', in quo non est multitudo
+          <lb ed="#Q"/>nec potentia nec actu: ut punctus'" unus, Deus
+          <lb ed="#Q"/>unus; alio modo ' unum', in quo non est multitudo
+          <lb ed="#Q"/>in actu, sed in potentia: ut quod est homoge<lb ed="#Q"/>neum,
+          sicut" una aqua, unus aer; tertio modo
+          <lb ed="#Q"/>est ' unum ', in quo est potentia et actu multitudo:
+          <lb ed="#Q"/>ut lectus unus et membrum unum per composi<lb ed="#Q"/>tionem
+          partium. 'Unum vero secundum quid'
+          <lb ed="#Q"/>multipliciter: genere, specie, accidente, subiecto,
+          <lb ed="#Q"/>proportione ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4178">
+          <lb ed="#Q"/>VI. Item, alio modo assignantur differentiae
+          'unius' in libro De unitate et uno 5, hoc modo:
+          « 'Unum' aliud essentiae simplicitate unum, ut
+          <lb ed="#Q"/>Deus. Aliud simplicium coniunctione unum, ut
+          <lb ed="#Q"/>angelus .et anima, quorum unumquodque est
+          [unum] coniunctione materiae et formae »; et hoc
+          <lb ed="#Q"/>ibi dicitur" secundum opinionem, tamen ibi sunt
+          <lb ed="#Q"/>componentiap quasi materiae et formae. « Aliud
+          <lb ed="#Q"/>continuitate, ut arbor et petra. Aliud composi<lb ed="#Q"/>tione,
+          ut ex multis tabulis una arca. Aliud ag<lb ed="#Q"/>gregatione,
+          ut unus populus, unus grex et acer<lb ed="#Q"/>vus
+          tritici. Alia dicuntur 'unum proportione', ut
+          <lb ed="#Q"/>rector navis et gubernator civitatis ' unum ' simili<lb ed="#Q"/>tudine
+          officii. Alia 'unum accidente ', sicut cycnus
+          <lb ed="#Q"/>et nix ' unum ' albedine. Alia vero dicuntur ' unum
+          <lb ed="#Q"/>numero ', ut diversa accidentia, quae uni subiecto
+          <lb ed="#Q"/>insunt, dicuntur 'unum numero ', id est nume<lb ed="#Q"/>rando,
+          ut hoc ? dulce et hoc idem caeruleum. Alia
+          <lb ed="#Q"/>vero dicuntur 'unum ratione', sed hoc duobus
+          <lb ed="#Q"/>modis: vel ratione consortii, ut intellectus et vo<lb ed="#Q"/>cabulum
+          et res unum sunt genus; vel ratione
+          <lb ed="#Q"/>unius sacramenti, ut spiritus, aqua et sanguis 7 di<lb ed="#Q"/>cuntur
+          ' unum '. Alia vero dicuntur ' unum ' parti<lb ed="#Q"/>cipatione
+          speciei ', ut plures homines sunt ' unum '.
+          <lb ed="#Q"/>Alia vero 'unum lingua vels natione', ut multi
+          <lb ed="#Q"/>homines una gens et una tribus. Alia vero dicun—
+          <lb ed="#Q"/>tur 'unum more', et hoc duobus modis: quia
+          <lb ed="#Q"/>aut secundum consensum virtutum et dilectionis,
+          <lb ed="#Q"/>ut multitudinist credentium cor unum 8, aut se<lb ed="#Q"/>cundum
+          consensum vitii, ut qui adhaeret mere<lb ed="#Q"/>trici,
+          unum corpus efficitur cum ea9 ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4241">
+          <lb ed="#Q"/>Quaeritur ergo ratio diversarum assignationum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4246">
+          <lb ed="#Q"/>Respondeo: Dicendum quod consideratio uni—
+          <lb ed="#Q"/>tatis diversificatur tribus modis: uno modo, se<lb ed="#Q"/>cundum
+          quod consideratur unitas in rebus se<lb ed="#Q"/>cundum
+          fluxum rerum a causa Deo; alio modo,
+          <lb ed="#Q"/>secundum reductionem unitatis in rebus ad uni<lb ed="#Q"/>tatem
+          in Deo; tertio modo, discernendo unitates
+          <lb ed="#Q"/>rerum, secundum quod habent esse res in natura 
+          <pb ed="#Q" n="119"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sive in esse proprio ". Secundum primum modum
+          <lb ed="#Q"/>assignat differentias B. Dionysius, secundum
+          <lb ed="#Q"/>secundum modumb B. Bernardus, secundum
+          <lb ed="#Q"/>tertium philosophi. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4277">
+          <lb ed="#Q"/>I. Secundum ergo B. Dio nysiu m intentio est
+          <lb ed="#Q"/>haec. Aut enim consideratur unitas in causa, et
+          <lb ed="#Q"/>secundum hoc est unitas non in multitudine, et
+          <lb ed="#Q"/>iste est primus modus, aut consideratur unitas
+          <lb ed="#Q"/>in creatura. Aut ergo consideratur unitas in crea<lb ed="#Q"/>turaf
+          secundum unitatem causae, et secundum
+          <lb ed="#Q"/>hoc creaturae quae habent diversos progressus
+          <lb ed="#Q"/>essendi dicuntur ' unum principio ', et ab hac uni<lb ed="#Q"/>tated
+          dicitur universitas una; aut secundum uni<lb ed="#Q"/>tatem
+          formae, et istud variatur: nam est forma
+          <lb ed="#Q"/>generalis, secundum quam dicuntur multae spe<lb ed="#Q"/>cies
+          'unum in genere'; aut est forma specia<lb ed="#Q"/>lis',
+          secundum quam dicuntur multa singularia
+          'unum specie'; aut est forma singularis, se<lb ed="#Q"/>cundum
+          quam dicitur 'unum numero' duobus
+          <lb ed="#Q"/>modis: unum toto, unum subiecto; 'unum toto ',
+          <lb ed="#Q"/>referendo ad fieri et ad partes ex'quibus fit;
+          'unum subiecto ', referendo ad factum esse et
+          <lb ed="#Q"/>ad dispositiones quae accidunt rei postquam est.
+          <lb ed="#Q"/>Haec igitur assignatio est secundum B.f Dio<lb ed="#Q"/>nysium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4321">
+          <lb ed="#Q"/>II. Secundum autem B.! Bernardum, cuius
+          <lb ed="#Q"/>est intentio referre omnes unitates ad unitatem
+          <lb ed="#Q"/>primam secundum prcpinquius, intentio est haec.
+          <lb ed="#Q"/>Primo enim confert unitates secundum quod in<lb ed="#Q"/>veniuntur
+          in corpore; secundo vero confert uni<lb ed="#Q"/>tates
+          secundum quod inveniuntur in homine; ter<lb ed="#Q"/>tioh
+          secundum quod inveniuntur in Deo. Se<lb ed="#Q"/>cundum
+          quod inveniuntur in corpore, « est uni<lb ed="#Q"/>tas
+          collectiva », quae est unitas secundum quid;
+          <lb ed="#Q"/>et «constitutiva», quae est unitas simpliciter.
+          <lb ed="#Q"/>Item, secundum quod invenitur in homine, ponit
+          <lb ed="#Q"/>unitatem' tribus modis: iure, natura, voluntate.
+          ' Unitatem iure ' vocat unitatem « coniugativam » :
+          <lb ed="#Q"/>coniuges enim unitate iuris sunt «una caro »,
+          <lb ed="#Q"/>quia iure coniugali caro unius cedit in iurek al<lb ed="#Q"/>terius.
+          Item ', 'unitatem natura' ponit duplicem:
+          <lb ed="#Q"/>Quantum ad esse, quae vocatur « nativa », qua
+          <lb ed="#Q"/>scilicet «caro et anima nascitur unus homo»;
+          <lb ed="#Q"/>et quantum ad bene esse, quae vocatur « potesta<lb ed="#Q"/>th8,
+          qua homo virtutis non instabilis, sed unus
+          <lb ed="#Q"/>semper nititur inveniri ». Item, ' unitatem volun<lb ed="#Q"/>tatum'
+          ponit duplicem: per relationem ad proxi<lb ed="#Q"/>tnum,
+          quam vocat « consentaneam, cum per ca—
+          <lb ed="#Q"/>ritatem multorum hominum est anima una » ; per '"
+          <lb ed="#Q"/>relationem ad Deum, quam vocat « votivam,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>cum anima Deo adhaerens, unus spiritus est ».
+          <lb ed="#Q"/>Item, unitatem in Deo considerat dupliciter: per<lb ed="#Q"/>sonalem
+          et substantialem. In personali considerat
+          <lb ed="#Q"/>tres naturas et ex tempore, ut in Christo tres
+          <lb ed="#Q"/>naturae' in una persona: corpus, anima et divina
+          <lb ed="#Q"/>natura. In substantiali considerat tres personas ab
+          <lb ed="#Q"/>aeterno in una natura et substantia.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4394">
+          <lb ed="#Q"/>III. Secundum autem Avicennam, qui se<lb ed="#Q"/>quitur
+          Aristotelem, differentiae 'unius' " assi<lb ed="#Q"/>gnantur
+          hoc modo. Nam non accipitur 'unum ' b in
+          <lb ed="#Q"/>rerum natura nisi aut per se aut per accidens.
+          <lb ed="#Q"/>Si 'per accidens ', non potest esse nisi tribus
+          <lb ed="#Q"/>modis: autc quia duo accidunt uni aut unum ac<lb ed="#Q"/>cidit
+          duobusd aut unum accidit uni; et haec est
+          <lb ed="#Q"/>sua intentio. Item, si est 'unum per se': aut est
+          <lb ed="#Q"/>unum numero aut multa numero. Si est! ' unum
+          <lb ed="#Q"/>numero': aut estf divisibile aut indivisibile. Si
+          <lb ed="#Q"/>divisibile: aut homogeneum, hoc est unius naturae
+          <lb ed="#Q"/>in toto et in parte, et tunc erit ' unum numero con<lb ed="#Q"/>tinuatione
+          ', ute una aqua; aut heterogeneum, hoc
+          <lb ed="#Q"/>esth diversarum naturarum, et tunc est 'unum
+          <lb ed="#Q"/>numero perfectione ', ut una manus et quodlibet
+          <lb ed="#Q"/>membrum divisibilium ' partium. Item, si * indivi<lb ed="#Q"/>sibile:
+          aut ergo est absolutum ab omni alia na<lb ed="#Q"/>tura
+          addita unitati, et sic est unitas 'secundum'
+          <lb ed="#Q"/>essentiam, quae est principium numeri, secundum
+          <lb ed="#Q"/>quem modum' dicitur unitas in Deo; aut est ha<lb ed="#Q"/>bens
+          aliam naturam additam unitati: secundum
+          <lb ed="#Q"/>quem modum dicitur punctus unus, quia unitati
+          <lb ed="#Q"/>puncti additur natura situs et positionis; aut non
+          <lb ed="#Q"/>est habens'" aliam naturam additam unitati: se<lb ed="#Q"/>cundum
+          quem modum diceretur unitas in anima
+          <lb ed="#Q"/>et in " angelo, et" hoc modo diceretur 'unum nu<lb ed="#Q"/>mero
+          secundum suam speciem '. Est igitur ' unum
+          <lb ed="#Q"/>numero' quatuor modis: continuitate, perfectione,
+          <lb ed="#Q"/>secundum essentiam, secundum speciem. Item, si
+          <lb ed="#Q"/>sit 'unum per se' et 'multa numero ', hoc non est
+          <lb ed="#Q"/>nisi propter convenientiam quam habent in inten<lb ed="#Q"/>tione
+          aliqua. Convenientia autem non est nisi tri<lb ed="#Q"/>bus
+          modis: aut enim est convenientia compara<lb ed="#Q"/>tionis,
+          quo modo dicitur ' unum comparatione'; aut
+          <lb ed="#Q"/>est!' convenientia in subiecto q, quo modo dicitur
+          'unum subiecto'; aut est convenientia in praedi<lb ed="#Q"/>cato:
+          praedicatum autem, quod est per se, aut
+          <lb ed="#Q"/>est genus aut est species, et secundum hoc est
+          'unum genere', 'unum specie'.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4477">
+          <lb ed="#Q"/>Haec igitur est ratio assignationis differentia<lb ed="#Q"/>rum
+          unitatis secundum Avicennam, secundum
+          <lb ed="#Q"/>differentias eius quod est 'per se' et eius quod
+          <lb ed="#Q"/>est 'per' accidens'.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4488">
+          <lb ed="#Q"/>IV. Secundum quem etiam" modum assignan<lb ed="#Q"/>tur
+          differentiae primae in assignatione Aristo<lb ed="#Q"/>telis,
+          consequentes b vero variantur, sicut patet
+          <lb ed="#Q"/>diligenter consideranti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

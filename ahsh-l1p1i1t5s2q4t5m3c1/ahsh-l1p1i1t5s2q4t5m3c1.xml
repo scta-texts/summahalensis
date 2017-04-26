@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-24">March 24, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+        <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-24" status="draft" n="0.0.0">
+        <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="351"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t5m3c1">
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m3c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 3, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m3c1-Hd1e3744" type="question-title">UTRUM LIBER VITAE DICATUR RESPECTU DEI.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c1-d1e3747">
+          <pb ed="#Q" n="351"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Primo igitur quaeritur utrum liber vitae dicatur
+          <lb ed="#Q"/>respectu Dei.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c1-d1e3758">
+          <lb ed="#Q"/>Et videtur quod sic: 1. Quia « liber, vitae est
+          <lb ed="#Q"/>notitia Dei», sicut habetur in Glossal super
+          <lb ed="#Q"/>illud Psalmi 2; Deleantur de libro viventium; sed 
+          <lb ed="#Q"/>notitia Dei dicitur respectu sui, quia Deus co<lb ed="#Q"/>gnoscit 
+          se; ergo liber iste dicitur respectu Dei,
+          <lb ed="#Q"/>quia in eo legit se.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c1-d1e3774">
+          <lb ed="#Q"/>2. Item, liber dicitur in quantum repraesentat
+          <lb ed="#Q"/>se; sed Deus maxime repraesentat se sibi et
+          <lb ed="#Q"/>prius repraesentat se quam alia quae sunt in
+          <lb ed="#Q"/>ipso; ergo liber iste dicitur respectu Dei.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c1-d1e3786">
+          <lb ed="#Q"/>Contra: a. Philip. 4,3, super illud: Quarum
+          <lb ed="#Q"/>nomina sunt in libro vitae, Glossa3: « Id est"
+          <lb ed="#Q"/>in praedestinatione Dei »; sed praedestinatio non
+          <lb ed="#Q"/>dicitur respectu Dei ita quod praedestinetur; ergo
+          <lb ed="#Q"/>nec liber vitae dicetur respectu Dei.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c1-d1e3799">
+          <lb ed="#Q"/>Respondeo: Liber vitae dicit divinam notitiam,
+          <lb ed="#Q"/>non tamen secundum quamcumque rationem, sed
+          <lb ed="#Q"/>dicit notitiam meritorum vitae aeternae, sicut ha<lb ed="#Q"/>betur
+          ex Glossa4, Philip. 4,3: Quorum nomina,
+          « id est merita et praemia, quia veritatem tenent,
+          <lb ed="#Q"/>sunt scripta in libro vitae, id est inb praedesti<lb ed="#Q"/>natione
+          Dei, quia pro diversitate meritorum di<lb ed="#Q"/>versas
+          habebunt mansiones in aeterna domo ».
+          <lb ed="#Q"/>Quia ergo Deus ex meritis non habet vitam, sed ex
+          <lb ed="#Q"/>se ipso, non potest dici respectu eius liber vitae;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>sed si extenso nomine diceretur liber vitae c in quo<lb ed="#Q"/>legitur
+          vita, ut non dicatur solum vita ex meritis,
+          <lb ed="#Q"/>sed vita quae Deus est, sic potest dici liber re<lb ed="#Q"/>spectu
+          Dei, quia in eo legitur vita quae ipse est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c1-d1e3832">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud ergod quod obi<lb ed="#Q"/>citur
+          quod « liber vitae est notitia Dei »: dicen<lb ed="#Q"/>dum
+          quod liber vitae non dicitur notitia Dei ab<lb ed="#Q"/>solute,
+          sed dicitur notitia respectu meritorum v.i<lb ed="#Q"/>tae,
+          quae non est in Deo respectu sui, sed re<lb ed="#Q"/>spectu
+          creaturae, et ideo non dicitur liber vitae **
+          <lb ed="#Q"/>respectu Dei.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m3c1-d1e3850">
+          <lb ed="#Q"/>2. Ad illudf quod obicitur quod 'liber vitae
+          <lb ed="#Q"/>repraesentat se, etc.: dicendum quod Deusg re<lb ed="#Q"/>praesentat
+          se sibi et sibi maximenotus est, et
+          <lb ed="#Q"/>ipse est vita; non tamen propter hoc dicitur Ii—
+          <lb ed="#Q"/>ber vitae, quia liber vitae est notitia meritorum
+          <lb ed="#Q"/>vitae; unde potius repraesentat liber iste merita
+          <lb ed="#Q"/>vitae quam ipsum Deum. Unde Augustinus, XX
+          <lb ed="#Q"/>De civitate Dei, cap. 15 5, exponens illud Apoc. 5:
+          <lb ed="#Q"/>Qui non sunt inventi scripti in libro vitae, missi
+          <lb ed="#Q"/>sunt in stagnum ignis et sulphuris, dicit: « Non
+          <lb ed="#Q"/>Deum " liber iste commemorat ne oblivione fal<lb ed="#Q"/>latur,
+          sed praedestinationem eorum significat qui<lb ed="#Q"/>bus
+          aeterna dabitur vita; neque enim eos non
+          <lb ed="#Q"/>nosciti Deus et in hoc libro legit'f ut sciat, sed
+          <lb ed="#Q"/>potius eius praescientia de illis, quae ialli non
+          <lb ed="#Q"/>potest, liber vitae est, in quo Sunt scripti,,id est
+          <lb ed="#Q"/>ante praecogniti ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 1, Mem. III, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-23">February 23, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="133"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q1m3c1">
+        <head xml:id="ahsh-l1p1i1t3q1m3c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 1, M. 3, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t3q1m3c1-Hd1e3732" type="question-title">DE COMPARATIONE UNITATIS ESSENTIAE ET PERSONAE.</head>
+        <!-- praem stuff -->
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3737">
+          <lb ed="#Q"/>Consequenter est quaerere de comparatione, 
+          <lb ed="#Q"/>divinae unitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3744">
+          <lb ed="#Q"/>Et primo, de comparatione unitatis essentiae et
+          <lb ed="#Q"/>personae;
+          <lb ed="#Q"/>et iterum de comparatiOne unitatis personae!
+          <lb ed="#Q"/>Christi; sed illud ad quaestionem de incarnatione
+          <lb ed="#Q"/>eius reservamus 1;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundo, de comparatione unitatis divinae ad 
+          <lb ed="#Q"/>unitatem intelligibilem; 
+          <lb ed="#Q"/>tertio, de comparatione unitatis divinae ad uni<lb ed="#Q"/>tatem 
+          realem quantum ad repraesentationem; 
+          <lb ed="#Q"/>quarto, de comparatione quantum ad causali<lb ed="#Q"/>tatem.
+        </p>
+        <!-- end praem -->
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3776">
+          <lb ed="#Q"/>Quantum ad primum sic obicitur: I. (1. Eadem
+          <lb ed="#Q"/>est veritas" ipsius essentiae et personae et
+          <lb ed="#Q"/>unius personae et alterius; ergo eadem'" unitas
+          <lb ed="#Q"/>essentiae et personae: nam unitas antecedit veri<lb ed="#Q"/>tatem;
+          ergo identitas veritatis supponit et prae<lb ed="#Q"/>intelligit
+          ante se identitatem unitatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3792">
+          <lb ed="#Q"/>b. Item, si haec unitas non est illa, in divino esse 
+          <lb ed="#Q"/>est hoc et hoc; ergo compositio et non simplicitas. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3799">
+          <lb ed="#Q"/>Contra: 1. Unitas essentiae non multiplicat Tri<lb ed="#Q"/>nitatem;
+          secundum autem unitatem personae ac<lb ed="#Q"/>cipitur
+          Trinitas. Unde Boethius, in libro De
+          <lb ed="#Q"/>Trinitate 2: « Substantia continet unitatem, relatio
+          <lb ed="#Q"/>multiplicat Trinitatem ». Ergo haec unitas non est
+          <lb ed="#Q"/>illa.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3815">
+          <lb ed="#Q"/>II. Similiter quaeritur de unitate notionum etk 
+          <lb ed="#Q"/>personarum an sit eadem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3822">
+          <lb ed="#Q"/>Ad quod sic: 0. Sicut se habet res ad esse, ita
+          <lb ed="#Q"/>se habet ad unitatem; sed idem est esse vel es<lb ed="#Q"/>sentia
+          Patris et innascibilitas ', quae est eius no<lb ed="#Q"/>tio;
+          ergo eadem est unitas. —- Minor patet: quo<lb ed="#Q"/>:üam
+          cum in simplici nou differat 'quo est' et 
+          <lb ed="#Q"/>quod est', bene sequitur quod si Pater est in<lb ed="#Q"/>nascibilis, 
+          quod sit ipsa innascibilitas, sicut sum<cb ed="#Q" n="b"/><lb ed="#Q"/>mum 
+          bonum est summa bonitas; et sic eadem 
+          <lb ed="#Q"/>est unitas notionis et personae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3845">
+          <lb ed="#Q"/>Contra: 1. Unitas innascibilitatis distinguitur
+          <lb ed="#Q"/>ab unitate paternitatis sive generationis, quia haec
+          <lb ed="#Q"/>notio non est illa; sed unitas personae Patris
+          <lb ed="#Q"/>non distinguitur a paternitate; ergo non est ea<lb ed="#Q"/>dem
+          unitas innascibilitatis et personae Patris;
+          <lb ed="#Q"/>non est ergo eadem unitas notionis et personae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3862">
+          <lb ed="#Q"/>Respondeo: I. Fatendum est divinum esse esse'"
+          <lb ed="#Q"/>in summa simplicitate et in ordine naturae, sicut
+          <lb ed="#Q"/>dicit B. Augustinus 3: Cum dicitur Filius a Pa<lb ed="#Q"/>tre,
+          non ostenditur «inaequalitas substantiae, sed
+          <lb ed="#Q"/>ordo naturae ». Summa ergo simplicitas cogit eam<lb ed="#Q"/>dem
+          esse unitatem essentiae et personae secun<lb ed="#Q"/>dum
+          rem. Ordo vero naturae, secundum quem
+          <lb ed="#Q"/>numerantur personae divinae, cogit unitatem es<lb ed="#Q"/>sentiae
+          et personae differre ratione tali, scilicet
+          <lb ed="#Q"/>ut proprium sit unitatis essentiae non distingui,
+          <lb ed="#Q"/>unitati vero personae conveniat distingui " et esse
+          <lb ed="#Q"/>in distinctione. Non distinguitur ergo re persona ab
+          <lb ed="#Q"/>essentia, quamvis distinguatur persona a persona
+          <lb ed="#Q"/>ordine naturae sive relatione. Quod amplius decla<lb ed="#Q"/>rabitur
+          infra 4, cum agetur de Trinitate, et supra 5
+          <lb ed="#Q"/>declaratum fuit, cum agebatur de simplicitate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3899">
+          <pb ed="#Q" n="134"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ratio ergo in oppositum ducta
+          <lb ed="#Q"/>non ostendit ibi differentiam esse essentialem sive
+          <lb ed="#Q"/>secundum rem, sed solum secundum rationem.
+          <lb ed="#Q"/>Quod enim essentia non multiplicat Trinitatem
+          <lb ed="#Q"/>sicut persona, hoc non facit quod persona non
+          <lb ed="#Q"/>sit essentia, sed" quod alia ratione dicitur per<lb ed="#Q"/>sona
+          et essentia: persona enim respicit ordinem
+          <lb ed="#Q"/>naturae in divinis, essentia non. Ille autem ordo
+          <lb ed="#Q"/>naturae, qui est ibi secundum rationem principii
+          <lb ed="#Q"/>et eius quod est de principio, ibi facit distinctio<lb ed="#Q"/>nem
+          personalem. Et hoc. est quod dicit Boe<lb ed="#Q"/>thiusl
+          quod « substantia continet unitatem, re<lb ed="#Q"/>latio
+          multiplicat Trinitatem ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3934">
+          <lb ed="#Q"/>11. Ad illud quod quaeritur de identitate per<lb ed="#Q"/>sonarum
+          et notionum dicendum: sicut dictum est2
+          <lb ed="#Q"/>ex parte personarum, quod plures personae sunt
+          <lb ed="#Q"/>una essentia, eodem modo plures notiones sunt
+          <lb ed="#Q"/>unab persona in re, licet sit differentiae ratione;
+          <lb ed="#Q"/>unde omnes notiones ", quae sunt ex parte Pa<lb ed="#Q"/>tris,
+          sunt ipsa persona Patris in re. Licet ergo
+          <lb ed="#Q"/>notio a notione distinguatur, hoc non est propter
+          <lb ed="#Q"/>hoc quod utraque notio non sit ipsa persona, sed
+          <lb ed="#Q"/>propter aliam causam ; sicut non distinguitur per—
+          <lb ed="#Q"/>sona a persona, quia utraque non site essentia,
+          <lb ed="#Q"/>sed propter aliud. Et propter hoc non procedebat
+          <lb ed="#Q"/>ratio illa.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

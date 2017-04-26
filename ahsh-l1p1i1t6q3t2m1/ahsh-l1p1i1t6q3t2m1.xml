@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 6, Q. 3, T. 2, M. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-28">March 28, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+        <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-28" status="draft" n="0.0.0">
+        <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="372"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t6q3t2m1">
+        <head xml:id="ahsh-l1p1i1t6q3t2m1-Hd1e3741">I, P. 1, Inq. 1, Tract. 6, Q. 3, T. 2, M. 1</head>
+        <head xml:id="ahsh-l1p1i1t6q3t2m1-Hd1e3744" type="question-title">De voluntate beneplaciti</head>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3747">
+          <lb ed="#Q"/>Quaeritur ergo I. primo an voluntas benepla<lb ed="#Q"/>Q.»
+          citi possit frustrari 2.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: a. In PsalmoS: Omnia, quae<lb ed="#Q"/>cumque
+          voluit, fecit; et constat quod intelligitur
+          <lb ed="#Q"/>de voluntate beneplaciti; ergo non potest frustrari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3763">
+          <lb ed="#Q"/>b. Item, Rom. 9,19: Voluntati eius quis resi—
+          <lb ed="#Q"/>stet? « quasi diceret: nihil4 ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3771">
+          <lb ed="#Q"/>6. Praeterea, si frustraretur divina voluntas,
+          <lb ed="#Q"/>hoc non posset esse nisi aut ratione ignorantiae
+          <lb ed="#Q"/>vel impotentiae, quorum utrumque longe relegatur
+          <lb ed="#Q"/>a Deo et divina voluntate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3782">
+          <lb ed="#Q"/>Contra: 1. I Tim. 2,4: <quote xml:id="ahsh-l1p1i1t6q3t2m1-Qd1e3786" ana="#Itim2_4">Vult omnes hominesf I
+          <lb ed="#Q"/>salvos fieri</quote>; sed constat quod non omnes salvi
+          <lb ed="#Q"/>fiunt, immo plures damnantur; ergo frustratur et
+          <lb ed="#Q"/>cassatur divina voluntas.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3796">
+          2. Item<!--g-->, Matth. 23, 37 et Luc. 13,34: Quotiens
+          <lb ed="#Q"/>volui congregare filios tuos quemadmodum gal<lb ed="#Q"/>lina
+          congregat pullos'l sub alas, et noluisti !. Ex
+          <lb ed="#Q"/>quo videtur quod divina! voluntas impedita sit
+          <lb ed="#Q"/>hominum voluntate'.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3809">
+          <lb ed="#Q"/>3. Ad haec est responsio Magistrorum5,
+          <lb ed="#Q"/>quod est voluntas beneplaciti et est voluntas si<lb ed="#Q"/>gni:
+          voluntate beneplaciti non vult omnes homines
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>salvos fieri nec Ierusalem congregare; voluntate
+          <lb ed="#Q"/>vero signi vult omnes homines salvos fieri *, quia
+          <lb ed="#Q"/>praecipit et consulit omnibus omnia1 quae [per<lb ed="#Q"/>tinent
+          ad eorum salutem "'. — Contra: Dama<lb ed="#Q"/>scenus
+          6 distinguit voluntatem beneplaciti in an<lb ed="#Q"/>tecedentem
+          et consequentem. Dicit ergo quod
+          « oportet scire" quod voluntate antecedenti vult
+          <lb ed="#Q"/>Deus omnes homines salvos fieri et regno eius
+          <lb ed="#Q"/>potiri; non enim in puniendo plasmavit nos, sed
+          <lb ed="#Q"/>ad participationem bonitatis eius, ut bonus ». Si
+          <lb ed="#Q"/>ergo voluntas antecedens est voluntas beneplaciti,
+          <lb ed="#Q"/>voluntate beneplaciti vult omnes salvari"; ergo
+          <lb ed="#Q"/>voluntas beneplaciti quantum ad aliquid frustratur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3846">
+          <lb ed="#Q"/>4. ProptereaP fuerunt, qui distinguerem volun<lb ed="#Q"/>tatem
+          beneplaciti dupliciter: est enim voluntas
+          <lb ed="#Q"/>absoluta et voluntas conditionalis. Voluntate ergo
+          <lb ed="#Q"/>absoluta vult solum praedestinatos salvari, quos
+          <lb ed="#Q"/>scit bene usuros sua gratia; voluntate vero 4 con<lb ed="#Q"/>ditionali
+          vult omnes salvari, quia vult sub hac
+          <lb ed="#Q"/>conditione: si ipsi volunt. — Sed contra hoc
+          <lb ed="#Q"/>obicitur de parvulis non baptizatis 7. Nam con<lb ed="#Q"/>stat
+          quod in ipsis non est voluntas contradicens
+          <lb ed="#Q"/>divinae voluntati; ergo, secundum ipsos, vult
+          <lb ed="#Q"/>salvari omnes parvulos: quod constat esse falsum,
+          <pb ed="#Q" n="373"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>nisi tantum regeneratos. Non est igitur verum
+          <lb ed="#Q"/>quod" conditione dependente a parte nostri ar<lb ed="#Q"/>bitrii
+          velit omnes salvari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3883">
+          <lb ed="#Q"/>5. 'Item obicitur: cum parvuli non baptizati
+          <lb ed="#Q"/>damnentur, aut igitur causa damnationis est ex
+          <lb ed="#Q"/>parte parvulorum aut ex parte divinae voluntatis.
+          <lb ed="#Q"/>Non potest poni ex parte parvulorum, cum nihil
+          <lb ed="#Q"/>boni vel mali ' egerint; ergo ponetur ex parte di<lb ed="#Q"/>vinae
+          voluntatis; sed hoc quomodo? cum velit
+          <lb ed="#Q"/>omnesb salvos fieri.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3902">
+          <lb ed="#Q"/>6. Item, 11 Tim. 2,13: Negare se ipsum non
+          <lb ed="#Q"/>potest; sed ipse est summa bonitas et summa
+          <lb ed="#Q"/>salus rationalis creaturae; ergo summam bonita<lb ed="#Q"/>tem
+          et salutem rationali creaturae negare non po<lb ed="#Q"/>test;
+          sed de summa bonitate est communicare se
+          <lb ed="#Q"/>omnibus; ergo, quantum est de se, omnibus pa<lb ed="#Q"/>ratus
+          est communicare suam bonitatem et salu<lb ed="#Q"/>tem.
+          Ex quo relinquitur quod vult omnes salvos
+          <lb ed="#Q"/>fieri.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e3924">
+          <lb ed="#Q"/>Ad hoc est responsio secundum Da<lb ed="#Q"/>mascenum,
+          libro IIZ, et tamen ingerit difficul<lb ed="#Q"/>tatem.
+          Dicit enim: « Oportet enim scire quod
+          <lb ed="#Q"/>Deus voluntate antecedenti vult omnes salvari ::
+          <lb ed="#Q"/>non enim in puniendo plasmavit nos, sed ad
+          <lb ed="#Q"/>participationem bonitatis suae, ut bonus; pec<lb ed="#Q"/>cantes
+          autem vult puniti, ut iustus ». Secundum
+          <lb ed="#Q"/>hoc ergo distinguit voluntatem divinam in ante<lb ed="#Q"/>cedentem,
+          de qua dicit quod est « acceptatio ex
+          <lb ed="#Q"/>ipso existens», et consequentem, de qua dicit
+          <lb ed="#Q"/>quod est « concessio ex nostra causa»; et hanc
+          <lb ed="#Q"/>subdividit in dispensativam et eruditivam ad sa<lb ed="#Q"/>lutem,
+          qua scilicet vult et concedit bonos pu<lb ed="#Q"/>niri,
+          ut Iob, et desperativam ad finalem per<lb ed="#Q"/>ditionem,
+          secundum quam vult damnatos puniri.
+          — Item, nota quod dicit3 quod voluntas conse<lb ed="#Q"/>quens
+          est « eorum quae non sunt in nobis; eo<lb ed="#Q"/>rum
+          autem quaeül sunt in nobise», id est in
+          <lb ed="#Q"/>potestate f nostri arbitrii, « quae quidem sunt bona,
+          <lb ed="#Q"/>antecedenter vult et acceptat », hoc est vult vo<lb ed="#Q"/>luntate
+          antecedenti; « quae vero sunt perniciosa
+          <lb ed="#Q"/>et mala nec antecedenterg nec consequenter vult »,
+          <lb ed="#Q"/>hoc est nech vult voluntate antecedenti nec con<lb ed="#Q"/>sequenti.
+          Secundum ergo Damascenum dicen<lb ed="#Q"/>dum
+          quod voluntas beneplaciti uno modo dicitur
+          <lb ed="#Q"/>respectu naturae rationalis possibilisi ad beati<lb ed="#Q"/>tudinem
+          quantum est de sua conditione: et hanc
+          <lb ed="#Q"/>dicit voluntatem antecedentem, qua scilicet vult
+          <lb ed="#Q"/>omnes homines salvos fieri, quia de voluntate
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>eius est ut de natura conditionis eius sit homo
+          <lb ed="#Q"/>ordinatus ad beatitudinem; alio modo" est respectu
+          <lb ed="#Q"/>nostri meriti quod est ex nobis: et haec dicitur
+          <lb ed="#Q"/>voluntas consequens *, qua scilicet non vult om<lb ed="#Q"/>nes
+          salvari, nisi solum illos quorum' merita exi<lb ed="#Q"/>gunt
+          salutem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4002">
+          <lb ed="#Q"/>II. Sed circa propositam verba Damasceni
+          <lb ed="#Q"/>dubitatur multipliciter. 1. Primo, cum in divina
+          <lb ed="#Q"/>voluntate non sit prius vel posterius, ergo incon<lb ed="#Q"/>venienter
+          assignantur dii-ferentiae voluntatis in
+          <lb ed="#Q"/>antecedentem et consequentem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4015">
+          <lb ed="#Q"/>2. Item ", quare ponit ipse « eorum quae sunt in
+          <lb ed="#Q"/>nobis et eorum quae non sunt in nobis " » volun<lb ed="#Q"/>tatem
+          Dei antecedentem, «eorum vero quae non
+          <lb ed="#Q"/>sunt in nobisP » voluntatem consequentem?
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4026">
+          <lb ed="#Q"/>3. Item, cum voluntas antecedens et consequens
+          <lb ed="#Q"/>videatur esse respectu bonorum, quorum Deus
+          <lb ed="#Q"/>est initium, ergo videtur'! quod utraque sit vo<lb ed="#Q"/>luntas
+          f antecedens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4037">
+          <lb ed="#Q"/>4. Item, cum voluntas sequens sit « concessio
+          <lb ed="#Q"/>ex nostra causa »,. sicut ipse dicit, sed nostra
+          <lb ed="#Q"/>causa est respectu « eorum quae sunt in nobis »;
+          <lb ed="#Q"/>ergo voluntas sequenss est respectu « eorum quae
+          <lb ed="#Q"/>sunt in nobis ? ». Qualiter ergo stabit" illud quod
+          <lb ed="#Q"/>dicit postea quod «voluntas sequens est" re<lb ed="#Q"/>spectu
+          eorum quae non sunt in nobis »?
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4056">
+          <lb ed="#Q"/>5. Item, in nobis est bene facere, gratia assi<lb ed="#Q"/>stente,
+          male, gratia desistente"; sed ad hoc
+          <lb ed="#Q"/>sequitur poena aut praemium; ergo in nobis
+          <lb ed="#Q"/>est salvari aut puniri: in quo enim esty causa
+          <lb ed="#Q"/>proxima antecedens, in eo est effectus proximus
+          <lb ed="#Q"/>consequens; ergo voluntas consequens est «eo<lb ed="#Q"/>rum
+          quae sunt in nobis ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4074">
+          <lb ed="#Q"/>6. Item, dubitatur de hoc quod dicit quod « eo<lb ed="#Q"/>rum
+          quae sunt in nobis non est voluntas antece<lb ed="#Q"/>dens
+          vel consequens ». Nam dicit Augustin us,
+          <lb ed="#Q"/>in Enchiridions: « Nihil iit, sive bonum sive
+          <lb ed="#Q"/>malum, quod Omnipotens fieri non velit ». Cum
+          <lb ed="#Q"/>ergo haec divisio sit sufficiens voluntatis divinae
+          <lb ed="#Q"/>in antecedentem et consequentem, vultz mala
+          <lb ed="#Q"/>fieri voluntate antecedente vel consequente.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4094">
+          <lb ed="#Q"/>Respondeo I. quod voluntas beneplaciti nun<lb ed="#Q"/>quam
+          frustratur, sicut dicit iuxta Apostolum B.
+          <lb ed="#Q"/>Augustinus.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4103">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud ergo quod obicitur
+          <lb ed="#Q"/>ex auctoritate Apostoli: Vult omnes homines sal<lb ed="#Q"/>vos
+          fieri, respondetur multipliciter. Uno modo,
+          <pb ed="#Q" n="374"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>secundum Augustinum,. in Enchiridion ', ut
+          <lb ed="#Q"/>intelligatur sic: Vult omnes" salvos fieri, id est
+          «nullus salvatur nisi quem vult salvareb»; in
+          <lb ed="#Q"/>quem modum accipitur illud Ioan. 1,9: Illuminat
+          <lb ed="#Q"/>omnem hominem venientem in hunc mundum, quod
+          <lb ed="#Q"/>sic intelligiturzz « Non quia nullus hominum est
+          <lb ed="#Q"/>qui non illuminetur, sed quia nullus nisi ab ipso
+          <lb ed="#Q"/>illuminatur »; ita et ex ista parte intelligendum est.
+          <lb ed="#Q"/>Et est exemplum Augustini, in libro De vo<lb ed="#Q"/>catione
+          sanctorum3: «Si esset unus solus ma<lb ed="#Q"/>gister
+          in una civitate qui doceret pueros, posset
+          <lb ed="#Q"/>dici quod iste magister docet omnes pueros huius
+          <lb ed="#Q"/>civitatis, non quod omnes doceantur, sed quia
+          <lb ed="#Q"/>nullus docetur nisi qui docetur ab ipsof». Sic
+          <lb ed="#Q"/>ex parte ista unus est qui vult omnesd salvos
+          <lb ed="#Q"/>fieri, nec tamen omnes salvi fiunt, sed qui salvi
+          <lb ed="#Q"/>fiunt, per ipsum salvantur.—Aliter respondet Au<lb ed="#Q"/>gustinus, 
+          in Enchiridion 4, distinguens hanc:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t6q3t2m1-Qd1e4154">Vult omnes homines salvos fieri</quote>, quia potest fieri
+          <lb ed="#Q"/>distributio pro singulis generum, et hoc modo
+          <lb ed="#Q"/>falsa est: non enim vult singulos homines salvos
+          <lb ed="#Q"/>fieri; vel potest fieri distributio pro generibus
+          <lb ed="#Q"/>singulorum, et hoc modo vera est et intelligenda
+          <lb ed="#Q"/>ut sit sensus: vult de omni genere hominum
+          <lb ed="#Q"/>salvos fieri. Et habetur simile ' Matth. 235: Deci<lb ed="#Q"/>matis
+          omne olus, id est omne olerum genus;
+          <lb ed="#Q"/>non enim singula olera decimabantf, quae in di<lb ed="#Q"/>versis
+          mundi partibus oriuntur 5. — Aliter, secun<lb ed="#Q"/>dum
+          Damascenum, sicut supra tactum est7:
+          <lb ed="#Q"/>voluntate antecedenti vult omnes salvos fieri",
+          <lb ed="#Q"/>voluntate vero" consequenti non.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4184">
+          <lb ed="#Q"/>3. Et ad quaestionem, qua quaeritur utrum
+          <lb ed="#Q"/>voluntate beneplaciti velit omnes salvari, per hoc
+          <lb ed="#Q"/>est responsio. Nam voluntas beneplaciti potest
+          <lb ed="#Q"/>dici respectu possibilitatis rationalis creaturae ad
+          <lb ed="#Q"/>salutem, quae quidem' possibilitas est in ipsak
+          <lb ed="#Q"/>a Deo: et hoc modo voluntate beneplaciti vult
+          <lb ed="#Q"/>omnes' salvos fieri. Alio modo voluntas benepla<lb ed="#Q"/>citi
+          dicitur respeciu effectus salutis, qui '" redditur
+          <lb ed="#Q"/>a Deo rationali creaturae pro meritis: et sic vo<lb ed="#Q"/>luntate
+          beneplaciti non vult omnes salvos fieri,
+          <lb ed="#Q"/>sed solum praedestinatos. Primo modo dicit Da<lb ed="#Q"/>mascenus
+          voluntatem antecedentem, et hoc
+          <lb ed="#Q"/>ratione bonitatis quae est in Deo; secundo modo
+          <lb ed="#Q"/>dicit voluntatem consequentem, secundum ratio<lb ed="#Q"/>nem
+          iustitiae quae respicit merita, quae sunt in
+          <lb ed="#Q"/>nobis vel a nobis. Patet igitur quod semper im<lb ed="#Q"/>pletur
+          voluntas Dei beneplaciti, sive dicatur an<lb ed="#Q"/>tecedens
+          sive consequens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4226">
+          <lb ed="#Q"/>2. Simili modo respondetur" ad illam auctori<lb ed="#Q"/>tatem:
+          Quotiens volui congregare filios etc. Se<lb ed="#Q"/>cundum
+          autem Augustinum, in Enchiridion a,
+          <lb ed="#Q"/>exponitur sic: Quotiens congregare volui filios
+          <lb ed="#Q"/>tuos, et noluisti, « id est quotquot congregavi vo<lb ed="#Q"/>luntate
+          mea semper efficaci, te nolente, feci; non
+          <lb ed="#Q"/>enim ex eo sensu dictum est quasi" Dominus
+          <lb ed="#Q"/>voluerit colligere? filios lerusalem et non sit
+          <lb ed="#Q"/>factum quod voluit, quia ipsa noluerit, sed po<lb ed="#Q"/>tius?
+          illa quidem ab ipso filios suos coiligi'
+          <lb ed="#Q"/>noluit, qua tamen nolente, filios eius collegit om<lb ed="#Q"/>nes
+          quos voluit ». De voluntate ergo beneplaciti
+          <lb ed="#Q"/>illa intelliguntur, sicut iam patet, non de volun<lb ed="#Q"/>tate
+          signi, sicut illi' dixerunt.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4260">
+          <lb ed="#Q"/>4. Ad illud vero quod dixerunt alii quod de
+          <lb ed="#Q"/>voluntate conditionali esset intelligendum, non de
+          <lb ed="#Q"/>voluntate absoluta': dicendum quod sic potest
+          <lb ed="#Q"/>dici, sed conditio non debet talis apponi: Vult
+          <lb ed="#Q"/>omnes salvos fieri, 'si ipsi volunt ', propter par<lb ed="#Q"/>vulos;
+          sed debet apponi: Vult omnes salvos fieri,
+          'quantum in se est'", vel 'si sunt digni vel sus<lb ed="#Q"/>ceptibiles
+          salutis '. Quemadmodum illuminat om<lb ed="#Q"/>nem
+          hominem venientem in hunc mundum ", quan<lb ed="#Q"/>tum
+          est de se, qui est illuminabilis vel suscep<lb ed="#Q"/>tibilis
+          illuminationis, sic vult omnes salvare, quan<lb ed="#Q"/>tum
+          est' in se, qui sunt susceptibiles salutis; sed
+          <lb ed="#Q"/>parvuli non sunt susceptibiles propter culpam
+          <lb ed="#Q"/>originalem; quia ergo in illis non servatur con<lb ed="#Q"/>ditio,
+          ideo non consequuntur effectum salutis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4293">
+          <lb ed="#Q"/>5. Et per hoc patet responsio ad illud quod
+          <lb ed="#Q"/>quaerebatur 'quae est causa damnationis parvu<lb ed="#Q"/>lorum
+          ': causa enim non est ex parte voluntatis,
+          <lb ed="#Q"/>sed ex parte corruptionisx animae, quae contra<lb ed="#Q"/>hitur
+          ex massa peccatrice.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4306">
+          <lb ed="#Q"/>6. Ad illud quod obicitur quod ' negare se
+          <lb ed="#Q"/>ipsum non potest': sic intelligendum est ut quod
+          <lb ed="#Q"/>dicit 'non posse' non dicat necessitatemy qua
+          <lb ed="#Q"/>adstringatur suam bonitatem communicare, sed
+          <lb ed="#Q"/>immutabilitatem suae liberalitatis qua, quantum
+          <lb ed="#Q"/>in se est:, paratus est communicare nisi impe<lb ed="#Q"/>dimentum
+          ex parte suscipientis invenerit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4324">
+          <lb ed="#Q"/>II. Ad illa vero quae quaeruntur circa verba lo<lb ed="#Q"/>annis Damasceni 
+          per ordinem respondendum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4331">
+          <pb ed="#Q" n="375"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>1. Ad primum quod obicit quod *non debent
+          <lb ed="#Q"/>esse huiusmodi differentiae voluntatis, antecedens
+          <lb ed="#Q"/>et consequens,: dicendum quod 'antecedere' et
+          'sequi ' non dicuntur in divina voluntate respectu
+          <lb ed="#Q"/>prioritatis et posterioritatis in ipsa, sed respectu
+          <lb ed="#Q"/>prioritatis et posterioritatis in nobis; voluntas
+          <lb ed="#Q"/>enim antecedens dicitur respectu boni antece<lb ed="#Q"/>denter
+          collati nobis non ex merito nostro, vo<lb ed="#Q"/>luntas
+          vero " consequens respectu boni quod est *
+          <lb ed="#Q"/>nobis conferendum ex merito nostro.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4357">
+          <lb ed="#Q"/>2. Ad illud quod quaeritur ' quarec ponit « eo<lb ed="#Q"/>rum
+          quae sunt in nobis et eorum quae non sunt
+          <lb ed="#Q"/>in nobisd » voluntatem antecedentem, « eorum vero
+          <lb ed="#Q"/>quae non sunt in nobis» voluntatem consequen<lb ed="#Q"/>tem
+          ', respondeo 2: primo, creatura rationalis exit
+          <lb ed="#Q"/>in esse ordinabilis ad salutem per usum liberi ar<lb ed="#Q"/>bitrii
+          ; deinde est usus liberi arbitrii ; tertio est re<lb ed="#Q"/>muneratio
+          liberi arbitrii. In nobis autem non est
+          <lb ed="#Q"/>constitutio nostri arbitriif, sed a Deo est; similiter
+          <lb ed="#Q"/>remuneratio nostri arbitrii, scilicet gloria, a Deo
+          <lb ed="#Q"/>est; medium est in nobis, scilicet usus liberi ar<lb ed="#Q"/>bitrii.
+          Voluntas ergo antecedens est respectu con<lb ed="#Q"/>stitutionis
+          liberi arbitrii, voluntas consequensg
+          <lb ed="#Q"/>respectu remunerationis liberi arbitrii. Item, usus
+          <lb ed="#Q"/>liberi arbitrii aut erit bonus aut erit'' malus; si
+          <lb ed="#Q"/>bonus: illum respicit divina voluntas; si malus:
+          <lb ed="#Q"/>illum non respicit divina voluntas, quia illius non
+          <lb ed="#Q"/>est causa ; voluntas ergo antecedens est respectu
+          <lb ed="#Q"/>boni usus. Voluntas ergo Dei, secundum quod est
+          <lb ed="#Q"/>causa « eorum quae non sunt in nobis ?, dupli<lb ed="#Q"/>citer
+          dicitur: antecedens et consequens; secun<lb ed="#Q"/>dum
+          quod est «eorum quae sunt in nobis », so<lb ed="#Q"/>lum
+          uno modo ", scilicet antecedens.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4410">
+          <lb ed="#Q"/>3. Ad illud quod obicitur ' quare non dicitur
+          <lb ed="#Q"/>utraque antecedens ', iam apparet responsio, quo<lb ed="#Q"/>niam
+          antecedens dicitur ratione boni conditionis
+          <lb ed="#Q"/>quod praecedit, et etiam perfectionis voluntatis
+          <lb ed="#Q"/>ad merendum; consequens vero ratione retribu<lb ed="#Q"/>tionis,
+          quaek consequitur conditionem et meritum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4426">
+          <lb ed="#Q"/>4. Ad illud quod obicitur quod ' voluntas se<lb ed="#Q"/>quens
+          debeat dici « eorum quae sunt in nobis »,
+          <lb ed="#Q"/>propter hoc quia « est concessio ex nostra causa' »:
+          <lb ed="#Q"/>dicendum quod «concessio ex nostra causa»
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>dicitur voluntas consequens, quae respicit retribu<lb ed="#Q"/>tionem
+          et praemium, non quia simus causa illius,
+          <lb ed="#Q"/>sed solum in hoc notatur ordo, ut dicatur voluntas
+          <lb ed="#Q"/>sequens, quae est respectu boni sequentis' meritum
+          <lb ed="#Q"/>nostrum; quamvis autem nos simus nostri meriti
+          <lb ed="#Q"/>causa, non tamen gloriae quae consequitur ad me<lb ed="#Q"/>ritum
+          nostrum; nostram ergo causam ibi dicit no<lb ed="#Q"/>strum
+          meritum. — Ideo'" nota quod voluntas ante<lb ed="#Q"/>cedens
+          dicitur respectu boni quod antecedit nostrum
+          <lb ed="#Q"/>meritum. Antecedit autem nostrum meritum" bo<lb ed="#Q"/>num
+          duplex: unum, quod non est in nobis, scilicet
+          <lb ed="#Q"/>constitutio nostri" liberi arbitrii; aliudP quod est
+          <lb ed="#Q"/>ex nobis, scilicet consensus liberi arbitrii ad gra<lb ed="#Q"/>tiam.
+          Ideo ergo dicitur voluntas antecedens re<lb ed="#Q"/>spectu
+          « eorum quae sunt in nobis » et respectu
+          «eorum quae non sunt in nobis »; voluntas vero
+          <lb ed="#Q"/>consequens dicitur respectu boni quod consequitur
+          <lb ed="#Q"/>nostrum meritum, quod est bonum retributionis,
+          <lb ed="#Q"/>et ideo dicitur « eorum quae non sunt in nobis ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4478">
+          <lb ed="#Q"/>5. Ad illud quod obicit quod 'in nobis est
+          <lb ed="#Q"/>bene facere et male, et ita salvari et damnari',
+          <lb ed="#Q"/>respondeo: in nobis est salvari ut in causa me<lb ed="#Q"/>ritoria
+          vel disponente, non ut in causa agente
+          <lb ed="#Q"/>vel efficiente; unde non valet argumentatio: 'si
+          <lb ed="#Q"/>nos sumus causa primi, quod nos simus causa
+          <lb ed="#Q"/>secundi ', quia quamvis ordinemur ad nostrum
+          <lb ed="#Q"/>meritum sicut causa efficiens, meritum tamen no<lb ed="#Q"/>strum
+          non ordinatur ad praemiumq ut causa et<lb ed="#Q"/>ficiens,
+          sed ut aliquid ad suam causam finalem,
+          <lb ed="#Q"/>hoc est in ratione disponentis vel meritorii; sed
+          <lb ed="#Q"/>ipsum praemium est finis meriti nostri.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4507">
+          <lb ed="#Q"/>6. Ad ultimum dicendum quod Völuntas Dei,
+          <lb ed="#Q"/>secundum quod dicitur malorum, non dicitur vo<lb ed="#Q"/>luntas
+          beneplaciti, sed solum signi; mala enim
+          <lb ed="#Q"/>non fiunt voluntate beneplaciti Dei, sed voluntate
+          <lb ed="#Q"/>signi, quae dicitur permissio; et ideo non fiunt
+          <lb ed="#Q"/>nec voluntate antecedente nec voluntate conse<lb ed="#Q"/>quente,
+          quia hae nominant voluntatem beneplaciti.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q3t2m1-d1e4525">
+          <lb ed="#Q"/>Multa<!--r--> alia quaerenda sunt de voluntate bene<lb ed="#Q"/>placiti
+          secundum comparationem ad reprobationem,
+          <lb ed="#Q"/>excaecationem, obdurationem, quae competentius
+          <lb ed="#Q"/>in Quaestione de reprobatione determinata sunt '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

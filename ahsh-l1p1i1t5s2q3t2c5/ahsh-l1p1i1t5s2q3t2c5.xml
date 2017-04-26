@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-13">March 13, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="313"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q3t2c5">
+        <head xml:id="ahsh-l1p1i1t5s2q3t2c5-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 3, T. II, C. 5</head>
+        <head xml:id="ahsh-l1p1i1t5s2q3t2c5-Hd1e3744" type="question-title">DE CONCORDIA LIBERI ARBITRII ET FATI.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q3t2c5-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur de concordia liberi ar<lb ed="#Q"/>bitrii
+          et fati.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t2c5-d1e3754">
+          <lb ed="#Q"/>Et est oppositio l. Tullii Ciceronis",
+          <lb ed="#Q"/>quam recitat Augustinus, V De civitate Dei 3,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>talis: « Si praescita sunt omnia futura, hoc ordine
+          <lb ed="#Q"/>evenient quo futura esse praescita sunt; et si hoc
+          <lb ed="#Q"/>ordine evenient, certus est ordo rerum, praesciente
+          <lb ed="#Q"/>Deo; et si certus est ordo rerum, certus est ordo
+          <lb ed="#Q"/>causarum: non enim fieri ' aliquid potest quod 
+          <pb ed="#Q" n="314"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>non efficiens aliqua causa praecesserit; si autem
+          <lb ed="#Q"/>certus est ordo causarum quo fit omne quod fit,
+          <lb ed="#Q"/>fato fiunt omnia quae fiunt. Quod si ita est, nihil
+          <lb ed="#Q"/>est in nostra potestate, nullumque est':[ liberum
+          <lb ed="#Q"/>arbitrium/voluntatis. Quod si ita est, frustra leges
+          <lb ed="#Q"/>dantur, frustra obiurgationes, laudes, vituperatio<lb ed="#Q"/>nes
+          adhibentur et frustra bonis praemia, malis
+          <lb ed="#Q"/>supplicia constituta sunt ». Quomodo ergo sta<lb ed="#Q"/>bunt
+          simul fatum et liberum arbitrium? Et currit
+          <lb ed="#Q"/>ista oppositio non secundum acceptionem philo<lb ed="#Q"/>sophorum,
+          sed secundum acceptionem Boe<lb ed="#Q"/>thii
+          1; sic enim omnia mobilia fato reguntur, neque
+          <lb ed="#Q"/>potest dici quod fatum illo modo acceptum non sit.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t2c5-d1e3806">
+          <lb ed="#Q"/>2. item, Bo ethi u s 2: « Haec », scilicet series
+          <lb ed="#Q"/>fatalis b, « actus, fortunasque hominum indissolu<lb ed="#Q"/>bili
+          causarum connexione constringit ». Et secun<lb ed="#Q"/>dum
+          Exp o sitorem 3, « actus » concernit actus
+          <lb ed="#Q"/>corporis, scilicet bellum et agriculturam, et actus
+          <lb ed="#Q"/>animi, ut actus quibus exercitamur circa liberales
+          <lb ed="#Q"/>artes; sed " constat quod huiusmodi opera sunt
+          <lb ed="#Q"/>liberi arbitrii; si ergo huiusmodi actus hominum
+          « constringit indissolubili connexione :, videtur
+          <lb ed="#Q"/>quod non potest libere exire in actum aliquem,
+          <lb ed="#Q"/>sed necessitate coercetur'ad illud.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t2c5-d1e3831">
+          <lb ed="#Q"/>[Solutio]: 1. Ad primum respondendum, se<lb ed="#Q"/>cundum
+          Augustinum, V De civitate Dei4,
+          <lb ed="#Q"/>quod cum dicitur « certus ordo causarum », dupli<lb ed="#Q"/>citer
+          potest illa certitudo accipi, sicut est duplex 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>necessitas. Estd enim quaedam necessitas «quae
+          <lb ed="#Q"/>non est in nostra potestate, sed etiam si nolumus,
+          <lb ed="#Q"/>efficit 2 quod potest, sicut est necessitas mortis »:
+          <lb ed="#Q"/>et haec est inevitabilitatis; et talis ordo causa<lb ed="#Q"/>rum
+          non est in omnibus quae sunt. Si autem ita
+          <lb ed="#Q"/>esset, tunc posset aliquid valere obiectio prius
+          <lb ed="#Q"/>facta 5; sub tali enim necessitate non sunt ea quae
+          <lb ed="#Q"/>sunt a voluntate nostra. Est autem alia necessitas,
+          <lb ed="#Q"/>secundumf quam dicimus in voluntariis quod si
+          <lb ed="#Q"/>volumus e, necesse est illa fieri, et intelligimus de
+          <lb ed="#Q"/>actu interiori qui non potest impediri; et certi<lb ed="#Q"/>tudo
+          ab ista necessitate sumpta bene sufficit in
+          <lb ed="#Q"/>ordine causarum ordinatarum sub serie fati. Sed
+          <lb ed="#Q"/>tunc non sequitur: 'certus est ordo causarum,
+          <lb ed="#Q"/>ergo nihil potesth liberum arbitrium'; hoc enim<lb ed="#Q"/>modo
+          fatum et liberum arbitrium non opportun<lb ed="#Q"/>tur,
+          immo ipsum liberum arbitrium nostrum est
+          <lb ed="#Q"/>una causarum, secundum cuius'" ordinationem ad
+          <lb ed="#Q"/>suos effectus currit series fati, sicut currebat si<lb ed="#Q"/>militer
+          secundum ordinationem causarum natu<lb ed="#Q"/>ralium
+          ad suos eifectusk et huiusmodi.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q3t2c5-d1e3890">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod non dicitur-con<lb ed="#Q"/>stringi
+          per tatum « indissolubili connexione», quia
+          <lb ed="#Q"/>necesse habet exire in actus suos vel non exire,
+          <lb ed="#Q"/>et hoc quantum ad actus' liberi arbitrii, sed
+          <lb ed="#Q"/>quia connexione fatali coercetur ab evagatione
+          <lb ed="#Q"/>limitum divinae providentiae, scilicet determina<lb ed="#Q"/>torum
+          a divina providentia 5.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

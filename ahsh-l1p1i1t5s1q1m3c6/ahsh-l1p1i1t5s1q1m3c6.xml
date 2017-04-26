@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-08">March 08, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="256"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s1q1m3c6">
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c6-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 1, Q. 1, M. 3, C. 6</head>
+        <head xml:id="ahsh-l1p1i1t5s1q1m3c6-Hd1e3744" type="question-title">UTRUM SCIENTIA DEI SIT SINGULARIUM.</head>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum scientia Dei sit
+          <lb ed="#Q"/>singularium 1.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3754">
+          <lb ed="#Q"/>Ad quod sic: 1. Intellectus humanus non est
+          <lb ed="#Q"/>singularium, sed solum universalium 2. Et ratio
+          <lb ed="#Q"/>huius est 4, quoniam intellectus humanus b imma<lb ed="#Q"/>terialis 
+          est et abstractus a loco et tempore, sin<lb ed="#Q"/>gulare 
+          vero est hic et nunc. Cum ergo intellec<lb ed="#Q"/>tus
+          divinus sit maxime: immaterialis et abstrac<lb ed="#Q"/>tus
+          a loco et tempore, non potest habere scien<lb ed="#Q"/>tiam
+          singularium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3774">
+          <lb ed="#Q"/>2. Item, ostenditur ab Aristotele, in Prima
+          <lb ed="#Q"/>Philosophia 3, quod Deus non cognoscit alia a
+          <lb ed="#Q"/>se, quoniam sic intellectus eius vilesceret,
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3784">
+          <lb ed="#Q"/>3. Item, A ugu sti n u s, in Enchiridion L": « Me<lb ed="#Q"/>lius
+          est quaedam nescire quam scire», ut vi<lb ed="#Q"/>lia.
+          Si ergo ista sunt vilia respectu divinae scien<lb ed="#Q"/>tiae
+          et bonitatis, melius est ignorare ista quam
+          <lb ed="#Q"/>scire.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3797">
+          <lb ed="#Q"/>Contra: a. Augustinus, XI De civitate Dei5:
+          « A terrenis usque ad caelestia, a visibilibus usque
+          <lb ed="#Q"/>ad invisibilia, sunt aliqua bona, aliqua meliora,
+          <lb ed="#Q"/>ad hoc inaequalia ut essent omnia; Deus au<lb ed="#Q"/>tem
+          ita est artifex in magnis ut minor non sit
+          <lb ed="#Q"/>in parvis ». Ergo ipse Deus aequaliter est artifex e
+          <lb ed="#Q"/>magnorum et parvorum; ergo in arte sua ae<lb ed="#Q"/>qualiter
+          cognoscit magna et parva.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3815">
+          <lb ed="#Q"/>b. Item, quod potest cognoscere creatura, non
+          <lb ed="#Q"/>potest Deus ignorare. Si ergo creatura potest co<lb ed="#Q"/>gnoscere
+          singularia, Deus non potest ignorare
+          <lb ed="#Q"/>singularia. — Quod concedendum est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3826">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum dicunt quidam
+          <lb ed="#Q"/>quod hoc est ex imperfectione intellectus nostri
+          <lb ed="#Q"/>quod non potest intelligere singulare, non autem
+          <lb ed="#Q"/>ex eius immaterialitate. Aliter tamen dicendum
+          <lb ed="#Q"/>et verius quod intellectus humanus intelligit sin<lb ed="#Q"/>gularia;
+          intellectus enim accipit speciem rei et
+          <lb ed="#Q"/>intelligit rem ipsam: «lapis enim non est in anima,
+          <lb ed="#Q"/>sed species lapidisü», qua quidem intelligitur ipse
+          <lb ed="#Q"/>lapis. Quod ergo insinuatf Boethius7, quod
+          <lb ed="#Q"/>non intelligitur singulare, sed universale, hoc in<lb ed="#Q"/>telligitur
+          quantum ad speciem acceptam in intel<lb ed="#Q"/>lectu,
+          quae, in quantum huiusmodi, rationem habet
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/><sic>bet</sic> universalis, qua quidem specie intelligitur res 
+          <lb ed="#Q"/>cuius est species, scilicet singulare.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3863">
+          <lb ed="#Q"/>Nota<!--g--> igitur quod intellectus humanus intelli<lb ed="#Q"/>git
+          singulare per speciem vel ** similitudinem eius
+          <lb ed="#Q"/>acceptam adminiculo sensus; angelicus intellectus
+          <lb ed="#Q"/>accipit singulare per speciem vel similitudinem
+          <lb ed="#Q"/>eius non acceptam adminiculo sensus: virtus enim
+          <lb ed="#Q"/>intellectus angelici tantum potest in cognitione
+          <lb ed="#Q"/>universalis et singularis per intellectum, quantum
+          <lb ed="#Q"/>potest cognitio animae rationalis divisa per sen<lb ed="#Q"/>sum
+          ad cognitionem singularis et per intellectum
+          <lb ed="#Q"/>ad cognitionem universalis. Tarn igitur humanus
+          <lb ed="#Q"/>intellectus quam angelicus intelligit singularia per
+          <lb ed="#Q"/>speciem sive similitudinem quae est in ipso, quae
+          <lb ed="#Q"/>n0n est ipse intelligens; sed in hoc differenter,
+          <lb ed="#Q"/>quod hic manuductione a sensu, ille per se. In<lb ed="#Q"/>tellectus
+          divinus intelligit singulare non admini<lb ed="#Q"/>culo
+          sensus nec per speciem sive similitudinem
+          <lb ed="#Q"/>quae sit alia ab intelligente, sed se ipso sive
+          <lb ed="#Q"/>similitudine quae est ipse.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3907">
+          <lb ed="#Q"/>Ad hoc igitur quod obicitur quod 'intellectus
+          <lb ed="#Q"/>humanus non est singularium, quia est immate<lb ed="#Q"/>rialis':
+          respondendum est per interemptionem8
+          <lb ed="#Q"/>et addendum est quod immaterialitas non est ra<lb ed="#Q"/>tio
+          quare non intelligitur singulare, quia tunc an—
+          <lb ed="#Q"/>gelus non intelligeret; sed immaterialitas est causa
+          <lb ed="#Q"/>quare species sive similitudo rei accepta in in<lb ed="#Q"/>tellectu,
+          ut huiusmodi, non est singularis, sed
+          <lb ed="#Q"/>potius universalis, in quantum est exemplar sive
+          <lb ed="#Q"/>similitudo multorum consimilium.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3932">
+          <lb ed="#Q"/>2. Ad secundum vero dicendum quod illud 
+          <lb ed="#Q"/>quod dicit Philosophus quod 'Deus non po<lb ed="#Q"/>test
+          cognoscere aliud a se, nisi. vilescat': dicen<lb ed="#Q"/>dum
+          quod non intendit per hoc quod ipse non
+          <lb ed="#Q"/>cognoscat alia a se, sed quodl" non cognoscat
+          <lb ed="#Q"/>ea extra se, sed in se, causa ipsorum k, et co<lb ed="#Q"/>gnoscendo.
+          se', causam omnium, cognoscat omnia,
+          <lb ed="#Q"/>et ideo sua cognitio non dependet a rebus scibi<lb ed="#Q"/>libus
+          quemadmodum cognitio humana: ut'71 si
+          <lb ed="#Q"/>punctus vel centrum haberet intellectum sui a
+          <lb ed="#Q"/>quo ducerentur multae lineae, cognoscendo se,
+          <lb ed="#Q"/>causam et principium omnium linearum, cogno<lb ed="#Q"/>sceret
+          omnes illas" lineas 9.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s1q1m3c6-d1e3963">
+          <pb ed="#Q" n="257"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>3. Ad tertium dicendum quod Augustinus
+          <lb ed="#Q"/>in illa auctoritate Enchiridii sumit ' ignorare ' pro
+          ' non approbare ', secundum quem mod-um " dici<cb ed="#Q" n="b"/><lb ed="#Q"/>tur 
+          ipse Deus ignorare peccata; unde hoc quod 
+          dico <!--b--> ' vilia ' su onit ibi eccata, non creaturas 
+          <lb ed="#Q"/>infimas <!--c--> vel minus nobiles.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

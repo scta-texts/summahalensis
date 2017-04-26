@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Pars 1, Inq. 1, Tract. 1, Q. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Pars 1, Inq. 1, Tract. 1, Q. 2, C. 1</title>
+          <date when="2017-02-12">February 12, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="45"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t1q2c1">
+        <head xml:id="ahsh-l1p1i1t1q2c1-Hd1e3732">I, Pars 1, Inq. 1, Tract. 1, Q. 2, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t1q2c1-Hd1e3735" type="questionTitle">AN DIVINA ESSENTIA SIT OMNINO INCOMMUTABILIS.</head>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3738">
+          <lb ed="#Q"/>Ad primum ergo arguitur hoc modo: a. Ri<lb ed="#Q"/>chardus, 
+          in libro De Trinitate7: « Omnis
+          <lb ed="#Q"/>mutatio aut est de statu in statum meliorem aut
+          <lb ed="#Q"/>de statu in statum deteriorem aut de statu in 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>
+          <lb ed="#Q"/>statum priori aequalem; ubi autem nihil horum
+          <lb ed="#Q"/>erit, natura incommutabilis erit ». Sed talis est
+          <lb ed="#Q"/>divina natura: quia non in statum deteriorem,
+          <lb ed="#Q"/>quia verissime est; nec in statum ' meliorem, quia 
+          <pb ed="#Q" n="46"/>
+          <cb ed="#Q"/>
+          <lb ed="#Q"/>a semetipso est; nec in statum aequalem, quia 
+          <lb ed="#Q"/>perfecta est. Relinquitur igitur quod omnino" di<lb ed="#Q"/>vina 
+          natura incommutabilis est. 
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3773">
+          <lb ed="#Q"/>b. Item, omne quod mutabile est <sic>est</sic> ens in
+          <lb ed="#Q"/>potentia ad aliquod non esse vel ad aliquod esse;
+          <lb ed="#Q"/>sed quod maxime * et verissime est ens 1 non est *
+          <lb ed="#Q"/>ens in potentia ad aliquod non' esse; similiter
+          <lb ed="#Q"/>quod perfectum " est non est' ens in potentia ad
+          <lb ed="#Q"/>aliquod esse; ergo quod verissime et perfecte est
+          <lb ed="#Q"/>nullo modo est mutabile; sed talis est divina na<lb ed="#Q"/>tura;
+          ergo etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3796">
+          <lb ed="#Q"/>c. Item, Augustinus: «Omne quod muta<lb ed="#Q"/>tur
+          non servat ipsum esse ;. et quod mutari po<lb ed="#Q"/>test,
+          etiamsi non mutetur, potest quod fuerat non
+          <lb ed="#Q"/>esse ». Quod ergo servatf semper ipsum idem
+          <lb ed="#Q"/>esse et non potest secundum aliquem modum non
+          <lb ed="#Q"/>esse, non mutabitur neque poterit mutari; erit
+          <lb ed="#Q"/>ergo simpliciter! immutabile.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3815">
+          <lb ed="#Q"/>Contra: 1. Omne quod se habet alio modo
+          <lb ed="#Q"/>nunc quam prius est mutatum, quia mutari est
+          <lb ed="#Q"/>alio modo se habere nunc quam prius; sed Deus
+          <lb ed="#Q"/>alio modo se habet nunc quam ab aeterno se ha<lb ed="#Q"/>buit;
+          ergo est mutatus. — Probatio mediae:
+          <lb ed="#Q"/>quia modo se habet ad creaturam ut dominus, ut
+          <lb ed="#Q"/>conservator, ut rector, secundum quem modum
+          <lb ed="#Q"/>non se habuit ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3835">
+          <lb ed="#Q"/>2. Item, Filius Dei nunc est homo, quod non
+          <lb ed="#Q"/>fuit ab aeterno; ergo se habet alio modo quam
+          <lb ed="#Q"/>se habuit ab aeterno 3.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3844">
+          <lb ed="#Q"/>3. Item, motus alterationis sive mutatio secun<lb ed="#Q"/>dum
+          alterationem est duobus modis4: uno modo
+          <lb ed="#Q"/>est transitus a contraria qualitate in contrariam,
+          <lb ed="#Q"/>ut cum ex albo fit nigrum; alio modo exitus ab
+          <lb ed="#Q"/>otio in actum, ut cum ex non considerante tit con<lb ed="#Q"/>siderans,
+          ex non volente fit volens et ex non ope<lb ed="#Q"/>rante"
+          operans 5. Omnis ergo' exiens ab otio in
+          <lb ed="#Q"/>actum. est mutatus vel alteratus; sed Deus in
+          <lb ed="#Q"/>creando est exiens abk otio in actum; ergo alte<lb ed="#Q"/>ratur; 
+          ergo "est mutabilis '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3868">
+          <lb ed="#Q"/>4. Item, omne volens quod prius noluit mutatur
+          <lb ed="#Q"/>voluntate; sed Deus vult nunc esse creaturam
+          <lb ed="#Q"/>quam noluit esse prius; ergo est mutatus vo<lb ed="#Q"/>luntate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3879">
+          <lb ed="#Q"/>5. Item, arguit Ambrosius 5, in libro Sen<lb ed="#Q"/>tentiarum, 
+          9 dist., lib. I'" 7, quod « si Deus coepit
+          <lb ed="#Q"/>esse Pater, ita quod prius " erat Deus, postea fac<lb ed="#Q"/>tus
+          est Pater, ergo mutatus est »; ergo similiter
+          <lb ed="#Q"/>Deus non semper erat creator et incepit esse
+          <lb ed="#Q"/>creator; ergo mutatus est.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3895">
+          <lb ed="#Q"/>6. Item, 7 dist., I Sententiarum 8, Augusti<lb ed="#Q"/>nus:
+          -Si Spiritus Sanctus nasci potuit, potuit
+          <lb ed="#Q"/>esse Filius; et si potuit esse Filius, mutabilis
+          <lb ed="#Q"/>esse potuit ». Et ex hoc vult concludere: ergo
+          <lb ed="#Q"/>non potuit nasci. Sed unde sequitur hoc? niSi
+          <lb ed="#Q"/>quia in Spiritu Sancto " est proprietas processio<lb ed="#Q"/>nis;
+          si autem poneretur esse Filius, poneretur in
+          <lb ed="#Q"/>eo proprietas generationis, et ita mutaretur. -—
+          <lb ed="#Q"/>Sed tunc obicitur: quia, cum in Patre sit notio
+          <lb ed="#Q"/>spirationis respectu Spiritus Sancti et notio pa<lb ed="#Q"/>temitatis
+          respectu generationis Filii a Patre, ergo 
+          <lb ed="#Q"/>Pater mutabilis est, quia spirat et generat, sicut 
+          <lb ed="#Q"/>Spiritus Sanctus mutabilis diceretur, si spiraretur 
+          <lb ed="#Q"/>et generaretur.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3929">
+          <lb ed="#Q"/>Respondeo: Quaedam relationes adveniunt et
+          <lb ed="#Q"/>concomitatur mutatio in eo quod relative dici<lb ed="#Q"/>tur
+          secundum illas; quaedam vero adveniunt
+          <lb ed="#Q"/>nec concomitatur mutatio in eo quod relative di—
+          <lb ed="#Q"/>citur secundum illas, sicut dicit Augustinus,
+          <lb ed="#Q"/>in libro De Trinitatem: « Quomodo obtinebimus
+          <lb ed="#Q"/>nihil secundum accidens dici Deum? nisi quia
+          <lb ed="#Q"/>ipsius naturae nihil accidit quoq mutetur, ut ea
+          <lb ed="#Q"/>sint accidentia relativa, quae cum aliqua muta<lb ed="#Q"/>tione
+          rerum de quibus dicuntur, accidunt. Sicut
+          <lb ed="#Q"/>amicus dicitur relative: neque enim esse incipit,
+          <lb ed="#Q"/>nisi cum amare inceperit; fit ergo aliqua mutatio
+          <lb ed="#Q"/>voluntatis ut amicus dicatur. Nummus autem re<lb ed="#Q"/>lative
+          dicitur, nec tamen mutatus est. cum esse
+          <lb ed="#Q"/>incipit pretium neque cum dicitur pignus, et si
+          <lb ed="#Q"/>qua similia. Si ergo nummus potest sine aliqua'
+          <lb ed="#Q"/>sui mutatione totiens dici relative, ut, neque cum
+          <lb ed="#Q"/>incipit dici neque cum desinit, aliquid: in eius
+          <lb ed="#Q"/>natura vel forma, qua nummus est, mutationis
+          <lb ed="#Q"/>fiat: quanto facilius de illa incommutabili Dei
+          <lb ed="#Q"/>substantia debemus' accipere ut ita dicatur re<lb ed="#Q"/>lative
+          aliquid " ad creaturas, ut, quamvis incipiat"
+          <lb ed="#Q"/>temporaliter dici, non tamen ipsi substantiae Dei 
+          <pb ed="#Q" n="47"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>accidisse aliquid intelligatur, sed illi creaturae ad
+          <lb ed="#Q"/>quam dicitur ». Quando " ergo aliqua dicuntur.re<lb ed="#Q"/>lative
+          de Deo, non dicuntur relatione ** quae ponat
+          <lb ed="#Q"/>mutationem in ipso, sed solum in creatura.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e3994">
+          <lb ed="#Q"/>[Ad obiecta.]: 1. Secundum hoc : dicendum quod,
+          <lb ed="#Q"/>cum dicitur ' Deus est modo creator et prius non
+          <lb ed="#Q"/>fuit ', quod non se habet aliter quam prius, sed
+          <lb ed="#Q"/>creatura se habet aliter ad ipsum. Quaedam enim
+          <lb ed="#Q"/>relativa dicunt mutuam dependentiam, ut pater et
+          <lb ed="#Q"/>filius in naturali generatione: et tunc relatio fun<lb ed="#Q"/>datur
+          super utrumque extremum. Quaedam autem
+          <lb ed="#Q"/>sunt quorum unum dependet ab altero et non e
+          <lb ed="#Q"/>converso, ut quandoque in "' causa et effectu ', quia
+          <lb ed="#Q"/>effectus dependet a causa et non e converso: et
+          <lb ed="#Q"/>tunc totus respectus f fundatur super unum extre<lb ed="#Q"/>mum,
+          tamen in comparatione ad alterum. Et tunc,
+          <lb ed="#Q"/>si designatur habitudo, non ponitur mutatio ex
+          <lb ed="#Q"/>parte utriusque, sed ex parte alterius tantum, Sci<lb ed="#Q"/>licet
+          in quo respectus fundatur. Deus ergo, cum sit
+          <lb ed="#Q"/>causa, non dependet a creatura, sed e converso.
+          <lb ed="#Q"/>Et8 propter hoc, cum dicitur ' creator nunc et non
+          <lb ed="#Q"/>prius', non ponitur in ipso innovatio ad creaturam,
+          <lb ed="#Q"/>sed ponitur" illa innovatio in creatura, secundum
+          <lb ed="#Q"/>quam nunc se habet aliter ad ipsum quam prius.
+          <lb ed="#Q"/>Unde sensus est: 'Deus incipit esse creator':
+          ' Deus est ', et creatura nunc incipit ab illa esse
+          <lb ed="#Q"/>de nihilo '.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e4044">
+          <lb ed="#Q"/>2. Similiter cum dicitur 'Deus est nunc homo
+          <lb ed="#Q"/>et prius non fuit ', ex hoc sequitur quod humana
+          <lb ed="#Q"/>natura aliter se habet ad ipsum quam prius. Et
+          <lb ed="#Q"/>quod ponamus relationem Creatoris ad creaturam,
+          <lb ed="#Q"/>hoc est solum ex parte detectus nostri intellectus
+          <lb ed="#Q"/>et non'f ex parte ipsius. — Per hoc patet solutio
+          <lb ed="#Q"/>ad duo prima obiecta.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e4062">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod actus sive actio
+          <lb ed="#Q"/>dicitur duobus modis': dicitur enim actio, qua
+          <lb ed="#Q"/>agens agit, et dicitur actio actus vel effectus, quem
+          <lb ed="#Q"/>agens efficit. Secundum primum modum. actio
+          <lb ed="#Q"/>Dei idem est cum' sua virtute et sua substantia,
+          <lb ed="#Q"/>et secundum hoc semper agens est et semper
+          <lb ed="#Q"/>agit 2; nec'" aliquo modo est dicere quod exeat ab
+          <lb ed="#Q"/>otio in actum, quemadmodum sol semper lucet,
+          <lb ed="#Q"/>etsi aliquid non illuminetur a sole. -— Secun<lb ed="#Q"/>dum
+          modum alium non semper agit, sicut et sol
+          <lb ed="#Q"/>non semper illuminat. Nec ex hoc" sequitur mu<cb ed="#Q" n="b"/><lb ed="#Q"/>tatio 
+          ex parte agentis, sicut non sequitur mutatio
+          <lb ed="#Q"/>ex parte" solis,- cum non illuminat et post illu<lb ed="#Q"/>minatP,
+          sed sequitur mutatio ex parte suscipien<lb ed="#Q"/>tis
+          3. Illa autem propositio: ' exitus ab otio in-ac—
+          <lb ed="#Q"/>tum est alteratio quaedam' universaliter-tenet
+          <lb ed="#Q"/>in illis quae agunt passibilia entia, sed in' aliqui<lb ed="#Q"/>bus
+          quae agunt impassibilia entia, .hoc est impas<lb ed="#Q"/>sibiliter,
+          non sequitur, ut. patet in sole.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e4107">
+          <lb ed="#Q"/>4. Ad quartum dicendum quod illa est du<lb ed="#Q"/>plex:
+          'Deusq vult nunc esse creaturam, quam
+          <lb ed="#Q"/>prius noluit esse'. Nam haec adverbia 'nunc'
+          <lb ed="#Q"/>et ' prius' possunt determinare haec verba 'no<lb ed="#Q"/>luit'
+          et 'vult' secundum quod reSpiciunt sup<lb ed="#Q"/>positum:
+          et sic falsa est, quia sensus est: ' nunc
+          <lb ed="#Q"/>vult creaturam esse quam prius noluit ', quia ab
+          <lb ed="#Q"/>aeterno quod vult voluit immutabiliter. Vel pos<lb ed="#Q"/>sunt
+          determinare hoc .verbum ' esse'. sive haec
+          <lb ed="#Q"/>verba ' vult ' et 'noluit' in comparatione ad oppo<lb ed="#Q"/>situm:
+          et hoc modo vera est, quia sensus est:
+          ' vult creaturam esse nunc-, quam non voluit esse
+          <lb ed="#Q"/>prius '; et tunc hoc quod dico ' nunc' et ' prius'
+          <lb ed="#Q"/>refertur ad esse creaturae, non ad voluntatem
+          <lb ed="#Q"/>divinam; et ideo non sequitur mutatio voluntatis
+          <lb ed="#Q"/>divinae, sed mutatio voliti 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e4142">
+          <lb ed="#Q"/>5. Ad quintum dicendum quod non est si<lb ed="#Q"/>milis
+          ratio argumentandi in relatione personali,
+          <lb ed="#Q"/>qua dicitur Pater ad Filium, et inrelatione tempo<lb ed="#Q"/>rali,
+          qua dicitur Creator ad creaturam. Nam, sicut
+          <lb ed="#Q"/>dicit Ioannes Damascenuss, «si diceretur
+          <lb ed="#Q"/>quoniam non ens Pater postea tactus. est Pater,
+          <lb ed="#Q"/>versionem, id est mutationem, hypostasis Patris,
+          <lb ed="#Q"/>id est personae,.induceremus ». Non autem sic 
+          <lb ed="#Q"/>est, si dicatur quoniam ' non ens creator postea 
+          <lb ed="#Q"/>iactus' est creator, ergo est mutatus ': et ratio
+          <lb ed="#Q"/>est, quia creatio non est ex Dei substantia, sed
+          <lb ed="#Q"/>de nihilo. Unde versio ', quae est in creatione,
+          <lb ed="#Q"/>non tangit Dei naturam, sed creaturae. Generatio
+          <lb ed="#Q"/>vero est ex substantia generantis similis " in na<lb ed="#Q"/>tura
+          productio 6; et ideo, si esset mutatio ex parte
+          <lb ed="#Q"/>paternitatis, sequeretur mutatio ex parte substan<lb ed="#Q"/>tiae.
+          Ex ista ergo parte sequitur quod Deus est
+          <lb ed="#Q"/>mutabilis, ex alia vero parte non.
+        </p>
+        <p xml:id="ahsh-l1p1i1t1q2c1-d1e4185">
+          <lb ed="#Q"/>6. Ad ultimum dicendum quod ratio quare"
+          <lb ed="#Q"/>Spiritus Sanctus diceretur mutabilis, si posset esse
+          <lb ed="#Q"/>Filius, non est quia inesset pluralitas notionum, 
+          <pb ed="#Q" n="48"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sed quia mutaretur ab una in aliam. Sed in Pa<lb ed="#Q"/>tre
+          non est sic, licet plures sint ibi notiones, quia
+          <lb ed="#Q"/>non fit de generante spirans nec e converso, immo
+          <lb ed="#Q"/>aeternaliter est spirans et generans '. — Item,
+          <lb ed="#Q"/>adhuc non est simile de Patre et Spiritu Sancto
+          <lb ed="#Q"/>quantum ad hoc: quia sine omni mutatione potest
+          <lb ed="#Q"/>poni quod una res sit origo plurium, sicut punc<lb ed="#Q"/>tus
+          sine sui" mutatione est origo duarum linea<cb ed="#Q" n="b"/><lb ed="#Q"/>rum; 
+          sed non potest poni quod aliquid unum
+          <lb ed="#Q"/>habeat duas origines sine diversitate: et ad di<lb ed="#Q"/>versitatem
+          sequitur mutatio. Et quia pluralitas
+          <lb ed="#Q"/>notionum est in Patre sicut in eo qui est origo
+          <lb ed="#Q"/>plurium, in Spiritu Sancto esset tamquam in eo
+          <lb ed="#Q"/>qui diversas haberet origines: ideo ad pluralita<lb ed="#Q"/>tem
+          notionum sequeretur mutatio in Spiritu Sancto,
+          <lb ed="#Q"/>licet non sequatur in Patre.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

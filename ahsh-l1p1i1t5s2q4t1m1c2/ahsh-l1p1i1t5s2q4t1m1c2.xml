@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 1, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-14">March 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="316"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t1m1c2">
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m1c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. I, M. 1, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t1m1c2-Hd1e3744" type="question-title">QUID SIT PRAEDESTINATIO SECUNDUM RATIONEM INTELLIGENTIAE.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur quid sit praedestinatio
+          <lb ed="#Q"/>secundum rationem intelligentiae 4.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3754">
+          <lb ed="#Q"/>I. Et videtur quod sit in genere scientiae:
+          <lb ed="#Q"/>a. Dicitur enim 35 dist. I libri .S'entenz'iarum5
+          <lb ed="#Q"/>quod «scientia Dei propter varios effectus di-,
+          <lb ed="#Q"/>versa sortitur nomina: dicitur enim non tan<lb ed="#Q"/>tum
+          scientia, sed sapientia, providentia, prae<lb ed="#Q"/>scientia,
+          dispositio, praedestinatio». Ex quo vi<lb ed="#Q"/>detur
+          quod praedestinatiosit in genere scientiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3772">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>b. Item, nisi praedestinatio esset in genere
+          <lb ed="#Q"/>scientiae", male detiniretur ab Augustinoü:
+          « Praedestinatio est praescientia beneficiorum
+          <lb ed="#Q"/>Dei ». .
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3784">
+          <lb ed="#Q"/>Contra": 1. « Praedestinatio est praeparatio
+          <lb ed="#Q"/>gratiae »; sed praeparatio pertinet ad potentiam,
+          <lb ed="#Q"/>non ad scientiam vel voluntatem; ergo praedesti<lb ed="#Q"/>natio
+          est in genere potentiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3795">
+          <lb ed="#Q"/>2. Item, adhuc obicitur in contrarium quia!J
+          <lb ed="#Q"/>praedestinatio definitur « propositum miserendi » 3 ;
+          <pb ed="#Q" n="371"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sed propositum est voluntas a ; ergo praedestinatio
+          <lb ed="#Q"/>est in genere voluntatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3811">
+          <lb ed="#Q"/>3. Item, scientia non est causa rei scitae;
+          <lb ed="#Q"/>praedestinatio est causa gratiae '7 praeparatae;
+          <lb ed="#Q"/>causa autem non est ponenda in genere eius
+          <lb ed="#Q"/>quod non est causa; ergo praedestinatio non est
+          <lb ed="#Q"/>ponenda in genere scientiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3824">
+          <lb ed="#Q"/>4. Item,! scientia prior est ratione ipsa vo<lb ed="#Q"/>luntate;
+          praedestinatio vero posterior est ra<lb ed="#Q"/>tione
+          ipsa voluntate *; ergo non est in genere
+          <lb ed="#Q"/>scientiae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3835">
+          <lb ed="#Q"/>5. Item, non praedestinat Deus aliquos nisi quos
+          <lb ed="#Q"/>proponit voluntate fore salvandos; ergo praede<lb ed="#Q"/>stinatio
+          est voluntas vel in genere voluntatis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3844">
+          <lb ed="#Q"/>II. Item, quaeritur cum assignentur quatuor de<lb ed="#Q"/>finitiones 
+          praedestinationis — quarum una estl:
+          <lb ed="#Q"/>« Praedestinatio est praescientia beneficiorum
+          <lb ed="#Q"/>Dei »; alia?: «Praedestinatio est praeordinatio
+          <lb ed="#Q"/>alicuius ad gloriam»; tertia3: «Praedestinatio
+          <lb ed="#Q"/>est propositum miserendi»; quarta4: «Praede<lb ed="#Q"/>stinatio
+          est praeparatio gratiae in praesenti et
+          <lb ed="#Q"/>gloriae in futuro » — quomodo differunt istae
+          <lb ed="#Q"/>definitiones.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3867">
+          <lb ed="#Q"/>[Solutio]: I. 1-5. Ad hoc dicendum quod prae<lb ed="#Q"/>destinatio
+          est in genere scientiae beneplaciti sive
+          <lb ed="#Q"/>approbationis. Est enim scientia-, sicut dicitur
+          <lb ed="#Q"/>dist. 35, I Sententiarums; scientia autem dicitur
+          <lb ed="#Q"/>dupliciterd : scientia simplex et scientia cum ap<lb ed="#Q"/>probatione
+          sive approbationis 5. Scientia autem
+          <lb ed="#Q"/>simplex non est causa ? scitorum, sed Scientia ap<lb ed="#Q"/>probationis
+          est causa scitorum, id est approba<lb ed="#Q"/>torum.
+          In scientia beneplaciti vel approbationis
+          <lb ed="#Q"/>intelligitur scientia in rectitudine et voluntas sive
+          <lb ed="#Q"/>approbatio in obliquitate; et quia voluntas divina
+          <lb ed="#Q"/>est sufficiensf causa eorum quae ei subsunt, co<lb ed="#Q"/>intelligiturg
+          potentia. Secundum hoc ergo dicen<lb ed="#Q"/>dum
+          quod praedestinatio est secundum rectitudi<lb ed="#Q"/>nem
+          in genere scientiae, non scientiae quae est
+          <lb ed="#Q"/>per modum speculativum, quae est simplex no<lb ed="#Q"/>titia,
+          sed scientiae practicae, quae est per modum
+          <lb ed="#Q"/>practicum, quae coniuncta est voluntati et causa
+          <lb ed="#Q"/>operationis. Et inde est quod quandoque in ra<lb ed="#Q"/>tione
+          praedesti'nationis ponitur'l praescientia, quan<lb ed="#Q"/>doque
+          propositum, quandoque praeparatio. — Et
+          <lb ed="#Q"/>sic patet solutio ad obiecta.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3917">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>II. Ad secundum quod quaeritur de diffe<lb ed="#Q"/>rentia
+          detinitionum'" : dicendum quod cum prae<lb ed="#Q"/>destinatio
+          ponatur in genere, scientiae practicae
+          <lb ed="#Q"/>sive approbationis, quatuor autem actus diffe<lb ed="#Q"/>rentes
+          secundum rationem intelligentiae intelligun<lb ed="#Q"/>tur
+          in ratione praedestinationis, licet non differant
+          <lb ed="#Q"/>secundum actum —- primus est cognoscere sive
+          <lb ed="#Q"/>iudicare; secundus eligere sive disponere, hoc est
+          <lb ed="#Q"/>cogitare ad faciendum; tertius est velle sive pro<lb ed="#Q"/>ponere
+          tacere; quartus est voluntate firma in
+          <lb ed="#Q"/>finem dirigere — secundum primum actum data
+          <lb ed="#Q"/>est haec definitio « praedestinatio est praescien<lb ed="#Q"/>tia»;
+          secundum actum secundum ista « praede<lb ed="#Q"/>stinatio
+          est praeordinatio »: praeordinatio enim
+          <lb ed="#Q"/>secundum rationem intelligentiae praecedit volun<lb ed="#Q"/>tatem
+          et sequitur scientiam et attenditur in dispo<lb ed="#Q"/>sitione
+          consequente scientiam; secundum * actum
+          <lb ed="#Q"/>tertium datur ista «praedestinatio est proposi<lb ed="#Q"/>tum
+          » etc.: propositum enim in nobis nihil aliud
+          <lb ed="#Q"/>est quam voluntas firmata' deliberatione, sed quia
+          <lb ed="#Q"/>in Deo non est deliberatio, quia nec ignorantia,
+          <lb ed="#Q"/>ideo propositum in Deo est firma eius voluntas;
+          <lb ed="#Q"/>secundum actum ultimum'" datur ista « praede<lb ed="#Q"/>stinatio
+          .est praeparatio » etc.: praeparatio enim est
+          <lb ed="#Q"/>velut in finem directio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t1m1c2-d1e3976">
+          <lb ed="#Q"/>Aliter sumitur istorum differentia et forte me<lb ed="#Q"/>lius,
+          ut dicatur quod scientia in nobis dicitur du<lb ed="#Q"/>pliciter
+          ": scientia speculativa et practica; similiter
+          <lb ed="#Q"/>in Deo dicitur scientia simplicis notitiae et scien—
+          <lb ed="#Q"/>tia approbationis. Dicendum ergo quod praedesti<lb ed="#Q"/>natio
+          est in genere scientiae approbationis; propter
+          <lb ed="#Q"/>hoc dicitur ratio praedestinationis ratione scientiae
+          <lb ed="#Q"/>vel ratione approbationis; et utrobique dupliciter:
+          <lb ed="#Q"/>scientia enim operandorum potest esse dupliciter,
+          <lb ed="#Q"/>ut sint operanda vel ut fiant. Ratione igitur scien<lb ed="#Q"/>tiae
+          dupliciter" sumitur ratio praedestinationis:
+          <lb ed="#Q"/>ratione scientiaeP simpliciter vel ratione scientiae
+          <lb ed="#Q"/>inclinatae ad opus, sive cum inclinatione ad opus.
+          <lb ed="#Q"/>Primo modo dicitur praedestinatio «praescien<lb ed="#Q"/>tia»
+          etc.; secundo modo «praeordinatio» etc.
+          <lb ed="#Q"/>Ratione voluntatis dupliciter est similiter: est
+          <lb ed="#Q"/>enim voluntas proponens et voluntas exequens.
+          <lb ed="#Q"/>Ratione voluntatis proponentis dicitur praedesti<lb ed="#Q"/>natio
+          « propositum miserendi »; ratione voluntatis
+          <lb ed="#Q"/>exequentis dicitur praedestinatio «praeparatio gra<lb ed="#Q"/>tiae
+          » etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

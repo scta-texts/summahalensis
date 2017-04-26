@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 2, M. I, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 2, M. I, C. 1</title>
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="15"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq2m1c1">
+        <head xml:id="ahsh-l1tinq2m1c1-Hd1e3729">I, Tract. Intro., Q. 2, M. I, C. 1</head>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3732">
+          <lb ed="#Q"/>Quaeritur igitur an cognoscibilis sit Deus ani<lb ed="#Q"/>4
+          mae humanae.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3739">
+          <lb ed="#Q"/>Ad- quod sic: 1. Augustinus, in libro De vi<lb ed="#Q"/>dendo
+          Deo?: « invisibilis est natura Deus, non
+          <lb ed="#Q"/>tantum Pater, sed et ipsa Trinitas, unus Deus »;
+          <lb ed="#Q"/>sed hoc est ei esse " visibilem, quod cognosci—
+          <lb ed="#Q"/>bilem. Sicut enimb dicitur in eodem libro3:
+          « Hoc distat inter videre et credere, quia prae<lb ed="#Q"/>sentia
+          videntur, creduntur absentia. Praesentia
+          <lb ed="#Q"/>autem hoc loco0 intelligimus quae praesto sunt
+          <lb ed="#Q"/>sensibus sive animi sive corporis: sicut hanc
+          <lb ed="#Q"/>lucem corporis sensu video, et meam volun<lb ed="#Q"/>tatem,
+          quia praesto est animi mei sensibus, quia
+          <lb ed="#Q"/>intus mihi praesens est ». Omne autem cogno—
+          <lb ed="#Q"/>scibile est visibile sensibus animi vel corporis;
+          <lb ed="#Q"/>cum ergo Deus sit invisibilis, ergo et incogno<lb ed="#Q"/>scibilis
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3772">
+          <lb ed="#Q"/>2. item, Augustinus, in eodem4: uDeum
+          <lb ed="#Q"/>nemo vidit unquam nec, videre poterit, quoniam
+          <lb ed="#Q"/>lucem habitat inaccessibilem 5, et est natura in<lb ed="#Q"/>visibilis
+          sicut et incorruptibilis, et sicut nunc
+          <lb ed="#Q"/>incorruptibilis nec postea corruptibilis, ita non
+          <lb ed="#Q"/>solum nunc, sed et semper invisibilis ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3788">
+          <lb ed="#Q"/>3. item, loannes Damascenussz « inti<lb ed="#Q"/>nitus
+          est Deus et incomprehensibilis »; sed omne
+          <lb ed="#Q"/>quod cognoscitur animo, comprehenditur intel<lb ed="#Q"/>lectu;
+          Deus ergo non est cognoscibilis.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3800">
+          <lb ed="#Q"/>4. item, omnis' cognitio infiniti, in quantum
+          <lb ed="#Q"/>huiusmodi, est infinita, quia si esset finita, non
+          <lb ed="#Q"/>transiret super infinitum. Cum ergo substantia
+          <lb ed="#Q"/>divina sit infinita, non cognoscetur nisi cogni—
+          <lb ed="#Q"/>tione infinita; sed cognitio infinita non potest esse
+          <lb ed="#Q"/>a potentia finita, quia actio infinita non egreditur
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>a potentia finita; cum ergo omnis potentia ratio<lb ed="#Q"/>nalis
+          animae sit tinita, non egredietur ab ipsa
+          <lb ed="#Q"/>actio quae sit cognitio substantiae Dei infinitae.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3824">
+          <lb ed="#Q"/>5. item, inferius optimo nostro non est natum
+          <lb ed="#Q"/>cognoscere optimum nostrum, sive optimum no<lb ed="#Q"/>strum
+          non est cognoscibile ab interiori nostro7:
+          <lb ed="#Q"/>ut mens vel ratio non est cognoscibilis ab ima<lb ed="#Q"/>ginationef
+          vel sensu; ergo nec melius et excel<lb ed="#Q"/>lentius
+          optimo nostro incomparabiliter erit cogno<lb ed="#Q"/>scibile
+          ab optimo nostro; ergo nec Deus a mente
+          <lb ed="#Q"/>nostro", quod est-optimum in nobis.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3844">
+          <lb ed="#Q"/>Contra: a. Augustinus, in lL' Solllaquio<lb ed="#Q"/>rums:
+          « Intelligibilis est Deus, intelligibilia sunt
+          <lb ed="#Q"/>scientiarum 'spectamina, sed dii-ierunt plurimum:
+          <lb ed="#Q"/>nam terra visibilis estet lux, sed terra, nisi luce
+          <lb ed="#Q"/>illustrata, videri non potest; similiter disciplinarum
+          <lb ed="#Q"/>spectamina videri non possunt, nisi h aliquo velut
+          <lb ed="#Q"/>suo sole illustrentur », videlicet Deo.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3862">
+          <lb ed="#Q"/>b. item, Rom. l,19: Quod notum est Dei, ma<lb ed="#Q"/>nifestum
+          est in illis. (Hos-sag: « id est cogno<lb ed="#Q"/>scibile
+          ductu ratiunis ; quasi dicat: in se habent
+          <lb ed="#Q"/>unde ,possunt cognoscere quod est« cognoscibile
+          <lb ed="#Q"/>de'Deo». Et ibidem 19: Invisibilia Dei per ea,
+          <lb ed="#Q"/>quae facta sunt, a creatura mundi intellecta can<lb ed="#Q"/>spiciuntur
+          ; sempiterna quoquei eius virtus et di<lb ed="#Q"/>vinitas.
+          Et Sap. 13,5: A magnitudine speciei et
+          <lb ed="#Q"/>creaturae cognoscibiliter poterit Creator eorum
+          <lb ed="#Q"/>videri.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3886">
+          - c. item, sicut virtus attectivae rationalis est ad
+          <lb ed="#Q"/>amandum bonum, sic virtus cognitivae rationalis
+          <lb ed="#Q"/>ad cognoscendum verum. Si ergo summum bo<lb ed="#Q"/>num
+          est appetibile ab attectiva rationali, ergo
+          <lb ed="#Q"/>et" summum verum' cognoscibile a cognitiva
+          <lb ed="#Q"/>rationali.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3899">
+          <lb ed="#Q"/>Respondeo, secundumlx Augustinum, Ad '
+          <lb ed="#Q"/>Paulinam, De videndo Deo 1, dicentem: « Si quae<lb ed="#Q"/>ris
+          utrum possit Deus videri, respondeo: potest.
+          <lb ed="#Q"/>Si quaeris unde hoc sciam, respondeo: quia in
+          <lb ed="#Q"/>veracissima Scriptura legitur 2 .Beati mundo corde,
+          <lb ed="#Q"/>quoniam ipsi Deum videbunt»
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3916">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo obiectum
+          <lb ed="#Q"/>dicendum secundum verbum B. Augustini-3:
+          « Si- quaeris quomodo dictus sit " invisibilis Deus,
+          <lb ed="#Q"/>si videri potest, respondeo: invisibilem esse na<lb ed="#Q"/>tura,
+          videri autem potest *, cum vult et sicut vult».
+          <lb ed="#Q"/>Ex quo patet distinctio: quod Deus est invisibilis
+          <lb ed="#Q"/>natura ", visibilis vero e voluntate. Secundum hoc
+          <lb ed="#Q"/>ergo distinguendum: quod est visibile necessitate
+          <lb ed="#Q"/>et est;visibile voluntate. Visibilia necessitate sunt
+          <lb ed="#Q"/>corporalia et sensibilia; visibilia vero voluntate
+          <lb ed="#Q"/>sunt spiritualia, quemadmodum angeli et ipse Deus.
+          <lb ed="#Q"/>Et hoc est quod dicit Augustinus, in eodem
+          <lb ed="#Q"/>libro 4, sumens auctoritatem Ambrosii5 super
+          <lb ed="#Q"/>illud Luc. 1,11: Apparuit angelus etc.: « Non si<lb ed="#Q"/>militer
+          sensibilia videntur et is, cuius naturae est
+          <lb ed="#Q"/>non videri, voluntatis-f videri: nam si non vult,
+          <lb ed="#Q"/>non videtur; si vult, videtur. Apparuit enim Deus
+          <lb ed="#Q"/>Abrahae, quia voluit; aliis, quia noluit, non ap<lb ed="#Q"/>paruit».
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3958">
+          <lb ed="#Q"/>2. Ad secundum quod dicit quod «sic est
+          <lb ed="#Q"/>natura invisibilis sicut incorruptibilis,» dicendum
+          <lb ed="#Q"/>secundum!Z Augustinum, De videndo Deo 5:
+          « Corpora consuetudine loquendi visibilia nomie
+          <lb ed="#Q"/>nantur ; propterea Deus invisibilisdicitur ne cor<lb ed="#Q"/>pus
+          esse credatur, non quia munda corda suae
+          <lb ed="#Q"/>substantiae contemplatione fraudavit, cum][ haec
+          <lb ed="#Q"/>summa merces Deum diligentibus promittatur,
+          <lb ed="#Q"/>dicente ipso Domino, Ioan. 14 221: Qui diligit
+          <lb ed="#Q"/>me, diligatur a Patre meo, et ego diligam eum
+          <lb ed="#Q"/>et manifestabo illi me ipsum ».
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e3982">
+          <lb ed="#Q"/>3. Ad tertium similiter respondentium" iuxta
+          <lb ed="#Q"/>distinctionem Augustini, De videndo Deo7:
+          « Aliud est videre, aliud' totum videndo compre<lb ed="#Q"/>hendere.
+          Illud enim videtur quod praesens ut<lb ed="#Q"/>cumquem
+          sentitur; totum autem videndo compre—
+          <lb ed="#Q"/>henditur quod ita videtur ut nihil eius lateat vi<lb ed="#Q"/><lb ed="#Q"/>dentem, 
+          aut cuius fines circumspici possunt, sicut
+          <lb ed="#Q"/>nihil latet praesentis voluntatis tuae, circumspi<lb ed="#Q"/>cere
+          autem potes tinos anuli tui. Exempli gratia
+          <lb ed="#Q"/>duo posui, quorum unum ad mentis obtutum,
+          <lb ed="#Q"/>alterum ad corporales oculos pertinet». Ex quo
+          <lb ed="#Q"/>manifestum est quod non sequitur: 'Deus est in<lb ed="#Q"/>comprehensibilis,
+          ergo incognoscibilis '.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e4012">
+          <lb ed="#Q"/>4. Ad quartum respondendum iuxta Boe<lb ed="#Q"/>thium,
+          in libro De consolatione 8, quod ea « quae
+          <lb ed="#Q"/>cognoscuntur, non secundum sut naturam cogno<lb ed="#Q"/>scuntur,
+          sed secundum cognoscentium faculta<lb ed="#Q"/>tem
+          ». Cognitio igitur non dicetur finita vel inti—
+          <lb ed="#Q"/>nlta a re cognita finita vel infinita, sed a ia<lb ed="#Q"/>cultate
+          cognoscentis finita vel infinita, quia quod
+          <lb ed="#Q"/>cognoscitur, per modum cognoscentis. cognosci<lb ed="#Q"/>tur",
+          non per modum rei cognitae". Et hoc mani<lb ed="#Q"/>festum
+          est in omni modo cognitionis, sive sit co<lb ed="#Q"/>gnitio
+          sensitiva sive imaginaria sive intellectua<lb ed="#Q"/>lis.
+          Non ergo sequitur quod si substantia divina
+          <lb ed="#Q"/>sit infinita, quod cognitio, quae de ea est ab in—
+          <lb ed="#Q"/>tellectu humano, sit infinita; immo quia intellec<lb ed="#Q"/>tus
+          humanus finitus est, cognoscet substantiam
+          <lb ed="#Q"/>divinam tinite.
+        </p>
+        <p xml:id="ahsh-l1tinq2m1c1-d1e4049">
+          <lb ed="#Q"/>5. Ad quintum dicendum quod materialitas
+          <lb ed="#Q"/>prohibet quod sensus, qui est vis inferior, non
+          <lb ed="#Q"/>possit cognoscere vim superiorem, quae est ra<lb ed="#Q"/>tio;
+          nulla enim vis, cuius esse et actio dependet
+          <lb ed="#Q"/>a materia, potest apprehendere " formam vel rem
+          <lb ed="#Q"/>abstractam a materia. Hinc est, cum virtus sen<lb ed="#Q"/>sitiva
+          secundum esse et agere dependeat a rna<lb ed="#Q"/>teria,
+          non erit cognitiva mentis vel rationis, quae
+          <lb ed="#Q"/>est res et forma abstracta  materia. —— Ex alia
+          <lb ed="#Q"/>autem parte ipsa immaterialitas et simplicitas spi<lb ed="#Q"/>ritualitatis
+          facit quod mens vel ratio est cogno<lb ed="#Q"/>scibilis
+          melioris et excellentioris se, scilicet di<lb ed="#Q"/>vinae
+          substantiae, quae est simplex et immate—
+          <lb ed="#Q"/>rialis. Et in hoc imago eius est, secundum" Au<lb ed="#Q"/>gustinum, 
+          in libro De Trinitatem: «imago
+          <lb ed="#Q"/>Dei est in hoc quod capax eius et particeps
+          <lb ed="#Q"/>esse potest: capax per cognitionem, particeps
+          <lb ed="#Q"/>per amorem ». Hinc patet quod non sequitur
+          <lb ed="#Q"/>obiectio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

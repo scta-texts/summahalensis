@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-23">March 23, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="347"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t5s2q4t5m1c2">
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m1c2-Hd1e3741">I, P. 1, Inq. 1, Tract. 5, S. 2, Q. 4, T. 5, M. 1, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t5s2q4t5m1c2-Hd1e3744" type="question-title">UTRUM LIBER VITAE SIT UNA PERSONA VEL OMNES.</head>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3747">
+          <lb ed="#Q"/>Secundo quaeritur, cum liber vitae sit uno modo
+          <lb ed="#Q"/>quid increatum, utrum una persona sit tantum
+          <lb ed="#Q"/>liber vitae an omnes.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3756">
+          <lb ed="#Q"/>Et videtur quod solus Filius sit liber vitae:
+          <lb ed="#Q"/>a. Psalm.7: ln capite libri scriptum est de me,<lb ed="#Q"/>Glossas:
+          « Scriptum est de mef, id est praefi<lb ed="#Q"/>nitum,
+          in capite libri, id est apud Patrem qui
+          <lb ed="#Q"/>est caput mei ». Sed cum dicitur caput Christi,
+          <lb ed="#Q"/>dicitur notio Patris, secundum quam estg princi<lb ed="#Q"/>pium
+          Filii; ex hoc ergo videtur quod solus Filius
+          <lb ed="#Q"/>sit liber vitae in Trinitate.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3776">
+          <lb ed="#Q"/>b. Item, liber dicitur in habitudine eius quod
+          <lb ed="#Q"/>est esse ab alio, quia omnis liber ab alio est
+          <lb ed="#Q"/>scriptus; sed nihil quod sit" ab alio, in quantum
+          <lb ed="#Q"/>tale, potest convenire Patri; ergo Pater nullo
+          <lb ed="#Q"/>modo potest dici liber.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3790">
+          <lb ed="#Q"/>c. Item, liber, in quantum huiusmodi, dicit no<lb ed="#Q"/>titiami
+          expressam ab alio; per hoc quod est
+          <lb ed="#Q"/>notitiak expressa, non potest convenire Spiritui
+          <lb ed="#Q"/>Sancto, quia Spiritus Sanctus non est imago vel
+          <lb ed="#Q"/>similitudo expressa Patris; ergo solum convenit
+          <lb ed="#Q"/>Filio quod sit liber, cum solus' sit notitia ex<lb ed="#Q"/>pressa
+          ab alio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3808">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Contra: 1. Cum dicitur liber vitae, dicitur quid
+          <lb ed="#Q"/>divinum et effectus in creatura; effectus in crea<lb ed="#Q"/>turam
+          communis est toti Trinitati, quia indivisa
+          <lb ed="#Q"/>sunt opera Trinitatis; ergo toti Trinitati convenit
+          <lb ed="#Q"/>quod sit liber.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3824">
+          <lb ed="#Q"/>2. item, liber vitae nihil aliud est quam « vi<lb ed="#Q"/>sio
+          iudicis », sicut dicit Gregorius9; sed tota
+          <lb ed="#Q"/>Trinitas tacit " videre iudicem; ergo tota Trinitas
+          <lb ed="#Q"/>est liber vitae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3835">
+          <lb ed="#Q"/>3. Item, Apoc. 20,12-: Alius liber apertus est"
+          <lb ed="#Q"/>qui est vitae; quod exponens Augustinus,
+          <lb ed="#Q"/>XX De civitate Dei, cap. 1410, dicitP: « Liber ille
+          <lb ed="#Q"/>quaedam vis est intelligenda divina, qua fiet ut
+          <lb ed="#Q"/>cuique opera suaq vel bona vel mala in memo<lb ed="#Q"/>riam
+          revocentur, quae nimirum 'libri nomen ac<lb ed="#Q"/>cepit:
+          in ea quippe quodammodo legitur quod
+          <lb ed="#Q"/>ea faciente recolitur». Sed vis divina convenit
+          <lb ed="#Q"/>toti Trinitati; ergo esse liber convenit toti Tri<lb ed="#Q"/>nitati.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3859">
+          <lb ed="#Q"/>4. Item, XX De civitate Dei, cap. 15 ": « Prae<lb ed="#Q"/>scientia
+          Dei, quae falli non potest, liber vitae
+          <lb ed="#Q"/>est'»; sed praescientia, quae falli non potest,
+          <lb ed="#Q"/>tota Trinitas est; ergo tota Trinitas est liber
+          <lb ed="#Q"/>vitae 8.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3872">
+          <lb ed="#Q"/>5. Si dicatur quod secundum rem tota Tri<lb ed="#Q"/>nitas
+          dicitur liber vitae, sed Filius per appropria<lb ed="#Q"/>tionem
+          '- contra: videtur quod potius Spiritui
+          <lb ed="#Q"/>Sancto debeat appropriari, quia liber iste dicitur
+          <lb ed="#Q"/>liber vitae, vita autem pertinet ad bonitatem,
+          <lb ed="#Q"/>bonitas autem " Spiritui Sancto appropriatur, quia
+          «Spiritus est, qui vivificat, Ioan. 6,64; ergo liber
+          <lb ed="#Q"/>vitae debet appropriari Spiritui Sancto. — Simi<lb ed="#Q"/>liter
+          videtur quod debeat appropriari Patri: pro<lb ed="#Q"/>prium
+          enim est libri continere scripturam ad me<lb ed="#Q"/>moriam
+          ; sed memoria appropriatur Patri; ergo
+          <lb ed="#Q"/>ei debet liber-appropriari.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3899">
+          <lb ed="#Q"/>Respondeo: 1-4. Liber potest duobus modis
+          <lb ed="#Q"/>considerari et eius intentio duobus modis ad di<lb ed="#Q"/>vina
+          transferri, scilicet quantum ad scriptionem
+          <lb ed="#Q"/>et quantum ad lectionem. Si consideratur quan<lb ed="#Q"/>tum
+          ad scriptionem, dicitur liber vitae notitia
+          <lb ed="#Q"/>expressa ab alio; si vero consideratur quantum
+          <lb ed="#Q"/>ad lectionem, sic dicitur liber vitae notitia ex<lb ed="#Q"/>pressa
+          ad alium. Primo modo convenit Filio quod
+          <lb ed="#Q"/>sit liber vitae, quia Filius est notitia expressa ab
+          <lb ed="#Q"/>alio 1, quia est imago'Patris et similitudo ex<lb ed="#Q"/>pressa;
+          et hoc modo loquitur illa Glossa, super
+          <lb ed="#Q"/>illud Psalmi: [n capite libri scriptum est de
+          <lb ed="#Q"/>meb etc.; convenit ergo hoc modoc soli Filio
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>quod sit liber vitae. Alio modo dicitur notitia ex<lb ed="#Q"/>pressa
+          ad alium: hoc modo tota Trinitas dicitur
+          <lb ed="#Q"/>liber vitae, quia connotat respectum ad creaturam.
+          — Et per hoc patet responsio ad obiecta.
+        </p>
+        <p xml:id="ahsh-l1p1i1t5s2q4t5m1c2-d1e3938">
+          <lb ed="#Q"/>5. Ad illud tamen quod obicitur de appro<lb ed="#Q"/>priatione:
+          dicendum quod Spiritus Sanctus di<lb ed="#Q"/>citur
+          donum vitae; quia ergo liber vitae dicit
+          <lb ed="#Q"/>potius notitiam vitae quam-donum vitae, potius
+          <lb ed="#Q"/>debet appropriari liber vitae Filio quam Spiritui
+          <lb ed="#Q"/>Sancto. — Ad illud quod obicitur quod ' debet
+          <lb ed="#Q"/>appropriari Patrid ratione memoriae ', dicendum
+          <lb ed="#Q"/>quod duplex est memoria: est enim quaedame
+          <lb ed="#Q"/>memoria non facta, quae est principium notitiae,
+          <lb ed="#Q"/>prima scilicet similitudo veritatis impressa in
+          <lb ed="#Q"/>anima, ex qua generatur notitia, et non est ab
+          <lb ed="#Q"/>alio aliquo quod sit in anima eof modo essendi
+          <lb ed="#Q"/>quo dicitur quod notitia est a memoria et amor sive
+          <lb ed="#Q"/>voluntas a notitia et memoria; alio modo dicitur
+          <lb ed="#Q"/>memoria facta quae sequitur ad notitiam. Memoria
+          <lb ed="#Q"/>ergo primo modo dictaä' appropriatur Patri, non
+          <lb ed="#Q"/>secundo modo; liber autem vitae dicitur ad simili<lb ed="#Q"/>tudinem
+          illius memoriae quae fit ex notitia: et ideo
+          <lb ed="#Q"/>non convenit Patri " quod ei approprietur liber
+          <lb ed="#Q"/>ratione memoriae, quia illa memoria, ad cuius
+          <lb ed="#Q"/>similitudinem dicitur liber, non appropriatur illi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

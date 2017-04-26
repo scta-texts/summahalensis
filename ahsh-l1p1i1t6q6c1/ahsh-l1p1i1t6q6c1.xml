@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 6, Q. 6, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-03-31">March 31, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+        <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+        </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-03-31" status="draft" n="0.0.0">
+        <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="407"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t6q6c1">
+        <head xml:id="ahsh-l1p1i1t6q6c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 6, Q. 6, C. 1</head>
+        <head xml:id="ahsh-l1p1i1t6q6c1-Hd1e3744" type="question-title">UTRUM POSSIT ESSE TALIS CONFORMATIO</head>
+        <p xml:id="ahsh-l1p1i1t6q6c1-d1e3778">
+          <lb ed="#Q"/>Ad primum sic: a. Psalm.: <quote xml:id="ahsh-l1p1i1t6q6c1-Qd1e3782">Exultate iusti.</quote>
+          <lb ed="#Q"/>Glossa: 3 « Quantum distat Deus et homo,
+          <lb ed="#Q"/>tantum distat-voluntas Dei et voluntas? hominis »;
+          <lb ed="#Q"/>sed non est possibilis conformatio Dei et ho<lb ed="#Q"/>minis;
+          ergo nec conformatio voluntatis hominis
+          <lb ed="#Q"/>ad voluntatem Dei.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c1-d1e3797">
+          <lb ed="#Q"/>b. Item; Isai. 55,9: Sicut exaltantur caeli ah
+          <lb ed="#Q"/>terra, ita exaltatae sunt viae meae a viis vestris
+          <lb ed="#Q"/>et cogitationes meae a cogitationibus vestris etc.
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c1-d1e3806">
+          <lb ed="#Q"/>Contra: 1. Non adhaesit mihi cor pravum 4 etc.
+          <lb ed="#Q"/>Glossasz « Voluntas Dei semper recta est, cui
+          <lb ed="#Q"/>debemus" conformari ut simus recti».
+        </p>
+        <p xml:id="ahsh-l1p1i1t6q6c1-d1e3815">
+          <lb ed="#Q"/>Respondeo: Est distantia duplex: essentialis et 
+          <lb ed="#Q"/>proportionalis. Distantia essentialis inter volun<lb ed="#Q"/>tatem
+          divinam et humanam est infinita: divina
+          <lb ed="#Q"/>enim voluntas est divina essentia, divina: es<lb ed="#Q"/>sentia
+          in infinitum excedit humanam voluntatem.
+          <lb ed="#Q"/>Sed loquendo de distantia proportionali, non est
+          <lb ed="#Q"/>distantia in infinitum et dicitur proportio per re<lb ed="#Q"/>lationem
+          voluntatis humanae ad divinam, sicut
+          <lb ed="#Q"/>dicitur homo bonus per relationem bonitatis suae
+          <lb ed="#Q"/>ad divinam. Voluntas enim Dei, ut est finis vo<lb ed="#Q"/>luntatis
+          hominis, non est voluntas absolute dicta,
+          <lb ed="#Q"/>sed ut est reg'ulansl hominis voluntatem secundum
+          <lb ed="#Q"/>sui complacentiam in opere sive in operis imita<lb ed="#Q"/>tione:
+          et sic non est inter haec distantia infinita.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

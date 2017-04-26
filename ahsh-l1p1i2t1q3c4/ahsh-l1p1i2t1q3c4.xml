@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 3, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-07">April 07, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-04-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="462"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q3c4">
+        <head xml:id="ahsh-l1p1i2t1q3c4-Hd1e3741">I, P. 1, Inq. 2, Tract. 1, Q. 3, C. 4</head>
+        <head xml:id="ahsh-l1p1i2t1q3c4-Hd1e3744" type="question-title">QUID NUMERATUR IN DIVINIS PERSONIS.</head>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3747">
+          <lb ed="#Q"/>Quarto quaeritur quid numeratur ibi, scilicet an
+          <lb ed="#Q"/>sit ibi numerus rationumq solum vel rerum.
+          <lb ed="#Q"/>Et si rerum, utrum relationum vel personarum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3756">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>I. Quantum ad primum obicitur sic: 1. In divinis
+          <lb ed="#Q"/>enim non est numerus qui ' sit ex differentia qua<lb ed="#Q"/>litatis
+          vel formae substantialis 8, sicut dictum est 5;
+          <pb ed="#Q" n="463"/>
+          <lb ed="#Q" n="a"/>
+          <lb ed="#Q"/>nec est ibi' numerus qui sit" ex differentia se<lb ed="#Q"/>cundum
+          accidens, quoniam ibi non est accidens 1;
+          <lb ed="#Q"/>ergo est ibi numerus solum qui est ex differen<lb ed="#Q"/>tia
+          secundum relationem; sed relatio nonb ponit
+          <lb ed="#Q"/>in numerum rei c, ubi totum est unum per essen<lb ed="#Q"/>tiam,
+          sed solum in numerum rationis. Quod pa<lb ed="#Q"/>tet
+          de puncto, qui est principium alicuius lineae
+          <lb ed="#Q"/>et finis alterius et medium duarum linearum con-'
+          <lb ed="#Q"/>tingens illas. Istae enim relationes circa punctum
+          <lb ed="#Q"/>non ponunt nisi differentiam rationumd et non
+          <lb ed="#Q"/>rei; ergo cum divinum esse totum unum sit per
+          <lb ed="#Q"/>essentiam, relatio non ponit ibi numerum nisi ra<lb ed="#Q"/>tionum.
+          — Item, si dicatur quod est ibif nu<lb ed="#Q"/>merus
+          pefsonarum propter ordinem originis quo
+          <lb ed="#Q"/>unus ex alio - contra: in trinitatef creata, quae
+          <lb ed="#Q"/>est mens, intelligentia, amor 2, est relatio originis,
+          <lb ed="#Q"/>quia a mente intelligentia et ab utroque amor, et
+          <lb ed="#Q"/>tamen ex hoc non est differentia hypostasum vel
+          <lb ed="#Q"/>personarum in anima, immo in una sola persona
+          <lb ed="#Q"/>invenitur haec trinitas. Relinquitur igitur quod
+          <lb ed="#Q"/>non erit numerus hypostasum vel personarum ibi
+          <lb ed="#Q"/>divinarum 3.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3819">
+          <lb ed="#Q"/>2. Secunda"! ratio. Ioannes Damascenus3
+          <lb ed="#Q"/>dicit quod in creaturis hypostases dividuntur sive
+          <lb ed="#Q"/>considerantur rei et commune ipsum conside<lb ed="#Q"/>raturk
+          ratione, in divino autem esse e converso,
+          <lb ed="#Q"/>quia hypostases considerantur ratione et1 ipsum
+          <lb ed="#Q"/>quod est ut commune re; ergo, secundum Da<lb ed="#Q"/>mascen
+          u m, numerus iste rationis est et non rei.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3838">
+          <lb ed="#Q"/>3. Tertia'" ratio. Dicendo Patrem, Filium et"
+          <lb ed="#Q"/>Spiritum Sanctum, non est repetitio nisi unius et
+          <lb ed="#Q"/>eiusdem rei, quia paternitas est divina essentia,
+          <lb ed="#Q"/>filiatio est divina essentia "; sed ubi est repetitio
+          <lb ed="#Q"/>unius et eiusdem rei non potest intelligi nume<lb ed="#Q"/>rus
+          rei4; ergo non est ibi numerus rei ", sed so<lb ed="#Q"/>lum
+          rationis.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3856">
+          <lb ed="#Q"/>Ad oppositum: a. Si solum esset ibi numerus
+          <lb ed="#Q"/>rationis et non rei, ex hoc'! sequeretur quod po—
+          <lb ed="#Q"/>sitio Trinitatis esset solum secundum intellectum 
+          <lb ed="#Q"/>et quod non esset Trinitas in re: quod est in<lb ed="#Q"/>conveniens
+          dicere.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3869">
+          <lb ed="#Q"/>II. Consequenter quaeritur an sit numerus re<lb ed="#Q"/>lationum
+          vel hypostasum, supposito, ut videbi<lb ed="#Q"/>tur, 
+          quod non solum sit ibi numerus rationis.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3878">
+          <lb ed="#Q"/>Ad quod sic: 1. Nos videmus in creaturis quod
+          <lb ed="#Q"/>pater differt a suo filio qualitate substantiali et
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>relatione, quia hic pater, ille filius"; in divinis
+          <lb ed="#Q"/>similiter Pater differt a Filio; aut ergo est diffe<lb ed="#Q"/>rentia
+          in qualitate aut in relatione. Non in qua<lb ed="#Q"/>litate,
+          quia ubi est differentia in qualitate, dico
+          <lb ed="#Q"/>substantiali, est differentia in essentiab; ergo est
+          <lb ed="#Q"/>ibi sola differentia relatione, quae facit differre
+          <lb ed="#Q"/>Patrem a Filio; solum ergo est ibi differentia re<lb ed="#Q"/>lationum
+          et non hypostasum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3904">
+          <lb ed="#Q"/>2. Secunda ratio. Boethius, in libro De Tri<lb ed="#Q"/>nitate
+          5: « Relatio multiplicat Trinitatem, substan—
+          <lb ed="#Q"/>tia vero continet unitatem». Igitur in Trinitate
+          <lb ed="#Q"/>divinarum personarum solum est numerus rela<lb ed="#Q"/>tionum
+          et non hypostasum, cum hypostasis sit
+          <lb ed="#Q"/>substantia. .
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3920">
+          <lb ed="#Q"/>Ad oppositum: a. Abstractis relationibus a per<lb ed="#Q"/>sonis
+          divinis, adhuc est differentia in ipsis 6, quia
+          <lb ed="#Q"/>adhuc iste non est ille: ut abstracta generatione
+          <lb ed="#Q"/>a Patre, scilicet quod non generet, et a Filio,
+          <lb ed="#Q"/>quod non generetur, adhuc intelligerem ego Pa<lb ed="#Q"/>trem
+          d, unum aliquem habentem divinam naturam,
+          <lb ed="#Q"/>similiter et Filium, 'unum aliquem ? habentem di<lb ed="#Q"/>vinamf
+          naturam; ergo adhuc intelligo unum et
+          <lb ed="#Q"/>unum habentem divinam naturam. Sed dicendo
+          <lb ed="#Q"/>unum habentem divinam naturam, dico hyposta<lb ed="#Q"/>sim
+          g ; ergo ibi intelligitur numerus hypostasum,
+          <lb ed="#Q"/>abstractis per intellectum relationibus.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e3950">
+          <lb ed="#Q"/>Solutio: Dicendum quod in divinis est nu<lb ed="#Q"/>merus
+          relationum et hypostasum et non solum
+          <lb ed="#Q"/>numerus rationis sive secundum rationem, quae
+          <lb ed="#Q"/>quidem ratio est positio nostri intellectus. — Et
+          <lb ed="#Q"/>istud probatur esse necessarium, sup<lb ed="#Q"/>posita
+          ratione et ordine originis in divinis. Nam
+          <lb ed="#Q"/>supposito ordine originis divinae naturae, ita sci<lb ed="#Q"/>licet
+          quod ipsa habeatur ab alio, necessario ha<lb ed="#Q"/>betur
+          differentia secundum relationem et hypo<lb ed="#Q"/>stasim
+          ", nihil detrahendo simplicitati divinae es<lb ed="#Q"/>sentiae.
+          Et hoc patet. Intelligenda enim divinam
+          <lb ed="#Q"/>naturam, necesse est quodi intelligatur in ha<lb ed="#Q"/>bente'f
+          illam; et si intelligamus eam in habente
+          <lb ed="#Q"/>illam ab alio, iam' intelligimus cum proprietate
+          <lb ed="#Q"/>incommunicabili, qua separatur ab habente eam
+          <lb ed="#Q"/>non ab alio ; et ex hoc introducitur differentia rela<lb ed="#Q"/>tionis,
+          ut'" patet, et differentia hypostasis, quia hy<lb ed="#Q"/>postasis
+          nihil aliud est quam res naturae sive ha<lb ed="#Q"/>bens
+          naturam sub discreta et incommunicabili pro<lb ed="#Q"/>prietate
+          6; ibi autem dico habere divinam naturam
+          <lb ed="#Q"/>sub duabus proprietatibus" incommunicabilibus,
+          <pb ed="#Q" n="464"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>ideo et duas hypostases. — Et quod etiam
+          « istud" sit necessarium patet: quia sup<lb ed="#Q"/>..
+          posito hoc ordine originis quod habeatur di<lb ed="#Q"/>'
+          vina natura ab alio, incontinenti distinguitur 'ha<lb ed="#Q"/>*
+          bens ab alio' ab eo a quo habet, aut" idem
+          <lb ed="#Q"/>i sibi ipsi esset principium ', quod est impossibile
+          <lb ed="#Q"/>intelligere. Unde Anselmus:: : Neque intellec<lb ed="#Q"/>tus
+          capit neque natura permittit illum qui de alio
+          <lb ed="#Q"/>est, esse illum de quo est ». Et sic in illo ordine
+          <lb ed="#Q"/>ratione proprietatum differentium incommunicabi<lb ed="#Q"/>lium
+          est differentia hypostasum.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e4024">
+          <lb ed="#Q"/>I. 1. Ad primam rationem in contrarium qua
+          ' ostenditur: quod 'ibi sit solum numerus secun<lb ed="#Q"/>dum
+          rationem ', dicendum quod duplex est relatio:
+          <lb ed="#Q"/>est enim " relatio accidentalis et est relatio origi<lb ed="#Q"/>nis,
+          quae est connaturalis '. Relatio accidentalis
+          <lb ed="#Q"/>est quae sequitur esse accidentium, ut aequalitas
+          <lb ed="#Q"/>in quantitate, similitudo in qualitate. Relatio au<lb ed="#Q"/>tem
+          originis, quae connaturalis est, estf duplex
+          * vel dupliciter: quia aut dicitur in iis quae sunt
+          <lb ed="#Q"/>substantiae vel substantia aut quae sunt accl<lb ed="#Q"/>dentia
+          sive de genere accidentium. Differentia
+          <lb ed="#Q"/>ergo relationis originis primo modo, quae scilicet
+          <lb ed="#Q"/>est in re substantiae, facit differentiam hyposta<lb ed="#Q"/>sum,
+          sicut visum est 3, et hoc est' quia hyposta<lb ed="#Q"/>H
+          sis semper est in re substantiae et substantiam
+          '» dicit; sed relatio originis, quae ponitur in rebus
+          : quae non sunt substantia, ut mens, notitia ', amor,
+          <lb ed="#Q"/>non potest facere differentiam hypostasum, cum
+          <lb ed="#Q"/>huiusmodi non sint substantia ; sed relatio originis
+          <lb ed="#Q"/>in divinis est rei quae est substantia, et ideo
+          <lb ed="#Q"/>differentia illius" relationis facit ibi differentiam
+          <lb ed="#Q"/>hypostasum. — Ad illud ergo quodl obicitur
+          <lb ed="#Q"/>quod 'differentia relationis in puncto non ponit
+          <lb ed="#Q"/>nisi differentiam rationis': dicendum quod rela<lb ed="#Q"/>tlo
+          illa in puncto est accidentalis et non est re<lb ed="#Q"/>latio
+          ordinis naturae, et de illa procedit ratio,
+          <lb ed="#Q"/>quae quidem est relatio secundum accidens. Et
+          ...fl hoc est quod dicit Hugo de S. Victore, in
+          "' suis Sententiis': . Cum anima interrogat se ipsam
+          <lb ed="#Q"/>il quare'f illa tria, quae in Trinitate reperta sunt,
+          ' personae dicantur, cum in semetipsa mens reperit
+          ,! tria nec tamen tres personas in se mentem ra<lb ed="#Q"/>!
+          "»,! tionaleni continere aut tribus personis constare
+          ä . animam rationalis' consideratio patiatur'h. Et
+          <lb ed="#Q"/>respondet: «Itaque, cum homo sit persona, hic
+          <lb ed="#Q"/>tantum quaedam affectiones'l sunt adhaerentes
+          <lb ed="#Q"/>personae et circa ipsam existentes inveniuntur,
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>personae inesse tantum. Cum autem quae" in
+          <lb ed="#Q"/>Deo sunt, aliud ab ipso esse non possunt, nec
+          <lb ed="#Q"/>quasi accidentia aut affectiones ex tempore mu<lb ed="#Q"/>tabiles
+          aut separabiles incommutabili essentiae »,
+          <lb ed="#Q"/>ideo vere sunt personae.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e4100">
+          <lb ed="#Q"/>2. Ad secundam rationem dicendum quod
+          'ratio' duobus modis dicitur: uno modo 'ratio'
+          <lb ed="#Q"/>dicitur ipsa acceptio quae est in collatione, alio
+          <lb ed="#Q"/>modo appellatur ' ratio ' illud quod accipitur in
+          <lb ed="#Q"/>collatione. Quando enim intellectus accipit rem
+          <lb ed="#Q"/>absolute, tunc dicitur" intelligere; sed quando
+          <lb ed="#Q"/>accipit ipsam ' in collatione, secundum quod con<lb ed="#Q"/>fert
+          unum alii, tunc" dicitur 'ratio '. Si ergo di<lb ed="#Q"/>catur
+          ' ratio ' ipse motus vel acceptio rei ab anima
+          <lb ed="#Q"/>in collatione, hoc modo non accipit Damasce—
+          <lb ed="#Q"/>n us ' ratlonem ', sed modo secundo. Unde non vult
+          <lb ed="#Q"/>dicere Damascenus quod solum consideren<lb ed="#Q"/>tur
+          divinaee personae ' ratione' quae sit motus
+          <lb ed="#Q"/>ipsius intellectus sive acceptio in collatione, sed
+          ' ratione' quae est ipsum acceptum ab intellectu
+          <lb ed="#Q"/>conierentef. Et haec 'ratio' res est, sicut dicimus
+          ' universale est ratio ', non quia ipsum sit acceptio
+          <lb ed="#Q"/>ipsa, sed est ' ratio ', id est ipsum acceptum ab
+          <lb ed="#Q"/>intellectu conferente, quia universale accipitur ab
+          <lb ed="#Q"/>intellectu in collatione, scilicet in multis, ipsum
+          <lb ed="#Q"/>tamen est res. Si' ergo «re considerantur hy<lb ed="#Q"/>postases
+          in creaturis », hoc dicit, quia absolute
+          <lb ed="#Q"/>considerantur lbi" ; in divinis dicuntur considerari
+          'ratione ', quia in collatione ipsarum ad invicem
+          <lb ed="#Q"/>est ibi acceptio ipsarum, quia Pater dicitur' qui non
+          <lb ed="#Q"/>ab alio, a quo Filius per generationem, et Filius
+          <lb ed="#Q"/>qui ab alio, a quo alius * per processionem. Ecce
+          <lb ed="#Q"/>collatio ipsarum hypostasum in distinguendo eas'
+          <lb ed="#Q"/>et discernendo; et sic dicuntur distingui 'ratione ',
+          <lb ed="#Q"/>quia earum distinctio" accipitur in collatione.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q3c4-d1e4159">
+          <lb ed="#Q"/>3. Ad tertiam rationem dicendum quod licet
+          <lb ed="#Q"/>divinum esse sit unum et idem per essentiam in
+          <lb ed="#Q"/>iis, est tamen ratio originis differens in iis, et
+          <lb ed="#Q"/>quantum ad illam venit ibi numerus hypostasum.
+          <lb ed="#Q"/>Et quod sit ibi relatio, patet, quia dicit Bo e-thi us,
+          <lb ed="#Q"/>in fine ]" libri De Trinitate 5, quod : sane scien<lb ed="#Q"/>dum"
+          est praedicativam relationem non semper
+          <lb ed="#Q"/>talem esse ut semper ad differens praedicetur, ut
+          <lb ed="#Q"/>servus ad dominum: differunt enim ». Et ponit
+          <lb ed="#Q"/>exemplum quomodo est relatio non semper dif<lb ed="#Q"/>ferentium,
+          sed eorum quae? sunt idem: «nam
+          <lb ed="#Q"/>omne" aequale aequali aequale est, et simile si<lb ed="#Q"/>mili
+          simile est', et idem ei quod est idem idem'
+          <lb ed="#Q"/>est; et similis relatio' in Trinitate Patris ad
+          <pb ed="#Q" n="465"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Filium et utriusque ad Spiritum Sanctum ut eius
+          <lb ed="#Q"/>quod est idem ad id quod est idem. Quod si in
+          <lb ed="#Q"/>cunctis aliis rebus non potest inveniri, facit id
+          <lb ed="#Q"/>cognata caducis rebus alteritas ». Et sic est ibi
+          <lb ed="#Q"/>relatio eiusdem ad idem neutraliter, hoc est quod
+          <lb ed="#Q"/>habet eamdem essentiam", tamen incommunica<lb ed="#Q"/>bilem
+          proprietatem, sicut habere naturam ab alio,
+          <lb ed="#Q"/>non habere'7 ab alio. Ex quo enim istud habetur
+          ' habens esse rationalis c naturae sub discreta
+          <lb ed="#Q"/>proprietate ', habetur tota ratio personae, et si
+          <lb ed="#Q"/>plures sunt habentes d, plures personae ; sed utrum
+          <lb ed="#Q"/>sit una vel differens substantia nihil detrahit pro<lb ed="#Q"/>prietati
+          veritatique personae, ut dicit R i c h ar d 11 s,
+          <lb ed="#Q"/>in libro De Trinitatel; et ita quamvis unum et
+          <lb ed="#Q"/>idem esse repetatur in illis, quia tamen est ratio
+          <lb ed="#Q"/>originis differens, a qua illud esse habetur sub in<lb ed="#Q"/>communicabilibus
+          proprietatibus, est ibi numerus 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>personarum-. Et si quaeritur quomodo potest istud
+          <lb ed="#Q"/>intelligi quod cum unitate essentiae sit plurali<lb ed="#Q"/>tas
+          personalis, respondet Richardus, in libro
+          <lb ed="#Q"/>De Trinitate 2, dicens: «Explica mihi, obsecro,
+          <lb ed="#Q"/>quomodopersonalis unitas sit in tantarum ' sub<lb ed="#Q"/>stantiarum
+          dissimilitudine et diversitate », sicut in
+          <lb ed="#Q"/>persona hominis, « et ego dicam tibif quomodo
+          <lb ed="#Q"/>substantiae unitas [sit]'in tantarumg personarum
+          <lb ed="#Q"/>similitudineh et aequalitate. Si experientia docet
+          <lb ed="#Q"/>aliquid esse supra intelligentiam tuam in humana
+          <lb ed="#Q"/>natura, nonne eo ipso te docuisse debeti aliquid
+          <lb ed="#Q"/>esse supra intelligentiam tuam in divina natura »?
+          <lb ed="#Q"/>Et vult dicere quod sicut in creatura humana unitas
+          <lb ed="#Q"/>personalis compatitur diversitatem Substantiarum,
+          <lb ed="#Q"/>sic in * divina natura unitas essentialis diversita<lb ed="#Q"/>tem
+          et numerum personarum3; et iste numerus
+          <lb ed="#Q"/>venit quantum ad rationem originis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

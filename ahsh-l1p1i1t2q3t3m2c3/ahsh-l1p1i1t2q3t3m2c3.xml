@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="79"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t2q3t3m2c3">
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c3-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 3, Mem. II, C. 3</head>
+        <head xml:id="ahsh-l1p1i1t2q3t3m2c3-Hd1e3732" type="question-title">AN IN CARNE ANTE INFUSIONEM ANIMAE POSSIT ESSE DEUS PER INHABITANTEM GRATIAM</head>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3735">
+          <lb ed="#Q"/>Tertio quaeritur an in carne ante infusionem
+          <lb ed="#Q"/>animae possit esse Deus 0 per gratiam inha<lb ed="#Q"/>bitantem
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3744">
+          <lb ed="#Q"/>Ad quod sic opponitur: 1. Luc! 1,41: Exul<lb ed="#Q"/>tavit
+          infans. Glossa3: «Nondum erat in ipso
+          <lb ed="#Q"/>spiritus vitae et iam inerat ' spiritus gratiae :; sed
+          <lb ed="#Q"/>in quibus est spiritus gratiae, inhabitat Deusf per
+          .gratiam; ergo ante infusionem animae erat in
+          <lb ed="#Q"/>Ioanneg per inhabitantem gratiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3757">
+          <lb ed="#Q"/>2. Item, lerem. 1,5: Priusquam te formarem
+          <lb ed="#Q"/>in utero novi te; sed duplex est" notitia Dei4:
+          <lb ed="#Q"/>prima est simplex qua cognoscit omnia, secunda
+          <lb ed="#Q"/>est notitia approbationis, de qua Matth. 25,12:
+          <lb ed="#Q"/>Non novi vas; sed non loquitur ad Ieremiam de
+          <lb ed="#Q"/>prima, quia illa est communis omnibus et ita non
+          <lb ed="#Q"/>esset commendatio'" Ieremiae; ergo de secunda;
+          <lb ed="#Q"/>ergo iam ante formationem approbabat; sed non
+          <lb ed="#Q"/>dicitur approbare nisi illos in quibus est per
+          <lb ed="#Q"/>inhabitantem gratiam *; ergo ante informatio<lb ed="#Q"/>nem'
+          corporis fuit in Ieremia per inhabitantem
+          <lb ed="#Q"/>gratiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3787">
+          <lb ed="#Q"/>3. Item, constans est quod caro illa, cum qua
+          <lb ed="#Q"/>unitur anima rationalis, est susceptibilis peccati,
+          <lb ed="#Q"/>quia est causa peccati in anima quae infunditur
+          <lb ed="#Q"/>illi; sed cuiCumque potest inesse peccatum, po<lb ed="#Q"/>test
+          inesse gratia; sed peccatum inest carni ut
+          <lb ed="#Q"/>causae, quia ab illa contrahit anima peccatum;
+          <lb ed="#Q"/>ergo potest inesse gratia a qua sanctificationem
+          <lb ed="#Q"/>contrahat anima; ergo Deus potest esse in carne
+          <lb ed="#Q"/>ante intusionem animae per inhabitantem gratiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3809">
+          <lb ed="#Q"/>4. Item, I Cor. 6,19: Nescitis quoniam membra
+          <lb ed="#Q"/>vestra templum sunt Spiritus Sancti? sed Spiri<lb ed="#Q"/>tus
+          Sanctus non dicitur inhabitare nisi per gra<lb ed="#Q"/>tiam;
+          ergo Spiritus Sanctus est in membris per 
+          <lb ed="#Q"/>gratiam inhabitantem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3822">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Contra: a. Differt esse et bene esse5; sed'" prius
+          <lb ed="#Q"/>est esse quam bene esse; ergo prius est perfici
+          <lb ed="#Q"/>in esse quam in bene esse"; sed anima quantum
+          <lb ed="#Q"/>ad esse perficit corpus, gratia vero quantum ad
+          <lb ed="#Q"/>bene esse; ergo necesse est prius animari car<lb ed="#Q"/>nem
+          quam sit gratiae susceptiva; ergo Deus non
+          <lb ed="#Q"/>potest inhabitare in carne per gratiam ante intu<lb ed="#Q"/>sionem
+          animae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3844">
+          <lb ed="#Q"/>b. Item, ordinatae" sunt gratia et natura; sicut
+          <lb ed="#Q"/>ergo se habet gratia ad naturam, ita se habet
+          <lb ed="#Q"/>vita gratiae ad vitam naturae; sed impossibile
+          <lb ed="#Q"/>est quod gratia sit, nisi praeexistat natura; ergo
+          'nec vita gratiae poterit existere, nisi praeexistat
+          <lb ed="#Q"/>vita naturae; ergo caro sine anima nonP est sus<lb ed="#Q"/>ceptiva
+          gratiae; ergo non est inhabitabilis a Deo
+          <lb ed="#Q"/>per gratiam ante infusionem animae.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3862">
+          <lb ed="#Q"/>c. Item, nihil pertinet ad gratiam quod non
+          <lb ed="#Q"/>pertineat ad gloriam, quia gratia est ordinata ad
+          <lb ed="#Q"/>gloriam; sed Augustinus quaerit de aborti<lb ed="#Q"/>vis.
+          sine anima an pertineant ad gloriam resur<lb ed="#Q"/>rectionis,
+          in libro De civitate Dei 5, et respondet
+          <lb ed="#Q"/>quod non, quia non ceciderunt per mortem. Unde
+          <lb ed="#Q"/>arguitur sic: nihil pertinet ad gloriam quod non
+          <lb ed="#Q"/>pertineat ad gratiam; ergo cum ante intusionem
+          <lb ed="#Q"/>animae caro non pertineat ad gloriam, non perti<lb ed="#Q"/>nebit
+          ad gratiam.; et ita non est inhabitabilis a
+          <lb ed="#Q"/>Deo per gratiam.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3888">
+          <lb ed="#Q"/>d. Item, '! Exod. 21,2: Si quis percusserit mu<lb ed="#Q"/>lierem
+          praegnantem etc. Distinguit ibi de abor<lb ed="#Q"/>tivis
+          ante animationem et post, et quasi ibi non
+          <lb ed="#Q"/>computat de inanimatis 7; ergo non sunt receptiva
+          <lb ed="#Q"/>gratiae ante animationem, quia si essent, compu<lb ed="#Q"/>tabilia
+          essent; nec etiam fit aliquis propter hoc
+          <lb ed="#Q"/>irregularis; et ita idem quod prius.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3907">
+          <lb ed="#Q"/>Solutio: Concedimus' quod caro ante infusio<lb ed="#Q"/>nem 
+          animae non est inhabitabilis a Deo per gra<pb ed="#Q" n="80"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tiam, 
+          quia non est susceptiva gratiae, cum non
+          <lb ed="#Q"/>sit ordinata ad gloriam. Caro enim de se non
+          <lb ed="#Q"/>habet possibilitatem ad perpetuitatem sive ad in<lb ed="#Q"/>corruptionem,
+          sed propter unionem quam habet
+          <lb ed="#Q"/>cum forma perpetua et incorruptibili", scilicet
+          <lb ed="#Q"/>anima rationali; unde etiam per illam accipit or<lb ed="#Q"/>dinationem
+          ad grati-am, si habet aliquam ordina<lb ed="#Q"/>tionem
+          ad gratiam. Caro ergo, quaeb non habet
+          <lb ed="#Q"/>ordinationem ad animam, non habet ordinationem
+          <lb ed="#Q"/>ad gratiam vel gloriam, sicut est: caro ante ani<lb ed="#Q"/>mationem.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3940">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad primum ergo" quod obi<lb ed="#Q"/>citur
+          « nondum erat in illo spiritus vitae » etc.
+          <lb ed="#Q"/>satis potest solutio perpendi, quia sicut dicitur in
+          <lb ed="#Q"/>textu ': Iam erat sextus mensis; ergo iam erate
+          <lb ed="#Q"/>corpus animatum. Dicendum ergo quod aliquando
+          <lb ed="#Q"/>dicitur res tunc' primo esse, cum primo innote—
+          <lb ed="#Q"/>scit 2, non esse, quando non innotescit; unde
+          <lb ed="#Q"/>Christus dicitur proficere in sapientia, Luc. 2,52,
+          <lb ed="#Q"/>quando innotuit eius profectus. Dicitur ergo non
+          <lb ed="#Q"/>essef spiritus vitae secundum motum et manife<lb ed="#Q"/>stationem, 
+          quamvis secundum veritatem intus vi<lb ed="#Q"/><lb ed="#Q"/>vetet.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3970">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod notitia approba<lb ed="#Q"/>tionis
+          dicitur dupliciter: secundum praedestina<lb ed="#Q"/>tionem,
+          et sic nihil boni ponit actu; vel secun<lb ed="#Q"/>dum
+          praesentem iustitiam, cum aliquis cognosci<lb ed="#Q"/>tur
+          per gratiam praesentis iustitiae. Primo modo
+          <lb ed="#Q"/>accipitur notitia Ieremiae. Undei' Bernardusa:
+          « Pulcre inter figurationem in utero et parturitio<lb ed="#Q"/>nem
+          ex utero divinum distinxit oraculum, ut illam
+          <lb ed="#Q"/>tantum praecognitam, istam sanctitatis munere
+          <lb ed="#Q"/>formatam ostenderet ». Sed de notitia approba<lb ed="#Q"/>tionis
+          secundo modo accipitur illud quod sequi<lb ed="#Q"/>tur 
+          in auctoritate Ierem.-*: Et antequam exires
+          <lb ed="#Q"/>de ventre sanctificavi te. Unde subdit Bernar<lb ed="#Q"/>dus5:
+          . Ne quis praerogativam Prophetae puta—
+          <lb ed="#Q"/>verit de sola praescientia aestimandam ».
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e4003">
+          <lb ed="#Q"/>3. Ad aliud quod obicitur quod 'caro erat
+          <lb ed="#Q"/>susceptibilis peccati, ergo gratiae': dicendum quod
+          <lb ed="#Q"/>peccatum non dicitur esse in carne formaliter, sed
+          <lb ed="#Q"/>causaliter, quia in carne est unde postea contrahit
+          <lb ed="#Q"/>anima peccatum. Sed tamen aliter se habet anima
+          <lb ed="#Q"/>ad contrahendum peccatum, aliter ad sanctifica<lb ed="#Q"/>tionem'l
+          sive ad suscipiendam gratiam. Potest
+          <lb ed="#Q"/>enim corrumpi caro dupliciter: vel corruptione
+          <lb ed="#Q"/>naturae vel personae. Verbi gratia, caro Adae
+          <lb ed="#Q"/>statim ex peccato corrupta fuit; unde fecit sibi
+          <lb ed="#Q"/>perizomata 5. Persona autem, secundum quod dicit
+          <lb ed="#Q"/>Anselmus ", corrupit naturam, quia caro illa in
+          <lb ed="#Q"/>potentia erat caro omnium hominum, et sua pro<lb ed="#Q"/>pria
+          caro erat ibii persona; ergo primo corrupit
+          <lb ed="#Q"/>naturam, natura corrupta postea corrupit perso<lb ed="#Q"/>nam,
+          scilicet filiorum. Nos autem habemus du<lb ed="#Q"/>plicem
+          corruptionem, scilicet ex Adam et ex ac<lb ed="#Q"/>tuali
+          peccato; unde duobus modis inficitur caro
+          <lb ed="#Q"/>a peccato. Sed uno modo habet sanctificari a
+          <lb ed="#Q"/>gratia *, scilicet solum ratione personae; unde in
+          <lb ed="#Q"/>persona solum potest fieri sanctificatio et hoc
+          <lb ed="#Q"/>illo ordine quo se habet ad personam '. Gratia
+          <lb ed="#Q"/>autem nunquam transfunditur per naturam, quia
+          <lb ed="#Q"/>non habet ordinem ad illam, sed solum ad per<lb ed="#Q"/>sonam;
+          unde'" ante animationem non potest esse
+          <lb ed="#Q"/>sanctificatio.
+        </p>
+        <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e4062">
+          <lb ed="#Q"/>4. Unde secundum hoc Apostolus8 prcprie lo<lb ed="#Q"/>quitur:
+          Nescitis quoniam membra vestra etc., quia
+          <lb ed="#Q"/>ex hoc quod corpus habet animam, ex hoc habet
+          <lb ed="#Q"/>Spiritum Sanctum inhabitantem per gratiam ".
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

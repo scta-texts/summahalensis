@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, Tract. Intro., Q. 1, c. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>I, Tract. Intro., Q. 1, c. 2</title>
+          <date when="2017-02-07">February 07, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>Early Franciscan Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="4"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1tinq1c2">
+        <head xml:id="ahsh-l1tinq1c2-Hd1e3729">I, Tract. Intro., Q. 1, c. 2</head>
+        <head xml:id="ahsh-l1tinq1c2-Hd1e3732" type="questionTitle">DE DISTINCTIONE DOCTRINAE SACRAE AB ALIIS SCIENTIIS.</head>
+        <p xml:id="ahsh-l1tinq1c2-d1e3735">
+          Consequenter quaeritur de distinctione doctrinae 
+          <lb ed="#Q"/>sacrae ab aliis scientiis 4. Quaeritur ergo si
+          <lb ed="#Q"/>doctrina Theologiae sit sicut una aliarum scien<lb ed="#Q"/>tiarum,
+          vel comprehendat ipsas, vel comprehen<lb ed="#Q"/>datur
+          in illis ut alicui parti Philosophiae sup»
+          <lb ed="#Q"/>ponatur.
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3748">
+          <lb ed="#Q"/>Ad quod obicitur sic: 1. Eccli. 1,1: Omnis
+          <lb ed="#Q"/>sapientia a Domino Deo est; ergo omnis sapien<lb ed="#Q"/>tia
+          seu scientia est theologica vel " divina, quia
+          <lb ed="#Q"/>theologica scientia non est aliud quam scientia
+          <lb ed="#Q"/>divina.
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3761">
+          <lb ed="#Q"/>2. Item, theologica sive divina scientia aut di<lb ed="#Q"/>citur
+          divina quia a Deo: ,et, tunc omnis alia
+          <lb ed="#Q"/>scientia est. divina; aut diciturdivina ' quia est
+          <lb ed="#Q"/>de Deo: et secundum hoc Philosophia Prima est
+          <lb ed="#Q"/>divina et theologica, quia «est (ie-Deo.; erit igitur
+          <lb ed="#Q"/>sacra Scriptura scientia sicut aliae vel-sicut Prima<lb ed="#Q"/>Philosophia.
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3780">
+          <lb ed="#Q"/>3. Item, si dicatur divina quia a Spiritu di-J
+          <lb ed="#Q"/>vino edita, obicitur: quia « omne verum, a quo<lb ed="#Q"/>cumque
+          dicatur, a Spiritu Sancto est» verum,
+          <lb ed="#Q"/>sicut dicit (ilossa'j super illud I Cor. 12,3:
+          <lb ed="#Q"/>Nemo potest dicere: Dominus Iesus etc.; ergo
+          <lb ed="#Q"/>omnis veritas cuiuscumque scientiae est edita a
+          <lb ed="#Q"/>Spiritu Sancto; ergo, cum Theologia sit scientia a
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>
+          <lb ed="#Q"/>Spiritu divino'f edita, erit omnis alia scientia
+          <lb ed="#Q"/>theologica.
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3806">
+          4. Item, si theologica seu divina dicatur quia
+          <lb ed="#Q"/>per divinam revelationem habita, obicitur: Rom.
+          1,19,»ubi,lo.quitur de cognitione philosophorum
+          <lb ed="#Q"/>quam habuerunt, de Deo: Quod notum est Dei ma—
+          <lb ed="#Q"/>nifestum est in ' illis: Deus enim illis revelavitö;
+          <lb ed="#Q"/>ergo, cognitio,, philosophica de Deo iuit habita
+          <lb ed="#Q"/>per revelationem; ergo est !" theologica.
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3819">
+          Ex iis ergo rationibus videtur relinqui quod
+          <lb ed="#Q"/>Theologia sit sicut una scientiarum, connumera—
+          <lb ed="#Q"/>bilis inter alias. . '
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3826">
+          <lb ed="#Q"/>Contra: a. Omnis, humana scientia est acqui<lb ed="#Q"/>sita
+          per inventionem vel " doctrinam; sed theo—
+          <lb ed="#Q"/>logica disciplina :est inspirata,- non acquisita,
+          <lb ed="#Q"/>quantum ad editionem, sicut dicitur 11 Tim. 3, 16 7;
+          <lb ed="#Q"/>ergo non est sicut una ex aliis. .
+        </p>
+        
+        <p xml:id="ahsh-l1tinq1c2-d1e3839">
+          b. Item, omnes humanae scientiae fundantur su<lb ed="#Q"/>per
+          testimonium creaturae, ex quo colligitur ex<lb ed="#Q"/>perimentum,
+          sicut dicit Philosophus, in Me—
+          <lb ed="#Q"/>taphysiciss: «Omnis scientia et ars per expe<lb ed="#Q"/>rientiam
+          accidit: experientia enim iecit artem »;
+          <lb ed="#Q"/>sed theologica doctrina fundatur super testimo<lb ed="#Q"/>nium
+          fidei, ls. 7, 9 secundum aliam litteram 9:
+          <lb ed="#Q"/>Nisi credideritis, 'non Intelligetis; ergo non est 
+          <lb ed="#Q"/>sicut aliae scientiae.
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3859">
+          <pb ed="#Q" n="5"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>c. Item, I Cor. 2,7: Sapientiam loquimur" in
+          <lb ed="#Q"/>mysterio, quae abscondita est.'Glossali « Ut
+          <lb ed="#Q"/>nesciant pseudo .», «quia non est " in verbis, sed in
+          <lb ed="#Q"/>virtute, non" humana ratione comprehensibilis ",
+          <lb ed="#Q"/>sed Spiritus efficacia credibiliszn; ergo non est
+          <lb ed="#Q"/>sicut aliae scientiae.<lb ed="#Q"/>
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3882">
+          d. Item, Hugo de S.Victor'e3: Aliaesclen<lb ed="#Q"/>tiae 
+          sunt « de operibus conditionis, quae * scili<lb ed="#Q"/>cet
+          apparent in rerum natura.; Theologia vero est
+          <lb ed="#Q"/>det operibus reparationis », quae apparent ex
+          <lb ed="#Q"/>fide, non in'rerum natura seu in humana ra<lb ed="#Q"/>tione,
+          sicut dicitur super illud Rom. l,19: Quod
+          <lb ed="#Q"/>notum est Dei 4, « id est quod de Deo noscibile
+          <lb ed="#Q"/>est per naturalem rationem, quia multa suntf quae
+          <lb ed="#Q"/>de Deo sciri per naturam'non possunt »; ergo
+          <lb ed="#Q"/>non est connumerabilis B' inter alias scientias.
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3904">
+          <lb ed="#Q"/>e. Item, in aliis scientiis sunt solum significa<lb ed="#Q"/>tiones
+          verborum, in1hac autem sunt non solum
+          <lb ed="#Q"/>significationes verborum, sed etiam '1 rerum 5, Gal.
+          4,22: Scriptum est quoniam Abraham duos filios
+          <lb ed="#Q"/>habuit; et sequitur ' 6: Quae sunt per allegoriam
+          <lb ed="#Q"/>dicta ; et I Cor. 2,7:-'Loquimur sapientiam * in
+          <lb ed="#Q"/>mysterio; Glossa 7: « Exponendo mysteria Ve<lb ed="#Q"/>teris
+          Testamenti, in quibus Christus significatur,
+          <lb ed="#Q"/>ut in hostia' Abel vel Abrahae ». .
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3924">
+          f. Item, omnes aliae scientiae traduntur se<lb ed="#Q"/>cundum
+          ordinem ratiocinationis a principiis ad
+          <lb ed="#Q"/>conclusiones, quibus doceatur intellectus, non '"
+          <lb ed="#Q"/>moveatur affectus; sed Scriptura sacra traditur
+          <lb ed="#Q"/>secundum ordinem'informati'onls practicae prin<lb ed="#Q"/>cipiorum
+          ad operationes, ut moveatur affectus
+          <lb ed="#Q"/>secundum timorem et amorem ex fide iustitiae et
+          <lb ed="#Q"/>misericordiae Dei.,Unde Deut. 6, 5: Diliges Domi<cb ed="#Q" n="b"/><lb ed="#Q"/>num 
+          Deum tuum etc.; et infra: Dominum Deum
+          <lb ed="#Q"/>tuum timebis etc.; et Exod. 20,5: Ego sum Deus
+          <lb ed="#Q"/>zelotes, vindicans etc. et faciens misericordias etc.
+          [Solutio]: Ex iis igitur sequitur quodTheolo<lb ed="#Q"/>gia
+          non est sicut alia scientia, nec connumera<lb ed="#Q"/>bitur
+          inter alias, ut alicui parti Philosophiae sup<lb ed="#Q"/>ponatur.
+          Quod concedendum est.
+        </p>
+        <p xml:id="ahsh-l1tinq1c2-d1e3956">
+          1—4. Ad obiecta autem respondendum hoc mo<lb ed="#Q"/>do:
+          quoniam doctrina sacra dicitur divina seu
+          <lb ed="#Q"/>theologica, quia a Deo et de Deo et " ductiva ad
+          <lb ed="#Q"/>Deum. -— ' A Deo ': quod convenit aliis scientiis,
+          <lb ed="#Q"/>sed tamen non " hoc modo convenit sacrae Scriptu<lb ed="#Q"/>rae;
+          Est enim verum ut verum, et est verum ut
+          <lb ed="#Q"/>bonum; utrumque est a Spiritu Sancto. Sed cum
+          <lb ed="#Q"/>accipitur verum ut bonum, illud bonum aut est
+          -ut bonum morale aut ut bonum gratuitum. Si
+          <lb ed="#Q"/>gratuitum: sic est assimilatio ad Spiritum Sanc<lb ed="#Q"/>tum,
+          qui est bonitas; et ideo huiusmodi acceptio
+          <lb ed="#Q"/>est et Spiritu Sancto per modum ipsius: hinc est
+          .quod antonomastice dicitur haec doctrina edita
+          <lb ed="#Q"/>a Spiritu Sancto. In aliis vero scientiis, speculati—
+          <lb ed="#Q"/>vis scilicet, est acceptio veri ut veri et? etiam boni
+          <lb ed="#Q"/>ut veri '1 ; in practicis autem moralibus, etsi sit
+          <lb ed="#Q"/>acceptio veri ut boni, non tamen utïboni gratuiti,
+          <lb ed="#Q"/>sed moralis: unde non dicuntur editae a Spiritu
+          <lb ed="#Q"/>Sancto. -— Item, ' de Deo ' dicitur esse ista scien<lb ed="#Q"/>tia
+          et non sicut aliae scientiae, velut Prima Philo<lb ed="#Q"/>sophia,
+          quia non agunt de Deo secundum myste<lb ed="#Q"/>rium
+          Trinitatis vel secundum sacramentum huma<lb ed="#Q"/>nae
+          reparationis. - Item, ' ductiva ad Deum 1: per
+          <lb ed="#Q"/>principium timoris et amoris ex fide misericordiae
+          <lb ed="#Q"/>et iustitiae Dei; quod non convenit alicui ex aliis '
+          <lb ed="#Q"/>scientiis. - Et per hoc patet solutio ad obiecta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
+

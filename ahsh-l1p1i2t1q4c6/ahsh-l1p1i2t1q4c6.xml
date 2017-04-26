@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-09">April 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-09" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="478"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i2t1q4c6">
+        <head xml:id="ahsh-l1p1i2t1q4c6-Hd1e115">I, P. 1, Inq. 2, Tract. 1, Q. 4, C. 6</head>
+        <head xml:id="ahsh-l1p1i2t1q4c6-Hd1e118" type="question-title">AN PERSONA HABENS ORIGINEM AB ALIA HABET SIMILITER ORIGINEM A PRIMA IMMEDIATE.</head>
+        <p xml:id="ahsh-l1p1i2t1q4c6-d1e121">
+          <lb ed="#Q"/>Sexto quaeritur, supposito quod Spiritus Sanctus
+          <lb ed="#Q"/>procedat a Patre et an Filio,. utrum ita pro<lb ed="#Q"/>cedat
+          a Filio quod mediate tantum procedat a
+          <lb ed="#Q"/>Patre ve1" immediate.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c6-d1e132">
+          <lb ed="#Q"/>Ad quod sic: 1. Si aliqua duarum procederet im<lb ed="#Q"/>mediate
+          tantum a' prima, non coniungeretur alia"
+          <lb ed="#Q"/>primae nisi per medium; ergo in ordine naturae d
+          <lb ed="#Q"/>plus communicaret cum secunda quam cum pri<lb ed="#Q"/>ma;
+          non ergo esset in divinis personis summa ger<lb ed="#Q"/>manitas
+          et connexio; si ergo summus ordo, qui est
+          <lb ed="#Q"/>in divinis personis, requirit summam connexionem
+          <lb ed="#Q"/>in illis, constat quod Spiritus Sanctus ita procedit a
+          <lb ed="#Q"/>Patre et Filio, quod a Patre procedit immediate *.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c6-d1e154">
+          <lb ed="#Q"/>2. Secunda ratio. Magis conveniunt quaef sine
+          <lb ed="#Q"/>medio conveniunt quam quae cum medio. Si ergo
+          <lb ed="#Q"/>in divinis personis est summa convenientia, relin<lb ed="#Q"/>quitur
+          quod non est ibi processio aliqua solum
+          <lb ed="#Q"/>per medium; non est ergo aliqua persona quae
+          <lb ed="#Q"/>tantum mediate procedat a prima E.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c6-d1e171">
+          <lb ed="#Q"/>Ad oppositum: a. Inter esse non ab alio " a quo
+          <lb ed="#Q"/>alius et esse ab alio a quo! nullus medium est
+          <lb ed="#Q"/>esse ab alio et quo alius ordine naturae. Si ergo
+          <lb ed="#Q"/>iste ordo sit in Trinitate — quia ibi est esse non
+          <lb ed="#Q"/>ab alio a quo alius, scilicet Pater, et essek ab
+          <lb ed="#Q"/>alio a quo nullus, scilicet Spiritus Sanctus, et
+          <lb ed="#Q"/>esse' ab alio a quo alius, scilicet Filius — ergo
+          <lb ed="#Q"/>non procedit Spiritus Sanctus immediate a Patre,
+          <lb ed="#Q"/>sed mediante Filio.
+        </p>
+        <p xml:id="ahsh-l1p1i2t1q4c6-d1e193">
+          <lb ed="#Q"/>Solutio: Dicendum, secundum R i e h a r d u tu
+          <lb ed="#Q"/>de S. Victore, in libro De Trinitate ", dicen<lb ed="#Q"/>tem
+          quod '" persona de persona procedit multipli<lb ed="#Q"/>citer: 
+          « quandoque " immediate tantum 0, quando<lb ed="#Q"/>que 
+          mediate tantum, quandoque mediate et im<lb ed="#Q"/>mediate
+          ». Verbi gratia, de Adam producitur Eva P,
+          <lb ed="#Q"/>Seth, Enoch; sed Eva producitur de Adam im<lb ed="#Q"/>mediate
+          tantum; Enoch mediate tantum, quia
+          <lb ed="#Q"/>mediante Seth, quia fuit filius Seth; Seth vero
+          <lb ed="#Q"/>utroque modo, scilicet mediate et immediate: ima
+          <lb ed="#Q"/>mediate processit de semine Adae, « in quantum
+          <lb ed="#Q"/>fuit de proprio semine, mediate, in quantum fuit
+          <lb ed="#Q"/>de semine Evae », quia Eva ab Adam. Mediata
+          <lb ed="#Q"/>vero tantum productio non potest esse in. divinis,
+          <lb ed="#Q"/>quia tunc non esset summus ordo nec summa
+          <lb ed="#Q"/>connexio in eis, immo confunderet ordinem et
+          <lb ed="#Q"/>connexionem, ut visum est 2, et summam germa<lb ed="#Q"/>nitatem.
+          Solum ergo aliae duaefl productiones
+          <lb ed="#Q"/>sunt in divinis ' : productio immediata tantum est
+          <lb ed="#Q"/>productio Filii a Patre, nec potest convenire pro—
+          <lb ed="#Q"/>ductio immediata tantum nisi uni soli 8, sicut vi<lb ed="#Q"/>sum
+          est 3. Relinquitur ergo quod mediata et im<lb ed="#Q"/>mediata
+          est processio Spiritus Sancti a Patre:
+          <lb ed="#Q"/>immediata in quantum a Patre, mediata' in
+          <lb ed="#Q"/>quantum a Filio, qui a Patre est; est igitur
+          <lb ed="#Q"/>ordo in divinis secundum immediationem tan<lb ed="#Q"/>tum
+          inter Patrem et Filium, secundum vero
+          <lb ed="#Q"/>mediationem et immediationem Spiritus Sancti
+          <lb ed="#Q"/>ad Patrem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

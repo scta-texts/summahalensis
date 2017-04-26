@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 1, Q. 5, M. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-21">April 21, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-21" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="553"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t1q5m1c4">
+        <head xml:id="ahsh-l1p2i2t1q5m1c4-Hd1e118">I, P. 2, Inq. 2, Tract. 1, Q. 5, M. 1, C. 4</head>
+        <head xml:id="ahsh-l1p2i2t1q5m1c4-Hd1e121" type="question-title">UTRUM RESPECTUS CONNOTATUS SIT IN CREATORE VEL IN CREATURA.</head>
+        <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e124">
+          <lb ed="#Q"/>Quarto quaeritur utrum respectus connotatus
+          <lb ed="#Q"/>sit in Creatore vel in" creatura. Et ad maio<lb ed="#Q"/>rem
+          evidentiam quaeruntur tria:
+          <lb ed="#Q"/>' Primo, utrum divina essentia referatur ad crea<lb ed="#Q"/>turam;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundo, utrum ille respectus, qui connotatur
+          <lb ed="#Q"/>in ' Domino ' " vel ' Creatore ', sit in creatura vel
+          <lb ed="#Q"/>in Deo;
+          <lb ed="#Q"/>tertio, an similis sit ratio in respectu huius no<lb ed="#Q"/>minis
+          'Dominus' et huius nominis *Creator'.
+        </p>
+        <div xml:id="ahsh-l1p2i2t1q5m1c4-Dd1e150" type="articulus">
+          <head xml:id="ahsh-l1p2i2t1q5m1c4-Hd1e152">ARTICULUS 1</head>
+          <head xml:id="ahsh-l1p2i2t1q5m1c4-Hd1e155" type="question-title">Utrum divina essentia referatur ad creaturam.</head>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e158">
+            - Ad primum sic: a. « In causa-lia et causato non
+            <lb ed="#Q"/>recipimus reciprocationem », sicut dicit Diony<lb ed="#Q"/>siuszz
+            causatumb enim refertur ad causam, sed
+            <lb ed="#Q"/>non e converso, quia causa nOn dependet; ergo
+            <lb ed="#Q"/>cum divina essentia causa sit, creatura causatum 0,
+            <lb ed="#Q"/>non refertur divina essentia ad creaturam.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e171">
+            <lb ed="#Q"/>b. Praeterea, si refertur, ille respectus in ipsa
+            <lb ed="#Q"/>est. Sed tunc quaeritur: ille, respectus aut estd ae<lb ed="#Q"/>ternus
+            aut temporalis. Si aeternus: ergo creatura
+            <lb ed="#Q"/>est aeterna; respectus enim ad creaturamactualis
+            <lb ed="#Q"/>ponit creaturam. Si temporalis: ergo ex tempore
+            <lb ed="#Q"/>est in Deo et ante non fuit; ergo alioe modo se
+            <lb ed="#Q"/>habuit Deus quam prius; ergo mutatus est: quod
+            <lb ed="#Q"/>enim alio modo se habet quam prius, mutatur;
+            <lb ed="#Q"/>sed utrumque falsum est: quodf creatura aeterna
+            <lb ed="#Q"/>et quod Deus mutatus sit; ergo non est respectus
+            <lb ed="#Q"/>in Deo; ergo non refertur ad creaturam.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e197">
+            <lb ed="#Q"/>Contra: 1. Relativorumg esse est ad aliud se 
+            <lb ed="#Q"/>habere3; sed *Dominus? et ' Creator' relativum
+            <lb ed="#Q"/>est; ergo se habet ad aliud ; ergo dico relationem
+            <lb ed="#Q"/>de .Deo, et ita esse ad aliud; ergo refertur.
+            , 2. Item, cum dico "Dominus est '! Creator *, aut
+            <lb ed="#Q"/>dico in relatione aut in habitudine. Constat quod
+            <lb ed="#Q"/>in habitudine; ergo sei habet ad creaturam; ergo
+            <lb ed="#Q"/>refertur ad creaturam. - Item-, Au gustinus4:
+            « Deus dicitur Dominus sicut nummus dicitur pre<lb ed="#Q"/>tium»;
+            sed nummus, per hoc quod dicitur vel
+            <lb ed="#Q"/>fit pretium, referturk vel dicitur in relatione ad
+            <lb ed="#Q"/>aliud; ergo et Deus, per hoc quod' 'Dominus ,,
+            <lb ed="#Q"/>in relatione ad aliud.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e224">
+            <lb ed="#Q"/>Respondeo: Notandum quod relatio seu habi<lb ed="#Q"/>tudo
+            relativorum aliquando fundatur super du<lb ed="#Q"/>plicem
+            respectum 5, ut cum dicitur 'isti sunt
+            <lb ed="#Q"/>amici ', aliquando super unicum. In primo casu
+            <lb ed="#Q"/>utrumque relativorum refertur et dicitur relative,
+            <lb ed="#Q"/>in secundo unum tantum refertur, tamen utrum<lb ed="#Q"/>que
+            dicitur relative et hoc provenit ex duplici
+            <lb ed="#Q"/>collatione intellectus: sicut enim intelligimus,
+            <lb ed="#Q"/>sic significamus. Huiusmodi relativa sunt causa
+            <lb ed="#Q"/>et causatum: causa, dico, perfecta quae perficit
+            <lb ed="#Q"/>suum causatum et non perficitur ab. ipso ", qualis
+            <lb ed="#Q"/>est prima causa. Dicendum ergo breviter quod
+            <lb ed="#Q"/>divina essentia nen refertur ad creaturam, sed e
+            <lb ed="#Q"/>converso, quia non dependet a creatura, sed crea<lb ed="#Q"/>tura
+            ab ea; unde habitudo huiusmodi fundatur
+            <lb ed="#Q"/>in unico respectu, qui est in creatura 6; tamen di<lb ed="#Q"/>vina
+            essentia, prout significatur per haec nomina
+            ' Dominus, Creator' et huiusmodi, relative dicitur
+            <lb ed="#Q"/>propter collationem intellectus, tamen non refer<lb ed="#Q"/>tur,
+            quia non dependet.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e268">
+            <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud autem" quod obici<lb ed="#Q"/>tur
+            quod 'relativorum esse' etc.: dicendum quod
+            <lb ed="#Q"/>hoc verum est 0 de relativis quae relativa sunt in
+            <lb ed="#Q"/>essendo; sed cum dicitur Deus *Dominus vel Crea<lb ed="#Q"/>tor',
+            'Dominus' et? 'Creator* relativa sunt in
+            <lb ed="#Q"/>dicendo, sed non in essendo. Unde horum est
+            <lb ed="#Q"/>mutua relatio in dicendo, non in essendo 4.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e286">
+            <lb ed="#Q"/>2. Ad aliud dicendum quod verum est quod
+            <lb ed="#Q"/>Deus dicitur in habitudine, non tamen eo quod
+            <lb ed="#Q"/>se habeat ad creaturam, sed'e converso.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i2t1q5m1c4-Dd1e296" type="articulus">
+          <head xml:id="ahsh-l1p2i2t1q5m1c4-Hd1e298">ARTICULUS II.</head>
+          <head xml:id="ahsh-l1p2i2t1q5m1c4-Hd1e301" type="question-title">Utrum respectus connotatus in 'Domina' vel 'Creatore' sit in creatura vel in Deo.</head>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e304">
+            <lb ed="#Q"/>Consequenter quaeritur utrum respectus con<lb ed="#Q"/>notatus
+            sit in Deo vel in creatura 7.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e311">
+            <lb ed="#Q"/>Ad quod sic: 1. Cum dicitur ' Deus" est Creator,
+            <lb ed="#Q"/>Deus est Dominus ', ista nomina significant ha<lb ed="#Q"/>bitudinem
+            Dei ad creaturas; cum ergo relatio et
+            <lb ed="#Q"/>correlatio oppositae sint habitudines 8, non pote<lb ed="#Q"/>runt
+            simul esse in eodem; sed relatio creaturae
+            <cb ed="#Q" n="b"/>
+            ad Deum est in creatura; ergo sua correlatio erit 
+            <lb ed="#Q"/>in Creatore; erit ergo in Deo; cum ergos utra<lb ed="#Q"/>que 
+            sit accidens, erit accidens in Deo.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e331">
+            2. Si autem dicatur quod praedicatur divina
+            <lb ed="#Q"/>essentia de Deo et compraedicatur relatio de crea<lb ed="#Q"/>tura
+            -' tunc quaeritur: illa relatio aut est in
+            <lb ed="#Q"/>Deo aut in creatura. Si in Deo: ergof falsa est
+            <lb ed="#Q"/>propositio quae dicit quod Deus est Dominus,
+            <pb ed="#Q" n="555"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>quia praedicatur creatura de Deo; si" in crea<lb ed="#Q"/>tura:
+            ergo nihil praedicatur ibi de Deo nisi di<lb ed="#Q"/>vina
+            essentia.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e354">
+            <lb ed="#Q"/>3. Praeterea, illa relatio significatur in rectitu<lb ed="#Q"/>dine:
+            quare debet attribui substantiae significatae
+            <lb ed="#Q"/>in rectitudine. Eadem quaestio est de actione si—
+            <lb ed="#Q"/>gnificata per hoc verbum *creat ', cum dicitur
+            ' Deus creat '.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e365">
+            <lb ed="#Q"/>4. Praeterea, actio et passio opposita ad invicem
+            <lb ed="#Q"/>dicuntur'; huic ergo actioni respondet passio.
+            <lb ed="#Q"/>Quaeritur ergo: in quo est passio opposita huic
+            <lb ed="#Q"/>actioni ? subiectum enim passionis non est factum,
+            <lb ed="#Q"/>sed materia eiusb ; cum igitur creatura non fiat
+            <lb ed="#Q"/>ex materia, non potest esse in creatura passio,
+            <lb ed="#Q"/>quare neque actio.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e383">
+            <lb ed="#Q"/>5. Item, Augustinuszc « Sicut nummus pre<lb ed="#Q"/>tium
+            dicitur, sic Deus Dominus »; sed relatio, qua
+            <lb ed="#Q"/>nummus dicitur pretium, est in nummo; ergo re<lb ed="#Q"/>latio,
+            qua Deus dicitur Dominus, est in Deo 6.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e394">
+            <lb ed="#Q"/>6. Item, nummus dicitur pretium per relationem
+            <lb ed="#Q"/>quae ei accidit; ergo et Deus dicitura Dominus per
+            <lb ed="#Q"/>relationem quae ei accidit; ergo Deo aliquid acci<lb ed="#Q"/>dit
+            2. — P robatio quod nummus dicitur pretium
+            <lb ed="#Q"/>per relationem secundum accidens: sunt enim duae
+            <lb ed="#Q"/>quaedam relationes quae antecedunt ordinem sub<lb ed="#Q"/>stantiarum
+            et accidentium, sicut relationes materiae
+            <lb ed="#Q"/>et formae-"*: et hae naturalesf sunt et non acci<lb ed="#Q"/>dentales;
+            et sunt relationes aliae quae consequun<lb ed="#Q"/>tur
+            ordinem substantiarum et accidentium secun<lb ed="#Q"/>dum
+            superius et inferius, convenientiam et diffe<lb ed="#Q"/>rentiam:
+            et hae accidentales sunt vel secundum
+            <lb ed="#Q"/>accidens, ut dextrum, sinistrum. Sine sinistro non
+            <lb ed="#Q"/>posset es'Se dextrum, quamvis ipsum dextrum vel
+            <lb ed="#Q"/>sinistrum non mutetur; similiter pretium non pos<lb ed="#Q"/>set
+            esse nummus, si non essetg usus vel aliquid
+            <lb ed="#Q"/>tale in nummo. Si ergo nummus dicitur pretium
+            <lb ed="#Q"/>relatione/' quae est secundum accidens, ergo et
+            <lb ed="#Q"/>Deus Dominus.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e438">
+            <lb ed="#Q"/>7. Item, cum dico 'Dominus ', dico relationem
+            <lb ed="#Q"/>quae est superpositio; sed haec non est in crea-.
+            <lb ed="#Q"/>tura; ergo est in Creatore: sicut enim servi<lb ed="#Q"/>tus
+            est in creatura, sic superpositio in Crea<lb ed="#Q"/>tore'.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e451">
+            <lb ed="#Q"/>Respondeo: Notandum, ut dictum est 4, quod
+            <lb ed="#Q"/>nomina relative dicta de Deo ad creaturam, sunt
+            <lb ed="#Q"/>relativa nomina, sed non significant relationem,
+            <lb ed="#Q"/>ut "Creator et Dominus '. Nomina vero crea—
+            <lb ed="#Q"/>turarum relative * dicta ad Deum, relativa sunt
+            <lb ed="#Q"/>secundum nomen et relationem significant; unde
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>inter Deum et creaturam non sunt relationes duae,
+            <lb ed="#Q"/>sed una tantum: non enim necesse est ut uni re<lb ed="#Q"/>lationi
+            respondeat altera secundum rem, sed solum
+            <lb ed="#Q"/>secundum dictionem vel secundum intellectum. Et
+            <lb ed="#Q"/>si quaeratur unde[ hoc: dicendum" quod hoc
+            <lb ed="#Q"/>est a Virtute intellectus conterentis unum extre<lb ed="#Q"/>mum
+            ad aliud et e converso. Quia ergo confe<lb ed="#Q"/>rendo
+            utrumque respicit utrumque, ponit quasi
+            <lb ed="#Q"/>respectum ex utraque parte "; sicut autem intelli<lb ed="#Q"/>gimus,
+            sic significamus; quia ergo duplex est
+            <lb ed="#Q"/>respectus in intellectu, duplex est in dictione: non
+            <lb ed="#Q"/>enim potest intellectus noster finiri super aliquam
+            <lb ed="#Q"/>relationem nisi intelligat alteram ei correspon<lb ed="#Q"/>dentem;
+            dictio enim nostra0 non solum causatur a
+            <lb ed="#Q"/>re, sed ab intellectu; ideo non oportet quod re<lb ed="#Q"/>latio?
+            secundum nomen respondeat relationiq se—
+            <lb ed="#Q"/>cundum rem. — Quod autem uni relationi non sit
+            <lb ed="#Q"/>necesse ,semper ' respondere alteram, patet in
+            <lb ed="#Q"/>actione et passione quae dicuntur similiter rela<lb ed="#Q"/>tive,
+            sed non 8 necesse est semper actioni respon<lb ed="#Q"/>dere
+            passionem, licet necesse sit semper ei respon<lb ed="#Q"/>dere
+            nomen passive significans '. Quod patet 5,
+            <lb ed="#Q"/>cum dicitur ' Deus creat animam ': hoc enim
+            <lb ed="#Q"/>verbum 'creat' significat vere actionem, quoniam
+            <lb ed="#Q"/>Deus dicitur vere agere, secundum Augusti<lb ed="#Q"/>n
+            um, in libro De Trinitate 6; huic actioni respon<lb ed="#Q"/>det
+            passio secundum nomen, non secundum rem,
+            <lb ed="#Q"/>cum dicitur 'anima creatur': hoc enim verbum
+            ' creatur ' " passive dicitur, non tamen passionem
+            <lb ed="#Q"/>significat; passio enim non est in facto ut in
+            <lb ed="#Q"/>subiecto, sed in materia facti; unde cum creatio
+            <lb ed="#Q"/>sit ex nihilo et noa ex materia praeexistenti, in
+            <lb ed="#Q"/>creatione rerum est actio sine passione: unde non
+            <lb ed="#Q"/>est ibi nisi una relatio secundum rem vel unus
+            <lb ed="#Q"/>respectus. Patet ergo quod non necesse est cui<lb ed="#Q"/>libet
+            relationi correspondere alteram secundum
+            <lb ed="#Q"/>rem, sed secundum solum nomen. Dicendum ergo
+            <lb ed="#Q"/>quod in Deo non est respectus, sed" solum in
+            <lb ed="#Q"/>creatura, quantum est in re; sed in. dicendo du<lb ed="#Q"/>plex
+            est respectus: non enim est dependentia Deix
+            <lb ed="#Q"/>ad creaturam, sed e converso.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e556">
+            <lb ed="#Q"/>[Ad obiecta]: 1-2. Et per hoc solvuntur duo
+            <lb ed="#Q"/>prima obiecta. — Si autem obicitur: aliquis
+            <lb ed="#Q"/>respectus modo convenit Deo, qui non convenit
+            <lb ed="#Q"/>ei ab aeterno; ergo et aliqua forma: dicen d um
+            <lb ed="#Q"/>quod non est simile de relatione et forma, quia?
+            <lb ed="#Q"/>non dicitur ei convenire relatio, quia aliquid sit
+            <lb ed="#Q"/>in eo mutatum, sed si diceretur de forma, intel<lb ed="#Q"/>ligeretur
+            mutatio. Dicendum ergo breviter quod
+            <pb ed="#Q" n="556"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>praedicatur divina essentia et connotatur respec<lb ed="#Q"/>tus
+            sive effectus in creatura, qui non praedicatur
+            <lb ed="#Q"/>ut sit in divina essentia, sed in creatura.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e587">
+            <lb ed="#Q"/>3. Ad alia dicendum quod, proprie loquendo,
+            <lb ed="#Q"/>est esse quod pertinet ad substantiam et est esse
+            <lb ed="#Q"/>vel inesse quod pertinet ad a accidens et est esse
+            <lb ed="#Q"/>vel adesse quod est esse habitudinis; tale esse
+            <lb ed="#Q"/>reperitur in substantiis et accidentibus: substan<lb ed="#Q"/>tiae
+            referuntur et accidentia; est enim habitudo
+            <lb ed="#Q"/>substantiae ad substantiam et accidentis ad ac<lb ed="#Q"/>cidens.
+            Esse b habitudinis substantiae ad substan<lb ed="#Q"/>tiam
+            non est accidens, utc secundum identitatem
+            <lb ed="#Q"/>in specie habitudo singularium d; esse habitudinis
+            <lb ed="#Q"/>accidentis ad accidens accidens est. Dicendum
+            <lb ed="#Q"/>ergo quod non sequitur: 'hoc dicitur ad aliquid,
+            <lb ed="#Q"/>ergo inest ei aliquid '; sed sequitur: ' ergo aliquid
+            <lb ed="#Q"/>adest illi vel eSt ad illud'; cum enim dicitur
+            <lb ed="#Q"/>Deus 'Dominus', relatio dominii in creatura est 
+            <lb ed="#Q"/>et est ad Creatorem et adest Creatori. Et nota
+            <lb ed="#Q"/>quod duplexe respectus est in dicendo, sed' uni<lb ed="#Q"/>cus
+            estf in essendo. .
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e629">
+            <lb ed="#Q"/>7. Ad illud quod obicitur quod 'servitus est
+            <lb ed="#Q"/>in creatura' etc., dicendum quod dominium dicit
+            <lb ed="#Q"/>duo: potestatem coercendi creaturam et compara<lb ed="#Q"/>tionem
+            vel superpositionem potestatis; ipsa po<lb ed="#Q"/>testas
+            Deus est, comparatio vel superpositio g po<lb ed="#Q"/>testatis
+            nulli inest, sed adest Deo; unde domi<lb ed="#Q"/>nium
+            est potestas superposita: superpositio nulli
+            <lb ed="#Q"/>inest, sed Deo adest;,unde non dicit aliquid in
+            <lb ed="#Q"/>Deo secundum esse, sed " secundum modum di—
+            <lb ed="#Q"/>cendi, nec in creatura; illud tamen propter quod
+            <lb ed="#Q"/>dicitur est in creatura '. Unde Augustinus1
+            <lb ed="#Q"/>dicit quod Deus diciturk Dominus non propter
+            <lb ed="#Q"/>accidens quod sit in Deo, sed propter accidens
+            <lb ed="#Q"/>quod est in creatura.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e662">
+            <lb ed="#Q"/>4—5—6. Et per hoc patet solutio ad alia.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i2t1q5m1c4-Dd1e669" type="articulus">
+          <head xml:id="ahsh-l1p2i2t1q5m1c4-Hd1e671">ARTICULUS III.</head>
+          <head xml:id="ahsh-l1p2i2t1q5m1c4-Hd1e674" type="question-title">Utrum similis ratio praedicandi sit in hoc nomine 'Dominus' et in hoc nomine ' Creator '.</head>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e677">
+            <lb ed="#Q"/>Consequenter quaeritur utrum consimilis ratio
+            <lb ed="#Q"/>praedicandi sit in hoc nomine 'Dominus' et in
+            <lb ed="#Q"/>hoc nomine 'Creator'.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e686">
+            <lb ed="#Q"/>Quod videtur: a. Utrumque enim significat divi—
+            <lb ed="#Q"/>nam essentiam principaliter, connotando aliquid in
+            <lb ed="#Q"/>creatura; cum enim dicitur 'Deus est Dominus
+            <lb ed="#Q"/>creaturae ', necessario sequitur aliquid esse in crea<lb ed="#Q"/>tura
+            respectu cuius dicitur dominium esse in'
+            <lb ed="#Q"/>Deo; unde Augustinus2 dicit quod Deus di<lb ed="#Q"/>citur
+            Dominus '" propter accidens quod est in crea<lb ed="#Q"/>tura;
+            similiter cum dicitur 'Deus est Creator
+            <lb ed="#Q"/>huius creaturae' ; unde non potest dici Creator
+            <lb ed="#Q"/>nisi sit creatura.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e710">
+            <lb ed="#Q"/>Contra: 1. Ut vult Augustinus3: «Sicut
+            <lb ed="#Q"/>nummus dicitur pretium, sic 'Deus Dominus »;
+            <lb ed="#Q"/>sed per hoc quod nummus dicitur pretium, nihil
+            <lb ed="#Q"/>est additum secundum rem ipsi nummo; sed cum
+            <lb ed="#Q"/>dicitur Deus 'creator huius creaturae ', signifi<lb ed="#Q"/>catur
+            ex 'hoc esse datum ipsi rei creatae; igitur
+            <lb ed="#Q"/>non est similis modus connotation'is hic et ibi,
+            <lb ed="#Q"/>quia praeter generalem modum relationis in hac
+            'Deus est Dominus' compraedicatur aliquid de
+            <lb ed="#Q"/>Deo, ut dici possit causa vel auctor creaturae.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e733">
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>Respondeo: Sunt qui dicunt4 «quod hoc now
+            <lb ed="#Q"/>men 'Dominus' significat divinam essentiam ut
+            <lb ed="#Q"/>dominium; dominium autem est potestas coer<lb ed="#Q"/>cendi
+            subditos, ut'dicit Boethius 5; Deus " au<lb ed="#Q"/>tem
+            per se ipsum potest coercere subditos: unde
+            <lb ed="#Q"/>ipsa divina essentia est dominium, quod domi<lb ed="#Q"/>nium
+            dominatur suis subditis. Ex hoc ergo modo
+            <lb ed="#Q"/>significandi quo divina essentia significatur ut
+            <lb ed="#Q"/>dominium et ut relatio, innuitur et coasseritur ser<lb ed="#Q"/>vitus
+            de creatura; unde Deus 'Dominus' ab ae<lb ed="#Q"/>terno
+            non fuit. Eodem modo videtur alicui quod
+            <lb ed="#Q"/>sic esset dicendum in ista 'Deus creat hanc ani<lb ed="#Q"/>mam
+            ', scilicet quod ex modo significandi quo"
+            <lb ed="#Q"/>Deus significatur ut actio, coasseritur effectus
+            <lb ed="#Q"/>de creatura et quod iste effectus non praedicetur,
+            <lb ed="#Q"/>nec compraediceturP aliquid de Deo », sicut nec
+            <lb ed="#Q"/>in hac ' Deus est Dominus '.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e775">
+            <lb ed="#Q"/>Alii dicunt q 5: « Cum dicitur ' Deus creat hanc
+            <lb ed="#Q"/>animam ', ille effectus ostenditur pertinere ad Deum
+            <lb ed="#Q"/>tamquam ad causam, et ideo bene compraedicatur
+            <lb ed="#Q"/>aliquid de Deo; sed cum diciturr 'Deus est Domi<lb ed="#Q"/>nus
+            creaturarumï sics pure ostenditur quomodo se
+            <lb ed="#Q"/>habeat Deus ad rem- subiectam sibi et e converso ;
+            <lb ed="#Q"/>nec ostenditur sic aliquid pertinere ad Deum
+            <pb ed="#Q" n="557"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>tamquam effectus ad causam »: unde in hac 'Deus
+            <lb ed="#Q"/>est Creator omnium' aliquid compraedicatur de
+            <lb ed="#Q"/>Deo, in hac 'Deus est" Dominus' nihil, sed so<lb ed="#Q"/>lummodo
+            connotatur respectus.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e806">
+            <lb ed="#Q"/>Aliter videtur dicendum..Potest igitur dici quod
+            <lb ed="#Q"/>in huiusmodi enuntiationibus ' Deus est Dominus,
+            <lb ed="#Q"/>Deus est Creator ' et consimilibus praedicatur di<lb ed="#Q"/>vina
+            essentia connotando aliquid extra unde no<lb ed="#Q"/>tatur
+            quidam respectus inter Deum et creaturas.
+            <lb ed="#Q"/>Huiusmodi autem respectus quandoque notatur in
+            <lb ed="#Q"/>habitu, ut cum dicitur ' Deus est exemplar rerum
+            <lb ed="#Q"/>fiendarum ', quandoque in actu, ut cum diciturb
+            * Deus est Creator vel Dominus ', secundum quod
+            ' Dominus ' dicit dominium in actu. —Praeterea, in
+            <lb ed="#Q"/>huiusmodi enuntiationibus quandoque praedicatur
+            <lb ed="#Q"/>divina essentia significata ut actio sive ut res
+            <lb ed="#Q"/>quae est in agere, ut cum dicitur ' Deus est Crea<lb ed="#Q"/>tor';
+            quandoque ut res ens in quiete, ut cum di<lb ed="#Q"/>citur
+            'Deus est Dominus ': ibi enim praedicatur
+            <lb ed="#Q"/>divina essentia ut potestas coercendi subditos;
+            <lb ed="#Q"/>dicit enim Boethiusl quod « dominium est
+            <lb ed="#Q"/>potestas coercendi subditos ». — Praeterea, sicut
+            <lb ed="#Q"/>dictum est 2, praeter divinam essentiam praedi<lb ed="#Q"/>catioc
+            connotat aliquid ex parte creaturae; sed
+            <lb ed="#Q"/>illud connotatum quandoque est pure respectus,
+            <lb ed="#Q"/>ut cum dicitur 'Deus" est Dominusiz'hic enim
+            <lb ed="#Q"/>notature subiectio ex parte creaturae, quae nihil
+            <lb ed="#Q"/>addit esse creaturae in te nisi solum respectum
+            <lb ed="#Q"/>ad Dominum; quandoque connotatur aliquid in
+            <lb ed="#Q"/>creatura praeter huiusmodi respectum, ut cum di<lb ed="#Q"/>citur
+            *Deus est iustificator'; quandoque conno—
+            <lb ed="#Q"/>taturf ipsum esse creaturae sive creaturam esse
+            <lb ed="#Q"/>de nihilo, ut cum dicitur 'Deus est Creator ',
+            <lb ed="#Q"/>quia sensus est: 'Deus est a quo creatura est
+            <lb ed="#Q"/>ex nihilo '.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e871">
+            <lb ed="#Q"/>Ad illud ergo quod quaeritur si consimilis
+            <lb ed="#Q"/>est modus praedicandi, cum dicitur ' Deus est Do—
+            <lb ed="#Q"/>minus' et 'Deus est Creator ', iam patet respon—
+            <lb ed="#Q"/>sio. Quantum autem. ad principale significatum,
+            <lb ed="#Q"/>quod est divina essentia, idem est praedicatum et
+            <cb ed="#Q" n="b"/>
+            quam fundatur respectus: 
+            <lb ed="#Q"/>modus praedicandi. Quantum autem ad compraedi<lb ed="#Q"/>catag
+            — hoc est quantum ad hoc quod divina es<lb ed="#Q"/>sentia
+            praedicatur in una ut actio, ut quando"
+            <lb ed="#Q"/>dicitur ' Deus est Creator ', et in alia ut qualitas,
+            <lb ed="#Q"/>ut cum dicitur ' Deus est Dominus *, quia ibi prae<lb ed="#Q"/>dicatur
+            Deus'" ut potestas coercendi subditos — est
+            <lb ed="#Q"/>diversitas quaedam. Quantum autem est ex parte
+            <lb ed="#Q"/>connotati extra, est diversitas, quia in una, sci<lb ed="#Q"/>lieet
+            ink hac 'Deus est Dominus ', connotatur
+            <lb ed="#Q"/>respectus tantum; in alia, scilicet ' Deus est Crea<lb ed="#Q"/>tor
+            ', connotatur effectus qui est esse rei creatae
+            <lb ed="#Q"/>de nihilo. Quantum igitur ad modum quemdam ge<lb ed="#Q"/>neralem
+            consimilis est modus praEdicandi, ut con<lb ed="#Q"/>cludit
+            prima ratio; quantum autem' ad comprae<lb ed="#Q"/>dicatum
+            ex parte Dei, sive quantum ad modum
+            <lb ed="#Q"/>quo'" significatur divina essentia quae praedica<lb ed="#Q"/>tur,
+            est " qualiscumque differentia; quantum autem
+            <lb ed="#Q"/>est" ex parte connotati extra, est differentia sim<lb ed="#Q"/>pliciter,
+            quia in una non est connotatum aliud
+            <lb ed="#Q"/>quam respectus purus, in alia est connotatum-ipsa
+            <lb ed="#Q"/>res sive esse rei.
+          </p>
+          <p xml:id="ahsh-l1p2i2t1q5m1c4-d1e932">
+            <lb ed="#Q"/>Si obiciatur quod cum dicitur 'Deus est
+            <lb ed="#Q"/>Dominus ', non connotatur tanturn respectus in
+            <lb ed="#Q"/>creatura, sed effectus aliquis sive res super
+            <lb ed="#Q"/>quia sicut ex parte
+            <lb ed="#Q"/>Dei compraedicatur potestas dominandi sive
+            <lb ed="#Q"/>coercendi subditos, similiter ex parte creaturae
+            <lb ed="#Q"/>connotatur subiectio sive debitum subiciendi —
+            <lb ed="#Q"/>respondeo quod illud debitum sive subiectio
+            <lb ed="#Q"/>non ponit aliquid sive addit ipsi creaturae in
+            <lb ed="#Q"/>quantum comparatur ad Deum, in quantum est
+            <lb ed="#Q"/>Dominus, immo solummodo est speciticatio ipsius
+            <lb ed="#Q"/>respectus, ut specialius dicatur: divinae essen<lb ed="#Q"/>tiae,
+            significatae ut dominium, respondet in crea—
+            <lb ed="#Q"/>tura subiectio, quae quia nihil addit rei, dicenda
+            <lb ed="#Q"/>est simplexP sive pure respectus. Tamen no<lb ed="#Q"/>tandum
+            cum aliis quodq cum dicitur 'Deus
+            <lb ed="#Q"/>incipit esse Creator ', inceptio notatur nonf circa
+            <lb ed="#Q"/>rem principaliter praedicatam, sed circa comprae<lb ed="#Q"/>dicatam.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

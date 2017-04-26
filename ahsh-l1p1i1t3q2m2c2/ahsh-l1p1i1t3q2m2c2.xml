@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-02-09">February 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p1i1t3q2m2c2">
+        <head xml:id="ahsh-l1p1i1t3q2m2c2-Hd1e3729">I, P. 1, Inq. 1, Tract. 3, Q. 2, M. 2, C. 2</head>
+        <head xml:id="ahsh-l1p1i1t3q2m2c2-Hd1e3732" type="question-title">AN PLURES VERITATES SINT AB AETERNO.</head>
+        <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3735">
+          <lb ed="#Q"/>Consequenter quaeritur an plures veritates sint 
+          <lb ed="#Q"/>ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3742">
+          <lb ed="#Q"/>a. Et cum esse veritatem sit esse quid, si sunt
+          <lb ed="#Q"/>plures veritates ab aeterno, erunt plura aliqua ab
+          <lb ed="#Q"/>aeterno, quod est error 2.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3751">
+          <lb ed="#Q"/>b. Item, si diceretur quod una est veritas ab
+          <lb ed="#Q"/>aeterno, sed plura verae - contra: cum verum
+          <lb ed="#Q"/>non sit determinatio diminuens vel removens, cum
+          <lb ed="#Q"/>dicitur aliquid verum, quemadmodum homo mor<lb ed="#Q"/>tuus,
+          sequitur necessario: 'si plura vera ab ae<lb ed="#Q"/>terno,
+          quod plura aliqua ab aeterno'. Cum ergo
+          <lb ed="#Q"/>hocf sit falsum, relinquitur quod unum solum et
+          <lb ed="#Q"/>veritas una est ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3772">
+          <lb ed="#Q"/>Contra: 1. Cum dico: ' Pater generat, Filius ge<lb ed="#Q"/>neratur,
+          Spiritus Sanctus procedit ', hic sunt plu<lb ed="#Q"/>res
+          veritates, sicut plures personae vel proprie<lb ed="#Q"/>tates;
+          sed veritates istae suntg aeternae sine prin<lb ed="#Q"/>cipio;
+          ergo plures veritates ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3785">
+          <lb ed="#Q"/>2. Item, Augustinus3 dicit quod « tres sunt
+          <lb ed="#Q"/>res quibus fruendum est »; sed veritas convertitur
+          <lb ed="#Q"/>cum re; ergo tres sunt'. veritates respondentes
+          <lb ed="#Q"/>huiusmodi tribus rebus; sed huiusmodi res sunt
+          <lb ed="#Q"/>sine initio, quia huiusmodi vocat personas divinas ;
+          <lb ed="#Q"/>ergo et tres huiusmodi veritates sunt sine initio,
+          <lb ed="#Q"/>aut ratione personalitatis non esset ponere veri<lb ed="#Q"/>tatem
+          in divinis.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3805">
+          <lb ed="#Q"/>3. Item, Deus ab aeterno scivit omnem creatu<lb ed="#Q"/>ram
+          sive hanc sive illam; scivit ergo ab aeterno
+          <lb ed="#Q"/>Antichristum fore et Petrum fore —- horum enim
+          <lb ed="#Q"/>veritas fuit ab aeterno in mente divina, quia omne
+          <lb ed="#Q"/>quod scitur, quia verum est scitur —— sed Antichri<lb ed="#Q"/>stum
+          fore non est Petrum fore ; ergo veritas hu<lb ed="#Q"/>iusmodi
+          in mente divina non est veritas illius,
+          <lb ed="#Q"/>quia' si haec distinguuntur inter se, ergo et ve<cb ed="#Q" n="b"/><lb ed="#Q"/>ritates 
+          eorum distinguentur ; sed istae veritates
+          <lb ed="#Q"/>sunt in mente divina ab aeterno et sciuntur a
+          <lb ed="#Q"/>Deo, et pari ratione veritates omnium creatura<lb ed="#Q"/>rum;
+          ergo plures sunt veritates ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3835">
+          <lb ed="#Q"/>Solutio: Dicendum quod « una sola est veri<lb ed="#Q"/>tas4»,
+          cuius proprium est esse sine initio; et
+          <lb ed="#Q"/>haec est veritas prima, quae est principium om—
+          <lb ed="#Q"/>nium aliarum veritatum et prior illis causalitate
+          <lb ed="#Q"/>et duratione, quae omnes alias veritates' tenet
+          <lb ed="#Q"/>in esse et conservat.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3851">
+          <lb ed="#Q"/>[Ad obiecta]: 1—2. Ad p ri m u m 5 obiectum di<lb ed="#Q"/>cendum
+          quod, cum dicit A u gu stin u 5 quod « tres
+          <lb ed="#Q"/>sunt res quibus est fruendum .; dicendum quod
+          <lb ed="#Q"/>res aliquando appellatur natura, aliquando res
+          <lb ed="#Q"/>appellatur ipsa res naturae. Augustinus ergo '"
+          <lb ed="#Q"/>ibi vocat «tres" res », tres divinas personas. Unde
+          <lb ed="#Q"/>sunt hic tres res naturae sive tres" personae:
+          <lb ed="#Q"/>non tres res, id est tres naturae, immo sunt tresP
+          <lb ed="#Q"/>unius naturae et sunt illa natura, scilicet divina
+          <lb ed="#Q"/>essentia. Et ideo cum veritas ad essentiam refe<lb ed="#Q"/>ratur
+          et super ipsam fundetur, non est dicendum
+          <lb ed="#Q"/>quod sint harum tres veritates distinctae, immo una
+          <lb ed="#Q"/>sola. — Quod tamen obicitur quod 'Patrem
+          <lb ed="#Q"/>generare non est Filium generari': dicimus quod
+          <lb ed="#Q"/>si loquimur de veritate, quae est rei relate ad
+          <lb ed="#Q"/>intellectum, posset esse quod sint tres veritates
+          <lb ed="#Q"/>secundum rationem intelligentiae, una tamen sola
+          <lb ed="#Q"/>est veritas essentiae, non plures; et de hac hic
+          <lb ed="#Q"/>loquimur. Ipsa enim proprietas ad personam re<lb ed="#Q"/>ducitur
+          et persona ad essentiam; et propter hoc
+          <lb ed="#Q"/>veritas proprietatis ad veritatem *! personae redu<lb ed="#Q"/>citur'
+          et veritas personae ad veritatem essentiae:
+          <lb ed="#Q"/>et ideo cum sit ibi una sola essentia, relinquitur
+          <lb ed="#Q"/>quod sit ibi una sola veritas. —— Quod sic patet:
+          'Patrem enim generare' nihil aliud est quam 'Pa<pb ed="#Q" n="149"/><cb ed="#Q" n="a"/><lb ed="#Q"/>trem 
+          esse'; et 'Filium generari' idem quod 'Filium
+          <lb ed="#Q"/>esse'; ' Spiritum Sanctum procedere' idem quod
+          'Spiritum Sanctum " esse'. Sed cum dico: ' Pater
+          <lb ed="#Q"/>est, Filius est, Spiritus Sanctus est', idem dico
+          'esse' sive eamdem essentiam: hoc enim esse di<lb ed="#Q"/>citur
+          de Patre, quia Pater est essentia; et de Filio,
+          <lb ed="#Q"/>quia Filius est essentia; et similiter de Spiritu
+          <lb ed="#Q"/>Sancto, quia Spiritus Sanctus est essentia. Si ergo
+          <lb ed="#Q"/>haec veritas: 'Pater generat' reducitür ad hancb
+          'Patrem esse', reducitur ad essentiam, et sic de
+          <lb ed="#Q"/>aliis; et ita cum ad eamdem essentiam reducan<lb ed="#Q"/>tur,
+          ratione cuius est veritas, constat quod non
+          <lb ed="#Q"/>sunt ibic tres veritates, sed una sola, et ita non
+          <lb ed="#Q"/>ibi ** sunt tres veritates sine initio, quia ad unam
+          <lb ed="#Q"/>indivisibileme veritatem reducuntur, ratione cuius
+          <lb ed="#Q"/>dicuntur esse una. —- Et per hoc patet solutio ad
+          <lb ed="#Q"/>primum et adf secundum.
+        </p>
+        <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3938">
+          <lb ed="#Q"/>3. Ad aliud dicendum quod licet referendo
+          <lb ed="#Q"/>ad res extraE una non sit altera, quia 'Petrum
+          <lb ed="#Q"/>fore' in re non est 'Antichristum fore ', tamen in
+          <lb ed="#Q"/>mente divina " veritates istae indivisae sunt et sunt 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>una veritas. Sunt enim prima veritas sive divina
+          <lb ed="#Q"/>essentia; nam 'mundum iore ', antequam mundus
+          <lb ed="#Q"/>sit, non est aliud quam 'Deum iore creaturum'
+          <lb ed="#Q"/>mundum '; et similiter 'Petrum iore ', et sick de
+          <lb ed="#Q"/>aliis futuris ; sed 'Deum fore creaturum mundum '
+          <lb ed="#Q"/>idem est quod 'Deum ' esse'; et ita veritates istae
+          <lb ed="#Q"/>relate ad divinam essentiam "' unum sunt, quia sunt
+          <lb ed="#Q"/>divina essentia. Unde hac ratione dicit Ansel<lb ed="#Q"/>m
+          us ' quod creatura in Creatore est creatrix essen—
+          <lb ed="#Q"/>tia. Unde sicut nos dicimus de ideis quod ideae
+          <lb ed="#Q"/>relate ad ipsa'1 ideata plures sunt, quia crea—
+          <lb ed="#Q"/>turae, quarum sunt, plures sunt " nec una est alia,
+          <lb ed="#Q"/>et ideo in comparatione ista, una idea non est!'
+          <lb ed="#Q"/>alia, comparatione tamen ad ipsum primum, prout
+          <lb ed="#Q"/>sunt in mente divina, omnes ideae sunt9 unum:
+          <lb ed="#Q"/>sic dicimus quod istae veritates plures sunt in
+          <lb ed="#Q"/>re extra, nec una sit alia, sunt tamen una veritas,
+          <lb ed="#Q"/>prout sunt in mente divina, quia ' sunt idem quod
+          <lb ed="#Q"/>prima veritas, quae est divina essentia; et sunt
+          <lb ed="#Q"/>una veritas, et non plures secundum quod sic,
+          <lb ed="#Q"/>sed contingit dicere quod est veritas plurium rerum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
