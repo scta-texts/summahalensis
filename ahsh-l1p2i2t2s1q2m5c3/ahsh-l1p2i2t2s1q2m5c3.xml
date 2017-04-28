@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 5, C. 3</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-04-28">April 28, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-04-28" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,198 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="621"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t2s1q2m5c3">
+        <head xml:id="ahsh-l1p2i2t2s1q2m5c3-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 5, C. 3</head>
+        <head xml:id="ahsh-l1p2i2t2s1q2m5c3-Hd1e3744" type="question-title">UTRUM SPIRITUS SANCTUS DEBEAT DICI 'SPIRITUS NOSTER'.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum debeat Spiritus
+          <lb ed="#Q"/>Sanctus<!--b--> dici 'Spiritus noster'.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3756">
+          <lb ed="#Q"/>Ad quod sic: a. Luc. l,171, « de Ioanne dicitur .'
+          <lb ed="#Q"/>quod in spiritu Eliae veniret; ecce dictus est Spi<lb ed="#Q"/>ritus
+          Sanctus spiritusc quem. accepit Elias. Et
+          <lb ed="#Q"/>Moysi ait Dominus, Num. ll,17 : Tollam de spi<lb ed="#Q"/>ritu 
+          tuo et dabo eis, id est dabo eis de Spiritu
+          <lb ed="#Q"/>Sancto, quem iam dedi tibi»; ecce hic dictus est
+          <lb ed="#Q"/>spiritus Moysis. Patet ergo quoniam Spiritus Sanc<lb ed="#Q"/>tus
+          noster dicitur Spiritus.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3776">
+          <lb ed="#Q"/>b. Item, <ref>18 dist. I Sententiarum</ref>: 
+          <cit>
+            <quote xml:id="ahsh-l1p2i2t2s1q2m5c3-Qd1e3785" source="http://scta.info/resource/pll1d18c5-d1e3480">Cum Spiritus
+              <lb ed="#Q"/>Sanctus in Scriptura dicatur Spiritus noster vel
+              <lb ed="#Q"/>Spiritus tuus vel illius, ut de Moyse et ded Elia
+              <lb ed="#Q"/>dictum est, nusquam tamen in Scriptura occurrit
+              <lb ed="#Q"/>ita dici 'Spiritus Sanctus noster vel tuus vel
+              <lb ed="#Q"/>illius ', quia Spiritus Sanctus eo'dicitur quo Do<lb ed="#Q"/>num
+              et utrumque dicitur relative ad Patrem et
+              <lb ed="#Q"/>ad Filium</quote>
+            <bibl><ref target="http://scta.info/resource/pll1d18c5-d1e3480">Lombardus, Sent., I, d. 18, c. 5 [n. 2]</ref></bibl>
+          </cit>.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3810">
+          <lb ed="#Q"/>Contra: 1. Quaeritur quare Spiritus Sanctus
+          <lb ed="#Q"/>dicatur Spiritus noster et non similiter Filius
+          <lb ed="#Q"/>dicatur e ' noster '. Si dicatur hoc esse eo quod
+          <lb ed="#Q"/>Filius relative dicitur ad Patrem — sed similiter 
+          <lb ed="#Q"/>Spiritus Sanctus relative dicitur ad Patrem et Fi<lb ed="#Q"/>lium, 
+          et ita uterque eadem ratione dicitur 'noster'.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3826">
+          <lb ed="#Q"/>2. Item, si propter collationem donorum dicitur
+          <lb ed="#Q"/>Spiritus Sanctus ' noster', eadem ratione et Fi<lb ed="#Q"/>lius
+          debet dici 'noster ', quia similiter dantur
+          <lb ed="#Q"/>nobis bona in eius missione spirituali sicut in
+          <lb ed="#Q"/>missione spirituali Spiritus Sancti.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3839">
+          <lb ed="#Q"/>3. Praeterea, Filius dicitur ' noster redemptor ';
+          <lb ed="#Q"/>quare similiter non dicitur ' noster Filius '?
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3846">
+          <lb ed="#Q"/>4. Item, Pater dicitur 'Pater noster', quare non
+          <lb ed="#Q"/>Filius ? cum magis communicemus cum Filio quam
+          <lb ed="#Q"/>cum Patre, quia Filius est incarnatus, non Pater.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3855">
+          <lb ed="#Q"/>5. Item, si ratione effectus dicitur ' redemptor no<lb ed="#Q"/>ster ', 
+          quare non dicitur ' sapientia nostra '? cum
+          <lb ed="#Q"/>connotatur effectus in creatura. Unde I Cor. 1,30:
+          <lb ed="#Q"/>Factus est nobis sapientia etc.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3866">
+          <lb ed="#Q"/>6. Item, quare non dicitur 'Spiritus Sanctus
+          <lb ed="#Q"/>noster', sicut 'Spiritus noster'?
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3874">
+          <lb ed="#Q"/>7. Item, quare dicitur ' Deus noster ' et non 
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>' essentia nostra '? cum hoc nomen 'Deus ' signi<lb ed="#Q"/>ficet
+          <lb ed="#Q"/>essentiam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3887">
+          <lb ed="#Q"/>8. Praeterea, quaeritur utrum Spiritus Sanctus
+          <lb ed="#Q"/>dicatur haberi, cum habetur eius donum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3894">
+          <lb ed="#Q"/>Respondeo: Nullum nomen essentiale abstracte
+          <lb ed="#Q"/>significans divinam essentiamf, vel nomen per<lb ed="#Q"/>sonale,
+          quod dicit tantum respectum personae ad
+          <lb ed="#Q"/>personam, recipit hoc nomen 'noster' supra se.
+          <lb ed="#Q"/>Unde non potest dici 'sapientia vel deitas no<lb ed="#Q"/>stra
+          ', sed 'Deus noster, refugium nostrum.". Si<lb ed="#Q"/>militer
+          et in personalibus; unde cum Filius dicat
+          <lb ed="#Q"/>solum respectum ad Patrem, non potest recipere
+          <lb ed="#Q"/>supra se hanc adiectionem 8 'ïnoster Sed nomina
+          <lb ed="#Q"/>quae significant divinam essentiam vel" personalia,
+          <lb ed="#Q"/>quae dicunt respectum ad creaturas, possunt eam'
+          <lb ed="#Q"/>recipere.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3923">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo dicendum
+          <lb ed="#Q"/>quod non dicitur 'Spiritus Sanctus noster', eo
+          <lb ed="#Q"/>quod Spiritus Sanctus rationem eius quod est
+          'ab alio' habet; sed dicitur 'Spiritus noster',
+          <lb ed="#Q"/>prout Spiritus dicitur/* a spiratione activa, vel
+          <lb ed="#Q"/>prout etiam dicitur a spiratione passiva in crea<lb ed="#Q"/>tura ', 
+          secundum quod dicitur'" 'tota Trinitas
+          <lb ed="#Q"/>spirat Spiritum Sanctum in nobis' vel ' Spiritus
+          <lb ed="#Q"/>Sanctus inspiratur nobis a tota Trinitate *, qua-.
+          <lb ed="#Q"/>rum utraque est effectus totius Trinitatis. Et hoc
+          <lb ed="#Q"/>modo' Spiritus sumitur essentialiter, licet per ap<lb ed="#Q"/>propriationem
+          supponat pro tertia persona. Igitur
+          <lb ed="#Q"/>propter hunc respectum ad creaturas dicitur ' Spi<lb ed="#Q"/>ritus
+          noster '; non autem quia'l Spiritus Sanctus,
+          <lb ed="#Q"/>in quantum supponit tertiam personam in Trini<lb ed="#Q"/>tate
+          et rationem habet" eius quod est 'a principio'
+          <lb ed="#Q"/>per processionem a Patre et Filio, dicitur ' Spiritus
+          <lb ed="#Q"/>noster'; unde, ut sic est, dicit habitudinem ad eum
+          <lb ed="#Q"/>a quo est, et non adP aliquid quod est ab ipso,
+          <lb ed="#Q"/>sicut et Filius; unde nec potest dici 'Spiritus
+          <lb ed="#Q"/>Sanctus noster' nec 'Filius noster'.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e3969">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod licet in missione
+          <lb ed="#Q"/>Filii detur nobis Filius, sicut Spiritus Sanctus,
+          <lb ed="#Q"/>non tamen dicitur Filius 'Filius? noster' sicut.
+          <lb ed="#Q"/>Spiritus Sanctus "Spiritus noster', quoniam Fi<lb ed="#Q"/>lius
+          non dicit nomine suo respectum ad creaturas
+          <pb ed="#Q" n="622"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>sicut hoc nomen ' Spiritus '. Unde Spiritus, prout
+          <lb ed="#Q"/>dicitur a processione aeterna quasi passive "
+          <lb ed="#Q"/>dicta, non potest dici ',noster ', quoniam sic habet
+          <lb ed="#Q"/>respectum ad Patrem et Filium solum a quibus
+          <lb ed="#Q"/>spiratur. — Si autem obiciatur ad hoc quod
+          <lb ed="#Q"/>in Spiritu Sancto remanet Spiritus, ergo cum Spi<lb ed="#Q"/>ritusb 
+          dicat respectum ad creaturas, et Spiritus
+          <lb ed="#Q"/>Sanctus, quare Spiritus Sanctus dicetur 'noster'
+          <lb ed="#Q"/>sicut et 'Spiritus' - respondeo quod 'Spi<lb ed="#Q"/>ritus
+          ', prout additur ei ' Sanctus ', dicit quasi
+          <lb ed="#Q"/>passivo modo solummodo spirationem aeternam;
+          <lb ed="#Q"/>unde, in quantum sic est, refertur ad Patrem et 
+          <lb ed="#Q"/>Filium a quibus procedit, et non ad creaturam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e4015">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod *redemptor' di<lb ed="#Q"/>citrespectumad
+          creaturam, scilicet ad redemptum;
+          <lb ed="#Q"/>sed Filius solum " ad Patrem refertur; ideo Filius
+          <lb ed="#Q"/>non dicitur ' noster', licet dicatur' redemptor noster'.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e4027">
+          <lb ed="#Q"/>4. Ad quartum dicendum quod 'Pater' di<lb ed="#Q"/>citur
+          dupliciter. Dicitur enim principium per ge<lb ed="#Q"/>nerationem,
+          et sic est solum personale nec reci<lb ed="#Q"/>pit
+          supra se ** 'noster'; dicitur etiam ** principium
+          <lb ed="#Q"/>per creationem, et sic essentialef et connotat ef<lb ed="#Q"/>fectum
+          in creatura; sed Filius dicitur tantum uno
+          <lb ed="#Q"/>modo, scilicet relative ad Patrem: unde non dicit
+          <lb ed="#Q"/>nomine suo respectum ad creaturam, ideo non po<lb ed="#Q"/>test
+          dici ' Filius noster ', licet dicatur 'Pater noster'.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e4049">
+          <pb ed="#Q" n="622"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>
+          5. Ad illud quod quaeritur utrum possit dici
+          <lb ed="#Q"/>sapientia nostra,- sicut redemptor noster '8 .dicen<lb ed="#Q"/>dum
+          quod non, quia sapientia dicit divinam es<lb ed="#Q"/>sentiam
+          ut formam, et ideo per modum abstracti,
+          <lb ed="#Q"/>et ideo non connotatur ut in respectu ad crea<lb ed="#Q"/>turam
+          nisi'l loquendo per causam, et sic posset
+          <lb ed="#Q"/>dici sapientia nostra, quia iacit nos sapere,
+          <lb ed="#Q"/>I Cor. l,30: Factus est nobis sapientia etc.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e4073">
+          <lb ed="#Q"/>7. Ad aliud dicendum quod Deus potest
+          <lb ed="#Q"/>dicii 'noster ', quia ' Deus' est nomen operatio<lb ed="#Q"/>nis':
+          unde notatur effectus in creatura; essentia
+          <lb ed="#Q"/>vero non sic; ideo non potest dici 'essentia no<lb ed="#Q"/>stra'.-
+          Deus enim dicitur a 'esäcüm' quod est
+          <lb ed="#Q"/>considerare vel a "ee'sw' quod est fovere2 ; unde
+          <lb ed="#Q"/>ratione effectus connotati dicitur Deus noster,
+          <lb ed="#Q"/>essentia vero nullum habet huiusmodi respectum:
+          <lb ed="#Q"/>unde nec dicitur nostra'.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m5c3-d1e4095">
+          <lb ed="#Q"/>8. Ad ultimum dicendum quod est donum
+          <lb ed="#Q"/>Spiritus quod non est cum Spiritu Sancto, ut
+          <lb ed="#Q"/>timor servilis, et quod est cum Spiritu Sancto, ut
+          <lb ed="#Q"/>caritas; et sunt dona a Spiritu Sancto, quae
+          <lb ed="#Q"/>aliquando sunt cum Spiritu Sancto, aliquando non
+          <lb ed="#Q"/>cum Spiritu Sancto, ut fides et prophetia. Ra<lb ed="#Q"/>tione
+          ergo illorum donorum quae 'sunt a Spi—
+          <lb ed="#Q"/>ritu Sancto et cum Spiritu Sancto, dicitur haberi
+          <lb ed="#Q"/>vel dari.
+        </p>
       </div>
     </body>
   </text>
