@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 4, M. 2, C. 2</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-05-02">May 02, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-05-02" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,113 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="638"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t2s1q4m2c2">
+        <head xml:id="ahsh-l1p2i2t2s1q4m2c2-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 4, M. 2, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t2s1q4m2c2-Hd1e3744" type="question-title">AN POSSIT DICI 'TRINITAS TRINA'.</head>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c2-d1e3747">
+          Secundo quaeritur an possit dici Trinitas trina'.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c2-d1e3750">
+          <lb ed="#Q"/>Ad quod sic': 1. Haec dictio 'trina' copulat
+          <lb ed="#Q"/>ternarium theologicum, qui est in tribus personis;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>igitur potest addi dictioni" significanti illum
+          <lb ed="#Q"/>ternarium, et ita haec erit vera 'Trinitas est
+          <lb ed="#Q"/>trina '. Per hoc etiam patet quod est vera, quia
+          <lb ed="#Q"/>hoc nomen 'Trinitas' supponit tres personas
+          <lb ed="#Q"/>sub ternario theologico. Unde haec propositio
+          <pb ed="#Q" n="639"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>'Trinitas est trina' similis est isti *album est
+          <lb ed="#Q"/>album '.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c2-d1e3779">
+          <lb ed="#Q"/>2. Item, idem significatur per subiectum et prae<lb ed="#Q"/>dicatum;
+          ergo est vera. — Si dicatur quod
+          <lb ed="#Q"/>haec dictio ' trina ' respicit formam huius nominis
+          'Trinitas ' '1 et propter hoc illa est falsa - co ntra:
+          <lb ed="#Q"/>haec est vera ' Deus est trinus ', et si haec dictio
+          'trina'b triplicaret formam, falsa esset; respicit
+          <lb ed="#Q"/>ergo solum suppositum ; ergo et haec dictio ' trina '
+          <lb ed="#Q"/>respicit solum suppositum c huius nominis ' Trini<lb ed="#Q"/>tas
+          '; ergo est vera.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c2-d1e3798">
+          <lb ed="#Q"/>Contra: a. Trinitas est una, quia est una indi<lb ed="#Q"/>vidua
+          Trinitas, non ergo trina. l-Iaec argumentatio
+          <lb ed="#Q"/>est necessaria, quia dictio numeralis semper ex<lb ed="#Q"/>cludit
+          alium numerum. Unde bene sequitur: 'isti
+          <lb ed="#Q"/>sunt tres, non ergo quatuor sive duo'; eadem
+          <lb ed="#Q"/>ratione bene sequitur: ' Trinitas est una, non ergo
+          <lb ed="#Q"/>trina '. '
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c2-d1e3816">
+          <lb ed="#Q"/>Solutio: Dicunt quidam1 quod haec dictio
+          'trina' non sequitur regulam aliorum nominum
+          <lb ed="#Q"/>numeralium, quia nomina numeralia semper ha<lb ed="#Q"/>bent
+          respicere forrnam: omnis enim'il numerus
+          <lb ed="#Q"/>et discretio respicit suppositum; sed hoc adiec<lb ed="#Q"/>tivum
+          ' trinum ' inventum fuit a Theologis ad de<lb ed="#Q"/>terminandum
+          solum suppositum huius. dictionis
+          <lb ed="#Q"/>' Deus ', ut praedictum est 2. Unde patet quod ista
+          <lb ed="#Q"/>argumentatio non valet: "Trinitas est una, non
+          <lb ed="#Q"/>ergo trina ', quia haec dictio ' una' determinat
+          <lb ed="#Q"/>formam, haec dictio 'trina' solum suppositum.
+          <lb ed="#Q"/>Si autem haec dictio 'trina' determinet formam
+          <lb ed="#Q"/>sicut haec dictio *una', tunc necessaria esset argu<lb ed="#Q"/>mentatio,
+          et haec esset falsa ' Trinitas est trina ',
+          <lb ed="#Q"/>quia secundum hoc exigeretur quod tres essent
+          <lb ed="#Q"/>ternarii personarum et * novem personae, sed
+          <lb ed="#Q"/>quiaf haec dictio 'trina' mere suppositum de<lb ed="#Q"/>terminat,
+          ideo haec est vera 'Trinitas est trina
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>et una' sicut dicunt. — Videtur tamen aliter
+          <lb ed="#Q"/>dicendum, sicut supra dictumg est?', quod quia'l
+          <lb ed="#Q"/>haec dictio 'trina' determinat ,suppositionemi
+          <lb ed="#Q"/>distinctam circa hoc quod dico 'Trinitas', illa
+          <lb ed="#Q"/>distinguit: unde dicit tres esse Trinitates.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c2-d1e3868">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad hoc quod obicitur quod
+          'copulat ternarium qui est ink tribus personis':
+          <lb ed="#Q"/>dicendum quod non, immo dicit Trinitatem dis<lb ed="#Q"/>tinctam
+          copulans ternarium trinitatum'. — Ad
+          <lb ed="#Q"/>hoc quod obicitur quod est similis modus lo<lb ed="#Q"/>quendi
+          acsi diceretur 'album est album': di<lb ed="#Q"/>cendum
+          quod non est verum, immo simile est
+          <lb ed="#Q"/>acsi diceretur * albedo est alba '. ,
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c2-d1e3886">
+          <lb ed="#Q"/>2. Ad hoc quod obicitur 'quod idem significa<lb ed="#Q"/>tur
+          per subiectum et praedicatum ': dicendum quod
+          <lb ed="#Q"/>etsi hoc sit verum, tamen quia haec dictio 'Tri<lb ed="#Q"/>nitas'
+          dicit numerum personarum, haec dictio
+          'trina' ei addita copulat ternarium trinitatum, et
+          <lb ed="#Q"/>ideo est falsa simpliciter. Nec oportet quod cum
+          <lb ed="#Q"/>idem significatur per praedicatum et subiectum,
+          <lb ed="#Q"/>dummodo diversis modis significetur'", ut alterum
+          <lb ed="#Q"/>sit principale, alterum denominativum, quod om<lb ed="#Q"/>nino
+          sit vera; haec enim falsa est 'albedo est
+          <lb ed="#Q"/>alba' et haec similiter 'humanitas est homo'.
+          - «Secundum Praepositinum4 haec est vera
+          'Deus est trinus et unus', ita quod haec dictio
+          'trinus* supponat primo pro tribus personis;
+          <lb ed="#Q"/>haec autem est" falsa ' Trinitas est triplex ', quia
+          <lb ed="#Q"/>haec dictio 'triplex' significat ternarium essen<lb ed="#Q"/>tiarum.
+          Et nota quod cum dicitur 'Trinitas est
+          <lb ed="#Q"/>una', haec dictio 'una' significat unitatem quae
+          <lb ed="#Q"/>est in ternario personarum sive Trinitatis; non
+          <lb ed="#Q"/>enim potest dici quod significet unitatem essentiae,
+          <lb ed="#Q"/>quia non est sensus: 'Trinitas est unius essentiae,
+          <lb ed="#Q"/>et non plurium essentiarum ', sed is est sensus:
+          "Trinitas est una et non plures trinitates5 ».
+        </p>
       </div>
     </body>
   </text>

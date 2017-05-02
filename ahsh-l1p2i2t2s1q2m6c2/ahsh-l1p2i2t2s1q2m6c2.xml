@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 6, C. 2</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-04-30">April 30, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-04-30" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,137 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="624"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t2s1q2m6c2">
+        <head xml:id="ahsh-l1p2i2t2s1q2m6c2-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 6, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t2s1q2m6c2-Hd1e3744" type="question-title">UTRUM NOMEN ' DONUM' SIT COMMUNE VEL PROPRIUM SPIRITUS SANCTI 3.</head>
+        <!-- c. 2 -->
+        <head xml:id="ahsh-l1p2i2t2s1q2m6c2-Hd1e3749" type="question-title">AN ESSE BONUM CONVENIAT SPIRITU! SANCTO AB AETERNO</head>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3752">
+          <pb ed="#Q" n="624"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Consequenter quaeritur an esse Donum conveniat
+          <lb ed="#Q"/>Spiritui Sancto ab aeterno 1.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3764">
+          <lb ed="#Q"/>Ad quod sic: a. Augustinus, V De Trinitatez:
+          « Aliter intelligitur cum dicitur donum, aliter cum
+          <lb ed="#Q"/>dicitur donatum. Donatum autem, nisi datum fue<lb ed="#Q"/>rit,
+          nullo modo dici potest; sempiterne ergo Spi<lb ed="#Q"/>ritus
+          Sanctus Donum est, temporaliter vero do—
+          <lb ed="#Q"/>natum a »;
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3777">
+          <lb ed="#Q"/>b. Item, ibidem: « Spiritus Sanctus non ex tem<lb ed="#Q"/>pore
+          ", sed ab aeternitate procedit; sed quia sic
+          <lb ed="#Q"/>procedebat ut esset donabile, iam Donum erat
+          <lb ed="#Q"/>antequam esset cui donaretur ». Ex quibus apertec
+          <lb ed="#Q"/>colligitur quod sicut Spiritus Sanctus ab aeterno
+          <lb ed="#Q"/>procedit, ita ab aeterno Donum est, non quia do<lb ed="#Q"/>naretur
+          a Patre ** Filio vel a Filio Patri, sed quia
+          <lb ed="#Q"/>ab aeterno processit donabilis 3.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3797">
+          <lb ed="#Q"/>Contra: l.Augustinus, XV De Trinitate't:
+          « Eo est Donum quo datur alicui »; sed dari alicui
+          <lb ed="#Q"/>est ex tempore; ergo Donum dicitur ex tempore.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3804">
+          <lb ed="#Q"/>2. Item 5, « eo est Donum quo processit ut do<lb ed="#Q"/>nabilis
+          »;.sed 'donabile' semper dicit respectum
+          <lb ed="#Q"/>ad creaturam;. ergo non dicitur Donum vel dona<lb ed="#Q"/>bilise
+          ab aeterno.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3815">
+          3. Item, V De Trinitate: « Eo dicitur Donum
+          <lb ed="#Q"/>quo daturus erat»; sed ex tempore erat daturus;
+          <lb ed="#Q"/>ergo ex tempore erat Donum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3822">
+          <lb ed="#Q"/>4. Item, unde « est haec differentia inter Donum
+          <lb ed="#Q"/>et datumf quod Donum dicitur ab aeterno, datum
+          <lb ed="#Q"/>ex tempore? ».
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3832">
+          <lb ed="#Q"/>5. Item, «Spiritus Sanctus dicitur Donum ab
+          <lb ed="#Q"/>aeterno eo quod donabilis ex tempore». Quare
+          <lb ed="#Q"/>similiter non dicitur Filius natus exg Virgine ab
+          <lb ed="#Q"/>aeterno " eo quod nascibilisi in tempore?
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3843">
+          <lb ed="#Q"/>Respondeo: 1. Donum tripliciter accipitur : quan<lb ed="#Q"/>doque
+          enim notat notionem aeternam, et sic 50<lb ed="#Q"/>lummodo
+          dicitur respectu Patris et Filii; quan<lb ed="#Q"/>doque
+          praeter notionem aeternam dicit habitudi<lb ed="#Q"/>nem 
+          ad creaturas, non tamen connotat effectum,
+          <lb ed="#Q"/>in creatura, et sic dicitur ut donabilis ; tertio modo
+          <lb ed="#Q"/>accipitur prout dicit notionem aeternam et prae<lb ed="#Q"/>ter.
+          hoc habitudinem ad creaturas, connotando
+          <lb ed="#Q"/>ultra effectum in creatura, et sic dicitur datum et
+          <lb ed="#Q"/>dicitur ex tempore. Unde Donum accipi potest
+          <lb ed="#Q"/>vel pro ipso donabili vel pro ipso dato; et hoc
+          <lb ed="#Q"/>modo dicit Augustinus6 quod «in tantum
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>dicitur Donum in quantum datus k eis quibus da<lb ed="#Q"/>tur »; 
+          donum enim cum significet habitum, signi<lb ed="#Q"/>ficare
+          potest habitum ut est' ad actum vel in
+          <lb ed="#Q"/>potentia tantum vel in aptitudine '" vel in effectu:
+          <lb ed="#Q"/>habitus enim dicitur multipliciter. Primo modo
+          <lb ed="#Q"/>est Donum ab aeterno, secundo modo similiter,
+          <lb ed="#Q"/>tertio modo inrl tempore, et hoc modo «in tan<lb ed="#Q"/>tum
+          dicitur Donum » etc. Primo ergo modo dicitur
+          <lb ed="#Q"/>Spiritus Sanctus amor procedens a Patre et Filio ;
+          secundo, amor procedens a Patre et Filio com<lb ed="#Q"/>municabilis 
+          creaturae; tertio P, ut iam communi<lb ed="#Q"/>catur
+          creaturae, efficiens in ipsa consimilem amo<lb ed="#Q"/>rem.
+          Dicendum ergo quod Magister7 accipit
+          <lb ed="#Q"/>Donum primo et secundo modo, Augustinus
+          <lb ed="#Q"/>vero 9, De Trinitate, tertio modo.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3904">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod Donum sive dona<lb ed="#Q"/>bile
+          dicit respectum ad creaturam; sed notandum
+          <lb ed="#Q"/>quod nomina quaedam connotant effectum in crea<lb ed="#Q"/>tura,
+          quaedam respectum; et effectum dupliciter:
+          <lb ed="#Q"/>in habitu, ut misericors, in actu, ut miserator;
+          <lb ed="#Q"/>et respectum similiter dupliciter': in habitu, ut
+          <lb ed="#Q"/>Dominus, in actu, ut Dominator. Unde quae con<lb ed="#Q"/>notant
+          effectum vel respectum in habitu possunt
+          <lb ed="#Q"/>dici de Deo ab aeterno, quae vero in actu non<lb ed="#Q"/>nisi
+          ex tempore; 'donabile' ergo dicit respectum
+          <lb ed="#Q"/>in habitu, ideo dicitur de Deo ab aeterno; 'datumï
+          <lb ed="#Q"/>in actu, ideo ex tempore.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3933">
+          <lb ed="#Q"/>3. Ad illud Augustini, V De Trinitate: «Eo
+          <lb ed="#Q"/>ipsos dicitur Donum quo daturus erat»: dicen<lb ed="#Q"/>dum
+          quod hoc quod dico « eo ipso quo daturus »
+          <lb ed="#Q"/>dicit rationem quare dicitur Donum et non causam.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3944">
+          <lb ed="#Q"/>4. Ad al i ud dicendum quod Donum, quia no<lb ed="#Q"/>rnen
+          est, significat rem per modum habitus et ut
+          <lb ed="#Q"/>sine tempore, ideo significat rem * ut est intempo<lb ed="#Q"/>ralis;
+          datum vero, quia participium est, significat
+          <lb ed="#Q"/>rem per modum actus et motus ", et ita sub tem<lb ed="#Q"/>pore,
+          et inde habetur" distinctio praedicta quod
+          <lb ed="#Q"/>Donum ab aeterno, datum ex tempore.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c2-d1e3962">
+          <lb ed="#Q"/>5. Ad aliud dicendum quod Filius nullum dicit
+          <lb ed="#Q"/>respectum nisi ad Patrem, sed Donum, secundum
+          <lb ed="#Q"/>quod accipitur in significatione secunda, dicit re<lb ed="#Q"/>spectum
+          ad creaturam; ideo dicitur Spiritus Sanc<lb ed="#Q"/>tus
+          Donum, ut sit donabilis ex tempore, non au<lb ed="#Q"/>tem
+          'Filius natus ', ut sit nascibilis in tempore,
+          <lb ed="#Q"/>quia aeterna nativitas Filii nullum dicit respec<lb ed="#Q"/>tum
+          ad creaturam.
+        </p>
       </div>
     </body>
   </text>

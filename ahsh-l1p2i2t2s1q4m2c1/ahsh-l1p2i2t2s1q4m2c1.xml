@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 4, M. 2, C. 1</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-05-02">May 02, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-05-02" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,184 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="637"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t2s1q4m2c1">
+        <head xml:id="ahsh-l1p2i2t2s1q4m2c1-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 4, M. 2, C. 1</head>
+        <head xml:id="ahsh-l1p2i2t2s1q4m2c1-Hd1e3744" type="question-title">QUID PRAEDICET 'TRINUS' CUM DICITUR 'DEUS EST TRINUS '.</head>
+        <!-- m2 prae -->
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c1-d1e3749">
+          <lb ed="#Q"/>Consequenter quaeritur de hoc nomine ' trinus '.
+          <lb ed="#Q"/>Circa quod quaeritur:
+          <lb ed="#Q"/>Primo, quid praedicet cum dicitur 'Deus est
+          <lb ed="#Q"/>trinus'" ;
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>secundo, «an possit dici 'Trinitas trina' £';
+          <lb ed="#Q"/>tertio, qualiter intelligatur dictum « Trinitas " in
+          <lb ed="#Q"/>unitate et unitas in Trinitate ».
+        </p>
+        <!-- m 2, c. 1 -->
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c1-d1e3772">
+          <lb ed="#Q"/>Ad primum sic 1: 1. Si Deus est trinus, ergo
+          <lb ed="#Q"/>A. unus Deus et alius Deus et tertius Deus;
+          <lb ed="#Q"/>quod falsum est.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c1-d1e3781">
+          <lb ed="#Q"/>2. Item, hoc nomen 'Deus' aut supponit pro
+          <lb ed="#Q"/>essentia aut pro persona. Si pro persona: sed
+          <lb ed="#Q"/>nulla persona est trina" et una; ergo illa est falsa.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c1-d1e3790">
+          <lb ed="#Q"/>3. Item, dictio numeralis respicit formam; ergo
+          <lb ed="#Q"/>hoc nomen 'trinus' respicit formam d huius no<lb ed="#Q"/>minis
+          'Deus'; ergo ponit distinctionem in illa;
+          <lb ed="#Q"/>ergo illa propositio est falsa. Si dicatur quod
+          <lb ed="#Q"/>supponit pro tribus personis simul, ergo pro Tri<lb ed="#Q"/>nitate
+          ; ergo is est sensus: ' Trinitas est trina
+          <lb ed="#Q"/>et una'; et hoc'? falsum, quia Trinitas non est
+          <lb ed="#Q"/>nisi una. Si supponat pro essentia: igitur is est
+          <lb ed="#Q"/>sensus: 'essentia est trina et una'; sed haec
+          <lb ed="#Q"/>estf falsa, quia haec dictio 'trina' ponit distinc<lb ed="#Q"/>tionem
+          in essentia, quae'nec distinguit nec dis<lb ed="#Q"/>tinguitur.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c1-d1e3819">
+          <lb ed="#Q"/>[Solutio]: Ad hoc dixerunt quidam qudd haec
+          <lb ed="#Q"/>dictio 'trinus' nullam rem significat, sed solum
+          <lb ed="#Q"/>intellectum. — Sed hoc non potest esse, quia intel<lb ed="#Q"/>lectus
+          est similitudo rei; ergo si significat intel<lb ed="#Q"/>lectum,
+          significat rem. Praeterea, si haec dictio
+          ' trinus ' nullam rem significat, cum dicitur ' Deus
+          <lb ed="#Q"/>est trinus et unus', ergo nulla res ibi praedicatur
+          <lb ed="#Q"/>de Deo; ergo illa vox non est propositio.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c1-d1e3837">
+          <lb ed="#Q"/>Alii dixerunt quod hoc nomen 'Deus' ali<lb ed="#Q"/>quando
+          supponit pro una persona, ut cum dicitur
+          ' Deus g generat ' ; aliquando " pro duabus, ut cum
+          <lb ed="#Q"/>dicitur ' Deus procedit a Patre'; aliquando pro
+          <lb ed="#Q"/>tribus' simul, ut cum dicitur ' Deus est Trinitas ';
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>hoc autem est quia unica et singularis deitas
+          <lb ed="#Q"/>est in una persona, in duabus et in tribus. Unde
+          <lb ed="#Q"/>Augustinus, in II libro De Trinitatez: « Qui<lb ed="#Q"/>dam
+          dicunt Patrem non apparuisse in subiecta'f
+          <lb ed="#Q"/>creatura, non attendentes, propter imbecillitatem
+          <lb ed="#Q"/>intellectus sui, quod cum dicit Apostolus 3: Im<lb ed="#Q"/>mortali
+          ', invisibili soli Deo'" etc., indistincte tit ibi
+          <lb ed="#Q"/>sermo de Trinitate, quia Pater aliquando apparuit
+          <lb ed="#Q"/>distincte, aliquando indistincte. Distincte, ut Da<lb ed="#Q"/>nieli,
+          Dan. 7, 9, dicitur antiquus dierum apparuisse,
+          <lb ed="#Q"/>a quo legitur Filius hominis accepisse regnum »,
+          <lb ed="#Q"/>sicut dicit Augustinus, II De Trinitate 4. Unde
+          <lb ed="#Q"/>Dan. 7,9 dicitur: Aspiciebam, donec-throni positi
+          <lb ed="#Q"/>sunt et antiquus" dierum sedit; et' paulo post5:
+          <lb ed="#Q"/>Aspiciebam in visu noctis, et ecce in nubibus
+          <lb ed="#Q"/>caeli Filius hominis venit, et datus est ei prin<lb ed="#Q"/>cipatus
+          et honor et regnum. Ecce apparet quod
+          <lb ed="#Q"/>Pater aliquando distincte apparuit in subiecta
+          <lb ed="#Q"/>creatura. Indistincte autem apparuit cum Filio
+          <lb ed="#Q"/>et.Spiritu Sancto Abrahae in ilice Ma'mbreaö,
+          <lb ed="#Q"/>ubi tres vidit et unum adoravit". Ita-enim-dicit
+          <lb ed="#Q"/>Augustinus, II libro De Trinitates: «Cum
+          <lb ed="#Q"/>tres visi sint nec quisquam in eis vel forma vel
+          <lb ed="#Q"/>aetate vel potestate maior ceteris dictus est, cur
+          <lb ed="#Q"/>nonq accipiamus hic insinuatam per creaturam
+          <lb ed="#Q"/>visibilem Trinitatis aequalitatem atque in tribus
+          <lb ed="#Q"/>personis unam eamdemque substantiam ? Nam ne
+          <lb ed="#Q"/>quisquam putaret sic intimatum unum in tribus
+          <lb ed="#Q"/>tuisse maiorem et eum' Dominum Deis Filium
+          <lb ed="#Q"/>intelligendum, duos autem alios angelos eius, quia
+          <lb ed="#Q"/>cum' tres visi sint, uni Domino illic loquitur
+          <pb ed="#Q" n="638"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>Abraham: Sancta Scriptura futuris talibus cogi<lb ed="#Q"/>tationibus
+          atque opinionibus contradicendo ", non
+          <lb ed="#Q"/>praetermisit occurrere, quando paulo post duos
+          <lb ed="#Q"/>angelos dicit venisse ad Loth 1, in quibus ille vir
+          <lb ed="#Q"/>iustus, qui de' Sodomorum incendio meruit li<lb ed="#Q"/>berari,
+          ad unum Dominum loquitur». 'Dominus
+          <lb ed="#Q"/>autem, ad quem Abraham loquebatur, intelligitur
+          <lb ed="#Q"/>Trinitas, et ita hoc nomen 'Deus' vel hoc no<lb ed="#Q"/>men
+          'Dominus' una suppositione supponere po<lb ed="#Q"/>test
+          pro tribus personis 2. Potest ergo dici, et ita
+          <lb ed="#Q"/>videtur secundum auctoritates Sanctorum, quod
+          <lb ed="#Q"/>cum dicitur 'Deus est trinus et unus', hoc no<lb ed="#Q"/>men
+          ' Deus ' c supponit indistincte pro tribus per<lb ed="#Q"/>sonis
+          et haec dictio ' unus ' respicit formam .tan—
+          <lb ed="#Q"/>tum et haec dictio 'trinus' significat ternarium
+          <lb ed="#Q"/>theologicum personarum ", prout indistincte sup<lb ed="#Q"/>ponuntur
+          per hoc nomen ' Deus ', quia determinat
+          <lb ed="#Q"/>illum ternarium in personis, secundum quod sunt
+          <lb ed="#Q"/>unius naturae.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c1-d1e3963">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo' dicen<lb ed="#Q"/>dum
+          quod ' trinus ' dicitur ab iis nominibus 'tres
+          <lb ed="#Q"/>et unus ', et ita respicit suppositum et formam si<lb ed="#Q"/>gnificatam,
+          quia per primo significatum, id est
+          <lb ed="#Q"/>ternarium f, respicit tantum suppositum ; quantum
+          <lb ed="#Q"/>ad secundo significatum, id est unitatem; respicit
+          <lb ed="#Q"/>formam. Et ita patet quodg hoc nomen 'trinus'
+          <lb ed="#Q"/>non sequitur regulam aliorum nominum numera—
+          <lb ed="#Q"/>lium, quia quantum ad ternarium significatum
+          <lb ed="#Q"/>non respicit formam significatam, sed tantum sup<lb ed="#Q"/>positionem".
+          Unde patet quod' haec argumenta<lb ed="#Q"/>tio
+          non valet: 'trinus Deus est, ergo unus Deus *
+          <lb ed="#Q"/>et alius et tertius' Deus est', quia hoc adiec<lb ed="#Q"/>tivum
+          -'trinus' in prima proposition-e respicit
+          <lb ed="#Q"/>suppositum tantum quantum ad ternarium primo
+          <lb ed="#Q"/>significatum. Ad hoc enim fuit institutum a Theo<lb ed="#Q"/>logis
+          ut determinaret indistinctam suppositionem
+          <lb ed="#Q"/>huius nominis ' Deus'. lndistincte autem no<lb ed="#Q"/>mina
+          numeralia respiciunt formam secundum
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>communem naturam nominum numeralium: quia
+          <lb ed="#Q"/>enim hoc nomen 'Deus' supponere potest pro tri<lb ed="#Q"/>bus
+          personis sub forma una, suppositione una, ideo
+          <lb ed="#Q"/>inventum fuit hoc adiectivum 'trinus' ad deter<lb ed="#Q"/>minandum
+          talem suppositionem, ponendom ter—
+          <lb ed="#Q"/>narium in suppositis et unitatem in forma, et
+          <lb ed="#Q"/>ideo non sequitur regulam aliorum nominum nu<lb ed="#Q"/>meralium.
+          Eodem modo dicendum est de hac lo<lb ed="#Q"/>cutione:
+          « Monadi trinae gloriam canamus3 ».
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c1-d1e4029">
+          <lb ed="#Q"/>2. Ad secundum dicendum quod "trinus'
+          <lb ed="#Q"/>dicit unitatem essentiae et Trinitatem persona<lb ed="#Q"/>rum;
+          unde sensus est: 'Deus est trinus ', id est
+          <lb ed="#Q"/>Deus" est una essentia in tribus personis. Unde
+          <lb ed="#Q"/>in hoc nomine 'trinus' cadit unitas essentiae in
+          <lb ed="#Q"/>rectitudine, distinctio personalis oblique. Hoc au<lb ed="#Q"/>tem
+          nomen 'Deus', quod est quasi medium in<lb ed="#Q"/>ter
+          personam et essentiam, significat essentiam
+          <lb ed="#Q"/>personaliter: essentia '7 enim significat ' quo est',
+          <lb ed="#Q"/>persona 'quis est', Deus 'quod est'P ; 'quod est'
+          <lb ed="#Q"/>autem medium est inter 'quo est' et 'quis est,
+          <lb ed="#Q"/>secundum rationem intelligentiae 4. Unde hoc no<lb ed="#Q"/>men
+          'Deus', quia significat medium inter 'quo
+          <lb ed="#Q"/>est' et ' quis est' 9, id est essentiam et personam,
+          <lb ed="#Q"/>supponit essentiam) personaliter.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q4m2c1-d1e4064">
+          <lb ed="#Q"/>3. Ad tertium dicendum quod5 non sequi<lb ed="#Q"/>tur:
+          'Deus est trinus, ergo Trinitas est trina",
+          <lb ed="#Q"/>licet hoc nomen 'Deus' supponat ibi pro tribus
+          <lb ed="#Q"/>personis, quia haec dictio '.Trinitas' significat
+          <lb ed="#Q"/>distinctionem et in illa distinctione supponit tres
+          <lb ed="#Q"/>personas. Undes haec dictio 'trina' non deter<lb ed="#Q"/>minat
+          suppositionem indistinctam, sed distinctam;
+          <lb ed="#Q"/>unde vult distinguere ipsam distinctionem et tri<lb ed="#Q"/>plicare
+          Trinitatem; unde ad hoc quod haec esset
+          <lb ed="#Q"/>vera' 'Trinitas est trina' exigeretur quod tres
+          <lb ed="#Q"/>essent Trinitates. — Vel potest dici quod hoc
+          <lb ed="#Q"/>nomen 'Deus' supponit pro divina essentia et
+          <lb ed="#Q"/>haec dictio 'trinus' non respicit formam nec ponit
+          <lb ed="#Q"/>distinctionem in essentia, sed in supposito 6.
+        </p>
       </div>
     </body>
   </text>

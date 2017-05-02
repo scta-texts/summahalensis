@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,10 +48,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="42"/><cb ed="#Q" n="a"/>
       </div>
@@ -92,7 +86,7 @@
           <p xml:id="ahsh-l1p1i1t1q1c2-d1e3788">
             <lb ed="#Q"/>b. Item, naturales impressiones, manente na<lb ed="#Q"/>tura,
             sunt immutabiles et universales et eaedem
-            <lb ed="#Q"/>apud omnes ; sed <quote> cognitio existendi Deum est no<lb ed="#Q"/>bis
+            <lb ed="#Q"/>apud omnes ; sed <quote xml:id="ahsh-l1p1i1t1q1c2-Qd1e3796"> cognitio existendi Deum est no<lb ed="#Q"/>bis
             naturaliter impressa </quote>, sicut dicit Damasce<lb ed="#Q"/>nus
             '; ergo, cum semper maneat natura, constat
             <lb ed="#Q"/>quod haec cognitio est universalis et eadem apud
@@ -125,7 +119,7 @@
             <lb ed="#Q"/>si ratione, ut est ratio, moveatur.
           </p>
           <p xml:id="ahsh-l1p1i1t1q1c2-d1e3858">
-            <lb ed="#Q"/>Contra: 1. Ioannes Damascenus 5: <quote> Quam<lb ed="#Q"/>vis
+            <lb ed="#Q"/>Contra: 1. Ioannes Damascenus 5: <quote xml:id="ahsh-l1p1i1t1q1c2-Qd1e3865"> Quam<lb ed="#Q"/>vis
             cognitio existendi Deum naturaliter sit nobis
             <lb ed="#Q"/>impressa, tamen in tantum praevaluit perniciosa
             <lb ed="#Q"/>hominum malitia ut dicant non esse Deum, se<lb ed="#Q"/>cundum
@@ -140,7 +134,7 @@
             <lb ed="#Q"/>non est Deus? Aut enim dixit quod cogitare po<lb ed="#Q"/>tuit
             aut quod cogitare non potuit. Si quod cogi<lb ed="#Q"/>tare
             potuit: ergo potest cogitari Deum non esse.
-            <lb ed="#Q"/>Si quod cogitare non potuit - contra: <quote> idem
+            <lb ed="#Q"/>Si quod cogitare non potuit - contra: <quote xml:id="ahsh-l1p1i1t1q1c2-Qd1e3897"> idem
             <lb ed="#Q"/>est dicere corde et cogitare.; si ergo vere cogita<lb ed="#Q"/>vit
             quod " dixit in corde suo ' </quote> Deum non esse:
             <lb ed="#Q"/>ergo potuit cogitare Deum non esse.
@@ -257,10 +251,10 @@
           <p xml:id="ahsh-l1p1i1t1q1c2-d1e4150">
             <lb ed="#Q"/>5. Ad quintum et ultimum dicendum, sicut di<lb ed="#Q"/>xit
             * Anselmus supra 3, quod ' intellectu sive co<lb ed="#Q"/>gitatione
-            qua cogitatur res, <quote> cum vox eam signi<lb ed="#Q"/>.ficans
+            qua cogitatur res, <quote xml:id="ahsh-l1p1i1t1q1c2-Qd1e4166"> cum vox eam signi<lb ed="#Q"/>.ficans
             cogitatur '</quote>, potest summum bonum cogitari
             <lb ed="#Q"/>non esse; cogitatione vero vel intellectu quo id"
-            <quote>ipsum quod res est" intelligitur</quote>, nullo modo.
+            <quote xml:id="ahsh-l1p1i1t1q1c2-Qd1e4174">ipsum quod res est" intelligitur</quote>, nullo modo.
           </p>
         </div>
         <div xml:id="ahsh-l1p1i1t1q1c2-Dd1e4164" type="articulus">
@@ -273,7 +267,7 @@
           </p>
           <p xml:id="ahsh-l1p1i1t1q1c2-d1e4181">
             <lb ed="#Q"/>1. Ad quod sic obicit Respondens9 pro in<lb ed="#Q"/>si
-            piente Anselmo ?: <quote> Cogitare me non esse,
+            piente Anselmo ?: <quote xml:id="ahsh-l1p1i1t1q1c2-Qd1e4202"> Cogitare me non esse,
             <lb ed="#Q"/>quamdiu me esse certissime scio, nescio utrum
             <lb ed="#Q"/>possim; sed si possum, cur non et quidquid aliud
             <lb ed="#Q"/>quod eadem certitudine scio </quote>? Ergo, quamvis
@@ -290,7 +284,7 @@
           </p>
           <p xml:id="ahsh-l1p1i1t1q1c2-d1e4213">
             <lb ed="#Q"/>Contra: a. Obicit Anselmus, 'in libro Con<lb ed="#Q"/>tra
-            respondentem pro insipiente 10: <quote> Proculdubio,
+            respondentem pro insipiente 10: <quote xml:id="ahsh-l1p1i1t1q1c2-Qd1e4237"> Proculdubio,
             <lb ed="#Q"/>quidquid alicubi aut aliquando non est, etiam si
             <lb ed="#Q"/>est alicubi aut aliquando, potest tamen cogitari 
             <pb ed="#Q" n="45"/>
@@ -314,7 +308,7 @@
             <lb ed="#Q"/>dissolvi et non esse potest. Quarec quidquid ali—
             <lb ed="#Q"/>cubi aut aliquando totum non est, etsi est, potest
             <lb ed="#Q"/>cogitari non esse </quote>. Talis autem est omnis crea<lb ed="#Q"/>tura.
-            <quote> At" vero, quo maius nequit cogitari, si
+            <quote xml:id="ahsh-l1p1i1t1q1c2-Qd1e4289"> At" vero, quo maius nequit cogitari, si
             <lb ed="#Q"/>est, non potest cogitari non esse </quote>, ut probatum
             <lb ed="#Q"/>est supra]; proprium igitur' est' soli divinae es<lb ed="#Q"/>sentiae
             sic esse ut non possit cogitari non esse.
@@ -339,7 +333,7 @@
           </p>
           <p xml:id="ahsh-l1p1i1t1q1c2-d1e4311">
             <lb ed="#Q"/>1. Ad primum ergo' respondet Anselmuss:
-            <quote> Scito, quia"l potes te cogitare non esse, quam<lb ed="#Q"/>vis
+            <quote xml:id="ahsh-l1p1i1t1q1c2-Qd1e4339"> Scito, quia"l potes te cogitare non esse, quam<lb ed="#Q"/>vis
             certissime scias te esse. Multa namque cogi<lb ed="#Q"/>tamus
             non esse quae scimus esse, et multa esse
             <lb ed="#Q"/>quae non esse scimus, non existimanda, sed tin<lb ed="#Q"/>gendo

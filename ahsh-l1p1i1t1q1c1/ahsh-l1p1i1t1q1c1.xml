@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,10 +48,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="40"/><cb ed="#Q" n="a"/>
       </div>
@@ -72,7 +66,7 @@
           <lb ed="#Q"/>I. Per intentionem <!-- e --> igitur entis sive esse,
           <lb ed="#Q"/><name>Richardus de S. Victore</name>, in libro <title>De Tri<lb ed="#Q"/>nitate</title>, 
           probat Deum esse, proposita hac distinc<lb ed="#Q"/>tione:
-          <quote>Omne quod est vel esse potest, aut<!--f--> ab
+          <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e3769">Omne quod est vel esse potest, aut<!--f--> ab
           <lb ed="#Q"/>aeterno habet esse aut esse coepit ex tempore;
           <lb ed="#Q"/>item, omne quod est vel esse potest, aut habet 
           <lb ed="#Q"/>esse a semetipso vel ab alio quam a semetipso.
@@ -98,7 +92,7 @@
           <lb ed="#Q"/>non tamen ab aeterno. 
         </p>
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e3809">
-          <lb ed="#Q"/>Iis ergo ita positis, arguit sic <!--5-->: <quote>Quod innu<lb ed="#Q"/>mera 
+          <lb ed="#Q"/>Iis ergo ita positis, arguit sic <!--5-->: <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e3847">Quod innu<lb ed="#Q"/>mera 
           sint quae ab aeterno non fuerunt, quotidiana
           <lb ed="#Q"/>experimenta latere non sinunt. Superior autem
           <lb ed="#Q"/>ratio invenit quod quidquid ab aeterno non fuit,
@@ -110,9 +104,9 @@
           <lb ed="#Q"/>esse ab aeterno</quote>. Et hoc dicimus divinam sub<lb ed="#Q"/>stantiam.
         </p>
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e3839">
-          <lb ed="#Q"/>Item, ulterius arguit<!--1-->: <quote>Aliquid fuisse ab ae<lb ed="#Q"/>terno <!--a-->, 
+          <lb ed="#Q"/>Item, ulterius arguit<!--1-->: <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e3881">Aliquid fuisse ab ae<lb ed="#Q"/>terno <!--a-->, 
           quod tamen non sit a semetipso</quote>, quae
-          <lb ed="#Q"/>est differentia media, <quote>nemini videatur impossi<lb ed="#Q"/>bile,
+          <lb ed="#Q"/>est differentia media, <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e3890">nemini videatur impossi<lb ed="#Q"/>bile,
           quasi sit necessarium causam <!--b--> semper et<lb ed="#Q"/>tectum
           praecedere et omne, quod ab alio est, sem<lb ed="#Q"/>per
           suo principio succedere oportere. Certe ra<lb ed="#Q"/>dius 
@@ -124,7 +118,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e3865">
           <lb ed="#Q"/>II. Item, <name ref="#JohnDamascenus">Ioannes Damascenus</name> probat
-          <lb ed="#Q"/>idem per rationem causalitatis: <quote>Omne
+          <lb ed="#Q"/>idem per rationem causalitatis: <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e3929">Omne
           <lb ed="#Q"/>quod est, aut est causabileg aut incausabile; sed
           <lb ed="#Q"/>omne causabile est vertibile: vel " secundum elec<lb ed="#Q"/>tionem,
            ut spiritualis substantia 1, vel secundum
@@ -156,7 +150,7 @@
           ergo de necessitate praecedens ratio.
         </p>
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e3936">
-          <lb ed="#Q"/>Item, <title>Sap.</title> 13,4—5: <quote ana="#sap13_4 #sap13_5">Si virtutem<!--a--> et opera crea<lb ed="#Q"/>turarum<!--b-->
+          <lb ed="#Q"/>Item, <title>Sap.</title> 13,4—5: <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4015" ana="#sap13_4 #sap13_5">Si virtutem<!--a--> et opera crea<lb ed="#Q"/>turarum<!--b-->
           mirati sunt, intelligant ab illis quoniam
           <lb ed="#Q"/>qui haec fecit, fortior est illis; a magnitudine
           <lb ed="#Q"/>enim speciei et creaturae potest cognoscibiliter
@@ -164,21 +158,21 @@
         </p>
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e3949">
           <lb ed="#Q"/>Item, Hugo de S. Victore, in I Sententia<lb ed="#Q"/>rum4:
-          <quote>Cum anima de se dubitare<!--c--> non pos<lb ed="#Q"/>sit
+          <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4038">Cum anima de se dubitare<!--c--> non pos<lb ed="#Q"/>sit
           quoniam est<!--d--> (quia se ignorare non potest),
           <lb ed="#Q"/>cogitur <!--e--> ex se et hoc credere (quia aliquando coe<lb ed="#Q"/>pisse
           se meminit) quoniam non semper est. Cum
           <lb ed="#Q"/>ergo non per se coepisse et initium habuisse se
           <lb ed="#Q"/>videat, non potest ignorare</quote> quia non fuit sibi ini<lb ed="#Q"/>tium.
-          <quote>Ut ergo<!--f--> inciperet quod non erat, ab alio
+          <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4060">Ut ergo<!--f--> inciperet quod non erat, ab alio
           <lb ed="#Q"/>factum est, qui erat</quote>: et illum dicimus Deum. Hinc
-          <lb ed="#Q"/>dicitur in Psalmo<!--5-->: <quote>Scitote, quoniam Dominus<!--g-->
+          <lb ed="#Q"/>dicitur in Psalmo<!--5-->: <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4072">Scitote, quoniam Dominus<!--g-->
           <lb ed="#Q"/>ipse est Deus, ipse fecit nos</quote> etc.<!--h-->
         </p>
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e3975">
           <lb ed="#Q"/>III. Praeterea, per intentionem verita<lb ed="#Q"/>tis
           probatur idem ab Anselmo, in libro De ve<lb ed="#Q"/>ritate:<!--6--> 
-          <quote>Cogitet qui potest quando <!--i--> non fuit ve<lb ed="#Q"/>rum
+          <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4092">Cogitet qui potest quando <!--i--> non fuit ve<lb ed="#Q"/>rum
           hoc, scilicet quod<!--k--> futurum erat aliquid,
           <lb ed="#Q"/>aut quando desinet aut non erit verum hoc, sci<lb ed="#Q"/>licet
           quia praeteritum erit aliquid. Quod si neu<lb ed="#Q"/>trum
@@ -189,7 +183,7 @@
           divinam essentiam.
         </p>
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e4002">
-          <lb ed="#Q"/>Item<!--l-->, Anselmus, in eodem<!--7-->: <quote>Si veritas
+          <lb ed="#Q"/>Item<!--l-->, Anselmus, in eodem<!--7-->: <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4127">Si veritas
           <lb ed="#Q"/>habuit principium aut habebit finem, antequam
           <lb ed="#Q"/>ipsa inciperet, verum erat quia <mentioned>non erat veritas</mentioned>,
           <lb ed="#Q"/>et postquam finita erit, verum erit quia <mentioned>non erit<!--m-->
@@ -203,7 +197,7 @@
           sicut ratiocinatur Augustinus, in libro "
           <lb ed="#Q"/>Soliloquiorum <!--8-->: Si<!--o--> veritas non est, veritas est, <!--P-->
           <lb ed="#Q"/>quia consequitur<!--q--> <mentioned>veritatem non esse</mentioned> esse ve<pb ed="#Q" n="42"/><cb ed="#Q" n="a"/><lb ed="#Q"/>rum. 
-          —— Si dicatur quod <quote>veritatem non esse,
+          —— Si dicatur quod <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4180">veritatem non esse,
           <lb ed="#Q"/>esse<!--a--> verum</quote> ponit<!--b--> verum secundum quid, non
           <lb ed="#Q"/>simpliciter, tamen adhuc sequitur: quia<!--f--> omne
           <mentioned>secundum quid</mentioned> est respectu alicuius quod est
@@ -233,14 +227,14 @@
         </p>
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e4087">
           <lb ed="#Q"/>Item, ad idem Anselmus, in Proslogiona<!--c-->
-          <quote>Credimus, Domine, te esse aliquid, quo nihil
+          <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4284">Credimus, Domine, te esse aliquid, quo nihil
           <lb ed="#Q"/>maius excogitari<!--f--> possit. An non est aliqua talis
-          <lb ed="#Q"/>natura, quia <quote>dixit insipiens in corde suo: non est
+          <lb ed="#Q"/>natura, quia <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4292">dixit insipiens in corde suo: non est
           <lb ed="#Q"/>Deus</quote><!--4-->? Sed certe ipse insipiens, cum audit hoc
           <lb ed="#Q"/>ipsum quod dico <mentioned>aliquid quo<!--g--> nihil maius cogi<lb ed="#Q"/>tari
           potest</mentioned>, intelligit quod audit, et quod intelligit
           <lb ed="#Q"/>in intellectu eius est, etiam si non<!--h--> intelligat illud
-          <lb ed="#Q"/>esse</quote>. Inde sequitur: <quote>Certe illud quo maius ex<cb ed="#Q" n="b"/><lb ed="#Q"/>cogitari 
+          <lb ed="#Q"/>esse</quote>. Inde sequitur: <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4315">Certe illud quo maius ex<cb ed="#Q" n="b"/><lb ed="#Q"/>cogitari 
           nequit, non potest esse in' solo intellectu.
           <lb ed="#Q"/>Si enim in solo <!--k--> <mentioned>intellectu</mentioned> est, potest cogitari
           <lb ed="#Q"/>esse et in re: quod maius est. Si ergo id quo
@@ -256,7 +250,7 @@
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e4134">
           <lb ed="#Q"/>V. Item, probatur per intentionem prae<lb ed="#Q"/>eminentiae. 
           Unde Anselmus, in Monolo<lb ed="#Q"/>gion:<!--6-->- 
-          <quote>Cum <!--m--> naturarum aliae aliis negari non
+          <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4367">Cum <!--m--> naturarum aliae aliis negari non
           <lb ed="#Q"/>possint esse meliores, nihilominus persuadet ratio
           <lb ed="#Q"/>aliquam<!--n--> in eis sic supereminere ut non habeat
           <lb ed="#Q"/>superiorem se. Si enim huiusmodi <!--o--> distinctio gra<lb ed="#Q"/>duum
@@ -270,7 +264,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t1q1c1-d1e4165">
           <lb ed="#Q"/>Item, Richardus, in libro De Trinitate <!--7-->, ad
-          <lb ed="#Q"/>idem: <quote>Illud certissimum est et unde, <!--t--> credo,
+          <lb ed="#Q"/>idem: <quote xml:id="ahsh-l1p1i1t1q1c1-Qd1e4416">Illud certissimum est et unde, <!--t--> credo,
           <lb ed="#Q"/>nemo dubitare potest: quod <!--u--> in tanta multitudine
           <lb ed="#Q"/>rerum existentium et tam multiplici differentia
           <lb ed="#Q"/>graduum oporteat aliquid esse summum; sum<lb ed="#Q"/>mum

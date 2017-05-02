@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 6, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-04-30">April 30, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-04-30" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="624"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t2s1q2m6c3">
+        <head xml:id="ahsh-l1p2i2t2s1q2m6c3-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 1, Q. 2, M. 6, C. 3</head>
+        <head xml:id="ahsh-l1p2i2t2s1q2m6c3-Hd1e3744" type="question-title">AN DONABILITAS SIT NOTIO SPIRITUS SANCTI</head>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c3-d1e3747">
+          <lb ed="#Q"/>Tertio quaeritur an donabilitas sit notio Spi<lb ed="#Q"/>ritus
+          Sancti 1.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c3-d1e3754">
+          <lb ed="#Q"/>Quod sic videtur: 1. Quia significatproprieta—
+          <lb ed="#Q"/>tern aeternam Spiritus Sancti, proprietas autem
+          <lb ed="#Q"/>aeterna notio est.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c3-d1e3763">
+          <lb ed="#Q"/>2. Praeterea, per illam proprietatem distingui<lb ed="#Q"/>tur
+          Spiritus Sanctus ab aliis personis; ergo est
+          <lb ed="#Q"/>notio.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s1q2m6c3-d1e3773">
+          <lb ed="#Q"/>Contra: a. Non est eadem notio qua Filius re<lb ed="#Q"/>fertur
+          ad id quod est ante et ad id quod sequi<lb ed="#Q"/>tur:
+          refertur enim ad Patrem per generationem,
+          <lb ed="#Q"/>ad Spiritum Sanctum per spirationem; quare si<lb ed="#Q"/>militer
+          Spiritus Sanctus eadem notione non refer<lb ed="#Q"/>tur
+          ad ante et ad posterius. Cum igitur .Spiritus
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Sanctus donabilitate refertur ad posterius ", id
+          <lb ed="#Q"/>est ad creaturas, non illa refertur ad Patrem et
+          <lb ed="#Q"/>Filium, et ita non est notio. .
+          <lb ed="#Q"/>Respondeo: Proprietates sunt distinctivae b per<lb ed="#Q"/>sonarum
+          secundum se, circumscripta omni habi<lb ed="#Q"/>tudine
+          secundum actum et secundum potentiam
+          <lb ed="#Q"/>ad creaturas, et ideo *donabile ', ratione habitu<lb ed="#Q"/>dinis
+          ad creaturas, non est notio Spiritus Sancti 2;
+          <lb ed="#Q"/>sed praeter istam habitudinem habet proprieta<lb ed="#Q"/>tem 
+          qua refertur ad Patrem et Filium, ratione 
+          <lb ed="#Q"/>cuius dicitur notio Spiritus Sancti et distinguit
+          <lb ed="#Q"/>Spiritum Sanctum a Patre et Filio. Unde Augu<lb ed="#Q"/>stinus,
+          in V libro De Trinitate3: <quote xml:id="ahsh-l1p2i2t2s1q2m6c3-Qd1e3818">Quod datum
+          <lb ed="#Q"/>est, et ad eum qui dedit refertur et ad eos
+          <lb ed="#Q"/>quibus dedit</quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
