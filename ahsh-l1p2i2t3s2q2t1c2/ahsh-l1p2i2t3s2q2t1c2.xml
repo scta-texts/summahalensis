@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, C. 2</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-05-10">May 10, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-05-10" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,134 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="699"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t3s2q2t1c2">
+        <head xml:id="ahsh-l1p2i2t3s2q2t1c2-Hd1e3741">I, P. 2, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t3s2q2t1c2-Hd1e3744" type="question-title">UTRUM MISSIO SIT QUID CREATUM VEL INCREATUM.</head>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3747">
+          <pb ed="#Q" n="699"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>secundo quaeritur utrum missio sit quid creatum
+          <lb ed="#Q"/>vel increatum 1.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3758">
+          <lb ed="#Q"/>Et videtur quod increatum: a. Quia processio
+          <lb ed="#Q"/>Spiritus Sancti est ipse Spiritus Sanctus procedens,
+          <lb ed="#Q"/>et sanctificatio Spiritus Sancti est ipse sanctifi<lb ed="#Q"/>cans;
+          sed missio Spiritus Sancti est eius processio
+          <lb ed="#Q"/>a Patre et Filio ad' sanctificandum creaturam;
+          <lb ed="#Q"/>utrumque autem est quid increatum, quod est Spi<lb ed="#Q"/>ritus
+          Sanctus; ergo missio, qua " Spiritus Sanctus
+          <lb ed="#Q"/>est missus, est quid increatum b, et eadem ratiOne
+          <lb ed="#Q"/>missio, qua Filius mittitur et qua 'Pater mittit;
+          <lb ed="#Q"/>ergo missio in divinis est quid increatum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3782">
+          <lb ed="#Q"/>b. Item, nihil creatum praedicatur de Deo in
+          <lb ed="#Q"/>rectitudine-: nihil enim praedicatur de ipso quod
+          <lb ed="#Q"/>non sit ipsez; sed haec verba 'mittere' et 'mitti'
+          <lb ed="#Q"/>praedicantur de Deo in rectitudine, cum dicitur
+          ' Deus mittit' et 'Deus mittitur'; ergo non di<lb ed="#Q"/>cunt
+          aliquid creatum; ergo missio significata per
+          <lb ed="#Q"/>illa est quid increatum. "
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3799">
+          <lb ed="#Q"/>c. Item, <name ref="#GregoryGreat">Gregorius</name>, in Moralibus3: «Eo mit<lb ed="#Q"/>titur
+          Filius quo generatur ». Ergo mittere est ge<lb ed="#Q"/>nerare
+          et mitti'generari; sed generare et generari
+          <lb ed="#Q"/>non sunt aliquid' creatum, sed 'increatum; ergo
+          <lb ed="#Q"/>missio est quid increatum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3816">
+          <lb ed="#Q"/>Contra: 1. Omne increatum est" aeternum;
+          <lb ed="#Q"/>nullum temporale est aeternum ; ergo nullum't'em<lb ed="#Q"/>porale
+          est increatum; sed missio est temporalis,
+          <lb ed="#Q"/>sicut dicitur 14 dist. libri I Sententiarum4; ergo
+          <lb ed="#Q"/>non est quid increatum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3829">
+          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, 'IV De Trinitate5: « Sicut
+          <lb ed="#Q"/>generari est Filio esse a Patre, ita Filium cognosci
+          <lb ed="#Q"/>esse'1 a Patre est Filium mitti, et sicut Spiritui
+          <lb ed="#Q"/>Sancto e Donum Dei esse esta Patre procedere,
+          <lb ed="#Q"/>ita Spiritum Sanctum cognosci quod a Patre pro<lb ed="#Q"/>cedit
+          est ipsum mitti »; sed sivef Filium sive Spi<lb ed="#Q"/>ritum
+          Sanctum cognosci quod a Patre procedant
+          <lb ed="#Q"/>est quid creatum et etiam existens in creatura;
+          <lb ed="#Q"/>ergo mitti, sive miSsio est quid creatum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3854">
+          <lb ed="#Q"/>3. Item, missio Spiritus Sancti a Patre et Filio
+          <lb ed="#Q"/>nihil aliud est quam gratia data hominibus; unde
+          <lb ed="#Q"/>Bedaü: « Cum gratia datur hominibus, mittitur
+          <lb ed="#Q"/>Spiritus Sanctus a Patre, mittitur et a Filio »;
+          <lb ed="#Q"/>sed gratia data hominibus est quid creatum; ergo
+          <lb ed="#Q"/>missio Spiritus Sancti est quid creatum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3870">
+          <lb ed="#Q"/>[Solutio]: Ad hoc dicendum quod missio, sive
+          <lb ed="#Q"/>dicatur activeg de Patre respectu Filii sive de
+          <lb ed="#Q"/>Patre et Filio respectu Spiritus Sancti sive dicatur
+          <lb ed="#Q"/>passive de Filio sive de Spiritu Sancto, est'quid
+          <lb ed="#Q"/>increatum et idem quod Deus. '
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3883">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo obiectum
+          <lb ed="#Q"/>in contrarium dicendum est quod in missione duo
+          <lb ed="#Q"/>sunt: est enim ibi 'l principale significatum, quod
+          <lb ed="#Q"/>est quid increatum; et est ibi aliquid connotatum,
+          <lb ed="#Q"/>scilicet effectus in rationali creatura, quod est
+          <lb ed="#Q"/>quid creatum: nam missio est processioi ali<lb ed="#Q"/>cuius
+          personae manifestatak in creatura vel ma<lb ed="#Q"/>nifestatio
+          processionis aeternae facta rationali crea<lb ed="#Q"/>turae.
+          Ratione ergo connotatil, quod temporale
+          <lb ed="#Q"/>est, dicitur missio "* temporalis; sed " illud conno<lb ed="#Q"/>tatum
+          non praedicatur de ipsa" nisi oblique, non
+          <lb ed="#Q"/>in rectitudine; sed illudP quod praedicatur de ipsa
+          <lb ed="#Q"/>ratione principalis. significati, quod est quid in<lb ed="#Q"/>creatum,
+          dicitur in rectitudine; unde non sequitur
+          <lb ed="#Q"/>si missio est temporalis, quod non sit quid 'in'<lb ed="#Q"/>creatum,
+          sed quod illud, ratione cuius dicitur tem—
+          <lb ed="#Q"/>poralis, scilicet effectus connotatus, non sit quid
+          <lb ed="#Q"/>increatum; et bene sequitur: est quid increatum,
+          <lb ed="#Q"/>ergo est? quid aeternum; sed non sequitur: ergo
+          <lb ed="#Q"/>est ab aeterno vel est aeterna, sicut postea osten<lb ed="#Q"/>detur,
+          scilicet' in tertio Problemate 7.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3932">
+          <lb ed="#Q"/>2. Ad aliud dicendums quod, cum diciturt
+          'Filium a Patre mitti est cognosci quod a'Patre
+          <lb ed="#Q"/>procedit ', non datur ista definitio "* per essentiam,
+          <lb ed="#Q"/>sed per effectum" consequentem. Nam cognitio
+          <lb ed="#Q"/>processionis est effectus missiOnis; processio vero *
+          <lb ed="#Q"/>manifestata in creatura rationali vel manifestatio
+          <lb ed="#Q"/>processionis est illud quod essentialiter? prae<lb ed="#Q"/>dicatur
+          de missione; effective vero cum dicitur
+          <lb ed="#Q"/>missio est cognitio facta in creatura "vel gratia
+          <lb ed="#Q"/>data creaturae, sicut cum dicitur Deus refugium
+          <lb ed="#Q"/>nostrum8 vel patientia nostra vel fortitudo no<lb ed="#Q"/>stra
+          ; unde sicut non sequitur: Deus 2" est for<lb ed="#Q"/>titudo
+          nostra, sed fortitudo est quid creatum,
+          <lb ed="#Q"/>ergo' Deus est quid creatum, similiter nec ex
+          <lb ed="#Q"/>parte ista.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q2t1c2-d1e3965">
+          <pb ed="#Q" n="700"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>3. Et per hoc patet solutio ad tertium quod
+          <lb ed="#Q"/>obicitur per auctoritatem Bedae. Nam si di-.
+          <lb ed="#Q"/>catur 'missio est gratia data rationali creatu<lb ed="#Q"/>rae
+          ', non est praedicatio per essentiam, sed
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>per effectum consequentem; nec etiam hoc dicit
+          <lb ed="#Q"/>Beda, sed dicit quod «cum gratia datur, Spi<lb ed="#Q"/>ritus
+          Sanctus mittitur »: unde dicitur per conco<lb ed="#Q"/>mitantiam.
+        </p>
       </div>
     </body>
   </text>
