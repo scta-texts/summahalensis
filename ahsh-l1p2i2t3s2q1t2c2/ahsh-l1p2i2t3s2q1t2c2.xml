@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, C. 2</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-05-10">May 10, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-05-10" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,153 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="689"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t3s2q1t2c2">
+        <head xml:id="ahsh-l1p2i2t3s2q1t2c2-Hd1e3741">I, P. 2, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t3s2q1t2c2-Hd1e3744" type="question-title">DE INTENTIONE 'PRINCIPII' DICTA ESSENTIALITER.</head>
+        <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur de intentione principii <!--p-->
+          <lb ed="#Q"/>dicta essentialiter. Et quaeruntur duo: 
+          <lb ed="#Q"/>Primum estf]I utrum intentio principii dicatur
+          <lb ed="#Q"/>ab aeterno vel ex tempore;
+          <lb ed="#Q"/>secundum ', utrum Pater et Filius et Spiritus
+          <lb ed="#Q"/>Sanctus sint unum principium creaturae vel
+          <lb ed="#Q"/>plura.
+        </p>
+        <div xml:id="ahsh-l1p2i2t3s2q1t2c2-Dd1e3767" type="articulus">
+          <head xml:id="ahsh-l1p2i2t3s2q1t2c2-Hd1e3769">ARTICULUS I</head>
+          <head xml:id="ahsh-l1p2i2t3s2q1t2c2-Hd1e3772" type="question-title">Utrum intentio ' principii' dicatur ab aeterno vel ex tempore.</head>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3775">
+            <lb ed="#Q"/>Quantum ad primum quaeritur utrum hoc
+            <lb ed="#Q"/>nomens 'principium ', dictum essentialiterf, di<lb ed="#Q"/>catur
+            ab aeterno.
+          </p>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3784">
+            <lb ed="#Q"/>a. Et dicitur in <ref>I Sententiarum, dist. 29 4</ref>, quod
+            <lb ed="#Q"/>non, 
+            <cit>
+              <quote xml:id="ahsh-l1p2i2t3s2q1t2c2-Qd1e3795" source="http://scta.info/resource/pll1d29c2-d1e3501">quia non dicitur principium nisi ad crea<lb ed="#Q"/>turas; 
+                unde cum creaturae esse coeperunt, coepit 
+                <lb ed="#Q"/>esse principium creaturarum</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d29c2-d1e3501">Lombardus, Sent. I, d. 29, c. 2 [n. 1]</ref></bibl>
+            </cit>.
+          </p>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3808">
+            <lb ed="#Q"/>Contra: 1. Deus conditor est ab aeterno; unde
+            <lb ed="#Q"/>in hymno5: «Aeterne rerum Conditor»; ergo
+            <lb ed="#Q"/>est" principium ab aeterno.
+          </p>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3818">
+            <lb ed="#Q"/>
+            2. Item, ab aeterno fuerunt creaturae in Deo;
+            <lb ed="#Q"/>sed non fuerunt in eo nisi sicut in causa vel
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>principio; ergo Deus ab aeterno fuit principium 
+            <lb ed="#Q"/>et causa.
+          </p>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3831">
+            <lb ed="#Q"/>Respondeo quod non sequitur: 'estV princi<lb ed="#Q"/>pium
+            aeternum, ergo est principium ab aeterno'.
+            <lb ed="#Q"/>In prima enim notatur aeternitas respectu sup<lb ed="#Q"/>positi,
+            in conclusione vero notatur aeternitas re<lb ed="#Q"/>spectu
+            effectus connotati in creatura.
+          </p>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3844">
+            <lb ed="#Q"/>Sed contra: Christus, secundum Augusti<lb ed="#Q"/>num
+            5, dicitur « homo recens et Deus aeternus »;
+            <lb ed="#Q"/>ergo dicitur homo ex tempore, Deus ab aeterno;
+            <lb ed="#Q"/>sed constat quodic ratione suppositi non dicitur?
+            <lb ed="#Q"/>homo ex tempore, quia suppositum est persona
+            <pb ed="#Q" n="690"/>
+            <cb ed="#Q" n="a"/>
+            <lb ed="#Q"/>aeterna; sed ratione ipsius forma-e humana-e dicitur
+            <lb ed="#Q"/>homo recens sive ex tempore; ergo similiter non
+            <lb ed="#Q"/>dicetur a ratione-suppositi Conditor aeternus.
+            <lb ed="#Q"/>Respondeol «quod hoc nomen 'aeternus'
+            <lb ed="#Q"/>potest sumib substantive, et hoc nomen lCon<lb ed="#Q"/>ditor',
+            quod est adiectivum significatione, potest
+            <lb ed="#Q"/>sumi adiective, et ita hoc adiectivum determinabit
+            <lb ed="#Q"/>illud substantivum 'aete'r'nus', et sic haec pro<lb ed="#Q"/>positio
+            5 est vera 'Deus est aeternus Conditor ',
+            <lb ed="#Q"/>id estfi aeternus qui condidit. Si vero e converso
+            ' Conditor' sumat-ur substantive, "aeternus ' adiec<lb ed="#Q"/>tive,
+            falsa est, et est sensus.: "este aeternus Con<lb ed="#Q"/>ditor,
+            id est aeternaliter condidit. Et 'secundum
+            <lb ed="#Q"/>hoc verum est quod dicit <name ref="#Augustine">Augustinus</name> quod
+            <lb ed="#Q"/>Christus est homo recens, id est recenter homo ».
+          </p>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3895">
+            <lb ed="#Q"/>Sed iterum contraz: Ego sum alpha et 
+            'omega, principium-'ei finis, Apoc. l,8; sedf finis
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>est in aeternum; ergo princi-pium est-£ ab ae<lb ed="#Q"/>terno.
+          </p>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3906">
+            <lb ed="#Q"/>R es 13 o n d e 0 3: Nomina «quae connotant aliquid 
+            <lb ed="#Q"/>in creatura, aut connotant respectum, ut 'Domi<lb ed="#Q"/>nus-, 
+            Dominator ', aut effectum, ut "misericors,
+            <lb ed="#Q"/>Creator' et huiusmodi. In iis ergo quae conno<lb ed="#Q"/>tant
+            respectum vel effect-um., distinguendum *! 'est,
+            <lb ed="#Q"/>quia aut dicunt in actu aut in habitu. De illis"
+            <lb ed="#Q"/>quae connotant in habitu potest dici quod con<lb ed="#Q"/>veniunt
+            Deo ab aeterno: notatur enim aptitudo
+            <lb ed="#Q"/>dominii 'ad servum, cum dicitur *Dominus ab ae<lb ed="#Q"/>terno';
+            sed non potest dici ' Dominator ab ae<lb ed="#Q"/>terno
+            ', quia non habuit servum ab aeterno.-Di<lb ed="#Q"/>cendum
+            ergo: si Deus dicatur principium abs-o<lb ed="#Q"/>lute,
+            potest dici principium ab aeterno, quia non
+            <lb ed="#Q"/>dicit effectum in actu, sed in habitu; sed si di<lb ed="#Q"/>catur
+            cum determinatione, ut dicatur principium
+            <lb ed="#Q"/>creaturae, non potest dici ab aeterno.
+          </p>
+        </div>
+        <div xml:id="ahsh-l1p2i2t3s2q1t2c2-Dd1e3944" type="articulus">
+          <head xml:id="ahsh-l1p2i2t3s2q1t2c2-Hd1e3946">ARTICULUS II.</head>
+          <head xml:id="ahsh-l1p2i2t3s2q1t2c2-Hd1e3949" type="question-title">Utrum Pater et Filius sint unum principium creaturae vel plura.</head>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3952">
+            <lb ed="#Q"/>Deinde quaeritur utrum Pater et Filius sint; 
+            <lb ed="#Q"/>unum principium creaturae vel plura 4.
+          </p>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3959">
+            <lb ed="#Q"/>Et quod unum, patet per <name ref="#Augustine">Augustinum</name>5 di<lb ed="#Q"/>centem:
+            « Unum principium 'ad creaturam cum
+            <lb ed="#Q"/>Patre et Filio est Spiritus Sanctus, non duo prin<lb ed="#Q"/>cipia
+            ». Sed videtur <name ref="#Paul">Apostolus</name>'f velle quod, iri
+            <lb ed="#Q"/>tres sint tria principia, quoniam copulatio prae<lb ed="#Q"/>positionum
+            non permittit idem significari per illa
+            <lb ed="#Q"/>tria, cum dicitur Rom. 11,36: <quote xml:id="ahsh-l1p2i2t3s2q1t2c2-Qd1e3982" ana="#rom11_36">Ex ipso et per ip.<lb ed="#Q"/>sum
+            et in ipso sunt omnia</quote>.
+          </p>
+          <p xml:id="ahsh-l1p2i2t3s2q1t2c2-d1e3988">
+            <lb ed="#Q"/>Respondeo quod illa trial relativa referuntur
+            <lb ed="#Q"/>ad hunc terminum 'Deus ', prout supponit pro
+            <lb ed="#Q"/>diversis personis, et notaturm alia et alia habi<lb ed="#Q"/>tudo
+            per illas praepositiones ". Prima enim prae<lb ed="#Q"/>positio
+            notat originem, secunda rationem mediam
+            <cb ed="#Q" n="b"/>
+            <lb ed="#Q"/>operationis, tertia conservationem. Et haec tria
+            <lb ed="#Q"/>tribus personis appropriantur: unde ex adiunctis
+            <lb ed="#Q"/>relativa trahunt-ur ad personas, et ratione illo<lb ed="#Q"/>rum 
+            diversorum connotatorum fit copulatio 5. Ex<lb ed="#Q"/>ponit
+            autem Hilarius has praepositiones, in
+            <lb ed="#Q"/>IV De Trinitate 7, "hoc modo: « Novit unum- Deum
+            <lb ed="#Q"/>Ecclesia P, ex quo «omnia; novit unum Dominum
+            <lb ed="#Q"/>Iesum Christum, per-'quem omnia: ab uno, uni<lb ed="#Q"/>versorum
+            originem; perq unum, cunctorum crea<lb ed="#Q"/>tionem; 
+            in uno, potestatem' nihil differentem ab 
+            <lb ed="#Q"/>auctoreS veneratur. Et intelliget quod haec est 
+            <lb ed="#Q"/>potestas gubernandi». Ex iis patet quod Pater 
+            <lb ed="#Q"/>et Filius et Spiritus Sanctus sunt unum princi<lb ed="#Q"/>pium
+            creaturae, "licet approprietur" sub quadam
+            <lb ed="#Q"/>ratione Patri, sul; qnadam Filio, sut-: quadam Spi<lb ed="#Q"/>ritui
+            Sancto.
+          </p>
+        </div>
       </div>
     </body>
   </text>
