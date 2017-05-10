@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 3, S. 2, Q. 1, T. 1, C. 5</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-05-10">May 10, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-05-10" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,137 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="686"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t3s2q1t1c5">
+        <head xml:id="ahsh-l1p2i2t3s2q1t1c5-Hd1e3741">I, P. 2, Inq. 2, Tract. 3, S. 2, Q. 1, T. 1, C. 5</head>
+        <head xml:id="ahsh-l1p2i2t3s2q1t1c5-Hd1e3744" type="question-title">UTRUM REMOTA PATERNITATE INTELLIGI POSSIT PERSONA INNASCIBILIS.</head>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3747">
+          <lb ed="#Q"/>Restat quaerere utrum. remota per intellectum
+          <lb ed="#Q"/>paternitate possit intelligi Pater in proprie<lb ed="#Q"/>tate
+          innascibilitatis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3756">
+          <lb ed="#Q"/>Ad quod obicitur a. verbo <name ref="#Augustine">Augustini</name>4: «Si
+          <lb ed="#Q"/>Pater non genuisset Filium, nihilominus esset in<lb ed="#Q"/>genitus
+          » vel innascibilis. Videtur enim quod sit
+          <lb ed="#Q"/>vera simpliciter, quia dicit Dominus, Ioan. 8,54:
+          <lb ed="#Q"/>Est Pater meus qui glorificat me, quem vos di<lb ed="#Q"/>citis
+          quia Deus vester est. Ergo Patrem noverunt
+          <lb ed="#Q"/>ludaei; sed non in quantum Pater, quia ludaei
+          <lb ed="#Q"/>non distinguunt personas"; ergo in quantum in<lb ed="#Q"/>nascibilis,
+          et ita cognoscitur ille qui est Pater in
+          <lb ed="#Q"/>quantum innascibilis vel ingenitus, sine paternitate.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3783">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>b. Item, Iudaei et gentiles philosophi concedunt
+          <lb ed="#Q"/>istam 'ille qui est a nullo creavit te'; ergo ille
+          <lb ed="#Q"/>qui est innascibilis creavit. te; de Patre vero,
+          <lb ed="#Q"/>in quantum est Pater, nihil sciunt; ergo quantum
+          <lb ed="#Q"/>ad illos, non intellecta paternitate, vera est haec
+          'iste" creavit te', demonstrato illo qui 'est inna<lb ed="#Q"/>scibilis;
+          ergo Pater, etsi "non genuisset Filium,
+          <lb ed="#Q"/>nihilominus esset ille qui est, innascibilis ; ergo
+          <lb ed="#Q"/>nihilominus esset persona, quia iste terminus 'ille
+          <lb ed="#Q"/>qui est'? supponere non potest nisi pro persona.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3808">
+          <lb ed="#Q"/>c. Item, dicunt quod 'innascibilis' est notio eius
+          <lb ed="#Q"/>a quo quidquid fluit fluere potest; aut ergo 'in<lb ed="#Q"/>nascibilis'
+          dicit principium a quo fluunt omnia
+          <lb ed="#Q"/>vel? possunt omnia fluere. Si primo modo, ergo
+          <pb ed="#Q" n="687"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>innascibilis dicit fluxum Filii; ergo paternitatem;
+          <lb ed="#Q"/>ergo Pater, secundum quoda Pater, generat; et
+          <lb ed="#Q"/>hoc falsum. Sib 'innascibilis' dicit principium a
+          <lb ed="#Q"/>quo possunt fluere omnia, ergo dicit Patrem,
+          <lb ed="#Q"/>non * prout est Pater, sed prout potest generare,<lb ed="#Q"/>etsi
+          non generet. Inde sic: iste est innascibilis;
+          <lb ed="#Q"/>ergo iste potest generare; ergo iste est; et ita
+          <lb ed="#Q"/>verum est simpliciter quod, quamvis Pater non
+          <lb ed="#Q"/>genuisset, nihilominus esset et esset ingenitus.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3843">
+          <lb ed="#Q"/>d. Item, praedicta positio ** 'non mutat supposi<lb ed="#Q"/>tionem
+          terminorum; ergo cum dicitur 'ille, qui
+          <lb ed="#Q"/>est Pater, potest generare', iste terminus 'qui
+          <lb ed="#Q"/>est' supponit tantum pro una persona, quia in
+          <lb ed="#Q"/>Trinitate non est nisi una persona quae possit
+          <lb ed="#Q"/>generare; ergo supponit tantum pro persona illa;
+          <lb ed="#Q"/>et ita Pater, etsi non genuisset, nihilominus es<lb ed="#Q"/>set
+          haec persona.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3863">
+          <lb ed="#Q"/>Contra: 1. Si Pater non genuisset, non habe<lb ed="#Q"/>ret
+          paternitatem, et ita non haberet esse perso<lb ed="#Q"/>nale,
+          cum paternitas faciate personam:; nec ha<lb ed="#Q"/>beret
+          esse notionale, cum non esset persona; li<lb ed="#Q"/>cet
+          ergo esset, non esset nisi essentia, id estf
+          <lb ed="#Q"/>non haberet esse nisi essentiale; ergo non posset
+          <lb ed="#Q"/>generare, quia essentia non potest generare.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3881">
+          <lb ed="#Q"/>2. Item, si iste,, demonstrato Patre, .quia- potest
+          <lb ed="#Q"/>generare, est, eadem ratione iste !, demonstrato
+          <lb ed="#Q"/>Filio, quia potest generari, est; et si hoc, ergo
+          <lb ed="#Q"/>Filius esth; ergo, Pater est; Pater ergo non po<lb ed="#Q"/>test
+          intelligi posse generare quin genuerit. .
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3894">
+          <lb ed="#Q"/>Respondeo: 1. Sicut dictum est 1, si respectus
+          <lb ed="#Q"/>habeatur» ad naturam et essentiam. rei divinae,.
+          <lb ed="#Q"/>falsum est quod dicit <name ref="#Augustine">Augustinus</name>, quia se<lb ed="#Q"/>cundum
+          naturam rerum divinarum, si Pater. po<lb ed="#Q"/>test
+          generare, generat, cum sciat et velit; unde si
+          <lb ed="#Q"/>non generat, non potest generare; et ita si non
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>genuisset, non esset. Vel potest haberi respectus
+          <lb ed="#Q"/>ad naturam intellectus fidei vel ad naturam in<lb ed="#Q"/>tellectus
+          humani metaphorici. Si ad naturam in<lb ed="#Q"/>tellectus
+          fidei, iterum falsum est: ponit enim
+          <lb ed="#Q"/>intellectus fidei quod si potest generare, generat.
+          <lb ed="#Q"/>Sed habito respectu ad naturam intellectus hu<lb ed="#Q"/>mani
+          metaphorici, verum est quod dicit Augu<lb ed="#Q"/>stinus,
+          loquendo de divinis, sicut.loquimur de
+          <lb ed="#Q"/>humanis: Adam enim, etsi nullum genuisset,
+          <lb ed="#Q"/>nihilominus esset ingenitus; item, licet Pater non
+          <lb ed="#Q"/>haberet paternitatem. in actu, tamen haberet esse
+          <lb ed="#Q"/>personale; distingueretur autem '" ipsa paternitate
+          <lb ed="#Q"/>existente ibi inpotentia per hoc quod dico 'po<lb ed="#Q"/>tens
+          generare '.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3945">
+          <lb ed="#Q"/>2. Ad ultimo obiectum dicendum quod non
+          <lb ed="#Q"/>valet haec argumentatio: 'Pater, quiak potest<lb ed="#Q"/>generare,
+          est; ergo Filius, quia potest generari,
+          <lb ed="#Q"/>est', quia potentia generandi active sequitur esse
+          <lb ed="#Q"/>rei ' vel concomitatur, sed potentia generandi pas<lb ed="#Q"/>sive
+          praecedit esse reiz,
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3962">
+          <lb ed="#Q"/>Hic est quaestio addenda de verbo Hilarii.
+          <lb ed="#Q"/>Dicit enim in libro De Synodis3: « Si quis inna<lb ed="#Q"/>scibilem'"
+          et sine initio dicat Filium, quasi .duo
+          <lb ed="#Q"/>sine principioet duo innascibilia et duo- innata
+          <lb ed="#Q"/>dicens, duos faciens deos, anathema sit ». Quae<lb ed="#Q"/>ritur.
+          quare. magis qui ponit duos innascibiles,
+          <lb ed="#Q"/>ponit'duos esse deos quam qui duos ponit esse"
+          <lb ed="#Q"/>Filios.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s2q1t1c5-d1e3982">
+          <lb ed="#Q"/>Respondeo: Qui duos innascibiles ponit privat
+          <lb ed="#Q"/>ordinem in divinis; significat enim quod duo sunt
+          <lb ed="#Q"/>quorum uterque est.Deus et neuter ab alio; qui
+          <lb ed="#Q"/>vero" duos Filios ponit, ut Spiritus Sanctus di-.
+          <lb ed="#Q"/>catur filius Filii P, non removet ordinem :, unde
+          <lb ed="#Q"/>non removet. unitatem substantiae.
+        </p>
       </div>
     </body>
   </text>
