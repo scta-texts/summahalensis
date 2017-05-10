@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 2, Q. 3, M. 2, C. 3</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-05-10">May 10, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-05-10" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,145 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="648"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t2s2q3m2c3">
+        <head xml:id="ahsh-l1p2i2t2s2q3m2c3-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 2, Q. 3, M. 2, C. 3</head>
+        <head xml:id="ahsh-l1p2i2t2s2q3m2c3-Hd1e3744" type="question-title">UTRUM PATER SIT SAPIENS SAPIENTIA GENITA.</head>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum Pater sit sapiens
+          <lb ed="#Q"/>sapientia genita 5.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3754">
+          <lb ed="#Q"/>Ad quod. sic: 1. Omnis artifex est sapiens per
+          <lb ed="#Q"/>artem suam ; sed Filius est arsi Patris, ut dicit
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Augustinus7, <ref>25 dist. I libri Sententiarums</ref>;
+          <lb ed="#Q"/>ergo est sapiens per Filium; ergo est sapiens
+          <lb ed="#Q"/>sapientia genita k.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3773">
+          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, in libro Retractatio<lb ed="#Q"/>numg:
+          « Dixi de Patre quod ea ipse sapiens est
+          <pb ed="#Q" n="649"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>quam genuit sapientia, sed melius hanc quaestio<lb ed="#Q"/>nem
+          in libro De Trinitate1 tractavi». Ergo bene
+          <lb ed="#Q"/>in libro 83 Quaestionum2 ; sed ibi dixit": « Pa<lb ed="#Q"/>ter
+          est sapiens sapientia quam genuit»; ergo hoc
+          <lb ed="#Q"/>est bene dictum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3799">
+          <lb ed="#Q"/>3. Item, <name ref="#Augustine">Augustinus</name>, XV De Trinitate3:
+          « Pater novit omnia in se ipso, novit in Filio:
+          <lb ed="#Q"/>in se ipso tamquam se ipsum, in Filio tamquam
+          <lb ed="#Q"/>Verbum suum ». Ergo Pater noscit omnia in Filio.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3811">
+          <lb ed="#Q"/>4. Si b dicatur quod cum dicitur « Pater no<lb ed="#Q"/>vit
+          omnia in Filio », ly ' omnia' solum distribuit
+          <lb ed="#Q"/>pro creaturis quarum Filius est principium, quod
+          <lb ed="#Q"/>haec praepositio 'in' notat - contra: similiter
+          <lb ed="#Q"/>accipitur, cum dicitur « noscit omnia in se ipso »
+          <lb ed="#Q"/>et cum dicitur « noscit omnia in Filio »; Sed non
+          <lb ed="#Q"/>solum fit distributio pro creaturis, cum dicitur
+          « noscit omnia in se ipso », quia in se ipso no<lb ed="#Q"/>scitc
+          se Pater et Filium et Spiritum Sanctum;
+          <lb ed="#Q"/>ergo nec similiter cum dicitur « noscit omnia in
+          <lb ed="#Q"/>Filio », fit solum distributio pro. creaturis.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3835">
+          <lb ed="#Q"/>Contra: a. Si Pater est sapiens per Filium et
+          <lb ed="#Q"/>idem est sapere quod esse, ergo habet esse per
+          <lb ed="#Q"/>Filium. Ad quod inconveniens deducit Augu<lb ed="#Q"/>stinus,
+          in libro De Trinitate 4.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3846">
+          <lb ed="#Q"/>Respondeo 5: Haec nullo modo est concedenda
+          ' Pater sapit per Filium'; refert enim cum4 haec
+          <lb ed="#Q"/>praepositio 'per' adiungitur verbo transitivo et
+          <lb ed="#Q"/>cum adiungitur absoluto. Cum enim adiungitur
+          <lb ed="#Q"/>verbo transitiva, notat subauctoritatem, ut cum
+          <lb ed="#Q"/>dicitur 'rex regit per praepositum'; cum adiun<lb ed="#Q"/>gitur
+          verbo absoluto, "notatur auctoritas, ut cum
+          <lb ed="#Q"/>dicitur ' rexi regnat per praepositum '. Similiter
+          <lb ed="#Q"/>cum dicitur ' Pater operatur per Filium ', notatur
+          <lb ed="#Q"/>subauctoritas in Filio respectu Patris, sed cum
+          <lb ed="#Q"/>dicitur ' Pater sapit vel est sapiens per Filium ',
+          <lb ed="#Q"/>notatur auctoritas in Filio respectu Patris, et haec
+          <lb ed="#Q"/>nullo modo est concedenda.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3875">
+          <lb ed="#Q"/>[Ad obiecta]: ]. Ad id ergo quodf obicitur quod
+          ' omnis artifex est sapiens per suam artem, Filius
+          <lb ed="#Q"/>est ars Patris ' etc., respondemusg : ars alicuius di<lb ed="#Q"/>citur
+          dupliciter: vel ut informans 71, et sic dicitur ars
+          <lb ed="#Q"/>hominis, vel ut ab aliquo, et sic dicitur Filius « ars
+          <lb ed="#Q"/>Patris », quia est a Patre, non quia iniormet Pa<lb ed="#Q"/>trem.
+          Unde bene dicitur quod homo sapit per ar<lb ed="#Q"/>tem
+          suam, non tamen hoc dicitur de illo 6, quia
+          <lb ed="#Q"/>non est ars informans Patrem, sed ut a Patre. Si
+          <lb ed="#Q"/>autem diceretur sapere Pateri per Filium, non no<lb ed="#Q"/>taretur
+          Filius esse a Patre, sed potius Pater ab ipso.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3899">
+          <lb ed="#Q"/>2. Ad illud quod dicit <name ref="#Augustine">Augustinus</name> quod 
+          <lb ed="#Q"/>« melius in libro De Trinitate » tractavit, respon<lb ed="#Q"/>demus<!--k-->: 
+          haec propositio<!--'--> duplex est « Pater est
+          <lb ed="#Q"/>sapiens ea quam"1 ipse genuit sapientia », quia
+          <lb ed="#Q"/>potest esse sensus: Pater genuit/Filium qui est
+          <lb ed="#Q"/>sapientia, qua sapientia dicitur sapiens Pater qui
+          <lb ed="#Q"/>genuit. Hoc autem relativum 'qua' potest facere
+          <lb ed="#Q"/>relationem personalem vel simplicem." Si'perso<lb ed="#Q"/>nalem:
+          falsa est, et est sensus: Pater genuit Fi<lb ed="#Q"/>lium
+          qui est sapientia, qua sapientia, id est quo
+          <lb ed="#Q"/>Filio, Pater sapiens est ". Si simplicem, vera est,
+          <lb ed="#Q"/>et est sensus: Pater genuit Filium qui est sa<lb ed="#Q"/>pientia,
+          quae sapientia est essentiaqua Pater
+          <lb ed="#Q"/>est sapiens. Et iste iuit intellectus <name ref="#Augustine">Augustini</name>,
+          <lb ed="#Q"/>in libro 83 Quaestionum, et propter hoc dicit Au-'
+          <lb ed="#Q"/>gustinus 0 quod « melius » dixerat in libro De
+          <lb ed="#Q"/>Trinitate, non tamen dixit quod in libro 83 Quae<lb ed="#Q"/>stionum
+          male.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3952">
+          <lb ed="#Q"/>3. Ad illud 'Pater omnia novit in Filio':
+          <lb ed="#Q"/>dicendum quodP praepositio 'in' potest dicere
+          <lb ed="#Q"/>habitudinem principii ad illud quod est de prin<lb ed="#Q"/>cipio,
+          et secundum hoc 'omnia' non distribuit
+          <lb ed="#Q"/>nisi pro creaturis; unde sensus est: Pater novit
+          <lb ed="#Q"/>creaturas in Filio sive per Filium. Sed haec4
+          <lb ed="#Q"/>duplex, quia haec determinatio 'in Filio sive per
+          <lb ed="#Q"/>Filium ' potest determinare hoc verbum 'nosse*
+          <lb ed="#Q"/>in comparatione ad nominativum vel suppositum,
+          <lb ed="#Q"/>et sic falsa ", et est sensus: Pater in Filio vel
+          <lb ed="#Q"/>per Filium noscit omnia, id est Pater noscit crea<lb ed="#Q"/>turas
+          et hoc habet a Filio; vel in comparatione
+          <lb ed="#Q"/>ad accusativum, et sic vera est, et est sensus:
+          <lb ed="#Q"/>Pater no'scit creaturas esse per Filium.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c3-d1e3985">
+          <lb ed="#Q"/>4. Ad illud quod obicitur in contrarium: di—'
+          <lb ed="#Q"/>cendum quod non similiter accipitur haec dictio
+          ' omnia', cum dicitur ' Pater noscit omnia in se
+          <lb ed="#Q"/>ipso' et 'Pater noscit omnia in Filio'. Quod
+          <lb ed="#Q"/>patet per illud quod sequitur in auctoritate illa:
+          «In se ipso noscit tamquam se5 ipsum, in Fi<lb ed="#Q"/>lio
+          tamquam Verbum suum »; Verbum autem di—
+          <lb ed="#Q"/>citur Filius respectu creaturarum. Unde respicien<lb ed="#Q"/>dum
+          * si invenitur aliqua determinatio cuius pos<lb ed="#Q"/>sit
+          Filius dici principium, et tunc potest concedi
+          <lb ed="#Q"/>quod 'in Filio vel per Filium'; sed si non sit ali<lb ed="#Q"/>quid
+          in oratione respectu cuius possit dici Filius
+          <lb ed="#Q"/>principium, non est recipienda talis propositio,
+          <lb ed="#Q"/>ut cum dicitur 'Pater noscit per Filium, sapit
+          <lb ed="#Q"/>per Filium ', sed potest recipi 'noscit creaturas
+          <lb ed="#Q"/>per Filium '.
+        </p>
       </div>
     </body>
   </text>

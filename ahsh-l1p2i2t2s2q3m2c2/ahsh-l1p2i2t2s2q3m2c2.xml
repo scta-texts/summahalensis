@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 2, S. 2, Q. 3, M. 2, C. 2</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-05-10">May 10, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-05-10" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,115 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="647"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t2s2q3m2c2">
+        <head xml:id="ahsh-l1p2i2t2s2q3m2c2-Hd1e3741">I, P. 2, Inq. 2, Tract. 2, S. 2, Q. 3, M. 2, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t2s2q3m2c2-Hd1e3744" type="question-title">UTRUM 'SAPIENTIA' DICATUR PROPRIE PERSONALITER.</head>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3747">
+          <lb ed="#Q"/>Consequenter quaeritur utrum dicatur 'sapientia'
+          <lb ed="#Q"/>proprie personaliter et non appropriate.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3754">
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>Ad quod: a. <name ref="#Augustine">Augustinus</name>, XV De Trinitate 6:
+          « Sicut proprie Verbum Dei sapientia dicitur, cum
+          <pb ed="#Q" n="648"/>
+          <cb ed="#Q" n="a"/>
+          <lb ed="#Q"/>et Pater et Spiritus Sanctus sint una sapientia,
+          <lb ed="#Q"/>sic caritas proprie Spiritus Sanctus dicitur, cum
+          <lb ed="#Q"/>Pater et Filius et Spiritus Sanctus sint una ca<lb ed="#Q"/>ritas».
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3777">
+          <lb ed="#Q"/>b. Item, <name ref="#Augustine">Augustinus</name>, in eodemlz «Sicut
+          <lb ed="#Q"/>unicum Dei Verbum proprie vocamus nomine
+          <lb ed="#Q"/>sapientiae, cum tamen Pater et Filius et Spiritus
+          <lb ed="#Q"/>Sanctus sint sapientia, sic caritas proprie Spiri<lb ed="#Q"/>tus
+          Sanctus dicitur, cum tamen communiter de
+          <lb ed="#Q"/>tribus dicatur ». Ergo sicut 'amor' proprie, non
+          <lb ed="#Q"/>appropriate, dicitur de Spiritu Sancto, similiter
+          'sapientia' de Filio.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3799">
+          <lb ed="#Q"/>Contra: 1. Si hoc, non erit ratio quare haec
+          <lb ed="#Q"/>negetur ab Au gustino2 'Pater est sapiens sa<lb ed="#Q"/>pientia
+          quam genuit', et haec concedatur 'Pater
+          <lb ed="#Q"/>diligit amore ab ipso procedente": similis vi—
+          <lb ed="#Q"/>detur ratio, cum idem sit ' diligere' quod 'esse',
+          <lb ed="#Q"/>sicut idem 'sapere' quod 'esse '.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3815">
+          <lb ed="#Q"/>2. Item, 'diligere' dicitur essentialiter et no<lb ed="#Q"/>tionaliter,
+          ut dictum est3; quare similiter non
+          'sapere' essentiale et notionale?
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3822">
+          <lb ed="#Q"/>3. Item, quaeritur unde est hoc quod sapientia
+          <lb ed="#Q"/>appropriabilis est Filio, sed non est eius pro<lb ed="#Q"/>prium,
+          et amor est appropriabilis Spiritui Sancto
+          <lb ed="#Q"/>et est eius proprium?
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3833">
+          <lb ed="#Q"/>Respondeo quod quantum ad suppositionem
+          <lb ed="#Q"/>loquitur <name ref="#Augustine">Augustinus</name> de hoc nomine *sapien<lb ed="#Q"/>tia
+          ', quod accipitur proprie pro Filio aliquando,
+          <lb ed="#Q"/>sicut hoc nomen 'caritas' pro Spiritu Sancto,
+          <lb ed="#Q"/>sed non quantum adIJ significationem; nam si<lb ed="#Q"/>gnificatio
+          sapientiaec non potest fieri propria ip<lb ed="#Q"/>sius
+          Filii, quemadmodum significatio amoris pro<lb ed="#Q"/>pria
+          Spiritus Sancti, ut iam patebit 4.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3856">
+          <lb ed="#Q"/>[Ad obiecta]: 1. Dicendum ergo ad primum
+          <lb ed="#Q"/>quod diligere et sapere sunt motus animae: sa<lb ed="#Q"/>pere
+          est motus intellectus, diligere motus affec<lb ed="#Q"/>tus;
+          motus intellectus est ad se, motus affectus
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>a se 5. Cum ergo dicitur *intellectus sapit ali<lb ed="#Q"/>quo
+          ', cum sapere dicat motum ad animam, ne<lb ed="#Q"/>cesse
+          est quod illud quo dicitur 'sapere' sit
+          <lb ed="#Q"/>causa alicuius in illo qui dicitur sapere ipso.
+          <lb ed="#Q"/>Cum ergo Filius non sit aliquo modo causa ali<lb ed="#Q"/>cuius
+          in Patre, non potest dici Pater vel sapere
+          <lb ed="#Q"/>vel sapiens esse Filio. Sed aliter est in motu qui
+          <lb ed="#Q"/>est ab anima: sicut enim cum dicitur Pater ope—
+          <lb ed="#Q"/>rari Filio sive per Filium, non notatur Filius
+          <lb ed="#Q"/>principium respectu Patris, sed respectu opera<lb ed="#Q"/>tionis,
+          similiter cum dicitur 'diligo amore ', non
+          <lb ed="#Q"/>per hoc notatur quod amor sit principium mei,
+          <lb ed="#Q"/>sed e converso quod ego sim principium dilectio<lb ed="#Q"/>nis;
+          similiter si Pater dicitur diligere amore qui
+          <lb ed="#Q"/>est Spiritus Sanctus, non dicitur Spiritus Sanctus
+          <lb ed="#Q"/>ut principium respectu Patris, sed 4 potius e con<lb ed="#Q"/>verso.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3906">
+          <lb ed="#Q"/>2. Ad aliud dicendum quod sapientia dicit
+          <lb ed="#Q"/>ut habitum, et ita ut qualitatem, et itae divinam
+          <lb ed="#Q"/>essentiam; sed dicit in comparatione ad actum,
+          <lb ed="#Q"/>et ideo est appropriabilis; sed quia non exitf a
+          <lb ed="#Q"/>qualitate sive non mutat genus, ideo semper di<lb ed="#Q"/>citur
+          essentialiter. Sed non estg simile de amore:
+          <lb ed="#Q"/>ideo quia amor potest intelligi ut qualitas quae<lb ed="#Q"/>dam,
+          scilicet ut voluntas sive affectus boni, sic
+          <lb ed="#Q"/>dictus amor dicit essentiam; alio modo potest
+          <lb ed="#Q"/>dici amor similitudo et unitas voluntatum; sicut
+          <lb ed="#Q"/>ergo diceretur quod similitudo dicit ' ad aliquid ',
+          <lb ed="#Q"/>sic amor, et sic dicit notionem.
+        </p>
+        <p xml:id="ahsh-l1p2i2t2s2q3m2c2-d1e3936">
+          <lb ed="#Q"/>3. Ad ultimum dicendum quod amor potest
+          <lb ed="#Q"/>intelligi velut forma quaedam qua informatur
+          <lb ed="#Q"/>anima, et sic cadit in genere qualitatis; potest
+          <lb ed="#Q"/>etiam intelligi velut relatio quaedam sive relati—
+          <lb ed="#Q"/>vum prout dicit similitudinem quamdam, et sic
+          <lb ed="#Q"/>cadit in genere relationis; potest etiam intelligi
+          <lb ed="#Q"/>amor velut motus quidam. Similiter in divinis.
+          <lb ed="#Q"/>Sic autem non est de sapientia.
+        </p>
       </div>
     </body>
   </text>
