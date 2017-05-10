@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 3, S. 1, Q. 1, M. 3, c. 2</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-05-10">May 10, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-05-10" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,59 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="667"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t3s1q1m3c2">
+        <head xml:id="ahsh-l1p2i2t3s1q1m3c2-Hd1e3741">I, P. 2, Inq. 2, Tract. 3, S. 1, Q. 1, M. 3, C. 2</head>
+        <head xml:id="ahsh-l1p2i2t3s1q1m3c2-Hd1e3744" type="question-title">DE NUMERO RELATIONUM.</head>
+        <p xml:id="ahsh-l1p2i2t3s1q1m3c2-d1e3747">
+          <lb ed="#Q"/>Secundo quaeritur de numero relationum.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s1q1m3c2-d1e3752">
+          <lb ed="#Q"/>Videtur quod plures sint relationes: 1. Nam
+          <lb ed="#Q"/>relationes multiplicantur secundum habitudines
+          <lb ed="#Q"/>extremorum; sed trium extremorum ad invicem
+          <lb ed="#Q"/>sex sunt habitudines; trium ergo personarum sex
+          <lb ed="#Q"/>erunt relationes.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s1q1m3c2-d1e3765">
+          <lb ed="#Q"/>Respondeo: 1. Hoc sequeretur, si unaquaeque
+          <lb ed="#Q"/>persona relatione propria sive habitudine ad
+          <lb ed="#Q"/>aliam " referretur; sed. Pater non refertur relatione
+          <lb ed="#Q"/>propria ad Spiritum Sanctum, similiter nec Filius,
+          <lb ed="#Q"/>sed ii duo referuntur ad Spiritum Sanctum una
+          <lb ed="#Q"/>communi relatione, et ideo non sunt nisi qua<lb ed="#Q"/>tuor
+          relationes: duaez quibus Pater et Filius re<lb ed="#Q"/>feruntur
+          ad Spiritum Sanctum et e converso,
+          <lb ed="#Q"/>duaef quibus Pater et Filiusg adse invicem re<lb ed="#Q"/>feruntur.
+          Nam referunturþPater et 'Filius ad Spi<lb ed="#Q"/>ritum
+          Sanctum una relatione, non duabus, ad desi<lb ed="#Q"/>gnandum
+          '! maximam concordiam istarum duarum
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>personarum. Sicuti enim tres personae eadem
+          <lb ed="#Q"/>relatione referuntur ad ea quae sunt ab ipsis,
+          <lb ed="#Q"/>scilicet ad creaturas — liceat loqui improprie, quia
+          <lb ed="#Q"/>proprie divinae * personae sive Deus non referun<lb ed="#Q"/>tur
+          ad creaturam, sed referri significantur eo quod
+          <lb ed="#Q"/>creatura refertur et dependet ab ipsis; et' illa re<lb ed="#Q"/>latio, 
+          qua significantur referri, est una ad desi<lb ed="#Q"/>gnandum 
+          unitatem personarum trium — simi-'
+          <lb ed="#Q"/>liter et multo magis Pater et Filius ad illum, qui
+          <lb ed="#Q"/>est ab ipsis, una relatione debent referri. .'Etpropter
+          <lb ed="#Q"/>hoc dicit A n gu sti n u s, in " V' De Trinitate 2,
+          <lb ed="#Q"/>quod Pater et Filius sunt unum principium creatu<lb ed="#Q"/>rae,
+          sic dicens: «Fatendum est Patrem et Filium
+          <lb ed="#Q"/>esse unum principium Spiritus Sancti, non duo prin<lb ed="#Q"/>cipia;
+          sed 0 sicut Pater et Filius unus Deus, et ad
+          <lb ed="#Q"/>creaturam relatione" unus Creator, sic relatione4
+          <lb ed="#Q"/>ad Spiritum Sanctum unum principium; ad creatu<lb ed="#Q"/>ram
+          vero Pater et Filius et Spiritus Sanctus unum 
+          <lb ed="#Q"/>principium sicut unus Creator et unus Deus'».
+        </p>
       </div>
     </body>
   </text>

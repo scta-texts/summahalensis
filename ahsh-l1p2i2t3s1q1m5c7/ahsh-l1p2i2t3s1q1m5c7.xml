@@ -1,11 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title></title>
+        <title>I, P. 2, Inq. 2, Tract. 3, S. 1, Q. 1, M. 5, c. 7</title>
         <author ref="#AlexanderOfHales">Alexander of Hales</author>
         <respStmt>
           <name xml:id="JW">Jeffrey C. Witt</name>
@@ -14,7 +11,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <date when="2017-04-26">April 26, 2017</date>
+          <date when="2017-05-10">May 10, 2017</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -46,7 +43,7 @@
    </encodingDesc>
    <revisionDesc status="draft">
      <listChange>
-       <change when="2017-04-08" status="draft" n="0.0.0">
+       <change when="2017-05-10" status="draft" n="0.0.0">
          <p>Created file for the first time.</p>
        </change>
      </listChange>
@@ -54,18 +51,65 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
-        <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
+        <pb ed="#Q" n="680"/><cb ed="#Q" n="a"/>
       </div>
     </front>
     <body>
-      <div xml:id="">
-
-
+      <div xml:id="ahsh-l1p2i2t3s1q1m5c7">
+        <head xml:id="ahsh-l1p2i2t3s1q1m5c7-Hd1e3741">I, P. 2, Inq. 2, Tract. 3, S. 1, Q. 1, M. 5, c. 7</head>
+        <head xml:id="ahsh-l1p2i2t3s1q1m5c7-Hd1e3744" type="question-title">AN CONCRETE UNA NOTIO POSSIT DE ALIA PRAEDICARI.</head>
+        <p xml:id="ahsh-l1p2i2t3s1q1m5c7-d1e3747">
+          <lb ed="#Q"/>Ultimo quaeritur, ad maiorem evidentiam prae<lb ed="#Q"/>dictorum,
+          an concrete una notio possit ,de
+          <lb ed="#Q"/>alia praedicari 2.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s1q1m5c7-d1e3756">
+          <lb ed="#Q"/>Ad quod sic: 1. Una persona non praedicatur
+          <lb ed="#Q"/>de alia;-cum igitur quinque sint notiones differen<lb ed="#Q"/>tes3
+          sicut tres personae, videtur quod nulla no<lb ed="#Q"/>tio
+          de alterab praedicetur, et ita generans non
+          <lb ed="#Q"/>esset .innascibilis neque spirans.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s1q1m5c7-d1e3769">
+          <lb ed="#Q"/>2. Praeterea, generans non est procedens, neque
+          <lb ed="#Q"/>genitus est generans neque procedens; quare vi<lb ed="#Q"/>detur
+          quod similiter generans non est innascibi<lb ed="#Q"/>lis
+          vel spirans.
+        </p>
+        <p xml:id="ahsh-l1p2i2t3s1q1m5c7-d1e3781">
+          <lb ed="#Q"/>Respondeo; Quaedam notiones dicunt relatio<lb ed="#Q"/>nes
+          sibi oppositas ad invicem, quaedam differen<lb ed="#Q"/>tes
+          tantum, sed non oppositas. Diiferentes autem
+          <lb ed="#Q"/>dicuntur relationes et oppositae quae ad se'in<lb ed="#Q"/>vicem
+          dicuntur et hae non possunt habere eam<lb ed="#Q"/>dem
+          hypostasim vel '-' idem suppositum, quia non
+          <lb ed="#Q"/>possunt esse in eodem relatio et correlatio 4: quod
+          <lb ed="#Q"/>patet per definitionem relativorum. Et ideo, quia
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>'genitus' et ' generans' et 'procedens' et 'Spi<lb ed="#Q"/>rans'
+          relative dicuntur ad invicem, non potest
+          <lb ed="#Q"/>unum de altero-praedicari. Similiter 'procedens',
+          <lb ed="#Q"/>licet non dicatur relative ad generantem vel ge<lb ed="#Q"/>nitum,
+          opponitur eisli tamen negativee sicut ge<lb ed="#Q"/>nitum
+          ingenito f : quod patet ex definitionibuseo<lb ed="#Q"/>rum,
+          scilicet generantis, geniti et procedentis. Sed
+          'innascibilis, spirans et generans ', licet signifi<lb ed="#Q"/>cent 
+          differentes relationes, non tamen ad invicem 
+          <lb ed="#Q"/>relative dicuntur nec opponuntur alio genere op<lb ed="#Q"/>positionis,
+          ideo potest unum de altero praedicari-.
+          — Aliter potest dici quod aliud est proprietas
+          <lb ed="#Q"/>personalis, aliud proprietas personae; unde rela<lb ed="#Q"/>tiones
+          personales et proprietates personales non
+          <lb ed="#Q"/>communicant in una hypostasig, sed plures pro<lb ed="#Q"/>prietates
+          personae possunt; sed quae communi<lb ed="#Q"/>cant
+          in una hypostasih, de se invicem praedi<lb ed="#Q"/>cantur;
+          quae autem non, non possunt: ideo una
+          <lb ed="#Q"/>proprietas personalis non praedicatur de alia,
+          <lb ed="#Q"/>quia penes. ipsas differunt personae, sed una
+          <lb ed="#Q"/>proprietas personae potest de alia praedicari.
+        </p>
       </div>
     </body>
   </text>
