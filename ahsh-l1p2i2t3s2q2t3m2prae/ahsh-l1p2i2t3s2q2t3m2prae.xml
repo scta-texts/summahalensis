@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>I, P. 2, Inq. 2, Tract. 3, S. 2, Q. 2, T. 3, M. 2, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <date when="2017-05-10">May 10, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Q" n="quaracchi1924">Quaracchi 1924</witness>
+          <witness xml:id="V" n="vatlat701">Vat lat 701</witness>
+          <witness xml:id="B" n="borghlat359">Borgh. lat 359</witness>
+          <witness xml:id="U" n="urblat123">Urb lat 123</witness>
+          <witness xml:id="Pa" n="bnf15331">BnF 15331</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+     <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+     <editorialDecl>
+       <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+         guidelines for a critical edition.</p>
+     </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+     <listChange>
+       <change when="2017-05-10" status="draft" n="0.0.0">
+         <p>Created file for the first time.</p>
+       </change>
+     </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="734"/><cb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l1p2i2t3s2q2t3m2prae">
+        <head xml:id="ahsh-l1p2i2t3s2q2t3m2prae-Hd1e3741">I, P. 2, Inq. 2, Tract. 3, S. 2, Q. 2, T. 3, M. 2, Praembulum</head>
+        <p xml:id="ahsh-l1p2i2t3s2q2t3m2prae-d1e3744">
+          <lb ed="#Q"/>Determinato de missione invisibili, qua mittitur
+          <lb ed="#Q"/>Filius vel Spiritus Sanctus in mentem ad il<lb ed="#Q"/>luminandam
+          vel sanctiticandam creaturam ratio<lb ed="#Q"/>nalem,
+          consequenter ad consummationem eorum
+          <lb ed="#Q"/>quae pertinent ad inquisitionem sacratissimae divi<lb ed="#Q"/>nitatis
+          addendum est de missione visibili, secun<lb ed="#Q"/>dum
+          quam dicitur Filius mitti in carnem et Spiritus
+          <lb ed="#Q"/>Sanctus in aliqua visibili specie, ut in columba
+          <cb ed="#Q" n="b"/>
+          <lb ed="#Q"/>super Christum et in linguis igneis super Apo<lb ed="#Q"/>stolos,
+          quae dicitur apparitio. Quaeritur ergo in
+          <lb ed="#Q"/>primis de missione visibili:
+          <lb ed="#Q"/>Quid sit ;
+          <lb ed="#Q"/>secundo, ad quid sit;
+          <lb ed="#Q"/>tertio, cuius sit;
+          <lb ed="#Q"/>quarto, per quos administrata sit;
+          <lb ed="#Q"/>quinto, qualiter et quibus modis manifestata sit-?.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
