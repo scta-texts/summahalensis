@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="32"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t2m2c1">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 2, C. 1</head>
+        <head type="question-title">UTRUM CREARE SIT FACERE</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic obicitur: a. Ea quae dicuntur  
+          <lb ed="#Qb"/>de Deo, secundum modum alicuius praedica<lb ed="#Qb"/>menti
+          dicuntur ; cum ergo creare dicatur de eo ',
+          <lb ed="#Qb"/>secundum modum alicuius praedicamenti dicetur;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>nonnisi secundum rationem actionis; ergo creatio
+          <lb ed="#Qb"/>est actio et creare est agere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name>, in libro De civitate
+          <lb ed="#Qb"/>Dei 5, exponens illud quod dicitur 6: 'In principio'"
+          <pb ed="#Qb" n="33"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>creavit Deus caelum et terram, <quote> hoc est vel quia
+          <lb ed="#Qb"/>primo fecit vel quia in Verbo unigenito fecit </quote>.
+          'Ergo creare est tacere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Praeterea, dicitur in Psalmo 1: Qui fecit cae<lb ed="#Qb"/>-lam
+          et terram, mare et omnia etc. Ibi Glossazz
+    <quote> Omnia dicit ne quem alium putes Creatorem </quote>.
+          <lb ed="#Qb"/>Ergo creare est tacere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. In Isai. 45, 7, dicitur: Ego Dominus
+          <lb ed="#Qb"/>formans lucem et "creans tenebras, faciens pacem
+          <lb ed="#Qb"/>et creans malum. Quod exponens A ugustinus,
+          <lb ed="#Qb"/>in libro De moribus Manichaeorum 3, propter hoc
+          <lb ed="#Qb"/>quod in quadam translatione 4 ita invenitur:
+          'Ego facio bona et cundo malu': <quote> Facere est
+          <lb ed="#Qb"/>omnino- quod non erat, condere autem sive creare
+          <lb ed="#Qb"/>est ordinare quod illud, quod utcumque" iam
+          <lb ed="#Qb"/>erat, melius sit </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, in libro Contra adversarium Legis et'J
+          <lb ed="#Qb"/>Prophetarum5: <quote> Facere est quod omnino non
+          <lb ed="#Qb"/>erat, creare vero ex eo quod iam erat ordinando
+          <lb ed="#Qb"/>aliquid constituere. Ideoque hoc loco dictus est
+          <lb ed="#Qb"/>Deus creans € mala, quoniam peccantibus ea con<lb ed="#Qb"/>vertit
+          in malum quae bonitatis eius largitate facta
+          <lb ed="#Qb"/>sunt bona d </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. E contrario videtur designari per hoc quod
+          <lb ed="#Qb"/>dicitur in principio Geneseos, ubi primo dicitur 6:
+          <lb ed="#Qb"/>In principio creavit Deus caelum et terram; et
+          <lb ed="#Qb"/>post sequitur7: Dixit Deus: Fiat lux, et facta est
+          <lb ed="#Qb"/>lux, et itae de aliis. Ergo creare ante facere: ex
+          <lb ed="#Qb"/>quo designatur quod creare ex nihilo, facere ex
+          <lb ed="#Qb"/>aliquo. Similiter super illud in f Cantico Deuter.8 :
+          <lb ed="#Qb"/>Qui possedit et fecit et creavit, G 1 o s sag: <quote> Prae<lb ed="#Qb"/>posterus
+          ordo: primo enim creavit Deus dispo<lb ed="#Qb"/>nendo
+          ut esset, secundo fecit intormando, tertio
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>possedit dominando </quote>. Item, alia Glossa 10: <quote> Crea<lb ed="#Qb"/>vit,
+          dum materiam, uncle formari posset, condidit;
+          <lb ed="#Qb"/>fecit, cum ad imaginem formavit; possedit, cum
+          <lb ed="#Qb"/>per fidem sibi vindiCavit </quote>. Ergo prius est natu<lb ed="#Qb"/>raliter
+          "creare quam facere. Sed quid est quod di<lb ed="#Qb"/>citur
+          in Psalmo": Ipse dixit, et facta sunt, ipse
+          <lb ed="#Qb"/>mandavit, et creata sunt?' ubig dicit quaedam
+          <lb ed="#Qb"/>Glossam: <quote> Dixit, et facta sunt, praemittendo
+          ' esse factum ' ei quod est ' esse creatum' </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod respondendum est quod
+          <lb ed="#Qb"/>creare dicitur multipliciter. Proprie enim dicitur
+          <lb ed="#Qb"/>ex nihilo facere; sed sicut 'esse ex nihilo' di<lb ed="#Qb"/>citur
+          differenter, ita et ' creare ' dicitur differenter.
+          <lb ed="#Qb"/>Uno enim modo dicitur ' creare ' omnino de nihilo
+          <lb ed="#Qb"/>facere, et secundum hoc dicitur: In principio crea<lb ed="#Qb"/>vit
+          Deus caelum et terram h. Alio vero modo di—
+          <lb ed="#Qb"/>citur de nihilo facere, cum recreat: hoc enim est
+          <lb ed="#Qb"/>de non-esse culpae reducere ad esse gratiae, et
+          <lb ed="#Qb"/>secundum hoc potest illud dici qubd dicitur in
+          <lb ed="#Qb"/>illo Psalmo 13: Exultate, iusti,'in Domino, in illo
+          <lb ed="#Qb"/>versu: Dixit, et facta sunt; dicuntur enim ibi
+          <lb ed="#Qb"/>creata quae per gratiam sunt recreata". Tertio
+          <lb ed="#Qb"/>vero modo dicitur creare, cum illud quod deficit
+          <lb ed="#Qb"/>in bonum convertitur, et hoc est malum ad bo<lb ed="#Qb"/>num
+          ordinare, et sic accipitur, cum dicitur: Ego
+          <lb ed="#Qb"/>Dominus faciens bonum et creans malum; mala
+          <lb ed="#Qb"/>enim in bonum convertit. 'Nihilum ' ergo dicitur
+          <lb ed="#Qb"/>tripliciter: vel quod omnino nihil est vel quod
+          <lb ed="#Qb"/>nihil est ratione culpae vel quod nihil est ratione
+          <lb ed="#Qb"/>poenae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obieeta]: 1-3. Et per hoc solvi possunt ea
+          <lb ed="#Qb"/>quae obiecta sunt secundum diversas acceptiones
+          <lb ed="#Qb"/>eius quod est 'creare '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="50"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q2m1c1">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 1</head>
+        <head type="question-title">UTRUM CREARI SIT QUODDAM MUTARI VEL NON</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic: a. Si creari est mutari, omne
+          <lb ed="#Qb"/>A autem mutari vel est secundum substantiam
+          <lb ed="#Qb"/>vel secundum accidens 3, ergo creari erit alterum
+          <lb ed="#Qb"/>istorum; sed mutari secundum substantiam est ge<lb ed="#Qb"/>nerari
+          vel corrumpi, prout dicit P hilosoph us 4;
+          <lb ed="#Qb"/>ergo creari, si est mutari secundum substantiam,
+          <lb ed="#Qb"/>esset generari vel corrumpi; sed utrumque est
+          <lb ed="#Qb"/>subiecta existente materia; ergo creari non esset
+          <lb ed="#Qb"/>de nihilo. Similiter, si esset mutari secundum ac<lb ed="#Qb"/>cidens,
+          multo magis accideret inconveniens: se—
+          <lb ed="#Qb"/>cundum hoc enim substantia non crearetur, cum
+          <lb ed="#Qb"/>tamen sit nobilior substantia quam accidens et
+          <lb ed="#Qb"/>creatio nobilior alia processione creaturae; quod
+          <lb ed="#Qb"/>cum non sit, non erit creari mutari.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Quod creatur, de non-esse procedit
+          <lb ed="#Qb"/>in esse; sed quod demon-esse procedit in esse,
+          <lb ed="#Qb"/>mutatur; ergo quod creatur mutatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Isidorus 5: <quote> Creatura bonum est,
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>sed non summum, quia mutabilis est</quote>; omne'
+          <lb ed="#Qb"/>autem quod mutabile est mutatur; ergo creatura
+          <lb ed="#Qb"/>mutatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondendumd est quod 'mutari' dicitur du<lb ed="#Qb"/>pliciterö:
+          uno modo, quod iam est ens potentia
+          <lb ed="#Qb"/>vel actu et mutatur ab uno in aliud, et secundum
+          <lb ed="#Qb"/>hunc modum quod creatur non dicitur mutari,
+          <lb ed="#Qb"/>quia nec prius fuit potentia nec actu, et loquor
+          <lb ed="#Qb"/>de creatione proprie dicta; secundum alium mo<lb ed="#Qb"/>dum,
+          quo dicitur aliquid exire in esse post non<lb ed="#Qb"/>esse,
+          dicitur mutari, sed hoc non est proprie
+          <lb ed="#Qb"/>dictum, sed communiter, quia quod mutatur, ali—
+          <lb ed="#Qb"/>quo modo dicitur esse unum 7, ibi vero non re<lb ed="#Qb"/>manet
+          unitas, cum non-esse omnino et esse e non
+          <lb ed="#Qb"/>habeant commune.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1-2. Ad obiectum ergo dicen<lb ed="#Qb"/>dum
+          <lb ed="#Qb"/>est quod non dicitur creari mutari eo modo quo
+          <lb ed="#Qb"/>generari dicitur mutari; nihilominus tamen dicitur
+          <pb ed="#Qb" n="51"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>esse aliqua mutatio. Sed est quaedam mutatio crea<lb ed="#Qb"/>turae 
+          secundum quod dicitur in Psalmo ' : Mutabt's
+          <lb ed="#Qb"/>ea, et mutabuntur etc., et haec est rei existentis in
+          <lb ed="#Qb"/>non-esse vel in non bene esse; et secundum hunc
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>modum creatura, cum est, mutabilis est, et sic
+          <lb ed="#Qb"/>loquitur Isidorus; alio vero modo loquitur
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>, cum dicitzz <quote>Mutabilia sunt,
+          <lb ed="#Qb"/>quia non de illo, sed de nihilo facta sunt</quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

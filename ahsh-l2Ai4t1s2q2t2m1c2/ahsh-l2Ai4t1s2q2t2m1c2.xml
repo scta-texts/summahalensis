@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="440"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q2t2m1c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 1, C. 2</head>
+        <head type="question-title">DE SENSUALITATE.</head>
+        <p>
+                <pb ed="#Qb" n="440"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Quaeritur etiam de sensualitate:
+          <lb ed="#Qb"/>Primo, utrum sit partis sensibilis aut ra<lb ed="#Qb"/>tionalis;
+          secundo, utrum sit in genere motivae dispo<lb ed="#Qb"/>nentis
+          ad motum vel facientis motum: facientem
+          <lb ed="#Qb"/>autem " dico imperantem vel exequentem interius
+          <lb ed="#Qb"/>vel exterius;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>tertio, utrum sit idem sensualitas quod inferior
+          <lb ed="#Qb"/>portio rationis, sicut dicit <name ref="#Lombard">Magister</name>, in Sen<lb ed="#Qb"/>ieniiis
+          <lb ed="#Qb"/>quarto, utrum in sensualitate sit peccatum vel
+          <lb ed="#Qb"/>non.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum sensualitas sit partis sensibilis aut rationalis.</head>
+          <p>
+            <lb ed="#Qb"/>Ad primum sic: Quod sit partis sensibilis,
+            <lb ed="#Qb"/>videtur 0. per hoc quod dicit <name ref="#Lombard">Magister</name>, in Sen<lb ed="#Qb"/>tentiis,
+            II libro, dist. 24<!--3-->: <quote> Quidquid in anima
+            <lb ed="#Qb"/>nostra nobis considerantibus occurrit, quod non
+            <lb ed="#Qb"/>sit commune cum bestiis, ad rationem pertinet:
+            <lb ed="#Qb"/>quod autem reperis in ea commune cum bestiis,
+            <lb ed="#Qb"/>ad sensualitatem pertinet </quote>. Si ergo sensualitas
+            <lb ed="#Qb"/>est communis nobis et bestiis, ergo ad partem sen<lb ed="#Qb"/>sibilem
+            pertinet. — Vel aliter: Rationalis pars est
+            <lb ed="#Qb"/>in qua differimus b, sensibilis in qua convenimus;
+            <lb ed="#Qb"/>ergo sensualitas ad partem sensibilem pertinet.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name>, in libro De Trini<lb ed="#Qb"/>tatet:
+      <quote> Sensualis motus, qui nobis pecoribus<lb ed="#Qb"/>que
+            est communis, seclusus 6 est a ratione
+            <lb ed="#Qb"/>sapientiae </quote>. Sed cuius est actus, eiusd est po<lb ed="#Qb"/>tentia5;
+            sensualise motus est partis sensibilis;/'
+            <lb ed="#Qb"/>ergo sensualitas.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. <name ref="#Augustine">Augustinus</name>f, De Trinitateü:
+      <quote> Quo modo <!--g--> coluber non apertis passibus h, sed
+            <lb ed="#Qb"/>squammarum minutissimis nisibus repit, sic lubri<lb ed="#Qb"/>cus
+            deficiendi motus negligentes minutatim occu<lb ed="#Qb"/>pat
+            et incipiens a perverso appetitu similitudinis
+            <lb ed="#Qb"/>Dei pervenit ad similitudinem pecoris </quote>. Sed iste
+            <lb ed="#Qb"/>lubricus motus est motusf sensualitatis ; motus au<lb ed="#Qb"/>tem
+            ille non convenit nisi ratione utentibus; ergo
+            <lb ed="#Qb"/>sensualitas, cuius est motus, est rationalis partis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, super illud7: <quote ana="#rom7_24">Infelix ego homo</quote> etc.
+            <lb ed="#Qb"/>Glossasa <quote> Gradus fabricavit Adam, per quos
+            <lb ed="#Qb"/>ad filios eius exspoliator ascendat, nisi clemen<lb ed="#Qb"/>tissimus
+            Dominus protegat </quote>.. Ii autem gradus
+            <lb ed="#Qb"/>dicuntur: primus corruptio carnis, secundus fo<lb ed="#Qb"/>mes,
+            tertius primus motus, quartusk delectatio
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>citra consensum, quintusl consensus: per hunc
+            <lb ed="#Qb"/>quintum Satanas ingreditur. Ergo, cum primus
+            <lb ed="#Qb"/>motus sit sensualitatis, primus autem motus non
+            <lb ed="#Qb"/>sit communis nobis et brutis, sensibilis autem
+            <lb ed="#Qb"/>parsm communis est, ergo primus motus non est
+            <lb ed="#Qb"/>sensibilis partis; et primus motus est sensualitatis;
+            <lb ed="#Qb"/>ergo sensualitas non est partis sensibilis; et est
+            <lb ed="#Qb"/>illius vel rationalis; ergo est rationalis".
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod sensualitas
+            <lb ed="#Qb"/>est partis sensibilis. Sed partem sensibilem est
+            <lb ed="#Qb"/>ccipere dupliciter: uno modo praeter' ordinem
+            <lb ed="#Qb"/>a rationalem partem, et secundum hoc quae
+            <lb ed="#Qb"/>insunt eia communia sunt nobis cum pecoribus;
+            <lb ed="#Qb"/>alio vero modo in quantum participat ex ordine
+            <lb ed="#Qb"/>ad rationem, et sic appropriata quaedam habet
+            <lb ed="#Qb"/>quae insunt homini et? non insunt brutis. Sicut
+            <lb ed="#Qb"/>enim in parte cognitiva excogitativa est quaedam
+            <lb ed="#Qb"/>vis partis sensitivae in ordine tamen ad rationem,
+            <lb ed="#Qb"/>ita ex parte motivae est dicere sensualitatem ha<lb ed="#Qb"/>bere
+            quaedam appropriata ex ordine ad rationem
+            <lb ed="#Qb"/>nec propter hoc eruntq duae vires sensualitatis,
+            <lb ed="#Qb"/>sed una vis' dupliciter se habens: habet enim
+            <lb ed="#Qb"/>quaedam communia et quaedam appropriata.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: a—b. Ad primum autems obiec<lb ed="#Qb"/>tum
+            dicendum quod duae primae rationes loquun<lb ed="#Qb"/>tur
+            de sensualitate secundum ea quae communiter
+            <lb ed="#Qb"/>insunt ei.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1-2. Ad obiectum autem in contrarium dicen<lb ed="#Qb"/>dum
+            * quod illae rationes loquuntur de ipsa secun<lb ed="#Qb"/>dum
+            ea quae appropriantur sensualitati humanae
+            <lb ed="#Qb"/>propter ordinem ad rationem: habet enim aliquem
+            <lb ed="#Qb"/>motum communem et habet aliquem appropriatum.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">In quo genere motivae sit sensualitas.</head>
+          <p>
+                  <pb ed="#Qb" n="441"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Deinde quaeritur in quo genere virtutis moti<lb ed="#Qb"/>vae
+            sit.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod sit in genere disponentis
+            <lb ed="#Qb"/>ad motum: 1. Quae enim suggerit, est disponens
+            <lb ed="#Qb"/>ad motum; sed sensualitas suggerit: est enim"
+            <lb ed="#Qb"/>per modum serpentis et sic agitur inb interiori
+            <lb ed="#Qb"/>homine quodam modo quemadmodum agebatur
+            <lb ed="#Qb"/>exterius in primis parentibus; ergo est pertinens
+            <lb ed="#Qb"/>ad motivam 0 quae disponit ad motum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad idem facit quod dicit <name ref="#Augustine">Augustinus</name>, in
+            <lb ed="#Qb"/>libro De Trinitatel: <quote> Carnalis sensus ingeritd
+            <lb ed="#Qb"/>quamdam illecebram fruendi se </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, A u g u sti n u s, in libro De anima et spi<lb ed="#Qb"/>rituZ:
+      <quote> Cum exterior sensus carnalis bono suo
+            <lb ed="#Qb"/>utitur, interior sensus mentis quasi obdormit; non
+            <lb ed="#Qb"/>enim cogitat bona interioris sensus, qui iucundi<lb ed="#Qb"/>tate
+            exteriorum bonorum capitur </quote>. Sed constat
+            <lb ed="#Qb"/>quod iste carnalis sensus est qui cognoscit appe<lb ed="#Qb"/>tendum
+            vel fugiendum et per hoc appetit vel
+            <lb ed="#Qb"/>fugit; ergo, si sensualitas non .est aliud quam
+            <lb ed="#Qb"/>carnalis sensus, erit sensualitas de motivis sen<lb ed="#Qb"/>sibilibus
+            ad motum disponentibus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed videtur contrarium: a. In sensualitate
+            <lb ed="#Qb"/>enim dicitur essee primus motus qui determinat
+            <lb ed="#Qb"/>fugiendum; ergo sensualitas, cuius est motus
+            <lb ed="#Qb"/>ille, est in genere virtutis facientis motum.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>b. Praeterea, sensualitas dicitur repugnare ra—
+            <lb ed="#Qb"/>tioni motivae, cum dicitur3: Caro concupiscit
+            <lb ed="#Qb"/>adversus spiritum; cum ergo ratio motiva sit
+            <lb ed="#Qb"/>secundum quam determinatur meritum vel deme<lb ed="#Qb"/>ritum,
+            meritum autem est in ipsa motiva faciente
+            <lb ed="#Qb"/>motum, ergo sensualitas, quae adversatur illi et
+            <lb ed="#Qb"/>trahit ad contrarium, scilicet demeritum, erit in
+            <lb ed="#Qb"/>parte motiva iaciente motum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum4 quod sicut
+            <lb ed="#Qb"/>loquimur de ratione dupliciter, ita et de sensua<lb ed="#Qb"/>litate
+            iam dicta. Ratio enimf, ut est cognitiva
+            <lb ed="#Qb"/>boni vel mali, disponit ad motum; in quantum
+            <lb ed="#Qb"/>in ea est voluntas, efficit motum. Similiter est de
+            <lb ed="#Qb"/>sensualitate: est enim cognitiva boni ut est nunc
+            <lb ed="#Qb"/>vel sui oppositi, et sic disponit ad motum €; est
+            <lb ed="#Qb"/>iterum appetitiva illius, cum non esth obediens
+            <lb ed="#Qb"/>rationi, et secundum hoc est motiva quae facit
+            <lb ed="#Qb"/>motum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Cum ergo dicitur quod sensualitas <quote>ingerit
+            <lb ed="#Qb"/>illecebram </quote>, hoc potest attendi dupliciter: vel
+            <lb ed="#Qb"/>per modum quo suggerit ut est cognitiva vel per
+            <lb ed="#Qb"/>modum quo pulsat inferiorem partem rationis in
+            <lb ed="#Qb"/>quantum est motiva.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Illud autem quod dicit <name ref="#Augustine">Augustinus</name>, in
+            <lb ed="#Qb"/>libro De anima et spiritu, intelligitur de carnali
+            <lb ed="#Qb"/>sensu, qui est disponens ad motum per cogni<lb ed="#Qb"/>tionem 
+            inferioris boni.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Utrum sensualitas sit idem quod inferior portio rationis</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur I. utrum sensualitas sit idem
+            <lb ed="#Qb"/>quod inferior portio rationis 5.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur 1. per verbum <name ref="#Lombard">Magistri</name>, in Sen<lb ed="#Qb"/>tentiis,
+            24 dist. II libri 5, qui sensualitatem com<lb ed="#Qb"/>parat
+            mulieri, sicut habetur in Glossa7 super
+            <lb ed="#Qb"/>illud: Mulier est gloria viri, I Cor. 11,7, versus
+            <lb ed="#Qb"/>finem Glossae; sed mulier cum viro eamdem
+            <lb ed="#Qb"/>speciem participat; sensualitas ergo participabit
+            <lb ed="#Qb"/>eamdem speciem cum ratione; ergo videtur idem
+            <lb ed="#Qb"/>esse quod inferior portio rationis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad hoc videtur facere quod dicit Augusti<lb ed="#Qb"/>n
+            us, in libro De Trinitate 8, arguens ex illo verbo
+            <lb ed="#Qb"/>Gen.9: <quote ana="#gen2_18">Faciamus ei 1" adiutorium simile sibi</quote>:
+      <quote> Sicut in omnibus pecoribus non est inventum
+            <lb ed="#Qb"/>viro adiutorium simile sibi 1" nisi de illo detractum
+            <lb ed="#Qb"/>in coniugium formaretur, ita menti nostrae, qua
+            <lb ed="#Qb"/>supernam consideramus veritatem, nullum est ad
+            <lb ed="#Qb"/>usum rerum corporalium, quantum naturae ho<lb ed="#Qb"/>minis
+            satis'( est, simile adiutorium ex animae
+            <lb ed="#Qb"/>partibus, quas communes cum pecoribus habe<lb ed="#Qb"/>mus:
+            et ideo rationabile nostrum, non ad unitatis
+            <pb ed="#Qb" n="442"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>divortium separatum, sed in auxilium societatis
+            <lb ed="#Qb"/>quasi derivatum, in suo dispertitur officio </quote>. Ex
+            <lb ed="#Qb"/>quo arguitur: si sensualitas tenet rationem mu<lb ed="#Qb"/>lieris
+            et mulier in adiutorium viri datur, erit ergo
+            <lb ed="#Qb"/>pertinens ad rationem; erit ergo idem quod in<lb ed="#Qb"/>feriora
+            portio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Similiter quaeritur utrum sensualitas cum 17
+            <lb ed="#Qb"/>carne debeat dici exterior homo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur 1. per verbum Au g usti ni, in libro
+            83 Quaestionumï: <quote> Si exterior homo vita acci<lb ed="#Qb"/>pitur,
+            qua per corpus sentimus quinque notissimis
+            <lb ed="#Qb"/>sensibus, quos cum pecoribus habemus communes
+            - nam et ipsae molestiis sensibilibus, quae perse<lb ed="#Qb"/>cutionibus
+            ingeruntur, corrumpi potest —— non im<lb ed="#Qb"/>merito
+            et iste homo dicitur particeps similitudinis
+            <lb ed="#Qb"/>Dei, non solum quia d vivit, quod etiam in bestiis
+            <lb ed="#Qb"/>apparet </quote>. Sed hoc invenitur in sensualitate; ergo
+            <lb ed="#Qb"/>sensualitas non erit aliud quam exterior homo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, cum sensualitas mortificatur, tunc
+            <lb ed="#Qb"/>spiritus vigoratur. Si ergo hoc dicitur de interiori
+            <lb ed="#Qb"/>homine et exteriori, quod, cum exterior corrum<lb ed="#Qb"/>pitur,
+            interior de die in diem renovatur 2, relin<lb ed="#Qb"/>quitur'quod,
+            sicut nihil aliud est interior homo
+            <lb ed="#Qb"/>nisi ratio cum spiritualibus sensibus, ita nihil
+            <lb ed="#Qb"/>aliud erit exterior homo nisi sensualitas curn
+            <lb ed="#Qb"/>sensibus carnis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad ideme facit quod dicitur in Glossa3
+            <lb ed="#Qb"/>super illud II Cor. 4,16: Si is qui intus est etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed. contrarium haberi potest o. per hoc quod
+            <lb ed="#Qb"/>sensualitas aliquo modo communis est nobis et
+            <lb ed="#Qb"/>brutis, ratio vero exterioris hominis nullo modo
+            <lb ed="#Qb"/>potest convenire; ergo non est idem sensualitas
+            <lb ed="#Qb"/>quod exterior homo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, dicit <name ref="#Augustine">Augustinus</name>4 quod exterior
+            <lb ed="#Qb"/>homo <quote> convertitur ad mentem se regentem, quam
+            <lb ed="#Qb"/>illustrat sapientia, quod in bestiis esse non potest
+            <lb ed="#Qb"/>ratione carentibus </quote>. Ergo exterior homo habet
+            <lb ed="#Qb"/>de se intentionem rationis; non ergo sensualitas
+            <lb ed="#Qb"/>cum carne est idem quod exterior homo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: H. Ad quod dicendum quod exterior
+            <lb ed="#Qb"/>homo dicitur proprie, cum convertitur homo ad
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>exteriora bona concupiscenda propter se; interior
+            <lb ed="#Qb"/>vero homo dicitur, cum convertitur ad interiora
+            <lb ed="#Qb"/>bona sive superna appetenda propter se, et se<lb ed="#Qb"/>cundum
+            hoc, cum exteriorf corrumpitur, interior
+            <lb ed="#Qb"/>renovatur. Cum enim homo, sicut dicit Grego<lb ed="#Qb"/>riu
+            55, incipit exterius interire, tunc incipit interius
+            <lb ed="#Qb"/>vivere. ldeo dicit Apostolus 6: Exspoliuntes veterem
+            <lb ed="#Qb"/>hominem cum actibus suis et8 induentes novum
+            <lb ed="#Qb"/>hominem etc. Alio vero modo dicitur exterior homo,
+            <lb ed="#Qb"/>sicut habetur in Glossa7 II Cor. 4, 16, quid<lb ed="#Qb"/>quid
+            est in nobis commune cum pecore. Sed hoc
+            <lb ed="#Qb"/>potest attendi in quantum coniungitur cum ratio<lb ed="#Qb"/>nali
+            parte ad quam ordinatur: et hoc modoh
+            <lb ed="#Qb"/>potest dici exterior homo sensualitas cum carne,
+            <lb ed="#Qb"/>reliquo modo non, immo ipse homo secundum
+            <lb ed="#Qb"/>duplicem sui ordinationem ï dicitur homo interior
+            <lb ed="#Qb"/>vel exterior.
+         </p>
+          <p>
+            <lb ed="#Qb"/>I. 1. Ad hoc vero quod quaeritur' prius utrum
+            <lb ed="#Qb"/>idem sit'" quod portio rationis inferior: dicen<lb ed="#Qb"/>dum
+            est quod, si inveniatur in Scriptura, valde
+            <lb ed="#Qb"/>extraneo modo accipitur, sed, sicut, dictum ests,
+            <lb ed="#Qb"/>poterat haec esse ratio dicti, ut sicut inferior
+            <lb ed="#Qb"/>portio rationis tenebat locum mulieris respectu
+            <lb ed="#Qb"/>superioris portionis, ita sensualitas poterat tenere
+            <lb ed="#Qb"/>locum mulieris respectu rationis". Iis enim duo<lb ed="#Qb"/>bus
+            modis accipitur in expositione9 super illud:
+            <lb ed="#Qb"/>Mulier est gloria viri, I Cor. 11, 7.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad id vero quod obicitur per auctoritatem
+            <lb ed="#Qb"/>
+            <name ref="#Augustine">Augustini</name>, in libro De Trinitate, dicendum
+            <lb ed="#Qb"/>quod ibi loquitur de muliere prout inferior portio
+            <lb ed="#Qb"/>rationis dicitur mulier et non prout sensualitas.
+            <lb ed="#Qb"/>Unde non ex hoc arguitur quod sensualitas
+            <lb ed="#Qb"/>participet" speciem rationis, eo quod datur? in
+            <lb ed="#Qb"/>adiutorium. Dari enim in adiutorium potest dici
+            <lb ed="#Qb"/>dupliciter: vel ad serviendum, et hoc potest conve—
+            <lb ed="#Qb"/>nire sensualitati; vel [ad] producendum actum
+            <lb ed="#Qb"/>consimilis speciei, quemadmodum ex superiori
+            <lb ed="#Qb"/>portione et interiori, cum coniunguntur, actus om<lb ed="#Qb"/>nino
+            rationalis producitur: et sic datur inferior
+            <lb ed="#Qb"/>portio rationis in adiutorium, sicut mulier datur
+            <lb ed="#Qb"/>in adiutorium viri? ad producendum individuum
+            <lb ed="#Qb"/>eiusdem speciei.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS IV</head>
+          <head type="question-title">Utrum in sensualitate sit peccatum vel non</head>
+          <p>
+            <lb ed="#Qb"/>Ultimo quaeritur I. utrum in sensualitate sit
+            <lb ed="#Qb"/>peccatum vel non 10.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Quod sic, videtur a. per hoc quod dicit Magi<lb ed="#Qb"/>ster,
+            in Sententiis, II libro, 24 dist., ultimo cap.:
+            <pb ed="#Qb" n="443"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>
+            <quote> Non omne veniale peccatum geritur secundum
+            <lb ed="#Qb"/>rationem, illud scilicet quod in solo motu sensualitatis
+            <lb ed="#Qb"/>existit </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, ad Eph. 4, 26: <quote ana="#eph4_26">Irascimini et nolite
+            <lb ed="#Qb"/>peccare</quote> a, Glossa 1 : <quote> Surgit motus animi, qui
+            <lb ed="#Qb"/>iam propter poenam peccati non est in potestate
+            <lb ed="#Qb"/>nostra: non bei consentiat ratio; permittit Apostolus
+            <lb ed="#Qb"/>irasci, quod est humana tentatio </quote>· Et loquitur
+            <lb ed="#Qb"/>de ira primo motu; sed iste primus motus est in
+            <lb ed="#Qb"/>sensualitate; ergo in sensualitate est peccatum. -
+            <lb ed="#Qb"/>Quod enim sit in sensualitate, arguitur
+            <lb ed="#Qb"/>si c: Aut enim est in sensualitate aut in ratione;
+            <lb ed="#Qb"/>sed non in ratione, cum non consentiat ratio;
+            <lb ed="#Qb"/>ergo est c in sensualitate.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: l. Virtus et pecca tu m, meritum et demeritum
+            <lb ed="#Qb"/>nata sunt fieri circa idem 2 ; sed virtus v el
+            <lb ed="#Qb"/>meritum non est natum fieri in sensualitate; ergo
+            <lb ed="#Qb"/>nec peccatum natum est fieri in sensualitate.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, definiti o peccati est 3 : <quote>Dictum
+            <lb ed="#Qb"/>vel factum vel concupitum contra legem Dei </quote> ;
+            <lb ed="#Qb"/>sed secundum hanc rationem non est natum esse
+            <lb ed="#Qb"/>in sensualitate; ergo non est i bi peccatum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, sensualitas aliquo modo est communis
+            <lb ed="#Qb"/>no bis et brutis; sed peccatum nullatenus est
+            <lb ed="#Qb"/>commune no bis et ipsis; ergo peccatum non est
+            <lb ed="#Qb"/>in sensualitate. - Praeterea, omne peccatum est
+            <lb ed="#Qb"/>voluntarium~ quod <quote>si non est voluntarium, non
+            <lb ed="#Qb"/>est pecca tu m 4 </quote>; sed quod est voluntarium, est d
+            <lb ed="#Qb"/>voluntatis, voluntas autem est in ratione 5, ratio
+            <lb ed="#Qb"/>vero dividit e contra sensualitatem; ergo peccatum
+            <lb ed="#Qb"/>nullum t eri t in sensualitate; ergo sensualitas
+            <lb ed="#Qb"/>non erit subiectum peccati.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, cuius potentiae est conservare rectitudinem
+            <lb ed="#Qb"/>actus, eius est deficere a rectitudine actus;
+            <lb ed="#Qb"/>sed sensualitatis non est conservare rectitudinem
+            <lb ed="#Qb"/>actus; ergo ne c deficere a rectitudine actus g; se d
+            <lb ed="#Qb"/>peccatum est ex defectu rectitudinis in actu ; ergo
+            <lb ed="#Qb"/>peccatum non est in sensualitate.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum h quod peccatum
+            <lb ed="#Qb"/>dicitur esse in aliquo dupliciter: v el originaliter
+            <lb ed="#Qb"/>vel subiective 6• Si originaliter, secundum
+            <lb ed="#Qb"/>hoc est peccatum solum in ratione motiva sive
+            <lb ed="#Qb"/>voluntate. Si vero subiective, aut est peccatum
+            <lb ed="#Qb"/>mortale aut veniale. Si mortale, itérum est in
+            <lb ed="#Qb"/>rationali voluntate; si vero est veniale, aut est
+            <lb ed="#Qb"/>in ratione aut in potentia ordinata ad ratio<lb ed="#Qb"/>nem.
+            Potentia autem ordinata ad rationem k est
+            <lb ed="#Qb"/>antecedenter aut consequenter. Si ergo est in
+            <lb ed="#Qb"/>ratione aut in potentia ordinata consequenter,
+            <cb ed="#Qb" n="b"/>
+      
+            <lb ed="#Qb"/>tunc est veniale peccatum dictum simpliciter. Si
+            <lb ed="#Qb"/>vero in potentia ordinata antecedenter, aut est
+            <lb ed="#Qb"/>antecedenter ex parte cognitionis aut ex parte
+            <lb ed="#Qb"/>motivae. Si ex parte cognitionis, tunc non est in
+            <lb ed="#Qb"/>ea peccatum prout huiusmodi. Si vero antecedenter
+            <lb ed="#Qb"/>est ordinata ex parte motivae, et hoc in
+            <lb ed="#Qb"/>poenam peccati primi, secundum hoc est 1 pec<lb ed="#Qb"/>catum
+            in sensualitate: ex poena enim primi peccati
+            <lb ed="#Qb"/>factum est ut sensualitas, quae erat obediens
+            <lb ed="#Qb"/>omnino rationi, facta sitm rationi repugnans,
+            <lb ed="#Qb"/>et quae movebatur a ratione, nunc movet rationem
+            <lb ed="#Qb"/>inordinate, quantum est de se, cum ipsa
+            <lb ed="#Qb"/>mota est n inordinate. Si c ergo in sensualitate est
+            <lb ed="#Qb"/>peccatum veniale, non mortale, et veniale secundum
+            <lb ed="#Qb"/>alteram rationem quam illud quod habet secundum
+            <lb ed="#Qb"/>0 rationem vel potentiam consequentem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Ad obiecta autem respondendum est: l. A d
+            <lb ed="#Qb"/>p r i m u m P quod aliter est de virtute et de q viti o,
+            <lb ed="#Qb"/>nisi dicamus de peccato et vitio quod contrariatur
+            <lb ed="#Qb"/>virtuti. Si enim sumatur vitium vel p~ccatum quod
+            <lb ed="#Qb"/>contrariatur, secundum hoc, in qua vi potest r esse
+            <lb ed="#Qb"/>virtus ut in subiecto in nobis, in illa est vitium vel
+            <lb ed="#Qb"/>peccatum. Si vero sumatur peccatum quod non
+            <lb ed="#Qb"/>contrariatur, tunc non est simile de virtute et peccato,
+            <lb ed="#Qb"/>quia virtus venit a parte superiori et habet
+            <lb ed="#Qb"/>subiectum partem illam in qua est similitudo Dei,
+            <lb ed="#Qb"/>peccatum vero venit ab appetitu inordinato hominis,
+            <lb ed="#Qb"/>et ideo quantum extenditur appetitus inordinatus
+            <lb ed="#Qb"/>hominis, in tantum extenditur peccatum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundum dicendum s quod illa definitio
+            <lb ed="#Qb"/>peccati: <quote> Peccatum est dictum vel factum </quote> etc.
+            <lb ed="#Qb"/>est mortalis peccati t; tale autem non fit nisi in
+            <lb ed="#Qb"/>rationali appetitu. Si vero dicatur actus incidens
+            <lb ed="#Qb"/>ex defectu boni, bene potest convenire peccato
+            <lb ed="#Qb"/>quod est in sensualitate; vel si u dicatur 7 : <quote> Peccatum
+            <lb ed="#Qb"/>est conversio indebita ad commutabile
+            <lb ed="#Qb"/>bonum </quote>·
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad tertium dicendum est quod sensualitas,
+            <lb ed="#Qb"/>prout in ea est motus qui est peccatum, non est
+            <lb ed="#Qb"/>communis nobis et brutis, sed est v appropriata
+            <lb ed="#Qb"/>homini.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad quartum dicendum quod 'deficere a
+            <lb ed="#Qb"/>rectitudine' dicitur dupliciter: vel quia origo deficiendi
+            <lb ed="#Qb"/>fuit ex illa vi vel quia defectus x rectitudinis
+            <lb ed="#Qb"/>in alia per prius eìY posterius defectum habet recti<lb ed="#Qb"/>tudinis.
+            Si primo modo sumatur, secundum hoc,
+            <lb ed="#Qb"/>cuius est potestas conservandi rectitudinem, sci<lb ed="#Qb"/>licet
+            rationis, eius est potestas deficiendi a recti<lb ed="#Qb"/>tudine,
+            et sic non convenit sensualitati defectus
+            <pb ed="#Qb" n="444"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>rectitudinis: non enim ex se originaliter habuit.
+            <lb ed="#Qb"/>Si vero intelligatur de defectu rectitudinis per
+            <lb ed="#Qb"/>consequens, secundum hoc sensualitas deficit a
+            <lb ed="#Qb"/>rectitudine, non tamen habet potestatem conser<lb ed="#Qb"/>vandi
+            rectitudinem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Occasione praedictorum quaeritur propter
+            <lb ed="#Qb"/>quid, si sensualitas sit vis motiva ipsius partis
+            <lb ed="#Qb"/>sensibilis, philosophi non pervenerunt ad no<lb ed="#Qb"/>titiam
+            istius potentiae, quemadmodum pervene<lb ed="#Qb"/>runt
+            ad notitiam phantasiae vel concupiscibilis
+            <lb ed="#Qb"/>vel" irascibilis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum1 quod propter
+            <lb ed="#Qb"/>hoc non pervenerunt ad notitiam ipsius, quia ipsa
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>determinatur, non secundum esse illud quod com<lb ed="#Qb"/>mune
+            est nobis et brutis, sicut consideraverunt
+            <lb ed="#Qb"/>philosop hi partem sensibilem, nec secundum esse
+            <lb ed="#Qb"/>illud quod suadibile est ratione, sicut se habent
+            <lb ed="#Qb"/>concupiscibilis et irascibilis, sed secundum quod
+            <lb ed="#Qb"/>rebellionem habet contra rationem ex poena pec<lb ed="#Qb"/>cati
+            originalis. Cum ergo philosophi non perve<lb ed="#Qb"/>nissent
+            ad cognitionem peccati originalis, per
+            <lb ed="#Qb"/>consequens nec pervenerunt ad notitiam poenae b
+            <lb ed="#Qb"/>consequentis, ergo nec motus illius inordinati- in
+            <lb ed="#Qb"/>quantum est poena, ergo nec sensualitatis, in
+            <lb ed="#Qb"/>qua est radix ipsius vel origo. Ipsa tamen forte
+            <lb ed="#Qb"/>secundum esse alterum est idem quod appetitiva
+            <lb ed="#Qb"/>irrationalis mota a phantasia.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

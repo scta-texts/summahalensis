@@ -1,0 +1,1003 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="201"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t1d1m2c1">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 2, C. 1</head>
+        <head type="question-title">DE LIBERO ARBITRIO IN SE.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde procedendum est ad liberum arbitrium.
+          <lb ed="#Qb"/>De quo primo est quaestio ratione liberi
+          <lb ed="#Qb"/>arbitrii in se;
+          <lb ed="#Qb"/>deinde gratia rationis;
+          <lb ed="#Qb"/>tertio, gratia voluntatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Unde primo est quaestio de libero arbitrio ut
+          <lb ed="#Qb"/>est facultas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Circa quodk primo est quaestio' utrum libe<lb ed="#Qb"/>rum
+          arbitrium sit in angelo;
+          <lb ed="#Qb"/>secundo, quid sit;
+          <lb ed="#Qb"/>tertio, utrum aeque sit in angelo et in
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>homine vel non similiter in Deo et" in angelo;
+          <lb ed="#Qb"/>quarto, utrum similis vertibilitas fuerit vel sit
+          <lb ed="#Qb"/>in angelo et in homine;
+          <lb ed="#Qb"/>quinto, si libertas arbitrii sit in angelo per vo<lb ed="#Qb"/>luntatem;
+          <lb ed="#Qb"/>sexto, utrum vertibilitas liberi arbitrii in ho<lb ed="#Qb"/>mine
+          et in angelo, prout est boni et mali, sit
+          <lb ed="#Qb"/>ex eodem principio vel ex" differentibus;
+          <lb ed="#Qb"/>septimo, utrum versio liberi arbitrii in bonis
+          <lb ed="#Qb"/>angelis fueritP in primo instanti, in quo data
+          <lb ed="#Qb"/>fuit vertibilitas ipsi angelo 9.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum liberum arbitrium sit in angelo.</head>
+          <p>
+                  <pb ed="#Qb" n="202"/>
+            <lb ed="#Qb"/>Quod. non sit liberum arbitrium in angelis,
+            <lb ed="#Qb"/>sie obicitur 1. per rationem liberi arbitrii quam
+            <lb ed="#Qb"/>ponit <name ref="#Augustine">Augustinus</name>z: <quote>Liberum arbitrium est
+            <lb ed="#Qb"/>facultas voluntatis et rationis, qua bonum eligitur
+            <lb ed="#Qb"/>gratia assistente et malum gratia desistente </quote>; sed
+            <lb ed="#Qb"/>nec in bonis angelis nec in malis est liberum
+            <lb ed="#Qb"/>arbitrium secundum hanc rationem: in bonis enim
+            <lb ed="#Qb"/>non est quantum ad illam partem qua malum
+            <lb ed="#Qb"/>eligitur gratia desistente, in malis vero non est
+            <lb ed="#Qb"/>quantum ad illam partem qua bonum" eligitur
+            <lb ed="#Qb"/>gratia assistente; ergo nec convenit bonis nec
+            <lb ed="#Qb"/>malis; ergo liberum arbitrium non est in angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, quod naturale est in aliquo, ipso ma<lb ed="#Qb"/>nente,
+            non potest tolli-"; sed liberum arbitrium,
+            <lb ed="#Qb"/>prout importat flexibilitatem ad bonum et malum,
+            <lb ed="#Qb"/>potuit tolli et a bonis et ab malis: nunc enim
+            <lb ed="#Qb"/>neutri parti convenit; ergo liberum arbitrium non
+            <lb ed="#Qb"/>est naturale angelis; sed si essetc in eis, esset
+            <lb ed="#Qb"/>naturale; ergo non est in eis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, non posse peccare convenit divinae
+            <lb ed="#Qb"/>essentiae, et potest participari ,a creatura intellec<lb ed="#Qb"/>tuali;
+            sed nullid potius convenit communicare
+            <lb ed="#Qb"/>quam creaturae" nobiliori in natura, et haec est
+            <lb ed="#Qb"/>angelus; ergo communicabit angelo; sed liberum
+            <lb ed="#Qb"/>arbitrium, prout est flexibile ad bonum et malum,
+            <lb ed="#Qb"/>opponitur illi; ergo non erit liberum arbitrium
+            <lb ed="#Qb"/>in angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Damascenus 4: <quote> Omne quod crea<lb ed="#Qb"/>tum
+            est, vertibile est vel secundum esse vel
+            <lb ed="#Qb"/>secundum electionem </quote>; sed angelus non est ver<lb ed="#Qb"/>tibilis
+            secundum esse, cum sit immortalis; ergo
+            <lb ed="#Qb"/>vertibilis est secundum electionem; vertibilitas
+            <lb ed="#Qb"/>autem secundum electionemf pertinet ad liberum
+            <lb ed="#Qb"/>arbitrium; ergo liberum arbitrium est in angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, penes liberum arbitrium est meritum
+            <lb ed="#Qb"/>vel demeritum; sed meritum vel demeritum est
+            <lb ed="#Qb"/>in angelis; ergo liberum arbitrium est in angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, <name ref="#Augustine">Augustinus</name>, De fide ad Petrum5:
+      <quote> Ut dilectio haberet iustam et congruam laudem
+            <lb ed="#Qb"/>voluntatis, tribuit angelis libertatem, ut essetg
+            <lb ed="#Qb"/>eis possibile, sive ad eum, qui supra eos est,
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>intentionem sanctae dilectionis erigere, sive ad
+            <lb ed="#Qb"/>se vel" ad ea quae infra eos sunt pravaei cu<lb ed="#Qb"/>piditatis
+            pondere semetipsos declinare </quote>. Ex quo
+            <lb ed="#Qb"/>accipitur quod liberum arbitrium est in angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, Damascenuse, describens angelum,
+            <lb ed="#Qb"/>dicit: <quote> Estk natura intellectualis, arbitrio libera,
+            <lb ed="#Qb"/>vertibilis secundum voluntatem: omne enim crea<lb ed="#Qb"/>bile
+            est vertibile et'omne rationale est arbitrio
+            <lb ed="#Qb"/>liberum </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>e. Item, <name ref="#Augustine">Augustinus</name>, De correptione et gra<lb ed="#Qb"/>tia7:
+      <quote> Scivit Deus magis ad suam omnipoten<lb ed="#Qb"/>tissimam'
+            bonitatem pertinere et de malis be<lb ed="#Qb"/>ne
+            iacere quam mala esse non sinere; et sic or<lb ed="#Qb"/>dinavit
+            angelorum et hominum vitam, ut in ea
+            <lb ed="#Qb"/>prius'" ostenderet quid possit liberum arbitrium
+            <lb ed="#Qb"/>et deinde quid posset gratiae beneficium</quote>. Ex
+            <lb ed="#Qb"/>iis ergo colligitur quod liberum arbitrium est in
+            <lb ed="#Qb"/>angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod liberum ar<lb ed="#Qb"/>bitrium
+            naturaliter" est in angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad obiectum in contrarium
+            <lb ed="#Qb"/>dicendum" quod illa definitio supra dicta liberi
+            <lb ed="#Qb"/>arbitrii proprie est liberi arbitrii? prout est in
+            <lb ed="#Qb"/>homine, in quo remanet electio boni per gratiam
+            <lb ed="#Qb"/>et mali per se. Si vero sumatur communiter ad
+            <lb ed="#Qb"/>liberum arbitrium in angelo, secundum hoc con<lb ed="#Qb"/>venietq
+            angelo ratione primarii status: tunc enim
+            <lb ed="#Qb"/>potuit eligi bonum gratia assistente et malum
+            <lb ed="#Qb"/>gratia desistente. Hoc autem sciendum quod' li<lb ed="#Qb"/>berum
+            arbitrium potest dici liberum a coactione
+            <lb ed="#Qb"/>vel potest dici liberum a miseria. Secundum pri<lb ed="#Qb"/>mum
+            modum dicitur esse liberum arbitrium in
+            <lb ed="#Qb"/>angelis tam bonis quam malis in primo statu et
+            <lb ed="#Qb"/>consequenti; secundum vero modum secundum
+            <lb ed="#Qb"/>non dicitur communiter in bonis eis malis, sed
+            <lb ed="#Qb"/>in bonis tantum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundumt obiectum dicendum" quod
+            <lb ed="#Qb"/>liberum arbitrium a coactione commune est et
+            <lb ed="#Qb"/>naturaleV ipsis angelis, et hoc modo non tol<lb ed="#Qb"/>litur
+            ab eis; sedx prout liberum arbitrium dicit
+            <lb ed="#Qb"/>flexibilitatem in affectu? de bono in malum vel
+            <pb ed="#Qb" n="203"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>e converso, non est commune; sed prout dicit
+            <lb ed="#Qb"/>flexibilitatem in bonum et malum naturaliter, sic
+            <lb ed="#Qb"/>est commune. Et hoc est quod dicit Damasce<lb ed="#Qb"/>nus: 
+      <quote> Ut creabilis vero vertibilis est, habens
+            <lb ed="#Qb"/>facultatem manendi et proficiendi in bono </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad tertium" dicendum quod 'non posse
+            <lb ed="#Qb"/>peccare' non est de natura creaturae intellec<lb ed="#Qb"/>tualis,
+            sed quod participatur a creatura, hoc est ex
+            <lb ed="#Qb"/>gratia. Non negatur <!--b--> ergo quin communicet Deus
+            <lb ed="#Qb"/>creaturae hanc libertatem, sed haec libertas non
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>
+            <lb ed="#Qb"/>est creaturae intellectualis in quantum est ex
+            <lb ed="#Qb"/>nihilo. Nec in hoc liberum arbitrium, in quantum
+            <lb ed="#Qb"/>est in angelo, similitudinem dicitur habere liberi
+            <lb ed="#Qb"/>arbitrii divini, sed in hoc quod non cogitur ad
+            <lb ed="#Qb"/>bonum. Unde Ans elm u s 2: <quote> Sic liberum c erat,
+            <lb ed="#Qb"/>ut nulla alia re cogi posset ad recte agendum
+            <lb ed="#Qb"/>vel ad peccandum, et ideo iusted reprehenditur,
+            <lb ed="#Qb"/>cum peccat, quia, cum hanc haberet arbitrii suie
+            <lb ed="#Qb"/>libertatem, non aliqua re cogente, non aliqua
+            <lb ed="#Qb"/>necessitate, sed sponte peccavit</quote>.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Quid sit liberum arbitrium in angelo.</head>
+          <p>
+            <lb ed="#Qb"/>Consequenter quaeritur quid sit liberum arbi<lb ed="#Qb"/>trium
+            secundum quod convenit angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Et ponitur in libro Sententiarum3 talis defi<lb ed="#Qb"/>nitio:
+      <quote> Liberum arbitrium est facultas voluntatis
+            <lb ed="#Qb"/>et rationis </quote>; sed ratio non convenit angelo: in
+            <lb ed="#Qb"/>hoc enim distinguitur ,homo ab angelo, unde. et
+            <lb ed="#Qb"/>eius differentia est 'rationale' ; ergo liberum ar<lb ed="#Qb"/>bitrium,
+            prout sic definitur, non est in angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Eodem modo potest obici secundum hoc quod
+            <lb ed="#Qb"/>dicit Bernardus, in libro Def libero arbitrio4:
+      <quote> Liberum arbitrium dicitur liber sui propter vo<lb ed="#Qb"/>luntatem,
+            iudex sui propter rationem</quote>. Si ergo
+            <lb ed="#Qb"/>istae duae differentiae non conveniunt angelo, non
+            <lb ed="#Qb"/>erit haec ratio liberi arbitrii prout est in angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, Bernardussz <quote> Voluntas habet, quo<lb ed="#Qb"/>cumque
+            se verterit, rationem semper comitem eta
+            <lb ed="#Qb"/>quasi pedissequam, non quod semper ex ratione,
+            <lb ed="#Qb"/>sed nunquam absque ratione moveatur, ita ut
+            <lb ed="#Qb"/>multa faciath per ipsam contra ipsam </quote>; sed hoc
+            <lb ed="#Qb"/>non convenit angelo, quia in angelo non sunt con<lb ed="#Qb"/>trarii
+            appetitus; ergo illa ratio, quam ponit B.i
+            <lb ed="#Qb"/>Bernardus, non erit definitio liberi arbitrii prout
+            <lb ed="#Qb"/>convenit angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, <name ref="#Anselm">Anselmus</name>ö ponit talem rationem: <quote> Li<lb ed="#Qb"/>berum
+            arbitrium est potestas servandi rectitudi<lb ed="#Qb"/>nem
+            propter ipsam rectitudinem </quote>. Haec iterum
+            <lb ed="#Qb"/>definitio liberi arbitrii non convenit libero arbi<lb ed="#Qb"/>trio
+            prout est in angelis: conveniret enim bonis
+            <lb ed="#Qb"/>etl malis; sed mali non habent hanc rectitudi<lb ed="#Qb"/>nem;
+            sed illud, quod non habetur, non potest
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>
+            conservari; ergo potestas conservandi rectitudi<lb ed="#Qb"/>
+            <lb ed="#Qb"/>nem non est in angelo; ergo non est haec de<lb ed="#Qb"/>finitio
+            liberi arbitrii in angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum quod prima
+            <lb ed="#Qb"/>definitio proprie videtur convenire libero arbitrio
+            <lb ed="#Qb"/>prout est in homine; nihilominus tamen, si nomen
+            'rationis' extenderetur" ad intellectum qui est in
+            <lb ed="#Qb"/>angelis, posset convenire. —— Quod autem ex<lb ed="#Qb"/>tendatur
+            nomen rationis ad intellectum
+            <lb ed="#Qb"/>angelicum, patet per hoc quod dicit Ioannes
+            <lb ed="#Qb"/>Damascenus7: <quote>Oportet scire quod angeli,
+            <lb ed="#Qb"/>rationales entes, arbitrio liberi sunt et ut crea<lb ed="#Qb"/>biles
+            et vertibiles </quote>. Et iterum 8: <quote> Aut non erit"
+            <lb ed="#Qb"/>rationale aut rationale ens dominus actuum erit
+            <lb ed="#Qb"/>et liberi arbitrii; unde irrationalia non sunt libera
+            <lb ed="#Qb"/>arbitrio: agunturP enim a natura magis quam
+            <lb ed="#Qb"/>agunt 9 </quote>. Ex quo accipitur quod 'ratio' sive 'ra<lb ed="#Qb"/>tionale'
+            commune est homini et angelo in Sacra
+            <lb ed="#Qb"/>Scriptura.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2-3. Per hoc potest patere qualiter responden<lb ed="#Qb"/>dum
+            est ad hoc quod dicit Bernardus in
+            <lb ed="#Qb"/>utraque auctoritate: accipitur enim ibi' 'ratio'
+            <lb ed="#Qb"/>communiter, prout in angelo et homine; Unde
+            <lb ed="#Qb"/>post, in eodem libro 9, ostendit illam definitionem
+            <lb ed="#Qb"/>angelo convenire, quae est-: <quote>Liberum arbitrium
+            <lb ed="#Qb"/>est voluntarius consensus </quote>; ets iterum 10: <quote> Deus
+            <lb ed="#Qb"/>est auctor salutis, liberum arbitrium est capax </quote>.
+            <lb ed="#Qb"/>Unde si angelus est capax salutis, habet liberum
+            <lb ed="#Qb"/>arbitriumt secundum praedictam rationem; unde
+            <lb ed="#Qb"/>subiungit "B ernard u S H: <quote> Libertas a necessitate
+            <lb ed="#Qb"/>in angelo est" et in homine </quote>. — Ad hoc vero
+            <pb ed="#Qb" n="204"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>quod obicitur quod 'in angelo non facit liberum
+            <lb ed="#Qb"/>arbitrium multa per rationem contra rationem,
+            <lb ed="#Qb"/>quia non sunt contrarii appetitus simul in an<lb ed="#Qb"/>gelo':
+            dicendum quod, sumpta 'ratione' large,
+            <lb ed="#Qb"/>hoc accidit in daemonibus: daemones enim multa
+            <lb ed="#Qb"/>faciunt per rationem, id esta intellectum, .contra
+            <lb ed="#Qb"/>rationem rectam, et sunt ibi quoad hoc contrarii
+            <lb ed="#Qb"/>appetitus, prout appetitus naturae contrariatur ap<lb ed="#Qb"/>petitui
+            peccati; sed non sunt ibi contrarii appe<lb ed="#Qb"/>titus,
+            bonus scilicet et malus, secundum idem
+            <lb ed="#Qb"/>genus, vel ut unus sit secundum phantasiam, alius
+            <lb ed="#Qb"/>secundum intellectum, sicut contingit in homine,
+            <lb ed="#Qb"/>in quo est duplex motivum, de quo infra1 dicetur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad id quod obicitur de definitione Ansel<lb ed="#Qb"/>mi,
+            dicendum quod illa definitio convenit, sicut
+            <lb ed="#Qb"/>ipse dicit, libero arbitrio proutc est in angelis:
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>est enim ibi <quote>potestas servandi rectitudinem </quote> etc.
+            —- Ad idd quod obicitur quod 'illa ratio non
+            <lb ed="#Qb"/>convenit daemonibus': dicendum ? quod est
+            <lb ed="#Qb"/>quaedam potestas quae estf ex parte eius qui
+            <lb ed="#Qb"/>potest servare, alia vero ex parte rei servandae,
+            <lb ed="#Qb"/>sicut potestas videndi dicitur, cum res visibilis
+            <lb ed="#Qb"/>praesens est, dicitur etiam potestas videndi, Cum
+            <lb ed="#Qb"/>non est praesens. Si ergo fiat sermo de potestate
+            <lb ed="#Qb"/>naturali ex parte rationis, est potestas servandi
+            <lb ed="#Qb"/>ing daemonibus, etsi non servetur" rectitudo;
+            <lb ed="#Qb"/>non tamen est potentia ordinata ad servandum
+            <lb ed="#Qb"/>ratione impossibilitatis ex parte rei servandae.
+            <lb ed="#Qb"/>Unde si aliquid esset invisibile<!--i--> ab oculo, etsik
+            <lb ed="#Qb"/>esset integritas visus, diceretur quod non est po<lb ed="#Qb"/>testas'
+            videndi rern illam. Uno ergo modo di<lb ed="#Qb"/>citur
+            potestas in daemonibus, alio modo non.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Utrum liberum arbitrium aeque sit in angelo et in homine 2.</head>
+          <p>
+            <lb ed="#Qb"/>Tertio quaeritur utrum liberum arbitrium aeque
+            <lb ed="#Qb"/>sit in angelo et in homine'".
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem sit aeque " in utroque, sic osten<lb ed="#Qb"/>ditur:
+            a. Libertas in intellectuali creatura atten<lb ed="#Qb"/>ditur
+            ex" eo quod est intellectuale, ex nihilo et
+            <lb ed="#Qb"/>a Deo; sed esse rem intellectualem, ex nihilo et
+            <lb ed="#Qb"/>a Deo aeque principaliter inest animae humanae)7
+            <lb ed="#Qb"/>et angelo, quia neutri inest per alterum, sed im<lb ed="#Qb"/>mediate?
+            utrique; ergo et ratio libertatis aeque
+            <lb ed="#Qb"/>inest homini et angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, ratio libertatis sumitur penes rationem
+            <lb ed="#Qb"/>imaginis, ut dicit B ernard us 3, distinguens inter
+            <lb ed="#Qb"/>libertatern consilii et complaciti et libertatem ar<lb ed="#Qb"/>bitrii.
+            Dicit enim quod libertas consilii et libertas "
+            <lb ed="#Qb"/>complaciti attenditur penes rationem similitudi<lb ed="#Qb"/>nis
+            Dei, libertas vero arbitrii penes rationem
+            <lb ed="#Qb"/>imaginis. Cum ergo iam angelus quam anima
+            <lb ed="#Qb"/>aeque gerant Dei imaginem, quia8 scilicet neu<lb ed="#Qb"/>trum
+            mediante altero, ergo aequaliter habent li<lb ed="#Qb"/>bertatem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, libertas fundatur in voluntate intel<lb ed="#Qb"/>lectualis
+            naturae; sed habere voluntatem vel esse
+            <lb ed="#Qb"/>voluntariam naturam et non cogibilem aeque con<lb ed="#Qb"/>venit 
+            angelo et animae; ergo similiter libertas. Lo<lb ed="#Qb"/>quitur
+            autem hic de libertate a coactione.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Videtur quod maior sit libertas in
+            <lb ed="#Qb"/>angelo, quia essentiam sequitur potentia " et no<lb ed="#Qb"/>biliorem
+            essentiam nobilior potentia et minus no<lb ed="#Qb"/>bilem
+            essentiam minus nobilis potentia; ergo,
+            <lb ed="#Qb"/>cum angelus nobilioris sit essentiae quam anima,
+            <lb ed="#Qb"/>nobiliorem habet potentiam quam anima"; sed
+            <lb ed="#Qb"/>potentiam sequiturlibertas ; ergo nobilior est li<lb ed="#Qb"/>bertas
+            in angelo quam in homine.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, sicut dicitur II Sententiarum, dist. 35,
+            <lb ed="#Qb"/>quatuor sunt attributa angelo, scilicet simplex
+            <lb ed="#Qb"/>essentia, personalis discretio, perspicacitas intel<lb ed="#Qb"/>ligentiae,
+            libertas arbitrii, et ista" se habent per
+            <lb ed="#Qb"/>ordinem, ita ut in quo est magis de primo, magis
+            <lb ed="#Qb"/>sit de aliis; in quo est ergo maiorx simplicitas
+            <lb ed="#Qb"/>essentiae, est maiori' perspicacitas intelligentiae
+            <lb ed="#Qb"/>et maior libertas arbitrii; sed inter angelos ad
+            <lb ed="#Qb"/>invicem sic est quod unus alium excellit in sim<lb ed="#Qb"/>plicitate
+            essentiae; ergo et: in perspicacitate in<lb ed="#Qb"/>telligentiae
+            et libertate arbitrii. Hoc etiam dicit
+            <lb ed="#Qb"/>plane <name ref="#Lombard">Magister</name>, eadem dist., cap. 25. Cum igitur
+            <lb ed="#Qb"/>plus excellat angelus animam in simplicitate es<lb ed="#Qb"/>sentiae
+            quam unus angelus alium, ergo'multo ma<lb ed="#Qb"/>gis
+            excellit angelus animam in' libertate arbitrii.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, libertas est in Deo, angelo et homine
+            <lb ed="#Qb"/>ratione voluntatis, quae tamen voluntas sequitur
+            <lb ed="#Qb"/>intellectum. Unde sicut in illis est excellentia
+            <pb ed="#Qb" n="205"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>penes intellectum, sic videtur esse penes libertatem
+            <lb ed="#Qb"/>voluntatis, quae scilicet sequitur intellectum; sed
+            , Primum intelligit per unum solum, quod est idem
+            <lb ed="#Qb"/>cum ipso 1, angelus intelligit solum per compara<lb ed="#Qb"/>tionem
+            ad superius, scilicet ad Deum, quia non
+            <lb ed="#Qb"/>recipit mediante phantasmate a rebus interioribus
+            <lb ed="#Qb"/>sicut intellectus humanus; [intellectus humanus]
+            <lb ed="#Qb"/>ergo plus elongatur ab intellectu Dei quam intel-*
+            <lb ed="#Qb"/>lectus angeli; ergo similiter et libertas eius plus
+            <lb ed="#Qb"/>elongatur; ergo maior est libertas in angelo quam
+            <lb ed="#Qb"/>in anima.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, libertas est <quote>facultas voluntatis et ra<lb ed="#Qb"/>tionis2
+      </quote>; sed maior est facultas sive facilitas in
+            <lb ed="#Qb"/>angelo ad exeundum in actum quam in homine. —--<lb ed="#Qb"/>Quod
+            patet: quia angelus, quam cito est, potest
+            <lb ed="#Qb"/>velle, potest diligere; sed homo non sic, ut patet
+            <lb ed="#Qb"/>in parvulo, qui habet impedimentum a carne et
+            <lb ed="#Qb"/>expectat tempus ut habeatb usum rationis; ergo
+            <lb ed="#Qb"/>et libertas maior est in angelo quam in homine.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5.Quod si concedatur contra: Libertas
+            <lb ed="#Qb"/>arbitrii videtur dici eo quod vertibilis sit volun<lb ed="#Qb"/>tas
+            quo vult; sed homo plus vertibilis [est] quam
+            <lb ed="#Qb"/>angelus, quia homo potest verti" a bono in me<lb ed="#Qb"/>lum
+            et inde rursus in bonum; non sic angelus,
+            <lb ed="#Qb"/>immo solum semel vertitur-7l vel in bonum vel
+            <lb ed="#Qb"/>in e malum sine regressu ad alterum3 ; plus ergo
+            <lb ed="#Qb"/>homo estf vertibilis; ergo et plus liber: prcpter
+            <lb ed="#Qb"/>hoc enimg conceditur quod liberior est homo
+            <lb ed="#Qb"/>quam daemon, quia scilicet homo potest regredi
+            <lb ed="#Qb"/>post casum, daemon autem non. — Item, sicut
+            <lb ed="#Qb"/>supra dictum est'", libertas sequitur rationem
+            <lb ed="#Qb"/>imaginis; sed ratio imaginis magis proprie vi<lb ed="#Qb"/>detur
+            esse in homine quam in angelo, cum in
+            <lb ed="#Qb"/>utroque sit. — Quod patet ex eo quod in
+            <lb ed="#Qb"/>Canone Sacrae Scripturae5 legitur quod homo[
+            <lb ed="#Qb"/>sit ad imaginem, non sic autem legitur de angelo;
+            <lb ed="#Qb"/>ergo secundum hoc magis erit libertas vel saltem
+            <lb ed="#Qb"/>magis proprie in homine quam in angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio] 6: Praenotandum est quod triplex est
+            <lb ed="#Qb"/>libertas: prima est libertas a coactione sive a
+            <lb ed="#Qb"/>necessitate, secunda estk libertas a- peccato, de
+            <lb ed="#Qb"/>et Ioan. 8, 36: Si Filius vos liberaverit, vere liberi eri<lb ed="#Qb"/>tis;
+            tertia est libertas a miseria, de qua Rom. 8, 21 :
+            <lb ed="#Qb"/>Ipsa creatura liberabitur a servitute corruptionis
+            <lb ed="#Qb"/>in libertatem gloriae filiorum Dei. De hac triplici
+            <lb ed="#Qb"/>libertate habetur II libro Sententiarum, dist.. 25,
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>cap. <quote>Est namque libertas triplex</quote> 7. Dicimus ergo
+            <lb ed="#Qb"/>quod secunda libertas .et tertia non sunt aeque
+            <lb ed="#Qb"/>in homine et in angelo, sed maxima est in angelo
+            <lb ed="#Qb"/>bono, minor in homine bono, minima in homine
+            <lb ed="#Qb"/>malo, nulla in daemone. Sed prima libertas, quae
+            <lb ed="#Qb"/>est a coactione, est aeque in homine et! angelo,
+            <lb ed="#Qb"/>tam bono quam malo. Unde Bernardus, in
+            <lb ed="#Qb"/>libro De '" libero arbitriosz <quote> Libertas a necessitate
+            <lb ed="#Qb"/>nec peccato nec miseria amittitur nec per oppo<lb ed="#Qb"/>situm
+            augetur nec plenior est in homine quam
+            <lb ed="#Qb"/>in angelo </quote>. Et subiungitg: <quote> Hac praerogativa"
+            <lb ed="#Qb"/>Conditor rationalem creaturam insignivit, ut sicut
+            <lb ed="#Qb"/>sui iuris suaeque voluntatis, non coactionis, erat
+            <lb ed="#Qb"/>quod bonus est, ita et sui iuris existeret ut non
+            <lb ed="#Qb"/>nisi vellet, bona vel mala fiereto </quote>. Ex iis patet
+            <lb ed="#Qb"/>quod sicut non cogitur angelus ut bene vel male
+            <lb ed="#Qb"/>faciat, ita nec homo, et ideo haec libertas aequa<lb ed="#Qb"/>liter
+            est hincP et inde. Qualiter autem hoc sit 0,
+            <lb ed="#Qb"/>infra10 patebit. Concedimus autem tres primas
+            <lb ed="#Qb"/>rationes ad hoc adductas.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1-4. Ad primo obiectum in con<lb ed="#Qb"/>trarium,
+            scilicet de nobilitate essentiae: dicimus
+            <lb ed="#Qb"/>quod nobilitas essentiae non facit ad esse ipsius
+            <lb ed="#Qb"/>libertatis. Nobilitas enim naturae inest creaturae
+            <lb ed="#Qb"/>intellectuali conditae absolute; libertas autem est
+            <lb ed="#Qb"/>quaedam dignitas descendens' a Deo in ratio<lb ed="#Qb"/>nalem
+            creaturam per convenientiam ad ipsum Pri<lb ed="#Qb"/>mum
+            ". Unde libertas non sequitur naturam crea<lb ed="#Qb"/>tam,
+            eo quod est creata, sed in relatione ad Primum
+            <lb ed="#Qb"/>secundum convenientiam, et ideo non sequitur: ' si
+            <lb ed="#Qb"/>maior est nobilitas, ergo maior libertas'; bene
+            <lb ed="#Qb"/>concedunt tamen quod habilior diceretur voluntas
+            <lb ed="#Qb"/>in simpliciori essentia quam ins minus nobili et
+            <lb ed="#Qb"/>simplici; nec sequitur: ' si * est habilior voluntas,
+            <lb ed="#Qb"/>ergo liberior '. Et si videatur sequi, sicut probabat
+            <lb ed="#Qb"/>sequensu ratio 12 ' quia libertas est tacilitas' etc.,
+            <lb ed="#Qb"/>ad hoc ergo solvendum sciendum quod duplex est
+            <lb ed="#Qb"/>facilitas/in rationali creatura: una, quae sequitur
+            <lb ed="#Qb"/>voluntatem in quantum est voluntas, prout contin<lb ed="#Qb"/>git
+            dicere quod voluntas libere vult quod vult nec
+            <lb ed="#Qb"/>ab aliquo potest impediri, et haec facilitas aequalis
+            <lb ed="#Qb"/>est in omni rationali creatura sive intellectuali, quia
+            <lb ed="#Qb"/>omnes aeque sunt sine coactione, sicut patuit" per
+            <lb ed="#Qb"/>auctoritatem Bernardi 13. Est alia facilitas non
+            <lb ed="#Qb"/>sequens ipsam voluntatem prout est voluntas, sed
+            <lb ed="#Qb"/>ipsam naturam, quae subiecta est illi, secundum
+            <lb ed="#Qb"/>quod contingit dicere quod simplicior est facilior
+            <pb ed="#Qb" n="206"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>et habilior ad suum'actum, et illa, quae minus
+            <lb ed="#Qb"/>simplex est, minus facilis. Secundum hoc verum
+            <lb ed="#Qb"/>est quod maior est facilitas" in angelo quam in
+            <lb ed="#Qb"/>homine, secundum quod simplicior est eius na<lb ed="#Qb"/>turab
+            et subtilior, et ideo minus potens impediri
+            <lb ed="#Qb"/>ab ingressu in suum actum. Secundum hanc viam
+            <lb ed="#Qb"/>proceduntc omnes rationes adductae ad proban<lb ed="#Qb"/>dumd
+            quod maior est libertas in angelo quam
+            <lb ed="#Qb"/>in homine, quia omnes sumuntur penes ea quae
+            <lb ed="#Qb"/>respiciunt ipsam naturam subiectam voluntati.
+            <lb ed="#Qb"/>P rima enim sumitur penes nobilitatem essentiae
+            <lb ed="#Qb"/>sive potentiae angeli, s ecun d a penes simplicita<lb ed="#Qb"/>tem
+            essentiae, terti a et quarta penes perSpica<lb ed="#Qb"/>citatem
+            intelligentiae; haec autem omnia sequuntur
+            <lb ed="#Qb"/>naturam subiectam voluntati, non ipsam volun<lb ed="#Qb"/>tatem
+            2. Similiter facilitasf de qua ultimo obicit
+            <lb ed="#Qb"/>est facilitas talis quae sequitur ipsam naturam
+            <lb ed="#Qb"/>subiectam. — Cum vero dicitur ' liberum arbitrium
+            <lb ed="#Qb"/>est facultas' etc.g, sumitur facultas pro facul<lb ed="#Qb"/>tateh
+            quae sequitur ipsam voluntatem, in quantum
+            <lb ed="#Qb"/>voluntas est: ab hac enim facultate dicitur li<lb ed="#Qb"/>berum
+            arbitrium. Si vero'" dicatur quod utramque
+            <lb ed="#Qb"/>facultatem sequitur, illa tamen, quae est naturae
+            <lb ed="#Qb"/>subiectaek voluntati secundum quod huiusmodi,
+            <lb ed="#Qb"/>non est a qua dicitur liberum arbitrium.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad ea quae obicit' quod ' maior est libertas
+            <lb ed="#Qb"/>in homine ' sic solvendum est'": Ad primum di<lb ed="#Qb"/>cendum
+            quod non valet, quia" procedit de libertate
+            <lb ed="#Qb"/>quae est a servitute peccati, et non a coactione;
+            <lb ed="#Qb"/>bene enim sequitur ' homo, cum cecidit in malum,
+            <lb ed="#Qb"/>potest resurgere ad, bonum, et non angelus, ergo
+            <lb ed="#Qb"/>quoad l1oc liberior est homo vel minus servus, sed
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>non sequitur 'ergo minus potest cogi '. De hac au<lb ed="#Qb"/>tem
+            libertate, quae est a peccato, diximus 0 quod
+            <lb ed="#Qb"/>non aeque est in homine et in angelo. Unde Ber<lb ed="#Qb"/>nardus
+            1: <quote> Divinae similitudinis summum gra<lb ed="#Qb"/>dum
+            tenent angeli boni, nos infimum, Adam me<lb ed="#Qb"/>dium,
+            daemones nullum</quote>. Et nota quod dicit
+      <mentioned> similitudinis </mentioned>, non dicit <mentioned>imaginis</mentioned>, quia simi<lb ed="#Qb"/>litudo
+            magis attenditur penes. gratuita, et ideo
+            <lb ed="#Qb"/>nulla est in daemonibus, imago magis penes na<lb ed="#Qb"/>turalia,
+            et ideo saltem in aliquo gradu remanet
+            <lb ed="#Qb"/>in daemonibus. — Si autem adhuc obici<lb ed="#Qb"/>tur
+            quod homo in pluribus vertibilis est quam
+            <lb ed="#Qb"/>angelus, quia angelus solum semel vertitur, ergo
+            <lb ed="#Qb"/>homo est liberior': dicendum quod non se<lb ed="#Qb"/>quitur,
+            quia ex alia ratione est vertibilitas et ex
+            <lb ed="#Qb"/>alia ratione libertas, quia libertas est dignitas
+            <lb ed="#Qb"/>existens in intellectuali creatura per convenien<lb ed="#Qb"/>tiam
+            ad Primum, vertibilitas autem sequitur ipsam
+            <lb ed="#Qb"/>naturam creaturae rationalis secundum se. Unde
+            <lb ed="#Qb"/>non sequitur quod maior libertas, sed" quod
+            <lb ed="#Qb"/>maior mutabilitas: et hoc verum est. —- Ad' il<lb ed="#Qb"/>lud
+            quod obicitur secundoq quod 'libertas
+            <lb ed="#Qb"/>sequitur rationem imaginis ': dicendum quod, licet
+            <lb ed="#Qb"/>in Canone Scripturae inveniatur de homine quod
+            <lb ed="#Qb"/>sit ad imaginem et non de angelo expresse, ni<lb ed="#Qb"/>hilominus
+            invenitur ibi, secundum B. Grego<lb ed="#Qb"/>rium
+            2, implicite in ratione signaculi similitudi<lb ed="#Qb"/>nis,
+            Ezech. 28,12; et imago uno modo aeque est
+            <lb ed="#Qb"/>in homine et angelo, prout alio modo attenditur
+            <lb ed="#Qb"/>penes memoriam sive mentem et intelligentiam et
+            <lb ed="#Qb"/>voluntatem, et illo modo consequitur' libertas
+            <lb ed="#Qb"/>rationem imaginis.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS IV</head>
+          <head type="question-title">Utrum similis vertibilitas sit vel fuerit in angelo et in homine.</head>
+          <p>
+            <lb ed="#Qb"/>Quarto quaeritur utrum similis vertibilitas sit
+            <lb ed="#Qb"/>vel fuerit in homine et in angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. In angelo enim est unica vertibilitas vel in
+            <lb ed="#Qb"/>bonum vel in malum nec est regressus, in ho<lb ed="#Qb"/>mine
+            vero est multiplex vertibilitas, quia est re<lb ed="#Qb"/>gressus
+            a bono in malum et e converso. Haec
+            <lb ed="#Qb"/>autem non debetur animae ratione alicuius po—
+            <lb ed="#Qb"/>tentiae suae, cum eaedem sint et communes an<lb ed="#Qb"/>gelis
+            et hominibus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Si dicatur quod hoc est propter unionem
+            <lb ed="#Qb"/>cum corpore, quods multipliciter est variabile et
+            <lb ed="#Qb"/>vertibile — hoc nihil videtur, quia vertibilitas
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>corporisf est in non-esse sive in corruptio<lb ed="#Qb"/>nem,
+            haec autem nullam videtur habere habitu<lb ed="#Qb"/>dinem
+            ad illam quae est in ignorantiam vel in"
+            <lb ed="#Qb"/>culpam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Dicimus quod huiusmodi vertibilitatem
+            <lb ed="#Qb"/>duplicem et possibilitatem ad resurgendum a culpa
+            <lb ed="#Qb"/>ad gratiam et e converso habet anima propter
+            <lb ed="#Qb"/>unionem cum corporeV corruptibili: <quote>Corpus enim
+            <lb ed="#Qb"/>quod corrumpitur aggravat animam</quote>, ut dicitur
+            <lb ed="#Qb"/>Sap. 9,15. Et dicitur corpus corruptibile non
+            <lb ed="#Qb"/>tantum secundum statum in quo nunc est, in quo
+            <lb ed="#Qb"/>necesse est corrumpi, sed secundum statum pri<lb ed="#Qb"/>mum,
+            in quo possibilex iuit corrumpi; et ideo,
+            <pb ed="#Qb" n="207"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>propter huiusmodi aggravationem, excusationem
+            <lb ed="#Qb"/>habet, cum peccat. Unde pronior est Deus" ad
+            <lb ed="#Qb"/>indulgendum, secundum quod ipse dicit Gen. 6,3:
+            <lb ed="#Qb"/>
+            <quote ana="#gen6_3">Non permanebit spiritus meus</quote>, <quote>id est indi<lb ed="#Qb"/>gnatio
+            mea1 </quote>, <quote ana="#gen6_3">in aeternam in homine, quia caro
+            <lb ed="#Qb"/>est</quote>, <quote> id est fragilis esti ex natura corporisd </quote>.
+            <lb ed="#Qb"/>Angelus autem non habet huiusmodi unionem
+            <lb ed="#Qb"/>nec unibilitatem ' et ideo non sic excusabilis est,
+            <lb ed="#Qb"/>cum peccat nec resurgit post casum. Unde an<lb ed="#Qb"/>gelus
+            dicitur2 spiritus .vaa'ens et non rediens,
+            <lb ed="#Qb"/>anima autem <quote>spiritus vadens etf rediens</quote>. Po<lb ed="#Qb"/>namus
+            tamen quod anima unita esset cum cor<lb ed="#Qb"/>pore 
+            incorruptibili, sicut erit in patria, tunc
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>propter unionem corporis" non haberet huius<lb ed="#Qb"/>modi
+            duplicem vertibilitatem, quia non aggrava<lb ed="#Qb"/>returï
+            ex eo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1-2. Per praedicta patet responsio
+            <lb ed="#Qb"/>ad id quod quaerebatur ' quae sit habitudo huius<lb ed="#Qb"/>modi
+            corruptibilitatis corporis ad illam vertibili<lb ed="#Qb"/>tatem
+            animae ', quia haec est ratio. Unde Gre<lb ed="#Qb"/>gorius,
+            in Moralibus3: <quote>Angelorum spiritus
+            <lb ed="#Qb"/>idcirco irremissibiliter peccaverunt, quia tanto
+            <lb ed="#Qb"/>robustius stare poterant, quanto eos carnis fra<lb ed="#Qb"/>gilitas
+            non gravabat/f ; homo vero post culpam
+            <lb ed="#Qb"/>veniam meruit, quia per carnale corpus aliquid,
+             <lb ed="#Qb"/>quo semetipso minor esset, accepit</quote>.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS V</head>
+          <head type="question-title">Utrum libertas arbitrii sit in angelo per voluntatem.</head>
+          <p>
+            <lb ed="#Qb"/>Quinto quaeritur utrum huiusmodi libertas, qua
+            <lb ed="#Qb"/>cogi non potest, insit angelo secundum se et
+            <lb ed="#Qb"/>per se, non mediante aliquo tamquam causa,
+            <lb ed="#Qb"/>aut insit mediante aliquo tamquam causa, sci<lb ed="#Qb"/>
+            <lb ed="#Qb"/>licet causans illam proprietatem in intellectuali"
+            <lb ed="#Qb"/>natura.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Si dicatur quod inestnaturae intellectuali"
+            <lb ed="#Qb"/>per se ipsam, tunc obicitur: ergo abstracta
+            <lb ed="#Qb"/>potentia intellectuali et abstracta inclinatione ad
+            <lb ed="#Qb"/>volendum adhuc esset in ea libertas, quia adhuc
+            <lb ed="#Qb"/>remaneret ipsa substantia intellectualis; hoc au<lb ed="#Qb"/>tem
+            videtur impossibile, scilicet quod remaneat
+            <lb ed="#Qb"/>libertas, ubi non est voluntas sive inclinatio vo<lb ed="#Qb"/>luntatis.
+            Restat * ergo quod inest ei libertas per
+            <lb ed="#Qb"/>medium, scilicet mediante voluntate: ideo enim
+            <lb ed="#Qb"/>libera est P, quia potest facere quod vult aut quia
+            <lb ed="#Qb"/>potest velle quod vult.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Ex hoc autem sequitur inconveniens
+            <lb ed="#Qb"/>quod non aeque est libertas in Deo et in aliis
+            <lb ed="#Qb"/>intellectualibus naturis; quod est contra Ber<lb ed="#Qb"/>nardum'n—Quod
+            autem inde sequatur,
+            <lb ed="#Qb"/>patet. Hoc enim posse, scilicet velle quod vult,
+            <lb ed="#Qb"/>in Deo est per sufficientiam, id estq independen<lb ed="#Qb"/>tiam,
+            quia, cum dico 'Deus potest velle quod
+            <lb ed="#Qb"/>vult ', omnia illa' tria, scilicet 'posse et velle et
+            <lb ed="#Qb"/>quod vult ', in Deo sunt idem quod ipse, in aliis
+            <lb ed="#Qb"/>autem sunt non per sufficientiam, sed per aliquam
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>dependentiam ab extrinseco. Cum enim dico ' an<lb ed="#Qb"/>gelus
+            potests velle quod vult ', etsi ly 'posse' et
+            <lb ed="#Qb"/>ly 'velle' in angelo sint, tamen lyt 'quod vult'
+            <lb ed="#Qb"/>non est in angelo, sed extra ipsum. Unde patet
+            <lb ed="#Qb"/>quod hoc totum, scilicet *posse' et *velle' et "
+            'quod vult ', non est per sufficientiam omnimo<lb ed="#Qb"/>dam
+            in angelo. Similiter nec in homine; quod
+            <lb ed="#Qb"/>eodem modo potest ostendi. Si ergo in Deo est
+            <lb ed="#Qb"/>per omnimodam sufficientiam, ergo magis est in
+            <lb ed="#Qb"/>Deo posse velle quod 'vult; ergo non aeque est
+            <lb ed="#Qb"/>libertas in Deo et inV aliis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Dicimus quod per prius et poste<lb ed="#Qb"/>rius
+            est dicta libertas in Deo et in ceteris. Et
+            <lb ed="#Qb"/>hoc solum probat ratio nunc dicta5: voluntas
+            <lb ed="#Qb"/>enim Dei sibi sufficit ad exeundum in esse in
+            <lb ed="#Qb"/>quodcumque vult, et praeest aliis voluntatibus;
+            <lb ed="#Qb"/>voluntates * vero angeli et hominis subiectae
+            <lb ed="#Qb"/>sunt voluntati eius nec etiam sibi sufficiunt ad
+            <lb ed="#Qb"/>quodcumque volitum, utpote respectu boni gra<lb ed="#Qb"/>tuiti,
+            immo oportet quod Deus adiuvet eos per
+            <lb ed="#Qb"/>gratiam. Unde quoad hoc per? prius est huius<lb ed="#Qb"/>modi
+            libertas in Deo, per posterius in aliis 5 ; non
+            <lb ed="#Qb"/>tamen ideo sequitur quod non aeque, quia prius
+            <lb ed="#Qb"/>et posterius non removent. aequalitatemz huius<lb ed="#Qb"/>modi
+            de qua loquimur, quia nihilominus tam
+            <lb ed="#Qb"/>Deus quam homo quam angelus liberi sunt a
+            <lb ed="#Qb"/>coactione aequaliter, scilicet quoad hoc quod
+            <lb ed="#Qb"/>nullus eorum cogitur 7.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS VI</head>
+          <head type="question-title">Utrum vertibilitas liberi arbitrii in homine et in angelo sit ex eodem principio.</head>
+          <p>
+                  <pb ed="#Qb" n="208"/>
+            <lb ed="#Qb"/>Sexto quaeritur utrum libertas arbitrii in ho<lb ed="#Qb"/>mine
+            et in angelo sit ex eodem principio aut
+            <lb ed="#Qb"/>ex differentibus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod non ex eodem prineipio:
+            1. Quia 'posse in bonum' habet, quia est a
+            <lb ed="#Qb"/>Deo, 'posse autem in malum', in quantum est"
+            <lb ed="#Qb"/>malum, non habet ex eodem, quia Deus non est
+            <lb ed="#Qb"/>principium mali; ergo ex alio; et dicitur quod
+            <lb ed="#Qb"/>ex nihilo, sicut dicit <name ref="#Augustine">Augustinus</name>l; sed ex
+            <lb ed="#Qb"/>hoc videtur sequi quod *posse in bonum, et
+            ' posse in malum, sunt ex duobus principiis; et
+            <lb ed="#Qb"/>utrumque a libertate est; ergo libertas a duobus
+            <lb ed="#Qb"/>principiis.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Respondeo b: 1. Non sequitur quod ex e duobus
+            <lb ed="#Qb"/>principiis, sed sequitur quod unum, scilicet 'posse
+            <lb ed="#Qb"/>in bonum,, est ex uno principio et reliquum, sci<lb ed="#Qb"/>licet
+            'posse in malum', est non ex principio proprie
+            <lb ed="#Qb"/>loquendo, sed ex defectu, quia huiusmodi posse
+            <lb ed="#Qb"/>est potius non posse quam posse. Unde dicit
+            <lb ed="#Qb"/>Ans elmu s, in libro De libero arbitrio ": <quote> Po<lb ed="#Qb"/>testas
+            peccandi, quae addita voluntati minuit eius
+            <lb ed="#Qb"/>libertatem, et si dematur, augete, nec libertas est
+            <lb ed="#Qb"/>nec pars libertatis </quote>. Item, idem, in eodem 3: <quote> Po<lb ed="#Qb"/>testas
+            peccandi non ad potentiam pertinet, sed
+            <lb ed="#Qb"/>potius ad impotentiam</quote>. Vel potest dici quod
+            <lb ed="#Qb"/>utrumque est a Deo: utrumque enim est 'posse',
+            <lb ed="#Qb"/>sed unum est per conformitatem, alterum non.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS VII.</head>
+          <head type="question-title">Utrum versio liberi arbitrii in bonis angelis fuerit in primo instanti 4.</head>
+          <p>
+            <lb ed="#Qb"/>Septimo quaeritur, cum vertibilis fuerit angelus
+            <lb ed="#Qb"/>naturaliter secundum libertatem in bonum et in
+            <lb ed="#Qb"/>malum, et quidam etiam verterunt se in bonum
+            <lb ed="#Qb"/>et quidam in malum, utrum in eodem instanti
+            <lb ed="#Qb"/>potueruntf esse haec duo in angelo, scilicet ver<lb ed="#Qb"/>tibilitas
+            et versio, hoc est quaerere I. utrum quam
+            <lb ed="#Qb"/>cito esset angelus, verteretur in bonum vel in-8
+            <lb ed="#Qb"/>malum in instanti in quo primo iuit 'l.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Si dicatur quod non potuit in eodem instanti,
+            <lb ed="#Qb"/>sit ergo" instans, in quo .primo fuit, A, instans
+            <lb ed="#Qb"/>vero, in quo primo vertit se, B. Tunc obicitur:
+            <lb ed="#Qb"/>Inter quaelibet duo instantia est tempus medium;
+            <lb ed="#Qb"/>ergo inter A et B. Sit ergo illud tempus C. Non
+            <lb ed="#Qb"/>fuit in C otiosus, quia intellectus angeli non
+            <lb ed="#Qb"/>est sicut intellectus pueri, qui otiosus est; ergo
+            <lb ed="#Qb"/>intelligebat in C; sed intellectus eius plus ordi<lb ed="#Qb"/>nabatur
+            ad cognoscendum Deum quam ad aliud;
+            <lb ed="#Qb"/>ergo Deum intelligebat; sed intellectum neces<lb ed="#Qb"/>sario
+            sequitur inclinatio ad illud per affectionem,
+            <lb ed="#Qb"/>maxime autemk summi boni-; ergo aificiebatur
+            <lb ed="#Qb"/>in Deo; ergo iam merebatur, et sic vertebatur
+            <lb ed="#Qb"/>in bonum; ergo non primo vertebatur in B, sed
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>in C. Similiter potest quaeri de instanti ipsius C,
+            <lb ed="#Qb"/>in quo primo vertebatur angelus, et sic semper
+            <lb ed="#Qb"/>contingit deducere usquequo veniamus ad idem
+            <lb ed="#Qb"/>instans in quo primo iuit. Restat ergo quod in
+            <lb ed="#Qb"/>eodem instanti iuit in eo vertibilitas et versio
+            <lb ed="#Qb"/>huiusmodi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, <name ref="#Augustine">Augustinus</name>5 dicit quod quatuor
+            <lb ed="#Qb"/>sunt coaeva, scilicet caelum, tempus, motus, ma<lb ed="#Qb"/>teria
+            prima. Si ergo caelum et motus eius sunt
+            <lb ed="#Qb"/>coaequaeva, ergo quam cito iuit caelum, incepit
+            <lb ed="#Qb"/>moveri; sed multo simplicior est iste actus 'velle'
+            <lb ed="#Qb"/>in' intelligentia angelica quam motus in caelo;
+            <lb ed="#Qb"/>ergo multo magis -in eodem instanti primo fuit
+            <lb ed="#Qb"/>angelus et motus eius'" secundum voluntatem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, dicit <name ref="#Augustine">Augustinus</name>6 quod creatio
+            <lb ed="#Qb"/>et distinctio rerum simul fuit, secundum illud
+            <lb ed="#Qb"/>Eccli. 18,1 ": <quote ana="#sir18_1">Qui vivit in aeternam, creavit omnia
+            <lb ed="#Qb"/>simul</quote>; unde computatio ista dierum Gen. ], se<lb ed="#Qb"/>cundum
+            Au gustinum7, non accipitur ad litte<lb ed="#Qb"/>ram,
+            sed secundum quod res sunt in intelligentia
+            <lb ed="#Qb"/>sive cognitione angelica per ordinem suarum no<lb ed="#Qb"/>bilitatum;
+            ergo secundum hoc simul fuit" creatio
+            <lb ed="#Qb"/>caeli'et divisio lucis a tenebris. Sed ista divisio,
+            <pb ed="#Qb" n="209"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>ut idem <name ref="#Augustine">Augustinus</name>1 exponit", niliil aliud
+            <lb ed="#Qb"/>est quam divisio contirmatorum angelorum a ca<lb ed="#Qb"/>dentibus:
+            per caelum autem intelligitur angelica
+            <lb ed="#Qb"/>natura informis2 ; ergo simul creatib et confirmati
+            <lb ed="#Qb"/>sunt, et ceciderunt alii.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, Ioan. 8,44: <quote ana="#io8_44">Ille homicida erat ab ini<lb ed="#Qb"/>tio</quote>,
+            non potest exponi ab initio cum peccare
+            <lb ed="#Qb"/>fecit hominem, quia etiam ante peccavit super<lb ed="#Qb"/>biendo3; 
+            ergo intelligitur ab initio sui esse.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Si ex quo fuit, fuitc malus, ergo
+            <lb ed="#Qb"/>creatus est malus: quod est inconveniens.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, obicitur de bonis. Ad vertendum se
+            <lb ed="#Qb"/>in' bonum, aut sufficit natura: et tunc omnes
+            <lb ed="#Qb"/>vertissent se in bonum, cum omnes communi<lb ed="#Qb"/>cassent
+            in natura; aut superaddita est:, eis gra—
+            <lb ed="#Qb"/>tiae in creatione: et si sic, qua ratione' addita
+            <lb ed="#Qb"/>est quibusdam, eadem ratione omnibus, alioquin
+            <lb ed="#Qb"/>iniustitiaf videretur, cum adhuc nullus eorum
+            <lb ed="#Qb"/>meruisset vel demeruisset et in aliis pares essent.
+            <lb ed="#Qb"/>Ergo quocumque modo ponatur, si in eodem in<lb ed="#Qb"/>stanti
+            vertissent se, quo primo iuerunt, omnes
+            <lb ed="#Qb"/>eodem modo vertissent se vele in bonum vel in
+            <lb ed="#Qb"/>malum. Restat ergo quod non simul nec in eo<lb ed="#Qb"/>dem
+            instanti.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: 1. Quod concedimush, dicentes
+            <lb ed="#Qb"/>quod nec mali semper fuerunt mali nec boni boni
+            <lb ed="#Qb"/>bonitate confirmata, quam postea consecuti sunt.
+            <lb ed="#Qb"/>Dicimus ergo quod in alio instanti inceperunt
+            <lb ed="#Qb"/>esse et in alio se verterunt, nec oportet inter
+            <lb ed="#Qb"/>illa duo esse tempus medium vel durationem.
+            <lb ed="#Qb"/>Unde dicimus quod illa propositio 'inter quae<lb ed="#Qb"/>libet
+            duo instantia' etc. intelligitur de instantibus
+            <lb ed="#Qb"/>quae sunt in tempore prout est mensura conti<lb ed="#Qb"/>nuorum
+            4, et non tenet hic, immo possunt esse duo
+            <lb ed="#Qb"/>instantia quasi contigua, sine intermedio scilicet.
+            <lb ed="#Qb"/>Si tamen supponatur quod fuit aliqua morula
+            <lb ed="#Qb"/>sive distantia intermedia et quaeritur quid in ista'
+            <lb ed="#Qb"/>egerit angelus, potest dici quod tunc movebatur
+            <lb ed="#Qb"/>per intellectum et non movebatur per affectum,
+            <lb ed="#Qb"/>motu scilicet penes quem determinatur bonitas
+            <lb ed="#Qb"/>actualis' vel conversio. Non esset tamen incon<lb ed="#Qb"/>veniens
+            dicere quod movereturk per affectum
+            <lb ed="#Qb"/>motu naturali, non gratuito, per quem motum necl
+            <lb ed="#Qb"/>merebatur nec demerebatur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad illud Ioan. 8,44 'ab initio' respondeo:
+            <lb ed="#Qb"/>id est post initium, quia valde parum stetit; et hoc
+            <lb ed="#Qb"/>notat haec praepositio 'ab', non dicit 'in, '" initio.
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>2. Ad illud de caelo et motu eius, dicimus
+            <lb ed="#Qb"/>quod nec in caelo nec in angelo nec in aliqua
+            <lb ed="#Qb"/>creatura contingit illud, quod in eodem instanti,
+            <lb ed="#Qb"/>in quo primo est ", habeat actum aliquem. In
+            <lb ed="#Qb"/>omni enim alio a Primo prius est potentia quam
+            <lb ed="#Qb"/>actus, non solum natura, sed etiam duratione,
+            <lb ed="#Qb"/>quamvis in quibusdam simul sit potentia et essen<lb ed="#Qb"/>tia,
+            secundum quod diciturbs: <quote> In perpetuis non
+            <lb ed="#Qb"/>differt esse et : posse </quote>. Unde non est verum quod
+            <lb ed="#Qb"/>in primo instanti, in quo fuit caelum, tuitd eius
+            <lb ed="#Qb"/>motus, sed verum est quod in' illo instanti in<lb ed="#Qb"/>cepit
+            eius niotus. Hoc autem quod dico ' incepit*,
+            <lb ed="#Qb"/>licet dicat id quod dicit per modum actus, non
+            <lb ed="#Qb"/>tamen dicit actum vel motum,.sed inclinationem
+            <lb ed="#Qb"/>quamdam proximam ad motum, quae quasi me<lb ed="#Qb"/>dia
+            este inter potentiam caeli et eius motum.
+            <lb ed="#Qb"/>Quod autem dicitur ab Augustino motus coae<lb ed="#Qb"/>vus
+            caelo, ideo dicitur non quia in eodem in<lb ed="#Qb"/>stanti
+            primo fuerit cum caelo, sed quia in eodem
+            <lb ed="#Qb"/>instanti, quo primo tuit caelum, incepit eius rno<lb ed="#Qb"/>tus;
+            sed cum incepit, nondum erat, quia illud
+            'incipere' non dicit motum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad illud quod obiciturf de distinctione
+            <lb ed="#Qb"/>lucis et tenebrarum: dicendum quod, licet com<lb ed="#Qb"/>putetur
+            uno die cum iactura lucis, et iactura lucis,
+            <lb ed="#Qb"/>secundum <name ref="#Augustine">Augustinum</name> 5, sit! simul cum crea<lb ed="#Qb"/>tione,
+            non tamen divisio " illa lucis simul fuit cum
+            <lb ed="#Qb"/>creatione ', immo fuit posterior, sicut si * uno die
+            <lb ed="#Qb"/>aliquid prius fieret et aliud posterius. Non enim
+            <lb ed="#Qb"/>peccatum angeli, quo facta est tenebra, nec di<lb ed="#Qb"/>visio
+            tenebrarum a luce, quae spectat ad divi<lb ed="#Qb"/>sionem
+            bonorum a malis, fuit simul' cum crea<lb ed="#Qb"/>tione
+            in eodem instanti.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Sed adhuc'" obicitur quod simuliuit cum
+            <lb ed="#Qb"/>creatione. 1. Nam constat quod in angelo simul est
+            <lb ed="#Qb"/>essentia cum sua potentia, et est talis potentia"
+            <lb ed="#Qb"/>quae non est impedita ab actu suo nec recipit
+            <lb ed="#Qb"/>impedimentum; ergo etactus eius simul est cum
+            <lb ed="#Qb"/>sua potentia et ulterius cum sua essentia; aeque
+            <lb ed="#Qb"/>autem vel magis libera est motiva quam cognitiva,
+            <lb ed="#Qb"/>ut videtur; ergo simul fuit actus cognitivae cum
+            <lb ed="#Qb"/>potentia et essentia; ergo et " simul fuit actus mo<lb ed="#Qb"/>tivae,
+            scilicet conversio velP aversio; ergo simul
+            <lb ed="#Qb"/>fuit conversio vel? aversio cum essentia in angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Duplex est mutatio 7. Prima est a
+            <lb ed="#Qb"/>non-esse in esse ", alia ab esse tali in esse tale,
+            <pb ed="#Qb" n="210"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>et haec dicitur versio;.sed prior est mutatio a
+            <lb ed="#Qb"/>non-esse in esse" quam ab uno esse in aliud
+            <lb ed="#Qb"/>esse sive ab altero in alterum; ergo prius est
+            <lb ed="#Qb"/>creatio quam versio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, inconveniens esset dicere in animabus
+            <lb ed="#Qb"/>ipsis, statim cum sunt, esse malitiam ", nisi ex
+            <lb ed="#Qb"/>coniunctione ad corpus traherent malitiam origina<lb ed="#Qb"/>lem;
+            cum igitur angelus ex nullo trahat originem,
+            <lb ed="#Qb"/>nec etiam ex ipso Deo, quia ipse tantum boni
+            <lb ed="#Qb"/>principium est, ergo inconveniens est dicere an<lb ed="#Qb"/>gelum,
+            cum primo est, statim malum esse; ergo
+            <lb ed="#Qb"/>eadem ratione inconveniens est dicere ipsum statim
+            <lb ed="#Qb"/>bonum esse, bonitate dico illi malitiae opposita.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, de malis specialiter ostenditur quod
+            <lb ed="#Qb"/>non statim fuerunt mali. Dicit enim Au gusti<lb ed="#Qb"/>nus
+            1, et est in libro Sententiarum 2, quod Deus
+            <lb ed="#Qb"/>in angelis simul condidit naturam et largitus est
+            <lb ed="#Qb"/>gratiam illis qui modo sunt boni; ergo eadem
+            <lb ed="#Qb"/>ratione illis qui modo sunt mali, quia eodem
+            <lb ed="#Qb"/>modo erant capaces secundum naturam; summa
+            <lb ed="#Qb"/>autem bonitas communicat se recipienti secundum
+            <lb ed="#Qb"/>modum recipientis; ergo statim iuit gratia in
+            <lb ed="#Qb"/>malis a principio creationis; sed non secum com<lb ed="#Qb"/>patitur
+            gratia malitiam; ergo non statim fuit in
+            <lb ed="#Qb"/>eis malitia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Concedimus, ut supra 3, quod non si<lb ed="#Qb"/>mul
+            in ipso instanti, in quo fuerunt angeli, iue<lb ed="#Qb"/>runt
+            mali.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud autem, quod obicitur
+            <lb ed="#Qb"/>in contrarium, patuit iam solutio. Dicimus enim
+            <lb ed="#Qb"/>quod in nulla creatura simul est actus in eodem
+            <lb ed="#Qb"/>instanti cum potentia nec cum essentia, simul
+            <lb ed="#Qb"/>dico nec natura nec duratione. Unde nec in co<lb ed="#Qb"/>gnitiva
+            nec in motiva angeli simul est actus
+            <lb ed="#Qb"/>cum potentia, simul dico in eodem instanti: exi<lb ed="#Qb"/>tus
+            enim de potentia in actum vel etiam qui esti
+            <lb ed="#Qb"/>ab otio in actum, sicut est ibi, quia potentia angeli
+            <lb ed="#Qb"/>non habebat impedimentum, est postquam res
+            <lb ed="#Qb"/>est, et hoc est exd ratione creaturae, quae non
+            <lb ed="#Qb"/>patitur quod simul sit omnino, id est in eodem
+            <lb ed="#Qb"/>instanti. Nisi forte dicatur *simul ' pro "repente ',
+            <lb ed="#Qb"/>vel csimul ', id est 'statim post ', sicut dicitur quod
+            <lb ed="#Qb"/>radius visualis emissus ab oculo sirnul pertransit
+            <lb ed="#Qb"/>remotiorem cum propinquiore parte aeris vel spatii
+            — loquamur secundum opinionem quae ponit
+            <lb ed="#Qb"/>quod videmus extra mittentes — non enim pertran<lb ed="#Qb"/>sit
+            in eodem instanti, sed simul, id est repente,
+            <lb ed="#Qb"/>hoc est in tempore imperceptibili". Ita posset hicf
+            <lb ed="#Qb"/>dici quod angeli, ex quo primo fuerunt, simul,. id
+            <lb ed="#Qb"/>est statim vel parum post, versi sunt alii in bo<lb ed="#Qb"/>num,
+            alii in malum. Adhaerendum est enim sen—
+            <lb ed="#Qb"/>tentiae Magistri Sententiarum 5, qui dicit quod
+            <lb ed="#Qb"/>fuit ibi morula, et hoc dicit haec dictio ' repente *.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Ad illud quod dicit <name ref="#Augustine">Augustinus</name>: <quote>Simul
+            <lb ed="#Qb"/>condensg naturam et largiens gratiam </quote>, respon<lb ed="#Qb"/>sum
+            est supra 5.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

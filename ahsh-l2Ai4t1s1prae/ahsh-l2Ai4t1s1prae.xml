@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Praeambulum</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="383"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s1prae">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 1, Praeambulum</head>
+        <p>
+                <pb ed="#Qb" n="383"/>
+          <lb ed="#Qb"/>Adiuvante gratia Iesu Christi post considerationem spiritualis substantiae,
+          <lb ed="#Qb"/>scilicet angeli, et corporalis, quae per caelum et terram designatur se<lb ed="#Qb"/>cundum
+          unam expositionem 1, procedendum est ad considerationem homi<lb ed="#Qb"/>nis,
+          qui est substantia composita ex spirituali sive intellectuali substantia,
+          <lb ed="#Qb"/>scilicet anima, et corpore.
+          <lb ed="#Qb"/>Primo ergo dicendum est de anima, quia plus pertinet ad considerationem theo<lb ed="#Qb"/>logicam;
+          <lb ed="#Qb"/>deinde, de corpore aliqua sunt dicenda, quantum ad hoc quod subiacet eidem spe<lb ed="#Qb"/>culationi;
+          <lb ed="#Qb"/>tertio, de coniuncto.
+          <lb ed="#Qb"/>De anima vero prima consideratio respicit substantiam sive essentiam eius;
+          <lb ed="#Qb"/>secunda" vires eius et actus: hoc enim totum ad naturam animae refertur.
+          <lb ed="#Qb"/>Circa substantiam autem animae quadruplex est consideratio: '
+          <lb ed="#Qb"/>Prima, an sit;
+          <lb ed="#Qb"/>secunda, quid sit;
+          <lb ed="#Qb"/>tertia, propter quid sit vel fiat;
+          <lb ed="#Qb"/>qua-rta, quid insit.
+          <lb ed="#Qb"/>Hoc est de entitate, quidditate 5, causalitate, essentiali proprietate sive dispositione.
+          <lb ed="#Qb"/>Dico autem essentiale secundo modo, non primo: hoc enim refertur ad quidditatem
+          <lb ed="#Qb"/>Vel causalitatem 2.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

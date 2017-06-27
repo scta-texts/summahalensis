@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="501"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s1q1c1">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 1, C. 1</head>
+        <head type="question-title">UTRUM CORPUS ADAE FUIT A DEO.</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum sic: a. Formavit Deus hominem
+          <lb ed="#Qb"/>de limo terrae, Oen. 2, 1, quod intelligitur quan<lb ed="#Qb"/>tum
+          ad corpus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Iob 10, 8: <quote ana="#iob10_8">Manus tua e jecerunt me et
+          <lb ed="#Qb"/>plasmaverunt me</quote>, et, ut patet ex O l ossa 2, loquitur
+          ibi lob in persona hominis simpliciter sive
+          hominis primi; O l ossa 3 : <quote> Fecerunt secundum
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>animam, totum in circuita secundum corpus </quote>; et
+          <lb ed="#Qb"/>post h: <quote> Manibus dicitur factus, praemisso con<lb ed="#Qb"/>silio4: 
+    <quote ana="#gen1_26">Faciamus hominem ad imaginem et simili<lb ed="#Qb"/>tudinem
+          nostram</quote> 
+          </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, si corporis alicuius decebat Deum esse
+          <lb ed="#Qb"/>causam, maxime decebat eum esse causam corporis
+          <lb ed="#Qb"/>primi hominis, cum in genere corporum
+          <pb ed="#Qb" n="502"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>fuerit nobilissimum; sed constat quod aliquod 
+          <lb ed="#Qb"/>corpus conditum est a Deo, scilicet corpus su<lb ed="#Qb"/>premum; 
+          ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, <name ref="#Augustine">Augustinus</name>, 83 Quaestionum, 35",
+          <lb ed="#Qb"/>arguit omne corpus esse a Deo, sic: <quote>Omne
+          <lb ed="#Qb"/>bonumc a Deo; omne speciosum" bonum; ergo
+          <lb ed="#Qb"/>omne speciosume a Deo; sed omne corpus, ut
+          <lb ed="#Qb"/>corpus sitf, aliqua Specie continetur; ergo omne
+          <lb ed="#Qb"/>corpus a Deo </quote>. Ex hoc potest argui ulterius:
+          <lb ed="#Qb"/>ergo corpus Adae est a Deo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Sicut in genere essendi extrema non
+          <lb ed="#Qb"/>coniunguntur nisi per medium, ita in genere ope—
+          <lb ed="#Qb"/>randi inter primam! causam et effectum ultimum
+          <lb ed="#Qb"/>debet intercidereh operatio causae mediae; sed
+          <lb ed="#Qb"/>Primum est causa prima, corpus humanum ulti<lb ed="#Qb"/>mus
+          effectus; ergo inter haec debet intercidere
+          <lb ed="#Qb"/>causa media in operando ad hoc quod sit effec<lb ed="#Qb"/>tus
+          ultimus, scilicet corpus humanum. — Quod
+          <lb ed="#Qb"/>corpus humanum sit ultimus effectus,
+          <lb ed="#Qb"/>confirmatur theologice: Nam corpus humanum est
+          <lb ed="#Qb"/>ultima creatura in operibus sex dierum. Similiter
+          <lb ed="#Qb"/>et philosophi, istum ponentes ordinem: ut primo
+          <lb ed="#Qb"/>sit Deus, deinde angelus, deinde corpus caeleste,
+          <lb ed="#Qb"/>deinde elementa, quae sunt corpora simplicia,
+          <lb ed="#Qb"/>deinde mineralia, deinde vegetabilia, deinde sen<lb ed="#Qb"/>sibilia, 
+          ultimo corpus humanum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Primum est substantia immobilis et i im<lb ed="#Qb"/>mutabilis,
+          corpus humanum substantia mobilis
+          <lb ed="#Qb"/>et mutabilis; inter haec autem est aliquak- sub<lb ed="#Qb"/>stantia
+          mobilis et immutabilis, ut corpus caeleste,
+          <lb ed="#Qb"/>quod est mobile quoad situm, immutabile' quoad
+          <lb ed="#Qb"/>formam2 ; est et alia, quae immobilis, sed muta<lb ed="#Qb"/>bilis,
+          ut terra, quae est immobilis '" quantum ad
+          <lb ed="#Qb"/>situm et mutabilis quantum ad formam"; nulla au<lb ed="#Qb"/>tem
+          creatura est immobilis et immutabilis, sed so<lb ed="#Qb"/>lus
+          Deus3. — Quod patet per Gregorium Nys<lb ed="#Qb"/>senum4
+          ostendentem quod haec duo in creatura
+          <lb ed="#Qb"/>esse non possunt; unde dicit" cap. 1: <quote> Sapientia
+          <lb ed="#Qb"/>Dei, proprietates uniuscuiusque permutans, immo<lb ed="#Qb"/>bilemF
+          naturam convertibilem fecit, mobilem vero
+          <lb ed="#Qb"/>inconvertibilem, providentia quadam haec ita
+          <lb ed="#Qb"/>dispensans, ne quod '! divinae naturae est sin<lb ed="#Qb"/>gulare
+          vel proprium, id est immobilitas et' incom<lb ed="#Qb"/>mutabilitas
+          8, in aliqua creatura conspecta Deum
+          <lb ed="#Qb"/>aestimare-faceret creaturam, ostendens haec ex<lb ed="#Qb"/>tremalcaelum
+          scilicet et terram, participaret has
+          <lb ed="#Qb"/>proprietates, ut caelum sit mobile, sed immutabile,
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>terra-immobilis, sed mutabilis </quote>. Sed sicut est
+          <lb ed="#Qb"/>ordo in essendo, ita debet esse in operando sive
+          <lb ed="#Qb"/>in causando": aliter enim destruereturb bonum
+          <lb ed="#Qb"/>ordinis in universo; et si sic, erit ultima substantia,
+          <lb ed="#Qb"/>sci-licet corpus humanum, a mediis vel a" media.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, causa primaria causando influit super
+          <lb ed="#Qb"/>suumd causatum5; sed sua influentia est ex inti<lb ed="#Qb"/>nita
+          potentia; igitur quod est immediate causatum 
+          influentia divinae potentiae, maximae debet esse
+          <lb ed="#Qb"/>potentiae; ergo, cum corpus primi hominis maxi<lb ed="#Qb"/>mae
+          fueritc infirmitatis, non videtur fuisse effec<lb ed="#Qb"/>tus
+          primae potentiae. — Si dicatur quod ex actu
+          <lb ed="#Qb"/>ipsius Adae secuta est haec infirmitas - con<lb ed="#Qb"/>tra:
+          Plus erat causa prima potens influere
+          <lb ed="#Qb"/>quam aliquod aliud infirmare vel destruere; non
+          <lb ed="#Qb"/>ergo videtur ex aliquo infirmitatem huiusmodi
+          <lb ed="#Qb"/>incurrisse, sif esset immediatus effectus primae
+          <lb ed="#Qb"/>potentiae. — Si adhuc diceretur quod, licet
+          <lb ed="#Qb"/>conditum fuisset corp'u's primi hominis a summa
+          <lb ed="#Qb"/>potentia, non tameng ex hoc sequeretur"1 quod non
+          <lb ed="#Qb"/>esset impotens sive infirmum - contra: Bonitati
+          <lb ed="#Qb"/>artificis attestatur bonitas artificiati, eodem modoi
+          <lb ed="#Qb"/>videtur quod potentiae artificis attestetur poten<lb ed="#Qb"/>tia
+          artificiati.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. item, corpus humanum in genere rerum est
+          <lb ed="#Qb"/>ultimae compositionis, quia maxime est compo<lb ed="#Qb"/>situm'f:
+          unde inter creaturas maxime distat a
+          <lb ed="#Qb"/>summo simplici; propter quod videtur quod, si
+          <lb ed="#Qb"/>quae non tantum distant, causantur a causis
+          <lb ed="#Qb"/>mediis, et istud.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, Dionysiusöz <quote>Optimi est optima fa<lb ed="#Qb"/>cere'"
+    </quote>; igitur, cum corpus hominis primi, in quan<lb ed="#Qb"/>tum
+          corpus est sive determinatum omnino in esse
+          <lb ed="#Qb"/>corporali, non fuerit" de numero optimorum, non"
+          <lb ed="#Qb"/>fuit productum inesse ab Optimo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, ut habetur in Commento super librum
+          <lb ed="#Qb"/>De causis7: <quote>Anima facta est causa cdrporum,
+          <lb ed="#Qb"/>etP facta est creata? ab intellectiva quae est ante
+          <lb ed="#Qb"/>ipsam'</quote>; sed magis decets divinam providen<lb ed="#Qb"/>tiam
+          creare animas per se quam corpora, cuius<lb ed="#Qb"/>cumque
+          sintf conditionis; igitur, si non per se
+          <lb ed="#Qb"/>creat animas, sed creatae sunt ab intelligentiis,
+          <lb ed="#Qb"/>ut habetur in verbo proposito, multo fortius et
+          <lb ed="#Qb"/>corpus, cuiuscumque sit" conditionis, debet ab
+          <lb ed="#Qb"/>intelligentiis creari.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Item, corpus primi hominis productum fuit
+          <lb ed="#Qb"/>ad esse ultimum, scilicet beatitudinis, mediante
+          <pb ed="#Qb" n="503"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>creatura; similiter, et ratione' fortiori, videtur
+          <lb ed="#Qb"/>quod productum fuerit" ad esse primum aliqua'7
+          <lb ed="#Qb"/>creatura mediante, cum esse ultimum sit nobi<lb ed="#Qb"/>lius
+          quam primum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>8. Item, prima rerum conditio lex erat originalis '-'
+          <lb ed="#Qb"/>naturae succedentis ; unde Basilius, in Hexae<lb ed="#Qb"/>meron,
+          V, in finel: <quote> Naturae ratio, ex priori Dei
+          <lb ed="#Qb"/>mandato sortita principium, per omne transit ae<lb ed="#Qb"/>vum,
+          donec ad communem terminum finemque
+          <lb ed="#Qb"/>perveniat</quote>. Si ergo corpus humanum in processu
+          <lb ed="#Qb"/>naturae originalis ab alio corpore eiusdem generis
+          <lb ed="#Qb"/>producitur in esse mediante virtute superiori —
+          <lb ed="#Qb"/>homo enim generat hominem et 50le —videtur
+          <lb ed="#Qb"/>quod similiter tunce debuit in esse produci.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad hoc potest dici quod corpus primi
+          <lb ed="#Qb"/>hominis tuit conditum a Deo, ut ex textu Gen. 2,7
+          <lb ed="#Qb"/>patet, non ab angelo vel alia creatura 3. Unde
+          <lb ed="#Qb"/>A u g u s t i n u s, Super Genesim ad litteram4: <quote> For<lb ed="#Qb"/>mare
+          vel aedificare costam ut mulier esset, usque
+          <lb ed="#Qb"/>adeo non potuit nisi Deus, ut nec illud quidem
+          <lb ed="#Qb"/>carnis supplementum in corpore viri, quod in
+          <lb ed="#Qb"/>illiusf costae successit locum, ab angelis esse
+          <lb ed="#Qb"/>crediderim, sicut nec ipsum hominem de terrae
+          <lb ed="#Qb"/>pulvere</quote>. Ratio autem quare decebatg divinam
+          <lb ed="#Qb"/>providentiam ut homo, etiam  secundum corpus,
+          <lb ed="#Qb"/>esset a Deo, est quaedam ex duabus completa 1",
+          <lb ed="#Qb"/>quarum prima est sumpta a causa exemplari,
+          <lb ed="#Qb"/>secunda a causa finali. Prima est haec5: Homo
+          <lb ed="#Qb"/>secundum corpus est imago Dei, quia sicut Deus
+          <lb ed="#Qb"/>est principium simpliciter omnium, sic homo, se<lb ed="#Qb"/>cundum
+          corpus, corporum omnium sui generis
+          <lb ed="#Qb"/>fuit principium. Unde II Sententiarum, 17 dist.<!--5, d. 18, c. 1-->:
+    <quote>Imago Dei in homine apparuit, quia sicut Deus'f
+          <lb ed="#Qb"/>omnibus rebusl extitit principium creationis, ita
+          <lb ed="#Qb"/>homo omnibus hominibus principium generatio<lb ed="#Qb"/>nis</quote>; 
+          proximitas enim imaginis ad illud cuius
+          <lb ed="#Qb"/>est imago, omnem renuitm mediationem in creando
+          <lb ed="#Qb"/>sicut in imitando". Alia est haec: Cum Deus sit
+          <lb ed="#Qb"/>
+          <quote ana="#ap1_8">alpha et omega, principium et finis</quote>, Apoc. 1,8,
+          <lb ed="#Qb"/>voluit ut homo, quantum ad utramque" sui par<lb ed="#Qb"/>tem,
+          a nullo alio sortiretur esse, ut se totum
+          <lb ed="#Qb"/>sciret Deo esse obnoxium, quem etiam quantum
+          <lb ed="#Qb"/>ad corpus tantum nobilitavit ut illi soli serviret,
+          <lb ed="#Qb"/>ut eum assequeretur quasi finem. Nec est contra
+          <lb ed="#Qb"/>hoc quod omnes homines sunt Deo omnino
+          <lb ed="#Qb"/>obnoxii, quia omnes in primo homine quodam
+          <lb ed="#Qb"/>modo conditi sunt. Non enim conditus fuit pri<lb ed="#Qb"/>mus
+          homo, etiam quantum ad corpus, solum ut
+          <lb ed="#Qb"/>res quaedam singularis, sed potius ut generale
+          <lb ed="#Qb"/>principium .omnium corporum generis humani.
+          <lb ed="#Qb"/>Praeterea, successores" primi hominis non sunt
+          <lb ed="#Qb"/>ea ratione imago Dei quantum ad'corpus qua
+          <lb ed="#Qb"/>ipse; unde tota ratio, qua convenit primurn ho<lb ed="#Qb"/>minem
+          a Deo formari, non convenit eis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1-2. Ad prima duo obiecta
+          <lb ed="#Qb"/>dicendum quod, licet ordo creandi conveniat par<lb ed="#Qb"/>tibus
+          universi sicut essendi, non tamen attenden<lb ed="#Qb"/>dus
+          est ordo iste in productioneb principiorum
+          <lb ed="#Qb"/>originalium in esse, quorum unum erat primus
+          <lb ed="#Qb"/>homo secundum corpus, sed potius in produc—
+          <lb ed="#Qb"/>tione principiatorum sive causatorum ab eisdem,
+          <lb ed="#Qb"/>immo conveniebat ut a ': causa primaria et summa
+          <lb ed="#Qb"/>immediate producerentur in esse secundariae et
+          <lb ed="#Qb"/>inferiores etd ab utrisque effectus ultimi, scilicet
+          <lb ed="#Qb"/>qui non sunt de numero causarum. Theologi vero
+          <lb ed="#Qb"/>ponunt ipsum ultimum conditione— undee I-Iugo7:
+    <quote> Constat creationem hominis rerum omnium vi<lb ed="#Qb"/>sibilium
+          conditione posteriorem quidem tempore,
+          <lb ed="#Qb"/>sed causaf priorem fuisse, quia qui factus est
+          <lb ed="#Qb"/>post omnia, propter eum facta sunt omnias</quote> —
+          <lb ed="#Qb"/>philo sophi 5 autem natura, eo modo quo com<lb ed="#Qb"/>positum
+          posterius est simplici natura et magis
+          <lb ed="#Qb"/>compositum minus compositozomnium enim cor<lb ed="#Qb"/>porum
+          corpus hominisest compositionis maxi<lb ed="#Qb"/>rnae,
+          cuius ratio infra patebit 9.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum 10 quod influentia ah
+          <lb ed="#Qb"/>Primo, qua creaturae exeunt in esse, non est na<lb ed="#Qb"/>turalis
+          veli necessitatis, sed est electiva. Propter
+          <lb ed="#Qb"/>quod secundum libertatem electionis influentis
+          <lb ed="#Qb"/>sunt quaedam potentiora, quaedam minus poten<lb ed="#Qb"/>tia.
+          Unde non sequitur si maxima est potentia
+          <lb ed="#Qb"/>causae influentis, quod propter hoc maximae sit
+          <lb ed="#Qb"/>potentiae ipse effectus. Primariak autem causa
+          <lb ed="#Qb"/>dicitur maxime influere a Philosopho", quia
+          <lb ed="#Qb"/>quodl aliae causae influunt super'" causata, hoc
+          <lb ed="#Qb"/>habent a causa prima: unde ", quia aliae causae
+          <lb ed="#Qb"/>habent potestatem intluendi ab ipsa et cum hoc
+          <lb ed="#Qb"/>in omni actione ipsa est intime agens, ideo dicitur
+          <lb ed="#Qb"/>maxime influere. — Ad id quod inducitur quod
+          'bonitas artificis attestatur bonitati artificiati'",
+          <pb ed="#Qb" n="504"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>dicendum1 quod non est simile: esse enim
+          <lb ed="#Qb"/>boni determinatum est in sui communicationea
+          <lb ed="#Qb"/>sive dii-fusione. Unde, quando aliquid est sui
+          <lb ed="#Qb"/>diffusivum sive communicativum, sicut accidit
+          <lb ed="#Qb"/>in reil7 creatione, hoc est quia bonumest et quan<lb ed="#Qb"/>tum
+          ad hoc se esse bonum ostendit. Unde, etsic
+          <lb ed="#Qb"/>quis per potentiam aliquid alii d communicat vel
+          <lb ed="#Qb"/>per scientiam, per se loquendo hoc ut bonus facit,
+          <lb ed="#Qb"/>non ut potens vel sciens. Quia igitur in crea<lb ed="#Qb"/>tione 
+          rei est diffusio quaedam' a causa in cau<lb ed="#Qb"/>satum 
+          et communicatio, bonitas * causae attestatur
+          <lb ed="#Qb"/>bonitati causati, non autemf potentia potentiae vel
+          <lb ed="#Qb"/>sapientia sapientiae. Unde bene sequitur 'causa
+          <lb ed="#Qb"/>est bona, ergo effectus, per se loquendo'; non
+          <lb ed="#Qb"/>autem sequitur 'causa est potens vel sapiens,
+          <lb ed="#Qb"/>ergo effectus'.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad aliud dicendum quod est distantiag mul<lb ed="#Qb"/>tiplex
+          creatorum a prima causa sicut appropin<lb ed="#Qb"/>quatio
+          sive approximatio. Est enim appropinqua—
+          <lb ed="#Qb"/>tio'l per conformitatem et quantum ad esse et
+          <lb ed="#Qb"/>quantum ad nobilitatem sive dignitatem; simili<lb ed="#Qb"/>ter
+          esti duplex distantia per difformitatem dupli<lb ed="#Qb"/>cem.
+          Creaturae spirituales, scilicet angelus et
+          <lb ed="#Qb"/>anima, utroque modo maioris sunt approximatio<lb ed="#Qb"/>nis
+          creaturis corporalibus et minoris distantiae;
+          <lb ed="#Qb"/>sed inter res corporales secundo modo propin<lb ed="#Qb"/>quitatisk
+          tuit corpus primi hominis maximae
+          <lb ed="#Qb"/>propinquitatis et minoris distantiae, quia maxi<lb ed="#Qb"/>mae'
+          dignitatis et nobilitatis, utpote inter omnia'"
+          <lb ed="#Qb"/>corpora maxime imago Dei sive homo " secundum
+          <lb ed="#Qb"/>illud, et quod mediante sui" perfectione est Deo
+          <lb ed="#Qb"/>uniendum unione gloriae et sic beatificandum.
+          <lb ed="#Qb"/>Licet igitur maxime distet a Deo ratione suae
+          <lb ed="#Qb"/>compositionis, minime tamen distat et maximae
+          <lb ed="#Qb"/>est appropinquationiso ratione suae dignitatis
+          <lb ed="#Qb"/>vel nobilitatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad aliud<!--?--> dicendum quod corpus primi ho<lb ed="#Qb"/>minis
+          erat optime factum et de optimis, immo
+          <lb ed="#Qb"/>potius optimum in genere corporum, tum ratione
+          <lb ed="#Qb"/>tinis, utpote speciali ministerio Deo serviturum
+          <lb ed="#Qb"/>et consequenter beatificandum, tum quia princi<lb ed="#Qb"/>pium
+          omnium sui generis. Licet igitur non-.sit de
+          <lb ed="#Qb"/>optimis simpliciter, est tamen de optimis in genere
+          <lb ed="#Qb"/>corporum. Praeterea, etsi non fuerit optimumper
+          <lb ed="#Qb"/>se, fuit tamen optimum. in universo, quasi ? quo<lb ed="#Qb"/>dam
+          modo necessarium ad perfectionem universi.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>6. Ad aliud dicendum2 quod illud verbum 'anima
+          <lb ed="#Qb"/>creata est ab intellectiva" simpliciter loquendo
+          <lb ed="#Qb"/>falsum est et haeresim sonat3, tamen aliquo modo
+          <lb ed="#Qb"/>intellectum habet veritatem. Secundum autem
+          <lb ed="#Qb"/>quod 'creare' dicitur quandoque communiter, prout
+          <lb ed="#Qb"/>dicitur productio in esse cuiuscumque siveb sub<lb ed="#Qb"/>stantiae
+          sive accidentis, secundum quod dicit Psal<lb ed="#Qb"/>mista
+          4: Emitte spiritum tuum et creabuntur ", scili<lb ed="#Qb"/>cet
+          quantum ad innovationem in bonis operibus,
+          <lb ed="#Qb"/>sicd potest dici quod animae creanture ab an<lb ed="#Qb"/>gelis,
+          quia multae innovationes fiunt in animabus
+          <lb ed="#Qb"/>mediantibus angelis, a quibus animae frequenter
+          <lb ed="#Qb"/>recipiunt illuminationes; sed prout 'creare' dici<lb ed="#Qb"/>tur
+          proprie productio rei de non-ente in ens, sic
+          <lb ed="#Qb"/>est falsum. — Aliter etiam potest intelligi et ha<lb ed="#Qb"/>bet
+          verum intellectum secundum ponentes intel<lb ed="#Qb"/>ligentiasf 
+          esse motores orbium caelestium 5, quia,
+          <lb ed="#Qb"/>cum motu orbium tiunt corpora organizata et sic
+          <lb ed="#Qb"/>disponuntur et aptantur ad animarum susceptio<lb ed="#Qb"/>nern,
+          cum huiusmodi motus fiat ab intelligentiis 8,
+          <lb ed="#Qb"/>secundum hanc opinionem, aliquo modo loquendo,
+          <lb ed="#Qb"/>sed valde per accidens, potest dici animas crea<lb ed="#Qb"/>tas
+          esse ab intelligentiis. Licet autem sic soleat?l
+          <lb ed="#Qb"/>exponi verbum praedictum, sanius tamen est il<lb ed="#Qb"/>lud
+          ut simpliciter falsum negare quam sic expo<lb ed="#Qb"/>nendo
+          concedere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Ad hoc quod obicitur quod 'corpus primi
+          <lb ed="#Qb"/>hominis productum est ad esse ultimum mediante
+          <lb ed="#Qb"/>creatura' etc. 1" : dicendum quod est esse primum,
+          <lb ed="#Qb"/>scilicet naturae, secundum, scilicet gratiae, ter<lb ed="#Qb"/>tium,
+          scilicet gloriae, quorum nullius'f est operator
+          <lb ed="#Qb"/>creatura, cooperari tamen potest ad unumquod<lb ed="#Qb"/>que.
+          Dicit enim <name ref="#Augustine">Augustinus</name>, IX Super Gene<lb ed="#Qb"/>sim
+          ad litteramö: <quote> Solus uniuscuiusquel naturae
+          <lb ed="#Qb"/>creator est Deus, non quod "' nulla sit angelorum
+          <lb ed="#Qb"/>operatio ut quid creetur, sed non ideo sunt crea<lb ed="#Qb"/>tores
+    </quote>. Loquitur enim <name ref="#Augustine">Augustinus</name> de forma<lb ed="#Qb"/>tione
+          mulieris ex costa viri, quam ipse dicit7
+          <lb ed="#Qb"/>quamdam creationem, torte ratione multiplicatio<lb ed="#Qb"/>nis
+          qua de tantilla materia fiebat corpus tantum;
+          <lb ed="#Qb"/>quae quidem formatio fuit a Deo, tamen, ut ipse
+          <lb ed="#Qb"/>dicit 8, aliquod fuit ibi ministerium angelorum. Eo<lb ed="#Qb"/>dem
+          modo Deus est per se operator et dator
+          <lb ed="#Qb"/>gratiae et gloriae, aliquo tamen modo angeli ope<lb ed="#Qb"/>rantur, 
+          scilicet illuminando et excitando sive dis<lb ed="#Qb"/>ponendo<!--9-->.
+        </p>
+        <p>
+                <pb ed="#Qb" n="505"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>8. Ad ultimum dicendum quod prima rerum
+          <lb ed="#Qb"/>conditio est lex originalis naturae succedentis in
+          <lb ed="#Qb"/>hoc quod" virtus et proprietates collatae rebus
+          <lb ed="#Qb"/>tunc conditis perseverant, et<!--&--> hoc principaliter
+          <lb ed="#Qb"/>quantum ad tria, scilicet quantum ad collationem
+          <lb ed="#Qb"/>virtutis et proprietatum quae requiruntur ad per<lb ed="#Qb"/>fectum
+          esse individui in se et quantum ad pote<lb ed="#Qb"/>statem
+          operandi temporibus congruis ad sui simi<lb ed="#Qb"/>lis
+          multiplicationem et quantum ad incessationem
+          <lb ed="#Qb"/>operationis c huiusmodi, quousque sit status mul<lb ed="#Qb"/>tiplicationis
+          sive creationis rerum a divina pro<lb ed="#Qb"/>videntia
+          determinatus. Cum enim dixit Gen. 1, 11:
+          <lb ed="#Qb"/>
+          <quote ana="#gen1_11">Germinet terra herbam virentem</quote>, virtute huius
+          <lb ed="#Qb"/>verbi accepit terra virtutem fructificandi in se et
+          <lb ed="#Qb"/>renovandi ** fructum secundum congruam tempo<lb ed="#Qb"/>ris
+          renovationem1 et hoc ipsum incessabilitere fa—
+          <lb ed="#Qb"/>ciendi quousque venerit status multiplicationis
+          <lb ed="#Qb"/>rerum. -—De primo Basiliusf, Hexae'meran,V2:
+    <quote> Germinet terra. Respice quoniam ex parva voce,
+          <lb ed="#Qb"/>exg praeceptione brevissima tellus arida, steri<lb ed="#Qb"/>lisque
+          repente parturiens et ad effectum fructifi<lb ed="#Qb"/>cationis
+          impulsa, velut quodam luctuoso amictu
+          <lb ed="#Qb"/>deposito'l sumptisque laetioribus indumentis et
+          <lb ed="#Qb"/>cultu proprii decoris exultans, omnia, quae iussu
+          <lb ed="#Qb"/>caelesti conceperat, effundebat </quote>. — De, secundo
+          <lb ed="#Qb"/>idem, in fine V libri3: <quote> Germinet terra. Parva
+          <lb ed="#Qb"/>ista ' praeceptio cogit terram vires proprias, quan<lb ed="#Qb"/>task
+          habet, singulis annorum curriculist ad infor<lb ed="#Qb"/>
+            <lb ed="#Qb"/>mandum 
+          genus herbarum, seminum lignorumque 
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>producere </quote>. Et in principio V4: <quote>Vox, quae
+          <lb ed="#Qb"/>tunc emissa est, et prima illa praeceptio ve<lb ed="#Qb"/>luti
+          lex quaedam naturae fuit et inhaesit terrae,
+          <lb ed="#Qb"/>creandi fructificandique sibi praebens in poste<lb ed="#Qb"/>rum
+          facultatem </quote>. -— De tertio idem Basilius,
+          <lb ed="#Qb"/>in principio IX5 : <quote> Adverte igitur Dei verbum
+          <lb ed="#Qb"/>currens per omnem creaturam, quod olim coepit,
+          <lb ed="#Qb"/>sed usque nunc operatur5 et properat ad finem,
+          <lb ed="#Qb"/>donec consummationem mundus accipiat. Sicut
+          <lb ed="#Qb"/>enim pila cum ab aliquo fuerit impulsa, cum
+          <lb ed="#Qb"/>spatia divexa'" repererit, ipsa, sui volubilitate"
+          <lb ed="#Qb"/>locique proclivitate velocius incitata, profertur nec
+          <lb ed="#Qb"/>prius stare poterit quam ad plana descendat, ita
+          <lb ed="#Qb"/>natura rerum, Dei praeceptione commota, nascen<lb ed="#Qb"/>tium
+          morientiumque passim '7 facturam penetrans,
+          <lb ed="#Qb"/>uniuscuiusque generis sobolem per similitudi<lb ed="#Qb"/>nem
+          sui custodit aequaliter, donec ad statutum
+          <lb ed="#Qb"/>terminum valeat pervenire. Equum enim facit equo
+          <lb ed="#Qb"/>succedere et leonem leoni et aquilam aquilae
+          <lb ed="#Qb"/>et singulasP animantes sequentium successione
+          <lb ed="#Qb"/>servata usque ad finem omnium exitumque per<lb ed="#Qb"/>ducit.
+          Nullurn 4 enim tempus valebit proprietates
+          <lb ed="#Qb"/>animantium commutare, sed tamquam nuper con<lb ed="#Qb"/>stituta
+          natura, ita recens fertur cum tempore </quote>.
+          <lb ed="#Qb"/>Unde non dicitur lex naturae servari quoad hoc
+          <lb ed="#Qb"/>quod produceretur' corpus ex corpore, sicut
+          <lb ed="#Qb"/>modo fit per decisionem substantiae, sed modis
+          <lb ed="#Qb"/>praetactis: tunc enim oporteret generationem
+          esses vel circularem vel infinitamt a parte ante.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 3, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="24"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t1m3c2">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 3, C. 2</head>
+        <head type="question-title">UTRUM ISTA CAUSA FINALIS SIT IDEM QUOD ESSENTIA DIVINA.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur dicere utrum ista causa finalis sit idem 
+          <lb ed="#Qb"/>quod essentia divina 7.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod non, videtur: 1.' Actio enimt et motus
+          <lb ed="#Qb"/>dicuntur esse propter id quod non habetur; sed
+          <lb ed="#Qb"/>sunt propter finem; ergo finis non habetur ab
+          <lb ed="#Qb"/>agente et movente "; sed divina essentia agit; ergo
+          <lb ed="#Qb"/>agit' propter finem non habitum; 'sed sive sit
+          <lb ed="#Qb"/>non habitus a se sive ab alia re, erit differens ab
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ipso agente; ergo non erit causa finalis eadem
+          <lb ed="#Qb"/>cum essentia agentis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, in aliis agentibus sic est quod" illud
+          <lb ed="#Qb"/>propter quod agit, non'est idem cum essentia
+          <lb ed="#Qb"/>agentis, ut domificator agit propter protectionem
+          <lb ed="#Qb"/>ab imbribus et eaumatibus; ergo in primo V agente
+          <lb ed="#Qb"/>sic erit: nihil enim quaerit se ipsum; .sed finis
+          <lb ed="#Qb"/>quaeritur; ergo non-est idem cum essentia agen<lb ed="#Qb"/>tis
+          primi.
+        </p>
+        <p>
+                <pb ed="#Qb" n="25"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Contra: a. Dionysius, in libro De divinis
+          <lb ed="#Qb"/>nominibusï: <quote>Omnia ad "se ipsam bonitas con<lb ed="#Qb"/>vertit,
+          etb princeps congregatrix est dispersorum
+          <lb ed="#Qb"/>ut principalis let unificac deitas, et omnia ipsam
+          <lb ed="#Qb"/>ut principium, ut continentiam, ut finem appetunt</quote>. 
+          <lb ed="#Qb"/>Ergo unificad deitas est illa bonitas quae est  
+          omnium finis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Primum este perfectissimum agens; 'ergo 
+          <lb ed="#Qb"/>non agit propter aliquid extra se: si enim ageret 
+          <lb ed="#Qb"/>sic, deesset ei aliquid; ergo non esset perfectis— 
+          <lb ed="#Qb"/>simum; agit ergo propter se ipsum, et hoc est 
+          <lb ed="#Qb"/>quOd dicitur Prov. 16,4: Universa propter semet- 
+          operatus est Dominus, impium quoque ad 
+          malum; et de homine, qui est principalis turae; ille tamen finis est propter summum finem.
+          <lb ed="#Qb"/>creatura,'dicitur Isai. 43,7: Omnemf, qui invocat 
+          <lb ed="#Qb"/>nomen meum, in gloriam meam creavi eum, for— 
+          <lb ed="#Qb"/>mavi eum etg feci eum. omnia continet, 
+          <lb ed="#Qb"/>c. Item, Marc. 10,18: Nemo bonus nisi " Deus; 
+          bonum et finis idemz; ergo ipse est princi- 
+          <lb ed="#Qb"/>palis finis. 
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quodi respondendum quod ipse 
+          <lb ed="#Qb"/>causa finalis, sicut ostensum est 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad obiectum vero in contra<lb ed="#Qb"/>rium 
+          dicendum estk quod agere propter finem di<lb ed="#Qb"/>citur 
+          dupliciter: vel qui est perfectio agentis, sicut
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>dictum est de domificatore 4, et'sic non agit prop<lb ed="#Qb"/>ter 
+          aliud a se; vel qui est perfectio eius quod agi<lb ed="#Qb"/>tur 
+          vel in quo agitur, et secundum hoc agit Deus
+          <lb ed="#Qb"/>propter non habitum abl eo quod agitur vel in
+          <lb ed="#Qb"/>quo agitur. - Si vero obiciatur quod 'si Deus
+          <lb ed="#Qb"/>ageret propter se, ageret semper, et ita aeterna<lb ed="#Qb"/>liter: 
+          dicendum est quod'" nisi generare vel spi<lb ed="#Qb"/>rare 
+          vel intelligere dicantur agere, et" consimilia
+          <lb ed="#Qb"/>quae ab aeterno sunt, non semper egit, dicendo "
+          <lb ed="#Qb"/>semper aeternitatis ', semper tamenoegit, dicendo
+          <lb ed="#Qb"/>semper temporis': et cum agit, non agit ut sibi
+          aliquid acquirat, licet in hoc sua bonitas mani<lb ed="#Qb"/>ipsam
+          testetur, sed propter finem qui acquiritur crea<lb ed="#Qb"/>diem
+          <lb ed="#Qb"/>Unde'Dionysius5: <quote> Ipse omnium causa, per
+          bonitatis excellentiam omnia amat, omnia facit,
+          omnia convertit</quote>. Et iterum: <quote> Est
+          omnium principium et finis, superprincipale et su<lb ed="#Qb"/>et
+          perfinale, quia ex ipso et per ipsum et- in ipso
+          omniaP, ut ait sacer sermoö</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad id vero quod obicitur secundo, di<lb ed="#Qb"/>cendum 
+          quod non est simile in creaturis agen<lb ed="#Qb"/>tibus 
+          et in ipso Creatore: creatura enim agens agit
+          <lb ed="#Qb"/>propter aliquam imperfectidnem sui vel alterius
+          <lb ed="#Qb"/>creaturae, Creatoris vero nulla est imperfectio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

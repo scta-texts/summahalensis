@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 2, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 2, M. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="723"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q2m2c4">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 2, M. 2, C. 4</head>
+        <head type="question-title">QUALES FILIOS GENUISSENT PRIMI PARENTES QUANTUM AD SEXUM.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur inquirere quales liberos genuissent
+          <lb ed="#Qb"/>quantum ad sexum. Quaeritur ergo utrum tot
+          <lb ed="#Qb"/>generassent filios quot filias vel plures filios quam
+          <lb ed="#Qb"/>filias vel e converso. Et haec quaestiod non est
+          <lb ed="#Qb"/>solummodo de genitis a primis parentibus, sed
+          <lb ed="#Qb"/>universalitere de genitis in statu illo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem tot generassent filios quot filias,
+          <lb ed="#Qb"/>videtur sic: ]. Natura sic processisset in gene—
+          <lb ed="#Qb"/>rando sicut eam Deus instituit; sed Deus, cum
+          <lb ed="#Qb"/>produxit naturam humanam, produxit masculum
+          <lb ed="#Qb"/>et feminam in pari numero3; ergo similiter et na<lb ed="#Qb"/>tura
+          in pari numerof eos multiplicasset.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, generatio hominis non poterat conti<lb ed="#Qb"/>nuari
+          nisi per masculum et feminam, et ita ne<lb ed="#Qb"/>cessaria
+          est ad generationem mulier sicut et mas—
+          <lb ed="#Qb"/>culus; ergo videtur quod natura intenderet ae<lb ed="#Qb"/>qualiter
+          utrumque sexum; sed sicut intendebat,
+          <lb ed="#Qb"/>multiplicabat; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, sicut vir intendit se salvare in simili,
+          <lb ed="#Qb"/>scilicet in viro quem generat, sic et mulier in
+          <lb ed="#Qb"/>consimili, scilicet in muliere; sed natura aeque
+          <lb ed="#Qb"/>bene esset ordinata in muliere sicut in viro; ergo,
+          <lb ed="#Qb"/>si vir non frustraretur sua intentione, similiter
+          <lb ed="#Qb"/>nec mulier; ergo quot conciperet masculos ad
+          <lb ed="#Qb"/>conservationem sexus virilis, tot conciperet femi<lb ed="#Qb"/>nas
+          ad conservationem sexus muliebris.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, in statu innocentiae sicut quilibet come<lb ed="#Qb"/>deret,
+          ita quilibet prolem multiplicaret, cum omni<lb ed="#Qb"/>bus
+          esset dictum4: Crescite et multiplicamini etc.;
+          <lb ed="#Qb"/>ergo quilibet haberet uxorem; si ergo matrimo<lb ed="#Qb"/>nium
+          requirit quod sint duo in carne zma5, tot es<lb ed="#Qb"/>sent
+          viri quot mulieres nec plures nec pauciores.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Sicut dicit Philosophus, in libro
+          <lb ed="#Qb"/>De animalibus 5, <quote> femina est mas occasionatus </quote>;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ergo videtur esse praeter naturae intentionem; sed
+          <lb ed="#Qb"/>tempore naturae institutae,'cum natura esset recta,
+          <lb ed="#Qb"/>nihil produceretur praeter intentionem ipsius; ergo
+          <lb ed="#Qb"/>videtur quod nulla mulier generaretur vel saltem
+          <lb ed="#Qb"/>paucae; igitur plures essent viri quam mulieres.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, sicutg vult Philosophus7, <quote> natura
+          <lb ed="#Qb"/>semper desiderat quod melius est</quote>; sed sexus
+          <lb ed="#Qb"/>virilis perfectior est et melior quam sexus mulie<lb ed="#Qb"/>bris
+          ; ergo natura magis desideraret generare 'l vi—
+          <lb ed="#Qb"/>rum quam mulierem; si ergo sic produceret se<lb ed="#Qb"/>cundum
+          quod desideraret, plures produceret viros
+          <lb ed="#Qb"/>quam mulieres.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, generatio maris est propter vigorem
+          <lb ed="#Qb"/>virtutis generantis et seminis decisi, sicut dicunt
+          <lb ed="#Qb"/>Naturales et Medicis; sed in statu naturae insti<lb ed="#Qb"/>tutae
+          virtus generativa et semen decisum com<lb ed="#Qb"/>pletam
+          et sufficientem haberent virtutem; ergo
+          <lb ed="#Qb"/>semper vel pluries masculos generari contingeret.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, quando semen viri praedominatur se<lb ed="#Qb"/>mini
+          mulieris, tunc ad propriam naturam trahit
+          <lb ed="#Qb"/>et convertit; sed secundum ordinem naturae mas<lb ed="#Qb"/>culus
+          potentior est femina; ergo stante natura
+          <lb ed="#Qb"/>semper vel pluries vinceret semen virile i.; ergo
+          <lb ed="#Qb"/>plures" generaret natura masculos quam mu<lb ed="#Qb"/>lieres.
+          '
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Item, eisdem rationibus potest ostendi quod
+          <lb ed="#Qb"/>tantum viri fuissent geniti tum propter vigorem
+          <lb ed="#Qb"/>maiorem virtutis generantis et seminis decisi, tum
+          <lb ed="#Qb"/>propter dominium seminis virilis, tum propter
+          <lb ed="#Qb"/>appetitum naturae qui semper fertur ad illud
+          <lb ed="#Qb"/>quod melius est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>f. Item, videtur quod tantum feminae genitae
+          <lb ed="#Qb"/>fuissent, sic: Ut habetur a B. Au gu sti no, sexus
+          <lb ed="#Qb"/>muliebris devotior est sexu virili; vocat enim
+          <lb ed="#Qb"/>sexum femineum sexum devotum, in Sermone de
+          <pb ed="#Qb" n="724"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Assumptione B. Virginisl; si ergo devotio est
+          <lb ed="#Qb"/>maxima dispositio et optime praeparatoria ad gra<lb ed="#Qb"/>tiam
+          obtinendam et ad obtentam perficiendam et
+          <lb ed="#Qb"/>per consequens ad excellentiam gloriae cumulan<lb ed="#Qb"/>dam,
+          videtur quod feminae erunt excellentiores
+          <lb ed="#Qb"/>in gloria quam viri. Si ergo convenit divinae pro<lb ed="#Qb"/>videntiae,
+          quae omnia optime disponit, illam civi<lb ed="#Qb"/>tatem
+          supernam personis gloriosis reparare, et
+          <lb ed="#Qb"/>quanto personae, quibus reparabitur, sunt glorio<lb ed="#Qb"/>siores,
+          tanto gloriosius reparabitur, videtur quod
+          <lb ed="#Qb"/>solum personis sexus feminei reparabitur; sed,
+          <lb ed="#Qb"/>si in statu innocentiae non essent personae" ali<lb ed="#Qb"/>quae
+          genitae nisi per quas repararetur civitas
+          <lb ed="#Qb"/>illa, ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>g. Ad hoc persuadet exemplum B. Virginis, ad
+          <lb ed="#Qb"/>cuius perfectionem nulla persona virilis sexus,
+          <lb ed="#Qb"/>quae fuit pura creatura, pervenit neque habuit
+          <lb ed="#Qb"/>aptitudinem perveniendi, cum tantae erat sancti<lb ed="#Qb"/>tatis
+          quod maior sub Deo non poterat intelligi.
+          <lb ed="#Qb"/>Unde <name ref="#Anselm">Anselmus</name>z: <quote> Quiab decebat ut illius ho<lb ed="#Qb"/>minis
+          c0nceptio de matre purissima fieret, decens
+          <lb ed="#Qb"/>erat ut ea puritate, qua maior sub Deo nequit
+          <lb ed="#Qb"/>intelligi, Virgo illa niteretc</quote>. Probabile enim est
+          <lb ed="#Qb"/>quod qui unicuique dat secundum propriam vir<lb ed="#Qb"/>tutem,-Matth.
+          25,15, quod, si alius fuisset tantae
+          <lb ed="#Qb"/>virtutis, id est tantae capacitatis gratiae, quantae
+          <lb ed="#Qb"/>fuit illa, tantam illi dedisset.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo quod huiusmodi quaestiones, quaed
+          <lb ed="#Qb"/>non probantur auctoritatibus neque rationibus evi<lb ed="#Qb"/>dentibus,
+          licet curiosae videantur, non sunt par<lb ed="#Qb"/>vae
+          utilitatis. Unde Hugo, De sacramentis3, ubi
+          <lb ed="#Qb"/>ponit quaestionem de qualitate genitorum in statu e
+          <lb ed="#Qb"/>innocentiae, dicit: <quote> Quaef nec auctoritas probat
+          <lb ed="#Qb"/>nec ratio arguit manifesta, inter dubia relinquun<lb ed="#Qb"/>tur;
+          tamen etiam ista non inutiliter aliquando in
+          <lb ed="#Qb"/>quaestionem admittuntur, ut vel inveniatur quod ve<lb ed="#Qb"/>rum
+          est vel saltem quod falsum est non credatur </quote>.
+          <lb ed="#Qb"/>Et8 de hac quaestione diversi diversa sentiunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>A. Quidam enim sentiunt quod, si stetissent
+          <lb ed="#Qb"/>parentes nostri, quod aequalis fuisset mul<lb ed="#Qb"/>tiplicatio
+          virorum et mulierum, ethuius
+          <lb ed="#Qb"/>tales ponunt rationes. Unam scilicet ex parte
+          <lb ed="#Qb"/>finis ad quem, scilicet talem: Quia distinctio
+          <lb ed="#Qb"/>sexuum esset propter multiplicationem generis
+          <lb ed="#Qb"/>humani et completionem numeri electorum et illa
+          <lb ed="#Qb"/>multiplicatio ad omnes spectaret, et hoc solum
+          <lb ed="#Qb"/>secundum legem matrimonii, in qua tantum una
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>erat unius, necesse est, si stetisset natura, tot
+          <lb ed="#Qb"/>fuisse mulieres quot viros, cum nulla mulier ca<lb ed="#Qb"/>reret
+          viro et nullus vir careret uxore nec una
+          <lb ed="#Qb"/>esset plurium nec plures unius.— Aliam ponunt
+          <lb ed="#Qb"/>ex parte principii, scilicet talem: Cum au<lb ed="#Qb"/>tem
+          multiplex sit ratio quare variatur generativa
+          <lb ed="#Qb"/>in actu generandi, una sumitur ex parte animae.
+          <lb ed="#Qb"/>Vis enim generativa multum conformatur acci<lb ed="#Qb"/>dentibus
+          animae et imaginationibus, secundum
+          <lb ed="#Qb"/>quod per experimentum patet4: nam ex memoria
+          <lb ed="#Qb"/>delectationis frequenter fit excitatio pruritus car<lb ed="#Qb"/>nis
+          et ex imaginatione forti in somnis fit effusio
+          <lb ed="#Qb"/>seminis sicut ad praesentiam mulieris, et vis
+          <lb ed="#Qb"/>formativa, quae est praecipua virtus in semine,
+          <lb ed="#Qb"/>multum adiuvatur ab imaginativa, secundum quod
+          <lb ed="#Qb"/>exempla ponuntur et sunt in Sacra Scriptura et
+          <lb ed="#Qb"/>etiam'l in medicina, ut patet in!. ovibus lacob5,
+          <lb ed="#Qb"/>Gen. 30, 37-43, et hoc asseritur ibidem in Gloss a
+          <lb ed="#Qb"/>et exemplis ostenditur. Dicit enim sic 6: <quote> Nec mi<lb ed="#Qb"/>rum
+          hanc in conceptu feminarum esse naturam,
+          <lb ed="#Qb"/>ut qualem conspexerint sive mente conceperint
+          <lb ed="#Qb"/>in extremo voluptatis aestu quo concipiunt, so<lb ed="#Qb"/>bolem
+          talem procreent, cumk hoc ipsum in
+          <lb ed="#Qb"/>equorum gregibus et! apud Hispanos7 dicatur
+          <lb ed="#Qb"/>et Quintilianuss, in'" controversia qua accu—
+          <lb ed="#Qb"/>satur matrona quod Aethiopem peperit, pro de<lb ed="#Qb"/>fensione
+          illius argumentetur hanc conceptuum
+          <lb ed="#Qb"/>esse naturam quam supra diximusQ. Et scriptum
+          <lb ed="#Qb"/>reperitur in libris Hippocratis quod quae—
+          <lb ed="#Qb"/>dam suspicione adulterii fuerat punienda, cum
+          <lb ed="#Qb"/>pulcherrimum peperisset, utrique parenti gene<lb ed="#Qb"/>rique
+          dissimilem, nisi memoratus medicus sol<lb ed="#Qb"/>visset
+          quaestionem, monens quaerere ne forte
+          <lb ed="#Qb"/>talis pictura esset in cubiculo, qua inventa, mu<lb ed="#Qb"/>lier
+          a suspicione liberata est </quote>. Non solum au<lb ed="#Qb"/>tem"
+          variatio generationis accidit a parte virtu<lb ed="#Qb"/>tis
+          animalis moventis et imaginantis in statu na<lb ed="#Qb"/>turae
+          lapsae, sed in statu institutae potius. Tem<lb ed="#Qb"/>pore
+          enim naturae institutae, in quo corpus
+          <lb ed="#Qb"/>subiectum erat animae, cum vir intenderet et
+          <lb ed="#Qb"/>vellet" generare virum, ex hoc quod imaginare<lb ed="#Qb"/>tur
+          virum, vigoraretur virtus naturalis in agendo
+          <lb ed="#Qb"/>et esset "semen maioris virtutis et generaretur
+          <lb ed="#Qb"/>sexus vigorosus sive masculus; quando vero
+          <lb ed="#Qb"/>vellet et imaginaretur generare sexum femineum,
+          <lb ed="#Qb"/>tunc minus forti impressione ageret in naturam
+          <lb ed="#Qb"/>inferiorem corporalem et tunc semen esset minus
+          <pb ed="#Qb" n="725"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>forte et generaretur sexus femineus. Et ideo in
+          <lb ed="#Qb"/>tempore naturae institutae generatio maris et te<lb ed="#Qb"/>minae
+          subesset voluntati rationali. Et quoniam
+          <lb ed="#Qb"/>dictaret ratio omnia facienda esse ordinate et tot
+          <lb ed="#Qb"/>producere mulieres quot viros et quilibet vir ha<lb ed="#Qb"/>beret
+          adiutorium simile sibi "1 secundum exigen<lb ed="#Qb"/>tiamlegis
+          matrimonii, ideo tunc viros et mulie—
+          <lb ed="#Qb"/>res produceret in numero aequali. Nunc autem,
+          <lb ed="#Qb"/>quia generativa non omnino subest virtuti ani<lb ed="#Qb"/>mali
+          sive imaginativae nec etiam rationali, licet
+          <lb ed="#Qb"/>ei aliquo modo conformetur, sed magis variatur
+          <lb ed="#Qb"/>propter alias causas quae in aliis scientiis deter<lb ed="#Qb"/>minantur,
+          hinc est quod non est certa deter<lb ed="#Qb"/>minatio
+          numeri in viris nec in mulieribus gene<lb ed="#Qb"/>randis.
+          Iis ergo rationibus dicunt quod, si ste<lb ed="#Qb"/>tisset
+          homo, in aequali numero tieret multipli<lb ed="#Qb"/>catio
+          virorum et mulierum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: Hanc ergo sustinentes opinionem,
+          <lb ed="#Qb"/>ad obiecta in contrarium sic possunt respondere:
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Ad illud ergo quod primo obicitur quod 'fe<lb ed="#Qb"/>mina
+          dicitur mas occasionatus': dicendum2 quod
+          <lb ed="#Qb"/>Philosophus non vult dicere quod femina sit
+          <lb ed="#Qb"/>praeter naturae intentionem, sed quod virtus natu<lb ed="#Qb"/>rae
+          aliquem defectum habetin productione mulieris
+          <lb ed="#Qb"/>respectu productionis viri; ille autem defectus non
+          <lb ed="#Qb"/>repugnat ordini naturae, sed potius salvat. Se<lb ed="#Qb"/>cundum
+          enim ordinem naturae sicut producuntur
+          <lb ed="#Qb"/>in eodem corpore quaedam membra magis ior<lb ed="#Qb"/>tia,
+          quaedam minus, sic producuntur in eadem
+          <lb ed="#Qb"/>specie quaedam individua unius sexus, quaedam
+          <lb ed="#Qb"/>alterius. Et, licet ille defectus qui ordinem natu<lb ed="#Qb"/>rae
+          corrumpit, utpote est ille qui est causa defectus
+          <lb ed="#Qb"/>membri vel bonae complexionis, sitb praeter na<lb ed="#Qb"/>turae
+          intentionem, generatio tamen mulieris non
+          <lb ed="#Qb"/>est praeter naturam nec contra naturam C, sed se<lb ed="#Qb"/>cundum
+          naturam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Ad illud quod obicitur quod 'natura sem<lb ed="#Qb"/>per
+          desiderat illud quod melius est': dicendum
+          <lb ed="#Qb"/>quod non intelligitur quod semper desideret me<lb ed="#Qb"/>lius
+          simpliciter, sed melius in ordine. Libet autem
+          <lb ed="#Qb"/>sexus masculinus melior sit in se quam femineus,
+          <lb ed="#Qb"/>non tamen essetd ita sufficienter salus naturae
+          <lb ed="#Qb"/>in solo virili sexu sicut est in virili et muliebri,
+          <lb ed="#Qb"/>et ideo natura desiderat magis utrumque quam
+          <lb ed="#Qb"/>alterum solum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Ad illud quod obicitur quod (semen viri
+          <lb ed="#Qb"/>praedominabatur semini mulieris, etc.: dicendum,
+          <lb ed="#Qb"/>quod hoc verum est. Nunquam enim, proprie lo<lb ed="#Qb"/>quendo,
+          semen mulieris praedominatur semini
+          <lb ed="#Qb"/>viri; quandoque tamen semen virie adeo debilis
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>virtutis est quod magis est idoneum ad produc<lb ed="#Qb"/>tionem
+          mulieris quam viri: sicut enim vult Phi<lb ed="#Qb"/>losophus3,
+          principaliter movens in generatione,
+          <lb ed="#Qb"/>sive viri sive mulieris, est semen virile. Et ideo
+          <lb ed="#Qb"/>semen mulieris, proprie loquendo, semini viri non
+          <lb ed="#Qb"/>praedominatur; dicitur tamen praedominari prop<lb ed="#Qb"/>ter
+          debilitatem seminis virilis, qua accedit ad con<lb ed="#Qb"/>formitatem
+          seminis mulieris. Licet tamen hoc non
+          <lb ed="#Qb"/>accidisset in statu naturae conditae secundum
+          <lb ed="#Qb"/>naturam ut erat natura, tamen quando vir ima<lb ed="#Qb"/>ginaretur
+          et vellet generare sexum femineum, tunc
+          <lb ed="#Qb"/>minus forti impressione ageret in naturam inferio<lb ed="#Qb"/>rem
+          corporalem et tunc semen esset minus forte
+          <lb ed="#Qb"/>ratione praetacta et generaretur mulier 4.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c-e. Et per hoc patet responsio ad aliu cl quod
+          <lb ed="#Qb"/>obicitur de fortitudine caloris et virtutis. Gradus
+          <lb ed="#Qb"/>enim ibi fuissent secundum ordinem rationis et
+          <lb ed="#Qb"/>secundum exigentiam finis, ita quod vir aliquando
+          <lb ed="#Qb"/>operaretur actione magis tortificata in productione
+          <lb ed="#Qb"/>viri, aliquando minus fortificata in productione
+          <lb ed="#Qb"/>mulieris.
+        </p>
+        <p>
+          <lb ed="#Qb"/>B. Aliqui autem aestimant quod mu lier
+          <lb ed="#Qb"/>semper geminosf conciperet, ita quod
+          <lb ed="#Qb"/>pars dextra attraheret quod est maioris virtutisg
+          <lb ed="#Qb"/>de semine ad generationem viri et pars sinistra
+          <lb ed="#Qb"/>quod est virtutis debilioris ad generationem fe<lb ed="#Qb"/>minae.
+          Secundum istos facile est ad ea quae sunt
+          <lb ed="#Qb"/>obiecta respondere. — 8 e d q u i a h 0 c n 0 11 v i<lb ed="#Qb"/>detur
+          consonum rationi, ideo modus sol<lb ed="#Qb"/>vendi
+          praehabitus5 magis videtur tenendus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>C. A 1 ii aliter sentiunt, scilicet quod pluriesh
+          <lb ed="#Qb"/>ge-nuissent filios quam filias, hac ratione:
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Ut habetur ab Augustino, XIV De civitate
+          <lb ed="#Qb"/>Dei, cap. 10 5, completo numero electorum danda
+          <lb ed="#Qb"/>erat illis vita angelica, quae est vita perfectae beati<lb ed="#Qb"/>tudinis;
+          sed, sicut habetur-ab Augustino, IX Su<lb ed="#Qb"/>per
+          Genesim 7, data fuit m ulier viro in adiutorium ad
+          <lb ed="#Qb"/>filios procreandos; dicit enim: <quote> Non invenio ad
+          <lb ed="#Qb"/>quod adiutorium facta sit mulier viro, si pariendi
+          <lb ed="#Qb"/>causa subtrahitur </quote>. Sed constat quod genitiex ul<lb ed="#Qb"/>timis
+          parentibus, ex quibus genitis compleretur nu<lb ed="#Qb"/>merus
+          electorum, nuptiis non uterentur; ergo nulla
+          <lb ed="#Qb"/>fuit necessitas viro adiutorii mulieris; ergo cessare
+          <lb ed="#Qb"/>debuit procreatio mulierum nec deberet aliqua ge<lb ed="#Qb"/>nerari
+          ab ultimis parentibus, sed viri solummodo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, natura semper appetit producere id quod
+          <lb ed="#Qb"/>nobilius est in genere suo et maximel- natura
+          <lb ed="#Qb"/>bene ordinata, et si quandoque appetit producere
+          <lb ed="#Qb"/>id quod est minus nobile, hoc est quatenus est
+          <pb ed="#Qb" n="726"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>ad illud quod nobilius est. Unde, si natura in<lb ed="#Qb"/>stituta 
+          appeteret producere mulierem, hoc fuit
+          <lb ed="#Qb"/>quia mulier deberet esse adiutorium viro ad sal<lb ed="#Qb"/>vandum 
+          ipsum in" consimili; cessante ergo ne<lb ed="#Qb"/>cessitate 
+          huius adiutorii, sicut fuisset in pro<lb ed="#Qb"/>ductione
+          ultimo genitorum, nullus erat appetitus
+          <lb ed="#Qb"/>naturae ut mulier generaretur; ergo nullus ul<lb ed="#Qb"/>timo 
+          genitorum debuit esse mulier.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, hoc idem potest ostendi per appetitum
+          <lb ed="#Qb"/>et voluntatem generantium. Irrationabilisb enim
+          <lb ed="#Qb"/>esset eorum appetitus et voluntas, si 0, cessante
+          <lb ed="#Qb"/>causa quare mulier data erat viro, appeteretur eius
+          <lb ed="#Qb"/>productio in esse et non potius vir, qui esset nobi<lb ed="#Qb"/>lioris
+          conditionis et dignitatis maioris. Si ergo in 'i
+          <lb ed="#Qb"/>statu innocentiae neque ex parte naturae ut esset
+          <lb ed="#Qb"/>natura neque ex parte naturae ut esset rationabi<lb ed="#Qb"/>lis,
+          fuisset deordinatioe in appetitu neque fru—
+          <lb ed="#Qb"/>stratio in effectu, videtur quod ultimi generantes
+          <lb ed="#Qb"/>tantum filios genuissent vel saltem pluriesf.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Si autem diceretur quod et tunc debuit
+          <lb ed="#Qb"/>natura appetere quod generaretur mulier, quia
+          <lb ed="#Qb"/>melius salvaretur ing utroque sexu quam in vi<lb ed="#Qb"/>rili
+          tantum - hoc supposito, saltem deberet
+          <lb ed="#Qb"/>appetere quod persona virilis sexus frequentius
+          <lb ed="#Qb"/>generaretur, cum melius salvetur natura humana
+          <lb ed="#Qb"/>in eo, tamquam in nobiliori et digniori, quam [in]
+          <lb ed="#Qb"/>persona sexus muliebris, et ita plures fuissent
+          <lb ed="#Qb"/>mares quam feminae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud, quod primo obi<lb ed="#Qb"/>citur
+          quod 'natura sic processisset in generandoh
+          <lb ed="#Qb"/>quemadmodum Deus eam instituit' etc.: dicen<lb ed="#Qb"/>dum
+          quod hoc verum est ex parte generantium,
+          <lb ed="#Qb"/>non autem ex parte generatorum. Sicut enim Deus
+          <lb ed="#Qb"/>instituit aequales diversi sexus ad multiplicandum
+          <lb ed="#Qb"/>consimiles in specie, similiter processisset natura
+          <lb ed="#Qb"/>in generando aequales diversi sexus quoadusque
+          <lb ed="#Qb"/>sufficerent ad multiplicandum numerum electo<lb ed="#Qb"/>rum.
+          Unde natura processisset ini generando
+          <lb ed="#Qb"/>aequales ink diversitate sexus usque ad ultimos
+          <lb ed="#Qb"/>generantes, 'usque', dico inclusive: ad illos tan<lb ed="#Qb"/>turn
+          spectabat illud praeceptum' Gen. I, 28: Cre<lb ed="#Qb"/>scite
+          et multiplicamini.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod obicitur quod 'generatio
+          <lb ed="#Qb"/>non poterat continuari nisi per masculum et fe<lb ed="#Qb"/>minam,
+          etc., iam patet responsio, quia natura
+          <lb ed="#Qb"/>intenderet virum et mulierem, quatenus personae
+          <lb ed="#Qb"/>essent necessariae ad generandum et multipli<lb ed="#Qb"/>candum
+          electos, sed illis sufficientibus satis pro<lb ed="#Qb"/>babile
+          videtur quod intenderet illum sexum qui
+          <lb ed="#Qb"/>est maioris dignitatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad illud quod obicitur quod ' sicut virinten<lb ed="#Qb"/>dit
+          et tunc intenderet in consimili salvare, id est
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>viro, sic mulier in muliere' etc.: dicendum quod
+          <lb ed="#Qb"/>hoc non est generaliter verum. Natura enim in
+          <lb ed="#Qb"/>muliere, quatenus potest, intendit sexum nobilio<lb ed="#Qb"/>rem
+          et tunc intenderet, nisi subesset voluntati
+          <lb ed="#Qb"/>rationabili. Unde sufficientibus personis ad" mul<lb ed="#Qb"/>tiplicationem
+          numeri electorum, consonum est ra<lb ed="#Qb"/>tioni
+          voluntatem rationabilem velle magis fieri
+          <lb ed="#Qb"/>generationem personarum sexus nobilioris et idem
+          <lb ed="#Qb"/>appeti a natura obediente eidem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad aliud quod obicitur quod 'in illo statu
+          <lb ed="#Qb"/>sicut quilibet comederet, ita quilibet generaret',
+          <lb ed="#Qb"/>dicendum quod hoc falsum est. Non enim intende<lb ed="#Qb"/>ret
+          quilibet salvari in alio sicut in se, cum necessa<lb ed="#Qb"/>rium
+          esset, secundum divinam providentiam et dis<lb ed="#Qb"/>positionem,
+          generationem stare: suppositio enim
+          <lb ed="#Qb"/>propositionis ponit generationem illius status pro<lb ed="#Qb"/>cessisse
+          in infinitum, quod simpliciter est falsum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ex iis patet rationes assignatas pro alia
+          <lb ed="#Qb"/>parte non esse magnae efficaciae. Ratio autem po<lb ed="#Qb"/>sita
+          ex parte finis1 ponit multiplicationem activam
+          <lb ed="#Qb"/>spectare ad omnes: quod falsum est, quia ex hoc
+          <lb ed="#Qb"/>sequitur generationem debere procedere ino infi<lb ed="#Qb"/>nitum.
+          — Similiter patet de alia sumpta ex parte
+          <lb ed="#Qb"/>principiiz, cum existentibus personisP quibus in<lb ed="#Qb"/>tenderet,
+          secundum divinam dispositionem, nu<lb ed="#Qb"/>merum
+          complere electorum, deberet voluntas ra<lb ed="#Qb"/>tionabilis
+          velle tales generari qui essent nobilio<lb ed="#Qb"/>ris
+          conditionis et maioris dignitatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Haec autem opinio videtur probabi<lb ed="#Qb"/>lior
+          et magis consona rationi et illius
+          <lb ed="#Qb"/>status nobilitati conveniens.
+        </p>
+        <p>
+          <lb ed="#Qb"/>f. Ad illud quod obicitur quod 'pluresfuis—
+          <lb ed="#Qb"/>sent mulieres, quia sexus devotior' etc.: dicendum
+          <lb ed="#Qb"/>quod 4, etsi sit sexus devotior, sexus virilis est
+          <lb ed="#Qb"/>fortior" et constantior, sexus muliebris debi<lb ed="#Qb"/>liors;
+          de facili enim assurgunt ad bonum et de
+          <lb ed="#Qb"/>facili relabuntur. Viri enim, licet cum maiori dif<lb ed="#Qb"/>ficultate
+          assurgant, constantius stant; perfectio
+          <lb ed="#Qb"/>autem gratiae est potius a constantia in stando
+          <lb ed="#Qb"/>quam a facilitate in assurgendo. Unde illud bo<lb ed="#Qb"/>num,
+          quod est devotio in sexu muliebri, recom<lb ed="#Qb"/>pensatur
+          maiori bono in sexu virili.
+        </p>
+        <p>
+          <lb ed="#Qb"/>g. Ad illud verbum <name ref="#Anselm">Anselmi</name>: <quote>Decens erat
+          <lb ed="#Qb"/>ut ea puritate, qua maior sub Deo nequit intel<lb ed="#Qb"/>ligi
+    </quote> etc.: dicendum quod est intelligere in in<lb ed="#Qb"/>tellectu
+          et est intelligere int re. Intelligere in "
+          <lb ed="#Qb"/>intellectu est respectu veritatis quae potest esse;
+          <lb ed="#Qb"/>intelligere in re respectu veritatis quae" est. Quod
+          <lb ed="#Qb"/>ergo dicitur quod <quote> maior puritas nequit intelligi </quote>,
+          <lb ed="#Qb"/>hoc debet intelligi de intellectux in re et hoc datur
+          <lb ed="#Qb"/>intelligi per hoc quod dicitur <quote> nequit </quote>: 'ne<lb ed="#Qb"/>quit
+          enim intelligi' importat 'non quid intelligi'.
+          <pb ed="#Qb" n="727"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Secundum enim veritatem nulla creatura pervenit
+          <lb ed="#Qb"/>ad B. Virginis puritatem: nulla enim creatura
+          <lb ed="#Qb"/>pura habuit maiorem puritatem quantum ad illam
+          <lb ed="#Qb"/>puritatem quae est per elongationem a peccato
+          <lb ed="#Qb"/>nec quantum ad illam quae est ex perfectione
+          <lb ed="#Qb"/>virtutum. Habebat enim omnes virtutes in pleni<lb ed="#Qb"/>tudine,
+          quia praerogativam in omnibus virtutibus,
+          <lb ed="#Qb"/>propter quod dicebatur plena gratia 1, secundum
+          <lb ed="#Qb"/>H i e ro nym u rn 2, qua plenitudine solum illa quae
+          <lb ed="#Qb"/>fuit Christi maior erat. Quantum ad puritatem, quae
+          <lb ed="#Qb"/>est ex unione per caritatem cum Deo, nulla pura
+          <lb ed="#Qb"/>creatura ad eius pervenit puritatem; propter hoc
+          <lb ed="#Qb"/>nulla intelligitur maior fuisse puritas illa quae fuit
+          <lb ed="#Qb"/>B. Virginis. — Utrum Deus posset facere' puram
+          <lb ed="#Qb"/>creaturam praeditam maiori puritate, et intellectus
+          <lb ed="#Qb"/>capere, qui novit finito addere finitum, et sic
+          <lb ed="#Qb"/>multiplicare quasi in infinitum, non definio. — Ad
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>illud quod subiungitur quod 'qui unicuique dat
+          <lb ed="#Qb"/>secundum propriam virtutem, dedisset alii' etc.:
+          <lb ed="#Qb"/>dicendum quod virtus nona intelligitur ibi se<lb ed="#Qb"/>cundum
+          quod est in sola potentia sive aptitudine
+          <lb ed="#Qb"/>capacitatis, sed secundum quod est in effectu
+          <lb ed="#Qb"/>operationis vel praeparando vel operando. Nun<lb ed="#Qb"/>quam
+          enim subtrahit Dominus beneficium colla<lb ed="#Qb"/>tionis
+          gratiae, quin semper conferat plus et plus,
+          <lb ed="#Qb"/>secundum quod aliquis plus et plus operatur vel
+          <lb ed="#Qb"/>praeparando se ad recipiendum gratiam vel coo<lb ed="#Qb"/>perando
+          ad augmentum. gratiae receptae. Quia
+          <lb ed="#Qb"/>igitur B. Virgo efficacissime et excellentissime
+          <lb ed="#Qb"/>operabatur in praeparando et cooperando, et Do<lb ed="#Qb"/>minus
+          illi infudit gratiam abundantissime nec
+          <lb ed="#Qb"/>alicuib alii tantam, quia nullus ita effectus est
+          <lb ed="#Qb"/>dignus operatione"praeparationis velc coopera<lb ed="#Qb"/>tionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

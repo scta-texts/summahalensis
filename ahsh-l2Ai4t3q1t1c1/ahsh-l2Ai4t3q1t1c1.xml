@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="631"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q1t1c1">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 1, C. 1</head>
+        <head type="question-title">UTRUM CORPUS PRIMI HOMINIS FUERIT PASSIBILEI.</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum quaeritur si c : utrum fui t passibile
+          <lb ed="#Qb"/>vel impassibile.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod passibile, videtur sie; 1. Nulla dos· cor<lb ed="#Qb"/>poris 
+          glorificati est vel erat proprietas alicuius
+          <lb ed="#Qb"/>viatoris: hoc autem erat proprium solius Chri<lb ed="#Qb"/>sti, 
+          qui assumpsit dotes in via; ,sed impassibi<lb ed="#Qb"/>litas
+          est dos corporis glorificati; ergo etc. - ltem,
+          <lb ed="#Qb"/>hoc idem videtur per hoc quod nulla alia dos,
+          <lb ed="#Qb"/>scilicet claritatis, subtilitatis et agilitatis e, conve<lb ed="#Qb"/>niebat
+          Adae; eadem ratione nec dos impassibi<lb ed="#Qb"/>litatis.
+        </p>
+        <p>
+    <!-- right edge cut off -->
+          <lb ed="#Qb"/>2. Item, quod subiacet versioni sive cor:
+          <lb ed="#Qb"/>subiacet et passibilitati; sed, secundum
+          <lb ed="#Qb"/>s c .e n u m, I libro, cap. 4 2, c quae creabi.
+          <lb ed="#Qb"/>omnino sunt vertibilia: quorum enim esf
+          <lb ed="#Qb"/>sione incipit, haec versioni subiecta sur
+          <lb ed="#Qb"/>corpus primi hominis a versione incepit; 1
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Passibilitas et impassibilit
+          <lb ed="#Qb"/>rerum passibilium et impassibilium p:
+          <lb ed="#Qb"/>tes, earum attestantes nobilitati maiori et
+          <lb ed="#Qb"/>scilicet impassibilitas maiori, passibili
+          <lb ed="#Qb"/>nori; cum igitur rnultae creaturae corpor.
+          <lb ed="#Qb"/>nino sint impassibiles, sicut caelum et
+          <pb ed="#Qb" n="632"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>supercaelestia 1, quarum" omnium illa, de qua
+          <lb ed="#Qb"/>hic intendimus, fuit nobilissima 2, videtur quod
+          <lb ed="#Qb"/>omnino debuit esse impassibilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: Ad hoc dicendumb quod neque
+          <lb ed="#Qb"/>omnino fuit impassibilis neque simpliciter passi<lb ed="#Qb"/>bilis.
+          Unde Hugo 3: <quote> Sicut immortalem non cli<lb ed="#Qb"/>cimus
+          primum hominem fuisse ante peccatum, ut
+          <lb ed="#Qb"/>mori omnino non posset, sic etiam nequaquam
+          <lb ed="#Qb"/>impassibilem fuisse credere debemus, quasi" nihil
+          <lb ed="#Qb"/>omnino pati potuisset, quia naturam in se passi<lb ed="#Qb"/>bilem
+          habuit; sed tamen, si non peccasset, sicut
+          <lb ed="#Qb"/>nec mortuus, ita etiam sive ad molestiam volun<lb ed="#Qb"/>tatis
+          in mente sive ad corruptionem integritatis
+          <lb ed="#Qb"/>in corpore passus aliquid omnino non fuisset </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad huius evidentiam notandum quod potentia
+          <lb ed="#Qb"/>cadit sub differentia multiplici4. Quaedam" est
+          <lb ed="#Qb"/>potentia obedientiae, quae scilicet solum perdu—
+          <lb ed="#Qb"/>citure in actumf potentia prima: quo modo in
+          <lb ed="#Qb"/>costa fuit potentia ut ex ea fieret corpus mulie<lb ed="#Qb"/>ris,
+          secundum quod dicit <name ref="#Augustine">Augustinus</name>5 quod
+    <quote> in costa non erat ut ex illa fieret corpus mu<lb ed="#Qb"/>lieris,
+          sed ut fieri posset</quote>, Est etg alia, quae
+          <lb ed="#Qb"/>est solum materialis, ut illa quae passiva est
+          <lb ed="#Qb"/>tantum, nullam habens inclinationem sive appe<lb ed="#Qb"/>titum
+          ad actumh illius potentiae, potest tamen
+          <lb ed="#Qb"/>perducii in actum actione creaturae, multiplici
+          <lb ed="#Qb"/>medio subiectum sive susceptibile disponente.
+          <lb ed="#Qb"/>Quod autem supra dictum est(5 quod potentia,
+          <lb ed="#Qb"/>quae est pure materialis, nullo modok inclinata
+          <lb ed="#Qb"/>ad actum, solummodo divina potentia potest in.
+          <lb ed="#Qb"/>effectum perduci, debet intelligi: nulla superve—
+          <lb ed="#Qb"/>niente' forma sive dispositione media; multiplici
+          <lb ed="#Qb"/>tamen intervenientem forma sive dispositione"
+          <lb ed="#Qb"/>potest opere creaturae perduci in actum. Est et
+          <lb ed="#Qb"/>alia, quae est possibilis 0, ut illa quae habet ali<lb ed="#Qb"/>quam
+          inclinationem sive appetitum ad actum. Est
+          <lb ed="#Qb"/>et alia quae est propinquius disposita, ut est illa
+          <lb ed="#Qb"/>quae non solum est inP inclinatione qualicumque
+          <lb ed="#Qb"/>ad actum, sed habet aliquam dispositionem super—
+          <lb ed="#Qb"/>additam. Est et alia, quae est necessitatis, ut illa
+          <lb ed="#Qb"/>quae est inEt coniunctione cum actu. Quaelibetf
+          <lb ed="#Qb"/>autem istarum trium potentiarum ultimo dictarum
+          <lb ed="#Qb"/>est potentia disposita, sed prima dispositione
+          <lb ed="#Qb"/>remota, secunda propinqua, tertias coniuncta f.
+          <lb ed="#Qb"/>Quadam autem correspondentia tot modis po<lb ed="#Qb"/>test
+          dici passibilis, ut dicatur passibilis potens
+          <lb ed="#Qb"/>pati vel potentia obedientiae vel materiali vel
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>possibili" vel disposita velb 'necessaria. Et hoc
+          <lb ed="#Qb"/>dico, extenso nomine potentiae: proprie enim lo<lb ed="#Qb"/>quendo,
+          potentia patiendi est .: potius defectus po<lb ed="#Qb"/>tentiae
+          quam potentia. Et quia, secundum Philo<lb ed="#Qb"/>sophum
+          7, si unum oppositorum dicitur multipli<lb ed="#Qb"/>citer,
+          et reliquum, tot modis dicitur impassibile.
+          <lb ed="#Qb"/>Et intendimus hic a' de passibilitate et impassibili<lb ed="#Qb"/>tate
+          e secundum quod dicunt positionem velf
+          <lb ed="#Qb"/>privationem passionis innaturalis, secundum quod
+          <lb ed="#Qb"/>dicit Damascenus, II libro 8, quod <quote> passio est
+          <lb ed="#Qb"/>motus praeter naturam </quote>, et est haec passio cum
+          <lb ed="#Qb"/>contrarietate recipientis et recepti. Est enim quae<lb ed="#Qb"/>dam
+          passio naturalis, quaedam innaturalis, ut
+          <lb ed="#Qb"/>infra patebit 9.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Cum ergo quaeritur utrum primus homo in
+          <lb ed="#Qb"/>primo statu erat impassibilis, dici potest quod
+          <lb ed="#Qb"/>secundum quod per hoc quod dicitur 'impassibile*
+          <lb ed="#Qb"/>notatur privatio necessitatis ad patiendum vel
+          <lb ed="#Qb"/>dispositionis vel possibilitatis sive inclinationis,
+          <lb ed="#Qb"/>sic erat impassibilis. Quando enim erat in inte<lb ed="#Qb"/>gritate
+          naturae conditae, non erat in eo natura
+          <lb ed="#Qb"/>disposita vel possibilis, scilicetä aliqua infirmitate
+          <lb ed="#Qb"/>inclinata ad patiendum, sicut postea erat infirmior
+          <lb ed="#Qb"/>facta per peccatum. Secundum autem quod 'im<lb ed="#Qb"/>passibile
+          : dicit privationem potentiae primo modo
+          <lb ed="#Qb"/>sumptae vel secundo, sic non erat impassibilis.
+          <lb ed="#Qb"/>Non enim omnino non erat natura illa suscepti<lb ed="#Qb"/>bilis
+          passionis, cum esset aliquo modo infirma<lb ed="#Qb"/>bilis
+          per lapsum in peccatum. Fuit ergo passi<lb ed="#Qb"/>bilis
+          eo quod erat susceptibilis infirmitatis; im<lb ed="#Qb"/>passibilis,
+          eo quod non inclinatus sive declinatus
+          <lb ed="#Qb"/>ab integritate, in qua conditus erat, per infirmi<lb ed="#Qb"/>tatem.
+          Unde neque omnino erat impassibilis neque
+          <lb ed="#Qb"/>simpliciter passibilis, ut vult Hugo 10.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud ergo quod primo
+          <lb ed="#Qb"/>obicitur quod 'impassibilitas est dos corporis
+          <lb ed="#Qb"/>glorificati' etc.: dicendum quod eo modo quo
+          <lb ed="#Qb"/>est dos, non conveniebat primo homini. Secundum
+          <lb ed="#Qb"/>enim quod dicitur dos, sic dicit privationem om<lb ed="#Qb"/>nino
+          et omnis potentiae sive omnis modi patiendi",
+          <lb ed="#Qb"/>secundum quem modum, ut ex dictis patet, non
+          <lb ed="#Qb"/>dicitur ille fuisse impassibilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud 'l quod sequitur, dicendum 12 quod
+          <lb ed="#Qb"/>Damascenus intendit determinare quod unum
+          <lb ed="#Qb"/>solum, scilicet ipsum Primum, sua natura et vir<lb ed="#Qb"/>tute
+          est invertibile et immutabile 1, omnia alia
+          <lb ed="#Qb"/>sunt vertibilia et mutabilia de. natura propria et
+          <pb ed="#Qb" n="633"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>virtute, quia nihil praeter Primum constat propria
+          <lb ed="#Qb"/>virtute. Propter quod nullo modo est vertibile in
+          <lb ed="#Qb"/>non-ens " neque etiamb est mutabile secundum
+          <lb ed="#Qb"/>electionem liberi arbitrii sicut rationales creatu<lb ed="#Qb"/>rae,
+          quae sunt mutabiles secundum electionem
+          <lb ed="#Qb"/>per naturam et vertibiles in non-essec, nisi ma<lb ed="#Qb"/>nu
+          Dei, id est omnipotentia, conservarentur, ut
+          <lb ed="#Qb"/>dicit Gregorius1 et Damascenusz. Licet
+          <lb ed="#Qb"/>ergo omnes creaturae sint mutabiles et passibiles
+          <lb ed="#Qb"/>modo iam dicto, non tamen sunt passibiles, lo<lb ed="#Qb"/>quendo
+          proprie, secundum quod hic" intendimus
+          <lb ed="#Qb"/>de passibilitate et impassibilitate.
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Ad aliud quo ostenditur quod primus
+          <lb ed="#Qb"/>homo debebate esse omnino impassibilis ratione
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>suae nobilitatis': dicendum quod impassibili<lb ed="#Qb"/>tate
+          sic sumpta non fuit praedita nec est ali<lb ed="#Qb"/>qua
+          creatura nec attestatur nobilitati creaturae,
+          <lb ed="#Qb"/>ut est creatura, sed ut est creatura completa in
+          <lb ed="#Qb"/>esse completissimo, ut scilicet quando totus ap<lb ed="#Qb"/>petitus
+          illius satiatur. Undef, quando satiabitur
+          <lb ed="#Qb"/>appetitus humanus omnino, ut8 quando apparebit
+          <lb ed="#Qb"/>gloria Creatoris, secundum Psalmistam", tunc
+          <lb ed="#Qb"/>dotabitur homo omnimodai impassibilitate. Unde,
+          <lb ed="#Qb"/>licet primus homo esset in primo statu omnium
+          <lb ed="#Qb"/>creaturarum corporalium nobilissima, non tamen
+          <lb ed="#Qb"/>exigebatk status ille quod praeditus esset huius<lb ed="#Qb"/>modi
+          impassibilitate, sed solummodo status glo<lb ed="#Qb"/>riae
+          hoc exigit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

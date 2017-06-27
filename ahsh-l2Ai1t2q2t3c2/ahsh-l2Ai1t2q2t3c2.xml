@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 3, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="78"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q2t3c2">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 3, C. 2</head>
+        <head type="question-title">UTRUM OMNIS CREATURA SIT MUTABILIS.</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur an- omnis creatura sit muta<lb ed="#Qb"/>bilis
+          aut quaedam immutabilis, quaedam non 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod omnis sit mutabilis, arguitur: a. Ex
+          <lb ed="#Qb"/>hoc" quod omnis creatura est de nihilo, sicut
+          <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>, in XII De civitate Deitz
+    <quote>Omnia, quae sunt facta, mutabilia sunt, quia
+          <lb ed="#Qb"/>de nihilo facta sunt</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, quod recipit magis' et minus, mutabile
+          <lb ed="#Qb"/>est; sed creatura recipit magis et minus in esse
+          <lb ed="#Qb"/>vel bene esse; ergo est mutabilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, in Quaestionibus Veteris et Novi Testa<lb ed="#Qb"/>menti 5:- 
+    <quote> Quod vicibus temporum ministratur ita 
+          <lb ed="#Qb"/>ut ipsa tempora aliquando non servent sua ot<lb ed="#Qb"/>ficia, 
+          quomodo appellatur aeternum?</quote> Ex quo
+          <lb ed="#Qb"/>vult innuere quod aliquam mutationemm recipiunt
+          <lb ed="#Qb"/>in tempore, propter quam non debent dici, res
+          <lb ed="#Qb"/>aeternae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem quaedam sit mutabilis, quaedam
+          <lb ed="#Qb"/>immutabilis: 1. Accipitur ex hoc quod illud, quod
+          <lb ed="#Qb"/>est immortale, est immutabile; aliqua vero res
+          <lb ed="#Qb"/>creata est immortalis; ergo est immutabilis ".
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, universale est conditio creaturae;
+          <lb ed="#Qb"/>sed conditio universalis est incorruptibile; ergo
+          <lb ed="#Qb"/>et 0 immutabile; per consequens ergo aliqua crea<lb ed="#Qb"/>tura
+          est immutabilis.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>3., Item, Gregorius 6: <quote> Angelus in statu suo
+          <lb ed="#Qb"/>immutabilis permanet </quote>. Ergo aliqua creatura im<lb ed="#Qb"/>mutabilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Forte dicetur quod immutabilis est aliqua
+          <lb ed="#Qb"/>creatura quoad esse, sed mutabilis quoad bene
+          <lb ed="#Qb"/>esse, et ita aliquo modo mutabilis, aliquo modo
+          <lb ed="#Qb"/>immutabilis, videlicet quantum adP esse. Quod
+          <lb ed="#Qb"/>videtur per hoc quod dicit Damascenus7:
+    <quote> Quorum esse a versione incipit, haec versioni
+          <lb ed="#Qb"/>subiecta sunt vel corrupta vel secundum electio<lb ed="#Qb"/>nem
+          alterata. Intellectualia igitur, angelos scilicet
+          <lb ed="#Qb"/>et animas, secundum electionem et eam, quae est 
+          <lb ed="#Qb"/>in 4 bono, profectionem, et eam, quae est ex bono,
+          <lb ed="#Qb"/>abscessionem intensam, reliqua vero secundum
+          <lb ed="#Qb"/>generationem et corruptionem et eam, quae est
+          <lb ed="#Qb"/>secundum qualitatem, transmutationem et secun<lb ed="#Qb"/>dum
+          quantitatem et secundum localem motum</quote>.
+          <lb ed="#Qb"/>Ex quo videtur quod intellectualem creaturam
+          ' immutabilem dicat secundum esse, mutabilem se<lb ed="#Qb"/>cundum
+          bene esse et male. — Sed videtur
+          <lb ed="#Qb"/>contrarium per hoc quod'dicit alibi in eodem
+          <lb ed="#Qb"/>libro 8: <quote>Angelus immortalis est, non natura, sed
+          <lb ed="#Qb"/>gratia</quote>. Et Philosophusg, loquens de supe<lb ed="#Qb"/>rioribus
+          corporibus dicit: <quote> Dii deorum, quorum
+          <lb ed="#Qb"/>opifex ego sum, natura quidem dissolubiles, me
+          <lb ed="#Qb"/>autem volenter indissolubiles </quote>. Ergo huiusmodi
+          <pb ed="#Qb" n="79"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>creaturae mutabiles sunt natura etiam quoad
+          <lb ed="#Qb"/>esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, universum creatura est; aut ergo muta<lb ed="#Qb"/>bilis
+          aut immutabilis. Si immutabilis quoad esse,
+          <lb ed="#Qb"/>ergo non omnis creatura mutabilis; si vero mu<lb ed="#Qb"/>tabilis,
+          cum potentia non sit infinita, — rei enim
+          <lb ed="#Qb"/>finitae non est potentia infinita — aliquando mu<lb ed="#Qb"/>tabitur:
+          quoad" esse; ergo universum aliquando
+          <lb ed="#Qb"/>desinet esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, beatitudo est quaedam res creata secun<lb ed="#Qb"/>dum
+          quod supponit formam hominis beati; aut
+          <lb ed="#Qb"/>ergo est mutabilis aut immutabilis. Immutabilis
+          <lb ed="#Qb"/>non potest esse, cum sit creatura; mutabilis au<lb ed="#Qb"/>tema
+          esse non potest, cum sit beatitudo: <quote> bea<lb ed="#Qb"/>titudo
+          autem est status omnium bonorum con<lb ed="#Qb"/>gregatione
+          perfectus l </quote>; sed iste status non potest
+          <lb ed="#Qb"/>esse cum mutabilitate; ergo non est mutabilis;
+          <lb ed="#Qb"/>non ergo omnis creatura mutabilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod omnis crea<lb ed="#Qb"/>tura,
+          in quantum huiusmodi, mutabilis est " secun<lb ed="#Qb"/>dum
+          aliquem modum. Nam si obiciatur dec
+          <lb ed="#Qb"/>ipsa mutabilitate cum sit creatura, utrum muta<lb ed="#Qb"/>bilis
+          sit: respondendum est quod aliter dicitur
+          <lb ed="#Qb"/>res mutabilis quae mutatur, et aliter ipsa muta<lb ed="#Qb"/>bilitas.
+          Nam mutabilitas dicitur mutabilis tam<lb ed="#Qb"/>quam
+          causa formalis rei quae mutatur; creatura
+          <lb ed="#Qb"/>vero alia, quae simpliciter dicitur creatura, muta<lb ed="#Qb"/>bilis
+          dicitur secundum se ipsam. — Et si dica<lb ed="#Qb"/>tur
+          mutabilitas non mutabilis secundum quemdam
+          <lb ed="#Qb"/>modum eo quod mutationem non participat
+          <lb ed="#Qb"/>in generatione formae - tunc enim esset. pro<lb ed="#Qb"/>cessus
+          ind infinitum — non tamen immutabilis
+          <lb ed="#Qb"/>dicitur sicut divina essentia dicitur immutabilis:
+          <lb ed="#Qb"/>divina enim essentia dicitur immutabilis - con<lb ed="#Qb"/>trae
+          hoc: quod mutatio mutabilis dicitur et 
+          <lb ed="#Qb"/>mutabilitas mutabilis et res, quae secundum se 
+          <lb ed="#Qb"/>ipsam mutatur, mutabilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad obiectum autem primo,
+          <lb ed="#Qb"/>quo ostenditur quod ' quaedam creatura est im<lb ed="#Qb"/>mutabilis,
+          quia immortalis': respondendum estf
+          <lb ed="#Qb"/>quod ' immutabile' non tantum removet mutatio<lb ed="#Qb"/>nem
+          quoad esse, sed quoad esse bene vel male;
+          <lb ed="#Qb"/>unde licet aliqua creatura dicatur immortalis, quia
+          <lb ed="#Qb"/>mori nou potest, non tamen dicitur immutabilis:
+          <lb ed="#Qb"/>sunt enim alia genera mutationum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad id vero quod obicitur 'de universali in
+          <lb ed="#Qb"/>quo notatur conditio creaturae ex hoc quod di<lb ed="#Qb"/>citur
+          incorruptibile': dicendum est quod incorrup<lb ed="#Qb"/>tibile
+          dicitur eo quod ex ratione universalis non
+          <lb ed="#Qb"/>habet causam corruptionis per se, licet secundum
+          <lb ed="#Qb"/>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>accidens; secundum hoc autem licet! non dicatur
+          <lb ed="#Qb"/>mutabile, nihilominus tamen secundum commu<lb ed="#Qb"/>nem
+          " conditionem creaturae ipsa est mutabilis de
+          <lb ed="#Qb"/>se nisi contineaturi a Creatore in esse. Unde
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, li<lb ed="#Qb"/>bro
+          IV 2: <quote> Creatoris potentia et omnipotentis vir<lb ed="#Qb"/>tus
+          causa subsistendi est omni creaturae; quae
+          <lb ed="#Qb"/>virtus ab eis, quae creata sunt, regendis si
+          <lb ed="#Qb"/>aliquando cessaret, simul et illorum cessaret
+          <lb ed="#Qb"/>species omnisque natur-ak concideret </quote>. Ex quo
+          <lb ed="#Qb"/>accipitur quod si aliqua creatura dicitur immu<lb ed="#Qb"/>tabilis,
+          non est de se, sed de voluntate et dono
+          <lb ed="#Qb"/>Conditoris.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum quod angelus licet
+          <lb ed="#Qb"/>sit immutabilis secundum statum gratiae aut glo<lb ed="#Qb"/>riae,
+          tamen est mutabilis in eo quod est ex nihilo.
+          <lb ed="#Qb"/>Unde Gregorius3, super illud Iob 4,18:Ecce,
+          <lb ed="#Qb"/>qui serviunt ei, non sunt stabiles ' etc.: <quote> Angelus,
+          <lb ed="#Qb"/>etsi in statu suo immutabilis permanet, in hoc
+          <lb ed="#Qb"/>tamen quod creatura est, vicissitudinem mutabi<lb ed="#Qb"/>litatis
+          habet et ita stabilis non est. Si enim na<lb ed="#Qb"/>tura
+          mutabilis non esset, cum esset bene" con<lb ed="#Qb"/>dita,
+          in nullis cecidiSset " </quote>. Et hoc est quod dicit
+          <lb ed="#Qb"/>Ioannes Damascenus4 quod <quote>angelus est?
+          <lb ed="#Qb"/>immortalis, non natura, sed gratia </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad q uartumP, scilicet ' utrum angelus mu<lb ed="#Qb"/>tabilis
+          sit quoad esse, et similiter de caelestibus
+          <lb ed="#Qb"/>corporibus'9 : dicendum quod de se non habent
+          <lb ed="#Qb"/>immutabilitatem quoad esse, sed de bonitate Crea<lb ed="#Qb"/>toris,
+          qui cuidam creaturae dat similitudinem
+          <lb ed="#Qb"/>suae immutabilitatis sicut illi creaturae congruit,
+          <lb ed="#Qb"/>scilicet quod non mutatur de esse inr non-esse,
+          <lb ed="#Qb"/>licet possibilis<!--s--> sit ex eo quod est det nihilo 5.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad quintum dicendum" de eo quod obi<lb ed="#Qb"/>citur
+          de universo, quod aliter dicitur universum
+          <lb ed="#Qb"/>mutabile et aliter aliqua pars universi. Dicitur
+          <lb ed="#Qb"/>enim universum mutabile ratione quarumdam
+          <lb ed="#Qb"/>suarum partium; unde <name ref="#Augustine">Augustinus</name>, in Quae<lb ed="#Qb"/>stionibus
+          Veteris Testamenti 5: <quote>Inconveniens est
+          <lb ed="#Qb"/>mundum aeternum dicere, , quem cum videmus
+          <lb ed="#Qb"/>passioni subiectum et per singula senescere, de<lb ed="#Qb"/>ficere
+          credimus .et finiri </quote>. Dicitur etiam univer<lb ed="#Qb"/>sum
+          mutabile, quia de nihilo factum est ", et ra<lb ed="#Qb"/>tione
+          huius dicitur consimiliter mutabile sicut et
+          <lb ed="#Qb"/>singulae creaturae. Dicitur tamen immutabile eo
+          <lb ed="#Qb"/>quod non mutabitur ratione nobilium creaturarum
+          <lb ed="#Qb"/>in non-esse ex dispositione Conditoris.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad sextum dicendum *, scilicet de beati<lb ed="#Qb"/>tudine
+          creata, quod beatitudo creata immuta<lb ed="#Qb"/>bilis
+          dicitur eo quod non mutabitur; non autem
+          <pb ed="#Qb" n="80"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>dicitur immutabilis" eo quod non possit, in eo
+          <lb ed="#Qb"/>quod creatura, mutari; nec 'mutabile' ex ratione
+          <lb ed="#Qb"/>creaturae opponitur beatitudini: licet enim bea<lb ed="#Qb"/>titudo
+          sit <quote>status omnium bonorum congrega<lb ed="#Qb"/>tione
+          perfectus </quote>, tamen beatitudo creata non ha<lb ed="#Qb"/>bet
+          omne bonum nisi secundum quod ei congruit;
+          <lb ed="#Qb"/>unde non habet immutabilitatem eo modo quo
+          <lb ed="#Qb"/>Deus, dicitur immutabilis. Dicetur ergo beatitudo
+          <lb ed="#Qb"/>creata <quote> status omnium bonorum </quote> sufficientium
+    <quote> congregatione perfectus </quote>, et sic non opponetur
+          <lb ed="#Qb"/>mutabilitas quae congruit creaturae, sed mutabi<lb ed="#Qb"/>litas,
+          quae est defectus bonorum sufficientiumb,
+          <lb ed="#Qb"/>habet oppositionem respectu beatitudinis. — Et si
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>obiciatur quod mutabile dicit possibilitatem, pos<lb ed="#Qb"/>sibilitas 
+          autem non est infinita, et ita" aliquando
+          <lb ed="#Qb"/>reducetur ad actum; si vero reducitur ad actum,
+          <lb ed="#Qb"/>non fuit beatitudo, cum beatitudo sit vita aeterna:
+          <lb ed="#Qb"/>quod autem aeternum est, non deficiet — dicen<lb ed="#Qb"/>dum
+          est: quod possibilitas illa infinita dicitur
+          <lb ed="#Qb"/>quoad hoc quod non reducetur in suum actum,
+          <lb ed="#Qb"/>eo quod ponit in se aeternitatem boni, quae op<lb ed="#Qb"/>ponitur
+          defectui boni sive bono deficienti. Nec
+          <lb ed="#Qb"/>est mirum si possibilitas sit infinita, cum sit rei
+          <lb ed="#Qb"/>infinitae duratione; quod autem non est reduci<lb ed="#Qb"/>bilis
+          in actum, non est tantum ex ipsa, sed ex
+          <lb ed="#Qb"/>voluntate Conditoris.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

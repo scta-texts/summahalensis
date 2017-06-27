@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 6</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="500"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t4m2c6">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 6</head>
+        <head type="question-title">UTRUM CONSCIENTIA SIT IDEM QUOD SYNDERESIS.</head>
+        <p>
+                <pb ed="#Qb" n="500"/>
+                <pb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Sexto quaeritur utrum conscientia sit idem quod
+          <lb ed="#Qb"/>synderesis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod sic, videtur: 1. Ezech. 1, 8, super illud:
+          <lb ed="#Qb"/>
+          <quote ana="#ez1_8">Quatuor partes habebant</quote>, Glossa 2: <quote> Synderesis
+          <lb ed="#Qb"/>est scintilla conscientiae</quote>; et postea subditur:
+    <quote> Hanc autem conscientiam, cum impius in pro<lb ed="#Qb"/>fundum
+          peccatorum venerit, praecipitari vide<lb ed="#Qb"/>mus
+    </quote>. Ex quo videtur quod conscientia sit idem
+          <lb ed="#Qb"/>quod synderesis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Hoc idem patet argumentis quae dicuntur in
+          <lb ed="#Qb"/>eadem Glossa. Vult enim dicere quod quatuor
+          <lb ed="#Qb"/>sunt vires animae, scilicet rationabilis, irascibilis
+          <lb ed="#Qb"/>etb concupiscibilis, quarta,.quae supra has et
+          <lb ed="#Qb"/>extra has est, dicitur synderesis. Et, ut patet ex
+          <lb ed="#Qb"/>eadem Glossa, conscientia reducitur ad aliquam
+          <lb ed="#Qb"/>istarum virium. Cum ergo non sit alia vis ab iis
+          <lb ed="#Qb"/>in anima: nisi synderesis, patet quod conscientia
+          <lb ed="#Qb"/>ad synderesim reducitur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Praedictae differentiae conscientiae
+          <lb ed="#Qb"/>non competunt synderesi; ergo haec non est illa.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Et iterum, synderesis est ind parte motiva,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>conscientia veroxplus est in parte cognitiva, licet
+          <lb ed="#Qb"/>inclinet ad motum, sicut dictum est 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo quod conscientia habet duo in se:
+          <lb ed="#Qb"/>unum, quod est sicut supremum, et quoad hoc
+          <lb ed="#Qb"/>coniungitur ipsi synderesi et dicit habitum natu<lb ed="#Qb"/>ralem
+          4; et aliud, quod est inferius, et sic coniun<lb ed="#Qb"/>gitur
+          magis rationi, et sic dicit rationem acceptio<lb ed="#Qb"/>nis
+          quae notatur in hoc quod dicitur ' cum ', et
+          <lb ed="#Qb"/>sic recipit errorem et perturbationem et huius<lb ed="#Qb"/>modi
+          similia. A parte enim inferiori bene potest
+          <lb ed="#Qb"/>accidere error; tamen'-* quod erret, hoc non est
+          <lb ed="#Qb"/>de se: plus enim se tenet ex parte synderesis,
+          <lb ed="#Qb"/>quae potentia habitualis dicitur, quamf ratione
+          <lb ed="#Qb"/>scientiae quae includitur in ipsa, ratione cuius est
+          <lb ed="#Qb"/>in ipsa rectitudo. Unde ratione eius quod dicit ha<lb ed="#Qb"/>bitum,
+          se tenet ex parte synderesis, quae potentia
+          <lb ed="#Qb"/>habitualis dicitur; sed ratione eius quod dicit
+          <lb ed="#Qb"/>acceptionem ex parte rationis, ex parte huius re<lb ed="#Qb"/>cipit
+          praedictas differentias. Et ita patet solutio:
+          <lb ed="#Qb"/>dicendum enim estg quod conscientia ah parte
+          <lb ed="#Qb"/>superiori secundum rem reducitur ad synde<lb ed="#Qb"/>resimi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

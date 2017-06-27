@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 3, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 3, C. 6</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="681"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q1t2d1m3c6">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 3, C. 6</head>
+        <head type="question-title">UTRUM VITA SIT IN EMBRIONE ANTE ORGANIZATIONEM.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur inquirere utrum vita sit in embrione
+          <lb ed="#Qb"/>ante organizationem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod'" sic, videtur: 1. Per Philosophum,
+          <lb ed="#Qb"/>XVI Animalium 10, ubi dicitur: <quote> Omne conceptum
+          <lb ed="#Qb"/>vivit sicut vivunt arbores </quote>; et vocat <quote> conceptum </quote>
+          <lb ed="#Qb"/>semen relictum in matrice a generante.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, eodem: <quote>Non potest" aliquis dicere
+          <lb ed="#Qb"/>quod conceptum non habet animam omnino et
+          <lb ed="#Qb"/>quod est privatum vita </quote>.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>3. Item, libro De motu cordis", ordinantur actus
+          <lb ed="#Qb"/>animae. Dicitur enim sic: <quote>Vivit et vegetatur
+          <lb ed="#Qb"/>animal, sentit et movetur, discernit et intelligit,
+          <lb ed="#Qb"/>et quae ex eis oriuntur, non facile numerabilia,
+          <lb ed="#Qb"/>efficere habet. Et harum potentiarum haec prima
+          <lb ed="#Qb"/>distantia est quod vitam quasi praeviam ceterae
+          <lb ed="#Qb"/>sequuntur, sine qua nullam ceterarum inesse pos<lb ed="#Qb"/>sibile
+          est, actus autem consequentes necessario
+          <lb ed="#Qb"/>praesupponunt priorem,</quote>. Ergo, cum in embrione
+          <lb ed="#Qb"/>vigent actus Consequentes ad vitam, sicut actus
+          <pb ed="#Qb" n="682"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>vegetandi et augmentandi et huiusmodia, relin<lb ed="#Qb"/>quitur
+          quod in illo" est actus prior, qui est vitae
+          <lb ed="#Qb"/>sive vita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, cum sine virtute animae vegetabilis et
+          <lb ed="#Qb"/>sensibilis non possit corpus hominis organizari et
+          <lb ed="#Qb"/>praeparari convenienter ad susceptionem animae
+          <lb ed="#Qb"/>rationalis, necesse est6 prius esse animam vege<lb ed="#Qb"/>tabilem
+          et sensibilemür in semine quam corporie
+          <lb ed="#Qb"/>organizato infundaturf anima rationalis. Et hoc
+          <lb ed="#Qb"/>videtur velle Philosophus, XVI De animalibus'.
+          <lb ed="#Qb"/>Dicit enim: <quote>Necessariog erit in concepto prius
+          <lb ed="#Qb"/>anima cibativa et, cum creverit, erit in eo anima
+          <lb ed="#Qb"/>sensibilis, per quam dicitur animal et non est
+          <lb ed="#Qb"/>animal simul et homo </quote>. Ex hoc videtur quod em<lb ed="#Qb"/>brio
+          vel semen sit animatum in matrice; et si
+          <lb ed="#Qb"/>hoc, vivit; dicitur enim in libro De motu cordi.-52:
+          <lb ed="#Qb"/>
+          <quote>Animatum et vivens ad se invicem paria sunt</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, in libro De motu cordis-3: <quote> Vitam actu
+          <lb ed="#Qb"/>omnibus aequaliter inesse necesse est: aeque
+          <lb ed="#Qb"/>enim est vivens embrio et adolescens</quote>. Ex iis
+          <lb ed="#Qb"/>patet propositum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Sicut dicitur in libro De motu cordis 4,
+    <quote>animatum et vivens ad se invicem paria sunt</quote>;
+          <lb ed="#Qb"/>si ergo embrio vivit, est corpus animatum; ergo est
+          <lb ed="#Qb"/>planta vel animal: quorum utrumque est falsum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, ex hoc sequeretur quod plures animae
+          <lb ed="#Qb"/>secundum substantiam essent in homine; cuius
+          <lb ed="#Qb"/>contrarium dicit <name ref="#Augustine">Augustinus</name>, in libro De eccle<lb ed="#Qb"/>siasticis
+          dogmatibusï sic: <quote>Neque duas animas
+          <lb ed="#Qb"/>esse dicimus in uno homine, sicut Iacobus et
+          <lb ed="#Qb"/>alii Syrorum scribunt, unam animalem, qua
+          <lb ed="#Qb"/>animetur corpus et immixta sit sanguini, et alte<lb ed="#Qb"/>ram
+          'I spiritalem, quae rationem ministret; sed di<lb ed="#Qb"/>cimus
+          unam esse eamdemque animam in homine,
+          <lb ed="#Qb"/>quae et corpus societate sua vivificet et semet<lb ed="#Qb"/>ipsami
+          sua ratione disponat, habens in se liber<lb ed="#Qb"/>tatern
+          arbitrii et in sua substantia eligat cogita<lb ed="#Qb"/>tione
+          quod vult</quote>. Idem dicit in libro De spiritu
+          <lb ed="#Qb"/>et animas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo7: Circa hanc materiam diversi di<lb ed="#Qb"/>versa
+          sentiunt. Qui-dam enim dicunt quod em<lb ed="#Qb"/>brio
+          vivit ante organizationem et habet animam
+          <lb ed="#Qb"/>vegetativam et sensitivam ante infusionem animae
+          <lb ed="#Qb"/>rationalis, innitentes verbo Philosophi supra
+          <lb ed="#Qb"/>dictos; et isti ponunt hominem habere tres animas
+          <lb ed="#Qb"/>vel saltem tres substantias animae. Notandum
+          <lb ed="#Qb"/>ergo quod quidam dixerunt tres substantias in<lb ed="#Qb"/>corporeask
+          in homine, sicut tres vitas, scilicet
+          <lb ed="#Qb"/>vegetativam, sensitivam et intellectivam. Dicunt
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>enim quod homo habet substantiam incorpoream,
+          <lb ed="#Qb"/>qua vivit, crescit et nutritur, et hocl ex traduce
+          <lb ed="#Qb"/>in generatione, in qua convenit cum plantis;
+          <lb ed="#Qb"/>habet substantiam incorpoream, qua sentit, ex
+          <lb ed="#Qb"/>caelo et stellis, secundum quam convenit cum
+          <lb ed="#Qb"/>brutis; habet et substantiam, qua vivit et intel<lb ed="#Qb"/>ligit,
+          immediate a Deo per creationem; unde
+          <lb ed="#Qb"/>ponunt tres animas in homine. — Alii dicunt
+          <lb ed="#Qb"/>quod, quamvis sint tres substantiae, non ta<lb ed="#Qb"/>men"z
+          tres animae in homine, quia anima no<lb ed="#Qb"/>men
+          est perfectionis; ideo- substantia vegeta<lb ed="#Qb"/>bilis
+          non est anima nisi in plantis, quarum est
+          <lb ed="#Qb"/>perfectio; sensibilis vero nisi in brutis; in ho<lb ed="#Qb"/>mine
+          autem sunt quasi materiales ad rationalem
+          <lb ed="#Qb"/>et rationalis est completio, et ideo ipsa sola. est
+          <lb ed="#Qb"/>anima in homine, aliis existentibus ut dispositio<lb ed="#Qb"/>nibus
+          materialibus ad ipsam. De unione autem
+          <lb ed="#Qb"/>illarum adducuntexemplum in radiis ignis et
+          <lb ed="#Qb"/>Solis, qui quandoque uniuntur in aere, in quo
+          <lb ed="#Qb"/>non est nisi quasi unus, et hoc propter eorum
+          <lb ed="#Qb"/>simplicitatem. Et sicut contingit quod radius ignis
+          <lb ed="#Qb"/>cum igne corruptibilis est, radius solis cum sole
+          <lb ed="#Qb"/>incorruptibilis, sic duae corrumpuntur cum" cor<lb ed="#Qb"/>pore,
+          scilicet vegetabilis et sensibilis", tertia re<lb ed="#Qb"/>manet
+          et separatur a corpore ut radius ab aere.
+          <lb ed="#Qb"/>Et dicunt quod prius tempore est in semine ipsa
+          <lb ed="#Qb"/>vegetativa qua nutritur et crescit; deinde, cum
+          <lb ed="#Qb"/>creverit, subsequitur per influentiam corporis
+          <lb ed="#Qb"/>caelestis sensitiva; ultimo vero infunditur per
+          <lb ed="#Qb"/>creationem rationalis ut perfectio ultima. Nec se<lb ed="#Qb"/>quitur:
+          'ante intusionem animae rationalis, qua
+          <lb ed="#Qb"/>est homo, est sensibile et animatum, ergo leo
+          <lb ed="#Qb"/>vel capra' etc., quia est animal imperfectum:
+          <lb ed="#Qb"/>imperfectump dico, non sicut dicitur animal im<lb ed="#Qb"/>periectumg
+          quod non habet omnem sensum, sed
+          <lb ed="#Qb"/>imperfectum, quod est materiale ad ultimum
+          <lb ed="#Qb"/>completivum. Non sunt etiam differentes specie,
+          <lb ed="#Qb"/>quamvis differentes substantiales perfectiones,
+          <lb ed="#Qb"/>quia una est materialis' dispositio ad aliam, et
+          <lb ed="#Qb"/>ideo est simpliciters una perfectio, scilicet ultima,
+          <lb ed="#Qb"/>rationalis.— Sed haec positio est simpli<lb ed="#Qb"/>citer
+          contra <name ref="#Augustine">Augustinum</name>-9, dicentem plures
+          <lb ed="#Qb"/>animas non esse in uno homine. Non enim in—
+          <lb ed="#Qb"/>tendit per hoc non esse plures perfectiones ulti<lb ed="#Qb"/>mas
+          in homine, sed intendit instruere unam ani<lb ed="#Qb"/>mam
+          rationalem esse in homine, cuius potentiae
+          <lb ed="#Qb"/>sive ex cuius essentia sunt vegetativa et sensi<lb ed="#Qb"/>tiva.
+          Quod patet per- hoc quod dicit, in libro
+          <lb ed="#Qb"/>De anima et spiritum: <quote> Anima, dum carne exuta
+          <pb ed="#Qb" n="683"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>est, vivit, videt, audit et omnes sensus atque
+          <lb ed="#Qb"/>ingenia vivaciter tenet</quote>. Non enim poneret ani<lb ed="#Qb"/>mam
+          exutam sentire nisi ex sua essentia haberet
+          <lb ed="#Qb"/>potentiam sentiendi, et illa virtute, qua anima
+          <lb ed="#Qb"/>sentit, sensiticat corpus quod" perficit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Alii ponunt, supposito quod rationalis habeat
+          <lb ed="#Qb"/>suam vegetativam et sensitivam, necessario duas
+          <lb ed="#Qb"/>vegetativas et duas sensitivas in eodem esse et
+          <lb ed="#Qb"/>priores cessare ab operatione, fortiore virtute su<lb ed="#Qb"/>perveniente.—
+          Hoc non videtur probabile,
+          <lb ed="#Qb"/>quia, cum natura nihil agatb frustra, ut vult P hi<lb ed="#Qb"/>losophusï,
+          multo fortius nec auctor naturae;
+          <lb ed="#Qb"/>sed si duae essent vegetativae et duae sensitivae
+          <lb ed="#Qb"/>in homine, altera esset frustra. Praeterea, ex hoc
+          <lb ed="#Qb"/>sequitur quod in. homine sunt plures animae
+          <lb ed="#Qb"/>distinctae secundum substantiam, cum potentia
+          <lb ed="#Qb"/>animae non sit sine substantia: quod est contra
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinum</name>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quidam autem ponunt priores corrumpi ra<lb ed="#Qb"/>tionali 
+          adveniente et tamquam ad tempus com<lb ed="#Qb"/>missas,
+          completa organizatione, deficere. — H oc
+          <lb ed="#Qb"/>autem non videtur probabile, cum orga<lb ed="#Qb"/>nizatione
+          completa fortius vigeant vegetativa et
+          <lb ed="#Qb"/>sensitiva, eo quod sunt fini suo magis C coniunctae.
+          <lb ed="#Qb"/>Praeterea, unde esset illis ratio deficiendi, cum
+          <lb ed="#Qb"/>huiusmodi animae non habeant defici nisi ex aliqua
+          <lb ed="#Qb"/>dissolutione sive corruptione tacta circa subiecta
+          <lb ed="#Qb"/>earumd ?
+        </p>
+        <p>
+          <lb ed="#Qb"/>Propter hoc videtur aliter dicendum. Poteste
+          <lb ed="#Qb"/>ergo dici, sine praeiudicio, quod, proprie loquen<lb ed="#Qb"/>do,
+          embrio non vivit, eof modo quo illud dicitur
+          <lb ed="#Qb"/>vivere quod habet animam formam et sui per<lb ed="#Qb"/>fectionem:
+          huiusmodi autem proprie dicuntur
+          <lb ed="#Qb"/>vivere. Improprie loquendo et extenso nomine
+          <lb ed="#Qb"/>vitae, eo modo loquendi quo omnia illa dicun<lb ed="#Qb"/>tur
+          vivere quibus communicatur aliqua operatio
+          <lb ed="#Qb"/>vitae, sive hoc sit ex, praesentia animae vivi<lb ed="#Qb"/>ficantis
+          et informantis illud sive. ex contigua<lb ed="#Qb"/>tione
+          vel continentia alicuius vivificati vel viventis
+          <lb ed="#Qb"/>ex praesentia animae intormantis illud, sic potest
+          <lb ed="#Qb"/>dici vivere, eo modo quo poma possunt dici vi<lb ed="#Qb"/>vere,
+          non quia vivificantur ex praesentia animae
+          <lb ed="#Qb"/>vivificantis sive informantis, sed ex influentia
+          <lb ed="#Qb"/>quam recipiunt ex planta cui contigua sunt. Potest
+          <lb ed="#Qb"/>ergo dici quod embrio vivit, extenso nomine vitae,
+          <lb ed="#Qb"/>nec vivit ex praesentia animae informantis, sed
+          <lb ed="#Qb"/>ex influentia quam recipit-a corpore continente.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1; Ad illud ergo quod primo
+          <lb ed="#Qb"/>obicitur per illud Philosophi quod <quote>conceptum
+          <lb ed="#Qb"/>vivit sicut vivunt arbores</quote>, dicendum quod 'vi<lb ed="#Qb"/>vere'
+          sumitur ibi pro vegetari, sub hoc sensu:
+          <lb ed="#Qb"/>conceptum vegetatur sicut vegetanturg arbores,
+          <lb ed="#Qb"/>ita tamen quod "per hoc quod dicitur 'sicut' no<lb ed="#Qb"/>teturf'
+          similitudo quantum ad genus actus, non
+          <lb ed="#Qb"/>quantum ad modum, id est conceptum et arbores
+          <lb ed="#Qb"/>habent similitudinem in hoc quod utrumque ve<lb ed="#Qb"/>getatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod sequitur, scilicet quod 'non
+          <lb ed="#Qb"/>potest dici quod conceptum non habet animam
+          <lb ed="#Qb"/>omnino': dicendum quod hoc verum est, quia
+          <lb ed="#Qb"/>habet animam operantem aliquo modo in ipso,
+          <lb ed="#Qb"/>id est operationemï animae, non tamen habet
+          <lb ed="#Qb"/>animam informantem. Unde facienda est vis in
+          <lb ed="#Qb"/>hoc quod dicit <quote>omnino </quote>, quia non potest verek
+          <lb ed="#Qb"/>dici separari anima omnino a concepto, scilicet
+          <lb ed="#Qb"/>quantum ad operationem et quantum ad sub<lb ed="#Qb"/>stantiam.
+          Quod autem subditur <quote> et quod priva<lb ed="#Qb"/>tum 
+          est vita </quote>, sic intelligendum est cum hac
+          <lb ed="#Qb"/>determinatione <quote> omnino </quote>, quia aliquo modo
+          <lb ed="#Qb"/>vivit, ut dictum est 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad illud quod obicitur quod 'vivere est
+          <lb ed="#Qb"/>primus actus animae, queml praesupponunt con<lb ed="#Qb"/>sequentes':
+          dicendum quod eo modo quo habent
+          <lb ed="#Qb"/>esse, habent ordinem. Cum enim datur vita alicui
+          <lb ed="#Qb"/>mediante anima informante illud, et consequenter
+          <lb ed="#Qb"/>vegetatur et sentit mediante eadem'"; cum autem
+          <lb ed="#Qb"/>datur vita alicui aliquo modo" ex contiguatione
+          <lb ed="#Qb"/>et continentia alicuius alius, quod vivificatur ex
+          <lb ed="#Qb"/>praesentia animae informantis illud, et conse<lb ed="#Qb"/>quenter
+          vegetatur et sentit mediante illo a quo
+          <lb ed="#Qb"/>continetur, et hoc per influentiam quam recipit
+          <lb ed="#Qb"/>ab illo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad illud quod obicitur quod 'corpus orga<lb ed="#Qb"/>nizatur
+          et praeparatur ad susceptionem animae ra<lb ed="#Qb"/>tionalis
+          mediante virtute animae vegetativae' etc.:
+          <lb ed="#Qb"/>dicendum quod in decisione seminis a generante
+          <lb ed="#Qb"/>derelinq'uitur virtus in semine, quae invalescit et
+          <lb ed="#Qb"/>vigoratur a virtute continentis, sicut natura quan<lb ed="#Qb"/>doque
+          confortatur et roboratur opere artificis.
+          <lb ed="#Qb"/>Unde ipsa virtus, relicta in semine, sic vigorata
+          <lb ed="#Qb"/>et roborata, operatur ad organizationem et prae<lb ed="#Qb"/>parat
+          corpus et reddit congruum ad animae ratio<lb ed="#Qb"/>nalis
+          susceptionem, incessanter cooperante et"
+          <lb ed="#Qb"/>influente ipso continente. Unde non est necesse
+          <lb ed="#Qb"/>prius inesse animam vegetabilem et sensibilem
+          <lb ed="#Qb"/>ipsiP embrioni per modum informantis, ut sic
+          <lb ed="#Qb"/>praeparetur ad animae rationalis susceptionem,
+          <lb ed="#Qb"/>sed solummodo per modum exterioris praeparantis
+          <lb ed="#Qb"/>ipsum corpus, quod debet esse organum sive per<lb ed="#Qb"/>fectibile
+          ipsius animae perficientis 4. — Quod au<lb ed="#Qb"/>tem
+          dicit Philosophus: <quote>Necessario erit in? con<lb ed="#Qb"/>cepto
+          prius anima cibativa, et, cum creverit, erit in
+          <lb ed="#Qb"/>eo anima sensibilis </quote> etc., hoc potest intelligi quan<lb ed="#Qb"/>tum 
+          ad virtutem operativam, non quantum ad
+          <pb ed="#Qb" n="684"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>substantiam informativam: prius enim fiunt" in
+          <lb ed="#Qb"/>eo operationes vegetativae, quae sunt alimento uti
+          <lb ed="#Qb"/>et augmentati, quam opera sensitivae, et sensi<lb ed="#Qb"/>tivaeb
+          quam intellectivae. Unde verbum Philo<lb ed="#Qb"/>sophi
+          debet intelligi quantum ad esse per vir<lb ed="#Qb"/>tutem
+          operativam, non quantum ad esse perc
+          <lb ed="#Qb"/>essentiam intormativam. — Si obiciatur quod
+          <lb ed="#Qb"/>non est virtus sine substantia: dicendu tu quod
+          <lb ed="#Qb"/>hoc verum est, sed est substantia in qua radi<lb ed="#Qb"/>catur
+          virtus et est substantia qua quandoqued
+          <lb ed="#Qb"/>defertur virtus; unde nunquam est virtus sine
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>substantia radicati vel deferente. -— Quod autem
+          <lb ed="#Qb"/>dicitur, in libro De motu cordis, quod <quote>animatum
+          <lb ed="#Qb"/>et vivens ad se invicem paria sunt</quote>, potest dici
+          <lb ed="#Qb"/>quod hoc intelligi debet de vivente propriedicto,
+          <lb ed="#Qb"/>id est de vivente per praesentiam animae vivifi<lb ed="#Qb"/>cantis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad illud quod sequitur quod dicitur, in
+          <lb ed="#Qb"/>libro De motu cordis, quod <quote> aeque est vivens
+          <lb ed="#Qb"/>embrio et adolescens</quote>: dicendum quod embrio
+          <lb ed="#Qb"/>dicitur nomine extenso foetus formatus et orga<lb ed="#Qb"/>nizatus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

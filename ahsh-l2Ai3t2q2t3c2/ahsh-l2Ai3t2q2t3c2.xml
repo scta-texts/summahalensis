@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 3, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="346"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q2t3c2">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 3, C. 2</head>
+        <head type="question-title">QUARE ORNATUS TERRAE NON PERTINEAT AD DIEM SEPARATUM.</head>
+        <p>
+          <lb ed="#Qb"/>Dixit Deusäz Germinet terra2 etc. 1. Quaestio
+          <lb ed="#Qb"/>est propter quid iste ornatus terrae non" per<lb ed="#Qb"/>tinet
+          ad diem separatum, sicut est de animan<lb ed="#Qb"/>tibus
+          formatis de terra. ,
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, sicut in primo die dicitur3: Fiat
+          <lb ed="#Qb"/>et factum esti et vidit Deus quod esset bonum,
+          <lb ed="#Qb"/>et in aliis diebus per aequipollentiam, praeter<lb ed="#Qb"/>quam
+          in secundo, ita et hic dicitur: Germinet
+          <lb ed="#Qb"/>terra etc. et post dicitur4: Et factum est, et vidit
+          <lb ed="#Qb"/>Deus quod esset bonum. Et ita videtur quodk
+          <lb ed="#Qb"/>ad unum diem separatum pertineat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Forte dicetur, sicut dicit <name ref="#Augustine">Augustinus</name>5,
+          <lb ed="#Qb"/>quod iste ornatus ad eumdem diem pertinet ',
+          <lb ed="#Qb"/>quia herbae et arbores fixae sunt radicibus et
+          <lb ed="#Qb"/>ita connumerantur cum terra, non sic autem de
+          <lb ed="#Qb"/>animantibus, quae facta sunt in sexto die vel
+          <lb ed="#Qb"/>quinto die. —- Sed obicitur in contrarium per
+          <lb ed="#Qb"/>ornatum factum in quarto diem: sol enim et luna
+          <lb ed="#Qb"/>et sidera facta sunt in quarto die et pertinent ad 
+          <lb ed="#Qb"/>ornatum firmamenti et fixa sunt in firmamento,—
+          <lb ed="#Qb"/>sicut dicunt philosophiö; ergo per praedictam
+          <lb ed="#Qb"/>rationem deberent in secundo die cum firma<lb ed="#Qb"/>mento
+          computari; sed non computantur; ergo
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>non est haec ratio propter quam arbores et her<lb ed="#Qb"/>bae
+          sub uno die cum terra computentur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Responderi potest vel secundum
+          <lb ed="#Qb"/>opinionem illorum qui dicunt sidera habere pro<lb ed="#Qb"/>prium
+          motum, quam opinionem recitat Augu<lb ed="#Qb"/>stinus7,
+          vel si fixa sunt " in suo orbe, sicut dicit
+          <lb ed="#Qb"/>Philosophuss, distinguendum est inter fixum
+          <lb ed="#Qb"/>et fixum. Est enim quoddam fixum, quod oritur
+          <lb ed="#Qb"/>ex illo cui est infixum, et est aliud fixum, quod
+          <lb ed="#Qb"/>factum est in illo cuius est ornatus. Primo modoa
+          <lb ed="#Qb"/>dicitur de herbis et arboribusP, secundo modo
+          <lb ed="#Qb"/>dicitur de sideribus; unde primo dicitur: Germi<lb ed="#Qb"/>net
+          terra etc., secundo dicitur 'I 9: Fiant luminaria
+          <lb ed="#Qb"/>in firmamento caeli etc. Fixum ergo quod oritur
+          <lb ed="#Qb"/>ex ' terra, sicut dicit Phil 050 p hus 10 quod terra
+          <lb ed="#Qb"/>est mater herbarum, computatur in eodem die
+          <lb ed="#Qb"/>cum illa", aliud vero fixum non computatur. Et
+          <lb ed="#Qb"/>licet dicatur " quod terra producat reptile, haec
+          <lb ed="#Qb"/>productio animantium est ut animantia accipiant
+          <lb ed="#Qb"/>materiam quodam modo elongatam ab ipsa terra:
+          <lb ed="#Qb"/>elementa enim commixta cum terra sunt materia
+          <lb ed="#Qb"/>animantium et ultra commixtionem habent quam<lb ed="#Qb"/>dam
+          aliam permixtionem; in herbis vero est
+          <pb ed="#Qb" n="347"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>commixtio a et habent materiam propinquam ter<lb ed="#Qb"/>rae.
+          Hoc autem est alterius considerationis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendum17 quod, licet dica<lb ed="#Qb"/>tur
+          hic per aequipollentiam: Fecit et factum est
+          <lb ed="#Qb"/>et vidit quod esset bonum, non tamen propter
+          <lb ed="#Qb"/>hoc debebat dici separatio diei, sed unum factum
+          <lb ed="#Qb"/>dupliciter approbatur. Terra enim fuit Sub du<lb ed="#Qb"/>plici
+          ratione, cum apparuit: habebat enim pro<lb ed="#Qb"/>priam
+          naturam, secundum quam dicebatur arida;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>habebat etiam cum humore commixtam, ratione
+          <lb ed="#Qb"/>cuius germinabat herbas etc., et sic unum factum
+          <lb ed="#Qb"/>dupliciter commendatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed quare : de mineralibus non est facta men<lb ed="#Qb"/>tio
+          4, ut lapidibus et huiusmodi? Respondeo:
+          <lb ed="#Qb"/>Videtur quode haec in terra latebant vel forte
+          <lb ed="#Qb"/>metalla et lapides pretiosi postf per operationem
+          <lb ed="#Qb"/>superiorum corporum, habentium efficaciam in
+          <lb ed="#Qb"/>terra, haecg produxerunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

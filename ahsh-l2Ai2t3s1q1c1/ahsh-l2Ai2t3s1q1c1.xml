@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 1, Q. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 1, Q. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="158"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s1q1c1">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 1, Q. 1, C. 1</head>
+        <head type="question-title">UTRUM IN ANGELIS POTENTIA SIT EADEM CUM ESSENTIA</head>
+        <p>
+          <lb ed="#Qb"/>Quod autem potentia sit eadem cum essentia,
+          <lb ed="#Qb"/>videtur 1. ex comparatione ad animam ratio<lb ed="#Qb"/>nalem.
+          Dicit enim <name ref="#Augustine">Augustinus</name>, in libro De
+          <lb ed="#Qb"/>Trinitate 2, quod <quote> memoria, intelligentia et volun—
+          <lb ed="#Qb"/>tas sunt una mens, una vita, unab essentia</quote>; sed
+          <lb ed="#Qb"/>nonnisi essentia animae rationalis; ergo potentia
+          <lb ed="#Qb"/>in anima rationali est eadem cum essentia; sed
+          <lb ed="#Qb"/>maior simplicitas est in angelo, sicut dicit Isi<lb ed="#Qb"/>dorus
+          3; ergo in angelo '-' erit potentia, ad minus
+          <lb ed="#Qb"/>aliqua, eadem cum essentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, in libro De anima et spiritu 4, dicitur quod
+    <quote> Deus est omnia " sua, anima vero est quaedam
+          <lb ed="#Qb"/>sua </quote>, ut potentiae.Ergo multo fortius est in angelo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, angelus est substantia simplex, sicut
+          <lb ed="#Qb"/>dicit Dionysius5; sede in simplici substantia
+          <lb ed="#Qb"/>idem est potentia et essentia; ergo in angelo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Summae simplicitatis est quod po<lb ed="#Qb"/>tentia
+          sit eadem cum essentia; sed 'angelus non
+          <lb ed="#Qb"/>est summe simplex; ergo non omnino idem est
+          <lb ed="#Qb"/>in angelof potentia et essentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, si idem esset omnino, non oporteret
+          <lb ed="#Qb"/>ponere potentiam-mediam in angelis inter essentiam
+          <lb ed="#Qb"/>et operationem; sed dicit Dio nysius6 quod <quote> su<lb ed="#Qb"/>percaelestia
+          dividuntur in tria, scilicet essentiam,
+          <lb ed="#Qb"/>virtutem et operationem </quote>; virtutem autem vocat
+          <lb ed="#Qb"/>potentiam; ergo potentia non est idem cum essentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Praeterea, potentia multiplex est in suo actu,
+          <lb ed="#Qb"/>essentia vero non est nisi unica in suo actu g ;
+          <lb ed="#Qb"/>ergo potentia non est idem secundum substan<lb ed="#Qb"/>tiam
+          cum essentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod potentia'f
+          <lb ed="#Qb"/>non est eadem penitus quod eSsentia. Dici tamen
+          <lb ed="#Qb"/>potest idem, sicut in anima rationali, quia se
+          <lb ed="#Qb"/>ipsa omnino potest.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta.]: 1. A d p ri rn o obiectum dicendum
+          <lb ed="#Qb"/>quod, cum dicitur quod! <quote> memoria, intelligentia et
+          <lb ed="#Qb"/>voluntas sunt una essentia </quote>, non est aliud dictu *
+          <lb ed="#Qb"/>nisi quod una essentia animae est quae potest me—
+          <lb ed="#Qb"/>minisse, intelligere et velle, non quod-sit eadem
+          <lb ed="#Qb"/>essentia in genere potentiae: tunc enim essent una
+          <pb ed="#Qb" n="159"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>potentia. Similiter potest intelligi de essentia, ra<lb ed="#Qb"/>tione
+          eius quod subest, non autem quod potentia
+          <lb ed="#Qb"/>dicatur essentia Vel substantia", sicut est in Deo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendumb quod <quote>anima est
+          <lb ed="#Qb"/>quaedam sua-</quote>, ut fiat distinctio inter potentias
+          <lb ed="#Qb"/>substantiales sive vires ex una parte et acci<lb ed="#Qb"/>dentia
+          ex' alia, quantum ad hoc quod potentiae
+          <lb ed="#Qb"/>et vires substantialiter adhaerent et unum suntc
+          <lb ed="#Qb"/>cum anima quantum ad substantiam, non dico
+          <lb ed="#Qb"/>quantum ad essentiam: potentiis enim substan<lb ed="#Qb"/>tialibus
+          subsistit anima; accidentia vero, ut
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>prudentia, fortitudo et huiusmodi, non adhaerent
+          <lb ed="#Qb"/>substantialiter, quia haec accidentaliter adsunt.
+          <lb ed="#Qb"/>Unde potentiae et vires substantiales dicuntur"I
+          <lb ed="#Qb"/>idem quod anima ratione indivisionis et adhae<lb ed="#Qb"/>rentiae
+          substantialis, accidentia vero non, quia
+          <lb ed="#Qb"/>substantialiter non adhaerent.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendume quod, licet sim<lb ed="#Qb"/>plicitas
+          sit in angelo, non est tamen omnimoda
+          <lb ed="#Qb"/>simplicitas, et ideo non est idemf potentia quod
+          <lb ed="#Qb"/>essentia omnino, quia nihil est sua potentia pe<lb ed="#Qb"/>nitus
+          praeterquam Deus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

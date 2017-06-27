@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 3, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 3, Praeambulum</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s1q3t2m3prae">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 3, Praeambulum</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur de aequalitate a iustitia. Et non inten<lb ed="#Qb"/>dimus 
+          hic de huiusmodi aequalitate, secun<lb ed="#Qb"/>dum
+          <lb ed="#Qb"/>quod physici ' intendunt, quae attenditur pe<lb ed="#Qb"/>nes
+          <lb ed="#Qb"/>mensuram elementorum cum suis quantitatibus
+          <lb ed="#Qb"/>et qualitatibus in optima proportione quam debet
+          <lb ed="#Qb"/>habere natura humana, de qua dicit Avicenn at:
+    <quote> Debes scire quod 'aequale', de quo medici in
+          <lb ed="#Qb"/>suis inquisitionibus tractant, non est denominatum
+          <lb ed="#Qb"/>ab aequalitate, in quau aequalitas cum pondere
+          <lb ed="#Qb"/>aequaliter existit, sed denominatur a' iustitia in
+          <lb ed="#Qb"/>divisione: et hoc est quod complexionatum" in
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>primis attenditur, sive sit corpus totum sive sit
+          <lb ed="#Qb"/>membrum unum *, ut sit in eo de elementis cum
+          <lb ed="#Qb"/>suis quantitatibus et qualitatibus mensura, quam
+          <lb ed="#Qb"/>humana natura habere debet secundum meliorem
+          <lb ed="#Qb"/>proportionis et divisionis aequitatem </quote>. Sed inten<lb ed="#Qb"/>dimus
+          de illa aequalitate quae fuit in corpore Adae
+          <lb ed="#Qb"/>a divina iustitia ante peccatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quaeritur ergo:
+          <lb ed="#Qb"/>Primo, de aequalitate collata;
+          <lb ed="#Qb"/>secundo, de aequalitate eadem sublata;
+          <lb ed="#Qb"/>tertio, de eadem restituta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

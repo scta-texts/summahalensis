@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 1, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 1, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q2t1m2c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 1, M. 2, C. 2</head>
+        <head type="question-title">UAN OMNES ISTAE DIFFERENTIAE VlRIUM CONTINEANTUR SUB IMAGINATIONE.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur utrum omnes differentiae divi<lb ed="#Qb"/>sionis, 
+          factae secundum Avicennam et se<lb ed="#Qb"/>cundum 
+          D a m a s c e n u m, contineantur sub ima<lb ed="#Qb"/>ginatione, 
+          quam ponit <name ref="#Augustine">Augustinus</name>, in libro
+          <lb ed="#Qb"/>De anima et spiritu 7.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod non videtur: 1. Imaginatio enim sive ima<lb ed="#Qb"/>ginativa
+          est una de illis; si ergo illa dividit con—
+          <lb ed="#Qb"/>tram sensum communem et excogitativam et ita
+          <lb ed="#Qb"/>de aliis, non erit imaginatio communis ad illas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, secundum rationem positam ab
+          <lb ed="#Qb"/>Augustinos, <quote>imaginatio est vis animae, quae
+          <lb ed="#Qb"/>formas corporeas rerum corporearum percipit,
+          <lb ed="#Qb"/>sed absentes </quote> sive" absente materia; cum ergo
+          <lb ed="#Qb"/>perceptiva dividatur contra custoditivam et? com<lb ed="#Qb"/>positivam,
+          non continebit memorativam et cogi<lb ed="#Qb"/>tativam,
+          quae compositiva est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Omnes interiores vires potentiae
+          <lb ed="#Qb"/>sensitivae cogitativae participant formas sensibiles
+          <lb ed="#Qb"/>absente materia; ergo ad illam differentiam re<lb ed="#Qb"/>ducuntur.
+          — Quod concedendum est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1-2. Ad obiectum autem respon<lb ed="#Qb"/>dendum
+          4 quod imaginativa accipitur dupliciter:
+          <lb ed="#Qb"/>vel generaliter pro ' omni vi attingente formas
+          <lb ed="#Qb"/>sensibiles, absente materia, et sic accipit Augu<lb ed="#Qb"/>stinu
+          s, et 3 hoc modo omnes continentur sub
+          <lb ed="#Qb"/>imaginatione; si vero accipiatur imaginatio tan<lb ed="#Qb"/>tum
+          pro virtute quae operatur tantum super
+          <lb ed="#Qb"/>huiusmodi formas in anteriori parte cerebri, sic
+          <lb ed="#Qb"/>accipit D a m a s c e n u s 9, dicens quod <quote> organum
+          <lb ed="#Qb"/>imaginativi est anterior ventriculus cerebri</quote>, et se<lb ed="#Qb"/>cundum
+          hoc dividit contrat cogitativam quae com<lb ed="#Qb"/>ponit"
+          et memorativam quae conservat. Praeterea,
+          <lb ed="#Qb"/>imaginatio, secundum Avicennam 10, dicitur illa
+          <lb ed="#Qb"/>quae operatur in medio ventriculo cerebri et est
+          <lb ed="#Qb"/>compositiva vel divisiva, et sic specialiter accipitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

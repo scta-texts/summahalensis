@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="180"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m2c5">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 5</head>
+        <head type="question-title">UTRUM ANGELI PRAESCIERINT SUAM CONFIRMATIONEM VEL CASUM.</head>
+        <p>
+          <lb ed="#Qb"/>Quaestio estk de angelis bonis utrum praevi<lb ed="#Qb"/>derint
+          suam permansionem, et de angelis
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>malis utrum praesciverint "' suum casum vel non.
+          <lb ed="#Qb"/>Et primo de bonis quaerendum est.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head type="question-title">Utrum angeli boni praeviderint suam permanentiam 2.</head>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod praescii essent: 1. Beatitudo
+            <lb ed="#Qb"/>enim non est sine certitudine status; sed angeli
+            <lb ed="#Qb"/>boni, sicut dicit <name ref="#Augustine">Augustinus</name>, beati erant in
+            <lb ed="#Qb"/>illo statu; unde dicit, in libro De fide ad Pe<lb ed="#Qb"/>trum
+            3: <quote>Angelici spiritus pro eo quod rationales
+            <lb ed="#Qb"/>facti sunt, aeternitatis et beatitudinis donum in
+            <lb ed="#Qb"/>ipsa naturae" spiritualis creatione divinitus ac<lb ed="#Qb"/>ceperunt</quote>. 
+            Et, in libro De ecclesiasticis dogma<lb ed="#Qb"/>tibus 4: 
+      <quote> Angeli, qui in illa, qua creati sunt, bea<lb ed="#Qb"/>titudine
+            perseverant, non" natura possident ut
+            <lb ed="#Qb"/>non mutenturP cum ceteris </quote>. Beatitudo autem
+            <lb ed="#Qb"/>non est sine certitudine status; unde Augusti<lb ed="#Qb"/>nus5:
+      <quote>Sancti angeli aeternae? vitae suae ac
+            <lb ed="#Qb"/>beatitudinis non sunt incerti; nam quomodo
+            <lb ed="#Qb"/>beati, si incerti?</quote> Ergo angeli boni praescii
+            <lb ed="#Qb"/>erant suae permansionis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, excellentior tuit status angelorum tunc
+            <lb ed="#Qb"/>quam nunc sit hominum: nunc enim sunt ho<lb ed="#Qb"/>mines
+            in miseria aliqua, sed angeli in nulla; sed
+            <lb ed="#Qb"/>homines boni dicuntur nuncs beati in spe, et ita
+            <lb ed="#Qb"/>habent Certitudinem spei; ergo angeli boni multo
+            <lb ed="#Qb"/>fortius tunc erant beati in spe; sed certitudo spei
+            <lb ed="#Qb"/>non estt sine cognitione in qua radicatur; ergo
+            <lb ed="#Qb"/>habuerunt cognitionem suae permansionis; ergo
+            <lb ed="#Qb"/>praescii erant.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, praescientia futurorum, est essentialiter
+            <lb ed="#Qb"/>in Deo, et potest praescientia convenire creaturae
+            <lb ed="#Qb"/>ex dono Creatoris nec hoc repugnat intellectuali
+            <lb ed="#Qb"/>naturae conditae; nulli autem convenientius aptari
+            <lb ed="#Qb"/>potuit quam angelicae, et in angelica natura con<lb ed="#Qb"/>venientius
+            illis qui permansuri erant; ergo angeli
+            <lb ed="#Qb"/>illi ex conditione acceperunt quod praescii erant
+            <lb ed="#Qb"/>Suae salutis. .
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Si praescii essent suae stabilitatis,
+            <lb ed="#Qb"/>necessario permansissent; si autem ex necessitate
+            <lb ed="#Qb"/>permansissent, non eis imputaretur ad meritum
+            <lb ed="#Qb"/>permanere; sed imputabatur ad meritum; ergo
+            <lb ed="#Qb"/>non necessario permanserunt; ergo non " praesci<lb ed="#Qb"/>verunt:
+            cum enim esset futurum contingens, po<lb ed="#Qb"/>terant
+            non stare, et ita non essent praescii suae V
+            <lb ed="#Qb"/>permansionis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, aut pares erant angeli in condi<lb ed="#Qb"/>tione
+            quantum ad gratiam donorum aut non erant
+            <lb ed="#Qb"/>pares. Si erant pares: sed illi, qui erant casui-i,
+            <lb ed="#Qb"/>non erant praescii suae stabilitatis in bono, cum
+            <lb ed="#Qb"/>non futura erat; ergo nec ipsi boni praescii erant.
+            <lb ed="#Qb"/>Si vero impares erant: ergox datum est permanen<lb ed="#Qb"/>tibus
+            quod non est datum cadentibus; ergo non
+            <lb ed="#Qb"/>est imputandum istis si ceciderunt, qui hoc dono
+            <lb ed="#Qb"/>caruerunt.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="181"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>c. Item, <quote>scientia est fructus pietatis 1 </quote>; sed
+            <lb ed="#Qb"/>antequam adhaererent suo Creatori, non habue—
+            <lb ed="#Qb"/>runt fructum pietatis; ergo nec habuerunt" illam
+            <lb ed="#Qb"/>scientiam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendumb quod non ha<lb ed="#Qb"/>buerunt
+            praescientiam suae stabilitatis, sed nunc
+            . habent scientiam illam. Unde <name ref="#Augustine">Augustinus</name>, Ad
+            <lb ed="#Qb"/>Orosiumzz <quote> Omnes angeli aequales creati sunt,
+            <lb ed="#Qb"/>sed cadentibus illis per superbiam, ceteri Domino
+            <lb ed="#Qb"/>pia obedientia cohaeserunt, accipientes certam
+            <lb ed="#Qb"/>scientiam suae stabilitatis, quam 0 illi nunquam
+            <lb ed="#Qb"/>habuerunt, et sic sunt gratia Dei omnibus circum<lb ed="#Qb"/>dati,
+            ut nunquam possint cadere a beata vita </quote>.
+            <lb ed="#Qb"/>Item d, <name ref="#Augustine">Augustinus</name>, De civitate Dei, XI 3:
+      <quote>Ipsi certi sunt suae felicitatis aeternae, cuius illi
+            <lb ed="#Qb"/>alii, quia certi non fuerunt — non enim aeterna
+            <lb ed="#Qb"/>erat eorum felicitas, cuius certi essent, quae finem
+            <lb ed="#Qb"/>erat habiturae —- restat ut aut impares fuerint aut,
+            <lb ed="#Qb"/>si pares fuerunt, post istorumf ruinam illis certa
+            <lb ed="#Qb"/>scientia suae sempiternae felicitatis accesserit </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum ergo dicendum
+            <lb ed="#Qb"/>quod beatitudo dicitur multis modis. Uno modo
+            <lb ed="#Qb"/>dicitur beatitudo status intellectualis naturae sine
+            <lb ed="#Qb"/>omni miseria: et secundum hoc poterant dici
+            <lb ed="#Qb"/>beati in illo primo statu; alio vero modo 'dicitur
+            <lb ed="#Qb"/>beatitudo status intellectualis naturae in delecta<lb ed="#Qb"/>tione
+            summi bonig cum certa scientia perma<lb ed="#Qb"/>nendi:
+            et h secundum hunc modum non erant beati.
+            <lb ed="#Qb"/>De prima beatitudine loquituri A ugustin us, in
+            <lb ed="#Qb"/>libro De fide ad Petrum, et similiter in libro De
+            <lb ed="#Qb"/>ecclesiasticis dogmatibus ; de secunda vero A u g u<lb ed="#Qb"/>sti
+            11 us, Super Genesim ad litteram, in auctoritate
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>supra posita 4. Unam k concomitatur certa scientia
+            <lb ed="#Qb"/>permansionis, alteram vero non concomitatur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad aliud dicendum quod status sancto<lb ed="#Qb"/>rum
+            hominum quantum ad aliquid magis beatus
+            <lb ed="#Qb"/>potest dici quam angelorum in primo statu, quan<lb ed="#Qb"/>tum
+            ad aliquid minus beatus. Quantum enim ad
+            <lb ed="#Qb"/>admixtioneml miseriae minus beatus est iste sta<lb ed="#Qb"/>tus;
+            quantum autem ad gratiam spei, quae pro<lb ed="#Qb"/>venit
+            ex gratia et merito Christi et eorum, dicitur
+            <lb ed="#Qb"/>beatior status hominum: non enim angeli in illo
+            <lb ed="#Qb"/>statu habuerunt confidentiam ex gratia etm suis
+            <lb ed="#Qb"/>meritis vel alienis. Supposito" autem quod con<lb ed="#Qb"/>diti
+            essent ornati gratuitis, confidentiam humilem
+            <lb ed="#Qb"/>habuerunt ex gratia quod pervenirent ad ulterio—
+            <lb ed="#Qb"/>rem gratiam; et propter hoc dicit <name ref="#Augustine">Augustinus</name>,
+            <lb ed="#Qb"/>Super Genesim ad litteram": <quote> De angelis" qui<lb ed="#Qb"/>busdam
+            quod fuerunt beati in quodam genere,
+            <lb ed="#Qb"/>incertiP suae salutis, quibus nec spesq subesset
+            <lb ed="#Qb"/>quod aliquando et ipsi aliqua mutatione in melius,
+            <lb ed="#Qb"/>certi de hac re futuri essent, vix ierenda' est
+            <lb ed="#Qb"/>praesumptio </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad tertium dicendum quod praescientiam,
+            <lb ed="#Qb"/>quam habet Deus essentialiter et naturaliter, nulla
+            <lb ed="#Qb"/>creatura habet nisi ex dono quodammodo parti<lb ed="#Qb"/>cipando,
+            nisi humana natura in Christo; sed hoc
+            <lb ed="#Qb"/>non ests ex initio suae conditionis, quod an<lb ed="#Qb"/>gelus
+            habet praescientiam suae stabilitatis. Unde,
+            <lb ed="#Qb"/>in*.Sententiarum II libro, dist. 56, enumeratis
+            <lb ed="#Qb"/>diversis opinionibus, dicit quod probabilius vi<lb ed="#Qb"/>detur
+            quod non fuerint praescii suae perman<lb ed="#Qb"/>sionis,
+            sicut nec alii sui casus et quod non iue<lb ed="#Qb"/>rint
+            beati nisi " beatitudine innocentiae.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum mali angeli praescii erant sui casus.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur de illis qui futuri erant mali 
+            <lb ed="#Qb"/>utrum praescii erant sui casus 7.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod. non, a. arguit Augu sti n us 8 sic: <quote>Non
+            <lb ed="#Qb"/>potuit Lucifer V esse praescius sui casus, quoniam
+            <lb ed="#Qb"/>sapientia fructus est pietatis </quote>. Sed non habuerunt
+            <lb ed="#Qb"/>pietatem; ergo non habuerunt illamx sapientiam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name> 7, De correptione et
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ratione intelligitur; sed quod potest non esse, non
+            gratiag: <quote>Diabolus et angeli eius, etsi beati erant
+            <lb ed="#Qb"/>antequam caderent etz se in miseriam casuros
+            <lb ed="#Qb"/>nesciebant, erat tamen quod eorum adderetur bea<lb ed="#Qb"/>titudini, 
+            si per liberum arbitrium in veritate ste<lb ed="#Qb"/>tissent</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, sic arguit Anselm us, in libro De casu
+            <lb ed="#Qb"/>diaboli 10: <quote> Scientia non est nisi cum aliquid certa
+            <lb ed="#Qb"/>ratione intelligitur; sed quod potest non esse, non
+            <pb ed="#Qb" n="182"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>potest certa ratione intelligi esse </quote>; potuit autem
+            <lb ed="#Qb"/>esse non cadere Luciferum a; ergo non potuit
+            <lb ed="#Qb"/>tunc certa ratione intelligere casum suum; ergo
+            <lb ed="#Qb"/>nec scire b; quare nec praescire.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. ltem l, si in bona voluntate stans praesciebat
+            <lb ed="#Qb"/>se casurum, aut volebat ut ita fieret aut non volebat;
+            <lb ed="#Qb"/>sed si cum praescientia volunta.tem habebat l
+            <lb ed="#Qb"/>aliquando cadendi, iam ipsa mala voluntate ceciderat;
+            <lb ed="#Qb"/>non ergo volendo cadere, prius scivit se ·
+            <lb ed="#Qb"/>casurum quam cecidit. At c si praesciebat se casurum
+            <lb ed="#Qb"/>et nolebat, tanto miser erat dolendo, quanto
+            <lb ed="#Qb"/>stare volebat d ac tanto iustior, quanto stare volebat;
+            <lb ed="#Qb"/>et quo era t ejustior, eo debebat esse felici or;
+            <lb ed="#Qb"/>ergo si nolendo f praesciebat ',se esse casurum,
+            <lb ed="#Qb"/>tanto era t miseri or, quanto debebat esse felici or:
+            <lb ed="#Qb"/>quod non convenit.
+         </p>
+          <p>
+            <lb ed="#Qb"/>e. Item, Ber n a r d u s 2 : <quote> Si praevidisti g praecipitium,
+            <lb ed="#Qb"/>quae fuit insania ut h cum tanta miseria
+            <lb ed="#Qb"/>cuperes principari, ut malles misere 1 praeesse
+            <lb ed="#Qb"/>quam feliciter su besse? Aut non expediebat k
+            <lb ed="#Qb"/>participem esse plagarum illarum luminosarum
+            <lb ed="#Qb"/>magis quam principem tenebrarum? </quote> Ex iis rationibus
+            <lb ed="#Qb"/>et auctoritatibus videtur quod 1 non erant
+            <lb ed="#Qb"/>praescii sui casus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>f. Item, praescientia poenae in eo qui puniendus
+            <lb ed="#Qb"/>est non potest esse sine dolore; dolor autem
+            <lb ed="#Qb"/>poena quaedam est; sed nondum fui t culpa; ergo
+            <lb ed="#Qb"/>prius Deus fuit ultor in poena quam esset culpa 3•
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Ber n a r d u s 4 : <quote>Si in praescientia
+            <lb ed="#Qb"/>Dei tuum praevidisti principatum, quare non et m
+            praecipitium? </quote> quasi diceret: similiter poteras
+            praevidisse.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, Augusti nus, in n Quaestion. Veteris
+            Testamenti 5 : <quote>Praevidit quod ad accusationem
+            eius 0 factus est homo</quote>. Sed si P praevidit accusationem
+            ex parte hominis, accusatio autem non
+            est nisi de culpa, ergo praevidit culpam suam;
+            ergo et casum suum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. ltem, Ber n a r d u s 6, exponens illud 7 : <quote>Ponam
+            <lb ed="#Qb"/>sedem meam ad aquilonem</quote>, dici t: <quote>Puto per
+            <lb ed="#Qb"/>aquilonem reprobandos homines intelligi, per se-
+            <lb ed="#Qb"/>dem potestatem in illos </quote>· Sed si praevidit dominium
+            suum super illos, praevidit suum q peccatum,
+            per quod quasi per effectum principaretur;
+            ergo erat praescius sui casus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod non erat
+            <lb ed="#Qb"/>praescius sui casus. Unde Ber n a r d u s, De gradi<lb ed="#Qb"/>bus 
+            humilitatis 8 : <quote>Credibilius est quod non 
+            <lb ed="#Qb"/>praevidisti, aut propter illam causam quam superius
+            <lb ed="#Qb"/>dixi, quia, bonitatem Dei a ·attendens, dixisti
+            <lb ed="#Qb"/>in corde tuo b 9 ; Non requiret c, propter quod
+            <lb ed="#Qb"/>impie Deum irritasti d :; aut quia viso principatu,
+            <lb ed="#Qb"/>in oculo statim superbiae trabes excrevit,
+            <lb ed="#Qb"/>qua interposita casum videre non potuit. Sic e
+            <lb ed="#Qb"/>Ioseph, cum praevidisset suam exaltationem 1o,
+            <lb ed="#Qb"/>non praevidit venditionem, non quod tantum Patriarcham
+            <lb ed="#Qb"/>in superbiam crediderim incidisse, sed
+            <lb ed="#Qb"/>ut eius f exemplo pateat quod ii qui futura praevident
+            <lb ed="#Qb"/>spiritu prophetiae, etsi non omnia, non ideo
+            <lb ed="#Qb"/>tamen putandi sunt nulla vidisse </quote>, Item, A n s elmus,
+            <lb ed="#Qb"/>De casu diaboli 11 : <quote> Quia g rationalis era t,
+            <lb ed="#Qb"/>potuit intelligere quia iuste puniretur, si peccaret;
+            <lb ed="#Qb"/>sed quoniam iudicia Dei abyssus mqlta 12 et investigabiles
+            <lb ed="#Qb"/>viae eius 13 , nequivit comprehendere
+            <lb ed="#Qb"/>quod Deus faceret quod iuste facere posset </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta.]: l. A d primo obiectum· dicendum
+            <lb ed="#Qb"/>quod non est simile videre principatum et
+            <lb ed="#Qb"/>videre praecipitium. Videre enim principatum non
+            <lb ed="#Qb"/>importa t secum poenam; sed potuit h videre principatum
+            <lb ed="#Qb"/>et recte et non recte, et ita 1 huiusmodi
+            <lb ed="#Qb"/>cognitio pertinebat ad primum statum. Sed videre
+            <lb ed="#Qb"/>praecipitium quoad hoc cum importet secum
+            <lb ed="#Qb"/>poenam in eo qui punitur; poena autem non praecedit
+            <lb ed="#Qb"/>culpam, illa cognitio sive praevisio non congruebat
+            <lb ed="#Qb"/>primo statui angelorum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. A d a I i u d dicendum quod illud quod dici t
+            <lb ed="#Qb"/>A u g u s t i n u s de praevisione accusatoris, hoc fui t
+            <lb ed="#Qb"/>in ratione post casum suum, non ante, sicut ex ipsa
+            <lb ed="#Qb"/>serie auctoritatis in iis quae sequuntur elici potest.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. A d t erti u m dicendum quod k praevidere
+            <lb ed="#Qb"/>dominium suum super malos 1 non ponit necessario
+            <lb ed="#Qb"/>praevidere m casum suum. Est enim duplex
+            <lb ed="#Qb"/>dominatio: una, qua peccator subicitur diabolo insequendo
+            <lb ed="#Qb"/>voluntatem eius vel suggestionem, quae
+            <lb ed="#Qb"/>non est sin e peccato dia boli praecedente; est iterum
+            <lb ed="#Qb"/>- alia dominatio, quae est in angelo ex conditione
+            <lb ed="#Qb"/>naturae vel ex dono gratiae: et hanc
+            <lb ed="#Qb"/>poterat praevidere ante casum suum nec tamen
+            <lb ed="#Qb"/>praevideret n casum suum. Et per h une modum
+            <lb ed="#Qb"/>potuit 0 intelligi illud,quod dicit Bernardus. Vel
+            <lb ed="#Qb"/>illa positio sedis ad aquilonem ad appetitum eius
+            <lb ed="#Qb"/>refertur, in quo peccavit, et ~ic videtur exponere
+            <lb ed="#Qb"/>B. Ber n a r d u s 14 : <quote>Unus Altissimus sua sapientia
+            <lb ed="#Qb"/>ac bonitate omnibus filiis P obedientiae praeerat
+            <lb ed="#Qb"/>q' ita et tu, super omnes filios superbiae
+            <lb ed="#Qb"/>constitutus, tua astuta malitia praeesses</quote>.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Qualiter intelligatur verbum <name ref="#Augustine">Augustini</name> 
+            <mentioned>sapientia est fructus pietatis</mentioned>
+          </head>
+          <p>
+                  <pb ed="#Qb" n="183"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Deinde quaeritur ratione illius verbi quod supra
+            <lb ed="#Qb"/>dixit " A u gu s t i n u s 1 quod non potuit praevi<lb ed="#Qb"/>dere
+            casum suum, quia <quote> sapientia est fructus
+            <lb ed="#Qb"/>pietatis </quote>. Quaeritur enim de qua sapientia ibidem
+            <lb ed="#Qb"/>loquitur 2.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Si enim loquatur de sapientia dono, planum
+            <lb ed="#Qb"/>est quod ipsa est pertinens ad pietatem, quae est
+            <lb ed="#Qb"/>eeoaäBe-ta 3; quid ad hoc quod angelus 'non praesciat
+            <lb ed="#Qb"/>casum suum? Si enim alicui, habenti praesentem
+            <lb ed="#Qb"/>iustitiam, revelaretur sua damnatio, hoc posset
+            <lb ed="#Qb"/>esse occasio ut abstineret a malis pluribus, ut mi<lb ed="#Qb"/>nueretur
+            sua damnatio, et ita huiusmodi sapientia
+            <lb ed="#Qb"/>ordinareturf' ad commodum illius in quo esset.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendumc quod, cum di—
+            <lb ed="#Qb"/>citur <quote> sapientia est fructus pietatis </quote>, ibi acci<lb ed="#Qb"/>pitur
+      <quote> sapientia </quote> pro scientia deiformi, data ra<lb ed="#Qb"/>tionali
+            creaturae ad suum commodum spirituale;
+            <lb ed="#Qb"/>et dicitur <quote>fructus pietatis </quote>, quia datur" illi in
+            <lb ed="#Qb"/>quo est pietas, id est Oeocäsm- Sed e scientia
+            <lb ed="#Qb"/>praevidendi suam damnationem est dispositio pro<lb ed="#Qb"/>pinqua
+            ad hoc ut homo cadat in perpetuam tri<lb ed="#Qb"/>stitiam
+            et desperationem, et ita non datur homini
+            <lb ed="#Qb"/>existenti in statu innocentiae vel inf statu gra<lb ed="#Qb"/>tiae:
+            haec enim plus diSponeret ad damnum quam
+            <lb ed="#Qb"/>ad commodum spirituale.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad idg quod obicitur, dicen<lb ed="#Qb"/>dum
+            " quod, licet haec scientia posset esse occasio
+            <lb ed="#Qb"/>alicuius boni in eo cui' esset data, tamen, quia ut
+            <lb ed="#Qb"/>frequentius disponeret ad damnum, ideo existenti<lb ed="#Qb"/>bus
+            in bono statu non congruit huiusmodi scien<lb ed="#Qb"/>tia.
+            Nec est simile de scientia praevidendi suam
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>salvationem, quia illa k disponit bene se habentem
+            <lb ed="#Qb"/>ad maius bonum spirituale.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Item, obicitur sic4: Nonne Dominus posset ei
+            <lb ed="#Qb"/>revelare casum suum, dicendo: tu cades per su<lb ed="#Qb"/>perbiam,
+            sicut revelavit Petro, dicens5: Ter me
+            <lb ed="#Qb"/>negabis? et si Dominus revelasset ei, praesciret;
+            <lb ed="#Qb"/>ergo potuit praescire casum suum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Ad quod dicunt5 quod, licet Deus sic prae<lb ed="#Qb"/>diceret
+            ei, non tamen poterat praescire casum suum,
+            <lb ed="#Qb"/>quia sicut praedixit Dominus per Ionam Ninivitis
+            <lb ed="#Qb"/>de subversione Ninive spirituali 7, tamen ipsi in<lb ed="#Qb"/>telligebant
+            de subversione corporali et sub con<lb ed="#Qb"/>ditione
+            'si non poeniterent ', ita posset intelligere
+            <lb ed="#Qb"/>dictum Domini sub conditione ' nisi ipse caveret ',
+            <lb ed="#Qb"/>et ita non esset certus de sua damnatione. Alii3
+            <lb ed="#Qb"/>dicunt quod nec potuit praescire nec Dominus
+            <lb ed="#Qb"/>potuit revelare.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed videtur dicendum9 quod respicien<lb ed="#Qb"/>dum
+            est quid decet' summam bonitatem et quid
+            <lb ed="#Qb"/>expedit creaturae rationali. Non expedit enim
+            <lb ed="#Qb"/>creaturae rationali huiusmodi certitudo, dum est
+            <lb ed="#Qb"/>in'statu bono, nec decet Dominum dare sic exi<lb ed="#Qb"/>stenti
+            nisi quod est ad commodum spirituale.
+            <lb ed="#Qb"/>Unde, licet possit de potentia absoluta, non facit
+            <lb ed="#Qb"/>nisi quod decet ipsum. Nec est simile de reve<lb ed="#Qb"/>latione
+            facta'" Petro: huiusmodi enim" revelatio
+            <lb ed="#Qb"/>fuit de casu ad tempus, non de casu perpetuo.
+            <lb ed="#Qb"/>Revelatio vero de casu ad tempus ordinatur ad
+            <lb ed="#Qb"/>hoc quod homo fortior resurgat post poeniten<lb ed="#Qb"/>tiam; 
+            revelatio vero de casu perpetuo magis or<lb ed="#Qb"/>dinat
+            ad contrarium.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

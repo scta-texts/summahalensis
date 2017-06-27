@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="210"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t1d1m2c2">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 2, C. 2</head>
+        <head type="question-title">DE RATIONE IN ANGELO.</head>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head type="question-title">Utrum ratio superior et ratio inferior sint in angelis.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde post considerationem liberi arbitrii in
+            <lb ed="#Qb"/>angelis dicendum est de duabus portionibus
+            <lb ed="#Qb"/>rationis, scilicet superiori" et inferiori, utrum sint
+            <lb ed="#Qb"/>in angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod sic: 1. Si enim ratio est in an<lb ed="#Qb"/>gelis,
+            sicut supra habitum est 3 per hoc quod dicit
+            <lb ed="#Qb"/>B. Bernardus et Ioannes Dama5cenus,
+            <lb ed="#Qb"/>partes autem sive portiones rationis sunt duae,
+            <lb ed="#Qb"/>quarum una supernis i inspiciendis et consulendis
+            <lb ed="#Qb"/>inhaerescit, sicut dicit <name ref="#Augustine">Augustinus</name>, in libro
+            <lb ed="#Qb"/>De Trinitate 9, altera vero intendit gubernationi
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>inferiorum: cum autem in angelis est'f conside<lb ed="#Qb"/>rare
+            duplicem respectum, scilicet ad Deum qui
+            <lb ed="#Qb"/>supra est, et ad inferiora quae subsunt, ergo
+            <lb ed="#Qb"/>utraque portio rationis debet esse. in angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, super illud I Cor. 11,7: Vir non
+            <lb ed="#Qb"/>debet velare caput suum, quia imago Deil est etc.,
+            <lb ed="#Qb"/>dicit A u gu stin us 10 quod superior pars rationis
+            <lb ed="#Qb"/>non est cohibenda ut se ab- aeternis abstineat,
+            <lb ed="#Qb"/>inferior vero, quae derivatur ad actionem tempo<lb ed="#Qb"/>ralium,
+            cohibenda est. Cum ergo in primo angelo,
+            <lb ed="#Qb"/>si continuisset se ab interioribus bonis et totaliter
+            <lb ed="#Qb"/>inhaesisset summo bono, non fuisset peccatum,
+            <pb ed="#Qb" n="211"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>patet 'quod utramque rationem considerandi ha<lb ed="#Qb"/>buit
+            primus angelus; ergo utramque partem ra<lb ed="#Qb"/>tionis
+            habuit 0, secundum quod ratio motiva est
+            <lb ed="#Qb"/>ad Superna vel inferiora.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Hae differentiae, sicut dicit Au gu—
+            <lb ed="#Qb"/>stinus', sic distinguuntur, utb una pertineat ad vi<lb ed="#Qb"/>rum,
+            altera ad'mulierem; sed differentia viri et mu<lb ed="#Qb"/>lieris
+            vere vel proportionaliter non invenitur in an<lb ed="#Qb"/>gelo;
+            ergo nec istae differentiae seu partes rationis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, dicit Au gustin usz' quod ser<lb ed="#Qb"/>pens
+            suggerit inferiori parti rationis,,scilicet sen<lb ed="#Qb"/>sualitatic,
+            cum suo motu movetur; sed motus
+            <lb ed="#Qb"/>sensualitatis non est in angelo nec esse potest;
+            <lb ed="#Qb"/>ergo suggestio talis, secundum quam inferior pars
+            <lb ed="#Qb"/>rationis, quae est ad modum mulieris, possitd
+            <lb ed="#Qb"/>moveri, non est in angelise; non ergo praedictae
+            <lb ed="#Qb"/>differentiae sunt in angelis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Praeterea, dicit <name ref="#Augustine">Augustinus</name>3 'quOd se—
+            <lb ed="#Qb"/>cundum utramque differentiam est peccatum; sed
+            <lb ed="#Qb"/>in angelo non est duplex differentia, secundum
+            <lb ed="#Qb"/>quam potest esse peccatum, sed unica tantum;
+            ergo non sunt haef differentiae in angelo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod hae diffe<lb ed="#Qb"/>rentiae,
+            secundum quod distinguunturä ab Au<lb ed="#Qb"/>gustino,
+            in libro De Trinitate4, proprie sunt
+            <lb ed="#Qb"/>hominis, cuius ratio media est inter Deum et
+            <lb ed="#Qb"/>corpus proprium sive sensualitatem regendam, et
+            <lb ed="#Qb"/>quia in angelo non est ratio media inter illa duoh
+            — ratio enim in angelis separata est a corpore
+            <lb ed="#Qb"/>proprio sibi unito et aSSumpto -— ideo non habet
+            <lb ed="#Qb"/>duplicem respectum.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id vero quod obicitur
+            <lb ed="#Qb"/>in contrarium, dicendum quod, licet ratio sive vis
+            <lb ed="#Qb"/>motiva in angelo habuerit naturaliter duplicem
+            <lb ed="#Qb"/>respectum, scilicet ad superiora et ad i inferiora,
+            <lb ed="#Qb"/>non tamen habuit hanc duplicem differentiam: non
+            <lb ed="#Qb"/>enim habet respectum ad corpus sibi unitum,
+            <lb ed="#Qb"/>quemadmodum subiectum suae/f formae aut per<lb ed="#Qb"/>fectioni,
+            vel ad sensualitatem. Ex hac autem com<lb ed="#Qb"/>paratione
+            ad inferius sumitur una differentia ra<lb ed="#Qb"/>tionis
+            in homine, non ex comparatione ad quod<lb ed="#Qb"/>cumque
+            inferius; et ideo non est ibi duplex rationis
+            <lb ed="#Qb"/>portio aut differentia: non enim ex quacumque
+            <lb ed="#Qb"/>gubernatione inferiorum accipitur duplex portio
+            <lb ed="#Qb"/>rationis, sed ex gubernatione sensualitatis et cor<lb ed="#Qb"/>poris
+            cuius est perfectio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundum vero dicendum' quod,
+            <lb ed="#Qb"/>licet ex utraque parte movendo indebite potuit
+            <lb ed="#Qb"/>peccare angelus, non tamen erat haec'" duplex
+            <lb ed="#Qb"/>differentia, quarum una viro comparatur, alia mu<lb ed="#Qb"/>lieri;
+            non enim est delectatio" sensualis, ut ex
+            <lb ed="#Qb"/>qua moveatur ratio in angelis, sed delectatio in
+            <lb ed="#Qb"/>re mutabili potest esse in angelo: penes autem
+            <lb ed="#Qb"/>illam non attenditur praedicta differentia. Unde
+            <lb ed="#Qb"/>nisi poneretur duplex motivum in angelo 5, quorum
+            <lb ed="#Qb"/>utrumque posset converti ad bonum commutabile
+            <lb ed="#Qb"/>et averti ab " incommutabili bono, non poneretur
+            <lb ed="#Qb"/>haec duplex rationis differentia. Aliquando enim
+            <lb ed="#Qb"/>inferior pars rationis peccat sine superiori, ali<lb ed="#Qb"/>quando
+            autem ipsa superior pars rationis peccat
+            <lb ed="#Qb"/>consentiendo inferiori: et tunc dicitur mulier-P de<lb ed="#Qb"/>disse
+            cibum viro.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">Utrum in angelis possit esse duplex motivum</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur utrum in angelis possit esse
+            <lb ed="#Qb"/>duplex motivum: per modum intellectus et per
+            <lb ed="#Qb"/>modum phantasiae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur 1. per hoc quod dicit Diony<lb ed="#Qb"/>si
+            11 s 7 quod phantasia proterva est in daemonibus;
+            <lb ed="#Qb"/>hoc autem non esset nisi aliquando moverentur!
+            'secundum phantasiam; ergo phantasia' .potest
+            <lb ed="#Qb"/>esse in angelis tamquam motivum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, dicit Philosophus 3 quod intel<lb ed="#Qb"/>lectus
+            semper est rectus, phantasia autem recta
+            <lb ed="#Qb"/>et non rectas; ergo, cum possibilitast ad recti<lb ed="#Qb"/>tudinem
+            et suum oppositum fuerit a principio in
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>angelis", videtur in angelis potius motivum ad
+            <lb ed="#Qb"/>modum phantasiae quam intellectus, nunc" au<lb ed="#Qb"/>tem
+            in bonis per modum intellectus, in malis
+            <lb ed="#Qb"/>per modum phantasiae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Phantasia est secundum sensibilem
+            <lb ed="#Qb"/>partem; sensibilis autem pars non est in angelis;
+            <lb ed="#Qb"/>ergo nec phantasia. — Quod ex ratione phan—
+            <lb ed="#Qb"/>tasiae arguitur: est enim motus a sensu secun<lb ed="#Qb"/>dum
+            actum factus; sed in angelis non est iste
+            <lb ed="#Qb"/>motus; ergo nec phantasia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendumx quod phan<lb ed="#Qb"/>tasia
+            dicitur dupliciter. Uno modo sumitur pro
+            <lb ed="#Qb"/>motivo ex parte sensibilis, et? sic non est in
+            <pb ed="#Qb" n="212"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>angelis; alio modo sumitur pro motu rationis vel 
+            <lb ed="#Qb"/>intellectus, in quantum decipitur circa apparens
+            <lb ed="#Qb"/>bonum sive ut nunc, et hoc modo potest esse
+            <lb ed="#Qb"/>phantasia in angelis malis, sicut dicit Diony<lb ed="#Qb"/>sius 1.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Per—hoc patet qualiter solvitur
+            <lb ed="#Qb"/>primo obiectum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundo vero obiectum" dicendum
+            <lb ed="#Qb"/>quod intellectus dicitur semper rectus, quia intel<lb ed="#Qb"/>lectus
+            ille, de quo loquitur 5, movetur in bonum
+            <lb ed="#Qb"/>simpliciter, ex, parte, autem boni simpliciter non
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>contingit accipere errorem. Nihilominus contingit
+            <lb ed="#Qb"/>intellectum, prout est pars motiva animaec sive
+            <lb ed="#Qb"/>practica, esse non rectum, quia aliquando se<lb ed="#Qb"/>quitur
+            phantasiam. Phantasia ergo, licet dicatur
+            <lb ed="#Qb"/>recta et-non recta, non competit angelo in primo
+            <lb ed="#Qb"/>statu, quia est partis sensibilis; sed conveniebat
+            <lb ed="#Qb"/>intellectus, prout de se vertibilis est etd ad bo<lb ed="#Qb"/>num
+            simpliciter et ad bonum ut nunc 2. Unde in
+            <lb ed="#Qb"/>bonis angelis vertebatur ad bonum simpliciter, in
+            <lb ed="#Qb"/>malis ad bonum apparens: et ideo ii ceciderunt,
+            <lb ed="#Qb"/>illi vero in bono steterunt.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

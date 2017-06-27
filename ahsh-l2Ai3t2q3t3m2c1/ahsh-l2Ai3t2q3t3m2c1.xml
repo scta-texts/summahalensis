@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 3, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 3, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="360"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q3t3m2c1">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 3, M. 2, C. 1</head>
+        <head type="question-title">CUR DICITUR IN PLURALI 'FACIAMUS' ET QUARE DUPLICATUR OPUS SEXTAE DIEI 9.</head>
+        <p>
+          <lb ed="#Qb"/>Potest autem quaeri 1. de hoc quod modus lo<lb ed="#Qb"/>quendi 
+          mutatus est, cum prius in tertia persona
+          <lb ed="#Qb"/>dictum sit"): Fiat etc., nunc-" autem dicitur: Fa<lb ed="#Qb"/>ciamus<!--4-->.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea dicit nunc pluraliter, prius autem
+          <lb ed="#Qb"/>singulariter.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Praeterea ', quare distinguit opus sexti diei
+          <lb ed="#Qb"/>in duo, non coniungendo facturam sive conditio<lb ed="#Qb"/>nem
+          hominiss cum aliis animalibus terrestribus.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad primum dicitur quod in
+          <lb ed="#Qb"/>prima persona loquitur, ut ostenderetur iacere per<lb ed="#Qb"/>sonam
+          potentem loqui ad suam similitudinem;
+          <lb ed="#Qb"/>in aliis vero locutus est in tertia persona, ut
+          <lb ed="#Qb"/>ostensio 'fiat conditionis eius rei .de qua fit
+          <lb ed="#Qb"/>sermo, non quae habet potestatem propriam lo<lb ed="#Qb"/>quendi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, dirigitur hic sermo ad alias per<lb ed="#Qb"/>sonas,
+          ut ostendatur quod homo factus est ad
+          <pb ed="#Qb" n="361"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>imaginem Trinitatis, quod non est alterius crea<lb ed="#Qb"/>turae.
+          Singulariter vero loquitur, non quod solus
+          <lb ed="#Qb"/>Pater fecerit alias creaturas, cum indivisa sint"
+          <lb ed="#Qb"/>opera Trinitatis, sed ut ostendatur habere quam<lb ed="#Qb"/>dam
+          similitudinem in esse, ut ab ente primo,
+          <lb ed="#Qb"/>quod indivisibile est in essentia, fiant entiab vel .
+          <lb ed="#Qb"/>fiat unumquodque ens.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>3. Ad tertium dicendum':1 quod non con<lb ed="#Qb"/>iunxit
+          conditionem hominis cum aliis animan<lb ed="#Qb"/>tibus
+          terrestribus, ut ostenderet nobilitatem huius
+          <lb ed="#Qb"/>creaturae super alias. Licet enim conveniat cum
+          <lb ed="#Qb"/>aliis animalibus in hoc quod habet 4 animam sen<lb ed="#Qb"/>sibilem,
+          excellit tamen in hoc'* .quod habet ani<lb ed="#Qb"/>mam 
+          rationalem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

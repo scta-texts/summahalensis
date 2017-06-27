@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="51"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q2m1c2">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 2</head>
+        <head type="question-title">UTRUM CREARI SIT ALIUD QUAM ESSE CREATURAE VEL IDEM.</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur utrum creari sit aliud quam
+          <lb ed="#Qb"/>esse creaturae vel idem 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod sit aliud, videtur: ]. Eo " quod nulla res
+          <lb ed="#Qb"/>est suum iieri, utpote generatum non est suum
+          <lb ed="#Qb"/>generari, et corruptum non est suum corrumpi,
+          <lb ed="#Qb"/>et ita de aliis; ergo pari ratione creatum non est
+          <lb ed="#Qb"/>suum creari.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, ' quod est' et ' quo est' in compositis
+          <lb ed="#Qb"/>differt4 ; sed 'quod est' est creatum, 'quo est'
+          <lb ed="#Qb"/>est ipsa creatio: et intelligo de creatione passive
+          <lb ed="#Qb"/>dicta; ergo creatum non est sua creatio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, ipsum creari transit, ipsum vero crea<lb ed="#Qb"/>tum 
+          manet, cum non est creatio; ergo non est<lb ed="#Qb"/> 
+          idem creari et esse creati.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, terminus non est illud cuius est termi<lb ed="#Qb"/>nus;
+          sed esse creati est terminus creationis; ergo
+          <lb ed="#Qb"/>esse creati non est ipsa creatio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Sicut se habent ad invicem esse
+          <lb ed="#Qb"/>causae et esse causati b, sic se habent creatio active
+          <lb ed="#Qb"/>dicta et passive; ergo permutatim, sicut se habet
+          <lb ed="#Qb"/>creatio active dicta ad esse causae, ita creatio
+          <lb ed="#Qb"/>passive dicta ad esse causati; sed creatio active
+          <lb ed="#Qb"/>dicta idem est quod esse causae; ergo creatio
+          <lb ed="#Qb"/>passive dicta idem est quod esse creati 6.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, creari d nihil aliud est nisi ' nunc primo
+          <lb ed="#Qb"/>esse post non-esse omnino': haec enim conver<lb ed="#Qb"/>tuntur;
+          ergo nihil aliud est creari nisi esse cum
+          <lb ed="#Qb"/>huiusmodi conditionibus; sed hoc non variat es<lb ed="#Qb"/>sentiam
+          eius quod est 'esse', scilicet cum additur
+          'nunc primo'; ergo creari est idem quod esse eius
+          <lb ed="#Qb"/>quod creatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, si creari praecederet esse creati, sicut
+          <lb ed="#Qb"/>mutarie praecedit esse eius inf quod mutatur, tunc
+          <lb ed="#Qb"/>aliquid, quod non esset aeternum, praecederetg
+          <lb ed="#Qb"/>primum esse creati; sed hoc est impossibile, cum
+          <lb ed="#Qb"/>ante primum esse creati non est nisi Creator;
+          <lb ed="#Qb"/>ergo creari non est" aliud quam esse creati.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondendum est quod, cum duplex sitiieri
+          — uno enim modo sequitur: 'si tit, est'; alio
+          <lb ed="#Qb"/>modo: ' si fit, non est' — quod creatur, fit, et cum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>fit, est; unde creari non est aliud nisi ' nunc eSSe
+          <lb ed="#Qb"/>primo post omnino non—esse' ab eo qui potest '
+          <lb ed="#Qb"/>dare esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad id vero quod obicitur in
+          <lb ed="#Qb"/>contrarium quod 'in aliis mutationibus non est
+          <lb ed="#Qb"/>factum suum fieri ': respondendum est quod aliter
+          <lb ed="#Qb"/>loquendum est de fieri et de eo quod fit. Nam
+          <lb ed="#Qb"/>id quod est primo, est quod primo fit; fieri tamen
+          <lb ed="#Qb"/>non est quod fit,. sed tamen est simul cum eo,
+          <lb ed="#Qb"/>nec prius ens quam ipsum nec duo entia pro<lb ed="#Qb"/>prie.
+          Nec est simile defieri in aliis mutationibus
+          <lb ed="#Qb"/>et in creatione, quia in aliis mutationibus, fieri
+          <lb ed="#Qb"/>antecedit illud quod fit temporek vel natura! hic
+          <lb ed="#Qb"/>autem n0n sic, sed fieri est simul tempore et
+          <lb ed="#Qb"/>natura.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundo obiectum dicendum est quod
+          <lb ed="#Qb"/>licet id quod fit non sit idem cum eo quod est
+          <lb ed="#Qb"/>fieri, tamen non penitus est idem nec penitus di<lb ed="#Qb"/>versum,
+          et sic potest esse in aliis compositis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertio' obiectum dicendum est quod
+          <lb ed="#Qb"/>licet fieri transeat, esse vero maneat, nihilominus
+          <lb ed="#Qb"/>tamen hoc est quodammodo illud. Quod autem
+          <lb ed="#Qb"/>dicitur transire, hoc est ratione conditionis addi<lb ed="#Qb"/>tae,
+          scilicet 'nunc primo post non—esse', et ratione
+          <lb ed="#Qb"/>eius transit: licet enim 'nunc'"1 sit, tamen non
+          ' nunc primo est post non-esse ', et hoc dicit fieri
+          <lb ed="#Qb"/>Creationis, quod est creari.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad quartum vero dicendum est" quod
+          <lb ed="#Qb"/>non est simile in hoc fieri et in aliis: hoc enim
+          <lb ed="#Qb"/>fieri est non prius quam res est, in aliis vero "
+          <lb ed="#Qb"/>contingit, et ideo ibi proprie dicitur terminus, hic
+          <lb ed="#Qb"/>autem non dicitur nisi secundum quamdam ra<lb ed="#Qb"/>tionem,
+          sicut infra patebit 5.
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Ad id vero quod obicitur ex permutata
+          <lb ed="#Qb"/>proportione, dicendum est quod non est simile in
+          <lb ed="#Qb"/>creatione active dicta respectu essentiae creantis
+          <lb ed="#Qb"/>et in creatione passive dicta respectu (essentiae
+          <lb ed="#Qb"/>creatae. Nam creatio active dicta est ab essentia
+          <lb ed="#Qb"/>creantis. et est idem cum essentia creantisp se<lb ed="#Qb"/>cundum
+          rem; essentia vero creati non est a qua?
+          <lb ed="#Qb"/>sit ipsum creari, sed simul sunt et quodammodo
+          <pb ed="#Qb" n="52"/>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>idem, quodammodo non idem. In hoc autem est
+          <lb ed="#Qb"/>convenientia, quod creari transit et creare transit,
+          <lb ed="#Qb"/>sed unum secundum. se et " alterum secundum ac<lb ed="#Qb"/>cidens:
+          nam creare ratione essentiae creantis non 
+          <lb ed="#Qb"/>transit, sed ratione habitudinis ad creatum, ex
+          <lb ed="#Qb"/>qua ratione transit creari.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad ultimo obiectum dicendum estb quod
+          ' creari' cum esse creatic nec penitus est idem nec
+          <lb ed="#Qb"/>penitus dii-terens: additio enim facta ponit trans<lb ed="#Qb"/>itum, 
+          ratione cuius dicitur 'creari' transire d, 
+          ' esse ' vero nihilominus permanere, sed non sub
+          <lb ed="#Qb"/>hac ratione 'primo post non-esse '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 8</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 8</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="189"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m2c8">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 8</head>
+        <head type="question-title">DE COMPARATIONE COGNITIONIS ANGELICAE AD HUMANAM IN VELOCITATE COGNOSCENDI.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur de comparatione cognitionis an<lb ed="#Qb"/>gelicae
+          ad humanam in velocitate cognoscendi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Si enim mens: humana in tantum ascendat ut
+          <lb ed="#Qb"/>nihil sit inter ipsam et Deum —— sapientia enim
+          <lb ed="#Qb"/>divina attingit ubique propter sui munditiam sine
+          <lb ed="#Qb"/>priori et posteriori, mens humana attingit cum
+          <lb ed="#Qb"/>priori et posteriori 4, sed celerrime propter sui
+          <lb ed="#Qb"/>appropinquationem ad Primum immediatame —
+          <lb ed="#Qb"/>sed, si celerrime attingit, non erit differentia inter
+          <lb ed="#Qb"/>mentem angelicam et humanam in celeritate, cum
+          <lb ed="#Qb"/>utrobique sit celeritas in termino; ergo adaequa<lb ed="#Qb"/>bitur
+          intellectui mentis angelicae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, acies oculi humani imperceptibiliter
+          <lb ed="#Qb"/>transit ab oriente in occidentemf in aspiciendo;
+          <lb ed="#Qb"/>cum ergo acies mentis humanae sit simplicior,
+          <lb ed="#Qb"/>erit transitus eius imperceptibilior, et ita quasi in
+          <lb ed="#Qb"/>termino; ergo adaequabitur intellectui mentis an<lb ed="#Qb"/>gelicae
+          in celeritate.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra,: a. Quae est proportio in ratione mo<lb ed="#Qb"/>vendi
+          angeli ad suum corpus, ea est8 ipsius ani<lb ed="#Qb"/>mae
+          rationalis ad suum corpus; ergo permutatim;
+          <lb ed="#Qb"/>quae est proportio corporis ad corpus in celeritate,
+          <lb ed="#Qb"/>ea erit intellectus ad intellectum; sed corpus ap<lb ed="#Qb"/>propriatum,
+          quod movetur ab angelo, excedit in
+          <lb ed="#Qb"/>velocitate. corpus humanum, sicut habetur ab Au<lb ed="#Qb"/>gustino,
+          Super Genesim, XII 3, eth a B. Gre<lb ed="#Qb"/>gorio'f,
+          qui dicit quod habent[. acrea corpora;
+          <lb ed="#Qb"/>ergo maioris velocitatis sunt; intellectus ergok
+          <lb ed="#Qb"/>angelicus excedit humanum in celeritate intelli<lb ed="#Qb"/>gendi
+          unum post aliud.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, maior est simplicitas istiusl intellectus
+          <lb ed="#Qb"/>quam illius; sed quod simplicius est, si movetur,
+          <lb ed="#Qb"/>celerius movetur; ergo intellectus angelicus mo<lb ed="#Qb"/>bilior<!--m--> 
+          est intellectu humano.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Quod etiam videtur ex hoc quod dicit Augu<lb ed="#Qb"/>stinus,
+          XII Super Genesim5: <quote> Possunt hoc
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>efficere angeli, non solum acrimonia cernendi
+          <lb ed="#Qb"/>corporalia incomparabiliter praestantiore quam 
+          <lb ed="#Qb"/>nostra, sed ipsorum corporum longe subtiliorum"
+          <lb ed="#Qb"/>mira velocitate </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum" per hoc quod
+          <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>, Super Genesim, IV libroö:
+    <quote> Si oculorum carnalium acies celeritate tantum
+          <lb ed="#Qb"/>potest, quid P mentis humanae acies! Quanto
+          <lb ed="#Qb"/>magis angelicae! Quid autem de ipsius sum<lb ed="#Qb"/>mae
+          sapientiae dicatur 9, quae attingit ubique,
+          <lb ed="#Qb"/>celeritate f , et disponit omnia suaviter7? </quote> Ex qui—
+          <lb ed="#Qb"/>bus verbis elicitur ordo quidam in celeritate
+          <lb ed="#Qb"/>aspectus secundum appropinquationem maiorem
+          <lb ed="#Qb"/>et minorem ad aspectum divinum, qui simul et
+          <lb ed="#Qb"/>indivisibiliter omnia aspicit; aspectus ergo an<lb ed="#Qb"/>gelicus
+          amplioris ests celeritatis quam humanus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id quod obicitur in contra<lb ed="#Qb"/>rium:
+          dicendum * quod licet celerrima dicatur visio
+          <lb ed="#Qb"/>intellectualis humana, tamen non dicitur super<lb ed="#Qb"/>lative
+          nomen celeritatis, sed intensive ". Cum enim
+          <lb ed="#Qb"/>divinus Spiritus, sicut dicit <name ref="#Augustine">Augustinus</name>, Ad
+          <lb ed="#Qb"/>Orosium 8, movet spiritum creatum, movet ipsum
+          <lb ed="#Qb"/>per tempus, non per locum. Et patet quod-non
+          <lb ed="#Qb"/>loquitur de motu locali, sed de motu cognitionis
+          <lb ed="#Qb"/>vel affectionis; quare necesse estV ibi esse men<lb ed="#Qb"/>suram
+          temporis; sed in hac differentia maior est
+          <lb ed="#Qb"/>celeritas, licet sit imperceptibilis apud sensum, et
+          <lb ed="#Qb"/>minor: unde angelicus intellectus, quia non habet
+          <lb ed="#Qb"/>colligationem ad corpus per intentionem, maioris
+          <lb ed="#Qb"/>est celeritatis. Hoc etiam ex parte affectus est:
+          <lb ed="#Qb"/>retardatur enim spiritus humanus in motux ad
+          <lb ed="#Qb"/>caelestia per intentionem ad corpus: corpus enim
+          <lb ed="#Qb"/>quod corrumpitur, id est? corruptibile est, aggra<lb ed="#Qb"/>vat
+          animam 9. Similiter ex parte cognitionis; unde
+          <lb ed="#Qb"/>Bernardus 10: <quote> Involutus carn-e accola terrae
+          <lb ed="#Qb"/>spiritus, ex consideratione sensibilium proficiens,
+          <lb ed="#Qb"/>gradatim paulatimque nititurz pervenire illo quo
+          <pb ed="#Qb" n="190"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>caelestium habitator " ingenua subtilitate in omni
+          <lb ed="#Qb"/>velocitate facilitateque pertingit </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. A d Secundum dicendum quod, licet in in<lb ed="#Qb"/>sensibili
+          tempore sive repente fiat intellectiva motio,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>nihilominus secundum rationem est discernere plus
+          <lb ed="#Qb"/>et minus in celeritate intelligentiae * angelicae et
+          <lb ed="#Qb"/>humanae, quantum est de utriusque natura: aliter
+          <lb ed="#Qb"/>enim potest esse secundum gratiae elevationem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

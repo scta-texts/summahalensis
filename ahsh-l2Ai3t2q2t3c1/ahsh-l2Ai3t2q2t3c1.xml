@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 3, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="344"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q2t3c1">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 3, C. 1</head>
+        <head type="question-title">DE ORDINE VERBORUM GENESEOS.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur de opere tertiae diei. 1. Et primo quae- '
+          <lb ed="#Qb"/>ritur propter quid, sicut in praecedentibus die<lb ed="#Qb"/>bus
+          dictum est ' fiat lux' et '- fiat firmamentum,,
+          <lb ed="#Qb"/>hici verbum 'tiendi, non ponitur. Numquid hoc
+          <lb ed="#Qb"/>est quia terra tacta fuit prius et aquae similiter,
+          <lb ed="#Qb"/>cum diciturs: Creavit caelum et terram et spiri<lb ed="#Qb"/>tus
+          Domini ferebatur super aquas? Quod si esset,
+          <lb ed="#Qb"/>tunc caelum, cum diceretur factum, non oporteret
+          <lb ed="#Qb"/>dicere: Fiat firmamentum. -— Praeterea,-tunc * lo<lb ed="#Qb"/>cutus
+          est de terra incomposita et invisibili, et ita de
+          <lb ed="#Qb"/>informi materia, similiter de aquis; unde necesse
+          <lb ed="#Qb"/>fuitl hic loqui de factura aquarum et terraem?
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, ornatus terrae et aquarum in duobus
+          <lb ed="#Qb"/>diebus distinguebatur sicut ornatus caeli"; per
+          <lb ed="#Qb"/>se deberent ergo duo dies spectareo ad tactu<lb ed="#Qb"/>ram
+          terrae et aquae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Praeterea, caelum habet suum diem per se,
+          <lb ed="#Qb"/>in quo factum est; ergo pari ratione terra, quae
+          <lb ed="#Qb"/>est aliud extremum, debet habere suum diem per
+          <lb ed="#Qb"/>se, et similiter medium, scilicet aqua.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Praeterea, cum infra fiat mentio de ornatu
+          <lb ed="#Qb"/>aeris, quare similiter non fit mentio de factura
+          <lb ed="#Qb"/>aeris sicut de aquis?
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, aquae erant per totum; quomodo ergo
+          <lb ed="#Qb"/>potuerunt? congregari in unum? cum non vi<lb ed="#Qb"/>deamus
+          aquam condensari in se, sicut est'! de
+          <lb ed="#Qb"/>aere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, de aquis inferioribus dicitur quod con<lb ed="#Qb"/>gregantur
+          in locum unam 9, de aquis autem supe<lb ed="#Qb"/>rioribus
+          non est hoc dictum, cum tamen et aquae
+          <lb ed="#Qb"/>superiores suum' haberent locum sicut et aquae
+          <lb ed="#Qb"/>inferiores.
+        </p>
+        <p>
+                <pb ed="#Qb" n="345"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Solutio": 1. Ad primum dicendum 1, secun<lb ed="#Qb"/>dum
+    <name ref="#Augustine">Augustinum</name>bz, quod non fuit simile de
+          <lb ed="#Qb"/>aquis etc terra sicut de luce et firmamento. Cum
+          <lb ed="#Qb"/>enim factio ad speciem pertineat, lux autem et fir<lb ed="#Qb"/>mamentum
+          speciem habeant valde distantem a
+          <lb ed="#Qb"/>materia informi, recte voluit hoc per verbum
+          'fiendi* demonstrari; aqua autem et terra, licet
+          <lb ed="#Qb"/>species receperint in tertiod die, tamen quia
+          <lb ed="#Qb"/>maxime accedunt ad materiam informem, quae
+          <lb ed="#Qb"/>prius dicta fuit nomine terrae vel aquarum, ideo
+          <lb ed="#Qb"/>voluit sub alio modo loquendi earum e facturam
+          <lb ed="#Qb"/>designare dicendo 'cangregentur ', ut notetur
+          <lb ed="#Qb"/>quod prius erant in confusione, tuncf autem distin<lb ed="#Qb"/>guerentur,
+          et sic in unoquoque trium dierum una
+          <lb ed="#Qb"/>notaretur distinctio. Unde <name ref="#Augustine">Augustinus</name>, Super
+          <lb ed="#Qb"/>Genesim3: <quote>Acceperunt haec duo species istas
+          <lb ed="#Qb"/>proprias et notissimas nobis et tractabiles, aqua
+          <lb ed="#Qb"/>mobilem, terra immobilem </quote>. Et ideo de aquis
+          <lb ed="#Qb"/>dictum est: Congregentur aquae, de terra: Etg
+          <lb ed="#Qb"/>appareat arida; <quote> aqua enim est labiliter fluxa,
+          <lb ed="#Qb"/>terra stabiliter fixa </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum" dicendum quod aliter fit
+          <lb ed="#Qb"/>distinctio dierum trium praecedentium et aliter
+          <lb ed="#Qb"/>trium subsequentium. Nam tres praecedentes su<lb ed="#Qb"/>muntur
+          secundum triplicem distinctionem lucis a
+          <lb ed="#Qb"/>tenebris, aquarum superiorum ab inferioribus per
+          <lb ed="#Qb"/>medium firmamentum distinctarum et aquarum
+          <lb ed="#Qb"/>ab arida, id est terra; tres autem sequentes, qui
+          <lb ed="#Qb"/>pertinent ad ornatum, non sic. Cum enim lux
+          <lb ed="#Qb"/>primo resideret in caelo empyreo, caelum autem
+          <lb ed="#Qb"/>empyreum nullum habuit ornatum corporalem,
+          <lb ed="#Qb"/>sed Spiritualem, scilicet angelos qui non ad fac<lb ed="#Qb"/>tionem
+          corporum pertinebant — non enim sunt
+          <lb ed="#Qb"/>ex caelo empyreo — propter hoc supposito isto
+          <lb ed="#Qb"/>ornatu, tacuit de illo in illis diebus *, in quibus
+          <lb ed="#Qb"/>loquitur de ornatu connaturali. Sidera enimk ex
+          <lb ed="#Qb"/>eadem materia cum firmamento, natatilia ex aqua
+          <lb ed="#Qb"/>et volatilia, bestiae vero' ex terra et reptilia et
+          <lb ed="#Qb"/>homo similiter. Omissom ergo caelo empyreo et
+          <lb ed="#Qb"/>aqueo, in diebus ornatus locutus est de firma<lb ed="#Qb"/>mento,
+          quod ponitur in genere ornabilis, et terra
+          <lb ed="#Qb"/>aliud extremum, aqua vero cum aere medium, et
+          <lb ed="#Qb"/>secundum hoc fit distinctio dierum ex parte or<lb ed="#Qb"/>natus;
+          hoc autem est, quia "caelum empyreum,
+          <lb ed="#Qb"/>cum sit uniforme per totum et supremum cor<lb ed="#Qb"/>porum,
+          non indiguit habere ornatum ex parte
+          <lb ed="#Qb"/>corporum, cum sit corpus perfectissimum ex parte
+          <lb ed="#Qb"/>corporum in prima compositione universi, sed
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>habuit ornatum spiritualem: respectu enim illius
+          <lb ed="#Qb"/>habuit et habet perfectionem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum quod terra et aqua
+          <lb ed="#Qb"/>plus appropinquant sibi in materia et forma
+          <lb ed="#Qb"/>quam caelum cum altera" illarumz- eadem est
+          <lb ed="#Qb"/>enim materia secundum transmutationem aquae
+          <lb ed="#Qb"/>et terrae; caeli autem materia est ingenerabilis
+          <lb ed="#Qb"/>et incorruptibilis 4, id est quae non corrumpetur
+          <lb ed="#Qb"/>nec secundum partem nec secundum totum5; et
+          <lb ed="#Qb"/>ideo in uno die coniunxit ista duo, quae in se
+          <lb ed="#Qb"/>invicem erant confusa.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad quartum0 dicendum quod sub aeris
+          <lb ed="#Qb"/>ratione non fit mentio, sed sub ratione aquarum;
+          <lb ed="#Qb"/>et diciturs: Aves multiplicentur super terram, non
+          <lb ed="#Qb"/>dicit *in aere,, et ita sicut ibi tantum loquitur
+          <lb ed="#Qb"/>de aquis, ita et hic. -— Si vero quaeratur
+          <lb ed="#Qb"/>quare non fit mentio de factura aeris sicut aquae
+          <lb ed="#Qb"/>et terrae: respondeo quod loquitur ut appre<lb ed="#Qb"/>hendentibusP
+          sensibilia, et ideo loquitur de aqua
+          <lb ed="#Qb"/>et terra quae viderit possunt; aer autem non
+          <lb ed="#Qb"/>videtur, et ideo non fit mentio nec in opere di<lb ed="#Qb"/>stinctionis
+          nec' ornatus de aere, sed totum no<lb ed="#Qb"/>tificat
+          per caelum et terram et aquam; datur
+          <lb ed="#Qb"/>tamen * intelligi aeris distinctio a terra in distinc<lb ed="#Qb"/>tione
+          aquarum: cum enim congregantur aquae,
+          <lb ed="#Qb"/>cum non sit vacuum, necesse est aliquod corpus
+          <lb ed="#Qb"/>replere spatium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad id vero quod quinto obicitur, respon<lb ed="#Qb"/>det
+          Au gustinusf, Contra Manichaeos 7, quod
+    <quote> cum" dicitur8: Congregetur aqua, quae sub
+          <lb ed="#Qb"/>caelo est, in congregationem unam, hoc dicitur ut
+          <lb ed="#Qb"/>illa materia corporalis formetur in eam speciem
+          <lb ed="#Qb"/>quam habent istae" aquae visibiles: ipsa enim
+          <lb ed="#Qb"/>congregatio in unum * est aquarum formatio
+          <lb ed="#Qb"/>istarum quas videmus et tangimus: omnis enim
+          <lb ed="#Qb"/>forma ad unitatis regulam cogitur. Et quod di<lb ed="#Qb"/>citur:
+          Appareat arida, quid aliud dici intelli<lb ed="#Qb"/>gendum
+          est nisi ut illa materies accipiat visibilem
+          <lb ed="#Qb"/>formam, quam nunc? habet terra ista quam vi—
+          <lb ed="#Qb"/>demus et tangimus? Superius ergo quod nomi<lb ed="#Qb"/>nabatur
+          terra invisibilis et incomposita, materiae
+          <lb ed="#Qb"/>confusio et obscuritas nominabatur, et quodl
+          <lb ed="#Qb"/>nominabatur aqua, super quam ferebatur spiri—
+          <lb ed="#Qb"/>tus Dei, eadem rursus materia nominabatur. Nunc.
+          <lb ed="#Qb"/>vero aqua ista et terra formantur ex illa mate<lb ed="#Qb"/>ria,
+          quae ipsis nominibus appellabatur antequam
+          <lb ed="#Qb"/>formas istas, quas nunc videmus, acciperet </quote>. —
+          <lb ed="#Qb"/>Vel potest dici, sicut alii9 sentiunt, quod illa
+          <pb ed="#Qb" n="346"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>congregatio fuit condensatio in parte una et ra<lb ed="#Qb"/>refactio
+          ex parte altera, ut ex parte aeris esset
+          <lb ed="#Qb"/>rarefactio et maioris loci occupatio, ex parte
+          <lb ed="#Qb"/>aquae densatio et minoris loci occupatio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad sextum dicendum'1 quod de aquis
+          <lb ed="#Qb"/>inferioribus dictum est quod congregentur, quia
+          <lb ed="#Qb"/>minorem locum occupabant in specie aquae su<lb ed="#Qb"/>periores,
+          non quae magis dilatabantur. Hugo
+          <lb ed="#Qb"/>vero ad mysteriumb refert; unde dicit]: <quote> Est in
+          <lb ed="#Qb"/>illo, qui interius fabricatus est, mundo, quiddam
+          <lb ed="#Qb"/>huius operis formam et exemplar habens, ubi
+          <lb ed="#Qb"/>terra quaedam deorsum posita consistit sensualis
+          <lb ed="#Qb"/>natura hominis; caelum autem sursum puritas
+          <lb ed="#Qb"/>intelligentiae et quasi quodam immortalis vitae
+          <lb ed="#Qb"/>motu vegetata ratio. Duas vero tamc dissimiles
+          <lb ed="#Qb"/>in uno homine naturas magna quaedam desi<lb ed="#Qb"/>deriorum
+          moles hinc inde tluctuantium et in
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>contraria d motu saepe alterno tendentium oberrat,
+          <lb ed="#Qb"/>quia et aliud est quod subtus caro ex infirmi<lb ed="#Qb"/>tate
+          pressa appetit, et aliud quod spiritus, sur<lb ed="#Qb"/>sum
+          per contemplationem veritatis elevatus, in<lb ed="#Qb"/>tendit.
+          Sed fit aliquotiens ut contrarii motus con<lb ed="#Qb"/>fusiOnem
+          gignant, nisi ratio media interveniens
+          <lb ed="#Qb"/>dividat ab invicem et discernat voluntates et ap<lb ed="#Qb"/>petitus
+          desideriaque diiudicet, quid sit Videlicet
+          <lb ed="#Qb"/>quod ex carne deorsum trahit, quid quod ex spi<lb ed="#Qb"/>ritu
+          in superna inhiat, summum illud et immortale
+          <lb ed="#Qb"/>bonum ambiens. Nam, cum ipsa ratio quasi quae—
+          <lb ed="#Qb"/>dam iudicii censura in medio se collocat atque hinc
+          <lb ed="#Qb"/>supercaelestes aquas, illince autem eas, quae sub
+          <lb ed="#Qb"/>caelo sunt, separatim disponit, non potest interior
+          <lb ed="#Qb"/>corruptelaf superiorem partem animae inficere
+          <lb ed="#Qb"/>neque ipsa, quae sursum est, sinceritas ad ea,
+          <lb ed="#Qb"/>quae subter sunt, abiecta et vilia, sese inclinare </quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

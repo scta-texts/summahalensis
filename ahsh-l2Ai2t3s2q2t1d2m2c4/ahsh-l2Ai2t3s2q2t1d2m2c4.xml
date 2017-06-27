@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="228"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t1d2m2c4">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 4</head>
+        <head type="question-title">UTRUM DILECTIONE ELECTIVA ANGELUS DILIGAT SE ET ALIUM ANGELUM.</head>
+        <p>
+                <pb ed="#Qb" n="228"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Quarto quaeritur utrum angelus diligat se et
+          <lb ed="#Qb"/>alium angelum dilecti-one electiva sive ratio<lb ed="#Qb"/>nali, 
+          secundum quod supra dictum est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod non: 1. Quia dilectio ratio<lb ed="#Qb"/>nalis
+          b tendit in alterum ut sit dilectioz; ergo, cum
+          <lb ed="#Qb"/>ipse non sit alter a se, rationalis dilectio non
+          <lb ed="#Qb"/>tendit in se.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, si alius angelus diligitur c ista di<lb ed="#Qb"/>lectione,
+          hoc est vel secundum quod participat
+          <lb ed="#Qb"/>cum ipso in natura vel in quantum participat
+          <lb ed="#Qb"/>cum ipso ind ratione imaginis divinae vel in
+          <lb ed="#Qb"/>quantum potest participare gratiam aut gloriam
+          <lb ed="#Qb"/>sive participat. Si secundum primum modum,
+          <lb ed="#Qb"/>non distingueture dilectio naturalis a rationali.
+          <lb ed="#Qb"/>Si modo secundo, hoc,,non videtur: non enim
+          <lb ed="#Qb"/>videtur quod ratio cognoscat se imaginem vel
+          <lb ed="#Qb"/>ad imaginem nisi ex aliqua gratia sibif data;
+          <lb ed="#Qb"/>ergo per consequens non diligit se illa dilectione
+          <lb ed="#Qb"/>nisi ex aliqua gratia sibi data; ergo ratio ex se
+          <lb ed="#Qb"/>ipsa non habet dilectionem sui vel alterius angeli
+          <lb ed="#Qb"/>sub hac ratione. Sed nec tertio modo videtur,
+          <lb ed="#Qb"/>quia diligere se vel alium angelum ex conside<lb ed="#Qb"/>ratione
+          participationis gratiae vel gloriae est ultra
+          <lb ed="#Qb"/>se; ergo angelus non diligit se dilectione ratio<lb ed="#Qb"/>nali-€
+          ex consideratione istius participationis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: Sed videtur contrarium. a. Dei enim,
+          <lb ed="#Qb"/>cuius est summa dilectio, est diligere se; angelus
+          <lb ed="#Qb"/>ergo, si diligit se dilectione rationali sive intel<lb ed="#Qb"/>lectuali,
+          in hoc " assimilatur Deo; sed multo maior
+          <lb ed="#Qb"/>est indivisio inter diligentem et dilectum, cum
+          <lb ed="#Qb"/>Deus diligit se, quia est summa indivisio, quam
+          <lb ed="#Qb"/>sit inter diligentem et dilectum, cum angelus di<lb ed="#Qb"/>ligit
+          se; ergo non repugnat dilectionii rationali
+          <lb ed="#Qb"/>sive intellectuali quod angelus diligat se.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, quod angelus diligat angelum, ad
+          <lb ed="#Qb"/>hoc inclinat natura et ad hoc inclinat gratia;
+          <lb ed="#Qb"/>ergo ratio, quae est media, sive intellectus ex
+          <lb ed="#Qb"/>cognitione sibi data ad hoc inclinat; ergo angelus
+          <lb ed="#Qb"/>diligit alium angelum dilectione huiusmodi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo quod angelus et se ipsum et alium
+          <lb ed="#Qb"/>angelum diligit dilectione electiva.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum autemk dicendum
+          <lb ed="#Qb"/>quod illud verbum *dilectio ut sit, semper in alte<lb ed="#Qb"/>rum
+          tendit, excludit proprium et privatum amorem,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>et loquitur de dilectione gratuita, quae nunquam
+          <lb ed="#Qb"/>reflectitur in diligentem per praecisionem. Unde
+          <lb ed="#Qb"/>ex verbo illo non habetur quin et dilectio electiva
+          <lb ed="#Qb"/>et naturalis sit respectu diligentis '. — Praeterea,
+          <lb ed="#Qb"/>ut tactum est supra 3, angelus diligens se est alter
+          <lb ed="#Qb"/>in quantum diligit et in quantum diligitur, quia
+          <lb ed="#Qb"/>diligit suum esse, suam vitam, quae est altera
+          <lb ed="#Qb"/>ab ipso.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendum4 quod angelus diligit
+          <lb ed="#Qb"/>alium angelum dilectione electiva, et ratione par<lb ed="#Qb"/>ticipationis
+          eiusdem naturae et ratione qua par<lb ed="#Qb"/>ticipat
+          cum ipso in ratione imaginis. — Ad illud
+          <lb ed="#Qb"/>quod obicitur quod tunc non distinguitur a di<lb ed="#Qb"/>lectione
+          naturali, dicendum quod non sequitur;
+          <lb ed="#Qb"/>idem enim, cum diversimode accipitur, potest esse
+          <lb ed="#Qb"/>ratio diversorum modorum diligendi, sicut in di<lb ed="#Qb"/>lectione
+          mercenaria et iiliali: in utraque enim est
+          <lb ed="#Qb"/>bonitas prima ratio diligendi, sed in una est ratio
+          <lb ed="#Qb"/>ipsa bonitas in quantum est bonitas, in alia '" ipsa
+          <lb ed="#Qb"/>bonitas in quantum est benefica. Similiter in pro<lb ed="#Qb"/>posito.
+          Unde participatio " eiusdem naturae est ra<lb ed="#Qb"/>tio
+          dilectionis naturalis, in quantum consideratur
+          <lb ed="#Qb"/>ut ens absolute: simile enim0 natura movetur ad
+          <lb ed="#Qb"/>diligendum sibi simile, in quantum est simile,
+          <lb ed="#Qb"/>Eccli. 13,19: <quote ana="#sir13_19">Omne animal diligit sibi simile</quote>.
+          <lb ed="#Qb"/>Participatio autem eiusdem naturae, ut cadit sub
+          <lb ed="#Qb"/>iudicio debiti diligendi P, est ratio dilectionis elec<lb ed="#Qb"/>tivae:
+          intellectus enim angeli 4, cognoscens aliquid
+          <lb ed="#Qb"/>esse simile alteri, iudicatf illud debere diligi ab
+          <lb ed="#Qb"/>illo, et ita conformitas sive participatio eiusdems
+          <lb ed="#Qb"/>naturae, ut caditf sub iudicio debiti diligendi,
+          <lb ed="#Qb"/>est ratio dilectionis electivae.-Praeterea, confor<lb ed="#Qb"/>mitas
+          in imagine fuit ratio diligendi dilectione
+          <lb ed="#Qb"/>electiva: cognoverunt enim ", ad minus indistincte,
+          <lb ed="#Qb"/>quod erant conditi ad imaginem Dei, scilicet in
+          <lb ed="#Qb"/>quantum imago dicitur5 <quote> expressa similitudo </quote>.
+          <lb ed="#Qb"/>Bene enim sciverunt naturali cognitione nullam
+          <lb ed="#Qb"/>creaturam Deo similiorem illis, sed gratia addita
+          <lb ed="#Qb"/>distinctius et clarius cognoverunt se esse ad ima<lb ed="#Qb"/>ginem,
+          scientes per essentiae simplicitatem et di<lb ed="#Qb"/>stinctionem
+          potentiarum naturalium sive habi<lb ed="#Qb"/>tuum
+          se expressissime", prout possibile fuit
+          <lb ed="#Qb"/>creaturae, adx Dei imitationem, quantum ad uni<lb ed="#Qb"/>tatem
+          essentiae et distinctionem personarum, con<lb ed="#Qb"/>ditos
+          esse. Secundum igitur quod cognoverunt,
+          <pb ed="#Qb" n="229"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>dilexerunt: unde cognoscentes se esse ad imagi<lb ed="#Qb"/>nem
+          Dei conditos, se mutuo dilexerunt dilectione
+          <lb ed="#Qb"/>electiva. -— A d id ergo quod obicitur quod 'natu<lb ed="#Qb"/>rali
+          cognitione<!--a--> sine gratia non cognoverunt se
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>esse ad imaginem': dicendum quod, etsi non di—
+          <lb ed="#Qb"/>stincte cognoverunt, indistincte tamen ", scientes
+          <lb ed="#Qb"/>nullam creaturam Deo similiorem illis, et ita illos
+          <lb ed="#Qb"/>expressissime ad imaginem Dei conditos esse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

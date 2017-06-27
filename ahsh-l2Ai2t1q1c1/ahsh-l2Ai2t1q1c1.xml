@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 1, Q. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 1, Q. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="122"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t1q1c1">
+        <head>Ia-IIae, Inq. 2, Tract. 1, Q. 1, C. 1</head>
+        <head type="question-title">UTRUM ANGELI PRIUS CREATI SINT QUAM ALIAE CREATURAE 1.</head>
+        <p>
+          <lb ed="#Qb"/>Ad. primum sic: 1. Dicitur in libro De ecclesia<lb ed="#Qb"/>sticis 
+          dogmatibus 2: <quote> Cum adhuc tenebrae ip<lb ed="#Qb"/>sam
+          aquam occultarent, facti sunt angeli et omnes
+          <lb ed="#Qb"/>caelestes virtutes, ut non esset otiosa Dei bo<lb ed="#Qb"/>nitas, 
+          sed haberet in quibus per multa ante spatia
+          <lb ed="#Qb"/>bonitatem suam ostenderet</quote>. Ex quo accipitur
+          <lb ed="#Qb"/>quod ante visibilem mundum facti sunt angeli
+          <lb ed="#Qb"/>sive creati.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2.- Similiter Hieronymus, Super Epistolam
+          <lb ed="#Qb"/>ad Titum 3, idem videtur sentire, dicens: <quote> Quanta
+          <lb ed="#Qb"/>tempora, quantas saeculorum origines fuisse ar<lb ed="#Qb"/>bitrandum
+          est in quibus Angeli, Throni et Domi<lb ed="#Qb"/>nationes
+          ceterique Ordines Deo servierunt absque
+          <lb ed="#Qb"/>temporum vicibus atque mensuris et Deo iubente
+          <lb ed="#Qb"/>substiterunt ? </quote>
+             </p>
+        <p>
+          <lb ed="#Qb"/>Ad contrarium sic: a. In prima die creata est
+          <lb ed="#Qb"/>lux4 sive condita; secundum <name ref="#Augustine">Augustinum</name>5,
+          <lb ed="#Qb"/>quantum ad-unam expositionem, per lucem desi<lb ed="#Qb"/>gnatur
+          creatura angelica; ergo creatura angelica
+          <lb ed="#Qb"/>facta est in operibus sex dierum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name>, Super Genesim 6:
+    <quote> Cum dictum est7: Fiat lux, et facta est lux,
+          <lb ed="#Qb"/>non illa natura Patri coaeterna intelligenda est
+          <lb ed="#Qb"/>per quam facta sunt omnia 3, sed illa de qua
+          <lb ed="#Qb"/>dici potuit 9: Prior omnium creata est sapientia </quote>;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>haec autem non est nisi creatura angelica; ergo
+          <lb ed="#Qb"/>creatura angelica facta est inter opera sex dierum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendumc quod creatura
+          <lb ed="#Qb"/>angelica simul creata 4 est cum aliis et inter opera
+          <lb ed="#Qb"/>sex dierum tamquam primurn opus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad id vero quod primo
+          <lb ed="#Qb"/>obicitur in contrarium, dicendum est quod non
+          <lb ed="#Qb"/>ex hoc voluit ille qui condidit Ecclesiastica dog<lb ed="#Qb"/>mata
+          10, dare intelligere quod angeli essent facti
+          <lb ed="#Qb"/>antequam crearetur caelum et terra. Quod ex ver<lb ed="#Qb"/>bis
+          eius evidenter elici potest. Dicit enim: <quote> Cum
+          <lb ed="#Qb"/>adhuc tenebrae ipsam ' terram occultarent et aqua
+          <lb ed="#Qb"/>terram absconderet, facti sunt angeli</quote>. Ex quo
+          <lb ed="#Qb"/>accipitur quod simul tempore vel posterius na<lb ed="#Qb"/>tura
+          vel tempore facti sunt angeli reSpectu caeli
+          <lb ed="#Qb"/>et terrae: quod enim <quote>tenebrae aquam occulta<lb ed="#Qb"/>rent</quote>,
+          hoc dicitur propter hoc quod habetur in
+          <lb ed="#Qb"/>Gen.-", quod tenebrae erant super faciem abyssi,<lb ed="#Qb"/>
+          <quote>
+          aqua autem terram abscondebat </quote>, quia nondum
+          <lb ed="#Qb"/>divisio iacta iuit aquarum nec aquae a terra. Quod
+          <lb ed="#Qb"/>autem subiungitur: <quote> Ut non esset otiosa Dei bo<lb ed="#Qb"/>nitas,
+          sed haberet in quibus per multa ante spatia
+          <lb ed="#Qb"/>bonitatem suam ostenderet</quote>, hoc intelligitur du<lb ed="#Qb"/>pliciter:
+          vel ut angeli creati essent cum caelo
+          <lb ed="#Qb"/>creato ante omnem diem, et ita Deus <quote>suam
+          <pb ed="#Qb" n="123"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>bonitatem ostenderet</quote> ante opera sex dier~m, quadam
+          <lb ed="#Qb"/>existente distantia temporali, secundum quod
+          <lb ed="#Qb"/>dicitura quibusdam expositoribus 1 quod
+          <lb ed="#Qb"/>caelum creatum erat cum tempore, et post facta
+          <lb ed="#Qb"/>essent quae fiebant in sex diebus; non autem
+          <lb ed="#Qb"/>intelligitur per hoc quod dicit <quote>per multa ante a
+          <lb ed="#Qb"/>spatia </quote>, quod creaverit Deus angelos ante caelum
+          <lb ed="#Qb"/>et terram quodam intervallo tempora_li. Vel intelligitur
+          <lb ed="#Qb"/>illa prioritas temporis, qua primus dies
+          <lb ed="#Qb"/>praecessit sequentes, et b ille dies primus quamdam
+          <lb ed="#Qb"/>dicat distantiam temporalem respectu eorum
+          <lb ed="#Qb"/>quae sequuntur. Quod autem dicitur <quote> ne esset c
+          <lb ed="#Qb"/>otiosa bonitas Dei</quote>, non sic intelligendum est
+          <lb ed="#Qb"/>quod etiam in aeternitate fuerit otiosa: non enim
+          <lb ed="#Qb"/>Deus aeterna caruit generatione et aeterna spiratione
+          <lb ed="#Qb"/>et aeterna cognitione et dilectione, nisi
+          <lb ed="#Qb"/>dicatur otiosum quod caret actu exteriori sive effectu:
+          <lb ed="#Qb"/>non enim aeternaliter creavi t res; sed non
+          <lb ed="#Qb"/>congruit nomen otiositatis Deo attribuere. Similiter
+          <lb ed="#Qb"/>illud verbum quod dicit Augusti nus, in li<lb ed="#Qb"/>bro d 
+          De civitate Dei 2, ex quorum d a m opinione,
+          <lb ed="#Qb"/>
+          <mentioned>bonitatem</mentioned>, scilicet Dei, <mentioned> nunquam fuisse
+          <lb ed="#Qb"/>vacuam</mentioned> si intelligatur ratione aeternae generationis
+          <lb ed="#Qb"/>et huiusmodi, verum est; si vero ratione
+          <lb ed="#Qb"/>effectuum in creaturis, non est verum, nisi haec
+          <lb ed="#Qb"/>di etio <mentioned>nunquam</mentioned> ,. respiciat te m pus: tempo re
+          <lb ed="#Qb"/>enirn vel principio temporis existente bonitas Dei
+          <lb ed="#Qb"/>nunquam vacua fuit ab effectibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem dicitur ab A u gusti n o, in XII
+          <lb ed="#Qb"/>De civitate Dei 3, quod semper fuerunt angeli e
+          <lb ed="#Qb"/>et ita ante caelum et terram, sic intelligendum
+          <lb ed="#Qb"/>est, non quod . c semper ,. dica t f ' semper aeternitatis
+          <lb ed="#Qb"/>', sed 'semper aevi vel temporis '. Onde
+          <lb ed="#Qb"/>A u gusti nus, ibidem: <quote> Deus se m per fui t aeternitate
+          <lb ed="#Qb"/>immutabili, isti autem facti sunt, sed
+          <lb ed="#Qb"/>ideo semper fuisse dicuntur, quia omni tempore
+          <lb ed="#Qb"/>fuerunt, sine quibus tempora nullo modo esse
+          <lb ed="#Qb"/>potuerunt </quote>. Et iterum: <quote> Sicut dicimus creatum
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>tempus semper fuisse, quia omni tempore tempus
+          fui t, ita non est consequens g ut si semper fuerunt h
+          angeli, ideo non sint creati, ut propterea semper
+          fuisse dicantur, quia omni tempore fuerunt</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem dicitur : Prior omnium t creata est
+          <lb ed="#Qb"/>sapientia, si intelligatur de angelica creatura k
+          <lb ed="#Qb"/>propter rationem eius quod est ' creatum ', non intelligendum
+          <lb ed="#Qb"/>est quod prior ternpore caelo et terra
+          <lb ed="#Qb"/>sit creata, sed prior dignitate, ratione suae incorporeitatis
+          <lb ed="#Qb"/>et suae separationis a corporibus; unde
+          <lb ed="#Qb"/>Augusti n u s, XI De civitate Dei 4 : <quote> Angelica
+          <lb ed="#Qb"/>creatura est quae omnia, quae Deus condidit, naturae
+          <lb ed="#Qb"/>dignitate praecedit </quote>.  V el dicitur prior omnium,
+          <lb ed="#Qb"/>quia prima inter creaturas, eo quod cum
+          <lb ed="#Qb"/>caelo creetur, vel quia primo die sit facta, secundum
+          <lb ed="#Qb"/>quod nomine lucis spiritualis intelligitur 5
+        </p>
+        <p>
+          <lb ed="#Qb"/>Similiter illud quod dicitur in lob 40, 14: lpse
+          <lb ed="#Qb"/>est 1 principium viarum Dei, attendendum est
+          <lb ed="#Qb"/>principium, secundum iam dictam rationem, vel
+          <lb ed="#Qb"/>ratione dignitatis vel ratione temporis, eo quod
+          <lb ed="#Qb"/>inter angelos bune primum dignitate condiderit.
+          <lb ed="#Qb"/>Onde Gr ego ri u s 6 : <quote> Principium actionum Dei
+          <lb ed="#Qb"/>behemoth dicitur, quia cum tanta crearet, bune
+          <lb ed="#Qb"/>primum condidit, quem eminentiorem reliquis angelis
+          <lb ed="#Qb"/>fecit </quote>; et hoc ad dignitatem pertinet. Cum
+          <lb ed="#Qb"/>angelis m vero primus dicitur conditus tempore,
+          <lb ed="#Qb"/>quia, secundum quorumdam Sanctorum opinionem
+          <lb ed="#Qb"/>7, primo die conditus est, et intelligunt n prioritatem
+          <lb ed="#Qb"/>diei 0 ad diem· prioritatem temporis. --:Nec
+          <lb ed="#Qb"/>hoc est contrarium quod ibidem dicitur 8 : Ecce
+          <lb ed="#Qb"/>behemoth, quem feci tecum ; non enim intelligitur
+          <lb ed="#Qb"/>secund um B. Gr ego r i u m de unitate temporis,
+          <lb ed="#Qb"/>se d -cognatione rationis. O n de G re go r i u s 9 :
+          <lb ed="#Qb"/>
+          <quote> Cum homine factus est, non unitate temporis,
+          <lb ed="#Qb"/>sed cognatione P rationis, quia in cuncta rerum
+          <lb ed="#Qb"/>natura nullum rationale animai est nisi angelus
+          <lb ed="#Qb"/>et homo; quidquid ratione uti non potest, eu m
+          <lb ed="#Qb"/>homine factum non didtur </quote>,
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

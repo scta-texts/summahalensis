@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="200"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t1d1m1c2">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 1, C. 2</head>
+        <head type="question-title">UTRUM VOLUNTAS NATURALIS SIT VEL FUERIT IN ANGELIS.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde procedendum est ad voluntatem natura<lb ed="#Qb"/>lem,
+          de qua quaeritur utrum sit in angelis
+          <lb ed="#Qb"/>vel fuerit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod. videtur: a. Omnia enim naturaliter optant
+          <lb ed="#Qb"/>bonum, et rationalia etirrationalia4; multo ergo
+          <lb ed="#Qb"/>fortius angeli optant? naturaliter bonum; sed ista
+          <lb ed="#Qb"/>optatio non est nisi secundum voluntatem na<lb ed="#Qb"/>turalem;
+          ergo voluntas naturalis infuit eis et
+          <lb ed="#Qb"/>inest.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>b. Praeterea, Damascenus5: <quote>Voluntas est
+          <lb ed="#Qb"/>appetitus rationaliset vitalis, ex solis dependens
+          <lb ed="#Qb"/>naturalibus</quote>; sed haec voluntas inest angelis,
+          <lb ed="#Qb"/>secundum quod 'rationale' communiter accipi<lb ed="#Qb"/>tur;
+          ergo voluntas naturalis inest vel intuit an<lb ed="#Qb"/>gelis.
+    
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, <name ref="#Anselm">Anselmus</name>ö: <quote> Angelisf insertus erat
+          <lb ed="#Qb"/>naturaliter appetitus beatitudinis </quote>; sed iste-* ap<lb ed="#Qb"/>petitus
+          erat voluntas naturalis; ergo voluntas na<lb ed="#Qb"/>turalis
+          inest vel iniuit ipsis.
+        </p>
+        <p>
+                <pb ed="#Qb" n="201"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>d. Item, Dionysius, in libro De divinis nomini<lb ed="#Qb"/>basï:
+    <quote> Quod sunt et quod vivunt et intelligunt,
+          <lb ed="#Qb"/>est in ipsis quidam desiderii motus </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Item 2: <quote> Quod  sunt, ex bono sunt et boni, et
+          <lb ed="#Qb"/>bonum et pulcrum desiderant, esse et vivere et
+          <lb ed="#Qb"/>intelligere existentium desiderantes </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Voluntate naturali diligitur Deus; sed
+          <lb ed="#Qb"/>ista naturalis voluntas, si exit in actum, exit in
+          <lb ed="#Qb"/>bonis angelis aut malis. In bonis non videtur,
+          <lb ed="#Qb"/>quia veniente perfectione evacuatur quod est im<lb ed="#Qb"/>perfectum,
+          sicut dicit Apostolus3; sed motus na<lb ed="#Qb"/>turae
+          imperfectus est respectu motus-gratuiti;
+          <lb ed="#Qb"/>ergo advenienteb perfectione motus gratuiti eva—
+          <lb ed="#Qb"/>cuatur motus naturalis; sed perfectio motus na<lb ed="#Qb"/>turalis
+          est gloria; ergo, cum angeli boni sint in
+          <lb ed="#Qb"/>gloria, non moventur motu naturali, sed motu
+          <lb ed="#Qb"/>gratuito in Deum: motus enimc naturalis est
+          <lb ed="#Qb"/>quandod diligitur Deus a creatura propter ipsam
+          <lb ed="#Qb"/>creaturam. In angelis autem malis non est iste
+          <lb ed="#Qb"/>motus, quia habent odio Deum; unde Augusti<lb ed="#Qb"/>nus4:
+    <quote>Quod dixi 'nullius conscientia potest
+          <lb ed="#Qb"/>Deum odisse', non videtur fuisse dicendum; multi
+          <lb ed="#Qb"/>enim sunt de quibus 'scriptum2 est5: Superbia
+          <lb ed="#Qb"/>eorum, qui te oderunt, ascendit semper </quote>. Sed quid
+          <lb ed="#Qb"/>estf aliud conscientia nisi voluntas prout hic
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>sumitur? Ergo voluntas in daemonibus habet odio
+          <lb ed="#Qb"/>Deum; ergo in illis non exit haec potentia in
+          <lb ed="#Qb"/>actum dilectionis naturalis; ergo haec potentia
+          <lb ed="#Qb"/>est otiosa; non ergo est voluntas naturalis in
+          <lb ed="#Qb"/>angelis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod estir vo<lb ed="#Qb"/>luntas
+          naturalis in angelis et fuit, sicut dicit <name>Dio<lb ed="#Qb"/>nysius</name> 
+          et alii Sancti.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id vero quod obicitur in
+          <lb ed="#Qb"/>contrarium, dicendumh quod est voluntas 'natu<lb ed="#Qb"/>ralis
+          in bonis. Nec est contrarium quod evacuata
+          <lb ed="#Qb"/>est in eis imperfectio: imperfectio enim illa est
+          <lb ed="#Qb"/>ex parte naturae, quia natura, quae prius dili<lb ed="#Qb"/>gebat
+          Deum reflectendo in se, per gratiam et glo<lb ed="#Qb"/>riam
+          elevatur super se et diligit ipsum super orn<lb ed="#Qb"/>nia
+          propter se. De hoc autem 1 plenius infra requi<lb ed="#Qb"/>retur,
+          ubi agetur de dilectione naturali in angelis 5.
+          — Ad id vero quod obicitur de malis angelis,
+          <lb ed="#Qb"/>dicendum quod in eis est voluntas naturalis; et
+          <lb ed="#Qb"/>licet odio habeant Deum, non tamen naturali vo—
+          <lb ed="#Qb"/>luntate, sed electiva corrupta. Conscientia autem
+          <lb ed="#Qb"/>non accipitur ibi pro voluntate naturali, cum cli<lb ed="#Qb"/>citur
+    <quote> nullius conscientia Deum odisse potest</quote>,
+          <lb ed="#Qb"/>sed pro ratione vel intellectu corrupto per pra<lb ed="#Qb"/>vam
+          electionem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

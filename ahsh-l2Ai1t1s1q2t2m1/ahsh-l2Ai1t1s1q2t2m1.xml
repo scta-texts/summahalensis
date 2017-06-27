@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="30"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t2m1">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 1</head>
+        <head type="question-title">De ratione causae in actu prout dicitur: Ex ipso etc.</head>
+        <p>
+          <lb ed="#Qb"/>Primo ergo fiat sermo de illis rationibus quae 
+          <lb ed="#Qb"/>per illas praepositiones designantur. Et potest 
+          <lb ed="#Qb"/>quaeri quae differentia sit illarum rationum inter
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>se et quare illae ponantur, non aliae quae per
+          <lb ed="#Qb"/>alias praepositiones designantur 2, aut si sunt aliae,
+          <lb ed="#Qb"/>quae sunt illae et' quare non plures quam tres.
+        </p>
+        <p>
+                <pb ed="#Qb" n="31"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Ad primum sic potest obici: ]. Haec praepo<lb ed="#Qb"/>sitio
+          'ex' designat conditionem causae materialis;
+          <lb ed="#Qb"/>sed Conditio causae materialis non convenit primae
+          <lb ed="#Qb"/>causae; ,ergo non est dicendum quod ex ipsa
+          <lb ed="#Qb"/>sint omnia. — Item, cum dicuntur omnia esse in
+          <lb ed="#Qb"/>ipso, continentia formae intelligitur, sicut cum di<lb ed="#Qb"/>citur
+          Act. 17, 28: In ipso vivimus, movemur et
+          <lb ed="#Qb"/>sumus. Quod autem ipse sit forma omnium, ha<lb ed="#Qb"/>betur
+          in fine libri De vera religione': <quote>Forma
+          <lb ed="#Qb"/>est omnium quae ab uno facta sunt et ad unum
+          <lb ed="#Qb"/>nituntur</quote>, et loquitur ibi de summa veritate. -—
+          <lb ed="#Qb"/>Item, haec praepositio 'per' dicit rationem effi<lb ed="#Qb"/>cientis.
+          Ergo videntur designari hae tres rationes
+          <lb ed="#Qb"/>causae: efficiens, formalis et materialis; sed hae
+          <lb ed="#Qb"/>tres non coincidunt in unam essentiam; ergo non
+          <lb ed="#Qb"/>sunt rationes primae causae causantis" in actu.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, ordo verborum non permittit has
+          <lb ed="#Qb"/>rationes causae; ratio enim causae materialis
+          <lb ed="#Qb"/>non est ante efficientem nec ratio efficientis in
+          <lb ed="#Qb"/>actu ante formalem: formalis enim b est secun<lb ed="#Qb"/>dum
+          quam est efficiens.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, ad Eph. 4,6 dicitur: Qui est super
+          <lb ed="#Qb"/>omnes et per omnia et in omnibus nobis, ubi
+          <lb ed="#Qb"/>alia. praepositio primoc ponitur, aliae vero duae
+          <lb ed="#Qb"/>manent.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Similiter, ad Col. I, 16: Omnia "' per ipsum et
+          <lb ed="#Qb"/>in ipso creata sunt, et ipse est ante omnes, et om<lb ed="#Qb"/>nia
+          in ipso constant, ubi ponitur haec praepositio
+          ' ante', sed praemittitur haec praepositio ' per '.
+          <lb ed="#Qb"/>Quid ergo dicendum est de ordine istarum ratio<lb ed="#Qb"/>num
+          et differentia praepositionum et quod ad
+          <lb ed="#Qb"/>Col. geminatur haec praepositio ' in', aliae vero
+          <lb ed="#Qb"/>non geminantur?
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, in libroe De divinis nominibus 2, di<lb ed="#Qb"/>citur
+          quod <quote> omnis status et motus est ex ipso
+          <lb ed="#Qb"/>et per ipsum et in ipsum et propter ipsum </quote>, et
+          <lb ed="#Qb"/>alia translatio3 dicit: <quote> Omnis statio et motus
+          <lb ed="#Qb"/>est ex quof et in quo etg ad quod et cuius
+          <lb ed="#Qb"/>gratia</quote>, ubi ponit 'in quo' in'! loco eius quod
+          <lb ed="#Qb"/>est ' per ipsum'. Item, alibi dicitur4: <quote> Ex ipso
+          <lb ed="#Qb"/>et per ipsum et in ipso et in ipsum sunt omnia </quote>,
+          <lb ed="#Qb"/>ubi quatuor videntur designari rationes.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Praeterea, .dicitur Rom. ll,36, in Glossa5.:
+    <quote>Ex ipso dicimus propter Patrem, per ipsum
+          <lb ed="#Qb"/>propter Filium, in ipsa propter Spiritum Sanc<lb ed="#Qb"/>tum
+    </quote>. Quae ratio est' appropriandi ista tria iis
+          <lb ed="#Qb"/>tribus personis? Quare enim dicitur quod ex
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>
+          <lb ed="#Qb"/>Patre sunt omnia potius quam de Patre, et quare
+          <lb ed="#Qb"/>potius ex- Patre quam ex- Filio vel/' ex Spiritu
+          <lb ed="#Qb"/>Sancto? cum illud, quod convenituni personae
+          <lb ed="#Qb"/>per effectum in creaturis, conveniat-eti aliis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Respondendum est quod, cum-dicitur
+          ' Ex ip80 ', non notatur conditio causae materialis,
+          <lb ed="#Qb"/>sed notatur origo. Undei-iugustinus6 super il<lb ed="#Qb"/>lud
+          :Ex ipso etc.: <quote> In illa Trinitate summa origo est
+          <lb ed="#Qb"/>omnium et perfectissima .pulcritudo et beatissima
+          <lb ed="#Qb"/>delectatio </quote>, ubi nomine. originis vult appropriare
+          'quod est' Patrin' ratidne potentiae. Hoc autem
+          <lb ed="#Qb"/>quod dicitur 'in ipso", non sumitur ratione con<lb ed="#Qb"/>tinentiae
+          quae refertur ad causam formalem exem<lb ed="#Qb"/>plarem,
+          sed ratione-continentiae quae convenit
+          <lb ed="#Qb"/>bonitati, quae" appropriatur Spiritui Sancto, se<lb ed="#Qb"/>cundum
+          quod dicitur Sap. 1,7: Hoc, quod can<lb ed="#Qb"/>tinet
+          omnia, scientiam habet vocis. Hoc autem
+          <lb ed="#Qb"/>quod dicitur ' per ipsum' 0 appropriatur Filio, licet
+          <lb ed="#Qb"/>dicat? causam efficientem: est enim causa effi<lb ed="#Qb"/>ciens,
+          quae habet ab alia persona quod sit effi<lb ed="#Qb"/>ciens,
+          et9 secundum hanc rationem dicitur de
+          <lb ed="#Qb"/>Filio: Filius enim habet a Patre quod sit effi<lb ed="#Qb"/>ciens;
+          et' quia per Verbum facta sunt. quae facta
+          <lb ed="#Qb"/>sunt", ideo convenienter appropriatur personae
+          <lb ed="#Qb"/>Filii. Non tamen sic haec-appropriantursut non
+          <lb ed="#Qb"/>sint communia omnibuss; unde Ambrosius,
+          <lb ed="#Qb"/>in libro De Trinitateg: <quote> lllud vigilanter attende
+          <lb ed="#Qb"/>net sic intelligas omnia esse ex Patre, ut neges
+          <lb ed="#Qb"/>esse ex Filio vel Spiritu Sancto, cum ex Patre et
+          <lb ed="#Qb"/>per Patrem et in Patre omnia sane dici possint;
+          <lb ed="#Qb"/>similiter et de Filio et de Spiritu Sancto, dici
+          <lb ed="#Qb"/>potest </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad id vero quod obicitur secundo, di<lb ed="#Qb"/>cendum
+          est quod haec praepOsitio 'per ', licet dicat
+          <lb ed="#Qb"/>causam efficientem ut frequenter, non tamen semf
+          <lb ed="#Qb"/>per, sed designatur ratio exemplaris, per quam
+          <lb ed="#Qb"/>et secundum quam reswfiunt. 'Aliter tamen ex<lb ed="#Qb"/>ponit
+          Origenes, Super" Epistolam ad Rom. 10:
+    <quote> Quod dicit 'ex ipsa', hoc ipsum quod sumus
+          <lb ed="#Qb"/>indicat; quod 'per ipsum', per eius providentiam
+          <lb ed="#Qb"/>dispensamur in vita; quod autem dicitur" 'in
+          <lb ed="#Qb"/>ipsa', perfectio omnium et finis designatur</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad- id x vero quod obicitur de hoc quod aliae
+          <lb ed="#Qb"/>differentiae notantur Eph. 4,6: dicendum est?
+          <lb ed="#Qb"/>quod .hoc est secundum aliam appropriationem
+          <lb ed="#Qb"/>factam Patri, sicut ibi tangit Glossa ": <quote> Super
+          <lb ed="#Qb"/>enimz dicitur Pater, .quia non habet aliunde
+          <pb ed="#Qb" n="32"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>quod omnes creaturas excellit </quote>. Unde ratione ex<lb ed="#Qb"/>cellentiae,
+          quae convenit ratione originis, dicitur
+          <lb ed="#Qb"/>Pater esse super omnes; <quote> Filius vero, per quem,
+          <lb ed="#Qb"/>quia per ipsum fit " reparatio; Spiritus vero Sanc<lb ed="#Qb"/>tus
+          est cui attribuitur esse in omnibus nobis per
+          <lb ed="#Qb"/>gratiam, in aliis vero creaturis per essentiam </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad id vero quod dicitur ' de b differentia po<lb ed="#Qb"/>sita
+          ad Col. 1,16, ubi primo dicitur: Omnia per
+          <lb ed="#Qb"/>ipsum creata sunt et in ipso ' etc.: dicendum quod
+          ' per? libi notat efficientiam quae est aliunde,
+          <lb ed="#Qb"/>quae appropriatur Filio. 'In ipso ' vero notat im<lb ed="#Qb"/>mensitatem
+          ipsius; unde dicit Glossa': <quote> Eum
+          <lb ed="#Qb"/>non excedunt, quia immensus est </quote>, ut non no<lb ed="#Qb"/>teturf
+          Filius ex tempore, sed ante omnem crea<lb ed="#Qb"/>turam.
+          Per immensitatem dicitur etiam "' esse ante
+          <lb ed="#Qb"/>omnes, ut ostendatur excellentia eius in dignitate
+          <lb ed="#Qb"/>super creaturas. Haec omnia ergoe attribuuntur
+          <lb ed="#Qb"/>Filio, sed diversis rationibus, ut notetur causalitas
+          <lb ed="#Qb"/>secundum substantiam, immensitas secundum con<lb ed="#Qb"/>tinentiam
+          virtutis, excellentia vero ratione digni<lb ed="#Qb"/>tatis.
+          Quod autem sequitur 'etf omnia in ipso
+          <lb ed="#Qb"/>constant' refertur ad conservationem bonitatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad id vero quod dicit Dionysius, in libro
+          <lb ed="#Qb"/>De divinis nominibus, ubi ponuntur quatuor, ex
+          <lb ed="#Qb"/>ipsa et per ipsum etc.: dicendum est quod prima
+          <lb ed="#Qb"/>ratio, designata per hanc praepositionem 'ex-',
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>attribuitur Patri ratione originis, quae est poten<lb ed="#Qb"/>tiae;
+          'per ipsum', ipsi Filio ratione sapientiae; ' in
+          <lb ed="#Qb"/>ipsum ' vero et ' propterg ipsum ', Spiritui Sancto
+          <lb ed="#Qb"/>ratione bonitatis, quae duplicem habet proprieta<lb ed="#Qb"/>tem,
+          scilicet quod terminat et finit. Et hoc patet
+          <lb ed="#Qb"/>per hoc quod in alia translatio—ne dicitur ' ex quo ',
+          <lb ed="#Qb"/>quod pertinet ad originem, ' in quo ', quod pertinet
+          <lb ed="#Qb"/>ad formam exemplarem sapientiae, 'ad quod',
+          <lb ed="#Qb"/>quod ad rationem termini, 'cuius gratia,, quod ad
+          <lb ed="#Qb"/>rationem finis: et haec duo complectitur bonitas.
+          <lb ed="#Qb"/>Et similiter potest exponi illud quod ibidem dici<lb ed="#Qb"/>tur:
+    <quote> ex ipso et per ipsum et in ipso et in ipsum</quote>,
+          <lb ed="#Qb"/>ut 'in ipso et in ipsum' ad bonitatem terminan<lb ed="#Qb"/>tem
+          et tinientem referantur, reliquavero appro<lb ed="#Qb"/>prientur,
+          sicut dictum est 2.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad illud vero quod ultimo obicitur de ap<lb ed="#Qb"/>propriatione
+          facta, ad Rom. l.l,36: dicendum est
+          <lb ed="#Qb"/>quod aliud in Scriptura sonat ' esse ex ipso' et
+          <lb ed="#Qb"/>aliud 'esse de ipso': nam 'exipso' dicuntur
+          <lb ed="#Qb"/>esse creaturae, non autem ' de ipso'; hoc tamen
+          <lb ed="#Qb"/>quod dicitur ' ex ipso ' commune est; unde Glos<lb ed="#Qb"/>sa3:
+    <quote> Quod de ipso est, potest dici esseh ex
+          <lb ed="#Qb"/>ipso;! non autem omne, quod est ex ipso, est de
+          <lb ed="#Qb"/>ipso, quia non est de substantia sua: ex ipso
+          <lb ed="#Qb"/>enim sunt caelum et terra, quia fecit ea, non
+          <lb ed="#Qb"/>autem de ipso, quia noni de substantia sua </quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

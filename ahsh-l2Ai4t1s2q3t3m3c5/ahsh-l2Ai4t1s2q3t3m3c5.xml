@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 3, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 3, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="483"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t3m3c5">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 3, C. 5</head>
+        <head type="question-title">UTRUM LIBERUM ARBITRIUM SIT COMMUNE CHRISTO ET ALIIS HOMINIBUS.</head>
+        <p>
+                <pb ed="#Qb" n="483"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Deinde a quaeritur utrum liberum arbitrium sit 
+          <lb ed="#Qb"/>commune Christo homini et aliis hominibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem nofi sit commune, ostenditur
+          <lb ed="#Qb"/>l. per hoc quod dicit loannes Damascenus 1 :
+          <lb ed="#Qb"/>
+          <quote>In anima Christi non dicimus consilium vel electionem
+          <lb ed="#Qb"/>: non enim habuit ignorantiam b; et si ignorantis
+          <lb ed="#Qb"/>c etiam futura naturae erat, sed tamen secundum
+          <lb ed="#Qb"/>hypostasim unita d Dei Verbo, omnium
+          <lb ed="#Qb"/>cognitionem habuit propter eam, quae secundum
+          <lb ed="#Qb"/>hypostasim est, unionem </quote>· Sed ubi non est electio,
+          <lb ed="#Qb"/>non est liberum arbitrium; ergo non habuit Ii berum
+          <lb ed="#Qb"/>arbitrium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, liberum arbitrium est quo f homo potest
+          <lb ed="#Qb"/>peccare et recte agere; sed hoc modo non fui t l
+          <lb ed="#Qb"/>liberum arbitrium in Christo, est autem in aliis hominibus,
+          <lb ed="#Qb"/>secundum quod dicitur inEnchiridion 2 :
+          <lb ed="#Qb"/>
+          <quote> Sic oportebat hominem fieri, ut et bene velle
+          <lb ed="#Qb"/>posset et male</quote>; ergo liberum arbitrium non est
+          <lb ed="#Qb"/>commune Christo et g aliis hominibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, liberum arbitrium a liberando dictum
+          <lb ed="#Qb"/>est, secundum illud Ioan. 8, 36: Si Filius vos
+          <lb ed="#Qb"/>liberaverit etc.; sed secundum hanc rationem
+          <lb ed="#Qb"/>non est nec fuit liberum arbitrium in Christo;
+          <lb ed="#Qb"/>ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. De Christo Isai. h 3 : <quote>Butyrum et
+          <lb ed="#Qb"/>mel comedet, ut sciat reprobare malum ef. eligere
+          <lb ed="#Qb"/>bonum</quote> i; sed illud, quo reprobatur malum et eligitur
+          <lb ed="#Qb"/>bonum, est liberum arbitrium; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Augustinus, De praedestinatione k 4 :
+          <lb ed="#Qb"/>
+          <quote> Numquid metuendum fuit ne, accedente aetate,
+          <lb ed="#Qb"/>homo ille libero peccaret arbitrio, aut ideo in ilio
+          <lb ed="#Qb"/>non erat1 1ibera voluntasm?</quote> Et respondet: Tanto
+          <lb ed="#Qb"/>magis erat libera, quanto magis servire peccato
+          <lb ed="#Qb"/>non poterat "· Ergo in Christo fuit liberum arbitrium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, I o a n n es D a m asce nus 5 : <quote> Sententialis
+          <lb ed="#Qb"/>voluntas in Christo era t</quote>; unde dici t: <quote> Quia n
+          <lb ed="#Qb"/>una hypostasis et unus volens, una est sententialis
+          <lb ed="#Qb"/>voluntas, humana sua voluntate sequente divinam
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>voluntatem </quote>; sed sententialis voluntas est voluntas
+          <lb ed="#Qb"/>0 liberi arbitrii; ergo in Christo fuit liberum
+          <lb ed="#Qb"/>arbitrium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum 6 quod liberum
+          <lb ed="#Qb"/>arbitrium fuit in Christo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: l. Ad primo autem P obiectum
+          <lb ed="#Qb"/>dicendum quod 'eligere' dicitur dupliciter, sicut
+          <lb ed="#Qb"/>supra dictum est 7• Uno modo dicitur 'eligere'
+          <lb ed="#Qb"/>definire seu determinare inter aliqua duo: et hoc
+          <lb ed="#Qb"/>modo electio est in Christo. Alia modo dicitur
+          <lb ed="#Qb"/>'eligere ' rem prius ignotam determinare seu definire:
+          <lb ed="#Qb"/>un de hoc modo dicitur electio determinati o
+          <lb ed="#Qb"/>rei dubiae in alteram q partem; et quia eligere
+          <lb ed="#Qb"/>hoc modo importat ignorantiam, non dicitur de
+          <lb ed="#Qb"/>Christo, sicut nec consilium, et hoc modo intelligitur
+          <lb ed="#Qb"/>quod dicit D a m asce nus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. A d a l i u d dicendum 8 quod ', cum dicitur
+          <lb ed="#Qb"/>quod liberum arbitrium Christi non potuit peccare
+          <lb ed="#Qb"/>s, hoc dicitur n.on ratione naturae in se consideratae,
+          <lb ed="#Qb"/>sed ratione gratiae unionis, per quam
+          <lb ed="#Qb"/>confirmatus fui t in bono; unde si esset natura
+          <lb ed="#Qb"/>humana sepàrata a divina et non esset per gratiam
+          <lb ed="#Qb"/>confirmata, esset possibilis ad peccatum.
+          <lb ed="#Qb"/>lllud ergo quod dicitur quod ' liberum arbitrium
+          <lb ed="#Qb"/>est quo homo potest peccare et recte agere t ',
+          <lb ed="#Qb"/>intelligitur ratione naturae; quod vero dicitur
+          <lb ed="#Qb"/>quod 'Christus non potuit peccare', hoc dicitur
+          <lb ed="#Qb"/>ratione gratiae. Unde libertas naturae, quae est
+          <lb ed="#Qb"/>a coa~tione, communis fuit Christo et aliis hominibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. A d ali u d diceridum quod libertas iz, de qua
+          <lb ed="#Qb"/>dicitur Ioan. 8, 36: <quote ana="#io8_36">Si Filius vos liberaverit</quote> etc.,
+          <lb ed="#Qb"/>dicitur libertas a peccato. Libertas autem ista,
+          <lb ed="#Qb"/>secundum · quod dicitur a liberando, dicitur dupliciter:
+          <lb ed="#Qb"/>scilicet active, quae scilicet est liberantis:
+          <lb ed="#Qb"/>et hoc modo fui t libertas in Christo;
+          <lb ed="#Qb"/>alio modo dicitur a liberando, scilicet passive,
+          <lb ed="#Qb"/>quae est liberati: et hoc modo non fuit libertas
+          <lb ed="#Qb"/>a peccato in Christo, quia in ipso nunquam
+          <lb ed="#Qb"/>fuit peccatum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

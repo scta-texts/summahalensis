@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 2, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t2m2c5">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 2, C. 5</head>
+        <head type="question-title">UTRUM CREARE SIT IN TEMPORE VEL CUM TEMPORE VEL ANTE TEMPUS.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter procedendum est ad quinto quae<lb ed="#Qb"/>situm,
+          quod est de creatione-actione, utrum 
+          <lb ed="#Qb"/>sit ex tempore vel cum tempore vel ante tempus 8.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod sic: 1. Creatio-actio, in quantum crea<lb ed="#Qb"/>tio,
+          non est aeterna; sed quod non est aeternum
+          <lb ed="#Qb"/>non commetitur se aeternitati; sed' commetitur
+          <lb ed="#Qb"/>se; ergo tempori, et sumamus tempus large ad
+          <lb ed="#Qb"/>aevum9 ; ergo creatio fuit cum tempore.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, cum Deus creat'" hanc animam, creatio
+          <lb ed="#Qb"/>est in hoc ' nunc' ; sed ante hoc ' nunc' " fuit aliud
+          'nunc temporis"; sed omne quod est in 'nunc,
+          <lb ed="#Qb"/>temporis, quod habet aliud 'nunc temporis' ante
+          <lb ed="#Qb"/>se, est in tempore.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, quod exit in esse, cum prius non tue<lb ed="#Qb"/>rit,
+          est cum tempore; sed creatio exit in esse,
+          <lb ed="#Qb"/>cum prius non iuerito; ergo est in tempore veIP
+          <lb ed="#Qb"/>cum tempore.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Quod est principium temporis non
+          <lb ed="#Qb"/>est in tempore nec'1 cum tempore proprie; sed
+          <lb ed="#Qb"/>creatio est principium temporis; ergo non est
+          <lb ed="#Qb"/>in tempore vel cum tempore proprie: princi<lb ed="#Qb"/>pium
+          enim non parificatur ei cuius est principium;
+          <lb ed="#Qb"/>sed quod est cum alio, in quantum huiusmodi,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>associatur ei; ergo creatio non erit cum tempore,
+          <lb ed="#Qb"/>sed ante tempus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum per hoc quod
+          <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>, in XII De civitate Dei9:
+    <quote>Ego, sicut Dominum Deum aliquando Dominum
+          <lb ed="#Qb"/>non fuisse dicere non audeo, sed semper fuit
+          <lb ed="#Qb"/>Dominus: erat quippe ante illam, scilicet crea<lb ed="#Qb"/>turam,
+          quamvis nullo tempore sine illa </quote>, sic crea<lb ed="#Qb"/>tio-actio
+          non est sine tempore — et comprehendo
+          <lb ed="#Qb"/>sub tempore 'nunc", quod est principium tem<lb ed="#Qb"/>poris
+          — non tamen est in tempore, cum sit actio
+          <lb ed="#Qb"/>Dei prima in creaturam; nec cum tempore pro<lb ed="#Qb"/>prie
+          dicitur, quia* non ei associatur vel parifi<lb ed="#Qb"/>catur;
+          sed non sine tempore, id est sine 'nunc
+          <lb ed="#Qb"/>temporis '; ante vero dicitur esse ratione causali<lb ed="#Qb"/>tatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad id autem quod obicitur de creatione
+          <lb ed="#Qb"/>huius animae: respondendum est quod" creatio<lb ed="#Qb"/>actio,
+          quae Dei est et Deus est, nec est in 'nunc
+          <lb ed="#Qb"/>temporis' nec V post 'nunc ' quoad hoc, sed quoad
+          <lb ed="#Qb"/>terminum, temporalem, quem respicit, est postx
+          'nunc temporis ', non quod causam habeat tem<lb ed="#Qb"/>pus,
+          sicut est de rebus, quae creantur mediante
+          <lb ed="#Qb"/>primo motu.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

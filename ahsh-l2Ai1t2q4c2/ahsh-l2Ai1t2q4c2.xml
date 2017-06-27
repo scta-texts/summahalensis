@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 4, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 4, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="109"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q4c2">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 4, C. 2</head>
+        <head type="question-title">UTRUM ORDO SIT IN UNIVERSO ET IN SE ET IN PARTIBUS SUIS.</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur utrum ordo sit in universo in
+          <lb ed="#Qb"/>se et in partibus suis, ut nihil sit inordinatum 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod sic videtur: 'a. <name ref="#Augustine">Augustinus</name>, De libero
+          <lb ed="#Qb"/>arbi-trio4: <quote> Nulla vis, nullus casus, nulla rerum
+          <lb ed="#Qb"/>labes id unquam * effecit ut iustum non sit omnia
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>esse ordinatissima</quote>. Ergo omnia sunt ordinata
+          <lb ed="#Qb"/>in universo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item-, a sapiente artifice procedunt res ordi<lb ed="#Qb"/>natae5;
+          ergo a summo sapiente procedunt rest
+          <lb ed="#Qb"/>ordinatissimae; sed omnes res processerunt a
+          <lb ed="#Qb"/>Deo per conditionem '"; ergo sunt 'ordinatissimae.
+          <pb ed="#Qb" n="110"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Unde <name ref="#Augustine">Augustinus</name>, V De civitate Dei': <quote>Ve<lb ed="#Qb"/>rissime
+          creditur cuncta scire antequam fiant et
+          <lb ed="#Qb"/>nihil inordinatum relinquere a quo sunt omnes
+          <lb ed="#Qb"/>potestates, quamvis non sint omnium voluntates </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Eccle. 10,5-7:-Est malum quasi " per
+          <lb ed="#Qb"/>errorem egrediens a facie principis. Vidi stultum
+          <lb ed="#Qb"/>positum in dignitate sublimib et divites sedere
+          <lb ed="#Qb"/>deorsum; vidi servos in equis et principes am<lb ed="#Qb"/>bulantes
+          super terram. Ex quo accipitur quod non
+          <lb ed="#Qb"/>est ordo in universo, quia rectus c ordo esset ut
+          <lb ed="#Qb"/>boni dominarentur malis. Unde <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Qb"/>De civitate Dei, XIX 2: <quote> Naturalis ordo hoc prae<lb ed="#Qb"/>scribitd
+          ; ita enim Deus hominem condidit. Inquit
+          <lb ed="#Qb"/>enim 3: Dominetur piscium * maris et volatiliumf
+          <lb ed="#Qb"/>caeli; rationalem factum ad imaginem suam4 no<lb ed="#Qb"/>luit
+          nisi irrationabilibus dominari. Inde primi iusti
+          <lb ed="#Qb"/>pastores pecorum magis! quam reges hominum
+          <lb ed="#Qb"/>constituti sunt, ut insinuaret Deus quid postulet
+          <lb ed="#Qb"/>ordo creaturarum, quid exigat meritum peccato<lb ed="#Qb"/>rum
+    </quote>. Et Prov. l4,19-14 dicitur: lucebunt impii
+          <lb ed="#Qb"/>ante portas" iustorum, et super eos erit viri
+          <lb ed="#Qb"/>bonus. Ex quo accipitur quod non est ordo in
+          <lb ed="#Qb"/>partibus universi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, anima praefertur creaturae corporali;
+          <lb ed="#Qb"/>sicut habetur ab Augustino, Super Genesim, VIII
+          <lb ed="#Qb"/>libro 5, et in libro De Iiberoarbitrio 6 ; sed anima
+          <lb ed="#Qb"/>vel angelus in poena inferius ordinatur quam crea—
+          <lb ed="#Qb"/>tura corporalis — quod patet per hoc quod dicit
+          <lb ed="#Qb"/>A u g u s ti n u s, in libro De civitate Dei, XXI 7, ubi '
+          <lb ed="#Qb"/>ostenditur quod ignis gehennae vel purgatorius
+          <lb ed="#Qb"/>est corporalis, et tamen punit angelos vel animas
+          <lb ed="#Qb"/>damnatas — ergo non est ordo partium in universo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, creaturae irrationales potestatem habent
+          <lb ed="#Qb"/>nocendi rationalibus; sed ordine naturae praefer<lb ed="#Qb"/>tur
+          rationalis irrationali; ergo non est ordo in
+          <lb ed="#Qb"/>universo, cum e contrario fiat *: quod enim nocet,
+          <lb ed="#Qb"/>habet potestatem super alterum cui nocet. '
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, tentator inducit aliquandol tentatum in
+          <lb ed="#Qb"/>tentationem, et cum hoc est'", superponitur ten<lb ed="#Qb"/>tator"
+          ei qui tentatur; sed qui tentat est diabolus,
+          <lb ed="#Qb"/>qui tentatur est homo iustus; ergo superponitur
+          <lb ed="#Qb"/>diabolus homini iusto; ergo non est ordo in uni- ,
+          ' angelus tentator ut in quodam? praeferatur ho<lb ed="#Qb"/>
+          <lb ed="#Qb"/>verso.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod ordo est in
+          <lb ed="#Qb"/>partibus universi.
+          <lb ed="#Qb"/>Ad obiecta" autem in contrarium dicendum
+          <lb ed="#Qb"/>quod duplex est ordo, manifestus scilicet et oc<lb ed="#Qb"/>cultus:
+          manifestus, cum boni praeferuntur malis;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>occultus, cum e converso mali praeferuntur
+          <lb ed="#Qb"/>bonis: hoc enim est ad probationem bonorum.
+          <lb ed="#Qb"/>Unde Gregoriuss, super illud Iob 22,18: Cum
+          <lb ed="#Qb"/>implesset domos eorum bonis etc.: <quote>Ordinatis
+          <lb ed="#Qb"/>Deus iuxta merita singulorum disponit ut ma<lb ed="#Qb"/>lus
+          diutius vivat, ut mala augeat, quibus boni
+          <lb ed="#Qb"/>probentur </quote>. Unde occultum est iudicium Dei, quo
+          <lb ed="#Qb"/>mali in praesenti dominantur et boni subiciuntur.
+          <lb ed="#Qb"/>Boni enim in praesenti puniuntur ut 'non ' reser<lb ed="#Qb"/>ventur
+          ad poenam, mali vero in praesenti prospe<lb ed="#Qb"/>rantur 
+          vel ut ad bonum alliciantur vel in futuro
+          <lb ed="#Qb"/>gravius condemnentur. Unde super illud Iob 35, 15:
+          <lb ed="#Qb"/>Nec ulciscitur etc. 9: <quote> Aliquando ferire" incipit quod
+          <lb ed="#Qb"/>aeterna damnatio consummat; quaedam vero punit,
+          <lb ed="#Qb"/>ne credatur non curare humana; quaedam reser<lb ed="#Qb"/>vat,
+          ut iudicium restareP sentiamus </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Ex iam dictisfl patet qualiter solvendum
+          <lb ed="#Qb"/>est' primo obiectum. In illis enim est ordo oc<lb ed="#Qb"/>cultus,
+          sicut. in illis de quibus dicitur, Eccle. 5,7:
+          <lb ed="#Qb"/>Si videris calumnias egenorum et violenta iudicia
+          <lb ed="#Qb"/>et subverti iustitiam ins provincia, non mireris
+          <lb ed="#Qb"/>super hoc negotio. In praesenti enim est occultum
+          <lb ed="#Qb"/>iudicium, sed in futuro erit manifestum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum verot dicendum quod, licet
+          <lb ed="#Qb"/>spiritualis creatura praeferatur corporali, ratione
+          <lb ed="#Qb"/>tamen culpae, qua interius ordinatur, praefertur
+          <lb ed="#Qb"/>creatura corporalis, servans ordinem suum, crea<lb ed="#Qb"/>turae
+          spirituali, non servanti ordinem suum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum quod creaturae irf
+          <lb ed="#Qb"/>rationales potestatem habent nocendi rationalibus,
+          <lb ed="#Qb"/>et in hoc praeferuntur eis; sedu hoc non est ex
+          <lb ed="#Qb"/>prima institutione, qua dictum est de homine 10: Ut
+          <lb ed="#Qb"/>praesit volatilibus caeli et piscibus maris etc., sed
+          <lb ed="#Qb"/>hoc est ratione poenae peccati, ut, quia non serva<lb ed="#Qb"/>vit
+          homo voluntariam subiectionem et debitam
+          <lb ed="#Qb"/>respectu sui superioris, nec debita subiectio serva<lb ed="#Qb"/>retur
+          ei a suo inferiori, non quod amplius datum
+          <lb ed="#Qb"/>sit ipsis irrationalibus", sed subtractum est ex
+          <lb ed="#Qb"/>peccato ipsis rationalibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad quartum vero dicendum quod ten<lb ed="#Qb"/>tator
+          duo habet in se: unum ratione naturae ety
+          <lb ed="#Qb"/>alterum ratione malitiae. Ratione naturae habet
+          <lb ed="#Qb"/>mini: natura enim eius est potentior; unde an<lb ed="#Qb"/>gelus
+          potest tentare hominem, homo vero non
+          <lb ed="#Qb"/>potest tentare angelum, sed ratione malitiae habet
+          <lb ed="#Qb"/>voluntatem tentandi; sed inferior est homine iusto,
+          <lb ed="#Qb"/>in quantum est iustus. Unde <name>Cassiodorus</name>, De
+          <pb ed="#Qb" n="111"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>anima 1: <quote>Tales animae, Do'minoa praestante,
+          <lb ed="#Qb"/>noxiis spiritibus imperant, et illi, quos mundusb
+          <lb ed="#Qb"/>patitur infestos, a creatura minore superantur.
+          <lb ed="#Qb"/>Adhuc in corpore carnis iubent potestatibus a'eris,
+          <lb ed="#Qb"/>quorum tentationibus non cedunt, eis divina
+          <lb ed="#Qb"/>virtute dominantur</quote>. Si vero cadat in pecca<lb ed="#Qb"/>tum,
+          quoad hoc subicitur ei. Unde quantum ad
+          <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>primum dicitur Iob 41,24, super illud: Non est
+          <lb ed="#Qb"/>potestas super terram etc., Glossazz <quote> Si bea<lb ed="#Qb"/>titudinem
+          perdidit, magnitudinem tamen naturae
+          <lb ed="#Qb"/>nbn amisit, qua omnia superat, etsi meritis sanc<lb ed="#Qb"/>torum
+          subiaceat</quote>. De secundo vero dicitur II
+          <lb ed="#Qb"/>Petri 2,19: A quo quis superatus est, eius etf
+          <lb ed="#Qb"/>servus est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

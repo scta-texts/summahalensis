@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 1, M. 2, C. 2 DE ORDINE VERBORUM GENESEOS 1,3-5.</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 1, M. 2, C. 2 DE ORDINE VERBORUM GENESEOS 1,3-5.</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="334"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q2t1m2c2">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 1, M. 2, C. 2</head>
+        <head>DE ORDINE VERBORUM GENESEOS 1,3-5.</head>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">De verbis 'Fiut lux' et ' Vidit Deus lucem quod esset bonu' et "Divisit Deus lucem et tenebras '.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur secundo de ordine verborum.
+            <lb ed="#Qb"/>I. Primo ergo quaeritur quare non dicitur:
+            <lb ed="#Qb"/>'Fiat caelum et terra', sicut dicitur [: Fiat lux etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo, secundum <name ref="#Augustine">Augustinum</name>, Super
+            <lb ed="#Qb"/>Genesim 2, quod tam in opere creationis quam in
+            <lb ed="#Qb"/>opere conditionis sive factionis intelligitur tota
+            <lb ed="#Qb"/>Trinitas. Cum enim dicitur-3: In principio creavit
+            <lb ed="#Qb"/>Deus 4, per hoc quod dicitur 'Deus' intelligitur
+            <lb ed="#Qb"/>Pater, per ' principium ' vero intelligitur Filius,
+            <lb ed="#Qb"/>qui est principium' de principio, Spiritus Sanc<lb ed="#Qb"/>tus
+            intelligitur per hoc quod diciturtz Spiritus Do<lb ed="#Qb"/>mini
+            ferebatur etc. Similiter, cum diciturf 5: Dixit
+            <lb ed="#Qb"/>Deus: Fiat etc. 8, per hoc quod dici-tur 'Deus ' in<lb ed="#Qb"/>telligitur
+            Deus Pater, per hoc quod dicitur 'dixit'
+            <lb ed="#Qb"/>intelligitur Filius, qui est Verbum, per hoc vero
+            <lb ed="#Qb"/>quod dicitur 5: Vidit Deus lucem, quod esset bona,
+            <lb ed="#Qb"/>intelligitur Spiritus Sanctus, cui appropriatur bo<lb ed="#Qb"/>nitas.
+            Quare vero in opere creationis ponitur prin<lb ed="#Qb"/>cipium,
+            in opere distinctionis ponitur Verbum,
+            <lb ed="#Qb"/>dictum est supra 7.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. 1. Item, quaeritur de hoc quod dicitura: Vi—
+            <lb ed="#Qb"/>dit Deus lucem quod esset bona, quare non simi<lb ed="#Qb"/>liter
+            dictum est in creatione: vidit Deus caelum
+            <lb ed="#Qb"/>et terram quod essent bona?
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, quaeritur de hoc quod dicitur": Vidit. 
+            <lb ed="#Qb"/>Numquid enim prius non viderati ?
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: 1. Ad primum respondet Augu<lb ed="#Qb"/>stinus,
+            <lb ed="#Qb"/>Super Genesim ad litteram 9, ita dicens:
+            <lb ed="#Qb"/>
+            <quote>Duo sunt propter quae amat. Deus creaturam
+            <lb ed="#Qb"/>suam, scilicet ut sit et ut maneat. Ut ergo esset
+            <lb ed="#Qb"/>quod maneret, spiritus Dei superferebatur': super
+            <lb ed="#Qb"/>aquam; ut autem maneret, vidit Deus quia bona
+            <lb ed="#Qb"/>est. Et quod de luce dictum est', hoc de om—
+            <lb ed="#Qb"/>nibus </quote>.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>2. Ad secundum respondet Augusti<lb ed="#Qb"/>nus, 
+            <lb ed="#Qb"/>in libro Contra Manichaeos 10, ita dicens:
+      <quote> Numquid quia placet ei, ideo non noverat bo<lb ed="#Qb"/>num? Prorsus noverat intus in animo", ubi ars
+            <lb ed="#Qb"/>ipsa pulcrior est quam illa quae arte fabrican<lb ed="#Qb"/>tur.
+            Sed quod videt artifex intus in arte, hoc
+            <lb ed="#Qb"/>probat foris in opere et hoc est perfectum quod
+            <lb ed="#Qb"/>artifici suo placet. Vidit ergo Deus lucem quia
+            <lb ed="#Qb"/>bona est: quibus verbis non ostenditur" elu<lb ed="#Qb"/>xisse
+            Deo quod bonum est, sed placuisse per<lb ed="#Qb"/>fectum.
+            Quid si dictum esset 'miratus est Deus
+            <lb ed="#Qb"/>lucem quia bona est ' ? Quantum clamarent, quan<lb ed="#Qb"/>tum
+            litigarent! Admiratio enim revera de rebus '
+            <lb ed="#Qb"/>insperatis nasci solet. Et tamen legunt isti et lau<lb ed="#Qb"/>dant
+            in Evangelio Dominum nostrum iesum Chri<lb ed="#Qb"/>stum
+            admiratum esse iidem credentium ". Quis
+            <lb ed="#Qb"/>autem illis fecerat ipsam fidem, nisi ille qui eam
+            <lb ed="#Qb"/>mirabatur? </quote>
+               </p>
+          <p>
+            <lb ed="#Qb"/>III. Item, quaeritur de hoc quod diciturlz: Divisit
+            <lb ed="#Qb"/>Deus lucem et tenebras, quare non superius dictae
+            <lb ed="#Qb"/>sunt tenebrae iactae sicut dicuntur distinctae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod <name ref="#Augustine">Augustinus</name>, in libroP
+            <lb ed="#Qb"/>Cc'mtra Manichaeos 13, sic respondet: <quote> Hic non
+            <lb ed="#Qb"/>dictum est 'fecit Deus tenebras ', quia tenebra,
+            <lb ed="#Qb"/>sicut dictum est 14, lucis absentia est; distinctio
+            <lb ed="#Qb"/>tamen? facta est inter lucem et tenebras. Quem<lb ed="#Qb"/>admodum
+            nos clamando facimus vocem, silen<lb ed="#Qb"/>tium
+            autem non sonando facimus, quia cessatio
+            <lb ed="#Qb"/>vocis silentium est: distinguimus tamen' sensu
+            <lb ed="#Qb"/>quidem inter vocem et silentium et illud vocamus
+            <lb ed="#Qb"/>vocem, illud silentium. Quemadmodum ergo recte
+            <lb ed="#Qb"/>dicimurs tacere silentium, sic recte multis divi<lb ed="#Qb"/>narumt
+            Scripturarum locis Deus dicitur iacere
+            <lb ed="#Qb"/>tenebras 15, quia lucem quibus vult temporibus
+            <lb ed="#Qb"/>et locis vel non dat vel detrahit</quote>.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">De verbis 'Factum est vespere et mane dies unus'.</head>
+          <p>
+                  <pb ed="#Qb" n="335"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Item, quaeritur I. de hoc quod dicitur": Fac<lb ed="#Qb"/>tum
+            est vespere et mane etc.
+            <lb ed="#Qb"/>Videtur enim 1. quod deberet mane praeordi<lb ed="#Qb"/>nari
+            vesperi, quia nobilius est: nobilior enim
+            <lb ed="#Qb"/>est" cognitio in Verbo cognitione in propria na<lb ed="#Qb"/>tura,
+            et ita prior est natura vel dignitate 0.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, prius naturaliter cognovit angelus in
+            <lb ed="#Qb"/>Verbo quam in propria natura; in proprio ergo
+            <lb ed="#Qb"/>genere mane praeordinari debet vesperi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: 1. Ibi accipit <name ref="#Augustine">Augustinus</name>2 'mane'
+            <lb ed="#Qb"/>proprie pro d cognitione angeli, quae est de re ia<lb ed="#Qb"/>cienda
+            in quantum huiusmodi, et quia non cognovit
+            <lb ed="#Qb"/>se faciendum, ideo proprie non habuit cognitionem
+            <lb ed="#Qb"/>matutinam de se, sed de aliisS; 'vespere' autem
+            <lb ed="#Qb"/>intelligit <name ref="#Augustine">Augustinus</name> pro cognitione de re facta
+            <lb ed="#Qb"/>in proprio genere, et hanc bene habuit angelus
+            <lb ed="#Qb"/>de se. Quia ergo angelus prius cognovit se fac<lb ed="#Qb"/>tum
+            quam cetera facienda, prius dico secundum
+            <lb ed="#Qb"/>naturam, ideo vespere ibi praeordinatur mane.
+            <lb ed="#Qb"/>Unde ibi est duplex modus ordinandi: unus quoad
+            <lb ed="#Qb"/>cognita, et sic ordinatur vespere ante mane, ut
+            <lb ed="#Qb"/>nunce dictum est; alius quoad modos cogno<lb ed="#Qb"/>scendi,
+            et sic deberet praeordinari/ mane secun<lb ed="#Qb"/>dum
+            quod probat obiectio prima.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundum dicendum quod revera
+            <lb ed="#Qb"/>cognovit se angelus in Verbo, sed non eo
+            <lb ed="#Qb"/>modo quo accipitur, quia non cognovit nec co<lb ed="#Qb"/>gnoscere 
+            potuit se faciendum, sed se iam exi<lb ed="#Qb"/>stentemf.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Item, quaeritur utrum unus erat dies aut
+            <lb ed="#Qb"/>plures.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Videtur quod unus: 1. Dies enim distinguitur,
+            <lb ed="#Qb"/>ut dictum est 4, secundum cognitionem angeli; sed
+            <lb ed="#Qb"/>constat quod, secundum A 11 gu stin u m 5, omnia
+            <lb ed="#Qb"/>simul iacta sunt; sed angelus non cognoscit per
+            <lb ed="#Qb"/>successionem sicut anima, sicut dicit Augusti<lb ed="#Qb"/>nus,
+            supras: <quote>Non sicut nosg ad percipien<lb ed="#Qb"/>dam
+            sapientiam proficiebant </quote> etc. Ergo si intel—
+            <lb ed="#Qb"/>ligit quaecumque sunt, ut videtur, ergo simul
+            <lb ed="#Qb"/>cognoscebat omnia, cum simul facta essent; ergo
+            <lb ed="#Qb"/>nouerat nisi unicus dies.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Attingere ad multa simul, ita quod
+            <lb ed="#Qb"/>non ad unum post aliud, proprium estsapien—
+            <lb ed="#Qb"/>tiae increatae ", de qua Sap. 7, 24: Attingit ubique
+            <lb ed="#Qb"/>propter suih munditiam; ergo non convenit-an<lb ed="#Qb"/>gelo;
+            sed attingere angeli est per cognitionem;
+            <lb ed="#Qb"/>ergo non simul multa cognoscit.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Dicendum quod multi sunt dies spi<lb ed="#Qb"/>rituales,
+            secundum <name ref="#Augustine">Augustinum</name>e, et accipitur
+            <lb ed="#Qb"/>eorum distinctio a parte cognitorum, quae diversa
+            <lb ed="#Qb"/>erant in genere vel in specie et ordinem natu<lb ed="#Qb"/>ralem
+            habebanti: unde propter praesentiam co<lb ed="#Qb"/>gnitionis
+            significatae super res factas, compu<lb ed="#Qb"/>tantur
+            dies diversi. Accipitur etiam distinctio a
+            <lb ed="#Qb"/>parte cognitionis angelicae: sicut enimk nunc ul<lb ed="#Qb"/>timo
+            probatum estg, non simul, id est non in uno
+            'nunc' simul, intelligebat multa, sed unum post
+            <lb ed="#Qb"/>aliud, quamvis omnia simul facta essent, nisi di<lb ed="#Qb"/>catur 
+            'simul ,, id est repente, quia non apparet
+            <lb ed="#Qb"/>differentia inter cognitionem et cognitionem, sicut
+            <lb ed="#Qb"/>apparet in homine 10: et hoc dicit A u g u sti n u s ",
+            <lb ed="#Qb"/>ponens exemplum de visu nostro secundum opi<lb ed="#Qb"/>nionem
+            quae dicit quod videmus extra mittentes 12.
+            <lb ed="#Qb"/>Radius visibilis in ictu pertransit propinquiora et
+            <lb ed="#Qb"/>remotiora spatia simul, id est repente, non omnino
+            <lb ed="#Qb"/>aeque cito vel subito, quia impossibile est corpus
+            <lb ed="#Qb"/>aliquod subito pertransire. Et accipit illud pro con<lb ed="#Qb"/>cordantia
+            l-Thess. 413: In ictu oculi etc.; in diver<lb ed="#Qb"/>sis
+            enim locis erunt corpora resurgentia et non ae<lb ed="#Qb"/>que
+            distabunt a loco iudicii et tamen in ictu oculi,
+            <lb ed="#Qb"/>id est repente, convenient. Multo autem maior cele<lb ed="#Qb"/>ritas
+            est in cognitione angelica quam in huiusmodi
+            <lb ed="#Qb"/>corporibus vel quam in "radio visibili. Unde dicit
+            <lb ed="#Qb"/>A ug u sti n u s 14: <quote> Si oculorum carnalium acies
+            <lb ed="#Qb"/>celeritate tantum potest, quid mentis acies huma<lb ed="#Qb"/>nae,
+            quanto magis angelicae! </quote> Unde multo magis
+            <lb ed="#Qb"/>ponendum est' quod repente multa cognoscit '",
+            <lb ed="#Qb"/>non tamen subito, sed ibi est posterioritas de
+            'nunc, in cognoscendo unum ad 'nunc' in cogno<lb ed="#Qb"/>scendo
+            aliud et ob hoc est diversitas in diebus.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

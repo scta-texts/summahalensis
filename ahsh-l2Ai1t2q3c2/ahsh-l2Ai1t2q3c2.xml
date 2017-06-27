@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 3, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="100"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q3c2">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 3, C. 2</head>
+        <head type="question-title">QUAE SIT DIFFERENTIA PULCRI ET APTI.</head>
+        <p>
+                <pb ed="#Qb" n="100"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>supposita" hac differentia, consequenter quae<lb ed="#Qb"/>ritur
+          de differentia pulcri et apti.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quodb respondet Isidorus", De summo
+          <lb ed="#Qb"/>bono ' :, <quote> Decor elementorum omnium in pulcro 'et
+          <lb ed="#Qb"/>apto consistit; sed pulcrum est, quod per se ip<lb ed="#Qb"/>sum
+          pulcrum est, ut homo ex anima et membris
+          <lb ed="#Qb"/>constans, aptum, vero ut vestimentum et ut vic<lb ed="#Qb"/>tus.
+          Ideoque hominem dicimus pulcrum ad se,
+          <lb ed="#Qb"/>quia non vestimento et victui est necessarius,
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>sed ista homini; ideo autem illa apta, quia ad
+          <lb ed="#Qb"/>aliud, id es ad hominem accomodata, sibimet
+          <lb ed="#Qb"/>sunt necessaria. Hoc et de elementorum naturis
+          <lb ed="#Qb"/>dicendum est </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Videtur ergo differentia pulcri et apti in hoc
+          <lb ed="#Qb"/>quod pulcrum dicatur in se ipso, aptum vero se.<lb ed="#Qb"/>cundum 
+          quod homini accommodatur vel alteri
+          <lb ed="#Qb"/>rei cui convenit. Unde videtur pulcrum proprie ex
+          <lb ed="#Qb"/>specie dici sive'torma, large accipiendo formam,
+          <lb ed="#Qb"/>aptum vero ex coniunctione decenti cum alio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

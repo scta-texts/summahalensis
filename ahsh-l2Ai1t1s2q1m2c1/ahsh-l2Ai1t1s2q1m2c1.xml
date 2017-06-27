@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="44"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q1m2c1">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 2, C. 1</head>
+        <head type="question-title">UTRUM VESTIGIUM DICATUR UNO MODO VEL DIFFERENTER.</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic obicitur quod multipliciter dica<lb ed="#Qb"/>tur:
+          1. Opus enim dicitur multipliciter de ipso
+          <lb ed="#Qb"/>opere operante et de re operata; ergo, cum opus
+          <lb ed="#Qb"/>dicatur vestigium, vestigium h dicetur multipliciter
+          <lb ed="#Qb"/>de ipsis actionibus et de rebus quae aguntur,
+          <lb ed="#Qb"/>cum de utrisque dicatur, sicut patet ex praemissis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, secundum quod vestigia dicuntur
+          <lb ed="#Qb"/>opera Christi, non faciunt oberrarei, secundum
+          <lb ed="#Qb"/>quod vestigia dicuntur creaturae, dant occasionem
+          <lb ed="#Qb"/>oberrandi. Unde <name ref="#Augustine">Augustinus</name>, in libro De li<lb ed="#Qb"/>bero
+          arbitrio 9: <quote> Vae qui derelinquunt * te ducem
+          <lb ed="#Qb"/>et lucem' et oberrant in vestigiis tuis qui nutus
+          <lb ed="#Qb"/>tuos pro te amant et obliviscuntur quid innuas! </quote>
+             </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. In omnibus iis notatur impressio ef<lb ed="#Qb"/>fectus
+          a causa, qui quodammodo assimilatur ei,
+          <lb ed="#Qb"/>sicut vestigium in pulvere assimilatur figurae pedis.
+        </p>
+        <p>
+                <pb ed="#Qb" n="45"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod sunt vesti—
+          <lb ed="#Qb"/>gia-per appropriationem ipsius" potentiae divinae,
+          <lb ed="#Qb"/>ut opera creationis; et sunt vestigia divinae sa<lb ed="#Qb"/>pientiae
+          per appropriationem, ut ea in quibus
+          <lb ed="#Qb"/>relucet sapientia, et de iisb dicitur in libro De
+          <lb ed="#Qb"/>libero arbitrio ': <quote> Quocumque te verteris, qui<lb ed="#Qb"/>busdam
+          vestigiis operibus suis impressis Sa<lb ed="#Qb"/>pientia
+          loquitur tibi</quote>; sunt etiam vestigia boni<lb ed="#Qb"/>tatis
+          divinae, et secundum hoc accipitur Iob 11,7
+          <lb ed="#Qb"/>et 23,11. In omnibus autem iis quaedam est ra—
+          <lb ed="#Qb"/>tio communis, licet secundum prius et posterius
+          <lb ed="#Qb"/>dicta. Nec ita dicuntur vestigia potentiae quin
+          <lb ed="#Qb"/>illa eadem dicantur vestigia sapientiae et boni<lb ed="#Qb"/>tatis,
+          et ita de aliis: indivisa enim sunt opera po—
+          <lb ed="#Qb"/>tentiae et sapientiae et bonitatis divinae, licet
+          <lb ed="#Qb"/>sic approprientur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id autem quod obicitur
+          <lb ed="#Qb"/>in contrarium dicendum est quod non est simile
+          <lb ed="#Qb"/>de hoc nomine 'opus ' et de " hoc nomine 've<lb ed="#Qb"/>stigium
+          '. Hoc enim nomen 'opus' non habet
+          <lb ed="#Qb"/>unam rationem secundum quam dicitur de opere
+          <lb ed="#Qb"/>operante et re operata, et ad diversa genera re<lb ed="#Qb"/>fertur;
+          vestigium autem sub ratione nominis utro<lb ed="#Qb"/>bique
+          dicit effectum aliquo modo similem suae
+          <lb ed="#Qb"/>causae ratione dispositionis, etsi non sit similis
+          <lb ed="#Qb"/>in genere vel specie vel natura.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundod vero obiectum dicendum
+          <lb ed="#Qb"/>est quod licet vestigia, quae sunt actiones, non
+          <lb ed="#Qb"/>dente occasionem errandi, vestigia vero, quae sunt
+          <lb ed="#Qb"/>res operatae, occasio sint erroris, hoc non est se<lb ed="#Qb"/>cundum
+          se, sed ratione perversae considerationis
+          <lb ed="#Qb"/>et affectionis-C nec quoad hoc dicuntur vestigia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

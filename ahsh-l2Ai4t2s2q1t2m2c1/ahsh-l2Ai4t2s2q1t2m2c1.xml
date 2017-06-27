@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 2, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 2, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="602"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s2q1t2m2c1">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 2, M. 2, C. 1</head>
+        <head type="question-title">UTRUM CORPUS ADAE FUERIT CONDITUM IN PARADISO</head>
+        <p>
+          <lb ed="#Qb"/>Quaeritur ergo primo utrum conditus fuerit in
+          <lb ed="#Qb"/>paradiso.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod non: a. Dicitur enim Gen. 2, 8:
+          <lb ed="#Qb"/>Plantaverat autem Dominus Deus paradisum vo<lb ed="#Qb"/>luptatis
+          a principio, in quo posuit hominem, quem
+          <lb ed="#Qb"/>formaverat. Ex hoc patet quod formatus fuit et
+          <lb ed="#Qb"/>post formationem positus in paradiso, ute ibi
+          <lb ed="#Qb"/>dicit Glossa3: <quote>Datur intelligi non ibi fuiSSe
+          <lb ed="#Qb"/>hominem conditum, quia Deus praesciebat illum
+          <lb ed="#Qb"/>peccaturum et inde pellendum ad hanc terram,
+          <lb ed="#Qb"/>ubi condideratf eum </quote>. Ex hac Glossa patet
+          <lb ed="#Qb"/>quod conditus fuit in terra hac interiori, non in
+          <lb ed="#Qb"/>paradiso.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, <name ref="#Lombard">Magister</name>, in Historiis4, dicit
+          <lb ed="#Qb"/>quod formatus iuit in agro Damasceno; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed videtur quod debuit creari in paradiso,
+          <lb ed="#Qb"/>sic: 1. Conditioni nobilioris creaturae congruit
+          <lb ed="#Qb"/>locus nobilior, sicut patet per hoc quod creaturae
+          <lb ed="#Qb"/>spirituales, scilicet angeli, creati sunt in caelo em<lb ed="#Qb"/>pyreo
+          5, corporales in terra; ergo, cum primus homo
+          <lb ed="#Qb"/>fuerit nobilior creatura brutis animalibus, debuit
+          <lb ed="#Qb"/>loco condi nobiliori ; non ergo in terra hac interiori.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Hoc etiam videtur per hoc .quod mulier
+          <lb ed="#Qb"/>prima, quae non pervenit ad nobilitatem viri
+          <lb ed="#Qb"/>primi, condita fuit in paradiso.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>3. Item, in animalibus irrationabilibus et plantis
+          <lb ed="#Qb"/>idem est locus conditionis et educationis; similiter
+          <lb ed="#Qb"/>videtur quod animalium rationalium idem debuit
+          <lb ed="#Qb"/>esse, saltem ante peccatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Nec videntur rationes, quae assignantur quare
+          <lb ed="#Qb"/>conditus iuit extra paradisum, valere, quarum
+          <lb ed="#Qb"/>una est quod Deus sciebat illum peccaturum et
+          <lb ed="#Qb"/>inde pellendum ad hanc terram 5, quia hac ratione
+          <lb ed="#Qb"/>nec angelos apostatas creasset Deus in caelo nec
+          <lb ed="#Qb"/>mulierem primam in paradiso, quia Dominus scivit
+          <lb ed="#Qb"/>illos peccaturos et de illis locis expellendos.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Praeterea, nec primus homo esset conditus in
+          <lb ed="#Qb"/>terra, quia in illa non fuit permansurus, sed in caelo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, alia assignatur ratio: <quote> ut non naturae,
+          <lb ed="#Qb"/>sed gratiae hocg assignaretur </quote>. Hanc ponit <ref>
+            <name ref="#Lombard">Ma<lb ed="#Qb"/>gister</name>, II Sententiarum ", dist. 17, cap. <seg type="incipit">Hominem
+          <lb ed="#Qb"/>autem ita formatum</seg>
+          </ref> 7; sed hac ratione mulier non
+          <lb ed="#Qb"/>debuit ibi creari, <quote> ut non naturaei</quote> etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Praeterea, non Videtur quod vir, spirituali
+          <lb ed="#Qb"/>mente praeditus, tanta ducendus erat ignorantia,
+          <lb ed="#Qb"/>quod aliquid sola gratia sibi factum, et maxime
+          <lb ed="#Qb"/>tam evidens beneficium gratuitum, naturae adscri<lb ed="#Qb"/>beret
+          et non gratiae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo quod, sicut dictum est 8, Adam
+          <lb ed="#Qb"/>plasmatus iuit extra paradisum in agro Damasci,
+          <lb ed="#Qb"/>ubi terra est rubra 9 et crescit quando terra
+          <pb ed="#Qb" n="603"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>subtrahitur; ad quam translatus est post peccatum,
+          <lb ed="#Qb"/>Gen. 3, 23: <quote ana="#gen3_23">Emisit eum Deus de paradiso voluptatis,
+          <lb ed="#Qb"/>ut operaretur terram, de qua sumptus est</quote>. Sunt
+          <lb ed="#Qb"/>autem plures rationes quare conditus erat extra
+          <lb ed="#Qb"/>paradisum. Una est praevisio eiectionis, ut
+          <lb ed="#Qb"/>habetur in G] oss a praedicta ', quae est: <quote> Datur
+          <lb ed="#Qb"/>intelligi</quote> etc. — Alia est e-xcitatio gratitudi<lb ed="#Qb"/>nis:
+          nam quia volebat Dominus quod non naturae,
+          <lb ed="#Qb"/>sed gratiae adscriberetur permanentia sua in para<lb ed="#Qb"/>diso,
+          condidit eum extra. Unde <ref>
+            <name ref="#Lombard">Magister</name>, II Sen<lb ed="#Qb"/>tentiarum,
+          dist. 17 2</ref>: <quote> Aperte Moyses insinuat
+          <lb ed="#Qb"/>quod homo, extra paradisum creatus, postmodum
+          <lb ed="#Qb"/>in paradiso sit" positus. Quod ideo tactum dicitur,
+          <lb ed="#Qb"/>quia non erat in eo permansurus vel ut non natu—
+          <lb ed="#Qb"/>rae, sed gratiae hoc assignaretur </quote>. -— Alia ratio
+          <lb ed="#Qb"/>est incitatio humiliationis: ne enim homo
+          <lb ed="#Qb"/>ex hoc quod universae creaturae erat praepositus,
+          <lb ed="#Qb"/>ut patet Gen. 1,26', superbiret, voluit Dominus ut
+          <lb ed="#Qb"/>ipse, considerans se de humili parte terrae tactum,.
+          <lb ed="#Qb"/>humilis esset in oculis propriis. —- Alia est prae<lb ed="#Qb"/>monstratio
+          revocationis: quia enim Deus
+          <lb ed="#Qb"/>sic eiecit eum ut aliquando revocaret, non taliter
+          <lb ed="#Qb"/>debuit homo fieri ut omnino eiceretur extra lo<lb ed="#Qb"/>cum
+          suum, sicut Lucifer in signum eiectionis ir<lb ed="#Qb"/>revocabilis,
+          in nullum locum sibi proprium fuit
+          <lb ed="#Qb"/>eiectus, id est in nullam partem caeli. Et ideo
+          <lb ed="#Qb"/>alius tuit locus habitationis et ,alius a conditionis,
+          <lb ed="#Qb"/>ut eiectus de loco habitationisb in signum revo<lb ed="#Qb"/>cationis
+          inveniret locum conditionis : suae. — Alia
+          <lb ed="#Qb"/>est congruentia resolutionis, scilicet cor<lb ed="#Qb"/>poralis:
+          quia enim res debet resolvi in id unde facta
+          <lb ed="#Qb"/>est, et Adam merito peccati moriturus erat et in
+          <lb ed="#Qb"/>pulverem sive terram resolvendus in hac parte
+          <lb ed="#Qb"/>terrae, ideo ex hac debuit iieri. — Alia est mi no<lb ed="#Qb"/>ratio
+          attlictionis: novit enim Deus insitam
+          <lb ed="#Qb"/>homini attectionemd ad originem suam, scilicet
+          <lb ed="#Qb"/>ad locum et terram, de qua est.' Undee Poeta3:
+    <quote>
+            <lb ed="#Qb"/>Nescio qua natale solum dulcedine cunctos
+          <lb ed="#Qb"/>Ducit et immemores non sinit esse sui</quote>.
+          <lb ed="#Qb"/>Unde si hominem primum fecisset Deus in pa<lb ed="#Qb"/>radiso
+          et de limo paradisi, semperf haberet na<lb ed="#Qb"/>turalem
+          inclinationem ad illum locum, et ita ma<lb ed="#Qb"/>gis
+          affligeretur ex elongatione ab illo et illa esset
+          <lb ed="#Qb"/>ei augmentum miseriarum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud ergo quod primoä
+          <lb ed="#Qb"/>obicitur, dicendum quod h conditioni nobilioris
+          <lb ed="#Qb"/>creaturae congruit locus nobilior, salva disposi<lb ed="#Qb"/>tione
+          divinae providentiae. Unde bene congrueret
+          <lb ed="#Qb"/>nobilior locus conditioni hominis loco conditio<lb ed="#Qb"/>nis
+          animalium, nisi Deus aliter faciendo melius
+          <cb ed="#Qb" n="603"/>
+          <lb ed="#Qb"/>homini providisset et suam magis sapientiam
+          <lb ed="#Qb"/>condeceret; melius autem providit Deus homini
+          <lb ed="#Qb"/>casuro sic faciendo quam aliter, et plus suam de<lb ed="#Qb"/>cuit
+          sapientiam, ut ex dictis patet4. Praeterea, di<lb ed="#Qb"/>vina
+          providentia, omnia convenientissime faciens,
+          <lb ed="#Qb"/>operatur" quandoque quae eius decent nobilita<lb ed="#Qb"/>tem
+          circa quod operatur, sicut Dominus creavit
+          'angelos in caelo empyreo, quod fuit locus maxime
+          <lb ed="#Qb"/>nobilitati angelicae conveniens 5; quandoque quae[
+          <lb ed="#Qb"/>magis congruunt perfectioni nobilitatis, sicut Do<lb ed="#Qb"/>minus
+          condidit primum hominem in loco longe
+          <lb ed="#Qb"/>minus nobili paradiso, et hoc, quia ille locus
+          <lb ed="#Qb"/>magis congruebat et quasi cooperabatur pertec<lb ed="#Qb"/>tioni
+          nobilitatis humanae, quae erit in patria,
+          <lb ed="#Qb"/>quia quodam modo excitabat hominem conditum
+          <lb ed="#Qb"/>ad humilitatem et ita retinebat a casu, scilicet
+          <lb ed="#Qb"/>ne moveretur ad elationem ex collato sibi domi<lb ed="#Qb"/>nio,
+          ut tactum este. — Si quaereretur quare
+          <lb ed="#Qb"/>non hac ratione creavit angelum extra caelum,
+          <lb ed="#Qb"/>ut sic incitaretur ad humilitatem et retinereturk
+          <lb ed="#Qb"/>a casu per elationem: dicendum quod angelus
+          <lb ed="#Qb"/>praeditus fuit in creatione bonis longe melioribus
+          <lb ed="#Qb"/>bonis quibus praeditus tuit homo' in conditione,
+          <lb ed="#Qb"/>et propter hoc plus decebat divinam bonitatem
+          <lb ed="#Qb"/>providere homini per aliqua quae erant extra
+          <lb ed="#Qb"/>hominem quam angelo, per aliqua quae erant
+          <lb ed="#Qb"/>extra angelum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod obicitur de muliere quod
+          'condita fuit in paradiso' etc.: dicendum quod
+          <lb ed="#Qb"/>ratio huius non fuit nobilitas mulieris, sed hoc
+          .factum est dispensatione divinae providentiae.
+          <lb ed="#Qb"/>Licet enim condita esset in paradiso, non tamen
+          <lb ed="#Qb"/>de aliquo quod erat de paradiso, quia formata
+          <lb ed="#Qb"/>fuit de costa viri; unde nihil contraxit de loco
+          <lb ed="#Qb"/>illo '", sicut nec vir: unde ratione originis suae
+          <lb ed="#Qb"/>nulla accrevit praerogativa mulieri ex loco con<lb ed="#Qb"/>ditionis;
+          unde causam habuit ex sua origine hu<lb ed="#Qb"/>miliationis
+          sicut vir. — Praeterea, licet ex con<lb ed="#Qb"/>ditione
+          in loco tali nulla sibi accrevit praeroga<lb ed="#Qb"/>tiva
+          ratione originis suae, accrevit tamen ratione
+          <lb ed="#Qb"/>loci: propter quod magis debuit excitari ad gra—<lb ed="#Qb"/>titudinem.
+          Unde sicut vir ex collocatione"-in
+          <lb ed="#Qb"/>loco illo ad inhabitandum? excitatus tuit ad hoc
+          <lb ed="#Qb"/>quod gratus esset Deo, similiter et mulier, et
+          <lb ed="#Qb"/>etiam ad maiorem gratitudinem ratione condi<lb ed="#Qb"/>tionis
+          suae in loco eodem. Propter hoc ergo Deus
+          <lb ed="#Qb"/>condidit eam in paradiso, tamen 'non de para<lb ed="#Qb"/>diso,
+          sed de viro, ut ratione eius de quo condita
+          <lb ed="#Qb"/>erat, humiliaretur, sicut et vir, etP ratione col<lb ed="#Qb"/>locationis
+          in paradiso excitaretur ad gratitudinem
+          <pb ed="#Qb" n="604"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>similiter sicut et vir, ratione conditionis a in eodem
+          <lb ed="#Qb"/>plus quam vir; ut illa, quae non fuit praedita tantis
+          <lb ed="#Qb"/>bonis quantis fuit vir et ita minus habilis ad bo<lb ed="#Qb"/>num,
+          ex aliquibus praerogativis extrinsecus prae<lb ed="#Qb"/>stitis
+          magis habilitaretur ad bonum, ut defectus ex
+          <lb ed="#Qb"/>parte naturae ex donis superadditis suppleretur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad illud quod obicitur consequenter quod
+          'idem est locus conditionis et educationis alio—
+          <lb ed="#Qb"/>rum' etc.: dicendum quod in hoc quod aliter
+          <lb ed="#Qb"/>fiebat homini et aliis creaturis, maxime animali<lb ed="#Qb"/>bus
+          et plantis, ostenditur differenter cura provi<lb ed="#Qb"/>dentiae
+          divinae de homine et de illis, scilicet
+          <lb ed="#Qb"/>quia de salute humana est sibi cura, quam non
+          <lb ed="#Qb"/>habet de'aliis, iuxta illud: Non estb Deo cum
+          <lb ed="#Qb"/>de bobus, I Cor. 9,9. — Quod patet, quiac
+          <lb ed="#Qb"/>per hoc. quod hominem condidit extra paradi<lb ed="#Qb"/>sum,
+          excitavit illum ad humiliationem; per hoc
+          <lb ed="#Qb"/>quod hominem conditum in paradiso collocavit,
+          <lb ed="#Qb"/>incitavit ad gratitudinem, et sic duobus modis
+          <lb ed="#Qb"/>humanae providit saluti.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad ea quae obiciuntur contra rationes as<lb ed="#Qb"/>-
+          signatas, quare ita fieri congruit: dicendum quod
+          <lb ed="#Qb"/>revera, quiad primus homo eiciendus erat de pa<lb ed="#Qb"/>radiso,
+          conveniens fuit ut ibi collocaretur tam<lb ed="#Qb"/>quam
+          advena, et non ibi0 plasmaretur tamquam
+          <lb ed="#Qb"/>indigena; si enim esset plasmatus ibi, conveniens
+          <lb ed="#Qb"/>esset quod ex terra loci illius plasmaretur. Nec
+          <lb ed="#Qb"/>est simile de Eva, quae ex costa Adae compo<lb ed="#Qb"/>sita
+          fuit; unde, licet plasmata fuit in paradiso,
+          <lb ed="#Qb"/>quia non erat plasmata ex aliquo ipsius, istud
+          <lb ed="#Qb"/>non fecit earn indigenam. Nec similiter est simile
+          <lb ed="#Qb"/>de angelo, qui ex nihilo creatus, erat nec ex ali<lb ed="#Qb"/>quo
+          conditus quod erat caeli empyrei. Quando
+          <lb ed="#Qb"/>autem aliquis in alieno regno vel loco delinquit,
+          <lb ed="#Qb"/>evidentiori ratione meretur eiectionem quam si in
+          <lb ed="#Qb"/>proprio, et similiter quando extraneus sive advena
+          <lb ed="#Qb"/>iustius quam indigenaf.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>5. Ad illud quod obicitur consequenter quod
+          'nec ratione praedicta esset primus homo con<lb ed="#Qb"/>dendus
+          in terra, quia in illa non fuit permansu<lb ed="#Qb"/>rus'g
+          etc.: dicendum quod non est simile, quia"
+          <lb ed="#Qb"/>Glossa supra dicta et <ref>
+            <name ref="#Lombard">Magister</name>, in Sententiis</ref>,
+          <lb ed="#Qb"/>intelliguntur de permanentia in vita mortali, non
+          <lb ed="#Qb"/>de permanentia post mortem, sub hoc sensu:
+          <lb ed="#Qb"/>non fecit Dominus primum hominem in paradiso,
+          <lb ed="#Qb"/>quia expellendos erat, non permansurus ibi in
+          <lb ed="#Qb"/>vita ista, quia ", etsi non peccasset, transferendus
+          <lb ed="#Qb"/>erat ad locum aliumk finito cursu vitae istius, et
+          <lb ed="#Qb"/>non semper permansurus ibi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad illud quod obicitur de alia ratione quia
+          'illa non debuit Eva formari in paradiso, quia
+          <lb ed="#Qb"/>adscriberet naturae' etc.: dicendum quod non
+          <lb ed="#Qb"/>est simile, quia, ut dictum est 1, non de aliquo
+          <lb ed="#Qb"/>paradisi, sed de costa viri formata fuit; unde
+          <lb ed="#Qb"/>nihil de natura sua fuit de paradiso: propter
+          <lb ed="#Qb"/>quod nihil poterat adscribere naturae' ex illa
+          <lb ed="#Qb"/>conditione.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Ad ultimum dicendum quod, si primus
+          <lb ed="#Qb"/>homo conditus fuisset in paradiso, quia tunc
+          <lb ed="#Qb"/>fuisset conditus de terra paradisi, locus ille esset
+          <lb ed="#Qb"/>illi naturalis et ratione participationis in substan<lb ed="#Qb"/>tia
+          et forte in qualitate, quia, sicut dicit Isido<lb ed="#Qb"/>rus,
+          libro Etymologiarumz, perpetua erat in eo
+          <lb ed="#Qb"/>temperies et homo ille, qui'" erat temperatae et
+          <lb ed="#Qb"/>optimae complexionis, forte aliquid temperamenti
+          <lb ed="#Qb"/>ex loci temperie contraxisset". Unde, licet non
+          <lb ed="#Qb"/>sit dubium naturalia ex gratia divina dari, non
+          <lb ed="#Qb"/>tamen solent ita movere ad gratitudinem sicut
+          <lb ed="#Qb"/>illa quae illis addita sunt, et hoc quia haec at<lb ed="#Qb"/>tribuuntur
+          naturae, illa gratiae. Unde, licet fuisset
+          <lb ed="#Qb"/>mente spirituali praeditus, minus esset excitatus
+          <lb ed="#Qb"/>ad gratitudinem ex beneficio praestito in condi<lb ed="#Qb"/>tione
+          quam ex post addito, quia prima iudican<lb ed="#Qb"/>tur
+          naturalia, alia gratuita.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

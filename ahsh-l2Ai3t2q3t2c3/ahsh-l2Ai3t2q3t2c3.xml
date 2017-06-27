@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q3t2c3">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 2, C. 3</head>
+        <head type="question-title">DE VERBIS 'FECIT DEUS CETE GRANDIA SECUNDUM SPECIES SUAS '.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur de hoc quod diciturz: <quote ana="#gen1_21">Fecit
+          <lb ed="#Qb"/>Deus cete grandia etc. secundum species suas</quote>,
+          <lb ed="#Qb"/>et alia littera habet3: <quote>Secundum genus suum</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quaeritur 1. propter quid nunc" iacit mentio<lb ed="#Qb"/>nem
+          de genere aut de specie, non autem supe<lb ed="#Qb"/>rius,
+          cum dixit4: <quote>Producant aquae</quote> etc., cum ta<lb ed="#Qb"/>menb
+          ibi loquatur de iactura volatilium et na<lb ed="#Qb"/>tatilium
+          quae non erant sine genere aut specie.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, potest quaeri: Cum fiebat sermo de
+          <lb ed="#Qb"/>terrae nascentibus, locutus est de semine, dicens cs:
+          <lb ed="#Qb"/>
+          <quote ana="#gen1_11">Germinet terra herbam virentem et facientem se<lb ed="#Qb"/>men</quote>
+          4, et plura locutus est de semine in herbis
+          <lb ed="#Qb"/>et arboribus; cum autem locutus est de anima<lb ed="#Qb"/>libus
+          iu aquis vel terra, non locutus est de se<lb ed="#Qb"/>mine,
+          cum tamen et haec habeant semen, secun<lb ed="#Qb"/>dum
+          quod procedit generatio.
+        </p>
+        <p>
+    
+          <lb ed="#Qb"/>3. Item, in nostra translatione dicitur: <quote>Creavit
+          <lb ed="#Qb"/>Deus cete grandia</quote>, cum tamen hic agatur de opere
+          <lb ed="#Qb"/>conditionis, supra vero "dictum est de opere crea<lb ed="#Qb"/>tionis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Praeterea, in translatione Septuaginta
+          <lb ed="#Qb"/>non loquitur de genere, sed tantum de specie in
+          <lb ed="#Qb"/>animalibus quae sunt exe aquis; in nostra vero
+          <lb ed="#Qb"/>translatione loquitur de speciebus, cum fit sermo
+          <lb ed="#Qb"/>de natatilibus f.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad primum dicendum?6 quod,
+          <lb ed="#Qb"/>cum locutus est" de productione animalium in
+          <lb ed="#Qb"/>aquis vel aere ex sua origine, non fit mentio de
+          <lb ed="#Qb"/>genere vel specie, quia aliud est trahere esse ex
+          <lb ed="#Qb"/>sua origine et aliud est ut sit principium fieri
+          <lb ed="#Qb"/>vel generationis in aliis. Licet ergo simul tem<lb ed="#Qb"/>pore
+          accipiat esse et virtutem secundum quam
+          <lb ed="#Qb"/>aliud possit esse ex illo, tamen unum est natu<lb ed="#Qb"/>raliter
+          prius altero; et ad hoc designandum primo
+          <lb ed="#Qb"/>dixit sine distinctione: Praducant aquae etc., se<lb ed="#Qb"/>cundo
+          distinxit, dicens: Creavit vel fecit secun<lb ed="#Qb"/>dum
+          genus suum. — Praeterea, ex parte mate<lb ed="#Qb"/>riae
+          non est principium generationis, sed ex parte
+          <lb ed="#Qb"/>formae7; et ideo, cum locutus est de exitu secun<lb ed="#Qb"/>dum
+          esse materiale, non locutus est de genere
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>vel specie, deinde vero, cum locutus est de exitu
+          <lb ed="#Qb"/>secundum formam, locutus est de genere vel
+          <lb ed="#Qb"/>specie.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendum quod aliud est de 
+          <lb ed="#Qb"/>terrae nascentibus et animalibus. Nam in terrae
+          <lb ed="#Qb"/>nascentibus est' semper virtus seminis ut fiat
+          <lb ed="#Qb"/>aliud ex ipso; non sic est universaliter in ani<lb ed="#Qb"/>mantibusm
+          aquae vel terrae, sed vis seminativa
+          <lb ed="#Qb"/>est in elementis. Non enim'[ omnia, quae sunt
+          <lb ed="#Qb"/>in aquis, generantur ex sibi similibus secundum
+          <lb ed="#Qb"/>quod natura est principium ex similibus similia
+          <lb ed="#Qb"/>procreandis; similiter nec" omnia quae sunt in
+          <lb ed="#Qb"/>terris: unde multa animalia moriuntur in hieme
+          <lb ed="#Qb"/>et post in aestate semen habent in ipsis elemen<lb ed="#Qb"/>tis
+          commixtis ut procreentur; herbae vero in
+          <lb ed="#Qb"/>terra vivunt secundum virtutem radicis, licet extra
+          <lb ed="#Qb"/>moriantur; et semina herbarum cadunt in terram
+          <lb ed="#Qb"/>et post multiplicantur tempore producente oppor<lb ed="#Qb"/>tuno.
+          Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, Super
+          <lb ed="#Qb"/>Genesimg: <quote> Semen non ubique repetivit P, cum
+          <lb ed="#Qb"/>tam herbis et lignis insit quam animalibus, etsi
+          <lb ed="#Qb"/>non omnibus. Observatum est enim q quaedam ita
+          <lb ed="#Qb"/>nasci ex aqua sivef terra ut sexus eorum nullus
+          <lb ed="#Qb"/>sit, et ideo semen eorum non sits in eis, sed in
+          <lb ed="#Qb"/>elementis, ex quibus oriuntur. Hoc est ergo se<lb ed="#Qb"/>cundum
+          genus, ubi et seminum vis et similitudo
+          <lb ed="#Qb"/>intelligitur succedentium de succedentibus, quia
+          <lb ed="#Qb"/>nihil eorum ita creatum est ut semel existeret vel
+          <lb ed="#Qb"/>permansurum vel nullo succedente decessurum </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum quod 'creare', in
+          <lb ed="#Qb"/>nostra translatione * accipitur pro 'facere '. Unde
+          <lb ed="#Qb"/>accipitur aliter ' creare' hic et cum dicitur 10: In
+          <lb ed="#Qb"/>principio creavit Deus caelum et terram.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad quartum dicendum quod in nostra
+          <lb ed="#Qb"/>translatione quod dicitur 'species* accipitur pro
+          <lb ed="#Qb"/>genere, id estu principio generandi. Vel torte prop<lb ed="#Qb"/>ter
+          multiplicationem" specierum in aquis dictum
+          <lb ed="#Qb"/>est: Secundum species suas; secundum autem vo<lb ed="#Qb"/>latilia
+          quaedam, quae multaex sunt generationis
+          <lb ed="#Qb"/>in diversis partibus anni, dixit: Secundum genus
+          <lb ed="#Qb"/>suum. Magis autem videtur primo modo dicendum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

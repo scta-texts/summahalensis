@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 3, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="25"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t1m3c3">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 3, C. 3</head>
+        <head type="question-title">UTRUM OMNIA APPETANT HANC RATIONEM CAUSAE FINALIS.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur dicere utrum omnia appetant in sua 
+          <lb ed="#Qb"/>actione hunc 9 finem 7.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod non, videtur: 1. Finis enim iste consti<lb ed="#Qb"/>tuitur 
+          perfectio rationalis creaturae: beatitudo 
+          <lb ed="#Qb"/>enim et finis iste idem 8. Si ergo beatitudo non 
+          finis cuiuslibet creaturaeet beatitudo et bo<lb ed="#Qb"/>num 
+          summum sunt' idem, non ergo omnia ap<lb ed="#Qb"/>petunt 
+          hunc finem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, appetitus naturalis plantae est ut 
+          <lb ed="#Qb"/>salvetur esse plantae, et ita de aliis rebus naturali— 
+          <lb ed="#Qb"/>bus; ergo non tendit ad obtinendum hunc finem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, sicut-dicit Boethius, De consola<lb ed="#Qb"/>tione 9: 
+    <quote> Bonum, et unum idem in substantia,
+          <lb ed="#Qb"/>lapis vero partium suarum appetit unitatem, et ita 
+          <lb ed="#Qb"/>de aliis compositis, et hoc sibi sufficit</quote>. Ergo non8 
+          <lb ed="#Qb"/>appetunt hunc finem, cum iste finis sit ulterior.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>4. Praeterea, completo numero electorum, cum
+          <lb ed="#Qb"/>erit resurrectio, desinent haec esse, et ita non
+          <lb ed="#Qb"/>perficereturt eorum appetitus si hunc finem ap<lb ed="#Qb"/>peterent; 
+          perficitur autem vel perficietur; non ergo
+          iste est" finis quem omnia appetunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Dionysius, in libro De divinis no<lb ed="#Qb"/>minibus 10: 
+    <quote>Bonum est quod desideratur ab omni<lb ed="#Qb"/>bus</quote>, 
+          et Philosophus: <quote> Bonum est quod
+          <lb ed="#Qb"/>omnia optant</quote>; sed non est bonum nisi- partici<lb ed="#Qb"/>2.
+          patione summi boni, sicut dicit <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Qb"/>in libro De civitate Dei '2 'et De Trinitate 13; ergo
+          <lb ed="#Qb"/>appetitus creaturae non terminatur nisi in summo
+          <lb ed="#Qb"/>bono; sed iste est finis iam dictus; ergo finis
+          <lb ed="#Qb"/>iam dictus est" quem omnia appetunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod respondendum quod
+          <lb ed="#Qb"/>duplex est appetitus: unus ex cognitione praeha<lb ed="#Qb"/>bita 
+          naturaliter vel exx acquisitione sive dono,
+          <pb ed="#Qb" n="26"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>et secundum hunc modum non omnia appetunt
+          <lb ed="#Qb"/>summum bonum vel finem istum: non enim-omnia
+          <lb ed="#Qb"/>habent appetitum intellectualem, et secundum hoc
+          <lb ed="#Qb"/>quae habent appetitum huiusmodi, appetunt na-'
+          <lb ed="#Qb"/>turaliter beatitudinem, secundum quod bonum et
+          <lb ed="#Qb"/>beatitudo sunt idem. Alio vero modo sumendo"
+          <lb ed="#Qb"/>appetitum naturalem omnia appetunt bonum, non
+          <lb ed="#Qb"/>in" determinata ratione beatitudinis, sed in ge<lb ed="#Qb"/>nerali
+          ratione quae est secundum quod bonum
+          <lb ed="#Qb"/>summum " omnia conservat et terminat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad id vero quod secundo obiciturvdi<lb ed="#Qb"/>cendum
+          esta quod plantae et aliae creaturae cor<lb ed="#Qb"/>ruptibiles,
+          cum * appetunt continuationem sui esse
+          -quia continuatio sui esse est a summo bono,
+          <lb ed="#Qb"/>quod est in eis essentialiter et potentialiter et
+          <lb ed="#Qb"/>praesentialiter,1 — quoad hoc appetunt natura<lb ed="#Qb"/>liter
+          summum bonum.
+        </p>
+        <p>
+                <cb ed="#Qb" n="26"/>
+          <lb ed="#Qb"/>3. Ad tertio obiectum dicendum estf simi<lb ed="#Qb"/>liter
+          de unitate quam appetunt res compositae:
+          <lb ed="#Qb"/>in hac enim unitate est summa unitas, et ita
+          <lb ed="#Qb"/>summa bonitas, sine qua nec est nec esse posset,
+          <lb ed="#Qb"/>et ideo eam naturaliter desiderat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad ultimo obiectum dicendum est! quod
+          <lb ed="#Qb"/>est finis quidam corruptibilium creaturarum se<lb ed="#Qb"/>cundum
+          quod sunt propter hominem, et illo fine
+          <lb ed="#Qb"/>evacuato congruit non ulterius permanere, et hic
+          <lb ed="#Qb"/>est supplementum necessitatis humanae: et iste
+          <lb ed="#Qb"/>est" alius finis ab illo quem naturaliter intendit
+          <lb ed="#Qb"/>unaquaeque res secundum suam speciem. Non
+          <lb ed="#Qb"/>ergo mirum est si non perveniant secundum finem
+          <lb ed="#Qb"/>istum vel illum ad[ beatitudinem, quae determi<lb ed="#Qb"/>nata
+          est finis homini-etk intellectuali creaturae,
+          <lb ed="#Qb"/>cum non habeant' immortalitatem cognitivae et
+          <lb ed="#Qb"/>motivae potentiae, secundum quam possint ea frui.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

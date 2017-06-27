@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="274"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t2m3c5">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 5</head>
+        <head type="question-title">UTRUM ANGELUS ALIQUANDO RECEDAT PROPTER PECCATA HOMINIS CUSTODIENDI</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur utrum angelus deputatus ad
+          <lb ed="#Qb"/>custodiam aliquando recedat propter peccata
+          <lb ed="#Qb"/>eius cui deputatus est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>QuOd videtur: 1. Pew'illud Ierem. 51,9: Dere<lb ed="#Qb"/>Iinquamus
+          eam, et eat unusquisque in terram
+          <lb ed="#Qb"/>suam. I-Ioc intelligitur de bonis angelis; quod
+          <lb ed="#Qb"/>patet per hoc quod dicitur ibi 3: Curavimus ** Ba<lb ed="#Qb"/>bylonem
+          etc.; boni enim <quote> angeli sunt medici</quote>,
+          <lb ed="#Qb"/>ut dicituri ibi '4, et non mali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Glossa, ibidem 5: <quote> Cave ne quando
+          <lb ed="#Qb"/>relinquat te medicus vel angelus Dei. Si enim
+          <lb ed="#Qb"/>derelinquerit, patet quod abscessio medici con<lb ed="#Qb"/>demnatio
+          tua sit </quote>.
+        </p>
+        <p>  
+          <lb ed="#Qb"/>3. Item, <name ref="#Augustine">Augustinus</name> 5: <quote> Angelos repellimus,
+          <lb ed="#Qb"/>cum eorum consilio non acquiescimus, et videntes
+          <lb ed="#Qb"/>sef operam perdere dicunt: Relinquamus eam </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, Reversus est ad me angelus 7; super hoc
+          <lb ed="#Qb"/>dicit Hieronymuss: <quote>Infructuosa est 'anima
+          <lb ed="#Qb"/>quae non habet Deum hospitem nec praesidium
+          <lb ed="#Qb"/>angelorum </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, super illud idem 9: Sciendum est <quote> quo<lb ed="#Qb"/>tienscumque
+          humana fragilitas suae relinquitur
+          <lb ed="#Qb"/>imbecillitati, Dei auxilium et angelorum eiusg ab
+          <lb ed="#Qb"/>ea recedere </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, Isai. 5,5: Auferam sepem ab ea, G los<lb ed="#Qb"/>sam:
+    <quote>id est custodiam angelorum </quote>.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Contra: a. Ferventior est bonus angelus in cu<lb ed="#Qb"/>stodiendo
+          et iuvando quam malus in nocendo;
+          <lb ed="#Qb"/>sed malus angelus etiam in cruce Christo non
+          <lb ed="#Qb"/>defuit", sicut habetur super Tob. 6'", immo
+          <lb ed="#Qb"/>quasi semper sequebatur eum, expectans quo
+          <lb ed="#Qb"/>modoposset ei nocere; ergo multo fortius bonus
+          <lb ed="#Qb"/>angelus nulli homini quantumcumque malo deest,
+          <lb ed="#Qb"/>sed semper adest, expectans si quo modo possit
+          <lb ed="#Qb"/>eum iuvare'usque ad mortem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, quanto quis peior est et miserior, tanto
+          <lb ed="#Qb"/>magis misericordia indiget; cum igitur Deus in
+          <lb ed="#Qb"/>ira sua non ita'f contineat misericordias suas 12,
+          <lb ed="#Qb"/>sed semper miseretur, cum eius sit hoc proprium,
+          <lb ed="#Qb"/>ergo etiam tunc non' amovet custodiam angeli<lb ed="#Qb"/>cam,
+          sed praestat ut prius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, medicus corporalis si non desperet de
+          <lb ed="#Qb"/>aegroto, non derelinquit eum; ergo nec medicus
+          <lb ed="#Qb"/>spiritualis, scilicet angelus bonus; sed de nemine
+          <lb ed="#Qb"/>desperandum est, dum estf" in via, dicit aucto<lb ed="#Qb"/>ritas
+          13; ergo neminem debet dimittere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Praeterea, cum desperat medicus corpo<lb ed="#Qb"/>ralis
+          de perfecta sanitate, tamen non omnino
+          <lb ed="#Qb"/>adhuc dimittit aegrotum, quamdiu vivit, sed sem<lb ed="#Qb"/>per
+          aliquid operatur circa eum, saltem ad mi<lb ed="#Qb"/>tigationem
+          morbi et ad vitae prolongationem;
+          <lb ed="#Qb"/>ergo etiam si desperet angelus bonus, non de<lb ed="#Qb"/>bet
+          omnino dimittere, sed semper circa eum
+          <pb ed="#Qb" n="275"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>aliquid operari" -ne saltem invalescat aegritudo
+          <lb ed="#Qb"/>spiritualis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Solutio: Notandum quod multiplex est effectus
+          <lb ed="#Qb"/>angeli custodientis circa animam hominis custo<lb ed="#Qb"/>diti
+          '. Unus [est] effectus eius in anima quoad
+          <lb ed="#Qb"/>potentiam Speculativam, scilicet illuminare eam
+          <lb ed="#Qb"/>quoad aliquab occulta: et quoad hunc effectum ve<lb ed="#Qb"/>rum
+          est quod aliquando recedit angelus, quia non
+          <lb ed="#Qb"/>semper illuminat, quia aliquando tangit Spiritus
+          <lb ed="#Qb"/>corda Prophetarum, aliquando non tangit; et sic
+          <lb ed="#Qb"/>intelligitur angelus recessisse, de quo Zach. 4,1:
+          <lb ed="#Qb"/>Reversus est angelus. Est alius effectus angeli
+          <lb ed="#Qb"/>custodieritis in anima hominis custoditi quoad
+          <lb ed="#Qb"/>potentiam motivam, et hic est quadruplex, sicut
+          <lb ed="#Qb"/>habitum est supra, in solutione praecedentis Pro<lb ed="#Qb"/>blematis2
+          ; et verum est quod semper angelus
+          <lb ed="#Qb"/>aliquem illorum effectuum operatur circa animam,
+          <lb ed="#Qb"/>saltem ultimum, quod est prohiberene in tan<lb ed="#Qb"/>tum
+          malum cadat. Unde dicimus quod nunquam
+          <lb ed="#Qb"/>relinquitc hominem, cui deputatus est, quoad
+          <lb ed="#Qb"/>omnem effectum. Et sic intelliguntur rationes3
+          <lb ed="#Qb"/>quae hoc probant.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Praeterea, sciendum quod, etsi non semper
+          <lb ed="#Qb"/>habeantur effectus p'riores 4, utpote promovere in
+          <lb ed="#Qb"/>bonum vel prohibere a malo, tamen periz ipsum
+          <lb ed="#Qb"/>angelum non stat, sed per hominem nolentem ac<lb ed="#Qb"/>quiescere,
+          et propter hoc dicitur derelinqueref
+          <lb ed="#Qb"/>quoad istos effectus, quia, licet faciat quod in se
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>est, tamen hos effectus circa animam non habet.
+          <lb ed="#Qb"/>Et sic intelliguntur omnes auctoritates4 ex qui<lb ed="#Qb"/>bus
+          videturrelinqui quod angeli relinquunt ho<lb ed="#Qb"/>mines
+          quibus deputati sunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Unde quod dicitur Ierem. 51,9:
+          <lb ed="#Qb"/>Derelinquamus eam, intelligitur5 de illis qui de<lb ed="#Qb"/>sperati
+          sunt, quia iam in illis tollitur. illud per
+          <lb ed="#Qb"/>quod debet esse medicina: poenitentia enim me<lb ed="#Qb"/>dicina
+          est ad revocandum veli-' suscitandum ho<lb ed="#Qb"/>minem
+          a morbo spirituali; cum igitur impoeni—
+          <lb ed="#Qb"/>tens est quis, iam est ad modum aegroti re<lb ed="#Qb"/>spuentis
+          medicinam a medico, et ideo medicus
+          <lb ed="#Qb"/>eum relinquit quantum ad hunc effectum qui est
+          <lb ed="#Qb"/>revocare a morbo, quia quoad hoc non assu<lb ed="#Qb"/>mit"
+          eum in curam; similiter est hic.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad auctoritatem Hieronymi quae1 dicit:
+    <quote> Infructuosa res est anima quae non habet</quote> etc. ",
+          <lb ed="#Qb"/>potest solvi Specialiterl per hoc quod dicitur
+    <quote> praesidium </quote>, faciendo vim in vocabulo, ut dic<lb ed="#Qb"/>tum
+          est5: praesidium enim a praesidendo dicitur;
+          <lb ed="#Qb"/>praesidium ergo angelorum habet qui movetur ad
+          <lb ed="#Qb"/>nutum eorum; non sic faciunt peccatores. Unde se<lb ed="#Qb"/>cundum 
+          hoc nullus peccator, in quantum talis, ha<lb ed="#Qb"/>bet
+          praesidium angelorum, accipiendo ita proprie,
+          <lb ed="#Qb"/>et talium, in quantum huiusmodi, <quote> infructuosa est
+          <lb ed="#Qb"/>anima </quote>, loquendo de fructu vitae aeternae, quia
+          <lb ed="#Qb"/>hunc effectum non habent tales, in quantum tales
+          <lb ed="#Qb"/>sunt, nec in eis habet angelus hunc effectum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

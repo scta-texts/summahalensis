@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, Praeambulum</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="446"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t1prae">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, Praeambulum</head>
+        <p>
+                <pb ed="#Qb" n="446"/>
+          <lb ed="#Qb"/>Completo tractatu de parte sensibili cognitiva et motiva, sequitur de parte ra<lb ed="#Qb"/>tionali
+          cognitiva et motiva.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Pars vero cognitiva dividitur, sicut habetur in libro De anima et spiritul,
+          <lb ed="#Qb"/>in rationem, intellectum et intelligentiam. .
+        </p>
+        <p>
+          <lb ed="#Qb"/>Secundum Ioannem Damas-cenum2 dividitur in" intellectum, mentem et opi<lb ed="#Qb"/>nionem:
+          has enim enumerat cognitivas praeter sensum et imaginationem. Unde dicit3
+          <lb ed="#Qb"/>quod <quote> per sensum animae constituitur passio quae dicitur imaginatio, ex imaginatione
+          <lb ed="#Qb"/>vero fit opinio, deinde mens diiudicans opinionem, sive vera sit sive falsa, iudicat ve<lb ed="#Qb"/>ritatem:
+          unde mens a metiendo et. excogitando et iudicando dicitur; quod autem diiu<lb ed="#Qb"/>dicatum
+          b et determinatum est, recte dicitur intellectus </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Philosophus 4 vero dividit in * intellectum materialem ", qui cognoscit species
+          <lb ed="#Qb"/>in phantasmatibus, et intellectum possibilem separabilem, qui cognoscit species abstractas,
+          <lb ed="#Qb"/>et intellectum agentem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Aug u s tin u s videtur aliter ponere differentias, in libro De anima et spiritu ", cum
+          <lb ed="#Qb"/>dicit: ingenium, memoriam, rationem, intelligentiam. Dicit enimf 5 quod <quote>ingenium in<lb ed="#Qb"/>vestigat,
+          ratio iudicat, memoria servat, intelligentia comprehendit </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Potest ergo quaeri, cumg iis modis sumatur divisio virium cognitivarum rationabilium:
+          <lb ed="#Qb"/>Quae sit comparatio divisionis ad divisionem, utrum accipiatur secundum unum
+          <lb ed="#Qb"/>modum an differentem;
+          <lb ed="#Qb"/>secundo, si accipiatur secundum differentem, utrum sit ordo divisionis ad divisionem;
+          <lb ed="#Qb"/>tertio, secundum quid accipiantur membra singularum divisionum;
+          <lb ed="#Qb"/>quarto, quis sit'" ordo differentiarum;
+          <lb ed="#Qb"/>quinto, utrum aliqua vis rationalis utatur organo autk nulla indigeat organo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

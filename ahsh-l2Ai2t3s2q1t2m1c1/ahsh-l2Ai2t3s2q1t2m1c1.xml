@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="167"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m1c1">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 1</head>
+        <head type="question-title">QUARE COGNITIO ANGELI APPELLETUR MATUTINA ET VESPERTINA</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic: 1. Primo videtur quod aliqua
+          <lb ed="#Qb"/>A cognitio bonorum angelorum non debeat dici
+          <lb ed="#Qb"/>matutina aut vespertina: hanc enim duplicem co<lb ed="#Qb"/>gnitionem
+          angeli accipit <name ref="#Augustine">Augustinus</name> 5 ex 'i hoc
+          <lb ed="#Qb"/>quod dictum est Gen. 1,5: Factum est vespere
+          <lb ed="#Qb"/>et mane dies unas. Cognitio ergo matutina aut
+          <lb ed="#Qb"/>vespertina dicitur iuxta proprietatem eius quod
+          <lb ed="#Qb"/>dicitur mane et vespere; sed in e mane est lux ad<lb ed="#Qb"/>mixta
+          cumf tenebris, similiter inä vespere; ergo,
+          <lb ed="#Qb"/>cum per lucem intelligatur cognitio, per tenebras
+          <lb ed="#Qb"/>ignorantia, patet quod cognitio matutina et ve<lb ed="#Qb"/>spertina
+          est cui aliquid admixtum 'est de igno<lb ed="#Qb"/>rantia
+          ; sed in cognitione bonorum angelorum nihil
+          <lb ed="#Qb"/>est admixtum de ignorantia ", immo potius videtur
+          <lb ed="#Qb"/>dici diurna secundum quod dies nominat cogni<lb ed="#Qb"/>tionem
+          cui' nihil est admixtum de ignorantia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, videtur quod cognitio in Verbo non
+          <lb ed="#Qb"/>debeat dici matutina, quoniam cognitio in Verbo
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>
+          <lb ed="#Qb"/>est secundum rationem * Verbi: quoniam Verbum
+          <lb ed="#Qb"/>est lux incommutabilis elongans a se omnem te<lb ed="#Qb"/>nebram',
+          cognitio autem matutina, prout est ma<lb ed="#Qb"/>tutina,
+          non elongat a se omnem tenebram igno<lb ed="#Qb"/>rantiae,
+          sicut nec mane tenebram materialem;
+          <lb ed="#Qb"/>quare etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Praeterea, videtur-quod cognitio boni angeli
+          <lb ed="#Qb"/>de quacumque creatura sit, sive sit de se sive de
+          <lb ed="#Qb"/>aliis, non debeat dici vespertina. Secundum quod
+          <lb ed="#Qb"/>dicit Damascenusü: <quote>Angeli lumina sunt</quote>;
+          <lb ed="#Qb"/>et secundumm quod exponit <name ref="#Augustine">Augustinus</name>, Su<lb ed="#Qb"/>per
+          Genesim ad litteram 7, per * diem ' significatur
+          <lb ed="#Qb"/>cognitio angelorum, per ' noctem* privatio " eius<lb ed="#Qb"/>dem;
+          unde, secundum quod" exponit, cognitio
+          <lb ed="#Qb"/>nihil aliud est quam dies, et? dies totiens repe<lb ed="#Qb"/>titus
+          nihil aliud est quam cognitio angeli totiens
+          <lb ed="#Qb"/>repetita; sed constat quod vespera dicitq decli<lb ed="#Qb"/>nationem
+          ad noctem; cognitio ergo' vespertina
+          <pb ed="#Qb" n="168"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>possibilitatem vel " declinationem ad ignorantiam;
+          <lb ed="#Qb"/>sed cognitio boni angeli nullo modo est possi-'
+          <lb ed="#Qb"/>bilis ad ignorantiam secundum quod huiusmodi;
+          <lb ed="#Qb"/>ergo cognitio angeli non debet dici vespertina.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad hoc diceret aliquis quod, cum an<lb ed="#Qb"/>gelus
+          sit creatura, et ideo de nihilo, quodb de
+          <lb ed="#Qb"/>natura sua, qua creatura, est possibilis C ad igno<lb ed="#Qb"/>rantiam
+          et sua cognitio admixta est quoad hocd
+          <lb ed="#Qb"/>ignorantiae, et ideo per mane et vespere, quae
+          <lb ed="#Qb"/>dicunt admixtionem cum tenebris, potest signifi<lb ed="#Qb"/>cari
+          ut dicatur eius cognitio matutina aut vesper<lb ed="#Qb"/>tina.
+          — Sed tunc obicitur: quiae videtur
+          <lb ed="#Qb"/>quod cognitio angeli nonf debeat dici matutina
+          <lb ed="#Qb"/>nec vespertina, quoniam mane habet tenebram
+          <lb ed="#Qb"/>antecedentem et lumen sequens, e contra vespera;
+          <lb ed="#Qb"/>sed neutro modo est in angelis; ergo neutra co<lb ed="#Qb"/>gnitio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Responsio: Dicimus quod, sicut patet in libro
+          <lb ed="#Qb"/>Sizper Genesim ad litteram 1, cum <name ref="#Augustine">Augustinus</name>
+          <lb ed="#Qb"/>ponit praedictam duplicem angelig cognitionem,
+          <lb ed="#Qb"/>ibi intendit dividere diem ah nocte secundum
+          <lb ed="#Qb"/>quod fit huiusmodi divisio Gen, I, 4, cum dicitur:
+          <lb ed="#Qb"/>Deus divisit lucem a tenebris, et vult quod co<lb ed="#Qb"/>gnitio
+          angelif dicatur dies, cuius sunt duae partes,
+          <lb ed="#Qb"/>mane scilicet et vespera. Vult ergo cognitionem
+          <lb ed="#Qb"/>angeli comparare diei sive luci, eiusdem ignoran<lb ed="#Qb"/>tiam
+          nocti sive tenebris; et, cum mane sit prin<lb ed="#Qb"/>cipium
+          diei, vespera finis, vult similiter secundum
+          <lb ed="#Qb"/>hoc quod cognitio angeli in Verbo dicatur ma<lb ed="#Qb"/>tutina,
+          cum sit tamquam in principio rerum, sed
+          <lb ed="#Qb"/>cognitio eius vel rerum in se ipso vel rerum
+          <lb ed="#Qb"/>in proprio genere est vespertina, cum sit ink
+          <lb ed="#Qb"/>creatura, quae, in quantum est creatura, est in
+          <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>declinatione et casu; et iuxta hoc accipiuntur
+          <lb ed="#Qb"/>haec nomina 'matutinum' et 'vespertinum'l re<lb ed="#Qb"/>spectu
+          cognitionis angelicae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1-4. Et per hoc patet solutio ad
+          <lb ed="#Qb"/>omnia obiecta: procedunt enim ex suppositione
+          <lb ed="#Qb"/>cuiusdam falsi, scilicet quod cognitio angeli di<lb ed="#Qb"/>catur
+          matutina aut vespertina, quia sit commixtio '"
+          <lb ed="#Qb"/>in mane et in. vespere lucis cum tenebris: quod
+          <lb ed="#Qb"/>falsum est. -— Item, ut patet Gen. ], 5, antequam
+          <lb ed="#Qb"/>fieret mentio demane et vespere, iam erat dies
+          <lb ed="#Qb"/>distinctus a nocte; et similiter in confirmatione
+          <lb ed="#Qb"/>angeli cognitio eius" fuit distincta ab ignorantia,
+          <lb ed="#Qb"/>secundum quod exponit A u g u s t i n u s, Super
+          <lb ed="#Qb"/>Genesim ad litteram 2.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Si ergo quaeratur quare tunc cognitio
+          <lb ed="#Qb"/>angeli non dicatur diurna: dicimus quod bene
+          <lb ed="#Qb"/>sic potest vocari. Unde <name ref="#Augustine">Augustinus</name>, in XI
+          <lb ed="#Qb"/>De civitate Dei, cap. 29 3: <quote> In Verbo cognoscunt
+          <lb ed="#Qb"/>angeli tamquam diurna cognitione, in se ipsis tam<lb ed="#Qb"/>quam
+          vespertina </quote>. Item, in IV libro Super Gene<lb ed="#Qb"/>sim
+          ad litteramtz <quote> Cognitio, quae est in Verbo,
+          <lb ed="#Qb"/>ad diem pertinet, quae est in se ipsis ad" ve<lb ed="#Qb"/>speram</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed fortasse quaeretur: Cum meridies
+          <lb ed="#Qb"/>sit quasi media pars diei inter mane et vesperam,
+          <lb ed="#Qb"/>videtur secundum hoc quod debeat esse tertia
+          <lb ed="#Qb"/>differentia cognitionis angeli P, quae diceretur me<lb ed="#Qb"/>ridiana.
+          — Ad quod dicimus quod hoc non
+          <lb ed="#Qb"/>oportet: non enim potest angelus cognoscere res
+          <lb ed="#Qb"/>nisi aut in Creatore aut in creatura, et hoc vel
+          <lb ed="#Qb"/>cognoscendo? res in se ipso vel in propriis ge<lb ed="#Qb"/>neribus;
+          et prima cognitio dicitur matutina, se<lb ed="#Qb"/>cunda
+          vespertina.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

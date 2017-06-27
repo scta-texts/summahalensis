@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="464"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t2c1">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 2, C. 1</head>
+        <head type="question-title">UTRUM UNA SOLA SIT POTENTIA MOTIVA AUT PLURES</head>
+        <p>
+          <lb ed="#Qb"/>Quod autem sit una sola potentia, videtur
+          <lb ed="#Qb"/>1. per hoc quod essentia animae rationalis
+          <lb ed="#Qb"/>sive substantia simplicior est quam sit essentia
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>caelestis corporis; sed essentia caelestis corporis
+          <lb ed="#Qb"/>habet unicam vim motivam; ergo multo fortius
+          <lb ed="#Qb"/>anima rationalis habebit unicam vim motivamg
+        </p>
+        <p>
+                <pb ed="#Qb" n="465"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>2. Praeterea, anima rationalis secundum se ipsam,
+          <lb ed="#Qb"/>in quantum est spiritus, est sicut intelligentia an<lb ed="#Qb"/>gelica;
+          sed intelligentia angelica a non habet nisi
+          <lb ed="#Qb"/>unicam vim motivam 1; ergo nec anima rationalis,
+          <lb ed="#Qb"/>secundum quod huiusmodi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3, Ad idem facit quod Philosophus? unam
+          <lb ed="#Qb"/>tantum vim videtur ponere, scilicetintellectum prac<lb ed="#Qb"/>ticum,
+          et est exemplum suum de sphaera prima,
+          <lb ed="#Qb"/>quae uniformiter movetur et unicum'habet motum,
+          <lb ed="#Qb"/>licet aliae sphaerae motus habeant difformes; sic
+          <lb ed="#Qb"/>autem est de intellectu practico; videtur ergo ex
+          <lb ed="#Qb"/>parte rationalis animae unica esse potentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Multiplex motus procedit ab anima
+          <lb ed="#Qb"/>rationali, scilicet motus secundum alterationem,
+          <lb ed="#Qb"/>ut a gaudio in tristitiam et e converso, et motus
+          <lb ed="#Qb"/>localis; sed multiplicis motus in specie multi<lb ed="#Qb"/>plex
+          debet esse principium; cum ergo vis motiva
+          <lb ed="#Qb"/>sit principium motus, erit multiplex vis motiva.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, ab anima, sicut dicit Ioannes Dama<lb ed="#Qb"/>scenus 3, 
+          sunt et actiones et in ea sunt passiones;
+          <lb ed="#Qb"/>propter-quod erit vis motiva activa et passiva,
+          <lb ed="#Qb"/>et ita plures.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, est motus secundum appetitum et secun<lb ed="#Qb"/>dum
+          fugam; sed motus isti sunt contrarii; ergo
+          <lb ed="#Qb"/>procedunt a contrariis principiis ; ergo b differentes
+          <lb ed="#Qb"/>vires erunt, secundum quas est appetitus et fuga.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Praeterea, P hil os oph us, in libro De anima 4,
+          <lb ed="#Qb"/>ponit duplicem motivam rationalem, intellectum
+          <lb ed="#Qb"/>et appetitivam vim.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod sunt plures
+          <lb ed="#Qb"/>motivae rationales.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo autem obiectumc
+          <lb ed="#Qb"/>in contrarium dicendumd quod Philosophus,
+          <lb ed="#Qb"/>cum loquitur de motiva vi corporis supercae—
+          <lb ed="#Qb"/>lestis 8, loquitur de illa secundum quam fitf mo<lb ed="#Qb"/>tus
+          circularis et diciturg motiva vis sicut dispo<lb ed="#Qb"/>sitio
+          mobilis. Sed est vis motiva alia secundum
+          <lb ed="#Qb"/>quam est principium motus active in iis inferio<lb ed="#Qb"/>ribus.
+          Et ita est multiplex vis etiam in corpore
+          <lb ed="#Qb"/>supercaelesti, sed unica dicitur secundum quam
+          <lb ed="#Qb"/>movetur circulariter et non movetur in rectum
+          <lb ed="#Qb"/>nec violentatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum dicendum quod, licet anima
+          <lb ed="#Qb"/>rationalis, in quantum est spiritus, quamdam ha<lb ed="#Qb"/>beat
+          similitudinem intelligentiae angelicae 5, nihi<lb ed="#Qb"/>lominus
+          habet vim directivam ad bonum, quae
+          <lb ed="#Qb"/>dicitur intellectus practicus, et vim appetitivam
+          <lb ed="#Qb"/>boni; praeter hoc autem anima rationalis, in quan<lb ed="#Qb"/>tum
+          est anima, habet quamdam vim appetitivam
+          <lb ed="#Qb"/>ex inclinatione"l ad corpus: et ita non dicetur
+          <lb ed="#Qb"/>anima rationalis tanturn habere unam vim moti<lb ed="#Qb"/>vam,
+          sed plures. Si vero dicatur intelligentia an<lb ed="#Qb"/>gelica
+          habere unicam, hoc dici potest in compara<lb ed="#Qb"/>tione
+          ad animam rationalem, in quantum est anima.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad id quod tertio obicitur, dicendum quod
+          <lb ed="#Qb"/>Philosophus dividendo contra phantasiam,
+          <lb ed="#Qb"/>quae est partis sensibilis, ponit unicam, scilicet
+          <lb ed="#Qb"/>intellectum, quill intellectus rectus est, phantasia
+          <lb ed="#Qb"/>autem k recta et non recta 5, nihilominus ponitur
+          <lb ed="#Qb"/>appetitiva rationalis vis partis illius: unde dicit
+          <lb ed="#Qb"/>intellectivum et appetitivum' ; unde ponit plures
+          <lb ed="#Qb"/>vires partis rationalis motivae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

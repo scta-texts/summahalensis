@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 2, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 2, M. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="233"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t2m1c2">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 2, M. 1, C. 2</head>
+        <head type="question-title">DE MOTU LOCALI ANGELI.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur de motu angeli:
+          <lb ed="#Qb"/>Primo, utrum angelus moveatur localiter;
+          <lb ed="#Qb"/>secundo, utrum in movendo necesse sit per<lb ed="#Qb"/>transire 
+          medium;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>tertio, utrum in se vel ex se habeat moveri
+          <lb ed="#Qb"/>localiter aut ad hoc quod sic " moveatur necesse
+          sit ipsum assumere corpus.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum angelus moveatur localiter</head>
+          <p>
+            <lb ed="#Qb"/>Circa primum sic: I. Primo, videtur quod an<lb ed="#Qb"/>gelus
+            localiter moveatur. a. Et primo ex hoc
+            <lb ed="#Qb"/>quod dicitur ad Hebr. 1,14: Omnes sunt admini<lb ed="#Qb"/>stratorii
+            spiritus, in ministerium missi; huiusmodi
+            <lb ed="#Qb"/>autem missio expleturb per motum localem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Hoc idem patet ex hoc quod dicit Ioannes
+            <lb ed="#Qb"/>Damascenus4: <quote> Cum sunt in caelo empyreo,
+            <lb ed="#Qb"/>non sunt in tetra; cum ad terram a Deo mittuntur,
+            <lb ed="#Qb"/>non remanent in caelo </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, Gregorius5, super illud Luc. 1,19:
+            <lb ed="#Qb"/>
+            <quote ana="#lc1_19">Ego sum Gabriel, qui adsto ante Deum</quote> etc.: <quote> Cum
+            <lb ed="#Qb"/>ad nos veniunt angeli, exterius sic implent mini<lb ed="#Qb"/>sterium
+            ut tamen ante Deum interius per contem<lb ed="#Qb"/>plationem
+            assistant</quote>; et ita ut prius. Et ad hoc
+            <lb ed="#Qb"/>possunt adduci plures auctoritates tam ex textu
+            <lb ed="#Qb"/>Bibliaec quam ex expositoribus Sacrae Scripturae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Hoc idem per rationem potest ostendi, quia **
+            <lb ed="#Qb"/>solius Creatoris est esse ubique7 creaturae vero
+            <lb ed="#Qb"/>este definiri loco,. Quod etiam patet de angelo:
+            <lb ed="#Qb"/>quia, ut dictum est 6, cum est in caelo, non est
+            <lb ed="#Qb"/>in terra: simul enim non est in pluribus locis.
+            <lb ed="#Qb"/>Ponamus ergo quod sit in caelo et praecipiatur
+            <lb ed="#Qb"/>ei aliquid operari in terra: tunc planum est quod
+            <lb ed="#Qb"/>non potest esse .in terra nisi per motum; et ne<lb ed="#Qb"/>cesse
+            est quod ibi sit, quoniam necesse est utf
+            <lb ed="#Qb"/>ibi sit ubi operatur7; ergo planum est quod ne<lb ed="#Qb"/>cesse
+            est ipsum moveri localiter.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Omnis motus est propter indigentiam
+            <lb ed="#Qb"/>sui ipsius vel alterius8 et ponitur exemplum de
+            <lb ed="#Qb"/>caelo quod, etsi propter indigentiam sui non
+            <lb ed="#Qb"/>moveatur, quoniam est corpus perfectissimum,
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>movetur tamen, sicut dicit Philosophus9, prop<lb ed="#Qb"/>ter
+            continuationem generationis inferiorum ; sed
+            <lb ed="#Qb"/>angelus non habet necesse moveri propter indi<lb ed="#Qb"/>gentiam
+            sui vel alterius; ergo etC. — Probatio
+            <lb ed="#Qb"/>minoris: Propter indigentiam sui non movetur,
+            <lb ed="#Qb"/>cum sit iam beatificatus et ita ultimam perfectio<lb ed="#Qb"/>nem
+            habet, cum qua non potest habere aliquam
+            <lb ed="#Qb"/>indigentiam; ergo movetur propter indigentiam
+            <lb ed="#Qb"/>alterius; et hoc videtur per hoc quod dicitur
+            <lb ed="#Qb"/>Hebr. 1, 14: <quote ana="#hebr1_14">Omnes sunt administratorii spiritus,
+            <lb ed="#Qb"/>missi propter eos</quote> etc. 8. Sed contra videtur
+            <lb ed="#Qb"/>quod si nunquam esset. indigentia hominis repa<lb ed="#Qb"/>randah
+            per motum angeli, quod adhuc nihilominus
+            <lb ed="#Qb"/>posset habere angelus necessitatem ad movendum.
+            <lb ed="#Qb"/>Ponamus ergo quod adhuc praecipiat ei Dominus
+            <lb ed="#Qb"/>moveri, et cum suo motu non perficiatur aliqua
+            <lb ed="#Qb"/>indigentia creaturae et tameni habeat necesse obe<lb ed="#Qb"/>dire,
+            patet quod necesse habet moveri; quare etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, videtur quod propter-sui ipsius in<lb ed="#Qb"/>digentiam
+            moveatur. Constat enim quod per suum
+            <lb ed="#Qb"/>motum est in aliquo loco, in quo non erat prius
+            <lb ed="#Qb"/>antequam moveretur; ergo est in ipso aliquid in<lb ed="#Qb"/>novatum;
+            ergo aliquid acquisitum, quo, ut videtur,
+            <lb ed="#Qb"/>antequam moveretur, indigebat, aut frustra mo<lb ed="#Qb"/>vetur;
+            quare etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Si dicatur quod verum est quod propter
+            <lb ed="#Qb"/>indigentiam sui ipsius moveturk, sed non propter
+            <lb ed="#Qb"/>indigentiam quae modo sit in ipso, cum sit iam
+            <lb ed="#Qb"/>beatiticatus, sed propter indigentiam quae fuit -—
+            <lb ed="#Qb"/>et hoc dicitur secundum opinionem illorum qui
+            <lb ed="#Qb"/>dicunt quod angeli modo merentur gloriam, quam
+            <pb ed="#Qb" n="234"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>iam obtinuerunt: unde non merentur habendum,
+            <lb ed="#Qb"/>sed potius iam habitum -— contra: praemium
+            <lb ed="#Qb"/>redditur proptera meritum; ergo meritum natu<lb ed="#Qb"/>raliter
+            antecedit praemium; ergo angeli prius
+            <lb ed="#Qb"/>meruerunt gloriam, quam modo obtinent, quam
+            <lb ed="#Qb"/>earn obtinuerunt; qnare etc. -— Item, mali an<lb ed="#Qb"/>geli
+            simul sunt aversi a Deo et boni conversi;
+            <lb ed="#Qb"/>sed mali sufficienter meruerunt poenam per hoc
+            ' quod sunt aversi: unde propter illam aversio<lb ed="#Qb"/>nem
+            b puniti sunt postmodum aeternaliter; ergo
+            <lb ed="#Qb"/>boni per hoc quod sunt conversi meruerunt glo<lb ed="#Qb"/>riam,
+            quam modo obtinent; ergo ex tunc ha<lb ed="#Qb"/>buerunt
+            perfectionem in merito et in praemio,
+            <lb ed="#Qb"/>quoniam illa conversio fuit gratuita; sed quan<lb ed="#Qb"/>tulacumque
+            conversio, dummodo gratuita sit, suf<lb ed="#Qb"/>ficit
+            ad obtinendam gloriam; planum est ergo
+            <lb ed="#Qb"/>quod posti-' huiusmodi conversionem non habue<lb ed="#Qb"/>runt
+            angeli indigentiam nec ex parte meriti nec ex
+            <lb ed="#Qb"/>parte praemii. Ergo postmodum non moventurd
+            <lb ed="#Qb"/>propter indigentiam prius habitam reparandam.
+            —- Item, omne quod movetur propter aliquid, ha<lb ed="#Qb"/>bito
+            illo, quiescit1 ; si ergo motus angeli non
+            <lb ed="#Qb"/>movetur nisi propter obtentum gloriae, videture
+            <lb ed="#Qb"/>quod, obtenta gloria, non deberetf ulterius mo<lb ed="#Qb"/>veri,
+            quoniam post obtentum gloriae non videtur
+            <lb ed="#Qb"/>aliquid .esse in eo reparandum, quoniam tunc non
+            <lb ed="#Qb"/>esset beatificatus. Ex quo adhuc apparet quod
+            <lb ed="#Qb"/>non potest poni ipsum moveri propter reparatio<lb ed="#Qb"/>nem
+            indigentiae quam prius habuit, cum sit iam
+            <lb ed="#Qb"/>sufficienter reparata.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Item, occasione huius motus quaeritur utrum
+            <lb ed="#Qb"/>motus semper indigentiae attestetur, ut sequatur
+            'hoc movetur, ergog est indigens ,.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur per definitionem motus quam
+            <lb ed="#Qb"/>ponit Philosophus, quae estz: <quote>Motus est
+            <lb ed="#Qb"/>actus mobilis imperfectus </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed contra: a. Constat quod in corporibus'
+            <lb ed="#Qb"/>glorificatis attestatur agilitas perfectioni, aut aliter
+            <lb ed="#Qb"/>non diceretur dos agilitas; sed agilitas dicit po<lb ed="#Qb"/>tentiam
+            huiusmodi corporum ad movendum lo—
+            <lb ed="#Qb"/>caliter; sed constat quod plus est perfecta po<lb ed="#Qb"/>tentia,
+            cum est sub suo actu, quamh sit secun<lb ed="#Qb"/>dum
+            se; sed actus praedictae potentiae est motus
+            <lb ed="#Qb"/>huiusmodi corporum secundum huiusmodi agili<lb ed="#Qb"/>tatem;
+            ergo planum est quod motus corporum
+            <lb ed="#Qb"/>glorificatorum attestatur perfectioni et non indi—
+            <lb ed="#Qb"/>gentiae; ergo multo magis motus spirituum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed contra: 1. Quia  Deus est ubique, ideo di<lb ed="#Qb"/>citur
+            non moveri. Nec est contrarium quod dicit
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>
+            <name ref="#Augustine">Augustinus</name>, Ad Orosium3, quod <quote> Deus movet
+            <lb ed="#Qb"/>se sine tempore et sine loco </quote>: hoc enim solum
+            <lb ed="#Qb"/>est dictum secundum similitudinem quamdam.
+            <lb ed="#Qb"/>Quod ergo dicitur creatura moveri localiter, hoc
+            <lb ed="#Qb"/>est quia deest ei ut sit in illo loco ad quem
+            <lb ed="#Qb"/>movetur; ergo est in eo indigentia quoad hoc,
+            <lb ed="#Qb"/>et ita omnis motus est propter indigentiam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Concedimus quod angelus movetur de
+            <lb ed="#Qb"/>loco ad locum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. A d id quod obicitur in contra<lb ed="#Qb"/>rium,
+            dicimus quod in creatura potest determinari
+            <lb ed="#Qb"/>indigentia dupliciter: uno modo, ut dicat diminu<lb ed="#Qb"/>tionem
+            respectu perfectionis quae est in solo Deo,
+            <lb ed="#Qb"/>et sic bene concedimus quod in qualibet creatura,
+            <lb ed="#Qb"/>etiam in quocumque statu, est indigentia: haec
+            <lb ed="#Qb"/>enim perfectioni debitae creaturae, secundum quod
+            <lb ed="#Qb"/>est k creatura, non opponitur; alio modo, ut dicat
+            <lb ed="#Qb"/>diminutionem contra' perfectionem ultimam crea<lb ed="#Qb"/>turae,
+            secundum quod dicimus quod angeli boni
+            <lb ed="#Qb"/>ultima perfectione perficiuntur: et sic dicimus quod
+            <lb ed="#Qb"/>nec in angelis nec in corporibus glorificatis est
+            <lb ed="#Qb"/>indigentia; unde nec motus eorum est propter
+            <lb ed="#Qb"/>indigentiam quae suae perfectioni opponatur: nec
+            <lb ed="#Qb"/>enim, quando moventur, inveniunt in medio resi<lb ed="#Qb"/>stentiam, 
+            immo tam cito sunt ubi volunt esse. Et
+            <lb ed="#Qb"/>verum est quod, si aliter esset, quod in ipsis
+            <lb ed="#Qb"/>quoad motum eorum esset indigentia, quae suae
+            <lb ed="#Qb"/>perfectioni opponitur. Dicimus ergo de angelis
+            <lb ed="#Qb"/>quod moventur propter reparandam indigentiam
+            <lb ed="#Qb"/>quae est in nobis; et in hoc'", licet non mere<lb ed="#Qb"/>antur
+            praemium principale, merentur tamen secun-'
+            <lb ed="#Qb"/>darium: sicut praelatus in " regendo sibi subditos
+            <lb ed="#Qb"/>non acquirit praemium principale, sed" secunda<lb ed="#Qb"/>rium;
+            et hoc praemium bene merentur angeli,
+            <lb ed="#Qb"/>licet iam sint beati, usque ad diem iudicii. Nec
+            <lb ed="#Qb"/>tamen est propter hoc in ipsis indigentia quae
+            <lb ed="#Qb"/>opponatur suae perfectioni, ut supra ostensum
+            <lb ed="#Qb"/>est 4. Tamen bene concedimus 'quod, etsi non mo—
+            <lb ed="#Qb"/>verentur? propter reparandam indigentiam, quae
+            <lb ed="#Qb"/>est in nobis, sed solum ut *! obedirent Deo praeci<lb ed="#Qb"/>pientif,
+            quod adhuc mererentur$ praemium se<lb ed="#Qb"/>cundarium,
+            quod tamen esset alterius generis a
+            <lb ed="#Qb"/>praedicto praemio secundario *: illud enim posset
+            <lb ed="#Qb"/>dici aureola, istud non. Unde bene concedimus
+            <lb ed="#Qb"/>quod in sola conversione ad Deum meruerunt
+            <lb ed="#Qb"/>praemium primum et postmodum non merentur
+            <lb ed="#Qb"/>nisi secundarium, nondum tamen habitum ante<lb ed="#Qb"/>quam
+            mereantur, sed post meritum habendum, et
+            <lb ed="#Qb"/>concedimus ea quae ad hoc obiecta erant.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2—3. Et " per hoc possunt solvi omnia quaesita.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">Utrum necesse sit angelum moveri per medium.</head>
+          <p>
+                  <pb ed="#Qb" n="235"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Secundo quaeritur utrum necesse sit ipsum mo<lb ed="#Qb"/>veri
+            per medium.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur: a. Quoniam mobile ratione sui
+            <lb ed="#Qb"/>motus non potest comparari nisi ad terminum a
+            <lb ed="#Qb"/>quo et ad terminum ad quem aut ad spatium inter<lb ed="#Qb"/>medium",
+            Supposito ergo ex praedictis quod
+            <lb ed="#Qb"/>angelus moveatur secundum locum, necesse est'?
+            <lb ed="#Qb"/>quod dicatur hoc comparatione ad aliquem prae<lb ed="#Qb"/>dictorum
+            locorum. Sed constat quod non compa<lb ed="#Qb"/>ratione
+            ad terminum a quo, quoniam in illo ter<lb ed="#Qb"/>mino
+            fuit non-motus; ergo comparatione ad hunc
+            <lb ed="#Qb"/>non potest habere rationem motus, cum quiescere
+            <lb ed="#Qb"/>et moveri sint opposita3. Similiter nec in compa<lb ed="#Qb"/>ratione
+            adc terminum ad quem, quoniam, cum
+            <lb ed="#Qb"/>est mobile in hoc loco, iam est mutatum vel
+            <lb ed="#Qb"/>motum;)sed moveri et esse motum opponuntur;
+            <lb ed="#Qb"/>ergo, si dicatur moveri, necesse est quod hoc sit
+            <lb ed="#Qb"/>ind spatio intermedio, et ita necesse est ipsum
+            <lb ed="#Qb"/>pertransire medium.— Et quod ita necesse
+            <lb ed="#Qb"/>sit secundum hanc * rationem,
+            <lb ed="#Qb"/>evidentius apparet: quoniam ipsum 'moveri' me<lb ed="#Qb"/>diumxest
+            inter non-motum esse, secundum quod
+            <lb ed="#Qb"/>respicit tergigm a quo, et ipsum motum esse in
+            <lb ed="#Qb"/>termino ad quem; quare secundum hoc, sicut
+            <lb ed="#Qb"/>ipsum non-motum esse estf in termino a quo et
+            <lb ed="#Qb"/>ipsum motum esse in termino ad quem, sic erit
+            <lb ed="#Qb"/>ipsum moveri in spatio intermedio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Ad idem: Motus localis et locus sese conse<lb ed="#Qb"/>quuntur,
+            ita quod quidquid dicitur esseg in loco
+            <lb ed="#Qb"/>dicitur moveri localiter, et ideo dicit Philoso<lb ed="#Qb"/>phus4
+            quod, nisi esset motus, non quaereretur
+            <lb ed="#Qb"/>locus; sed locus comparatur ad locatum aut sicut
+            <lb ed="#Qb"/>ipsum circumscribens aut sicut salvans aut sicut
+            <lb ed="#Qb"/>terminans aut sicut in quo locatumh quiescit 5.
+            <lb ed="#Qb"/>Sed constat quod locus angeli essentialis non
+            <lb ed="#Qb"/>comparatur ad ipsum. sicut circumscribens, quo<lb ed="#Qb"/>niam
+            iste modus essendi in loco solumi corpo<lb ed="#Qb"/>r'ibus
+            competit; nec sicut salvans ipsum k, quoniam
+            <lb ed="#Qb"/>sine loco corporali posset esse angelus; sed bene
+            <lb ed="#Qb"/>videtur locus comparari ad angelum sicut in quo
+            <lb ed="#Qb"/>est angelus' sicut in suo terminante aut sicut
+            <lb ed="#Qb"/>in eo in quo quiescit. Intelligamus ergo quod
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>angelus sit in aliquo loco ut in quo quiescat '",
+            <lb ed="#Qb"/>et debeat postmodum esse in aliquo ad quem ne<lb ed="#Qb"/>cesse
+            sit terminari suum motum, quia constat quod
+            <lb ed="#Qb"/>in illo non potest esse nisi per motum. Si ergo
+            <lb ed="#Qb"/>dicatur angelus moveri, constat quod hoc non est
+            <lb ed="#Qb"/>dum est'1 in termino a quo, in quo est sicut in
+            <lb ed="#Qb"/>quo " quiescat, quoniam dum est in hoc termino,
+            <lb ed="#Qb"/>adhuc habet potentiam movendi nec adhuc actua<lb ed="#Qb"/>liter
+            movetur aut motus-" est; similiter nec cumq
+            <lb ed="#Qb"/>iam est in termino ad quem, quoniam iam motus
+            <lb ed="#Qb"/>est aut mutatus. Ista ergo potentia ad moven<lb ed="#Qb"/>dum,
+            quam habebat dum erat in termino a quo,
+            <lb ed="#Qb"/>non reducitur ad actum nisi dum est in spatio
+            <lb ed="#Qb"/>intermedio; quare, ut prius, videtur quod necesse
+            <lb ed="#Qb"/>sit ipsum moveri per spatium' medium, et ita
+            <lb ed="#Qb"/>necesse est pertransire medium.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Est quoddam corpus rarum vel den<lb ed="#Qb"/>sum,
+            quod movetur dividendo medium. Est aliud
+            <lb ed="#Qb"/>corpus nec rarum nec densum, sed nobilius,
+            <lb ed="#Qb"/>ut lumen, quod suo loco movetur orbiculariter,
+            <lb ed="#Qb"/>extra autem movetur motu recto, non dividendo
+            <lb ed="#Qb"/>medium, ut radius. Unde non proprie dicitur
+            <lb ed="#Qb"/>quoad hoc dividere medium, secundum quod
+            <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>, in libro Sex Quaestionum 6:
+            <lb ed="#Qb"/>
+            <quote>Non citius pervenit radius ad propinquioras
+            <lb ed="#Qb"/>loca quam ad remotiora, sed fit repente immu<lb ed="#Qb"/>tatio
+            in medio et extremo </quote>; sed corpus rectum
+            <lb ed="#Qb"/>pertransit medium dividendo, et est dicere suum
+            <lb ed="#Qb"/>motum tardum vel velocem7; sed constat quod
+            <lb ed="#Qb"/>spiritus angelicus adhuc in nobiliore conditione
+            <lb ed="#Qb"/>participat motum localem quam etiam" corpus
+            <lb ed="#Qb"/>quodcumque; quare si unum est corpus quod
+            <lb ed="#Qb"/>movetur pertranseundov medium et diVidendo,
+            <lb ed="#Qb"/>aliud *, quod, etsi pertranseundo, non tamen ipsum
+            <lb ed="#Qb"/>dividendo, sedy quasi repente et in tempore im<lb ed="#Qb"/>perceptibili
+            fit mutatio in medio et extremo: vi<lb ed="#Qb"/>detur
+            quod spiritus angelicus moveatur de loco
+            <lb ed="#Qb"/>ad locum non3 pertranseundo medium.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, <name ref="#Augustine">Augustinus</name>, Ad Orosiumez <quote> Deus
+            <lb ed="#Qb"/>movet corpora per loca et tempora, spiritus non
+            <lb ed="#Qb"/>per loca, sed per tempora </quote>. Si ergo dicatur mo<lb ed="#Qb"/>vere
+            spiritus per oppositionem ad corpora quoad
+            <lb ed="#Qb"/>hoc quod est moveri per loca, et constat quod,
+            <pb ed="#Qb" n="236"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>sicut corpora moventur de loco ad locum, sic et
+            <lb ed="#Qb"/>spiritus: ergo, cum dicantur spiritus non " moveri
+            <lb ed="#Qb"/>per loca, hoc non potest esse nisi quia movendo
+            <lb ed="#Qb"/>de loco ad locum non pertranseunt medium; quoad
+            <lb ed="#Qb"/>hoc enim quod est moveri de loco ad locum, non
+            <lb ed="#Qb"/>est oppositio inter corpora et spiritus quoad mo<lb ed="#Qb"/>tum 
+            secundum locum. — Sed ut habeaturb intel<lb ed="#Qb"/>lectus 
+            huius auctoritatis, obicitur contrac eam:
+            <lb ed="#Qb"/>Quoniam, sicut dicit Philosophusl, motus 10<lb ed="#Qb"/>calis
+            primus est inter omnes motus, et ideo ipso
+            <lb ed="#Qb"/>desinente desinunt omnes alii motus; sed ex una
+            <lb ed="#Qb"/>parte auctoritatis habetur quod motus localis non
+            <lb ed="#Qb"/>est in angelis, quia dicitur ibi ** quod <quote> Deus movet
+            <lb ed="#Qb"/>spiritus, non per loca </quote>; quare videtur quod ei non
+            <lb ed="#Qb"/>conveniat aliquis motus. Quid est ergo quod post<lb ed="#Qb"/>modum
+            dicitur quod ei convenit moveri <quote>per
+            <lb ed="#Qb"/>tempus </quote>, cum constet 'moveri per tempus"!
+            <lb ed="#Qb"/>esse quoddam moveri?
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad, quod dicendum quod, cum an<lb ed="#Qb"/>gelus
+            movetur localiter, movetur per medium.
+            <lb ed="#Qb"/>Notandum tamen quod moveri per medium dicitur
+            <lb ed="#Qb"/>dupliciter: uno modo quando una pars eius quod
+            <lb ed="#Qb"/>movetur est in una parte loci et alia in alia parte;
+            <lb ed="#Qb"/>sic fit motus per commensurationem mobilis et
+            <lb ed="#Qb"/>magnitudinis, et sic angelus non dicitur moveri
+            <lb ed="#Qb"/>per medium, sed solummodo corpus, cum angelus
+            <lb ed="#Qb"/>non habeat partem et partem nec'commetiatur
+            <lb ed="#Qb"/>se partibus loci sicut corpus; alio modo dicitur
+            <lb ed="#Qb"/>moveri per medium quod, licet non sit secundum
+            <lb ed="#Qb"/>unam partem sui in termino a quo, secundum
+            <lb ed="#Qb"/>aliam in termino ad quem, nec sitf motus per
+            <lb ed="#Qb"/>commensurationem mobilis et loci sive magnitu<lb ed="#Qb"/>dinis,
+            respicit tamen et terminum a quo. et ter<lb ed="#Qb"/>minum
+            ad' quem: et hoc modo dicitur angelus
+            <lb ed="#Qb"/>moveri per medium; unde, cum est in illo medio
+            <lb ed="#Qb"/>spatio, non est in illo loco a quo recedit nec in
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>illo ad quem tendit, sed habet relationem ad utrum<lb ed="#Qb"/>que
+            terminum, licet pars eius non sit in uno ter<lb ed="#Qb"/>mino
+            et pars in alio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed tunc quaeritur quare necesse sit an.<lb ed="#Qb"/>gelo
+            pertransire medium in motu suo. Ad quod
+            <lb ed="#Qb"/>respondeog quod hoc exigitur ratione motus
+            <lb ed="#Qb"/>localis: oportet enim in motu locali et generaliter
+            <lb ed="#Qb"/>in omni motu differente a mutatione"X ibi esse
+            <lb ed="#Qb"/>rationem medii differentem a ratione terminorum,
+            <lb ed="#Qb"/>scilicet termini a quo et termini ad quem, quod
+            <lb ed="#Qb"/>non oportet in mutatione, sed, cum mutatum est,
+            <lb ed="#Qb"/>statim est in altero termino, scilicet in termino ad
+            <lb ed="#Qb"/>quem, nec oportet ibi esse medium differens ab
+            <lb ed="#Qb"/>extremo sive a termino. Quia ergo in motu oportet
+            <lb ed="#Qb"/>de necessitate esse rationem medii differentem ab
+            <lb ed="#Qb"/>utroque termino, ideo, eum angelus movetur loca—
+            <lb ed="#Qb"/>liter, necesse est quod moveatur per medium, quia
+            <lb ed="#Qb"/>alioi modo non posset intelligi moveri localiter.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta] :' 1. Ad illud quod obicitur in con<lb ed="#Qb"/>trarium,
+            dicendum quod, licet nobilior sit spiritus
+            <lb ed="#Qb"/>angelicus quam lux corporalis, nihilominus in hoc
+            <lb ed="#Qb"/>conveniunt quod utrumque movetur per medium,
+            <lb ed="#Qb"/>quia hoc exigitur, non ex parte eius quod movetur,
+            <lb ed="#Qb"/>sed ex parte ipsius motus, in quo necesse est
+            <lb ed="#Qb"/>rationemn'ne'dii esse differentem ab * utroque ter<lb ed="#Qb"/>mino.
+            In hoc tamen abundat in nobilitate spiritus
+            <lb ed="#Qb"/>angelicus a luce corporali, quia in motu suo non
+            <lb ed="#Qb"/>est secundum unam partem sui in termino a?
+            <lb ed="#Qb"/>quo, secundum aliam in termino" ad quem, sicut
+            <lb ed="#Qb"/>lux, cum pertransit, quae commetitur se partibus
+            <lb ed="#Qb"/>loci.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad illud vero quod dicit <name ref="#Augustine">Augustinus</name>
+            <lb ed="#Qb"/>quod <quote>Deusm movet spiritus per tempora" et
+            <lb ed="#Qb"/>non per loca </quote>: dicendum quod hoc non intelli<lb ed="#Qb"/>gitur
+            de motu locali, sed de motu interiori, quoa
+            <lb ed="#Qb"/>movetur secundum cognitionemP vel affectionem.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III.</head>
+          <head type="question-title">Utrum angelus ex se habeat moveri localiter.</head>
+          <p>
+            <lb ed="#Qb"/>Tertio quaeritur utrum angelus ex se moveatur
+            <lb ed="#Qb"/>localiter vel, cum movetur, necesse sit ipsum as<lb ed="#Qb"/>sumere
+            corpus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem necesse sit ipsum assumere eor<lb ed="#Qb"/>pus,
+            videtur: 1. Ex verbis B. 4 Bernardi, Super
+            <lb ed="#Qb"/>Cantica Canticorum 3. Probat' enim hoc ibi, di<lb ed="#Qb"/>cens:
+      <quote> Non est discurrere nec de loco ad locum
+            <lb ed="#Qb"/>transire nisi corporum </quote>; sed propria passio ali<lb ed="#Qb"/>cuius
+            subiecti non convenit alii subiecto nisi
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>secundum convenientiam quam habet ad illud;
+            <lb ed="#Qb"/>cum ergo moveri de loco ad locum sit propria
+            <lb ed="#Qb"/>passio corporis, non convenit angelo nisi secun"<lb ed="#Qb"/>dums
+            convenientiam quam habet ad corpus; sed
+            <lb ed="#Qb"/>non potest habere convenientiam ad corpus int
+            <lb ed="#Qb"/>movendo nisi ipsum assumendo, quoniam ei non
+            <lb ed="#Qb"/>unitur per essentiam sicut anima corpori unita
+            <lb ed="#Qb"/>est; ergo videtur quod non possit moveri nisi
+            <lb ed="#Qb"/>assumat corpus. Sed ad hoc manifestandum
+            <lb ed="#Qb"/>multum prolixe procedit B. Bernardust et
+            <pb ed="#Qb" n="237"/>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>distinguit ibi quatuor spiritus: unum increatum et
+            <lb ed="#Qb"/>tres creatos, scilicet spiritum brutorum et homi<lb ed="#Qb"/>num
+            et angelorum, et " manifestat quod solus spi<lb ed="#Qb"/>ritus
+            increatus corpore non indiget, alii vero in<lb ed="#Qb"/>digent.
+            Et videtur plane dicere quod angelus non
+            <lb ed="#Qb"/>movetur nisi assumpto corpore. Haec 17 sunt verba
+            <lb ed="#Qb"/>eius 1: <quote>Quatuor genera spirituum nota sunt nobis,
+            <lb ed="#Qb"/>pecoris, noster 0, angelicus et qui condidit illos.
+            <lb ed="#Qb"/>Non est ex omnibus, cui propter se sive propter
+            <lb ed="#Qb"/>alium sive propter utrumque necessarium corpus
+            <lb ed="#Qb"/>non sit</quote> corporisve similitudo, excepto dumtaxat
+            <lb ed="#Qb"/>illo cui omnis tam corporalis quam spiritualis
+            <lb ed="#Qb"/>creatura merito confitetur et dicit 2: Deus meus es
+            <lb ed="#Qb"/>tu, quoniam bonorum meorum non eges. Et primum
+            <lb ed="#Qb"/>quidem ita corpore egere constat, ut nec subsi—
+            <lb ed="#Qb"/>stere absque illo utcumque d possit; sirnul quoque
+            <lb ed="#Qb"/>et vivificare desinit et vivere ille spiritus, quando
+            <lb ed="#Qb"/>moritur pecus; verum ** nos vivimus quidem post
+            <lb ed="#Qb"/>corpus. Et infra: <quote> Habet igitur corpus neces<lb ed="#Qb"/>sarium
+            spiritualis creatura quae nos sumus </quote>. Et
+            <lb ed="#Qb"/>infra: <quote> Iam quod supercaelestes spiritus corpo—
+            <lb ed="#Qb"/>ribus egeant, illa maxime certos nos iacit vera
+            <lb ed="#Qb"/>et vere divina sententia: Nonne, aitf 3, sunt ad<lb ed="#Qb"/>ministratorii
+            spiritus? etc. Quonam ergo! modo
+            <lb ed="#Qb"/>implent ministerium suum sine" corpore, prae<lb ed="#Qb"/>sertim
+            apud viventes in corpore? Denique non
+            <lb ed="#Qb"/>est discurrere nec de loco ad locum transire nisi
+            <lb ed="#Qb"/>corporum: quod facere frequenter angelos tam
+            <lb ed="#Qb"/>indubitata quam nota probat auctoritas. Hinc est
+            <lb ed="#Qb"/>quod visii sunt Patribus et ad eos intraverunt
+            <lb ed="#Qb"/>et manducaverunt et pedes laverunt 4. Itaque in<lb ed="#Qb"/>ferior
+            superiorque spiritus propriis corporibus
+            <lb ed="#Qb"/>egent, sed tantum quibus iuvent k, non etiam in<lb ed="#Qb"/>ventur;
+            at' pecus quidem ex debito servitutis et
+            <lb ed="#Qb"/>ad usus tantum corporalium temporaliumque ne<lb ed="#Qb"/>cessitatum
+            iuvando servit, ideoque ille spiritus
+            <lb ed="#Qb"/>et cum tempore transit et cum corpore deficit </quote>.,"l
+            <lb ed="#Qb"/>Ex quo plane apparet propositum. ,/
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicimus quod sicut diffe<lb ed="#Qb"/>renter
+            est dicere corpora et spiritus esse in loco
+            <lb ed="#Qb"/>— corpora enim sunt in loco per circumscrip<lb ed="#Qb"/>tionem
+            — similiter, cum transeunt de loco ad
+            <lb ed="#Qb"/>locum, circumscribuntur loco per quem transeunt,
+            <lb ed="#Qb"/>ita quod totum commetitur se toti et pars parti.
+            <lb ed="#Qb"/>Et hoc est verum quod moveri est proprie cor<lb ed="#Qb"/>porum
+            solum nec spiritibus, nisi ex ordinatione
+            <lb ed="#Qb"/>ad corpus, competit hoc moveri; unde eis in
+            <lb ed="#Qb"/>natura sua nec secundum se convenit, sed 505
+            <lb ed="#Qb"/>lum per accidens; sicut dicimus quod corpus
+            <lb ed="#Qb"/>humanum localiter movetur, quod et anima ra<lb ed="#Qb"/>tionalis
+            movetur moto corpore, similiter dicimus
+            <lb ed="#Qb"/>quod movetur corpus, quod assumit angelus, et
+            <lb ed="#Qb"/>ipse per accidens '". Et de hoc modo movendi
+            <lb ed="#Qb"/>loquitur Bern ard us, in praedicta homilia. Unde
+            <lb ed="#Qb"/>bene verum est quod angelus requirit corpus
+            <lb ed="#Qb"/>ad hoc ut sic moveatur, hoc tamen potius propter
+            <lb ed="#Qb"/>nostram indigentiam quam ipsius. Angelus enim
+            <lb ed="#Qb"/>non solum iuvat nos in operationibus spiritua<lb ed="#Qb"/>libus,
+            sed etiam in corporalibus, et quoad has
+            <lb ed="#Qb"/>propter nos indiget assumere corpus ad hoc ut
+            <lb ed="#Qb"/>sic moveatur. Et ex verbis B. Bernardi patet
+            <lb ed="#Qb"/>quod de hoc modo movendi' loquitur: <quote>Hinc
+            <lb ed="#Qb"/>est quod visi sunt Patribus</quote> etc.; huiusmodi
+            <lb ed="#Qb"/>enim operationes non possent exercere nisi me<lb ed="#Qb"/>diante
+            corpore. Sed creati spiritus proprie di<lb ed="#Qb"/>cuntur
+            esse in loco definitione, non" circumscrip<lb ed="#Qb"/>tione5
+            — quod corporibus" non convenit, sed
+            <lb ed="#Qb"/>solumP circumscriptione -— et sic, quantum est
+            <lb ed="#Qb"/>de natura sua, respondet eis moveri de loco ad
+            <lb ed="#Qb"/>locum sine corpore? sive corporis assumptione.
+            <lb ed="#Qb"/>Et hoc patet. Animae enim separatae possunt
+            <lb ed="#Qb"/>moveri non assumendo corpus, quoniam aut alie<lb ed="#Qb"/>num
+            corpus assumerent aut suum: alienum non
+            <lb ed="#Qb"/>videtur competere; de suo videmus quod non
+            assumunt, cum iaceant in sepulcris. Quare multo
+            <lb ed="#Qb"/>magis spiritus angelici possunt moveri sine as<lb ed="#Qb"/>sumptione
+            corporis, cum ex se et ex natura sua
+            <lb ed="#Qb"/>sint' spiritus separati nec videantur dependere
+            <lb ed="#Qb"/>aliquo modo a corpore aut aliquam relationem
+            <lb ed="#Qb"/>habere ad ipsum.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

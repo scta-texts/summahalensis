@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 3, Q. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 3, Q. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="372"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t3q2c1">
+        <head>Ia-IIae, Inq. 3, Tract. 3, Q. 2, C. 1</head>
+        <head type="question-title">DE MULTIPLICATIONE ET COLLOCATIONE RERUM CORPORALIUM.</head>
+        <p>
+                <pb ed="#Qb" n="372"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Fons ascendebat de terra1 etc. I. Quaeritur hic,
+          <lb ed="#Qb"/>F cum incipiat dicere de causa multiplicationis
+          <lb ed="#Qb"/>et collocatione hominis in paradiso, quare primo
+          <lb ed="#Qb"/>incipit ab origine ex parte aquae et non ex parte
+          <lb ed="#Qb"/>terrae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod respondet <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Qb"/>Super Genesimzz <quote> Recte ab eo-incepit" elemento,
+          <lb ed="#Qb"/>ex quo cuncta genera nascuntur vel animalium
+          <lb ed="#Qb"/>vel herbarum atqueb lignorum, ut agant tempo<lb ed="#Qb"/>rales
+          numeros suos naturis propriis distributos.
+          <lb ed="#Qb"/>Omnia quippe primordia seminum, sive undec
+          <lb ed="#Qb"/>omnis caro sive unded omnia fruteta gignuntur,
+          <lb ed="#Qb"/>humida sunt et ex humore concrescunt</quote>. Utrum<lb ed="#Qb"/>que
+          tamen datur intelligi: nam ea, quae fiunt, ex
+          <lb ed="#Qb"/>commixtione fiunt aquae et terrae, adiunctis aliis
+          <lb ed="#Qb"/>elementis; sed haec duo sunt manifestiora, ideo
+          <lb ed="#Qb"/>de iis duobus tacit mentionem. Rationem etiam
+          <lb ed="#Qb"/>corpulentiae, non dico corporeitatis, accipiunt ab '
+          <lb ed="#Qb"/>elementis istis principaliter, sed terra est unde
+          <lb ed="#Qb"/>plus accipiunt de materia, humor vero, qui est
+          <lb ed="#Qb"/>ex aqua, estf unde plus accipitur multiplicatio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Sed quia duplex est humor — unus, qui
+          <lb ed="#Qb"/>descendit ex nubibus aeris, alius, qui oritur in
+          <lb ed="#Qb"/>terra — potest quaeri 1. quare causam multipli<lb ed="#Qb"/>cationis
+          designat penes humorem fontalem primo
+          <lb ed="#Qb"/>et non penes pluvialem, cum videamus modo
+          <lb ed="#Qb"/>manifestius causam multiplicationis esse ex hu<lb ed="#Qb"/>more
+          pluviali quam tontali in universa terra.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, cum titf humor pluvialis, fitg mi<lb ed="#Qb"/>nutatim
+          terrae irrigatioh; unde magis videbatur
+          <lb ed="#Qb"/>convenire a principio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1-2. Ad quod videtur dicendum quod,
+          <lb ed="#Qb"/>cum non legatur de pluvia nisi cum'introductum
+          <lb ed="#Qb"/>esti diluvium3, nec de arcu sive iride nisi in si<lb ed="#Qb"/>gnum
+          reconciliationis 4, videtur quodam modo in
+          <lb ed="#Qb"/>poenam primok pluvia introducta; pluvia autem
+          <lb ed="#Qb"/>fit ex vapore aquosol elevato in nubibus, in
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>vapore autem est quaedam contusio elemento<lb ed="#Qb"/>rum:
+          unde introductio vaporum videtur esse in
+          <lb ed="#Qb"/>signum confusionis creaturae humanae, quae iam
+          <lb ed="#Qb"/>venerat in confusionem " peccatorum: prius enim
+          <lb ed="#Qb"/>erat aer serenus in conditione operum primorum,
+          <lb ed="#Qb"/>sed post factus est nebulosus. Recte ergo primo 0
+          <lb ed="#Qb"/>facta est multiplicatio ex humore iontali irrigante
+          <lb ed="#Qb"/>superiiciemp terrae. — Si cui autem Videtur prius
+          <lb ed="#Qb"/>fuisse pluvia, licet de hoc non faciat mentionem
+          <lb ed="#Qb"/>Sacraq Scriptura, nihilominus oportet ipsum in<lb ed="#Qb"/>telligere
+          prirrio quod' humor aquosus imbibatur
+          <lb ed="#Qb"/>terrae, antequams fiat vaporum elevatio et con<lb ed="#Qb"/>sequenter
+          pluviarum descensio. Quod enim di<lb ed="#Qb"/>citur
+          ligatio aquarum, ut non pariter erumpant
+          <lb ed="#Qb"/>deorsum, non videtur ad primum statum referri.
+        </p>
+        <p>
+          <lb ed="#Qb"/>III. Supposito autem ex Scriptura quod humor
+          <lb ed="#Qb"/>aquosus, qui in terra oritur, sit principium irriga<lb ed="#Qb"/>tionis
+          primae, potest quaeri ]. quare dicitur esse
+          <lb ed="#Qb"/>fontalis, cum ex conditione operumt in sex die<lb ed="#Qb"/>bus
+          habeamus quod aquae interiores congregatae
+          <lb ed="#Qb"/>sint et congregationes dictae sint maria 5. Unde
+          <lb ed="#Qb"/>videtur quod irrigatio" totius terrae sit" ex istis
+          <lb ed="#Qb"/>maribus: mare enim accipitur communiter pro
+          <lb ed="#Qb"/>congregatione aquarum dulcium et amararum.
+          <lb ed="#Qb"/>Quid est ergo quod dicit: Fons ascendebat etc.?
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, supposito quod fons secundum rationem
+          <lb ed="#Qb"/>aliquam fontis irrigaret, cum non videatur de
+          <lb ed="#Qb"/>alio fonte tacere mentionem nisi de illo fonte pa<lb ed="#Qb"/>radisi,
+          qui dividitur in quatuor capita 5, videtur
+          <lb ed="#Qb"/>impossibile quod totam superficiem terrae irri<lb ed="#Qb"/>gaverit,
+          cum non legatur de illis quatuor capi<lb ed="#Qb"/>tibus-nisi
+          quod per terras currant determinatas
+          <lb ed="#Qb"/>et illas irrigent7, aliae vero sintx terrae ad quas
+          <lb ed="#Qb"/>non extenditur earum irrigatio. Si vero fuit
+          <lb ed="#Qb"/>alius fons maior illo, mirum est ubi modo sit: si
+          <lb ed="#Qb"/>enim obstrusus est propter peccatum primorum
+          <lb ed="#Qb"/>parentum 8, videretur alicubi in Scriptura fieri
+          <lb ed="#Qb"/>mentio de ista obstrusione.
+        </p>
+        <p>
+                <pb ed="#Qb" n="373"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>3. Praeterea, multiplici genere peccati peccavit
+          <lb ed="#Qb"/>homo ante diluvium, et tamen non legitur quod
+          <lb ed="#Qb"/>ante diluvium fuerit aliud genus irrigationis; ergo
+          <lb ed="#Qb"/>relinquitur quod, si obstrusus esset, hoc non
+          <lb ed="#Qb"/>esset propter peccatum primorum parentum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod potest dici opinando se<lb ed="#Qb"/>cundum
+          illuda quod introducit <name ref="#Augustine">Augustinus</name> 1,
+          <lb ed="#Qb"/>dicens quod potuit per fontem intelligi Oceanus,
+          <lb ed="#Qb"/>in quantum per diversas partes in ramis suis
+          <lb ed="#Qb"/>extenditur et diversi sunt meatus subterranei, per
+          <lb ed="#Qb"/>quos fiunt excolationes aquarum, cuius unus ra<lb ed="#Qb"/>mus
+          fuit fons qui irrigabat paradisum. Et dicitur
+          <lb ed="#Qb"/>tous irrigare superficiem terrae, non quiab inun<lb ed="#Qb"/>daverit
+          super eam, sed quiac in maiori parte
+          <lb ed="#Qb"/>irrigavit 4. Vel quia dixit: Fons ascendebat etc.,
+          <lb ed="#Qb"/>et non dicitur6 unus fons, potest intelligi utf
+          <lb ed="#Qb"/>universaliter comprehendatur . omnis tons sive
+          <lb ed="#Qb"/>aquarum ductus. Unde <name ref="#Augustine">Augustinus</name>, Super Ge<lb ed="#Qb"/>nesimz:
+    <quote> Quod si ipsius abyssi magnitudinem,
+          <lb ed="#Qb"/>ea parte excepta quae! mare dicitur et evidenti
+          <lb ed="#Qb"/>amplitudine amaris'l fluctibus terras ambit, in
+          <lb ed="#Qb"/>ea sola parte quam reconditis sinibus terra con<lb ed="#Qb"/>tinet,
+          unde se omnes fontes et omnes aquae
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>diversis tractibus venisquei distribuunt et suisk
+          <lb ed="#Qb"/>quaeque locis erumpunt, 'fontem' voluit appellare
+          <lb ed="#Qb"/>Scriptura, non 'fontes ', propter naturae unitatem ;
+          <lb ed="#Qb"/>eumquel per innumerabiles vias antrorum atque
+          <lb ed="#Qb"/>rimarum ascendentem de terra et ubique disper<lb ed="#Qb"/>titis'"
+          quasi crinibus irrigantem omnem superfi<lb ed="#Qb"/>ciem
+          terrae, non continua specie tamquam maris
+          <lb ed="#Qb"/>aut stagni, sed sicut videmus ire aquas per ai<lb ed="#Qb"/>veos
+          fluminum flexusque'1 rivorum et eorum ex<lb ed="#Qb"/>cessu
+          vicina perfundere, quiso non accipiat nisi
+          <lb ed="#Qb"/>qui contentiose spiritu laborat? </quote> Et iterum ibi<lb ed="#Qb"/>dem
+          3: <quote> Pro numero plurali posuit singularem, ut
+          <lb ed="#Qb"/>intelligamus fontes multos per universam terram
+          <lb ed="#Qb"/>locaP vel regiones propriasq irrigantes, sicut cli<lb ed="#Qb"/>citur
+          "miles" et multi intelliguntur, sicut dicta
+          <lb ed="#Qb"/>ests locusta et rana in plagis quibus Aegyptii
+          <lb ed="#Qb"/>percussi sunt4', cum esset innumerabilis locusta<lb ed="#Qb"/>rum
+          numerus et ranarum; iam non diutius labo<lb ed="#Qb"/>remus</quote>.
+          Quidam5 autem putaverunt sic fieri
+          <lb ed="#Qb"/>irrigationem, quemadmodum Nilus quodam tem<lb ed="#Qb"/>'
+          poret anni irrigat terram, ut aliquo tempore" et<lb ed="#Qb"/>fundatur
+          super faciem" terrae, alio vero tempore
+          <lb ed="#Qb"/>contrahatur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

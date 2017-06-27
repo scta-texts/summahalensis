@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="687"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q1t2d2c2">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 2, C. 2</head>
+        <head type="question-title">A QUO ERAT PRIMO HOMINI IMMORTALITAS 2.</head>
+   
+        <p>
+          <lb ed="#Qb"/>Sequitur determinare" a quo erat illa immorta<lb ed="#Qb"/>litas.
+          Quaeritur ergo utrum haec immortalitas
+          <lb ed="#Qb"/>fuit illi a natura vel a gratia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod a gratia 0, ostenditur: a. Luc. 10 30:
+          <lb ed="#Qb"/>
+          <quote ana="#lc10_30">Homo quidam descendebat deP Ierusalem in Ieri<lb ed="#Qb"/>chol</quote> etc.
+          Ibi habetur in Glossa <quote>quod fuit
+          <lb ed="#Qb"/>spoliatus gratuitis, vulneratus in naturalibus </quote>;
+          <lb ed="#Qb"/>sed fuit spoliatus immortalitate; igitur fuit de
+          <lb ed="#Qb"/>gratuitis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name>, Super Genesim ad lit<lb ed="#Qb"/>teram
+          VI4, <quote>dicit quod mortalis erat conditione
+          <lb ed="#Qb"/>corporis, immortalis beneficio Conditoris </quote>. Ergo
+          <lb ed="#Qb"/>conditioni naturae ' corporis tuit aliquid additum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>beneficio Dei, quo erat immortale; hoc nihil
+          <lb ed="#Qb"/>nisi gratia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, cum naturale est compositum ex con<lb ed="#Qb"/>trariis
+          ut contrariis-* dissolvi, dissolveretur homo
+          <lb ed="#Qb"/>nisi aliquid esset superadditum naturae, inhibens
+          <lb ed="#Qb"/>huiusmodi dissolutionem naturae — quod videtur
+          <lb ed="#Qb"/>dicere <name ref="#Augustine">Augustinus</name>, XIV De civitate Dei f5, di<lb ed="#Qb"/>cens:
+    <quote> Lignum vitae aderat, ne illum ulla senec<lb ed="#Qb"/>tus
+          dissolveret</quote> — igitur non videtur quod a
+          <lb ed="#Qb"/>natu-ra intuerit ei immortalitas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, <name ref="#Lombard">Magister</name> H u g 0 6 distinguit triplicem
+          <lb ed="#Qb"/>statum: in primo potuit mor-i et" non mori; in
+          <lb ed="#Qb"/>secundo potuit mori et non potuit nonV mori;
+          <lb ed="#Qb"/>in tertio poterit non mori et non poterit mori.
+          <pb ed="#Qb" n="688"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Primus status est innocentiae, secundus culpae,
+          <lb ed="#Qb"/>tertius" gloriae.: Dicit ergo de tertio-statu: <quote> Ad
+          <lb ed="#Qb"/>hunc statum pertinet et moriendi et peccandi im<lb ed="#Qb"/>possibilitas,
+          utraque tamen ex gratia, non ex na<lb ed="#Qb"/>tura,
+          quia, si gratia non adesset, in altero mo<lb ed="#Qb"/>riendi,
+          in altero peccandi naturae possibilitas non
+          <lb ed="#Qb"/>deesset. Si ergo ultima immortalitas ex gratia
+          <lb ed="#Qb"/>erit, ubi moriendi possibilitasb non erit, quanto
+          <lb ed="#Qb"/>magis prima immortalitas ex natura non fuit,
+          <lb ed="#Qb"/>ubi moriendi possibilitas tuit! </quote> Ex hoc patet quod
+          <lb ed="#Qb"/>immortalitas fuit a gratia. Idem habetur a Ma<lb ed="#Qb"/>gistro
+          Sententiarum 1.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Item, homo per naturam poterat mori; ergo
+          <lb ed="#Qb"/>non erat immortalis per naturam, cum impossi<lb ed="#Qb"/>bile
+          sit.duo opposita inesse eidemc secundum
+          <lb ed="#Qb"/>eadem principia 2.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. A natura habuit corpus in perfecta
+          <lb ed="#Qb"/>aequalitate et optima libratione qualitatum, ut ex
+          <lb ed="#Qb"/>dictis patet3: illud enim dicitur esse a natura
+          <lb ed="#Qb"/>quod est alicui inditum in sua conditione 4.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, a natura habuit ex parte animae
+          <lb ed="#Qb"/>potentiam nutritivam, qua appositioned nutrimenti
+          <lb ed="#Qb"/>conservatur individuum. Praeterea, alimenta na<lb ed="#Qb"/>turalia
+          erant sibi data in usum, scilicet fructus
+          <lb ed="#Qb"/>lignorum paradisi. Cum igitur haec omnia a na<lb ed="#Qb"/>tura
+          tuerunt sive naturalia, iis autem poterat vita
+          <lb ed="#Qb"/>in ipso perpetuari, relinquitur quod immortalitas
+          <lb ed="#Qb"/>fuit illi a natura.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, in statu innocentiae habuit unde pos<lb ed="#Qb"/>set
+          stare, licet non unde posset proficere: et
+          ' hoc a natura, quia nihil erat corruptionis in illo
+          <lb ed="#Qb"/>quod esset * motivum ad malum; sed stando non
+          <lb ed="#Qb"/>peccavit, et non peccando non moreretur; quare,
+          <lb ed="#Qb"/>si sine gratia poterat stare, sine gratia poterat
+          <lb ed="#Qb"/>vitam perpetuare; igitur immortalis fuit a natura.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, immortalitas est a potentia continuandi
+          <lb ed="#Qb"/>vitam ; sed constat quod potentia vivendi est
+          <lb ed="#Qb"/>naturalis, cum trahatur ex coniunctione animae
+          <lb ed="#Qb"/>cum corpore, quae naturalis est;-sed eadem est
+          <lb ed="#Qb"/>potentia continuandi vitam quae estf vivendi, ut
+          <lb ed="#Qb"/>videtur-€, sicut eadem est gratia quae vivificat et
+          <lb ed="#Qb"/>consummat per" perseverantiam; igitur potentia
+          <lb ed="#Qb"/>continuandi vitam est naturalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, eadem potentia est principium vitae
+          <lb ed="#Qb"/>et principium continuationis vitae; naturaliter
+          <lb ed="#Qb"/>habuit in se principium vitaei ; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, natura est ad hoc ut salvetur divinum
+          <lb ed="#Qb"/>esse quantum potest-r'; divinum autem esse est
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>similiter se habere; igitur natura est ad hoc ut
+          <lb ed="#Qb"/>illud, in quo est, similiter se habeat; quod autem
+          <lb ed="#Qb"/>non potest natura in hoc ut salvetur esse divi<lb ed="#Qb"/>num
+          in eodem, hoc est propter corruptionem
+          <lb ed="#Qb"/>peccati; igitur et natura non corrupta, scilicet
+          <lb ed="#Qb"/>bene instituta, in hoc potest; ergo, est causa
+          <lb ed="#Qb"/>immortalitatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Item, in primo statu nihil erat in primo ho<lb ed="#Qb"/>mine
+          impellens ad corruptionem ; igitur de natura
+          <lb ed="#Qb"/>propria erat immortalis etk nihil extra illum
+          <lb ed="#Qb"/>laedere poterat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>8. Item, eo quod erat innocens, erat-l immor—
+          <lb ed="#Qb"/>talis; ergo a quo erat illi'" innocentia, erat immor<lb ed="#Qb"/>talitas; 
+          sed innocentia erat a natura; ergo et
+          <lb ed="#Qb"/>immortalitas erat a natura.
+        </p>
+        <p>
+          <lb ed="#Qb"/>9. Item, <name ref="#Augustine">Augustinus</name>, De civitate Deis: <quote> Deus
+          <lb ed="#Qb"/>est vita animae, anima est vita corporis</quote>. Unde
+          <lb ed="#Qb"/>anima" sicut medium inter Deum et corpus, reci<lb ed="#Qb"/>piens
+          vitam a Deo, tribuit vitam corpori. Igitur",
+          <lb ed="#Qb"/>si anima semper esset coniuncta suae vitae, semper
+          <lb ed="#Qb"/>esset corpus coniunctum, suae; sed statu durante
+          <lb ed="#Qb"/>innocentiae semper esset anima coniuncta suae
+          <lb ed="#Qb"/>vitae; ergo etc.; igitur semper dedisset vitam
+          <lb ed="#Qb"/>corpori, et ita immortalitatem. — Si diceretur
+          <lb ed="#Qb"/>quod hoc non sequitur, quia hac ratione homo
+          <lb ed="#Qb"/>in gratia non moreretur — hoc tamen non est
+          <lb ed="#Qb"/>simile, quia modo est- corpus necessario morti
+          <lb ed="#Qb"/>addictum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1O.'Praeterea, illa influentia a Deo in Adam non
+          <lb ed="#Qb"/>fuit gratuita, sed naturalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>11. Item, ut dicit <name ref="#Augustine">Augustinus</name>, XIII De civi<lb ed="#Qb"/>tate
+          Dei 7: <quote> Nihil erat corruptionis in corporeP vel
+          <lb ed="#Qb"/>ex corpore, nullas molestias ullis eius sensibus
+          <lb ed="#Qb"/>ingerebat, nullus intrinsecus morbus, nullus ex<lb ed="#Qb"/>trinsecus
+          ictusq metuebatur </quote>. Et ita sine gratia
+          <lb ed="#Qb"/>tuit remota ab homine omnis causa mortis; quare'
+          <lb ed="#Qb"/>fuit immortalis sine gratia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>12. Item, immortalitas fuit illi ex ligno vitae.
+          <lb ed="#Qb"/>Dicit enim <name ref="#Augustine">Augustinus</name>, Super Genesims: <quote> Quo<lb ed="#Qb"/>dam
+          modo creatus est homo immortalis, quod
+          <lb ed="#Qb"/>erat ei ex ligno vitae, non conditione naturae:
+          <lb ed="#Qb"/>mortalis erat conditione corporis animalis, immor<lb ed="#Qb"/>talis
+          beneticio Conditoris </quote>. Et Hugo9 dicit: <quote> Quod
+          <lb ed="#Qb"/>primus ille homo non secundum qualitatem cor<lb ed="#Qb"/>poris
+          terreni, sed ex: beneficio vitalis edulii non
+          <lb ed="#Qb"/>mori potuit, manifeste Scriptura ostendit, ubi
+          <lb ed="#Qb"/>eumfab eodem ligno eiectum ", ne vitam ipsam
+          <lb ed="#Qb"/>perpetuam conservare posset, testatur, dicens 10:
+          <pb ed="#Qb" n="689"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Ecce Adam quasi unus ex nobis factus est</quote>. Et
+          <lb ed="#Qb"/>ita videtur quod neque ex" natura sua neque ex
+          <lb ed="#Qb"/>gratia erat immortalis, sed ex ligno vitae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Item, incidenter quaeritur, si bruta essent
+          <lb ed="#Qb"/>usa ligno vitae, utrum continuarentb vitam suam
+          <lb ed="#Qb"/>huiusmodi usu.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo ": Quidaml ponebant quod immor<lb ed="#Qb"/>talitas
+          in primo homine esset a natura, quia a
+          <lb ed="#Qb"/>natura sua haberet aptitudinem ad immortalitatem;
+          <lb ed="#Qb"/>quidam quod a'1 gratia, quiae a dono gratuito
+          <lb ed="#Qb"/>habebat completionem. Et potest esse exemplum
+          <lb ed="#Qb"/>ad hoc: cum dicitur 'homo est beatificabilis', no<lb ed="#Qb"/>tatur
+          ibi aptitudo et dispositio superaddita, simi<lb ed="#Qb"/>liter
+          cum dicitur 'homo est immortalis'. Unde
+          <lb ed="#Qb"/>sicut homo quodam-modo potest dici beatifica<lb ed="#Qb"/>bilis
+          per naturam, quodam modo per gratiam,
+          <lb ed="#Qb"/>similiter primus homo immortalis; prout enim
+          <lb ed="#Qb"/>hoc quod dico *beatificabile' importat aptitudi<lb ed="#Qb"/>nem,
+          convenit homini per naturam: a natura
+          <lb ed="#Qb"/>enim sua habet aptitudinem ad beatitudinem;
+          <lb ed="#Qb"/>secundum autem quod importat dispositionem,
+          <lb ed="#Qb"/>per quam quis sufficienter disponitur ad suscep<lb ed="#Qb"/>tionem
+          actus beatitudinis, inest illi per gratiam,
+          <lb ed="#Qb"/>non per naturam. Sicut ergo, licet homo a natura
+          <lb ed="#Qb"/>habeat aptitudinem ad beatitudinem, non propter
+          <lb ed="#Qb"/>hoc dicendus est beatificabilis a natura nisi valde
+          <lb ed="#Qb"/>per accidens, sed potius a gratia, quae est dis<lb ed="#Qb"/>ponens
+          et ordinans immediate ad susceptionem
+          <lb ed="#Qb"/>beatitudinis, sic in proposito. Propter hoc dicen—
+          <lb ed="#Qb"/>dum est quod immortalitas primi hominis non
+          <lb ed="#Qb"/>fuit a natura, sed a gratia, ut habetur a Magi<lb ed="#Qb"/>stro,
+          II libro Sententiarumz, dicente: <quote>Alterum
+          <lb ed="#Qb"/>habebat in natura corporis, scilicet posse mori,
+          <lb ed="#Qb"/>alterum vero ex dono gratiae </quote>. Hoc idem habetur
+          <lb ed="#Qb"/>ab Hugxonef, ut patet ex dictis 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Nota ergo quod sicut est triplex status — scili<lb ed="#Qb"/>cet
+          innocentiae, in quo poterat primus homo pec<lb ed="#Qb"/>care
+          et non peccare, similiter mori et non mori;
+          <lb ed="#Qb"/>secundus, in quo-9 poterat peccare et non poterat
+          <lb ed="#Qb"/>non" peccare, similiter poterat mori et non pote<lb ed="#Qb"/>rat
+          non mori; tertius, in quo poterit non peccare
+          <lb ed="#Qb"/>et non poterit peccare, similiter poteriti non mori
+          <lb ed="#Qb"/>et non poterit mori — similiter est triplex gratia,
+          <lb ed="#Qb"/>scilicet perfecta et imperfecta in duplici dii-ferentia,
+          <lb ed="#Qb"/>quia imperfecta est gratia gratis data respectu gra<lb ed="#Qb"/>tiaek
+          gratum facientis, similiter gratia gratum fa<lb ed="#Qb"/>ciens
+          secundum quod est viatoris, in quantum
+          <lb ed="#Qb"/>huiusmodi, qua solum tollitur miseria culpae, res<lb ed="#Qb"/>pectu
+          gratiae' gratum facientis, secundum quod
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>est comprehensoris, quam tollitur non solum mi<lb ed="#Qb"/>seria
+          culpae, sed poenae. Fuit igitur immortalitas
+          <lb ed="#Qb"/>primi status, id est possibilitas non moriendi, a
+          <lb ed="#Qb"/>gratia gratis data, non gratum iaciente. In secundo
+          <lb ed="#Qb"/>statu est immortalitas, id est possibilitas non
+          <lb ed="#Qb"/>moriendi spiritualiter", a gratia gratum faciente.
+          <lb ed="#Qb"/>Dicit enim Hugo4, quod in secundo <quote>statu est
+          <lb ed="#Qb"/>moriendi et peccandi necessitas, sed moriendi
+          <lb ed="#Qb"/>necessitas " quamdiuP adest vita, peccandi neces<lb ed="#Qb"/>sitas
+          quamdiu abest gratia</quote>. Ex quo patet quod
+          <lb ed="#Qb"/>ex praesentia gratiae est possibilitas non pec—
+          <lb ed="#Qb"/>candi. in tertio statu erit immortalitas, id est im<lb ed="#Qb"/>possibilitasq
+          moriendi, ex gratia perfecta. Pos<lb ed="#Qb"/>sunt
+          igitur rationes concedi quibus ostenditur
+          <lb ed="#Qb"/>quod haec immortalitas non erat a natura, sed a
+          <lb ed="#Qb"/>gratia naturae superaddita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illa quae obiciuntur in
+          <lb ed="#Qb"/>contrarium respondendum. Ad id ergo quod'
+          <lb ed="#Qb"/>obicitur quod 'aeque libratas erant elementa a
+          <lb ed="#Qb"/>natura, similiter virtus nutritiva et alimentum si<lb ed="#Qb"/>militer':
+          dicendum quod huius immortalitatis erat
+          <lb ed="#Qb"/>causa multiplex sive una ex multis unita. Una
+          <lb ed="#Qb"/>illarum erat proportio mixtorum in convenienti
+          <lb ed="#Qb"/>aequalitate virtutum elementarium et harmonia,
+          <lb ed="#Qb"/>quae magis esset causa pacis quam pugnae, iuxta
+          <lb ed="#Qb"/>quod exigebat optima complexio et sanitas per<lb ed="#Qb"/>fectissima,
+          qualis erat ipsius Adae 5. Unde A 11 gu<lb ed="#Qb"/>stin
+          u 5, De civitate Deis, dicit quod in carne eius
+          <lb ed="#Qb"/>summa sanitas erat. Huiusmodi autem mixtio et
+          <lb ed="#Qb"/>harmonia detectibilis erat nisi conservaretur, et
+          <lb ed="#Qb"/>mortis introductio possibilis. Et hoct triplici de
+          <lb ed="#Qb"/>causa intrinseca: ut si humidum intrinsecum con<lb ed="#Qb"/>sumeretur
+          ", si mixtorum esset pugna et conse<lb ed="#Qb"/>quenter
+          abiectio a substantia et si illorum con<lb ed="#Qb"/>traria
+          esset inclinatio. Secundum enim quod vult
+          <lb ed="#Qb"/>P hilo s 0 p h us 7, propter humidi consumptionem,
+          <lb ed="#Qb"/>propter mixtorum pugnam et consequentem abiec—
+          <lb ed="#Qb"/>tionem a substantia eorumdem et contrariam
+          <lb ed="#Qb"/>eorum inclinationem solet esse dissolutio in mixto.
+          <lb ed="#Qb"/>Prima causa removebatur ab Adam per esum
+          <lb ed="#Qb"/>lignorum: nam duplex est consumptio humidi,
+          <lb ed="#Qb"/>scilicet radicalis et nutrimentalis. Consumptio hu<lb ed="#Qb"/>midi-radicalis
+          impediebatur propter esum ligni
+          <lb ed="#Qb"/>vitae, quod ideo lignum vitae dicebatur, quia per
+          <lb ed="#Qb"/>illud vegetabatur illud humidum in quo radicatur
+          <lb ed="#Qb"/>vita; consumptio vero humidi nutrimentalis im<lb ed="#Qb"/>pediebatur
+          per esum aliorum lignorum paradisi,
+          <lb ed="#Qb"/>quae optimum ipsi Adae stanti praestabant ali<lb ed="#Qb"/>mentum.
+          Sic igitur prima causa tollebatur per
+          <lb ed="#Qb"/>esum lignorum paradisi. Secunda vero causa
+          <pb ed="#Qb" n="690"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>dissolutionis, quae est pugna in agendo et patiendo,
+          <lb ed="#Qb"/>tollebatur tribus concurrentibus, scilicet aequali<lb ed="#Qb"/>tate"
+          mixtionis in optima proportione, et virtute
+          <lb ed="#Qb"/>lucis conciliante contraria et ad quamdam amici<lb ed="#Qb"/>tiam
+          reducente, et virtute animae continente, quae
+          <lb ed="#Qb"/>quidem virtus consequebatur ipsam animam in
+          <lb ed="#Qb"/>statu innocentiae et inerat ei per donum gratiae
+          <lb ed="#Qb"/>gratis datae. Tertia causa dissolutionis, quae
+          <lb ed="#Qb"/>quidem erat ex inclinatione elementorum ad loca
+          <lb ed="#Qb"/>sua, tollebatur propter nobilitatem formae secun<lb ed="#Qb"/>dum
+          statum innocentiae, quia anima rationalis,
+          <lb ed="#Qb"/>omnino pura a peccato, adeob nobilis erat quod
+          <lb ed="#Qb"/>ita terminabat appetitum naturae, ut illa, quae
+          <lb ed="#Qb"/>perficiebantur ab ea, nequaquam sub alia forma
+          <lb ed="#Qb"/>vel situ appeterent esse. Nec mirum, cum secun<lb ed="#Qb"/>dum
+          ordinem naturae, ut dicit Philosophus',
+          <lb ed="#Qb"/>ceterae formae naturales ordinem habent ad ani—
+          <lb ed="#Qb"/>mam rationalem sicut ad complementum et finem.
+          <lb ed="#Qb"/>Ex hac igitur causa triplici erat in Adam pro<lb ed="#Qb"/>prietas
+          immortalitatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod obicitur quod 'a natura
+          <lb ed="#Qb"/>habuit corpus in perfecta aequalitate* etc.: dicen<lb ed="#Qb"/>dum2
+          quod, etsi quaedamvnaturaliter cooperaban—
+          <lb ed="#Qb"/>tur illi immortalitati, ut complexio etc alia quae<lb ed="#Qb"/>dam,
+          forte tamen, quia a continentia animae etd a
+          <lb ed="#Qb"/>ligno vitae principaliter erat immortalitas illa3,
+          <lb ed="#Qb"/>anima vero, in statu illo unita vitae suae mediante
+          <lb ed="#Qb"/>gratia gratis data, habuit ex illa unione potestatem
+          <lb ed="#Qb"/>perpetuandi vitam et participandi suo coniuncto,
+          <lb ed="#Qb"/>scilicet corpori, dicitur fuisse a gratia. Anima
+          <lb ed="#Qb"/>autem habebat a gratia, quam habuit unita vitae
+          <lb ed="#Qb"/>suae, quae erat summa immortalitas, potestatem
+          <lb ed="#Qb"/>participandi quamdam immortalitatem corpori sibi
+          <lb ed="#Qb"/>unito, quae fuit subtracta sibi in prima separa<lb ed="#Qb"/>tione,
+          iuxta sententiam Domini, Gen. 2,17: Qua<lb ed="#Qb"/>cumque
+          die comederis etc. Similiter concessio
+          <lb ed="#Qb"/>ligni vitae ad usum fuit gratuita, quod habuit po<lb ed="#Qb"/>testatem
+          firmandi corpus stabili sanitate 4. Unde
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>, De civitate Dei, XIII libro, 20 cap.5:
+    <quote>Alebantur aliis quae sumebant, ne animaliae
+          <lb ed="#Qb"/>corpora molestiae aliquid esuriendo ac sitiendo
+          <lb ed="#Qb"/>sentirent; de ligno autem vitae propterea gusta<lb ed="#Qb"/>batur,
+          ne mors eis undecumque subreperet vel
+          <lb ed="#Qb"/>senectute coniecta decursisf temporum spatiis
+          <lb ed="#Qb"/>interirent: tamquam cetera essent alimento, illud
+          <lb ed="#Qb"/>sacramento </quote>. Istud sacramentum fuit quantum ad
+          <lb ed="#Qb"/>hoc quod praestitit vitam corporalem, sicut Chri<lb ed="#Qb"/>stus
+          vitam spiritualem, qui dicitur lignum vitae 5.
+          <lb ed="#Qb"/>Unde subiungitur ab A u gu stin 07: <quote> Ut sic fuisse
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>accipiatur lignum vitae in paradiso corporali
+          <lb ed="#Qb"/>sicut in spirituali, hoc est intelligibili paradiso,
+          <lb ed="#Qb"/>Sapientia Dei, de qua scriptum estzLignum vitae
+          <lb ed="#Qb"/>est amplectentibus earn, Prov. 3,18</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud quod sequitur, scilicet quod
+          'potuit stare a natura et sine gratia' etc.: dicen<lb ed="#Qb"/>dum
+          quod hoc non est verum. Quod autem po<lb ed="#Qb"/>tuit
+          stare fuit a gratia, non a gratum faciente, sed
+          <lb ed="#Qb"/>a gratis data: sicut enim8 ad hoc'quod proiice<lb ed="#Qb"/>ret,
+          requirebatur gratia gratum faciens, sic ad
+          <lb ed="#Qb"/>hoc" quod staret, requirebatur gratia gratis data.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad illud quod sequitur, scilicet quod 'ea<lb ed="#Qb"/>demi
+          est potentia coritinuandi vitam quae est
+          <lb ed="#Qb"/>vivendi' etc.: dicendum quod sumendo potentiam
+          <lb ed="#Qb"/>passivam, verum est, non autem sumendo poten<lb ed="#Qb"/>tiam
+          activam, hock est illa potentia, qua fuit in
+          <lb ed="#Qb"/>illo possibilitas ad vivendum, ipsa eadem fuit
+          <lb ed="#Qb"/>possibilitas ad continuandum vitam; non tamen
+          <lb ed="#Qb"/>effective potuit illa potentia perpetuare vitarn qua
+          <lb ed="#Qb"/>potuit vivere. Nec est simile de gratia, qua est
+          <lb ed="#Qb"/>vivificatio spiritualis, et potentia, qua est vivifi- '
+          <lb ed="#Qb"/>catio naturalis: gratia enim est forma quaedam
+          <lb ed="#Qb"/>quae non solum' salvatur in suo subiecto, sed
+          <lb ed="#Qb"/>perpetuatur ab influentia, quae continua est, a
+          <lb ed="#Qb"/>primo bono, nisi fiat'" aversio ab ipso 3, et ex illa
+          <lb ed="#Qb"/>influentia illa eadem gratia, quae vivificat, con<lb ed="#Qb"/>summat
+          per perseverantiam 9. Potentia autem in
+          <lb ed="#Qb"/>corporibus huiusmodi determinata est et limitata
+          <lb ed="#Qb"/>usque ad tempus et tunc defectiva, quantum est
+          <lb ed="#Qb"/>de natura sua. Praeterea, hoc supposito quod
+          <lb ed="#Qb"/>eadem est potentia vivendi et continuandi, non
+          <lb ed="#Qb"/>sequitur ex hoc quod illa potentia, quae est vi<lb ed="#Qb"/>vendi
+          sive quae est principium vivendi et etiam"
+          <lb ed="#Qb"/>continuandi, quod illa potest esse perpetuatio
+          <lb ed="#Qb"/>vitae 0: quia, ut dictum est "', limitata est et defec<lb ed="#Qb"/>tibilis
+          secundum determinationem suae periodi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ex hoc patet responsio ad aliud quod se<lb ed="#Qb"/>quitur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad illud quod sequitur, scilicet quod
+          ' natura est ad hoc ut salvetur divinum esse' etc.:
+          <lb ed="#Qb"/>dicendum quod ex hoc non sequitur quod natura
+          <lb ed="#Qb"/>potest perpetuare" se simpliciter in hoc subiecto,
+          <lb ed="#Qb"/>quia si hoc, omnia essent natura perpetua. Inten<lb ed="#Qb"/>dit
+          enim natura salvare divinum esse in subiecto
+          <lb ed="#Qb"/>proprio 9, si potest, sin autem, in consimili.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Ad illud quod sequitur quod 'nihil' fuit
+          <lb ed="#Qb"/>impellens' etc.: dicendum quod nihilominus ipsa
+          <lb ed="#Qb"/>natura creaturae talis declinabilis fuit et defecti<lb ed="#Qb"/>bilis.
+          Licet enim nihil fuit ins illo impellens per
+          <pb ed="#Qb" n="691"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>violentiam sicut in natura corrupta, nihilominus
+          <lb ed="#Qb"/>fuit ibi quaedam inclinatio ad' defectum, ratione
+          <lb ed="#Qb"/>qua erat creatura talis, et defecisset, nisi bene<lb ed="#Qb"/>ficio
+          Conditoris fulciretur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>8. Ad hoc quod obicitur quod 'innocentia erat
+          <lb ed="#Qb"/>a natura' etc., dicendum quod innocentia dupli<lb ed="#Qb"/>citer
+          dicitur: uno modo, ut" dicit privationem,
+          <lb ed="#Qb"/>scilicet a culpa, et sic erat a natura et non erat
+          <lb ed="#Qb"/>causa immortalitatis; alio modo, ut dicit positio<lb ed="#Qb"/>,
+          nem, scilicet iustitiae originalis, et sic est causa
+          <lb ed="#Qb"/>immortalitatis, et sic non erat omnino a natura.
+        </p>
+        <p>
+          <lb ed="#Qb"/>9. Ad idb quod obicitur quod 'Deus est vita
+          <lb ed="#Qb"/>animae, etc.: dicendum quod hoc verum est, et
+          <lb ed="#Qb"/>quod, nisi anima Adaec esset separata a sua vita,
+          <lb ed="#Qb"/>nunquam fuisset damnatus ad separationem a
+          <lb ed="#Qb"/>sua neque esset separatus, sed nihilominus a se
+          <lb ed="#Qb"/>non habuisset hanc inseparabilitatem, sed a causis
+          <lb ed="#Qb"/>supra dictis '". — Ad illud quod sequitur, sci<lb ed="#Qb"/>licet
+          quod 'durante statu innocentiae animae
+          <lb ed="#Qb"/>semper esset coniuncta suae vitae' etc.: dicen<lb ed="#Qb"/>dum
+          quod hoc verum est, nec tamen esset illa
+          <lb ed="#Qb"/>coniunctiof, scilicet corporis cum sua vita, a
+          <lb ed="#Qb"/>natura, sed a beneficio Conditoris naturae, simi—
+          <lb ed="#Qb"/>liter et immortalitas eiusdem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>10. Ad illu d quod sequiturg, quod 'illa influen<lb ed="#Qb"/>tia
+          fuit naturalis': dicendum quod est quaedam
+          <lb ed="#Qb"/>influentia in creaturam rationalem, qua salvatur in
+          <lb ed="#Qb"/>esse, et haec est naturalis, secundum quod illud
+          <lb ed="#Qb"/>dicitur naturale quod est idem apud omnes, ut
+          <lb ed="#Qb"/>dicit Boethiusz; est et aliah qua perpetuatur
+          <lb ed="#Qb"/>in esse immortali, et haec est gratuita. Et dico
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>esse immortale illud quod perpetuatur ex con<lb ed="#Qb"/>iunctione
+          corporis cum sua vita, et hoc ex con<lb ed="#Qb"/>tinentia
+          animae coniunctae cum sua vita3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>11. Ad illud <name ref="#Augustine">Augustini</name> 
+          <quote>nihil erat cor<lb ed="#Qb"/>ruptionis</quote>
+          etc.: dicendum quod nec verum est,
+          <lb ed="#Qb"/>sumendo corruptionem proprie, secundum quod
+          <lb ed="#Qb"/>est motus a contrario agente per violentiam; fuit
+          <lb ed="#Qb"/>tamen quaedam possibilitasi ad declinationem
+          <lb ed="#Qb"/>ad non-esse ratione defectus creaturae talis, id
+          <lb ed="#Qb"/>est complexionatae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>12. Ad illud quod sequitur, dicendum quod
+          <lb ed="#Qb"/>eo ipso quod immortalis fuit beneficio fructus
+          <lb ed="#Qb"/>ligni vitae, iuit immortalis ex gratia, quia ex
+          <lb ed="#Qb"/>dono gratuito illi praestito a Conditore ipsius k.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Ad illud quod quaeritur 'si' bruta anima<lb ed="#Qb"/>lia
+          ex usu '" ligni vitae possent continuare" vitam
+          <lb ed="#Qb"/>suam', dicendum quod non, et haec est ratio:
+          <lb ed="#Qb"/>immortalitas huiusmodi fuit conditio corporis ex
+          <lb ed="#Qb"/>coniunctione sui" cum suo actu sive perfectione
+          <lb ed="#Qb"/>apta nata coniungi cum summa vita, a qua fuit
+          <lb ed="#Qb"/>apta recipere influentiam qua potuit continere cor<lb ed="#Qb"/>pus
+          et idem sibi unitum vivificare et in vita perpe<lb ed="#Qb"/>tuare.
+          Unde haec immortalitas, praestita beneficio
+          <lb ed="#Qb"/>ligni vitae, fuit imperfecta? et quasi dispositio res<lb ed="#Qb"/>pectu
+          illiusq quae fuit perfecta et subsequenda in
+          <lb ed="#Qb"/>patria: perfecta enim immortalitas est non posse
+          <lb ed="#Qb"/>mori ' . Quia ergo bruta non habent aptitudinem ali<lb ed="#Qb"/>quam
+          ad immortalitatem perfectam 4, quae est non
+          <lb ed="#Qb"/>posse mori, et haec est mediante influentia gratuita
+          <lb ed="#Qb"/>existente a prima vita, non esset perpetuata vita 5
+          <lb ed="#Qb"/>in illis, licet fuissent potitat fructu ligni vitae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

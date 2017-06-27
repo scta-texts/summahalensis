@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 1, Q. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 1, Q. 2, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t1q2c5">
+        <head>Ia-IIae, Inq. 3, Tract. 1, Q. 2, C. 5</head>
+        <head type="question-title">QUID SIT DICTU 'SPIRITUS DOMINI FEREBATUR SUPER AQUAS'</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur ratione eius quod dicitur7: 
+          <lb ed="#Qb"/>Spiritus Domini ferebatur super aquas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Potest enim quaeri quid nomine aquarum de<lb ed="#Qb"/>signetur
+          et- qualiter spiritus Domini super eas
+          <lb ed="#Qb"/>ferebatur et quare ' potius super aquas in hac ra<lb ed="#Qb"/>tione
+          quam super terram.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod nomine
+          <lb ed="#Qb"/>aquarum notatur' materia receptibilis debitae
+          <lb ed="#Qb"/>formae et localitatis ei respondentis, Spiritus au<lb ed="#Qb"/>tem
+          Domini magis dicitur terri super aquas,. quia
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>bonitas Dei, quae appropriatur Spiritui Sancto,
+          <lb ed="#Qb"/>est principium huius terminationis per formam
+          <lb ed="#Qb"/>distinctam et locum determinatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed si quaeratur quare super aquas-8 potius
+          <lb ed="#Qb"/>dicitur ferri quam esse in aquis, cum Spiritus
+          <lb ed="#Qb"/>Dei sit- ubique: respondeo quod loquitur de Spi<lb ed="#Qb"/>ritu
+          Domini, qui superior est natura etf in ra<lb ed="#Qb"/>tione
+          agentis, et sic agitur. de illo, licet" in
+          <lb ed="#Qb"/>ratione quadam dicatur" continere8 partes invi<lb ed="#Qb"/>cem
+          quasi:c esset-intra.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

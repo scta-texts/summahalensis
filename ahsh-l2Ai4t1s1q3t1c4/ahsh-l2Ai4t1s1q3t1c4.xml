@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 3, T. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 3, T. 1, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="406"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s1q3t1c4">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 3, T. 1, C. 4</head>
+        <head type="question-title">DE LOCALITATE ANIMAE.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur de localitate animae secundum se ipsam
+          <lb ed="#Qb"/>acceptae.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Et primo, de loco spirituali;
+          <lb ed="#Qb"/>secundo, de loco corporali.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum anima habeat locum spiritualem.</head>
+          <p>
+                  <pb ed="#Qb" n="407"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Quod autem habeat locum spiritualem, argui<lb ed="#Qb"/>tur
+            1. ex hoc quod proportionalia sunt continens
+            <lb ed="#Qb"/>et contentum 1; sed locus corporalis est cor<lb ed="#Qb"/>porum;
+            ergo proportionaliter locus spiritualis
+            <lb ed="#Qb"/>erit spirituum, et ita erit locus spiritualis ani<lb ed="#Qb"/>marum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, Ioannes Damascenus 2: <quote> An<lb ed="#Qb"/>geli
+            sunt intelligentiae in locis spiritualibus exi<lb ed="#Qb"/>stentes</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, Hieronymus, in libro De Spiritu
+            <lb ed="#Qb"/>Sancto 3: <quote> Licet non contineantur" finibus corpo<lb ed="#Qb"/>ralibus,
+            circumscriptione tamen non carent sub<lb ed="#Qb"/>stantiae 
+            suae </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, <name ref="#Augustine">Augustinus</name>, in libro 17 De quantitate
+            <lb ed="#Qb"/>animae4: <quote> Locus animae " Deus est </quote>. Ergo est
+            <lb ed="#Qb"/>ei Iocus spiritualis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Unum et idem non potest esse locus
+            <lb ed="#Qb"/>respectu 'i diversorum 5; Primum autem continet
+            <lb ed="#Qb"/>immediate multa; ergo non est continens ut locus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestio<lb ed="#Qb"/>numü:
+            Non dicuntur res esse in Deo sicut in
+            <lb ed="#Qb"/>loco; <quote> non enim ita sunt res in eo ut site
+            <lb ed="#Qb"/>locus earum: locus enim longitudine et altitudine
+            <lb ed="#Qb"/>et latitudinef continetur </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, si aliquisg esset locus spiritualis im<lb ed="#Qb"/>mediate/1
+            continens animam, aut fundaretur in
+            <lb ed="#Qb"/>substantia continente spirituali aut in substantia
+            <lb ed="#Qb"/>contenta. Si tundaretur in substantia continente,
+            <lb ed="#Qb"/>eadem ratione quaereretur de illa substantia con<lb ed="#Qb"/>tinente
+            in quo loco esset et ita esset abire in infini<lb ed="#Qb"/>tum,
+            aut oporteret stare .in primo et ita esset unus
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>locus immediate continens multa. Si vero in sub<lb ed="#Qb"/>stantia
+            contenta ï, tunc non haberet rationem loci:
+            <lb ed="#Qb"/>locus enim est terminus continentisk immobilis 7.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: Locus intelligibilis dicitur dupli<lb ed="#Qb"/>citer:
+            simpliciter et secundum quid. Uno modo di<lb ed="#Qb"/>citur
+            increatus spiritus secundum quem' datur
+            <lb ed="#Qb"/>eis continentia, ut in ipso quiescant et ad ipsum
+            <lb ed="#Qb"/>moveantur et in quo habent salvari '" substantiae
+            <lb ed="#Qb"/>spirituales 3, et sic dicuntur a Gregorio9 currere
+            <lb ed="#Qb"/>spiritus circumscripti intra spiritum" incircum<lb ed="#Qb"/>scriptum
+            10. Alio modo dicitur terminatio virtutis in
+            <lb ed="#Qb"/>unaquaque re spirituali: extra enim illam termi<lb ed="#Qb"/>nationem
+            nihil est de re spirituali; et sic dicit
+            <lb ed="#Qb"/>
+            <name ref="#Augustine">Augustinus</name>, in libro De fide ad Petrum":
+      <quote>Inest substantiis spiritualibus naturaliter ter<lb ed="#Qb"/>minus,
+            quo ao se invicem discernuntur; propter
+            <lb ed="#Qb"/>quod nulla est in alieno termino </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum autem obiec<lb ed="#Qb"/>tum
+            responsioP est quod secundum hunc ultimum
+            <lb ed="#Qb"/>modum est dicere quod proportionalia sunt locus
+            <lb ed="#Qb"/>spiritualis et locatum sicut locus corporalis et
+            <lb ed="#Qb"/>locatum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Similiter quod dicit Damascenus. Tamen
+            <lb ed="#Qb"/>illud posset intelligi aliter, ut continereturq vir—
+            <lb ed="#Qb"/>tus unius intelligentiae "ab alia quousque veni<lb ed="#Qb"/>retur
+            ad Deum, qui est omnia continens.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Illud vero quod Hieronymus dicit, sic
+            <lb ed="#Qb"/>plane intelligitur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Illud autem quod dicit <name ref="#Augustine">Augustinus</name>, in
+            <lb ed="#Qb"/>libro De quantitate animae, intelligitur de loco
+            <lb ed="#Qb"/>primo et communi<!--"--> continente.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum anima habeat locum, corporalem.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur de loco corporali utrum ani<lb ed="#Qb"/>mae 
+            habeant locum corporalem, in quo sint
+            <lb ed="#Qb"/>secundum3 se ipsas.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur 1. perf hoc quod dicit Augu<lb ed="#Qb"/>stinus, 
+            in libro De anima et spiritu 13: <quote>Ex eo
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>intellectuales naturas corporeas dicimus, quod
+            <lb ed="#Qb"/>loco circumscribuntur </quote>; in loco autem dicitur
+            <lb ed="#Qb"/>anima, quia alicubi praesens est et alibi non est.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, Damascenusvmz <quote> Anima circum<lb ed="#Qb"/>scriptibilis
+            estx, quia loco vel tempore vel com—
+            <lb ed="#Qb"/>prehensione concluditur ? </quote>.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="408"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Contra: a. Omne locatum habet aliquam de<lb ed="#Qb"/>pendentiam
+            a loco vel ratione quietis vel ratione
+            <lb ed="#Qb"/>conservationis vel ratione operationis; spiritualis
+            <lb ed="#Qb"/>autem substantia secundum se ipsam nullam ha<lb ed="#Qb"/>bet
+            dependentiam; ergo non est in loco.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, omne<!--a--> quod est in loco corporali, per se
+            <lb ed="#Qb"/>habet determinatam rationem ad locum, ut grave
+            <lb ed="#Qb"/>ad deorsum, leve ad sui-sum?; sed anima nullam
+            <lb ed="#Qb"/>habet huiusmodi rationem secundum se ipsam;
+            <lb ed="#Qb"/>ergo non est in loco corporali b.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: In loco corporali dicitur esse tri—
+            <lb ed="#Qb"/>pliciter: proprie, minus proprie et communiter;
+            <lb ed="#Qb"/>proprie per circumscriptionem, minus proprie per "
+            <lb ed="#Qb"/>definitionem, communiter per praesentiam. Essed
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>autem in loco secundum hos tres modos distin<lb ed="#Qb"/>guitur,
+            ut esse per praesentiam ponat existentiam
+            <lb ed="#Qb"/>rei et .loci, esse vero per definitionem ponat
+            <lb ed="#Qb"/>coexistentiam et superaddat terminationem, esse
+            <lb ed="#Qb"/>vero per circumscriptionem ponat duo praedicta
+            <lb ed="#Qb"/>et superaddat commensurationem in lOco secun<lb ed="#Qb"/>dum
+            principium, medium et finem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Secundum hoc potest respon<lb ed="#Qb"/>deri
+            ad obiecta. Si enim dicatur anima rationalis
+            <lb ed="#Qb"/>esse in loco, hoc non est per circumscriptionem
+            <lb ed="#Qb"/>per se, cum non habeat partes dimensivas. Potest
+            <lb ed="#Qb"/>autem dici esse? in loco definitive et per accidens
+            <lb ed="#Qb"/>ratione corporis cui unitur, praesentialiter autem-f,
+            <lb ed="#Qb"/>quia adest loco,, etiam cum est separata.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

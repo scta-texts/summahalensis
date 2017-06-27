@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, Praeambulum</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="115"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q5prae">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 5, Praeambulum</head>
+        <p>
+                <pb ed="#Qb" n="115"/>
+          <lb ed="#Qb"/>Completis conditionibus quae pertinent ad creaturam ex parte quantitatis et ex
+          <lb ed="#Qb"/>parte qualitatis et ordinis, quae pertinent" ad relationem, sequitur de perfec<lb ed="#Qb"/>tione 
+          ipsarum creaturarum in universo '. Ratione cuius quaeritur:
+          <lb ed="#Qb"/>Primo, cum perfectum dicatur multis modis, secundum quem modum dicatur uni<lb ed="#Qb"/>
+          <lb ed="#Qb"/>versum perfectum;
+          <lb ed="#Qb"/>secundo, si perfectio universi est tantum" in bonis an etiam in malis;
+          <lb ed="#Qb"/>tertio, si perfectio est in bonis, utrum aliquibus bonis deficientibus sit perfectio;
+          <lb ed="#Qb"/>quarto, in quo consistat perfectio universi, Videlicet utrum illud sit anima mundi;
+          <lb ed="#Qb"/>quinto, utrum perfectio attendatur respectu rerum in genere vel in specie an etiam
+          <lb ed="#Qb"/>in individuis;
+          <lb ed="#Qb"/>sexto, utrum quodlibet quod est in mundo dicatur imperfectumb respectu illius
+          <lb ed="#Qb"/>perfectionis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

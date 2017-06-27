@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t1m1c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 1, C. 2</head>
+        <head type="question-title">QUIS SIT ORDO ISTARUM DIVISIONUM</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaerendum est'l de ordine divi<lb ed="#Qb"/>C
+          sionum. Et primo quae sit prima divisio, ad
+          <lb ed="#Qb"/>quam aliae consequantur et1 super quam quasi
+          <lb ed="#Qb"/>fundentur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Constat autem quod divisiones virium cogni<lb ed="#Qb"/>tivarum,
+          quae respiciunt formas intelligibiles sine
+          <lb ed="#Qb"/>complexione, sunt priores aliis 2. Inter illas au<lb ed="#Qb"/>tem,
+          cum divisio Au gustini3 attendatur quan<lb ed="#Qb"/>tum
+          ad intelligibilia, prior erit divisione Phil 05 o<lb ed="#Qb"/>phi,
+          quae sumitur penes modum perveniendi ad
+          <lb ed="#Qb"/>cognitionem intelligibilium ex parte inferiori. Est
+          <lb ed="#Qb"/>enim duplex modus'f : a parte inferiori mediante
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>sensu et a parte superiori per illuminationem'
+          <lb ed="#Qb"/>sive4 a principio datam, quae dicitur cognitio
+          <lb ed="#Qb"/>innata, alia dicitur acquisita sive ens subsequen<lb ed="#Qb"/>ter5. 
+          Unde quod dicitur 5 intellectus possibilis ta<lb ed="#Qb"/>bula
+          nuda et anima rationalis ratione illius, hoc
+          <lb ed="#Qb"/>intelligitur ratione illius cognitionis intelligibilium
+          <lb ed="#Qb"/>quam accipit inferior sensus: ex illa enim parte iit'"
+          <lb ed="#Qb"/>investigatio philosophica; secundum illam autem
+          <lb ed="#Qb"/>accipitur divisio intellectivae partis cognitivae per
+          <lb ed="#Qb"/>intellectum materialem et possibilem" separabi<lb ed="#Qb"/>lem
+          et agentem. Reliquae vero duae divisiones
+          <lb ed="#Qb"/>decurrunt super formas intelligibiles in com<lb ed="#Qb"/>plexione
+          existentes et aliae quae infra7 dicentur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

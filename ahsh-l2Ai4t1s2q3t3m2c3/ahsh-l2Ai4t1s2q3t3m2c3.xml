@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="475"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t3m2c3">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 2, C. 3</head>
+        <head type="question-title">QUID SIT LIBERUM ARBITRIUM SECUNDUM NOMEN.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur quid sit liberum arbi<lb ed="#Qb"/>trium
+          secundum nomen. Circa quod
+        </p>
+        <p>
+          <lb ed="#Qb"/>Primo quaeritur utrum liberum arbitrium di<lb ed="#Qb"/>catur 
+          liberum eo quod est boni et mali indif<lb ed="#Qb"/>ferenter
+          vel eo quod sit boni et mali, sed magis
+          <lb ed="#Qb"/>mali, vel eo quod sit boni et mali, sed magisc
+          <lb ed="#Qb"/>boni; .
+          <lb ed="#Qb"/>secundo, curn liberum arbitrium sit <quote>facultas
+          <lb ed="#Qb"/>voluntatis et rationis ' </quote>, utrum nomen libertatis
+          <lb ed="#Qb"/>habeat ex parte rationis vel ex parte voluntatis vel
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ex parte utriusque, et, si ex parte utriusque, ex
+          <lb ed="#Qb"/>qua parte magis;
+          <lb ed="#Qb"/>tertio, cum sit triplex libertas, scilicet naturae,
+          <lb ed="#Qb"/>gratiae etd gloriae, ex qua libertate primo et
+          <lb ed="#Qb"/>principaliter nominetur liberum;
+          <lb ed="#Qb"/>quarto, quare duobus nominibus nominetur,
+          <lb ed="#Qb"/>cum sit una potentia;
+          <lb ed="#Qb"/>quinto, si philosophi pervenerunt ad rem
+          <lb ed="#Qb"/>liberi arbitrii, et, si aliquo modo pervenerunt ad
+          <lb ed="#Qb"/>rem, quare non pervenerunt ad nomen.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum liberum arbitrium dicatur liberam eo quod sit boni et mali indifferenter 2.</head>
+          <p>
+            <lb ed="#Qb"/>Circa primum sic obicitur: a. Dama-scenus3:
+      <quote> Creatura rationalis vertibilis est secundum elec—
+            <lb ed="#Qb"/>tionem </quote>; ex hoc enim liberum arbitrium e est,
+            <lb ed="#Qb"/>quod eligere potest vel recusare. Cum ergof eli<lb ed="#Qb"/>gere
+            sit indifferenter inter utrumque, et recusare?
+            <lb ed="#Qb"/>similiter, ergo liberum arbitrium indifferenter cli<lb ed="#Qb"/>citur
+            boni et mali.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, B er n ard u s 4: <quote> Eo dicitur liberum
+            <lb ed="#Qb"/>arbitrium, quia sive in bono sive in malo aeque
+            <lb ed="#Qb"/>liberam habeat voluntatem </quote>. Ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, Hugo de S. Victore 5: <quote> Posse fa<lb ed="#Qb"/>cere
+            bonum potestatis est, posse facere malum in<lb ed="#Qb"/>firmitatis,
+            neutrum vero per se est libertatis </quote>. Cum
+            <lb ed="#Qb"/>ergo sit libertas in iis, erit in utroque indifferenter.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, Augusti nus, in Hypognosticon 6:
+      <quote> Liberum arbitrium abi arbitrando nomen acce—
+            <lb ed="#Qb"/>pit, ex eo scilicet quod rationalis creatura discer<lb ed="#Qb"/>nat
+            quid eligat quidve recuset</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem sit magis boni: l. <name ref="#Anselm">Anselmus</name>7:
+      <quote> Potestas peccandi nec est libertas nec pars
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>libertatis </quote>. — Quod sic probaturs: <quote> Quod
+            <lb ed="#Qb"/>additum minuit et separatum auget non est liber<lb ed="#Qb"/>tas
+            nec pars libertatis </quote>; sed potestas peccandi
+            <lb ed="#Qb"/>talis est; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, in potestate peccandi non convenit homo
+            <lb ed="#Qb"/>vel angelus cum Deo, cuius imaginem tenet, sicut
+            <lb ed="#Qb"/>dicit B e r n ard u s * 9; et convenit in libero arbi<lb ed="#Qb"/>trio
+            quoad, hoc quod est potestas recte agendi;
+            <lb ed="#Qb"/>ergo liberum arbitrium hominis magis est respectu
+            <lb ed="#Qb"/>boni quam respectu' mali.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, sicut habetur in libro De libero arbitrio 10,
+            <lb ed="#Qb"/>Deus dedit homini liberum arbitrium ad hoc ut eo
+            <lb ed="#Qb"/>recte uteretur, non ad hoc, ut eo non recte uteretur;
+            <lb ed="#Qb"/>sed recte utitur in bono, non recte utitur in malo;
+            <lb ed="#Qb"/>ergo liberum arbitrium magis est boni quam mali.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, <name ref="#Augustine">Augustinus</name>'", De civitate Dei": <quote> Ar<lb ed="#Qb"/>bitrium
+            voluntatis tunc est vere liberum, cum vitiis
+            <lb ed="#Qb"/>peccatisque non servit </quote>; tale autem datum est a
+            <lb ed="#Qb"/>Deo; ergo liberum arbitrium magis se habet ad
+            <lb ed="#Qb"/>bonum quam ad malum.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="476"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Quod autem sit magis mali quam boni: 5. Ber<lb ed="#Qb"/>nardusl:
+      <quote> Nemo putet ideo dictum liberum ar<lb ed="#Qb"/>bitrium
+            quia inter bonum et malum potestate et
+            <lb ed="#Qb"/>facilitate versetur, cum cadere possit-per se, non
+            <lb ed="#Qb"/>autem resurgere</quote>. Magis ergo se habet ut sit
+            <lb ed="#Qb"/>mali quam boni.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Item, liberum arbitrium hominis per se suf<lb ed="#Qb"/>ficiens
+            est ad malum, non autem per se sufficiens
+            <lb ed="#Qb"/>est ad " bonum; ergo liberum arbitrium magis est
+            <lb ed="#Qb"/>mali quarn boni.
+         </p>
+          <p>
+            <lb ed="#Qb"/>7. Item, magis habet alliciens et trahens ad ma<lb ed="#Qb"/>lum
+            quam ad bonum; ergo magis dicetur mali
+            <lb ed="#Qb"/>quam boni.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeoc quod liberum arbitrium tripliciter
+            <lb ed="#Qb"/>consideratur: uno modo, secundum quod non
+            <lb ed="#Qb"/>cogitur, et hoc modo dicitur liberum, quia indit<lb ed="#Qb"/>ferenter
+            est boni et mali; alio4 modo conside<lb ed="#Qb"/>ratur
+            liberum arbitrium secundum naturam, se<lb ed="#Qb"/>cundum
+            quam assimilatur Deo, hoc est secundum
+            <lb ed="#Qb"/>quod liberum arbitrium ordinatur ad bonum, et
+            <lb ed="#Qb"/>secundum hoc est boni principaliter, et hoc modo
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>dicit <name ref="#Anselm">Anselmus</name>2 quod <quote>posse facere malum
+            <lb ed="#Qb"/>non est pars libertatis </quote>; tertio modo conside<lb ed="#Qb"/>ratur
+            quantum ad defectum naturae quem habet
+            <lb ed="#Qb"/>ex eo qubd est creatura vel'secundum defectum
+            <lb ed="#Qb"/>voluntatis proprium, et hoc modo plus est mali
+            <lb ed="#Qb"/>quam boni, quia per se' tendit in malum, et hoc
+            <lb ed="#Qb"/>modo dicit B. Bernardus3: <quote> Nemo putet li<lb ed="#Qb"/>berum
+            arbitrium </quote> etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: Secundum hoc ergo responden<lb ed="#Qb"/>dum
+            est ad auctoritates. a—d. Nam illae aucto<lb ed="#Qb"/>ritatese
+            quae concludunt quod liberum arbitrium
+            <lb ed="#Qb"/>est indifferenter boni et mali, intelliguntur de li<lb ed="#Qb"/>bero
+            arbitrio secundum naturam illam secundum
+            <lb ed="#Qb"/>quam non cogitur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1-4. Aliae vero, quae concludunt quod est tan<lb ed="#Qb"/>tum
+            boni sive magis boni, intelliguntur de libero
+            <lb ed="#Qb"/>arbitrio secundum quod assimilatur Deo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5—7. Aliae vero intelliguntur de libero arbitrio
+            <lb ed="#Qb"/>secundum defectum quem habet, propter quodf
+            <lb ed="#Qb"/>dicitur esse vertibile, propter quem deiectum
+            <lb ed="#Qb"/>plusg inclinatur ad malum quam ad bonum.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum liberum arbitrium dicatur liberum ex parte rationis vel voluntatis.</head>
+          <p>
+            <lb ed="#Qb"/>Secundo quaeritur utrumh liberum arbitrium
+            <lb ed="#Qb"/>dicatur liberum principaliter ex parte rationis vel
+            <lb ed="#Qb"/>ex parte voluntatis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem ex parte voluntatis, videtur:
+            <lb ed="#Qb"/>a. Quia quoad voluntatem domini sumus actuum
+            <lb ed="#Qb"/>nostrorum; unde dicit <name ref="#Augustine">Augustinus</name>5: <quote>Nihil
+            <lb ed="#Qb"/>est ita in potestate nostra sicut voluntas </quote>; sedi il<lb ed="#Qb"/>lius
+            est libertas principaliter, cuius est dominium
+            <lb ed="#Qb"/>actuum suorum; ergo, cum voluntas sit huiusmodi,
+            <lb ed="#Qb"/>libertas primo et principaliter erit voluntatis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, ratio potest cogi per argumenta et ratio<lb ed="#Qb"/>cinationes, 
+            sed non voluntas; unde Augusti<lb ed="#Qb"/>nus: 
+      <quote>Voluntas est animi motus, cogente nullo 
+            <lb ed="#Qb"/>ad aliquid adipiscendum vel non adipiscendum k </quote>.
+            <lb ed="#Qb"/>Ergo, cum libertas sit non posse cogi, dicetur
+            <lb ed="#Qb"/>liberum arbitrium liberum principaliter ex parte
+            <lb ed="#Qb"/>voluntatis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item 1, B e r n a r (1 u s 7: <quote> Universa quae ho<lb ed="#Qb"/>minis
+            sunt, praeter solam voluntatem, a merito et
+            <lb ed="#Qb"/>iudicio libera sunt, quia sui libera non sunt</quote>. Ergo
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ex hoc videtur quod" sola voluntas in homine
+            <lb ed="#Qb"/>libera sit.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. <quote>Liberum arbitrium</quote>, sicut dicit
+            <lb ed="#Qb"/>Boethiuss, <quote>est liberum de voluntate iudi<lb ed="#Qb"/>cium </quote>. 
+            Ergo liberum arbitrium dicitur liberum,
+            <lb ed="#Qb"/>quia est iudex suae voluntatis; sed iudicium per<lb ed="#Qb"/>tinet 
+            ad rationem; ergo libertas attenditur prin<lb ed="#Qb"/>cipaliter 
+            ex parte rationis P, non voluntatis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, A ugustinus q 9: <quote> Liberum arbi<lb ed="#Qb"/>trium
+            dicitur abf arbitrando </quote>; sed hoc pertinet
+            <lb ed="#Qb"/>ad rationem; ergo trahit nomen ex parte rationis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, Bernardus 10: <quote> Insani et infantes, quia
+            <lb ed="#Qb"/>non sunt compotes rationis, non habent usum li<lb ed="#Qb"/>bertatis </quote>. 
+            Ergo non dicuntur habere libertatem
+            <lb ed="#Qb"/>arbitrii 8, quia non habent usum rationis; ergo
+            <lb ed="#Qb"/>libertas principaliter attenditur ex parte rationis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo": Quod libertas arbitrii * principa<lb ed="#Qb"/>liter
+            est ex parte voluntatis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1-2. Ad auctoritates vero in
+            <lb ed="#Qb"/>contrarium respondendum " quod illae attenduntur
+            <lb ed="#Qb"/>secundum quod libertas coarctatur ad iudicium.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="477"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>3. Ad auctoritatem" vero Bernardi re<lb ed="#Qb"/>spondendum 
+            quod non vult dicere quod libertas
+            <lb ed="#Qb"/>attendatur ex parte rationis principaliter, sed quia
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>non est6 in eis, scilicet in c infantibus,. dormien<lb ed="#Qb"/>tibus
+            et insanis, usus libertatis, quia non est in
+            <lb ed="#Qb"/>eis usus rationis.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Ex qua libertate principaliter liberum arbitrium nomen sortiatur</head>
+          <p>
+            <lb ed="#Qb"/>Consequenter quaeritur, cum sit triplex libertas,
+            <lb ed="#Qb"/>scilicet naturae, gratiae et gloriae 2, ex qua libertate
+            <lb ed="#Qb"/>principaliter liberum arbitrium nomen sortiatur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod gloriae: 1. Quia unumquod<lb ed="#Qb"/>que
+            denominari debet secundum suum optimum 3;
+            <lb ed="#Qb"/>sed liberius arbitrium est in iustis quam in pec<lb ed="#Qb"/>catoribus
+            et in beatis quam in iustis; ergo, cum
+            <lb ed="#Qb"/>liberum arbitrium dicatur liberrimumd respectu
+            <lb ed="#Qb"/>libertatis gloriae, videtur quod ab ea principa<lb ed="#Qb"/>liter
+            debeat denominari liberum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad hoc facit quod dicit <name ref="#Augustine">Augustinus</name>, De
+            <lb ed="#Qb"/>civitate Dei 4: <quote> Primum liberum arbitrium, quod
+            <lb ed="#Qb"/>homini datum est, potuit non peccare, sed potuit et
+            <lb ed="#Qb"/>peccare: hoc autem novissimum est eo potentius
+            <lb ed="#Qb"/>quo peccare non poterite </quote>. Ergo, cum eo potentius
+            <lb ed="#Qb"/>eo liberius, ab eo debuit principaliter denominari.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, <name ref="#Augustine">Augustinus</name>, De praedestinatione":
+      <quote>Numquid in Christo non erat libera voluntas,
+            <lb ed="#Qb"/>quia peccare non potuit? Ac non tanto magis erat
+            <lb ed="#Qb"/>libera, quanto magis servire peccato non poterat? </quote>
+            <lb ed="#Qb"/>Ergo liberius est arbitrium in statu gloriae et
+            <lb ed="#Qb"/>gratiae in summog; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Nomen liberi arbitrii sonat in poten<lb ed="#Qb"/>tiam6
+            et est- in omnibus rationalibus creaturis7;
+            <lb ed="#Qb"/>sed libertas gratiae vel gloriae non est in omnibus
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>rationalibus creaturis nec sonat in potentiam, sed
+            <lb ed="#Qb"/>solum libertas naturae; ergo ab illa solum de<lb ed="#Qb"/>terminaturh
+            liberum arbitrium.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: Libertas aliquando dicitur habitus
+            <lb ed="#Qb"/>naturalis, aliquando habitus accidentalis. Secun<lb ed="#Qb"/>dum
+            vero quod libertas dicitur habitus naturalis
+            <lb ed="#Qb"/>rationalis creaturae ", quae cogi non potest, non
+            <lb ed="#Qb"/>recipit magis et minus, sed aeque est in omnibus
+            <lb ed="#Qb"/>rationalibus creaturis. Unde dicit'f Bernardusa:
+      <quote> Libertas a necessitate Deo etl universae crea<lb ed="#Qb"/>turae
+            rationali indifferenter convenit nec magis
+            <lb ed="#Qb"/>bonae quam malae nec peccato vel miseria mi<lb ed="#Qb"/>nuitur
+            nec maior est in iusto quam in peccatore
+            <lb ed="#Qb"/>nec plenior in angelis quam in hominibus; manet
+            <lb ed="#Qb"/>tam "' integre in creatura quam in Creatore, sed in
+            <lb ed="#Qb"/>Creatore " potentior </quote>. Et secundum quod libertas
+            <lb ed="#Qb"/>sic dicitur, dicitur liberum arbitrium liberum prin<lb ed="#Qb"/>cipaliter
+            ratione libertatis naturae. Secundum vero
+            <lb ed="#Qb"/>quod libertas est habitus accidentalis, sic est
+            <lb ed="#Qb"/>liberum arbitrium diminuibile" vel etiam amis<lb ed="#Qb"/>sibile
+            et recipit magis et minus 9, et secundum hoc
+            <lb ed="#Qb"/>magis sive principalius dicetur liberum arbitrium
+            <lb ed="#Qb"/>liberumP a libertate gratiae vel gloriae. Secundum
+            <lb ed="#Qb"/>autem quod dividitur liberum arbitrium contra
+            <lb ed="#Qb"/>liberum consilium et liberum complacitumq, dici<lb ed="#Qb"/>tur
+            liberum a' libertate naturae 10.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS IV</head>
+          <head type="question-title">Quare liberum arbitrium duobus nominibus nominetur.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur 1. quare liberum arbitrium
+            <lb ed="#Qb"/>duplici nomine censeatur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Cum enim sit una potentia 12, ut videtur per
+            <lb ed="#Qb"/>hoc quod unum habet actum, scilicet eligere vel
+            <lb ed="#Qb"/>eti-am Deo obtemperare — sicut dicit Bernar<lb ed="#Qb"/>dus13
+            quod facultatem habet qua Deo obtem<lb ed="#Qb"/>peret
+            — et una potentia, in quantum huiusmodi,
+            <lb ed="#Qb"/>unicum nomen habeat, non deberet nominari no<lb ed="#Qb"/>mine
+            duplicis potentiae, sed unius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed contra: a. Damascenusu: <quote>In ipso </quote>,
+            <lb ed="#Qb"/>hoc est in libero arbitrio, <quote> coniugatae sunt co<lb ed="#Qb"/>gnitivae
+            et vitales virtutes </quote>. Ergo habet in se
+            <lb ed="#Qb"/>rationem plurium virium.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, Bernardus<!--15-->: <quote>Liberum arbitrium
+            <lb ed="#Qb"/>est consensus ob voluntatis inamissibilem liber<lb ed="#Qb"/>tatem
+            et rationis indeclinabile iudicium </quote>, et vult
+            <lb ed="#Qb"/>dicere quod rationes voluntatis dicitur liberum,
+            <lb ed="#Qb"/>nornen vero arbitrii sortitur propter rationem;
+            <lb ed="#Qb"/>ergo recte duo nomina sortietur.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="478"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Respondeo quod est quaedam potentia quae
+            <lb ed="#Qb"/>determinatur tantum respectu cognitionis; est
+            <lb ed="#Qb"/>autem alia quae determinatur tantum respectu
+            <lb ed="#Qb"/>affectionis. Quia vero circa liberum arbitrium
+            <lb ed="#Qb"/>consistit meritum vel demeritum, et ad meritum
+            <lb ed="#Qb"/>vel demeritum exigitur cognitio et affectio, habet
+            <lb ed="#Qb"/>liberum arbitrium quod est cognitionis et quod est
+            <lb ed="#Qb"/>affectionis, et est potentia determinata respectu
+            <lb ed="#Qb"/>utriusque; et ideo duo sortitur nomina, ut dicatur
+            ' liberum ' propter voluntatem " et ' arbitrium '
+            <lb ed="#Qb"/>propter rationem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Item, quaeritur quare dicitur liberum arbi<lb ed="#Qb"/>trium, non liberum iudicium?
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Iudicis enim est secundum imperium definire,
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quod non est arbitrib; cum ergo liberum arbi<lb ed="#Qb"/>trium
+            in anima sit sicut potentissimum inc im<lb ed="#Qb"/>perando
+            1, ergo plus tenet formam iudicis quam
+            <lb ed="#Qb"/>formam arbitri; ergo potius deberet dici liberum
+            <lb ed="#Qb"/>iudicium quam liberum arbitrium.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: 1. Iudex in iudicando debet sequi
+            <lb ed="#Qb"/>leges et arctatur ad sequendum illas, arbiter au<lb ed="#Qb"/>temd
+            non arctatur ad sequendum illas. Verum<lb ed="#Qb"/>tamen
+            arbitrie non est secundum imperium de<lb ed="#Qb"/>finire
+            sicut iudicis. Unde dicendum quod li<lb ed="#Qb"/>berum
+            arbitrium habet in se officium iudicisf
+            <lb ed="#Qb"/>quoad rationem, quia, in quantum deliberat, de<lb ed="#Qb"/>bet
+            sequi leges, sed, in quantum eligitg vel vult,
+            <lb ed="#Qb"/>tenet formam arbitrih: hoc enim ad voluntatem
+            <lb ed="#Qb"/>pertinet.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS IV</head>
+          <head type="question-title">Quare philosophi non pervenerunt ad notitiam liberi arbitrii.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur quare p hilo s 0 p hi non per<lb ed="#Qb"/>venerunt
+            ad notitiam liberi arbitrii.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod debuerinti pervenire: a.
+            <lb ed="#Qb"/>Quia, licet non pervenerint ad ea quae sunt fidei
+            <lb ed="#Qb"/>vel gratiae, tamen pervenerunt ad ea quae sunt
+            <lb ed="#Qb"/>naturae; cum ergo liberum arbitrium pertineat ad
+            <lb ed="#Qb"/>naturam, videtur quodk pervenerint ad notitiam
+            <lb ed="#Qb"/>ipsius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, sicut ponitur liberum arbitrium poten<lb ed="#Qb"/>tissimum 
+            in anima ex parte motivae, ita posuerunt
+            <lb ed="#Qb"/>philosophi intellectum practicum' potentissi<lb ed="#Qb"/>mum
+            ex parte motivae3 ; ergo sicut pervenerunt
+            <lb ed="#Qb"/>ad cognitionem intellectus practici, ita potuerunt
+            <lb ed="#Qb"/>pervenire ad notitiam liberi arbitrii.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, aut' liberum arbitrium est potestas fa<lb ed="#Qb"/>ciendi
+            quodlibet aut potestas ad "' opposita; sed se<lb ed="#Qb"/>cundum
+            quamcumque rationem sumatur, ad utram<lb ed="#Qb"/>que
+            rationem potestatis pervenerunt philosophi;
+            <lb ed="#Qb"/>ergo pervenerunt ad notitiam liberi arbitrii.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Liberum arbitrium est principium
+            <lb ed="#Qb"/>meriti vel demeriti4; sed non pervenerunt ad co<lb ed="#Qb"/>gnitionem"
+            meriti vel demeriti; ergo non perve<lb ed="#Qb"/>nerunt
+            ad cognitionem liberi arbitrii.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod liberum
+            <lb ed="#Qb"/>arbitrium " dupliciter potest considerari: uno modo,
+            <lb ed="#Qb"/>secundum quod tangit <name ref="#Augustine">Augustinus</name>, in libro
+            <lb ed="#Qb"/>Hypognosticon 5, ut 'arbitrium , dicatur ab arbi<lb ed="#Qb"/>trando
+            rationali consideratione vel discernendo
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quid eligat quidve recuset, 'liberum' autem eo
+            <lb ed="#Qb"/>quod in sua sit positum potestate, habens agendi
+            <lb ed="#Qb"/>quod velit possibilitatem; et secundum hoc po<lb ed="#Qb"/>terant
+            philosophi pervenire ad intentionem li<lb ed="#Qb"/>beri
+            arbitrii: hoc enim nihil aliud est quam potestas
+            <lb ed="#Qb"/>rationalis ad opposita. Alio vero modo dicitur li<lb ed="#Qb"/>berum
+            arbitrium quod habet iudicium rationis, non
+            <lb ed="#Qb"/>per quod sit idoneum pervenire ad ea quae ad
+            <lb ed="#Qb"/>Deum pertinent, sine Deo autP inchoare aut per<lb ed="#Qb"/>agere:
+            et hoc modo est unum principium meriti.
+            <lb ed="#Qb"/>Sicut ergo non pervenerunt philosophi ad in<lb ed="#Qb"/>tentionem
+            meriti, quod est ex gratia et libero ar<lb ed="#Qb"/>bitrio,
+            ita nec pervenerunt ad rationem liberi ar<lb ed="#Qb"/>bitrii
+            in quantum sine ipso non est? meritum,
+            <lb ed="#Qb"/>prout dicit B. Bernardusöz <quote>Tolle liberum
+            <lb ed="#Qb"/>arbitrium, non erit quod salvetur; tolle gratiam,
+            <lb ed="#Qb"/>non erit unde salvetur. Opus hoc sine duobus'
+            <lb ed="#Qb"/>effici non potest: unum a quofits, alterum cui
+            <lb ed="#Qb"/>vel in quo fit'. Quod ergo" a Deo solo et soli
+            <lb ed="#Qb"/>datur libero arbitrio, tam absque consensu non
+            <lb ed="#Qb"/>potest esse accipientis quam absque gratia dan<lb ed="#Qb"/>tis
+      </quote>. Per hoc potest patere quod philosophi
+            <lb ed="#Qb"/>pervenerunt ad rem liberi arbitrii et rationem se<lb ed="#Qb"/>cundum
+            hunc modum, secundum alterum vero
+            <lb ed="#Qb"/>non pervenerunt. SicutV enim bonum naturae at<lb ed="#Qb"/>tigerunt
+            philosophi, non tamen in ratione qua
+            <lb ed="#Qb"/>est diminuibile per peccatum, sic et id quod est
+            <lb ed="#Qb"/>liberum arbitrium, non tamen prout est initiumx
+            <lb ed="#Qb"/>meriti aliquo modo.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

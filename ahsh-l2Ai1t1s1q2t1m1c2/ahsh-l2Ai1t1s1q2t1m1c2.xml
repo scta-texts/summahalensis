@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="16"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t1m1c2">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 1, C. 2</head>
+        <head type="question-title">UTRUM HAE RATIONES SINT IN EADEM ESSENTIA AN DIFFERENTES.</head>
+        <p>
+                <pb ed="#Qb" n="16"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Sequitur consideratio utrum hae rationes sint
+          ' unius essentiae aut differant.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod differant, videtur: 1. Per similitudinem
+          <lb ed="#Qb"/>sumptam in artificialibus et naturalibus. Alterius
+          <lb ed="#Qb"/>enim' essentiae est anima quae agit et ars se<lb ed="#Qb"/>cundum
+          quam agit et finis propter quem agit,
+          <lb ed="#Qb"/>ut patet in 'domificatione. Similiter in naturalibus "
+          <lb ed="#Qb"/>quod movetur et secundum quod movetur et prop<lb ed="#Qb"/>ter
+          quod movetur, ,ut lapis et ponderositas et
+          <lb ed="#Qb"/>locus deorsum. Ergo videtur similiter in iis quae
+          <lb ed="#Qb"/>fiunt ,a voluntate prima, cum hoc etiam fiat in
+          <lb ed="#Qb"/>aliis voluntariis; ergo hae tres rati-ones different
+          <lb ed="#Qb"/>secundum essentiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, in causa exemplari dicuntur plures ideae,
+          <lb ed="#Qb"/>in causa finali plures-rationes, secundum quod
+          <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>, in 83 Quaestion.b2: <quote>Sin—
+          <lb ed="#Qb"/>gula sunt propriis creata rationibus </quote>; efficiens vero
+          <lb ed="#Qb"/>omnino sine pluralitate; non ergo videntur unum
+          <lb ed="#Qb"/>in essentia exemplaris et finalis cum efficiente.
+        </p>
+        <p>
+          <lb ed="#Qb"/>In contrarium vero sic: a. Maior est indivisio
+          <lb ed="#Qb"/>in causa prima quam in aliqua : sequenti causa'S;
+          <lb ed="#Qb"/>sed in natura, cum est principium generationis,
+          <lb ed="#Qb"/>univoce coincidunt in unumefficiens, formalis et
+          <lb ed="#Qb"/>finalis4; ergo multo- fortius erit in causa prima,
+          <lb ed="#Qb"/>ut eadem sintd in essentia exemplaris, efficiens *
+          <lb ed="#Qb"/>et finalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Prov.f 16,4: Universa propter semet,<lb ed="#Qb"/>ipsum
+          "operatus est Dominus g; et <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Qb"/>De Trinitate 5, "dicit quod ipse est <quote> ars summa
+          <lb ed="#Qb"/>plena omnium rationum viventium et. incommu<lb ed="#Qb"/>tabilium</quote>
+          ir.-'Ergo exemplar non differt in essentia
+          <lb ed="#Qb"/>ab efficiente nec finis similiter. Si enim ab alio
+          <lb ed="#Qb"/>haberet exemplar quam a " se,. habereti aliud
+          <lb ed="#Qb"/>prius se ', similiter si propter aliud ageret quam
+          <lb ed="#Qb"/>propter se, et finis movet efficientem 6, esset alius
+          <lb ed="#Qb"/>motor sui ipsius; cum ergo non habeat alium
+          <lb ed="#Qb"/>motorem nec alium directorem, erit idem exem<lb ed="#Qb"/>plar
+          et finis. — Quod est concedendum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]:1. Ad obiectum autem primo
+          <lb ed="#Qb"/>in contrarium dicendum est quod non est simile
+          <lb ed="#Qb"/>in causa perfecta et k imperfecta; causae vero ar<lb ed="#Qb"/>tificiales
+          vel naturales-imperfectae sunt in ipsis
+          <lb ed="#Qb"/>creaturis, et propter hoc, licet in eis distinguantur
+          <lb ed="#Qb"/>secundum essentiam tres praedictae rationes, non
+          <lb ed="#Qb"/>tamen sic ' est in'causa prima et perfecta, quae hoc
+          <lb ed="#Qb"/>agit in unitate quod aliae agunt in multiplicitate.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. A d S e c u n d 0 vero '" obiectum dicendum 'est
+          <lb ed="#Qb"/>quod, licet causa exemplaris secundum rationem "<lb ed="#Qb"/>ideae
+          dicatur pluraliter et finalis sub hoc nomine
+          ' ratio ' vel propter ipsas rationes, non tamen diffe<lb ed="#Qb"/>runta
+          in essentia ab efficienti — non enim illa plu<lb ed="#Qb"/>ralitas
+          dicitur nisi in respectu eorum quae fiunt— et
+          <lb ed="#Qb"/>non dicunt pluralitatem essentiae ex parte causae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

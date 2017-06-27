@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="179"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m2c4">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 4</head>
+        <head type="question-title">QUALITER ANGELUS COGNOSCAT HABITUS QUI SUNT IN SE.</head>
+        <p>
+          <lb ed="#Qb"/>Quarto quaeritur quomodo tam bonus angelus
+          <lb ed="#Qb"/>quam malus cognoscunt tam naturales habitus
+          <lb ed="#Qb"/>quam acquisitos et gratuitos, ut iustitiam natu<lb ed="#Qb"/>ralem,
+          acquisitam et gratuitam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod sic: 1. In omnibus habitibus ita? est
+          <lb ed="#Qb"/>quod se ipsis cognoscunturq; cum ergo-angelus
+          <lb ed="#Qb"/>malus eos non habeat, eos non poterit' cogno<lb ed="#Qb"/>scere.
+          — Minor patet: non enim angelus ma<lb ed="#Qb"/>lus
+          habet iustitiam; quare nec speciem iustitiae,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>cum species iustitiae sit idem quod ipsa; et sic
+          <lb ed="#Qb"/>de ceteris habitibus gratuitis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum quod tam bonus
+          <lb ed="#Qb"/>angelus quam malus cognoscit iustitiam natura<lb ed="#Qb"/>lem
+          et acquisitam per speciem suam, quae tamen
+          <lb ed="#Qb"/>species non est aliud quam ipsa res. Sed tamen,
+          <lb ed="#Qb"/>secundum quod vult Augu stin u 52, aliter est de
+          <lb ed="#Qb"/>bono angelo quam des malo. Bonus enim ipsam
+          <lb ed="#Qb"/>iustitiam cognoscit speculative et practice: unde
+          <lb ed="#Qb"/>praesens est in suo intellectu et* suo affectu, sed
+          <pb ed="#Qb" n="180"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>malus speculative tantum iustitiam cognoscit per
+          <lb ed="#Qb"/>se ipsam, secundum quod estin " intellectu, id est
+          <lb ed="#Qb"/>per similitudinem, quae non est aliud quam ipsa res
+          <lb ed="#Qb"/>quae est in " intellectu tantum; unde bonus quasi
+          <lb ed="#Qb"/>simpliciter eam habet, sed malus non habet eam
+          <lb ed="#Qb"/>nisi secundum quid. Cognoscit etiam iustitiam non
+          <lb ed="#Qb"/>solummodo per speciem, sed etiam per privationem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Si vero quaeratur unde habet malus angelus
+          <lb ed="#Qb"/>speciem iustitiae et ceterorum habituum: dicimus
+          <lb ed="#Qb"/>quod species omnium istorum datae sunt eic ab
+          <lb ed="#Qb"/>exordio Suae conditionis nec eas amisit per pecca<lb ed="#Qb"/>tum,
+          quoniam habere speciem rei, quam tamen rem
+          <lb ed="#Qb"/>non habet nec habere potest, non est ei "' nisi poena.
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>De iustitia vero gratum faciente dicimus quod
+          <lb ed="#Qb"/>bonus angelus eam<!--x--> cognoscit per se ipsam, sed
+          <lb ed="#Qb"/>malus tantum per eius effectum 3, scilicet per hoc
+          <lb ed="#Qb"/>quod videt opera gratuita, quae a se distinctaf
+          <lb ed="#Qb"/>et ab aliis habentur. Subtilius tamen videt etg
+          <lb ed="#Qb"/>maiori experientia cognoscit res quam homines
+          <lb ed="#Qb"/>cognoscant ", secundum quod dicit <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Qb"/>in libro De divinatione daemonum '. Unde gene<lb ed="#Qb"/>raliter
+          dicimus quod gratiam per se ipsam non'
+          <lb ed="#Qb"/>cognoscit nec per speciem eius, quoniam nec eius
+          <lb ed="#Qb"/>intellectus nec eius affectus deiformis est; sed
+          <lb ed="#Qb"/>constat quod aliquo modo esset deiformis," si
+          <lb ed="#Qb"/>speciem gratiae apud se haberet.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

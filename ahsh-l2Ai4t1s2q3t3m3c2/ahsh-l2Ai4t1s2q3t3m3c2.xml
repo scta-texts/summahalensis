@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 3, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="480"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t3m3c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 3, C. 2</head>
+        <head type="question-title">UTRUM LIBERUM ARBITRIUM COMMUNE SIT RATIONALI ET IRRATIONALI CREATURAE.</head>
+        <p>
+                <pb ed="#Qb" n="480"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Deinde quaeritur utrum liberum arbitrium sit
+          <lb ed="#Qb"/>commune creaturae rationali et irrationali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod sic: 1. Dicit enim Damasce<lb ed="#Qb"/>nus2
+          qubd <quote>liberi arbitrii " est moveri vel non
+          <lb ed="#Qb"/>moveri, impetum facere etb non facere, appetere
+          <lb ed="#Qb"/>et non appetere </quote>; sed hoc est commune creatu<lb ed="#Qb"/>raec
+          rationali et irrationali sensibili; ergo liberum
+          <lb ed="#Qb"/>arbitrium est commune utrique.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, in creatura sensibili irrationali est du<lb ed="#Qb"/>plex
+          vertibilitas, scilicet naturaed et appetitus;
+          <lb ed="#Qb"/>vertibilitas autem secundum appetitum est crea<lb ed="#Qb"/>turae
+          habentis liberum arbitrium; ergo in creatura
+          <lb ed="#Qb"/>irrationali est liberum arbitrium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. <quote> Irrationalia </quote>, sicut dicit Dama<lb ed="#Qb"/>scenus3,
+    <quote>magis aguntur quam agant</quote>; sed
+          <lb ed="#Qb"/>liberum arbitrium magis agite quam agatur; ergo
+          <lb ed="#Qb"/>irrationalia non habent liberum arbitrium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, liberi arbitrii est contradicere appetitui
+          <lb ed="#Qb"/>naturali vel sequi eum 4; sed irrationalia non con<lb ed="#Qb"/>tradicunt
+          appetitui naturali, sed sequuntur illum;
+          <lb ed="#Qb"/>ergo non habent liberum arbitrium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, omnis operans secundum liberum arbi<lb ed="#Qb"/>trium
+          laudatur vel vituperatur; sed irrationalia
+          <lb ed="#Qb"/>in iis quae agunt nec laudantur nec vituperanturs;
+          <lb ed="#Qb"/>ergo non habent liberum arbitrium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: 1-2. Ad primum quod libertas est
+          <lb ed="#Qb"/>potentiae absolutae a materia. Formae enim alliga<lb ed="#Qb"/>tae
+          ad materiam non habent inclinationem nisi ad
+          <lb ed="#Qb"/>unam partem, quia coarctantur ab ipsa materia
+          <lb ed="#Qb"/>cui alligantur. Hinc est etiam quod non moventur
+          <lb ed="#Qb"/>se ipsis, immo ab alio: sunt enim entes in po<lb ed="#Qb"/>tentia;
+          omne autem, quod exit a potentia in actum,
+          <lb ed="#Qb"/>exit per aliquid actu ens 5. Hinc estf quod sensi<lb ed="#Qb"/>bilium
+          brutorum appetitus non est liber, quia
+          <lb ed="#Qb"/>ipsa vis sensibilis in eis materialis est et perfectio
+          <lb ed="#Qb"/>materiae, scilicet corporis physici organici, et ideo
+          <lb ed="#Qb"/>coactioni subiectusg secundum immutationem ma<lb ed="#Qb"/>teriae.
+          Hinc est quod, immutatione facta per ap<lb ed="#Qb"/>prehensionem
+          alicuius delectabilis ", necesse habet
+          <lb ed="#Qb"/>appetitiva vis in brutis inclinari ad illud, immu<lb ed="#Qb"/>tatione
+          autem facta per immutationem alicuius
+          <lb ed="#Qb"/>tristabilis, necesse habet appetitiva moveri ab
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>illo fugiendo. Hinc ergo est quod in irrationabi<lb ed="#Qb"/>libus
+          non est libertas arbitrii '. .In rationabilibus
+          <lb ed="#Qb"/>autem libertas arbitrii est * in quantum huiusmodi,
+          <lb ed="#Qb"/>propter ipsam rationalem vim, quae est vis abso<lb ed="#Qb"/>luta
+          a materia; quod patet ex apprehensione in<lb ed="#Qb"/>tellectiva,
+          quae non intelligit materialia nisi in
+          <lb ed="#Qb"/>abstractione a materia 7. Hinc est quod, cum' non
+          <lb ed="#Qb"/>sit alligata, apprehensione facta alicuius tristabilis
+          <lb ed="#Qb"/>vel delectabilis, non'" coarctatur vis appetitiva
+          <lb ed="#Qb"/>ad sectandum delectabile vel fugiendum tristabile;
+          <lb ed="#Qb"/>propterea manet in rationali natura arbitrii liber<lb ed="#Qb"/>tas,
+          et ideo est laudandus vel vituperandus ex
+          <lb ed="#Qb"/>actu suo. Praeterea, irrationabilia non habent vim
+          <lb ed="#Qb"/>per quam possint diiudicare" naturales actus et
+          <lb ed="#Qb"/>probare probandos et reprobare reprobandos 0,
+          <lb ed="#Qb"/>immo appetitiva in eis est subiecta instinctuiP
+          <lb ed="#Qb"/>naturae; unde non est in eis potestas contradi<lb ed="#Qb"/>cendi
+          naturali appetitui; homo vero habet pote<lb ed="#Qb"/>statem
+          diiudicandi naturales motus et probandi
+          <lb ed="#Qb"/>et reprobandi et etiam contradicendi naturali appe<lb ed="#Qb"/>titui,
+          et ideoq est liber arbitrio. Et hoc est quod
+          <lb ed="#Qb"/>dicit Origeness: <quote> Habet amplius ceteris ani<lb ed="#Qb"/>malibus
+          homo vim rationis, qua' diiudicare et
+          <lb ed="#Qb"/>discernere de motibus naturalibus possit, et alios
+          <lb ed="#Qb"/>quidem reprobare eti abicere, alios quidem pro<lb ed="#Qb"/>bare
+          et suscipere: cuius rationis iudicio motus
+          <lb ed="#Qb"/>hominis ad vitam dirigi possint</quote>. Item, Dama<lb ed="#Qb"/>scenus9:
+    <quote> Irrationalia non sunt libera arbi<lb ed="#Qb"/>trio:
+          aguntur enim magis a natura quamt agant,
+          <lb ed="#Qb"/>ideo non contradicunt naturali appetitui ciborum,
+          <lb ed="#Qb"/>sed simul cum appetierint ", impetum faciunt ad ac<lb ed="#Qb"/>tum;
+          homo vero, rationalis ens, agit" magis quam
+          <lb ed="#Qb"/>agatur, ideoque appetens, si quidem velit, potesta<lb ed="#Qb"/>tem
+          habet refrenandi appetitum vel sequi eum:
+          <lb ed="#Qb"/>unde irrationabilia nec laudantur nec vituperantur,
+          <lb ed="#Qb"/>homo vero laudatur et vituperatur </quote>. — A d p ri m 0
+          <lb ed="#Qb"/>ergo obiectum dicendum quod <quote> appetere vel non
+          <lb ed="#Qb"/>appetere, impetum facere vel non facerex </quote> etc. non
+          <lb ed="#Qb"/>sufficit ad libertatem, sed ad flexibilitatem ; sed ad
+          <lb ed="#Qb"/>libertatem exigitur quod ista fiant ex ratione, sci<lb ed="#Qb"/>licet
+          prius deliberante. Unde, licet possint appe<lb ed="#Qb"/>tere
+          vel non appetere, tamen post cognitionem de<lb ed="#Qb"/>terminatur
+          eorum appetitus ad unam partem.
+        </p>
+        <p>
+                <pb ed="#Qb" n="481"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>2. Ad aliud dicendum quod flexibilitas ap<lb ed="#Qb"/>petitus
+          est duplex: quaedam-enim" est secundum
+          <lb ed="#Qb"/>electionem, et haec sequitur deliberationem ratio<lb ed="#Qb"/>nis,
+          quando scilicet postquam deliberavit et eo<lb ed="#Qb"/>gnovit
+          esse bonum, adhuc in ipso est converti
+          <lb ed="#Qb"/>vel non converti 1' ad illud bonum, et haec flexi<lb ed="#Qb"/>bilitas
+          pertinet ad libertatem; alia est flexibilitas
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>appetitus secundum mutationem, quia potest mu<lb ed="#Qb"/>tari
+          ab uno appetitu ad contrarium appetitum,
+          <lb ed="#Qb"/>et haecc potest esse irrationabilium; sed non
+          <lb ed="#Qb"/>pertinet ad liberum arbitrium, quia de se non
+          <lb ed="#Qb"/>habet ut convertatur vel. non convertatur", sed
+          <lb ed="#Qb"/>determinat semper? alteram partem, licet mutari
+          <lb ed="#Qb"/>possit ab uno appetitu in alium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

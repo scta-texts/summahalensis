@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 1, C. 2 UTRUM TUNC OMNIA CORPORALIA FACTA SINT IN GENERE VEL IN SPECIE</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 1, C. 2 UTRUM TUNC OMNIA CORPORALIA FACTA SINT IN GENERE VEL IN SPECIE</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q1c2">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 1, C. 2</head>
+        <head>UTRUM TUNC OMNIA CORPORALIA FACTA SINT IN GENERE VEL IN SPECIE</head>
+        <p>
+          <lb ed="#Qb"/>Deinde supposito quod omnia corporalia facta
+          <lb ed="#Qb"/>fuerint in materia, quae tamen non fuit sine
+          <lb ed="#Qb"/>aliqua forma, et hoc est fieri in materia - unde
+          <lb ed="#Qb"/>dicit H u go 2 nihil postea factum cuius materia,
+          <lb ed="#Qb"/>ut in corporibus, aut similitudo, ut in spiritibus,
+          <lb ed="#Qb"/>non praecesserit g - quaeritur tu ne utrum omnia
+          <lb ed="#Qb"/>tunc dicantur facta in genere et in specie aut non.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod non: a. Multa enim facta su n t
+          <lb ed="#Qb"/>per artificium, multa etiam ex putrefactione, multa
+          <lb ed="#Qb"/>etiam h ex commixtione elementorum, multa ex
+          <lb ed="#Qb"/>copulatione rerum diversarum specierum, sicut
+          <lb ed="#Qb"/>accidit in burdone et consimilibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Super illud 3 : Requievit ab omni
+          <lb ed="#Qb"/>opere, quod patrarat, Glossa 4 : <quote> Quievit 1 a
+          <lb ed="#Qb"/>condendis generibus et speciebus </quote>; ergo nullum
+          <lb ed="#Qb"/>genus novum vel nova species post condita est.
+          <lb ed="#Qb"/>[Solutio): Ad quod dicendum quod non omnia
+          <lb ed="#Qb"/>facta sunt in genere aut in specie propria, ut
+          <lb ed="#Qb"/>artificialia et consimilia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad oblecta]: l. Ad obiectum autem in
+          <lb ed="#Qb"/>contrarium ex O l ossa k dicendum quod quievit
+          <lb ed="#Qb"/>a generibus et speciebus quae· erant causae
+          <lb ed="#Qb"/>ad producendum ista 1 naturalia et artificialia
+          <lb ed="#Qb"/>in suis propriis speciebus sufficienter sub
+          ipso.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 2, C. 7</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 2, C. 7</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="48"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q1m2c7">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 2, C. 7</head>
+        <head type="question-title">UTRUM PER VESTIGIUM SIT MANUDUCTIO AD CAUSAM CUIUS EST VESTIGIUM.</head>
+        <p>
+          <lb ed="#Qb"/>Ultimo quaeritur utrum per vestigium-sit' ma<lb ed="#Qb"/>nuductio 
+          ad causam cuius est vestigium 5.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad, quod sic: a. A u g u s tin u 5, De libero arbi<lb ed="#Qb"/>trio
+          7, exponens illud Sap. 6,17: <quote>In viis suis
+          <pb ed="#Qb" n="49"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>ostendit se hilariter, et in omni providentia saa
+          <lb ed="#Qb"/>occurrit illis</quote>: <quote> Quocumque te verteris, quibusdam
+          <lb ed="#Qb"/>vestigiis operibus suis impressis loquitur tibi et
+          <lb ed="#Qb"/>te, in exterioribus labentem, ipsis exteriorum"
+          <lb ed="#Qb"/>formis intro revocat</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, in eodem 1: <quote> Artifex quodam modo in<lb ed="#Qb"/>nuit
+          spectatori operis sui de ipsa operis pulcri<lb ed="#Qb"/>tudine,
+          ne ibi totus haereat, sed speciem operis
+          <lb ed="#Qb"/>fabricati sic percurrat oculis, ut in eum, qui ia<lb ed="#Qb"/>bricaverit,
+          recurrat affectus </quote>.
+        </p>
+        <p>
+          6. Item, Rom. 1,20: <quote ana="#rom1_20">Invisibilia Dei per ea, quae
+          <lb ed="#Qb"/>facta sunt, a creatura mundi</quote> etc. Ex quo habe<lb ed="#Qb"/>tur
+          quod per ista visibilia sit manuductio ad in<lb ed="#Qb"/>visibilia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Hoc etiam per totum habetur a B. Diony<lb ed="#Qb"/>sio,
+          in libro De symbolica theologia 2.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Sap. 14,11: Creaturae factae sunt in
+          <lb ed="#Qb"/>odium et in muscipulam pedibus insipientium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, <name ref="#Augustine">Augustinus</name>, De libero arbitrio3:
+    <quote>Tamquam dorsum ad te ponentes, in carnali
+          <lb ed="#Qb"/>opere velut in umbra sua detigunturb; est tamen
+          <lb ed="#Qb"/>etiam ibi quod eos delectet: habent enim adhuc
+          <lb ed="#Qb"/>aliquid de circumfulgentia lucis tuae </quote>. Ex quibus
+          <lb ed="#Qb"/>colligitur quod haec visibilia abducunt a contem—
+          <lb ed="#Qb"/>platione f invisibilium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum est d quod est du<lb ed="#Qb"/>pliciter
+          considerare has creaturas visibiles et etiam
+          <lb ed="#Qb"/>invisibiles 6. Contingit enim eas considerare ra<lb ed="#Qb"/>tione
+          pulcritudinis sive delectabilitatis quae est
+          <lb ed="#Qb"/>in eis, non referendo illam ad Deum a quo ha<lb ed="#Qb"/>bent:
+          et secundum hunc modum est occasio er<lb ed="#Qb"/>roris.
+          Alio vero modo in quantum habent pul<lb ed="#Qb"/>critudinemf
+          a summe pulcro et delectabilitatemg
+          <lb ed="#Qb"/>a summe delectabili: et secundum hunc modum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>vestigia 'manuducunt ad illum cuius sunt" vesti<lb ed="#Qb"/>gia.
+          Et est exemplum P hilo s op hi 4 simile, quod
+          <lb ed="#Qb"/>contingit dupliciter considerare picturam i : ut pic<lb ed="#Qb"/>turam 
+          vel* ut est imago. Si ut picturam 1, se<lb ed="#Qb"/>cundum
+          hoc figitur consideratio in ipsa re secun<lb ed="#Qb"/>dum
+          se; si ut [est] imago, secundum hoc ducit ad
+          <lb ed="#Qb"/>aliud'" cuius est imago. Unde <name ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Qb"/>libro" De vera religione5: <quote> Sicut nonnulli ma<lb ed="#Qb"/>gis"
+          amant versum quam artem qua conficitur
+          <lb ed="#Qb"/>versus, quia plus se auribus quam intelligentiae
+          <lb ed="#Qb"/>crediderunt, ita multi temporalia diligunt, conditri<lb ed="#Qb"/>cemP
+          vero ac moderatricem temporalium divinam
+          <lb ed="#Qb"/>providentiam nonq requirunt atque in ipsa dilec<lb ed="#Qb"/>tione
+          temporalium nolunt transire quod amant</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta] : 1. Ex iam dictis patet qualiter sunt
+          <lb ed="#Qb"/>occasio erroris, per se vero causa est in ipsis
+          <lb ed="#Qb"/>errantibus. Et hoc patet per hoc quod dicitur in
+          <lb ed="#Qb"/>libro Sap., cum dicitur: In muscipulam pedibus in<lb ed="#Qb"/>sipientium.
+          Quod autem dicitur creaturae factae
+          <lb ed="#Qb"/>sunt in odiumf etc., non intelligendum est quod
+          <lb ed="#Qb"/>Deus ad hoc fecerit creaturas, sed error homi<lb ed="#Qb"/>num
+          eas ad hoc convertit ut traherentur homines
+          <lb ed="#Qb"/>in odium Dei et adhaererent mutabilibus bonis
+          <lb ed="#Qb"/>tamquam idolis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Quod autem dicit Augustinus, in libro De
+          <lb ed="#Qb"/>libero arbitrio, attendendum est quod ibi tangit
+          <lb ed="#Qb"/>causam erroris ex parte hominis et quod habent
+          aliquam rationem delectabilis, hoc est ex quodam
+          <lb ed="#Qb"/>effectu relicto in ipsa creatura as summe delec<lb ed="#Qb"/>tabili,
+          et ideo dicitur quod <quote> habent aliquid de cir<lb ed="#Qb"/>cumtulgentia
+          lucis tuae </quote>; sed quia plus est ibi
+          <lb ed="#Qb"/>delectationis quam congrueret, ideo dicitur illicita
+          <lb ed="#Qb"/>delectatio, vel quia non refertur ad id ad quod
+          <lb ed="#Qb"/>referendum esset, sed ibi inordinate quiesciturs.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

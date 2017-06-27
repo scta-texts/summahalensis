@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="266"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t2m3c2">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 2</head>
+        <head type="question-title">UTRUM A NATURA VEL A GRATIA HABEAT ANGELUS CUSTODIRE HOMINEM.</head>
+        <p>
+                <pb ed="#Qb" n="266"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Quaeritur postea, supposito quod angelus ha<lb ed="#Qb"/>.
+          beat potestatem custodiendi homines, utrum
+          <lb ed="#Qb"/>hoc habeat a natura vel a" gratia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Si dicatur quod a natura - contra: si
+          <lb ed="#Qb"/>circumscribantur omnia gratuita ab angelo, tunc
+          <lb ed="#Qb"/>sicut anima est vertibilis in bonum et malum, ita
+          <lb ed="#Qb"/>angelus, in malum scilicet per se, in bonum cum
+          <lb ed="#Qb"/>adiutorio gratiae; ergo quoad hoc debilis est sicut
+          <lb ed="#Qb"/>et anima; sed nemo sapiens alicui parvulo debili
+          <lb ed="#Qb"/>daret custodem alium debilem, immo fortem daret
+          <lb ed="#Qb"/>debili; ergo, cum Deus sit summe sapiens, ange<lb ed="#Qb"/>lum
+          ita debilem et ita vertibilem non dabit pro
+          <lb ed="#Qb"/>custode, cum ipse, prout sic vertibilis est, vi<lb ed="#Qb"/>deatur
+          indigere custode.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Itemb, angelus ita vertibilis est in malum, cir<lb ed="#Qb"/>cumscripta
+          gratia, quod si cadit in malum, non re<lb ed="#Qb"/>surgit,
+          homo veroc ita est vertibilis quod resurgit;
+          <lb ed="#Qb"/>ergo quoad hoc magis vide-tur angelus impotens vel
+          <lb ed="#Qb"/>deficiens; ergo quoad hoc minus videtur quod an<lb ed="#Qb"/>gelus
+          debeat dari custos homini quam homo angelo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, si hoc esset ex natura, cum in daemo<lb ed="#Qb"/>nibus
+          remanserint naturalia, secundum hoc debe<lb ed="#Qb"/>rent
+          dici custodes, quia quod a natura inest 41,
+          <lb ed="#Qb"/>omni inest in quantum tale.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, Num. 18, 26, super illud: <quote ana="#num18_26">Quidquid of-'
+          <lb ed="#Qb"/>ferunt primitivorum</quote> etc., in Ma gn a G I o s s a
+          <lb ed="#Qb"/>Origenis 1, quae sic incipit: Offerunt angeli,
+          <lb ed="#Qb"/>ubi multum loquitur de potestate angelorum super
+          <lb ed="#Qb"/>homines, in fine dicit sic: <quote> Pro merito alius prin<lb ed="#Qb"/>ceps
+          multorum esse ponitur, alius principatui sub<lb ed="#Qb"/>iectus
+    </quote>. Et ponit ** exemplum de bonis servis, qui<lb ed="#Qb"/>bus
+          pro diversitate meritorum daturf potestas, alii
+          <lb ed="#Qb"/>super decem civitates, alii super quinque 2. Ex hoc '
+          <lb ed="#Qb"/>quod dicit <quote> pro, merito </quote> videtur quod ex gratia
+          <lb ed="#Qb"/>sit huiusmodi praelatio, non ex natura. Item, hoc
+          <lb ed="#Qb"/>videtur ex8 exemplo quod ponit ", quia potestas
+          <lb ed="#Qb"/>collata servis fidelibus non est naturae, sed gra<lb ed="#Qb"/>tiae
+          vel gloriae ; ergo similiter potestas angeli super
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>animam ini custodiendo non est ex natura, sed
+          <lb ed="#Qb"/>ex gratia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, si haec potestas debetur angelo ex na<lb ed="#Qb"/>tura, 
+          quaeritur ex qua natura. Si dicatur quod 
+          <lb ed="#Qb"/>anima est substantia' unita vel unibilis corpori,
+          <lb ed="#Qb"/>angelus substantia separata, unde magis potens et
+          <lb ed="#Qb"/>superior est, cuius etiam signum est quod animae
+          <lb ed="#Qb"/>separatae non datur angelus in custodiam * — c on<lb ed="#Qb"/>tra:
+          si unio vel unitas esset' causa essentialis
+          <lb ed="#Qb"/>quare indigeret'" custodia, secundum hoc indiguis<lb ed="#Qb"/>set
+          Christus custodia, cum anima eius corpori
+          <lb ed="#Qb"/>uniretur; et hoc falsum est, ut post videbitur 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Solutio; Dicimus quod potestas custodiendi
+          <lb ed="#Qb"/>est in angelis, non ex unico principio, sed ex
+          <lb ed="#Qb"/>duplici, scilicet ex" natura et gratia, differenter
+          <lb ed="#Qb"/>tamen: quia ex natura tamquam a primo princi<lb ed="#Qb"/>pio,
+          ex gratia vero tamquam a" proximo princi<lb ed="#Qb"/>pio
+          et completivo. DonaF enim naturalia, quae ha<lb ed="#Qb"/>bet
+          angelus in excellentia respectu animae — sunt
+          <lb ed="#Qb"/>ista quatuor attributa, de quibus II Sententiarum,
+          <lb ed="#Qb"/>dist. 34, scilicet simplicitas essentiae, discretio
+          <lb ed="#Qb"/>personalis, perspicacitas intelligentiae ?,,libertas
+          <lb ed="#Qb"/>arbitrii — sunt quasi dispositio naturalis in an<lb ed="#Qb"/>gelo
+          ad custodiendam animam. Sed non sufficit
+          <lb ed="#Qb"/>haec excellentia naturae, sed ' super hanc additur
+          <lb ed="#Qb"/>gratia quasi complementum, non autem quaecum<lb ed="#Qb"/>que
+          gratia, sed gratia confirmationis. Omnes enim
+          <lb ed="#Qb"/>boni angeli simul confirmati sunt in gratia, sicut
+          <lb ed="#Qb"/>mali in peccato: unde quoad hoc quod sunt sic
+          <lb ed="#Qb"/>confirmati, sunt quasi stantes; animae autem non
+          <lb ed="#Qb"/>sic confirmantur simul, sed successive: uncle om<lb ed="#Qb"/>nes
+          usque ad suam confirmationem sunt vel lapsae
+          <lb ed="#Qb"/>vel labiles. Ex hoc ergo quod quae-libet anima
+          <lb ed="#Qb"/>puri hominis, dum est in statu viae, vel lapsa est
+          <lb ed="#Qb"/>vel est labilis, angeli autem boni propter suam8
+          <lb ed="#Qb"/>confirmationem nec lapsi nec labiles, accipitur
+          <lb ed="#Qb"/>ratio huiusmodi potestatis custodiendi, quae est in
+          <lb ed="#Qb"/>angelis respectu animarum, quia quoad hoc fortes
+          <lb ed="#Qb"/>sunt, animae autem rationales debiles.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

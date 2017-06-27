@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m2c1">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 1</head>
+        <head type="question-title">QUALITER COGNOSCAT ANGELUS QUOD SUPRA se EST, SCILICET DEUM.</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum sic: a. Angelus cognoscit Deum;
+          <lb ed="#Qb"/>aut ergo per medium aut sine medio. Et vi<lb ed="#Qb"/>detur
+          quod necesse est hoc esse per medium:
+          <lb ed="#Qb"/>constat enim quod Deus est infinitae virtutis et
+          <lb ed="#Qb"/>angelus est finitae virtutis; ergo non est proportio
+          <lb ed="#Qb"/>inter haec; ad hoc ergo ut angelus Deum ap<lb ed="#Qb"/>prehendat
+          necesse est ut prius fiat proportio inter
+          <lb ed="#Qb"/>haec; sed inter duo sic disparata et improper<lb ed="#Qb"/>tionalia"
+          de se non fit proportio nisi per me<lb ed="#Qb"/>dium;
+          oportet ergo aliquod esse medium propor<lb ed="#Qb"/>tionans
+          d, mediante quo possit angelus Deum
+          <lb ed="#Qb"/>cognoscere, scilicet aliquod creatum, ut est'!
+          <lb ed="#Qb"/>similitudo vel species vel aliquod huiusmodi:
+          <lb ed="#Qb"/>quemadmodum dicimus quod anima non potest
+          <lb ed="#Qb"/>immediate cognoscere lapidem, sed potius per spe<lb ed="#Qb"/>ciemf
+          lapidis aut per similitudinem 2. — Si au<lb ed="#Qb"/>tem
+          hoc concedatur, quaeritur quid est medium.
+          <lb ed="#Qb"/>Et obicitur de illo medio, sicut de angelo est
+          <lb ed="#Qb"/>obiectum 3, quoniam constat quod illud medium,
+          <lb ed="#Qb"/>ex quo est creatum, erit finitae virtutis; ergo
+          <lb ed="#Qb"/>ipsig Deo, qui est virtutis infinitae", non erit
+          <lb ed="#Qb"/>proportionale; ergo non poterit esse medium pro<lb ed="#Qb"/>portionans
+          nisi prius proportionetur per aliquod
+          <lb ed="#Qb"/>aliud medium; et similiter posset quaeri de illo
+          <lb ed="#Qb"/>alio medio, et1 sic semper in infinitum. Quare
+          <lb ed="#Qb"/>videtur quod non possit Deus cognosci ab an<lb ed="#Qb"/>gelo
+          per medium sed potius per sui praesentiam
+          <lb ed="#Qb"/>vel essentiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, anima se ipsam cognoscit sine
+          <lb ed="#Qb"/>medio nec oportet medium intercidere, quoniam
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>sibi praesens est; cum ergo Deus semper sit prae<lb ed="#Qb"/>sens
+          animae et angelo, videtur quod ab angelo
+          <lb ed="#Qb"/>cognoscatur per sui praesentiam et sine medio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Praeterea, nobilissima cognitione videtur co<lb ed="#Qb"/>gnosci
+          Deus; sed nobilior est'f cognitio quae est
+          <lb ed="#Qb"/>per praesentiam quam quae est per similitudi<lb ed="#Qb"/>nem
+          aut speciem; quare ut prius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]:-Ad hoc! dicendum quod Deus uno
+          <lb ed="#Qb"/>modo sine omni medio videtur ab angelo et ni<lb ed="#Qb"/>hilominus"
+          per effectum sive per similitudinem.
+          <lb ed="#Qb"/>Lux enim non cognoscitur per idolum4: idolum
+          <lb ed="#Qb"/>enim est rei habentis propriam figurationem; sed
+          <lb ed="#Qb"/>lux " non habet; ergo non est eius idolum. E con<lb ed="#Qb"/>tra
+          autem" est de colorato, quod habet idolum,
+          <lb ed="#Qb"/>mediante quo deprehenditur a visu. Similiter di<lb ed="#Qb"/>cimus
+          quod lux summa et increata idolum non
+          <lb ed="#Qb"/>habet; unde non intelligitur Deus ab angelo vel
+          <lb ed="#Qb"/>ab anima sub similitudine aliqua illo modo-P, sed
+          <lb ed="#Qb"/>se ipso, nec aliquid aliud ex parte sui requiritur 4,
+          <lb ed="#Qb"/>tamen ex parte cognoscentis requiritur assimila<lb ed="#Qb"/>tio;
+          quae assimilatio' fit in' intellectu cogno<lb ed="#Qb"/>scente
+          vel per donum naturae, scilicet quod est
+          <lb ed="#Qb"/>ad imaginem Dei factus, et haec est prima assi<lb ed="#Qb"/>milatio;
+          vel per gratiam, et haec est maior; vel*
+          <lb ed="#Qb"/>per gloriam, et * haec est maxima et perfectissima.
+          <lb ed="#Qb"/>Sic ergo exigitur haec assimilatio vel ista" vel
+          <lb ed="#Qb"/>illa, per quam coniungatur vel uniatur intellectus
+          <lb ed="#Qb"/>cum Deo" ut eum cognoscat. Potest etiam co—
+          <lb ed="#Qb"/>gnosci per suos effectus, et hoc explanatum est
+          <lb ed="#Qb"/>supra in primo Librol5.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

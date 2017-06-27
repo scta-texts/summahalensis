@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="357"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q3t2c4">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 2, C. 4</head>
+        <head type="question-title">DE VERBIS 'BENEDIXITQUE EIS DICENS: CRESCITE ET MULTIPLICAMINI ET ' AVESQUE MULTIPLICENTUR '.</head>
+        <p>
+                <pb ed="#Qb" n="357"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Deinde sequitur:<quote ana="#gen1_22">Benedixitque</quote> etc. I. 1. Potest
+          <lb ed="#Qb"/>quaeri propterb quid facta est benedictio
+          <lb ed="#Qb"/>super ea quae sunt producta ex aquis, non autem
+          <lb ed="#Qb"/>primo super terrena animantia. Nam si benedictio
+          <lb ed="#Qb"/>fuit in cremento, quod pertinet ad augmentatio<lb ed="#Qb"/>nem,
+          etc in multiplicatione, quae ad generativam
+          <lb ed="#Qb"/>pertinet — et hoc videtur per hoc quod sequi<lb ed="#Qb"/>tur:
+    <quote>Crescite et multiplicamini</quote> — videtur prima
+          <lb ed="#Qb"/>benedictio fuisse facienda super terrae animantia:
+          <lb ed="#Qb"/>namd ibi est primum crementum et generatio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, cum animantia terrae crescant et
+          <lb ed="#Qb"/>multiplicentur super terram, sicut illa multipli<lb ed="#Qb"/>cantur
+          in aquis, propter quid non est facta be<lb ed="#Qb"/>nedictio
+          animantium terrestrium sicut aquatilium?
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad primum videtur respondere
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>z, dicens quod terrae nascentia, quia
+          <lb ed="#Qb"/>non <quote> habuerunt affectum propagandae prolis et
+          <lb ed="#Qb"/>sine sensu generabant, indigna videbantur bene<lb ed="#Qb"/>dictione
+    </quote>: ideo incepit benedictio abe aquatilibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum vero respondet3 quod per
+          <lb ed="#Qb"/>benedictionem datam istis intelligi potuit bene<lb ed="#Qb"/>dictio
+          dari illis, cum habeant similem rationem
+          <lb ed="#Qb"/>crementi et multiplicationis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed contra primum potest obicizLicet
+          <lb ed="#Qb"/>enim praecedente sensu et appetitu sivef concomi<lb ed="#Qb"/>tante
+          generent animalia, terrae nascentia non, num<lb ed="#Qb"/>quid
+          propter hoc carere deberent benedictione?
+          <lb ed="#Qb"/>cum consimilis sit effectus benedictionis. utrobique.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra secundum vero obicitur-€: Si
+          <lb ed="#Qb"/>enim haec esset ratio quia benedictio in priori da<lb ed="#Qb"/>retur
+          intelligi in posteriori, non oportuit tunc post
+          <lb ed="#Qb"/>benedictionem expressam in aquatilibus posuisse
+          <lb ed="#Qb"/>vel expressisse benedictionem de illo terrestri,
+          <lb ed="#Qb"/>quod est homo; sed expressa est; ergo et alia
+          <lb ed="#Qb"/>subest ratio.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>II. Item quaeritur: Cum principium generationis
+          <lb ed="#Qb"/>unum sit natatilium et volatilium 'l, scilicet aqua,
+          <lb ed="#Qb"/>propter quid fiat distinctio locorum ad inhabi<lb ed="#Qb"/>tandum?
+          Dicit enim4: Aves multiplicentur super
+          <lb ed="#Qb"/>terram, innuens aerem locum habitationis, et su<lb ed="#Qb"/>pra
+          ,dixit5: Volatile super terram sub firmamento
+          <lb ed="#Qb"/>caeli, vel quod acciperent volatilia originem ex
+          <lb ed="#Qb"/>aere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad hoc respondet Hugoö, dicens:
+    <quote> Quod quarei factum sit ut non ad similitudinem
+          <lb ed="#Qb"/>aliorum quae ad ornatum mundi elementorum
+          <lb ed="#Qb"/>creata sunt, ex ipso materiam sumerent, in quo
+          <lb ed="#Qb"/>locumk sortiri debuerunt, forte1 quis ad ipsius
+          <lb ed="#Qb"/>elementi materiam referet. Duo sunt genera ani<lb ed="#Qb"/>mantium
+          quae ex una materia prodeunt, sed
+          <lb ed="#Qb"/>non unam mansionem sortiuntur: pisces in ori<lb ed="#Qb"/>ginali
+          sede permanent '", volatilia sursum tollun<lb ed="#Qb"/>tur
+          et sunt quasi supra id quod iacta sunt ". Sic
+          <lb ed="#Qb"/>de una massa corruptibilis naturae et sua muta<lb ed="#Qb"/>bilitate
+          detluentis universao generis humani pro<lb ed="#Qb"/>pago
+          trahitur, sed aliis deorsum in ea quaP nati
+          <lb ed="#Qb"/>sunt corruptione iuste relictis, alii sursum dono
+          <lb ed="#Qb"/>gratiae ad sortem caelestis patriae elevantur </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>III. Deinde quaeritur adhuc quare non dixit
+          'aves multiplicentur in aere ', cum ille sit locus
+          <lb ed="#Qb"/>habitationis volatilium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum 4 quod, licet [aer]
+          <lb ed="#Qb"/>sit locus volatilium ad movendum vel spatiandum,
+          <lb ed="#Qb"/>terra tamen dicitur locus super quo producuntur
+          <lb ed="#Qb"/>vel ea quae terrae radicitus adhaerent ", ut arbores,
+          <lb ed="#Qb"/>et hoc est quia ibi quietem etiams accipiunt et
+          <lb ed="#Qb"/>nutrimentum ut in pluribus, et ideo dicitur super
+          <lb ed="#Qb"/>terram, non in aere vel in terra, sicut quaedam
+          <lb ed="#Qb"/>animalia generationem accipiunt in cavernis terrae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

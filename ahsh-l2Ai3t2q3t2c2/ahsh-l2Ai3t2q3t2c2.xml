@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="355"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q3t2c2">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 2, C. 2</head>
+        <head type="question-title">DE VERBIS 'REPTILE ANIMAE VIVENTIS' ETC. 8.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur I. 1. de hoc quod dicitur9:
+          <lb ed="#Qb"/>Producant aquae reptile animae viventis. Cum
+          <lb ed="#Qb"/>reptilia dicantur illa quae sunt in terra; item, in
+          <lb ed="#Qb"/>aquis sunt multa quae non repunt, sed natant, ut
+          <lb ed="#Qb"/>sunt cete et huiusmodi magni pisces, quare non
+          <lb ed="#Qb"/>est dictum ' et omne natatile"?
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, qualiter producuntur ex aquis na<lb ed="#Qb"/>tatilia
+          vell volatilia? Nam ex iis producuntur,
+          <lb ed="#Qb"/>ex quibus salvanturlo; salvantur autem'" per
+          <lb ed="#Qb"/>elementa commixta.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: 2. Haec productio erat ex" ele<lb ed="#Qb"/>mentis
+          commixtis; nihilominus tamen secundum
+          <lb ed="#Qb"/>dominans in ipsis magis fit hic sermo et ideo
+          <lb ed="#Qb"/>dixit: Producant aquae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Ad aliud dicendum012 quod reptile di<lb ed="#Qb"/>citur
+          quod toto corpore incumbit super corpus
+          <lb ed="#Qb"/>deferens, ad differentiam volatilium et gressibi<lb ed="#Qb"/>lium,
+          quae se supportant vel in parte vel in toto.
+          <lb ed="#Qb"/>Unde natatile designatur per reptile: hic namqueP
+          <lb ed="#Qb"/>sumitur reptile illud corpus in aquis, quod non 
+          <cb ed="#Qb" n="b"/>
+    
+          <lb ed="#Qb"/>habet pinnasq quibus secet aquam, sed pedibus
+          <lb ed="#Qb"/>tanturn aquam dividit13.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Deinde quaeritur propter quid dictum est:
+          <lb ed="#Qb"/>
+          <quote>Reptile animae viventis</quote>, quasi esset aliud reptile
+          <lb ed="#Qb"/>quod non haberets animam viventem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum 14 quod non additur
+          <lb ed="#Qb"/>ut differentia, sed ut sit sensus: 'reptile*, quod
+          <lb ed="#Qb"/>inter animam viventem habentia computatur. Hoc
+          <lb ed="#Qb"/>enim est quod, quantum est de modo motus, igno<lb ed="#Qb"/>bilius
+          est inter animantia: toto enim corpore in<lb ed="#Qb"/>cumbit
+          super corpus deferens; non sic gressibi<lb ed="#Qb"/>lia,
+          quae pedibus terram contingunt, nec volatilia,
+          <lb ed="#Qb"/>quae supportantur .sui agilitate.
+        </p>
+        <p>
+          <lb ed="#Qb"/>III. Deinde quaeritur propter quid dicitur:
+          <lb ed="#Qb"/>Sub firmamento caeli vel secundum firmamentum
+          <lb ed="#Qb"/>caeli, secundum translationem Septuaginta,
+          <lb ed="#Qb"/>et non dicitur, sicutt supra 15: In firmamento vel
+          <lb ed="#Qb"/>in " caelo.
+        </p>
+        <p>
+                <pb ed="#Qb" n="356"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum1 quod per hoc
+          <lb ed="#Qb"/>vult ostendere minorem nobilitatem quoad quid
+          <lb ed="#Qb"/>volatilium quam luminarium, et quod motus
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>volatilium est in medio inter caelum et terram;
+          <lb ed="#Qb"/>et ideo dictum est: Sub firmamento et super
+          <lb ed="#Qb"/>terram.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

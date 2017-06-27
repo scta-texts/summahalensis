@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="499"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t4m2c4">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 4</head>
+        <head type="question-title">UTRUM CONSCIENTIA SEMPER SIT IN ACTU.</head>
+        <p>
+                <pb ed="#Qb" n="499"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Consequenter quaeritur utrum conscientia sem<lb ed="#Qb"/>per
+          sit in actu suo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur: 41. Quia ignis materi-alis semper
+          <lb ed="#Qb"/>est in actu s'uo: unde quamdiu est ignis, semper
+          <lb ed="#Qb"/>habet aliquem actum; sed conscientia dicitur esse
+          <lb ed="#Qb"/>ignis, Ezech. 28,18: Producam ignem de medio
+          <lb ed="#Qb"/>tui', Glossazz <quote>Omnia quae aedificasti male,
+          <lb ed="#Qb"/>conscientiae ignis absumet</quote>; unde Ezech. l,10,
+          <lb ed="#Qb"/>in Glossa3 dicitur synderesis <quote>scintilla con<lb ed="#Qb"/>scientiae</quote>;
+          ergo sicut ignis, ita et conscientia
+          <lb ed="#Qb"/>semper erit in actu suo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, etsi ponderosum non semper fe<lb ed="#Qb"/>ratur
+          deorsum, nihilominus semper inclinatur ad
+          <lb ed="#Qb"/>hoc ut deorsum feratur: unde semper est sub actu
+          <lb ed="#Qb"/>suae inclinationis naturalis; sed inclinare liberum
+          <lb ed="#Qb"/>arbitrium ad fugiendum malum et prosequendum
+          <lb ed="#Qb"/>bonum est actus qui inesta conscientiae a na<lb ed="#Qb"/>tura:
+          non dico movere liberum arbitrium ad
+          <lb ed="#Qb"/>hoc autb ad illud, quia liberum arbitrium non
+          <lb ed="#Qb"/>potest moveri ad hoc aut ad'illudc sine proprio
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>
+          <lb ed="#Qb"/>consensu; conscientia ergo semper erit sub huius<lb ed="#Qb"/>modi
+          actu, et ita semper erit in suo actu.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Conscientia est scientia; scientia
+          <lb ed="#Qb"/>autem habitus est ; habitus autem non semper est
+          <lb ed="#Qb"/>in actu; ergo conscientia non semper est in actu.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, conscientia non efficit actum in par<lb ed="#Qb"/>vulis;
+          ergo, cum conscientia sit in, parvulis,
+          <lb ed="#Qb"/>eo quod naturalis est, non semper est in suo
+          <lb ed="#Qb"/>actu.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo 2. quod, etsid non appareat actus
+          <lb ed="#Qb"/>conscientiae in parvulis, tamen in adultis semper
+          <lb ed="#Qb"/>apparet in suo actu. Semper enim stimulat in
+          <lb ed="#Qb"/>adultis liberum arbitrium ad bonum vel ad ma—
+          <lb ed="#Qb"/>lum, licet ipsum non ducat ad consensum: hoc
+          <lb ed="#Qb"/>enim non est actus eius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Ad aliud vero dicendume quod, licet con<lb ed="#Qb"/>scientia
+          ponat scientiam, scientia habitum, nihilo<lb ed="#Qb"/>minus
+          conscientia est semper in aliquo actu,
+          <lb ed="#Qb"/>quiaf quidam habitus potest semper esse in actu
+          <lb ed="#Qb"/>aliquo et quidam non semper est: de primo
+          <lb ed="#Qb"/>autem genere est conscientia.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="444"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q2t2m2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 2</head>
+        <head type="question-title">De vi sensibili motiva quae est suadibilis ratione.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter dicendum estf de motivis irra<lb ed="#Qb"/>tionalibus 
+          quae quodam modo suadibiles
+          <lb ed="#Qb"/>sunt ratione, sicut dicit Damascenusz; hae
+          <lb ed="#Qb"/>autem sunt concupiscibilisc et irascibilis. In se
+          <lb ed="#Qb"/>tamen agunt secundum impetum; cum autem-f
+          <lb ed="#Qb"/>adest deliberatio rationis, sequuntur in suis acti<lb ed="#Qb"/>bus
+          motum rationis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Potest ergo quaeri I. penes quid hae duae vires
+          <lb ed="#Qb"/>distinguantur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Videtur enim, l. secundum Damascenum3,
+          <lb ed="#Qb"/>quod distinguantur? secundum bonum et malum,
+          <lb ed="#Qb"/>ut concupiscibilis determinetur penes bonum, ira<lb ed="#Qb"/>scibilis
+          penes malum: duae enimh affectiones, sci<lb ed="#Qb"/>licet
+          concupiscentia et laetitia, sunt ipsius concu<lb ed="#Qb"/>piscibilis
+          secundum praesentiam boni vel absen—
+          <lb ed="#Qb"/>tiam vel expectationem; aliae vero duae, scilicet
+          <lb ed="#Qb"/>timor et tristitia, ipsius irascibilis secundumi
+          <lb ed="#Qb"/>praesens malum vel futurum sive expectatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Hoc etiam videtur per hoc quod dicit Augu<lb ed="#Qb"/>stinus,
+          in libro De anima et spiritu4: <quote> Vi'f concu<lb ed="#Qb"/>piscibilitatis
+          eligit et natura irascibilitatis repro<lb ed="#Qb"/>bat</quote>; 
+          eligere autem et reprobare sunt respectu
+          <lb ed="#Qb"/>boni et mali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed contrarium apparet 3. ex hoc quod contra<lb ed="#Qb"/>riae
+          affectiones natae sunt fieri in eadem vi. Lae—
+          <lb ed="#Qb"/>titia autem et dolor sunt contrariae affectiones;
+          <lb ed="#Qb"/>ergo in eadem vi natael sunt esse; sed laetitia
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>est in concupiscibili; ergo dolor. Similiter potest
+          <lb ed="#Qb"/>obici de timore et confidentia, ut dicantur sirnul
+          <lb ed="#Qb"/>fieri in irascibili.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, sicut dicitm Ioannes Damascenus5:
+          <lb ed="#Qb"/>
+          <quote> Ira est id quod est audax animae, vindex concu<lb ed="#Qb"/>piscentiae</quote>. 
+          Ergo ad irascibilem" pertinet audere
+          <lb ed="#Qb"/>et insurgere in nocivum concupiscentiae; erit ergo
+          <lb ed="#Qb"/>irascibilis distincta a concupiscibili, non secundum
+          <lb ed="#Qb"/>bonum et malum, sed secundum differens bonum,
+          <lb ed="#Qb"/>et ita secundum differentem appetitum; alius est
+          <lb ed="#Qb"/>enim appetitus concupiscibilis et irascibilis: con<lb ed="#Qb"/>cupiscibilis
+          enim appetit delectabile secundum
+          <lb ed="#Qb"/>partem sensibilem, ira" vero est desiderium vin—
+          <lb ed="#Qb"/>dictae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Praeterea, sicut dicit Philosophusö, tria
+          <lb ed="#Qb"/>sunt in appetibilibus: bonum, conferens, delecta<lb ed="#Qb"/>bile;
+          tria opposita in fugis. Si ergo? concupisci<lb ed="#Qb"/>bilis
+          est respectu delectabilis, irascibilis respectu
+          <lb ed="#Qb"/>cuius erit? Non videtur esse respectu boni: bo<lb ed="#Qb"/>num
+          enim dicitur honestum; honestum autem non
+          <lb ed="#Qb"/>movet nisi partem rationalem; ergo non est de iis
+          <lb ed="#Qb"/>quae sunt motiva concupiscibilis vel irascibilis,
+          <lb ed="#Qb"/>prout hic loquimur de illis. Similiter conferens di<lb ed="#Qb"/>citur
+          quod ordinat vel confert ad honestum. Ergo
+          <lb ed="#Qb"/>irascibilis, prout est communis nobis et brutis,
+          <lb ed="#Qb"/>erit circa delectabile; oportet ergo dividere de<lb ed="#Qb"/>lectabile
+          per duas species differentes, aut concupi<lb ed="#Qb"/>scibilis.
+          et irascibilis non erunt duae vires, sed una.
+        </p>
+        <p>
+                <pb ed="#Qb" n="445"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>II. Deinde ostenditur quod hae vires, prout lo<lb ed="#Qb"/>quitur
+          Damascenus, non suntil partis sensi<lb ed="#Qb"/>bilis,
+          sed rationalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur ostendi ex huiusmodi affectioni—
+          <lb ed="#Qb"/>bus: a. Nam laetitiam dividit1 per animalem et
+          <lb ed="#Qb"/>corporalem, animalem vero dicit quae est <quote>circa
+          <lb ed="#Qb"/>disciplinam et contemplationem</quote>; sed talis non
+          <lb ed="#Qb"/>potest convenire parti sensibili, sed rationali;
+          <lb ed="#Qb"/>ergo concupiscibilis, cuius est haec affectio, non
+          <lb ed="#Qb"/>erit partis sensibilis, sed rationalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Similiter, obicitur de tristitiazz Invidia enim
+          <lb ed="#Qb"/>et misericordia sunt affectiones partis rationalis,
+          <lb ed="#Qb"/>quae sunt species tristitiae; similiter erubescentia
+          <lb ed="#Qb"/>et verecundia, quae sunt Species timoris; eodem
+          <lb ed="#Qb"/>modo mania et cotuss, quae sunt species irae.
+          <lb ed="#Qb"/>Restat ergo quod concupiscibilis et irascibilis non
+          <lb ed="#Qb"/>erunt irrationalis partis, sed rationalis, prout de
+          <lb ed="#Qb"/>ea ibi agitur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contrarium autem habetur in ipsa divisione:
+          <lb ed="#Qb"/>1. Dicit4 enim quod irrationale quoddam est non
+          <lb ed="#Qb"/>obediens rationi, ut pulsatile, quoddam est obe<lb ed="#Qb"/>diens
+          rationi, ut concupiscibile et irascibile.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, quo modo dicuntur hae vires con<lb ed="#Qb"/>tineri
+          sub irrationali obedienti rationi? cum vi<lb ed="#Qb"/>deamus
+          has non sequi rationem, sed ratione no—
+          <lb ed="#Qb"/>lente irascimurh et contristamur, secundum quod
+          <lb ed="#Qb"/>dicit Apostolus-": and nolo, hoc ago; non
+          <lb ed="#Qb"/>ergo dicitur essentialiter contineri sub irrationali"
+          <lb ed="#Qb"/>obedienti rationi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum6 quod irascibilis
+          <lb ed="#Qb"/>et concupiscibilis tripliciter accipiuntur et secun<lb ed="#Qb"/>dum
+          hoc tripliciter distinguuntur: uno modo se<lb ed="#Qb"/>cundum
+          appetitum boni et fugam mali, et secundum
+          <lb ed="#Qb"/>hoc d bonum et malum distinguunt concupiscibilem
+          <lb ed="#Qb"/>et irascibilem; alio modo distinguuntur secundum
+          <lb ed="#Qb"/>differentem appetitum, ut concupiscibilis sit se<lb ed="#Qb"/>cundum
+          appetitum delectabilis, irascibilis vero
+          <lb ed="#Qb"/>secundum appetitum ardui sive honorabilis; tertio
+          <lb ed="#Qb"/>modo secundum bonum in praesenti cum suo
+          <lb ed="#Qb"/>opposito ete bonum in futuro cum suo opposito.
+          <lb ed="#Qb"/>Primo modo gaudium. et concupiscentia, quae
+          <lb ed="#Qb"/>dicunt appetitum respectu boni in praesenti velf
+          <lb ed="#Qb"/>in futuro, ad concupiscibilem pertinentg, dolor
+          <lb ed="#Qb"/>autem et timor, qui" consistunt in fuga mali in
+          <lb ed="#Qb"/>praesenti vel in futuro, ad irascibilemï : et hoc
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>modo possunt accipi, cum quatuor affectiones
+          <lb ed="#Qb"/>distinguuntur a philosophis secundum volun<lb ed="#Qb"/>tatem
+          et uoluntatem: hoc enim idem quod se<lb ed="#Qb"/>cundum
+          appetitum et fugam. Secundo vero modo
+          <lb ed="#Qb"/>accipiunturk hae duae vires prout eis respondent
+          <lb ed="#Qb"/>cardinales virtutes, scilicet temperantia et fortitudo:
+          <lb ed="#Qb"/>nam temperantia est respectu delectabilium, for<lb ed="#Qb"/>titudo
+          vero in appetitu arduorum sive honorabi<lb ed="#Qb"/>lium,
+          licet tristial vel indelectabilia reputentur.
+          <lb ed="#Qb"/>Tertio vero modo accipiuntur prout dolor et
+          <lb ed="#Qb"/>gaudium dicuntur esse in concupiscibili, spes vero
+          <lb ed="#Qb"/>et metus in irascibili. Hoc modo etiam distinguit
+          <lb ed="#Qb"/>D amascenus, delectationem et tristitiam dicens
+          <lb ed="#Qb"/>pertinere ad concupiscibilem, timorem vero et
+          <lb ed="#Qb"/>iram ad irascibilem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1—4. Per hoc respondendum est
+          <lb ed="#Qb"/>ad obiecta. Nam primae rationes accipiuntur
+          <lb ed="#Qb"/>secundum hoc quod concupiscibilis et irascibilis
+          <lb ed="#Qb"/>respiciunt distincte bonum et malum. Sequens
+          <lb ed="#Qb"/>vero ratio, scilicet tertia, respicit concupiscibi<lb ed="#Qb"/>lem
+          prout respicit bonum et malum in praesenti,
+          <lb ed="#Qb"/>irascibilis vero" quod est in futuro bonum vel"
+          <lb ed="#Qb"/>malum. Quarta vero respicit secundum quod
+          <lb ed="#Qb"/>habent diversa genera appetibilium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad quintum dicendum quod illa divisio
+          <lb ed="#Qb"/>appetibilium comprehendit generaliter illa quae
+          <lb ed="#Qb"/>suntil appetibilia a voluntate secundum quod vo.- .
+          <lb ed="#Qb"/>luntas est motus rationis. Nunc autem non agimus
+          <lb ed="#Qb"/>hic nisi de appetitu sensibili': unde non secun<lb ed="#Qb"/>dum
+          illas differentias accipietur virium differentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Ad id vero quod quaeritur utrum hae de<lb ed="#Qb"/>beant
+          dici partes partis sensibilis 8 aut rationalis:
+          <lb ed="#Qb"/>respondeo quod secundum quod continent affec<lb ed="#Qb"/>tionem
+          delectationis intellectualis, quae est sub
+          <lb ed="#Qb"/>animali, prout animalis dicitur esse <quote> circa disci<lb ed="#Qb"/>plinam
+          etf contemplationem </quote>, secundum Dama<lb ed="#Qb"/>scen
+          u m7, et affectionem misericordiae et huius<lb ed="#Qb"/>modi,
+          et" quarumdam specierum timoris et irae,
+          <lb ed="#Qb"/>ad partem rationalem reducuntur vel erunt istae
+          <lb ed="#Qb"/>affectiones mixtae ex parte rationali et" sensuali.
+          <lb ed="#Qb"/>Ioannes autem Damascenus, licet loquatur de
+          <lb ed="#Qb"/>irrationali parte, loquitur tamen de ea prout est
+          <lb ed="#Qb"/>obediens rationi et movetur aliquando secundum
+          <lb ed="#Qb"/>rationem rectam, aliquando secundum non rectam,
+          <lb ed="#Qb"/>aliquando secundum se ipsam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

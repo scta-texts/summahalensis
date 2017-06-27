@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 4, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 4, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q4c1">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 4, C. 1</head>
+        <head type="question-title">QUID SIT ORDO</head>
+        <p>
+          <lb ed="#Qb"/>Ordo autem sic definitur ab A 11 gusti 11 0,
+          <lb ed="#Qb"/>XIX De civitate Dei 2: <quote> Ordo est parium dis<lb ed="#Qb"/>pariumque
+          rerum sua cuique loca tribuens dispo<lb ed="#Qb"/>sitio</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed videtur quod haec definitio non sit eon<lb ed="#Qb"/>veniens:
+          1. Quia ordo est in spiritualibus, ubi
+          <lb ed="#Qb"/>non est localitas ; restat ergo quod non omni or<lb ed="#Qb"/>dini
+          convenit haec definitio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, ordo attenditur secundum prius
+          <lb ed="#Qb"/>et posterius; paria autem, in quantum huiusmodi,
+          <lb ed="#Qb"/>non habe:-ttb prius et posterius; ergo non est
+          <lb ed="#Qb"/>ordo parium, sed disparium tantum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad primum dicendum: quod lo<lb ed="#Qb"/>cus
+          hic accipitur communiter, secundum quod unum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>diciturd supra aliud, alterum vero infra secundum
+          <lb ed="#Qb"/>rationem spiritualem: et secundum hunc modum
+          <lb ed="#Qb"/>dicitur in animabus et angelis ordo, quia quidam
+          <lb ed="#Qb"/>similior est Deo, quidam minus similis, quaedam
+          <lb ed="#Qb"/>anima perspicaciorise intelligentiae, quaedam non.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum dicendum quod ordo at<lb ed="#Qb"/>tenditur
+          hic communiter ad hoc quod est esse
+          <lb ed="#Qb"/>secundum prius et posterius et ad hoc quod est
+          <lb ed="#Qb"/>esse simul. Sicut enim in sitibus dicitur unum
+          <lb ed="#Qb"/>sursum et alterumf deorsum, alterum vero iuxta,
+          <lb ed="#Qb"/>ut dextrorsum vel sinistrorsum 8, ita est spiritua<lb ed="#Qb"/>liter"
+          in substantiis quod quaedam ordinantur ut
+          <lb ed="#Qb"/>secundum prius et posterius, quaedam vero or<lb ed="#Qb"/>dinantur
+          ut simul, et ideo in[ ratione ordinis
+          <lb ed="#Qb"/>dictum est quod est <quote> parium dispariumque </quote> etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

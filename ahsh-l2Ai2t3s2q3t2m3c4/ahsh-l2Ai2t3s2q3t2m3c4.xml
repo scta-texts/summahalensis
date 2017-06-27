@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="268"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t2m3c4">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 4</head>
+        <head type="question-title">UTRUM CUSTODIA ANGELICA SIT CIRCA OMNES HOMINES.</head>
+        <p>
+          <lb ed="#Qb"/>Consequentur quaeritur, supposito quod ratio cu<lb ed="#Qb"/>stodiae
+          determinetur respectu hominum, utrum
+          <lb ed="#Qb"/>determinetur respectu omnium hominum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Primo ergo quaeritur utrum Adam in statu
+          <lb ed="#Qb"/>ante peccatum indigeret custodia angelica;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>secundo, utrum Christus habuerit custodiam
+          <lb ed="#Qb"/>angelicam; .
+          <lb ed="#Qb"/>tertio, utrum parvuli, qui statim post Baptis<lb ed="#Qb"/>mum
+          moriuntur, habuerint custodiam angelicam;
+          <lb ed="#Qb"/>quarto, utrum Antichristus habebit' custodiam
+          <lb ed="#Qb"/>angelicam.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head type="question-title">Utrum Adam ante' peccatum indigeret custodia angelica.</head>
+          <p>
+            <lb ed="#Qb"/>Circa primum sic: 1. Custodia angelica est'"
+            <lb ed="#Qb"/>propter supplendos defectus; sed in Adam" in
+            <lb ed="#Qb"/>statu innocentiae nullus erat defectus; ergo non
+            <lb ed="#Qb"/>necesse habebat custodiri". — Media patet
+            <lb ed="#Qb"/>per hoc quod dicitur II libro Sententiarum, 25 dist.,
+            <lb ed="#Qb"/>Et notari possunt3 etc.: <quote> Ante peccatum ad ma-.
+            <lb ed="#Qb"/>lum nil impellebat, non habuit infirmitatem ad
+            <lb ed="#Qb"/>malum et habuit adiutorium ad bonum; tunc sine
+            <lb ed="#Qb"/>errore ratio iudicare etvoluntas sine difficultate
+            <lb ed="#Qb"/>bonum appetere poterat </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Si hoc concedatur eontra: a. Ante pecca<lb ed="#Qb"/>tum
+            angelus malus tentavit hominem, et, si per<lb ed="#Qb"/>stitisset,.
+            angelus iste fuissct ei in exercitium,
+            <lb ed="#Qb"/>quia? homo fecisset suum bonum ex diaboli ten<lb ed="#Qb"/>tatione
+            et per eam plus meruisset quam si non
+            <lb ed="#Qb"/>tentaretur; ergo competebat ut e contrario haberet
+            <lb ed="#Qb"/>angelum bonum ad custodiam, iuxta illud Eccli.
+            33,15: <quote ana="#sir33_15">Contra bonum malum et contra vitam mors,
+            'et sic intuere in omnibus operibus Altissimi unum
+            <lb ed="#Qb"/>contra unum et duo contra duo</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, in nobis sic est in statu naturae cor<lb ed="#Qb"/>ruptae
+            quod contra illud quod interius inclinat
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ad malum, scilicet fomitem, est semper interiusq
+            <lb ed="#Qb"/>inclinans e contrario ad bonum, scilicet synde<lb ed="#Qb"/>resis:
+            sic videtur [quod] exterius contra illud
+            <lb ed="#Qb"/>quod semper f inclinat ad malum vel trahit, sci<lb ed="#Qb"/>licet
+            diabolum, est retrahens a malo et trahens
+            <lb ed="#Qb"/>ad bonum, scilicet angelus bonus; sed in primo
+            <lb ed="#Qb"/>statu, quamvis non esset inclinans ad malum in<lb ed="#Qb"/>terius,
+            erat tamen inclinans exterius, ut patet ex
+            <lb ed="#Qb"/>eventu; ergo iuxta nunc dictam sententiam, quae
+            <lb ed="#Qb"/>habetur in * Eccli. 33, 15, indigebat Adam quodam
+            <lb ed="#Qb"/>exterius inclinante velt promovente ad bonum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, Matth. 18, 10, super illud: <quote ana="#mt18_10">Angeli eorum</quote>,
+            <lb ed="#Qb"/>Glossa4: <quote> Magna dignitas animarum ut una—
+            <lb ed="#Qb"/>quaeque ab ortu nativitatis suae habeat ange<lb ed="#Qb"/>lum
+            sibi ad custodiam" deputatum </quote>; ita autem
+            <lb ed="#Qb"/>se habebat creatio ad primum hominem, sicut
+            <lb ed="#Qb"/>nunc nativitas ad posteros; cum igitur non minus
+            <lb ed="#Qb"/>esset digna anima primi hominis quam posterio<lb ed="#Qb"/>rum
+            V, sed potius dignior, constat quod non defuit
+            <lb ed="#Qb"/>ei haec custodia ab instanti creationis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, angelus datur ad custodiam propter
+            <lb ed="#Qb"/>retractionemx a malo; sed quamvis anima Adae
+            <pb ed="#Qb" n="269"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>posset stare, tamen habuit possibilitatem ca<lb ed="#Qb"/>-dendi;
+            ergo quoad hoc, scilicet ne caderet, in<lb ed="#Qb"/>diguit
+            custodia angelica, quamvis non tantum
+            <lb ed="#Qb"/>sicut nos.
+         </p>
+          <p>
+            <lb ed="#Qb"/>e. Praeterea, habuit possibilitatem proficiendi
+            <lb ed="#Qb"/>in bono, non dico potestatem, quia non per se,
+            <lb ed="#Qb"/>sed adiutorio gratiae proficeret, quamvis per se
+            <lb ed="#Qb"/>cadere posset.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Dicimus " quod primi parentes in primo
+            <lb ed="#Qb"/>statu indiguerunt custodia angelica. Et huius est
+            <lb ed="#Qb"/>ratio quod ", licet in primis parentibus fuerit tunc
+            <lb ed="#Qb"/>rectitudo naturae, non tamen rectitudo " illa fuit
+            <lb ed="#Qb"/>inflexibilis, immo anima primo creata est verti<lb ed="#Qb"/>bilis
+            ad utrumlibet 4, scilicet bonum et malum,
+            <lb ed="#Qb"/>nec sic vertatur in unum, statim confirmatur,
+            <lb ed="#Qb"/>immo adhuc potest regredi. Licet autem angelus
+            <lb ed="#Qb"/>similiter vertibilis fuerit in utrumlibet de natura
+            <lb ed="#Qb"/>sua, tamen ubi vertitur, in eo stat et confirmatur.
+            <lb ed="#Qb"/>sine regressu. Et propter hoc in bonis qui ste<lb ed="#Qb"/>terunt
+            est natura stans per gratiam, et propter
+            <lb ed="#Qb"/>huiusmodi stabilitatem habet potestatem revo<lb ed="#Qb"/>candi
+            naturam lapsam, revocabilem tamen, scilicet
+            <lb ed="#Qb"/>animam sicut nuncf est, vel etiam conservandi
+            <lb ed="#Qb"/>ipsam naturam labilem ne labatur, ne scilicet ad
+            <lb ed="#Qb"/>libertatem sequatur lapsus. Et hoc modo tuit ra<lb ed="#Qb"/>tio
+            custodiae ex parte angeli respectu hominis,
+            <lb ed="#Qb"/>scilicet in primo statu.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id! quod contra obici<lb ed="#Qb"/>turf'
+            quod homo nullum defectum habuerit tunc:
+            <lb ed="#Qb"/>dicimus quod, etsii nullum habuerit defectum,
+            <lb ed="#Qb"/>habuit tamen defectibilitatem, et propter hoc,
+            <lb ed="#Qb"/>ne ad defectibilitatem sequeretur defectus vel
+            <lb ed="#Qb"/>actus deticiendi, indiguit custodia; cum autem
+            <lb ed="#Qb"/>anima venerit ad statum, in quo non erit nec
+            <lb ed="#Qb"/>defectus nec detectibilitas, scilicet ad statum
+            <lb ed="#Qb"/>gloriae, non indigebit, sicut supra proximo expla<lb ed="#Qb"/>natum
+            est 1. '
+         </p>
+          <p>
+            <lb ed="#Qb"/>a-e. Alia argumenta, quae probant propositum,
+            <lb ed="#Qb"/>possumus concedere, tamen sunt ibi quaedam ex<lb ed="#Qb"/>plananda.
+            Dicimus enim quod iste malus angelus,
+            <lb ed="#Qb"/>qui primo tentavit hominem, non proprie fuit ad
+            <lb ed="#Qb"/>exercitium, sed ad deceptionem secundum inten<lb ed="#Qb"/>tionem
+            suam. Sicut enim dicit <name ref="#Augustine">Augustinus</name>, Su<lb ed="#Qb"/>per
+            Genesimz: <quote> Exercitium proprie est ut pro<lb ed="#Qb"/>betur
+            aliqua virtus </quote>, id est probata ostendatur;
+            <lb ed="#Qb"/>probatio autem huiusmodik non est proprie nisi
+            <lb ed="#Qb"/>ubi est difficultas, secundum quod ars non est
+            <lb ed="#Qb"/>nisi circa difficile. In primo autem statu non erat
+            <lb ed="#Qb"/>difficultas: licet enim corpus esset' mortale et
+            <lb ed="#Qb"/>corruptibilem, non tamen erat mortuum vel cor<lb ed="#Qb"/>ruptum,
+            secundum quod dicitur Rom. 8,10: <quote ana="#rom8_10">Cor<lb ed="#Qb"/>pus
+            quidem propter peccatum mortuum est</quote>. Unde,
+            <lb ed="#Qb"/>licet anima ex comparatione ad corpus minus
+            <lb ed="#Qb"/>expedita esset ad bonum, non tamen proprie dit<lb ed="#Qb"/>ticultatem
+            habuit, immo difficultas-est poena pec<lb ed="#Qb"/>cati,
+            et ideo non fuit ibi proprie exercitium. Sed "
+            <lb ed="#Qb"/>post peccatum, quia revocabilis est natura ani<lb ed="#Qb"/>mae,
+            datur ad exercitium: quamvis enim diabolus
+            <lb ed="#Qb"/>intendat decipere per tentationes, tamen Deus non
+            <lb ed="#Qb"/>intendit ut ille decipiat, sed ut homo exercitetur 0 ;
+            <lb ed="#Qb"/>unde malum opus diaboli? ordinat in bonum, sicut
+            <lb ed="#Qb"/>etiam fomes secundum 4 se ordinat in malum, sed
+            <lb ed="#Qb"/>Deus hoc ordinat in' bonum, quoniam per eum
+            <lb ed="#Qb"/>homo exercitatur: exercitari autem est de malo
+            <lb ed="#Qb"/>facere profectum suum. Est ergo is ordo, quoniam
+            <lb ed="#Qb"/>prius dabatur angelus homini ad custodiam tantum,
+            <lb ed="#Qb"/>scilicet in primo statu; secundo daturs bonus ad
+            <lb ed="#Qb"/>custodiam, malus ad exercitium, scilicet in statu
+            <lb ed="#Qb"/>naturae lapsae; in tertio statu, scilicet gloriae *,
+            <lb ed="#Qb"/>nec sic nec sic dabitur.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum Christus habuerit custodiam angelicam.</head>
+          <p>
+            <lb ed="#Qb"/>Secundo quaeritur utrum Christus habuerit
+            <lb ed="#Qb"/>custodiam angelicam. '
+         </p>
+          <p>
+            <lb ed="#Qb"/>Videtur quod sic: l. Psalm. 4: <quote ana="ps90_11">Angelis suis
+            <lb ed="#Qb"/>mandavit de te</quote> etc. Et accipitur hoc idem Luc. 4,10,
+            <lb ed="#Qb"/>et dicit 0 l 0 s s a 5 : <quote> Hoc intelligitur de membris.
+            <lb ed="#Qb"/>Quod si de Christo intelligitur, advertere " debuit
+            <lb ed="#Qb"/>diabolus quod sequitur: Super aspidem .etc. </quote>.
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Unde Glossa relinquere videtur quod hoc pos<lb ed="#Qb"/>sit
+            intelligi de Christo; ergo habuit angelorum
+            <lb ed="#Qb"/>custodiam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Idem videtur per saepe dictam auctoritatem
+            <lb ed="#Qb"/>Hieronymiö: <quote> Magna est dignitas animarum
+            <lb ed="#Qb"/>ut unaquaeque ab ortu nativitatis suaex habeat
+            <lb ed="#Qb"/>angelum sibi delegatum </quote>. Ergo [et] anima Christi,
+            <lb ed="#Qb"/>cum .non minus digna sit, sed magis.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="270"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>3. Item, Christus ex parte corporis mortalis erat
+            <lb ed="#Qb"/>et passibilis"; unde in hoc <quote>minoratasb est ab
+            <lb ed="#Qb"/>angelis</quote>, utv dicitur in Psalmo ', et repetiturd ad
+            <lb ed="#Qb"/>Hebr. 2,9. Similiter, etsi Christus in una parte
+            <lb ed="#Qb"/>animae frueretur, tamen secundum aliam trista<lb ed="#Qb"/>batur,
+            ut dicitur Matth. 26,38: <quote ana="#mt26_38">Tristis est anima
+            <lb ed="#Qb"/>mea</quote> etc. Unde secundum illam partem compas<lb ed="#Qb"/>sibilis
+            erat, et quoad illam similiter minor erat
+            <lb ed="#Qb"/>secundum quod huiusmodi; ergo angelus habuit
+            <lb ed="#Qb"/>potestatem custodiendi eum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Huic-6 etiam concordat illud Luc. 22,43:
+            <lb ed="#Qb"/>
+            <quote ana="#lc22_43">Adstitit angelus Domini, confortans eum</quote>; contor<lb ed="#Qb"/>tans
+            enim ut huiusmodi praeponitur contortato.
+            <lb ed="#Qb"/>Item, super illud Luc. 22,43 dicit Bedazz <quote>In
+            <lb ed="#Qb"/>testimonium utriusque naturae et angelus eum
+            <lb ed="#Qb"/>confortasseet angelus ei ministrasse describitur,
+            <lb ed="#Qb"/>quoniam qui fuit Deus ante saecula, tactus est
+            <lb ed="#Qb"/>homo in fine saeculorum, qui priusquam per glo<lb ed="#Qb"/>riam
+            resurrectionis exaltaretur, divinitate super
+            <lb ed="#Qb"/>angelos fuit, sed tamen minoratus est ab angelis:
+            <lb ed="#Qb"/>ex qua partemorti subiacuit</quote>. Ex hac auctori<lb ed="#Qb"/>tate
+            primo arguitur ex hoc quod dicitur <quote> in te<lb ed="#Qb"/>
+              <lb ed="#Qb"/>stimonium utriusque naturae </quote>: cum enim mini<lb ed="#Qb"/>sterium 
+            sit in testimonium divinae naturae, ergo.
+            <lb ed="#Qb"/>confortatio fuit in documentum humanae naturae ;
+            <lb ed="#Qb"/>ergo secundum humanam naturam videtur ha<lb ed="#Qb"/>buisse
+            custodem. Secundo arguitur ex secunda
+            parte, qua dicitur <quote> priusquam perf. gloriam re<lb ed="#Qb"/>surrectionis </quote> 
+            etc., quasi diceret: ante resurrectio<lb ed="#Qb"/>nem
+            secundum. humani-tatem erat minor angelis;
+            <lb ed="#Qb"/>et inde ut prius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Item, Tob. 6,2, super illud: <quote ana="tob6_2">Piscis volebat, 
+            <lb ed="#Qb"/>devorare Tobiam</quote>, Glo-s sa3: <quote> Diabolus usqueär
+            <lb ed="#Qb"/>ad crucem secutus est Christum </quote>. Unde ex hoc
+            <lb ed="#Qb"/>videtur quod Christus habuit angelum malum
+            <lb ed="#Qb"/>exercitatorem". Quod etiam patuit in tentatio<lb ed="#Qb"/>nibus,
+            Matth. 4, 4-10 et Luc. 4,1-13; ergo e
+            <lb ed="#Qb"/>contra debuit habere angelum bonum ad casto<lb ed="#Qb"/>diam, 
+            secundum illud Eccli. 33,15: <quote ana="#sir33_15">Contra bo<lb ed="#Qb"/>num
+            malum</quote> etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. In Christo fuit divinitas unita non
+            <lb ed="#Qb"/>solum toti animae, sed etiam carni; ergo sufficie<lb ed="#Qb"/>bat
+            ad totamnaturam humanam custodiendam .et
+            <lb ed="#Qb"/>dirigendam prout opus erat; ergo frustra daretur
+            <lb ed="#Qb"/>angelus. :Si eni-m alicui animae adesset unus
+            <lb ed="#Qb"/>angelus per unionem, non daretur ei alius .ad
+            <lb ed="#Qb"/>custodiam; cum igitur divinitas potentior sit ;in
+            <lb ed="#Qb"/>infinitum omni angelo, Christo non dabatur'k .an<lb ed="#Qb"/>gelus
+            ', cum habeat sibi unitam divinitatem: nihil
+            <lb ed="#Qb"/>enim frustra fit in operibus Creatoris.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>b. Item, ab instanti conceptionis iuit plenus gra<lb ed="#Qb"/>tiae
+            et veritatis m, ut dicitur Ioan. 1,14: gratiae"
+            <lb ed="#Qb"/>quoad partem motivam, veritatis" quoad cogni<lb ed="#Qb"/>tivam;
+            et sic plenitudo erat quoad omnem po<lb ed="#Qb"/>tentiam
+            animae, talis, inquam, plenitudo quod non
+            <lb ed="#Qb"/>plus poterat proiicere. Unde dicitur Ioan. 3, 34:
+            <lb ed="#Qb"/>Datus est ei spiritus non ad mensuram. Nec iterum
+            <lb ed="#Qb"/>poterat cadere, quia non habuit passibilitatem ad
+            <lb ed="#Qb"/>peccatum. Ergo videtur quod frustra daretur ei
+            <lb ed="#Qb"/>angelus ad custodiam. Nec obstat illud quod
+            <lb ed="#Qb"/>dictum est Luc. 2,52, quod <quote>proficiebat sapientia
+            <lb ed="#Qb"/>et gratia</quote>, quia hoc quod dicitur sapientia et
+            <lb ed="#Qb"/>gratia intelligitur non in se, sed in hominum
+            <lb ed="#Qb"/>cognitione. Sic ergo patet quod ex parte ani<lb ed="#Qb"/>mae
+            non indiguit custode. Item, nec ex parte
+            <lb ed="#Qb"/>corporis, quia positoP quod etiam angelus ali<lb ed="#Qb"/>quod
+            nocumentum corporis prohiberet, non ta<lb ed="#Qb"/>men 
+            debebat dici custos, quia nobiliorem secum
+            <lb ed="#Qb"/>habebat, scilicet divinitatem, cui haec potius at<lb ed="#Qb"/>tribuuntur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Propter illud quod dicitur Luc. 22, 43
+            <lb ed="#Qb"/>et illud quod dicit Beda super hocäconcedimus
+            <lb ed="#Qb"/>quod Christus habuit angelos in ministerium;
+            <lb ed="#Qb"/>dicimus tamen quod non habuit angelum in cu<lb ed="#Qb"/>stodiam.
+            Custodia enim semper respicit indigen<lb ed="#Qb"/>tiam
+            vel deiectum sive .detectibilitatem, ut supra
+            <lb ed="#Qb"/>habitum est 5; defectibilitatem vel 4 defectum dico
+            <lb ed="#Qb"/>non solum poenae, sed etiam. culpae. 'Unde, quia
+            <lb ed="#Qb"/>Christus nullum detectum vel deiectibilitatem'
+            <lb ed="#Qb"/>culpae habuit, ideo nec custodiam habuit; sed
+            <lb ed="#Qb"/>ministerium non connotat huiusmodi deiectu-m.
+            <lb ed="#Qb"/>Concedimus etiam quod, in quantum .erat passi<lb ed="#Qb"/>bilis,
+            minor erat angelis, sed non ideo sequitur
+            <lb ed="#Qb"/>quod angelus custodiret eum, quia 'custodire',
+            <lb ed="#Qb"/>ultra praeesse et ultra .hoc' quod est prohibere
+            <lb ed="#Qb"/>a nocumento, connotat in custodito quod habeat
+            <lb ed="#Qb"/>naturam lapsam vel labilem, in custodiente autem
+            <lb ed="#Qb"/>naturam stantem; in Christo autem non erat lapsa
+            <lb ed="#Qb"/>natura nec labilis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 4. Ad id quod obiciturs de
+            <lb ed="#Qb"/>confortatione, dicendum * quod duplex est contor<lb ed="#Qb"/>tatio.
+            Quaedam est" potestativa, et de "hac forte
+            <lb ed="#Qb"/>bene sequitur quod qui contortat, custodit: sed
+            <lb ed="#Qb"/>haecV non fuit in Christo. Alia est ministerialis,
+            <lb ed="#Qb"/>et de .illa intelligitur illud Luc. 22,43, etx de
+            ,hac non sequitur-quod .qui cbniortat, custodit. Et
+            <lb ed="#Qb"/>est exemplum de serviente? qui dicitur contor<lb ed="#Qb"/>tare
+            dominum suum, non potestative, sed mini<lb ed="#Qb"/>sterialiter,
+            dicendo : scilicet aliqua excitantia eum
+            <lb ed="#Qb"/>ad contortationem. Unde non est exponendum,
+            <pb ed="#Qb" n="271"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>ut quidam1 dicunt, 'apparuit angelus Domini
+            <lb ed="#Qb"/>confortans eum ', id est <quote> ad modum confortantis
+            <lb ed="#Qb"/>se habens </quote>, quia secundum hoc fuisset ibi simu<lb ed="#Qb"/>latio;
+            sed vera fuit confortatio, ministerialis ta-'
+            <lb ed="#Qb"/>men ", non potestativa.
+         </p>
+          <p>
+            <lb ed="#Qb"/>a. Ad hoc quod obiciturb quod 'divinitasc
+            <lb ed="#Qb"/>sufficiebat ad omnia': dicimus quod vere divi<lb ed="#Qb"/>nitas
+            sufficiebat ad omnia tamquam potestate
+            <lb ed="#Qb"/>vel auctoritate et etiam ad confortationem pote<lb ed="#Qb"/>stativam,
+            sed non ideo d tollebat ministerium nec
+            <lb ed="#Qb"/>congruum erat quod tolleret.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Per hoc nunc ultimo dictum patet responsio
+            <lb ed="#Qb"/>ad obiecta nunc ultimo posita, non quia non
+            <lb ed="#Qb"/>concludant verum, sed quia per ea aeque posset
+            <lb ed="#Qb"/>probari quod non habuit angelum in ministerium.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1-4. Per alia praedicta patet responsio. A d pri<lb ed="#Qb"/>mume 
+            argumentum et quartum, quod fit de
+            <lb ed="#Qb"/>textu Psalmi et est inf Glossa Luc. 4,10: <quote ana="#lc4_10">Ut
+            <lb ed="#Qb"/>custodiant te</quote> etc., dicimusg quod illud non potest
+            <lb ed="#Qb"/>totum intelligi de Christo ; quod potest intelligi per
+            <lb ed="#Qb"/>hoc quod sequiturrNe forte offendas etc. Per
+            <lb ed="#Qb"/>lapidem enim ibi '1 intelligitur Christus, secundum
+            <lb ed="#Qb"/>quod dicitur Isai. 8,14: <quote ana="#is8_14">Erit in lapidem offen<lb ed="#Qb"/>sionis</quote>
+            etc. ; constat autem quod Christus ad se
+            <lb ed="#Qb"/>ipsum non potest offendere, immo nec ad alium, ,
+            <lb ed="#Qb"/>quia-ibi intelligitur offensio peccati; unde dici-,
+            <lb ed="#Qb"/>mus quod illa series tota non de Christo, sed,
+            <lb ed="#Qb"/>de membris eius" intelligitur. Unde super illud?
+            <lb ed="#Qb"/>Matth. 4,6 dicit 0105 sa 2: <quote> Quod bene de mem<lb ed="#Qb"/>bris 
+            <lb ed="#Qb"/>intelligitur, diabolus male interpretatus est
+            <lb ed="#Qb"/>de capite </quote>. 'Quod ergo dicit Glossa <quote> quod si '
+            <lb ed="#Qb"/>de Christo "intelligitur </quote> etc., quasi per hoc relin<lb ed="#Qb"/>quens 
+            quod de Christo possit intelligi, dicimus
+            <lb ed="#Qb"/>quod hoc dicit propter hoc quod in parte de Christo
+            <lb ed="#Qb"/>possit intelligi, scilicet 'quoad illud quod sequitur:
+            <lb ed="#Qb"/>Super aspidem etc., quod tamen fraudulenter dia<lb ed="#Qb"/>b'olus
+            subti'cebat. Unde ita dicit G 1 os sa 3: <quote> Haec
+            <lb ed="#Qb"/>prophetia est, non de Christo, sed de viro. sancto.
+            <lb ed="#Qb"/>Quod si de :Christo esset, meminisse debuerat
+            <lb ed="#Qb"/>eius quod sequitur: Super aspidem etc. Sed de
+            <lb ed="#Qb"/>aux-ilio (angelorum quasi ad infirmum loquitur, de
+            <lb ed="#Qb"/>sua iconcul'catione quasi 'tergiversatorï tacet .</quote>.
+            <lb ed="#Qb"/>Similiter quod ;sequiturt: In manibus portabunt
+            <lb ed="#Qb"/>te, potest de Christo intelligi quoad ascensionem.
+            -Unde Glossaä <quote>Manibus angelorum sublatus
+            <lb ed="#Qb"/>est Christus in caelis, non quia sine eis rueret,
+            <lb ed="#Qb"/>sed quia obsequ'eb-a'ntur Regi, et melior est "qui
+            <lb ed="#Qb"/>portatur quam iumentum portans </quote>. Quod autem
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>dicitur ibi: <quote>Ut custodiant te in omnibus viis tuis</quote>,
+            <lb ed="#Qb"/>de Christo non potest intelligi pro se, sed pro
+            <lb ed="#Qb"/>membris suis, sicut etiam dicunt aliqui intelligi
+            <lb ed="#Qb"/>illud quod dicitur Luc. 22,43: <quote ana="#lc22_43">Adstitit angelus
+            <lb ed="#Qb"/>Domini, confortans eum</quote>. Unde Bedae, in fine
+            <lb ed="#Qb"/>Glossaek magnae supra positae 7, sic' dicit:
+      <quote> Si autem plaudat haereticus et'" infirmum af<lb ed="#Qb"/>firmet
+            cui opus fuerit angeli confortantis auxilio,
+            <lb ed="#Qb"/>meminerit Creatorem creaturae praesidio non
+            <lb ed="#Qb"/>eguisse. Sed quomodo ft contristatus est et0 con<lb ed="#Qb"/>fortatus?
+            Propter nos contristatus est et con<lb ed="#Qb"/>fortatus
+      </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad ultimoP obiectum de angelo qui vide<lb ed="#Qb"/>tur
+            ei datus adq exercitium: dicimus quod non
+            <lb ed="#Qb"/>sequitur ' si fuit ei angelus malus quasi ad exerci<lb ed="#Qb"/>tium,
+            quod propter hoc daretur .ei angelus bonus
+            <lb ed="#Qb"/>ad custodiam ', sed bene—sequitur quod ad custo<lb ed="#Qb"/>diam
+            vel ad' ministerium, et verum est quod
+            <lb ed="#Qb"/>ad ministerium fuit ei; et verum est quod angeli
+            <lb ed="#Qb"/>boni habent potestatem cohibendo malos et ma<lb ed="#Qb"/>lorum
+            potestatem ets cohibendo ministrant. Non
+            <lb ed="#Qb"/>tamen hoc fuit ex indigentia quae esset in Chri<lb ed="#Qb"/>sto,
+            sed ex quadam .congruitate. Unde Matth. 4,11:
+            <lb ed="#Qb"/>
+            <quote ana="#mt4_11">Accesserunt angeli et ministrabant ei</quote>. Dicimus
+            <lb ed="#Qb"/>tamen amplius quod non fuit angelus malus de<lb ed="#Qb"/>putatus
+            Christo ad exercitium. Exercitium enim,,ut
+            <lb ed="#Qb"/>dictum est 5, estf circa difficile sicut ars; Chri<lb ed="#Qb"/>stus
+            autem", etsi assumpsit .quasdampoenalitates,
+            <lb ed="#Qb"/>non tamen assumpsit ignorantiam ex parte intel<lb ed="#Qb"/>.'
+            lectus aut difficultatem exparte affectus; unde,
+            <lb ed="#Qb"/>quia non erat in eo difficultas, ideo nec exerci<lb ed="#Qb"/>tium,
+            ;qu'ra exercitium" proprie respicit naturam
+            <lb ed="#Qb"/>corruptam corruptione vitiosa: ex hac enim cor<lb ed="#Qb"/>ruptione-x
+            .est difficultas de qua loquimur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed tunc quaerimus: Si non est datus iste
+            <lb ed="#Qb"/>angelus ad exercitium, ad quid ergo? .— 'Re<lb ed="#Qb"/>sponde-o:
+            Sicut dicit ibi Glossa-**, tentatus est
+            <lb ed="#Qb"/>Christus, ut in eo tentatorem vincere discamus.
+            <lb ed="#Qb"/>Unde tentatus est pro nobis, non pro se. Et no<lb ed="#Qb"/>tandum?
+            quod est tentatio intra: et sic non
+            "fuit Christus tentatus et quoad hanc proprie est
+            <lb ed="#Qb"/>exercitium; et est tentatio extra: et 'hac fuit Chri<lb ed="#Qb"/>stus
+            tentatus, secundum duplicem viam, scilicet
+            'via cupiditatis, :Matth. 4 et Lucae 4, via timoris
+            <lb ed="#Qb"/>in passione, quia habuit timorem morti-s secun<lb ed="#Qb"/>dum
+            sensualitatem. Unde ad instructionem .-no<lb ed="#Qb"/>stram
+            voluit habere malum angelum, non vere
+            <lb ed="#Qb"/>exercitatorem.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="272"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>2. Ad illud quod obicitur ex auctoritate Hie— 
+            <lb ed="#Qb"/>ronymi, dicimus quod illa auctoritas accipitur
+            <lb ed="#Qb"/>tantum de animabus illorum hominum qui ab
+            <lb ed="#Qb"/>Adam descenderunt" seminaliter vel originaliter.
+            <lb ed="#Qb"/>Quod notatur, cum dicitur <quote> unaquaeque ab ortu
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>nativitatis suae </quote>, faciendo vim in verbo; Christus
+            autem non sic, id est non originaliter vel semi<lb ed="#Qb"/>
+            <lb ed="#Qb"/>naliter descendit ab Adam, sed solumc per cor<lb ed="#Qb"/>pulentam
+            substantiam: unde non indiguit angelo
+            <lb ed="#Qb"/>custode sicut alii.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Utrum parvuli, statim post Baptismum mortui, habuerint custodiam angelicam 1.</head>
+          <p>
+            <lb ed="#Qb"/>Tertio quaeritur utrum parvulis detur custo<lb ed="#Qb"/>dia
+            angelica.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Videtur quod sic: a. Per auctoritatem supra
+            <lb ed="#Qb"/>positam 2, quae est super 2 Matth. 18,10, quae dicit
+            <lb ed="#Qb"/>quod <quote> unaquaeque anima ab ortu nativitatisf </quote> etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Videtur quod non indigeant custodia,
+            <lb ed="#Qb"/>et loquamur de illis qui statim post Baptismum
+            <lb ed="#Qb"/>vel paulo post moriuntur. Constat enim quod illi
+            <lb ed="#Qb"/>nondumæg possunt deficere per culpam nec in
+            <lb ed="#Qb"/>melius proficereh per bonum opus, cum nondum
+            <lb ed="#Qb"/>habeant usum rationis; ergo, cum custodia sit vel
+            <lb ed="#Qb"/>ad faciendum proficere vel ad cavendum defec<lb ed="#Qb"/>tum,
+            videtur quod tempore illo non indigeant cu<lb ed="#Qb"/>stodia
+            sive quod frustra esset ibi custos. Item, ex
+            <lb ed="#Qb"/>parte corporis idem videtur, quia statim anima
+            <lb ed="#Qb"/>separatur, et sic corpori inanimato non competit
+            <lb ed="#Qb"/>custodia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, si parvulus ante usum liberi arbitrii
+            <lb ed="#Qb"/>indiget custodia ratione dignitatis animae, eadem
+            <lb ed="#Qb"/>ratione videtur indigere in utero materno; si ergo
+            <lb ed="#Qb"/>tunc non indiget, ut videtur, ergo eadem ratione
+            <lb ed="#Qb"/>nec post ortum, donec habeat usum rationis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Dicimus quod parvuli habent ange<lb ed="#Qb"/>lum
+            custodem, secundum quod dicit auctoritas,
+      <quote> ab ortu nativitatis </quote> etc., et intelligitur tum de
+            <lb ed="#Qb"/>nativitate quae est ex utero, tum de nativitate
+            <lb ed="#Qb"/>quae est in utero. Accipitur autem ratio huius
+            <lb ed="#Qb"/>custodiae tum ex parte angeli custodieritis, tum
+            <lb ed="#Qb"/>ex parte hominis custoditi f. Ex parte angeli est
+            <lb ed="#Qb"/>ratio meritum: meretur enim praemium acciden<lb ed="#Qb"/>tale
+            ex custodia huiusmodi. Ex parte vero par<lb ed="#Qb"/>vuli
+            accipitur ratio tum ex- parte corporis, ut
+            <lb ed="#Qb"/>scilicet bonus angelus custodiat corpus pueri a
+            <lb ed="#Qb"/>vexatione contrariae potestatis, tum ex parte ani<lb ed="#Qb"/>mae,
+            et hoc dupliciter, quia sumitur ratio ex
+            <lb ed="#Qb"/>parte animae secundum se et ex coniunctione
+            <lb ed="#Qb"/>animae ad corpus. Ex parte animae in se, quia
+            <lb ed="#Qb"/>quam cito anima creatur, vertibilis est sive ad
+            <lb ed="#Qb"/>bonum sive ad malum et potest proficere non
+            <lb ed="#Qb"/>tunc, sed postmodum, et ideo datur ei custos 
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>angelus non pro tempore isto, id est non ut tunc
+            <lb ed="#Qb"/>faciat eam proficere vel retrahere a malo, sed ut
+            <lb ed="#Qb"/>ordinet eam et disponat et habilitetk ad hoc ut
+            <lb ed="#Qb"/>postmodum proficiat, quando tempus erit utendi
+            <lb ed="#Qb"/>ratione. Ex parte autem animae prout coniungitur
+            <lb ed="#Qb"/>corpori, potest accipi ratio custodiae in parvulo,
+            <lb ed="#Qb"/>quia anima, quam cito unitur corpori, corrumpi<lb ed="#Qb"/>tur
+            corruptione vitiosa et exinde' contrahit cor<lb ed="#Qb"/>ruptionem;
+            unde anima, quam cito coniuncta est
+            <lb ed="#Qb"/>corpori, semper procedit in aliqua habilitatione
+            <lb ed="#Qb"/>sive ad bonum sive ad malum, quamvis non sit
+            <lb ed="#Qb"/>nota huiusmodi habilitatio, et ad huiusmodi ha<lb ed="#Qb"/>bilitationem
+            bonam iuvat"' et ordinat angelus
+            <lb ed="#Qb"/>bonus, qui datur ei custos, sicut forte illa cor<lb ed="#Qb"/>ruptio,
+            quam contrahebat ex corpore, iuvabat ad
+            <lb ed="#Qb"/>habilitandum ad malum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Per nunc dicta patet respon<lb ed="#Qb"/>sio
+            ad id quod primo obicitur", quod scilicet
+            <lb ed="#Qb"/>parvulus non potest nec proficere nec deficere:
+            <lb ed="#Qb"/>etsi non potest pro isto tempore, potest pro con<lb ed="#Qb"/>sequenti,
+            et ad hoc habilitat angelus. Praeterea,
+            <lb ed="#Qb"/>sciendum quod anima, quam cito unitur cor<lb ed="#Qb"/>pori,
+            non est ita otiosa in corpore quod non
+            <lb ed="#Qb"/>faciat nisi" vitam vel sensum; immo, cum anima
+            <lb ed="#Qb"/>rationalis plus potens sit quam sensibilis vel
+            <lb ed="#Qb"/>vegetabilis, et istae, quam cito sunt, aliquem
+            <lb ed="#Qb"/>actum habent in corpore —— quia vegetabilis facit
+            <lb ed="#Qb"/>in eo vitam vel vivere, sensibilis sensum vel sen<lb ed="#Qb"/>tire
+            — multo magis ergo anima rationalis aliquem
+            <lb ed="#Qb"/>actum ibi habet, quam cito infunditur, quamvis
+            <lb ed="#Qb"/>iste actus non sit nobis notus: et quantum ad
+            <lb ed="#Qb"/>illum actum vel respectu illius actus potest at<lb ed="#Qb"/>tendi
+            custodia angeli.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Quod etiam angeli ita habeant potestatem su<lb ed="#Qb"/>per
+            animamP dum adhuc puer est in utero, potest
+            <lb ed="#Qb"/>persuaderi a simili vel a minori sicq: constat
+            <lb ed="#Qb"/>enim quod corpora superiora tunc aliquam po<lb ed="#Qb"/>testatem
+            habent supra corpus pueri; ergo simi<lb ed="#Qb"/>liter
+            angeli, qui sunt lux spiritualis superior,
+            <lb ed="#Qb"/>habent potestatem super animas, quae sunt lux
+            <lb ed="#Qb"/>spiritualis inferior.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS IV</head>
+          <head type="question-title">Utrum Antichristus habebit custodiam angelicam.</head>
+          <p>
+                  <pb ed="#Qb" n="273"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Consequenter quaeritur de Antichristo utrum
+            <lb ed="#Qb"/>habebit" angelum deputatum in custodiam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod non: 1. Dicit enim b Dama<lb ed="#Qb"/>scenus2 
+            quod carebit praesidio angelorum; sed
+            <lb ed="#Qb"/>angelus custodiens est praesidium custoditi; ergo
+            <lb ed="#Qb"/>carebit custodia angelorum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, sicut dictum est 3, quia Christus non
+            <lb ed="#Qb"/>potuit decidere in malum culpae nec proficere in
+            <lb ed="#Qb"/>bonum, non indiguit custodia angelorum; sed e
+            <lb ed="#Qb"/>contra Antichristus ita adhaerebit malo quod non
+            <lb ed="#Qb"/>revocabitur ab eo nec etiam proficietc in bono;
+            <lb ed="#Qb"/>ergo nullus essetd effectus custodiae; cum ergo
+            <lb ed="#Qb"/>nihil otiosum fiat a summa sapientia, non habe<lb ed="#Qb"/>bit
+            angelum in custodiam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, videtur quod nec ad exercitium: Quia
+            <lb ed="#Qb"/>exercitaree est de malo elicere bonum, utpote de
+            <lb ed="#Qb"/>tentatione diaboli; sed hoc non. faciet Antichri<lb ed="#Qb"/>stus;
+            ergo nullus erit ibif effectus custodiae necg
+            <lb ed="#Qb"/>exercitii; ergo nullo modo habebit angelum sibi
+            <lb ed="#Qb"/>deputatum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, quia Christus plenus erat Deo, non in<lb ed="#Qb"/>digebat
+            custodia angeli; ergo e contra Antichristus,
+            <lb ed="#Qb"/>quia plenus erit'l diabolo, non habebit angelum.
+            — Probatio mediae: II Thessal. 2,9: <quote>Cuius
+            <lb ed="#Qb"/>adventus secundum operationem Satanae</quote>, Glos<lb ed="#Qb"/>sa
+            4: <quote>Diabolo cooperante, qui illum totum pos<lb ed="#Qb"/>sidebit</quote>. 
+            Item, Damascenuss: <quote>Ex fornica<lb ed="#Qb"/>tione
+            genitus suscipiet omnem actum Satanae;
+            <lb ed="#Qb"/>praesciens enim Deus iniquitatem suae futurae
+            <lb ed="#Qb"/>voluntatis, concedit in eo habitarei diabolum </quote>.
+            <lb ed="#Qb"/>Si ergo nihil supervacuum est in operibus Dei,
+            <lb ed="#Qb"/>videtur quod non det ei angelum custodem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. HierOnymuskG: <quote> Unaquaeque
+            <lb ed="#Qb"/>anima ab instanti nativitatis habet angelum sibi
+            <lb ed="#Qb"/>delegatum </quote>. Ergo angelum custodem habebit
+            <lb ed="#Qb"/>anima Antichristi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, Eccli. 33,15: <quote>Contra malam bonum</quote>;
+            <lb ed="#Qb"/>ergol contra maius malum necessarium est con<lb ed="#Qb"/>traponi
+            maius bonum; sed in Antichristo maior
+            <lb ed="#Qb"/>erit invalescentia angeli mali quam in alio homine;
+            <lb ed="#Qb"/>ergo magis necessarius erit ei'" angelus bonus
+            <lb ed="#Qb"/>ad custodiam in resistendo " malo.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>c. Item, medicus corporalis, etsi infirmus habet
+            <lb ed="#Qb"/>infirmitatem incurabilem, non tamen penitus di<lb ed="#Qb"/>mittit
+            eum, sed adhuc dat ei aliquao ad miti<lb ed="#Qb"/>gationem
+            morbi, ut prolongetur vita eius; ergo
+            <lb ed="#Qb"/>similiter nec medicus spiritualis penitus dimittit
+            <lb ed="#Qb"/>infirmum suum, etsi incurabilis ei videatur; hu<lb ed="#Qb"/>iusmodi
+            autem medicus est bonus angelus; undeP
+            <lb ed="#Qb"/>super illud Ierem. 51,9: Caravimus Babylonem,
+            <lb ed="#Qb"/>Glossa7: <quote> Angeli sunt medici sub magno Me<lb ed="#Qb"/>dico
+            constituti, volentes animas nostras a vitiis
+            <lb ed="#Qb"/>curare </quote>; ergo angelus bonus non dimittet? An<lb ed="#Qb"/>tichristum
+            propter magnitudinem iniquitatis suae.
+            <lb ed="#Qb"/>Et hoc est contra illos8 qui ponunt quod in
+            <lb ed="#Qb"/>principio habebit angelum custodem, sed post,
+            <lb ed="#Qb"/>cum viderit eum obstinatum, derelinquetf eum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. item, non est in potestate daemonis dare ei
+            <lb ed="#Qb"/>ab instanti nativitatis usum liberi arbitrii; sed ante
+            <lb ed="#Qb"/>usum liberi arbitrii non demeretur praesidium
+            <lb ed="#Qb"/>bonorum angelorum; ergo tunc habebit angelum
+            <lb ed="#Qb"/>in custodiam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: Notandum quodmultiplex est et<lb ed="#Qb"/>iectus
+            custodiae angelicae circa animas: unus est
+            <lb ed="#Qb"/>ut proficiat anima in bonum gratiae ; alius, ut non
+            <lb ed="#Qb"/>cadat in malum culpae; tertius est quod, si cadit,
+            <lb ed="#Qb"/>ut postmodum resurgat vel ne totiens cadats vel
+            <lb ed="#Qb"/>non in tantum malum cadat. Dicimus ergo quod
+            <lb ed="#Qb"/>Antichristus habebit custodiam angelicam, non ad
+            <lb ed="#Qb"/>primos effectus, sed tantum ultimum, scilicet ut
+            <lb ed="#Qb"/>non totiens cadat'quotiens caderett sine angelo
+            <lb ed="#Qb"/>custode vel ut" non in tantum malum cadat" in
+            <lb ed="#Qb"/>quantum caderet sine angelo custode. Nulli enim
+            <lb ed="#Qb"/>viatori, in quantum viator est, deficit misericordia
+            <lb ed="#Qb"/>Dei, quae est in dando angelum custodem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo obiectum, scilicet
+            <lb ed="#Qb"/>quod 'carebitx praesidio angelorum': respondeo
+            <lb ed="#Qb"/>quod Damascenus loquitur tantum de bonis
+            <lb ed="#Qb"/>angelis. Et hoc patet, quia praesidium, quod est
+            <lb ed="#Qb"/>in exercitando, non dicitur praesidium mali an<lb ed="#Qb"/>geli,
+            sed Dei, quia diabolus non intendit in hoc
+            <lb ed="#Qb"/>iuvare, sed decipere; unde, cum dicit <quote>carebit
+            <lb ed="#Qb"/>praesidio angelorum </quote>, patet quod intelligit tan<lb ed="#Qb"/>tum
+            de bonis. Sed notandum quod praesidium
+            <lb ed="#Qb"/>potest accipi dupliciter: vel communiter, scilicet
+            <pb ed="#Qb" n="274"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>pro adiutorio quocumque, et sic non est verum
+            <lb ed="#Qb"/>quod carebit praesidio, id est adiutorio angelico,
+            <lb ed="#Qb"/>immo habebit, ut patuit iam 1. Vel praesidium po<lb ed="#Qb"/>test
+            accipi proprie, secundum quod praesidium
+            <lb ed="#Qb"/>dicitur a praesidendo, et sic intelligit Dama<lb ed="#Qb"/>s
+            c en u s. Illi enim " proprie praesidere dicitur an<lb ed="#Qb"/>gelus
+            bonus, qui movetur ad nutum eius; sic au—
+            <lb ed="#Qb"/>tem non erit in Antichristo, immo potius move<lb ed="#Qb"/>bitur
+            ad nutum diaboli et nullo modo acquiescet
+            <lb ed="#Qb"/>angelo bono.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2-4. Ad illud quod obiciturb per contrarium
+            <lb ed="#Qb"/>de Christo, dicimus quod non est similis plenitudo
+            <lb ed="#Qb"/>Dei in Christo et diaboli in Antichristo. Christus
+            <lb ed="#Qb"/>enim dicitur plenus Deo, quia in isto homine
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>humana natura unitur divinae in unitate personae,
+            <lb ed="#Qb"/>secundum illud Col. 2,92 In eo habitat plenitudo
+            <lb ed="#Qb"/>divinitatis corporaliter; non sic unitur diabolus
+            <lb ed="#Qb"/>Antichristo, quia daemon in nullo homine sive
+            <lb ed="#Qb"/>in nulla anima est, sed per operationem et sug<lb ed="#Qb"/>gestionem,
+            et non per essentiam: unde Antichristus
+            <lb ed="#Qb"/>dicitur plenus diabolo, non plenitudine essentiae,
+            <lb ed="#Qb"/>sed plenitudine" dominii, quia inclinabitur eius
+            <lb ed="#Qb"/>voluntas ad nutum diaboli. Et sic intelligitur quod
+            <lb ed="#Qb"/>dicit Glossa quod <quote>illum totum possidebit</quote>,
+            <lb ed="#Qb"/>et id quod dicit Damascenus quod <quote> suscipiet
+            <lb ed="#Qb"/>omnem actum Satanae </quote>. Sed nota quod dicit
+      <quote> omnem </quote> quoad genera singulorum, non quoad
+            <lb ed="#Qb"/>singula generum.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

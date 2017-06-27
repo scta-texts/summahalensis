@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="259"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t2m2c2">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 2, C. 2</head>
+        <head type="question-title">UTRUM ANGELUS POSSIT IMMITTERE COGITATIONES VEL INCENDERE</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur .de actu uipsius potentiae
+          <lb ed="#Qb"/>angelicae in ipsam intellectivam potentiam,
+          <lb ed="#Qb"/>I. utrum ille actus sit immittere an incendere ?.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod,-ille actus sit immittere : .1. Per
+          <lb ed="#Qb"/>hoc quod .dicit D am a s c enu s:7: .<quote> In nobis est
+          <lb ed="#Qb"/>suscipere vel non susciperez eorum immissiones </quote>.
+          <pb ed="#Qb" n="260"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Si enim mali angeli immittunt cogitationes malas,
+          <lb ed="#Qb"/>eadem ratione et " boni immittunt cogitationes
+          <lb ed="#Qb"/>bonas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Similiter super illud Iob 19, 9: <quote ana="#iob19_9">Spoliavit
+          <lb ed="#Qb"/>me gloria mea</quote>, Glossa: <quote> Maligni spiritus in
+          <lb ed="#Qb"/>afflictorum cordibus cogitationes suas immittere
+          <lb ed="#Qb"/>non desistunt </quote>. Et Ioannes Damascenusz:
+    <quote> Omnis malitia et immundae passiones ex ipsis
+          <lb ed="#Qb"/>excogitatae sunt et immittere homini concessi
+          <lb ed="#Qb"/>sunt </quote>. Si ergo sic 0 est ex parte malorum re<lb ed="#Qb"/>spectu
+          malarum cogitationum, videturd sic esse
+          <lb ed="#Qb"/>ex parte bonorum respectu bonarum cogitationum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed e contra2 videtur: a. Si daemones incen<lb ed="#Qb"/>tores
+          sunt, non immissores malarum cogitationum
+          -— sicut dicit B ed a 3: <quote> Diabolus non est immis<lb ed="#Qb"/>sor
+          malarum cogitationum, sed incentor </quote>, et ite<lb ed="#Qb"/>rum
+          Osee 5,4, super illud: <quote>Ut revertantur ad Domi<lb ed="#Qb"/>num</quote>:
+    <quote> Obstinati in malo non cogitabunt reverti
+          <lb ed="#Qb"/>ad Dominum ut poeniteant, sed quod male cogitave<lb ed="#Qb"/>runt
+          perficientg et hoc ideo quia spiritus malignus
+          <lb ed="#Qb"/>est vitiorum incentor </quote> — si ergo mali dicuntur esse
+          <lb ed="#Qb"/>incentores et non immissores malarum cogitatio<lb ed="#Qb"/>num,
+          multo fortius boni non dicenturh immissores
+          <lb ed="#Qb"/>bonarum cogitationum, sed incentores tantum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Huius etiam gratia quaeritur quare in Scrip<lb ed="#Qb"/>tura
+          invenitur quod daemones mittunt in cor co<lb ed="#Qb"/>gitationes
+          malas, sicut habetur Ioan. 13,2: <quote ana="#io13_2">Cum
+          <lb ed="#Qb"/>misisset Satanas in cor eius</quote>, quare non invenitur
+          <lb ed="#Qb"/>in Scriptura quod boni angeli mittant in cor
+          <lb ed="#Qb"/>cogitationes bonas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>III. Praeterea, quaeritur quae sit differentia inter
+          'immittere' cogitationes et 'incendere '.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Videtur enim quod incendere sit immittere: nam
+          <lb ed="#Qb"/>immittere est intusi mittere ab extra, incendere
+          <lb ed="#Qb"/>autem est speciem ignis mittere in aliquam ma<lb ed="#Qb"/>teriam
+          susceptibilem; ergo qui incendit, immittit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: I. Ad quod dicendum quodk boni
+          <lb ed="#Qb"/>angeli non sunt immissores bonarum cogitationum,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>etsi aliquo modo possint dici-incentores. Si vero
+          <lb ed="#Qb"/>inveniatur de malis angelis quod sint immissores
+          <lb ed="#Qb"/>vel quod immissionem faciant, non accipitur ibi
+          <lb ed="#Qb"/>proprie immissio, sed communiter, prout dicitur
+          <lb ed="#Qb"/>quod qui incendit; immittit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Ad secundum dicendum quod aliter
+          <lb ed="#Qb"/>est de bonis cogitationibus et malis et de bonis
+          <lb ed="#Qb"/>angelis et malis. Daemones enim dicuntur im<lb ed="#Qb"/>missores
+          aliquando vel immissionem facere ma<lb ed="#Qb"/>larum
+          cogitationum, in quantum malae sunt,.non
+          <lb ed="#Qb"/>quia necessario inducant "vel potestatem habeant
+          <lb ed="#Qb"/>inducendi necessario, sed quia movent ad hoc;
+          <lb ed="#Qb"/>nec malum ad aliud principium reducitur in sug<lb ed="#Qb"/>gestione
+          quam ad ipsum diabolum. Non sic autem
+          <lb ed="#Qb"/>est de bono: licet enim bonus angelus moveat
+          <lb ed="#Qb"/>intellectum ad bonum aliquo modo, non tamen
+          <lb ed="#Qb"/>prima causa'" boni est in angelo bono, sed in
+          <lb ed="#Qb"/>Deo "; et ideo attribuitur ei immissio cogitationis
+          <lb ed="#Qb"/>bonae, non angelo, in Sacra Scriptura.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad id vero quod dicitur in Psalmo 5: <quote>Immittet
+          <lb ed="#Qb"/>angelus Domini</quote>, id est <quote>immissionem faciet </quote>,
+          <lb ed="#Qb"/>dicit Glossa 6: <quote> Sed attendendum est quod illa
+          <lb ed="#Qb"/>immissio non dicitur esse cogitationis bonae, in
+          <lb ed="#Qb"/>quantum bona est</quote>, sed immittere dicitur ibi
+          <lb ed="#Qb"/>mittere custodiam intra et extra. Et hoc patet per
+          <lb ed="#Qb"/>hoc quod dicitur": <quote>In circuitu timentium eum</quote>;
+          <lb ed="#Qb"/>unde alia translatios habet: <quote>Circumdat angelus
+          <lb ed="#Qb"/>DominiP in gyro timentes se</quote>. '
+        </p>
+        <p>
+          <lb ed="#Qb"/>III. Ad id vero quod quaeritur de differentia
+          <lb ed="#Qb"/>immissionis et incendii, secundum quod Deo attri<lb ed="#Qb"/>buitur
+          'immittere', angelo vero 'incendere': dicen<lb ed="#Qb"/>dum
+          4 quod immissio bonae cogitationis est factio
+          <lb ed="#Qb"/>bonae cogitationis; incensio vero est quaedam
+          <lb ed="#Qb"/>excitatio sive habilitatio intellectus ad cogitatio<lb ed="#Qb"/>nem
+          bonam. Aliud enim ' est igne ignire ligna, et
+          <lb ed="#Qb"/>aliud est siccare * ligna ut igniantur ; angeli autem
+          <lb ed="#Qb"/>boni non faciunt cogitationes bonas in * intellectu,
+          <lb ed="#Qb"/>sed removent impedimenta *ut bonae cogitationes
+          <lb ed="#Qb"/>a Deo fiant inu intellectu: unde angelos incen<lb ed="#Qb"/>dere
+          non est aliud quam incensibile" praeparare.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

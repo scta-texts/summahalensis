@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 3, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 3, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="196"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t3c5">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 3, C. 5</head>
+        <head type="question-title">UTRUM OMNIUM ANGELORUM SIT LOCUTIO.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur de locutione quantum ad
+          <lb ed="#Qb"/>subiecta, utrum scilicet loqui siti indifferenter
+          <lb ed="#Qb"/>in omnibusk angelis respectu omnium aut' su<lb ed="#Qb"/>periorum
+          respectu inferiorum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod sic: 1. Super illud I Cor. 13,1: <quote ana="#Icor13_1">Si lin<lb ed="#Qb"/>guis
+          hominum</quote> etc. Glossaz: <quote> Quibus angeli
+          <lb ed="#Qb"/>praepositi significant minoribus quaeP de Do—
+          <lb ed="#Qb"/>mini voluntate praesentiunt</quote>. Et Gregorius3:
+    <quote>Angelici spiritus voluntatemq Dei humanis cor<lb ed="#Qb"/>dibus 
+          insinuant, secundum quod ab ipso acci<lb ed="#Qb"/>piunt</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, ille qui loquitur videtur quasi aliquid
+          <lb ed="#Qb"/>influere in illo cui loquitur, sicut, cum Deus
+          <lb ed="#Qb"/>loquitur angelo, aliquid influit et angelus ali<lb ed="#Qb"/>quid
+          recipit: unde angelus vel anima non pro<lb ed="#Qb"/>prie.
+          dicitur loqui Deo, quia Deus ab eo nihii
+          <lb ed="#Qb"/>recipit; sed inferior angelus non influit super
+          <lb ed="#Qb"/>superiorem nec malus super bonum; ergo non
+          <lb ed="#Qb"/>loquuntur ' interiores superioribus nec mali
+          <lb ed="#Qb"/>bonis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, agens nobilior est patiente 4, in quantum
+          <lb ed="#Qb"/>huiusmodi; sed loquens, in quantum huiusmodi,
+          <lb ed="#Qb"/>est agens; ergo nobilior est eo cui loquitur; sed
+          <lb ed="#Qb"/>inferior non est nobilior superiore nec malus bono;
+          <lb ed="#Qb"/>ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. D am a s c e n u s5 : <quote> Angeli tradunt
+          <lb ed="#Qb"/>sibi invicem consilia sua et intelligentias suas </quote>.
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Item, Haymoöz <quote> Angeli inter se loquuntur, sed
+          <lb ed="#Qb"/>eorum locutio est eorum inter se concordatio,
+          <lb ed="#Qb"/>nec necesse est-ut sonent verba illa, ubi in con<lb ed="#Qb"/>templatione
+          Dei concorss est voluntas bona </quote>.
+          <lb ed="#Qb"/>Ex hoef quod Damascenus dicit <quote>invicem</quote>
+          <lb ed="#Qb"/>et Haymo dicit .<quote>inter se </quote> patet quod invicem
+          <lb ed="#Qb"/>est locutio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, hoc patet per rationem: Creatura
+          <lb ed="#Qb"/>intellectualis de natura sua habet potentiam ma<lb ed="#Qb"/>niiestandi
+          quod apud se habet; ergo ubicum<lb ed="#Qb"/>que
+          haec natura est, est haec potentia mani<lb ed="#Qb"/>festandi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c., Item, nonne Satan legitur" loqui, Iob l,9?
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, angelus superior est homine secundum
+          <lb ed="#Qb"/>naturam; sed quilibet homo habet huiusmodi po<lb ed="#Qb"/>tentiam;
+          ergo et" angelus. quilibet.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1—2. Duplex est locutio angelorum:
+          <lb ed="#Qb"/>una, quae sequitur eorum naturam, et haec est in
+          <lb ed="#Qb"/>omnibus respectu omnium; alia, quae sequitur
+          <lb ed="#Qb"/>gratiam: et sicut superior praeeminet inferiori in
+          <lb ed="#Qb"/>gratia, secundum quod huiusmodi, quantum estx
+          <lb ed="#Qb"/>ex conditione gratiae et non e converso, ita su<lb ed="#Qb"/>perior
+          isto modo dicitur loqui inferiori et non
+          <lb ed="#Qb"/>e converso. Unde quicumque isto modo loquitur
+          <lb ed="#Qb"/>alii, quoad hoc superior est. Inferior autem non
+          <lb ed="#Qb"/>dicitur proprie loqui isto modo, sed magis pro<lb ed="#Qb"/>prie
+          diceretur referre aliquid superiori, quia
+          <lb ed="#Qb"/>quasi excitat eum ad aliquid agendum. Superiores
+          <pb ed="#Qb" n="197"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>autem influunt inferioribus, secundum quod ipsi
+          <lb ed="#Qb"/>receperunt" a Primo, et haec locutio sequitur
+          <lb ed="#Qb"/>illuminationem gratuitam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad illud quod obiciturb quod 'agens no<lb ed="#Qb"/>bilius"
+          etc., potest dici quod hoc intelligitur de
+          <lb ed="#Qb"/>agentibus ubi non est reciprocatio; loqui vero
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>secundum naturam est agere reciprocum: iste
+          <lb ed="#Qb"/>enim loquitur illi etd e converso.
+        </p>
+        <p>
+          <lb ed="#Qb"/>a-d. Rationes ad oppositum probantes quod
+          <lb ed="#Qb"/>' loqui ' omnium est, concedimus secundum quod
+          <lb ed="#Qb"/>procedunt de locutione quae est a potentia na<lb ed="#Qb"/>turali,
+          non ab illuminatione gratuita.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

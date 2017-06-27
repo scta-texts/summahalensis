@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 6</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="293"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t3m1c6">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 6</head>
+        <head type="question-title">DE IMPETRATIONE MIRACULORUM.</head>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head>Secundum motum cuius virtutis dicantur impetrari miracula 7.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur cuius virtutis sit impetrare
+            <lb ed="#Qb"/>miracula.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur 1. quod secundum motum spei:
+            <lb ed="#Qb"/>Sicut enim dictum est supra 3 in definitione mira<lb ed="#Qb"/>culi,
+      <quote> miraculum est aliquid arduum et insolitum,
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>supra facultatem existens admirantis</quote>; sed spes
+            <lb ed="#Qb"/>est in arduum; ergo secundum motum spei elici<lb ed="#Qb"/>tur
+            opus miraculosum. — Praeterea, spei est erigi
+            <lb ed="#Qb"/>ad ea quae sunt magnitudinis divinae; sed mira<lb ed="#Qb"/>cula
+            proprie respiciunt magnitudinem divinam;
+            <lb ed="#Qb"/>ergo motus spei videtur maxime praeparatoriusq
+            <pb ed="#Qb" n="294"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>ad opus miraculosum eliciendum. - Item, hoc l
+            <lb ed="#Qb"/>idem videtur per illud Rom. 4, 18: <quote ana="#rom4_18">Qui contra
+            <lb ed="#Qb"/>spem in spem credidit</quote> etc., G l o s s a 1 : <quote> Contra 1
+            <lb ed="#Qb"/>spem priorem secundum naturam in spem gratiae
+            <lb ed="#Qb"/>ex Dei potentia </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Quod autem caritatis, videtur per hoc quod
+            <lb ed="#Qb"/>ob mutuam caritatem Dei et hominum factus est
+            <lb ed="#Qb"/>Filius Dei homo; hoc autem miraculum su per
+            <lb ed="#Qb"/>omnia miracula a: caritas enim, sicut dici t A u g us
+            <lb ed="#Qb"/>t i nus 2, traxit Christum de caelo ad terras; resta t
+            <lb ed="#Qb"/>ergo " quod motus caritatis est principalis ut consequatur
+            <lb ed="#Qb"/>opus miraculosum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem sit motus fi.dei, videtlll' a. per iiIud
+            <lb ed="#Qb"/>M~tth. 9, 22: Confide, filia; et Mare. 9, 22: Si
+            <lb ed="#Qb"/>potes credere, omnia possibilià sunt credenti; et
+            <lb ed="#Qb"/>Matth. 17,18: Quare non potuimus eicere eum? Dicit
+            <lb ed="#Qb"/>eis[esus: Propter incredulitatem vestram. Amen
+            <lb ed="#Qb"/>dico vobis, si habueritis /idem $lcut granum sinapis,
+            <lb ed="#Qb"/>dicetis huic monti: Transfer te, et transferet se.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b.Item, hoc probatur per B. Virginem, Luc. l, 45:
+            <lb ed="#Qb"/>Beata, quae credidisti ,· Glossa 3 : <quote> Apparet Mariam
+            <lb ed="#Qb"/>non dubitasse, sed credidisse, et ideo fructum
+            <lb ed="#Qb"/>consecutam esse </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, per Saram, ad Hebr. 11, 11: Fide Sara
+            <lb ed="#Qb"/>sterilis virtutem in conceptione seminis accepit c;
+            <lb ed="#Qb"/>Glossa 4 : <quote> Prius quidem risi t, sed ex gaudio,
+            <lb ed="#Qb"/>nondum d tamen piena' fide, sed post verbum angeli
+            <lb ed="#Qb"/>in fide solidata fuit </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. ltem, per oppositum idem probatur, sciUcet e
+            <lb ed="#Qb"/>per dubitationem Zachariae, super illud Luc. l, 18:
+            <lb ed="#Qb"/>Quomodo fiet istud? G l o s sa 5 : <quote> Cur non fiunt
+            <lb ed="#Qb"/>mutae Sara et Maria sicut Zacharias? Sed Sara
+            <lb ed="#Qb"/>et Maria non dubitant faciendum quod promittitur,
+            <lb ed="#Qb"/>sed modum requirunt; Zacharias, qui negat
+            <lb ed="#Qb"/>se scire, negat se credere, ideo accepit signum
+            <lb ed="#Qb"/>tacendi, quia signa non fidelibus, sed ·infidelibus
+            <lb ed="#Qb"/>6 fiunt; un de Matth. 17, 16: Generatio incredula</quote> etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum t quod motus
+            <lb ed="#Qb"/>fidei principaliter est praeparatorius ad esse miraculorum,
+            <lb ed="#Qb"/>tamquam dispositio inclinans Deum
+            <lb ed="#Qb"/>ad huiusmodi opus, non quod Deus indigeat dis.;.
+            <lb ed="#Qb"/>_positione, sed nos respectu ipsius. Ratio autem
+            <lb ed="#Qb"/>videtur esse, quia per fidem homo, gratia cooperante,
+            <lb ed="#Qb"/>de se ipso facit quasi miraèula, dum intelligentia
+            <lb ed="#Qb"/>super se et super omnes rationes per
+            <lb ed="#Qb"/>fidem elevatur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1-2. Quod autem obiciturg de motu
+            <lb ed="#Qb"/>spei vel caritatis, dicendum est quod illi h possunt
+            <lb ed="#Qb"/>esse cooperantes ut magis fiat vel efficacius. ·
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Secundum quem articulum fiat miraculum</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur secundum quem i articulum 
+            <lb ed="#Qb"/>fiat miraculum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Videtlll' quod seeundum illum qui est de 
+            <lb ed="#Qb"/>a. per verba illa quibus est usus 
+            <lb ed="#Qb"/>angelus ad B. Virginem, Luc. l, n: Non erit im<lb ed="#Qb"/>possibile 
+            apud Deum onine verbum; et ad A bra<lb ed="#Qb"/>ham, 
+            Gen. 18, 14: Numquid quidquam erit Deo 
+            <lb ed="#Qb"/>difficile? et in P salmo 113, 3: Omnia quaecum<lb ed="#Qb"/>que 
+            voli!.it feci t; et ad Rom. 9, 19: Voluntati eius 
+            <lb ed="#Qb"/>quis k resistet?
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, su per illud Rom. 4, 19: Non considerqvit 
+            <lb ed="#Qb"/>corpus suum emortuum, cum iam fere centum es- J 3. 
+            <lb ed="#Qb"/>etemortuamvulvamSarae;Glossa8: tum: 
+            <lb ed="#Qb"/>Non sine causa haec et 1 alia contra naturam 
+            <lb ed="#Qb"/>feci t Deus. Ideo enim tali a fecit ut errorem au- 
+            <lb ed="#Qb"/>et se omnipotentem Deum omnium demon- 
+            <lb ed="#Qb"/>Aliqui enim inflati ratione mundi Deum
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>neglexerunt; ideo quae m un do impossibilia sunt,
+            <lb ed="#Qb"/>Deus fecit, ut quj per haec cred~rent, salvarentur,
+            <lb ed="#Qb"/>Dei dominio mancipati.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed videtur l. quod potius ad articulum m inomnipotentia,
+            <lb ed="#Qb"/>carnationis: Quia dicebant Apostoli, Act. 3,6: In
+            <lb ed="#Qb"/>nomine lesa Nazareni etc.; et Mare. ultimo, 17: In
+            <lb ed="#Qb"/>nomine meo daemonia eicient etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, quia non est plena fides nisi haec, et
+            <lb ed="#Qb"/>pertinet ad plenam fidem; un de H e br. 11,6: Oportet
+            <lb ed="#Qb"/>accedentem credere etc., Glossa 9 : <quote> Sine hac fide
+            <lb ed="#Qb"/>nullus unquam potuit salvari, tamen n haec non
+            <lb ed="#Qb"/>sufficit ad salutem </quote>·
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed iterum videtur quod ad Spiri tu m Sancsetannorùm,
+            <lb ed="#Qb"/>Quia digitus Dei est, de quo magi! defi<lb ed="#Qb"/>cientes 
+            in tertio signo, dixerunt 10, Exod. 8, 19:
+            <lb ed="#Qb"/>
+            <quote ana="ex8_19">Digitus Dei est hic</quote>; et o Matth. 11, 9: Si in P di<lb ed="#Qb"/>gito 
+            Dei eicio daemonia; et Luc. 11, 20: Si Spi<lb ed="#Qb"/>ritu 
+            Dei eicio daemonia.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="295"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Solutio: Dicendum quod actus fidei ad'tacien<lb ed="#Qb"/>dum
+            miraculum principaliter respicit articulum de
+            <lb ed="#Qb"/>omnipotentia et primo qui primus occurrit in Sym<lb ed="#Qb"/>bolo:
+      <quote> Credo in Deum Patrem omnipotentem </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad, obiecta]: 1. Ad id autem " quod Dominus
+            <lb ed="#Qb"/>dicit in Marc. ultimo, 17: In nomine meo daemo<lb ed="#Qb"/>nia
+            eicient etc., et Apostoli similiter dicebantl : In
+            <lb ed="#Qb"/>nomine Iesu etc., dicendumb hoc esse ut ma<lb ed="#Qb"/>nifestaretur
+            fides, non solum Creatoris, sed " Re<lb ed="#Qb"/>demptoris,
+            quod maxime necessarium eratin Ec<lb ed="#Qb"/>clesia
+            primitiva; articulus etiam omnipotentiae est,
+            <lb ed="#Qb"/>quo credito facile consequitur fides aliorum, ut
+            <lb ed="#Qb"/>id Cor. 14, 22, super illud: Linguae sunt in si<lb ed="#Qb"/>gnum,
+            non fidelibus, sed infidelibus, Glossaz:
+      <quote>Qui credunt omnia posse Deum </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad aliud respondeo quod in opere miraculi
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>est invenire quod pertinet ad totam Trinitatem.
+            <lb ed="#Qb"/>Nam efficientia pertinet ad Patris potentiam ;
+            <lb ed="#Qb"/>modus iaciendi, quod scilicet sapienter et ex oc<lb ed="#Qb"/>cultis
+            causis et huiusmodi, ad Filii sapientiam;
+            <lb ed="#Qb"/>dispositio in finem, ut quod fite propter aliquam
+            <lb ed="#Qb"/>utilitatem, ad Spiritus Sancti bonitatem. Princi<lb ed="#Qb"/>palis
+            tamen et primus respectus est ad omnipo<lb ed="#Qb"/>tentiam,
+            quae appropriatur Patri.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad illud quod obicitur de Spiritu Sancto f,
+            <lb ed="#Qb"/>qui est digitus, respondeo quod hoc non intelli<lb ed="#Qb"/>gebant
+            magi, quia non noveruntg philosophi3
+            <lb ed="#Qb"/>nisi "a": äraööv et voüv, de Spiritu Sancto nihil nove<lb ed="#Qb"/>runt,
+            Act. 19, 2: Sed neque si Spiritus Sanctus est,
+            <lb ed="#Qb"/>audivimus ,- sed est sensus: Digitus. Dei hic est,
+            <lb ed="#Qb"/>id est manifeste apparet quod opus Dei est 71: digito
+            <lb ed="#Qb"/>enim demonstratio fit et manifestatio designatur.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">An miracula fiant ad inducendum fidem.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur iterum I. ani miracula fiant ad in<lb ed="#Qb"/>ducendam
+            fidem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur a. per illud I Cor. 14, 22: Linguae
+            <lb ed="#Qb"/>in signum sunt non fidelibus, sed infidelibus:
+            [non] fidelibus, qui credunt omnia posse Deum,
+            <lb ed="#Qb"/>sed infidelibus <quote> novitate miraculi ad fidem mo<lb ed="#Qb"/>vendis5
+      </quote>; et per illud quod habetur super Psal<lb ed="#Qb"/>mum
+            6: Ut det illis hereditatem gentium, Glos<lb ed="#Qb"/>sa
+            7: <quote> Haec fuit intentio miraculorum quae Chri<lb ed="#Qb"/>stus
+            fecit, ut crederent gentes </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Col. 1,29: Certo etc., Glossasz
+      <quote>Certo contra perfidos adiuvantibus me signis
+            <lb ed="#Qb"/>virtutum, </quote>; et post: <quote> Labori meo adiungit Deus
+            <lb ed="#Qb"/>miracula ad confirmationem </quote>. Ergo non tantum
+            <lb ed="#Qb"/>sunt ad inducendam fidem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, sicut non valet iides inducta ratio<lb ed="#Qb"/>nibus
+            et persuasa, ita non videtur valere inducta
+            <lb ed="#Qb"/>per miracula, quia humanus sensus, id estvisus,
+            <lb ed="#Qb"/>praebet experimentum ;. sed <quote> fides non habet
+            <lb ed="#Qb"/>meritum, cui humana ratio, id est humanus sen<lb ed="#Qb"/>sus
+            k, praebet experimentum9 </quote>, sicut habetur super
+            <lb ed="#Qb"/>illud Hebr. 10,2o: Per velamen ', id est carnem
+            <lb ed="#Qb"/>suam; et Ioan. 20, 29: Quia vidisti me, Thoma,
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>credidisti etc.; item, Ioan. 4,48: Nisi videritis
+            <lb ed="#Qb"/>signa et prodigia, non creditis, Glossalo; <quote> In<lb ed="#Qb"/>iidelitas
+            eius arguitur non credentis quod absens
+            <lb ed="#Qb"/>posset"l curare, cum Deitas ubique sit, et e
+            <lb ed="#Qb"/>contrario laudatur centurio, Matth. 8,8: Dic tan<lb ed="#Qb"/>tum
+            verbo, et sanabitur puer meus; unde Domi<lb ed="#Qb"/>nus
+            dixit ": Non inveni tantam fidem in Israel</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Dicendum" quod miraculum valet"
+            <lb ed="#Qb"/>ad utrumque, ita tamen quod non sit per modum
+            <lb ed="#Qb"/>medii, ut rationes ad interendamP conclusionem,
+            <lb ed="#Qb"/>quia nullum medium intervenire debet nisi prima
+            <lb ed="#Qb"/>Veritas, cui propter se creditur. Tamen miracula
+            <lb ed="#Qb"/>possunt valere per modum dispositionis praepara<lb ed="#Qb"/>tivae
+            ad introducendam '! fidem, ut seta introducit
+            <lb ed="#Qb"/>iilum: quae dispositiones sunt in aestimativa' tan<lb ed="#Qb"/>tum;
+            sed fides immediate habet coniungi cum
+            <lb ed="#Qb"/>prima Veritate. Et hoc est quod dicit Richar<lb ed="#Qb"/>dus
+            de S. Victorem: <quote>Innumera miracula in
+            <lb ed="#Qb"/>iis quae [nonnisi] divinitus fieri possunt nobis
+            <lb ed="#Qb"/>tidem faciunt et dubitare non sinunt; utimur in
+            <lb ed="#Qb"/>eorum attestatione,sive confirmatione signis pro
+            <lb ed="#Qb"/>argumentis, prodigiis pro experimentis. Utinam
+            <lb ed="#Qb"/>attenderent ludaei, adverterent pagani cum quanta
+            <lb ed="#Qb"/>conscientiae securitate pro hac parte ad divinum
+            <pb ed="#Qb" n="296"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>iudicium poterimus accedere! 'Nonne ictum omni
+            fiducia Deo poterimus dieere: Domine, si error
+            <lb ed="#Qb"/>est, a te ipso " decepti sumus? Nam ista in nobis
+            <lb ed="#Qb"/>tantis signis et prodigiis confirmata sunt et talibus,
+            <lb ed="#Qb"/>quae non nisi a te fieri possunt </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Sed1 iterum quaeritur 'an hoc pertineat ad
+            <lb ed="#Qb"/>fidem informem vel virtutem <lb ed="#Qb"/>
+               </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quOd 'non ad informem: 1. Quia fi<lb ed="#Qb"/>des
+            sine operibus non solum infirmab est, sed
+            <lb ed="#Qb"/>mortua, ut habetur Iac. 2, 20 et CII Cor. 13,2: Si
+            <lb ed="#Qb"/>habuero 'omnem fidem, ita ut montes transferam,
+            <lb ed="#Qb"/>caritatem autem non habeam, nihil sum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Et dicendum quod non exigitur quod
+            <lb ed="#Qb"/>sit virtus. Quod probatur per illud ** quod habetur
+            <lb ed="#Qb"/>Matth. 7, 22. Multi [dicent in illa die: Domine,
+            <lb ed="#Qb"/>nonne in nomine tuo daemonia eiecimusf? etc.,
+            <lb ed="#Qb"/>Glossazz <quote> Monet ne a talibus decipiantur,
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>putantes ibi esse invisibilem sapientiam, ubi est
+            <lb ed="#Qb"/>visibilef miraculum</quote> .Simile est in sacramento
+            <lb ed="#Qb"/>Baptismi, ubi sacerdos tamquam minister non facit
+            <lb ed="#Qb"/>nisi praeparationem quantum ad exteriora, sed
+            <lb ed="#Qb"/>solus Deus operatur quod est interius,, scilicet
+            <lb ed="#Qb"/>remissionem culpae et impressionem caracteris;
+            <lb ed="#Qb"/>ibi autem non requiritur quantum ad substantiam
+            <lb ed="#Qb"/>sacramenti dignitas et bonitasg sacerdotis, quia
+            <lb ed="#Qb"/>aeque ministratur per indignum sicut per dignum.
+            <lb ed="#Qb"/>Eodem modo hic et in omnibus, aliis quae sunt
+            <lb ed="#Qb"/>opera Dei. Et per hoc apparet quod opus Dei
+            <lb ed="#Qb"/>est et non hominis; homo autem invocat Dei
+            <lb ed="#Qb"/>virtutem in fide, licet non virtute, et Dominus
+            <lb ed="#Qb"/>operatur; et haec invocatio non est nisi quaedam
+            <lb ed="#Qb"/>praeparatioh sive praeparativa dispositio, et ideo
+            <lb ed="#Qb"/>non est magnum illi, licet magnum in se sit, quia
+            <lb ed="#Qb"/>opus Dei. Unde-ibidem Glossa3: <quote>Ecce non
+            <lb ed="#Qb"/>magni est virtutes operari </quote>.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

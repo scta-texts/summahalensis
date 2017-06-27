@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 1, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 1, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="561"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s2q1t1m2c1">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 1, M. 2, C. 1</head>
+        <head type="question-title">UTRUM CORPUS ADAE ERAT VERE CORPUS HUMANUM.</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum obieiturf sie: a. A n se l m u s, in
+          <lb ed="#Qb"/>libro g De conceptu virginali 1 : <quote> Pariter verus
+          <lb ed="#Qb"/>est h homo et Adam de non ho mine et Iesus de
+          <lb ed="#Qb"/>sola muliere et Eva de solo viro, sicut est verus
+          <lb ed="#Qb"/>homo quilibet vir 1 aut mulier de viro et mu<lb ed="#Qb"/>liere</quote>; 
+          sed non esset verus homo nisi habuisset
+          <lb ed="#Qb"/>veritatem corporis humani.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, veritas causati est a veritate causae;
+          <lb ed="#Qb"/>omnia autem corpora humana sunt a corpore
+          <lb ed="#Qb"/>primi hominis, ut tactum est 2 ; ergo, cum h umana
+          <lb ed="#Qb"/>corpora, propagata a corpore ilio, sint vera cor<lb ed="#Qb"/>pora
+          humana, relinquitur quod illud fuit corpus
+          <lb ed="#Qb"/>huiusmodi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, A n se l m u s, in libro k De veritate 3 :
+          <lb ed="#Qb"/>
+          <quote> Magister: Quidquid est, vere est, in quantum
+          <lb ed="#Qb"/>est 1 hoc quod in summa veritate est. Disci<lb ed="#Qb"/>pulus:
+          Absolute potes concludere qui a m o m ne
+          <lb ed="#Qb"/>quod est, vere est, quoniam n non est aliud quam
+          <lb ed="#Qb"/>quod ibi est</quote>. Sed ibi fuit ut producendum in esse
+          <lb ed="#Qb"/>secundum veritatem: quod patet ex Sacra Scrip<lb ed="#Qb"/>tura4 ; 
+          ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Christus, ut probaret se assumpsisse
+          <lb ed="#Qb"/>veritatem humanae naturae, assumpsit defectus
+          <lb ed="#Qb"/>nostros; ergo, si non fuerunt in ilio corpore de<lb ed="#Qb"/>fectus,
+          non fuit in eo veritas humanae naturae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, participatio naturalium proprietatum
+          <lb ed="#Qb"/>attestatur veritati rei; sed corporis compositi
+          <lb ed="#Qb"/>ex elementis naturalis est proprietas pugna et
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>dissolutio: ut enim dici t D a m asce nus 5, <quote> com<lb ed="#Qb"/>positio
+          o est principium pugnae, pugna disso<lb ed="#Qb"/>lutionis</quote> 
+          etc.; ergo, si pugna et dissolutio non
+          <lb ed="#Qb"/>erant naturales proprietates corporis Adae, ergo
+          <lb ed="#Qb"/>non erat verum corpus; ergo nec verum corpus
+          <lb ed="#Qb"/>huiusmodi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, ad hoc ostendendum inducunt qui<lb ed="#Qb"/>dam P 
+          illud: Gen. 2, 7, secundum q aliam trans<lb ed="#Qb"/>lationem
+          6, dicitur: <quote ana="#gen2_7">Finxit Deus hominem de terra</quote>;
+          <lb ed="#Qb"/>sed veritas et fictio opponuntur; si ergo corpus
+          <lb ed="#Qb"/>illud fuit fictum, non fuit corpus verum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, ut ex .verbis A n se l m i, libro De veri<lb ed="#Qb"/>tate,
+          supra dictis 7 patet quod veritas in creatura r
+          <lb ed="#Qb"/>non est aliud quam s quod est in summa ven<lb ed="#Qb"/>tate8 ; 
+          sed nihil est in summa veritate nisi quod t
+          <lb ed="#Qb"/>est immutabile et invariabile. Praeterea, dicì<lb ed="#Qb"/>tur
+          ibidem 9 : <quote> Veritas est in omnium quae u
+          <lb ed="#Qb"/>sunt essentia, quia hoc sunt quod in summa
+          <lb ed="#Qb"/>veritate sunt </quote>. Ex hoc patet, cum corpus illud
+          <lb ed="#Qb"/>possibile fuit et perductum ad v non esse, corpus
+          <lb ed="#Qb"/>hominis non habuit veritatem corporis humani.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, quod incipit esse quod non erat, desinit
+          <lb ed="#Qb"/>esse x quod fuit vel quod est; quod autem est
+          <lb ed="#Qb"/>tale non habet verum esse, quia veritas, in quan<lb ed="#Qb"/>tum
+          veritas, semper manet una et eadem, ut vult
+          <lb ed="#Qb"/>Augustinus<!--10--> ; sed corpus Ada e desii t esse
+          quod erat: primo enim fuit immortale etz incorruptibile
+          et postmodum mortale et corruptibile;
+          <pb ed="#Qb" n="562"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>ergo incepit esse quod non erat et desiit esse
+          <lb ed="#Qb"/>quod fuit "; ergo in eo non fuit veritas essendi,
+          <lb ed="#Qb"/>et ita ut prius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, aut erat corpus illudb artificiale aut natu<lb ed="#Qb"/>rale.
+          Si artificiale, habeo propositum, quia nullum
+          <lb ed="#Qb"/>corpus artificiale potest esse verum corpus hu<lb ed="#Qb"/>manum.
+          Nec naturale, probatio: Quia non fuit
+          <lb ed="#Qb"/>productum in esse operatione naturae; natura
+          <lb ed="#Qb"/>enim est vis insita rebus simile ex simili pro<lb ed="#Qb"/>creans1; 
+          ergo non fuit in eo veritas huius rationis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Praeterea, haeretici2 quidam ponebant
+          <lb ed="#Qb"/>Christum non esse filium naturalem Virginis, quia
+          <lb ed="#Qb"/>non erat ex similibus productus in esse, qui ea<lb ed="#Qb"/>dem
+          ratione possent ponere corpus Adae non
+          <lb ed="#Qb"/>esse corpus humanum naturale.
+        </p>
+        <p>
+          <lb ed="#Qb"/>8. Ad hoc potest esse confirmatio, quia sub<lb ed="#Qb"/>stantia
+          spiritualis, cum format corpus ex aliqua
+          <lb ed="#Qb"/>materia, non dicitur formare verum corpus, sicut
+          <lb ed="#Qb"/>angelus, cum assumit corpus aliquod, illud non
+          <lb ed="#Qb"/>est verum corpus humanum 3 ; ergo a simili vi<lb ed="#Qb"/>detur
+          in proposito.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad hoc dicendum quod corpus illud
+          <lb ed="#Qb"/>verum corpus humanum erat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo obiectum in con<lb ed="#Qb"/>trarium,
+          dicendum quod Christus assumpsit de
+          <lb ed="#Qb"/>quatuor statibus hominis: de statu ante peccatum
+          <lb ed="#Qb"/>immunitatem peccati, de statu naturae lapsae
+          <lb ed="#Qb"/>poenam et defectus, de statu gratiae plenitudinem
+          <lb ed="#Qb"/>gratiae, de statu gloriae perfectam contemplatio<lb ed="#Qb"/>nem,
+          ut patet III Sententiarum, dist. 16, cap.
+          <lb ed="#Qb"/>ultimo4. Christus ergo, assumendo nostros defec<lb ed="#Qb"/>tus,
+          ostendit se assumpsisse veritatem humanae
+          <lb ed="#Qb"/>naturae quantum ad statum naturae lapsae: unde
+          <lb ed="#Qb"/>ex hoc non sequitur quod Adam in statu condi<lb ed="#Qb"/>tionis
+          suae sive innocentiaee non habuit verum
+          <lb ed="#Qb"/>corpus humanum, eo quod non habuit quasdam
+          <lb ed="#Qb"/>proprietates accidentales quas postea habuit, sci<lb ed="#Qb"/>licet
+          in statu naturae lapsae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendum quod, sicut dicitur. in
+          <lb ed="#Qb"/>VI T opicorum 5, si mortale fiat immortale, non
+          <lb ed="#Qb"/>est factaf differentia secundum substantiam, sed
+          <lb ed="#Qb"/>secundum statum, ita dicendum este hic quod,
+          <lb ed="#Qb"/>si primo 11 fuit corpus immortale, post vero mor<lb ed="#Qb"/>tale,
+          non propter hoc variata erat essentia; cum
+          <lb ed="#Qb"/>ergo veritas essentiam respiciat, patet quod ve<lb ed="#Qb"/>ritas
+          erat corporis humani in illo corpore. Ad
+          <lb ed="#Qb"/>hoc ergo quod obicitur quod 'pugna et dis<lb ed="#Qb"/>solutio
+          sunt proprietates naturales' etc.: dicen<lb ed="#Qb"/>dum
+          quod non sunt proprietates simpliciter, sed
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>habito respectu ad statum humanae naturae lapsae
+          <lb ed="#Qb"/>universaliterï loquendo. In corpore enim primi
+          <lb ed="#Qb"/>hominis, antequam lapsus esset *, erat tanta aequa<lb ed="#Qb"/>litas
+          virtutum elementarium quod non erat ibi
+          <lb ed="#Qb"/>actio abiciens a substantia, sed potius pax et
+          <lb ed="#Qb"/>harmonia secundum optimam earum commensu<lb ed="#Qb"/>rationem,
+          ut dictum est supra 5. Unde verbum D a<lb ed="#Qb"/>masceni
+          intelligitur quantum ad statum natu<lb ed="#Qb"/>rael
+          lapsae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud dicendum quod 'fingere' aequi<lb ed="#Qb"/>voce
+          dicitur: uno modo idem est quod componere,
+          <lb ed="#Qb"/>secundum quod dicit Gregorius7 quod <quote> com<lb ed="#Qb"/>positores
+          luti figulos vocamus </quote>, et sic Dominus,
+          <lb ed="#Qb"/>operans in massa lutea, fingere dictus est, et haec
+          <lb ed="#Qb"/>fictio veritati non opponitur; alio modo dicitur
+          <lb ed="#Qb"/>'fingere' actus virtutis aestimativae componentis
+          <lb ed="#Qb"/>et dividentis ea quae veritatem non habent, et
+          <lb ed="#Qb"/>tale 'fingere' non fuit ibi: nam illud opponitur
+          <lb ed="#Qb"/>veritati secundum quod dicitur Sap. 14,16: <quote ana="#sap14_16">Hic
+          <lb ed="#Qb"/>error tamquam lex " custoditus est et tyrannorum
+          <lb ed="#Qb"/>imperio colebantur figmenta</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad illud quod consequenter obicitur quod
+          'veritas in creatura non est aliud quam quod est
+          <lb ed="#Qb"/>in summa veritate, ubi0 nihil est mutabile et va<lb ed="#Qb"/>riabile'
+          etc., dicendum, sine praeiudicio, quod
+          <lb ed="#Qb"/>ratio dictiP huius est haec: quia veritas creaturae
+          <lb ed="#Qb"/>est '! secundum artem et exemplar aeternum, quod
+          <lb ed="#Qb"/>est ipsa summa veritas. Unde veritas in creatura
+          <lb ed="#Qb"/>dicitur esse in veritate aeterna, sicut aliquid di<lb ed="#Qb"/>citur
+          esse in exemplari vel arte secundum quam
+          <lb ed="#Qb"/>est. Ratione enim' trium quae sunt in creatura,
+          <lb ed="#Qb"/>quae sunt unitas, veritas, bonitas, est ipsa vesti<lb ed="#Qb"/>gium
+          Creatoris, scilicet Trinitatis, repraesentans
+          <lb ed="#Qb"/>potentiam Patris per unitatem, sapientiam Filii
+          <lb ed="#Qb"/>per veritatem, bonitatem Spiritus .Sancti per bo<lb ed="#Qb"/>nitatem
+          3, secundum quaes tria ipsa Trinitas cadit
+          <lb ed="#Qb"/>in triplex genus causae, scilicet efficientis ratione
+          <lb ed="#Qb"/>potentiae, formalis ratione sapientiae sive veritatis
+          <lb ed="#Qb"/>vel exemplaritatis ', finalis ratione bonitatis 9. Non
+          <lb ed="#Qb"/>ergo dicitur veritas quae est in creatura, esse in
+          <lb ed="#Qb"/>veritate summa, quia" sit in illa per essentiam,
+          <lb ed="#Qb"/>sed quia est in illa sicut effectus in causa tor<lb ed="#Qb"/>mali
+          exemplari sive in arte secundum quam est.
+          — Quod autem dicitur quod 'ibi nihil est va<lb ed="#Qb"/>riabile
+          et" mutabile' etc.: dicendum quod hoc
+          <lb ed="#Qb"/>verum est in quantum ibi est. Illa enim ars
+          <lb ed="#Qb"/>sive exemplar aeternum nulli subiacet varietati;
+          <lb ed="#Qb"/>quae tamen secundumx ipsam producuntur in
+          <lb ed="#Qb"/>esse, variabilia sunt. Unde <name ref="#Augustine">Augustinus</name>, De
+          <pb ed="#Qb" n="563"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>confessionibus 1: <quote> Apud te, Deus, omnium rerum
+          <lb ed="#Qb"/>instabilium stant" causae et omnium rerum mu<lb ed="#Qb"/>tabilium
+          immutabiles manent origines et omnium
+          <lb ed="#Qb"/>irrationabiliumb et temporalium sempiternae vi<lb ed="#Qb"/>vunt
+          rationes </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad hoc quod consequenter obicitur, dicen<lb ed="#Qb"/>dum
+          quod, si corpus illud prius " tuit incorrupti<lb ed="#Qb"/>bile
+          et post corruptibile, non propter hoc desiit
+          <lb ed="#Qb"/>esse quod prius fuit, sedd cuiusmodi primitus
+          <lb ed="#Qb"/>fuit. Tamen circa hoc notandum quod quidquid
+          <lb ed="#Qb"/>in corporibus humanis immutabile intelligitur, pri<lb ed="#Qb"/>mae
+          conditionis este proprium; quidquid vero
+          <lb ed="#Qb"/>mutabile et variumf, illud superadditum est et
+          <lb ed="#Qb"/>extra naturam substitutum, quantum ad statum
+          <lb ed="#Qb"/>conditionis. Unde universaliter in omnibus corpo<lb ed="#Qb"/>ribus
+          humanis una et eadem forma communisg
+          <lb ed="#Qb"/>intelligitur et semper incommutabiliter stat: va<lb ed="#Qb"/>riabiles
+          enim differentiae, quae eidem formae
+          <lb ed="#Qb"/>accidunt, non contingunt ex ratione primae con<lb ed="#Qb"/>ditionis.
+          Unde Gregorius Nyssenus, cap. 27
+          <lb ed="#Qb"/>De imaginez: <quote> Non per omnia quodh est no<lb ed="#Qb"/>strum
+          in fluxu et transmutatione est. Si enim
+          <lb ed="#Qb"/>esset, reprehensibile esset universaliter quod nul<lb ed="#Qb"/>lum
+          statum habet ex2 natura; sed iuxta subtilio<lb ed="#Qb"/>rem
+          rationem eorum quae in nobis sunt, quoddam
+          <lb ed="#Qb"/>quidem stat, quoddamk vero ex mutabilitate oc<lb ed="#Qb"/>cidit.
+          Mutatur enim secundum augmentationernl
+          <lb ed="#Qb"/>et diminutionem corpus, veluti vestimenta quae<lb ed="#Qb"/>dam
+          secundum consequentes aetates indutum.
+          <lb ed="#Qb"/>Stat vero per omnem conversionem intransmuta<lb ed="#Qb"/>bilis
+          in se ipsa forma insitis sibi semel ex natura
+          <lb ed="#Qb"/>signis non desistens, sed in omnibus secundum
+          <lb ed="#Qb"/>corpus transmutationibus cum suis notionibus ap<lb ed="#Qb"/>paret.
+          Subtrahetur per verbum </quote>, Domini videlicet,
+    <quote>ipsa, quae ex passione est, mutatio, quae formae
+          <lb ed="#Qb"/>superaccidit</quote>. Notatur ergo in hac auctoritate
+          <lb ed="#Qb"/>triplex status naturae humanae, scilicet naturae
+          <lb ed="#Qb"/>conditae per statum immutabilitatis ipsius formae,
+          <lb ed="#Qb"/>naturae lapsae per mutabilitatem "' passionum va<lb ed="#Qb"/>riarum
+          circa ipsam essentiam, naturae reparatae
+          <lb ed="#Qb"/>per subtractionem mutationis ", quae accidit circa
+          <lb ed="#Qb"/>essentiam vel formam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad aliud dicendum quod corpus illud erat
+          <lb ed="#Qb"/>naturale. Sed naturale dicituro dupliciter. Uno
+          <lb ed="#Qb"/>modo dicitur ' naturale ' in quo est veritas quae?
+          <lb ed="#Qb"/>congruit naturae tali: et secundum hunc modum
+          <lb ed="#Qb"/>erat'! corpus illud naturale, quia in illor erat
+          <lb ed="#Qb"/>tota veritas quae congruebat naturae corporis
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>humani. Alio modo dicitur 'naturale' quod actione
+          <lb ed="#Qb"/>naturae producitur in esse: et secundum hunc
+          <lb ed="#Qb"/>modum non erat naturale; non enim producebatur
+          <lb ed="#Qb"/>in esse operationes naturae, sed potius operatione
+          <lb ed="#Qb"/>Conditoris naturae. Cum enim sit triplex cursus
+          <lb ed="#Qb"/>sive exitus rerum in esse, ut habetur ab An<lb ed="#Qb"/>s
+          elm 0, De conceptu virginali 3, scilicet mirabilis,
+          <lb ed="#Qb"/>naturalis et voluntarius, naturalia primo modo
+          <lb ed="#Qb"/>dicta cursu mirabili exeunt quandoque in esse.
+          <lb ed="#Qb"/>Unde originalia rerum principia, et maxime corpus
+          <lb ed="#Qb"/>Adae producebatur in esse cursu mirabili4 ; erat ta<lb ed="#Qb"/>men
+          corpus humanum habens quidquid requiritur
+          <lb ed="#Qb"/>ad veritatem corporis huiusmodi: unde non sequi<lb ed="#Qb"/>tur
+          ' non fuit productum in esse operatione natu<lb ed="#Qb"/>rae,
+          quae est vis insita etc., ergo non fuit naturale'.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Ad positionem haereticorum dicen<lb ed="#Qb"/>dum
+          quod aliquando Deus ex simili simile producit
+          <lb ed="#Qb"/>in esse, aliquando ex dissimili, sicut dicit Cas.<lb ed="#Qb"/>sianus,
+          De incarnatione Verbi 5, contra haereti<lb ed="#Qb"/>cos
+          praedictos scilicet, qui ponebant Christum non
+          <lb ed="#Qb"/>esse Filium naturalem Virginis, dicens" sic: <quote> Si
+          <lb ed="#Qb"/>ideo natum ex Virgine Deum non putas, quia ho<lb ed="#Qb"/>moousios
+          parenti debet esset nativitas, quo modo "
+          <lb ed="#Qb"/>res dissimiles ex dissimilibus crediturus es sub<lb ed="#Qb"/>stitisse"
+          naturis ? Ergo apud te nec cbturnices su<lb ed="#Qb"/>bito
+          ventus intulit'3 nec manna decidit7 nec vinum
+          <lb ed="#Qb"/>ex aqua prodiit8 nec multa millia hominum ex uno
+          <lb ed="#Qb"/>cibo pasta sunt9 nec post lutum caeco lumen appa<lb ed="#Qb"/>ruitxw
+    </quote>. Et ponit11 aliam instantiam de apibus
+          <lb ed="#Qb"/>quae nascuntur ex? floribus. Unde in hoc patet
+          <lb ed="#Qb"/>quod differt virtus infinita a virtute naturali sive
+          <lb ed="#Qb"/>creaturae, quoniam virtus increata operatur et ex si<lb ed="#Qb"/>milibus
+          et ex dissimilibus, in quibus non est poten<lb ed="#Qb"/>tia
+          activa; virtus vero creata ex similibus similia
+          <lb ed="#Qb"/>aut saltem ex talibus in quibus est potentia quodam
+          <lb ed="#Qb"/>modo activa, non solum materialis sive passiva.
+        </p>
+        <p>
+          <lb ed="#Qb"/>8. Ad illud quod adiungitur quod 'spiritualis
+          <lb ed="#Qb"/>substantia non format verum corpus huma—
+          <lb ed="#Qb"/>num' etc.: dicendum 12 quod non est simile, quia
+          <lb ed="#Qb"/>illa formatio non est nisi quaedam compactio ar<lb ed="#Qb"/>tificialis
+          ad operationem aliquam exercendam per
+          <lb ed="#Qb"/>usum illius corporis nec: est ibi proportio nu<lb ed="#Qb"/>meralis
+          ad animam humanam, quae debet esse
+          <lb ed="#Qb"/>inter corpus organicum perfectibile anima ratio<lb ed="#Qb"/>nali,
+          nec inter substantiam angelicam et illud. Sed
+          <lb ed="#Qb"/>corpus Adae, quamvis formatum fuerit a Deo de
+          <lb ed="#Qb"/>limo, tamen fuit organum verum animae Adae et
+          <lb ed="#Qb"/>ipsa forma eiusdem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

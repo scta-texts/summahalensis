@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 3, T. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 3, T. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="403"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s1q3t1c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 3, T. 1, C. 2</head>
+        <head type="question-title">UTRUM ANIMA SIT UNA VEL PLURES IN TRIBUS POTENTIIS</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur utrum anima sit una vel
+          plures in tribus potentiis, vegetabili, sensibili
+          <lb ed="#Qb"/>et rationali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem sit una, sic ostenditur: a. Sicut
+          <lb ed="#Qb"/>se habet pertectibile ad perfectibilef, sic. per<lb ed="#Qb"/>fectio
+          ad perfectionem; sed non differt in homine
+          <pb ed="#Qb" n="404"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>perfectibile a vegetabili, sensibili et rationali, quia
+          <lb ed="#Qb"/>unus homo secundum rem est vegetabilis, sensi<lb ed="#Qb"/>bilis
+          et rationalis; ergo una erit perfectio secun<lb ed="#Qb"/>dum
+          substantiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, si essent multa et secundum substan<lb ed="#Qb"/>tiam
+          et secundum potentiam, actus unius non
+          <lb ed="#Qb"/>impediretur per actum alterius; sed contrarium
+          <lb ed="#Qb"/>videmus, quod anima occupata circa actum unius
+          <lb ed="#Qb"/>impeditur ab actu alterius; ergo sunt" eadem
+          <lb ed="#Qb"/>substantia. vegetabilis, sensibilis et rationalisl.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, si essent differentes secundum substan<lb ed="#Qb"/>tiam
+          et potentiam et b operationem, in nullo
+          <lb ed="#Qb"/>convenirent et sic impossibilis esset unitiof in
+          <lb ed="#Qb"/>homine. non enim uniuntur quae in aliquo non
+          <lb ed="#Qb"/>conveniunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, si hoc esset, esset homo diversarum
+          <lb ed="#Qb"/>specierum: differentiam enim speciei facit diver<lb ed="#Qb"/>sitas
+          substantialis perfectionis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Item, arguitur hoc ex resurrectione: Cum
+          <lb ed="#Qb"/>enim non dicatur anima resurgere, sed corpus,
+          <lb ed="#Qb"/>anima autem corpori resurgenti coniungitur, sid
+          <lb ed="#Qb"/>sensibilis in homine esset alterius substantiae
+          <lb ed="#Qb"/>quam rationalis, et similiter. vegetabilis: aute
+          <lb ed="#Qb"/>desinerent esse, et ita' nen esset idem totum' in
+          <lb ed="#Qb"/>resurrectione quod prius erat; Si vero nonf de<lb ed="#Qb"/>sinerent
+          esse, essent tres substantiae separabiles,
+          <lb ed="#Qb"/>quarum nulla esset altera, et ita localiter divisae,
+          <lb ed="#Qb"/>et ita vegetabilis, quantum est de se:, in homine
+          <lb ed="#Qb"/>esset substantia separabilis; quod cum non sit,
+          <lb ed="#Qb"/>necesse est esse " unam substantiam in iis tribus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>f. Item, <name ref="#Augustine">Augustinus</name>, in libro De ecclesia<lb ed="#Qb"/>sticis
+          dogmatibuszz <quote>Neque duas animas in uno'
+          <lb ed="#Qb"/>homine esse dicimus, sicut Iacobus3 et alii
+          <lb ed="#Qb"/>Syrorum scribunt, unam animalem, qua ani<lb ed="#Qb"/>metur
+          corpus et immixta sit cumk sanguine, et
+          <lb ed="#Qb"/>aliam spiritualem, quae rationem ministret; sed
+          <lb ed="#Qb"/>dicimus unam eamdemque animam in homine,
+          <lb ed="#Qb"/>quae et! corpus sua societate vivificet et '" se<lb ed="#Qb"/>metipsam
+          sua ratione disponat, habens in se li<lb ed="#Qb"/>bertatem
+          arbitrii</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. In semine sive" in embrione ante
+          <lb ed="#Qb"/>infusionem animae rationalis praecedit quaedam
+          <lb ed="#Qb"/>potentia qua vegetatur et sentit4; sed illa potentia
+          <lb ed="#Qb"/>non est sine substantia, ergo animam rationalem
+          <lb ed="#Qb"/>praecedit substantia animae vegetabilis et sensi<lb ed="#Qb"/>bilis;
+          ergo. diversae sunt substantiae animao
+          <lb ed="#Qb"/>vegetabilis etP sensibilis et rationalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, non. est eadem substantia corruptibilis
+          <lb ed="#Qb"/>et incorruptibilis, sed corruptibilis est sensitiva,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>incorruptibilis rationalis; ergo non sunt idem
+          <lb ed="#Qb"/>secundum substantiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, separabilis et inseparabilis, mixta cor<lb ed="#Qb"/>pori
+          et non mixta nona sunt eadem substantia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod potest responderi quod una
+          <lb ed="#Qb"/>est substantia in homine habens has virtutes;
+          <lb ed="#Qb"/>unde <quote>anima rationalis, cum separatur, secum
+          <lb ed="#Qb"/>trahit sensum et imaginationsem' </quote>, sicut dicitur
+          <lb ed="#Qb"/>in libro De anima et spiritui.
+        </p>
+        <p> 
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id vero quod obicitur
+          <lb ed="#Qb"/>de embrione dicendums6 quod illa substantia,
+          <lb ed="#Qb"/>cuius est illa virtuS, non se habet per modum
+          <lb ed="#Qb"/>perficientis, sed per modum artificis praeparantis
+          <lb ed="#Qb"/>ipsum corpus, quod debet esse organum ipsius
+          <lb ed="#Qb"/>animae, quae. est perfectio. Nec dicetur esse
+          <lb ed="#Qb"/>animal ante ultimam perfectionem: animal enim
+          <lb ed="#Qb"/>a perfectione dicitur, non a praeparatione. Et si
+          <lb ed="#Qb"/>dicatur a Philosopho7 esse animal, hoc non
+          <lb ed="#Qb"/>est nisi ut distinguatur a corpore huiusmodi in
+          <lb ed="#Qb"/>quo non est virtus talis praeparatoria, non ut
+          <lb ed="#Qb"/>per hoc designetur esse in specie: non enim ut
+          <lb ed="#Qb"/>huiusmodi posset in se subsistere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliudf dicendum quod non est ea<lb ed="#Qb"/>dem
+          substantia corruptibilis et incorruptibilis.
+          <lb ed="#Qb"/>Substantia enim illa, quae ita" praeparat et est
+          <lb ed="#Qb"/>corruptibilis, non est eadem cum ipsa substantia
+          <lb ed="#Qb"/>animae rationalis; virtus autem sentiendi, quam
+          <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name> 8 separari cum corpore, unius
+          <lb ed="#Qb"/>substantiae est cum potentia intellectiva et, licet
+          <lb ed="#Qb"/>non sit separabilis ex ratione qua est sensibilis,
+          <lb ed="#Qb"/>est tamen separabilis ratione substantiae in qua
+          <lb ed="#Qb"/>fundatur. Ista vero sensibilis", licet in genere
+          <lb ed="#Qb"/>conveniat cum sensibili in brutis, 1n brutis autem
+          <lb ed="#Qb"/>sit corruptibilis, non propter hoc est in homine
+          <lb ed="#Qb"/>corruptibilis, quia in brutis non ordinatur nisi
+          <lb ed="#Qb"/>ad necessitatem corporis corruptibilis secundum
+          <lb ed="#Qb"/>tempus determinatum conservandi et ideo cum
+          <lb ed="#Qb"/>corpore corrumpitur; non sic autem est de ho<lb ed="#Qb"/>mine.
+          sua enimx ordinatio non tantum est ad
+          <lb ed="#Qb"/>perfectionem necessitatis corporalis, sed? ad mi<lb ed="#Qb"/>nisterium
+          virtutis intellectualis et ulterius ad hoc
+          <lb ed="#Qb"/>quod sicut meretur cum virtute intellectuali vel
+          <lb ed="#Qb"/>demeretur, ita praemietur vel puniatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Consimiliter potest responderi ad tertio
+          <lb ed="#Qb"/>obiectum. Sicut enim separabile et inseparabile
+          <lb ed="#Qb"/>non (conveniunt eidem substantiae, ita nec mixtum
+          <lb ed="#Qb"/>etz immixtum; sed nihil prohibet substantiam se<lb ed="#Qb"/>cundum
+          unam potentiam operari praeter corpus,
+          <lb ed="#Qb"/>secundum aliam operari in corpore sive per corpus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

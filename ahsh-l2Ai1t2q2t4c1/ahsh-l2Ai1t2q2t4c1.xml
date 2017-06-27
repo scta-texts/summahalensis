@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 4, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 4, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="84"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q2t4c1">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 4, C. 1</head>
+        <head type="question-title">UTRUM AETERNITAS CONVENIAT MUNDO</head>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum mundus sit aeternus ex parte initii.</head>
+          <p>
+            <lb ed="#Qb"/>Circa. primum sicf : 1. Bonitas Dei nunquamg 
+            <lb ed="#Qb"/>vacua. esse credenda est; sed ab aeterno fuit 
+            <lb ed="#Qb"/>bonitas; ergo ab aeterno fuit mundus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, voluntas Dei aeterna est; sed si noluit ab
+            <lb ed="#Qb"/>aeterno facere mundum et voluit tacere mundum
+            <lb ed="#Qb"/>post h, ergo aliqua mutatio videturesse volun<lb ed="#Qb"/>tatis
+            divinaei : sicut est in voluntate nostra sik
+            <lb ed="#Qb"/>nos volumus facere aliquid nunc quod' noleba<lb ed="#Qb"/>mus
+            prius facere, mutabilis videtur voluntas; ergo,
+            <lb ed="#Qb"/>cum voluntas eius sit immutabilis, non aliquando
+            <lb ed="#Qb"/>voluit facere mundum et aliquando non.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, essentia Dei fuit aeterna et voluntas eius
+            <lb ed="#Qb"/>similiter; aut ergo non statim fecit mundum aut
+            <lb ed="#Qb"/>fecit. Si statim, ab aeterno fuit mundus; si vero '"
+            <lb ed="#Qb"/>non statim, ergo prior erat vacatio" quam opera<lb ed="#Qb"/>tio;
+            ergo potentia divina exivit ab otio " in actum;
+            <lb ed="#Qb"/>sed potentia, quae exit? ab otio in actum, muta<lb ed="#Qb"/>bilis
+            est ; ergo potentia divina est mutabilis; sed
+            <lb ed="#Qb"/>hoc est impossibile ; ergo mundus fuit '1 ab aeterno.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, creatio est actio qua Deus fecit mundum,
+            <lb ed="#Qb"/>vel alio nomine nuncupetur. Aut ergo semper Deus
+            <lb ed="#Qb"/>fuit in illa actione aut non semper. Si semper iuit
+            <lb ed="#Qb"/>illa actio in Deo, semper fuit mundus, et ita ab
+            <lb ed="#Qb"/>aeterno ; si non semper, in aliquo instanti erat di<lb ed="#Qb"/>cere
+            quod actio illa iniuit et ante non intuerat; cum
+            <lb ed="#Qb"/>ergo de non agente tunc fieret agens, tunc mutatio
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>erat3 ; sed Deus est immutabilis; ergo et eius
+            <lb ed="#Qb"/>actio immutabilis; ergo semper erat mundus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Item, <name ref="#Augustine">Augustinus</name>," in libro De civitate Dei4:
+      <quote> Sicut Dominum Deum aliquando ' Dominum ' non
+            <lb ed="#Qb"/>fuisse dicere non audeo, ita hominem nunquam
+            <lb ed="#Qb"/>antea fuisse et in quodam tempore primum ho<lb ed="#Qb"/>minem
+            creatum fuisse dubitare non debeo </quote>. Ergo
+            <lb ed="#Qb"/>Deus ab aeterno fuit Dominus'; sed dominus
+            <lb ed="#Qb"/>non dicitur nisi alicuius rei dominus; sed non
+            <lb ed="#Qb"/>est aliqua res cuius dicatur dominus, nisi aut
+            <lb ed="#Qb"/>mundi aut alicuius partis mundi; ergo vel * mun<lb ed="#Qb"/>dus
+            vel aliqua pars mundif erat ab aeterno,
+            <lb ed="#Qb"/>respectu cuius dominus diceretur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Item, sit A 'nunc ' in quo prius erat mundus:
+            <lb ed="#Qb"/>aut illud 'nunc'u praecessit aliud ' nunc' aut
+            <lb ed="#Qb"/>non. Si aliud praecessit, cum 'nunc' et 'nunc'
+            <lb ed="#Qb"/>non sint sine variatione, aliqua variatio praecessit
+            <lb ed="#Qb"/>mundum; sed nulla variatio praecessit mundum;
+            <lb ed="#Qb"/>ergo ante illud non erat aliud 'nunc'; ergo erat
+            ' nunc aeternitatis '; ergo mundus fuit ab aeterno.
+         </p>
+          <p>
+            <lb ed="#Qb"/>7. Item, aut Deus potuit iacere mundum ab ae<lb ed="#Qb"/>terno
+            et voluitV aut voluit ab aeterno et non potuit
+            <lb ed="#Qb"/>aut potuit ab aeterno et non voluit *. Si ab aeterno
+            <lb ed="#Qb"/>potuit et voluit, habetur propositum; si vero vo<lb ed="#Qb"/>luit
+            et non potuit, impotens fuit: quod est impos<lb ed="#Qb"/>sibile
+            ; si vero potuit et noluit, non ? summa
+            <pb ed="#Qb" n="85"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>bonitas in eo fuit': quod iterum est inconveniens;
+            <lb ed="#Qb"/>restat ergo quod mundus ab aeterno fuit.
+         </p>
+          <p>
+            <lb ed="#Qb"/>8. Item, Deus ab aeterno fuit ratione potentiae,
+            <lb ed="#Qb"/>sapientiae et voluntatis " omnimoda causa ipsius
+            <lb ed="#Qb"/>mundi sive creaturae; ergo, cum causa posita
+            <lb ed="#Qb"/>ponatur causatum 2, ab aeterno fuit mundus sive
+            <lb ed="#Qb"/>creatura.
+         </p>
+          <p>
+            <lb ed="#Qb"/>9. Item, creatura sive mundus non semper fuit ;
+            <lb ed="#Qb"/>ergo mutatione aliqua processit in esse; sed illa 
+            <lb ed="#Qb"/>mutatio non b est nisi creatura; ergo ad mundum 
+            <lb ed="#Qb"/>pertinet; ergo non semper fuit; mutatione ergo
+            <lb ed="#Qb"/>processit in esse, et sic in infinitum; sed hoc
+            <lb ed="#Qb"/>impossibile estf; ergo mundus semper fuit. —
+         </p>
+          <p>
+            <lb ed="#Qb"/>10. Item, mundus archetypus est ad cuius simi—
+            <lb ed="#Qb"/>litudinem factus est mundus sensibilis; mundus
+            <lb ed="#Qb"/>autem archetypus plenus est rationibus aeternis,
+            <lb ed="#Qb"/>quae sufficiunt ad rationem creaturarum3; ergo
+            <lb ed="#Qb"/>mundus sensibilis, qui est creatus d, sufficientem
+            <lb ed="#Qb"/>habet causam ab aeterno, cum mundus archetypus
+            <lb ed="#Qb"/>sit aeternus; ergo mundus sensibilis est aeternus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>11. Item, aliquise procedit ab aeterno qui est
+            <lb ed="#Qb"/>consubstantialis illi a quo procedit, sicut Filius pro—
+            <lb ed="#Qb"/>cedit a Patre; et estf aliquid quod procedit a re
+            <lb ed="#Qb"/>aeterna, quod est distinctum in substantia ab illag
+            <lb ed="#Qb"/>et non est aeternum, sicut generabilia et corrup<lb ed="#Qb"/>tibilia.
+            Cum ergo haec duo extrema sint in uni<lb ed="#Qb"/>verso
+            et in ordine universi nihil est incompletum,
+            <lb ed="#Qb"/>duo autem contingat assignare media -— unum,
+            <lb ed="#Qb"/>quod est illi consubstantialeh et non aeternum,
+            <lb ed="#Qb"/>aliud 1, quod est diversum et aeternum — erunt
+            <lb ed="#Qb"/>ergo illa duo media, sik non obviet eis impossi<lb ed="#Qb"/>bilitas
+            rationis; sed unum est quod' differat in
+            <lb ed="#Qb"/>substantia a Primo, et sic '" aeternum; si ergo non
+            <lb ed="#Qb"/>obviat impossibilitas rationis, erit aliud huius<lb ed="#Qb"/>modi;
+            sed tale non est nisi " mundus aut creatura
+            <lb ed="#Qb"/>aliqua mundi; ergo mundus vel aliqua mundi crea<lb ed="#Qb"/>tura
+            est aeterna; et dico aeternum non sine prin<lb ed="#Qb"/>cipio
+            causalitatis, sed sine principio durationis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>12. Item, divina bonitas manifestativa fuit sui in
+            <lb ed="#Qb"/>summo ab aeterno: hoc enim est de natura-boni
+            <lb ed="#Qb"/>ut se manifestet, et summi boni ut se summe
+            <lb ed="#Qb"/>manifestet et aeterni summi boni ut se summe ab
+            <lb ed="#Qb"/>aeterno manifestet 4. Si ergo multitudo creatura<lb ed="#Qb"/>rum
+            facit ad 0 eius manifestationem, debuit esse?
+            <lb ed="#Qb"/>multitudo creaturarum ab aeterno, et ita mundus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>13. Item, omnis operator per voluntatem et
+            <lb ed="#Qb"/>propter *? finem, si operatur in una hora et
+            <lb ed="#Qb"/>non in alia, hoc est propter prohibentia' vel
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>expergefacientiaa ; sed Deus est operator per vo<lb ed="#Qb"/>luntatem
+            et propter b finem nec habet prohibentia c
+            <lb ed="#Qb"/>vel expergefacientia; ergo non operatur in d una
+            <lb ed="#Qb"/>hora aliter quam in alia vel in una operatur et'-'
+            <lb ed="#Qb"/>in alia non operatur; cum ergo operetur, similiter
+            <lb ed="#Qb"/>operabitur; ergo non plusf est ratio quare in una
+            <lb ed="#Qb"/>hora quam in alia; ergo ab aeterno operatur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>14. Item, <quote> idem similiter se habens semper est
+            <lb ed="#Qb"/>natum g facere idem 5 </quote>; sed Deus est similiter se
+            <lb ed="#Qb"/>habens semper; ergo semper facit idem; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Mundus renovatur inh partibus
+            <lb ed="#Qb"/>suis; renovatio autem partium dat intelligere re<lb ed="#Qb"/>novationem
+            totius. Arbor enim una si procedit,
+            <lb ed="#Qb"/>procedit ab arborei altera et illa ab alia, et ita
+            <lb ed="#Qb"/>aliquando erit status, quia non est in k infinitum
+            <lb ed="#Qb"/>abire; sed' existente statu illa arbor non se pro<lb ed="#Qb"/>ducit
+            in esse; ergo habebit factorem. Eodem modo
+            <lb ed="#Qb"/>est de aliis quae fiunt; sicut ergo est renovatio
+            <lb ed="#Qb"/>in partibus, ita erit renovatio in universo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, non est processus causarum in infini<lb ed="#Qb"/>tumö;
+            ergo necesse est in causa materiali perve<lb ed="#Qb"/>nire
+            ad primam causam materialem; sed illa non
+            <lb ed="#Qb"/>producit se in esse nec est de substantia agentis;
+            <lb ed="#Qb"/>ergo non de aliquo; ergo procedit in esse post
+            <lb ed="#Qb"/>privationem perfectam; ergo non est aeternum;
+            <lb ed="#Qb"/>mundus ergo non est aeternus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Item, substantiae mundi vel sunt coniunctae
+            <lb ed="#Qb"/>tantum vel separatae tantum vel quaedam quan<lb ed="#Qb"/>doque
+            coniunctae, quandoque m separatae; si tan<lb ed="#Qb"/>turn
+            essent coniunctae, non dividerentur; si au<lb ed="#Qb"/>tem
+            tantum divisae, non coniungerentur; ergo
+            <lb ed="#Qb"/>aliquando coniunguntur, aliquando dividuntur;
+            <lb ed="#Qb"/>ergo necesse est motorem esse a quo ista fiant;
+            <lb ed="#Qb"/>sed motor est ante motum secundum substan<lb ed="#Qb"/>tiam7;
+            ergo mundus, qui est ex rebus sic congre<lb ed="#Qb"/>gatis
+            aut segregatis, non est ab aeterno.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, mundus " aut habet esse contingens aut
+            <lb ed="#Qb"/>necessarium. Si vero" habet esse necessarium,
+            <lb ed="#Qb"/>non indiget alio ut sit, et ita esset creator; habet
+            <lb ed="#Qb"/>ergo esse contingens; sed quod habet esse con<lb ed="#Qb"/>tingens,
+            non est aeternum; ergo mundus non est
+            <lb ed="#Qb"/>aeternus. .
+         </p>
+          <p>
+            <lb ed="#Qb"/>e. Item, ea quae sunt in mundo, ordinantur
+            <lb ed="#Qb"/>ad aliquod genus motus; sed quae ordinantur ad
+            <lb ed="#Qb"/>aliquod genus motus, recipiunt innovationem ; ergo
+            <lb ed="#Qb"/>ea, quae sunt in mundo, recipiunt renovationem ;
+            <lb ed="#Qb"/>ergo mundus, qui est!', ex iis componitur; non
+            <lb ed="#Qb"/>ergo est ab aeterno.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="86"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>f. Item, aeternum dicitur quod non habet princi<lb ed="#Qb"/>pium
+            durationis'; ergo non erat dicere 'nunc' in
+            <lb ed="#Qb"/>quo prius" fuit mundus et est sumere aliquid quod
+            <lb ed="#Qb"/>primo <!--a--> iuit et non ante; ergo' mundus praecessit
+            <lb ed="#Qb"/>illud sicut aeternitas praecedit tempus; non ergo
+            <lb ed="#Qb"/>Deus tantum praecedit aeternitate res conditas.
+         </p>
+          <p>
+            <lb ed="#Qb"/>g. Item, motus et caelum sunt coaequaevabz;
+            <lb ed="#Qb"/>sed caelum tuit simul cum mundo; ergo motus
+            <lb ed="#Qb"/>simul cum mundo 0; sed motus fuit-in 'nunc
+            <lb ed="#Qb"/>temporis' ; ergo mundus; sed prius est "nunc
+            <lb ed="#Qb"/>aeternitatis ' quam ' nunc temporis ' ; ergo' mundus
+            <lb ed="#Qb"/>posterior 'nunc aeternitatis '; non ergo aeternus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>h. Item, 'nullum compositum est nobilius suis
+            <lb ed="#Qb"/>componientibus ; sed mundus componitur ex rebus
+            <lb ed="#Qb"/>conditis; ergo non est nobilior eis. Aut ergo com"<lb ed="#Qb"/>ponitur
+            ex rebus mutabilibus tantum 'aut exd re<lb ed="#Qb"/>bus
+            immutabilibus 'tantum aut ex istis eti illis;
+            <lb ed="#Qb"/>sed videmus quasdam res in mundo esse muta<lb ed="#Qb"/>biles;
+            non ergo componitur ex immutabilibus
+            <lb ed="#Qb"/>tantum-; restat ergo altera duarum differentiarum;
+            <lb ed="#Qb"/>ergo mundus est mutabilis, qui componitur ex
+            <lb ed="#Qb"/>illis; non ergo estf aeternus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>i. Item, mundus componitur ex materia et forma;
+            <lb ed="#Qb"/>sed cuius alterum principium est mutabile vel
+            "utrurnque, ipSur'n est mutabile; sed forma est mu<lb ed="#Qb"/>tabilis
+            ad minus et materia secundum quid velE
+            <lb ed="#Qb"/>simpliciter; ergo mundus, qui " ex iis componitur,
+            <lb ed="#Qb"/>est mutabilis; non ergo est' aeternus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>k. Item, si ea, quae nobiliora sunt in kmundo,
+            <lb ed="#Qb"/>non sunt aeterna, nec mundus eritl aeternus; sed
+            <lb ed="#Qb"/>de nobiliori-bus in mundo videmus "esse animas ra<lb ed="#Qb"/>tionales;
+            animae vero rationales similiter se haa<lb ed="#Qb"/>bent
+            ad 'suum principium; cum ergo una non sit
+            <lb ed="#Qb"/>aeterna, sicut nec corpus in quo creatur, nec alia
+            <lb ed="#Qb"/>anima erit aeterna; ergo nulla anima rationalis
+            <lb ed="#Qb"/>aeterna; mundus ergo,.qui componitur ex ipsis
+            <lb ed="#Qb"/>animabus tamquam nobilioribus partibus, non
+            <lb ed="#Qb"/>erit aeternus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>l. Item, 'si poneretur aeternus, essent duo ae<lb ed="#Qb"/>terna;
+            qua ergo ratione diceretur habere hoc'"
+            <lb ed="#Qb"/>principium a Deo, qui est aetemu's, cum haberet
+            <lb ed="#Qb"/>a se ipso aeternitatem ? secundum hoc etiam " vi<lb ed="#Qb"/>deretur
+            aequalis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Iis omnibus rationibus apparere potest mun<lb ed="#Qb"/>dum
+            non esse aeternum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Dicendum quod mundus non est aeter—
+            <lb ed="#Qb"/>nus, secundum quod * aeternum ' dicitur quod non
+            <lb ed="#Qb"/>habet principium durationis: de aeterno enim se<lb ed="#Qb"/>cundum
+            quod non habet finem, in proximo3 di—
+            <lb ed="#Qb"/>cetur. Unde opinio illorum philosophorumt,
+            <lb ed="#Qb"/>qui posuerunt"7 mundum esse aeternum, repro<lb ed="#Qb"/>banda
+            est tamquam fidei inimica, cum in Lege
+            et Prophetis5 contraria inveniantur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id vero quod primo
+            <lb ed="#Qb"/>obicitur quod ' bonitas Dei nunquam fuisse vacua
+            <lb ed="#Qb"/>credenda est ', sic P intelligi debet: aut ' nunquam '
+            <lb ed="#Qb"/>dicit ibi aeternitatem aut tempus. Si aeternitatem,
+            <lb ed="#Qb"/>verum est quod nunquam vacua tuit bonitas Dei, id
+            <lb ed="#Qb"/>est essentia Dei"? nunquam vacua fuit quin Deus
+            <lb ed="#Qb"/>Deum generarrerit', quin Pater et Filius spirave<lb ed="#Qb"/>rint
+            Spiritum Sanctum. Sed si haec dictio 'nun<lb ed="#Qb"/>quam
+            ' dicit tempus, bonitas Dei nunquam" vacua
+            <lb ed="#Qb"/>fuit a ilu'xu rerum conditarum, quia non fuit tem<lb ed="#Qb"/>pus,
+            in quo non flueret creatura ab ipsot Haec
+            <lb ed="#Qb"/>autem sententias introducitur in libro De civitate
+            <lb ed="#Qb"/>Dei 5, sub persona philosophorum adstruen<lb ed="#Qb"/>tium
+            mundi aeternitatem. Unde secundum hoc
+            <lb ed="#Qb"/>falsa esset, ut is esset sensus: bonitas Dei nun<lb ed="#Qb"/>quam
+            in aeternitate vacua fuit a iactura mundi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundum dicendum quod voluntas
+            <lb ed="#Qb"/>Dei non est mutabilis; Non enim 'voluit * 'ab
+            <lb ed="#Qb"/>aeterno iacere mundum, ita quod haec determi<lb ed="#Qb"/>natio
+            'ab aeterno' determinet hoc verbum 'vo<lb ed="#Qb"/>luit';
+            sed si determinet hoc verbum 'iacere',
+            <lb ed="#Qb"/>tunc noluit" facere ab aeterno. Voluntas autem
+            <lb ed="#Qb"/>diceretur mutabilis, si prius nollet et post vellet;
+            <lb ed="#Qb"/>si autem nollet tacere prius et vellet tacere post,
+            <lb ed="#Qb"/>non propter hoc diceretur mutabilis, sed mutatio
+            <lb ed="#Qb"/>tantum esset ex parte rei tactae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad tertium dicendum quod non dici<lb ed="#Qb"/>tur
+            divina voluntas exire abvotio in actum eo
+            <lb ed="#Qb"/>modo quo dicitur humana voluntas. Humana enim
+            <lb ed="#Qb"/>voluntas est secundum quam homo modo non
+            <lb ed="#Qb"/>vult et postea vult: unde prius ceSsavit a no<lb ed="#Qb"/>lendo, 
+            et postea voluit x esse, sed divina voluntas 
+            <lb ed="#Qb"/>ab aeterno voluit rem quae? temporaliter fuit.
+            <pb ed="#Qb" n="87"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Unde mutatio non est ex parte voluntatis, sed
+            <lb ed="#Qb"/>est ex parte eius respectu cuius est voluntas;
+            <lb ed="#Qb"/>non ergo mutatio ab otio " in actum fuit in Deo,
+            <lb ed="#Qb"/>sed mutatio de non-esse in esse in ipsa re condita.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad quartum dicendum quod, cum Deus
+            <lb ed="#Qb"/>creat et prius non creavit, non propter hoc mu<lb ed="#Qb"/>tatur,
+            sed res mutatur quae fit secundum eam 1" 1.
+            .Unde non est simile de ipso et de creatura agente.
+            <lb ed="#Qb"/>Creatura enim agens educitur " de potentia in
+            <lb ed="#Qb"/>actum per id quod semper est in actud : unde
+            <lb ed="#Qb"/>apud ipsam creaturam est mutatio; Deus autem,
+            <lb ed="#Qb"/>cum de potentia agente fit actu agens, ut de
+            <lb ed="#Qb"/>potentia creante fit actu creans, nullam ex par-te
+            <lb ed="#Qb"/>su-i recipit variationem: ipse enim semper est in
+            ' actu voluntatis aeternae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad quintum dicendum quod sempere
+            <lb ed="#Qb"/>esse Dominum' dicitur dupliciter: vel ut 'sem<lb ed="#Qb"/>per'
+            dicat "semper aeternitatis, vel utf dicat
+            'semper aevig aut temporis '. Si dicit 'semper
+            <lb ed="#Qb"/>aeternitatis ', 'non semper fuit Dominus; si 'sem<lb ed="#Qb"/>per'l
+            aevi vel temporis *, semper fuit'" Dominus. Sed
+            <lb ed="#Qb"/>aliter dicitur secundum hoc Deus semper Dominus
+            <lb ed="#Qb"/>et aliter creatura semper creatura: creatura enim
+            <lb ed="#Qb"/>semper dicitur creatura, quia cum aevo vel tem<lb ed="#Qb"/>pore
+            * exit in esse; Dominus vero ' non est ratione '
+            <lb ed="#Qb"/>temporis. Unde non dicitur proprie quod associetur
+            <lb ed="#Qb"/>dominium tempori: est enim Dominus temporis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Ad sextum dicendum'" quod 'nunc' il<lb ed="#Qb"/>lud,
+            in quo creatus est mundus, non praecessit
+            <lb ed="#Qb"/>aliud " ' nunc tempo-ris vel aevi ', et ita nulla prae<lb ed="#Qb"/>cessit
+            variatio, sed prius fuit ' nunc aeternitatis ' ;
+            <lb ed="#Qb"/>ex hoc autem non sequitur" variatio. Ord-o enim
+            <lb ed="#Qb"/>iste qui est aeternitatis ad aevum vel tempus,
+            <lb ed="#Qb"/>non ponit variationem in partibus temporis, sed
+            <lb ed="#Qb"/>tantum quod varia-tio temporis sequitur vel con<lb ed="#Qb"/>comitatur
+            aeternitatem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>7. Ad septimum dicendum quod haec de<lb ed="#Qb"/>terminat-io
+            'ab aeterno ' potest determinare haec
+            <lb ed="#Qb"/>verba ' potuit, voluit ', et secundum hoc verum est
+            <lb ed="#Qb"/>quod ab aeterno potuit et voluit; nec tamen mun<lb ed="#Qb"/>dus
+            ab aeterno fuit, quia voluntas fuit faciendi
+            <lb ed="#Qb"/>rem temporalem in tempore vel cum tempore. Si
+            <lb ed="#Qb"/>vero determinatio illa determinet hoc verbum 'fa<lb ed="#Qb"/>cere
+            ', oppositio notatur. Nam quod primoP facit,
+            <lb ed="#Qb"/>de non-esse in esse producit; quod autem est
+            <lb ed="#Qb"/>aeternum non est post non-esse, et ideo inter
+            <lb ed="#Qb"/>verbum et suam determinationem notatur oppo<lb ed="#Qb"/>sitio.
+            Unde respectu eius sic dicti nec est vo—
+            <lb ed="#Qb"/>luntas nec est potentia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>8. Ad octavum dicendum quod, licet causa
+            <lb ed="#Qb"/>ab aeterno fuerit sufficiens facere, non tamen fuit
+            <lb ed="#Qb"/>causa ad facere ab aeterno sive aeternaliter, sed
+            <lb ed="#Qb"/>ad" facere in tempore siveb aevo, et ideo non
+            <lb ed="#Qb"/>sequiturc quod mundus sit aeternus. — Et si
+            <lb ed="#Qb"/>obiciatur de hac argumentatione: 'quidquid
+            <lb ed="#Qb"/>voluit Deus, fecit; sed Deus voluit facere mun<lb ed="#Qb"/>dum;
+            ergo fecit; sed minor est ab aeterno vera;
+            <lb ed="#Qb"/>ergo conclusio' — dicendum estd quod non
+            <lb ed="#Qb"/>sequitur: nam maior propositio complectitur quod
+            <lb ed="#Qb"/>est aeternum et quod est temporale. Unde sensus
+            <lb ed="#Qb"/>est: 'quodcumque voluit facere, in tempore *
+            <lb ed="#Qb"/>fecit', et loquimur de factura mundi; etf propter
+            <lb ed="#Qb"/>hoc conclusio potest sequi quae respicit tempus,
+            <lb ed="#Qb"/>sicut ex una propositione de necessario et altera
+            <lb ed="#Qb"/>de contingenti sequiturg propositio de contin<lb ed="#Qb"/>genti;
+            et" similiter de inesse ut nunc '".
+         </p>
+          <p>
+            <lb ed="#Qb"/>9. Ad nonum dicendum quod mundus non
+            <lb ed="#Qb"/>processit in esse mutatione praeambula, sed con<lb ed="#Qb"/>comitante,
+            nec tamen-sine mutatione, et ideo non
+            <lb ed="#Qb"/>sequitur quod immutabilis * sive aeternus sit mun<lb ed="#Qb"/>dus.
+            llla ver-o mutatio non habuit mutationem ' ante
+            <lb ed="#Qb"/>se, nec tamen et '" ipsa immutabilis est vel aeterna.
+         </p>
+          <p>
+            <lb ed="#Qb"/>10. Ad decimum dicendum" quod, licet mun<lb ed="#Qb"/>dus 
+            archetypus sit sufficiens exemplar rerum con<lb ed="#Qb"/>ditarum
+            et habeat in se ideas sive rationes ae<lb ed="#Qb"/>ternas,
+            idea " vero vel ratio dicatur ad illud cuius
+            <lb ed="#Qb"/>est ratio, non tamen mundus cum suis contentis
+            <lb ed="#Qb"/>est ab aeterno, quiaP idea et ideatum et exemplar
+            <lb ed="#Qb"/>et exemplatum et ratio etq illud cuius est ratio non
+            <lb ed="#Qb"/>sic dicuntur ad invicem sicut relativa quae simul
+            <lb ed="#Qb"/>sunt: ut pater non est sine filio et e converso,
+            <lb ed="#Qb"/>idea vero est, licet non sit ideatum, et exemplar,
+            <lb ed="#Qb"/>licet non sit exemplatum, sed non' e converso.
+         </p>
+          <p>
+            <lb ed="#Qb"/>11. Ad undecimum dicendum quod non est
+            <lb ed="#Qb"/>accipere medium huiusmodi inter illa duo extrema:
+            <lb ed="#Qb"/>medium enim illud impossibile est in se, scilicets
+            <lb ed="#Qb"/>quod sit differens a substantia divina et aeternum;
+            <lb ed="#Qb"/>ex hoc enim quod est differens a substantia di<lb ed="#Qb"/>vina,
+            cum non sint duo principia 2, ponitur esse
+            <lb ed="#Qb"/>creatum, et ita ponitur de non-esse in esse pro<lb ed="#Qb"/>cedere,
+            et ita est habens principium 'durationis,
+            <lb ed="#Qb"/>non ergo aeternum. Restat ergo quod inter illa
+            <lb ed="#Qb"/>duo extrema non est accipere huiusmodi medium
+            <lb ed="#Qb"/>ad completionem universi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>12. Ad duodecimum dicendumla quod ma<lb ed="#Qb"/>nifestatio
+            divinae bonitatis est dupliciter": vel
+            <lb ed="#Qb"/>quoad magnitudinem potentiae" vel quoad mul<lb ed="#Qb"/>tiplicationem
+            in effectibus. Quoad magnitudinem
+            <pb ed="#Qb" n="88"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>potentiae manifestavit se Deus Pater ab aeterno
+            <lb ed="#Qb"/>generando Filium, qui est consubstantialis" .et
+            <lb ed="#Qb"/>coaeternus et coomnipotens; similiter est in pro<lb ed="#Qb"/>cessione
+            Spiritus Sancti. Unde <name ref="#Augustine">Augustinus</name>, in
+            <lb ed="#Qb"/>libro Quaestionum Novi Testamenti ', circa prin<lb ed="#Qb"/>cipium:
+      <quote> Deus Pater 17, cum ea quae non erant
+            <lb ed="#Qb"/>voluisset existere et maiestati suae non hoc con<lb ed="#Qb"/>dignum
+            opus esse e sciret, prius de se Filium ge<lb ed="#Qb"/>neravit,
+            in quo ipse videretur, qui nihil ab eo
+            <lb ed="#Qb"/>distaret, ut magnitudini suae congruusd respon<lb ed="#Qb"/>deret
+            effectus </quote>. Quoad multiplicationem in et<lb ed="#Qb"/>tectibus
+            manifestatur divina bonitas, sed non ine
+            <lb ed="#Qb"/>effectibus ab aeterno: non enim creatura potuit
+            <lb ed="#Qb"/>esse aequalis Creatori, sicut habetur super illud
+            <lb ed="#Qb"/>Psalmifz: Confortata est, et non potero ad eam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>13. Ad tertium decimum dicendum!3 quod
+            <lb ed="#Qb"/>divina potentia non indiget expergefaciente ", si<lb ed="#Qb"/>militer
+            nec divina voluntas, eo quod aeternaliter
+            <lb ed="#Qb"/>se habent; nec habet aliquod'" prohibens, nec
+            <lb ed="#Qb"/>tamen semper operatur quodcumque: non enim
+            <lb ed="#Qb"/>aetemak voluntas fuit ad operandum nisi in
+            <lb ed="#Qb"/>tempore determinato, et ad hoc ordinat ipsa'
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>sapientia, quae disponit unumquodque sicut con<lb ed="#Qb"/>gruit;
+            prima vero, quae operata est, in 'nunc
+            <lb ed="#Qb"/>temporis ' determinantur nec ibi est assignare ra<lb ed="#Qb"/>tionem
+            quare non prius, cum 'prius' ibi non
+            <lb ed="#Qb"/>dicat nisi aeternitatem prout est prior tempore.
+            ' Prius ' enim dicitur aliud alio multipliciter, sicut
+            <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>, in XII Confessionum4: di<lb ed="#Qb"/>citur
+            enim uno modo prius origine, sicut sonus
+            <lb ed="#Qb"/>prior est cantu; alio modo tempore, sicut flos
+            <lb ed="#Qb"/>prior est fructu; alio modo electione sive digni<lb ed="#Qb"/>tate,
+            sicut fructus prior est"' ,tlore ; quarto modo
+            <lb ed="#Qb"/>prius aeternitate, sicut Deus prior omni creatura.
+            — Si vero quaeritur causa propter quam Deus
+            <lb ed="#Qb"/>voluit tunc facere, cum fecit: dicendum est'' quod
+            <lb ed="#Qb"/>eius quod est tunc" facere, non est alia causa
+            <lb ed="#Qb"/>nisi illa quae est eius quod est facere mundum,
+            <lb ed="#Qb"/>scilicet divina voluntas. Cum facto enim est ipsum
+            'nunc' in quo fit nec aliam habet causam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>14. 'Ad ultimum dicendum? quod propositio
+            <lb ed="#Qb"/>illa non intelligitur de Deo, qui est causa *! prima
+            <lb ed="#Qb"/>et immutabilis et facit res mutabiles, sed de causa
+            <lb ed="#Qb"/>creata ', quae appropriatur respectu sui causati.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">Utrum mundus sit aeternus ex parte finis.</head>
+          <p>
+            <lb ed="#Qb"/>Secundo quaeritur de mundo utrum aeternus
+            <lb ed="#Qb"/>sit ex parte tinis. Ethoc potest dupliciter attendi:
+            <lb ed="#Qb"/>vel ut iste mundus finem non habeat vel ut post
+            <lb ed="#Qb"/>istuma mundum sit alius mundus, et ita semper
+            <lb ed="#Qb"/>fiet renovatio. Et hanc quaestionem movet Au<lb ed="#Qb"/>gustinus,
+            XII Super Genesim ad litteram 5.
+         </p>
+          <p>
+            <lb ed="#Qb"/>I. Circa. quod sic: 1. Diciturb Matth. 24, 355:
+            <lb ed="#Qb"/>Caelum et terra transibant ; et I Ioan. 2,17: Mun<lb ed="#Qb"/>dus
+            transit et concupiscentia eius. Ex quibus col<lb ed="#Qb"/>ligitur
+            c mundum esse desiturum. — Item, ex par<lb ed="#Qb"/>tibus
+            mundi hoc colligiturd : Sicut est in aetate
+            <lb ed="#Qb"/>hominis quod diminuitur virtus — unde minoris
+            <lb ed="#Qb"/>aetatis sunt modo homines quam inc principio
+            <lb ed="#Qb"/>mundi — multo fortius in aliis rebus; ergo de<lb ed="#Qb"/>bilitatur
+            virtus in partibus mundi; ergo et in
+            <lb ed="#Qb"/>ipso mundo qui ex eis componitur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, in apocryphis Esdrae 7: Mater nostra, de
+            <lb ed="#Qb"/>qua dixisti mihi : Adhuc iuvenis est, iam senectuti f
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>appropinquat. Et respondit ad me et dixit mihi:
+            <lb ed="#Qb"/>Quare quos peperisti nunc, non sint similes iis quos
+            <lb ed="#Qb"/>peperisti ante, sedg minores in statura? Et dicet
+            <lb ed="#Qb"/>tibi: Sunt qui in iuventute virtutis nati sunt et alii
+            <lb ed="#Qb"/>sub tempore senectutis, desinente motricis virtute 'I.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, super illud, Isai. 30, 26: Lux solis septem<lb ed="#Qb"/>pliciter,
+            Glossais: <quote>Omnia propter peccatum
+            <lb ed="#Qb"/>hominis deteriorata sunt</quote>. Superiora ergo, cum
+            <lb ed="#Qb"/>per motum ad hominem ordinata sunt, deteriorata
+            <lb ed="#Qb"/>sunt propter peccatum hominis; sed quae dete<lb ed="#Qb"/>riorantur,
+            ad finem tendunt; sed haec sunt'f cor<lb ed="#Qb"/>pora
+            nobiliora in mundo; ergo et ipse' mundus
+            <lb ed="#Qb"/>ad finem tendit.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, <name ref="#Augustine">Augustinus</name>, in Quaestionibus Veteris
+            <lb ed="#Qb"/>Testamenti 9: <quote>Inconveniens est mundum aeternum
+            <lb ed="#Qb"/>dicere, quem, cum videmus passioni subiectum et
+            <lb ed="#Qb"/>per singula senectute deficere, credimus et finiri </quote>.
+            — Item, <quote> quomodo aeternus corruptibilia gene<lb ed="#Qb"/>rabat,
+            cum de aeterno debeat aeternum existere?
+            <pb ed="#Qb" n="89"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>Et quod visibile est et tangitur, qua audacia vo<lb ed="#Qb"/>catur
+            aeternum ? Et quod vicibus temporum mini<lb ed="#Qb"/>stratur,
+            ita ut ipsa tempora aliquando non servent
+            "officia sua ", quomodo appellatur aeternum? </quote>
+               </p>
+          <p>
+            <lb ed="#Qb"/>Ex iis ergo omnibus colligitur quod mundus
+            <lb ed="#Qb"/>non est aeternus ex parte finis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem sit aeternus ex illa. parte, habetur
+            <lb ed="#Qb"/>a. ex hoc quod dicitur in Ierem. 31, 35: Haec dicit
+            <lb ed="#Qb"/>Dominus, qui dat solem in lumen diei, ordinem
+            <lb ed="#Qb"/>lunae et stellarum in lumen noctis, qui turbat
+            <lb ed="#Qb"/>mare, et sonant fluctusc eius: Si defecerint le<lb ed="#Qb"/>gesd
+            istae coram me, dicit Dominus, tunc et
+            <lb ed="#Qb"/>semen Israel deficiet. Si ergo semen Israel non
+            <lb ed="#Qb"/>deficiet, nec ista deficient.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, Isai. 30,26: Erit lux lanae sicut lux
+            <lb ed="#Qb"/>solis, et lux solis septempliciter. Ex quo videtur
+            <lb ed="#Qb"/>mundi innovatio, non desitio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, universale, ex hoc quod est universale,
+            <lb ed="#Qb"/>habet in se quamdam virtutem perpetuandi se vel
+            <lb ed="#Qb"/>in uno vel in multis; ergo, cum naturae universales
+            <lb ed="#Qb"/>sint in contextu mundi, erit perpetuitas in mundo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, ea quae causante motum in mundo
+            <lb ed="#Qb"/>veniunt ex principiis incorruptibilibus; sed non
+            <lb ed="#Qb"/>veniunt nisi ex principiis mundi; ergo principia
+            <lb ed="#Qb"/>mundi sunt incorruptibilia; ergo mundus est ae<lb ed="#Qb"/>ternus
+            ex parte finis, qui ex iis componitur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>e. Praeterea, non senescunt virtutes animales
+            <lb ed="#Qb"/>nec virtutes naturales primae; ergo nec mundus
+            <lb ed="#Qb"/>qui ex iis dependet f.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II.-Deinde quaeritur, si non sit aeternus propter
+            <lb ed="#Qb"/>hoc quod iste mundus desinat et alius succedat,
+            <lb ed="#Qb"/>an sit earumdem rerum perpetua revolutio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur 1. per hoc quod dicitur in Eccle.
+            1,9-10: Quid est qaodfuit? ipsum quod futurum
+            <lb ed="#Qb"/>est. Quid est quod factum est? ipsum quod facien<lb ed="#Qb"/>dam
+            estf. Nec valet. quisquamdicere: Ecce hoc
+            <lb ed="#Qb"/>est recens; iam enim praecessit in saeculis quae
+            <lb ed="#Qb"/>fuerunt ante nos. Ex qua auctoritate videtur quod
+            <lb ed="#Qb"/>fiat saeculorum renovatio 71 et reiteratio 1.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed contra hoc est a. quod dicit Au gu stin u s,
+            <lb ed="#Qb"/>in libro De civitate Dei 2, obiciens de anima ra<lb ed="#Qb"/>tionali,
+            quae secundum hoc a beatitudine ad mi<lb ed="#Qb"/>seriam
+            rediret et a miseria in beatitudinem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, sicut habetur superi illud Eccle. 3:
+      <quote> Dicit Donatus: Pereant qui ante nos nostra
+            <lb ed="#Qb"/>dixerunt! Si ergo ita est in sermonibus, quanto
+            <lb ed="#Qb"/>magis in administratione saeculi, quae ab initio
+            <lb ed="#Qb"/>saeculi sic perfecta est ut requiesceret Deus ab
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>omnibus operibus suis die septimo4 </quote>. —- Item,
+            <lb ed="#Qb"/>Philosophus 5: <quote> Quorum substantia corrupti<lb ed="#Qb"/>bilis
+            est mota, non * reiterantur eademl numero </quote>.
+            <lb ed="#Qb"/>Ergo eorum quae sunt in mundo cum sit generatio
+            <lb ed="#Qb"/>et corruptio, non reiterantur eadem '" numero; ergo
+            <lb ed="#Qb"/>non per hoc est aeternitas mundi, quia huiusmodi
+            <lb ed="#Qb"/>sit continua revolutio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Praeterea, corpora superiora habent suam re<lb ed="#Qb"/>volutionem
+            et secundum diversos sui situs ad se
+            <lb ed="#Qb"/>invicem diversi proveniunt" effectus; numquid
+            <lb ed="#Qb"/>ergo secundum iteratos situs et aspectus consimiles
+            <lb ed="#Qb"/>consimilis provenit effectus? Quod si esset, post
+            <lb ed="#Qb"/>completionem magni anni6 omnia revocarentur
+            <lb ed="#Qb"/>in pristinum statum. Dicitur autem "magnus an<lb ed="#Qb"/>nus
+            ', cum omnes stellae pervenerint ad statum
+            <lb ed="#Qb"/>illum, ino quo primo inceperunt moveri. — Sed
+            <lb ed="#Qb"/>contra: Effectus qui procedunt non procedunt
+            <lb ed="#Qb"/>tantum a causis superioribus, sed etiam a causis
+            <lb ed="#Qb"/>interioribus; licet ergol' causae superiores redirent
+            <lb ed="#Qb"/>ad consimilem statum, cum causae inferiores non
+            <lb ed="#Qb"/>similiter redeant, non erit idem effectus '? ; magis
+            <lb ed="#Qb"/>enim'" sequuntur ipsi effectus quoad hoc causam
+            <lb ed="#Qb"/>inferiorem quam causam superiorem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Praeterea, Iob 14,12 habetur: <quote>Non resurget
+            <lb ed="#Qb"/>homo, donec atteratur caelum</quote>. Ex quo designatur
+            <lb ed="#Qb"/>quod caelum aliquando attereturs; sed si est at<lb ed="#Qb"/>tritio
+            caeli, non erit in * infinitum renovatio ; restat
+            <lb ed="#Qb"/>ergo quod mundus secundum illam viam non erit
+            <lb ed="#Qb"/>aeternus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum quod mundus
+            <lb ed="#Qb"/>accipitur multipliciter. Aliquando enim pro uni<lb ed="#Qb"/>versitate
+            rerum corruptibilium et incorruptibilium,
+            <lb ed="#Qb"/>scilicet inferiorum et superiorum: et secundum
+            <lb ed="#Qb"/>hunc modum mundus non est aeternus ex parte
+            <lb ed="#Qb"/>finis. Aliquando vero " accipitur pro ipsa varia<lb ed="#Qb"/>tione
+            quae est in mundo, sive sit" secundum
+            <lb ed="#Qb"/>motum localem sive secundum alium motum cum
+            <lb ed="#Qb"/>dispositionibus ordinantibus ad illum, et secun<lb ed="#Qb"/>dum
+            hoc dicitur I Cor. 7, 31: Praeterit figura
+            <lb ed="#Qb"/>huius mundi. Aliquando accipitur pro ipsa delecta<lb ed="#Qb"/>bilitate
+            (variabili, et secundum hoc potest accipi
+            <lb ed="#Qb"/>illud I Ioan. 2, 17 : Transit mundus et concupiscentia
+            <lb ed="#Qb"/>eius. Quarto vero modo potest accipi pro ipsis prin<lb ed="#Qb"/>cipiis
+            primis, quae sunt in mundo, et secundum
+            <lb ed="#Qb"/>hoc mundus potest dici aeternus ex parte finis, non
+            <lb ed="#Qb"/>ex eo quod est ex nihilo, sed ex Conditoris dono.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id ergox quod obiectum
+            <lb ed="#Qb"/>est in contrarium de ipsa debilitatione virtutis
+            <lb ed="#Qb"/>mundi sive senectute: respondendum est ad
+            <pb ed="#Qb" n="90"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>primum quod aliter est in aliqua parte mundi et
+            <lb ed="#Qb"/>in toto mundo. Nam in aliqua" parte mundi potest
+            <lb ed="#Qb"/>provenire detectus, qui tamen defectus non respicit
+            <lb ed="#Qb"/>ipsum totum. Unde quod dicitur humana natura
+            <lb ed="#Qb"/>debilitari, hoc non est ratione naturaeb primitus
+            <lb ed="#Qb"/>institutae, sed' ratione corruptionis ex peccato
+            <lb ed="#Qb"/>superadditae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad aliud vero dicendum 0 quod, cum di<lb ed="#Qb"/>citur
+            mundus senescere et passionibus esse sub<lb ed="#Qb"/>iectus
+            et habere contrarietatem, hoc totum dicitur
+            <lb ed="#Qb"/>ratione eius quod ordinatur ad motum; sed ex
+            <lb ed="#Qb"/>alia parte accipitur aeternitas mundi propter pri<lb ed="#Qb"/>vationem
+            finis, quia ratione principiorum quae
+            <lb ed="#Qb"/>ordinantur ad hominem in statu immortalitatis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad tertium dicendum est quod auctoritas
+            <lb ed="#Qb"/>quae "' dicitur in Glossa, super'illud lsai. 30,26:
+            <lb ed="#Qb"/>Erit lux lunae etc., intelligenda est de statu ho<lb ed="#Qb"/>minis
+            ratione naturae corruptae. Unde progressus
+            <lb ed="#Qb"/>ille, qui dicitur esse in aetatibus saeculi, ad mo<lb ed="#Qb"/>dum
+            aetatis humanae intelligitur, non * propter
+            <lb ed="#Qb"/>naturam hominis primitus institutam vel propter
+            <lb ed="#Qb"/>naturam eorum quae sunt in mundo, sed ut osten<lb ed="#Qb"/>datur
+            quod sicut ex peccato recepitf homo mi<lb ed="#Qb"/>norem
+            et maiorem appropinquationem ad mortem,
+            <lb ed="#Qb"/>ita mundus, secundum quod ad hominem sic?
+            <lb ed="#Qb"/>existentem in poena refertur, minorem et maiorem
+            <lb ed="#Qb"/>habet appropinquationem ad finem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ex iam dictis patet quomodo intelligenda est
+            <lb ed="#Qb"/>illa sententia in Apocryphis Esdrae. In illa enim
+            <lb ed="#Qb"/>designatur variatio mundi a principio usque ad
+            <lb ed="#Qb"/>finem, sicut legitur in Dan. 2,31-34, ubi legitur
+            <lb ed="#Qb"/>de statua quae habebat caput aureum, et '1 deinde
+            <lb ed="#Qb"/>pectus et brachia erant de argento, deinde venter
+            <lb ed="#Qb"/>et femora ex aere, tibiae autem erant ferreae,
+            <lb ed="#Qb"/>pedum autem quaedam pars erat ferrea et quae<lb ed="#Qb"/>dam
+            fictilis. Ex quibus designatur differentia par<lb ed="#Qb"/>tium
+            mundi secundum prius et posterius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>a-e. Ad id vero quod obicitur ex alia parte,
+            <lb ed="#Qb"/>dicendum quod rationes quae inducuntur pro illa
+            <lb ed="#Qb"/>parte sumuntur ex iis quae pertinent ad mundum
+            <lb ed="#Qb"/>in quantum mundus ordinatur .ad hominis im<lb ed="#Qb"/>mortalitatem;
+            nihilominus tamen possent quae<lb ed="#Qb"/>dam
+            illarum auctoritatum retorqueri ad perpetui<lb ed="#Qb"/>tatem
+            temporis, sicut illa lerem. 31,35; illa vero,
+            <lb ed="#Qb"/>quae dicitur in! lsai. 30,26 refertur ad mundi
+            <lb ed="#Qb"/>innovationem. Rationes vero adiunctae, sicut dic<lb ed="#Qb"/>tum
+            est "1, referuntur ad mundum pro illo statu
+            <lb ed="#Qb"/>quo ad immortalitatem hominis ordinantur vel
+            <lb ed="#Qb"/>secundum quod habent quamdam perpetuitatem
+            <lb ed="#Qb"/>in esse temporali a dispositione divina.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Ad id vero quod obicitur de perpetua revo<lb ed="#Qb"/>lutione
+            et rerum iteratione: dicendumk quod non
+            <lb ed="#Qb"/>est rerum iteratio in numero, sed est ipsius spe<lb ed="#Qb"/>ciei
+            in individuis differentibus consecutio' secun-'
+            <lb ed="#Qb"/>dum prius et posterius. Revolutio tamen, quan<lb ed="#Qb"/>tum
+            est de se, esset perpetua nisi adesset finis ex
+            <lb ed="#Qb"/>parte hominis ad quem'" cetera ordinantur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Quod ergo obicitur per auc<lb ed="#Qb"/>toritatem
+            in libro Eccle. non intelligendum est
+            <lb ed="#Qb"/>de iteratione quantum ad numerum, sed de"
+            <lb ed="#Qb"/>identitate in specie vel genere; secundum quam<lb ed="#Qb"/>dam
+            tamen expositionem2 intelligitur de identitate
+            <lb ed="#Qb"/>eorum quae sunt in praescientia divina et quae
+            <lb ed="#Qb"/>sunt in esse exteriori: quod enim fuit" in prae<lb ed="#Qb"/>destinatione
+            divina, aliquod eorum erit in esse
+            <lb ed="#Qb"/>exteriori P.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b-c. Ad id vero 4 quod obicitur 'de revolutione
+            <lb ed="#Qb"/>completa superiorum corporum, qua videntur re<lb ed="#Qb"/>dire
+            ad primum statum, et sic quod novus fiat
+            <lb ed="#Qb"/>mundus et iterentur etiam quae sunt in mundo ':
+            <lb ed="#Qb"/>respondendum est3 quod non est illa iteratio nec
+            <lb ed="#Qb"/>est alterius mundi renovatio. Non enim superiora
+            <lb ed="#Qb"/>corpora omnino sunt causae' eorum quae fiunt
+            <lb ed="#Qb"/>in inferioribus, et ideo licet redirent ad primam
+            <lb ed="#Qb"/>conformitatem, non propterhoc omnia essent in
+            <lb ed="#Qb"/>consimili statu. De quo sic8 loquitur Au gusti<lb ed="#Qb"/>nus4:
+            : Absit a recta tide ut iis verbis Salo<lb ed="#Qb"/>monis
+            illos circuitus esse credamus significatos,
+            <lb ed="#Qb"/>quibus illi putant sic eadem temporum tempora<lb ed="#Qb"/>liumque
+            volumina repeti, ut verbi gratia, sicut
+            <lb ed="#Qb"/>in isto saeculo Plato philosophus in urbe Athe<lb ed="#Qb"/>niensi,
+            et in ea schoia, quae Academica dicta est,
+            <lb ed="#Qb"/>discipulos * docuit, ita per innumerabilia retro
+            <lb ed="#Qb"/>saecula idem Plato et eadem civitas et eadem
+            <lb ed="#Qb"/>schola et iidem discipuli sint repetiti et per in<lb ed="#Qb"/>numerabilia
+            saecula deinde repetendi! Absit ut ista
+            <lb ed="#Qb"/>credamus! Semel enim" Christus mortuus est
+            <lb ed="#Qb"/>pro peccatis nostris 5, resurgens autem" iam non
+            <lb ed="#Qb"/>moritur, mors illi ultra non dominabifüfö. Non
+            <lb ed="#Qb"/>ergo istix circuitus saeculorum ponendi sunt,
+            <lb ed="#Qb"/>quemadmodum fingunt philosophi, ne anima
+            <lb ed="#Qb"/>a vera miseria ad'falsam beatitudinem prodeat
+            <lb ed="#Qb"/>et iterum redeat ad miseriam circulariter7; sed
+            <lb ed="#Qb"/>ponendus est finis mundi pro voluntate Condi<lb ed="#Qb"/>toris,
+            completo numero electorum. Unde Iob 14,12,
+            <lb ed="#Qb"/>super illud: Non resurget homo, dicit Glossas:
+      <quote> Nisi mundi .huius finis advenerit, humanum
+            <lb ed="#Qb"/>genus a somno mortis non evigilabit </quote>, innuens
+            <lb ed="#Qb"/>per hoc quod finis mundi adveniet et tunc homo
+            <lb ed="#Qb"/>resurget.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Utrum mundus sit aeternus per privationem principii ratione motus.</head>
+          <p>
+                  <pb ed="#Qb" n="91"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Consequenter quaeritur de aeternitate mundi
+            <lb ed="#Qb"/>per privationem principii. ratione motus '.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Ad quod sic: l. Mundus si non est aeternus,
+            <lb ed="#Qb"/>exivit in esse motus eius; sed omnis motus, qui
+            <lb ed="#Qb"/>exit in esse, prius est in potentia mobilis et de<lb ed="#Qb"/>inde
+            exit in actum; sed exitus de potentia in
+            <lb ed="#Qb"/>actum est motus vel mutatio 2; ergo motum prae<lb ed="#Qb"/>cedit
+            motus vel mutatio; item ", quaeritur de
+            <lb ed="#Qb"/>illo motu vel mutatione, et sic erit abire in in<lb ed="#Qb"/>finitum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2.'Item, alia ratio: Omne elongatum a contrarie<lb ed="#Qb"/>tate,
+            est elongatum a mutatione terminabili3: quod
+            <lb ed="#Qb"/>enim terminatur mutatio, est ratione contrarietatis
+            <lb ed="#Qb"/>quae attenditur in eo quod mutatur; sed materia
+            <lb ed="#Qb"/>caeli elongata est a contrarietate, et forma simi<lb ed="#Qb"/>liter;
+            ergo caelum elongatum est a mutatione
+            <lb ed="#Qb"/>terminabili; ergo caelum habet motum infinitum;
+            <lb ed="#Qb"/>Sed motus b non potest esse infinitus nisi mobile
+            <lb ed="#Qb"/>sit infinitum; ergo caelum est infinitum" ; ergo et
+            <lb ed="#Qb"/>mundus, cuius pars nobilior est caelum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, in circulo non est principium neque finis ;
+            <lb ed="#Qb"/>sed circulatioþin motu caeli sequitur circulatio<lb ed="#Qb"/>nem
+            eius; ergo motus caeli non habet principium
+            <lb ed="#Qb"/>nec iinem, cum sit circularis; sed quod non ha<lb ed="#Qb"/>bet
+            principium, iniinitumest'a parte ante; mobile
+            <lb ed="#Qb"/>ergo infinitum est a parte ante; ergo et mundus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, motus est cum temporet; ergo si tem—
+            <lb ed="#Qb"/>pus est infinitum a parte ante, ergo et motus. —
+            <lb ed="#Qb"/>Quod tempus sit infinitum ac parte
+            <lb ed="#Qb"/>ante, sic ostenditur: Omne quod incepit esse,
+            <lb ed="#Qb"/>in tempore coepit esse; sed tempus non coepit
+            <lb ed="#Qb"/>esse ** in tempore, quia tunc ante tempus' esset
+            <lb ed="#Qb"/>tempus et in infinitum esset abire; ergo tempus
+            <lb ed="#Qb"/>non incepit esse; sed quod 'non incepit esse et
+            <lb ed="#Qb"/>est, semper iuit, et quod semper fuit, est aeter<lb ed="#Qb"/>num; 
+            ergo tempus est aeternum; ergo et motus, 
+            <lb ed="#Qb"/>ergo et mundus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Item, omnis motus, qui-f exit a potentia inti<lb ed="#Qb"/>nita,
+            in quantum huiusmodi est infinitus; sed
+            <lb ed="#Qb"/>potentia motoris primi est potentia-infinita; ergo
+            <lb ed="#Qb"/>motus primus est infinitus; ergo et ipsum mo<lb ed="#Qb"/>bile,
+            et per consequens mundus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Item, si aliquando inciperet moveri illud mo<lb ed="#Qb"/>bile
+            el non prius-esset motum, et similiter de
+            <lb ed="#Qb"/>motore, aliqua fieret innovatio vel ex parte mo<lb ed="#Qb"/>toris
+            B vel ex par-te mobilis ; innovatio autem facta
+            <lb ed="#Qb"/>per aliquam " mutationem induceretur; cum ergo
+            <lb ed="#Qb"/>hoc non possit esse, motus ille infinitus erit a
+            <lb ed="#Qb"/>parte ante, et ita mundus infinitus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Motus ille est propter aliquid, eo quod
+            <lb ed="#Qb"/>omnis motus propter aliquid5; sed motus qui
+            <lb ed="#Qb"/>est propter aliquid, eo obtento cessat; ergo mo<lb ed="#Qb"/>tus
+            illei eo obtento cessabit; sed omne, quod
+            <lb ed="#Qb"/>habet finem, habet principium ; ergo motus ille
+            <lb ed="#Qb"/>est finitus a parte ante; non ergo': aeternus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, motus est exitus de potentia in actumö;
+            <lb ed="#Qb"/>ergo potentia est prior exitu duratione; sed omne,
+            <lb ed="#Qb"/>quod habet causam priorem duratione, non est
+            <lb ed="#Qb"/>aeternum; ergo motus ille non est aeternus, per
+            <lb ed="#Qb"/>consequens nec alius motus, et ita nullus motus
+            <lb ed="#Qb"/>aeternus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, omnis motus ab immobili originem ha<lb ed="#Qb"/>bet7:
+            nam aliter esset abire in infinitum in causis ;
+            <lb ed="#Qb"/>sed immobile est ante motum; ergo motus, cum
+            <lb ed="#Qb"/>habeat principium, non erit aeternus. — Quod
+            <lb ed="#Qb"/>concedendum est.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: LAd primuml dicendum quod
+            <lb ed="#Qb"/>motus exit in esse non per aliam mutationem,
+            <lb ed="#Qb"/>et ita erit stare in primo. Si vero caelum, cum
+            <lb ed="#Qb"/>conditum iuit, non statim motum esset, esset
+            <lb ed="#Qb"/>quaedam mutatio praecedens; sed illam mutatio<lb ed="#Qb"/>nem
+            non praecederet alia, et ita standum esset;
+            <lb ed="#Qb"/>sic ergo motus est finitus a parte ante.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundum dicendum'"8 quod illa
+            <lb ed="#Qb"/>ratio non inducit quin motus habeat principium .
+            <lb ed="#Qb"/>suae durationis, sed ad hoc" ten-dit ul: de se non
+            <lb ed="#Qb"/>habeat finem; habet tamen finem sibi positum
+            <lb ed="#Qb"/>ab eo qui condidit et mobile et- motum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. -Ad tertium dicendum"9 quod, licet in
+            <lb ed="#Qb"/>circulo non sit principium neque finis ratione ii<lb ed="#Qb"/>gurae,
+            nihilominus tamen motus circularis sive
+            <lb ed="#Qb"/>orbicularis habet principium durationis "* et sui
+            <lb ed="#Qb"/>esse secundum conditionem secundum quam
+            <lb ed="#Qb"/>magis congruit; unde magis congruit quod motus
+            <lb ed="#Qb"/>caeli sit ab oriente in occidentem, tamquam a
+            <pb ed="#Qb" n="92"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>dextro in sinistrum 1, sicut congruit in corpore
+            <lb ed="#Qb"/>humano quod principium motus magis sit a parte
+            <lb ed="#Qb"/>dextra quam a sinistra.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad quartum dicendum2 quod tempus, in
+            <lb ed="#Qb"/>quo est motus, incipit esse, sed non incipit in
+            <lb ed="#Qb"/>tempore, sed in ' nunc ', quod est principium tem<lb ed="#Qb"/>poris;
+            illud autem 'nunc ', quod est principium
+            <lb ed="#Qb"/>temporis, non incipit in alio *nunc': tunc enim
+            <lb ed="#Qb"/>esset in infinitum abire aut reflecti ". Ante vero
+            <lb ed="#Qb"/>illud 'nunc temporis' "est 'nuncb aeternitatis ',
+            <lb ed="#Qb"/>quod excedit utrumque.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad quintum dicendum quod, licet potentia
+            <lb ed="#Qb"/>sit infinita a qua" procedit ille motus primus,
+            <lb ed="#Qb"/>non tamen motus est infinitus a parte ante, sed
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ex hoc arguitur magis quod finitus est a parte
+            <lb ed="#Qb"/>ante: sicut enim habet principium esse ab illa
+            <lb ed="#Qb"/>potentia infinita, ita et principium durationis; sed
+            <lb ed="#Qb"/>ad hoc tendit ratio quod motus non habeat finem
+            <lb ed="#Qb"/>a parte "' post nisi aliunde trahatur ratio finitionis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Ad sextum dicendum quod ex parte mo<lb ed="#Qb"/>bilis
+            non est alia innovatio nisi influentia virtutis
+            <lb ed="#Qb"/>ab ipso motore supra mobile. Haec autem in<lb ed="#Qb"/>fluentia
+            non est propter aliquam 'innovationem
+            <lb ed="#Qb"/>ex parte motoris: primum enim movens immo<lb ed="#Qb"/>bile
+            non recipite innovationem; mobile autem,
+            <lb ed="#Qb"/>quod prius non fuit motum sicutf nec prius ens,
+            <lb ed="#Qb"/>recipit innovationem, sed non per mutationem ali<lb ed="#Qb"/>quam
+            praecedentem.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

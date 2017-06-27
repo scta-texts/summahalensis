@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 4, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 4, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="27"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t1m4c2">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 4, C. 2</head>
+        <head type="question-title">UTRUM SIT VOLUNTATE AN NECESSITATE CAUSA EFFICIENS 6.</head>
+        <p>
+          <lb ed="#Qb"/>Ad secundum vero membrum quaestionis qua
+          <lb ed="#Qb"/>quaeritur utrum Deus voluntate vel necessitate
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>condiderit res — et dicimus necessitatem naturae,
+          <lb ed="#Qb"/>non coactionem — sic'il obicitur:
+          <pb ed="#Qb" n="28"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>1. Boni est ratione bonitatis suae bona addu<lb ed="#Qb"/>cere
+          1; unde <name ref="#Augustine">Augustinus</name>, in Quaestionibus Ve<lb ed="#Qb"/>teris
+          Testamentizz <quote>Bonus est, quia" fecit exi<lb ed="#Qb"/>stere
+          quae non erant </quote>; et Dionysius, De divi<lb ed="#Qb"/>nis
+          nominibus3: 4! Optimi est optima adducere.
+          <lb ed="#Qb"/>Ergo naturab bonitatis summi boni induxit optima
+          <lb ed="#Qb"/>ad manifestationem sui in creaturis. Unde Diony<lb ed="#Qb"/>sius,
+          in libro De divinis nominibus4: <quote>Sicut
+          <lb ed="#Qb"/>omnium summitatisf divina bonitas a sublimis<lb ed="#Qb"/>simis
+          et maximis essentiis usque ad novissimad
+          <lb ed="#Qb"/>pervenit, et adhuc super omnes est, neque iis,
+          <lb ed="#Qb"/>quae sursum sunt e, anticipantibus eius excel<lb ed="#Qb"/>lentiam,
+          nequef .iis, quae deorsum sunt, ambi<lb ed="#Qb"/>tum
+          transgredientibus, sed illuminat potentia om<lb ed="#Qb"/>nia
+          etc. S', sic divinae bonitatis significative imago
+          <lb ed="#Qb"/>sol, secundum multam consonantiam et omnia,
+          <lb ed="#Qb"/>quaecumque eum participare possunt, illuminat </quote>.
+          <lb ed="#Qb"/>Sed bonitas eius idem est quod natura eius; ergo
+          <lb ed="#Qb"/>ex necessitate naturae suae condidit creaturas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, <quote> si potuit creaturas facere et noluit,
+          <lb ed="#Qb"/>invidus fuit5 </quote> vel ad minus non summe bonus —
+          <lb ed="#Qb"/>ita obicit haereticus — <quote> si autem voluit et non
+          <lb ed="#Qb"/>potuit, impotens fuit</quote>; sed a Deo removetur im<lb ed="#Qb"/>potentia
+          et ponitur in eo summa bonitas; ergo
+          <lb ed="#Qb"/>bonitas eius induxit necessario voluntatem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, <name ref="#Augustine">Augustinus</name>, in libro De civitate
+          <lb ed="#Qb"/>Dei, 22 6: <quote> Hanc causam, id est ad "bona creanda
+          <lb ed="#Qb"/>bonitatem Dei, hanc" tam iustam atque idoneam,
+          <lb ed="#Qb"/>quae diligenter considerata et pie cogitata omnes
+          <lb ed="#Qb"/>controversias quaerentium mundi originem ter<lb ed="#Qb"/>minat,
+          quidam haereticii non viderunt </quote>. Cum
+          <lb ed="#Qb"/>ergo Dei bonitas sit causa iusta, et causa iusta
+          <lb ed="#Qb"/>sit necessaria, ex necessitate suae bonitatis bona
+          <lb ed="#Qb"/>creavit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, Boethius "': . Quia bonus est Deus, su<lb ed="#Qb"/>mus. 
+          Ergo bonitas est ratio necessaria esse rerum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Praeterea, per simile potest argui quod indu<lb ed="#Qb"/>cit 
+          Dionysius8 de igne etk summo bono: ignis
+          <lb ed="#Qb"/>enim est calefacere, summi autem boni producere
+          <lb ed="#Qb"/>et salvare; sed ignis necessitate naturae suae ca<lb ed="#Qb"/>lefacit";
+          ergo summum bonum ex necessitate na<lb ed="#Qb"/>turae
+          suae bona producit et salvat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem voluntate fiant creaturae, habetur
+          <lb ed="#Qb"/>a. ex hoc quod dicit <name ref="#Augustine">Augustinus</name>, III De Trini<lb ed="#Qb"/>tateg:
+    <quote> Voluntas Dei est prima et summa causa
+          <lb ed="#Qb"/>omnium specierum et motionum; nihil enim fit
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quod de intelligibili atque interierit aula summi"
+          <lb ed="#Qb"/>Imperatoris non egrediatur</quote>. Et iterum, in libro
+          83 Quaestionum 10: <quote> Qui quaerit quare Deus
+          <lb ed="#Qb"/>mundum voluit facere, quaerit causam voluntatis
+          <lb ed="#Qb"/>divinae; nihil autem est maius voluntate eius;
+          <lb ed="#Qb"/>non ergo causae mundi, id est'" voluntatis, alia
+          <lb ed="#Qb"/>causa quaerenda est </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, in 24 cap. XI De civitate Dei 11': <quote> Satis
+          <lb ed="#Qb"/>significatur Deum nulla necessitate, nulla'suae
+          <lb ed="#Qb"/>cuiusquam utilitatis indigentia, sed sola bonitate,
+          <lb ed="#Qb"/>id est bona voluntate, fecisse quod factum est </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, quae differentia esset inter processio<lb ed="#Qb"/>nem
+          Filii a Patre et processionem creaturae, si de
+          <lb ed="#Qb"/>necessitate naturae sive de natura produxisset
+          <lb ed="#Qb"/>creaturas?
+        </p>
+        <p>
+          <lb ed="#Qb"/>Solutio: Ad obiecta ergo respondendum est"
+          <lb ed="#Qb"/>quod sua voluntate gratuita condidit creaturas,
+          <lb ed="#Qb"/>sicut habetur ex auctoritatibus praecedentibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id vero quod primo
+          <lb ed="#Qb"/>obicitur in contrarium de necessitate bonitatis, di<lb ed="#Qb"/>cendum
+          est quod nomen necessitatis non congrue
+          <lb ed="#Qb"/>hic*' dicitur de Deo; unde Anselm us 12: <quote> In Deo
+          <lb ed="#Qb"/>nulla cadit necessitas </quote>. Necessitas enim videtur
+          <lb ed="#Qb"/>dicere coactionem. Sed nec necessitas utilitatis ex
+          <lb ed="#Qb"/>parte sua, sicut habitum estP in praecedenti aucto<lb ed="#Qb"/>ritate
+          13. Si vero dicatur necessitas congruitatis sive
+          <lb ed="#Qb"/>idoneitatis, sicut tangitur in quadam auctoritate 14,
+          <lb ed="#Qb"/>tunc dici potest quod ex necessitate bonitatis con<lb ed="#Qb"/>didit
+          res. Non tamen videtur congruere quod di<lb ed="#Qb"/>catur
+          ex necessitate naturae. Licet enim idem sit
+          <lb ed="#Qb"/>bonitas quod natura eius, tamen si diceretur ex
+          <lb ed="#Qb"/>necessitate naturae, videretur poni talis necessitas
+          <lb ed="#Qb"/>qualis est in rebus naturalibus: in rebus enim
+          <lb ed="#Qb"/>naturalibus ignis ex necessitate naturae generat
+          <lb ed="#Qb"/>ignem et homo hominem; non sic autem est,
+          <lb ed="#Qb"/>cum creaturae fiunt a'Deo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum dicendum est! quod, cum
+          <lb ed="#Qb"/>dicitur 'Deus secundum rationem bonitatis creat
+          <lb ed="#Qb"/>res in ratione bonitatis ut a bono necessario sit
+          <lb ed="#Qb"/>bonum', notatur ibi necessitas ex congruentia
+          <lb ed="#Qb"/>causae finalis et eius quod ordinatur ad eam;
+          <lb ed="#Qb"/>nec ex hoc sequitur quod ex necessitate naturae
+          <lb ed="#Qb"/>condiderit creaturas 15.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad id vero quod tertio obicitur quod
+          'bonitas Dei est iusta causa conditionis rerufn,
+          <lb ed="#Qb"/>et ita' necessaria': respondendum est quod
+          <pb ed="#Qb" n="29"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>iustitia uno modo importat debitum, sicut dicit
+          <lb ed="#Qb"/>
+          <name ref="#Anselm">Anselmus</name> ', et secundum hunc modum non cli<lb ed="#Qb"/>citur
+          bonitas Dei causa" iusta, scilicet ex debito.
+          <lb ed="#Qb"/>Alia vero. modo dicitur iustitia secundum congru<lb ed="#Qb"/>entiam,
+          .quia decet bonitatem eius, et secundum hunc
+          <lb ed="#Qb"/>modum dicitur bonitas Dei iusta causa. Unde in
+          <lb ed="#Qb"/>auctoritate additur 'idonea ' ad determinationem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad quartum verob dicendum est quod,
+          <lb ed="#Qb"/>cum dicitur : quia bonus est Deus, sumus vel 0
+          'bona sunt quae suntd ab ipso ', notatur ex iam
+          .dictis necessitas congruentiae, quae est causati
+          <lb ed="#Qb"/>ad causam, non autem necessitas inferendi: nam
+          <lb ed="#Qb"/>ab. aeterno Deus tuit bonus, nec tamen ab aeterno
+          <lb ed="#Qb"/>fuit. bonitas creaturae. Similiter natura Deie ab
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>aeterno fuit bona, nec tamen creatura ab aeterno
+          <lb ed="#Qb"/>fuit bona.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad ultimum dicendum est quod non est
+          <lb ed="#Qb"/>similitudo in agentibus secundum naturam et in
+          <lb ed="#Qb"/>primo agente secundum voluntatem: 'nam agens
+          <lb ed="#Qb"/>secundum naturam producit sibi simile in specie
+          <lb ed="#Qb"/>vel in genere 2, agensf vero secundum voluntatem
+          <lb ed="#Qb"/>rectam producit simile, id est proportionale in
+          <lb ed="#Qb"/>dispositioneg, ut a bono bonum, ab uno unum,
+          <lb ed="#Qb"/>et ita de aliis dispositionibus quae conveniunt
+          <lb ed="#Qb"/>causae et causato. Praeterea, licet sit summe
+          <lb ed="#Qb"/>bonus, tamen, quia in ipso idem est natura quod
+          <lb ed="#Qb"/>voluntas, quae est summe libera, non creat res
+          <lb ed="#Qb"/>nisi secundum libertatem suae voluntatis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

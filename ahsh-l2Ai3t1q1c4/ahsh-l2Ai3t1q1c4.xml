@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 1, Q. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 1, Q. 1, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="314"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t1q1c4">
+        <head>Ia-IIae, Inq. 3, Tract. 1, Q. 1, C. 4</head>
+        <head type="question-title">UTRUM CREATIO CAELI ET TERRAE FUIT ANTE OMNEM DIEM.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur I. utrum creatio caeli et terrae
+          <lb ed="#Qb"/>fuit' ante omnem diem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod non videtur 1. per hoc quod dicitur"
+          <lb ed="#Qb"/>Gen. 2,4: <quote ana="#gen2_4">Istae sunt generationes caeli et terrae,
+          <lb ed="#Qb"/>quando creatae sunt in die' quo fecit Deus
+          <lb ed="#Qb"/>caelum et terram</quote>. Ergo in die fecit caelum et
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>terramx; sed suum 'facere' nihil aliud est quam
+          <lb ed="#Qb"/>creare; ergo in die creavit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, obicit Manichaeusg: Numquid creavit
+          <lb ed="#Qb"/>Deus in tenebris aliquid? Quod si creavit, erat
+          <lb ed="#Qb"/>in tenebris. Quomodo ergo <quote ana="Itim6_16">habitat lucem inac<lb ed="#Qb"/>cessibilem</quote>
+          10? Quod si habitat, in luce fecit omnia,
+          <lb ed="#Qb"/>ergo caelum etc.; ergo in die.
+        </p>
+        <p>
+                <pb ed="#Qb" n="315"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Contra: a. Dies est praesentia lucis super ter<lb ed="#Qb"/>ram;
+          sed nondum facta erat" lux; ergo nondum
+          <lb ed="#Qb"/>fuit dies.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name>, XII Confessionuml: <quote> ln<lb ed="#Qb"/>formem
+          materiam fecisti ante omnem diem </quote>; sed
+          <lb ed="#Qb"/>informis materia nomine caeli et terrae designatur-2;
+          <lb ed="#Qb"/>ergo caelum et terra facta sunt ante omnem diem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod b respondeo per hoc quod
+          <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>", Super Genesim V3: <quote>Nunc
+          <lb ed="#Qb"/>autemc est hic, inquit, liber creaturae caeli et ter<lb ed="#Qb"/>rae,
+          cum factus est dies, satis, ut opinor, osten<lb ed="#Qb"/>dens
+          non hic se ita commemorasse caelum et
+          <lb ed="#Qb"/>terram sicut in principio, antequam fieret dies, cum
+          <lb ed="#Qb"/>tenebrae essent super abyssum, sed quo modo fac<lb ed="#Qb"/>tum
+          est caelum et terra, cum factus est dies, id
+          <lb ed="#Qb"/>est iam formatis atque distinctis partibus et ge<lb ed="#Qb"/>neribus,-
+          quibus universa creatura disposita atque
+          <lb ed="#Qb"/>composita redditd hanc speciem, quae mundus
+          <lb ed="#Qb"/>vocatur </quote>. Per quod: patet quod creare caelum
+          <lb ed="#Qb"/>et terram dicitur dupliciter: vel informem mate<lb ed="#Qb"/>riam
+          facere vel per species et formas distin<lb ed="#Qb"/>guere.
+          Hoc ultimo modo dicitur dies, cum dicit:
+          <lb ed="#Qb"/>In die etc. Alio vero modo accipitur-' in libro
+          <lb ed="#Qb"/>Confessionum, cum dicitur: <quote> Informem materiam
+          <lb ed="#Qb"/>fecisti ante omnem diem </quote>. Hugo4: <quote>lllud pri<lb ed="#Qb"/>mum
+          momentum temporis, quo creata fuitg om<lb ed="#Qb"/>nium
+          visibilium eth invisibilium natura 1, neque
+          <lb ed="#Qb"/>nox fuit neque dies et tamen tempus fuit, quia
+          mutabilitas fuit </quote>.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>2. Ad illud vero quod obicitur 'Deum fecisse
+          <lb ed="#Qb"/>in luce, sicut habitat in luce': respondeo' quod
+          <lb ed="#Qb"/>lux dicitur vel lux intelligibilis quae ipse est, et
+          <lb ed="#Qb"/>in hac luce facit '", vel lux corporalis, et in hac
+          <lb ed="#Qb"/>vel hac existente non creavit caelum et terram,
+          <lb ed="#Qb"/>cum dicatur5: Tenebrae erant super faciem abyssi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Quaerit" etiam H ugo de caelo et terra crea<lb ed="#Qb"/>tis,
+          ubi materies illa informis substitit'a: an ubi
+          <lb ed="#Qb"/>modo formata subsistit an in alio loco vel minori 5.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod respondeo P, sine praeiudicio,
+          <lb ed="#Qb"/>quod ibi substitit'l terra ubi nunc est; alia vero
+          <lb ed="#Qb"/>quae nomine caeli designantur ' vel aquae circum<lb ed="#Qb"/>quaque,
+          ut non possets terra apparere quod erat.
+          <lb ed="#Qb"/>Unde dicit H ugo 7: <quote> Erat terrenum hoc elemen<lb ed="#Qb"/>tum
+          medio eodemque imo t loco subsidens, ceteris
+          <lb ed="#Qb"/>in confusione permixtis, forma meliore praeditum,
+          <lb ed="#Qb"/>sed iisdem circumquaque in modum nebulae op<lb ed="#Qb"/>pa—nsis
+          " ita involutum ut apparere non posset
+          <lb ed="#Qb"/>quod erat. Illa vero tria, sicut dictum est, adhuc
+          <lb ed="#Qb"/>in una confusione permixta sive potius in una
+          <lb ed="#Qb"/>permixtione confusa, circumquaque suspensa, eo
+          <lb ed="#Qb"/>usque in altum porrigebantur, quousque nunc
+          <lb ed="#Qb"/>summum corporeae creaturae pertingit 8. Totum
+          <lb ed="#Qb"/>hoc spatium, quod a superficie terraev medio ia<lb ed="#Qb"/>centis
+          loco usque ad extremum supremumque am<lb ed="#Qb"/>bitus
+          caeli limitem patet, illa nebulax et caligine
+          <lb ed="#Qb"/>replebatur </quote>. Circa vero ista quae nihil certum ha<lb ed="#Qb"/>bent 
+          ex Scriptura, nihil temere definiendum est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

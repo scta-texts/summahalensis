@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="212"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t1d1m2c3">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 2, C. 3</head>
+        <head type="question-title">UTRUM IRASCIBILE ET CONCUPISCIBILE SINT IN ANGELIS.</head>
+        <p>
+          <lb ed="#Qb"/>Quaeritur deinceps de irascibili et concupisci<lb ed="#Qb"/>bili
+          utrum sintf in angelis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur: 0. Quia per concupiscibilem est
+          <lb ed="#Qb"/>appetitus, per irascibilem est fuga mali; sed in
+          <lb ed="#Qb"/>angelo naturaliter est appetitus et iuga mali; ergo
+          <lb ed="#Qb"/>in angelis sunt hae duae vires.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, angeli nostram salutem diligunt; dilectio
+          <lb ed="#Qb"/>autem est secundum concupiscibilem; ergo angeli
+          <lb ed="#Qb"/>habent concupiscibilem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Et iterum, Apoc. 12,12: <quote ana="#ap12_12">Descendit ad vos
+          <lb ed="#Qb"/>diabolus, habens iram magnam</quote>; sed ira est se<lb ed="#Qb"/>cundum
+          irascibilem; ergo habet irascibilem 5.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, angeli boni habenth gaudium et angeli
+          <lb ed="#Qb"/>mali habent timorem servilem; sed gaudium est
+          <lb ed="#Qb"/>in vi1 concupiscibili, metus vel timor est in ira<lb ed="#Qb"/>scibili;
+          ergo angeli naturaliter habuerunt istas
+          <lb ed="#Qb"/>vires, concupiscibilem scilicet et irascibilem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Item, dicitur, in IibrolDeA anima et Spiritu 2,
+          <lb ed="#Qb"/>quod haec estk trinitas secundum quam anima as<lb ed="#Qb"/>similatur
+          Deo, scilicet in rationabilitate ', concupi<lb ed="#Qb"/>scibilitate
+          et irascibilitate; si ergo assimilatio per<lb ed="#Qb"/>fecta
+          naturaliter est in angelo "', habet rationali<lb ed="#Qb"/>tatem,
+          concupiscibilitatem et irascibilitatem. Quod
+          <lb ed="#Qb"/>Videtur per differentiam, quam assignat: <quote>Per
+          <lb ed="#Qb"/>concupiscibilem appetit, per irascibilem contemnit,
+          <lb ed="#Qb"/>per rationalem" inter utrumque discernit</quote>; sed
+          <lb ed="#Qb"/>appetere, contemnere, diiudicare sunt in angelis;
+          <lb ed="#Qb"/>ergo eto potentiae secundum quas insunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>f. Praeterea, Exod. 26, 32: <quote ana="#ex26_32">Appendens ante quu<lb ed="#Qb"/>tuar
+          columnas</quote>, Glossa3: <quote> Quatuor columnae,
+          <lb ed="#Qb"/>ante. quas, appensum est velum,-sunt potestates
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>caeli, quatuor virtutibus eximiis praeditae, id estP
+          <lb ed="#Qb"/>fortitudine, temperantia, prudentia, iustitia, quae
+          <lb ed="#Qb"/>aliter servantur in caelis ab angelis et animabus
+          <lb ed="#Qb"/>sanctis</quote> et aliter hic; similiterq in Interli—
+          <lb ed="#Qb"/>neari4: <quote>Angelicos spiritus, qui quatuor vir<lb ed="#Qb"/>tutes
+          colunt plenarie</quote>. Sed virtutes non insunt
+          <lb ed="#Qb"/>eis nisi secundum potentias quas habent natu<lb ed="#Qb"/>raliter; 
+          prudentia autem inest secundum rationa<lb ed="#Qb"/>nalem, 
+          fortitudo secundum irascibilem, temperantia
+          <lb ed="#Qb"/>secundum concupiscibilem, iustitia vero vel cir<lb ed="#Qb"/>cuit 
+          omnes vel est in rationali, secundum quod
+          <lb ed="#Qb"/>intellectualis creatura ordinatur ad alterum; ergo
+          <lb ed="#Qb"/>angelis naturaliter insunt hae vires.
+        </p>
+        <p>
+          <lb ed="#Qb"/>g. Item, distinguuntur hae tres virtutes, fides,
+          <lb ed="#Qb"/>spes, caritas, ut fides sit respectu veri, spes
+          <lb ed="#Qb"/>respectu ardui, caritas respectu boni: secun<lb ed="#Qb"/>dum
+          rationalem fides, secundum concupiscibi<lb ed="#Qb"/>lem.
+          caritas, secundum irascibilem spes; cum
+          <lb ed="#Qb"/>ergo cognitio aeternorum et confidentia habendi'
+          <lb ed="#Qb"/>poterit convenire angelis et dilectio, erunt tres
+          <lb ed="#Qb"/>vires in angelis, secundum quas haec insunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>h. Item, angelus naturaliter movebatur-* in ve<lb ed="#Qb"/>rum
+          et bonum et arduum; sed motus est natu—
+          <lb ed="#Qb"/>raliter secundum vires motivas; ergo habuit na<lb ed="#Qb"/>turaliter
+          vires motivas respondentes; sed hae sunt
+          <lb ed="#Qb"/>tres vires praedictae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Laetitia est secundum concupisci<lb ed="#Qb"/>bilem,.ira
+          estt secundum irascibilem5; sed ista
+          <lb ed="#Qb"/>non insunt naturaliter angelo; ergo nec potentiae
+          <lb ed="#Qb"/>iis respondentes. —- Quod autem laetitia
+          <lb ed="#Qb"/>non insit", habetur per hoc quod Damasce<lb ed="#Qb"/>nus 5 
+          dividit laetitiam in animalem et corporalem;
+          <pb ed="#Qb" n="213"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>sed nec animalis nec corporalis inest angelo
+          <lb ed="#Qb"/>naturaliter; ergo nec concupiscibilis potentia,
+          <lb ed="#Qb"/>quae est illius propria. Similiter tristitia, quae
+          <lb ed="#Qb"/>ei opponitur, <quote>cuius partes sunt acidia, achos,
+          <lb ed="#Qb"/>invidia, misericordia1 </quote>: istae enim sunt compas—
+          <lb ed="#Qb"/>siones vel passiones"; sed passiones vel com<lb ed="#Qb"/>passiones
+          non insunt naturaliter angelis; ergo etc.
+          -— Similiter ostenditur de ira: <quote> Ira enim est fervor
+          <lb ed="#Qb"/>eius, qui circa cor est, sanguinis ex evapora<lb ed="#Qb"/>tione</quote>.
+          Sed iste fervor non inestb naturaliter
+          <lb ed="#Qb"/>angelis; ergo nec ira; ergoc nec irascibilis, cuius d
+          <lb ed="#Qb"/>propria passio vel actus dicitur ira 2. Praeterea,
+          <lb ed="#Qb"/>dicitur ibidemz: <quote>Cum concupiscimus quid et
+          <lb ed="#Qb"/>prohibemur ab aliquo, irascimur adversus eum,
+          <lb ed="#Qb"/>ut iniusta passi, mente scilicet iudicante dignum
+          <lb ed="#Qb"/>angustia </quote>. Sed hoc non est naturaliter in angelis;
+          <lb ed="#Qb"/>ergo nec ira. Item, ira est appetitus poenae prop<lb ed="#Qb"/>terf
+          apparentem exinanitionemg ; sed apparens
+          <lb ed="#Qb"/>exinanitioh non est in angelis naturaliter; ergo
+          <lb ed="#Qb"/>nec ira.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, <name ref="#Augustine">Augustinus</name>, in libro De civitate
+          <lb ed="#Qb"/>Dei 3, dicit quod sunt quatuor perturbationes: lae<lb ed="#Qb"/>titiaï,
+          gaudium, metus et spes; hae autem per<lb ed="#Qb"/>turbationes
+          non insunt naturaliter angelis, et sunt
+          <lb ed="#Qb"/>propriae illarum virium; ergo nec illae vires.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Praeterea, dicit Beda4: <quote>Fortitudo est in
+          <lb ed="#Qb"/>perferendis molestiis, temperantia in coercendis
+          <lb ed="#Qb"/>delectationibus, prudentia in praecavendisk insi<lb ed="#Qb"/>diis
+    </quote>. Sed haec non insunt naturaliter angelis;
+          <lb ed="#Qb"/>ergo nec fortitudo nec temperantia nec prudentia';
+          <lb ed="#Qb"/>sed hae sunt perfectiones potentiarum praedicta<lb ed="#Qb"/>rum;
+          ergo rationabilis, irascibilis, concupiscibilis
+          <lb ed="#Qb"/>non insunt naturaliter angelis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Praeterea, victoria tentationum convenit pro<lb ed="#Qb"/>prie
+          irascibili; concupiscentiae. autem, sicut dicit
+          <lb ed="#Qb"/>Chrysostomus 5, principium est indigentia;
+          <lb ed="#Qb"/>ergo, cum'" tentationes non sint in angelis, nec
+          <lb ed="#Qb"/>victoria tentationum inest; ergo nec irascibilis,
+          <lb ed="#Qb"/>cuius est hoc proprium. Similiter indigentia non
+          <lb ed="#Qb"/>fuit naturaliter in angelis secundum primum sta<lb ed="#Qb"/>tum;
+          ergo nec concupiscentia quae consequitur
+          <lb ed="#Qb"/>indigentiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod concupisci<lb ed="#Qb"/>bilis,
+          prout actus eius est appetitus boni, et ira<lb ed="#Qb"/>scibilis,
+          prout actus eius est fuga mali, secundum
+          <lb ed="#Qb"/>quod dicitur, in libro De anima et spiritu 5, quod 
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>per concupiscibilitatem'et irascibilitatem est ha<lb ed="#Qb"/>bilitas
+          affectionis ad appetendum vel fugiendum,
+          <lb ed="#Qb"/>amandum vel odiendum, sunt naturaliter in an<lb ed="#Qb"/>gelis;
+          prout autem ira est appetitus nocendi, non
+          <lb ed="#Qb"/>est naturaliter in angelis secundum naturam pri<lb ed="#Qb"/>mitus
+          institutam; similiter concupiscentia, prout
+          <lb ed="#Qb"/>procedit ex indigentia poena, non fuit in angelis
+          <lb ed="#Qb"/>secundum statum innocentiae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud quod obicitur
+          <lb ed="#Qb"/>primo, dicendum quod laetitia animalis dicitur
+          <lb ed="#Qb"/>dupliciter: vel ipsius animae in se, secundum
+          <lb ed="#Qb"/>quod habet potentias non dependentes a corpore,
+          <lb ed="#Qb"/>et sic dicitur laetitia in angelis, quia illa est0
+          <lb ed="#Qb"/>quae dividitur ex opposito contra corporalem;
+          <lb ed="#Qb"/>alio modo dicitur animalis ipsius animae, prout
+          <lb ed="#Qb"/>consideratur in!7 coniunctione ad corpus, prout
+          <lb ed="#Qb"/>est alicuius potentiae cuiusq actus dependet a
+          <lb ed="#Qb"/>corpore, et sic non est laetitia animalis in angelis.
+          — Similiter ad illud quod obicitur de tristitia,
+          <lb ed="#Qb"/>dicendum quod, licet duae primae differentiae non
+          <lb ed="#Qb"/>sint in angelis, scilicet acidia et achos, nihilo<lb ed="#Qb"/>minus
+          aliae duae differentiae, scilicet misericordia
+          <lb ed="#Qb"/>et invidia, possunt esse in angelis, ut misericordia
+          <lb ed="#Qb"/>in bonis et invidia in malis, sed non secundum
+          <lb ed="#Qb"/>naturam primitus institutam, sed secundum na<lb ed="#Qb"/>turam
+          corruptam. — Ad id' quod obicitur quod
+          'passio vel compassio non est in angelis natu<lb ed="#Qb"/>raliter
+          ': dicendum quod hoc est verum secundum
+          <lb ed="#Qb"/>quod passio sonat in poenam, tamen secundum
+          <lb ed="#Qb"/>quod' passio dicitur a necem graece, quod est
+          <lb ed="#Qb"/>informatio, dicuntur in eis esse passiones 3. — Ad
+          <lb ed="#Qb"/>hoc* quod obicitur quod <quote>ira" est fervor eius,
+          <lb ed="#Qb"/>qui circa cor est, sanguinis </quote>: dicendum quod haec
+          <lb ed="#Qb"/>est definitio irae secundum quod est in homine
+          <lb ed="#Qb"/>tantum et non in angelo. — Ad aliud quod
+          <lb ed="#Qb"/>obicitur quod <quote> cum concupiscimus quid et " pro<lb ed="#Qb"/>hibemur,
+          irascimur tamquam iniusta passi</quote> etc.:
+          <lb ed="#Qb"/>dicendum quod ira secundum hanc rationem non
+          <lb ed="#Qb"/>est in angelis secundum naturam primitus insti<lb ed="#Qb"/>tutam,
+          potest tamen esse intc angelis malis se<lb ed="#Qb"/>cundum
+          naturam corruptam. -— Et eodem modo
+          <lb ed="#Qb"/>respondendum est ad illud 'ira est appetitus
+          <lb ed="#Qb"/>poenae? etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod dicit <name ref="#Augustine">Augustinus</name>?
+          <lb ed="#Qb"/>quod "quatuor sunt perturbationes' etc.: respon<lb ed="#Qb"/>deoz
+          quod facienda est vis in hoc quod dicit
+          <pb ed="#Qb" n="214"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>'perturbationes ', quia secundum quod sunt pertur<lb ed="#Qb"/>bationes,
+          non sunt in angelis secundum naturam
+          <lb ed="#Qb"/>primitus institutam, licet sint in daemonibus secun<lb ed="#Qb"/>dum
+          naturam corruptam in eis; secundum tamen
+          <lb ed="#Qb"/>quod passio dicitur, ut supra 1, a mean graece,
+          <lb ed="#Qb"/>quod est informare, potest" esse passio laetitiae
+          <lb ed="#Qb"/>in angelisb secundum primum statum naturae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud dicendum quod, licet prudentia
+          <lb ed="#Qb"/>et temperantia et fortitudo non. sint in angelis
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>quantum ad omnemc actum, utpote quantum ad
+          <lb ed="#Qb"/>actus supra dictos, sunt'?[ tamen in eis quantum
+          <lb ed="#Qb"/>ad aliquos actus nobiliores, secundum quos etiam
+          <lb ed="#Qb"/>actus remanebunt huiusmodi Virtutes in animabus
+          <lb ed="#Qb"/>glorificatis, sicut "dicit <name ref="#Augustine">Augustinus</name>z.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad ultimum dicendum quod, licet non sit
+          <lb ed="#Qb"/>irascibilis in angelis, quantum ad hunc actum,
+          <lb ed="#Qb"/>scilicet vincere tentationes, tamen est in eis quan<lb ed="#Qb"/>tum
+          ad aliosf actus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

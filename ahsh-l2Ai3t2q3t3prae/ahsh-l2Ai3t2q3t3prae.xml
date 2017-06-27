@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 3, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 3, Praeambulum</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="358"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q3t3prae">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 3, Praeambulum</head>
+        <p>
+                <pb ed="#Qb" n="358"/>
+          <lb ed="#Qb"/>Dixit quoque Deus: Producat terra] etc. Sequitur ornatus qui factus est sexta
+          <lb ed="#Qb"/>die, in qua primo agit de animantibus terrestribus irrationalibus", deinde de
+          <lb ed="#Qb"/>animante rationali2 :Et ait: Faciamus hominem etc. Et tangit tria, quae pos<lb ed="#Qb"/>sunt
+          <lb ed="#Qb"/>reduci ad quatuor genera causarum. Cum enim dicitur: Dixit Deus, notatur causa
+          <lb ed="#Qb"/>efficiens; cum dicituri: Producat terra notatur causa materialis; cum dicitur": Et
+          <lb ed="#Qb"/>fecit Deus etc., notatur causa formalis, secundum quam processit per conditionem a
+          <lb ed="#Qb"/>Deo ; causa iinalis, cum dicitur 4: Et vidit Deus etc. Hoc idem posset prius esse dictum
+          <lb ed="#Qb"/>in aquatilibus. Vel possumus praedicto modo in tria distinguere: secundum esse a causa
+          <lb ed="#Qb"/>et in proprio genere et referri ad causam tamquam finem 5.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

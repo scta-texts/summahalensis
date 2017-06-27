@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="70"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q2t2m1">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 1</head>
+        <head type="question-title">Utrum simplicitas conveniat omni creaturae</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sie c: I. l. Unitas et simplicitas
+          <lb ed="#Qb"/>sunt rationes causae; qua ergo ratione ab
+          <lb ed="#Qb"/>uno procedit unum, eadem d ratione a simplici
+          <lb ed="#Qb"/>debet procedere simplex.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, simplicitas est quaedam conditio
+          <lb ed="#Qb"/>et non repugnat creaturae, ut videtur; et potentia
+          <lb ed="#Qb"/>est ex parte creantis in communicando; ergo simplicitas
+          <lb ed="#Qb"/>est conditio creaturae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Bo e t h i u s, in suis Hebdomadibus 2 :
+          <lb ed="#Qb"/>
+          <quote>In e omni composito aliud est ' quod est' et
+          ' quo est' </quote>; et t cui aliud est ' quod est' et 'quo
+          est', illud est compositum; sed in omni g creatura
+          aliud est ' quod est' h et ' quo est '; ergo omnis
+          creatura est composita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, si aliqua creatura esset simplex omnino
+          in esse et 1 intellectu, coaequaretur Primo; sed
+          non sunt duo prima, nec aliquid in rebus quod
+          si t k ei coaequale; ergo nulla creatura est simplex;
+          ergo quaelibet est composita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Q u o d aut e m a l i qua si t si m p l e x,
+          <lb ed="#Qb"/>aliqua 1 vero composita, sicarguitur: l. Omne
+          <lb ed="#Qb"/>compositum ex aliquibus est compositum 3 ; ergo
+          <lb ed="#Qb"/>vel m ex simplicibus vel ex compositis, cum simplex
+          <lb ed="#Qb"/>et compositum sufficienter dividant ens n. Si
+          <lb ed="#Qb"/>autem ex compositis 0, et hoc semper, esset abire
+          <lb ed="#Qb"/>in infinitum; ergo aliquando eri t devenire ad simplicia;
+          <lb ed="#Qb"/>sed alterum ipsorum simplicium non P potest
+          <lb ed="#Qb"/>esse ipsum Primum: ex quo enim est aliquid
+          <lb ed="#Qb"/>compositum, materiale est respectu illius; divina
+          <lb ed="#Qb"/>autem essentia q non est materialis respectu
+          <lb ed="#Qb"/>alicùius; ergo divina essentia non est r alterum
+          <lb ed="#Qb"/>componentium; utrumque ergo illorum simplicium
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>est creatura; ergo aliqua est creatura simplex et
+          <lb ed="#Qb"/>aliqua composita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, simplex et compositum ponuntur in divisione
+          <lb ed="#Qb"/>entis possibilis, quod dicitur ens creatum;
+          <lb ed="#Qb"/>ergo aliqua creatura est simplex et s ali qua composita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, Augusti nus, De anima et spiritu 4 :
+          <lb ed="#Qb"/>
+          <quote> Non per partes dividitur, cum sit t simplex et
+          <lb ed="#Qb"/>individua. Et si aliquando partes hahere dicitur,
+          <lb ed="#Qb"/>ratione potius similitudinis quam veritate compo<lb ed="#Qb"/>sitionis
+          intelligendum est</quote>. Ex quo u relinquitur
+          <lb ed="#Qb"/>quod aliqua ·creatura est simplex.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: II. 2. Ad hoc respondendum quod 
+          <lb ed="#Qb"/>simplex dicitur pluribus v modis. Uno modo dicitur
+          <lb ed="#Qb"/>simplex quod caret materia dimensiva: secundum
+          <lb ed="#Qb"/>bune modum substantiae spirituales simplices dicuntur.
+          <lb ed="#Qb"/>Alio vero modo dicitur simplex quod omnino
+          <lb ed="#Qb"/>caret materia, et sic dicitur prima forma
+          <lb ed="#Qb"/>simplex, secundum Bo e t h i u m, in libro De Trinitate5 : 
+          <lb ed="#Qb"/>secundum h une modum non dicitur anima
+          <lb ed="#Qb"/>simplex, quia habet materiam et formam spiritualem;
+          <lb ed="#Qb"/>et si hoc non esset, adhuc diceretur habere
+          <lb ed="#Qb"/>compositionem ratione eorum quae insunt
+          <lb ed="#Qb"/>ipsi et tamen nullum illorum est quod ipsa x.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Quod autem dicitur, in libro De anima et spiritu,
+          <lb ed="#Qb"/>quod 'ratione similitudinis intelligendum est,
+          <lb ed="#Qb"/>non ratione compositionis ', hoc est secundum
+          <lb ed="#Qb"/>qU:od loquimur de compositione rerum corporalium,
+          <lb ed="#Qb"/>quam non habet anima, sed similitudinem
+          <lb ed="#Qb"/>dicitur habere propter Y virium multiplicitatem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. A d a l i u d autem quod· obicitur pro alia z
+          <lb ed="#Qb"/>parte, respondendum est quod compositum di<lb ed="#Qb"/>citur 
+          duobus modis. Uno enim modo dicitur
+          <pb ed="#Qb" n="71"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>
+          <lb ed="#Qb"/>compositum quod ex pluribus simul in unum po<lb ed="#Qb"/>sitis
+          consistit<!--a-->. Alio vero modo dicitur compositum
+          <lb ed="#Qb"/>quod alii unitum est vel quod habetin se depen<lb ed="#Qb"/>dentiam
+          ab altero, ratione cuius esse suum est
+          <lb ed="#Qb"/>ab illo sive ad illud et intellectus dependet ab
+          <lb ed="#Qb"/>illo. Primo modo non dicitur omnis creatura com<lb ed="#Qb"/>posita,
+          sed quaedam simplex etb quaedam com<lb ed="#Qb"/>posita;
+          secundo modo quaelibet est composita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>I. 1. Ad id ergoc quod primo obicitur, di<lb ed="#Qb"/>cendum
+          est quod non est simile de hac con<lb ed="#Qb"/>ditione
+          'unum' et de hac conditione 'simplex '.
+          <lb ed="#Qb"/>Conditio enim 'unius' non repugnat creaturae;
+          <lb ed="#Qb"/>conditiod vero lsimplicis' uno modo repugnat,
+          <lb ed="#Qb"/>ut nulla creatura simplex dicatur secundum illum
+          <lb ed="#Qb"/>modum secundum quem dicitur simplex quod
+          <lb ed="#Qb"/>non dependet causalitate ab alio: non enim pos<lb ed="#Qb"/>sunte
+          simul stare quod sit creatum et non de<lb ed="#Qb"/>pendeat
+          causaliter ab alio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum verof dicendum quod ra<lb ed="#Qb"/>tio
+          simplicitatis uno modo potest communicari a
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>creatura, illo scilicet modo quo dicitur 'hoc non
+          <lb ed="#Qb"/>est ex alio ', sicut materia vel forma non est ex
+          <lb ed="#Qb"/>alio, licet sit ab alio, et hoc est non esse ex alio
+          <lb ed="#Qb"/>tamquam ex parte componenti: secundum quem
+          <lb ed="#Qb"/>modum potest Deus communicare conditionem
+          <lb ed="#Qb"/>simplicitatis creaturae; alio vero modo non pot<lb ed="#Qb"/>est,
+          cum ex ratione creaturae aliog modo de<lb ed="#Qb"/>pendeat 
+          secundum rationem et secundum intel<lb ed="#Qb"/>lectum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Ad illudh autem quod dicit Boethius, in
+          <lb ed="#Qb"/>suis Hebdomadibus: dicendum quod1 attendendum
+          <lb ed="#Qb"/>est proprie in iis quae simpliciter sunt, quae com<lb ed="#Qb"/>posita
+          suntk ex ' quo est' et ' quod est '. Nam si
+          'quo est' et ' quod est ' composita dicerentur, non
+          <lb ed="#Qb"/>sic intelligeretur; de quo plenius habebitur infra 1.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Ad sequens dicendum est quod, accipiendo
+          <lb ed="#Qb"/>uno modo 'simplex in essentia' si diceretur crea<lb ed="#Qb"/>tura
+          simplex, omni modo diceretur coaequalis ipsi
+          <lb ed="#Qb"/>Creatori; alio vero modo accipiendo, differt a
+          <lb ed="#Qb"/>Creatore et erit plurima dissimilitudo '.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

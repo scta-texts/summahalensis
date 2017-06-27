@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="462"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t1m3c4">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 4</head>
+        <head type="question-title">UTRUM ANGELI HABEANT SENSUM INTERIOREM VEL ANIMAE TANTUM.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur utrum angeli habeant huius<lb ed="#Qb"/>modi
+          sensum" vel animae tantum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod sit angelorum, videtur 1. per hoc quod di<lb ed="#Qb"/>cit
+          Hugo de S. Victore7: <quote> Una creatura erat
+          <lb ed="#Qb"/>cuius sensus totus eratP intus et alia creatura cuius
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>sensus totus foris erat, et positus est homo in medio
+          <lb ed="#Qb"/>ut intus et foris sensum haberet </quote>. Sed ? illam crea<lb ed="#Qb"/>turam,
+          cuius sensus totus erat intus, intelligit ipse
+          <lb ed="#Qb"/>angelum; ergo angeli habent sensum interiorem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Augustinus, in libro De civitate
+          <lb ed="#Qb"/>Dei 's: <quote> Sive universi mundi corpus, figuras,
+          <pb ed="#Qb" n="463"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>qualitates ordinatumque a motum et elementa dis<lb ed="#Qb"/>posita
+          a caelo usque ad terram et quaecumque
+          <lb ed="#Qb"/>corpora in eis sunt, sive omnem vitam vel quae nu<lb ed="#Qb"/>trit
+          et continet, qualis est in arboribus, vel quae et
+          <lb ed="#Qb"/>hoc'" habet et sentit, qualis este in pecoribus, vel
+          <lb ed="#Qb"/>quae et haec" habet et intelligit, qualis est in homi<lb ed="#Qb"/>nibus,
+          vel quae nutritori'o subsidio non indiget, sed
+          <lb ed="#Qb"/>tantum continet, sentit e, intelligit' qualis est in an<lb ed="#Qb"/>gelis
+    </quote>. Si ergo sentiref convenit angelis, ergo et
+          <lb ed="#Qb"/>sensus interior; ergo non solum convenit animae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Sensus interior communis est nobis
+          <lb ed="#Qb"/>et brutis. Unde <name ref="#Augustine">Augustinus</name>, in libro De li<lb ed="#Qb"/>bera
+          arbitrial: <quote> Arbitror illud esse manifestum,
+          <lb ed="#Qb"/>interiorem illum sensum non ea tantum sentire
+          <lb ed="#Qb"/>quae accipit a quinque sensibus corporis 8, sed
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>etiam ipsos ab eo sentiri. Non enim aliter bestia
+          <lb ed="#Qb"/>moveret se appetendo vel fugiendo nisi se sentire
+          <lb ed="#Qb"/>sentiret</quote>; sed h nihil est commune angelis et bru<lb ed="#Qb"/>tis;
+          ergo sensus interior non convenit angelis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: Sensus interior dicitur duobus
+          <lb ed="#Qb"/>modis. Uno modo dicitur proprie, secundum quod
+          'sentire' pertinet ad partem sensibilem, et hoc
+          <lb ed="#Qb"/>modo non convenit angelis sensus interior, 'et sic
+          <lb ed="#Qb"/>accipit Augustinus sensum in supra dicta auc<lb ed="#Qb"/>toritate,
+          quae est in libro De libero arbitrio. Alio
+          <lb ed="#Qb"/>modo sumitur sensus communiter, secundum quod
+          'intelligere' dicitur '. sentire ', et sic accipit Au<lb ed="#Qb"/>gustinus
+          sentire in libro De civitate Dei, cum
+          <lb ed="#Qb"/>dicit quod sentire convenit angelis, et hoc modo
+          <lb ed="#Qb"/>sensus interior convenit angelis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

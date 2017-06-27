@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q2t2c2">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 2, C. 2</head>
+        <head type="question-title">UTRUM CONGREGENTUR AQUAE SUPERIORES IN MODUM ORBIS.</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur utrum congregatae-sint aquae
+          <lb ed="#Qb"/>superiores in modum orbis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur: a. Supponitur enim vacuum non
+          <lb ed="#Qb"/>essez; ergo totum spatium a caelo empyreo usque
+          <lb ed="#Qb"/>ad caelum sidereum repletum est corpore.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, in superioribus est distinctio locorum
+          <lb ed="#Qb"/>quemadmodum et corporum. Verbi gratia: caelum
+          <lb ed="#Qb"/>empyreum non occupat locum siderei caeli nec
+          <lb ed="#Qb"/>e converso et ita de aliis, nec in parte nec in toto;
+          <lb ed="#Qb"/>minus enim nobile corpus non occupat locum
+          <lb ed="#Qb"/>nobilioris nec e converso in superioribus, quem<lb ed="#Qb"/>admodum
+          hic inferiusd accidit de aere quod sub<lb ed="#Qb"/>intrat
+          cavernas terrae. Cum ergo aquae superiores
+          <lb ed="#Qb"/>sint in medio caeli empyrei et caeli siderei, col<lb ed="#Qb"/>ligentur
+          in orbem ex omni parte aut aliqua pars
+          <lb ed="#Qb"/>caeli empyrei vel caeli siderei occupabit aliquam
+          <lb ed="#Qb"/>partem spatii illius, scilicet caeli aquei; sed si
+          <lb ed="#Qb"/>occuparet aliquam partem spatii illius, non esset
+          <lb ed="#Qb"/>caelum empyreum ex omni parte sua orbiculare
+          <lb ed="#Qb"/>vel caelum sidereum; cum ergo utrumque sit or<lb ed="#Qb"/>biculare,
+          nulla pars alterius corporis ingredietur
+          <lb ed="#Qb"/>spatium intermedium; ergo aquae superiores ex
+          <lb ed="#Qb"/>omni parte et quoad superius et quoad inferius
+          <lb ed="#Qb"/>occupabunt spatium intermedium; ergo colligen<lb ed="#Qb"/>tur
+          in orbem: non enim intercipitur aliquod cor<lb ed="#Qb"/>pus
+          minus nobile, ut ignis vel aether, cum minus
+          <lb ed="#Qb"/>nobile in superioribus non occupet locum nobi<lb ed="#Qb"/>lioris
+          2, secundum etiam ordinem locorum est ordo
+          <lb ed="#Qb"/>corporum in nobilitatef et e converso; erit ergo
+          <lb ed="#Qb"/>unus orbis medius inter caelum empyreum etg
+          <lb ed="#Qb"/>stellatum.— Quod autem, aquae illae sint
+          <lb ed="#Qb"/>nobiliores in dignitate naturae quam
+          <lb ed="#Qb"/>firmamentum, videtur ex verbis <name ref="#Augustine">Augustini</name>,
+          <lb ed="#Qb"/>Contra Manichaeos3: <quote> Quoniam materiam " illam
+          <lb ed="#Qb"/>dicebamus nomine aquae appellatam, credo tir<lb ed="#Qb"/>mamento
+          caeli materiam corporalem rerum visi<lb ed="#Qb"/>bilium
+          fuisse discretam. Cum enim sit caelum
+          <lb ed="#Qb"/>corpus pulcherrimum, omnis invisibilisi creatura
+          <lb ed="#Qb"/>excedit etiam pulcritudinem caeli, et ideo fortasse
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>super caelum dicuntur esse aquae invisibiles, quae
+          <lb ed="#Qb"/>a paucis intelliguntur, non locorum sedibus, sed
+          <lb ed="#Qb"/>dignitate naturae superare caelum, quamquam
+          <lb ed="#Qb"/>nihil temere de hac re affirmandum est: obscura
+          <lb ed="#Qb"/>enim est et remota a sensibus hominum; sed'f
+          <lb ed="#Qb"/>quoquo modo se habeat, antequam intelligatur,
+          <lb ed="#Qb"/>credenda est </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Videtur autem contrarium quod non ex illis
+          <lb ed="#Qb"/>sit naturaliter orbiculare, sed si est, est1 quod
+          <lb ed="#Qb"/>sit orbiculare "' ex accidenti, sicut aqua in scypho
+          <lb ed="#Qb"/>rotundo. 1. Cum enim aquae ante divisionem,
+          <lb ed="#Qb"/>superiores scilicet et" inferiores, essent eiusdem
+          <lb ed="#Qb"/>naturae 4, facta divisione adhuc remanebunt con<lb ed="#Qb"/>similis
+          naturae; sed aquae inferiores non consti<lb ed="#Qb"/>tuunt
+          naturaliter Corpus orbiculare, sed acciden<lb ed="#Qb"/>taliter,
+          quia imitantur figuram continentis; ergo
+          <lb ed="#Qb"/>nec aquae superiores, cum sint consimilis naturae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, dicit Philosophus5 quod cor<lb ed="#Qb"/>pori
+          recto naturaliter debetur motus rectus: unde
+          <lb ed="#Qb"/>aquis inferioribus debetur motus rectus; et illae
+          <lb ed="#Qb"/>sunt consimilis naturae; ergo si colliguntur",
+          <lb ed="#Qb"/>colligentur in corpus rectum naturaliter, orbi<lb ed="#Qb"/>culare
+          accidentaliter.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod nihil in
+          <lb ed="#Qb"/>hac parte est definiendum, sed opinando, sine
+          <lb ed="#Qb"/>praeiudicio melioris sententiae, potest dici quod
+          <lb ed="#Qb"/>aquae illae colliguntur in corpus natura-liter or<lb ed="#Qb"/>biculare.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad obiectum 1. dicendum quod 'esse consi<lb ed="#Qb"/>milis
+          naturae' potest dici multipliciter: vel ita
+          <lb ed="#Qb"/>quod sint eiusdem naturae in specie, et hoc
+          <lb ed="#Qb"/>non videtur ex verbis <name ref="#Augustine">Augustini</name>; vel- quod
+          <lb ed="#Qb"/>habeant aliquam convenientiam, ut utrobique
+          <lb ed="#Qb"/>inveniatur natura perspicui: sed aquae inferio<lb ed="#Qb"/>res
+          sunt corruptibiles, illae vero immortales,
+          <lb ed="#Qb"/>quae non corrumpuntur, sicut dicit Augusti<lb ed="#Qb"/>nusö.
+          Si tamen sunt illae aquae consimilis na<lb ed="#Qb"/>turae
+          in specie, quoquo modo ibi suntP, divi<lb ed="#Qb"/>nae
+          dispositioni relinquendum, sicut dicit Da<lb ed="#Qb"/>mascenus7.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

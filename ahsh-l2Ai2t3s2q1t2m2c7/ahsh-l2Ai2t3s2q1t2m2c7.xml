@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 7</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 7</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="184"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m2c7">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 7</head>
+        <head type="question-title">QUAM COGNITIONEM HABUERINT ANGELI DE REBUS ORDINIS NATURALIS.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur de cognitione quam ' ha<lb ed="#Qb"/>bere
+          potuit angelus ex sua natura primitus
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>sive respectu naturalium sive rerum quae sub<lb ed="#Qb"/>sunt
+          vel subesse poterant libero arbitrio 7.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head type="question-title">Quomodo angeli cognouerint res naturales.</head>
+          <p>
+            <lb ed="#Qb"/>Et primo respectu naturalium. Si enim habuit
+            <lb ed="#Qb"/>cognitionem illarum P, aut habuit per formam in<lb ed="#Qb"/>natam—aut
+            per formas datas aut acquisitas 9.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Per formam innatam non videtur, quia illae for<lb ed="#Qb"/>mae
+            non possent esse nisi universalium formarum;
+            <lb ed="#Qb"/>sed cognitis universalibus formis non propter hoc
+            <lb ed="#Qb"/>fieret cognitio singularium, et ita angelus nesciret
+            <lb ed="#Qb"/>singularia. Si vero diceretur quod essent ibi formae
+            <lb ed="#Qb"/>singularium, non possent esse numero aequales,
+            <lb ed="#Qb"/>quia infinita possent esse singularia, formae vero
+            <lb ed="#Qb"/>sive similitudines in T intellectu essent finitae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Si vero fuit secundum formas datas: sed non ab
+            <lb ed="#Qb"/>inferiori substantia, quia inferior natura non dat
+            <lb ed="#Qb"/>superiori; ergo secundum datas a Deo; aut ergo
+            <lb ed="#Qb"/>tot datae erant a principio conditionis quot es<lb ed="#Qb"/>sent
+            cognoscibiles aut alicuius rei naturalis esset
+            <lb ed="#Qb"/>nescientia. Si veros tot essent a principio: hoc
+            <lb ed="#Qb"/>non videtur, quia res singulares possunt multi<lb ed="#Qb"/>plicari, 
+            secundum illud Ioan. 5,17: <quote>Pater meus
+            <lb ed="#Qb"/>usque modo operatur et ego operor</quote>; formae au<lb ed="#Qb"/>tem
+            datae a" principio erant in certo numero.
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Aut oporteret, facta rerum multiplicatione, multi<lb ed="#Qb"/>plicari
+            species vel similitudines apud intellectum
+            <lb ed="#Qb"/>angelicum: quod non videtur; non ergo cognitio
+            <lb ed="#Qb"/>omnium naturalium naturalis est per formas datas
+            <lb ed="#Qb"/>a principio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Si vero per formas acquisitas: ergo, cum in<lb ed="#Qb"/>telligibile
+            dicatur perfectio intelligentis, esset illa
+            <lb ed="#Qb"/>forma nobilior intellectu angelico. Praeterea, si
+            <lb ed="#Qb"/>reciperent a rebus, aut reciperent per modum
+            <lb ed="#Qb"/>illum quo speculum recipit aut quo recipit sen<lb ed="#Qb"/>sus;
+            sed sive sic sive sic, oporteret" esse ali<lb ed="#Qb"/>quam
+            continuationem inter rem a qua reciperet
+            <lb ed="#Qb"/>et intellectum angelicum recipientem; cum ergo
+            <lb ed="#Qb"/>nulla sit continuatio rei corporeae separatae ad
+            <lb ed="#Qb"/>incorpoream, non erit cognitio angeli naturalis
+            <lb ed="#Qb"/>per formas receptas vel* acquisitas a rebus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod cognitio
+            <lb ed="#Qb"/>naturalis rerum naturalium aut fuit quantum ad
+            <lb ed="#Qb"/>formas universales quae fuerunt omnes primitus
+            <lb ed="#Qb"/>creatae: et secundum hoc potuit esse per simili<lb ed="#Qb"/>tudines 
+            innatas vel a principio conditionis datas 2.
+            <pb ed="#Qb" n="185"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Magis autem videntur inna.tae esse a principio
+            <lb ed="#Qb"/>in a intelligentia angelica existentes quam post b
+            <lb ed="#Qb"/>conditionem datae, ne videretur intelligentia angelica
+            <lb ed="#Qb"/>a principio esse c quasi tabula nuda. Unde
+            <lb ed="#Qb"/>A u gusti n u s, in d libro Supèr Oenesim ad litteram
+            <lb ed="#Qb"/>
+            <quote>In se ipsa longe aliter nota est creatura angelis
+            <lb ed="#Qb"/>quam nobis. Illis enim primordialiter e, ut ita
+            <lb ed="#Qb"/>dicam, vel originaliter, sicut eam Deus primitus
+            <lb ed="#Qb"/>condidit et post eam conditionem a suis operibus
+            <lb ed="#Qb"/>requievit 2; non condendo aliquid amplius; no bis
+            <lb ed="#Qb"/>autem secundum rerum conditarum administrationem
+            <lb ed="#Qb"/>iam per ordines temporum, secundum quam
+            <lb ed="#Qb"/>Deus, iam t illis rebus per senariam distinctionem
+            <lb ed="#Qb"/>consummatis, usque modo operatur 3</quote>. Cognitio
+            <lb ed="#Qb"/>autem singularium est g per similitudines quas
+            <lb ed="#Qb"/>si bi h capi t ex rebus · existentibus.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Nec oportet propter hoc i quod formae intelligibiles
+            <lb ed="#Qb"/>rerum sint nobiliores intellectu angelico, quia
+            <lb ed="#Qb"/>res non faciunt suas similitudines in intellectu,
+            <lb ed="#Qb"/>sed intellectus angelicus sua virtute capit a rebus.
+            <lb ed="#Qb"/>Nec oportet ibi esse receptionem ad modum
+            <lb ed="#Qb"/>sensus vel speculi, cum non sit acceptio per
+            <lb ed="#Qb"/>modum rei' sensibilis, sed rei intelligibilis. Nec
+            <lb ed="#Qb"/>distantia aut interpositio corporalis tollit hanc
+            <lb ed="#Qb"/>cognitionem, cum incorporei k ad corporeum non
+            <lb ed="#Qb"/>dicatur proprie di stantia; secundum accidens tamen
+            <lb ed="#Qb"/>posset dici. Unde intellectus angelicus existens
+            <lb ed="#Qb"/>in oriente 1 posset cognitione naturali cognoscere
+            <lb ed="#Qb"/>m quod esset in occidente: si enitn lumen
+            <lb ed="#Qb"/>corporale, quod est in oriente, statim apparet in
+            <lb ed="#Qb"/>occidente 4 , multo fortius lumen intelligibile n accipit
+            <lb ed="#Qb"/>similitudinem statim.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Quomodo angeli cognoscant ea quae subsunt liber arbitrio.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur de iis quae subsunt libero
+            <lb ed="#Qb"/>arbitrio alterius angeli ve! alicuius hominis qualiter
+            <lb ed="#Qb"/>possit ex se cognoscere. Si enim homo secundum
+            <lb ed="#Qb"/>animam rationalem potest aliquando ex
+            <lb ed="#Qb"/>se o cognoscere quae subsunt libero arbitrio alterius
+            <lb ed="#Qb"/>hominis, ut quod velit hoc vel illud, per
+            <lb ed="#Qb"/>effectus consequentes vel per indicia P, nobili or
+            <lb ed="#Qb"/>autem est cognitio angeli de natura quam cognitio
+            <lb ed="#Qb"/>hominis : ergo potest aliquo modo cognoscere
+            <lb ed="#Qb"/>ea quae subsunt libero arbitrio; potest ergo
+            <lb ed="#Qb"/>quaeri secundum quem modum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Per causam enim non potest cognoscere: hoc 
+            <lb ed="#Qb"/>solius Dei. est vel illius cuius est liberum 
+            <lb ed="#Qb"/>Dicitur enim I Reg. 16,7: Deus intuetur 
+            <lb ed="#Qb"/>cor, · et q I Co r. 2, 11 : Nemo scit quae su n t hominis 
+            <lb ed="#Qb"/>nisi spiritus qui est in eo. Non ergo per causam 
+            <lb ed="#Qb"/>ergo, cum omnis certi tu do si t per 
+            <lb ed="#Qb"/>causam vel per effectum r, cognoscit per effec- 
+            <lb ed="#Qb"/>tu m; ergo eius cognitio s non differt a cognitione 
+            <lb ed="#Qb"/>hominis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, si cognosceret per effectum, cum 
+            <lb ed="#Qb"/>nullus si t effectus nisi intelligibilis aut sensibilis, 
+            <lb ed="#Qb"/>altero istorum cognoscit. Non sensibili, ut videtur,
+            <lb ed="#Qb"/>quia sensibile, ut sensibile, non cognoscitur ab 
+            <lb ed="#Qb"/>intellectu, cum non moveat intellectum. Si vero in- 
+            <lb ed="#Qb"/>telligibili effectu cognoscat, pari ratione immediate
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>posset cognoscere illud quod subest libero arbitrio
+            <lb ed="#Qb"/>sicut illud, cum utrumque sit intelligibile.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod angeli naturaliter
+            <lb ed="#Qb"/>vigent t ampliori perspicacitate cognoscendi
+            <lb ed="#Qb"/>quam homines. Unde, cum in hoc differat
+            <lb ed="#Qb"/>cognitio creàturae intellectualis a divina cognitione
+            <lb ed="#Qb"/>quod Deus c;ognoscit ea quae sunt liberi
+            <lb ed="#Qb"/>arbitrii per se, intellectualis vero non cognoscit
+            <lb ed="#Qb"/>per se ea quae sunt liberi arbitrii, sed per indicia
+            <lb ed="#Qb"/>- un de Augusti nus, in libro De ecclesiasticis
+            <lb ed="#Qb"/>dogmatibus, 49 cap. 6 : <quote> Internas animae cogitationes
+            <lb ed="#Qb"/>u diabolum non videre. certissimum est,
+            <lb ed="#Qb"/>sed moti bus corporis ab ilio et affectionum inenim
+            <lb ed="#Qb"/>diciis colligi v experimento didicimus; secreta auarbitrium.
+            <lb ed="#Qb"/>j tem cordis solus il! e novi t ad quem dicitur 7 : <quote>Tu
+            <lb ed="#Qb"/>solus n osti corda filiorum hominum</quote>
+            </quote> - ·in hoc x
+            <lb ed="#Qb"/>differt angelus ab homine quod angelus cognocognoscunt;
+            <lb ed="#Qb"/>scit ea quae sunt liberi arbitrii, ut affectiones,
+            <lb ed="#Qb"/>per indicia quae ab eis discerni possunt, a nobis
+            <lb ed="#Qb"/>autem non discernuntur, et hoc est quia vigent
+            <lb ed="#Qb"/>maiori acumine intelligentiae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Si v ero o bi c i a tu r: aut indicium illud est
+            <lb ed="#Qb"/>sensibile aut intelligibile in se - d i c o quod illud
+            <lb ed="#Qb"/>in~icium est aliqua impressio facta in corpore ab
+            <lb ed="#Qb"/>affectione animae, quae latet nostram cognitio 
+            <lb ed="#Qb"/>nem Y aliquando; et licet sit apprehensibile az
+            <lb ed="#Qb"/>sensu interiori vel a nostra ratione, tamen latet
+            <pb ed="#Qb" n="186"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>eam propter maximam sui inclinationem ad cor<lb ed="#Qb"/>pus
+            nostrum; non latet autem intellectum ange<lb ed="#Qb"/>licum
+            propter sui abstractionem a corpore et na<lb ed="#Qb"/>turae
+            subtilitatem. Hoc tamen nonnisi opinando
+            <lb ed="#Qb"/>dicitur propter verbum <name ref="#Augustine">Augustini</name>, in libro
+            <lb ed="#Qb"/>Retractationum, 56 cap. " ', sic dicentis: <quote> In quo<lb ed="#Qb"/>dam
+            loco 2, ubi dixi daemones aliquando et ho<lb ed="#Qb"/>minum
+            dispositiones, non solum voce prolatas,
+            <lb ed="#Qb"/>verum etiam cogitatione conceptas, cum signa
+            <lb ed="#Qb"/>quaedam ex animo exprimuntur in corpore, tota
+            <lb ed="#Qb"/>facilitate perdiscere, dixi hoc audaciore asseve<lb ed="#Qb"/>ratione
+            quam debui: nam pervenire ista ad no<lb ed="#Qb"/>titiam
+            daemonum per" nonnulla etiam experi<lb ed="#Qb"/>menta
+            compertum est. Sed utrum signa quaedam
+            <lb ed="#Qb"/>dentur ex corpore cogitantiumc, illis sensibilia,
+            <lb ed="#Qb"/>nos autem latentia, and alia vi, et ea spiritali,
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>ista cognoscant, autc difficillime potest ab ho<lb ed="#Qb"/>minibus
+            aut omnino non potest inveniri</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Si vero quaeratur de iis quae suntf liberi
+            <lb ed="#Qb"/>arbitrii in angelis:.respondeo quod in iis na<lb ed="#Qb"/>turaliter
+            habent cognoscere per indicia intelligi<lb ed="#Qb"/>bilia,
+            ad quae impotens estä ratio nostra de se,
+            <lb ed="#Qb"/>nisi hoc fiereth adiutorio gratiae. — Et si obi<lb ed="#Qb"/>ciatur
+            quod pari ratione possent immediate co<lb ed="#Qb"/>gnoscere
+            ea quae sunt liberi arbitrii: dice 11 du m
+            <lb ed="#Qb"/>quod non, quia indicia illa non sunt tantae sim<lb ed="#Qb"/>plicitatis
+            quantae sunt affectiones sive voluntates
+            <lb ed="#Qb"/>quarum sunti indicia, et ideok potest'cognitio
+            <lb ed="#Qb"/>angelica immediate extendere se ad indicia et per
+            <lb ed="#Qb"/>indicia ad illa quorum sunt indicia, ipsas vero
+            <lb ed="#Qb"/>cogitationes sive voluntates' sit solius Dei co<lb ed="#Qb"/>gnoscere
+            per se.
+         </p>
+        </div>
+        <div>
+          <head>ARTICULUS III.</head>
+          <head type="question-title">Utrum angeli habuerint a principio posse cognoscere futura.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde potest quaeri de angelis utrum habue<lb ed="#Qb"/>rint
+            posse a principio naturali'" cognitione co<lb ed="#Qb"/>gnoscere
+            futura.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod. non, videtur: 1. Quia solius Dei videtur
+            <lb ed="#Qb"/>esse cognitio certitudinalis futurorum contingen<lb ed="#Qb"/>tium
+            et singularium. Cum enim possint esse et
+            <lb ed="#Qb"/>non esse, non potest illarum rerum haberi certa
+            <lb ed="#Qb"/>cognitio, sicut dicit <name ref="#Anselm">Anselmus</name>, in libro De casu
+            <lb ed="#Qb"/>diaboli3: <quote> Si de illa scientia quaeritur quae
+            <lb ed="#Qb"/>non est nisi cum aliquid certa ratione intelligitur,
+            <lb ed="#Qb"/>omnino respondeo non posse sciri quod potest
+            <lb ed="#Qb"/>non esse </quote>.-— Sed obiceret aliquis: Secun<lb ed="#Qb"/>dum
+            hoc Deus non posset habere cognitionem fu<lb ed="#Qb"/>turorum
+            huiusmodi. — Sed non est simile,
+            <lb ed="#Qb"/>sicut idem An-selmus4 ostendit: Deus non ha<lb ed="#Qb"/>bet
+            cognitionem tuturorum huiusmodi" nisi ut ei
+            <lb ed="#Qb"/>praesentium. Unde, quia se ipso cognoscit omnia,
+            <lb ed="#Qb"/>non potest sua cognitio esse nisi immutabilis et
+            <lb ed="#Qb"/>certissima. Non sic est de creatura, quae per
+            <lb ed="#Qb"/>aliud, quod creatum est, cognoscit quod cogno<lb ed="#Qb"/>scit0. 
+            Si ergo angeli cognoscunt per aliud quod
+            <lb ed="#Qb"/>cognoscuntP de futuris, non possunt certitudi—
+            <lb ed="#Qb"/>naliter usquequaque cognoscere futura huiusmodi
+            <lb ed="#Qb"/>cognitione.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 0. Maior est cognitio angeli quam ho—
+            <lb ed="#Qb"/>minis; sed homo ex superna dispositione astrorum
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>potest multa futura praedicere, ut eventum im<lb ed="#Qb"/>brium
+            et siccitatis ventorum; multo ergo fortius
+            <lb ed="#Qb"/>angeli naturali cognitione, quae fuit apud eos,
+            <lb ed="#Qb"/>potuerunt futura cognoscere et praedicere cum
+            <lb ed="#Qb"/>quadam certitudine 5." .
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, in daemonibus, sicut dicit Augu<lb ed="#Qb"/>stinus,
+            in libro Retractationum 5, compertum est
+            <lb ed="#Qb"/>quod multa futura praedicunt quemadmodum eve<lb ed="#Qb"/>niunt;
+            sed nobilior fuit illa cognitio naturalis,
+            <lb ed="#Qb"/>quam habuerunt angeli "a principio, quam cognitio
+            <lb ed="#Qb"/>naturae corruptae et obscurae in daemonibus,; ergo
+            <lb ed="#Qb"/>multo magis potueruntq tunc praedicere futura.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad 'quod dicendum videtur quod di<lb ed="#Qb"/>stinguendum
+            est inter cognitionem futurorum
+            <lb ed="#Qb"/>prout est in bonis angelis iam confirmatis et
+            <lb ed="#Qb"/>prout est in daemonibus et prout fuit in angelis
+            <lb ed="#Qb"/>ex prima potestate naturae. Angeli enim beati
+            <lb ed="#Qb"/>cognoscunt futura, quae cognoscunt, in aeternis
+            <lb ed="#Qb"/>rationibus sive legibus; daemones vero ex qui<lb ed="#Qb"/>busdam
+            coniecturis per res ipsas noverunt vel'
+            <lb ed="#Qb"/>ex diuturna' experientia vel ex acumine intelli<lb ed="#Qb"/>gentiae,
+            licet obscure; vel cognoscunt ea quae
+            <lb ed="#Qb"/>facturi * sunt, ex rationibus quae sunt apud ipsos
+            <lb ed="#Qb"/>vel accipiunt ex revelatione supernorum spirituum
+            <lb ed="#Qb"/>quae flenda sunt. Unde <name ref="#Augustine">Augustinus</name>, in libro
+            <lb ed="#Qb"/>De civitate Dei 7: <quote> Aliud est temporalibus tempo—'
+            <lb ed="#Qb"/>ralia, mutabilibus mutabilia coniecturaref eisque
+            <pb ed="#Qb" n="187"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>mutabilem et temporalem motum suae völuntatis et
+            <lb ed="#Qb"/>facultatis inserere: quod daemonibus certa ratione
+            <lb ed="#Qb"/>permissum est. Aliud autem " in aeternis atqueb
+            <lb ed="#Qb"/>incommutabilibus Dei legibus, quae in eius sa<lb ed="#Qb"/>pientia
+            vivunt, mutationes temporum praevidere
+            <lb ed="#Qb"/>Deique voluntatem, quae tam certissima quam
+            <lb ed="#Qb"/>potentissima est omnium, spiritus eius participa<lb ed="#Qb"/>tione
+            cognoscere: quod sanctis angelis certat
+            <lb ed="#Qb"/>discretione donatum est </quote>. Item, Isidorus, in
+            <lb ed="#Qb"/>libro-De institutione ecclesiastica': <quote>Triplici "
+            <lb ed="#Qb"/>modo praescientiae acumine vigent: subtilitate
+            <lb ed="#Qb"/>naturae, experientia temporum 2, revelatione su<lb ed="#Qb"/>pernorum
+            spirituum </quote>. Etf <name ref="#Augustine">Augustinus</name>, Super
+            <lb ed="#Qb"/>Genesim, II libro 2: <quote> Aliquando ipsi nefandi spi<lb ed="#Qb"/>ritus
+            quae ipsi facturi sunt, divinando praedi<lb ed="#Qb"/>'cunt</quote>. 
+            Angeli vero ex prima potestate naturae
+            <lb ed="#Qb"/>potueruntil praecognoscere futura quae sequun<lb ed="#Qb"/>tur
+            legem astrorum et superiorumi corporum;
+            <lb ed="#Qb"/>potuerunt etiam praecognoscere illa futura quae
+            <lb ed="#Qb"/>per ipsos fienda erant; quae vero erant omnino
+            <lb ed="#Qb"/>in dispositione divina vel in libero arbitrio alte<lb ed="#Qb"/>rius
+            angeli vel hominis, non potuerunt cum cer<lb ed="#Qb"/>titudine
+            praevidere, sed tantum conicere.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id vero quod obicitur su<lb ed="#Qb"/>perius
+            quod (nullius rei futurae singularis pote<lb ed="#Qb"/>rant
+            habere praescientiam, quia potest res talis
+            <lb ed="#Qb"/>fore vel non fore': dicendum est quod, licet res
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>futura 'non sic sit scibilis sicut res quae deter<lb ed="#Qb"/>minata
+            est in esse, nihilominus tamen alio modo
+            <lb ed="#Qb"/>scibilis estk propter causae praecedentis certi<lb ed="#Qb"/>tudinem
+            vel signi praecedentis. Unde de' imbri<lb ed="#Qb"/>bus
+            et ventis, licet sint res singulares et futurae,
+            <lb ed="#Qb"/>potuit haberi certitudo ex lege supernorum cor<lb ed="#Qb"/>porum
+            m, salva tamen dispositione divina, quae
+            <lb ed="#Qb"/>potest mutare aliter, cum vult: et ideo non di<lb ed="#Qb"/>citur
+            simpliciter certitudo, sed'1 cum conditione
+            "nisi Deus aliter ordinaverit '. Ex signis etiam
+            <lb ed="#Qb"/>cognoscunt nautae mutationes temporum; multo
+            <lb ed="#Qb"/>autem eminentius quam nautae vel astrologi co<lb ed="#Qb"/>gnoscunt
+            huiusmodi futura. Unde Augusti<lb ed="#Qb"/>nus,
+            De civitate Dei-3: <quote> Quorumdam signo<lb ed="#Qb"/>rum
+            nobis occultorum maiori experientia multo
+            <lb ed="#Qb"/>plura quam homines futura prospiciunto</quote>. Sed
+            <lb ed="#Qb"/>attendendum quod illa certitudo, quantacumque?
+            <lb ed="#Qb"/>sit, nihil est respectu illius certitudinis futurorum
+            <lb ed="#Qb"/>qua '! Deus in se ipso cögnoscit futura: quantum<lb ed="#Qb"/>cumque
+            eni'm ascendat certitudo per hanc viam,
+            <lb ed="#Qb"/>non est proportio respectu divinae: in hoc etiam '
+            <lb ed="#Qb"/>est comparatio quod divina est maior et haec est
+            <lb ed="#Qb"/>minor. Similiter si comparetur respectu illius co<lb ed="#Qb"/>gnitionis,
+            qua angeli sancti <!--s--> cognoscunt in Verbo,
+            <lb ed="#Qb"/>nullatenus proportionatur in certitudine, sed in
+            <lb ed="#Qb"/>hoc comparanturl quod illa, quae est in angelis
+            <lb ed="#Qb"/>sanctis, est maior et ista est minor.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS IV</head>
+          <head type="question-title">Utrum angeli naturali cognitione potuerunt cognoscere Deum venisse in carnem.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur utrum angeli naturali cogni<lb ed="#Qb"/>tione
+            potuerunt cognoscere Deum venisse in car<lb ed="#Qb"/>nem, 
+            cum venit. Dico autem naturalem illam quae
+            <lb ed="#Qb"/>est praeter gratiam gratum facientem vel gratiam
+            <lb ed="#Qb"/>gratis datam, sicut in Prophetis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod non, videtur: 1. Si enim boni angeli non co<lb ed="#Qb"/>gnoverunt"
+            mysterium incarnationis, sed eis datum
+            <lb ed="#Qb"/>fuit cognoscere ", inferior autem est" cognitio na—
+            <lb ed="#Qb"/>turalis in angelis: ergo. ex cognitione naturali, cum
+            <lb ed="#Qb"/>Christus venit in carne, non possent cognoscere.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Eminentior fuit cognitio naturalis in
+            <lb ed="#Qb"/>angelis quam illa quae est vel fuit in daemonibus,
+            <lb ed="#Qb"/>in quantum huiusmodi, cum per peccatum sit ob<lb ed="#Qb"/>scurata
+            intelligentia; sed daemones poterant co<lb ed="#Qb"/>gnoscere
+            Christum venisse in carne. Unde Luc.
+            4, 41, super illud: <quote ana="#luc4_41">Exibant autem daemonia</quote> etc.
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Glossa5: <quote> Nuncx per signorum potentiam iam
+            <lb ed="#Qb"/>certior effectus Filium Dei arbitratur</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, Luc. 8 5: <quote ana="#luc8_5">Venisti ante tempus</quote> etc.;
+            <lb ed="#Qb"/>iis verbis insinuatur quod cognoscebant ipsum
+            <lb ed="#Qb"/>esse Filium? Dei: nam de iudicio loquuntur 7, in
+            <lb ed="#Qb"/>quo Filius Dei veniet ad puniendum Satan cum
+            <lb ed="#Qb"/>complicibus suis; multo ergo fortius angeli ex
+            <lb ed="#Qb"/>naturali cognitione potuerunt cognoscere Chri<lb ed="#Qb"/>stum
+            venisse in carne.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Sed adhuc obicitur quod ista cognitio, quam
+            <lb ed="#Qb"/>habuerunt daemones, non fuit certitudo sive scien<lb ed="#Qb"/>tia,
+            propter'illud I Cor. 2,8: <quote ana="#Icor2_8">Si cognovissent,
+            <lb ed="#Qb"/>nunquam Dominum gloriae crucifixissent</quote>, Glos<lb ed="#Qb"/>sasz
+            De daemonibus, <quote> nunquam Christum cru<lb ed="#Qb"/>cifigi
+            suggessissent </quote>. Ergo cognitio, quam illi
+            <lb ed="#Qb"/>habebant de hoc 2, Christum venisse in carne,
+            <lb ed="#Qb"/>nunquam fuit certitudo. Quid ergo dicendum de
+            <pb ed="#Qb" n="188"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>angelis quantum ad cognitionem naturalem, utrum
+            <lb ed="#Qb"/>potuerunt cognoscere? etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Praeterea, adhuc videtur quod potuerunt cognoscere:
+            <lb ed="#Qb"/>si enim sciebant ip~um iam venisse ex
+            <lb ed="#Qb"/>Scripturis propheticis a et aliis Veteris Testamenti
+            <lb ed="#Qb"/>- sicut habe~ur su per illud Luc. 8, 28: Qui d
+            <lb ed="#Qb"/>mihi etc. b G l ossa 1 : <quote> Sciebant daemones per
+            <lb ed="#Qb"/>adventum c Domini se aliquando in abyssum mergendos,
+            <lb ed="#Qb"/>non futura praedivinantes, sed Prophetarum
+            <lb ed="#Qb"/>dieta recolentes </quote>; ex quo accipitur quod
+            <lb ed="#Qb"/>sciebant adventum ipsius - multo ergo fortius
+            <lb ed="#Qb"/>angeli ex naturali cognitione poterant pervenire
+            <lb ed="#Qb"/>ad notitiam Scripturarum et ita cognoscere Filium
+            <lb ed="#Qb"/>Dei venisse in carne.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, IX De civitate Dei 2 : .<quote> Innotuit daemonibus,
+            <lb ed="#Qb"/>non per id quod est vita aeterna et lum.en
+            <lb ed="#Qb"/>_incommutabile, quod illuminat pios, sed per d
+            <lb ed="#Qb"/>temporalia quaedam _suae virtutis effecta e et occultissima
+            <lb ed="#Qb"/>signa suae praesentiae t quae angeli cis
+            <lb ed="#Qb"/>sensibus mallgnorum g spirituum possent esse
+            <lb ed="#Qb"/>conspicua potius quam infirmitati hominum </quote>,
+            <lb ed="#Qb"/>Quaeritur ergo de angelis, in natura sua consideratis,
+            <lb ed="#Qb"/>utrum possent per ista signa cognoscere.
+            <lb ed="#Qb"/>Q u o d v i d e tu r: Qui a h, cum daemones
+            <lb ed="#Qb"/>habuerint notitiam horum i signorum, aut habuerunt
+            <lb ed="#Qb"/>k ex naturali cognitione aut ex dono. Si ex
+            <lb ed="#Qb"/>dono 1, pari ratione, immo multo fortius angelis
+            <lb ed="#Qb"/>in natura sua datur hoc donum, et ita, sive ex
+            <lb ed="#Qb"/>naturali cognitione sive ex dono habuerunt, angeli
+            <lb ed="#Qb"/>in sua natura m possunt habere et ita possent
+            <lb ed="#Qb"/>cognoscere Filium Dei venisse in carne.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio n: l. A d p r i m u m dicendum o quod
+            <lb ed="#Qb"/>boni angeli aliqui non cognoverunt ad plenum
+            <lb ed="#Qb"/>Christum venisse in carne, nihilominus tamen
+            <lb ed="#Qb"/>poterant cognoscere P ipso apparente in carne, secundum
+            <lb ed="#Qb"/>quod dicitur I Ti m. 3, 16: Manifestatum q
+            <lb ed="#Qb"/>est in carne pietatis sacramentum, apparuit angelis.
+            <lb ed="#Qb"/>Sed aliquo modo cognoverunt mali angeli
+            <lb ed="#Qb"/>quo modo non cognoverunt boni, quia quaedam
+            <lb ed="#Qb"/>cognitio est r in poena vel impedimento malae
+            <lb ed="#Qb"/>operationis sive cohibitione potestatis, et hoc
+            <lb ed="#Qb"/>modo poterant cognoscere mali angeli Christum
+            <lb ed="#Qb"/>venisse in carne, quo modo non cognoverunt boni. ,
+         </p>
+          <p>
+            <lb ed="#Qb"/>A d i d vero quod posset o bici quod nobilior l
+            <lb ed="#Qb"/>est cognitio bonorum angelorum gratuita quam
+            <lb ed="#Qb"/>illa quae est naturalis vel illa quae est malorum
+            <lb ed="#Qb"/>angelorum: d i c e n d u m quod hoc verum est,
+            <lb ed="#Qb"/>sed tamen aliqua est cognitio malorum angelorum
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>secundum aliquem modum, secundum quem non
+            <lb ed="#Qb"/>est cognitio bono rum a, 'nec huiusmodi cognitio,
+            <lb ed="#Qb"/>quae est in malis, spectat ad nobilitatem nec est
+            <lb ed="#Qb"/>aliqua cognitiò naturalis quae non possit esse b
+            <lb ed="#Qb"/>in bonis angelis; et bene sequitur 'si non cognoverunt
+            <lb ed="#Qb"/>ad plenum boni angeli cognitione gratuita,
+            <lb ed="#Qb"/>nec ad plenum cognoverunt vel c cognoscere
+            <lb ed="#Qb"/>potuerunt cognitione naturali ': cognitio
+            <lb ed="#Qb"/>enim naturalis dimin~ta est respectu gratuitae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. A d h o c quod obicitur 'utrum cognitio, quam
+            <lb ed="#Qb"/>habuerunt daemones, esset scientia': d i c e n d u m
+            <lb ed="#Qb"/>quod nomen scientiae aliquando sumitur communiter,
+            <lb ed="#Qb"/>aliquando proprie. Communiter, cum dicitut
+            <lb ed="#Qb"/>3 : sci re d est vehementer opinari et non falli,
+            <lb ed="#Qb"/>et hoc modo sciebant Filium Dei venisse in carne.
+            <lb ed="#Qb"/>Alio modo dicitur 4 'scire' certa ratione intelligere,
+            <lb ed="#Qb"/>et secundum hoc dicitur iterum ' scire ' in eis,
+            <lb ed="#Qb"/>quia ex divinis Scripturis certa ratione comprehenderunt
+            <lb ed="#Qb"/>Christum venisse in carne. Si vero acciP.
+            <lb ed="#Qb"/>iatpr ' scire ' pro eo quod est cognoscere causam
+            <lb ed="#Qb"/>5, et qùoniam illius est causa et quoniam impossibile
+            <lb ed="#Qb"/>est aliter se habere, hoc est scire simpliciter:
+            <lb ed="#Qb"/>et isto modo non sciverunt ipsum esse
+            <lb ed="#Qb"/>Filium Dei. Unde H i lari u s, Supere Matthaeum 6 :
+            <lb ed="#Qb"/>Magis suspìcari quam nosse credendi sunt; et
+            <lb ed="#Qb"/>si c accipitur illud 7 : Si cognovissent, nunquam Dominum
+            <lb ed="#Qb"/>gloriae crucifixissent. - V el aliter secundum
+            <lb ed="#Qb"/>quamdam expositionem 8: Cog,noverunt ipsum
+            <lb ed="#Qb"/>esse Filium Dei, sed non crediderunt ipsos sua
+            <lb ed="#Qb"/>morte damnandos. Unde super illud Luc. 4, 41 :
+            <lb ed="#Qb"/>Exibant autem daemonia etc.!, O l ossa 9 : <quote> Non
+            <lb ed="#Qb"/>ideo crucifigit eum, ut FiliumDei ignoret, sed quia
+            <lb ed="#Qb"/>eius morte se damnandum non praevidit; hoc
+            <lb ed="#Qb"/>enim mysterium a saeculisg absconditum 10 ; si enim
+            <lb ed="#Qb"/>cognovissent, nunquam Dominum gloriae crucifixissenfh
+            <lb ed="#Qb"/>
+            </quote>, Unde G re go ri u su: <quote> Diabolus Redemptorem
+            <lb ed="#Qb"/>venisse in carne senserat, sed propter
+            <lb ed="#Qb"/>h umilia, quae passus est, quidquid de deitate 1
+            <lb ed="#Qb"/>suspicatus est, ei in dubi'um venit pro sua superbia,
+            <lb ed="#Qb"/>et non Dei natum k, sed Dei gratia custoditum
+            <lb ed="#Qb"/>credidit </quote>,
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. A d i d 1 quod obicitur de signis occultissimis:
+            <lb ed="#Qb"/>dicendum quod qua~dam sunt signa m occultissima
+            <lb ed="#Qb"/>potentiae, quae communiter poterant ex cognitione
+            <lb ed="#Qb"/>naturali fuisse in angelis et ex cognitione
+            <lb ed="#Qb"/>obscurata in daemonibus, et sunt alia, quae
+            <lb ed="#Qb"/>sunt propria daemonibus. Illa enim signa potentiae,
+            <lb ed="#Qb"/>quae veniebant ex operibus mirabilibus, in
+            <pb ed="#Qb" n="189"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>quantum erant mirabilia, communia erant, ut per
+            <lb ed="#Qb"/>illa posset haberi et ista notitia et illa cum gratia
+            <lb ed="#Qb"/>gratis data ipsis bonis angelis, malis" vero hu<lb ed="#Qb"/>iusmodi
+            cognitio fuit ad poenam. Illa vero signa
+            <lb ed="#Qb"/>potentiae, quae per se erant in inflictione poenae
+            <lb ed="#Qb"/>vel cohibitione potentiae, erant propria, ut per
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quae poterant et debebant cognoscere daemones
+            <lb ed="#Qb"/>potentiam et iustitiam iudicis, et ideo dicebant 1:
+            <lb ed="#Qb"/>
+            <quote ana="mt8_29">Ut quid venisti ante tempus tOrquere nos?</quote> Unde
+            <lb ed="#Qb"/>super illud Exod. 5,2: <quote ana="#ex5_2">Quis est Dominus?</quote> etc.,
+            <lb ed="#Qb"/>Glossazz <quote> Post tormenta sciunt quem ante
+            <lb ed="#Qb"/>scire noluerantb </quote>.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

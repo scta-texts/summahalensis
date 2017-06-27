@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="287"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t3m1c4">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 4</head>
+        <head type="question-title">DE CAUSIS MIRACULI.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur de causis miraculiez
+          <lb ed="#Qb"/>Primo, de causa finali;
+          <lb ed="#Qb"/>secundo, def efficiente;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>tertio, de materiali;
+          <lb ed="#Qb"/>quarto, de formali sive de modo.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head>De causa finali miraculi.</head>
+          <p>
+            <lb ed="#Qb"/>Circa primum quaeritur ad quid sit miraculum.
+            <lb ed="#Qb"/>Arguitur autem quod non sit ad aliquem finem
+            <lb ed="#Qb"/>secundum naturam, cum sit opus supra naturam:
+            <lb ed="#Qb"/>quare finis erit supra naturam; omne autem opus
+            <lb ed="#Qb"/>supra naturam, cum sit Dei tantum, erit aut ad
+            <lb ed="#Qb"/>demonstrationem divinae potentiae aut sapientiae
+            <lb ed="#Qb"/>aut bonitatis principaliter: haec enim trinitas est
+            <lb ed="#Qb"/>secundum quam res procedit a Deo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur! 1. quod ostendant principaliter p 0<lb ed="#Qb"/>tenti
+            am. Dicitur enim in Glossa, super illud
+            <lb ed="#Qb"/>Psalmi Exaltabo te, Domine Deus meus" Rex, ibi3:
+            <lb ed="#Qb"/>Ut notamfaciant filiisi hominum potentiam tuam,
+            <lb ed="#Qb"/>Glossa4: <quote> Nota facta'f est potentia, quando Apo<lb ed="#Qb"/>stoli
+            virtutes fecerunt</quote>. — Ad idem I Cor. 1,22: <quote ana="#Icor1_22">Iu<lb ed="#Qb"/>daei
+            signa quaerunt</quote>, GlossaS: <quote> Signa potentiae </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Quod autem sint ad ostensioneml sapien<lb ed="#Qb"/>ti
+            a e, videtur. Dicit enim A u g u s ti n u s 6, super '"
+            <lb ed="#Qb"/>opera sex dierum: <quote>'Non potentia temeraria, sed
+            <lb ed="#Qb"/>sapientiae virtute omnipotens est, et hoc de una<lb ed="#Qb"/>quaque
+            re suo tempore facit, quod ante" in ea
+            <lb ed="#Qb"/>fecit ut possit</quote>. Ex hoc accipitur quod princi<lb ed="#Qb"/>paliter
+            ostendant virtutem" sapientiae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Quod autem ostendantP virtutem bonitatis,
+            <lb ed="#Qb"/>ostenditur ex 010 ssa super illud "': Mirabilia testi<lb ed="#Qb"/>monia
+            tua, Glossa 8: <quote> Perhibent testimonium Deo
+            <lb ed="#Qb"/>bonitatis et magnitudinis caelum et terra et omnia
+            <lb ed="#Qb"/>visibilia Opera; quare si quaedam '! mortalibus
+            <lb ed="#Qb"/>usu viluerunt, sunt tamen admiratione digna </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem sint principaliter ad fidem in
+            <lb ed="#Qb"/>nobis coniirmandam sive imprimeudam, videtur
+            <lb ed="#Qb"/>a. ex Glossa super illud Canfitebor tibi ' in toto
+            <lb ed="#Qb"/>corde meo-, ibig: Ut det illis hereditatem gentium,
+            <lb ed="#Qb"/>Glos s a 10: <quote> Haecfuit intentio miraculorum quae
+            <lb ed="#Qb"/>Christus fecit, ut crederent gentes </quote>. - Item,
+            <lb ed="#Qb"/>Col. 1,29, in fine: In quo laboro et certa secundum
+            <lb ed="#Qb"/>operationem qua operatur in me cum virtute, G 1 o 3<lb ed="#Qb"/>sa
+            11: <quote> Miraculorum, id est certo contra perfidos
+            <lb ed="#Qb"/>adiuvantibus me signis virtutum </quote>; et post: <quote> La<lb ed="#Qb"/>bori
+            meo adiungit miracula ad confirmationem</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod utilitas mi<lb ed="#Qb"/>raculorum
+            quoad hominem fuit ad fidem adstru<lb ed="#Qb"/>endam
+            12. Per ea enim quae erant supra naturam
+            <lb ed="#Qb"/>et contra cursum naturae solitum oportuit fidem
+            <lb ed="#Qb"/>confirmari, quae est de iis quae sunt supra in<lb ed="#Qb"/>telligentiam,
+            ut sic apud sensibiles homines per
+            <pb ed="#Qb" n="288"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>id quod viderent, fieret manuductio intelligentiae
+            <lb ed="#Qb"/>ad ea quae videntur rationi solitae obviare, et"
+            <lb ed="#Qb"/>miraculo, quod videret exterior oculus fieri supra
+            <lb ed="#Qb"/>naturam, excitaretur interior oculus, scilicet intel<lb ed="#Qb"/>lectus,
+            ad comprehendendum ea quae suntsupra
+            <lb ed="#Qb"/>rationem; et cum utentes intellectu intelligerent
+            <lb ed="#Qb"/>haec fieri virtute divina, extenderent intellectum
+            <lb ed="#Qb"/>suum ad maiora, quae scilicet pertinent ad arti<lb ed="#Qb"/>culos
+            fidei, ut crederent scilicet ea virtute divina
+            <lb ed="#Qb"/>esse facta. Sed, cum miracula sint ad hanc uti<lb ed="#Qb"/>litatem
+            hominis, principaliter et primo sunt ad
+            <lb ed="#Qb"/>ostensionem virtuosae sapientiae. Sicut enim opera
+            <lb ed="#Qb"/>creationis et gubernationis ostendunt magnitudi<lb ed="#Qb"/>nem
+            potentiae, ita opera miraculosa demonstrant,
+            <lb ed="#Qb"/>cum creaturis sit insita potentia obedientiae,
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quid, ex quo et ad quid et quando faciendum
+            <lb ed="#Qb"/>est: quod ad sapientiam pertinet. Sicutb enim di<lb ed="#Qb"/>cimus
+            hominem sapientem, qui novit occultas na<lb ed="#Qb"/>turas
+            reducere in actum, ita Deum summe sa-'
+            <lb ed="#Qb"/>pientem dicimus, qui novit occultissimam poten<lb ed="#Qb"/>tiam
+            obedientiae ratione finis optati in actum
+            <lb ed="#Qb"/>reducere. Licet ergo ostendatur potentia vel bo<lb ed="#Qb"/>nitas,
+            hoc non est principaliter, sed quoad dis<lb ed="#Qb"/>positionem
+            in finem bonitas, quoad potentiam
+            <lb ed="#Qb"/>materialem potentia, quoad utrumque insimul
+            <lb ed="#Qb"/>coordinatumc notatur sapientia: et ind hoc di<lb ed="#Qb"/>citur
+            miraculum. Potest ergo sic definiri mira—
+            <lb ed="#Qb"/>culum ex parte rei: Miraculum est opus occultas
+            <lb ed="#Qb"/>naturas in actum reducens ad ostensionem sa<lb ed="#Qb"/>pientiae
+            virtuosae.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">De causa efficiente miraculi.</head>
+          <p>
+            <lb ed="#Qb"/>Secundo quaeritur de causa efficiente. Quaeritur
+            <lb ed="#Qb"/>ergo utrum haec opera sint solius Creatoris an
+            <lb ed="#Qb"/>Creatoris simul et creaturae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod sint creaturae et non tan<lb ed="#Qb"/>tum
+            Creatoris. 1. I Cor. 12,10: <quote ana="#Icor12_10">Aliis datur ope<lb ed="#Qb"/>ratio
+            virtutum</quote>, Glossa 2: <quote> Miraculorum </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestio<lb ed="#Qb"/>num,
+            quaest. 803: <quote> Aliter magi iaciunt miracula,
+            <lb ed="#Qb"/>aliter boni christiani, aliter mali; magi per pri<lb ed="#Qb"/>vatos
+            contractus, boni christiani per publicam iu<lb ed="#Qb"/>stitiam,
+            mali per signa publicae iustitiae </quote>. Si
+            <lb ed="#Qb"/>ergo istis convenit facere miracula *, non soli
+            <lb ed="#Qb"/>Deo conveniet, sed et aliis saltem ministerio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, <name ref="#Augustine">Augustinus</name>, Super Genesim ad litte<lb ed="#Qb"/>ram4:
+      <quote> Probabiliter creditur, sicut illud semen,
+            <lb ed="#Qb"/>cui est promissum, dispositum est in manu Me<lb ed="#Qb"/>diatoris
+            per angelos, sic omnia, quae ad ipsius
+            <lb ed="#Qb"/>seminis adventum annuntiandum vel praenuntian<lb ed="#Qb"/>dumf
+            in rerum natura praeter cursum naturae so<lb ed="#Qb"/>litum
+            mirabiliter facta sunt, ministrantibus angelis
+            <lb ed="#Qb"/>esse facta </quote>. Ergo angelis convenit cooperari ope<lb ed="#Qb"/>rationi
+            miraculorum saltem ministrando; non ergo
+            <lb ed="#Qb"/>soli Deo convenit iacere miracula.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. <name ref="#Anselm">Anselmus</name>g, in libro De conceptu vir<lb ed="#Qb"/>ginalis:
+      <quote> Mirabilis cursus est supra voluntatem et
+            <lb ed="#Qb"/>naturam creaturae et de iis quae solus Deus facit </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod miracula
+            <lb ed="#Qb"/>ministerio fieri dupliciter potest dici. Facere enim
+            <lb ed="#Qb"/>Deum aliquo ministrante potest intelligi ita ut ille
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ministrans sit medius'[ inter Deum facientem et
+            <lb ed="#Qb"/>factum, sicut movens motum medium est inter
+            <lb ed="#Qb"/>primum movens et ultimum motum: ut, cum Deus
+            <lb ed="#Qb"/>operatur per liberum arbitrium motum vel per
+            <lb ed="#Qb"/>naturam aliquam, movens ipsa ad faciendum 'ali<lb ed="#Qb"/>quidi
+            tunc natura vel liberum arbitrium sunt
+            <lb ed="#Qb"/>sicut moventia mota inter Deum facientem et
+            <lb ed="#Qb"/>factum; et hoc modo dicimus nos'f quod nun<lb ed="#Qb"/>quam
+            fiunt miracula' ministerio: et sic intelligitur
+            <lb ed="#Qb"/>auctoritas <name ref="#Anselm">Anselmi</name>. Alio modo potest dici mi<lb ed="#Qb"/>raculum'fieri
+            ministerio, nen ut ministri intelli<lb ed="#Qb"/>gantur
+            medii, scilicet'" motores, sed ut intelligan<lb ed="#Qb"/>tur
+            sicut praeparatorii vel disponentes ad hoc ut
+            <lb ed="#Qb"/>miraculum fiat, non ut intelligatur dispositio media
+            <lb ed="#Qb"/>inter Deum et miraculum quod debet fieri; sed
+            <lb ed="#Qb"/>sicut possemus dicere quod aliquis sanctus rogat
+            <lb ed="#Qb"/>Dominum et Dominus, precibus eius inclinatus,
+            <lb ed="#Qb"/>facit quod ipse petit, vel aliquis etiam malus
+            <lb ed="#Qb"/>christianus invocat nomen Domini et Dominus
+            <lb ed="#Qb"/>tacit ob reverentiam nominis sui, vel aliquid hu<lb ed="#Qb"/>iusmodi,
+            et sic bene fiunt miracula ministerio,
+            <lb ed="#Qb"/>sed illud ministerium non'facit mediationem nec
+            <lb ed="#Qb"/>tollit immediationem Dei facientis et miraculi"
+            <lb ed="#Qb"/>facti: et sic loquitur auctoritas <name ref="#Augustine">Augustini</name>.
+            <lb ed="#Qb"/>Quod autem hic determinatur, debet intelligi in
+            <lb ed="#Qb"/>miraculis omnino subito factis, quae plene" d-i<lb ed="#Qb"/>cenda
+            sunt miracula, sicut infra6 patebit ex distinc<lb ed="#Qb"/>tione
+            modorum faciendi miracula, quia in multis
+            <lb ed="#Qb"/>miraculis angeli cooperantur disponendo sive
+            <lb ed="#Qb"/>praeparando materiam fiendiP miraculi.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III.</head>
+          <head type="question-title">De causa materiali miraculi.</head>
+          <p>
+                  <pb ed="#Qb" n="289"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Deinde quaeritur de causa materiali miraculi
+            <lb ed="#Qb"/>utrum de omni re possit fieri miraculum vel mi<lb ed="#Qb"/>rabile.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur: a. Quia de corpore Christi fit
+            <lb ed="#Qb"/>miraculum vel mirabile, ut quod sit in pluribus
+            <lb ed="#Qb"/>altaribus; similiter de humana natura, quod unita
+            <lb ed="#Qb"/>est divinae. Cum ergo fiat de iisa mirabile vel
+            <lb ed="#Qb"/>miraculum 17, multo fortius de inferioribus crea<lb ed="#Qb"/>turis,
+            cum magis sint transmutabiles; ergo de
+            <lb ed="#Qb"/>omni re potest fieri miraculum vel mirabile.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, obedientia est in omni re respectu Crea<lb ed="#Qb"/>toris,
+            et secundum hoc currit mirabile, ergo 4 etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra,: 1. Ministerio angelorum fiunt mirabilia
+            <lb ed="#Qb"/>vel miracula; ergo in angelis non fiunt ista; si<lb ed="#Qb"/>militer
+            videtur idem in animabus; ergo tantum in
+            <lb ed="#Qb"/>corporalibus videntur fieri miracula vel mirabilia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, in materia est transmutatio for<lb ed="#Qb"/>marum
+            secundum naturam ratione obedientiae
+            <lb ed="#Qb"/>materiae; cum ergo miraculum fiat cöntra na<lb ed="#Qb"/>turam,
+            non dicitur contra obedientiam creaturae,
+            <lb ed="#Qb"/>sed contrad solitum cursum quo natura operaturz;
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ergo non fit miraculum vel mirabile ex omni re,
+            <lb ed="#Qb"/>quia non ex materia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo quod aliud est de mirabili et aliud
+            <lb ed="#Qb"/>de miraculo. Mirabile autem potest fieri in omni
+            <lb ed="#Qb"/>creatura ab Omnipotente: aliquid enim? potest
+            <lb ed="#Qb"/>fieri supra virtutem creaturae in creatura ab. ipso
+            <lb ed="#Qb"/>Creatore. Miraculum autem dicitur contra solitum
+            <lb ed="#Qb"/>cursum naturae corporalis: ibi enim iit a superna
+            <lb ed="#Qb"/>virtute aliquid contra solitum cursum naturae.
+            <lb ed="#Qb"/>Unde miraculum non potest esse de omni re.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]; ,1. Ad hocf vero quod obicitur
+            <lb ed="#Qb"/>quod in angelis non fiunt miracula, concedendum
+            <lb ed="#Qb"/>est, cum sint ministri in rebus corporalibus ali<lb ed="#Qb"/>quibus,
+            per quos dispositio fit ad miracula.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundum vero dicendum quod aliud
+            <lb ed="#Qb"/>est fieri contra naturam, quae dicitur materia-. et
+            <lb ed="#Qb"/>aliud contra naturam quae dicitur forma, secun<lb ed="#Qb"/>dum
+            quod est principium motus, et status; mi<lb ed="#Qb"/>raculum
+            enim fit contra. naturam, quae. dicitur
+            <lb ed="#Qb"/>forma, non contra naturam-quaeiest-materia pri<lb ed="#Qb"/>mitus-
+            ordinata, possibilis,.ad formas quae sunt
+            <lb ed="#Qb"/>cursu naturae et quae sunt cursu, mirabili.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS IV</head>
+          <head type="question-title">De causa formali miraculi.</head>
+          <p>
+            <lb ed="#Qb"/>Sequitur de causa formali, scilicet quibus3 mo<lb ed="#Qb"/>dis
+            fiat multiplicati-o miraculorum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Ad quod dicendum quod miraculum fit aut
+            <lb ed="#Qb"/>cum transmutationüg formarum substantialiumh
+            <lb ed="#Qb"/>aut sine. transmutatione substantialium. Si cum"
+            <lb ed="#Qb"/>transmutatione substantialiumk, quae non inve<lb ed="#Qb"/>nitur
+            in rerum natura, alial tunc erit-secundum
+            <lb ed="#Qb"/>quod de costa facta est mulier, Gen. 2, 22, de
+            <lb ed="#Qb"/>uxore Loth statua salis, Gen. 19, 26, de virgis
+            <lb ed="#Qb"/>serpentes, Exod. 7,10-12. Si sine transmutatione
+            <lb ed="#Qb"/>substantialium, tunc erit autper modum eductid—
+            <lb ed="#Qb"/>nis, ut de petra aqua, Num. 20,11, mel et oleum,
+            <lb ed="#Qb"/>Deuter. 32,13,;,- aut per modum multiplicationis,
+            <lb ed="#Qb"/>ut in quinque panibus, Ioan. 6, 9—13, et in oleo
+            <lb ed="#Qb"/>Elisei, IV Reg.. 4, 2—7; aut fit ex hoc, non quia
+            <lb ed="#Qb"/>ex hoc fieri sit. semper" miraculum, sed quia fieri
+            <lb ed="#Qb"/>ex hoc sine medio sit miraculum, ut quod-Domif
+            <lb ed="#Qb"/>nusimutavit aquam in vinum, Ioan. 2, 3—10; con<lb ed="#Qb"/>stat
+            enim quod aqua per multa media in vitibus
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>convertitur in vinum, et habe-tur in G-lo-ssa4
+            <lb ed="#Qb"/>Ioan.,2; aut, quia ex hoc secundum aliquem
+            <lb ed="#Qb"/>novuml'modum, ut quod, panis mutatur in corpus
+            <lb ed="#Qb"/>Christi, mutatis substantialibus, manentibus acci<lb ed="#Qb"/>dentalibus,
+            et in hoc duplex miraculum. Aut at<lb ed="#Qb"/>tenditur
+            miraculum secundum ordinem, cum con<lb ed="#Qb"/>trarius
+            ordo , inveniatur in, natura, et hoc aut facta
+            <lb ed="#Qb"/>transmutatione substantialium aut sine. Si iacta
+            <lb ed="#Qb"/>transmutatione, tunc est sicut serpentes redierunt
+            <lb ed="#Qb"/>in virgas, quia vegetabilia sunt quasi materialia
+            <lb ed="#Qb"/>ad animalia5. Si sine transmutatione, tunc fit aut
+            <lb ed="#Qb"/>in simpliciter ente, et tunc fit sicut quando sol
+            <lb ed="#Qb"/>reversus est decem lineis, Isai. 38,8 ; aut in ve<lb ed="#Qb"/>getabili,
+            ut in arida virga quae floruit, Num. 17, 8;
+            <lb ed="#Qb"/>aut in animali, ut quando de caeco fit videns et
+            <lb ed="#Qb"/>surdus audiens et tandem quod mortuus Susci<lb ed="#Qb"/>tatur;
+            aut quia nunc ", et hocjrespicit tempus,-ut
+            <lb ed="#Qb"/>in, tenebris quae factae sunt in passione Domini 5,
+            <lb ed="#Qb"/>quia tunc factae sunt, cum non solent fieri se<lb ed="#Qb"/>cundum 
+            cursum naturae.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 2, T. 1, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 2, T. 1, M. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="393"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s1q2t1m2c3">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 2, T. 1, M. 2, C. 3</head>
+        <head type="question-title">UTRUM ANIMA SIT EX ANIMA.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur de animabus nostris.
+          <lb ed="#Qb"/>Et est primaf quaestio ratione vegetabilis
+          <lb ed="#Qb"/>in plantis;
+          <lb ed="#Qb"/>secunda", ratione sensibilis in animalibus;
+          <lb ed="#Qb"/>tertia et principalisv quaestio est de animabus
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>rationalibus. Fuerunt enim quidam qui dice<lb ed="#Qb"/>rentx
+          animam esse ex anima sicut corpus est?
+          <lb ed="#Qb"/>ex corpore, et hoc extendebant ad animam ra<lb ed="#Qb"/>tionalem.
+          <lb ed="#Qb"/>Sed de aliis dicetur prius.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS 1</head>
+          <head type="question-title">Utrum in plantis anima vegetabilis sit ex vegetabili.</head>
+          <p>
+                  <pb ed="#Qb" n="394"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Quod. autem anima sit ex anima, videtur tum a
+            <lb ed="#Qb"/>in plantis tum in quibusdam animalibus: 1. Cum
+            <lb ed="#Qb"/>enim descinditur planta a planta sive ab arbore,
+            <lb ed="#Qb"/>corpus decisum non est sine anima; sicut ergo
+            <lb ed="#Qb"/>pars corporis descinditur a toto corpore, ita anima
+            <lb ed="#Qb"/>partis corporisb erit ex anima totius corporis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, si totum corpus arboris tueritc
+            <lb ed="#Qb"/>animatum, anima est per totum corpus sicut forma
+            <lb ed="#Qb"/>impressa; sed forma impressa ** recipit divisionem
+            <lb ed="#Qb"/>secundum corporis divisionem; ergo anima erit
+            <lb ed="#Qb"/>ex anima.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Praeterea, supposito quod anima non divi<lb ed="#Qb"/>datur
+            secundume partes, erit in qualibet parte;
+            <lb ed="#Qb"/>iacta ergo decisione, erit tota in parte decisa et
+            <lb ed="#Qb"/>tota in eo a quo fit decisio sive separatio; cum
+            <lb ed="#Qb"/>ergo pars decisa non sit animata nisi per hoc
+            <lb ed="#Qb"/>quod fuit in corpore tota, erit anima partisf ori<lb ed="#Qb"/>ginem
+            sumens ab anima totius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Praeterea, in rebus quae fiunt secundum na<lb ed="#Qb"/>turam,
+            cum ignis est ex igne, dicimus formam
+            <lb ed="#Qb"/>in generato igne esse ex forma gignentis: na<lb ed="#Qb"/>tura
+            enim'8 est principium ex similibus similia
+            <lb ed="#Qb"/>producendi]; ergo a simili, cum haec productio
+            <lb ed="#Qb"/>sit secundum naturam, dicetur anima ex anima
+            <lb ed="#Qb"/>esse.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: Arguitur quod anima non est ex
+            <lb ed="#Qb"/>anima, sed tantum animatum ex animato. a. Et
+            <lb ed="#Qb"/>primo probatur quod anima non dividitur per di<lb ed="#Qb"/>visionem
+            corporis nec per se ipsam: solum enim
+            <lb ed="#Qb"/>illud quod habet partem extra partem, dividi
+            <lb ed="#Qb"/>potest; ergo quod non habet partem extra par-'
+            <lb ed="#Qb"/>tem nec per se "nec per accidens'1 non potest di<lb ed="#Qb"/>vidi
+            nec per se nec per accidens; sed anima est
+            <lb ed="#Qb"/>huiusmodi, cum sit substantia incorporea; ergo
+            <lb ed="#Qb"/>non potest dividi nec per se nec per accidens.
+            —— Forte diceret aliquis quod habet partem
+            <lb ed="#Qb"/>extra partemi secundum accidens, cum sit actus
+            <lb ed="#Qb"/>corporis, inseparabilis a corpore. — Contra:
+            <lb ed="#Qb"/>Cum sit actus corporis, non est in singulis par<lb ed="#Qb"/>tibus
+            secundum diversas partes substantiae suae,
+            <lb ed="#Qb"/>sed totaliter secundum sui substantiam, quia tota
+            <lb ed="#Qb"/>est in qualibet parte sui 3; ergo non dividitur se<lb ed="#Qb"/>cundum 
+            partes per accidens, eo quod est actus
+            <lb ed="#Qb"/>corporis; cum ergok anima non dividatur per se
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>vel per' accidens in partes, non est sui multi<lb ed="#Qb"/>plicativa;
+            ergo anima non erit ex anima.
+         </p>
+          <p>
+            b. Praeterea, in anguillis '" et in huiusmodi cor<lb ed="#Qb"/>poribus,
+            cum dividuntur, non dicitur anima esse
+            <lb ed="#Qb"/>ex anima, sed compositum, quod est divisibile in
+            <lb ed="#Qb"/>potentia, est divisum actu 4; ergo, cum totum es<lb ed="#Qb"/>set"
+            animatum antequam descinderetur, non est
+            <lb ed="#Qb"/>ibi nisi multiplicatio actu eius quod fuit prius
+            <lb ed="#Qb"/>in potentia et non" est anima ex anima.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, anima erat una secundum substantiam
+            <lb ed="#Qb"/>in capite anguillae et in cauda et similiter in
+            <lb ed="#Qb"/>principali parte plantae et secundaria; ergo, cum
+            <lb ed="#Qb"/>divisa est cauda a capite nec? nova substantia ani<lb ed="#Qb"/>mae
+            ibi fiat, necesse erit quod? una substantia ani<lb ed="#Qb"/>mae
+            sit ' in cauda decisa et in capite et quo sepa<lb ed="#Qb"/>ratur;
+            ergo non dicetur quod anima sit ex anima,
+            <lb ed="#Qb"/>sed una multae, quia est in diversis substantiis.
+            <lb ed="#Qb"/>Numquid similiter est quod unum generatur ex
+            <lb ed="#Qb"/>altero, ut planta ex planta et animal ex animali?
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: 1-4. Ad quod dicendums quod divisio
+            <lb ed="#Qb"/>corporis animati in partes actu separatas non
+            <lb ed="#Qb"/>facit quod anima sit ex anima nec quod unum
+            <lb ed="#Qb"/>animatum sit ex alio vel de alio, sed quod est
+            <lb ed="#Qb"/>multumt in potentia, iam est multum in actu, et
+            <lb ed="#Qb"/>anima una est multorum et multae per accidens,
+            <lb ed="#Qb"/>sicut in divisione anguillae contingit et in cor<lb ed="#Qb"/>poribus
+            anulosis 5. Sed secus est in iis quae fiunt
+            <lb ed="#Qb"/>per generationem: ibi enim est dicere quod ani<lb ed="#Qb"/>matum
+            est ex animato, et multae sunt animae
+            <lb ed="#Qb"/>secundum id quod sunt et secundum id quod sunt
+            <lb ed="#Qb"/>actus, quia animatum habet potestatem multipli<lb ed="#Qb"/>candi
+            in multiplicatione sui susceptibilis naturali<lb ed="#Qb"/>ter.
+            -— Differt autem in parte haec multiplicatio ab
+            <lb ed="#Qb"/>illa quae est in formis corporalibus, ut igneitate,
+            <lb ed="#Qb"/>quia ibi forma sequitur divisionem materiae utro<lb ed="#Qb"/>que
+            modo " ut possit per se subsistere, hic autem
+            <lb ed="#Qb"/>nonnisi uno modo, ut simpliciter substet: non enim
+            <lb ed="#Qb"/>cauda potest per se subsistere in animatione, licet
+            <lb ed="#Qb"/>ad horam, ignis vero divisus per se potest subsi<lb ed="#Qb"/>stere.
+            Praeterea, igneitas partem habet extra par<lb ed="#Qb"/>tem
+            in igne: unde et maior dicitur in maiori igne et
+            <lb ed="#Qb"/>minor in minoriög anima vero non sic: neque enim
+            <lb ed="#Qb"/>habet partem extra partemv nec est maior in
+            <lb ed="#Qb"/>maiori nec minor in minori. In hoc autem est
+            <pb ed="#Qb" n="395"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>convenientia, quod utrobique est similium ex
+            <lb ed="#Qb"/>similibus productio: unde" animatum dicitur ex
+            <lb ed="#Qb"/>animato. Anima vero ex anima non ita proprie
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>dicitur; quod si diceretur in plantis etb quibusdam
+            <lb ed="#Qb"/>animalibus, non tamen diceretur in omnibus: nul<lb ed="#Qb"/>latenus
+            enim: in homine, sicut infral ostendetur.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum in animalibus anima sensibilis sit ex sensibili 2.</head>
+          <p>
+            <lb ed="#Qb"/>Consequenter procedendum est ad inquisitio<lb ed="#Qb"/>nem
+            originis animae in animalibus quae fiunt ex
+            <lb ed="#Qb"/>putrefactione, sicut in vermibus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Dixerunt enim quidam3 quod corpora caele<lb ed="#Qb"/>stia
+            inducunt animam sensibilem in huiusmodi
+            <lb ed="#Qb"/>animalibus. Alii4 vero dixerunt quod spirituales
+            <lb ed="#Qb"/>substantiae, quae movent corpora caelestia, in<lb ed="#Qb"/>ducunt
+            illam in huiusmodi corporibus. Tertii5
+            <lb ed="#Qb"/>vero dicunt eam esse a Deo creatam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Primi vero inducuntur ad hoc quodd corpora
+            <lb ed="#Qb"/>supercaelestia per se sinte causae, quia secun<lb ed="#Qb"/>dum
+            mutationem in superioribus factam fit mu<lb ed="#Qb"/>tatio
+            sive generatio huiusmodi animalium f: unde
+            <lb ed="#Qb"/>in vere, cum sol accedit, tunc maxime generan<lb ed="#Qb"/>tur,
+            similiter in aestate et autumno, minime autem
+            <lb ed="#Qb"/>in hiemes. — Sed contra est quod corporalis
+            <lb ed="#Qb"/>virtus non est principium rei incorporeae, cum
+            <lb ed="#Qb"/>res incorporea sit essentiae nobilioris virtute cor<lb ed="#Qb"/>porali;
+            ergo non sunt supercaelestia corpora suf<lb ed="#Qb"/>ficiens
+            principium generationis iam dictae quae
+            <lb ed="#Qb"/>fiunt animae sensibiles.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Si vero dicatur quod substantiae spiritua<lb ed="#Qb"/>les,
+            moventes corpora supercaelestia, sintll prin<lb ed="#Qb"/>cipia
+            animarum, ita quod corpora caelestia dispo<lb ed="#Qb"/>nunt
+            materiam, sed perfectio inducitur a motore
+            <lb ed="#Qb"/>supercaelesti, et sic corporeum a corporeo et in—
+            <lb ed="#Qb"/>corporeum ab incorporeo .— contra hoc est
+            <lb ed="#Qb"/>quod dicunt Sancti solum Deum esse Creatorem 7.
+            <lb ed="#Qb"/>Si vero huiusmodi animae producantur in esse
+            <lb ed="#Qb"/>a virtute supercaelesti incorporea, aut de nihilo
+            <lb ed="#Qb"/>tierent'" : tunc diceretur creatrix illa virtus su<lb ed="#Qb"/>percaelestis:
+            quod estk impossibile; aut ex aliquo
+            <lb ed="#Qb"/>praeexistenti: illud non esset corporeum, cum ex
+            <lb ed="#Qb"/>corporeo incorporeum non producatur; si vero
+            <lb ed="#Qb"/>ex incorporeo, eadem est quaestio de illo et sic
+            <lb ed="#Qb"/>in infinitum. Nec ex se' naturaliter producit, cum "'
+            <lb ed="#Qb"/>virtus incorporea caelestis sit separata a corpore,
+            <lb ed="#Qb"/>haec autem" est inseparabilis a corpore; non ergo
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>producitur huiusmodi anima sensibilis a virtute
+            <lb ed="#Qb"/>incorporea supercaelesti quae sit creata.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Si vero dicatur ultimo prOpter iam dicta
+            <lb ed="#Qb"/>quod adaptatio est materiae a corporibus super<lb ed="#Qb"/>caelestibus
+            vel ipsis mediantibus, sed anima sen<lb ed="#Qb"/>sibilis,
+            quae est complementum, est a Deo — se<lb ed="#Qb"/>cundum
+            hoc obicitur quod non erit verum
+            <lb ed="#Qb"/>quod solus intellectus, id est substantia habens
+            <lb ed="#Qb"/>intellectum, sit ab extrinseco, sicut habetur in
+            <lb ed="#Qb"/>libro De animalibus 8. Praeterea, si esset ab ex<lb ed="#Qb"/>trinseco
+            haec anima sensibilis, a nobiliori prin<lb ed="#Qb"/>cipio
+            esset forma in iis quae fiunt putrefactione
+            <lb ed="#Qb"/>quam in iis quae fiunt generatione, et ita essent
+            <lb ed="#Qb"/>entia nobiliore: quod cum non sit, non. erunt
+            <lb ed="#Qb"/>animae in huiusmodi corporibus immediate a
+            <lb ed="#Qb"/>Deo. Praeterea, quare non essent separabileso
+            <lb ed="#Qb"/>huiusmodi animae? cum provenirentP ab extrin<lb ed="#Qb"/>seco
+            omnino nec dependerentf! nisi a Deo quan<lb ed="#Qb"/>tum
+            ad suum esse.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: 1-3. Ad quod potest responderi quod
+            <lb ed="#Qb"/>sicut in semine deciso secundum naturam est
+            <lb ed="#Qb"/>quidam motor incorporeus 9, quo mediante dispo<lb ed="#Qb"/>sitio
+            tit ad perfectionem quae est anima, ita in<lb ed="#Qb"/>iis
+            quae fiunt putrefactione est quidam motor
+            <lb ed="#Qb"/>incorporeus, quo mediante fit dispositio ad per<lb ed="#Qb"/>fectionem
+            quae est anima. Nec tamen ab illo mo<lb ed="#Qb"/>tore
+            creato dicitur creari, quia creatio est de
+            <lb ed="#Qb"/>nihilo, hic autem est' productio de existenti se<lb ed="#Qb"/>cundum
+            quamdam similitudinem, licet remotam 8.
+            <lb ed="#Qb"/>Si vero dicitur creari a Deo torma ultima, dispo<lb ed="#Qb"/>sitio
+            vero]! sit materiae ab actione corporum su<lb ed="#Qb"/>percaelestium
+            ", non propter hoc est nobilior forma
+            <lb ed="#Qb"/>in putrefacto quam in iisV quae fiunt secundum
+            <lb ed="#Qb"/>univocam rationem, quiaic ibi dicitur fieri forma
+            <lb ed="#Qb"/>ultima a Deo disponente, movente naturali mate<lb ed="#Qb"/>riam.
+            Sic enim videtur <name ref="#Augustine">Augustinus</name> dicere, in
+            <lb ed="#Qb"/>libro De Trinitatem, cum ponit agricolam dispo<lb ed="#Qb"/>nentem
+            materiam, Deum autem!" creatorem, id est
+            <lb ed="#Qb"/>conditorem formae, et motorem in supercaelestibus
+            <pb ed="#Qb" n="396"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>disponentem materiam a, Deum autem formae l
+            <lb ed="#Qb"/>conditorem. Nec propter hoc esset forma separabilis,
+            <lb ed="#Qb"/>quia non condidit eam Deus nisi dependentem
+            <lb ed="#Qb"/>in esse et opera tione a susceptibili; non sic
+            <lb ed="#Qb"/>autem est in anima rationali. - Quod autem P h i-,
+            <lb ed="#Qb"/>l o s o p h u s dicit an imam intellectivam esse ab
+            <lb ed="#Qb"/>extrinseco, hoc est non tantum propter agentem
+            <lb ed="#Qb"/>ultimum, qui est extrinsecus - sic enim est
+            <lb ed="#Qb"/>in formis primo creatis, quae tamen non sunt
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>separabiles - sed hoc est quia non dependet
+            <lb ed="#Qb"/>suum esse ab intrinseca causa, sed tantum ab
+            <lb ed="#Qb"/>extrinseca causa. Fatendum est b ergo vel ultimam
+            <lb ed="#Qb"/>formam esse a motore creato, non tamen
+            <lb ed="#Qb"/>creari, sed fieri in existente per similitudinem remotam,
+            <lb ed="#Qb"/>vel a Deo creari, id est condi, dispositionem
+            <lb ed="#Qb"/>vero, tam in iis quae fiunt secundum
+            <lb ed="#Qb"/>univocam rationem quam non univocam, fieri ab
+            <lb ed="#Qb"/>agentibus creatis 1•
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Utrum anima rationalis sit ex traduce 3.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde proceditur ad originem animarum nostrarum 
+            <lb ed="#Qb"/>rationalium, I. utrum possint dici esse c
+            <lb ed="#Qb"/>animae ex anima, et vocant d hunc modum essendi
+            <lb ed="#Qb"/>' esse ex traduce '.
+         </p>
+          <p>
+            <lb ed="#Qb"/>I. Quod q u i d a m 3 adstruunt propter originale
+            <lb ed="#Qb"/>peccatum quod a patri bus descendit ad filios;
+            <lb ed="#Qb"/>originale autem, cum sit peccatum, erit in anima,
+            <lb ed="#Qb"/>et ideo dicebant quod sicut de carne paterna
+            <lb ed="#Qb"/>caro pueri originaliter producitur, ita de gignentis
+            <lb ed="#Qb"/>anima, anima geniti deduci aestimetur.
+            <lb ed="#Qb"/>Sed eontr&gt;a hoe obicitlll', a. sicut obicit Hugo 4 :
+            <lb ed="#Qb"/>
+            <quote>Ratio prima est quod spirituali naturae non e
+            <lb ed="#Qb"/>convenit neque ex materia esse, quoniam essentialiter
+            <lb ed="#Qb"/>simplex est, sed neque materiam esse,
+            <lb ed="#Qb"/>quoniam, in unitatis suae simplicitate individue
+            <lb ed="#Qb"/>semper consistens, augeri vel multiplicari omnino
+            <lb ed="#Qb"/>non potest. Simplex enim natura. propagationem
+            <lb ed="#Qb"/>non facit, ubi f ad id quod propagandum est
+            <lb ed="#Qb"/>ab eo a quo g propagandum est, pars sumi
+            <lb ed="#Qb"/>non potest, nisi totum transierit. Quod ergo
+            <lb ed="#Qb"/>unum est inter duo, si totum transierit, nihil ex
+            <lb ed="#Qb"/>eo remanet illi a quo est; si autem totum permanet,
+            <lb ed="#Qb"/>nihil confertur h illi ad quod est. Si igitur
+            <lb ed="#Qb"/>anima ex anima gignitur, sicut caro ex carne,
+            <lb ed="#Qb"/>dicant quo modo t simplex illa substantia aut tota
+            <lb ed="#Qb"/>in gignente remaneat, si in genitum transierit, aut
+            <lb ed="#Qb"/>tota in genitum transeat, si in gignente remanserit.
+            <lb ed="#Qb"/>Nisi forte omnes animas consubstantiales dicere
+            <lb ed="#Qb"/>velint et illam · naturam simplicem in propagatione
+            <lb ed="#Qb"/>filiorum personaliter multiplicari, sed
+            <lb ed="#Qb"/>essentialiter non dividi, non attendentes quanta
+            <lb ed="#Qb"/>inconvenieritia hanc assertionem sequantur 1c, si
+            <lb ed="#Qb"/>una et eadem essentia simul beatitudini et
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>damnationi, gloriae et poenae addicta credatur.
+            <lb ed="#Qb"/>- Postremo, cum dica t auctoritas 5 : Revertatur
+            <lb ed="#Qb"/>pulvis in terram de qua sumptus est et spiritus
+            <lb ed="#Qb"/>redeat m ad Dominum qui fecit illum, manifeste
+            <lb ed="#Qb"/>ostenditur quod n non spiritus de spiritu, sed caro
+            <lb ed="#Qb"/>de carne transducatur materialiter. Quamvis enim
+            <lb ed="#Qb"/>nostra corpora primo loco materialiter de terra
+            <lb ed="#Qb"/>non ° sint, idcirco tamen nonP inconvenienter de
+            <lb ed="#Qb"/>terra sumpta esse dicuntur, quia primi hominis
+            <lb ed="#Qb"/>corpus, a quo nostra corpora materialiter descenderunt
+            <lb ed="#Qb"/>q' de terra per materiam sumptum est.
+            <lb ed="#Qb"/>Quod, licet sub eodem r intellectu de spiritibus
+            <lb ed="#Qb"/>quoque nostris, etiam si s ex traduce esse crederentur,
+            <lb ed="#Qb"/>dici posset quod a Domino dati sunt in
+            <lb ed="#Qb"/>eo quod a Domino datus est ille primus spiritus,
+            <lb ed="#Qb"/>a quo per materiam descenderunt t: tamen in
+            <lb ed="#Qb"/>hoc probabilius constat animas ex traduce non
+            <lb ed="#Qb"/>esse, quod sicut in primo homine corpus de terra
+            <lb ed="#Qb"/>sumptum, spiritus vero a Domino datus legitur,
+            <lb ed="#Qb"/>ita etiam ratio expostulat ut in sequentibus quidem
+            <lb ed="#Qb"/>omnibus caro quidem de carne descendere,
+            <lb ed="#Qb"/>spiritus autem a Domino venire credatur. Propterea,
+            <lb ed="#Qb"/>cum in Lege scriptum si t 6 : Si quis percusserit
+            <lb ed="#Qb"/>mulierem praegnantem et il/a abortivum
+            <lb ed="#Qb"/>" fecerit, si non fuerit formatum, mulctetur
+            <lb ed="#Qb"/>pecunia, si autem jormatum fuerit, reddat animam
+            <lb ed="#Qb"/>pro anima, aperte declaratur quod 111 cum
+            <lb ed="#Qb"/>caro ex carne seminatur, anima similiter ex anima
+            <lb ed="#Qb"/>non trahitur. Si enim cum carne anima seminatur,
+            <lb ed="#Qb"/>quare in abortivo et non-formato anima pro
+            <lb ed="#Qb"/>anima non redderetur x? C um igitur in abortivo
+            <lb ed="#Qb"/>tantum Y formato anima pro anima reddi iubetur,
+            <lb ed="#Qb"/>quid nisi in eo z quod necdum formatum est,
+            <lb ed="#Qb"/>adhuc animam non esse ostenditor? ut videlicet,
+            <pb ed="#Qb" n="397"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>quemadmodum in primo homine prius corpus
+            <lb ed="#Qb"/>formatum, deinde animam infusam legimus, ita
+            <lb ed="#Qb"/>etiam in subsequentibus omnibus prius in vulva
+            <lb ed="#Qb"/>corpus humanum formari, deinde animam infundi
+            <lb ed="#Qb"/>credamus. Quod si cui torte mirum videatur quo
+            <lb ed="#Qb"/>modo paternum semen in vulva ante animatio<lb ed="#Qb"/>nem
+            vel crescere possit vel " vegetari vel etiam
+            <lb ed="#Qb"/>usque ad humani corporis effigiem promoveri,
+            <lb ed="#Qb"/>videat quo modo arbusta et plantae et germina
+            <lb ed="#Qb"/>universa, eiusmodi animam non habentia, sola vi<lb ed="#Qb"/>riditate
+            vegetentur et crescant etb motu suo in
+            <lb ed="#Qb"/>formam proprio generi convenientem producan<lb ed="#Qb"/>tur.
+            Iis igitur et huiuscemodic rationibus pro<lb ed="#Qb"/>babile
+            factum est animas ex traduce non esse,
+            <lb ed="#Qb"/>sed novas de nihilo creatas, novis quotidie cor<lb ed="#Qb"/>poribus,
+            de paterno semine in vulva formatis, ad
+            <lb ed="#Qb"/>vivificationem infundi </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, in libro Quaestionum Veterisd Testa<lb ed="#Qb"/>menti':
+      <quote>Inhonestum puto si dicantur animae
+            [cum] corporibus. generari ut e anima nascatur ex
+            <lb ed="#Qb"/>anima, quod nec ipsi animae competitf, aut si
+            <lb ed="#Qb"/>certe singulae caelestes potestates factae suntg
+            <lb ed="#Qb"/>et ex ipsis ceterae natae sunt, potest ex una Adae
+            <lb ed="#Qb"/>anima credibile" videri ceteras nasci. Sed non con<lb ed="#Qb"/>venit,
+            quiaï soli Deo hoc possibile fuit ut simplex
+            <lb ed="#Qb"/>generaret nec ceteris concederetur. Quod tam my<lb ed="#Qb"/>sticum
+            * est in causa Salvatoris, ut non solum a
+            <lb ed="#Qb"/>solis Gentilibus ' vel Iudaeis, verum etiam ab ipsis
+            <lb ed="#Qb"/>qui christianos se dicunt'", incredibile putetur.
+            <lb ed="#Qb"/>Nam si eo tempore quo seminatur corpus, et anima
+            <lb ed="#Qb"/>generatur ex anima", de Adam costam legimus
+            <lb ed="#Qb"/>sublatam, non tamen animam natam ex anima;
+            <lb ed="#Qb"/>sed si costa secum habuit animam, iam non
+            <lb ed="#Qb"/>nata est, sed detracta in partem. Sed nec hoc
+            <lb ed="#Qb"/>scriptum est. Propheta enim Zacharias ait inter
+            <lb ed="#Qb"/>ceteraz: Quia plasmauit, inquit, animam hominis
+            <lb ed="#Qb"/>in eum. Nec Isaias abP iis dissentiens, ait3: Qui
+            <lb ed="#Qb"/>fecit et finxit te in utero. Si ergo in utero fin<lb ed="#Qb"/>gitur,
+            iam formato corporia tribuitur. Cum enim
+            <lb ed="#Qb"/>omnia membra implet corporis, figurata dicitur
+            <lb ed="#Qb"/>in corpore, ut sicut aqua, cum sit sine effigie,
+            <lb ed="#Qb"/>missa tamen in vas ', figurata videtur, ita et
+            <lb ed="#Qb"/>anima, cum siti natura incorporea et simplex,
+            <lb ed="#Qb"/>formatur in corpus, singula membra vivificans </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, in libro De ecclesiasticis dogmatibus4:
+      <quote> Animae non cum corporibus seminantur, ut
+            <lb ed="#Qb"/>Luciferiani dicunt?</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, Gen. 2,23: <quote ana="#gen2_23">Hoc nunc os ex ossibus meis
+            <lb ed="#Qb"/>et cura de carne mea</quote>; et non est dictum quia
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>anima sit de anima; per quod datur intelligi quod
+            <lb ed="#Qb"/>animae rationales non sunt de anima primi hominis
+            <lb ed="#Qb"/>nec originem habent secundum modum istum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad id vero quod obicitur de
+            <lb ed="#Qb"/>originali peccato, respondeo quod traductio ori<lb ed="#Qb"/>ginalis
+            peccati non est per hunc modum, sed
+            <lb ed="#Qb"/>mediante carne corruptionem libidinosam secum
+            <lb ed="#Qb"/>deferente, anima vero, coniuncta carni sic" cor<lb ed="#Qb"/>ruptae,
+            trahit corruptionem secundum modum
+            <lb ed="#Qb"/>suum primo culpabilem et deinde poenalem, non
+            <lb ed="#Qb"/>quia anima parvuli sit de anima Adae, sed quia
+            <lb ed="#Qb"/>anima Adaeb non servavit sibi et posteritati rec<lb ed="#Qb"/>titudinem
+            originalem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, si diceretur indifferenter de una<lb ed="#Qb"/>quaque
+            anima rationali quod fieret de materia
+            <lb ed="#Qb"/>spirituali praeexistente, tunc obicit A u gu stin u s,
+            <lb ed="#Qb"/>Super Genesim 5, quia illa anima aut est vivens aut
+            <lb ed="#Qb"/>non est vitam habens. Si non est vitam habens:
+            <lb ed="#Qb"/>quo modo ergo est materia viventis substantiae ut
+            <lb ed="#Qb"/>ex qua fiat? Si vero : est vivens: aut tantum ve<lb ed="#Qb"/>getabili
+            vita vel tantum sensibili aut vita rationali.
+            <lb ed="#Qb"/>Si tantum vegetabili, esset planta et anima ratio<lb ed="#Qb"/>nalis
+            iieret ex planta. Si vero d sensibili tantum,
+            <lb ed="#Qb"/>esset materia rationalis animae brutum. Si vero
+            <lb ed="#Qb"/>habet vitam animae rationalis, ergo esset anima, et
+            <lb ed="#Qb"/>ita pari ratione fieret hoc ex illo sicut e converso,
+            <lb ed="#Qb"/>cum esset aequee completum. Non ergo anima
+            <lb ed="#Qb"/>rationalis facta est vel fit ex materia spirituali
+            <lb ed="#Qb"/>praeexistente; est ergo ex nihilo facta et ita creata.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Sed adhuc est quaestio utrum anima facta sit
+            <lb ed="#Qb"/>ex materia corporali praeiacente vel alia anima 6.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod primum non videtur: a. Quia corporeum
+            <lb ed="#Qb"/>minus nobile est in genere incorporeo; sed prin<lb ed="#Qb"/>cipium,
+            in quantum huiusmodi, nobilius est eo
+            <lb ed="#Qb"/>cuius est principium vel ad minus aeque nobile;
+            <lb ed="#Qb"/>ergo incorporeum non habebit materiam corpo<lb ed="#Qb"/>ream
+            ex quaf fiat.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea si materia esset corporea, aut forma
+            <lb ed="#Qb"/>similiter esset corporea aut incorporea. Si esset
+            <lb ed="#Qb"/>corporea, ergo non produceretur nisi corporeum
+            <lb ed="#Qb"/>compositum; non ergo anima, cum sit res incor<lb ed="#Qb"/>porea.
+            Si vero forma esset incorporea, composi<lb ed="#Qb"/>tum
+            ex illis aut nec esset corporeum nec incor<lb ed="#Qb"/>poreum
+            in genere substantiae —- quod est im<lb ed="#Qb"/>possibile
+            -— aut compositum esset corporeum,
+            <lb ed="#Qb"/>et ita anima esset corporea, sicut homo qui com<lb ed="#Qb"/>ponitur
+            ex anima et corpore. Ergo non est pos<lb ed="#Qb"/>sibile
+            animam fieri ex materia corporali.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

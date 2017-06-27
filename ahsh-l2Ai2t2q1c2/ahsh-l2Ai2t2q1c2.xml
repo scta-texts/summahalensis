@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 2, Q. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 2, Q. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="133"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t2q1c2">
+        <head>Ia-IIae, Inq. 2, Tract. 2, Q. 1, C. 2</head>
+        <head type="question-title">QUID SIT ANGELUS GENERE.</head>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head type="question-title">Utrum angelus sit lumen spirituale ex conditione suae naturae.</head>
+          <p>
+            <lb ed="#Qb"/>Secundo quaeritur quid sit angelus genere.
+            <lb ed="#Qb"/>Utrum sit lumen spirituale ex conditione suae
+            <lb ed="#Qb"/>naturae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod. videtur 1. per hoc quod dicit Diony<lb ed="#Qb"/>sius, 
+            in libro De divinis nominibusz: <quote> Daemones
+            <lb ed="#Qb"/>integri sunt et clarissimi, etsi ipsi non vident,
+            <lb ed="#Qb"/>claudentes ipsius bonif inspectivas' virtutes </quote>;
+            <lb ed="#Qb"/>sed constat quod huiusmodi claritas non con<lb ed="#Qb"/>tingit
+            ex aliquo accidenti supra naturam: dico
+            <lb ed="#Qb"/>autem naturam, primam rerumE institutionem; sed
+            <lb ed="#Qb"/>esse clarissimum non convenit nisi lumini; ergo
+            <lb ed="#Qb"/>angeli ex sua prima institutione naturali sunt
+            <lb ed="#Qb"/>lumina.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, Dionysius, in eodem 1ibro3: <quote>An<lb ed="#Qb"/>gelus
+            est imago Dei, manifestatio occulti luminis,
+            <lb ed="#Qb"/>speculum purum, splendidissimum</quote>; sed quod
+            <lb ed="#Qb"/>est splendidissimum, ratione luminis dicitur
+            <lb ed="#Qb"/>huiusmodi; ergo angeli sunt lumina4 sive lu<lb ed="#Qb"/>minosi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, Dionysius, loquens de angelis, in
+            <lb ed="#Qb"/>libro De hierarchia angelica 5, dicit quod angeli
+            <lb ed="#Qb"/>sunt lumina a Patre luminum descendentia 5.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, Ioannes Damascenus, in 2 di<lb ed="#Qb"/>stinctione7:
+      <quote> Lumen creatus est a Conditore et
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>bonus" factus </quote>. Ergo angeli --ex ipsa conditione
+            <lb ed="#Qb"/>sunt lumina; et constat quod loquitur de lumine
+            <lb ed="#Qb"/>intellectuali; unde praemittitur: <quote> Bonum est 1u<lb ed="#Qb"/>men
+            intelligibile angeli </quote>; ergo ex sua conditione
+            <lb ed="#Qb"/>sunt lumina intellectualia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Praeterea, sicut dicit Am bro siu s 3, luminis
+            <lb ed="#Qb"/>est manifestare se et alia; sed hanc proprietatem
+            <lb ed="#Qb"/>habet angelus' ut se manifesteti et sic ab alio
+            <lb ed="#Qb"/>cognoscatur et alia faciat cognoscere; ex quo
+            <lb ed="#Qb"/>praesumitur quod angeli sunt lumina, cum pro<lb ed="#Qb"/>prietatem
+            lumini'f convenientem habeant.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Praeterea, cum dicitur in Gen.9: Fiat lux,
+            <lb ed="#Qb"/>et facta est lux, lucis nomine, secundum quod
+            <lb ed="#Qb"/>exponit-B. <name ref="#Augustine">Augustinus</name> 10, designatur angelica
+            <lb ed="#Qb"/>creatura; ergo angeli sunt lumina.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Lumen non potest fieri tenebra;
+            <lb ed="#Qb"/>sed angelus potest fieri tenebral spiritualis per
+            <lb ed="#Qb"/>peccatum; unde Damascenus ": <quote> Malum est
+            <lb ed="#Qb"/>tenebra intelligibilis: aversi enim '" a summo lu<lb ed="#Qb"/>mine,
+            facti sunt tenebrae</quote>. Ergo angeli de sui
+            <lb ed="#Qb"/>natura non sunt lumina.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, cum dicitur 12: Deus divisit lucem" a
+            <lb ed="#Qb"/>tenebris, nomine lucis designantur angelio sancti,
+            <lb ed="#Qb"/>nomine tenebrarum angeli qui ceciderunt per pec<lb ed="#Qb"/>catum
+            13; ergo angeli de sui natura indifferentiam
+            <pb ed="#Qb" n="134"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>habent ad lucem et tenebras; ergo non sunt
+            <lb ed="#Qb"/>de sua natura prima lumina.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Praeterea, locus et lecatum sunt proportio<lb ed="#Qb"/>nalial;
+            sed loco tenebroso proportionantur dae<lb ed="#Qb"/>mones;
+            ergo sunt tenebrosi; unde et dicuntur an<lb ed="#Qb"/>geli
+            tenebrarum, sicut habetur ad Eph. ultimo, 12:
+            <lb ed="#Qb"/>Non est nobis colluctatio adversus carnem et san<lb ed="#Qb"/>guinem,
+            sed adversus rectores tenebrarum harum ".
+            <lb ed="#Qb"/>Ergo angeli de suac natura non sunt luminosi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Praeterea, si essent in sua natura lumina 
+            <lb ed="#Qb"/>mali angeli, cum se ipsos cognoscant, cognosce<lb ed="#Qb"/>rent 
+            se esse luminosos; sed cognoscendo se esse
+            <lb ed="#Qb"/>luminosos, sequeretur delectatio; talis autem non
+            <lb ed="#Qb"/>est in angelis malis; ergo angeli non sunt de sua
+            <lb ed="#Qb"/>natura lumina.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Ad quod dicendum quod duplex est 
+            <lb ed="#Qb"/>lumen, scilicet naturae et gratiae; quod etiam
+            <lb ed="#Qb"/>dicitur lumen natura-e, hoc etiamd est donum
+            <lb ed="#Qb"/>Dei: unde utraque lumina ad donum Dei perti<lb ed="#Qb"/>nent,
+            sed differenter. Unde, in libro De divinis na<lb ed="#Qb"/>minibus-Z:
+            <lb ed="#Qb"/>
+            <quote>Data ipsis angelica dona nequaquam
+            <lb ed="#Qb"/>ipsa mutata esse dicimus </quote>; sed hoc intelligitur
+            <lb ed="#Qb"/>de ' dono naturae, quod non ex toto mutatum est;
+            <lb ed="#Qb"/>sed donum gratiae, supposito quod habuerintf
+            <lb ed="#Qb"/>gratiam gratum facientem, omnino est ablatum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad obiectum autem primo
+            <lb ed="#Qb"/>dicendum quod illud quod dicit Dionysius, in
+            <lb ed="#Qb"/>libro De divinis nominibus, intelligitur de lumine
+            <lb ed="#Qb"/>naturae, non de lumine gratiae gratum facientis.
+            <lb ed="#Qb"/>Unde nihil prohibet daemones esse clarissimos
+            <lb ed="#Qb"/>quantum" ad ipsum lumen naturae, quod est in
+            <lb ed="#Qb"/>ipsa perspicacitate intelligentiae, et nihilominus
+            <lb ed="#Qb"/>esse non videntes, propter defectum gratiae gra<lb ed="#Qb"/>tum
+            facientis, quam non habent, propter fastum
+            <lb ed="#Qb"/>elationis in quemg ceciderunt.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundum dicendum quod auctoritas"
+            <lb ed="#Qb"/>B. Dionysii intelligi videtur de angelo iam
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>habente formam gratiae, propter hoc quod dicitur
+      <quote> specuium splendidissimum </quote>; si tamen accipiatur
+            <lb ed="#Qb"/>proi splendore naturae, angelus dicitur esse
+      <quote> speculum splendidissimum </quote>, id est valde splen<lb ed="#Qb"/>diclum,
+            propter resultationem cuiusdamk lucis
+            <lb ed="#Qb"/>creatae a luce increata. Quod autem dicitur <quote> ma<lb ed="#Qb"/>nifestatio,
+            occulti luminis </quote>, hoc intelligitur propter'
+            <lb ed="#Qb"/>hoc quod lumen divinitatis dicitur occultissimum 3,
+            <lb ed="#Qb"/>manifestatio autem eius est in lumine intelligen<lb ed="#Qb"/>tiae
+            angelicae primo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad tertium dicendum quod illud quod
+            <lb ed="#Qb"/>dicitur quod angeli sunt lumina, intelligitur de
+            <lb ed="#Qb"/>angelis illuminatis per gratiam; sic enim procedit
+            <lb ed="#Qb"/>tractatus De hierarchia angelica: loquitur de or<lb ed="#Qb"/>dinibus
+            angelorum prout iam habent gratiam gra<lb ed="#Qb"/>tum
+            facientem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad quartum dicendum quod verbum
+            <lb ed="#Qb"/>Ioannis Damasceni potest intelligi vel de
+            <lb ed="#Qb"/>lumine naturae vel de lumine gratiae gratum fa<lb ed="#Qb"/>cientis
+            '", quod datum fuit a principio, supposito
+            <lb ed="#Qb"/>quod angeli habuerint" gratiam gratum facientem
+            <lb ed="#Qb"/>quam cito fuerunt creati.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad quintum dicendum quod intentio B. Am<lb ed="#Qb"/>brosii
+            refertur ad hoc quod intelligitur de lu<lb ed="#Qb"/>mine
+            naturae. Quod enim se potest cognoscere
+            <lb ed="#Qb"/>et alia, hoc refertur ad lumen naturae: angelica
+            <lb ed="#Qb"/>enim intelligentia,-etsi non adsit gratia, habet
+            <lb ed="#Qb"/>potentiam cognoscendi se et alia 4.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Ad sextum dicendum quod intelligitur
+            <lb ed="#Qb"/>conditio angeli dupliciter: quantum, ad esse et
+            <lb ed="#Qb"/>quantum? ad bene esse. Quantum autem ad esse,
+            <lb ed="#Qb"/>intelligitur conditio angeli in conditione caeli;
+            <lb ed="#Qb"/>quantum ad bene essäncconditione lucis, sicut
+            <lb ed="#Qb"/>dicit ibidem Glossa5: fieri enim lucem nihil
+            <lb ed="#Qb"/>aliud est quam angelicam creaturam converti ad
+            <lb ed="#Qb"/>lumen aeternum, ut? cuius habeat similitudinem,
+            <lb ed="#Qb"/>et in eo habeat desiderium perseverandi.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Qua ratione angelus dicatur substantia</head>
+          <p>
+            <lb ed="#Qb"/>Adhuc etiam quaeritur quid sit angelus genere. 
+            <lb ed="#Qb"/>Est enim duplex genus: quantum ad esse pure na<lb ed="#Qb"/>turale
+            et quantum ad esse gratuitum. Quod enim 
+            <lb ed="#Qb"/>dicitur lumen, hoc pertinet ad esse gratuitum;
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quod vero diciturs substantia a Damasceno7, 
+            <lb ed="#Qb"/>pertinet ad esse naturale. Quaeritur ergo: cum
+            <lb ed="#Qb"/>non sit accidens, eo quod in nullo alio est sicut
+            <lb ed="#Qb"/>in subiecto 8, erit substantia — substantia autem
+            <pb ed="#Qb" n="135"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>dicitur tripliciter: materia et forma et quod est
+            <lb ed="#Qb"/>ex iis 1 ; additur etiam quarta differentia, ut sub<lb ed="#Qb"/>stantia
+            dicatur illud quod pertinet ad quiddita<lb ed="#Qb"/>tem
+            rei2 —- quaeritur ergo utrum angelus sit
+            <lb ed="#Qb"/>substantia isto modo vel illo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Quod autem non dicatur substantia-materia,
+            <lb ed="#Qb"/>sic ostenditur: Substantia-materia receptiva est
+            <lb ed="#Qb"/>formarum, quae cum ipsa faciunt unum in na<lb ed="#Qb"/>tura3:
+            sed si angelus est receptivus alicuius
+            <lb ed="#Qb"/>formae, non erit receptivus formae quae faciat
+            <lb ed="#Qb"/>unum natura cum angelo; ergo angelus non est
+            <lb ed="#Qb"/>substantia-materia. —— Nec est substantia-forma,
+            <lb ed="#Qb"/>cum substantia-forma perficiat aliquam materiam ;
+            <lb ed="#Qb"/>praeterea, forma inest materiae secundum quem<lb ed="#Qb"/>dam
+            modum nec habet rationem per se subsi<lb ed="#Qb"/>stendi4;
+            angelus autem nullum istorum habet;
+            <lb ed="#Qb"/>ergo non dicetur substantia-torma ". — Nec di<lb ed="#Qb"/>cetur
+            substantia quae est ex iis: substantia enim
+            <lb ed="#Qb"/>quae est ex iis, est composita; angelus autem
+            <lb ed="#Qb"/>simplicitatem habet!7 respectu materiae, simplici<lb ed="#Qb"/>tatem
+            etiam habet respectu formae, cum utraque
+            <lb ed="#Qb"/>ratio sit entis compositi corporalis 0; non ergo
+            <lb ed="#Qb"/>angelus est substantia composita.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Si vero torte dicatur quod angelus ha<lb ed="#Qb"/>bet
+            in se compositionem materiae et formae, et
+            <lb ed="#Qb"/>ei attestatur quod habet potentiam recipiendi et
+            <lb ed="#Qb"/>agendi - secundum hocd obicitur quod
+            <lb ed="#Qb"/>pari ratione forma angeli erit composita, quia ha<lb ed="#Qb"/>bebit
+            rationem potentiaee receptivae .a Deo et
+            <lb ed="#Qb"/>activae in creaturas; quod cum falsum sit, eo
+            <lb ed="#Qb"/>quod in infinitum oporteret abire secundum hunc
+            <lb ed="#Qb"/>modum, non ergo erit angelus substantia compo<lb ed="#Qb"/>sita
+            propter hanc rationem. — Ita nec erit substan<lb ed="#Qb"/>tia
+            quae exprimit rei quidditatem. Haec enim non
+            <lb ed="#Qb"/>convenit absolute, sed respective: dicitur enim
+            ,detinitio alicuius substantia detinitaf, quia con<lb ed="#Qb"/>tinet
+            quidditatem eius; sed isto modo non dicitur
+            <lb ed="#Qb"/>angelus esse substantia, cum ad nihil aliud refe<lb ed="#Qb"/>ratur
+            per hunc modum. Non ergo dicetur angelus
+            <lb ed="#Qb"/>esse substantia aliquo modorum praedictorum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Praeterea, supposito quod sit substantia, aut
+            <lb ed="#Qb"/>est substantia simplex aut composita. -— Quod
+            <lb ed="#Qb"/>sit simplex, videtur-per comparationem ad ani<lb ed="#Qb"/>mam.
+            Cum enim anima simplex dicatur, sicut
+            <lb ed="#Qb"/>habetur in libro De anima et spiritu 5, angelus
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>autem subtilioris essentiae sit quam sit anima, erit
+            <lb ed="#Qb"/>ergo angelus Simplex. — Quod autem anima
+            <lb ed="#Qb"/>sit simplex, dicit Damascenusö ponens
+            <lb ed="#Qb"/>talem rationem: <quote>Anima est substantia vivens,
+            <lb ed="#Qb"/>simplex et incorporea </quote>; et in libro De anima et
+            <lb ed="#Qb"/>spiritu 7: <quote> Anima est substantia spiritualis, sim<lb ed="#Qb"/>plex
+            etg indissolubilis </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Praeterea, angelus est" subtilioris essentiae
+            <lb ed="#Qb"/>quam sit punctus; punctusï autem dicitur esse
+            <lb ed="#Qb"/>simplex 8 ; ergo multo fortius angelus est simplex.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. In omni quod est citra Primum, dii<lb ed="#Qb"/>tert
+            'quod est' et ' quo est'g; sed angelus est citra
+            <lb ed="#Qb"/>Primum; ergo in eo differt 'quod est' et 'quo
+            <lb ed="#Qb"/>est ' k; sed omne in quo dii-tert ' quod est' et
+            ' quo est ', est compositum; ergo angelus est sub<lb ed="#Qb"/>stantia
+            composita. . "
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, angelus habet vires secundum quas at<lb ed="#Qb"/>tenditur
+            quod est imago, scilicet memoriam, in<lb ed="#Qb"/>telligentiam
+            et' voluntatem 10; sed vires sive po<lb ed="#Qb"/>tentiae 
+            non sunt ipsa essentia: nulla enim es<lb ed="#Qb"/>sentia 
+            est sua potentia nisi in Deo; ergo essentia
+            <lb ed="#Qb"/>angeli non est suae vires; ergo angelus est '" sub—
+            <lb ed="#Qb"/>stantia composita.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, quaecumque conveniunt genere secun<lb ed="#Qb"/>dum
+            rationem, secundum esse naturae convenit
+            <lb ed="#Qb"/>quod habeant materiam: genus enim respondet
+            <lb ed="#Qb"/>materiae"; ergo, cum substantia, quae est angelus,
+            <lb ed="#Qb"/>conveniat cum corpore in genere, habebit ratio<lb ed="#Qb"/>nem
+            materiae; sed si habet rationem materiae, ha<lb ed="#Qb"/>bebit
+            rationem formae; ergo angelus est substan<lb ed="#Qb"/>tia
+            composita.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Ad quod dicendum'J quod, licet se<lb ed="#Qb"/>cundum
+            quosdam philosophos12 intelligen<lb ed="#Qb"/>tia,
+            quae dicitur angelus, sit forma sineP materia,
+            <lb ed="#Qb"/>videtur tamen dicendum quod Sit compositum
+            <lb ed="#Qb"/>ex materia et forma. Quod si aliquibus videbitur
+            <lb ed="#Qb"/>quod sit forma per se ens sine materia, habebit
+            <lb ed="#Qb"/>compositionem ex 'quo est' et 'quod est', cum
+            <lb ed="#Qb"/>utroque modo dicatur compositum aliquo genere
+            <lb ed="#Qb"/>compositionis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo 4 obiectum in con<lb ed="#Qb"/>trarium
+            dicendum: licet angelus habeat simplici<lb ed="#Qb"/>tatem
+            respectu materiae corporalis et formae, quae
+            <lb ed="#Qb"/>simplices sunt in genere suo, nihilominus tamen
+            <lb ed="#Qb"/>compositus est in se, sed respective simplex.
+            <lb ed="#Qb"/>Quod enim dicitur simplicior iis, hoc est quia
+            <pb ed="#Qb" n="136"/>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>habet esse spirituale, quod non habet forma huius<lb ed="#Qb"/>modi
+            corporalis vel materia. Materia autem di<lb ed="#Qb"/>citur
+            simplex, quia non resolvitur ad aliam ma<lb ed="#Qb"/>teriam,
+            et forma prima, quia non resolvitur in
+            <lb ed="#Qb"/>aliam formam, et ita alio et alio modo dicitur
+            <lb ed="#Qb"/>utrobique simplex.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundum dicendum" quod hoc po<lb ed="#Qb"/>sito
+            quod angelus habeatl7 materiam et formam
+            <lb ed="#Qb"/>spiritualem, non estf sic in forma sua ut pari
+            <lb ed="#Qb"/>ratione habeat utramque potentiam receptivam
+            <lb ed="#Qb"/>et activam sicut angelus. Nam forma dicitur
+            <lb ed="#Qb"/>habere receptivam potentiam ut recipiat esse a
+            <lb ed="#Qb"/>Deo; sed angelus praeter illam potentiam, quae
+            <lb ed="#Qb"/>convenit ** creaturae in quantum huiusmodi, habet
+            <lb ed="#Qb"/>propriam potentiam ut recipiat formas intelligi<lb ed="#Qb"/>biles,
+            quam non habet illa forma de se.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad tertium dicendum quod, cum dicitur
+            <lb ed="#Qb"/>angelus simplex aut anima simplex, comparative
+            <lb ed="#Qb"/>dicitur respectu inferioris dignitate, quae plus
+            <lb ed="#Qb"/>habet de compositione.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>4. Ad id vero quod obicitur de angelo respectu
+            <lb ed="#Qb"/>puncti: dicendume1 quod nec punctus nec angelus
+            <lb ed="#Qb"/>omnimodam habet simplicitatem, sed punctus di<lb ed="#Qb"/>citur
+            simplex in genere magnitudinis, composi<lb ed="#Qb"/>tionem
+            tamen- essentiae habetf respectu rei in<lb ed="#Qb"/>corporalis.
+            Similiter angelus, licet dicatur simplex
+            <lb ed="#Qb"/>respectu animae, nihilominus dicitur habere in se
+            <lb ed="#Qb"/>proprie compositionem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Ad 'id vero quod obicitur de modo com<lb ed="#Qb"/>positionis
+            angeli quod 'habet communem mate<lb ed="#Qb"/>riam
+            cum corpore, sicut dicitur habere genus
+            <lb ed="#Qb"/>commune,: dicendum2 quod hoc falsum est. Licet
+            <lb ed="#Qb"/>enim in hoc conveniante quod utrumque dicitur
+            <lb ed="#Qb"/>habere materiam secundum suum modum, non
+            <lb ed="#Qb"/>tamen eamdem: non'enim est eadem materia cor<lb ed="#Qb"/>poralium
+            et spiritualium, sicut infra ostendetur
+            <lb ed="#Qb"/>in Tractatu de operibus sex dierum 3. Unde ex
+            <lb ed="#Qb"/>hoc est genus commune, quia aliqua ratio ma<lb ed="#Qb"/>terialis
+            communis est secundum rationem, non
+            <lb ed="#Qb"/>quod eadem sit materia.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

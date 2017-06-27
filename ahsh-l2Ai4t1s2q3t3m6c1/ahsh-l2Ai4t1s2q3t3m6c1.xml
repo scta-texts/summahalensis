@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 6, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 6, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="486"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t3m6c1">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 6, C. 1</head>
+        <head type="question-title">DE DIFFERENTIA LIBER ARBITRII AB ALIIS CAUSIS ACTUUM.</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic: Ioannes Damascenus 9:
+    <quote> Plura ponuntur genera causarum. Est enim
+          <lb ed="#Qb"/>providentia divina causa, natura similiter dicitur
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>causa, necessitas sive finis ponitur una causa,
+          <lb ed="#Qb"/>eventus et casus similiter ponuntur' causae</quote>.
+          <lb ed="#Qb"/>Quo modo ergo differt liberum arbitrium in
+          <pb ed="#Qb" n="487"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>homine, si est causa actuum, ab iis generibus
+          <lb ed="#Qb"/>causarum?
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod. non differant]: 1. Omnes
+          <lb ed="#Qb"/>enim actus qui causantur, aut semper contingunt
+          <lb ed="#Qb"/>aut frequenter aut raro; sed eorum, quae" semper
+          ' contingunt, causa dicitur necessitas, eorum vero
+          <lb ed="#Qb"/>quae frequenter, natura, ut generationis, augmen<lb ed="#Qb"/>tationis
+          et consimilium in plantis et animalibus,
+          <lb ed="#Qb"/>eorum vero quae raro, causa dicitur eventus vel
+          <lb ed="#Qb"/>casus, Deus vero omnium est causa; nec sunt
+          <lb ed="#Qb"/>plures differentiae actuum; ergo non .difiertb li<lb ed="#Qb"/>berum
+          arbitrium, in quantum est causa, respectu
+          <lb ed="#Qb"/>aliarum causarum; aut ergo non est causa aut
+          <lb ed="#Qb"/>eadem cum aliqua dictarum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Actus in homine possunt esse iusti
+          <lb ed="#Qb"/>vel iniusti; Deo autem non est fas adscribere actus
+          <lb ed="#Qb"/>iniustos2 nec alicui aliarum causarum; ergo aliqui
+          <lb ed="#Qb"/>sunt actus praeter dictos, quorum potest esse
+          <lb ed="#Qb"/>liberum arbitrium principium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, si homo non esset principium ali<lb ed="#Qb"/>quorum
+          actuum per liberum arbitrium, superflue
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>consiliaretur3: omne enim consilium fit actuum
+          <lb ed="#Qb"/>gratia qui 0 per nos fiunt; restat ergo quod est 'homo
+          <lb ed="#Qb"/>causa aliquorum actuum per liberum arbitrium:
+          <lb ed="#Qb"/>hoc enim optimum4 et potentissimum5 dicitur in
+          <lb ed="#Qb"/>natura hominis.—Quod concedendum est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad obiectum 1. autem respondendum " quod
+          <lb ed="#Qb"/>praeter illa quae dicta sunt et sunt non in no<lb ed="#Qb"/>bis,
+          sunt contingentia ad utrumlibete quae sunt
+          <lb ed="#Qb"/>in nobis, et horum est homo principium per libe<lb ed="#Qb"/>rum
+          arbitrium. Sic ergo possunt distingui genera
+          <lb ed="#Qb"/>causarum: aut enim est omnium causa, et sic
+          <lb ed="#Qb"/>est divina providentia; aut non omnium, sed
+          <lb ed="#Qb"/>quorumdam. Si vero quorumdam f : aut eorum
+          <lb ed="#Qb"/>quae sunt in nobis aut quae non sunt in nobis.
+          <lb ed="#Qb"/>Quae verog non sunt in nobis: aut- sunt semper,
+          <lb ed="#Qb"/>et eorum dicitur esse necessitas causa; aut fre<lb ed="#Qb"/>quenter,
+          et. sic natura in iis inferioribus ; aut
+          <lb ed="#Qb"/>raro, eth sic casus. Quae vero in nobis, sici li<lb ed="#Qb"/>berum
+          arbitrium habent pro principio, si per se
+          <lb ed="#Qb"/>causantur; si vero per accidens, fortunam, se<lb ed="#Qb"/>cundum
+          quemdam modum dictum, sicut est de
+          <lb ed="#Qb"/>inventione thesauri.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

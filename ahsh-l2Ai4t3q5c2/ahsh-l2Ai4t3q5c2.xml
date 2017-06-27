@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 5, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 5, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="780"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q5c2">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 5, C. 2</head>
+        <head type="question-title">UTRUM ADAM DOMINABATUR ANIMALIBUS</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur inquirere utrum primus homo domi<lb ed="#Qb"/>naretur
+          animalibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod. sic, videtur: a. Gen. l,28: Crescite et
+          <lb ed="#Qb"/>multiplicamini et replete terram et subicite eam
+          <lb ed="#Qb"/>et dominamini piscibus maris et volatilibus caeli
+          <lb ed="#Qb"/>et universis animantibus, quae moventur super
+          <lb ed="#Qb"/>terram., Ibi Glossaz: <quote>Ipsis dicit ut habeant
+          <lb ed="#Qb"/>dominium omnium creaturarum in inferiori parte
+          <lb ed="#Qb"/>mundi </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Damascenus3: <quote>Ex visibili crea<lb ed="#Qb"/>tura
+          conditurus erat Deus hominem secundum
+          <lb ed="#Qb"/>propriam imaginem et similitudinem, sicut quem<lb ed="#Qb"/>dam
+          regem et principem omnis terrae et omnium
+          <lb ed="#Qb"/>quae sunt in ipsa </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ex iis patet quod habuit dominium omnium
+          <lb ed="#Qb"/>animalium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Ille dominatur rei alicui, cuius est
+          <lb ed="#Qb"/>ipsa sicut possessio possessoris; sed in primo
+          <lb ed="#Qb"/>statu omnia erant communia: sicut enim dicit
+          <lb ed="#Qb"/>Isidorust, <quote> secundum legem naturae communis
+          <lb ed="#Qb"/>est omnium possessio et omnium una libertas </quote>.
+          <lb ed="#Qb"/>Ex quo ergo in statu primo currebat lex 'na<lb ed="#Qb"/>turae
+          conditae, nihil erat alicuius subiectum
+          <lb ed="#Qb"/>dominio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, velle habere aliqua, quae nulli usui
+          <lb ed="#Qb"/>vel officio c sunt volenti deputata, et ita ex con<lb ed="#Qb"/>sequenti
+          nullius utilitatisd eidem, est culpae?
+          <lb ed="#Qb"/>cupiditatis vel curiositatisf vel alicuius alterius
+          <lb ed="#Qb"/>vitii, quae nullo modog erant in statu illo; igitur
+          <lb ed="#Qb"/>primus homo nihil voluit habere in primo statu,
+          <lb ed="#Qb"/>quod non esset deputatum alicui'l usui vel of<lb ed="#Qb"/>ficio;
+          igitur nec habuit; sed animalia nulli usui
+          <lb ed="#Qb"/>vel officio erant deputata; ergo eius non erantï
+          <lb ed="#Qb"/>possessio; ergo nec ille dominus, et ita non do<lb ed="#Qb"/>minabatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, omnino indomabili. nullus potest do<lb ed="#Qb"/>minari;
+          sed multa genera animalium erant huius<lb ed="#Qb"/>modi:
+          multa enim sunt quae nulla frequentia
+          <lb ed="#Qb"/>hominum vel studio possuntk domari; ergo non
+          <lb ed="#Qb"/>dominabatur cuilibet, et ita non dominabatur
+          <lb ed="#Qb"/>omni animali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, Gen. 2,19: Adduxit' ea ad Adam, ut
+          <lb ed="#Qb"/>videret quid vocaret ea; ibi Glossa Augu<lb ed="#Qb"/>stin
+          i, et sumpta est a IX'" Super Genesim5: <quote> Non
+          <lb ed="#Qb"/>sicut venatores vel aucupes nec iussionis" vox
+          <lb ed="#Qb"/>de nube facta est, quam rationales animae intel<lb ed="#Qb"/>ligere
+          solent — hanc enim naturaliter non intelli<lb ed="#Qb"/>gunt
+          bestiae vel 0 aves — sed? per ministeria an<lb ed="#Qb"/>gelorum,
+          qui capiunt in verbo eius quid quando
+          <lb ed="#Qb"/>fieri debeat</quote>. Ex hoc verbo videtur quod ani<lb ed="#Qb"/>malia
+          non erant dominioq vel imperio primi ho<lb ed="#Qb"/>minis
+          subiecta, quia, si hoc ', non necesse fuisset
+          <lb ed="#Qb"/>quod per ministerium angelorum adducta essent:
+          <lb ed="#Qb"/>ea enim quae per huiusmodi ministerium solent
+          <lb ed="#Qb"/>fieri, et modo mirabili fiebant et supra humanum
+          <lb ed="#Qb"/>posse erant; sed, si fuissent eius imperio subiecta,
+          <lb ed="#Qb"/>sine angelico auxilio potuisset ea congregasse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, non 5 omnia quae erant in ipso primo
+          <lb ed="#Qb"/>homine ante lapsum *, erant illi subiecta, sicut
+          <lb ed="#Qb"/>vires" naturales, utpote nutritiva, digestiva et
+          <lb ed="#Qb"/>huiusmodi, quae, sive vellet sive nollet, secun<lb ed="#Qb"/>dum
+          quod movebatur earum natura, officia sua
+          <lb ed="#Qb"/>exercebant; multo fortius videtur quod animalia,
+          <lb ed="#Qb"/>quae non movebantur secundum dictamen ra<lb ed="#Qb"/>tionis,
+          sed secundum impetum naturae suae, quae
+          <lb ed="#Qb"/>fuerunt in maiori difformitate ab ipso homine,
+          <lb ed="#Qb"/>non erant illi subiecta.
+        </p>
+        <p>
+                <pb ed="#Qb" n="781"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>6. Item, Hieronym u s 1: <quote> Homini adhuc ante 
+          <lb ed="#Qb"/>peccatum non indigenti dedit Deus dominationem 
+          <lb ed="#Qb"/>animalium; praesciebat enim hominem adminiculo 
+          <lb ed="#Qb"/>animalium adiuvandum iore post lapsum </quote>. Ex 
+          <lb ed="#Qb"/>hoc verbo videtur quod non inisset illi datum 
+          <lb ed="#Qb"/>dominium nisi esset lapsus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Idem habetur in Glossa2 super illudzDomi-  
+          <lb ed="#Qb"/>nam'ini piscibus maris, Gen. 1,28, quae est talis: 
+    <quote> Quaeritur qua utilitate homo dominatum inter 
+          <lb ed="#Qb"/>cetera animalia perceperat et ad quos usus quaeve 
+          <lb ed="#Qb"/>solatia sunt haec creata homini, si non peccaret; 
+          <lb ed="#Qb"/>non enim ad escam, sed herbae tantum et ar- 
+          fructus primo" concessa sunt. Sed forte, 
+          <lb ed="#Qb"/>quia peccaturum praesciebat Deus hominem et 
+          <lb ed="#Qb"/>sic futurum mortalem quem creavit immortalem, 
+          <lb ed="#Qb"/>ea primordialiter instituit, quibus se iam mortalis 
+          <lb ed="#Qb"/>posset tueri, habens ex iis alimentum et indu- 
+          <lb ed="#Qb"/>mentum et laboris adiumentumb</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo quod primus homo ante lapsum 
+          <lb ed="#Qb"/>habuit dominium, et hoc f congruebat congruentia 
+          <lb ed="#Qb"/>sumpta ex parte hominis et congruentia sumpta 
+          <lb ed="#Qb"/>ex parte animalium. Congruebat enim quod ante 
+          <lb ed="#Qb"/>peccatum haberet potestativam dominationem ce- 
+          <lb ed="#Qb"/>terarum creaturarum huius mundi sensibilis se— 
+          <lb ed="#Qb"/>cundum eam partem qua, tactusd ad imaginem 
+          omnibus ceteris praecellebat. Iustum nam- 
+          <lb ed="#Qb"/>que erat ut, secundum rationem suo Creatori per— 
+          <lb ed="#Qb"/>tecte obediens et ab eius obedientia nusquam 
+          perturbato ete irrationali motu divertens, 
+          ratione carentia sub suof contineret po- 
+          <lb ed="#Qb"/>testativo et imperturbato atque pacato imperio. 
+          <lb ed="#Qb"/>Unde etloannes3, Constantinopolitanus Episco— 
+          <lb ed="#Qb"/>pus, dicit ante peccatum omnes bestias homini 
+          subiectas. Quod autem nunc hominibus 
+          <lb ed="#Qb"/>nocent, poena primi peccati est: dominium autem 
+          amisit propter peccatum. Unde Glossa4 su- 
+          <lb ed="#Qb"/>per illud 'Dominamini ' etc.: <quote> Post quam Condi— 
+          <lb ed="#Qb"/>tori subiectus esse noluit, iure dominium perdidit. 
+          <lb ed="#Qb"/>ln testimonium vero primae creationis 
+          viris sanctis servisse et rictus! bestiarum 
+          <lb ed="#Qb"/>serpentum venenum cessisse </quote>. — Alia autem est 
+          ex parte animalium. Congruebat 
+          <lb ed="#Qb"/>enim ut animalia, quae propter hominemi con- 
+          <lb ed="#Qb"/>dita erant, eius dominio et dispositioni subde— 
+          <lb ed="#Qb"/>rentur. Unde Hugos: <quote> Quae propter hominem 
+          erant, ab illo regenda et disponenda erant;</quote> 
+          <lb ed="#Qb"/>curam etenim boum et providentiam ceterorum- 
+          <lb ed="#Qb"/>que animalium Deus homini reliquit, ut domina<lb ed="#Qb"/>tioni
+          illius subicerentur et ratione illius regerentur,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ut a quibus debuerat obsequium accipere, sciret
+          etiam illis necessaria providere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum quod obicitur
+          <lb ed="#Qb"/>contra hoc per hoc quod ' omnia tunc erant com<lb ed="#Qb"/>munia' 
+          etc.: dicendum quod illud dominium in
+          <lb ed="#Qb"/>nullo praeiudicabat illi communioni. Non enim
+          <lb ed="#Qb"/>datum fuit hoc dominium solummodo homini
+          <lb ed="#Qb"/>primo, sed illi et posteris eius, si stetissent, illi
+          <lb ed="#Qb"/>tamen tamquam primo et principali patrifamilias
+          <lb ed="#Qb"/>in domo generis humani; unde unusquisque usus
+          <lb ed="#Qb"/>fuisset illis secundum beneplacitum voluntatis
+          <lb ed="#Qb"/>ordinatae; unde dominium illud non fuit proprie<lb ed="#Qb"/>borum
+          <lb ed="#Qb"/>tatis possessoriae, sed praesidentiae potestativae
+          <lb ed="#Qb"/>et providentiae regitivae, sicut vult Hugoö.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud't quod obicitur quod 'animalia
+          <lb ed="#Qb"/>non erant alicui utilitati humanae deputata, si
+          <lb ed="#Qb"/>homo stetisset': dicendum quod hoc non est
+          <lb ed="#Qb"/>verum. Licet enim quantum ad statum illum non
+          <lb ed="#Qb"/>erant alicui usui vel' officio deputata, quo modo
+          <lb ed="#Qb"/>indiget humana miseria, fortasse erant alicui alii
+          <lb ed="#Qb"/>quod'" ignoramus. — Praeterea, materianfuerunt
+          <lb ed="#Qb"/>laudandi Deum, tum quia melius et manifestius
+          <lb ed="#Qb"/>declaratur divina potentia, sapientia et bonitas ex
+          <lb ed="#Qb"/>conditione, gubernatione" et sustentatione eorum
+          <lb ed="#Qb"/>in quibus estP reperire imaginem Dei et in qui<lb ed="#Qb"/>Dei,
+          <lb ed="#Qb"/>bus est reperire vestigium, quam declararetur ex
+          <lb ed="#Qb"/>conditione, gubernatione et sustentatione eorum
+          <lb ed="#Qb"/>quae sunt ad imaginem Dei, aliis non existenti<lb ed="#Qb"/>aliquo
+          <lb ed="#Qb"/>bus7; tum quia ex subiectione, qua subiecta fue<lb ed="#Qb"/>omnia
+          <lb ed="#Qb"/>runt homini, magis se reputaret homo obnoxium
+          <lb ed="#Qb"/>Deo'! et magis abhorreret vilitatem peccati.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad illud quod obicitur quod 'plura sunt
+          <lb ed="#Qb"/>animalia indomabiliai etc.: dicendum, sine prae<lb ed="#Qb"/>fuisse
+          <lb ed="#Qb"/>iudicio melioris sententiae, quod animalia in illo
+          <lb ed="#Qb"/>statu erant in paradiso sub hominis irriperio con<lb ed="#Qb"/>illud
+          <lb ed="#Qb"/>corditer ad invicem et obedienter ad hominem
+          <lb ed="#Qb"/>viventia. Homine autem per peccatum recedente
+          <lb ed="#Qb"/>et declinante a sui superioris obedientia, iustum
+          <lb ed="#Qb"/>legimus erat ut ordine naturali sibi subiecta sentiret ad<lb ed="#Qb"/>aves
+          <lb ed="#Qb"/>et versum se per inobedientiam' contumacia, per
+          <lb ed="#Qb"/>quam iustitiam et caro facta est rebellans spi<lb ed="#Qb"/>congruential'l
+          <lb ed="#Qb"/>ritui et quae exterius ratione carent, repugnantia
+          <lb ed="#Qb"/>ipsi homini. Non tamen amisit homo naturalem
+          <lb ed="#Qb"/>potestatem dominii, id est rationis imperativam
+          <lb ed="#Qb"/>potestatem *, sed sicut potestas eius est infir<lb ed="#Qb"/>creata
+          <lb ed="#Qb"/>matat et per peccatum vitiata, ita- ipsa quoque
+          <lb ed="#Qb"/>ratione carentia, labente homine, sunt deterio<lb ed="#Qb"/>,
+          <lb ed="#Qb"/>rata et ad obediendum imperanti rationi mi<lb ed="#Qb"/>nus
+          <lb ed="#Qb"/>habilia et minoris mansuetudinis et maioris
+          <pb ed="#Qb" n="782"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>crudelitatis". — Q u od patet per hoc quod ante
+          <lb ed="#Qb"/>peccatum animalia animalium esu non vivebant;
+          <lb ed="#Qb"/>unde Gen. 1,29: Ecce dedi vobis omnem her<lb ed="#Qb"/>bam
+          etc. Ibi dicit Glossa Bedae1:<quote>Patetquod
+          <lb ed="#Qb"/>ante peccatum hominis terra nihil noxium pro<lb ed="#Qb"/>tulit,
+          non herbam venenatam, non arborem ste<lb ed="#Qb"/>rilem;
+          omnibus enim herba et ligna data sunt,
+          <lb ed="#Qb"/>hominibus et volatilibus et animantibus terrae, in
+          <lb ed="#Qb"/>escam </quote>. Unde patet quod tunc animalia anima<lb ed="#Qb"/>lium
+          esu non vivebant, sed concorditer herbis et
+          <lb ed="#Qb"/>fructibus vescebantur. — <name ref="#Augustine">Augustinus</name> tamen
+          <lb ed="#Qb"/>videtur dicere contrarium, I Contra Manichaeos 2,
+          <lb ed="#Qb"/>dicens: <quote> Hincquivis" admoneri debet non car<lb ed="#Qb"/>naliter
+          haec esse intelligenda, quia herbae virides
+          <lb ed="#Qb"/>et ligna fructifera omni generi bestiarum et om<lb ed="#Qb"/>nibus 
+          volatilibus et omnibus serpentibus, Gen. 3,
+          <lb ed="#Qb"/>dantur in cibum, cum videamus leones et acci<lb ed="#Qb"/>pitres
+          et milvos et aquilas non pasci nisi carni—
+          <lb ed="#Qb"/>bus </quote>. Respondeo: Intellectus <name ref="#Augustine">Augustini</name> re<lb ed="#Qb"/>ferendus
+          est ad statum post peccatum, quia ante
+          <lb ed="#Qb"/>esuc animalium non sustentabantur. — Quod
+          <lb ed="#Qb"/>autem animalia erant mansueta et do<lb ed="#Qb"/>mestica
+          ante peccatum, patet ex Glossa
+          <lb ed="#Qb"/>supra dicta3, quae est: <quote> In testimonium primae
+          <lb ed="#Qb"/>creationis legimus aves sanctis viris servisse et
+          <lb ed="#Qb"/>rictus bestiarum et serpentum venenum cessisse </quote>,
+          <lb ed="#Qb"/>sicut experimento scitur de sancto Cutbertho 4,
+          <lb ed="#Qb"/>ind cuius insulam aves intrantes domesticae et
+          <lb ed="#Qb"/>mansuetae fiunt, exeuntes autem fiunt sylve<lb ed="#Qb"/>stres.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad aliud quod obicitur quod *animalia
+          <lb ed="#Qb"/>non erant homini subiecta, per hoc quod adducta
+          <lb ed="#Qb"/>erant ad Adam per ministerium angelorum ' etc.:
+          <lb ed="#Qb"/>dicendum quod hoc non oportet. Sicut enim po<lb ed="#Qb"/>nit
+    <name ref="#Augustine">Augustinus</name>5, mirabilia, quae fiebant in
+          <lb ed="#Qb"/>Aegypto, utpote in conversione virgae Moysi in
+          <lb ed="#Qb"/>colubrum etin conversione aquae in sanguinem
+          <lb ed="#Qb"/>et huiusmodi, quodam modo erant naturalia 2,
+          <lb ed="#Qb"/>quia in illis, ex quorum conversione fiebant co<lb ed="#Qb"/>lubri
+          et sanguis, scilicet in virga et aqua, semi—
+          <lb ed="#Qb"/>naliter erant coluber et sanguis et tempore pro<lb ed="#Qb"/>lixiore
+          possent ex eisdem fieri operatione natu<lb ed="#Qb"/>rae;
+          sed, quia haec ex illis repente producebantur
+          <lb ed="#Qb"/>in esse ministerio angelorum, quod non posset
+          <lb ed="#Qb"/>natura fieri, huiusmodi productio est mirabilis.
+          <lb ed="#Qb"/>Sicut ergo in illis operibus, quae facta fuerunt
+          <lb ed="#Qb"/>ministerio angelorum, fieri possentf natura in<lb ed="#Qb"/>feriori,
+          licetg non eo modo, id est ita repente,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>similiter potest dici in proposito quod bene pos<lb ed="#Qb"/>set
+          Adam h animalia omnia congregasse, sed ipsa
+          <lb ed="#Qb"/>congregatio non fuisset ita repentina, sicut illa
+          <lb ed="#Qb"/>quae fiebat per ministerium angelicum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad aliud quod obicitur quod (vires na<lb ed="#Qb"/>turales
+          non erant omnino subiectae '- etc.: dicen<lb ed="#Qb"/>dum
+          quod in statu illo natura ita obediebat vo<lb ed="#Qb"/>luntati
+          et voluntas ita fuit concors et conformis
+          <lb ed="#Qb"/>naturae, quod etiam vires naturales non exces<lb ed="#Qb"/>'serunt
+          terminos voluntatis. Praeterea, non est
+          <lb ed="#Qb"/>omnino simile de viribus et huiusmodi animali-'
+          <lb ed="#Qb"/>bus, quia animalia erant quodam modo capacia
+          <lb ed="#Qb"/>disciplinae, ut illa quae habent auditum et me<lb ed="#Qb"/>moriam
+          quamdam et nata sunt moveri ad partes
+          <lb ed="#Qb"/>oppositas: huiusmodi vires non sunt nataei mo<lb ed="#Qb"/>veri
+          nisi ad unam partem.-— Ad illud quod
+          <lb ed="#Qb"/>subiungitur quod ' sive vellet sive nollet *, exer<lb ed="#Qb"/>cerent
+          officia sua secundum instinctum' naturae':
+          <lb ed="#Qb"/>dicendum quod in statu illo voluntas fuit omnino
+          <lb ed="#Qb"/>concors'" naturae. Quia enim natura omnino fuit
+          <lb ed="#Qb"/>ordinata et voluntas similiter, propterea penitus
+          <lb ed="#Qb"/>fuerunt concordes. Supposito autem quod primus
+          <lb ed="#Qb"/>homo sive liberum arbitrium eiusdem aliquid im<lb ed="#Qb"/>peraret
+          vel" viribus naturalibus ipsius hominis
+          <lb ed="#Qb"/>primi vel animalibus quibuscumque quod esset
+          <lb ed="#Qb"/>contra eorum naturam, quia imperium illius minus
+          <lb ed="#Qb"/>esset rationabile, non videtur mihi necesse quod
+          <lb ed="#Qb"/>obedirent imperanti; in aliis autem, quae non es<lb ed="#Qb"/>sent
+          contra, obedirent.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad illud quod obicitur per verbum Hie—
+          <lb ed="#Qb"/>ron ymi, dicendum quod non est intelligendum
+          <lb ed="#Qb"/>ex verbis Hieronymi" quod homo caruisset
+          <lb ed="#Qb"/>dominio animalium nisiP fuisset lapsurus, sed
+          <lb ed="#Qb"/>quod illi primordiali dominio ante peccatum ac<lb ed="#Qb"/>cessit
+          qualis nunc est adminiculatio post pecca<lb ed="#Qb"/>tum.
+          Ex illo. namque dominio primo 4 habet adhuc
+          <lb ed="#Qb"/>homo quod edomat animalia cetera et eis utitur
+          <lb ed="#Qb"/>ad necessarium huius vitae poenalis subsidium,
+          <lb ed="#Qb"/>cuiusmodi usu non indiguisset homo nisi pec<lb ed="#Qb"/>casset.
+          Huiusmodi autem adiutorium praeordi<lb ed="#Qb"/>navit
+          Deus' homini lapso de animalibus futu<lb ed="#Qb"/>rum:
+          sic enim sua sapientia disposuit rerum
+          <lb ed="#Qb"/>ordinem, ut, sive labereturs homo sive perseve<lb ed="#Qb"/>raret
+          absque peccato, omnia ei subiecta forent
+          <lb ed="#Qb"/>et deservirent congruenti ministerio.. Verumta<lb ed="#Qb"/>men,
+          si non peccasset homo, ministrassent ho—
+          <lb ed="#Qb"/>mini leni et obedienti obsequio; postquam autem
+          <lb ed="#Qb"/>peccavit homo, excanduit * creatura in tormentum
+          <pb ed="#Qb" n="783"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>adversus iniustos. Nec tamen in torquendo de<lb ed="#Qb"/>stitit
+          ab obsequendo, quia ea quae nociva di<lb ed="#Qb"/>cuntur,
+          aut poenaliter, ut iustum est, laedunt aut
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>salubriter exterrent aut utiliter probant aut igno<lb ed="#Qb"/>rantes
+          docent, et sic semper aliquem usum uti<lb ed="#Qb"/>lem
+          homini subministrant.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

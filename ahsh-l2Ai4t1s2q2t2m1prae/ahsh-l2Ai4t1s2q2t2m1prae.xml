@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 1, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 1, Praeambulum</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q2t2m1prae">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 1, Praeambulum</head>
+        <p>
+          <lb ed="#Qb"/>Habito tractatu de cognitivis viribus abäintus et extra partis * sensibilis, sequitur
+          <lb ed="#Qb"/>dicere de motivis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ponuntur autem differentiae motivae sensibilis phantasia, sicut dicit Philo<lb ed="#Qb"/>sophus 2, 
+          et aestimativa, concupiscibilis et irascibilis et, secundum A ugusti num 3,
+          <lb ed="#Qb"/>sensualitas
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quidam etiam ponunt quasdam vires affectivas alias sive differentes ab istis,
+          <lb ed="#Qb"/>secundum quas est gaudium et dolor, ira et timor. Sed non oportet istas ponere dif<lb ed="#Qb"/>
+          <lb ed="#Qb"/>ferentes et concupiscibili et irascibili, cum secundum concupiscibilem sint gaudium et
+          <lb ed="#Qb"/>dolor, secundum irascibilem ira et timor.
+        </p>
+        <p>
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name> autem ponit concupiscentiam cum timore, cum loquitur de iis, in
+          <lb ed="#Qb"/>libro De civitate Dei, XIV 5. Dicit enim quod concupiscentia est appetitus eorum quae
+          <lb ed="#Qb"/>volumus et similiter laetitia, metus autem et dolor in dissensiones: <quote> Sed cum consen<lb ed="#Qb"/>timus,
+          appetendo quae volumus, concupiscentia diciturjcum consentimus, iruendof iis
+          <lb ed="#Qb"/>quae volumus, laetitia dicitur; cum dissentimusg ab eo quod accidere nolumus, metus
+          <lb ed="#Qb"/>dicitur; cum autemh dissentimus ab eo quod nobis nolentibus accidit, dolor vel tristitia
+          <lb ed="#Qb"/>dicitur </quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

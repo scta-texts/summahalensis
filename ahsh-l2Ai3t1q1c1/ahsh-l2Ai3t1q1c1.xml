@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 1, Q. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 1, Q. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="306"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t1q1c1">
+        <head>Ia-IIae, Inq. 3, Tract. 1, Q. 1, C. 1</head>
+        <head type="question-title">UTRUM RES CORPORALES DICANTUR CREARI RATIONE MATERIAE INFORMIS.</head>
+        <p>
+                <pb ed="#Qb" n="306"/>
+          <lb ed="#Qb"/>Ad primum sic: 1. A perfecto agente perfectum
+          <lb ed="#Qb"/>A opus et a perfectissimo perfectissimum; sed
+          <lb ed="#Qb"/>materia informis, cum est sine omni forma, est
+          <lb ed="#Qb"/>imperfectissimum; ergo non est perfectum opus
+          <lb ed="#Qb"/>prout huiusmodi; sed creatum" est perfectum
+          <lb ed="#Qb"/>Opus, cum sit opus perfectissimi agentis, scilicet
+          <lb ed="#Qb"/>Dei; ergo materia non est creata sine omni forma.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad idem facit quod intelligentia creata, cum
+          <lb ed="#Qb"/>facit aliquid 17, non producit materiam sine omni
+          <lb ed="#Qb"/>forma, nec natura similiter, sed formam in materia;
+          <lb ed="#Qb"/>et haec sunt inferiora agentia et minoris virtutis;
+          <lb ed="#Qb"/>ergo nec Deus, qui est summum agens, creat
+          <lb ed="#Qb"/>rem corporalem ratione suae materiae informis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, forma aliquo modo habet similitudinem
+          <lb ed="#Qb"/>cum Primo: Deus enim dicitur forma omnium
+          <lb ed="#Qb"/>exemplaris et quodam modo continens, sed nulla<lb ed="#Qb"/>tenus
+          dicitur materia omnium 2; ergo, cum creatio
+          <lb ed="#Qb"/>sit prdprium opus Dei et extendat se ad rem cor<lb ed="#Qb"/>poralem,
+          debet res corporalis dici creata potius
+          <lb ed="#Qb"/>ratione formae quam materiae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Si vero torte dicatur quod creatio dici<lb ed="#Qb"/>tur
+          esse ratione materiae informis habentis in se
+          <lb ed="#Qb"/>formas rerum corporalium, sed per indistinctionem
+          — contra hoc obicitur: contusio contraria est
+          <lb ed="#Qb"/>ordinationi; sed ordinatio attestatur sapientiae 3;
+          <lb ed="#Qb"/>ergo summa ordinatio summae sapientiae; ergo a
+          <lb ed="#Qb"/>summa sapientia non procedunt immediate res
+          <lb ed="#Qb"/>sub confusione; non ergo materia cum * confusione
+          <lb ed="#Qb"/>rerum corporalium procedit a summad sapientia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad idem: Error reputatur in natura quando
+          <lb ed="#Qb"/>non est formarum distinctio, ut si procederet
+          <lb ed="#Qb"/>corpus humanum sine ordinata membrorum'di<lb ed="#Qb"/>stinctione,
+          ut caput esset interius et pedes supe<lb ed="#Qb"/>riuse
+          et ita de aliis, vel non apparerent ibi mem<lb ed="#Qb"/>bra;
+          absit autem ponere errorem in opere divino;
+          <lb ed="#Qb"/>non ergof creata est materia cum formarum con<lb ed="#Qb"/>fusione.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Praeterea, formae quaedam corporales sunt
+          <lb ed="#Qb"/>inter se repugnantes; si autem esset contusio for—'
+          <lb ed="#Qb"/>marum, essent contrariae formae simul, et ita con<lb ed="#Qb"/>tinua
+          pugna; sed pugna, sicut dicit Ioannes
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Damascenus 4, est principium dissolutionis; ergo
+          <lb ed="#Qb"/>ibi esset dissolutio; non ergo sic possent stare.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad contrarium sic argui potest: a. Creatio est
+          <lb ed="#Qb"/>exitus de non-esse in esse, cui immediatus est
+          <lb ed="#Qb"/>exitus de potentia materiali in actum; hoc autem
+          <lb ed="#Qb"/>est "facere' ; sed in operibus sex dierum est factio
+          <lb ed="#Qb"/>sive conditio;.dicitur enim5: Fiat lux, et facta
+          <lb ed="#Qb"/>est lux, et ita de aliis; ergo ante non fuit nisi
+          <lb ed="#Qb"/>creatio; prius ergo creabatur de non-esse in esse
+          <lb ed="#Qb"/>aliquo modo materia, ut sit ordo de non-esse
+          <lb ed="#Qb"/>omnino in posse-esse, et deinde de posse-esse ,
+          <lb ed="#Qb"/>in esse actu, quod est esse per formam deter<lb ed="#Qb"/>minatum<!--g-->.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Primum habet potentiam quantum ad
+          <lb ed="#Qb"/>omne; hoc autem nulli potest communicare, cum
+          <lb ed="#Qb"/>sit eius propriumö; illud ergo in creatura quod
+          <lb ed="#Qb"/>magis assimilatur ei in universalitate" potentiae,
+          <lb ed="#Qb"/>est materia, quae capax est omnium formarum7;
+          <lb ed="#Qb"/>ergo primus exitus a potentia divina videtur esse
+          <lb ed="#Qb"/>conditio materiaei ut capacis omnium formarum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, Deus habet in se ideas et rationes om<lb ed="#Qb"/>nium
+          rerum, sicut accipitur ex libro 83 Quaestio<lb ed="#Qb"/>num";
+          rationes autem istae formae dicuntur;
+          <lb ed="#Qb"/>nihil autem in creaturis potest assimilari quo<lb ed="#Qb"/>quo
+          modo nisi quod habet in se continentiam om<lb ed="#Qb"/>nium
+          formarum corporalium in genere' ; ergo,
+          <lb ed="#Qb"/>cum hoc sit materia sub indistinctione forma<lb ed="#Qb"/>rum,
+          videtur convenienter huiusmodi iieri creatio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Praeterea, distinctio non videtur esse nisi
+          <lb ed="#Qb"/>eius quod prius fuit confusum; si ergo assignatur
+          <lb ed="#Qb"/>ab expositoribus opus distinctionis formarum,
+          <lb ed="#Qb"/>praecessit ergo opus confusionis formarum in
+          <lb ed="#Qb"/>materia; hoc autem non est nisi in opere crea<lb ed="#Qb"/>tionis;
+          ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod respondendumm secundum
+          <lb ed="#Qb"/>diversas sententias Sanctorum 9. Secundum enim
+          <lb ed="#Qb"/>sententiam <name ref="#Augustine">Augustini</name>10 videtur 'quod creatio
+          <lb ed="#Qb"/>erat materiae cum forma perfic'lienti eam, ita
+          <lb ed="#Qb"/>quod singulae res creatae essent in propriis ma<lb ed="#Qb"/>teriebus
+          et formis. Secundum autem sententiam
+          <lb ed="#Qb"/>Gregorii et aliorum videtur quod creata- sit
+          <pb ed="#Qb" n="307"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>in substantia materiae; unde dicit Gregorius 1:
+          <lb ed="#Qb"/>
+          <quote>In substantia simul facta sunt quae dea eis
+          <lb ed="#Qb"/>habent originem, sed non in specie, quae sequen<lb ed="#Qb"/>tibus
+          diebus ostensa est: sol et luna de caelo,
+          <lb ed="#Qb"/>virgulta et huiusmodi de terra </quote>. <name ref="#Augustine">Augustinus</name>
+          <lb ed="#Qb"/>etiam, in libro De Symbolo 2, videtur hoc di<lb ed="#Qb"/>cere:
+          .. Ordinatissimo Dei munere factum est utb
+          <lb ed="#Qb"/>primo capacitas formarum fieret, postea forma<lb ed="#Qb"/>rentur
+          quaecumque formata sunt. Item, Augu<lb ed="#Qb"/>stinu's,
+          in XII Confessionum3, uno modo sic
+          <lb ed="#Qb"/>exponit 'In principio creavit Deus caelum et
+          <lb ed="#Qb"/>terram ' 4: <quote> Deus 0 Verbo sibi coaeterno fecit '1
+          <lb ed="#Qb"/>informem materiam creaturae corporalis, ubi con<lb ed="#Qb"/>tusum
+          erat caelum et terra, quae nunc iam di<lb ed="#Qb"/>stincta
+          et formata in huius mundie mole sen<lb ed="#Qb"/>timus
+    </quote>, Huic expositioni concordant quaedam
+          <lb ed="#Qb"/>Glossae5 super principium Geneseos; item,
+          <lb ed="#Qb"/>super illud Psalmis: Ipse mandavit et creata
+          <lb ed="#Qb"/>sunt, Glossa7 dicit: <quote>Informem materiam de
+          <lb ed="#Qb"/>nihilo </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: a. Si ergo teneatur prima sententia,
+          <lb ed="#Qb"/>respondendum estf ad obiecta, dicendo quod,
+          <lb ed="#Qb"/>licet intelligi posset exitus de non-esse omnino in
+          <lb ed="#Qb"/>posse—esse!! et post de posse-[esse] in esse actu
+          <lb ed="#Qb"/>per formam, tamen simul utrumque factum est,
+          <lb ed="#Qb"/>ut simul crearetur forma cum materia, et hoc ut
+          <lb ed="#Qb"/>unita, ut opus Creatoris perfectum dicatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Ad secundum dicendum" quod, licet
+          <lb ed="#Qb"/>materia, in quantum est capax formarum 8, quam<lb ed="#Qb"/>dam
+          habeat similitudinem, sed multum remotam,
+          <lb ed="#Qb"/>respectu divinae potentiae 9, non tamen oportuit
+          <lb ed="#Qb"/>quod sic crearetur informis, sed magis convenie<lb ed="#Qb"/>bat
+          quod'" esset capax in actu quam tantum in
+          <lb ed="#Qb"/>potentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Ad aliud dicendumk quod aliter est de
+          <lb ed="#Qb"/>formis in materia existentibus et de ideis quae
+          <lb ed="#Qb"/>sunt in Deo. In Deo enim sunt, ideae nec sunt
+          <lb ed="#Qb"/>aliud quam ipse Deus, in creatura vero sunt for<lb ed="#Qb"/>mae
+          et sunt aliud quam ipsa 10. Propterea, non di<lb ed="#Qb"/>stingui,
+          id 'est confundi formas, non convenit
+          <lb ed="#Qb"/>summae sapientiae disponenti, et ideo non in hoc
+          <lb ed="#Qb"/>habent' similitudinem respectu summae sapien<lb ed="#Qb"/>tiae,
+          in qua nulla est distinctio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Ad ultimum dicendum quod opus distinc—
+          <lb ed="#Qb"/>tionis potest dupliciter intelligi: uno modo ut
+          <lb ed="#Qb"/>prius esset'" formarum confusio in materia et
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>postmodum distinguerentur, et hoc non est se<lb ed="#Qb"/>cundum"
+          hanc sententiam; alio modo ut distinctio
+          <lb ed="#Qb"/>referatur ad ordinationemb uniuscuiusque in suo
+          <lb ed="#Qb"/>loco; et licet haec opera, conditio sive creatio et
+          <lb ed="#Qb"/>distinctio, sint diversa, nihilominus secundum
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinum</name> simul erant. Unde, cum res corpo<lb ed="#Qb"/>rales
+          erant creatae vel conditae, simul erantc in
+          <lb ed="#Qb"/>propriis locis distinctae,/licet unum naturaliter
+          <lb ed="#Qb"/>praeintelligatur alteri; et Scriptura, quae simul
+          <lb ed="#Qb"/>facta erant, non simuld potuit dicere eti voluit
+          <lb ed="#Qb"/>etiam ordinem naturae designare.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Secundum Hieronymum" autem et alios
+          <lb ed="#Qb"/>expositores, qui accipiunt diemf usitatiori modo
+          <lb ed="#Qb"/>sicut contingitg et quia de creatione fecit men<lb ed="#Qb"/>tionem
+          quasi ante omnem diem, videtur dici quod
+          <lb ed="#Qb"/>creatio dicitur esse ratione materiae informis 'l,
+          <lb ed="#Qb"/>quae tamen aliquo modo haberet in se formas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad primo autem obiectum in
+          <lb ed="#Qb"/>contrarium sic est respondendum quod ai per<lb ed="#Qb"/>fectissimo
+          agente processit perfectum opus ut in
+          <lb ed="#Qb"/>genere illo; non enim sistit ibi opus divinum,
+          <lb ed="#Qb"/>sed est ulterius ordinatum ad opus ulterius, quo
+          <lb ed="#Qb"/>dicebatur: Fiat lux etc. Si ergo requiritur omni—
+          <lb ed="#Qb"/>moda perfectio, requirenda est in ultimo operek
+          <lb ed="#Qb"/>et non in initio operis: sicut si artifex facit do<lb ed="#Qb"/>mum, 
+          non. est requirenda perfectio in initio sui
+          <lb ed="#Qb"/>operis, sed cum iam opus est consummatum.
+          <lb ed="#Qb"/>Creatio tuit Opus respiciens initia operum divi<lb ed="#Qb"/>norum,
+          — Si vero obiciatur quod aeque ta<lb ed="#Qb"/>cile
+          est Deo- totum opus in consummatione fecisse
+          <lb ed="#Qb"/>sicut primo sub quadam intormitate et postea
+          <lb ed="#Qb"/>sub consummatione-z': artifex enim si statim'"
+          <lb ed="#Qb"/>posset unico actu consummare domum, non primo
+          <lb ed="#Qb"/>levigaret ligna et lapides poliret, sed statim " do<lb ed="#Qb"/>mum
+          .compleret: dicendum quod Domino, est
+          <lb ed="#Qb"/>aeque facile, cui dicere facere 0 est vel, quod plus
+          <lb ed="#Qb"/>est, velle est facere 12, secundum quod dicitur in
+          <lb ed="#Qb"/>Psalmo 13: Omnia quaecumque uoluit Dominus fecit.
+          <lb ed="#Qb"/>Nihilominus voluit in isto progressu ordinem re—l
+          <lb ed="#Qb"/>rum naturalem ostendere, ut primo sint principia
+          <lb ed="#Qb"/>condita, deinde ea quae aliquo modo ab iisIJ
+          <lb ed="#Qb"/>ducunt originem, sicut dicit Gregorius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum4 dicendum quod in hoc
+          <lb ed="#Qb"/>ostenditur virtus agentis primi excellere virtutem
+          <lb ed="#Qb"/>agentis secundum naturam vel agentis creati
+          <pb ed="#Qb" n="308"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>secundum voluntatem, quia potest utroque modo
+          <lb ed="#Qb"/>res condere, et subito et successive, agens autem
+          <lb ed="#Qb"/>creatum nonnisi " successive. Et si hoc ** perfectio
+          <lb ed="#Qb"/>est quod exit ab agente creato, multo magis est
+          <lb ed="#Qb"/>perfectio quod a Deo agente procedit, quod ad
+          <lb ed="#Qb"/>suum finem perduciturc: non enim agens crea<lb ed="#Qb"/>tum
+          ab initio operis sui producit rem perfectam,
+          <lb ed="#Qb"/>sed cum est opus consummatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum quod, licet forma
+          <lb ed="#Qb"/>habeat similitudinem cum Deo, qui torma dicitur',
+          <lb ed="#Qb"/>nihilominus et materia summae potentiae habet
+          <lb ed="#Qb"/>aliquam similitudinem, et ita voluit Dominus, ut
+          <lb ed="#Qb"/>utraque similitudo ostenderetur, et res creare'i
+          <lb ed="#Qb"/>in materia et res creare: in propria forma sive
+          <lb ed="#Qb"/>specie distincta.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad id vero quod obicitur de confusione
+          <lb ed="#Qb"/>formarum, respondeof quod est quaedam con<lb ed="#Qb"/>fusio
+          opposita ordinationig, cum formae errore
+          <lb ed="#Qb"/>agentis imprimuntur in materia opere iam com<lb ed="#Qb"/>pleto;
+          sic autem non est hic, quia sic repugnat
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>summae sapientiae. Est autem alia confusio, cum
+          <lb ed="#Qb"/>nondum sunt res unaquaequei in suo debito
+          <lb ed="#Qb"/>loco, quik debetur formae distinctae: et secun<lb ed="#Qb"/>dum
+          hoc in initio' operis non repugnat summae
+          <lb ed="#Qb"/>sapientiae. Est etiam'" confusio quaedam latebra
+          <lb ed="#Qb"/>formarum in suis principiis: et secundum hoc
+          * esse formas in suis principiis originaliter' non
+          <lb ed="#Qb"/>repugnat sapientiae, immo ostendit sapientiam;
+          <lb ed="#Qb"/>quod enim formae elementatorum" sint in ele<lb ed="#Qb"/>mentis
+          originaliter, non repugnat sapientiae, sed
+          <lb ed="#Qb"/>ostendit sapientiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad aliud " dicendum quod iste modus es<lb ed="#Qb"/>sendi
+          formarum non est per modum monstri,
+          <lb ed="#Qb"/>quod, cum factum est, vel habet diminutionem
+          <lb ed="#Qb"/>in partibus vel inordinationem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad aliud dicendum quod iste modus es<lb ed="#Qb"/>sendi
+          formas simul non facit continuam pugnam:
+          <lb ed="#Qb"/>continua enim. pugna dicitur esse, cum formae
+          <lb ed="#Qb"/>sint in sua virtute ut possint agere et appropin<lb ed="#Qb"/>quant
+          sibi in situ.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="336"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q2t2c1">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 2, C. 1</head>
+        <head type="question-title">AN ET QUID SINT AQUAE SUPERIORES.</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic: I. 1. <name ref="#Augustine">Augustinus</name>, Super Ge<lb ed="#Qb"/>Anesim,
+          II, inb Glossa4: <quote>Exigit- aquarum
+          <lb ed="#Qb"/>pondus ut super terram fluant vel in aerem va<lb ed="#Qb"/>poraliter
+          ferantur. Necc quis dicat omnipotentia
+          <lb ed="#Qb"/>Dei hoc fieri. Quo modo enim Deus naturas fecerit
+          <lb ed="#Qb"/>quaeritur, non quidd ex eis ad miraculum po<lb ed="#Qb"/>tentia
+          Dei operetur </quote>. Omnes ergo aquae vel fe<lb ed="#Qb"/>runtur
+          super terram vel feruntur vaporaliter in
+          <lb ed="#Qb"/>aerem ; ergo nullae aquae sunt super caelum
+          stellatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Si dicatur quod de natura aquarum ibi
+          <lb ed="#Qb"/>non sunt, sed de omnipotentia Deie — c o ntra hoc
+          <lb ed="#Qb"/>est secunda pars auctoritatis 5. Dicit enim: <quote> Quo .
+          <lb ed="#Qb"/>modo Deus naturas fecerit quaeritur, non quid exf
+          <lb ed="#Qb"/>eis ad miraculum fecerit potentia Dei </quote>, quasi di<lb ed="#Qb"/>cat:
+          primo faciendo res, non fecit eas Deus mi<lb ed="#Qb"/>raculose,
+          sed naturaliter, et post, illis naturaliter
+          <lb ed="#Qb"/>factis, fecit aliqua miraculosa praeter solitum cur<lb ed="#Qb"/>sum
+          naturae faciendo. Quando ergo quaerimus
+          <lb ed="#Qb"/>opera sex dierum, quaerimus ordinem rerum natu<lb ed="#Qb"/>ralem;
+          non ergo debet dici quod ibi suntä omnipo<lb ed="#Qb"/>tentia
+          Dei, sed secundum sapientiam ordinantem
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>levia sursum, gravia deorsum; ergo hoc caelum
+          <lb ed="#Qb"/>crystallinum non erit ex aquis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Si dicatur quod illae aquae non habent
+          <lb ed="#Qb"/>naturam ponderositatis — contra, BasiliusG:
+    <quote> Aquas Deus disposuit propter solis" et aetheris
+          <lb ed="#Qb"/>calidissimum fervorem </quote>. <quote> Post firmamentum enim
+          <lb ed="#Qb"/>aether expansus est, et nisi superiacereti aqua,
+          <lb ed="#Qb"/>inflammatumk esset a calore firmamentum: 501
+          <lb ed="#Qb"/>enim et luna et stellae in firmamento sunt 7 </quote>. Vi<lb ed="#Qb"/>detur
+          ergo quod aquae sint ibi graves.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Praeterea, <quote> crystallus est aqua congelata
+          <lb ed="#Qb"/>inl summos</quote>; sed non potest habere congela<lb ed="#Qb"/>tionem
+          nisi humidum, et non quodlibet humidum,
+          <lb ed="#Qb"/>sicut aereum vel '" oleum; ergo oportet quod sit
+          <lb ed="#Qb"/>aquosum; relinquitur ergo quod sit ibi humidum
+          <lb ed="#Qb"/>aquosum, et ita natura ponderosum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5.'Si dicatur quod non accipiuntur ibi aquae
+          <lb ed="#Qb"/>sicut hic infra, sed sicut ibi9: Spiritus Domini
+          <lb ed="#Qb"/>ferebatur super aquas - contra: divisio fuit
+          <lb ed="#Qb"/>aquarum tertia die 10, sed nonnisi illarum de quibus
+          <lb ed="#Qb"/>dicitur: Spiritus Domini ferebatur super aquas;
+          <lb ed="#Qb"/>sed illa aqua dicitur quaedam massa confusa,
+          <pb ed="#Qb" n="337"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>non tantum ex humidis, sed ex humido et sicco, 
+          <lb ed="#Qb"/>frigido et calido, luce et tenebris, et itaa aqua
+          <lb ed="#Qb"/>importat ibi confusionem qualitatum et rei defe<lb ed="#Qb"/>rentisb
+          easï; dividere ergo aquas iuit dividere
+          <lb ed="#Qb"/>qualitates cum materia continente qualitates, ita
+          <lb ed="#Qb"/>quod aliqua materia cum aliquibus qualitatibus
+          <lb ed="#Qb"/>sit superius, alia inferius. Possumus ergo dicere
+          <lb ed="#Qb"/>quod 'dividere aquas ab aquis* est quod qua<lb ed="#Qb"/>litas
+          lucis cum materia iuit in parte superiori.
+          <lb ed="#Qb"/>Sed " hoc nullam habet dubitationem; Sancti vero
+          <lb ed="#Qb"/>circa hocd dubitaverunt; ergo voluit plus Deuse
+          <lb ed="#Qb"/>dicere per illud scilicetzz Dividatf aquas ab
+          <lb ed="#Qb"/>aquis quam 'dividaturg natura lucis cum ma<lb ed="#Qb"/>teria',
+          id est ignis'l vel luminosi, ab aquis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. ltemi, quaeritur utrum aquae illae quae
+          <lb ed="#Qb"/>suntk super firmamentum habeant aliquam na<lb ed="#Qb"/>turam'
+          communem cum aquis inferioribus et quae
+          <lb ed="#Qb"/>sit illa natura communis3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod volunt quidam dicere quod habent
+          <lb ed="#Qb"/>communem frigidum et humidum 4, per hanc ratio—
+          <lb ed="#Qb"/>nem: caelum continet ignem, ignis aerem et aer
+          <lb ed="#Qb"/>aquam; ergo aqua similiter debuit circumdare
+          <lb ed="#Qb"/>terram ex omni parte; sed non potuit propter
+          <lb ed="#Qb"/>animantia quae sunt super terram; ergo necesse
+          <lb ed="#Qb"/>fuit illam" elevari alibi, ubi posset circumdare
+          <lb ed="#Qb"/>totam terram; ergo, cum elevatae sint super
+          <lb ed="#Qb"/>firmamentum, ibi habebunt naturam frigidi et
+          <lb ed="#Qb"/>humidi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Alii volunt ostendere quod tantum sunt ibi
+          <lb ed="#Qb"/>secundum naturam humiditatis5: sic in aqua est
+          <lb ed="#Qb"/>frigiditas et humiditas; sed humiditas est fluxi<lb ed="#Qb"/>bilis
+          et continuativa, quia terra, quae sicca est 0 6,
+          <lb ed="#Qb"/>non haberet continuitatem sine aqua. — Et
+          <lb ed="#Qb"/>quod humidum sit continuativum sive
+          <lb ed="#Qb"/>coniunctivum, dicitur in medicina. Dicitur enim
+          <lb ed="#Qb"/>quod humiditaS'est glutinum membrorum. Con<lb ed="#Qb"/>stat
+          autem quod secundum illam? proprietatem,
+          <lb ed="#Qb"/>secundum quam iluxibilis est 4, non sunt ibi
+          <lb ed="#Qb"/>aquae, quia sic fluerent deorsum; ergo remanent
+          <lb ed="#Qb"/>ibi secundum naturam continuationis. — Item,
+          <lb ed="#Qb"/>quod secundum naturam continuatio<lb ed="#Qb"/>nis
+          sint ibi,. probatio: Quia hic' infra nobilior
+          <lb ed="#Qb"/>natura in humido est continuatio 3 vel coniunctio;
+          <lb ed="#Qb"/>sed, cum ibi elevetur super alienam naturam,
+          <lb ed="#Qb"/>non est nisi secundum proprietatem eius nobi<lb ed="#Qb"/>liorem;
+          relinquitur ergo quod humidum sit ibi
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>secundum quocit coniunctivum. Sed quorum est
+          <lb ed="#Qb"/>coniunctio? Constat. enim quod ibi est natura
+          <lb ed="#Qb"/>supercaelestium et inferiorum, et oportuit quod
+          <lb ed="#Qb"/>coniungerentur; unde necesse fuit ibi esse se<lb ed="#Qb"/>cundum
+          hanc proprietatem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Alii dicunt quod sunt ibi secundum naturam
+          <lb ed="#Qb"/>perspicui. Est autem perspicuum illud quod habet
+          <lb ed="#Qb"/>aliquam dispositionem ad accipiendum lucem per
+          <lb ed="#Qb"/>totum "'. Sed istae qualitates ordinatae sunt, quia
+          <lb ed="#Qb"/>nihil est inordinatum a summa sapientias; una
+          <lb ed="#Qb"/>ergo qualitas esta alia nobilior; sed secundum
+          <lb ed="#Qb"/>nobilissimam qualitatem ibi collocanturb. —- Sed
+          <lb ed="#Qb"/>perspicuum est nobilissima. Probatio:
+          <lb ed="#Qb"/>Aqua enim cum terra et aere etc caelo stellato et
+          <lb ed="#Qb"/>igneo habet convenientiam; sed caelum stellatum
+          <lb ed="#Qb"/>et igneum nobiliore. sunt terra et aere; ergo natura
+          <lb ed="#Qb"/>illa, secundum quam convenit cum caelo stellato,
+          <lb ed="#Qb"/>nobilior est quam illae secundum quas convenit
+          <lb ed="#Qb"/>cum aere et terra; sed cum terra convenit per
+          <lb ed="#Qb"/>naturam frigidi, cum aere per naturam humidi,
+          <lb ed="#Qb"/>cum caelo stellato per naturam perspicui; relin<lb ed="#Qb"/>quitur
+          ergo quod perspicuum erit nobilior forma
+          <lb ed="#Qb"/>inter formas aquae; ergo si aquae debeant esse
+          <lb ed="#Qb"/>superius et convenit eas esse ibi secundum na<lb ed="#Qb"/>turam
+          earum'-I nobiliorem, per naturam perspicui
+          <lb ed="#Qb"/>erunt ibi. — Ad idem: Perspicuum non est pura
+          <lb ed="#Qb"/>qualitas, quoniam admiscetur cum qualitatibus
+          <lb ed="#Qb"/>habentibus contrarium, sicut humido, gravi et
+          <lb ed="#Qb"/>sicco, calido; ergo alicubi est pura qualitas, quia
+          <lb ed="#Qb"/>ex ordinatione summae sapientiae est *, si aliquid
+          <lb ed="#Qb"/>impurum sit alicubi, quod illud idem sit in sua
+          <lb ed="#Qb"/>puritate alibi; sed in omni corpore, interiori
+          <lb ed="#Qb"/>aqueo caelo, est haec qualitas impura: in aqua
+          <lb ed="#Qb"/>enim cum frigido et humido, in aere cum humido,
+          <lb ed="#Qb"/>in igne cum caliditate, et iterum in caelo stel<lb ed="#Qb"/>lato,
+          quia ibi non est uniforme perspicuum; ergo
+          <lb ed="#Qb"/>locus huius quod dico ' perspicuum 'f, secundum
+          <lb ed="#Qb"/>quod pura natura est, erit supra caelum 'stella<lb ed="#Qb"/>tum
+          et infra empyreum E. In empyreo enim esse
+          <lb ed="#Qb"/>non potest, quia empyreum est dativum luminis,
+          <lb ed="#Qb"/>illud autem corpus, in quo est perspicuum pu<lb ed="#Qb"/>rum,
+          est" receptivum luminis; relinquitur ergo
+          <lb ed="#Qb"/>quod in caelo crystallinoi sit perspicuum secun<lb ed="#Qb"/>dum
+          suam puritatem; ergo aquae secundum
+          <lb ed="#Qb"/>hanc naturam, scilicet perspicuum, erunt ibi. —
+          <lb ed="#Qb"/>Item, II Petri ultimo, 10: Elementa calore sol<lb ed="#Qb"/>ventur,
+          et Glossa9 ibi dicit quod duo elementa,
+          <pb ed="#Qb" n="338"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>scilicet aqua et ignis, absumentur 4, caelum au<lb ed="#Qb"/>tem
+          et terra in melius commutabuntur. — Pro<lb ed="#Qb"/>batio
+          autem quod impossibile est quod
+          <lb ed="#Qb"/>caelum crystallinum habeat aquas vel
+          <lb ed="#Qb"/>cum ponderositate vel irigiditate vel
+          <lb ed="#Qb"/>humi ditate: Quia ille magnus ignis non
+          <lb ed="#Qb"/>ascendetb ultra quam ascendit aqua diluvii ;
+          <lb ed="#Qb"/>sed aqua diluvii non ascendit ultra caelum ae:<lb ed="#Qb"/>reum;
+          ergo neque ille ignis; ergo ille ignisc ma<lb ed="#Qb"/>gnus
+          nond poterit absumere illas qualitates si
+          <lb ed="#Qb"/>ponantur in caelo crystallino, scilicet gravitatem,
+          <lb ed="#Qb"/>irigiditatem *, humiditatem; sed talis erit renova<lb ed="#Qb"/>tio
+          duorum elementorum quae manebunt, quod
+          <lb ed="#Qb"/>omnes qualitates contrarietatem habentes cedent
+          <lb ed="#Qb"/>in poenam damnandorum; si ergo essent in caelo
+          <lb ed="#Qb"/>crystallinof huiusmodi qualitates, cederent in poe<lb ed="#Qb"/>nam
+          damnandorum; sed hoc non erit per magnum
+          <lb ed="#Qb"/>ignem, quia non poterit attingere, neque per na—
+          <lb ed="#Qb"/>turam suam, quia quod in aliquo toto est per
+          <lb ed="#Qb"/>naturam suam non recedit ab eo. — Si dica<lb ed="#Qb"/>tur
+          quod dispositio divina separabit - con<lb ed="#Qb"/>tra:
+          Ipsa non facit hoc in caelo stellato, quod
+          <lb ed="#Qb"/>interius est, ut aliqua pars cedat in locum dam<lb ed="#Qb"/>nandorum;
+          ergo multo fortius in caelo superiori
+          <lb ed="#Qb"/>non faciet divisionem. Restat ergo quod, si Sunte
+          <lb ed="#Qb"/>ibi aquae secundum has qualitates, frigidum 'l,
+          <lb ed="#Qb"/>humidum, ponderosum'i, quod hoc non erit con<lb ed="#Qb"/>veniens
+          loco glorificandorum; ergo sic non sunt
+          <lb ed="#Qb"/>ibi. — Item, <name ref="#Augustine">Augustinus</name>, XIII Confessionum 1:
+    <quote> Sunt aliae aquae immortales, a terrena corrup<lb ed="#Qb"/>tione
+          separatae</quote>. Ergo aquae illae sunt sepa<lb ed="#Qb"/>ratae
+          a qualitatibus corruptibilibus; sed hae sunt
+          <lb ed="#Qb"/>qualitates habentes contrarietatem, et ita videtur
+          <lb ed="#Qb"/>quod illae aquae secundum hanc proprietatem,
+          <lb ed="#Qb"/>quae est perspicuum, sint'f ibi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: Opinio circa hoc est; Sancti enim
+          <lb ed="#Qb"/>nihil certum definierunt. Unde opinando concedo
+          <lb ed="#Qb"/>conclusionem quod caelum aqueum vel' crystal—
+          <lb ed="#Qb"/>linum sit ex luce sicut ex complemento sui et
+          <lb ed="#Qb"/>perspicuitatem tamquam ex dispositione materiali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1-2. Ad hoc ergo quod dicit
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>: <quote>Exigit aquarum pondus</quote> etc.,
+          <lb ed="#Qb"/>dicendum quod hoc verum est, quando aquae sunt
+          <lb ed="#Qb"/>habentes huiusmodi proprietates, ponderositatem,
+          <lb ed="#Qb"/>humiditatem et frigiditatem, sed has non habent
+          <lb ed="#Qb"/>ibi, sicut probatum est 2. — Si autem obicitur ex
+          <lb ed="#Qb"/>hoc quod dicit Augustinus, in libro De civi<lb ed="#Qb"/>tate 
+          Dei 3, quod sicut humidum est in cerebro et
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>manet ibi, cum tamen sit superior pars corporis,
+          <lb ed="#Qb"/>ita humidum nihil prohibet esse ibi: dico quod
+          <lb ed="#Qb"/>non est simile. Aliter enim' est de corpore nostro
+          <lb ed="#Qb"/>et" aliter de corpore lsuperiori: nostrum enim
+          <lb ed="#Qb"/>corpus commixtum est ex quatuor qualitatibus;
+          <lb ed="#Qb"/>unde non ordinantur membra nostra secundum
+          <lb ed="#Qb"/>ordinem qualitatum, sed secundum relationem ad
+          <lb ed="#Qb"/>animam, quae. diversimode in diversis membris
+          <lb ed="#Qb"/>operatur. Hoc modob non repugnat quod humi<lb ed="#Qb"/>dum
+          sit in cerebro, quia anima operatur in ce<lb ed="#Qb"/>rebro
+          operatione animali 4, quod 0 convenit in hu<lb ed="#Qb"/>mido
+          fieri, in corde autem spirituali operatione,
+          <lb ed="#Qb"/>in d inferiori parte naturali operatione; sed secun<lb ed="#Qb"/>dum
+          has diversas operationes necesse este ha<lb ed="#Qb"/>bere
+          differentes vires ministrantes operationibusf
+          <lb ed="#Qb"/>iis diversis. Receptivum autem formarum est hu<lb ed="#Qb"/>midum:
+          unde, cum impressiones sensibiles fiant
+          <lb ed="#Qb"/>in cerebro, non est mirum ibi esse humidum;
+          <lb ed="#Qb"/>calidum vero in corde propter operationes Spiri<lb ed="#Qb"/>tuales;
+          per calidum enim maxime est operatio
+          <lb ed="#Qb"/>spiritus: spiritus enim medium est inter corpus
+          <lb ed="#Qb"/>et animam 5. In universo vero aliter est, quia cor<lb ed="#Qb"/>pora
+          separata sunt et non sunt commixta: unde
+          <lb ed="#Qb"/>secundum qualitatum mobilitates ordinantur. Unde
+          <lb ed="#Qb"/>illud verbum non dicit asserendo Au g u stin u se.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad hoc quod obicitur quod 'crystallus est
+          <lb ed="#Qb"/>congelatio humidi': dicendum quod caelum illud
+          <lb ed="#Qb"/>non dicitur crystallinum secundum omnem pro<lb ed="#Qb"/>prietatem
+          'I crystalli, sed secundum proprietatem
+          <lb ed="#Qb"/>hanci quae est perspicuum; quando enim aqua
+          <lb ed="#Qb"/>congelata est, tota est perspicua, ideo ad desi—
+          <lb ed="#Qb"/>gnandum quod remansit ibi aqua secundum na<lb ed="#Qb"/>turam
+          perspicuitatis, dicitur crystallinum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad hoc quod dicit Basilius quod "aquas
+          <lb ed="#Qb"/>Deus disposuit propter solis/' terventissimum ca<lb ed="#Qb"/>lorem'
+          etc.: dico quod Saturnus est stella' fri<lb ed="#Qb"/>gida
+          5, sicut ibi contingit dicere frigidum, et hoc
+          <lb ed="#Qb"/>non est nisi aequivoce. Notandum autem'" quod
+          <lb ed="#Qb"/>calidum quoddam est salvativum, ut calidum quod
+          <lb ed="#Qb"/>est in sole, et est quoddam calidum" destruc<lb ed="#Qb"/>tivum,
+          sicut" quando fit coadunatio radiorum,- et
+          <lb ed="#Qb"/>accedit ad naturam ignis, sicut est? in speculo
+          <lb ed="#Qb"/>concavo, ubi 0, si fiat coadunatio radiorum, potest
+          <lb ed="#Qb"/>incendi stupa ex reflexione radiorum. Unde dico
+          <lb ed="#Qb"/>quod calor solis non est consumptivus, sed ge<lb ed="#Qb"/>nerativus 
+          —— unde generantur ranae ex calore
+          <lb ed="#Qb"/>caelesti in , vere — sed .ratione radiorum, qui
+          <lb ed="#Qb"/>sunt ex reflexione, est consumptivus. Unde
+          <pb ed="#Qb" n="339"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>aethere inferiori illa auctoritas, ut" firmamentum
+          <lb ed="#Qb"/>dicatur illud interstitiumb quod est inter vapores
+          <lb ed="#Qb"/>qui sunt in aere et aquas inferiores, et illi va<lb ed="#Qb"/>pores 
+          sunt medii inter nos et solis fervorem
+          <lb ed="#Qb"/>quem temperant aliquando.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

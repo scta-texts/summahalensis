@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 2, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="303"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t3m2c5">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 2, C. 5</head>
+        <head type="question-title">QUID SIT BONOS CHRISTIANOS POSSE FACERE MIRACULA PER PUBLICAM IUSTITIAM.</head>
+        <p>
+          <lb ed="#Qb"/>Quaeritur postea de illo verbo quod dicit Au<lb ed="#Qb"/>gustinus
+          3 quod <quote> boni christiani faciunt rni<lb ed="#Qb"/>racula
+          per publicam iustitiam</quote>, quid appelleturl
+          <lb ed="#Qb"/>ibi <quote>iustitia publica </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Aut enim quid creatum. aut 'quid increatum.'
+          <lb ed="#Qb"/>Si autem purum increatum et nihil ex parte crea<lb ed="#Qb"/>turae,
+          tunc quaeritur quare non possunt similiter
+          <lb ed="#Qb"/>mali christiani facere miracula per publicam iu<lb ed="#Qb"/>stitiam
+          sicut et boni. Nec potest dici quod hoc
+          <lb ed="#Qb"/>est quia isti habent fidem formatam, illi vero
+          <lb ed="#Qb"/>non: iam enim tu'" tangis aliquid creatum, et
+          <lb ed="#Qb"/>quantum ad hoc non dicebas tu quod boni fa<lb ed="#Qb"/>cerent
+          miracula. Si autem dicatur quod ista pu<lb ed="#Qb"/>blica
+          iustitia sit'[ quid creatum, tunc quaeritur
+          <lb ed="#Qb"/>quid sit illud. Si dicatur quod haec" sit fides
+          <lb ed="#Qb"/>formata, et hoc videtur accipi ex eo quod di<lb ed="#Qb"/>citur
+          ad Hebr. 11, omnia illa mirabilia sive mi<lb ed="#Qb"/>racula
+          Veteris Legis fide dicuntur facta.
+          <lb ed="#Qb"/>Contra: a. Ostenditur auctoritate <name ref="#Augustine">Augustini</name>
+          <lb ed="#Qb"/>quod hoc non sit aliquid creatum. Dicit enim, in
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>libro 83 Quaestionum, quaest. 804: <quote>' Fit ut sancti
+          <lb ed="#Qb"/>Dei servi, quando eos hoc donum habere utile
+          <lb ed="#Qb"/>est </quote>, et loquitur de dono faciendi miracula, <quote> se<lb ed="#Qb"/>cundum
+          publicamp et quodam modo imperialem
+          legem?, hoc est summi Dei potestatem, imperent
+          <lb ed="#Qb"/>infimis? potestatibus ad" quaedam visibilia fa<lb ed="#Qb"/>cienda
+          miracula: in illis enim ipse Deus imperat,
+          <lb ed="#Qb"/>cuius templum sunt </quote>. Ex qua auctoritate patet
+          <lb ed="#Qb"/>quod istud quo miracula fiunt, sives illa publica
+          <lb ed="#Qb"/>iustitia, est quiddam divinum et ita increatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, ipse dicit5 quod <quote>boni christiani
+          <lb ed="#Qb"/>faciunt per publicam iustitiam, mali per signa pu<lb ed="#Qb"/>blicae
+          iustitiae</quote>; sed illa signa, pert quae mali
+          <lb ed="#Qb"/>christiani faciunt miracula, sunt invocationes no<lb ed="#Qb"/>minis
+          divini'il et huiusmodi, sicut vult Augu<lb ed="#Qb"/>stinus;
+          sed haec non sunt signa nisi eius quod
+          <lb ed="#Qb"/>divinum est; ergo publica iustitia non fuit nisi
+          <lb ed="#Qb"/>quid divinum" et ita increatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Solutio 6: Dicimus quod est quaedam privata
+          <lb ed="#Qb"/>potestas sive particularis, quae confertur unicui<lb ed="#Qb"/>que
+          creaturae in creatione sua secundum gradum
+          <pb ed="#Qb" n="304"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>suum, secundum quod dicimus quod" unus an<lb ed="#Qb"/>gelus
+          plus potest quam alius, quia a creatione
+          <lb ed="#Qb"/>sua maiori potestate praeditus estb a Deo, et an<lb ed="#Qb"/>gelusc
+          in. genere plus quam homo et homo plus
+          <lb ed="#Qb"/>quam brutum et brut.um plus quam vegetabile
+          <lb ed="#Qb"/>et. sic de aliis. Et secundum hoc dicimus nos
+          <lb ed="#Qb"/>quod mali angeli etiam a. sua creatione aliquam
+          <lb ed="#Qb"/>potestatem. acceperunt super quasdam creaturas
+          <lb ed="#Qb"/>visibiles aliquo modo tlansmutandas vel dispo<lb ed="#Qb"/>nendas,
+          quam potestatem etiam non amiserunt
+          <lb ed="#Qb"/>cumd ceciderunt, et propter hoc aliquando prop<lb ed="#Qb"/>ter
+          illos qui utuntur illa pOtestate, confidentes
+          <lb ed="#Qb"/>et delectantes in illa, ut magis eos sibi obligent,
+          <lb ed="#Qb"/>faciunt illa quae possunt. Et hoc modo faciunt
+          <lb ed="#Qb"/>magi, de quibus. dicit <name ref="#Augustine">Augustinus</name>1 quod <quote> fa<lb ed="#Qb"/>ciunt
+          per privatos contractus. </quote>1— Est autem alia
+          <lb ed="#Qb"/>potestas publica sive universalis, scilicet divina;
+          <lb ed="#Qb"/>et haec * dicitur <quote> publica iustitia </quote>, quiaf publice
+          <lb ed="#Qb"/>regit omnia; .et haec influit super creaturas, et
+          <lb ed="#Qb"/>cum aliquis in ista confidit, virtute ipsius influ<lb ed="#Qb"/>entis
+          fiunt miracula. Sed hoc potest dupliciter
+          <lb ed="#Qb"/>esse scilicet quod. ista publica. iustitia influat ad
+          <lb ed="#Qb"/>faciendum miraculum. potest enim influere et su<lb ed="#Qb"/>per
+          invocantem et super factum ! pro quo invoca<lb ed="#Qb"/>tur,
+          et hoc modo faciunt boni christiani miracula.
+          <lb ed="#Qb"/>Influit enim Dominus non solum potestatem suam
+          <lb ed="#Qb"/>super factum miraculum, sed etiam super bonum
+          <lb ed="#Qb"/>christianum quantum ad fidem formatam et quan<lb ed="#Qb"/>tum
+          ad illud quod- cum fide formata requiritur ad
+          <lb ed="#Qb"/>hoc ut bonus christianus faciat miracula: non enim
+          <lb ed="#Qb"/>sola fides formata sufficiebat, sed requirebatur
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>aliquah alia expedientiaz. Et ideo in praedicta
+          <lb ed="#Qb"/>auctoritate <name ref="#Augustine">Augustini</name> non solum dicebatur
+    <quote> sancti Dei servi </quote> —- qui enim sancti sunt, non
+          <lb ed="#Qb"/>solum habe nt fidem formatam in praesenti —
+          <lb ed="#Qb"/>sedi addebatur ulterius <quote> quando eos habere hoc
+          <lb ed="#Qb"/>donum utile est</quote>, et tunc fit miraculum per pu<lb ed="#Qb"/>blicam
+          iustitiam. Aliquando etiam influit iustitia
+          <lb ed="#Qb"/>publica super factum tantum et non super invo<lb ed="#Qb"/>cantem:
+          et tunc nihilominus aliquando facit Do<lb ed="#Qb"/>minus
+          miraculum propter honorem nominis sui.,
+          <lb ed="#Qb"/>licet non sit bonus christianus qui eum invocat;
+          <lb ed="#Qb"/>et tunc dicuntur'f fieii miracula per signa pu<lb ed="#Qb"/>blicae
+          iustitiae. Revera enim huiusmodi invocans
+          <lb ed="#Qb"/>Deum non erat iustus, sed invocabat' Deum
+          <lb ed="#Qb"/>sicut et sancti qui faciebant miracula'" <quote>per
+          <lb ed="#Qb"/>publicam iustitiam</quote>: et ideo huiusmodi dicun<lb ed="#Qb"/>tur
+          facere miracula per <quote> signa publicae 'iu<lb ed="#Qb"/>stitiae</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud quod obicitur quod
+          <lb ed="#Qb"/>si" publica iustitia dicit quid increatum tantum,
+          <lb ed="#Qb"/>poterunt 0 miracula facere per publicam iustitiamP
+          <lb ed="#Qb"/>mali sicut et boni'. ' dicimusq quod hoc non se<lb ed="#Qb"/>quitur.
+          Boni enim christiani non dicebantur fa<lb ed="#Qb"/>cere
+          miracula pei publicam iustitiam eo quod
+          <lb ed="#Qb"/>esset influxus super factum tantum, sed quia
+          <lb ed="#Qb"/>erat influxus ipsius in illos; cum autem mali fa<lb ed="#Qb"/>ciunt
+          miracula, non est influxus ipsius divinae
+          <lb ed="#Qb"/>potestatis sive publicae iustitiae, secundum quod
+          <lb ed="#Qb"/>iustitia est, in ipsos malos, immo super ipsum
+          <lb ed="#Qb"/>factum: et ideo non possunt dici facere miracula
+          <lb ed="#Qb"/>per publicam iustitiam sicut et boni.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

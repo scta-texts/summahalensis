@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 7</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 7</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t3m7">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 7</head>
+        <head type="question-title">Utrum secundum liberum arbitrium attendatur meritum vel demeritum.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur ultima quaestio de libero arbitrio,
+          <lb ed="#Qb"/>utrum sit potentia secundum quam attendi<lb ed="#Qb"/>tur
+          meritum vel demeritum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur: a. I Ioan. 3,3: Qui sanctificat se,
+          <lb ed="#Qb"/>Glossa 2: <quote>Non aufert liberum arbitrium </quote>. Ergo
+          <lb ed="#Qb"/>est illud in quo est meritum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, in libro De hebdomadibus3: <quote> Motiva
+          <lb ed="#Qb"/>boni est in libero arbitrio </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, Bernardus 4: <quote> Totum et solum opus
+          <lb ed="#Qb"/>liberi arbitrii est, eius meritum quod consentite</quote>;
+          <lb ed="#Qb"/>unde in consentire meritum, in non consentire
+          <lb ed="#Qb"/>demeritum; ergo liberum arbitrium est in quo
+          <lb ed="#Qb"/>est meritum vel demeritum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed quod debeat esse in voluntate, videtur:
+          <lb ed="#Qb"/>d. Bernardus, in libro De virtutibus5: Sensus
+          <lb ed="#Qb"/>iste est: <quote> Penes voluntatem residet ratio meriti vel
+          <lb ed="#Qb"/>demeriti </quote>. Et haec est ratio: <quote> Nihil est tam in
+          <lb ed="#Qb"/>potestate nostra sicut voluntas 6 </quote>; ergo voluntas
+          <lb ed="#Qb"/>est illud in quo primo attenditur ordo ad Deum:
+          <lb ed="#Qb"/>ultimum enim in Trinitate est summa voluntas
+          <lb ed="#Qb"/>Patris et Filii, primum autem in nobis est vo<lb ed="#Qb"/>luntas
+          creata. Unde secundum voluntatem debet
+          <lb ed="#Qb"/>attendi meritum vel demeritum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Praeterea, dicit Bernardus7: <quote> Sola vo<lb ed="#Qb"/>luntas,
+          quoniam pro ingenua sui libertate aut dis<lb ed="#Qb"/>sentire
+          aut consentire, nulla vi, nulla cogitur
+          <lb ed="#Qb"/>necessitate, non immerito capax est iustitiae vel
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>iniustitiae </quote>. Ergo est vis penes quam attenditur
+          <lb ed="#Qb"/>meritum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem illa vis sit ratio, videtur f. per hoc
+          <lb ed="#Qb"/>quod pueri et phrenetici non possunt mereri, licet
+          <lb ed="#Qb"/>voluntatem habeant, quia non habent usum ra<lb ed="#Qb"/>tionis;
+          ergo penes rationem residetf vis merendi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>g'. Praeterea, in illa distinguitur imago Dei: mens
+          <lb ed="#Qb"/>enim habet imaginem in potentia cognoscendi 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum £, quod illud,
+          <lb ed="#Qb"/>penes quod attenditur meritum sive quod est
+          <lb ed="#Qb"/>capax meriti, attenditur secundum h liberum arbi<lb ed="#Qb"/>
+          <lb ed="#Qb"/>trium, rationem et voluntatem. Meritum enim est,
+          <lb ed="#Qb"/>cum conformatur in actu gratuito ipsa anima ra<lb ed="#Qb"/>tionalis,
+          quae est ad imaginem ex parte motivae,
+          <lb ed="#Qb"/>imagini increatae. Unde conformitas liberi arbitrii
+          <lb ed="#Qb"/>est ex parte posse, rationis ex parte iudicarei
+          <lb ed="#Qb"/>vel arbitrari, voluntatis ex parte velle sive eli<lb ed="#Qb"/>gere:
+          tollatur enim aliquod istorum, non iam
+          <lb ed="#Qb"/>dicitur capacitas meriti. Nam si non esset pote<lb ed="#Qb"/>stas
+          [aut esset potestas] ex necessitate determi<lb ed="#Qb"/>nata,
+          unde esset meritum? Si iterum sine iudicio
+          <lb ed="#Qb"/>ageret vel appeteret, non esset meritum: tunc
+          <lb ed="#Qb"/>enim non habentia usum rationis, quae agunt
+          <lb ed="#Qb"/>secundum impetum, mererentur *. Si iterum esset
+          <lb ed="#Qb"/>iudiciuml et non esset voluntas in illud, non
+          <lb ed="#Qb"/>esset meritum. Restat ergo quod penes haec tria
+          <lb ed="#Qb"/>attenditur meritum, ut sic'" trinitas creata T rini<lb ed="#Qb"/>tati
+          increatae in actu conformetur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

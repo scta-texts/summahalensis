@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Praeambulum</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="1"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1prae">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Praeambulum</head>
+        <p>
+                <pb ed="#Qb" n="1"/>
+          <lb ed="#Qb"/>Completis tractatibus de iis quae pertinent ad speculationem Dei, qui est 
+          <lb ed="#Qb"/>factor omnis creaturae, sequitur tractatus de iis quae pertinent ad con<lb ed="#Qb"/>siderationem 
+          creaturae: 
+          <lb ed="#Qb"/>Et primo, de iis quae-pertinenta ad ipsam creaturam, in quantum est 
+          <lb ed="#Qb"/>creatura; 
+          <lb ed="#Qb"/>deinde, de iis quae pertinent ad lapsum sive deteriorationemb eiusdem;
+          <lb ed="#Qb"/>tertio, sequitur tractatus de reparatione.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Consideratio vero creaturae, in quantum est creatura, attenditur secundum ipsam
+          <lb ed="#Qb"/>primitus bene institutam; quae bipartita est: secundum fieri et: esse. Consideratio vero
+          <lb ed="#Qb"/>eius secundum fieri et esse potest attendi in communi vel in particulari.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Primo ergo dicendum est de iis quae pertinent ad considerationem eius in communi:
+          <lb ed="#Qb"/>Et primo, secundum fieri;
+          <lb ed="#Qb"/>deinde, secundum esse.
+          <lb ed="#Qb"/>Consideratio vero secundum fieri primo est secundum causas eius quod fit;
+          <lb ed="#Qb"/>secundo, quantum ad proprietates consequentes sive per se accidentia.
+          <lb ed="#Qb"/>De causa vero agitur dupliciter: secundum substantiam et secundum rationem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="18"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t1m2c2">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 2, C. 2</head>
+        <head type="question-title">SI EST UNA CAUSA EXEMPLARIS AUT PLURES.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur si est una causa exemplaris
+          <lb ed="#Qb"/>aut plures 12.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod enim plures sint, videtur: 1. Per hoc
+          <lb ed="#Qb"/>quod proprio exemplari respondet proprium exem<lb ed="#Qb"/>platum";
+          unde si exemplata differentia sunt in
+          <lb ed="#Qb"/>genere vel in specie, videntur exemplaria genere
+          <lb ed="#Qb"/>vel specie differre; sed ita est in exemplatis quod
+          <lb ed="#Qb"/>differunt genere vel specie; ergo et exemplaria
+          <lb ed="#Qb"/>differunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, ideae sunt causae exemplares; sed de
+          <lb ed="#Qb"/>illis dicit <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestio<lb ed="#Qb"/>num
+          13, quod <quote>ideae sunt principales quaedam
+          <lb ed="#Qb"/>formae vel" rationes rerum stabiles atque" in<lb ed="#Qb"/>commutabiles,
+          quae et ipsae formatae non sunt,
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quae divina intelligentia continentur, et cum ipsae
+          <lb ed="#Qb"/>neque oriantur neque intereant, secundum eas?
+          <lb ed="#Qb"/>tamen formari dicitur omne quod oriri et interire
+          <lb ed="#Qb"/>potest et omne quod oritur et interit </quote>. Hoc etiam
+          <lb ed="#Qb"/>vult probare tali ratione: <quote>Constat quod Deus
+          <lb ed="#Qb"/>omnia rationabiliter condidit nec ea ratione con<lb ed="#Qb"/>ditus
+          est homo qua equus </quote>, et ita de aliis rebus.
+    <quote>Ergo singula creata sunt propriis rationibus;
+          <lb ed="#Qb"/>sed hae rationes non sunt nisi in mente Creatoris:
+          <lb ed="#Qb"/>sacrilegium enim est opinari ut extra se quid<lb ed="#Qb"/>quam
+          positum intueretur, secundum quod con<lb ed="#Qb"/>stitueret
+          quod constituebat</quote>. Ergo plures sunt
+          <lb ed="#Qb"/>rationes exemplares.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Praeterea, ex similitudine arguitur: non enim
+          <lb ed="#Qb"/>secundum eamdem speciem anima efficit domum
+          <pb ed="#Qb" n="19"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>et efficit navim, et ita de aliis artificiatisa in
+          <lb ed="#Qb"/>specie. Similiter ergo erit in operibus divinis, ut
+          <lb ed="#Qb"/>diversa-opera divina secundum diversa fiant exem<lb ed="#Qb"/>plaria.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad contrarium sic: a. Unus est mundus sen<lb ed="#Qb"/>sibilis,
+          et mundus sensibilisb est exemplatum;
+          <lb ed="#Qb"/>multo ergo fortius est unum exemplar, scilicet
+          <lb ed="#Qb"/>mundus archetypus: nam maior est unitas exem<lb ed="#Qb"/>plaris
+          quam exemplatic.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, sicut supra habitum est 1, causa exem<lb ed="#Qb"/>plaris
+          eadem est in essentia cum causa effi<lb ed="#Qb"/>ciente;
+          si ergo essent multa exemplaria, oporteret
+          <lb ed="#Qb"/>unumquodque esse idem in essentia cum causa
+          <lb ed="#Qb"/>efficiente, et ita plura essent eadem in essentia
+          <lb ed="#Qb"/>cum efficiente, quorum nullum esset alterum; sed
+          <lb ed="#Qb"/>hoc 'non posset esse propter sui simplicitatem;
+          <lb ed="#Qb"/>ergo non sunt plures causae exemplares.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, perfectius est uno cognoscere multa et
+          <lb ed="#Qb"/>similiter uno fieri multa quam multis multa 2; ergo,
+          <lb ed="#Qb"/>cum exemplar sit quo cognoscitur et secundum
+          <lb ed="#Qb"/>quod fit, erit ergo perfectissimum omnino per
+          <lb ed="#Qb"/>unum cognoscere multa et secundum illud facere;
+          <lb ed="#Qb"/>sed perfectissimum convenit Primo; ergo una est
+          <lb ed="#Qb"/>causa exemplaris, indivisa secundum essentiam.
+          — Quod est concedendum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad illud vero quod obi<lb ed="#Qb"/>citur
+          in contrarium :' dicendum est quod plura<lb ed="#Qb"/>litas
+          in essentia in exemplari non accipitur ex
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>pluralitate essentiae in exemplatis: non enim est
+          <lb ed="#Qb"/>ibid pluralitas in essentia. Quod tamen dicuntur
+          <lb ed="#Qb"/>plures ideae, hoc est propter quamdam similitudi<lb ed="#Qb"/>nem
+          exemplatorum ad ipsum exemplar et quam<lb ed="#Qb"/>dam
+          appropriationem ad modum quo loquimur in
+          <lb ed="#Qb"/>exemplaribus et exemplatis rerum artificialium, sed
+          <lb ed="#Qb"/>non est omnino simile. Unde pluraliter dicuntur
+          <lb ed="#Qb"/>ex parte * qua respiciunt ipsa ideata, etf propter
+          <lb ed="#Qb"/>hoc dicitur pluraliter, ad Hebr. 1-1,3: Ut ex in<lb ed="#Qb"/>visibilibus
+          visibilia fierent; invisibilia enim vocat
+          <lb ed="#Qb"/>illa exemplaria sive rationes.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Quod autem dicit <name ref="#Augustine">Augustinus</name>, in libro
+          83 Quaestionum, 'non8 eadem ratione equum
+          <lb ed="#Qb"/>conditum qua hominem ', non retorquet ad diver<lb ed="#Qb"/>sitatem
+          essentiae, sed ad differentiam rationis:
+          <lb ed="#Qb"/>una enim-essentia est ratio huius et illius. Habet
+          <lb ed="#Qb"/>ergo ratio exemplaris quamdam conditionem ex
+          <lb ed="#Qb"/>parte divinae essentiae, ut cum dicitur incommu-'
+          <lb ed="#Qb"/>tabilis, per se subsistens et huiusmodi. Habet
+          <lb ed="#Qb"/>etiam aliam conditionem ex parte exemplatorum,
+          <lb ed="#Qb"/>ut cum pluraliter dicitur: ascendimus enim a plu<lb ed="#Qb"/>ralitate 
+          exemplatorum ad pluralitatem sic dictam'.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad— illud vero quod ultimo obicitur di<lb ed="#Qb"/>cendum
+          est quod non est simile in " exemplaribus
+          <lb ed="#Qb"/>rerum artificiatarum quae fiunt ab anima: exem—
+          <lb ed="#Qb"/>plaria enim sunt adventitia et non eiusdem 'es<lb ed="#Qb"/>sentiaei
+          cum causa efficiente": quod in perfectis<lb ed="#Qb"/>simok
+          agente non invenitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

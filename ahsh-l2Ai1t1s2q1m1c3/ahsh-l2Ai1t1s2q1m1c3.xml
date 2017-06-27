@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 1, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="41"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q1m1c3">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 1, C. 3</head>
+        <head type="question-title">UTRUM HAE RATIONES CONVENIANT SOLUM CREATURAE.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter procedendum est ad tertio quae<lb ed="#Qb"/>situm
+          utrum conveniant solum creaturae 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur: 1. Quia quidquid est, aut est
+          <lb ed="#Qb"/>Creator aut creatura; Creator autem nec terminatur
+          <pb ed="#Qb" n="42"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>nec formatur nec ordinatur ad aliud, sed alia
+          <lb ed="#Qb"/>ordinantur ad ipsum; ergo non ei ista conveniunt;
+          <lb ed="#Qb"/>ergo conveniunt" tantum creaturae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. <name ref="#Augustine">Augustinus</name>, Ad Orosium1:<quote>Nu<lb ed="#Qb"/>merus
+          et pondus et mensura Deus est</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod respondendum est, sicut
+          <lb ed="#Qb"/>ibidem dicitur et Super Genesimz: <quote> Ipse est nu<lb ed="#Qb"/>merus
+          sine numero, a quo est omnis numerus;
+          <lb ed="#Qb"/>ipse est mensura sine mensura, a quo est omnis
+          <lb ed="#Qb"/>mensura; ipse est pondus sine pondere, a quo
+          <lb ed="#Qb"/>est omne pondus</quote>. Unde possunt haec sumib
+          <lb ed="#Qb"/>vel formaliter vel effective. Si formaliter, prout
+          <lb ed="#Qb"/>mensuram dicitur habere quod mensuratur, et ita
+          <lb ed="#Qb"/>de aliis, conveniunt soli creaturae; si autem su<lb ed="#Qb"/>manturc 
+          effective, sic possunt convenire Crea<lb ed="#Qb"/>tori.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

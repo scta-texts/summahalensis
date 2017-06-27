@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 4, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 4, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="26"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t1m4c1">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 4, C. 1</head>
+        <head type="question-title">UTRUM TANTUM SIT CAUSA EFFICIENS ESSE ET NON IPSIUS NON-ESSE.</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic: 1. <quote> Natura est boni produ—
+          <lb ed="#Qb"/>A cere eta salvare, mali autem corrumpere et
+          .destruere*1 </quote> — unde Dionysius, in libroP De
+          <lb ed="#Qb"/>divinis nominibus: <quote>Non est ignis infrigidare'l
+          <lb ed="#Qb"/>neque boni non-bonum producere </quote> —— sed prima
+          <lb ed="#Qb"/>causa efficiens est summum bonum; ergo non est
+          <lb ed="#Qb"/>eius corrumpere et destruere bonum; sed <quote> esse,
+          <lb ed="#Qb"/>in quantum esse ", bonum est5</quote>; ergo eius non
+          <lb ed="#Qb"/>est destruere esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestio<lb ed="#Qb"/>numä:
+    <quote>Ad quem non-esse non5 pertinet non
+          <lb ed="#Qb"/>est causa deficiendi-</quote>; sed prima causa efficiens
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>estf summe ens; ergo non est causa deficiendi;
+          <lb ed="#Qb"/>ergo nec causa" destruendi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, idem similiter se habens semper natum
+          <lb ed="#Qb"/>est facere idem 7; sed primum efficiens est semper
+          <lb ed="#Qb"/>similiter se habens; ergo facit idem; non ergo facit
+          <lb ed="#Qb"/>esse et non-esse: si enim dissimiliter se haberet,
+          <lb ed="#Qb"/>sicut sol in accedendo et recedendo, accedendo
+          <lb ed="#Qb"/>produceret res, recedendo corrumperet vel de<lb ed="#Qb"/>strueret;
+          sed nec accedit nec recedit, quantum est
+          <lb ed="#Qb"/>de se; ergo non est causa destructiva rerum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, solis materialis" est inducere lumen,
+          <lb ed="#Qb"/>tenebrae vero inducuntur per oppositionem terrae
+          <pb ed="#Qb" n="27"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>vel alicuius tenebrosi. Similiter erit a de sole spi<lb ed="#Qb"/>rituali
+          quod eius sit inducere lumen, tenebra vero,
+          <lb ed="#Qb"/>id est detectus esse, non erit ab ipso, sed ab
+          <lb ed="#Qb"/>aliquo alio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Prima efficiens causa est perfectae
+          <lb ed="#Qb"/>potentiae; perfecta autem potentia est cui nihil
+          <lb ed="#Qb"/>deest vel addi potest; sed plus est posse posset
+          <lb ed="#Qb"/>facere quod sit et quod non sit quam quod sit
+          <lb ed="#Qb"/>tantum ; ergo primae causae efficientis non est
+          <lb ed="#Qb"/>tantum, facere, sed posse destruere quod est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, diciturc Isai. 45, 6-7: Ego Dominus, et
+          <lb ed="#Qb"/>non alter, formans lucem et creans tenebras, fa<lb ed="#Qb"/>ciens
+          pacem et creans malum ; sed creare tene<lb ed="#Qb"/>bras
+          estd facere malum et destruere esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, lerem. 31,28: Sicut vigilavi super eos, ut"
+          <lb ed="#Qb"/>evellerem et demolirer et' dissiparem et disperge<lb ed="#Qb"/>rem,
+          sic vigilabo super eos, ut aedificem etplantem.
+          <lb ed="#Qb"/>Ergo eius est evellere et demoliri etc.; primae ergo
+          <lb ed="#Qb"/>causae efficientis est destruere id quod est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, Eccli. 11,14: Bona et mala, vita et mors,
+          <lb ed="#Qb"/>paupertas et honestas a Deo sunt. Ergo a Domino
+          <lb ed="#Qb"/>est non solum esse, sed et non-esse f.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod respondendum1 quod du<lb ed="#Qb"/>plex
+          estg defectus, sicut habetur in III libro
+          <lb ed="#Qb"/>De libero arbitrio 2, et uterque defectus proprie
+          <lb ed="#Qb"/>est in natura intellectuali, scilicet defectus volun<lb ed="#Qb"/>tarius,
+          qui est culpabilis, et defectus involunta<lb ed="#Qb"/>rius,
+          qui est poena. Praeter hoc est tertius de<lb ed="#Qb"/>iectus
+          naturae corruptibilis in se, ut quod ignis
+          <lb ed="#Qb"/>in se deficit et plantae in se deficiunt. De primo
+          <lb ed="#Qb"/>defectu dicendum est quod prima causa efficiens
+          <lb ed="#Qb"/>non est causa illius. De secundo vero dicendum 71
+          <lb ed="#Qb"/>quod in—parte est ab ipso ', in parte vero a crea<lb ed="#Qb"/>tura
+          rationali, et ideo dicitur Sap. l,13-14: Deus
+          <lb ed="#Qb"/>mortem non fecit necJaetatur in perditione vi<lb ed="#Qb"/>vorum
+          ; creavitenim ut essent omnia, et sanabiles
+          <lb ed="#Qb"/>fecit nationes. orbis terrarum; et postea sequitur3:
+          <lb ed="#Qb"/>Iniustitia est mortis acquisitio. E contra vero di<lb ed="#Qb"/>citur
+          Eccli. 11,14: Mors et vita a Domino Deo ;
+          <lb ed="#Qb"/>quod exponit <name ref="#Augustine">Augustinus</name>, in Quaestionibus
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Veteris Testamenti, 36 quaest.'4, dicens: <quote> Non
+          <lb ed="#Qb"/>est Deus auctor mortis, sed vindex, quia mortis
+          <lb ed="#Qb"/>auctor peccatum est; quomodo ergo Deus poterat
+          <lb ed="#Qb"/>facere 'mortem, qui nescit peccare ? sed dum pec<lb ed="#Qb"/>catis
+          retribuit, ab ipso .dicta est mors, cum non
+          <lb ed="#Qb"/>ex ipso sit, sed ex hoc qui peccavit </quote>. De tertio
+          <lb ed="#Qb"/>vero defectu, qui est naturae corruptibilis in se,
+          <lb ed="#Qb"/>dicendum quod non est in rebus a Deo, sed ex *
+          <lb ed="#Qb"/>eo quod res sunt ex nihilo; nihilominus tamen in
+          <lb ed="#Qb"/>Deo est potentia destruendi, sicut et construendi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 2. Ad secundo obiectum di<lb ed="#Qb"/>cendum
+          quod detectus ille, de quo loquitur Au<lb ed="#Qb"/>gustinus,
+          in libro' 83 Quaestionum, non est
+          <lb ed="#Qb"/>defectus poenalis in quantum huiusmodi, sed ma<lb ed="#Qb"/>gis
+          culpabilis vel ille defectus qui est ex hoc
+          <lb ed="#Qb"/>quod res est corruptibilis, ex hoc quod de nihilo
+          <lb ed="#Qb"/>et ex se hoc quod'" deficit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertio obiectum dicendum quod pro<lb ed="#Qb"/>positio
+          illa Philosophi 'idem similiter se ha<lb ed="#Qb"/>bens"
+          etc. intelligitur de creaturis mutabilibus,
+          <lb ed="#Qb"/>quae secundum diversam sui mutationem aptae
+          <lb ed="#Qb"/>natae sunt agere vel pati, non autem intelligitur
+          <lb ed="#Qb"/>de ipso Creatore, qui'semper eodem modo se
+          <lb ed="#Qb"/>habet et tamen causa est oppositorum " secundum
+          <lb ed="#Qb"/>tempora diversa 5.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad quarto obiectum dicendum est quod
+          <lb ed="#Qb"/>non est simile omnino de sole spirituali, scilicet
+          <lb ed="#Qb"/>Deo, et de sole materiali: a sole enim materiali"
+          <lb ed="#Qb"/>per absentiam sunt tenebrae materiales, sed a
+          <lb ed="#Qb"/>sole spirituali malitia, quae est tenebra sive dis<lb ed="#Qb"/>cessio
+          luminis, non est per sui absentiam, sed
+          <lb ed="#Qb"/>sui absentia, sicut contingit diceret", est ex ipsa
+          <lb ed="#Qb"/>malitia. Quoad hoc tamen est similitudo quod
+          <lb ed="#Qb"/>sicut tenebra materialis habet aliam causam, utpote
+          <lb ed="#Qb"/>corpus opacum, ita tenebra intelligibilis, scilicet
+          <lb ed="#Qb"/>peccatum, habet liberum arbitrium quod se avertit
+          <lb ed="#Qb"/>a Deo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Cum autem dicit Dionysius quod <quote> boni
+          <lb ed="#Qb"/>est salvare et mali corrumpere </quote>, primo et prin<lb ed="#Qb"/>cipaliter
+          intendit de corruptione culpabili.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

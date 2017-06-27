@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 5, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 5, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q2t5c2">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 5, C. 2</head>
+        <head type="question-title">UTRUM OMNIS CREATURA HABEAT EAMDEM DIFFERENTIAM LOCALITATIS.</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur utrum creatura omnis ha<lb ed="#Qb"/>beat
+          eamdem differentiam localitatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod sic, videtur: a. Locus enimf corporalis
+          <lb ed="#Qb"/>communiter accipitur, sive referatur ad spiritus
+          <lb ed="#Qb"/>sive ad corpora, et8 utrumque dicitur circumscribi.
+          <lb ed="#Qb"/>Unde AuguStinus, De ecclesiasticis dogmati<lb ed="#Qb"/>bus5:
+    <quote> Ex eo corporeas credimus intellectuales
+          <lb ed="#Qb"/>naturas, quia localiter circumscribuntur </quote>; de cor<lb ed="#Qb"/>poribus
+          autem manifestum est; cum ergo una
+          <lb ed="#Qb"/>sit ratio loci etf' utrobique conveniat circumscribi,
+          <lb ed="#Qb"/>videtur locale dici de illis secundum eamdemi
+          <lb ed="#Qb"/>differentiam localitatis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed contrarium sic ostenditur: 1. Locale enim
+          <lb ed="#Qb"/>dicitur quod figuram habet, sicut dicit Ioannes
+          <lb ed="#Qb"/>Damascenus 5, <quote> ut corporaliter comprehenda<lb ed="#Qb"/>tur
+    </quote>; et alibi: <quote>Non secundum naturam figu<lb ed="#Qb"/>rantur
+          substantiae'c intellectuales nec tres ha<lb ed="#Qb"/>bent
+          dimensiones, quia intellectualiter adsunt</quote>;
+          <lb ed="#Qb"/>sed non sic est de corporibus; ergo locale non
+          <lb ed="#Qb"/>dicitur secundum eamdem rationem localitatis,
+          <lb ed="#Qb"/>sed differentem; restat ergo quod aliter dicitur
+          <lb ed="#Qb"/>spiritus localis et aliter corpus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Sed numquid in tantum extenditur locale ut
+          <lb ed="#Qb"/>omne genus terminationis contineat? Quiddam
+          <lb ed="#Qb"/>enim continetur loco, quiddam continetur tem<lb ed="#Qb"/>pore,
+          quiddam continetur comprehensione 7. Cum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ergo omnibus iis modis dicatur' contineri sive
+          <lb ed="#Qb"/>comprehendi, numquid ex hoc dicitur locale?
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum quod, sicut
+          <lb ed="#Qb"/>dictum est 3, spiritus et corpora localia dicuntur
+          <lb ed="#Qb"/>secundum aliam et aliam differentiam localitatis.
+          <lb ed="#Qb"/>Licet enim locus corporalis utrobique accipiatur
+          <lb ed="#Qb"/>et circumscriptio communiter dicatur, aliter ta<lb ed="#Qb"/>men
+          et aliter dicitur corpus circumscribi et spi<lb ed="#Qb"/>ritus.
+          Corpus enim dicitur circumscribi loco ut
+          <lb ed="#Qb"/>pars sit in parte loci '", minor in minori, maior in
+          <lb ed="#Qb"/>maiori et totum in toto — hoc excepto quod de
+          <lb ed="#Qb"/>Corpore Dominico dicitur, quod est sub sacra<lb ed="#Qb"/>mento,
+          quod propriam'habet disquisitionem9; —
+          <lb ed="#Qb"/>spiritus autem dicitur circumscribi ut totum sit
+          <lb ed="#Qb"/>intra et nihil eius extra ", non commetiendoP par<lb ed="#Qb"/>tem
+          parti 10, cum" huiusmodi non habeat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud vero dicendum quod, licet sint
+          <lb ed="#Qb"/>diversi modi continendi, loco, tempore et com<lb ed="#Qb"/>prehensione,
+          tamen per quamdam analogiam se
+          <lb ed="#Qb"/>habent, ut quod continetur loco continetur" tem<lb ed="#Qb"/>pore,
+          quod vero continetur tempore continetur
+          <lb ed="#Qb"/>comprehensione, non e converso; quia vero * ver<lb ed="#Qb"/>bum
+          comprehensionis, sicut habetur in libro De
+          <lb ed="#Qb"/>videndo Deo ", dicitur de re illa <quote> cuius fines cir<lb ed="#Qb"/>cumspici
+          possunt</quote>, per quamdam proportionem
+          <lb ed="#Qb"/>sive similitudinem se habet ad esse in loco, ubi 
+          <lb ed="#Qb"/>secundum acceptionem communiorem dicitur finis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

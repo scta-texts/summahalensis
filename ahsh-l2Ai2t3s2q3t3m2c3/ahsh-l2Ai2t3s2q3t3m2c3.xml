@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="300"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t3m2c3">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 2, C. 3</head>
+        <head type="question-title">QUID IMMUTENT DAEMONES IN MIRABILIBUS FACTIS SECUNDUM PHANTASIAM TANTUM.</head>
+        <p>
+          <lb ed="#Qb"/>Viso quomodo fiant miraculas magorum, quando
+          <lb ed="#Qb"/>fiunt secundum veritatem, Consequenter quae<lb ed="#Qb"/>ritur
+          de mirabilibus factis secundum delusionem
+          <lb ed="#Qb"/>tantum et phantasiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>I. 1. Aut ergo in huiusmodi illusionibus fit mu<lb ed="#Qb"/>tatio 
+          ex parte rei visibilis aut ex parte videntis. Si 
+          <lb ed="#Qb"/>ex parte visibilis, aut in qualitate: ut-quod est
+          <lb ed="#Qb"/>album faciat diabolus esse nigrum; vel * in quan<lb ed="#Qb"/>titate: 
+          ut quod est magnum faciat parvum; vel" m '
+          <lb ed="#Qb"/>substantia: ut quod est homo faciat" asinum; vel
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>secundum situm: ut quod est Parisius iaciat esse'
+          <lb ed="#Qb"/>Romae; tunc in iis non est phantasia tantum,
+          <lb ed="#Qb"/>immo veritas. Si ergo dicitur delusio phantastica
+          <lb ed="#Qb"/>apparitio tantum, non erit ibi mutatio 'ex parte V
+          <lb ed="#Qb"/>viSibilis. — Si ex parte videntis, tunc aut erit im<lb ed="#Qb"/>mutatio
+          ex parte virtutis intra aut in ipso organo
+          <lb ed="#Qb"/>extra aut ponetur deiectus solummodo virtutis"
+          <lb ed="#Qb"/>organi, ut non possit comprehendere quod obiec<lb ed="#Qb"/>tum
+          est 1, ut cum propter debilitatem visus ap<lb ed="#Qb"/>paret
+          una candela duae. Si est immutatio organi,
+          <lb ed="#Qb"/>utpote quod immutat ipse diabolus humores
+          <pb ed="#Qb" n="301"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>oculi videntis vel. tunicas oculi, ut non possit"
+          <lb ed="#Qb"/>rern. videre sicut est, tunc, cum'b ipsum organum
+          <lb ed="#Qb"/>visus sit. res nobilior quam res obiecta extra aut
+          <lb ed="#Qb"/>saltem aeque nobilis, sicut dicebatur vere mira—
+          <lb ed="#Qb"/>culum et non phantasia tantum, quando immuta<lb ed="#Qb"/>bat
+          rem obiectam extra, ita dicetur vere miracu<lb ed="#Qb"/>lum
+          et non phantasia, quando immutabat organum.
+          -- Et eodem modo potest obici, si dicatur quod
+          <lb ed="#Qb"/>non immutat organum, sed virtutem, et hoc sive
+          <lb ed="#Qb"/>dicatur de virtute quae est intra secundum quod
+          <lb ed="#Qb"/>huiusmodi sive de virtute prout est coniuncta
+          <lb ed="#Qb"/>organo extra. Cum enim huiusmodi virtutes no<lb ed="#Qb"/>biliores
+          sint quam ipsa organa, adhuc nobilior erit
+          <lb ed="#Qb"/>immutatio earum secundum veritatem quam im<lb ed="#Qb"/>mutatio
+          organi sive rerum extra obiec.tarum.—
+          <lb ed="#Qb"/>Si autem ponatur ibi purus defectus, sive organi
+          <lb ed="#Qb"/>sive virtutis, tunc sicut nullum est miraculum,
+          <lb ed="#Qb"/>cumd visus debilis credit duas candelas esse ubi
+          <lb ed="#Qb"/>est una tantum, ita nullum erit omnino ponen<lb ed="#Qb"/>dum
+          miraculum in delusionibus daemonum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed contra: a. Augustinus, in libro De anima
+          <lb ed="#Qb"/>et spiritu 1, et similiter potest haberi ex libro De
+          <lb ed="#Qb"/>civitate Dei 2, ubi ita dicit: <quote> Quaedam mulierculae
+          <lb ed="#Qb"/>post Satanam e conversae, illusionibus· et phan<lb ed="#Qb"/>tasmatibus
+          seductae, cr.edunt se et confitentur noc<lb ed="#Qb"/>turnis
+          horis cum Diana, paganorum dea, et curn
+          <lb ed="#Qb"/>Herodiade etf .innumera mulierum multitudine
+          <lb ed="#Qb"/>equitare earumque illusionibus c earumque ius<lb ed="#Qb"/>sionibus
+          obtemperare. lpse namque Satanas, qui
+          <lb ed="#Qb"/>transfigurat h se in angelum lucis 3, cum mentem
+          <lb ed="#Qb"/>çuiusque mulierculae ceperit t et hanc sibi per
+          <lb ed="#Qb"/>infidelitatem subiugaverit, illico diversarum per<lb ed="#Qb"/>sonarum
+          species ostendit k, et nientem, quam capti<lb ed="#Qb"/>vam
+          tenet, in somnis1 deludens, modo laeta, modo
+          <lb ed="#Qb"/>tristia, modo cognltas, modo irìcognitas personas
+          <lb ed="#Qb"/>ostendens, per devia quaeque deducit. Et cum m
+          <lb ed="#Qb"/>solus hoc patitur spiritus infidelis, ut non 11 in
+          <lb ed="#Qb"/>animo, sed in corpore opinatur venire, idcirco
+          <lb ed="#Qb"/>nimis stultus et heb~s est qui haec omnia quae
+          <lb ed="#Qb"/>in spiritu sunt, accidere o arbitratur in corpore </quote>.
+          <lb ed="#Qb"/>Si ergo ita facit diabolus in ipsa imaginativa
+          <lb ed="#Qb"/>dormientium quaedam mira, sicut dici t Augu<lb ed="#Qb"/>stinus 4 . 
+          ante praedictam auctoritatem, et hoc
+          deludendo imaginativam, qua·e potentior èst quam
+          sensus extra, videtur quod· et mira quaedam · per
+          delusionem possit f;1cere in sensu extra.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Occasione etiam huius quaeritur ulterius
+          <lb ed="#Qb"/>utrum diaboli, cum ita cieludun~ imaginativam,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>offerant formas no vas . imaginativae v el non so<lb ed="#Qb"/>lum
+          <lb ed="#Qb"/>offerant,- sect etiam imprimant, _aut si.; non_
+          <lb ed="#Qb"/>imprimunt novas, saltem impressas transforment.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Si offerunt tantum et non . imprimunt, ergo,
+          <lb ed="#Qb"/>cum ad solam oblationem speciei non sequatur
+          <lb ed="#Qb"/>cognitio, immo oportet fieri unionem speciei co<lb ed="#Qb"/>gnoscibilis 
+          ad cognoscitivum ad hoc ut fiat cognitio,
+          <lb ed="#Qb"/>ubi autem non est cognitio, non .est iudicium,
+          <lb ed="#Qb"/>ubi autem non est P iudicium, non est delusi o:
+          <lb ed="#Qb"/>tunc nulla esset delusio in operibus eorum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Si d i c a tu r quod ipsas imaginatioi1i q imprimunt
+          <lb ed="#Qb"/>sive etiam impressas transformant, eadem
+          <lb ed="#Qb"/>obiectio est: tunc enim possent in ~maginativam.
+          <lb ed="#Qb"/>Quod enim imprimit, potest in illud in quod imprimit,
+          <lb ed="#Qb"/>et quod transformat, potest in eo in quo. r
+          <lb ed="#Qb"/>transformat. ~ S e d n o n v· i d e t u r q u o d p o s-
+          <lb ed="#Qb"/>.sin t in imaginativam daernones: .eadem
+          <lb ed="#Qb"/>enim substantia est i-ationalis anima·e et sensi<lb ed="#Qb"/>tivae, 
+          et dico s ' sensitivam' quae comprehendit
+          <lb ed="#Qb"/>et t imaginativam et omnes huiusmodi potentias,
+          <lb ed="#Qb"/>sicut dicitur in libro De hebdomadibus 5 et De
+          <lb ed="#Qb"/>ecclesiasticis dogmatibus 6• Si ergo daemones non
+          <lb ed="#Qb"/>possunt in rationalem, nec in imaginativam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Solutio: I. Dicimus quod quaedam d.elusiones
+          <lb ed="#Qb"/>fiunt a absque daemonibus, sola agitatione homi<lb ed="#Qb"/>num 
+          ostendentium et occultantium, sicut est v in 
+          <lb ed="#Qb"/>transiectoribus. Aliquando etiam sine aliqua vir<lb ed="#Qb"/>tute
+          daemonis est aliqua delusio virtute quorum<lb ed="#Qb"/>dam
+          corporum mineralium, quae qui habent, pos<lb ed="#Qb"/>sunt
+          secundum . quamdam virtutem, huiusmodi
+          <lb ed="#Qb"/>corporibus inditam_, rein o stendere si ve · apparere
+          <lb ed="#Qb"/>facere x non sièut est; et tunc revera Y non est
+          <lb ed="#Qb"/>falsitas ex parte rei visae quin aliquid sit quod
+          <lb ed="#Qb"/> videtur, non tamen est eo. modo quo videtur. Est:
+          <lb ed="#Qb"/>autem tertius modus delusionis qui fit per dae-:
+          <lb ed="#Qb"/>mones: habent enim daemones quamdam pote<lb ed="#Qb"/>statem
+          ex ordine naturae super quasdam res in<lb ed="#Qb"/>feriores,
+          quam possunt exercere circa istas res
+          <lb ed="#Qb"/>quantum Dominus permittit, et tunc apparet res
+          <lb ed="#Qb"/>non sicut est: et haec delusio; et si sit delusio
+          <lb ed="#Qb"/>quantum ad modum videndi, subiacet tamen veritas
+          <lb ed="#Qb"/>rei visae, sicut diceb.atur prius de corp<lb ed="#Qb"/>ribus 
+          mineralibus: sed hoc fit virtute daemonica ·
+          <lb ed="#Qb"/>quod ibi fiebat virtute naturali indita illi corpori.
+          <lb ed="#Qb"/>Sed adhuc proprie huiusmodi illusio facta a dae<lb ed="#Qb"/>mone 
+          non dicitur praestigium: praestigium enim
+          <lb ed="#Qb"/>proprie dicitur illa illusi o daemonis quae · non
+          <lb ed="#Qb"/>habet causam ex parte mutationis rei, sed solum<lb ed="#Qb"/>modo
+          ex parte cognoscentis, qui deluditur sive
+          <pb ed="#Qb" n="302"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>quantum ad organum sive quantum ad virtutem.
+          <lb ed="#Qb"/>Ad intelligendum ergo quomodo fiat haec de<lb ed="#Qb"/>lusio,
+          sciendum est quod sensibile dicitura du<lb ed="#Qb"/>pliciter:
+          per se et per accidens; et per se dupli<lb ed="#Qb"/>citerb:
+          proprium et commune. Dicimus ergo quod
+          <lb ed="#Qb"/>in proprio sensibili non fallitur visus bene diSpo<lb ed="#Qb"/>situs:
+          unde quod est album, semper iudicabit
+          <lb ed="#Qb"/>visus album; sed in communi sensibili et in sen<lb ed="#Qb"/>sibili
+          per accidens bene potest falli et intra et
+          <lb ed="#Qb"/>extra et ipsum organum, et hoc per virtutem dia<lb ed="#Qb"/>boli
+          efficientis, sicut iam videbitur 1.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: ]. Ad illud ergo quode quaeritur
+          'utrum immutetd tunicas vel humores oculi, etc.:
+          <lb ed="#Qb"/>dicimus quod non, sed potest diabolus multis mo<lb ed="#Qb"/>dis
+          formare formas et illas offerre oculis sive sensui,
+          <lb ed="#Qb"/>sensus autem obiectas, volens, nolens, apprehen<lb ed="#Qb"/>dit.
+          Unde sicut, velim, nolim, 'video vel cognosco
+          <lb ed="#Qb"/>album, cum est obiectum debito modo visui meo,
+          <lb ed="#Qb"/>ete hoc existente organo in debito statu, ita et ipse
+          <lb ed="#Qb"/>visus Species, quas offert diabolus, apprehendit.
+          <lb ed="#Qb"/>Nec tamen debet dici quod diabolus uniat eas,
+          <lb ed="#Qb"/>immo naturaliter, ex quo oblatae sunt visui debito
+          <lb ed="#Qb"/>modo, sensus unit se illis vel illas sibi et ulterius
+          <lb ed="#Qb"/>iudicat de illis et falliturf ulterius in iudicandog
+          <lb ed="#Qb"/>ipsum sensibile' per accidens, cum propter ior<lb ed="#Qb"/>mam,
+          quae solebat esse huius rei, iudicat esse
+          <lb ed="#Qb"/>hanc rem ubi videt talem formam, et secundum
+          <lb ed="#Qb"/>diversas oblationes vel secundum diversas muta<lb ed="#Qb"/>tiones
+          tormae oblataeh iudicat semper alia et alia,
+          <lb ed="#Qb"/>et sic deluditur, secundum quod dicebat Augu<lb ed="#Qb"/>stinus,
+          in auctoritate praedictazz <quote> Modo laeta,
+          <lb ed="#Qb"/>modo tristia 1, modo cognitas, modo incognitas per<lb ed="#Qb"/>sonas</quote> 
+          etc. Et potest haec delusio dupliciter fieri,
+          <lb ed="#Qb"/>utpote in corpore extra, sicut est cum. deluduntur
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>oculi corporei, vel in spiritu, sicut est cumk de<lb ed="#Qb"/>luditur
+          imaginatio, secundum quod dicebatur in
+          <lb ed="#Qb"/>fine auctoritatis praedictae: <quote>Hoc solus patitur
+          <lb ed="#Qb"/>infidelis spiritus </quote> etc. Et ibi appellatur *spiritus '
+          <lb ed="#Qb"/>imaginatio, sicut et visio imaginarial appellatur
+          <lb ed="#Qb"/>visio spiritualis, quando dividit <name ref="#Augustine">Augustinus</name>3
+          <lb ed="#Qb"/>tria genera visionum: corporalem, spiritualem et'"
+          <lb ed="#Qb"/>intellectualem. Cum autem deluditur ista imagi<lb ed="#Qb"/>natio,
+          fit delatio ipsarum formarum oblatarum
+          <lb ed="#Qb"/>extra per quosdam spiritus usque ad "ipsam, qui
+          <lb ed="#Qb"/>spiritus sunt quodam modo connaturales et pro—
+          <lb ed="#Qb"/>pinqui ipsi imaginativae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Ad illud ergo quod" quaeritur 'utrum dia<lb ed="#Qb"/>bolus
+          habeat potestatem in ipsam imaginativam ,,
+          <lb ed="#Qb"/>dicimus": quamvis quidam dixerint quod sic
+          <lb ed="#Qb"/>potest offerre ipsi sicut diximus, sed imprimere
+          <lb ed="#Qb"/>non potest, tamen dicimus adhuc quod, etsi im<lb ed="#Qb"/>primere
+          non possit in? imaginativa attingendo
+          <lb ed="#Qb"/>per se? ad illam, potest tamen quaedam facere
+          <lb ed="#Qb"/>in corpore, ad quae sequitur impressio vel trans<lb ed="#Qb"/>formatio
+          impressorum in imaginativa, ut cum re<lb ed="#Qb"/>solvitur
+          fumus colericus ascendens-' ad cerebrum,
+          <lb ed="#Qb"/>potest imprimi in imaginativa forma ignis vel
+          <lb ed="#Qb"/>possunt transformari formae, quae erant ibi, in
+          <lb ed="#Qb"/>formas igneorums vel huiusmodi, non quia dia<lb ed="#Qb"/>bolus
+          haec tecerit imprimendo neque etiam cor<lb ed="#Qb"/>pus
+          dicendum est impressisse istas species in
+          <lb ed="#Qb"/>imaginativa, sed expressae sunt illi ex individua
+          <lb ed="#Qb"/>concomitantia eius ad corpus; unde, quia sese
+          <lb ed="#Qb"/>concomitantur individualiter, connaturale est ut
+          <lb ed="#Qb"/>quando corpus sic patitur, et ipsa tunc tales im<lb ed="#Qb"/>pressiones
+          habeat, secundum quod habetur et
+          <lb ed="#Qb"/>Philosopho4 quod anima corrumpitur sive
+          <lb ed="#Qb"/>mutatur quodam interius corrupto sive mutato.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="461"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t1m3c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 2</head>
+        <head type="question-title">UTRUM SIT UNUS SENSUS INTERIOR VEL PLURES.</head>
+        <p>
+                <pb ed="#Qb" n="461"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Secundo quaeritur an sit unus solus sensus
+          <lb ed="#Qb"/>vel plures.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Videtur quod plures: 1. Dicit enim Orige<lb ed="#Qb"/>nesl
+          quod <quote> quinque sunt sensus interioris ho<lb ed="#Qb"/>minis,
+          ut mundi corde Deum videamus </quote>. Ergo
+          <lb ed="#Qb"/>plures sunt sensus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Bernardusz: <quote> Sicut corpus habet
+          <lb ed="#Qb"/>suos sensus quibus animae coniungitur vita me<lb ed="#Qb"/>diante,
+          ita b anima habet suos sensus quibus Deo
+          <lb ed="#Qb"/>coniungitur caritate mediante </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, Marc. 14,5, super illud: <quote ana="#mc14_5">Poterat istud
+          <lb ed="#Qb"/>venumdari</quote>, etc., Glossa3: <quote>Fides nostra tre<lb ed="#Qb"/>centis
+          emitur denariis, id est c decem sensibus per
+          <lb ed="#Qb"/>corpus et animam et spiritum triplicatis d </quote>. Ergo
+          <lb ed="#Qb"/>plures sunt sensus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Per actus cognoscuntur potentiae
+          <lb ed="#Qb"/>et actus per obiecta4; sed obiectum est? unum;
+          <lb ed="#Qb"/>ergo necesse est unum esse sensum. — Quod
+          <lb ed="#Qb"/>sit obiectum unum, dicit Origenes5, Le<lb ed="#Qb"/>vit.
+          6,5: <quote> Addamus iis omnibus suum et perfi<lb ed="#Qb"/>cientur
+          5</quote>. Ergo una erit potentia, secundum quam
+          <lb ed="#Qb"/>erit videre et gustare et ita unum erit in sub<lb ed="#Qb"/>stantia
+          videre et gustare et huiusmodi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Eph. 1,17, super illud: <quote ana="#eph1_17">Det vobis
+          <lb ed="#Qb"/>Spiritum</quote>, Glossa <name ref="#Augustine">Augustini</name>'i: <quote>In" sensu
+          <lb ed="#Qb"/>exteriori non est videre idem quod gustare, in
+          <lb ed="#Qb"/>sensu interiori non sic, sed idem</quote>; et ita ut
+          <lb ed="#Qb"/>prius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, Haymo, Super Apocalypsim 7: <quote> Rap<lb ed="#Qb"/>tus
+          est Ioannes spiritua ad summa contemplanda,
+          <lb ed="#Qb"/>ubi nihil aliud vidit quam audivit</quote>, quia nihil
+          <lb ed="#Qb"/>aliud est videre quam audire.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, <name ref="#Augustine">Augustinus</name>, in libro De anima et spi<lb ed="#Qb"/>ritug:
+    <quote> Sic aptae naturae est spiritus, ubi idem
+          <lb ed="#Qb"/>est audire et videre et e converso </quote>. Ergo unus
+          <lb ed="#Qb"/>et idem actus et una iterum potentia; cum
+          <lb ed="#Qb"/>ergo sitf obiectum unum, ex nulla parte erit
+          <lb ed="#Qb"/>pluralitas.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Respondeo 10: Plures dicuntur sensus, non quia8
+          <lb ed="#Qb"/>potentiae plures sint, sed propter modum com<lb ed="#Qb"/>prehendendi:
+          alius enim est" modus comprehen<lb ed="#Qb"/>dendi,
+          cum dicitur 'iste videt ', quam cum dici<lb ed="#Qb"/>tur
+          'iste audit '. <name ref="#Augustine">Augustinus</name>, in libro Confes<lb ed="#Qb"/>sionum
+          ": <quote> Cum amo Deum meum, lucem meam,
+          <lb ed="#Qb"/>vocem, odorem, cibum, amplexum interioris ho<lb ed="#Qb"/>minis
+          mei, ubilr fulget animae meae quod non
+          <lb ed="#Qb"/>capit locus, ubi sonat quod non rapit tempus *,
+          <lb ed="#Qb"/>ubi olet quod non spargit flatus, ubi sapit quod
+          <lb ed="#Qb"/>non. minuit edacitas, ubi haeretl quod non di<lb ed="#Qb"/>vellit
+          satietasm</quote>. Unde non quia obiecta sunt
+          <lb ed="#Qb"/>plura vel quia plures potentiae, sed ratione mo<lb ed="#Qb"/>dorum
+          comprehendendi diversificantur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 3. Ad hoc quod obicitur ex auc<lb ed="#Qb"/>toritate
+          HierOnym i, Super Marcum, dico" quod
+          <lb ed="#Qb"/>loquitur ibi Hi ero n y m u 5 non tantum secundum
+          <lb ed="#Qb"/>modum comprehendendi, sed secundum poten<lb ed="#Qb"/>tias
+          comprehendentes, quia loquitur ibi de sensibus
+          <lb ed="#Qb"/>et animae et spiritus, secundum quod anima in<lb ed="#Qb"/>ferior
+          pars est, spiritus vero superior. Alia est
+          <lb ed="#Qb"/>enim potentia, secundum quod dicimus sensum
+          <lb ed="#Qb"/>corporis et animae, id est inferioris partis, et"
+          <lb ed="#Qb"/>spiritus, id est superioris, secundumP illud l Thes<lb ed="#Qb"/>sal.
+          5,23: Integer spiritus vester etc. Unde non
+          <lb ed="#Qb"/>loquitur secundum coarctationem ad sensum spi<lb ed="#Qb"/>ritualem,
+          sed extendit nomen 'sensus' ad sen—
+          <lb ed="#Qb"/>sumq communiter sumptum, secundum quod di<lb ed="#Qb"/>citur
+          communiter de sensibus interioribus et ex<lb ed="#Qb"/>terioribus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad hoc quod dicit Bernardus: <quote>Sicut
+          <lb ed="#Qb"/>corpus habet</quote> etc., dico quod illa multiplicatio
+          <lb ed="#Qb"/>est tantum secundum differentiam modorum com<lb ed="#Qb"/>prehendendi.
+          Unde dicit Bernardus 12: <quote>Duas
+          <lb ed="#Qb"/>radices habet iste sensus: unam in carne ', alte<lb ed="#Qb"/>ram
+          in ratione</quote>. Referendo ergo ad unitatem
+          <lb ed="#Qb"/>potentiae et obiecti, idem erit videre quod au<lb ed="#Qb"/>dire;
+          referendo ad modum comprehendendi, dif<lb ed="#Qb"/>terunt.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

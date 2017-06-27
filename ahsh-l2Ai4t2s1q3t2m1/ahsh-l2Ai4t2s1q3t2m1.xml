@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="528"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s1q3t2m1">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 1</head>
+        <head type="question-title">Utrum elementa secundum aequalitatem molis fuerint in corpore Adae 4.</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum sic proceditur. Quaeriturk primo
+          <lb ed="#Qb"/>si elementa secundum aequalitatem molis
+          <lb ed="#Qb"/>fuerunt in corpore Adae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod non, videtur sic: a. Ut supra dictum est5
+          <lb ed="#Qb"/>et vult Philosophus, denominatio fit a natura
+          <lb ed="#Qb"/>praedominante; unde, licet corpus primi hominis
+          <lb ed="#Qb"/>formatum fuerit ex quatuor elementis, tamen di<lb ed="#Qb"/>citur
+          formari de terra propter rationem praedo<lb ed="#Qb"/>minantis;
+          sed non habet terra praedominium vir<lb ed="#Qb"/>tutis:
+          quod patet, cum sit elementum, minimum'
+          <lb ed="#Qb"/>habens de specie et minime activum €'; igitur'"
+          <lb ed="#Qb"/>praedominatur in mole.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name>, VII'l Super Genesim7,
+          <lb ed="#Qb"/>assignans differentiam inter creationem animae et
+          <lb ed="#Qb"/>corporis plasmationem, dicit: <quote>Quid est, unde
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>anima flatu Dei facta est? Nam quid est aliud
+          <lb ed="#Qb"/>limus nisi terra humida? </quote> Ex hoc videtur quod
+          <lb ed="#Qb"/>corpus primi hominis fuerito solummodo compo<lb ed="#Qb"/>situm
+          ex limo, qui est terra et aqua, vel? quod
+          <lb ed="#Qb"/>dicitur ex iis componi propter praedominium il<lb ed="#Qb"/>lorum
+          in-corpore ipso, et, sive sic sive sic, ele<lb ed="#Qb"/>menta
+          non sunt in aequalitate molis in ipso.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Si diceretur quod haec, scilicet terra et aqua,
+          <lb ed="#Qb"/>habent praedominium in virtute, quod tamen non
+          <lb ed="#Qb"/>credo esse verum, ex hoc adhuc sequeretur pro<lb ed="#Qb"/>positum,
+          quia impossibile est haec'! habere in
+          <lb ed="#Qb"/>aliquo praedominiurn virtutis nisi haberent prae<lb ed="#Qb"/>dominium
+          molis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, si aequalis essent molis autf quantitatis,
+          <lb ed="#Qb"/>igitur ibi esset omnimoda intemperantia et impro<lb ed="#Qb"/>portio
+          virtutis, quia virtus ignis improportionaliter
+          <pb ed="#Qb" n="529"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>excederet virtutem terrae et ipsam ", cum sit
+          <lb ed="#Qb"/>corpus intlammabile, ut patet in impressionibus
+          <lb ed="#Qb"/>elementatis 6, ex vapore terrestri inflammaret et
+          <lb ed="#Qb"/>consumeretc vel forte aqua ignem destrueret, et
+          <lb ed="#Qb"/>ita nullo modo miscerentur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Praeterea, in corpore humano abundant partes
+          <lb ed="#Qb"/>grossae respectu subtilium; sed grossae fiunt ex
+          <lb ed="#Qb"/>soliditate terrena; ergo per inaequalitatem molis se
+          <lb ed="#Qb"/>habent elementa. — M aior manifesta est sensui 4.
+          <lb ed="#Qb"/>Minor patet per Augustin um, Super Genesim,
+          <lb ed="#Qb"/>VII * l: <quote> Non est quidem animae humanae natura
+          <lb ed="#Qb"/>nec de terra nec de aqua nec de acre nec de
+          <lb ed="#Qb"/>igne quolibet, sed tamen crassioris corporis sui
+          <lb ed="#Qb"/>materiam, hoc est humidam quamdam terram, quae
+          <lb ed="#Qb"/>in carnis versa est qualitatem, per subtilioris
+          <lb ed="#Qb"/>naturam corporis administrat, id est per lucem
+          <lb ed="#Qb"/>et aerem</quote>; et parum infra: <quote> Anima, quoniam
+          <lb ed="#Qb"/>res est incorporea, corpus, quod incorporeof vi<lb ed="#Qb"/>cinum
+          est, sicuti ignis vel potius quasi! lux et
+          <lb ed="#Qb"/>aer, primitus agit, et per haec cetera quae cras<lb ed="#Qb"/>siora
+          sunt corporis, sicuti humor et terra, uncle
+          <lb ed="#Qb"/>carnis " substantia solidatur </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Omnis mixtio est secundum minimaz;
+          <lb ed="#Qb"/>igitur et mixtioi in corpore Adae erat secundum
+          <lb ed="#Qb"/>minima; sed minimik ad minimum non potest
+          <lb ed="#Qb"/>esse proportio inaequalitatis; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, quaelibet-pars mixti est mixta3: unde
+          <lb ed="#Qb"/>in singulis partibus mixti est reperire unionem
+          <lb ed="#Qb"/>miscibilium. Ex iis potest sic argui: Ubicumque
+          <lb ed="#Qb"/>est reperire unum elementum secundum molem,
+          <lb ed="#Qb"/>est reperire' aliud, et eisdem terminis clauduntur;
+          <lb ed="#Qb"/>ergo nullum excedit vel exceditur ab alio; aequalis
+          <lb ed="#Qb"/>est ergo extensio omnium secundum molem sive'
+          <lb ed="#Qb"/>molis dimensionem; ergo sunt ibi in aequalitate
+          <lb ed="#Qb"/>molis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, ut habetur ab Algazel4, <quote>cum com<lb ed="#Qb"/>mixtio'"
+          elementorum fuerit pulcrioris et perfec<lb ed="#Qb"/>tioris
+          aequalitatis </quote> etc., tunc est corpus aptum ad
+          <lb ed="#Qb"/>susceptionem animae rationalis; sed constat quod
+          <lb ed="#Qb"/>corpus Adae iuit aptum ad susceptionem animae
+          <lb ed="#Qb"/>rationalis; ergo in illo erat commixtio elemento<lb ed="#Qb"/>rum
+          in perfectiori aequalitate; sed, ut habetur a
+          <lb ed="#Qb"/>Constantino, in Pantechni 5, aequalis " est
+          <lb ed="#Qb"/>commixtio elementorum quae continet aequaliter
+          <lb ed="#Qb"/>quantitates et qualitates 0 elementorum; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad horumP evidentiam notandum
+          <lb ed="#Qb"/>quod duplex est aequalitas complexionis: vel in
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>qua nullius qualitatis est excessus ab optima
+          <lb ed="#Qb"/>temperantia, ubi '1 nullum elementum vel qualita<lb ed="#Qb"/>tive
+          vel quantitative abundat respectu alterius, et
+          <lb ed="#Qb"/>haec est magis secundum rationem quam secun<lb ed="#Qb"/>dum
+          rei et existentiaeb naturam: ista non fuit in
+          <lb ed="#Qb"/>Adam; alia est'aequalitas, in qua, licet qualitatis
+          <lb ed="#Qb"/>vel qualitatum sit excessus, non tamen ultra me<lb ed="#Qb"/>tam
+          secundi gradus extenditur, secundum quod di<lb ed="#Qb"/>cunt
+          physiciö quod complexio" aequalis dicitur 4
+          <lb ed="#Qb"/>incolumis usque ad secundum gradum, et ista'?
+          <lb ed="#Qb"/>aequalitas non ponit aequalitatem a mole, sed
+          <lb ed="#Qb"/>magis a iustitia,-et haec iuit-in corpore Adae, et
+          <lb ed="#Qb"/>tanto melior quanto melius complexionatus. Non
+          <lb ed="#Qb"/>tamen intendimus de aequalitate a iustitia hoc
+          <lb ed="#Qb"/>modo, hocf est in sensu2 quo utuntur physici,
+          <lb ed="#Qb"/>sed alio modo, uth infra7 patebit. Concedendum
+          <lb ed="#Qb"/>est1 ergo, sicut ostensum ests, quod elementa
+          <lb ed="#Qb"/>nonk erant in corpore Adae secundum aequali<lb ed="#Qb"/>tateml
+          molis; et dicimus hicm molem quantita<lb ed="#Qb"/>tem"
+          materialem mixtorum. — Quod autem
+          <lb ed="#Qb"/>elementa non possunt esse in corpore
+          <lb ed="#Qb"/>secundum aequalitatem a mole, haec est
+          <lb ed="#Qb"/>ratio: Quaedam sunt elementa magis habentia
+          <lb ed="#Qb"/>de materia, alia magis de Specie. Quae magis
+          <lb ed="#Qb"/>habent de materia, magis comprimunturu; quae
+          <lb ed="#Qb"/>magis de specie, magis distenduntur: propter
+          <lb ed="#Qb"/>quod non potest esse aequalitas molis, sed ne<lb ed="#Qb"/>cessitate
+          inaequalitasP. Ratio alia ad idem est:
+          <lb ed="#Qb"/>Si esset aequalis complexio hoc modo, <quote>tunc cor<lb ed="#Qb"/>pus
+          illius complexionis nec quiesceret nec move—
+          <lb ed="#Qb"/>retur; si enim quiesceret in terra, tunc terra vince<lb ed="#Qb"/>ret;
+          similiter si quiesceret in aere, tunc 4 aer vin<lb ed="#Qb"/>ceret;
+          si autem moveretur ab aere in ignem, tunc
+          <lb ed="#Qb"/>ignis vinceret; si vero moveretur ad terram, tunc
+          <lb ed="#Qb"/>esset terra vincens; si "autem quiesceret in aere,
+          <lb ed="#Qb"/>tunc aer esset vincens. Convenit igitur ei ut nec
+          <lb ed="#Qb"/>quiescat in loco nec moveatur ad locum:, quod
+          <lb ed="#Qb"/>est impossibile </quote>. Et haec est ratio Algazelis 9.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud ergo quod primo
+          <lb ed="#Qb"/>obicitur contra hoc, dicendum quod pars dicitur
+          <lb ed="#Qb"/>minima secundum' speciem et secundum mate<lb ed="#Qb"/>riam.
+          Secundum speciem, illa scilicets in qua
+          <lb ed="#Qb"/>salvatur species et in quo minori non potest'
+          <lb ed="#Qb"/>species sive forma salvari, et hoc modo sumpto
+          'minimo' non est mixtio secundum minima *, quia
+          <lb ed="#Qb"/>secundum hoc miscibilia" essent in mixto se<lb ed="#Qb"/>cundum
+          suas species et esset compositio, non
+          <pb ed="#Qb" n="530"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>mixtio. Secundum materiam, et hoc dupliciter:
+          <lb ed="#Qb"/>uno modo secundum quod quanta est, et hoc
+          <lb ed="#Qb"/>modo, quia materia, in quantum est quanta, divi<lb ed="#Qb"/>sibilis
+          est in infinitum ', non est reperire in ea
+          <lb ed="#Qb"/>minimum secundum actum, sed solum secundum
+          <lb ed="#Qb"/>potentiam; alio modo, secundum quod est per<lb ed="#Qb"/>iectibilis
+          torma elementari, et sic dicitur minimum
+          <lb ed="#Qb"/>illud quo minus non est susceptibile speciei: hoc
+          <lb ed="#Qb"/>ultimo modo dicitur quod mixtio fit secundum"
+          <lb ed="#Qb"/>minima. Praeterea, notandum quod non est pos<lb ed="#Qb"/>sibilis
+          mixtio plurium corporum manentium in
+          <lb ed="#Qb"/>suisb corporeitatibusz; sed 0, sicut solet dici, sicut
+          <lb ed="#Qb"/>ex pluribusd formis fit una forma media, sic ex
+          <lb ed="#Qb"/>pluribus corporeitatibus fit una corporeitas, cuius
+          <lb ed="#Qb"/>est locus unus. Unde miscibilia in mixto non
+          <lb ed="#Qb"/>sunt distincta secundum locum et situm, quia
+          <lb ed="#Qb"/>habent unarn formam et unam corporeitatem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad id ergo quod obicitur quod 'minimi ad
+          <lb ed="#Qb"/>minimum non est proportio inaequalitatis ': dicen<lb ed="#Qb"/>dum
+          quod non est verum, prout dicitur mixtio
+          <lb ed="#Qb"/>fieri secundum minima; sicut enim determinatur
+          <lb ed="#Qb"/>a Philosopho3, ex uno pugillo aquae tiunt
+          <lb ed="#Qb"/>decem pugilli a'e'ris. Cuius ratio est quia huius!
+          <lb ed="#Qb"/>est materia grossior, illius subtilior; unde hoc
+          <lb ed="#Qb"/>habetf magis de mole, illud minus. Unde mi<lb ed="#Qb"/>nimum
+          materiae elementi, quod habet magisg
+          <lb ed="#Qb"/>de specie et minus de materia, longe minus est
+          <lb ed="#Qb"/>minimo materiae " elementi, quod habet magis de
+          <lb ed="#Qb"/>materia et minus de specie. Unde patet quod
+          <lb ed="#Qb"/>minimum est proportionalei minimo proportione
+          <lb ed="#Qb"/>inaequalitatis; unde minimum elementi ignis et
+          <lb ed="#Qb"/>minimum elementi terrae, prout sunt in mixto,
+          <lb ed="#Qb"/>valde sunt inaequalia, sicut illud quo minus non
+          <lb ed="#Qb"/>est susceptibile speciei terrae et illud quo minus
+          <lb ed="#Qb"/>non est susceptibile speciei ignis, quorum unum
+          <lb ed="#Qb"/>est ad aliud in magna distantia etk inaequalitate.
+          <lb ed="#Qb"/>Si autem quaeratur quo modo illud mini<lb ed="#Qb"/>mum,
+          quod est ignis elementi, potest diffundi
+          <lb ed="#Qb"/>sive extendi per omnes partes mixtil per quas
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>se diffundit et extendit illud minimum, quod est
+          <lb ed="#Qb"/>terrae elementi, quod est magnae quantitatis re<lb ed="#Qb"/>spectu
+          illius: dicendum quod hoc est'" ratione
+          <lb ed="#Qb"/>materiae, quae, ratione qua quanta est, potest
+          <lb ed="#Qb"/>extendi et diffundi secundum extensionem corporis
+          <lb ed="#Qb"/>longe maioris; sicut patet de gutta vini, si effun<lb ed="#Qb"/>datur
+          in vas aquae magnum, respectu illius dit<lb ed="#Qb"/>funditur
+          materia illius per totum vas illud se<lb ed="#Qb"/>cundum
+          quantitatem aquae, cui commisceturt, et,
+          <lb ed="#Qb"/>ut volunt aliqui", aliquid parvae quantitatis pos<lb ed="#Qb"/>sibile
+          est ad " diftusionem infinitam ratione quan<lb ed="#Qb"/>titatis
+          suae materiae, sicut divisibileP est in in<lb ed="#Qb"/>finitum
+          ratione qua quantum est 4.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ex iis patet responsio ad illud quod se<lb ed="#Qb"/>quitur,
+          q/uia, licet miscibilia in mixto aequaliter
+          <lb ed="#Qb"/>se diffundant et extendant, non ex hoc sequitur
+          <lb ed="#Qb"/>quod sint aequalis molis, quia partes materiales
+          <lb ed="#Qb"/>eorum elementorum, quae minus habent de specie
+          <lb ed="#Qb"/>et magis de materia, magis consertae' sunt in
+          <lb ed="#Qb"/>mixto et compactae, partes autems materiales
+          <lb ed="#Qb"/>elementorum, quae habent plusf de specie et
+          <lb ed="#Qb"/>minus de materia, minus" consertae sunt et ma<lb ed="#Qb"/>gis"
+          diffusae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad illud Algazel quo videtur dicere quod
+          'commixtiox elementorum in corpore apto ad sus<lb ed="#Qb"/>ceptionem
+          animae rationalis debet esse pulcrioris
+          <lb ed="#Qb"/>et perfectioris aequalitatis' etc.?: dicendum quod
+          <lb ed="#Qb"/>ipse loquitur comparative, scilicet habita compa<lb ed="#Qb"/>ratione
+          ad corpora brutorum, ut patet per ea quae
+          <lb ed="#Qb"/>dicuntur ibidem. Dicit enim ibidem consequenter5:
+    <quote> Spermatis necessitas z venit in corpus hominis ex
+          <lb ed="#Qb"/>cibis, qui Sunt subtiliores cibis animalium et cibis
+          <lb ed="#Qb"/>vegetabilium, et ex virtutibus et mineriis, quae
+          <lb ed="#Qb"/>sunt pulcriores virtutibus et mineriis animalium </quote>.
+          —— Ad illud quod dicit Constantinus quod
+          'aequalis est commixtio elementorum' etc.: dicen—
+          <lb ed="#Qb"/>dum quod illa aequalitas, quam ibiidescribitrest
+          <lb ed="#Qb"/>magis secundum rationem quam secundum rei
+          <lb ed="#Qb"/>existentiam, sicut tactum est 5.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

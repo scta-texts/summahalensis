@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 4, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 4, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q4c5">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 4, C. 5</head>
+        <head type="question-title">QUAE SIT CAUSA ORDINIS.</head>
+        <p>
+          <lb ed="#Qb"/>Quinto quaeritur quae sit causa ordinis. Ad quod
+          <lb ed="#Qb"/>sic tum ex parte efficientis, tum ex parte finis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>I. 1. Ex parte efficientis videtur quod sapien<lb ed="#Qb"/>tia
+          divina sit causa, secundum quod dicit B. G re<lb ed="#Qb"/>goriusl
+          quod ex magnitudine creaturarum intel<lb ed="#Qb"/>ligitur
+          omnipotens, ex ordine et dispositione sa<lb ed="#Qb"/>piens, 
+          ex gubernatione bonus; ergo ordo in crea<lb ed="#Qb"/>turis 
+          attestatur sapientiae divinae tamquam causae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Quod autemf voluntas divina et potestas
+          <lb ed="#Qb"/>sint causa, habetur ex hoc quod dicit Augusti<lb ed="#Qb"/>nus,
+          in V De civitate Deizz <quote> Ipsum causarum
+          <lb ed="#Qb"/>ordinem et quamdam connexionem Dei summi
+          <lb ed="#Qb"/>tribuunt voluntati et potestati</quote>. Ex quo habetur
+          <lb ed="#Qb"/>quod voluntas divina et potestas sunt causa or<lb ed="#Qb"/>dinis
+          in creaturis, quae sunt partes mundi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum quod ordo in
+          <lb ed="#Qb"/>creaturis est a divina potestate, sapientia et volun<lb ed="#Qb"/>tate:
+          indivisa enim est operatio. Dicitur tamen prop<lb ed="#Qb"/>ter
+          appropriationem quod congruit sapientiae divi<lb ed="#Qb"/>nae
+          ordo, quia ordinare res decenter in se con<lb ed="#Qb"/>gruit
+          sapientiae3: potest enimär homo esse potens et
+          <lb ed="#Qb"/>bonus, nec tamen habet rationem ordinandi unum—
+          <lb ed="#Qb"/>quodque decenter in suo ordine, sedh hoc con<lb ed="#Qb"/>gruit
+          sapienti; per quam similitudinem nos de
+          <lb ed="#Qb"/>Deo loquimur, licet sit in eo potentia eti sapientia
+          <lb ed="#Qb"/>et voluntas. Quod ergo diciturk 'ex ordine et
+          <lb ed="#Qb"/>dispositionel sapiens ', attenditur per appropria<lb ed="#Qb"/>tionem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Sed similiter quaeritur ex parte causae
+          <lb ed="#Qb"/>finalis ipsius ordinis '" universi, ratione cuius
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>quaeritur, si universum sive mundus habet ordinem
+          <lb ed="#Qb"/>in partibus, utrum praeter illum necessario ordi<lb ed="#Qb"/>nem
+          habeat ad aliquid quod non est de universo.
+          <lb ed="#Qb"/>Nam si non habet ordinem ad aliquid extra, cum
+          <lb ed="#Qb"/>finis sit causa extrinseca, non habet ordinem ad
+          <lb ed="#Qb"/>finem; ergo universum totaliter in se ipso finietur.
+          <lb ed="#Qb"/>Si vero habeat ordinem ad aliquid extra, tunc est
+          <lb ed="#Qb"/>quaestio utrum magis perficiatur ab ordine par<lb ed="#Qb"/>tium 
+          inter se an ab- ordine ad illud quod est quasi
+          <lb ed="#Qb"/>extra.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur a. quod ab ordine partium inter
+          <lb ed="#Qb"/>se ", sicut est in compositione corporis humani
+          <lb ed="#Qb"/>quod ex ordine partium essentiatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed contra hoc est 1. quod finis non dicitur esse
+          <lb ed="#Qb"/>simpliciter in creatura: nam si esset finis in crea<lb ed="#Qb"/>tura,
+          oporteret quod creatura non ordinaretur ad
+          <lb ed="#Qb"/>aliud "; ordinatur autem; non? ergo in ipsa con<lb ed="#Qb"/>stituitur
+          finis ipsius mundi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum? per hoc quod
+          <lb ed="#Qb"/>dicit A ugustinus, Super Genesim ad litteram 4:
+    <quote> Ipsa universitas creaturae, quae sex diebus con<lb ed="#Qb"/>summata
+          est, aliud habet in sua natura, aliud in suo
+          <lb ed="#Qb"/>ordine quo in Deo est, non sicut Deus, sed tamen
+          <lb ed="#Qb"/>ita ut ei quies propriae stabilitatis non sit' nisi
+          <lb ed="#Qb"/>in illius quiete qui nihil propter se appetit, quo
+          <lb ed="#Qb"/>adepto requiescat</quote>. Ex quo accipitur quod est
+          <lb ed="#Qb"/>finis intra ipsius universi qui determinatur in sex
+          <lb ed="#Qb"/>diebus, et finis extra secundum rationem ipsius
+          <lb ed="#Qb"/>universi, qui in septimo die determinatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Et per hoc patet illud quod
+          <lb ed="#Qb"/>obiectum est; illud enim quod obiectum est ants
+          <lb ed="#Qb"/>respicit finem extra aut finem intra.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

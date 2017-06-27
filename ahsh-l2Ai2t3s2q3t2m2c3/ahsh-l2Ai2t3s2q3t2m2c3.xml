@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="260"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t2m2c3">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 2, C. 3</head>
+        <head type="question-title">UTRUM ANGELI DICANTUR INCENTORES COGITATIONUM TANTUM AN ETIAM AFFECTIONUM.</head>
+        <p>
+          <lb ed="#Qb"/>Tertio quaeritur utrum dicantur incentores co<lb ed="#Qb"/>gitationum
+          tantum an etiam affectionum.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Et videtur quod possint incendere affectio<lb ed="#Qb"/>
+          <lb ed="#Qb"/>nem sive voluntatem: 1. Cum enim maius sit
+          <pb ed="#Qb" n="261"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>posse angeli quam praedicatoris, praedicator au<lb ed="#Qb"/>tem
+          potest accendere voluntatem 'ad bonum per
+          <lb ed="#Qb"/>praedicationem, unde" Hebr. 1, 14, super illud 1: .
+          <lb ed="#Qb"/>
+          <quote ana="#hebr1_14">Qui facit angelos suos spiritus et ministros suos
+          <lb ed="#Qb"/>flammam ignis</quote>, Glossa": <quote>Ministros suos
+          <lb ed="#Qb"/>flammam ignis facit 4, quia ministri Ecclesiae
+          <lb ed="#Qb"/>ignis sunt, dum spiritu fervent et vitia nostra
+          <lb ed="#Qb"/>urunt: foenum enim tuum incendunt</quote>. Ergo an<lb ed="#Qb"/>geli
+          possunt incendere voluntatem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, quemadmodum se habet illuminare ad
+          <lb ed="#Qb"/>intellectum, ita accendere ad affectum; sed sic
+          <lb ed="#Qb"/>est ine inferioribus quod causa illuminationis est
+          <lb ed="#Qb"/>causa accensionis; ergo sic erit in superioribusf ;
+          <lb ed="#Qb"/>cum ergo angeli boni illuminent intellectum, per
+          <lb ed="#Qb"/>consequens accendent affectum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Si accensibile adiungatur accensivo,
+          <lb ed="#Qb"/>necessario fit accensio; sed non necessario in<lb ed="#Qb"/>ducitur
+          voluntas bona per operationem angeli;
+          <lb ed="#Qb"/>ergo angelus bonus non accendit voluntatem
+          <lb ed="#Qb"/>bonam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Bernardus, in libro De libero arbi<lb ed="#Qb"/>trio
+          3: <quote> Voluntas est potentissimum in anima, et
+          <lb ed="#Qb"/>in hoc gerit immediate similitudinem divinae
+          <lb ed="#Qb"/>voluntatis</quote>. Nihil ergo potest super volunta<lb ed="#Qb"/>tem
+          rationalem nisi ipse Deus; non ergo an<lb ed="#Qb"/>geli
+          sunt incentoresg bonarum voluntatum: quod
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>enim incendit, posse habet super illud quod in<lb ed="#Qb"/>cenditur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendumM quod incendere
+          <lb ed="#Qb"/>dicitur dupliciter: uno modo ipsam speciem ignis
+          <lb ed="#Qb"/>praebere, et sic spiritualiter Deus est incentor
+          <lb ed="#Qb"/>bonae voluntatis: praebet enim speciem ignis spi<lb ed="#Qb"/>ritualis,
+          scilicet caritatis, ipsi voluntati; ipse enim
+          <lb ed="#Qb"/>est' qui dicit5 : <quote>Ignem veni mittere in terram,
+          <lb ed="#Qb"/>et quid volo nisi ut accendatur?</quote> Incendere vero
+          <lb ed="#Qb"/>alio modo dicitur mater-iam accensibilem dispo<lb ed="#Qb"/>nere,
+          et sic nihil prohibet angelum mediante co<lb ed="#Qb"/>gitatione
+          disponere voluntatem, primo modok non.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 2. Ad obiectum autem in con<lb ed="#Qb"/>trarium,
+          dicendum est quod aliud est de accen<lb ed="#Qb"/>sione
+          etl illuminatione materiali, et aliud "' de il<lb ed="#Qb"/>luminatione
+          et accensione spirituali. Illa enim fit
+          <lb ed="#Qb"/>secundum cursum naturae, in qua accensio se<lb ed="#Qb"/>quitur
+          illuminationem necessario; hic autem nulla
+          <lb ed="#Qb"/>necessitas" est: in ipsa enim anima est consen<lb ed="#Qb"/>tire
+          vel non consentire. Nec hoc modo dicitur
+          <lb ed="#Qb"/>angelus incendere sicut ignis incendit lignum
+          <lb ed="#Qb"/>quod est praeparatum incensioni: unde ex opera<lb ed="#Qb"/>tione
+          angeli non est necessaria accensio animae
+          <lb ed="#Qb"/>rationalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Ex0 hoc patet responsio ad alia, quia prae<lb ed="#Qb"/>dicatores
+          non accendunt nisi praeparando.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

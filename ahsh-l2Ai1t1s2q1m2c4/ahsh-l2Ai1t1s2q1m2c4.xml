@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="46"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q1m2c4">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 2, C. 4</head>
+        <head type="question-title">UTRUM VESTIGIUM CONVENIAT SECUNDUM MAGIS ET MINUS.</head>
+        <p>
+          <lb ed="#Qb"/>Ad quartum, scilicet an conveniat secundum
+          <lb ed="#Qb"/>magis et minus, sic proceditur:
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Quod aeque dicatur, ostenditur per similitu<lb ed="#Qb"/>dinem:
+          1. Si magnus pes ponatur in pulvere7
+          <pb ed="#Qb" n="47"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>differenti, tantum derelinquereta similitudinis in
+          <lb ed="#Qb"/>uno pulvere sicut et in alio nisi esset aliqua repu<lb ed="#Qb"/>gnantia
+          ex parte recipientis: idem enim similiter
+          <lb ed="#Qb"/>se habens natum est facere idem'; ergo, cum
+          <lb ed="#Qb"/>voluntas summa sit causa imprimendi in crea<lb ed="#Qb"/>turis
+          quamdam obscuram similitudinem, tantum
+          <lb ed="#Qb"/>imprimet uni creaturae de unitate, specie et or<lb ed="#Qb"/>dine
+          quantum et alii; ergo aeque dicetur vesti<lb ed="#Qb"/>gium
+          de hac creatura sicut de illa: sicut enim
+          <lb ed="#Qb"/>in rebus non dicitur una species magis species
+          <lb ed="#Qb"/>quam alia et una unitas magis unit-as quam alia
+          <lb ed="#Qb"/>et unus ordo magis ordo quam alius, cum sint
+          <lb ed="#Qb"/>in suo summo, ita nec dicetur vestigium, cum
+          <lb ed="#Qb"/>secundum ista attendatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. <name ref="#Augustine">Augustinus</name>, De civitate Deiz:
+    <quote> Creatoris, tamquam per omnia quae fecit mira<lb ed="#Qb"/>bili
+          stabilitate currentis, quasi quaedam eius alibi
+          <lb ed="#Qb"/>magis ", alibi minus impressa. vestigia colliga<lb ed="#Qb"/>mus
+    </quote>. Ex quo arguitur quod vestigium dicitur se<lb ed="#Qb"/>cundum
+          magis et minus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, pulcrum dicitur secundum magis
+          <lb ed="#Qb"/>et minus, et bonum secundum magis et minus, et
+          <lb ed="#Qb"/>ens secundum magis et minus: nam incorrupti<lb ed="#Qb"/>bilec
+          magis dicitur ens quam corruptibile; ergo
+          <lb ed="#Qb"/>ens, pulcrum, bonum, quae sunt causa vestigii,
+          <lb ed="#Qb"/>dicuntur secundum magis et minus; ergo et ratio
+          <lb ed="#Qb"/>vestigii dicetur secundum magis et minus. Unde
+          <lb ed="#Qb"/>Dionysius, De divinis nominibus3: <quote>Omnibus
+          <lb ed="#Qb"/>est bonum et optimum concupiscibile;et propter
+          <lb ed="#Qb"/>ipsum minora amantbmeliora conversibiliter d, et
+          <lb ed="#Qb"/>sociativee aequitormia aeque honorabilia, et me<lb ed="#Qb"/>lioraf
+          minora </quote>. Vult ergo dicere quod est-minus
+          <lb ed="#Qb"/>bonum et maius et medium. Et <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Qb"/>in libro 83 Quaestionum4: <quote> Non essent omnia,
+          <lb ed="#Qb"/>si essent aequalia </quote>; per quod datur intelligi quod
+          <lb ed="#Qb"/>in universo quaedam sunt magis bona, quaedam
+          <lb ed="#Qb"/>minus bona, et similiter pulcra. Similiter, in li<lb ed="#Qb"/>bro
+          De natura boni 5: <quote>Omnia, quanto magis
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>moderata, speciosa, ordinata sunt, tanto magis
+          <lb ed="#Qb"/>bona sunt</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ex quibus colligitur quod dicitur vestigium
+          <lb ed="#Qb"/>secundum magis et minus. — Quod conce<lb ed="#Qb"/>dendum
+          est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primog obiectum vero
+          <lb ed="#Qb"/>in contrarium, respondenclum'l quod non est si<lb ed="#Qb"/>mile
+          de pede, qui naturaliter imprimit vestigium,
+          <lb ed="#Qb"/>et de auctore summo qui suum imprimit vesti<lb ed="#Qb"/>gium
+          per rationabilem voluntatem. Eo enim quod
+          <lb ed="#Qb"/>per rationabilem voluntatem agit, alii communicat
+          <lb ed="#Qb"/>plus de pulcro et bono, alii minus, et similiter
+          <lb ed="#Qb"/>de esse. Nec hoc est contrarium quod similiter se
+          <lb ed="#Qb"/>habet ex parte sui: ab ipso enim uno modo se ha<lb ed="#Qb"/>bente
+          exeunt dissimiliter entia, ut manifestetur eius
+          <lb ed="#Qb"/>bonitas et sapientia. — Ad id vero quod obicitur
+          <lb ed="#Qb"/>quod *unitas non dicitur secundum magis et mi<lb ed="#Qb"/>nus
+          vel species': distinguendum est'" quod est
+          <lb ed="#Qb"/>speciem accipere respectu eorum quorum est spe<lb ed="#Qb"/>cies,
+          et secundum hoc, logice dicendo *, non di<lb ed="#Qb"/>citur
+          secundum magis et minus de illis. Est iterum
+          <lb ed="#Qb"/>accipere speciem comparando cum alia specie
+          <lb ed="#Qb"/>respectu generis, et ita' non dicuntur secundum
+          <lb ed="#Qb"/>magis et minus habere illud genus. Tertio vero
+          <lb ed="#Qb"/>modo est loqui de illis secundum quod in uni<lb ed="#Qb"/>verso
+          ordinantur habentia maiorem dignitatem vel
+          <lb ed="#Qb"/>minorem, et sic dicuntur secundum magis et minus
+          <lb ed="#Qb"/>species propter speciositatem maiorem vel mino<lb ed="#Qb"/>rem ". 
+          Similiter est dupliciter loqui de unitate:
+          <lb ed="#Qb"/>est enim loqui de unitate comparando ad aliam
+          <lb ed="#Qb"/>unitatem eiusdem speciei, et sic non dicitur ma<lb ed="#Qb"/>gis
+          unum vel" minus unum; similiter in numero,
+          <lb ed="#Qb"/>qui ex iis componitur. Est autem referre ad sum<lb ed="#Qb"/>mam
+          unitatem, a qua habent per participationem
+          <lb ed="#Qb"/>unitatem 9, et secundum hoc dicitur magis vere
+          <lb ed="#Qb"/>unum et minus vere unum P.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Per iam dicta apparet qualiter respondendum
+          <lb ed="#Qb"/>est ad supra obiecta.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

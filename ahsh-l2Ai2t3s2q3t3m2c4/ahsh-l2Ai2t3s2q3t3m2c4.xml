@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="302"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t3m2c4">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 2, C. 4</head>
+        <head type="question-title">UTRUM BONI PLUS POSSINT FACERE MIRACULA QUAM MALI.</head>
+        <p>
+          <lb ed="#Qb"/>Quaeritur etiam utrum boni plus possint facere
+          <lb ed="#Qb"/>miracula quam mali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et quod sic videtur': 1. Constat enim quod ra<lb ed="#Qb"/>tione
+          naturae non sunt inferiores boni malis; ra<lb ed="#Qb"/>tione-autem
+          gratiae constat quod melioris condi<lb ed="#Qb"/>tionis
+          sunt boni quam mali; ergo videtur quod
+          <lb ed="#Qb"/>tantum vel aeque boni possint sicut mali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed contra.: a. <name ref="#Augustine">Augustinus</name>, in libro 83 Quae<lb ed="#Qb"/>stianumöz 
+    <quote> Intelligimusf quaedam miracula etiam
+          <lb ed="#Qb"/>sceleratos homines tacere, qualia sancti facere
+          <lb ed="#Qb"/>non possunt </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad hoc ultimum solvit ibidem 6 di<lb ed="#Qb"/>cens
+          quod <quote>non ideo potioris loci apud Deum
+          <lb ed="#Qb"/>arbitrandi sunt</quote> esse scelerati quam iusti: <quote> non
+          <lb ed="#Qb"/>enim acceptiores erantapud Deum magi Pharaonis
+          <lb ed="#Qb"/>quam populus " Israel, quia non poterat ille po<lb ed="#Qb"/>pulus
+          facere quod illi faciebant, quamvis Moyses
+          <lb ed="#Qb"/>in virtute Dei maiora potuerit </quote>. Unde revera mali
+          <lb ed="#Qb"/>non possent illa facere nisi permissi; boni autem,
+          <pb ed="#Qb" n="303"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>si daretur a Domino, possent et illa et maiora 
+          <lb ed="#Qb"/>facere; non tamen sine recta ordinatione Domini
+          <lb ed="#Qb"/>est quod eis non datur haec potestas sicut et
+          <lb ed="#Qb"/>malis. Unde subdens causam quare non detur
+          <lb ed="#Qb"/>eis, dicit: <quote> Ideo non omnibus sanctis ista tribuun<lb ed="#Qb"/>tur
+          a, ne perniciosissimo errore decipiantur infirmi,
+          <lb ed="#Qb"/>existimantesb in talibus factis esse maiora dona
+          <lb ed="#Qb"/>quam in operibus iustitiae quibus aeterna vita
+          <lb ed="#Qb"/>comparatur. Propterea Dominus prohibet hinc
+          <lb ed="#Qb"/>gaudere discipulos, cum ait: Nolite in hoc gau<lb ed="#Qb"/>dere
+          quoniam spiritus vobis subiecti sunt, sed
+          <lb ed="#Qb"/>gaudete, quia nomina vestra scripta sunt in caelis,
+          <lb ed="#Qb"/>Luc. 10, 20 </quote>. Nec ergo ratione naturae nec ratione
+          <lb ed="#Qb"/>gratiae fiunt ista miracula, sed ex virtute Dei.
+          <lb ed="#Qb"/>Quare autem non detur aliquando sanctis sicut
+          <lb ed="#Qb"/>et peccatoribus, ratio est iam dicta'.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad hoc autem quod quaeritur utrum indiffe<lb ed="#Qb"/>renter
+          circa res omnes possint facere malic mi<lb ed="#Qb"/>racula:
+          dicimus, sicut credimus, quod non. Etsi
+          <lb ed="#Qb"/>enim ratione naturae esset diabolus superior om<lb ed="#Qb"/>nibus
+          inferioribus creaturis, tamen per peccatum
+          <lb ed="#Qb"/>suum ita praecipitatus est ut non iam aequaliter
+          <cb ed="#Qb" n="b"/>
+          possit in omnibus creaturis, sed quanto magis
+          <lb ed="#Qb"/>est ignobilior aliqua creatura inter ceteras, tanto
+          <lb ed="#Qb"/>magis exerceatd potestatem suam in illam; unde,
+          <lb ed="#Qb"/>quia ignobilissimi intere omnia animantia viden<lb ed="#Qb"/>tur
+          esse serpentes et huiusmodi, frequentius utitur
+          <lb ed="#Qb"/>illis et exercet sua mirabilia in huiusmodi f. Unde
+          <lb ed="#Qb"/>A n gustin us, XI Super Genesim ad litteram 2:
+    <quote> Gaudent daemones hanc potestatem sibi dari, ut
+          <lb ed="#Qb"/>ad incantationem hominum serpentes moveant, utg
+          <lb ed="#Qb"/>quolibet modo fallant quos possunt </quote>. Et assignat
+          <lb ed="#Qb"/>etiam congruitatem quare magis utuntur huiusmodi
+          <lb ed="#Qb"/>serpentibus, subdens: <quote> Hoc'! autem facere permit<lb ed="#Qb"/>tuntur
+          ad primi tacti * memoriam commendandam,
+          <lb ed="#Qb"/>quod sit eis quaedam cum hoc genere familiari<lb ed="#Qb"/>tas
+    </quote>. Unde vult dicere quod in hoc quod modo
+          <lb ed="#Qb"/>decipiunt per miracula circa ista, commendatur me<lb ed="#Qb"/>moria
+          primi facti, scilicet quod ipsi deceperunt pri<lb ed="#Qb"/>mum
+          hominem per serpentem, quod debet homo
+          <lb ed="#Qb"/>memoriter retinere et etiam daemones memoriter
+          <lb ed="#Qb"/>tenent, cognoscentes in poena, qua k pro illa sug<lb ed="#Qb"/>gestione
+          graviter affliguntur, quantum in illa prima
+          <lb ed="#Qb"/>tentatione sive primo facto commiserunt in culpa.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="60"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q1c1">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 1, C. 1</head>
+        <head type="question-title">UTRUM PER SE DICATUR CREATUM COMPOSITUM EX MATERIA ET FORMA.</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic obicitur: a. Compositum ex ma<lb ed="#Qb"/>teria 
+          et forma perfectum estf in suo genere; a
+          <lb ed="#Qb"/>perfecto autem simpliciter secundum rationem po<lb ed="#Qb"/>tentiae
+          et sapientiae et bonitatis convenit proce<lb ed="#Qb"/>dere
+          perfectum secundum primam rationem,; sed
+          <lb ed="#Qb"/>hoc est compositum, sicut dictum est 1, creatio au<lb ed="#Qb"/>tem
+          est prima ratio procedendi in creaturis 8; ergo
+          <lb ed="#Qb"/>compositum ditetur per se creatum. Nec obviat
+          <lb ed="#Qb"/>ratio creati, quae est 'proceclens'Z de non-esse
+          <lb ed="#Qb"/>omnino in esse ': hoc enim convenit ipsi composito.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, cum ' per se ens' conveniat iis tribus,
+          <lb ed="#Qb"/>proprie et primo convenit composito, materiae vero,
+          <lb ed="#Qb"/>quia non est in subiecto, sed est alterius subiec—
+          <lb ed="#Qb"/>tum, formae vero ut qua formaliter res est id
+          <lb ed="#Qb"/>quod est 2; sed cui convenit proprie et primo esse
+          <lb ed="#Qb"/>substantiam de nihilo factam, hoc est creatum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>per se et primo; ergo compositum dicetur per
+          <lb ed="#Qb"/>se et primo creatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, hoc est in quo stat actus naturae vel
+          <lb ed="#Qb"/>voluntatis.; multo ergo fortius actus creationis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, in libro De Sym<lb ed="#Qb"/>bolo-"':
+    <quote>Materia de nihilo facta est ita ut ordi<lb ed="#Qb"/>natissimo
+          Dei munere primo capacitas formarum
+          <lb ed="#Qb"/>tieret ac deindei postea formarentur quaecumque
+          <lb ed="#Qb"/>formata sunt </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, quod convenit plus cum principio
+          <lb ed="#Qb"/>creante, plus habet similitudinis; sed materies, a
+          <lb ed="#Qb"/>qua formatus est mundus, convenit in hoc cum
+          <lb ed="#Qb"/>Primo secundum quamdam proportionem ut di<lb ed="#Qb"/>catur
+          origo rerum, quod non est dicere de aliqua
+          <lb ed="#Qb"/>forma vel de composito. Unde <name ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Qb"/>libro Confessionum4: <quote>Materia, a qua formatus
+          <pb ed="#Qb" n="61"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>est mundus, origine, non tempore, res ex se factas
+          praecessit </quote>. Cum ergo plus habeat similitudinis,
+          magis participabit rationem entis, et ita eius quod
+          creatum est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3 •. Q u o d a u t e m c o n v e n i a t f o r m a e, videtur:
+          <lb ed="#Qb"/>Forma enim est quae dat esse materiae et
+          <lb ed="#Qb"/>ipsi composito 1 ; quod autem dat esse materiae a
+          <lb ed="#Qb"/>et ipsi composito b, in hoc habet ampliorem similitudinem
+          <lb ed="#Qb"/>cum ipso Creatore et fluit de non-esse;
+          <lb ed="#Qb"/>ergo habet plus c rationem creati.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, plus convenit cum ipsa forma exemplari;
+          <lb ed="#Qb"/>ergo plus habet de ratione exemplati; quare
+          <lb ed="#Qb"/>per consequens plus habet de ratione d creati.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad hoc respondendum est e quod,
+          <lb ed="#Qb"/>cum ' creatum ' dicat terminum actus qui est
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>creatio - undef creatum est quod est t ex iis, scilicet
+          <lb ed="#Qb"/>materia et forma, et ipsa materia et ipsa
+          <lb ed="#Qb"/>forma 2 - nihilominus tamen propter aliquam similitudinem
+          <lb ed="#Qb"/>dicitur compositum primo creatum sive
+          <lb ed="#Qb"/>primo habens rationem entis, propter aliam autem
+          <lb ed="#Qb"/>dicitur forma, propter aliam autem materia h.
+          <lb ed="#Qb"/>Propter rationem enirn perfecti et eius · quod est
+          <lb ed="#Qb"/>per se et in se sufficientis convenit ei primo ratio
+          <lb ed="#Qb"/>creati; sed propter rationem actus et forrnae,
+          <lb ed="#Qb"/>secundum quorum utrumque habet aliquam sirnilitudinem
+          <lb ed="#Qb"/>eu m Primo dicetur forma; secundum
+          <lb ed="#Qb"/>vero rationern originis et potentiam prirnam in
+          <lb ed="#Qb"/>suo genere habentis dicetur materia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1-4. Ex iis patet solutio praedic<lb ed="#Qb"/>torum
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

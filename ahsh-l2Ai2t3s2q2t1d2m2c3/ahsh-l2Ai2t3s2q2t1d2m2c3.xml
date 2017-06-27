@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t1d2m2c3">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 3</head>
+        <head type="question-title">UTRUM DILECTIONE ELECTIVA DILIGATUR DEUS AB ANGELO SUPER OMNIA.</head>
+        <p>
+          <lb ed="#Qb"/>Tertio quaeritur si Deus illa dilectione ab an<lb ed="#Qb"/>gelo
+          prae se ipso diligatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur 1. per hoc quod dicit Augusti<lb ed="#Qb"/>nus, 
+          in libro De fide ad Petrum 2. Dicit enim:
+          <lb ed="#Qb"/>
+          <quote> Angelos aeternos creavit et in eis facultatem
+          <lb ed="#Qb"/>atque intelligentiam cognoscendae diligendaeque
+          <lb ed="#Qb"/>veritatis inseruit; quos etiam creavit ut prae se
+          <lb ed="#Qb"/>ipsis illum diligerent cuius se tales creatos opere
+          <lb ed="#Qb"/>cognovissent, cum eorum, ut tales fierent; nulla
+          <lb ed="#Qb"/>merita praecessissent. Ut autem haec dilectio ha<lb ed="#Qb"/>beret
+          iustam et congruam laudem, voluntatis quo—
+          <lb ed="#Qb"/>que eis tribuit libertatem, ut esset eis possibile
+          <lb ed="#Qb"/>sive ad eum, qui supra ipsos est, intentionem
+          <lb ed="#Qb"/>sanctae dilectionis erigere, sive ad se sivef ad
+          <lb ed="#Qb"/>ea, quae infra eos sunt, pravae cupiditatis se<lb ed="#Qb"/>metipsos
+          pondere declinare</quote>. Ex quo accipitur
+          <lb ed="#Qb"/>quod Deus contulit angelis libertatem voluntatis,
+          <lb ed="#Qb"/>ut prae se ipsis ipsum diligerent; ergo ex libertate
+          <lb ed="#Qb"/>voluntatis prae se ipsis poterant Deumg diligere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, angeli cognoverunt ex intelligentia sibi
+          <lb ed="#Qb"/>data Deum esse summe bonum et super omnia
+          <lb ed="#Qb"/>diligendum, se autem non summe bonos; volun<lb ed="#Qb"/>tas
+          ergo, ex hac ratione ordinata procedens, Deum
+          <lb ed="#Qb"/>praetulit dilectione vel praeferre potuit sibi et
+          <lb ed="#Qb"/>omni creaturae; ergo ex dilectione electiva, etiam
+          <lb ed="#Qb"/>si non adesset gratia gratum faciens, posset di<lb ed="#Qb"/>ligere
+          Deum super omnia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Caritatis est diligere Deum propter se
+          <lb ed="#Qb"/>et super omnia ; caritas autem non est sine gratia
+          <lb ed="#Qb"/>gratum faciente; ergo liberum arbitrium non potest
+          <lb ed="#Qb"/>in illum actum. sine gratia gratum faciente; non
+          <lb ed="#Qb"/>ergo ex dilectione electiva, quae est solius liberi
+          <lb ed="#Qb"/>arbitrii, potuit angelus diligere Deum prae se ipso.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, rationis ex se non est" abnegare
+          <lb ed="#Qb"/>se, sed ex gratia fidei sive cognitionis consimilis
+          <lb ed="#Qb"/>fidei, quae scilicet rationem elevet super se; sed
+          <lb ed="#Qb"/>diligere Deum propter se et super omnia est ex
+          <lb ed="#Qb"/>fide vel ex cognitione censimili fidei; ergo non
+          <lb ed="#Qb"/>est angeli ex dilectione electiva, quae est solius
+          <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>liberii arbitrii, diligere Deum propter se et su<lb ed="#Qb"/>per
+          se ipsum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod est quod<lb ed="#Qb"/>dam
+          diligere Deum propter se et prae se ipso,
+          <lb ed="#Qb"/>quod est ex gratia gratum faciente, cognitione
+          <lb ed="#Qb"/>deiformi existente k tamquam fundamento et'
+          <lb ed="#Qb"/>caritate tamquam forma, et istud non est ex solo
+          <lb ed="#Qb"/>libero arbitrio; hoc autem diligere procedit ex
+          <lb ed="#Qb"/>cognitione Dei ut creatoris, iustificatoris et glo<lb ed="#Qb"/>rificatoris'"
+          secundum quod ad gloriam pertinet
+          <lb ed="#Qb"/>visio Dei unius et trini, quia ad horum cognitio<lb ed="#Qb"/>nem
+          non pervenitur sine gratia. Est autem aliud
+          <lb ed="#Qb"/>diligere Deum prae se" ipso et propter Deum,
+          <lb ed="#Qb"/>quod procedit ex cognitione Dei ut conferentis esse
+          <lb ed="#Qb"/>et conferentiso beatitudinem in hac generali ra<lb ed="#Qb"/>tione
+          vel potentis conferre — nec dico conferentis
+          <lb ed="#Qb"/>esse per creationem vel conferentis beatitudinem
+          <lb ed="#Qb"/>per glorificationem, quia ad hoc non pervenitur
+          <lb ed="#Qb"/>sine gratia — et in hac? ratione potest liberum
+          <lb ed="#Qb"/>arbitrium in angelisq diligere Deum prae se.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Et per hanc distinctionem pos<lb ed="#Qb"/>sunt
+          solvi obiecta. Illud autem, quod dicit Au<lb ed="#Qb"/>gustinus,
+          intelligitur quod, licet data esset eis
+          <lb ed="#Qb"/>potentia ad diligendum Deum prae se, non tamen
+          <lb ed="#Qb"/>Idiligere Deum prae se", ut ibi accipitur, esset
+          <lb ed="#Qb"/>ex solo libero arbitrio. Et hoc patet per hoc quod
+          <lb ed="#Qb"/>dicitur in illa auctoritate: <quote> ut esset eis possibiles
+          <lb ed="#Qb"/>sive ad eum *, qui super eos est, intentionem"
+          <lb ed="#Qb"/>sanctae dilectionis erigere </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum" dicendum quod secun<lb ed="#Qb"/>dum
+          illum modum, qui dictus est superius 3,
+          <lb ed="#Qb"/>poterat angelus ex libero arbitrio diligere Deum
+          <lb ed="#Qb"/>prae se: ex intelligentia enim sibi collata poterat
+          <lb ed="#Qb"/>cognoscere Deum esse summe * bonum et summe
+          <lb ed="#Qb"/>diligendum. Et est aliud de ratione ut est ratio
+          <lb ed="#Qb"/>quam de ratione ut? natura 4. Ratio enim ut est
+          <lb ed="#Qb"/>ratio potest cognoscere Deum ut summe bonum in
+          <lb ed="#Qb"/>se, non tantum ut beneficum; natura vero sive ratio
+          <lb ed="#Qb"/>ut natura, si habet cognitionem naturalem vel ap<lb ed="#Qb"/>petitum
+          naturalem, in se quodam modo reflectit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

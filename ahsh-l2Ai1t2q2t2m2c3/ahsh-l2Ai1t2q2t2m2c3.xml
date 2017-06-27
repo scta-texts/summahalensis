@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="74"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q2t2m2c3">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 2, C. 3</head>
+        <head type="question-title">DE COMPOSITIONE PRIMA EX 'QUOD EST', ET 'QUO EST '</head>
+        <p>
+          <lb ed="#Qb"/>Tertio quaeritur de causa compositionis primae.
+          <lb ed="#Qb"/>Iam autem: dictum est1 quod prima compo<lb ed="#Qb"/>sitio
+          et universalior est ex 'quo est'li et 'quod
+          <lb ed="#Qb"/>est': sicut enim <quote>in omnino simplici idem est
+          ' quod est ' et 'quo est '2</quote>, ita in compositis differt
+          'quod est' et 'quo est'.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quaerendum est ergo:
+          <lb ed="#Qb"/>Primo 2, utrum conveniat omni creaturae;
+          <lb ed="#Qb"/>deinde, si sit universalior quam illa quae est
+          <lb ed="#Qb"/>ex materia et forma vel non;
+          <lb ed="#Qb"/>tertio, secundum quam rationem accipiatur.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum haec compositio conveniat omni creaturae.</head>
+          <p>
+            <lb ed="#Qb"/>Quod conveniat omni creaturae, videtur: a. Eof
+            <lb ed="#Qb"/>quod nullum creatum est sua essentia nec a se ha<lb ed="#Qb"/>bet
+            esse, sedg aliunde dependet; ergo in creatura
+            <lb ed="#Qb"/>omni ' quo est' et ' quod est ' differunt; ergo haec
+            <lb ed="#Qb"/>compositio communis est omni creaturae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, ista duo, "simplex' et 'composi<lb ed="#Qb"/>turn', 
+            dividunt sufficienter ens; in Deo autem solo
+            <lb ed="#Qb"/>idem est 'quod est' et 'quo est'; ergo in omni alio
+            <lb ed="#Qb"/>non est idem ' quo est' et ' quod est'; sed omne
+            <lb ed="#Qb"/>in quo non est idem, est compositum ; ergo omnis
+            <lb ed="#Qb"/>creatura hoc genere compositionis est composita.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Si omnis creatura hoc genere com<lb ed="#Qb"/>positionis
+            est composita, illud quoddicitur ' quod
+            <lb ed="#Qb"/>est' Vel 'quo est' aut est creatura vel non. Sih
+            <lb ed="#Qb"/>non est creatura utrurnque illorum, aut alterum
+            <lb ed="#Qb"/>est creatura aut non; neutrum autem potest esse
+            <lb ed="#Qb"/>Creator, cum Creator non sit materiale respectu
+            <lb ed="#Qb"/>alicuius compositionis sive materia. Unde Au<lb ed="#Qb"/>gustinus,
+            in libro De-Trinitate3: <quote> In summa
+            <lb ed="#Qb"/>persona pars non potest esse Deus, quanto magis
+            <lb ed="#Qb"/>pars Trinitatis esse non potest</quote>; multo fortius nec
+            <lb ed="#Qb"/>pars alicuius creaturae, cum pars sit possibilis
+            <lb ed="#Qb"/>ad totum 4, divina vero natura respectu nullius
+            <lb ed="#Qb"/>est possibilis; utrumque ergo est creatura. Sed
+            <lb ed="#Qb"/>dictum est5 omnem creaturam esse compositam
+            <lb ed="#Qb"/>ex 'quo est" et 'quod est'/*; ergo 'quo est'
+            <lb ed="#Qb"/>habet in se utrumque, et sic erit abire in infinitum;
+            <lb ed="#Qb"/>non ergo omnis creatura est composita.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, unitas creata aut est quo ipsa unitas est
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>unum aut non. Si se' ipsa unum est, ergo idem
+            <lb ed="#Qb"/>est 'quo est' et 'quod est': si enim se ipsa
+            <lb ed="#Qb"/>unum est, se ipsa est, eo quod unum 'et esse
+            <lb ed="#Qb"/>convertuntur 5. Si vero alia re a se ipsa est unum,
+            <lb ed="#Qb"/>aut illa res se ipsa est unum aut non. Si non '" se
+            <lb ed="#Qb"/>ipsa est unum, erit abire in infinitum; si autem
+            <lb ed="#Qb"/>se ipsa est unum,-cum omnis res una unitate
+            <lb ed="#Qb"/>dicatur una, illa res erit unitas, et ita standum
+            <lb ed="#Qb"/>erit" in primo aut- erit reflexio 0; sed reflexionem
+            <lb ed="#Qb"/>impossibile est esse in causis 7; ergo unitas se ipsa
+            <lb ed="#Qb"/>est una; ergoP idem est in ea 'quo est' et 'quod
+            <lb ed="#Qb"/>est'; et est creatura, ergo in aliqua creatura non
+            <lb ed="#Qb"/>est supra dicta compositio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum est? quod omnis
+            <lb ed="#Qb"/>creatura dicitur composita isto genere 'composi-'
+            <lb ed="#Qb"/>tionis uno duorum modorum: aut quia habet in
+            <lb ed="#Qb"/>se illam compositionem aut quia cum alio venit
+            <lb ed="#Qb"/>ad componendum tertium. 'Quo enim est' resuni—
+            <lb ed="#Qb"/>tur cum eo ' quod est ' ' in illo quod compositum
+            <lb ed="#Qb"/>est ex utroque, et ita compositum dicetur ex aliis
+            <lb ed="#Qb"/>constitutum vel ex quo cum alio aliquid consti<lb ed="#Qb"/>tuitur.
+            Sic ergo accipiendo compositum aliquo
+            <lb ed="#Qb"/>duorum modorum, dicetur omnis creatura com<lb ed="#Qb"/>posita;
+            si vero coarctetur ad intentionem compositi
+            <lb ed="#Qb"/>secundum quod compositum * dicitur ex aliis con<lb ed="#Qb"/>stitutum
+            ', non est omnis creatura composita hoc
+            <lb ed="#Qb"/>genere compositionis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Et per hoc solvitur primo
+            <lb ed="#Qb"/>obiectum.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="75"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>2. Ad secundoa vero obiectum de unitate
+            <lb ed="#Qb"/>dicendum est quod licet unitas se ipsa formaliter
+            <lb ed="#Qb"/>sit unum, non tamen se ipsa effective. Primum
+            <lb ed="#Qb"/>autem dicitur verel? unum, scilicet Deus, quia
+            <lb ed="#Qb"/>nec formaliter nec effective habet unitatem ab
+            <lb ed="#Qb"/>alio; unitas vero creatae effective habet a Deo,
+            <lb ed="#Qb"/>sed formaliter non habet ab alio quam a se;
+            <lb ed="#Qb"/>homo vero vel lapis ab alio habet effective et
+            <lb ed="#Qb"/>formaliter. Cum ergo dicitur: <quote> in simplici idem' est
+            'quo est' et 'quod est'</quote>, si attendatur omnino
+            <lb ed="#Qb"/>simplex d, oportet accipere 'quo est'.secundum
+            <lb ed="#Qb"/>omne genus causae; si vero accipiatur 'simplex'
+            <lb ed="#Qb"/>per extensionem, potest dici unitas creata sim<lb ed="#Qb"/>plex
+            quoad genus causae formalis, sed non simplex
+            <lb ed="#Qb"/>quoad genus causae efficientis: dependet enim
+            <lb ed="#Qb"/>secundum esse ab efficienti. Item, cum materia
+            <lb ed="#Qb"/>vel subiectoe unum constituit, et ita uno genere
+            <lb ed="#Qb"/>dicetur esse simplex, alio genere dicetur esse
+            <lb ed="#Qb"/>compositum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed adhuc posset obici loquendo de uni<lb ed="#Qb"/>tate
+            aut forma secundum se ipsam accepta. Intelli<lb ed="#Qb"/>gaturf
+            enim forma creata non indigens-materia: 
+            <lb ed="#Qb"/>constat quod huiusmodi forma creata esset; aut
+            <lb ed="#Qb"/>ergo esset simplex aut composita S'. Simplex om<lb ed="#Qb"/>nino
+            non potest esse, cum hoc soli Deo conve<lb ed="#Qb"/>niat.
+            Unde <name ref="#Augustine">Augustinus</name>, in libro De civitate
+            <lb ed="#Qb"/>Dei': <quote>Ideo simplex dicitur, quia quod habet,
+            <lb ed="#Qb"/>hoc est quod habet</quote>; unde <quote> natura dicitur sim<lb ed="#Qb"/>plex,
+            cui non sit aliquid habere quod possit amit<lb ed="#Qb"/>tere
+            nec aliud sit habens et id quod habetur2 </quote>.
+            <lb ed="#Qb"/>Forma ergo ista, cum non sit simplex, erit'com—
+            <lb ed="#Qb"/>posita; ergo altero duorum modorum; sed non
+            <lb ed="#Qb"/>est ex aliis constituta nec cum alio posita ad
+            <lb ed="#Qb"/>constituendum tertium; ergo non est composita.
+            <lb ed="#Qb"/>Propter hoc addendum est ut compositum etiam
+            <lb ed="#Qb"/>dicatur non tantum uno— duorum modorum su<lb ed="#Qb"/>pra
+            dictorum 3, sed cuius esse est dependens ab
+            <lb ed="#Qb"/>ergo et intellectus dependet ab intellectu. Licet
+            <lb ed="#Qb"/>alio partes non habeat nec pars alterius sit, ni<lb ed="#Qb"/>hilominus
+            tamen compositum dicitur " propter sui
+            <lb ed="#Qb"/>dependentiam in esse et intellectu. Accipiendo
+            <lb ed="#Qb"/>ergo compositum aliquo trium modorum, diCetur
+            <lb ed="#Qb"/>omnis creatura composita nec alio modo potest
+            <lb ed="#Qb"/>intelligi.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum haec compositio sit universalior quam illa quae est ex. materia et, forma.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur si sit universalior quam illa 
+            <lb ed="#Qb"/>quae est ex materia et forma vel non.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod non, videtur: 1. Omne enim creatum
+            <lb ed="#Qb"/>habet in se ut possit recipere ab alio et ut possit
+            <lb ed="#Qb"/>agere in aliud vel est illud a quo -est potentia
+            <lb ed="#Qb"/>recipiendi vel est illud a quo est potentia agendi;
+            <lb ed="#Qb"/>sed quod habet in se utrumque, est compositum
+            <lb ed="#Qb"/>ex materia et forma: a quo-verok est potentia
+            <lb ed="#Qb"/>recipiendi est materia, a quo habet potentiam
+            <lb ed="#Qb"/>agendi est forma; ergo ,omne creatum est ma—
+            <lb ed="#Qb"/>teria vell forma vel compositum ex iis; ergo
+            <lb ed="#Qb"/>compositio ista extenditur in tantum in "' quantum
+            <lb ed="#Qb"/>compositio illa quae est ex ' quo est' " et 'quod
+            <lb ed="#Qb"/>est'; ergo sunt aequalis ambitus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, in libro—De articulis fidei4: <quote> Materia
+            <lb ed="#Qb"/>et forma et illarum compago tria prorsus diversa
+            <lb ed="#Qb"/>sunt, quae in cuiuslibet substantiae creatione exi<lb ed="#Qb"/>guntur</quote>. .
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Non est idem ' quod est ' materia et
+            <lb ed="#Qb"/>'quo est' materia, similiter 'quod est' forma et
+            <lb ed="#Qb"/>'quo est' forma; ergo haec compositio univer—
+            <lb ed="#Qb"/>salior est illa.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, compositio materiae et formae
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ratione utriusque componentium non videtur ha<lb ed="#Qb"/>
+            'bere similitudinem in .Primo: in nulla, enim re
+            <lb ed="#Qb"/>possumus dicere "idem est materia—et. forma',
+            <lb ed="#Qb"/>sicut dicitur" 'idem est quo,,est et quod est';
+            <lb ed="#Qb"/>cum ergo aliqua convenientia sit in, illa ratione
+            <lb ed="#Qb"/>cum Primo, in hac vero non sit, prior erit-com<lb ed="#Qb"/>positio
+            eiusP 'quod est' et ' quo est' quam ma<lb ed="#Qb"/>teriae
+            et formae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod communior
+            <lb ed="#Qb"/>est et prior naturaliter compositio ex 'quo est'
+            <lb ed="#Qb"/>et 'quod est' quam materiae et formae, sicut
+            <lb ed="#Qb"/>iam dictum estq5.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1-2. Ad obiectum autem in contra<lb ed="#Qb"/>rium
+            dicendum quod, licet materia et forma et quod
+            <lb ed="#Qb"/>est ex iis extendatur' ad omnia, nihilominus ta<lb ed="#Qb"/>men
+            alia compositio est universalior, quia se ex<lb ed="#Qb"/>tendit
+            secundum quemdam modum ad ea quae sunt
+            <lb ed="#Qb"/>formae vel quae sunt materiae, secundum quem
+            <lb ed="#Qb"/>modum nons dicimus materiae et formae esse
+            <lb ed="#Qb"/>in forma vel esse in materia. Praeterea, maioris
+            <lb ed="#Qb"/>unitionis sunt 'quo est' et 'quod est' quam
+            <lb ed="#Qb"/>materia et forma: unum enim de altero dicitur;
+            <lb ed="#Qb"/>quod non est reperire in materia et forma, ut
+            <lb ed="#Qb"/>forma dicatur de materia vel e converso.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III.</head>
+          <head type="question-title">Secundum quam rationem accipiatur dignitas istius compositionis.</head>
+          <p>
+                  <pb ed="#Qb" n="76"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Deinde quaeritur secundum quam rationem ac<lb ed="#Qb"/>cipiatur
+            dignitas istius compositionis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod nulla alia
+            <lb ed="#Qb"/>compositio habet componentia in aliqua ratione,
+            <lb ed="#Qb"/>secundum quam possint convenire divinae essen<lb ed="#Qb"/>tiae,
+            sicut est in compositione materiae et formae:
+            <lb ed="#Qb"/>neque enim materia et forma conveniunt Primo,
+            <lb ed="#Qb"/>similiter partes definitionis non conveniunt Primo,
+            <lb ed="#Qb"/>et ita de aliis generibus compositionum quae magis
+            <lb ed="#Qb"/>elongantur; ergo haec sola compositio nobilior est
+            <lb ed="#Qb"/>aliis compositionibus: in Primo enim est reperire
+            'quod est' et 'quo est', licet non secundum ra<lb ed="#Qb"/>tionem-compositionis,;
+            descendit ergo ab identitate
+            <lb ed="#Qb"/>omnimoda eius 'quod est' cum eo 'quo est'
+            <lb ed="#Qb"/>differentia prima huius ab illo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed obicitur: 1. Nonne ' quo est' praedicatur.
+            <lb ed="#Qb"/>de eo ' quod est', cum dicitur 'homo est homo '
+            <lb ed="#Qb"/>aut" 'lapis est lapis', et itab de aliis? Est ergo
+            <lb ed="#Qb"/>ibi identitas-; in quo ergo differt a Primo c?
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, sicut habetur in libro De articulis fidei:
+            <lb ed="#Qb"/>
+            <quote> Materia et forma et horum compositio sunt ve<lb ed="#Qb"/>stigium 
+            Trinitatis</quote>. Unde dicitur ibidemzz <quote> In
+            <lb ed="#Qb"/>una eademque substantiae creatione trinus effectus
+            <lb ed="#Qb"/>uno eodemque ** auctore </quote>, scilicet Trinitate, <quote>pro<lb ed="#Qb"/>ducitur
+      </quote>; et post sequitur 3: <quote> Licet in- cuiuslibet '
+            <lb ed="#Qb"/>substantiae creatione materiam Patri, formam Filio,
+            <lb ed="#Qb"/>compositionem Spiritui Sancto posset ordo con<lb ed="#Qb"/>gruus
+            destinare, tamen in qualibet trium totam
+            <lb ed="#Qb"/>Trinitatem necesse est operarif </quote>. Ex quo videtur
+            <lb ed="#Qb"/>quod illa compositio cum suis componentibus
+            <lb ed="#Qb"/>reperiatur in Primo secundum exemplaritatem,
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>sicut ' quo est' et ' quod est' cum sua Composie
+            <lb ed="#Qb"/>tione reperiuntur in Primo secundum exemplari<lb ed="#Qb"/>tatem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum dicendum quod
+            <lb ed="#Qb"/>licet ' quo est ', secundum quemdam modum dic<lb ed="#Qb"/>tum,
+            praedicetur de eo 'quod est', et ita sit idem
+            <lb ed="#Qb"/>illi ' quod? est ', tamen si secundum seipsum ac<lb ed="#Qb"/>cipiatur,
+            non est idem cum eo 'quod est', ut
+            <lb ed="#Qb"/>homo non est sua humanitas. In divinis autem,
+            <lb ed="#Qb"/>quocumque modo accipiatur, hoc est illud, ut
+            <lb ed="#Qb"/>Deus est deitas et Pater est paternitas 4, et ita
+            <lb ed="#Qb"/>de aliis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad secundum dicendum est" quod non
+            <lb ed="#Qb"/>est concedendum compositionem esse exempla<lb ed="#Qb"/>riter
+            in Deo. Nec proprie repraesentatur ibi Tri<lb ed="#Qb"/>nitas:
+            non enim dicimus materiam convenire
+            <lb ed="#Qb"/>Patri nec forma procedit a materia sicut Filius
+            <lb ed="#Qb"/>procedit a Patre. Unde extraneo modo facta est
+            <lb ed="#Qb"/>illa adaptatioï trinitatis creatae ad increatam *.
+            <lb ed="#Qb"/>Quod si etiam aliquo modo potest convenire, non
+            <lb ed="#Qb"/>sic tamen sicut de 'quo est' et 'quod est' et
+            <lb ed="#Qb"/>identitate horum. Nam haec inveniuntur in ipsa
+            <lb ed="#Qb"/>substantia Dei secundum se accepta, non cointel<lb ed="#Qb"/>lectis
+            personis; illa vero nullatenus datur intelligi
+            <lb ed="#Qb"/>nisi personis cointellectis, ut materia ratione po<lb ed="#Qb"/>tentiae
+            sit vestigium summae potentiae, quae ap<lb ed="#Qb"/>proprietur
+            Patri, torma vero ratione actus sit vesti<lb ed="#Qb"/>gium
+            summae formae, compositio vero ratione or<lb ed="#Qb"/>dinis
+            sit vestigium summae bonitatis; sed ab expo<lb ed="#Qb"/>sitoribus
+            Sacrae Scripturae, qui multas numerant
+            <lb ed="#Qb"/>trinitates in creaturis, quae sunt vestigia summae
+            <lb ed="#Qb"/>Trinitatis, non invenitur haec trinitas pro vestigio.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

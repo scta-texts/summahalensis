@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 2, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 2, M. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="595"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s2q1t2m1c1">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 2, M. 1, C. 1</head>
+        <head type="question-title">UTRUM CORPUS ADAE FUERIT CONDITUM SIMUL CUM ALIIS CREATURIS.</head>
+        <p>
+          <lb ed="#Qb"/>Quaeritur ergo I. utrum conditum fuit corpus
+          <lb ed="#Qb"/>Q Adae eo tempore quo aliae creaturae, prout
+          <lb ed="#Qb"/>videtur 1. ex illo verbo Eccli. 18,1: <quote ana="#sir18_1">Qui vivit in
+          <lb ed="#Qb"/>aeternum, creavit omnia simul</quote>. Hanc autem quae<lb ed="#Qb"/>stionem 
+          proponit Augustinus, VI Super Ge<lb ed="#Qb"/>nesim
+          ad litteram 2.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>2. Item, dicitur in libro Fontis vitae 3, scilicet
+          <lb ed="#Qb"/>in principio, quod virtus, per quam omnia facta
+          <lb ed="#Qb"/>sunt, est voluntas Dei ad-inveniens omniag ; et ibi<lb ed="#Qb"/>dem4
+          dicitur quod sicut resultat imago in speeulo
+          <lb ed="#Qb"/>ex sola oppositione '! rei, sic ex sola conversione
+          <lb ed="#Qb"/>ad res omnia perduxiti in esse; sed non potest
+          <pb ed="#Qb" n="596"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>esse in Deo nisi una conversio, quia, ut scribitur ,
+          <lb ed="#Qb"/>in Epistola Iac. 1,17; <quote ana="#iac1_17">Apud illum non est trans<lb ed="#Qb"/>mutatio;
+          ergo</quote> etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, A u g u s ti n u 5, XI De confessionibus:
+          <lb ed="#Qb"/>
+          <quote>Verbo tibi coaeterno simul dicis omnia quae
+          <lb ed="#Qb"/>dicis, et fit quidquid dicis ut fiat, nec aliter quam
+          <lb ed="#Qb"/>dicendo facis</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, in Psalmozz Semel locutus estb Deus, "
+          <lb ed="#Qb"/>et ita idem quod prius. Ecce quod simul dicit,
+          <lb ed="#Qb"/>omnia; ergo ut prius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Et hic potest incidenter quaeri quo modo
+          <lb ed="#Qb"/>est hoc verum quod Deus creavit multa simul.
+          <lb ed="#Qb"/>vel omnia, ut dicunt auctoritates praedictae 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quia huius contrarium videtur sic: 1. Ad hoc
+          <lb ed="#Qb"/>quod aliquid creetur sive producatur in esse ex
+          <lb ed="#Qb"/>nihilo, requiritur infinita potentia; nec hoc intelli<lb ed="#Qb"/>gendum
+          est quod existens infinitae potentiae possit
+          <lb ed="#Qb"/>in huiusmodi effectum finita potentia, quia et tunc
+          <lb ed="#Qb"/>existens finitae potentiae, sed requiritur virtus
+          <lb ed="#Qb"/>infinita ad huiusmodi productionem; sed virtute
+          <lb ed="#Qb"/>infinita non potest esse virtus maior; igitur Deus
+          <lb ed="#Qb"/>non potest esse maioris virtutis quam infinitae;
+          <lb ed="#Qb"/>ergo tota virtus divina requiritur in creatione
+          <lb ed="#Qb"/>unius rei ; igitur in eodem instanti. non potest
+          <lb ed="#Qb"/>plura creare.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 0. Ut habetur Gen. 2,7, post opera
+          <lb ed="#Qb"/>sex dierum fecit <quote ana="#gen2_7">Deus hominem de limo terrae</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, hoc" idem habetur a Magistro, II
+          <lb ed="#Qb"/>Sententiarum 4, et aliis expositoribusd Scriptu<lb ed="#Qb"/>rae
+          5, scilicet quod omnibus creatis et dispositis,
+          <lb ed="#Qb"/>novissime factus est homo 2.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad hoc dicendumf 6 quod in duo<lb ed="#Qb"/>bus
+          locis Scripturae fit mentio de conditione cor—
+          <lb ed="#Qb"/>poris Aclae, scilicet Gen. 1,27, ibi: Masculum et
+          <lb ed="#Qb"/>feminam creavit eos, scilicet inter opera sex
+          <lb ed="#Qb"/>dierum, et Gen. 2,7, ibig: Formuvit Deus homi—
+          <lb ed="#Qb"/>nem de limo terrae; et illa formatio, secundum
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinum</name>7, non numeratur in operibus sex
+          <lb ed="#Qb"/>dierum, sed potius inter opera illa de quibus di<lb ed="#Qb"/>citur
+          Ioan. 5,17: Pater meus usque modo operatur
+          <lb ed="#Qb"/>et ego operor. Prima conditio fuit in causis suis
+          <lb ed="#Qb"/>primordialibus, in quibus seminaliter fiebat; se<lb ed="#Qb"/>cunda
+          conditio fuit in esse actu et completo 8.
+          <lb ed="#Qb"/>Unde <name ref="#Augustine">Augustinus</name>, Super Genesim ad litte<lb ed="#Qb"/>ram,
+          VI9: <quote> Fecit Deus Adae adiutoriumh simile
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>de costa lateris eius; hoc autem factum est, cum
+          <lb ed="#Qb"/>easdem bestias agri et volatilia caeli adhuc de
+          <lb ed="#Qb"/>terra finxisset et ad illum adduxisset</quote>. Adhuc:
+    <quote> Quo modo sexto die iactum', hoc potest intelligi,
+          <lb ed="#Qb"/>quandoquidem ilio diek terra produxit animam
+          <lb ed="#Qb"/>vivam 10 secundum verbum Dei, volatilia vero
+          <lb ed="#Qb"/>quinto die produxerunt-' aquae " similiter secun<lb ed="#Qb"/>dum 
+            verbum Dei? Non itaque hic diceretur 12: Et
+          <lb ed="#Qb"/>finxit Deus adhuc de terra omnes bestias agri
+          <lb ed="#Qb"/>et omnia volatilia caeli, nisi quia iam terra pro<lb ed="#Qb"/>duxerat
+          omnes bestias agri sexto diem et aqua
+          <lb ed="#Qb"/>omnia volatilia caeli quinto die. Aliter ergo tunc,
+          <lb ed="#Qb"/>id est potentialiter atque causaliter, sicut illi
+          <lb ed="#Qb"/>operi competebat quo" creavit omnia simul, a
+          <lb ed="#Qb"/>quibus in die septimo requievit 13; aliter autem
+          <lb ed="#Qb"/>nunc, sicut ea. videmus quae per temporalia spa<lb ed="#Qb"/>tia
+          creat, sicut usque nunc operatur. Ac per hoc
+          <lb ed="#Qb"/>iam per istos notissimos lucis corporalis dies,
+          <lb ed="#Qb"/>qui" circuitu solis tiunt, Eva facta est de latere
+          <lb ed="#Qb"/>viri sui. Tunc enim Deus adhuc finxit de terra
+          <lb ed="#Qb"/>bestias et volatilia, in quibus cum adiutorium si<lb ed="#Qb"/>mile14
+          ipsi AdaeP non esset inventum 15, illa for<lb ed="#Qb"/>mata
+          est. In talibus ergo diebus etiam ipsum de
+          <lb ed="#Qb"/>limo finxit" Deus '6. Neque enim dicendum est ma<lb ed="#Qb"/>sculum
+          quidem sexto die factum, feminam vero
+          <lb ed="#Qb"/>posterioribus diebus, cum ipso sexto die apertis<lb ed="#Qb"/>sime'
+          dictum sit 17: Masculum et feminam fecit
+          <lb ed="#Qb"/>eos et benedixit eos, et cetera quae de ambobus et
+          <lb ed="#Qb"/>ad ambos dicuntur. Aliter autem tunc ambo et
+          <lb ed="#Qb"/>nunc aliter ambo: tunc scilicet secundum poten<lb ed="#Qb"/>tiam
+          per verbum Dei, tamquam seminaliter mundo
+          <lb ed="#Qb"/>inditam, cums creavit omnia simul a quibus in
+          <lb ed="#Qb"/>die septimo requievit, ex quibus omnia suis
+          <lb ed="#Qb"/>quaequet temporibus iam per saeculorum or<lb ed="#Qb"/>dinem
+          fierent; nunc autem secundum operatio<lb ed="#Qb"/>nem
+          praebendam temporibus, qua usque nunc
+          <lb ed="#Qb"/>operatur</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed contra hoc obicitur, quia Gen. 1,29,
+          <lb ed="#Qb"/>dicto de conditione hominis, subditur: <quote ana="#gen1_29">Dixitque
+          <lb ed="#Qb"/>Deus: ecce dedi vobis omnem herbam offerentem
+          <lb ed="#Qb"/>semen</quote> etc.; sed constat quod Dominus non 10<lb ed="#Qb"/>cutus
+          est rebus existentibus in causis suis et"
+          <lb ed="#Qb"/>potentialiter, sed potius habentibus esse in actu.
+          <lb ed="#Qb"/>Et haec est obiectio Au gu sti ni 18. — Et respon<lb ed="#Qb"/>det
+    <name ref="#Augustine">Augustinus</name> quod Dominus loquebatur
+          <lb ed="#Qb"/>existentibus in potentia et non in esse actuali, eo
+          <pb ed="#Qb" n="597"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>modo quo Christus quandoque loquens praesen<lb ed="#Qb"/>tibus
+          simul loquebatur et futuris. Unde dicitur,
+          <lb ed="#Qb"/>Super Genesim ad litteram, VI 1: <quote> Quo modo 10<lb ed="#Qb"/>quebatur,
+          inquit, eis qui nondum audiebant nec
+          <lb ed="#Qb"/>intelligebant, quia nec erant qui verba percipe<lb ed="#Qb"/>rent?
+          Possem respondere, sic illos allocutum
+          <lb ed="#Qb"/>Deum quemadmodum Christus nos nondum na<lb ed="#Qb"/>tos,
+          etiam longe post futuros, nec tantum nos, sed
+          <lb ed="#Qb"/>etiam eos omnes qui futuri sunt post nos. Om<lb ed="#Qb"/>nibus
+          enim dicebat, quos Suos futuros videbatZ:
+          <lb ed="#Qb"/>Ecce ego vobiscum sum usque ad" consumma<lb ed="#Qb"/>tionem
+          saeculi, sicut Deo notus erat Propheta,
+          <lb ed="#Qb"/>cui dixit3: Priusquam te formarem in utero, novi
+          <lb ed="#Qb"/>te </quote>. Haec autem locutio nihil aliud erat quam
+          <lb ed="#Qb"/>insertio causarum sive conditio rerum futurarum.
+          <lb ed="#Qb"/>Unde <name ref="#Augustine">Augustinus</name>, eodem4: <quote> Cum vero Deus
+          <lb ed="#Qb"/>dicebat5: Ecce dedi vobis omne pabulum seminale
+          <lb ed="#Qb"/>seminans semen, quod est super omnem terram,
+          <lb ed="#Qb"/>et omne lignum fructiferum, quod habet in se
+          <lb ed="#Qb"/>fructum seminis seminalis, quod erit vobis adb
+          <lb ed="#Qb"/>escam, ipse sermo eius ante omnem aeris sonum,
+          <lb ed="#Qb"/>ante omnemc carnis et nubis vocem, in illa eius
+          <lb ed="#Qb"/>summa sapientia, per quam facta sunt omnia,
+          <lb ed="#Qb"/>non quasi humanis auribus instrepebat, sed rebus
+          <lb ed="#Qb"/>factis rerum faciendarum causas inserebat etd
+          <lb ed="#Qb"/>omnipotentie potentia futura faciebat, hominemque
+          <lb ed="#Qb"/>suo tempore formandum in temporumf tamquam
+          <lb ed="#Qb"/>semine vel tamquam radice condebat</quote>. lis visis,
+          <lb ed="#Qb"/>patet quo modo responderi potest ad quaestionem
+          <lb ed="#Qb"/>propositam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad hoc ergo quod obicitur
+          <lb ed="#Qb"/>quod ' creavit omnia simul, et ita hominem': di<lb ed="#Qb"/>cendum
+          quod hoc verum est eo modo quo die<lb ed="#Qb"/>tum
+          estgü, scilicet causaliter et seminaliter in ipsis
+          <lb ed="#Qb"/>mundi elementis, non eo modo quo res suis pro<lb ed="#Qb"/>priis
+          temporibus producuntur in esse completum 7.
+          <lb ed="#Qb"/>Quod insinuat Augu stinus, distinguendo " mo<lb ed="#Qb"/>dos
+          essendi, Vl Super Genesim ad litteram 3, di<lb ed="#Qb"/>cens
+          sic: <quote> In illa prima conditione mundi, cum
+          <lb ed="#Qb"/>Deus omnia simul creavit, homo factus est, qui
+          <lb ed="#Qb"/>esset futurus, ratio creandi. hominis, non actio
+          <lb ed="#Qb"/>creati. Sed haec aliter in Verbo Dei, ubi ista
+          <lb ed="#Qb"/>non facta, sed aeterna sunt; aliter in elementis
+          <lb ed="#Qb"/>mundi, ubi omnia simul facta futura sunt; aliter
+          <lb ed="#Qb"/>in rebus, quae secundum causas simul creatas,
+          <lb ed="#Qb"/>non iam simul, sed suo quaeque1 tempore crean<lb ed="#Qb"/>tur,
+          in quibus Adam iam formatus ex limo et
+          <lb ed="#Qb"/>Dei flatu animatus </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendum quod illa conversio,
+          <lb ed="#Qb"/>de qua loquitur liber * Fontis vitae, non dicit ali<lb ed="#Qb"/>quam 
+          innovationem sive mutationem circa Con<lb ed="#Qb"/>ditorem
+          rerum, sed dispositionem aeternam de
+          <lb ed="#Qb"/>illis producendis in esse in tempore suae pro<lb ed="#Qb"/>ductionis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud dici potest quod est dicere res
+          <lb ed="#Qb"/>in suo esse completo: et sic non dicit Deus Pater
+          <lb ed="#Qb"/>res simul9 nec sic intelligit <name ref="#Augustine">Augustinus</name> 'omnia
+          <lb ed="#Qb"/>simul' dici; et est dicere res in sua arte: et hoc
+          <lb ed="#Qb"/>modo dicit Deus1 Pater res simul, scilicet in
+          <lb ed="#Qb"/>Verbo suo, quod est ars omnipotentiae illius. —
+          <lb ed="#Qb"/>Sed videtur ex hoc quod tangit in fine aucto<lb ed="#Qb"/>ritatis,
+          scilicet <quote> non aliter quam dicendo facis "' </quote>,
+          <lb ed="#Qb"/>quod res non sint" aliter quam in Verbo suo
+          <lb ed="#Qb"/>vel in " arte. Respondeo: Per hoc notatur
+          <lb ed="#Qb"/>quod sine omni? innovatione orta circa illum
+          <lb ed="#Qb"/>suae dispositioni obedit fluxus rerum in esse;
+          <lb ed="#Qb"/>unde dispositio sua in arte, quantum ex parte
+          <lb ed="#Qb"/>ipsius est, est productio rerum in esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad aliudq quod sequitur, patet responsio
+          <lb ed="#Qb"/>ex Glossa ibidem, scilicet: Semel locutus est
+          <lb ed="#Qb"/>Deus, Glossa'w: <quote> Inter homines multis mo<lb ed="#Qb"/>diss
+          loquitur Deus, apud se semel,-quia unicum
+          <lb ed="#Qb"/>Verbum genuit, per quod omnia facta sunt " et in
+          <lb ed="#Qb"/>quo simul omnia dispositasunt </quote>. Undeisemel
+          <lb ed="#Qb"/>loqui, ut vult Glossa, <quote> est Verbum aeternaliter
+          <lb ed="#Qb"/>gignere, in quo omnia disposuit</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. 1. Ad illud quod quaeritur ' quo modo potest
+          <lb ed="#Qb"/>Deus simul multa creare, cum ad unius rei crea<lb ed="#Qb"/>tionem
+          requiratur intinita potentia, etc.: dicendum
+          <lb ed="#Qb"/>quod sicut prima bonitas summa dicitur, quia sine
+          <lb ed="#Qb"/>sui diminutione diffunditur et diffundi potest in in<lb ed="#Qb"/>finitum,
+          sic et virtus summa, quia sine sui dimi<lb ed="#Qb"/>nutione
+          influit; unde eius potentia *, quantumcum—
+          <lb ed="#Qb"/>que influat, nunquam in aliquo" diminuitur; prop<lb ed="#Qb"/>ter
+          quod infinita simul creare potest. Non " autem
+          <lb ed="#Qb"/>intelligendum est, cumx dicitur quod divina vir<lb ed="#Qb"/>tus
+          influit in creaturas creando illas vel operando
+          <lb ed="#Qb"/>in illis, quod dividatur virtus eius et sic impar—
+          <lb ed="#Qb"/>tiatur illis, immo quia ad nutum suae voluntatis
+          <lb ed="#Qb"/>omnipotentissimae sine diminutione suae virtutis
+          <lb ed="#Qb"/>fiant vel creentur. Unde in ipso nihil accidit in<lb ed="#Qb"/>novationis,
+          sed quidquid innovationis ibi est, ac<lb ed="#Qb"/>cidit
+          circa creaturas. <name ref="#Augustine">Augustinus</name>, Ad Marcel<lb ed="#Qb"/>linum
+          12: <quote> Nihil corrigi posse asserunt, nisi qiiod
+          <lb ed="#Qb"/>ante non recte factum probaretur. Quibus respon<lb ed="#Qb"/>dere
+          copiose si velim, tempus me citius deseret
+          <pb ed="#Qb" n="598"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>quam exempla, quibus rerum ipsa natura et opera "
+          <lb ed="#Qb"/>humana certa ratione pro temporum opportuni<lb ed="#Qb"/>tate
+          mutentur, nec tamen eadem ratio sit muta<lb ed="#Qb"/>bilis,
+          qua ista mutantur. Nonne" hiemi aestas
+          <lb ed="#Qb"/>addito calore sensimb succedit? Quotiens va<lb ed="#Qb"/>riantur
+          aetates! Adolescentiae pueritia non re<lb ed="#Qb"/>ditura
+          cedit, iuventus adolescentiae non mansurac
+          <lb ed="#Qb"/>succedit. Haec omnia mutantur, nec mutatur di—'
+          <lb ed="#Qb"/>vinae providentiae ratio," qua fit ut ista mutentur.
+          <lb ed="#Qb"/>Non autem, opinor, cum agricola aestate aliud 
+          <lb ed="#Qb"/>iusserit quam iusseratür hieme, ratio mutatur
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>agriculturae. Et cum mane surgit qui nocte quie<lb ed="#Qb"/>scebat,
+          vitae consilium non mutavit. Aliud magi<lb ed="#Qb"/>ster 
+          adolescenti quam puero solebat, imposuit.
+          <lb ed="#Qb"/>Non itaque verum est quod dicitur, semel recte
+          <lb ed="#Qb"/>factum nullatenus esse mutandum. Mutata quippe
+          <lb ed="#Qb"/>temporise causa, quod recte ante factum fuerat,
+          <lb ed="#Qb"/>ita mutari plerumque vera ratio flagitat, ut, cum<lb ed="#Qb"/>
+            <lb ed="#Qb"/>ipsi dicant recte non fieri sif mutetur, e con<lb ed="#Qb"/>tra
+          veritas clamet recte non fieri nisi mutetur;"
+          <lb ed="#Qb"/>quia utrumque tunc erit rectum, si erit pro tem<lb ed="#Qb"/>porum
+          diversitate diversum </quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

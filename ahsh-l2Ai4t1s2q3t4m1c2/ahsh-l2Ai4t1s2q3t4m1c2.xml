@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 1, C. 2 UTRUM SVNDERESIS SIT RATIO VEL VOLUNTAS.</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 1, C. 2 UTRUM SVNDERESIS SIT RATIO VEL VOLUNTAS.</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="492"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t4m1c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 1, C. 2</head>
+        <head>UTRUM SVNDERESIS SIT RATIO VEL VOLUNTAS.</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur si est ratio vel voluntas vel
+          <lb ed="#Qb"/>differens potentia ab iis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem sit differ-ens, videtur 1. per hoc
+          <lb ed="#Qb"/>quod dicit Gregorius in Glossa super Eze<lb ed="#Qb"/>chielem
+          5. Dicit enim hanc esse quartam non se
+          <lb ed="#Qb"/>tribus miscentem, sed errata corrigentem ; sed una
+          <lb ed="#Qb"/>illarum est ratio; ergo synderesis non est ratio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, ratio, sicut dicit <name ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Qb"/>libro De Trinitate7, dividitur in duo, quorum
+          <lb ed="#Qb"/>unum aptatur viro, alterum mulieri; sed in utra<lb ed="#Qb"/>que
+          parte rationis contingit esse peccatum; ergo
+          <lb ed="#Qb"/>in utraque parte potest esse rectitudo et non
+          <lb ed="#Qb"/>rectitudo; sed ipsa synderesis, quantum est de
+          <lb ed="#Qb"/>se, remurmurat peccato; ergo differens est synde<lb ed="#Qb"/>resis 
+          ab utraque; ergo synderesis non est ratio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra, videtur quod sit ratio o. per hoc quod
+          <lb ed="#Qb"/>dicitur super illud Iob l,15: Evasi solus, ut nun<lb ed="#Qb"/>tiarem
+          tibi, G regori u s 3: <quote>Unus, id est/rationis
+          <lb ed="#Qb"/>discretio, ad animum redit, quae amissa nuntiat,
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ut quod praeoccupata mens perdidit, afflicta reci<lb ed="#Qb"/>piat</quote>;
+          sed unus iste quis est nisi synderesis?
+          <lb ed="#Qb"/>Ergo synderesis est ratio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, videtur hoc idem per hoc quod dicitur
+          <lb ed="#Qb"/>in libro De Baptismo parvulorum 9, ubi dicitur
+          <lb ed="#Qb"/>quod ratio <quote>insita sive inseminata </quote> lumen ani<lb ed="#Qb"/>mae
+          dicitur; et hoc lumen synderesis iudicatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, Luc. 10,30: <quote ana="#lc10_30">Abierunt, semivivo relicto</quote>,
+          <lb ed="#Qb"/>Glossa 10: <quote> Immortalitatem exuere 0, sed rationis
+          <lb ed="#Qb"/>sensum abolere non possunt quin homo sapere
+          <lb ed="#Qb"/>et Deum possit cognoscere </quote>. Sed illud quod tolli
+          <lb ed="#Qb"/>non potest in parte motiva, synderesis dicitur;
+          <lb ed="#Qb"/>erit ergo synderesis ille sensus rationis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, III De libero arbitrio": <quote> Ante omne
+          <lb ed="#Qb"/>meritum boni operis non est parum accepisse na<lb ed="#Qb"/>turale
+          iudicium, quo sapientiam praeponat errori
+          <lb ed="#Qb"/>et quietem difficultati </quote>; sed hoc naturale iudicium
+          <lb ed="#Qb"/>est syndereseos —— est enim <quote> naturale iudicato<lb ed="#Qb"/>rium
+    </quote>, sicut dicit Basilius 12: <quote> IniacetP nobis
+          <lb ed="#Qb"/>iudicativum</quote>, id estq discretivum, <quote>vitandi et
+          <pb ed="#Qb" n="493"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>eligendi </quote>. Erit ergo synderesis ipsa ratio, cum
+          <lb ed="#Qb"/>iudicativum in nobis ratio dicatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem sit voluntas, videtur e. per hoc
+          <lb ed="#Qb"/>quod duplex ponitur voluntas a Damasceno1
+          <lb ed="#Qb"/>naturalis et deliberativa". Voluntas autem natu<lb ed="#Qb"/>ralis
+          est <quote> virtus appetitiva eius quod secundum
+          <lb ed="#Qb"/>naturam est, et omnium quaeb naturae substan<lb ed="#Qb"/>tialiter
+          adsunt contentiva2 </quote>; sed haec est synde<lb ed="#Qb"/>resis;
+          ergo synderesis est voluntas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>f. Item, voluntas naturalis est naturaliter appeti<lb ed="#Qb"/>tiva
+          boni et detestativac mali; sed haec est syn<lb ed="#Qb"/>deresis;
+          ergo synderesis est voluntas naturalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: Dicendumd ad hoc quod ratio di—
+          <lb ed="#Qb"/>citur multipliciter. Uno modo secundum quod ratio
+          <lb ed="#Qb"/>dividitur ex opposito contra sensibileme vim, et
+          <lb ed="#Qb"/>hoc modo synderesis pertinet ad rationem et di<lb ed="#Qb"/>citur
+          ratio. Sed ratio, secundum quod sic dicitur,
+          <lb ed="#Qb"/>accipitur multipliciter: nam ratio diciturf cogni<lb ed="#Qb"/>tiva
+          et motiva. Secundum vero quod cognitiva,
+          <lb ed="#Qb"/>potest dici dupliciter: Vel in quantum est iudi<lb ed="#Qb"/>cativa
+          credibilium vel operabilium quaeg perti<lb ed="#Qb"/>nent
+          ad bonos mores, vel in quantum est iudi<lb ed="#Qb"/>cativa
+          cognoscibilium quae non pertinent ad '1 mo<lb ed="#Qb"/>res:
+          et hoc ultimo modo non pertinet synderesis
+          <lb ed="#Qb"/>ad rationem. Primo autem modo accepta ratio ad<lb ed="#Qb"/>huc
+          dicitur dupliciter: vel in quantum est natu<lb ed="#Qb"/>ralis
+          vel in quantum est deliberativa. Prout est
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>naturalis, dicitur synderesis, sedi non prout est
+          <lb ed="#Qb"/>deliberativa.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Per hoc patet solutio ad ea
+          <lb ed="#Qb"/>quae obiciebantur. Nam ratio, contra quam divi<lb ed="#Qb"/>ditur
+          synderesis, sicut dicit Gregorius, dicitur
+          <lb ed="#Qb"/>ratio deliberativa, et de hac concedimus quod
+          <lb ed="#Qb"/>ipsa non est synderesis. Et per hoc patet solutio
+          <lb ed="#Qb"/>ad primum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Similiter et ad secundum. Nam cum di<lb ed="#Qb"/>vidit
+    <name ref="#Augustine">Augustinus</name> rationem in duas portiones,
+          <lb ed="#Qb"/>scilicet superiorem et inferiorem, accipit/' ratio<lb ed="#Qb"/>nem
+          prout est deliberativa; et hoc patet per hoc
+          <lb ed="#Qb"/>quod dicitur quod secundum utramquel portio<lb ed="#Qb"/>nem
+          contingit peccare: non enim ratio peccat in
+          <lb ed="#Qb"/>quantum naturalis, sed solum in quantum est
+          <lb ed="#Qb"/>deliberativa.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e—f. Ad hoc autem quod quaeritur utrum sit
+          <lb ed="#Qb"/>voluntas, dicendum3 quod sicut ratio dicitur du<lb ed="#Qb"/>pliciter,
+          similiter et voluntas, scilicet naturalis et
+          <lb ed="#Qb"/>deliberativa. Synderesis autem est eadem cum
+          <lb ed="#Qb"/>voluntate naturali, sed non est idem quod'" vo<lb ed="#Qb"/>luntas
+          deliberativa. Voluntas tamen" naturalis
+          <lb ed="#Qb"/>communior est quam sit synderesis: nam volun<lb ed="#Qb"/>tas
+          naturalis se extendit ad ea quae sunt meriti
+          <lb ed="#Qb"/>vel praemii et ad ea quae non sunt meriti vel
+          <lb ed="#Qb"/>praemii; synderesis autem coarctatur solum circa
+          <lb ed="#Qb"/>ea quae sunt meriti vel praemii.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

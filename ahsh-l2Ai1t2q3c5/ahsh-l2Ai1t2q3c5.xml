@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 3, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 3, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q3c5">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 3, C. 5</head>
+        <head type="question-title">EX QUIBUS COLLIGATUR PRINCIPALITER MUNDI PULCRITUDO.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde procedendum est ad quinto quaesitum,
+          <lb ed="#Qb"/>scilicet ex quibus colligatur principaliter mundi
+          <lb ed="#Qb"/>pulcritudo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod sic: a. Pulcrum et bonum sese con<lb ed="#Qb"/>comitantur; 
+          cum ergo bonitas determinetur per
+          <lb ed="#Qb"/>modum, speciem et ordinem in universo 1, per con<lb ed="#Qb"/>sequens
+          determinatur pulcritudo. -— Quod vi<lb ed="#Qb"/>d
+          etur: Dicitur enim pulcra res in mundo, quando
+          <lb ed="#Qb"/>tenet modum debitum et speciem et ordinem; et
+          <lb ed="#Qb"/>quod plus habet de iis, plus habet de pulcritu<lb ed="#Qb"/>dine,
+          quod minus, minus de pulcritudine; ergo
+          <lb ed="#Qb"/>principaliter mundi pulcritudo *ex istis compo<lb ed="#Qb"/>nitur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Ad idem: Pulcritudo mundi est descendens
+          <lb ed="#Qb"/>a pulcritudine prima, sicut patet in libro Confes<lb ed="#Qb"/>sionum
+          Xlz: <quote>Tu fecisti ea, quia pulcher es;
+          <lb ed="#Qb"/>pulcra enim sunt, non tamen ita sicut tu, Con<lb ed="#Qb"/>ditor
+          eorum, quo comparato nec pulcra * sunt nec
+          <lb ed="#Qb"/>bona sunt </quote>. Pulcritudo- ergo creaturae est vesti<lb ed="#Qb"/>gium
+          quoddam perveniendi per cognitionem ad
+          <lb ed="#Qb"/>pulcritudinem increatam -— unde Isidorus 3: <quote> Ex
+          <lb ed="#Qb"/>pulcritudine circumscriptae creaturae pulcritudi<lb ed="#Qb"/>nem
+          suam, quae circumscribi nequit, facit Deus in<lb ed="#Qb"/>telligi
+    </quote> — sed vestigium attenditur secundum mo<lb ed="#Qb"/>dumc
+          et speciem et ordinem principaliter 4; ergod
+          <lb ed="#Qb"/>pulcritudo mundi determinabitur principaliter pe<lb ed="#Qb"/>nes
+          modum, speciem et ordinem; sed modus, spe<lb ed="#Qb"/>cies
+          et ordo, desinentibuse creaturis, desinunt
+          <lb ed="#Qb"/>esse; ergo pulcritudo mundi in illis rebus potest
+          <lb ed="#Qb"/>desinere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed videtur contrarium 1. quod dicit Au gu<lb ed="#Qb"/>stinus,
+          in libro De natura boni5: <quote> Fit, dece<lb ed="#Qb"/>dentibus
+          et succedentibus rebus, temporalis quae<lb ed="#Qb"/>dam
+          in suo generepulcritudo, ut nec ipsa, quae
+          <lb ed="#Qb"/>moriuntur vel desinunt esse quod erantf, turpent
+          <lb ed="#Qb"/>aut turbent modum, speciem et ordinem universae
+          <lb ed="#Qb"/>creaturae, sicut sermo bene compositus utique
+          <lb ed="#Qb"/>pulcher est, quamvis in eo syllabae atque omnes
+          <lb ed="#Qb"/>soni tamquam nascendo [et] moriendo transcur<lb ed="#Qb"/>rant
+    </quote>. Ergo desinentibus rebus vel succedentibus
+          <lb ed="#Qb"/>non desinit pulcritudo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum quod pulcritudo
+          <lb ed="#Qb"/>surgit in mundo ex tribus praedictis. Sed illa tria
+          <lb ed="#Qb"/>contingit dupliciter considerare: vel secundum
+          <lb ed="#Qb"/>quod sunt in generibus et speciebus quae per<lb ed="#Qb"/>manent
+          vel secundum quod sunt in rebus trans<lb ed="#Qb"/>euntibus.
+          Pulcritudo autem in rebus transeuntibus
+          <lb ed="#Qb"/>dupliciter consideratur 6: vel in re quae transit se<lb ed="#Qb"/>cundum
+          se ipsam vel in quantum' comparatur
+          <lb ed="#Qb"/>alteri quae succedit illi. Primo et secundo modo
+          <lb ed="#Qb"/>pulcritudo manet in- universo " secundum statum
+          <lb ed="#Qb"/>qui nunc est et attenditur secundum modum, spe<lb ed="#Qb"/>ciem 
+          et ordinem in iis secundum utrumque modum;
+          <lb ed="#Qb"/>in futuro vero, quando quiescent corpora mobilia,
+          <lb ed="#Qb"/>non erit pulcritudo nisi secundum primum modum,
+          <lb ed="#Qb"/>ratione principiorum et earum rerum quae in se
+          <lb ed="#Qb"/>habent permanentiam ex dono Conditoris; pulcri<lb ed="#Qb"/>tudo
+          'autem in re transeunti secundum se ipsam
+          <lb ed="#Qb"/>accepta, sicut ipsa res transit, ita et transeunt l mo<lb ed="#Qb"/>dus,
+          species et ordo, et per consequens ipsa pul<lb ed="#Qb"/>critudo,
+          et de istak non loquitur <name ref="#Augustine">Augustinus</name>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

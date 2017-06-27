@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m2c3">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, C. 3</head>
+        <head type="question-title">QUALITER ANGELUS COGNOSCAT QUAE SUNT INFRA SE, SCILICET CORPORALIA.</head>
+        <p>
+          <lb ed="#Qb"/>Tertio quaeritur qualiter angelus cognoscit res
+          <lb ed="#Qb"/>corporales inferiores.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Cum enim res huiusmodi sint angelo infe<lb ed="#Qb"/>riores,
+          non possunt secundum naturam in angelum
+          <lb ed="#Qb"/>agere, cum ipse sit spiritus; ergo non imprimunt
+          <lb ed="#Qb"/>in ipsisk speciem suam nec ipse Deus dat ei. Et
+          <lb ed="#Qb"/>ponamus quod alicuius rei corporalis non-det ei
+          <lb ed="#Qb"/>speciem, quomodo ergo poterit eam cognoscere, ex
+          <lb ed="#Qb"/>quo nec ipsa res potestl suam speciem in eius
+          <lb ed="#Qb"/>intellectum'" imprimere nec ipse Deus dat ei?
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Si dicatur quod sibi fingit huiusmodi spe<lb ed="#Qb"/>ciem:
+          videtur hoc esse impossibile, quoniam non
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>est in angelo imaginativa virtus, secundum quam
+          <lb ed="#Qb"/>est fictio, sicut est in nobis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum quod sicut lux
+          <lb ed="#Qb"/>habet potentiam multiplicandi se in diversis par<lb ed="#Qb"/>tibus
+          aeris et etiam speciem rei alterius, ut rei
+          <lb ed="#Qb"/>coloratae", ita dicimus quod angelus, ex parte
+          <lb ed="#Qb"/>qua est lumen, habet tantum posse ut det esse
+          <lb ed="#Qb"/>spirituale similitudini corporali, et sic eam intel<lb ed="#Qb"/>ligat.
+          Unde huiusmodi res non agit in angelum,
+          <lb ed="#Qb"/>sed potius ipse agit in rem sicut nobilius in
+          <lb ed="#Qb"/>ignobilius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ex hoc etiam patet quod non est ibi fictio,
+          <lb ed="#Qb"/>sed vera cognitio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

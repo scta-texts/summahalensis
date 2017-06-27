@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="257"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t2m1c2">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 1, C. 2</head>
+        <head type="question-title">UTRUM SIT FALLACIA IN ISTA VISIONE</head>
+        <p>
+                <pb ed="#Qb" n="257"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Secundo quaeritur si sit fallacia in ista vi<lb ed="#Qb"/>sione.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod sic: 1. Angelus enim bonus ex
+          <lb ed="#Qb"/>natura potuit falli in sua visione, sicut deceptus
+          <lb ed="#Qb"/>erat Lucifer; si ergo in se potuit falli, non potuit
+          <lb ed="#Qb"/>darea perfectiorem statum iis qui recipiunt vi<lb ed="#Qb"/>sionem
+          ab eo; cum ergo vis imaginativa animae
+          <lb ed="#Qb"/>recipiat visionem ab angelo bono secundum na<lb ed="#Qb"/>turam,
+          in visione imaginaria vel spirituali poterit
+          <lb ed="#Qb"/>falli.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Augustinus, in libro De anima et
+          <lb ed="#Qb"/>spiritu 1: <quote> Cum ab bono spiritu assumitur anima,
+          <lb ed="#Qb"/>falli non potest</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, humanum spiritum aliquando bonus,
+          <lb ed="#Qb"/>aliquando malus assumit spiritus, nec facile dis<lb ed="#Qb"/>cerni
+          potest a quo spiritu assumatur nisi quia
+          <lb ed="#Qb"/>bonus instruit, malus fallit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Ex ratione visionis idem videtur, et loqui<lb ed="#Qb"/>tur
+          de visione quae fit inc imaginaria, quaed
+    <quote> visio est cum id quod quis videt, eo modo quo
+          <lb ed="#Qb"/>apparuerit, evenietz</quote>. Ex quibus colligitur quod
+          <lb ed="#Qb"/>in huiusmodi visione anima non fallitur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Respondendum est ad hoc quod
+          <lb ed="#Qb"/>bonus angelus dicitur dupliciter: vel ratione
+          <lb ed="#Qb"/>bonitatis naturae, et hoc modo si imprimeret vi<lb ed="#Qb"/>sionem,
+          posset imprimere visionem non tantum
+          <lb ed="#Qb"/>veracem *, sed etiam fallacem, magis tamen incli<lb ed="#Qb"/>naretur
+          ad veracem. Si vero fiat sermo de bono
+          <lb ed="#Qb"/>angelo ratione status in quo modo est, non im<lb ed="#Qb"/>primit
+          visionem fallacem: et hoc modo intelligitur
+          <lb ed="#Qb"/>bonus angelus, cum diciturf : <quote> Cum a bono Spi<lb ed="#Qb"/>ritu
+          assumitur anima, falli non potest </quote>. Et licetg,
+          <lb ed="#Qb"/>ut dicitur ibidem 3, <quote>aliquando in visione spiri<lb ed="#Qb"/>tuali
+          anima fallatur, quoniam ea quae videt ali—
+          <lb ed="#Qb"/>quando vera sunt, aliquando falsa, aliquando
+          <lb ed="#Qb"/>perturbata, aliquando tranquilla, ipsa autem '!
+          <lb ed="#Qb"/>vera aliquando futuris similia sunt omnino apertei
+          <lb ed="#Qb"/>dicta, aliquando obscuris significationibus tecta </quote>:
+          <lb ed="#Qb"/>nihilominus, cum bonus angelus imprimit huius—
+          <lb ed="#Qb"/>modi visionem, imprimit eam ut veram, sive sub
+          <lb ed="#Qb"/>aperta ratione sive sub obscura significatione.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

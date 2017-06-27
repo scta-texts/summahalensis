@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 6</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 6</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="54"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q2m1c6">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 6</head>
+        <head type="question-title">UTRUM CREARI CONVENIAT SOLIS SUBSTANTIIS.</head>
+        <p>
+          <lb ed="#Qb"/>Sexto quaeritur utrum creari conveniat solis sub<lb ed="#Qb"/>stantiis
+          an etiam accidentibus 6.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod sic: 1. Creatio est primum opus
+          <lb ed="#Qb"/>Creatoris7 ; ergo convenit creatum habere simili<lb ed="#Qb"/>tudinem
+          primam cum ipso Creatore; sed Creator
+          <lb ed="#Qb"/>est ens per se; conditum ergo, quod habet simi<lb ed="#Qb"/>litudinem
+          eius in eo quod est per se, dicetur crea<lb ed="#Qb"/>tum:
+          non enim convenit Primo non communicare
+          <lb ed="#Qb"/>huiusmodi dispositionem, cum possit convenire
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>creaturae; sed ens non per se, hoc est ens- in
+          <lb ed="#Qb"/>alio, non est huiusmodi; ergo non convenit ei
+          <lb ed="#Qb"/>ratio creati.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, quod est creatum dependet in esse a
+          <lb ed="#Qb"/>solo Creatore ; sed ens in alio non dependet ab
+          <lb ed="#Qb"/>illo solo, sed dependet ab ente per se in crea<lb ed="#Qb"/>tura;
+          ergo non est numerandums inter creata.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Tam accidentia f quam substantiae
+          <lb ed="#Qb"/>prima operatione producuntur de non-esse in esse
+          <lb ed="#Qb"/>a summo Opifice; ergo sunt creaturae.
+        </p>
+        <p>
+                <pb ed="#Qb" n="55"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>[Solutio]: Quod est concedendum, et ! 
+          <lb ed="#Qb"/>distinguendum est a in accidentibus sicut in b ' 
+          <lb ed="#Qb"/>substantiis. Sunt enim quaedam quae opere : 
+          <lb ed="#Qb"/>creationis procedunt; quaedam vero opere ge— 
+          <lb ed="#Qb"/>nerationis simpliciter vel secundum quid sive 
+          <lb ed="#Qb"/>alterius generis mutationis. In iis ergo acciden— 
+          <lb ed="#Qb"/>tibus quae procedunt opere creationis, sicut 
+          <lb ed="#Qb"/>esse horum est inesse 4, ita concreata dicuntur, 
+          <lb ed="#Qb"/>ipsae vero substantiae per .se et simpliciter crea- 
+          <lb ed="#Qb"/>tae: et sicut totum dicitur unum ens, ita et unum 
+          <lb ed="#Qb"/>creatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id ergo quod obicitur in 
+          <lb ed="#Qb"/>contrarium dicendum est quod licet ens' per se .
+          <lb ed="#Qb"/>quoad hoc plus conveniat cum ipso summo ente
+          <lb ed="#Qb"/>per se, quod creat, nihilominus et illud, quod est
+          <lb ed="#Qb"/>ens non per se, dicetur creatum, quia utrumque
+          <lb ed="#Qb"/>post omnino non-esse in esse est productum; sed
+          <lb ed="#Qb"/>hoc habet ens per se quia alia dependent ab ipso,
+          <lb ed="#Qb"/>utf simpliciter dicatur-9 creatum sicut et simpli<lb ed="#Qb"/>citer 
+          ens in illo genere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundo obiectum dicendum quod
+          <lb ed="#Qb"/>licet ens in Subiecto dependeat a subiecto quod
+          <lb ed="#Qb"/>est per se, et ideo habeat ens'l prius ipso, hoc
+          <lb ed="#Qb"/>'prius' non est 'prius duratione *, sed natura,,
+          <lb ed="#Qb"/>nec dicitur etiam prius in opere, sed sunt simuli
+          <lb ed="#Qb"/>in opere, et ita unum creatum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

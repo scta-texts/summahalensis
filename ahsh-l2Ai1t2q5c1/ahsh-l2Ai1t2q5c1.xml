@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q5c1">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 1</head>
+        <head type="question-title">SECUNDUM QUEM MODUM DICATUR UNIVERSUM PERFECTUM.</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic?: <quote> Perfectum dicitur uno modo
+          <lb ed="#Qb"/>A. quod impossibile est habere aliquam partem
+          <lb ed="#Qb"/>omnino extra illud, sicut tempus. Dicitur etiam
+          <lb ed="#Qb"/>perfectum alio modo, quo: nihil est dignius in illo
+          <lb ed="#Qb"/>genere, sicut medicus dicitur perfectus et musicus
+          <lb ed="#Qb"/>perfectus 4, et secundum hunc modum per tran<lb ed="#Qb"/>sumptionem
+          * sermonis dicitur latro perfectus sicut
+          <lb ed="#Qb"/>dicitur bonus latro. Dicitur etiam perfectum quod
+          <lb ed="#Qb"/>habet nobilem perfectionem, scilicet finem. Di<lb ed="#Qb"/>citur
+          etiam perfectum, quando non invenitur magis
+          <lb ed="#Qb"/>vel minus de bonitate, etf hoc dicitur perfectum
+          <lb ed="#Qb"/>per se; alia vero, quae dicuntur perfecta, in re—
+          <lb ed="#Qb"/>latione adg aliquod istorum dicuntur</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Cum ergo ii sunt modi dicendi 'perfectum',
+          <lb ed="#Qb"/>quaeritur secundum quem modum dicendum sit
+          <lb ed="#Qb"/>universum perfectum.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>[Solutio]: Non enim dicitur 'perfectum per se'
+          <lb ed="#Qb"/>de quo non est dicere magis vel minus habere
+          <lb ed="#Qb"/>de bono: sic enim convenit perfectum Deo, qui
+          <lb ed="#Qb"/>est ipsa summa bonitas. Nec perfectum dicitur
+          <lb ed="#Qb"/>eo modo quo aliquid dicitur perfectum per suum
+          <lb ed="#Qb"/>finem: non enim universum, secundum quod modo
+          <lb ed="#Qb"/>est, perfectum est' in suo fine. Nec dicitur perfectum
+          <lb ed="#Qb"/>ad modum eius quod dignius est in genere artis:
+          <lb ed="#Qb"/>alia est enim perfectio artificis et artificiati; artifex
+          <lb ed="#Qb"/>vero secundum illam rationem dicitur perfectus,
+          <lb ed="#Qb"/>artificiatum vero non. Restat ergo quod dicitur
+          <lb ed="#Qb"/>perfectum secundum h primum modum, secundum
+          <lb ed="#Qb"/>quem dicitur perfectum cui nihil deest de partibus
+          <lb ed="#Qb"/>sibi convenientibus vel <quote> extra quod nihil estf</quote>:
+          <lb ed="#Qb"/>extra enim universum nihil est. Dicetur ergo uni<lb ed="#Qb"/>versum
+          perfectum secundum illum modum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

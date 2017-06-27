@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 1, Q. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 1, Q. 1, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="313"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t1q1c3">
+        <head>Ia-IIae, Inq. 3, Tract. 1, Q. 1, C. 3</head>
+        <head type="question-title">UTRUM OMNES RES CORPORALES SINT SIMUL CREATAE7.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde procedendum est ad tertio quaesitum,
+          <lb ed="#Qb"/>I. utrum scilicet" omnia essent simul creata.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur a. per hoc quod dicitur Eccli.. 18, 1 :
+          <lb ed="#Qb"/>
+          <quote ana="#sir18_1">Qui vivit in aeternum, creavit omnia simul</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, dicitur in principio Gen. 2,4: <quote ana="#gen2_4">Istae sunt
+          <lb ed="#Qb"/>generationes caeli et terrae in die quo creavit
+          <lb ed="#Qb"/>Deus caelum et terram</quote>; ergo uno die; ergo simul.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Mensura respondet mensurato 3; sed
+          <lb ed="#Qb"/>res mensuratae in 17 sua natura erant ordinatae
+          <lb ed="#Qb"/>secundum prius et posterius 0; ergoet mensurae
+          <lb ed="#Qb"/>secundum prius et posterius; si ergo creatum est
+          <lb ed="#Qb"/>firmamentumd et ea quae sunt in terra, secun<lb ed="#Qb"/>dum
+          prius et posterius erunt creata.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, facta erant in diversis diebus et ita
+          <lb ed="#Qb"/>in diversis temporibus, ut ordo in mensura respon<lb ed="#Qb"/>derete
+          ordini in mensurato; ergo pari ratione di<lb ed="#Qb"/>centurf
+          creata secundum prius et posterius sicut
+          <lb ed="#Qb"/>facta. Si vero ' simul ' dicat indifferentiam materiae,
+          <lb ed="#Qb"/>cum diciturg: Qui vivit in aeternum etc., hoc non
+          <lb ed="#Qb"/>videtur, cum non unum dicatur creatum in principio,
+          <lb ed="#Qb"/>sed duo, et ita non omnia dicentur h simul creata,
+          <lb ed="#Qb"/>quia in una materia quae de non-esse prodiit in esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod ' simul '
+          <lb ed="#Qb"/>dicit indifferentiami mensurae ex parte creatorum,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>quae tamen creata sunt ink duplici ratione ma<lb ed="#Qb"/>teriae,
+          scilicet caeli et terrae: ad hanc enim
+          <lb ed="#Qb"/>duplicem materiam omnia corporalia reducuntur.
+          <lb ed="#Qb"/>Differenter autem dicuntur materia: caelum enim
+          <lb ed="#Qb"/>dicitur materia ut in qua facta sunt, terra autem
+          <lb ed="#Qb"/>ut ex qua duxeruntl originem et adhuc ducunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 2. Ad obiectum autem dicen<lb ed="#Qb"/>dum
+          quod non est simile de creatione et factione:
+          <lb ed="#Qb"/>factio enim respicit formas distinctas,-ubi ordo
+          <lb ed="#Qb"/>designatur, et ita potest designari dies secundum
+          <lb ed="#Qb"/>quod dies est ex revolutione corporis"l luminosi;
+          <lb ed="#Qb"/>creatio vero, ut distinguitur a factione", respicit
+          <lb ed="#Qb"/>materiam, et ita non dicitur ibi prius et poste<lb ed="#Qb"/>rius,
+          quod respicit formam, sed 'simul'.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Nec oportet, si mensurata sunt ordinata in
+          <lb ed="#Qb"/>natura, quod propter hoc sit ordo ex parte men<lb ed="#Qb"/>surae:
+          ad prius enim et posterius natura non se<lb ed="#Qb"/>quitur
+          prius et posterius in duratione 9. Et sic
+          <lb ed="#Qb"/>patet responsio ad primo obiectum P.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Deinde quaeritur si creatio fuit simul cum
+          <lb ed="#Qb"/>factione qua singula facta sunt. * .
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod non, arguitur 1. ex hoc quod non simul
+          <lb ed="#Qb"/>omnia facta sunt secundum dierum distinctionem;
+          <lb ed="#Qb"/>et simul creata sunt; ergo creatio non fuit simul
+          <pb ed="#Qb" n="314"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>cum factione. — Item, creatio iuita ante omnem
+          <lb ed="#Qb"/>diem 1; tactio non ante omnem diem; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Si vero non simul, tunc quaeritur quanta
+          <lb ed="#Qb"/>fuerit distantia etIJ qua necessitate iuit mora.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Respondet Hugo dicenscz: <quote>Mihi
+          <lb ed="#Qb"/>videtur, quantum conicered valeo, inter creatio<lb ed="#Qb"/>nem
+          et dispositionem rerum ordinem quidem tem<lb ed="#Qb"/>poris,
+          sed nullam fuisse moram interiectam, ita
+          <lb ed="#Qb"/>ut vere quidem dici possit hoc post illud factum
+          <lb ed="#Qb"/>fuisse, sed inter hoc factum et illud nullam om<lb ed="#Qb"/>nino
+          dilationem intervenisse</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>III. Supposito igitur ex praedictis quod omnia
+          <lb ed="#Qb"/>facta sunt simul, prout scilicet est'? differentia
+          <lb ed="#Qb"/>inter creationem et factionem, et secundum quod
+          <lb ed="#Qb"/>ly 'simul' dicit inditierentiam mensurae, non
+          <lb ed="#Qb"/>substantiae vel materiae, quaeritur de ista indiffe<lb ed="#Qb"/>rentia
+          mensurae, utrum scilicet sit partibilis vel
+          <lb ed="#Qb"/>impartibilis, et hoc est quaerere utrum omnia
+          <lb ed="#Qb"/>creata creataf sint in uno 'nunc' indivisibili aut in ,
+          <lb ed="#Qb"/>pluribus siveg singula in singulis ' nunc '. Et * non
+          <lb ed="#Qb"/>loquamur de potentia Dei — non enim est dubium
+          <lb ed="#Qb"/>quin Deus potuerit in uno 'nunc' creare omnia —<lb ed="#Qb"/>sed
+          de congruentia actionis, utrum scilicet con<lb ed="#Qb"/>gruentius
+          crearet in uno (nunc' quam in pluribus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Videtur quod sic: a. Quia creatio est ad mani<lb ed="#Qb"/>festationem
+          potentiae divinae; sed magis manife<lb ed="#Qb"/>statur
+          Dei potentia creando multa in uno 'nunc'
+          <lb ed="#Qb"/>quam multa in multis 'nunc': hoc per se patet;
+          <lb ed="#Qb"/>ergo creare multai in uno 'nunc' multo magis
+          <lb ed="#Qb"/>congruebat potentiae divinae, id estk actioni eius <lb ed="#Qb"/>
+          <lb ed="#Qb"/>quae est ex potentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, creata exeunt a Primo per assimilatio<lb ed="#Qb"/>nem
+          ad ipsum: unde congruit quod illo modo
+          <lb ed="#Qb"/>exeant quo maiorem habentassimilationem, prout
+          <lb ed="#Qb"/>competit creaturae.; sed Primum est unicum et
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>simplex et indivisum essentia et duratione; hoc
+          <lb ed="#Qb"/>totum non potest conveniret creaturae nisi per
+          <lb ed="#Qb"/>diminutionem; cum vero "' exeunt multa a Primo
+          <lb ed="#Qb"/>in unico 'nunc', ibi est unitas in" duratione suo
+          <lb ed="#Qb"/>modo et est multitudo vel diversitas in essentia; si
+          <lb ed="#Qb"/>autem exirent multa in multis 'nunc', esset ibi di<lb ed="#Qb"/>versitas
+          et durationis et essentiae; ergo magis assi<lb ed="#Qb"/>milantur
+          creata Primo, si creantur in unico 'nunc'
+          <lb ed="#Qb"/>quam si in multis; ergo et illud magis congruit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, singulare est quod concernit'J hic et
+          <lb ed="#Qb"/>nunc, ut dicit P hilo s op h u s 3, universale autem
+          <lb ed="#Qb"/>vel commune, in quantum huiusmodi, non concernit
+          <lb ed="#Qb"/>hic et nunc. Loquamur ergo secundum opinionem
+          <lb ed="#Qb"/>Gregorii 4, quod omnia creata sunt simul in
+          <lb ed="#Qb"/>quadam communitate et universalitate, et non mi?
+          <lb ed="#Qb"/>individuatione quae post secuta est; hoc enim
+          <lb ed="#Qb"/>est, quod dicit Gregorius5: <quote> Omnia simul in
+          <lb ed="#Qb"/>substantia facta sunt, et non in specie </quote>; ergo ipsis
+          <lb ed="#Qb"/>creatis sic in communitate se habentibus non
+          <lb ed="#Qb"/>competit diversitas in ' nunc ', quae tamen 'I com<lb ed="#Qb"/>peteret,
+          si crearentur in sua individuatione.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Quod concedimus quod omnia
+          <lb ed="#Qb"/>creata sunt in unico 'nunc' et illud 'nunc' non
+          <lb ed="#Qb"/>est aeternitatis nec 'nunc' temporis, sed ' nunc'
+          <lb ed="#Qb"/>aeviö. Et hoc dicimus, tum quia magis manife<lb ed="#Qb"/>statur
+          Dei potentia creando in uno 'nunc' ' multa,
+          <lb ed="#Qb"/>tum quia creata hoc modo plus conveniunt cum
+          <lb ed="#Qb"/>Primo, sicut obiciebatur7.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed adhuc obicitur: Quia maior adhuc
+          <lb ed="#Qb"/>videretur assimilatio si tantum unum in uno ' nunc'
+          <lb ed="#Qb"/>crearet quam si multa, quia tunc esset assimilatio
+          <lb ed="#Qb"/>et in essentia et in duratione. — R es p ond eo 5
+          <lb ed="#Qb"/>quod verum est quod tunc magis sive maior esset
+          <lb ed="#Qb"/>assimilatio, sed non in tantum manifestaretur Dei
+          <lb ed="#Qb"/>potentia: unde adhuc plus congruit multa creari
+          <lb ed="#Qb"/>in uno 'nunc' quam unum in uno 'nunc'.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

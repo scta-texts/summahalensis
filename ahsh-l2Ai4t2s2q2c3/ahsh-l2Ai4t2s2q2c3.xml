@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="619"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s2q2c3">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 3</head>
+        <head type="question-title">UTRUM FORMATIO CORPORIS EVAE FUERIT IMMEDIATE A DEO.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur inquirere utrum illius corporis forma<lb ed="#Qb"/>tio
+          fuerit a Deo immediate an per ministerium 
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>angelicum. Et haec est quaestio <name ref="#Augustine">Augustini</name>
+          <lb ed="#Qb"/>IX Super Genesim ad litteram 14.
+        </p>
+        <p>
+                <pb ed="#Qb" n="620"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Quod immediate a Deo, videtur a. ex textu
+          <lb ed="#Qb"/>Gen. 2, 22: <quote ana="#gen2_22">Aedificavit Dominus Deus costam,
+          <lb ed="#Qb"/>quam tulerat de Adam, in mulierem</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name>, IX Super Genesim ad
+          <lb ed="#Qb"/>litteramï: <quote> Natura mulieris creata est, quamvis
+          <lb ed="#Qb"/>ex virili quae iam erat; angeli autem nullam
+          <lb ed="#Qb"/>omnino possunt creare naturama </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, <name ref="#Augustine">Augustinus</name>, IX Super Genesim ad
+          <lb ed="#Qb"/>litteram: <quote> Formare vel aedificare costam ut mu<lb ed="#Qb"/>lier
+          esset, usque adeo non potuit nisi11 Deus, a
+          <lb ed="#Qb"/>quo universa natura subsistitc, ut ne illud quidem
+          <lb ed="#Qb"/>carnis supplementum in corpore viri, quodd in
+          <lb ed="#Qb"/>illius costae successit locum, ab angelis factum
+          <lb ed="#Qb"/>esse crediderim, sicut nec ipsum hominem de
+          <lb ed="#Qb"/>terrae pulvere </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Nihil occasionatum sive occasione
+          <lb ed="#Qb"/>productum in esse este a Deo; sed mulier est
+          <lb ed="#Qb"/>mas occasionatus, ut dicit Philo sophus 2, et ita
+          <lb ed="#Qb"/>prima mulier non fuit immediate formata a Deo
+          <lb ed="#Qb"/>de costa neque a natura; ergo mediante mini<lb ed="#Qb"/>sterio
+          angelico.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, nullum corporale, quod habet princi<lb ed="#Qb"/>pium
+          praecedens simile in specie, producitur a
+          <lb ed="#Qb"/>Deo immediate in esse ut a tota causa, quia mul<lb ed="#Qb"/>tiplicatio
+          individuorum in eadem specie est opus
+          <lb ed="#Qb"/>sequens opus primum; sed corpus mulieris habuit
+          <lb ed="#Qb"/>principium praecedens simile in specie, quia cor<lb ed="#Qb"/>pus
+          viri; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, nihil seminaliter existens in aliquo pro<lb ed="#Qb"/>ducitur
+          in esse a Deo immediate sive ut a tota
+          <lb ed="#Qb"/>causa ; tale fuit corpus mulieris ; unde A ugu sti<lb ed="#Qb"/>nus,
+          VI Super Genesim ad litteram3: <quote> Aliter
+          <lb ed="#Qb"/>autem tunc ambo et nunc aliter ambo; tunc se<lb ed="#Qb"/>cundum
+          potentiam per verbum Dei tamquam se<lb ed="#Qb"/>minaliter
+          mundo inditam, cum creavit omnia si<lb ed="#Qb"/>mult,
+          nunc autemf secundum operationem prae<lb ed="#Qb"/>bendam
+          temporibus qua usque nunc operatur5 </quote>.
+          <lb ed="#Qb"/>Ecce quod secundum <name ref="#Augustine">Augustinum</name>, Adam et
+          <lb ed="#Qb"/>Eva seminaliter erant mundo-g indita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, quando aliquid fit ex alio, inter quae
+          <lb ed="#Qb"/>non est infinita distantia, ad producendum unum in
+          <lb ed="#Qb"/>esse ex alio non requiritur infinita potentia; cum
+          <lb ed="#Qb"/>ergo corpus mulieris et costah non differant di<lb ed="#Qb"/>stantia
+          infinita, non requiritur infinita potentia ad
+          <lb ed="#Qb"/>hoc quod unum fiat ex altero; igitur videtur suf<lb ed="#Qb"/>ficere
+          finita, et maxime illa quae in creaturis est
+          <lb ed="#Qb"/>maxima i, hoc est angelica; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, Deus in omni operatione naturae in<lb ed="#Qb"/>time
+          operatur etk natura illi cooperatur; sed
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>quando aliquod opus Deus operatur, in quo potest
+          <lb ed="#Qb"/>ei cooperari' natura sive cooperatur, nullo modo
+          <lb ed="#Qb"/>eius excludit operationemö; ergo similiter videtur
+          <lb ed="#Qb"/>quod, si angelus poterat cooperari Deo sive co—I
+          <lb ed="#Qb"/>operabatur in formatione mulieris de costa, quod
+          <lb ed="#Qb"/>Deus non debeat eius operationem excludere;
+          <lb ed="#Qb"/>sed angelus poterat cooperari sequeStrando co<lb ed="#Qb"/>stam
+          et praeparando; ergo etc. — Media patet
+          <lb ed="#Qb"/>ex Augustino'", Super Genesim ad litteram 7,
+          <lb ed="#Qb"/>qui dicit quod nonnulla est angelorum operatio
+          <lb ed="#Qb"/>ut aliquid creetur. Et in eodems: <quote> Quid mirum si
+          <lb ed="#Qb"/>hominem ex osse hominis factam" non novi<lb ed="#Qb"/>mus,
+          quando creanti Deo 0 quemadmodum angeli
+          <lb ed="#Qb"/>serviant ignoramus! Fideliter credimus factam
+          <lb ed="#Qb"/>feminam ex viro, nullo interveniente concubitu,
+          <lb ed="#Qb"/>etsi forte costa hominis ministrata sit per angelos
+          <lb ed="#Qb"/>in opere Creatoris, sicut fideliter credimus etiam
+          <lb ed="#Qb"/>virum factum ex femina nullo interveniente con<lb ed="#Qb"/>cubitu</quote>. 
+          — Si autem responderetur quod
+          <lb ed="#Qb"/>producta fuit in esse opereP mirabili, propter
+          <lb ed="#Qb"/>quod non potuit ab angelo fieri, sed ab illo qui
+          <lb ed="#Qb"/>est super omnem naturam — hoc non videtur
+          <lb ed="#Qb"/>verum, cum sit unus ordo angelorum, scilicet
+          <lb ed="#Qb"/>Virtutes, quibus attribuitur officium faciendi mi<lb ed="#Qb"/>racula
+          sive opera mirabilia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, II Thess. 2, 9, dicitur de Antichristo:
+          <lb ed="#Qb"/>
+          <quote ana="#IIth2_9">Cuius adventus est secundum operationem Satanae
+          <lb ed="#Qb"/>in omni virtute, signis et prodigiis mendacibus</quote>;
+          <lb ed="#Qb"/>Glossa 9: <quote> Tunc solvetur Satanas, et per illum
+          <lb ed="#Qb"/>Antichristus in omni sua virtute mirabiliter qui<lb ed="#Qb"/>dem,
+          sed mendaciter operabitur </quote>. Et dicitur
+          'mendaciter* sive 'mendacibus' secundum unam
+          <lb ed="#Qb"/>expositionem Glo ssae, quia, etsir vera sint, Dei
+          <lb ed="#Qb"/>permissione ad mendacium trahent. Et ita videtur
+          <lb ed="#Qb"/>quod angelus apostata potest facere miracula.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Idem<!--s--> videtur de hominibus, I Cor. 12, 28:
+          <lb ed="#Qb"/>
+          <quote ana="#Icor12_28">Deinde Virtutes</quote>, Glossa 10: <quote> Id est eos qui mi<lb ed="#Qb"/>racula
+          faciunt </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad hoc dicendum quod congruebat
+          <lb ed="#Qb"/>mulierem primam fieri ex viro et ex costa, ut
+          <lb ed="#Qb"/>patet ex dictis": ex quibus sequitur quod imme<lb ed="#Qb"/>diate
+          facta fuerit a Deo. Si enim de viro facta
+          <lb ed="#Qb"/>est, ett non secundum cursum naturae, eo modo
+          <lb ed="#Qb"/>quo tilia de patre, et hoc congruebat, oportuit
+          <lb ed="#Qb"/>quod fieret de ipso opere supra naturam, et ita
+          <lb ed="#Qb"/>per potentiam mirabiliter operantem. Praeterea,
+          <lb ed="#Qb"/>cum costa non esset in propinqua potentia ut de
+          <lb ed="#Qb"/>ea fieret mulier, sed in valde remota et nullo
+          <lb ed="#Qb"/>modo disposita, cum de ea debuit iieri corpus
+          <pb ed="#Qb" n="621"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>mulieris indilate' sive sine mora temporis,*opor<lb ed="#Qb"/>tuit
+          quod fieret illa potentia cui perfecte obedit
+          <lb ed="#Qb"/>omnis creatura. Praeterea, sicut mulier debuit
+          <lb ed="#Qb"/>fieri de viro, ut monstraretur viri nobilitas quan<lb ed="#Qb"/>tum
+          ad dignitatem principatus sive principii, et
+          <lb ed="#Qb"/>sicuta decuit mulierem fieri de latere, ut osten<lb ed="#Qb"/>deretur
+          viri et mulieris aequalitas 1, sicb decuit
+          <lb ed="#Qb"/>ut immediate fieret a Deo, ut servaretur primi
+          <lb ed="#Qb"/>principii dignitas: dico in genere mulierum sive
+          <lb ed="#Qb"/>matrum. Unde sicut Adam, qui erat pater omnium
+          <lb ed="#Qb"/>viventium, immediate ac Deo factus est, sic Eva,
+          <lb ed="#Qb"/>quae erat mater cunctorum viventium, sicut ha<lb ed="#Qb"/>betur
+          Gen. 3, 20, immediate debuit ab ipso fieri.
+          <lb ed="#Qb"/>Non enim debuit mulier in genere hominum di<lb ed="#Qb"/>gnitatem
+          perdere, quam habuerunt animalia utri<lb ed="#Qb"/>usque
+          sexus in omni genere animalium. Et in hoc
+          <lb ed="#Qb"/>mira apparet Dei providentia, qui sic nobilitat
+          <lb ed="#Qb"/>unumd sexum, ut nihil detrahat de nobilitate
+          <lb ed="#Qb"/>alterius; Conveniebat ergo ut immediate fieret a
+          <lb ed="#Qb"/>Deo et non ab angelo. Et hoc habetur ab Augu<lb ed="#Qb"/>stino,
+          IX Super Genesim, dicentez: <quote> Certissime
+          <lb ed="#Qb"/>dixerim supplementum illud carnis in costae lo<lb ed="#Qb"/>cum
+          ipsiusque feminaee corpus et animam con<lb ed="#Qb"/>formationemque
+          membrorum, omnia viscera, sen<lb ed="#Qb"/>sus
+          omnesf et quidquid erat quo illa creatura
+          <lb ed="#Qb"/>et homo femina erat, nonnisi in illo Dei opere
+          <lb ed="#Qb"/>factum, quod Deus non per angelos, sed per se<lb ed="#Qb"/>metipsum
+          operatus est</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo obiectum in con<lb ed="#Qb"/>trarium
+          patet responsio ex praedictis, scilicet in
+          <lb ed="#Qb"/>Quaestione qua quaeritur utrum corpus mulieris
+          <lb ed="#Qb"/>debuit formari viro in adiutorium, ubig determi<lb ed="#Qb"/>natum
+          est quod Eva non fuit mulier occasionata,
+          <lb ed="#Qb"/>eo modo quo occasio vitium importati Secundum
+          <lb ed="#Qb"/>enim quod occasio vitium importat, ut in mon<lb ed="#Qb"/>stris,
+          sic non est mulier mas occasionatus; se<lb ed="#Qb"/>cundum
+          autem quod occasionaliter dicitur factum
+          <lb ed="#Qb"/>quod factum est praeter primam intentionem na<lb ed="#Qb"/>turae,
+          quae respicit esse nobilissimum in re quam
+          <lb ed="#Qb"/>intendit, dicitur mulier mas occasionatus; natura
+          <lb ed="#Qb"/>enim in productione hominis primo et principa<lb ed="#Qb"/>liter
+          intendit producere hominem in sexu nobi<lb ed="#Qb"/>liori;
+          unde, quia deficit quandoque ex aliqua
+          <lb ed="#Qb"/>causa ex parte materiae vel ex aliquah circum<lb ed="#Qb"/>stantia
+          occurrente, ut quando generatur mulier,
+          <lb ed="#Qb"/>dicitur mulier occasionaliter producta in esse et
+          <lb ed="#Qb"/>dicitur mas occasionatus, id est occasione maris,
+          <lb ed="#Qb"/>qui fuit intentus principaliter a natura, in esse
+          <lb ed="#Qb"/>productus. Nec hoc modo fuit prima mulier mas
+          <lb ed="#Qb"/>occasionatus.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>2. Ad aliud dicendum quod instantia est in
+          <lb ed="#Qb"/>proposito. Huic enim universali propositioni ' nul<lb ed="#Qb"/>lum
+          corporale, quod habet principium praecedens
+          <lb ed="#Qb"/>simile in specie, producitur' etc., est instare in
+          <lb ed="#Qb"/>proposito. Quare autem in genere hominum primo
+          <lb ed="#Qb"/>conditum fuit unum individuum, quod erat prin<lb ed="#Qb"/>cipium
+          omnium illius generis et etiam' illius
+          <lb ed="#Qb"/>individui, quod debuit coexistere principium re<lb ed="#Qb"/>spectu
+          totius prolis procreandae, quod non fuitk
+          <lb ed="#Qb"/>in principiis aliorum generum rerum, dictum est
+          <lb ed="#Qb"/>supra 4.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud quod sequitur, dicendum quod
+          <lb ed="#Qb"/>aliquid dicitur esse in alio seminaliter duobus mo-,
+          <lb ed="#Qb"/>dis: communiter et proprie. Communiter, secun<lb ed="#Qb"/>dum
+          quod ratio seminalis dicitur quidquid est
+          <lb ed="#Qb"/>inditum rei a Conditore eius ut de illa aliquid
+          <lb ed="#Qb"/>fiat vel fieri possit, id est ut de illa fiat aliquid
+          <lb ed="#Qb"/>vel cursu' naturae vel eo qui'" est supra
+          <lb ed="#Qb"/>naturam; proprie autem, secundum quod ratio
+          <lb ed="#Qb"/>seminalis dicitur natura quaedam indita rei, qua
+          <lb ed="#Qb"/>simile ex simili cursu naturae producitur, ut
+          <lb ed="#Qb"/>planta de planta et'l granum de grano eiusdem
+          <lb ed="#Qb"/>generis 5. Istos duos modos tangit A ugustin u s,
+          Super Genesim, IX 5, dicens: <quote> Elementa " mundi
+          <lb ed="#Qb"/>huius corporeiP habent definitam vim qualitatem<lb ed="#Qb"/>que
+          suam, quid unumquodque valeat vel non
+          <lb ed="#Qb"/>valeat, quid de quo fieri possit vel non possit.
+          <lb ed="#Qb"/>Ex iis velut primordiis rerum omnia quae gi<lb ed="#Qb"/>gnuntur
+          suo tempore exitus processusque sumunt
+          <lb ed="#Qb"/>finesque et discessiones sui cuiusque generis:
+          <lb ed="#Qb"/>unde fit ut de grano tritici non nascatur faba
+          <lb ed="#Qb"/>vel de faba triticum vel de pecore homo vel de
+          <lb ed="#Qb"/>homine pecus. Super hunc autem4 motum cur<lb ed="#Qb"/>sumque
+          rerum naturalem potestas Creatoris habet
+          <lb ed="#Qb"/>apud se posse de iis omnibus facere aliud quam
+          <lb ed="#Qb"/>eorum quasi seminales rationes habent, non ta<lb ed="#Qb"/>men
+          id quod non in eis posuit ut de iis fieri vel
+          <lb ed="#Qb"/>ab ipso possit: neque "enim potentia temeraria,
+          <lb ed="#Qb"/>sed sapienter virtute omnipotens est et hoc de
+          <lb ed="#Qb"/>unaquaque re in tempore suo facit quod antea
+          <lb ed="#Qb"/>in ea tecits ut possit. Alius ergo est rerum
+          <lb ed="#Qb"/>modus quo illa herba sic germinat, illa sic ',
+          <lb ed="#Qb"/>illa aetas parit, illa non parit, homo loqui potest,
+          <lb ed="#Qb"/>pecus non. Et talium modorum rationes non tan<lb ed="#Qb"/>tum
+          in Deo sunt, sed etiam ab illo rebus crea<lb ed="#Qb"/>tis
+          inditae atque concreatae </quote>. Et hoc ostendit
+          <lb ed="#Qb"/>tribus exemplis, subiungens et dicens: <quote> Ut autem
+          <lb ed="#Qb"/>lignum de terra excisum, aridum, sine radice ulla,
+          <lb ed="#Qb"/>sine terra et aqua, repente floreat et fructum gi<lb ed="#Qb"/>gnat
+          7, ut sterilis femina in senectute pariat 3, ut
+          <pb ed="#Qb" n="622"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>asina loquatur 1 et si quid htiiusmcidi est, dedit
+          <lb ed="#Qb"/>naturis quas creavit, ut ex iis haec fieri possent.
+          <lb ed="#Qb"/>Neque enim ex eis vel a ipse faceret b quod ex
+          <lb ed="#Qb"/>eis fieri non posse ipse praefigeret, quoniam se
+          <lb ed="#Qb"/>ipso non est nec ipse potentior. Verumtamen alio
+          <lb ed="#Qb"/>modo dedit ut non haec c haberent in motu naturali,
+          <lb ed="#Qb"/>sed in eo quo ita creata essent ut eoruin
+          <lb ed="#Qb"/>natura voluntati potentiori amplius subiaceret </quote>·
+          <lb ed="#Qb"/>Ex iis verbis Augusti n i patet quod ratio seminalis
+          <lb ed="#Qb"/>duobus modis d sumitur, ut tactum est 2,
+          <lb ed="#Qb"/>et natura similiter, quia natura potest dici vel
+          <lb ed="#Qb"/>naturalis virtus activa per e quam est generatio
+          <lb ed="#Qb"/>similis ex simili ve! natura potest dici possibilitas
+          <lb ed="#Qb"/>secundum quam quaelibet natura subiecta est
+          <lb ed="#Qb"/>et possibilis respectu operationis divinae. Prout
+          <lb ed="#Qb"/>primo modo sumitur ratio seminalis, corpus Evae
+          <lb ed="#Qb"/>fuit seniinaliter in primis principiis rerum et
+          <lb ed="#Qb"/>etiam in f costa, non prout secundo modo. Praeterea,
+          <lb ed="#Qb"/>prout natura sumitur secundo modo, potest
+          <lb ed="#Qb"/>dici factum materialiter de costa, non prout primo
+          <lb ed="#Qb"/>modo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. A d a l i u d quod sequitur dicendum quod c
+          <lb ed="#Qb"/>infinitam distantiam esse inter aliqua dicitur duobus
+          <lb ed="#Qb"/>modis h: vel ratione distantiae primi i imaginabilis
+          <lb ed="#Qb"/>et sui oppositi, id estk esse et non-esse,
+          <lb ed="#Qb"/>vel ratione distantiae imaginabilis consequentis
+          <lb ed="#Qb"/>et sui opposi ti negative, sicut est distantia · entis
+          <lb ed="#Qb"/>dispositi ad aliquid et non dispositi 1 vel entis
+          <lb ed="#Qb"/>potentia a. d aliquid et non-entis potenti a: inter l
+          <lb ed="#Qb"/>enim quaelibet opposita negative est quodam
+          <lb ed="#Qb"/>modo distantia infinita, quia negatio convenit
+          <lb ed="#Qb"/>etiam non-enti. Sicut m inter esse et non-esse
+          <lb ed="#Qb"/>infinita simpliciter, similiter non-entis potentia
+          <lb ed="#Qb"/>et entis actu; maior autem n est distantia inter
+          <lb ed="#Qb"/>non-ens potentia o aliquid et esse illud actu
+          <lb ed="#Qb"/>quam inter non-ens potentia ad P aliquid et ens
+          <lb ed="#Qb"/>potentia ad illud: plus enim dista t inter non-ens
+          <lb ed="#Qb"/>potentia ad aliquid q et illud quam r inter non-ens
+          <lb ed="#Qb"/>potentia ad aliquid et ens potentia ad illud s,
+          <lb ed="#Qb"/>quia plus distat esse actu a non-esse potentia
+          <lb ed="#Qb"/>quam non-esse potentia t ab esse potentia respectu
+          <lb ed="#Qb"/>eiusdem. Quia ergo costa u non se habebat
+          <lb ed="#Qb"/>ut ens in dispositione aliqua ad corpus
+          <lb ed="#Qb"/>mulieris vel etiam v potentia, nisi obedientiali x,
+          <lb ed="#Qb"/>qua omnia obediunt Creatori, producere hoc
+          <lb ed="#Qb"/>in esse ex re tantum distante non est potestatis
+          <lb ed="#Qb"/>conditae. Dicendum ergo quod, licet inter
+          <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>praedicta non sit infinita distantia simpliciter, est
+          <lb ed="#Qb"/>tamen infinita quodam modo. Propter quod a ad
+          <lb ed="#Qb"/>producendum hoc ex hoc non sufficit potestas
+          <lb ed="#Qb"/>aliqua creata, et · maxime operatione repentina
+          <lb ed="#Qb"/>sive momentanea. Hoc dico, quia fortasse aliqui
+          <lb ed="#Qb"/>ponerent quod multiplici transmutatione posset
+          <lb ed="#Qb"/>de costa fieri semen unde posset b mulier seminaliter
+          <lb ed="#Qb"/>produci in esse per motum naturalern
+          <lb ed="#Qb"/>aliquo modo; quod ego non assero 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. A d a l i u d quod sequitur, dicendum quod,
+          <lb ed="#Qb"/>licet angeli aliquod ministerium exhibuerint c in
+          <lb ed="#Qb"/>formatione mulieris de costa, sicut vult A u g us<lb ed="#Qb"/>t i nus 4, 
+          non tamen d formati o membrorum aliquo
+          <lb ed="#Qb"/>modo erat ab angelo, sed ab opere divino,
+          <lb ed="#Qb"/>ut ex verbo Augustini supra posito 5 habetur.
+          <lb ed="#Qb"/>Unde, licet angelicum ministerium aliquo modo
+          <lb ed="#Qb"/>cooperaretur, ut forte. detrahendo costam et e
+          <lb ed="#Qb"/>praeparando vel aliquod ministerium exterius
+          <lb ed="#Qb"/>exhibendo, non tamen formationi corporis cooperabatur:
+          <lb ed="#Qb"/>propter quod convenienter excluditur
+          <lb ed="#Qb"/>ab illa operatione. Illud autem in rebus producendis
+          <lb ed="#Qb"/>in esse non f dicitur cooperari Deo, sed
+          <lb ed="#Qb"/>quod intime in ipsa rei productione operatur.
+          <lb ed="#Qb"/>- Ad illud c quod seqùitur, dicendum quod
+          <lb ed="#Qb"/>angeli dicuntur facere opera miraculosa sive mirabilia
+          <lb ed="#Qb"/>ministrando materiam et praeparando, sed
+          <lb ed="#Qb"/>Dominus formam et completionem inducendo 6•
+          <lb ed="#Qb"/>Unde solus Deus, proprie loquendo, facit illa quae
+          <lb ed="#Qb"/>exeunt in esse cursu mirabili.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Si obiciatur, sicut tactum est h, quod tempo<lb ed="#Qb"/>re 
+          Antichristi fient miracu1à a diabolo operante,
+          <lb ed="#Qb"/>sed non videtur quod diabolus et Deus communicent
+          <lb ed="#Qb"/>in aliquo opere, quia non est communicatio
+          <lb ed="#Qb"/>Christi et Belial sive conventio, II Cor. 6, 15, ibi
+          <lb ed="#Qb"/>Glossa 7 : <quote> Christus et diabolus non conveniunt</quote>,
+          <lb ed="#Qb"/>- respondeo i 8 : quod diabo1us non facifk aliqua
+          <lb ed="#Qb"/>miracula sive mirabilia nec potest facere nisi
+          <lb ed="#Qb"/>cooperando naturae, expediendo eam 1 et accelerando,
+          <lb ed="#Qb"/>sicut fuit in factis aliquibus, quae erant
+          <lb ed="#Qb"/>similia aliquibus plagis Aegypti, ut in serpentibus
+          <lb ed="#Qb"/>Magorum 9 ; facere autem opera huiusmodi quae
+          <lb ed="#Qb"/>sunt omnino supra naturam et ubi nulla est operatio
+          <lb ed="#Qb"/>m naturae, sed sola obedientia, nullo modo
+          <lb ed="#Qb"/>potest. In operibus ergo n mirabilibus, quae fiunt
+          <lb ed="#Qb"/>a daemonibus modo iam dicto, cooperatur Deus
+          <lb ed="#Qb"/>ipsi naturae, quae redditur expedita et acce1eratur
+          <lb ed="#Qb"/>0 opere daemonis, ipsis daemonibus cooperatur
+          <pb ed="#Qb" n="623"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>continue influendo in illis potentiam unde ope<lb ed="#Qb"/>rantur.
+          Nec videtur mihi inconveniens ponere
+          <lb ed="#Qb"/>Deum cooperari sive communicare cum daemone
+          <lb ed="#Qb"/>quandoque in opere operato, licet non conveniant
+          <lb ed="#Qb"/>in fine operis. Et sic" intelligitur illud II Cor. 6,15:
+          <lb ed="#Qb"/>
+          <quote ana="#IIcor6_15">Quae autem conventio Christi ad Belial?</quote> Unde
+          <lb ed="#Qb"/>Glossa": <quote>Belial apostata interpretatur, cum
+          <lb ed="#Qb"/>quo Christus non convenit, quia ille omnia male,
+          <lb ed="#Qb"/>Christus omnia bene agit</quote>; bonum enim et ma<lb ed="#Qb"/>lum
+          dicunt conditiones finis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Ad hoc quod obicitur per illud I Cor. 12,28:
+          'Deinde Virtutes, quod hominesc faciunt mira<lb ed="#Qb"/>cula
+          ', dicendum2 quod hocti intelligendum est
+          <lb ed="#Qb"/>per invocationem. Neque enim faciunt homines
+          <lb ed="#Qb"/>miracula auctoritate et primae potentia operante,
+          <lb ed="#Qb"/>quia modus iste est solius Dei, neque praeparando
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>materiam et disponendo, sicut angeli, sed impe<lb ed="#Qb"/>trando
+          per invocationem. Et hoc dupliciter: vel
+          <lb ed="#Qb"/>invocando sive per invocationem in sanctitate
+          <lb ed="#Qb"/>personae, sicutf iusti, vel in sanctitate Eccle<lb ed="#Qb"/>siae,
+          non personae, sicut mali, ad quorum invo<lb ed="#Qb"/>cationem
+          Deus quandoque mirabilia tacit-8 prop<lb ed="#Qb"/>ter
+          fidem Ecclesiae confirmandam vel propter
+          <lb ed="#Qb"/>fidem Ecclesiae probandam, sicut faciet tempore
+          <lb ed="#Qb"/>Antichristi. Quo modo differenter faciunt mira<lb ed="#Qb"/>cula
+          boni'l et mali habetur ab Augustino,
+          83 Quaestionum", dicente: <quote>Aliter Magi ia<lb ed="#Qb"/>ciunt
+          miracula, aliter boni Christiani, aliter mali;
+          <lb ed="#Qb"/>Magi per privatos contractus *, boni Christiani
+          <lb ed="#Qb"/>per publicam iustitiam, mali per signa publicae
+          <lb ed="#Qb"/>iustitiae </quote>. De hoc determinatum est in Quaestione
+          <lb ed="#Qb"/>de miraculo 4.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

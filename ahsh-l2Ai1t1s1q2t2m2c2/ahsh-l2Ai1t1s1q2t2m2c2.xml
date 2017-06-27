@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="33"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t2m2c2">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 2, M. 2, C. 2</head>
+        <head type="question-title">UTRUM CREARE SIT PRIMUS ACTUUM DIVINORUM 15.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde procedendum est et primo obicitur quod
+          <lb ed="#Qb"/>D non est creatio prima actio: 1. Nobilior enim
+          <lb ed="#Qb"/>est actio quae habet bonum in principio et bonum
+          <lb ed="#Qb"/>in termino quam quae habet tantum bonum in ter<lb ed="#Qb"/>mino'
+          ; sed creatio habet bonum in termino, non
+          <lb ed="#Qb"/>in eo ex quo, aliae vero actiones habent bonum
+          <lb ed="#Qb"/>utrobique; ergo aliae actiones sunt nobiliores.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, creatio, secundum quod dicitur 15 : In prin<lb ed="#Qb"/>cipio
+          creavit Deus etc.'f terminatur ad informe.
+          <lb ed="#Qb"/>Unde <name ref="#Augustine">Augustinus</name>, in XII Confessionum 17:
+    <quote> lnformis illa materia, quam de nihilo Deus fecit,
+          <lb ed="#Qb"/>appellata est caelum et terra, cum dictum est:
+          <lb ed="#Qb"/>In principio creavit Deus caelum et' terram, non 
+          <lb ed="#Qb"/>quia hoc '" iam erat, sed quia esse poterat"; nam
+          <pb ed="#Qb" n="34"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>postea * scri-bitur caelum tactum </quote>. Sed ' facere' ter<lb ed="#Qb"/>minatur
+          ad id quod habet speciem; ergodignior est
+          <lb ed="#Qb"/>actio quae nomine eius quod est 'tieri' designatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Nobilior est actio qua datur esse. in
+          <lb ed="#Qb"/>quantum huiusmodi quam qua proximo datur ali<lb ed="#Qb"/>qua
+          additio super esse: omnis enim prima causa
+          <lb ed="#Qb"/>et universalis plus influit super causatum F quam
+          <lb ed="#Qb"/>causa secundaz; sed acausa prima influit esse
+          <lb ed="#Qb"/>eis; ergo nobilior est actio; sed illa est creatio;
+          <lb ed="#Qb"/>ergo creatio est nobiliorb aliis actionibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, actio, quae procedit ex : uno sibi suffi<lb ed="#Qb"/>cienti,
+          est dignior actione quae quaerit necessario
+          <lb ed="#Qb"/>multa; sed aliae actiones exigunt necessariod
+          <lb ed="#Qb"/>multa, creatio vero ex unoe est; ergo creatio
+          <lb ed="#Qb"/>dignior est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondendum est quodf creatio dignior est
+          <lb ed="#Qb"/>aliis actionibus propter simplicitatem ex parte
+          <lb ed="#Qb"/>actionis et principii.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo ergo obiectum
+          <lb ed="#Qb"/>in contrarium dicendum-? quod creatio, licet non
+          <lb ed="#Qb"/>habeat in utroque suo termino ens sive bonum, non
+          <lb ed="#Qb"/>propter hoc est minus nobilis, sed eo nobilior, quia
+          <lb ed="#Qb"/>non quaerit sibi subiectam materiam ": non enim ex
+          <lb ed="#Qb"/>parte sui principii habet imperfectionem, sed prin<lb ed="#Qb"/>cipium
+          ex supereffluentia alia producit ex nihilo.
+          <lb ed="#Qb"/>Est tamen distinguendum quod sumpta actione
+          <lb ed="#Qb"/>quodam generali modo, si. licet dicere, nobilior
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>est aliqua actio quae est de existenti quam illa1
+          <lb ed="#Qb"/>quae est de nihilo; sed illud existens est ante
+          <lb ed="#Qb"/>nihil sive non-aliquid; unde dicendo'f quod spirare
+          <lb ed="#Qb"/>vel generare est' agere — ut non otiosa dicatur
+          <lb ed="#Qb"/>Dei bonitas) ab aeterno, sicut philosophi vel hae<lb ed="#Qb"/>retici
+          obiciunt3 — erit actio sic dicta nobilior crea<lb ed="#Qb"/>tione.
+          Si vero'" accipiatur actio de praeexistenti
+          <lb ed="#Qb"/>quod fit" ex nihilo, erit creatio nobilior actio
+          <lb ed="#Qb"/>illis actionibus consequentibus; generatio ergo" 
+          <lb ed="#Qb"/>aeterna nobilior est, agens vero de praeexistenti
+          <lb ed="#Qb"/>materia minus nobile.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad id vero quod obicitur quod 'actio di<lb ed="#Qb"/>gnior
+          est cuiusP terminus est dignior, et ita fa<lb ed="#Qb"/>cere
+          dignius quam creare': dicendum est qupd
+          <lb ed="#Qb"/>licet 'creare' respiciat materiam informem, nihilo<lb ed="#Qb"/>minus
+          tamen et ea quae formata sunt et formae
+          <lb ed="#Qb"/>eorum creatae sunt. Unde <name ref="#Augustine">Augustinus</name>, in libro
+          <lb ed="#Qb"/>De Symbolo 4: <quote> Rectissime creditur Deum omnia
+          <lb ed="#Qb"/>de nihilo fecisse, ut ordinatissimo Dei munere
+          <lb ed="#Qb"/>prima capacitas formarum fieret, ac deindeiT om<lb ed="#Qb"/>uia
+          quae formantur </quote>. Item, Super Genesim ad
+          <lb ed="#Qb"/>litteram5; . Non temporali, sed causali ordine
+          <lb ed="#Qb"/>prius facta est informis formabilisque materies
+          <lb ed="#Qb"/>et spiritualis et corporalis, nec instituta est nisi
+          <lb ed="#Qb"/>ab illo summo Deo, ex quo sunt, secundum
+          <lb ed="#Qb"/>illud Eccli. 18,1: Qui vivit in' aeternum, creavit
+          <lb ed="#Qb"/>omnia simul.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

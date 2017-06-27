@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="226"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t1d2m2c2">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 2</head>
+        <head type="question-title">UTRUM DILECTIONE ELECTIVA DILIGATUR DEUS AB ANGELO.</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur, si dilectio electiva est in an<lb ed="#Qb"/>gelis,
+          utrum hac dilectione diligatur Deus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod sic: 0. Sicut enim in homine
+          <lb ed="#Qb"/>est quod ex electione non recta potest diligere
+          <lb ed="#Qb"/>aliquid, quod non est Deus, pro Deo, et" quod.
+          <lb ed="#Qb"/>non est vere? beatitudo, pro beatitudine, et ex
+          <lb ed="#Qb"/>opposito ex electione recta potest diligere quod
+          <lb ed="#Qb"/>vere Deus est, pro Deo, et quod vere beatitudo
+          <lb ed="#Qb"/>est, pro beatitudine ?, ita potuit esse in angelis
+          <lb ed="#Qb"/>ut angeli mali diligerent aliquid ', quod non est
+          <lb ed="#Qb"/>vere beatitudo, pro beatitudine, et quod non ests
+          <lb ed="#Qb"/>vere Deus, pro Deo, secundum illumf modum
+          <lb ed="#Qb"/>secundum quem hoc, quod prae aliis diligitur,
+          'Deus' illi dicitur; e contra boni angeli, quod
+          <lb ed="#Qb"/>vere est beatitudo, pro beatitudine eligentes, dili<lb ed="#Qb"/>gerent
+          et quod vere Deus est, pro Deo eligentes,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>diligerent; sed hoc non esset, si dilectio electiva
+          <lb ed="#Qb"/>non esset in angelis primitus institutis; ergo
+          <lb ed="#Qb"/>dilectio electiva fuit in angelis primitus insti<lb ed="#Qb"/>tutis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed videtur contrarium: l. Dilectio enim elec<lb ed="#Qb"/>tiva
+          est illius cuius est electio;'electio autem
+          <lb ed="#Qb"/>non est finis, sed eorum quae sunt ad finem: in
+          <lb ed="#Qb"/>hoc enim distinguitur electio a voluntate, quod
+          <lb ed="#Qb"/>voluntas est communiter et finis et eorum quae
+          <lb ed="#Qb"/>sunt ad finem, electio autem est" eorum quae
+          <lb ed="#Qb"/>sunt ad finem". Cum ergo Deus sit finis, non
+          <lb ed="#Qb"/>erit eius electio: nullus enim deliberat utrum velit
+          <lb ed="#Qb"/>Deum naturaliter; ergo dilectio electiva non est
+          <lb ed="#Qb"/>respectu Dei.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod est loqui
+          <lb ed="#Qb"/>de Deo secundum communem intentionem, se<lb ed="#Qb"/>cundum
+          quam dicitur 'Deus' quod prae omnibus
+          <pb ed="#Qb" n="227"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>diligitur et colitur: et in hac ratione non est eius
+          <lb ed="#Qb"/>electioa nec dilectio electiva. Alio vero modo
+          <lb ed="#Qb"/>dicitur Deus substantia conditiva omnium et re<lb ed="#Qb"/>gitiva 
+          et rationalis creaturae perfectivab gratia
+          <lb ed="#Qb"/>et gloria: et secundum huncc modum diligitur
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>dilectione electiva ab angelis bonis. Hoc ergo
+          <lb ed="#Qb"/>modo, prout dilectio electiva non respicit ratio<lb ed="#Qb"/>nem
+          Dei communem, sed id quod subest rationi
+          <lb ed="#Qb"/>quod vere est illud vel non vere est illud, esse
+          <lb ed="#Qb"/>potuit dilectio electiva in eis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="486"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t3m5">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 5</head>
+        <head type="question-title">Utrum liberum arbitrium possit amitti vel minui.</head>
+        <p>
+                <pb ed="#Qb" n="486"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Deinde quaeritur si liberum arbitrium potest 
+          <lb ed="#Qb"/>amitti vel minui in illis in quibus est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Sicut enim potest intendi, pari ratione potest
+          <lb ed="#Qb"/>diminui. Quod autem intendi possit, patet per
+          <lb ed="#Qb"/>hoc quod dicit <name ref="#Augustine">Augustinus</name>zz <quote> Multo liberius
+          <lb ed="#Qb"/>erit arbitrium quod omnino non" poteritb servire
+          <lb ed="#Qb"/>peccato quam quod potest</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, sicut abundat captivitas peccati,
+          <lb ed="#Qb"/>ita minuitur libertas arbitrii; ergo contingit dimi<lb ed="#Qb"/>nui;
+          ergo, cum ista libertas sit bonum creatum, non
+          <lb ed="#Qb"/>est infinitum ** et ita post diminutionem multiplicem
+          <lb ed="#Qb"/>poterit amitti; ergo libertas arbitrii est amissibilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Bernardus3: <quote>Nec peccato nec
+          <lb ed="#Qb"/>miseria amittitur vel minuitur </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Bernardus: <quote>Solum liberum arbi<lb ed="#Qb"/>trium
+          e sui omnino diminutionem vel defectum
+          <lb ed="#Qb"/>non patitur </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod d-icendumf quod est li—
+          <lb ed="#Qb"/>bertas arbitrii et est libertas consilii, sicut di<lb ed="#Qb"/>stinguit
+          Bernardus 4, et est libertas complaciti.
+          <lb ed="#Qb"/>Libertas ergo arbitrii non est amissibilis nec di<lb ed="#Qb"/>minuibilis,
+          libertas vero consilii vel complaciti di<lb ed="#Qb"/>minuibilis
+          est8 vel amissibilis. Unde Bern ar<lb ed="#Qb"/>d
+          11 s 5: <quote> In duabus libertatibus </quote>, scilicet consilii et
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>complaciti, <quote> quoniam non solum ex parte minui,
+          <lb ed="#Qb"/>sed ex toto amittiwpossunt, accidentalis quaedam
+          <lb ed="#Qb"/>similitudo sapientiae et potentiae divinae imagini
+          <lb ed="#Qb"/>superducta cognoscitur. Denique amisimus illam
+          <lb ed="#Qb"/>per culpam et per gratiam recuperavimus, et quo<lb ed="#Qb"/>tidie
+          alii quidem plus, alii minus aut in"1 ipsis
+          <lb ed="#Qb"/>proficimus aut ab ipsis deficimus. Possunt etiam
+          <lb ed="#Qb"/>sic amitti, ut iam non valeant recuperari; possunt
+          <lb ed="#Qb"/>etiam ita possideri, ut nec amitti queanti aliquo
+          <lb ed="#Qb"/>modo nec minui</quote>. Item, B ern ardusü: <quote> [Cum] Ii<lb ed="#Qb"/>bertas
+          arbitrii de ipso, quo condita est, statu ali<lb ed="#Qb"/>quatenus
+          non mutetur, sed aequaliter, quantum in
+          <lb ed="#Qb"/>se est, a caelis, terris, inferis * possideatur: merito
+          <lb ed="#Qb"/>illi similitudini vel imagini deputantur. Et quidem
+          <lb ed="#Qb"/>apud inferos quod utraque libertas perierit, illae
+          <lb ed="#Qb"/>scilicet quae ad similitudinem! pertinere dicun<lb ed="#Qb"/>tur,
+          Scripturarum testantur auctoritates. Nam ve<lb ed="#Qb"/>rum
+          illic sapere, quod de consilii libertate conci<lb ed="#Qb"/>pitur
+          f", omnino non esse, locus ille manifestat,
+          <lb ed="#Qb"/>ubi legitur7: Quodcumque potest manus tua, in<lb ed="#Qb"/>stanter
+          operare, quia nec opus nec ratio nec
+          <lb ed="#Qb"/>sapientia sunt apud inferos, quo tu" properas.
+          <lb ed="#Qb"/>Porro de potentia, quae per libertatem complaciti
+          <lb ed="#Qb"/>datur 0, Evangelium sic loquitur 8: Ligatis manibus
+          <lb ed="#Qb"/>et pedibus, proicite eos in tenebras exteriores </quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

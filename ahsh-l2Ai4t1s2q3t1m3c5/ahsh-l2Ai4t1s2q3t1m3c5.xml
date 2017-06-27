@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t1m3c5">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 5</head>
+        <head type="question-title">DE QUIBUS SIT SENSUS INTERIOR</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur de quibus est sensus
+          <lb ed="#Qb"/>interior sive respectu quorum, utrum scilicet
+          <lb ed="#Qb"/>respectu sensibilium aut tantum respectu intelli<lb ed="#Qb"/>gibilium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod respectu sensibilium, videtur: 1. A u gu<lb ed="#Qb"/>stinus,
+          in libro De libero arbitrio 2: <quote> Si sentit
+          <lb ed="#Qb"/>se non videre, dum non videt, necesse est etiami
+          <lb ed="#Qb"/>sentiat se videre, dum videt, quia, cum eo ap<lb ed="#Qb"/>petitu
+          non movet oculum videns * quo movet non
+          <lb ed="#Qb"/>videns, indicat se utrurnque sentire</quote>. Si ergo
+    <quote>sentit se videre, dum videt </quote>, cum istud sit'
+          <lb ed="#Qb"/>sensibile, est respectu sensibilium, non solum
+          <lb ed="#Qb"/>respectu intelligibilium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Hugo de S. Victore3: <quote> Positus
+          <lb ed="#Qb"/>est homo in medio </quote>, scilicet inter angelum et
+          <lb ed="#Qb"/>bruta animalia, <quote> ut intus et foris sensum ha<lb ed="#Qb"/>beret,
+          intus ad invisibilia, foris ad visibilia,
+          <lb ed="#Qb"/>intus per sensum rationis, foris per sensum
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>carnis </quote>. Ergo sensus interior est tantum ad in<lb ed="#Qb"/>visibilia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, <name ref="#Augustine">Augustinus</name>, in libro De anima et
+          <lb ed="#Qb"/>spiritu4: <quote> Duo sunt in homine sensus, unus inte<lb ed="#Qb"/>rior
+          et unus'" exterior, et utrumque" bonum suum
+          <lb ed="#Qb"/>habet in quo reticitur: sensus interior reficitur in
+          <lb ed="#Qb"/>contemplatione divinitatis, sensus exterior in con<lb ed="#Qb"/>templatione
+          humanitatis </quote>. Ergo sicut sensus exte<lb ed="#Qb"/>rior
+          in homine est respectu sensibilium, ita videtur
+          <lb ed="#Qb"/>quod interior sit tantum " respectu intelligibilium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod, sicut dic<lb ed="#Qb"/>tum
+          est? 5, sensus interior accipitur dupliciter. Ali<lb ed="#Qb"/>quando
+          enim accipitur pro sensibili parte, scilicet
+          <lb ed="#Qb"/>interiori: et hoc modo loquitur <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Qb"/>in libro De libet-aq arbitrio, de sensu interiori.
+          <lb ed="#Qb"/>Alio modo accipitur pro parte intelligibili: et hoc
+          <lb ed="#Qb"/>modo loquuntur aliae duae auctoritates de sensu
+          <lb ed="#Qb"/>interiori, scilicet auctoritas' Hugonis et Aeu<lb ed="#Qb"/>gustini,
+          in libro De anima et spiritu.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

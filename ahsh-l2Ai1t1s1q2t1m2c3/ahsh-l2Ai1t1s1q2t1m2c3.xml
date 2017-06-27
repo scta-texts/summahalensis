@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 2, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 2, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="19"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t1m2c3">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 2, C. 3</head>
+        <head type="question-title">UTRUM CAUSA EXEMPLARIS DICATUR RESPECTU POSSIBILIUM.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur, supposita pluralitate aliquo
+          <lb ed="#Qb"/>modo exemplarium, utrum dicatur causa ex<lb ed="#Qb"/>emplaris
+          tantuml respectu eorum quae fiunt vel "'
+          <lb ed="#Qb"/>facta sunt, an dicatur causa exemplaris respectu
+          <lb ed="#Qb"/>eorum quae possunt fieri, licet nunquam fiant.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod non ultimo modo, videtur: ]. Dictum
+          <lb ed="#Qb"/>est enim quod pluralitas ex parte exemplaris est
+          <lb ed="#Qb"/>in respectu exemplatorum .ad ipsum; cum ergo
+          <lb ed="#Qb"/>illud- quod non est" in esse sub ratione praeteriti
+          <lb ed="#Qb"/>vel praesentis vel futuri, non habeat unitatem, ergo
+          <lb ed="#Qb"/>respectu illius non poterit accipi unitas, conse<lb ed="#Qb"/>quenter
+          nec pluralitas; ergo id, quod tantum potest
+          <lb ed="#Qb"/>esse, non habet rationem exemplarem ".
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, multa sunt impossibilia, quae sunt
+          <lb ed="#Qb"/>Deo possibilia, quae nunquam contingent: horum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>in se nec est unitas nec pluralitas; consequenter
+          <lb ed="#Qb"/>ergo nec respectu eorum sunt rationes exema
+          <lb ed="#Qb"/>plares P.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Si sunt possibilia, possunt duci in
+          <lb ed="#Qb"/>actum; ducantur ergo in actum; si ergo non haf
+          <lb ed="#Qb"/>berent rationem exemplar-em, cum nihil novum
+          <lb ed="#Qb"/>fiat in' Deo, fierent absque ratione exemplari;
+          <lb ed="#Qb"/>ergo aliqua facta essent a Deo sine ratione: quod
+          <lb ed="#Qb"/>absurdum est, sicut habetur in Quaestione supra
+          <lb ed="#Qb"/>dicta libri 83 Quaestionum 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, cum infinita possint fieri a Deo, finitae
+          <lb ed="#Qb"/>autem '! essent, secundum iam dictum "4, rationes
+          <lb ed="#Qb"/>exemplares, essent finitae infinitorum rationes;
+          <lb ed="#Qb"/>cuius contrarium videtur, eo quod potentia Dei
+          <lb ed="#Qb"/>extendit se ad infinita et nihil potest fieri a Deo
+          <lb ed="#Qb"/>sine ratione5; ergo ratio exemplaris potentiam
+          <pb ed="#Qb" n="20"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>habet ad infinita; sed finitum non habet potentiam
+          <lb ed="#Qb"/>super infinitum; ergo ratio exemplaris est inii<lb ed="#Qb"/>nitae
+          virtutis '.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondendum est 0 quod ratio sive causa exem<lb ed="#Qb"/>plaris
+          rionest tantum respectu eorum quae pro<lb ed="#Qb"/>ducuntur
+          in esse, sed quae possunt produci, licet
+          <lb ed="#Qb"/>non producantur; intentio tamen exemplaris in
+          <lb ed="#Qb"/>effectu est ut ad similitudinem eius fiat aliquid;
+          <lb ed="#Qb"/>et hoc patet per illud quod dicitur in libro ,83
+          <lb ed="#Qb"/>Quaestionumzz <quote> Cum ipsae ideae sive rationes
+          <lb ed="#Qb"/>neque oriantur neque intereant, secundum eas
+          <lb ed="#Qb"/>tamen formari dicitur quidquid oriri vel interire
+          <lb ed="#Qb"/>potest </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id vero quod obicitur
+          <lb ed="#Qb"/>in contrarium, dicendum est quod, licet ea quae
+          <lb ed="#Qb"/>possunt esse et non erunt, non habeant unitatem
+          <lb ed="#Qb"/>simpliciter, nihilominus tamen b habent unita<lb ed="#Qb"/>tem,
+          respectu cuius potest ratio exemplaris dici
+          <lb ed="#Qb"/>pluraliter; non enim actus- rationis exemplaris
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>dependet a re exemplata, sive sit actu sivec in
+          <lb ed="#Qb"/>potentia et non in actu. — Si vero dicatur quod
+          <lb ed="#Qb"/>scientia divina est rerum existentium, ut eorum
+          <lb ed="#Qb"/>quae sunt vel fuerunt vel erunt, et ita non possibi<lb ed="#Qb"/>lium
+          tantum ", et per consequens ratio exempla<lb ed="#Qb"/>ris
+          non sit illorum: respondendum quod
+          <lb ed="#Qb"/>sicut? res se habent ad esse, ita ad veritatem et
+          <lb ed="#Qb"/>sic ad-scientiam: unde omnium, sive actualium
+          <lb ed="#Qb"/>sive possibilium, est divina scientia3; unde et
+          <lb ed="#Qb"/>ratio exemplaris similiter, bonorum scilicetf 4.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad id vero quod obicitur secundo de
+          <lb ed="#Qb"/>impossibilibus quae tamen sunt Deo possibilia: di<lb ed="#Qb"/>cendum
+          similiter quod ratio exemplaris non respi<lb ed="#Qb"/>cith
+          possibilitatem vel impossibilitatem naturae
+          <lb ed="#Qb"/>inferioris, sed ratio exemplaris est eorum quae
+          <lb ed="#Qb"/>sunt possibilia Deo; non autem esti exemplaris
+          <lb ed="#Qb"/>quod fieri debeant nisi sint huiusmodi quae'f
+          <lb ed="#Qb"/>congruat fieri; impossibilium autem Deo non est
+          <lb ed="#Qb"/>ratio. exemplaris.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

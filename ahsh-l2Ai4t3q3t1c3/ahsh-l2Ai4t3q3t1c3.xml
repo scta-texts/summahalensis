@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 1, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="741"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q3t1c3">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 1, C. 3</head>
+        <head type="question-title">UTRUM PRIMUS HOMO EX ACCEPTO IN PRIMA CONDITIONE PROFICERE POTUIT IN BONUM.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur inquirere utrum ex acceptis in condi<lb ed="#Qb"/>tione 
+          poterat in bonum proficere. Et quia in 
+          <lb ed="#Qb"/>bonum proficere non potest quis nisi sit gratus
+          <lb ed="#Qb"/>Deo sive acceptus,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Primo quaereturf utrum in statu illo fuerit
+          <lb ed="#Qb"/>gratus sive acceptus Deo;
+          <lb ed="#Qb"/>secundo, utrum in illo statu poterat proficere.
+        </p>
+        <div type="articulus">
+          <head type="question-title">Utrum primus homo in primo statu fnerit acceptus Deo 4.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur ergo utrum fuerit in statu illo ac<lb ed="#Qb"/>ceptus
+            Deo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod sic, videtur: 1. Solummodo culpa sive
+            <lb ed="#Qb"/>peccatum est quod facit creaturam displicere Deo
+            <lb ed="#Qb"/>et creaturam inimicam Deo. Unde hoc est quod
+            <lb ed="#Qb"/>Deus sive corpus Christi mysticum intendit ul<lb ed="#Qb"/>cisci
+            in creatura rationali; unde Psalm. 5: Ultus
+            <lb ed="#Qb"/>sum in ease. Unde <name ref="#Augustine">Augustinus</name>, in Sermone
+      
+            <lb ed="#Qb"/>quodamG: <quote> Quid est ultus sum in'.1 eos? Vindicavi
+            <lb ed="#Qb"/>me de ipsis inimicis meis. Quo modo me vin<lb ed="#Qb"/>dicavi?
+            Occidendo in eis errorem</quote> etc. lgitur
+            <lb ed="#Qb"/>omnis illa creatura rationalis grata et accepta est
+            <lb ed="#Qb"/>Deo et semper fuit antequam aversa fuit a Deo
+            <lb ed="#Qb"/>per peccatum; cum ergo in primo statu primus
+            <lb ed="#Qb"/>homo non habuerit peccatum, etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, Gen. 1,31: <quote ana="#gen1_31">Vidit Deus cuncta quae fe<lb ed="#Qb"/>cerat,-et
+            erant valde bona</quote>; sed summo bono non
+            <pb ed="#Qb" n="742"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>potest non complacere illud quod est valde hæ
+            <lb ed="#Qb"/>num; si ergo homo inter ceteras creatur-as infe<lb ed="#Qb"/>riores
+            principatum obtinebat, videtu'r quod ipse
+            <lb ed="#Qb"/>valde bonus erat; et si hoc, ergo Deus illum
+            <lb ed="#Qb"/>acceptabat.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, Sap. 11,25: <quote ana="#sap11_25">Diligis omnia, Domine, et
+            <lb ed="#Qb"/>nihil odisti eorum quae fecisti</quote>; sed homo in statu
+            <lb ed="#Qb"/>innocentiae nihil habebat 'quod esset dignum
+            <lb ed="#Qb"/>odio, et totum quod habebat, a Deoa factum
+            <lb ed="#Qb"/>erat; ergo Deus ipsum totaliter diligebat; sed
+            <lb ed="#Qb"/>quod sic a Deo diligitur, ab eo acceptatur ;
+            <lb ed="#Qb"/>ergo etc. '
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, Prov. 8, 17: <quote>Ego diligentes me diligo</quote>;
+            <lb ed="#Qb"/>sed homo secundum statum naturae institutae
+            <lb ed="#Qb"/>diligebat Deum propter se et super omnia, quia
+            <lb ed="#Qb"/>rectus eratï; ergo videtur quod etiam praeter
+            <lb ed="#Qb"/>omnem gratiam Deus eum amabat; et si hoc, ergo
+            <lb ed="#Qb"/>Deo acceptus erat.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Item, artifex creatus complacet sibi in opere
+            <lb ed="#Qb"/>suo et illud acceptat, quoniam"7 ipsum fabricat
+            <lb ed="#Qb"/>ad voluntatem suam; sed Deus, qui est summus
+            <lb ed="#Qb"/>artifex, hominem tormaverat " ad imaginem suam 2
+            <lb ed="#Qb"/>et optima ratione eum condiderat; ergo videtur
+            <lb ed="#Qb"/>quod ex naturalibus sibi datis homo Deo pla<lb ed="#Qb"/>cebat.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Item, nihil est quod plus faciat animam co<lb ed="#Qb"/>ram
+            Deo acceptam quam quod sit tota pulcra et
+            <lb ed="#Qb"/>nulla-sit in 'ea macalaS; sed anima Adae-in statud
+            <lb ed="#Qb"/>innocentiae tota erat pulcra et nulla erat in ea
+            <lb ed="#Qb"/>macula quantum erat ex naturali conditione;
+            <lb ed="#Qb"/>ergo absque omni gratia superaddita Deo erat
+            <lb ed="#Qb"/>accepta.
+         </p>
+          <p>
+            <lb ed="#Qb"/>7. Item, aut Deus poterat facere aliquam creatu<lb ed="#Qb"/>ram
+            ita bonam quod ex puris naturalibus sibi
+            <lb ed="#Qb"/>placeret aut non. Si non: videtur quod non esset
+            <lb ed="#Qb"/>omnipotens. Si sic: igitur non videtur quod ad
+            <lb ed="#Qb"/>hoc quod natura placeat Deo necessarium sit
+            <lb ed="#Qb"/>superaddi donum gratiae. Si ergo homo perfecte
+            <lb ed="#Qb"/>conditus tuit secundum exigentiam status naturae,
+            <lb ed="#Qb"/>videtur quod Deo placebat absque omni "dono
+            <lb ed="#Qb"/>gratiae superaddito.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed contra: a. Hebr. 11,6: <quote ana="#hebr11_6">Sine fide impos<lb ed="#Qb"/>sibile
+            est placere Deo</quote>; sed fides est donum su<lb ed="#Qb"/>peradditum
+            naturae, secundum quod dicitur I
+            <lb ed="#Qb"/>Cor. 12,9; ergo sine dono gratiae naturae super<lb ed="#Qb"/>additaee
+            nullus potest placere Deo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>11. Item, Sap. 7,28: <quote ana="#sap7_28">Neminem diligit Deus nisi il<lb ed="#Qb"/>lam
+            qui cum sapientia inhabitat</quote>; sed sapientia est
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>donum Dei naturae superadditum, secundum quod
+            <lb ed="#Qb"/>infra subiungitur, cap. 9,10: Mitte illam de caelis
+            <lb ed="#Qb"/>sanctis tuis etc.; ergo absque dono gratiae na<lb ed="#Qb"/>turae
+            supe'raddi'tae impossibile est Dei amicum
+            <lb ed="#Qb"/>esse.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, nihil est excellentius secundum natu<lb ed="#Qb"/>ram
+            in homine ipsa imagine; non tamen ex esse
+            <lb ed="#Qb"/>ad imaginem placet creatura Deo 'nec est ei ac<lb ed="#Qb"/>cepta;
+            ad hoc ergo quod persona aliqua Deo
+            <lb ed="#Qb"/>placeat 'et acceptetur ab illo, requiritur aliquod
+            <lb ed="#Qb"/>donum ipsi naturae superadditum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, si naturalia redderent personam Deo
+            <lb ed="#Qb"/>acceptam, daemones essent accepti Deo, cum
+            <lb ed="#Qb"/>habeant naturalia optima. Dicit enim D i o n y s i'us,
+            <lb ed="#Qb"/>De divinis hominibus, de daemonibus4: <quote>'Datas
+            <lb ed="#Qb"/>eis angelicas donationes nunquam ipsas com<lb ed="#Qb"/>motas
+            tuisse dicimus, sed sunt integri -etf cla<lb ed="#Qb"/>rissimi
+      </quote>. Alia translatio5 dicit: <quote> Data ipsis ange<lb ed="#Qb"/>lica
+            dona nequaquamg ipsa muta-ta esse dicimus,
+            <lb ed="#Qb"/>sed sunt integra et splendidissima </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respontlleo6 quod complacentia, acceptatio,
+            <lb ed="#Qb"/>amor Dei respectu creaturarum non dicit aliquam
+            <lb ed="#Qb"/>affectionem incidentem ivelh accidentem in ipso.
+            <lb ed="#Qb"/>Unde Bernardus, De amore Dei7: <quote>Nos te
+            <lb ed="#Qb"/>diligimus affectu amoris a te nobis indito; tu
+            "vero, Conditor omnium et affectuu'm bonorum et
+            <lb ed="#Qb"/>animarum ai'ficiendarum, numquid accidenti vel
+            <lb ed="#Qb"/>in'c'ide'nti amoris affectu lam-as quos amas vel ali<lb ed="#Qb"/>quo
+            [modo] in aliquo afficeris, qui et omnes facis"
+            <lb ed="#Qb"/>et omnia? Absit! Absurdum est, procul est a'fide,
+            <lb ed="#Qb"/>alienum ab omnium * Creatore! </quote>. Acceptatio autem
+            <lb ed="#Qb"/>et amor eius respectu creaturarum est effectus'
+            <lb ed="#Qb"/>in creatura, non affectus in Creatore. — Quod
+            <lb ed="#Qb"/>patet per Bernardum, in libro De amoreDeiB,
+            <lb ed="#Qb"/>dicentem: <quote>Hoc est amare tuum, quo tu amas
+            <lb ed="#Qb"/>te amantes, dulcedine bonitatis tuae, quam habes
+            <lb ed="#Qb"/>ad creaturam tuam, Creator bone, inspirare eis
+            <lb ed="#Qb"/>hoc desiderium amandi te et amorem quo te
+            <lb ed="#Qb"/>amant et amare te; non enim afficeris ad nos
+            <lb ed="#Qb"/>vel a nobis, cum nos amas </quote>. Solummodo ergo
+            <lb ed="#Qb"/>Deus complacendo et amando afficitur ad'" se
+            <lb ed="#Qb"/>sive de se. Sed hoc potest esse et amando se et
+            <lb ed="#Qb"/>complacendo sibi in se et amando se et co'm<lb ed="#Qb"/>placendo
+            sibi in" nobis. Unde Bernardus, in
+            <lb ed="#Qb"/>libro praedicto—9: <quote>'Amas te, amabilis Domine, in
+            <lb ed="#Qb"/>te ipso, cum0 a Patre et 'Fi1i01procedit Spiritus
+            <lb ed="#Qb"/>Sanctus, amor Patris ad Filium et Filii ad Patrem;
+            <lb ed="#Qb"/>et-tantus est amor ut sit unitas, tanta unitas ut
+            <pb ed="#Qb" n="743"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>sit homoousion, id est Patris et Filii substantia.
+            <lb ed="#Qb"/>Amas et te ipsum in nobis, mittendo Spiritum
+            <lb ed="#Qb"/>Filii tui in corda nostra, a dulcedine amoris, a
+            <lb ed="#Qb"/>vehementia inspiratae a te nobis voluntatis, cla<lb ed="#Qb"/>mantem
+            4: Abba, pater 1, sic nos efficiens tui ama<lb ed="#Qb"/>tores
+      </quote>. Complacere ergo sibi in nobis est com<lb ed="#Qb"/>placere
+            sibi efficiendo aliquid in nobis vel-'J alicui
+            <lb ed="#Qb"/>effectui eius in nobis *. Notandum ergo quod
+            <lb ed="#Qb"/>acceptatio et complacentia sive amor Dei, utd
+            <lb ed="#Qb"/>intelliguntur respectu sui, quodam genere loquendi
+            <lb ed="#Qb"/>affectiones dici possunt, quia summe delectatur
+            <lb ed="#Qb"/>in se et perfectissime fruitur se; ut autem intel<lb ed="#Qb"/>liguntur
+            respectu creaturae, dicunt effectus in
+            <lb ed="#Qb"/>ipsa creatura, non affectiones, ut ex dictis patetz,
+            <lb ed="#Qb"/>nisi interpretando complacentiam vel acceptatio<lb ed="#Qb"/>nem
+            Deum efficientem aliquid in creatura. Quo<lb ed="#Qb"/>dam
+            ergo modoquuendi iuxta modum humanum,
+            <lb ed="#Qb"/>secundum quem meliora dicuntur magis accepta,
+            <lb ed="#Qb"/>possunt dici, quodam modo generali sumendo
+            <lb ed="#Qb"/>acceptationem, omnia facta a Deo illi esse ac<lb ed="#Qb"/>cepta;
+            specialiori modo et propriori creatura ra<lb ed="#Qb"/>tionalis,
+            in quantum est creatura huiusmodi; spe<lb ed="#Qb"/>cialissime
+            sive propriissime creatura rationalis,
+            <lb ed="#Qb"/>in quantum consecratur Deo ut sit eius templum,
+            <lb ed="#Qb"/>adoptatur in filium, assumitur in sponsam. Haec
+            <lb ed="#Qb"/>autem sublimatio creaturae rationalis est supra
+            <lb ed="#Qb"/>naturale complementum, et ideo nec consecratio
+            <lb ed="#Qb"/>nec adoptatio nec assumptio huiusmodi fit per
+            <lb ed="#Qb"/>aliquam proprietatem naturae, sed per .dOnum
+            <lb ed="#Qb"/>superadditum naturae, consecrans animam ut sit
+            <lb ed="#Qb"/>templum, assimilans Deo ut site tilius vel filia,
+            <lb ed="#Qb"/>conioeclerans Deo sive uniens per conformitatem
+            <lb ed="#Qb"/>voluntatis ut sit sponsa-"': haec autem tiuntf aDeo
+            <lb ed="#Qb"/>mediante gratia gratum iaciente. — Quod au<lb ed="#Qb"/>tem
+            creatura rationalis efficitur tem<lb ed="#Qb"/>plum
+            per gratiam, habetur .I Cor. 3,16: Ne<lb ed="#Qb"/>scitis
+            quia .templum Dei—estis et Spiritus Dei in
+            <lb ed="#Qb"/>vobis habitat? Glossa4 ibi: <quote> Spiritus Sanctus
+            <lb ed="#Qb"/>habitatin templo suo, id est sanctis qui sunt-2
+            <lb ed="#Qb"/>templum Dei, modo secundum fidem ambulantes </quote> 
+            <!-- quaracchi missing close quotation mark -->;
+            <lb ed="#Qb"/>et ad Eph. 3,16-17 dicitur: Per Spiritum eius in
+            <lb ed="#Qb"/>interiori liomineh habitare Christum in cordibus
+            <lb ed="#Qb"/>nostris per fidem.— Quod autem efficitur
+            <lb ed="#Qb"/>filius per gratiam, habetur Ioan. -1,.12:,De—
+            <lb ed="#Qb"/>dii eis potestatem filios Dei fieri etc. —,Quod
+            <lb ed="#Qb"/>autem sponsa, similiter Oseei 2720: Spon<lb ed="#Qb"/>sabo
+            te mihi in fide.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Concedi ergo possunt rationes quibus osten<lb ed="#Qb"/>ditur
+            primum hominem non fuisse acceptum Deo
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>modo isto ultimo: nulla enim naturalia efficiunt
+            <lb ed="#Qb"/>hominem isto modo acceptum. Haec autem accep<lb ed="#Qb"/>tatio
+            reddit creaturam rationalem dignam beati<lb ed="#Qb"/>tudine
+            aeterna ; talis autem non fit pur-is- natu<lb ed="#Qb"/>ralibus.
+            Primo autem modo et secundo sumendo
+            <lb ed="#Qb"/>acceptationem fuit acceptus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad-obiecta]: 1. Ad primum quod obicitur
+            <lb ed="#Qb"/>quod *solummodo culpa iacit creaturam displi<lb ed="#Qb"/>cere
+            Deo* etc.: dicendum quod inter displicen<lb ed="#Qb"/>tiam
+            et acceptationem, eo modo quo peccatores
+            <lb ed="#Qb"/>displicent Deok et haben-tes gratiam gratum ia<lb ed="#Qb"/>cientem
+            placent, ,est media acceptatio secundo
+            <lb ed="#Qb"/>modo sumpta. Unde non sequitur 'primus homo
+            <lb ed="#Qb"/>non displicuit Deo per peccatum in illo statu,
+            <lb ed="#Qb"/>ergo fuit acceptus ', eo modo quo gratia et virtus
+            <lb ed="#Qb"/>efficiunt hominem acceptum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2-3. Ad duas auctoritates quae sequun<lb ed="#Qb"/>tur,
+            patet responsio.: nam intelliguntur de accep<lb ed="#Qb"/>tatione
+            et dilectione primo vel secundo modo
+            <lb ed="#Qb"/>sumptis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad illud quod obicitur de verbo illo 'Ego
+            <lb ed="#Qb"/>diligentes me diligo' etc: dicendum quod non
+            <lb ed="#Qb"/>intelligitur de dilectione naturali, qua primus
+            <lb ed="#Qb"/>homo dilexit' Deum in primo statu, ut supra
+            <lb ed="#Qb"/>tactum est5, sed de dilectione caritatis, quae ,non
+            <lb ed="#Qb"/>potest esse sine gratia, sub hoc sensu: qui dili<lb ed="#Qb"/>gunt
+            me dilectione caritatis sunt mihi uniti et
+            <lb ed="#Qb"/>conformes-, et hoc habent a me; amor enim est
+            <lb ed="#Qb"/>copula amantis et amati et amantem transformat
+            <lb ed="#Qb"/>in amatum, secundum <name ref="#Augustine">Augustinum</name>6 et l-Iu<lb ed="#Qb"/>gonem7.
+            Unde diligere Dei'est copulare sibi et
+            <lb ed="#Qb"/>efficere consimilem sibi diligentem illum. Prac<lb ed="#Qb"/>terea,
+            illo (verbo nihilaliud dicitur quam dilectio<lb ed="#Qb"/>nem,
+            qua'" diligitur Deus a creatura rationali,
+            <lb ed="#Qb"/>esse a Deo sive donum Dei. Unde—per hoc quod
+            <lb ed="#Qb"/>dicitur 'diligo' notatur effectus dilectionis, qua
+            <lb ed="#Qb"/>Deus diligitur, esse a Deo. Et hoc patet per
+            <lb ed="#Qb"/>Bernardum dicentem: <quote> Hoc est amare tuum,
+            <lb ed="#Qb"/>quo tu amas te amantes, dulcedine bonitatis
+            <lb ed="#Qb"/>tuae </quote> etc., ut supra 8.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad aliud" quod obicitur quod artifex
+            <lb ed="#Qb"/>creatus complacet sibi in opere suo' etc.: dicen<lb ed="#Qb"/>dum
+            quod non est simile de artifice creato et
+            <lb ed="#Qb"/>increato. Complacentia enim artificis creati in
+            <lb ed="#Qb"/>opere suo importat quemdam motum affectionis
+            <lb ed="#Qb"/>respectu operati; non enim solummodo compla<lb ed="#Qb"/>cet
+            sibi qui estlcausa operis, sed afficitur circa
+            <lb ed="#Qb"/>opus ipsum; quod non convenit artifici increato,
+            <lb ed="#Qb"/>ut ex dictis patet 9.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="744"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>6. Ad illud quod obicitur quod 'natura insti<lb ed="#Qb"/>tuta
+            absque omni gratia erat tota pulcra et sine
+            <lb ed="#Qb"/>macula,: dicendum quod, etsi esset sine macula,
+            <lb ed="#Qb"/>non tamen tota pulcra"; quae quidem pulcri<lb ed="#Qb"/>tudo
+            est ex gratia — quaeb est nitor quidam,
+            <lb ed="#Qb"/>ut dicit Glossa1 super illud Psalmizz Ut ex<lb ed="#Qb"/>hilaref
+            faciem in oleo .— et ex virtutibus et
+            <lb ed="#Qb"/>maxime ex caritate. Unde <name ref="#Augustine">Augustinus</name>3, su<lb ed="#Qb"/>per
+            illud I: Ioan. 4,19: Quoniam ipse prior a'i<lb ed="#Qb"/>lexit
+            nos: <quote>Anima amando Deum pulcra effi<lb ed="#Qb"/>citur.
+            Pulcri eramus amando eumd qui semper
+            <lb ed="#Qb"/>est pulcher; quantum in te crescit amor, tantum
+            <lb ed="#Qb"/>in te crescite pulcritudo, quia ipsa caritas estf
+            <lb ed="#Qb"/>animae pulcritudo </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>7. Ad hoc quod quaeritur:? *utrum Deus pos<lb ed="#Qb"/>seth
+            talem naturam facere quae esset ei accepta
+            <lb ed="#Qb"/>sine dono gratiae': dicendum quod posset de
+            <lb ed="#Qb"/>potentia absoluta, non autem de ordinata; et
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>sumatur potentia absoluta eo modo quo dictum
+            <lb ed="#Qb"/>est supra 4, similiter et ordinata. Praeterea, sup<lb ed="#Qb"/>posito
+            quod omnipotentia eius hoc posset, na<lb ed="#Qb"/>tura
+            tamen, ut est condita, esset impossibilisi
+            <lb ed="#Qb"/>ad hoc; unde impossibilitas ista provenit ex
+            <lb ed="#Qb"/>parte creaturaek: si enim hoc faceret], nihil
+            <lb ed="#Qb"/>aliud faceret quam donum gratiae esse donum
+            <lb ed="#Qb"/>naturae et gratiam esse naturam. Hoc autem
+            <lb ed="#Qb"/>impossibile estm quantum est ex parte creatu<lb ed="#Qb"/>rae,
+            cum donum gratiae sit ultra terminOs na<lb ed="#Qb"/>turae:
+            unde" sicut impossibile est" quod homo
+            <lb ed="#Qb"/>fiat beatus a Deo per naturam, quamvis possit
+            <lb ed="#Qb"/>creari beatus, quiaa beatitudo consistit in bono
+            <lb ed="#Qb"/>quod est supra omnem naturam, sic intelligen—
+            <lb ed="#Qb"/>dum est de gratia et natura primi hominis. Prae<lb ed="#Qb"/>terea,
+            etsi hoc facere posset, minus congrueret
+            <lb ed="#Qb"/>et deceret, cuius ratio multiplex haberi potest
+            <lb ed="#Qb"/>ex praedictis 5.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">Utrum primus homo ex accepta in primo statu proficere potuit in bonum 6.</head>
+          <p>
+            <lb ed="#Qb"/>Sequitur inquirere utrum primus homo poterat
+            <lb ed="#Qb"/>ex acceptis in conditione sua proficere in bono.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod sic, videtur: 1. Primo per auctoritatem
+            <lb ed="#Qb"/>Damasceni, II libro, 13 cap.7; dicit enim sic:
+      <quote> Fecit Deus hominem innocentem, rectum, virtuo<lb ed="#Qb"/>sum
+      </quote> etc. Qui autem talis estP potest proficere.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Itemq, in eodem: <quote>Fecit eum natura impec<lb ed="#Qb"/>cabilem
+            et voluntate per se potestativum, in elec<lb ed="#Qb"/>tione
+            vero sua potestatem habentem manere et
+            <lb ed="#Qb"/>proficere in bono </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, Damascenussz <quote>Manentes in eo
+            <lb ed="#Qb"/>quod est secundum naturam, in virtute sumus </quote>.
+            <lb ed="#Qb"/>Qui autem est in virtute, potest facere opera me<lb ed="#Qb"/>ritoria
+            et proficere; cum ergo primus homo con<lb ed="#Qb"/>ditus 
+            fuerit in integritate naturae et in illa poterat.
+            <lb ed="#Qb"/>manere, poterat et' proficere.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, <name ref="#Augustine">Augustinus</name>, in libro De natura et
+            <lb ed="#Qb"/>gratiag: <quote> Quis nesciat ita factum hominem, ut
+            <lb ed="#Qb"/>in eo liberum arbitrium ad iuste vivendum pro
+            <lb ed="#Qb"/>possibilitate et capacitate sua constitueretur?</quote>
+            <lb ed="#Qb"/>Ex hoc videtur quod ex naturali libertate arbitrii
+            <lb ed="#Qb"/>possets iuste vivere, et ita mereri et proficere.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Item, Cantico Deuter. 10: <quote>Dei perfecta sunt
+            <lb ed="#Qb"/>opera</quote>, et <quote> perfectum est aliquid </quote>, ut vult Phi<lb ed="#Qb"/>losophus",
+      <quote>cum attingit propriae virtuti</quote>;
+            <lb ed="#Qb"/>ergo, si homo perfectus conditus est, poterat exire
+            <lb ed="#Qb"/>in operationem propter quam factus est; haec
+            <lb ed="#Qb"/>autem est operatio per quam pervenitur ad glo<lb ed="#Qb"/>riam;
+            ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Item, in omnibus creaturis si distant a suo
+            <lb ed="#Qb"/>termino ad quem ordinantur, data est virtus per
+            <lb ed="#Qb"/>quam possint ad illum finem pervenire, sicut
+            <lb ed="#Qb"/>patet in igne, qui, cum deorsum est, sua levitate
+            <lb ed="#Qb"/>potest sursum ferri; igitur aut liberum arbitrium
+            <lb ed="#Qb"/>miserabilius fuit inter ceteras creaturas aut, si
+            <lb ed="#Qb"/>aliae creaturae per naturam habent potentiam
+            <lb ed="#Qb"/>perveniendi ad suum finem, videtur multo fortius
+            <lb ed="#Qb"/>quod et hoc homo posset per virtutem naturae
+            <lb ed="#Qb"/>ante statum miseriae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>7. Item, <quote> natura nihil facit frustra nec deficit in
+            <lb ed="#Qb"/>necessariis 12 </quote>; sed nihil est magis necessarium ho<lb ed="#Qb"/>mini
+            quam illud sine quo non potest beatificari;
+            <lb ed="#Qb"/>ergo, cum potestas merendi huiusmodi sit, videtur
+            <lb ed="#Qb"/>quod hoc inesset ei per naturam, Dei gratia cir<lb ed="#Qb"/>cumscripta.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="745"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>8. Item, circumscripta" gratia intelligamus ho<lb ed="#Qb"/>minem
+            in statu naturae conditae servare divina
+            <lb ed="#Qb"/>mandata; aut igitur meretur aliquid aut nihil.
+            <lb ed="#Qb"/>Si nihil, ergo frustra operatur; sed frustra ope<lb ed="#Qb"/>rari
+            non potest esse sine poena aliqua; hoc
+            <lb ed="#Qb"/>autem non poterat esse in natura instituta. Si
+            <lb ed="#Qb"/>aliquid meretur, cum opus rectum sit ad beati<lb ed="#Qb"/>tudinem
+            ordinatum, videtur quod ex puris natu—
+            <lb ed="#Qb"/>ralibus mereri possit praemium aeternum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>9. Si autem diceretur quod opus illud non
+            <lb ed="#Qb"/>fuisset meritorium beatitudinis, sed alicuius boni
+            <lb ed="#Qb"/>temporalis — sed constat: cum opus huius"<lb ed="#Qb"/>modi
+            in statu illo non esset perversum, esset
+            <lb ed="#Qb"/>ordinatum ad bonum alterius, quod esset or<lb ed="#Qb"/>dinatum
+            ad finem; sed prius est comparatiob
+            <lb ed="#Qb"/>ipsius boni ad finem quam ad ea quae sunt
+            <lb ed="#Qb"/>ad finem, quia finis primo movet'; ergo, cumc
+            <lb ed="#Qb"/>posteriori posito supponatur prius et poterat
+            <lb ed="#Qb"/>mereri aliquid ordinatum ad gloriam, poteratd
+            <lb ed="#Qb"/>mereri gloriam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>10. Item, liberum arbitrium essentialius com<lb ed="#Qb"/>paratur
+            ad bonum quam ad malum, quia secun<lb ed="#Qb"/>dum
+            naturam ad bonum factum est; ergo poten<lb ed="#Qb"/>tius
+            est ad bonum quam ad malum"; ergo, si
+            <lb ed="#Qb"/>de se potest ad malum, multo fortius de se po<lb ed="#Qb"/>test
+            ad bonum; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>11. Item, si de se poterat ad malum, non ad
+            <lb ed="#Qb"/>bonum, ergo videtur quod affectus illius non erat
+            <lb ed="#Qb"/>rectus, immo quod conditus fuisset in quadam
+            <lb ed="#Qb"/>inclinatione ad malum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>12. Item, si lapis esset creatus sursum, virtus
+            <lb ed="#Qb"/>illa, quae sine difficultate sufficeret ad tenendum
+            <lb ed="#Qb"/>illum ibif, sufficeret ad sublevandum eum de
+            <lb ed="#Qb"/>loco deorsum ad locum sursum sive adlocum
+            <lb ed="#Qb"/>eminentiorem quam esset locus in quo crearetur.
+            <lb ed="#Qb"/>Ratione consimili videtur quod ad hoc quode
+            <lb ed="#Qb"/>primus homo staret in statu innocentiae, in quo
+            <lb ed="#Qb"/>conditus fuit, requirebatur vis eadem vel tanta
+            <lb ed="#Qb"/>qua" vel quanta posset proficere in melius; ergo,
+            <lb ed="#Qb"/>si stare poterat tunc ex bonis acceptis in condi<lb ed="#Qb"/>tione,
+            ut dicit <name ref="#Lombard">Magister</name>, in Sententiisz, et alii
+            <lb ed="#Qb"/>Doctores Sacrae Scripturae 3, videtur quod ex eis<lb ed="#Qb"/>dem
+            poterat proficere.
+         </p>
+          <p>
+            <lb ed="#Qb"/>13. Item, constat quod primus homo poterat
+            <lb ed="#Qb"/>in statu primo facere opera de genere bonorum;
+            <lb ed="#Qb"/>sed, secundum Pelagium'f, potest argui sic: cum
+            <lb ed="#Qb"/>maiori difficultate Deo servit qui solis naturalibus
+            <lb ed="#Qb"/>quam naturalibus et gratuitis ; ergo meretur maius
+            <lb ed="#Qb"/>praemium; sed qui Deoi servit naturalibus et
+            <lb ed="#Qb"/>gratuitis meretur vitam aeternam; ergo multo
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>fortius qui Deok servit solis naturalibus meretur
+            <lb ed="#Qb"/>vitam aeternam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>14. Item, <name ref="#Augustine">Augustinus</name>5: <quote> Servitia quanto
+            <lb ed="#Qb"/>magis indebita, tanto gratiora</quote>; sed servitium
+            <lb ed="#Qb"/>servientis ex solis naturalibus magis est indebi<lb ed="#Qb"/>tum
+            quam servientis ex naturalibus et gratuitis,
+            <lb ed="#Qb"/>quia cui'" plus committitur, plus ab eo exigitur;
+            <lb ed="#Qb"/>ergo magis gratum; ergo magis remunerabile.
+         </p>
+          <p>
+            <lb ed="#Qb"/>15. Item, regis terreni meretur quis benevolen<lb ed="#Qb"/>tiam
+            ex solis naturalibus; sed Rex caelestis in
+            <lb ed="#Qb"/>infinitum est benevolentior rege terreno et ad
+            <lb ed="#Qb"/>miserendum pronior; ergo apud eum potest me<lb ed="#Qb"/>reri
+            quis benevolentiam ex solis naturalibus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>16. Item, vis intellectiva nobilior et potentior
+            <lb ed="#Qb"/>et perfectior est quam sensitiva vel vegetativa;
+            <lb ed="#Qb"/>sed hae possunt in suas operationes sine aliquo
+            <lb ed="#Qb"/>superaddito suae naturae; ergo multo fortius vis
+            <lb ed="#Qb"/>intellectiva.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Ex iis similiter argui potest, primum hominem
+            <lb ed="#Qb"/>in statu primo posse proficere".
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Deus est summa- veritas, creatura
+            <lb ed="#Qb"/>autem est vanitas; ergo nullo modo potest. uniri
+            <lb ed="#Qb"/>illi" nisi per medium quod sit partim sicut ve<lb ed="#Qb"/>ritas,
+            partim sicut vanitas; hoc autem est gratia
+            <lb ed="#Qb"/>quae veritas est in? quantum "est a Deo, in
+            <lb ed="#Qb"/>quantum creatura, vanitas; ergo impossibile fuit
+            <lb ed="#Qb"/>hominem mereri absque gratia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item 9, hoc videtur auctoritate: Iac 4, 7:
+            <lb ed="#Qb"/>
+            <quote ana="#iac4_7">Exaeqaabit gratiam gratiae</quote>; item, Ioan. 1, 16:
+            <lb ed="#Qb"/>
+            <quote ana="#io1_16">Dabit gratiam pro gratia</quote>; item, Rom. 6,23:
+            <lb ed="#Qb"/>
+            <quote ana="#rom6_23">Gratia Dei vita aeterna</quote>; et Glossaö: <quote>Nihil
+            <lb ed="#Qb"/>aliud Deus in nobis coronat quam munera sua </quote>.
+            <lb ed="#Qb"/>Tarn ex textu quam ex Glossa colligitur quod
+            <lb ed="#Qb"/>vitam aeternam non contingit mereri absque gratia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, meritum et praemium debent esse
+            <lb ed="#Qb"/>proportionalia; sed natura, quantumcumque est
+            <lb ed="#Qb"/>eminens, improportionabilis est et alterius ge<lb ed="#Qb"/>neris
+            est quam sit beatitudo gloriae; ergo im<lb ed="#Qb"/>possibile
+            est mereri gloriam per pura naturalia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, nobilior est substantia quam operatio7;
+            <lb ed="#Qb"/>sed Deus nunquam acceptat hominem absque
+            <lb ed="#Qb"/>munere gratiae; ergo nec operationem hominis
+            <lb ed="#Qb"/>reputat meritoriam nisi procedat a libero "arbitrio
+            <lb ed="#Qb"/>et gratia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: Dicendum quod non solummodo
+            <lb ed="#Qb"/>gratia necessaria est ad merendum secundum
+            <lb ed="#Qb"/>statum naturae lapsae, sed etiam secundum sta<lb ed="#Qb"/>tum
+            naturae' institutae, licet secundum statum
+            <lb ed="#Qb"/>naturae lapsae magis indigeat liberum arbitrium
+            <lb ed="#Qb"/>dono gratiae.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="746"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>In statu namque naturae conditae necessaria '
+            <lb ed="#Qb"/>erat gratia, tum propter conditionem retribuentis,
+            <lb ed="#Qb"/>tum " propter conditionemb retributionis. P r.o p<lb ed="#Qb"/>te-r
+            condit'ion em retribuentis, quoniam
+            <lb ed="#Qb"/>ipse Deus bonorum nostrorum non indigetl, ideo
+            <lb ed="#Qb"/>nec acceptat hominem propter opera necaliquod'
+            <lb ed="#Qb"/>meritum obligare potest ipsum secundum ratio<lb ed="#Qb"/>nem
+            dati et accepti. Ideo ad hoc quod, aliquod
+            <lb ed="#Qb"/>bonum opus creaturae suae ad remunerandum
+            <lb ed="#Qb"/>Deo complaceat, necesse est quod ipsius gratuitae
+            <lb ed="#Qb"/>bonitatis influentia in operante praecedat, per
+            <lb ed="#Qb"/>quam creatura ipsi Creatori gratac existat. ——
+            <lb ed="#Qb"/>Similiter, propter conditione-m retribu<lb ed="#Qb"/>tionis.
+            Impossibile enim erat libero arbitrio me<lb ed="#Qb"/>reri:
+            sine auxilio gratiae gratum facientis, pro eo
+            <lb ed="#Qb"/>quod illud praemium, quod meremur, .est beati<lb ed="#Qb"/>tudo
+            aetema; beatitudo autem aeterna consistit
+            <lb ed="#Qb"/>in habendo eum quid est omne et summum bo<lb ed="#Qb"/>num
+            et qui est super omnem naturam exaltatus
+            <lb ed="#Qb"/>et lucem habitat inaccessibilem, -1 Tim. 6,-15; et
+            <lb ed="#Qb"/>ideo impossibile esti quod homo merendo ad
+            <lb ed="#Qb"/>illud summum bonum ascendat et perveniat nisi
+            <lb ed="#Qb"/>per aliquod adiutorium .quod sit ultra naturam.
+            <lb ed="#Qb"/>Sic igitur homo in statu naturae institutae abs<lb ed="#Qb"/>que
+            .dono gratiae mereri non poterat, tum propter
+            <lb ed="#Qb"/>conditionem retribuentis, tum propter conditionem
+            <lb ed="#Qb"/>retributionis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Inf statu .vero naturae lapsae non solummodo
+            <lb ed="#Qb"/>indiget gratia ad merendum propter has con<lb ed="#Qb"/>ditiones,,sed
+            etiamg propter conditionem operan<lb ed="#Qb"/>tis
+            et operationis ,meritoriae. Operansenim in
+            <lb ed="#Qb"/>statu naturae lapsae semper est in peccato et Dei
+            <lb ed="#Qb"/>adversarius et inimicus nisi a peccato relevetur
+            <lb ed="#Qb"/>per donum gratiae: et ideo, quidquid faciat, nisi
+            <lb ed="#Qb"/>voluntas eius praeveniatur a gratia quae Deo
+            <lb ed="#Qb"/>reconciliet, nihil meretur merito condigni, proeo
+            <lb ed="#Qb"/>quod Dei est adversarius et inimicus. .Deus. autem
+            <lb ed="#Qb"/>opera non :acceptat nisi prius acceptet personam,
+            <lb ed="#Qb"/>sicut-innuitur Gen. 4, 9: Respexz'tDominus .ad Abel
+            <lb ed="#Qb"/>et ad muneraeius; prius dicit ad Abel eth postea
+            <lb ed="#Qb"/>dicit ad munera. — Propter conditionem
+            <lb ed="#Qb"/>etia m 0 p er a tio ni snecessaria- estgratia, quia1
+            <lb ed="#Qb"/>nulla est operatio meritoria nisi recta; et nulla
+            <lb ed="#Qb"/>est recta nisi fiat ex" recta intentione; et nulla
+            <lb ed="#Qb"/>potest esse recta intentio nisi quae summum
+            <lb ed="#Qb"/>bonum omni-bonopraeponitz. Nulla autem intentio
+            <lb ed="#Qb"/>potest hoc' facere in statu naturae lapsae :sine
+            <lb ed="#Qb"/>dono gratiae, et propterea, qualemcumque .vel
+            <lb ed="#Qb"/>quantamcumque faciat homo'" operationem sine
+            <lb ed="#Qb"/>gratia, non meretur, quia non pensatDeusquan<lb ed="#Qb"/>tum,
+            sed ex quanto hoc" faciat.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Patet ergo quod multiplex est necessitas gra<lb ed="#Qb"/>tiae.-ad
+            merendum, scilicet propter conditiones
+            <lb ed="#Qb"/>retribuentis et retributionis, operantis et bonae
+            <lb ed="#Qb"/>operationis, ita quod haec quadruplex neces<lb ed="#Qb"/>sitas
+            " concurrit ad statum naturae lapsae, etiam
+            <lb ed="#Qb"/>praeter illa quae proveniunt ex poenis inflictis
+            <lb ed="#Qb"/>propter primum peccatum7 quae multum impe<lb ed="#Qb"/>diunt
+            opus bonum. Quatuor enim sunt, secun<lb ed="#Qb"/>dum
+            Bedam3, inilicta homini propter pecca<lb ed="#Qb"/>tum?
+            primum, quod accidit ex aversione a bono
+            <lb ed="#Qb"/>incommutabili, scilicet Deo Patre et Filioq .et
+            <lb ed="#Qb"/>Spiritu Sancto, et conversione ad bonum- com.<lb ed="#Qb"/>mutabile,
+            scilicet ignorantia, infirmitas, malitia
+            <lb ed="#Qb"/>etconcupiscentia. Propter ignorantiam agendorum
+            <lb ed="#Qb"/>necessaria est gratia, quae est lux spiritualis
+            <lb ed="#Qb"/>ipsam animam illuminans. Propter infirmitatem,
+            <lb ed="#Qb"/>qua homo impotens'est assurgere ad opus vir<lb ed="#Qb"/>tutis,
+            quod' est difficile — virtusenim .est circa
+            <lb ed="#Qb"/>bonum et difficile4 - necessaria estgratia quae
+            <lb ed="#Qb"/>virtutem animaes ministrat. Propter malitiam, qua
+            <lb ed="#Qb"/>homo pronitatem habet ad malum et aversionem
+            <lb ed="#Qb"/>a Deo, necessaria ,est gratia quae animam ad
+            <lb ed="#Qb"/>Deum erigat .et a malo ;avertat. Propter concu<lb ed="#Qb"/>piscentiam,
+            qua ipsa anima corrupta, immoderate
+            <lb ed="#Qb"/>concupiscendo, corruptibilibus inhaeret, necessa<lb ed="#Qb"/>ria-est
+            gratia quae aeternorum saporem ,inducatf
+            <lb ed="#Qb"/>et sic vehementia concupiscentiae diminuat. Sic
+            <lb ed="#Qb"/>ergo multiplex necessitas in statu naturae lapsae
+            <lb ed="#Qb"/>concurrit propter quam necessaria est gratia.
+            <lb ed="#Qb"/>Duplex autem concurrit in statu naturae institu<lb ed="#Qb"/>tae,
+            [ut tactum est5..Et hoc innuit <name ref="#Lombard">Magister</name>, in
+            <lb ed="#Qb"/>Sententiis, ,II libro, dist.-295, dicens quod homo
+            <lb ed="#Qb"/>indigebat gratia operante .et cooperante in primo
+            <lb ed="#Qb"/>statu," licet non secundum omnem modum ope—
+            <lb ed="#Qb"/>rantis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad-obiecta]; 1. Ad iilud quod primo obi<lb ed="#Qb"/>citur
+            in contrarium per illud verbum Dama—
+            <lb ed="#Qb"/>sceni, quodu liecit primum hominem virtuo—
+            <lb ed="#Qb"/>sum' etc.: dicendum quod hoc sic intelligitur,
+            <lb ed="#Qb"/>non quia Deus illum in sui conditione fecerit
+            <lb ed="#Qb"/>virtuosum,-sed quia tunc aptum et quodam modo
+            <lb ed="#Qb"/>dispositum ,ad hoc iecerit, ,quod non ;longo post
+            <lb ed="#Qb"/>tempore complevit.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad illud quod obicitur postea quod *in
+            <lb ed="#Qb"/>electione sua habebat potestatem manere et .pro—
+            <lb ed="#Qb"/>ticere in bono' etc.:, dicendum quod hocnon in<lb ed="#Qb"/>telligitur
+            quia statim conditus pote-rat proficere,
+            <lb ed="#Qb"/>scilicetgex datis ;sibi ,in conditione, sed quia-stare
+            <lb ed="#Qb"/>poterat et stando pervenire . ad statum quo posset
+            <lb ed="#Qb"/>proficere in bono. — ,.Vel potestal-iter dici quod,
+            <lb ed="#Qb"/>si proficere dicatur in merito gloriae, secundum
+            <pb ed="#Qb" n="747"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>quod aliquis magis et magis meretur, sic Adam"
+            <lb ed="#Qb"/>proficere non poterat ex acceptis a creatione nisi
+            <lb ed="#Qb"/>daretur ei gratia gratum faciens. Potest alio modo
+            <lb ed="#Qb"/>profectus nominari largius, ut proiectus dicatur
+            <lb ed="#Qb"/>respectu quorumcumque, et sic Adam sine gratia
+            <lb ed="#Qb"/>gratum faciente proficere poterat in cognitione
+            <lb ed="#Qb"/>accepta et in amore naturali et in huiusmodi. Et
+            <lb ed="#Qb"/>sic intelligitur verbum Damasceni: loquitur
+            <lb ed="#Qb"/>enim de profectu secundo modo. — Vel potest
+            <lb ed="#Qb"/>dici quod, si intelligitb primo modo, id est de
+            <lb ed="#Qb"/>profectu in merito, non intelligit illud absolute,
+            <lb ed="#Qb"/>sed cum eo quod additur, cum dicit <quote>fecit ho<lb ed="#Qb"/>minem
+            potentem proficere per divinam coopera<lb ed="#Qb"/>tionem</quote>, 
+            quae est mediante gratia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad illud quod dicit <name ref="#Augustine">Augustinus</name>: <quote>Quis
+            <lb ed="#Qb"/>nesciat ita factum primum hominem</quote> etc., hoc
+            <lb ed="#Qb"/>non intelligitur quiaf liberum arbitrium in eo
+            <lb ed="#Qb"/>tunc poterat in opus meritorium, sed quia erat
+            <lb ed="#Qb"/>tunc .in possibilitate quadam ad recte vivendum
+            <lb ed="#Qb"/>et in,-quadam capacitate gratiae, quia nihil erat
+            <lb ed="#Qb"/>in illo repugnans gratiaed.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad illude quod dicit Damascenus,
+            <lb ed="#Qb"/>quod <quote>manentes in eo quod est secundum na<lb ed="#Qb"/>turam,
+            in virtute sumus </quote>: dicendum quodf illo
+            <lb ed="#Qb"/>verbo non intelligitur quod naturae integrae fuit
+            <lb ed="#Qb"/>statim addita virtus, ita ut haberent primi 'pa—
+            <lb ed="#Qb"/>rentes statim cum natura virtutem gratuitam '., sed
+            <lb ed="#Qb"/>quia stantibus et manentibus in natura integra
+            <lb ed="#Qb"/>superaddita fuit virtus; non enim dicit 'existentes
+            <lb ed="#Qb"/>in eo quod est secundum naturam, in virtute
+            <lb ed="#Qb"/>sumus', sed <quote> manentes </quote>: manere enim addit
+            <lb ed="#Qb"/>moramg super esse.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad illud quod obicitur quod 'Dei per<lb ed="#Qb"/>fecta
+            sunt opera' etc.:-dicendum2 quod est per<lb ed="#Qb"/>fectio
+            quantum ad esse primum et est perfectio
+            <lb ed="#Qb"/>quantum ad esse secundum. Perfectio quantumt'l
+            <lb ed="#Qb"/>ad esse secundum duplex est. Quaedam enim
+            <lb ed="#Qb"/>est quae habet ortum a- perfectione secundum
+            <lb ed="#Qb"/>esse primum, sicut illa perfectio quae attenditur
+            <lb ed="#Qb"/>in accidentibus quae oriuntur ex principiis sub<lb ed="#Qb"/>iecti.
+            Est alia perfectio quantum adesse secun<lb ed="#Qb"/>dum,
+            quae non causatur a perfectione secundum
+            <lb ed="#Qb"/>esse primum, sed potius est supra illud, sicut
+            <lb ed="#Qb"/>est perfectio in esse gratuito vel glorioso, quae
+            <lb ed="#Qb"/>quidem "est in nobis, non ex nobis, sed ex
+            <lb ed="#Qb"/>Deo. Cum ergo dicitur quod Dei perfecta sunt
+            <lb ed="#Qb"/>opera, hoc intelligitur quantum ad esse primum et
+            <lb ed="#Qb"/>quantum ad esse secundum quod causatur ab
+            <lb ed="#Qb"/>illo. Quantum autem ad illud esse secundum
+            <lb ed="#Qb"/>quod non causatur a perfectione secundum esse
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>primum,,veritatem non habet: non enim fecit Deus
+            <lb ed="#Qb"/>omnes beatos, sed illos solos heatificavit quos
+            <lb ed="#Qb"/>
+            <quote ana="#rom8_29">praedestinavit conformes fieri imagini Filii sui</quote>,
+            <lb ed="#Qb"/>Rom. 8, 29 ; hoc enim disponit dare per merita
+            <lb ed="#Qb"/>tamquam bonum laudabiles. Et ratio huius assi<lb ed="#Qb"/>gnata
+            fuit supra 4.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Ad illud quod obicitur quod 'aliae crea<lb ed="#Qb"/>turae
+            possunt pervenire ad finem ad quem sunt,
+            <lb ed="#Qb"/>per virtutem naturae ': dicendum quod non est
+            <lb ed="#Qb"/>simile, "quia finis creaturae rationalis est sum<lb ed="#Qb"/>mum
+            bonum, quod est supra omnem naturam5;
+            <lb ed="#Qb"/>finis vero aliarum creaturaruml est bonum crea<lb ed="#Qb"/>tum,
+            quod est infra" terminos naturae: ideo
+            <lb ed="#Qb"/>creatura rationalis magis indiget dono" gratiae
+            <lb ed="#Qb"/>ut possit pervenire in suum finem quam aliae
+            <lb ed="#Qb"/>creaturae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>7. Ad illud quod obicitur quod "natura non
+            <lb ed="#Qb"/>deficit in necessariis", iam patet responsio ex
+            <lb ed="#Qb"/>praedictisPG. Hoc enim intelligitur de necessariis
+            <lb ed="#Qb"/>quae quidem attenduntur quantum ad esse 'pri<lb ed="#Qb"/>mum
+            vel quantum adesse secundum, quod cau<lb ed="#Qb"/>satur
+            .ex principiis naturae. Quantum vero ad
+            <lb ed="#Qb"/>illud esse secundum? quod supra naturam est,
+            <lb ed="#Qb"/>necesse est naturam' deficere: et tale est esse
+            <lb ed="#Qb"/>gratuitum et gloriosum. Nullum tamen ex 'hoc
+            <lb ed="#Qb"/>fit naturae praeiudicium, quia Deus8 deiectum
+            <lb ed="#Qb"/>naturae supplet et semper praesto est, cum se
+            <lb ed="#Qb"/>offert tempus "et locus, complere et dare .quod
+            <lb ed="#Qb"/>natura non poterat.
+         </p>
+          <p>
+            <lb ed="#Qb"/>8. Ad illud quod obicitur quod 'circum<lb ed="#Qb"/>scripta
+            gratia servando mandata, utrum merere<lb ed="#Qb"/>tur,
+            etc.: dicendum quod mereretur, quia dispo<lb ed="#Qb"/>neret
+            se ad gratiam quam Deus daret illi; mere<lb ed="#Qb"/>retur,
+            dico, de congruo, quia nihil meretur de
+            <lb ed="#Qb"/>condigno sine gratia, et ita ;bona illa ex conse<lb ed="#Qb"/>quenti
+            remunerarentur in gloria.
+         </p>
+          <p>
+            <lb ed="#Qb"/>9. Ad illud quod obicitur quod 'prior est
+            <lb ed="#Qb"/>comparatio ad finem' etc., dicendum quod *prius'
+            <lb ed="#Qb"/>dicitur dupliciter: vel prius, id est essentialius,
+            <lb ed="#Qb"/>vel prius, id .est efficacius. Prior est comparatio
+            <lb ed="#Qb"/>ad finem, id est essentialior, quia tamquam ad
+            <lb ed="#Qb"/>ultimum; sed non prior:, id estt efficacior, immo
+            <lb ed="#Qb"/>efficacior'estu ad ea quae sunt ad finem, quia
+            <lb ed="#Qb"/>minora sunt, et ideo magis potest in illa. Ergo,
+            <lb ed="#Qb"/>si inferat: ' potest in hoc, ergo in finem ', fit fal<lb ed="#Qb"/>lacia
+            consequentis, sicut si" inferatur: 'potest in
+            <lb ed="#Qb"/>minus, ergo potest in maius '. — Potest tamen
+            <lb ed="#Qb"/>et aliter dici quod comparatio ad finem prior est
+            <lb ed="#Qb"/>secundum intentionem, sed ad ea quae sunt ad
+            <lb ed="#Qb"/>finem prior est secundum rem, et ideo non valet.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="748"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>10. Ad aliud iam patet responsio, quod, quam<lb ed="#Qb"/>vis
+            liberum arbitrium essentialius comparetur ad
+            <lb ed="#Qb"/>bonum, non tamen efficacius, quia facilius est
+            <lb ed="#Qb"/>facere malum quam bonum, quia hoc potest de
+            <lb ed="#Qb"/>sua natura quae est ex nihilo, aliud non potest
+            <lb ed="#Qb"/>sine adiutorio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>11. Ad illud quod obicitur quod 'aftectus
+            <lb ed="#Qb"/>eius non fuit rectus, quia potuit in malum et non
+            <lb ed="#Qb"/>in bonum': dicendum quod non sequitur, quia
+            <lb ed="#Qb"/>sicut, poterat de se cadere, similiter poterat et
+            <lb ed="#Qb"/>stare; si autem non potuisset stare ", sequeretur
+            <lb ed="#Qb"/>quod non esset conditus in rectitudine; sed quia
+            <lb ed="#Qb"/>stare potuit neque habuit quid motivum vel in<lb ed="#Qb"/>clinativum
+            ad lapsum, rectus fuit.
+         </p>
+          <p>
+            <lb ed="#Qb"/>12. Ad illud quod obicitur quod 'virtus, quae
+            <lb ed="#Qb"/>sufficit sine difficultate ad tenendum lapidem
+            <lb ed="#Qb"/>sursum, potest eumdem elevareb sursum a deor<lb ed="#Qb"/>sum
+            sive ad locum eminentiorem loco illo in
+            <lb ed="#Qb"/>quo tenetur, similiter primus homo, qui sine dit<lb ed="#Qb"/>iicultate
+            poterat stare in innocentia sua, poterat
+            <lb ed="#Qb"/>ea virtute qua poterat stare, elevare se proficiendo '-'
+            <lb ed="#Qb"/>ad statum altiorem': dicendum quod, sicut ex
+            <lb ed="#Qb"/>dictis patet 2, poterat elevare sed aliquantulum
+            <lb ed="#Qb"/>proficiendo, ut ad ea ade quae poterat natura
+            <lb ed="#Qb"/>attingere, non tamen poterat proficere ad statum
+            <lb ed="#Qb"/>qui erat supra naturam, id est statum merendi
+            <lb ed="#Qb"/>vitam aeternam: sicut ille qui potest tenere sine
+            <lb ed="#Qb"/>difficultate lapidem sursum, potest illum altius
+            <lb ed="#Qb"/>elevare, sed non potest elevaref ad locum re<lb ed="#Qb"/>spectu
+            cuius est virtus sua improportionalis, ut
+            <lb ed="#Qb"/>ad circulum solarem vel caelum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>13. Ad illudg quod obicitur secundum Pe—
+            <lb ed="#Qb"/>lagium, dicendum quod non habet locum in
+            <lb ed="#Qb"/>proposito, quia in illo statu, de quo hic loqui—
+            <lb ed="#Qb"/>tur, nulla poterat esse difficultas neque operatio
+            <lb ed="#Qb"/>laboriosa. Unde Gen. 2,15: Posuit eum in para<lb ed="#Qb"/>diso
+            voluptatis, ut operaretur etc.; super quod
+            <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>, VIII Super Genesim ad lit—
+            <lb ed="#Qb"/>teramS: <quote> Credibile est hominem in paradiso posi<lb ed="#Qb"/>tum
+            ut operaretur, non laboriose, sed deliciose </quote>.
+            <lb ed="#Qb"/>Nec etiam in statu lapsus qui plus laborat in
+            <lb ed="#Qb"/>servitio Dei, plus meretur-" praemii, nisi forte
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>plus diminutionis poenae, sed qui plus laborat
+            <lb ed="#Qb"/>ex amore Dei maiore, non sui vel alterius, plus
+            <lb ed="#Qb"/>praemii meretur; sed, cum dico *amorem Dei',
+            <lb ed="#Qb"/>dico gratiam, sine qua meritorie Deo non ser<lb ed="#Qb"/>vitur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>14. Ad illud quod obicitur quod 'servitia
+            <lb ed="#Qb"/>quanto magis indebita' etc., dicendum quod hoc
+            <lb ed="#Qb"/>dupliciter intelligitur: 'servitiaf magis indebitaï
+            <lb ed="#Qb"/>scilicet vel quia is, qui servit, minus tenetur
+            <lb ed="#Qb"/>servire 'quam alius, vel, licet magis teneatur quam
+            <lb ed="#Qb"/>alius, tamen liberius servit, quia non respicit ad
+            <lb ed="#Qb"/>debitum quo tenetur, sed magis ad bonitatem
+            <lb ed="#Qb"/>Dei cui servit. Hoc ultimo modo k intellecta aucto<lb ed="#Qb"/>ritas
+      <name ref="#Augustine">Augustini</name> vera est, sed sic minor est
+            <lb ed="#Qb"/>falsa.
+         </p>
+          <p>
+            <lb ed="#Qb"/>15. Ad illud quod obicitur per simile sump<lb ed="#Qb"/>tum
+            a rege terreno, dicendum quod nemo meretur
+            <lb ed="#Qb"/>gratiam regis terreni ex solis naturalibus nisi in
+            <lb ed="#Qb"/>quantum illa naturalia sunt grata ei, similiter
+            <lb ed="#Qb"/>nec Regis caelestis; sed grata ei esse non possunt
+            <lb ed="#Qb"/>nisi ipse contulerit gratiam qua grata fiant.
+         </p>
+          <p>
+            <lb ed="#Qb"/>16. Ad illud quod obicitur quod 'sensitiva
+            <lb ed="#Qb"/>et vegetativa possunt in suas. operationes' etc.;
+            <lb ed="#Qb"/>dicendum quod hae virtutes possunt in opera<lb ed="#Qb"/>tiones
+            vel obiecta sine superaddito naturae, quia
+            <lb ed="#Qb"/>suae operationes viles sunt et obiecta earum ipsis
+            <lb ed="#Qb"/>virtutibus multol ignobilioratg sed tam nobilis est
+            <lb ed="#Qb"/>intellectus, ut habeat actionem tam nobilem et
+            <lb ed="#Qb"/>obiectum tam nobile, ut supra ipsum sint. Quia
+            <lb ed="#Qb"/>igitur actio virtutum est'" in inferioribus se, pos<lb ed="#Qb"/>sunt
+            in ea sine adiutorio; sed quia actio intel<lb ed="#Qb"/>lectus
+            est in eo quod est supra se ", non potest
+            <lb ed="#Qb"/>in eam sine adiutorio superioris.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Si quaeratur quo modo operaP misericor<lb ed="#Qb"/>diae,
+            ut clare eleemosynam et huiusmodi, quae sunt
+            <lb ed="#Qb"/>in proximum, et ita in sibi aequale 9, sunt actio<lb ed="#Qb"/>nes
+            in aliquid superius intellectu — res p 0 n d e 0:
+            <lb ed="#Qb"/>ipsum 'dare manu' non est opus meritorium ex
+            <lb ed="#Qb"/>se, sed ratione amoris proximi, et illud non est
+            <lb ed="#Qb"/>meritorium nisi ex amore Dei, et ita omnis actio
+            <lb ed="#Qb"/>meritoria habet quod sit meritoria ex eo quod
+            <lb ed="#Qb"/>est in aliquid supra nos.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

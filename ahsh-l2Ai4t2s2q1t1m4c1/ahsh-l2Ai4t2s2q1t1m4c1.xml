@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 1, M. 4, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 1, M. 4, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="589"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s2q1t1m4c1">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 1, T. 1, M. 4, C. 1</head>
+        <head type="question-title">UTRUM CORPUS ADAE ERAT ANIMALE.</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum proceditur sic, et videtur plane
+          <lb ed="#Qb"/>quod animale fuit: a. <name ref="#Augustine">Augustinus</name>, in ] li<lb ed="#Qb"/>bro
+          De Baptismo parvulorum 1, convincens eos qui
+          <lb ed="#Qb"/>dicunt Adam sic creatum esse ut etiam sine pec<lb ed="#Qb"/>cati
+          merito moreretur, non poena culpae, sed neces<lb ed="#Qb"/>sitateb
+          naturae. Dicit enim: <quote> Quid ergo respon<lb ed="#Qb"/>debunt,
+          cum legitur hoc Deum primo hominic
+          <lb ed="#Qb"/>etiam post peccatum increpando et damnando
+          <lb ed="#Qb"/>dixissezz Terra es et in terram ibis ? Neque
+          <lb ed="#Qb"/>enimd secundum animam, sed, quod manifestum
+          <lb ed="#Qb"/>est, secundum corpus terra erat et morte eiusdem
+          <lb ed="#Qb"/>corporis erat iturus in terram. Quamvis enim
+          <lb ed="#Qb"/>secundum corpus terra esset, et corpus, in quo
+          <lb ed="#Qb"/>creatus est, animale gestaret, tamen, si non pec<lb ed="#Qb"/>casset,
+          in corpuse foret spirituale mutandusf et
+          <lb ed="#Qb"/>in illamE incorruptionem, quae fidelibus et sanctis
+          <lb ed="#Qb"/>promittitur, sine mortis periculo transiturus </quote>. Ecce
+          <lb ed="#Qb"/>quod animale erat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, Adam, si non peccasset, transisset
+          <lb ed="#Qb"/>ab animali corpore in spirituale; ergo animale
+          <lb ed="#Qb"/>corpus habebat ante peccatum.—P ri ma patet per
+          <lb ed="#Qb"/>A u gu sti n u m, in eodem libro3: <quote>Si non peccasset
+          <lb ed="#Qb"/>Adam, non erat expoliandus corpore, sed super<lb ed="#Qb"/>vestiendus
+          immortalitate et incorruptione", ut
+          <lb ed="#Qb"/>absorberetur mortale a vita 4, id est ab animali in
+          <lb ed="#Qb"/>spirituale transiret </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Praeterea, si dicatur quod non habuit corpus
+          <lb ed="#Qb"/>animale, quia tunc paulatim senesceret et deii<lb ed="#Qb"/>ceret,
+          quod non competebat illi statui — contra
+          <lb ed="#Qb"/>hoc arguit <name ref="#Augustine">Augustinus</name>, in eodem, dicens5:
+    <quote>Si Deus Israelitarum vestimentis et calceamen<lb ed="#Qb"/>tis
+          praestitit quod per tot annos non sunt ob<lb ed="#Qb"/>trita6, 
+          quid mirum si obedienti homini eiusdem
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>praeceptis potentia praestaretur ut animale hoc et
+          <lb ed="#Qb"/>mortale habens corpus, haberet in eo quemdam
+          <lb ed="#Qb"/>statum, quo sine defectu esset annosum, tempore
+          <lb ed="#Qb"/>quo Dominus vellet a mortalitate ad immortali<lb ed="#Qb"/>tatemk
+          sine morte media transiturus? </quote> Praeterea,
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>, in eodem7: <quote> Talem puto habitu<lb ed="#Qb"/>dinem
+          adhuc in corpore animali atque mortali,
+          <lb ed="#Qb"/>etiam illis 1, qui sine morte hinc translati sunt,
+          <lb ed="#Qb"/>fuisse concessam. Neque enim Enoch et Elias per
+          <lb ed="#Qb"/>tam longam aetatem senectute marcuerunt nec
+          <lb ed="#Qb"/>tamen credo eos iam in illam spiritualem quali<lb ed="#Qb"/>tatem
+          corporis commutatos </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Praeterea, si non esset corpus illud animale,
+          <lb ed="#Qb"/>cur praeciperetur comedere de lignis? <quote> Habebat
+          <lb ed="#Qb"/>enim de lignorum fructibus refectionem contra
+          <lb ed="#Qb"/>deiectionem et de"1 ligno vitae stabilitatem con<lb ed="#Qb"/>tra
+          vetustatem </quote>, ut ibidem dicit <name ref="#Augustine">Augustinus</name> 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Corpus illud erat conveniens organum
+          <lb ed="#Qb"/>animae; sed anima" erat deiformis; ergo, cum ani<lb ed="#Qb"/>mae
+          deiformi corpus mutabile et 0 animale magis
+          <lb ed="#Qb"/>opponatur quam congruat, non erat tunc corpus
+          <lb ed="#Qb"/>Adae animale. Unde Gregorius Nyssenus,
+          <lb ed="#Qb"/>cap. 27 9, secundum aliam translationem: <quote> In
+          <lb ed="#Qb"/>deiiormitate animae non iluxibile corpus per mu<lb ed="#Qb"/>tabilitatem
+          et transmutabile est, sed quod per<lb ed="#Qb"/>manet</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, corpus illud beatumP fuit; sed nul<lb ed="#Qb"/>lum
+          animale beatum; ergo animale non fuit. <lb ed="#Qb"/>Prima
+          patet per <name ref="#Augustine">Augustinum</name>, De civitate
+          <lb ed="#Qb"/>Dei, XIV libro, 10 cap. 10: <quote> In illo memoriali beati—
+          <lb ed="#Qb"/>tudinis loco, id est paradiso, quis tandem abso<lb ed="#Qb"/>lute
+          dici beatus potest, qui timore afficitur vel
+          <lb ed="#Qb"/>dolore? Quid autem timere aut doleret:l poterant
+          <pb ed="#Qb" n="590"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>homines illi in tantorum tanta affluentia bonorum,
+          <lb ed="#Qb"/>ubi nec mors metuebatur nec ulla corporis mala
+          <lb ed="#Qb"/>valetudo, nec aberat quidquam quod bona vo<lb ed="#Qb"/>luntas
+          adipisceretur nec inerat quod carnem ani<lb ed="#Qb"/>mumve
+          hominis feliciter viventis offenderet?</quote>
+             </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, Augustinus, De civitate Dei": <quote> Sum<lb ed="#Qb"/>ma
+          in carne sanitas erat </quote>. Sed summa sanitas
+          <lb ed="#Qb"/>illa requirebat mixtionem elementorum in tali
+          <lb ed="#Qb"/>pace et harmonia virtutum, quod in illob non
+          <lb ed="#Qb"/>fieret passio aliqua quae abiceret a substantia2 ;
+          <lb ed="#Qb"/>ergo non requirebatur aliqua restauratio deper<lb ed="#Qb"/>diti-per
+          alimentum; ergo non fuit indigens ali<lb ed="#Qb"/>mento
+          et ita non animale: calor enim digestivus
+          <lb ed="#Qb"/>in nobis semper resolvit, et ideo semper-oportet
+          <lb ed="#Qb"/>iieri restaurationem per alimentum; huiusmodi
+          <lb ed="#Qb"/>autem resolutio non fuit in illo, propter quod nec
+          <lb ed="#Qb"/>restauratio necessaria; huiusmodi autem deper<lb ed="#Qb"/>ditio
+          poena est; propter quod non debebat ante<lb ed="#Qb"/>cedere
+          culpam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, esse in "huiusmodi egentia sive indi<lb ed="#Qb"/>gentia
+          videtur attestari statui Culpae: sic enim
+          <lb ed="#Qb"/>egere poena est, quam praecedere culpam non
+          <lb ed="#Qb"/>convenit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, si Adam indiguisset alimento in statu
+          <lb ed="#Qb"/>innocentiae et illo usus esset, necessario indi<lb ed="#Qb"/>guisset
+          purgatione per egestionem: quod videtur
+          <lb ed="#Qb"/>inconveniens, cum huiusmodi purgatio sit poe<lb ed="#Qb"/>nalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad hoc dicendum quod hoc nomen "
+          'animal' quandoque sumitur generalius, quan<lb ed="#Qb"/>doque
+          specialius. Quandoque enim dividitur ge<lb ed="#Qb"/>nus
+          in duo, quorum unum habet nomen proprium,
+          <lb ed="#Qb"/>aliud non habet3 ; illud autem dividentium, quod
+          <lb ed="#Qb"/>non habet nomen proprium, retinet nomen ge<lb ed="#Qb"/>neris,
+          sicut patet cum dicimusav animal dividi in
+          <lb ed="#Qb"/>rationale et irrationale: animal rationale habet
+          <lb ed="#Qb"/>nomen proprium, quia huius speciei 'homo';
+          <lb ed="#Qb"/>irrationale vero non, et ideo irrationalia nomine
+          <lb ed="#Qb"/>generis nominantur et dicuntur 'animalia'. Cum
+          <lb ed="#Qb"/>ergo animal dupliciter dicatur, uno modo 'est
+          <lb ed="#Qb"/>nomen generis communist ad rationalia et irra<lb ed="#Qb"/>tionalia,
+          alio vero modo est nomen brutorum.
+          <lb ed="#Qb"/>Similiter 'animale ', derivatum ab eo quod est
+          'animal', diciturf dupliciter. Nam, si derivetur
+          <lb ed="#Qb"/>ab 'animali' quod est genus ad hominem et bruta,
+          <lb ed="#Qb"/>tunc convenit homini secundum omnem statum,
+          <lb ed="#Qb"/>sive innocentiae sive culpae sive gratiae sive
+          <lb ed="#Qb"/>gloriae; si vero derivetur ab ' animali' quod est
+          <lb ed="#Qb"/>nomen brutorum, tunc dicitur homo animalis, id
+          <lb ed="#Qb"/>est similis brutis, sed hoc dupliciter, quia vel
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>similis brutis secundum corpus vel secundum
+          <lb ed="#Qb"/>animam. Si primo modo, sic dicimur animales
+          <lb ed="#Qb"/>nunc et Adam similiter tunc in paradiso, quia
+          <lb ed="#Qb"/>cibis indigemus ut bruta et cibis indigebat Adam
+          <lb ed="#Qb"/>secundum corpus 4. Unde:g A u gu stinu 5, XIV De
+          <lb ed="#Qb"/>civitate Dei ", cap. 265: <quote> Cibus erat ne esuriret,
+          <lb ed="#Qb"/>potus ne sitiret, lignum vitae ne illum senectus
+          <lb ed="#Qb"/>dissolveret </quote>. Si vero animalis dicatur homo se<lb ed="#Qb"/>cundum
+          animam, scilicet similis bruto, hoc dicitur
+          <lb ed="#Qb"/>adhuc dupliciter, secundum <name ref="#Augustine">Augustinum</name>, in
+          <lb ed="#Qb"/>libro 83 Quaestionumö: dicitur enim homo anima<lb ed="#Qb"/>lis
+          Vel vita vel animii sensu. Vita animalis dicitur,
+          <lb ed="#Qb"/>quandok <quote> fertur dissoluta lascivia animae suae,
+          <lb ed="#Qb"/>quam intra naturalis ordinis metas spiritus rector
+          <lb ed="#Qb"/>non continet, eo quod ipse se Deo regendum non
+          <lb ed="#Qb"/>subicit</quote>, et sic animalis idem est quod carnalis.
+          <lb ed="#Qb"/>Animi' vero sensu dicitur animalis, qui de Deo
+          <lb ed="#Qb"/>iuxta corporum phantasiam vel Legis litteram vel
+          <lb ed="#Qb"/>rationem philosophicam iudicat, et de tali dicitur
+          <lb ed="#Qb"/>illud I Cor. 2,14: <quote ana="#Icor2_14">Animalis homo</quote> etc. Iis duobus
+          <lb ed="#Qb"/>modis ultimis non erat 'Adam animalis in para<lb ed="#Qb"/>diso7
+          nec de iis modis est quaestio, quia hic
+          <lb ed="#Qb"/>intendimus de animalitate quantum ad corpus
+          <lb ed="#Qb"/>secundum quod dicitur animale, id est egens
+          <lb ed="#Qb"/>alimoniis, et sic intendit <name ref="#Augustine">Augustinus</name> et alii
+          <lb ed="#Qb"/>loquentes de materia ista. Concedimus ergo quod
+          <lb ed="#Qb"/>corpus Adae erat animale, id est indigens ali<lb ed="#Qb"/>moniis, 
+          sicut determinat <ref>Magister, II Sententia<lb ed="#Qb"/>rum m, 19 dist., cap. 1: <seg type="incipit">Solent plura quaeri</seg>
+          </ref> 8 etc.
+          <lb ed="#Qb"/>Dicit enim ibi: <quote> In primo statu tuit corpus ho<lb ed="#Qb"/>minis
+          animale, id est egens alimoniis ciborum </quote>.
+          <lb ed="#Qb"/>Et ad hoc ostendendum introducit" illud I Cor.
+          15, 45: <quote ana="#Icor15_45">Factus est primus homo Adam in ani<lb ed="#Qb"/>mam
+          viventem</quote>, id est in animam corpus sensiti<lb ed="#Qb"/>cantem,
+          quod adhuc'erat animale, quod egebat
+          <lb ed="#Qb"/>cibis, ut per animam viveret.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo obiectum contra
+          <lb ed="#Qb"/>hoc dicendum quod anima nondum erat in plena
+          <lb ed="#Qb"/>et perfecta deitormitate, quam erat!0 habitura in
+          <lb ed="#Qb"/>acceptione propriae stolae. Unde illamq deifor<lb ed="#Qb"/>mitatem
+          non impediebat animalitas corporis prap;
+          <lb ed="#Qb"/>ter eius omnimodam puritatem— nihil enim im—
+          <lb ed="#Qb"/>pnritatis sive corruptionis erat tunc in corpore
+          <lb ed="#Qb"/>illo — et obedientiam animae. Quod autem dicit
+          <lb ed="#Qb"/>Gregorius Nyssenus: <quote>In deitormitate</quote> etc.,
+          <lb ed="#Qb"/>intelligitur de homine quantum ad conditionem
+          <lb ed="#Qb"/>intelligibilem, non quantum' ad temporalem. Con<lb ed="#Qb"/>ditionem
+          autem-i intelligibilem hominis appellat
+          <lb ed="#Qb"/>illam quae est quaedam notio existens ab aeterno
+          <lb ed="#Qb"/>in mente divina, et illi conditioni nont competit
+          <pb ed="#Qb" n="591"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>corpus fluxibile vel animale ". Unde, in penultimo
+          <lb ed="#Qb"/>capitulo De imagine 1, hanc duplicem hominis
+          <lb ed="#Qb"/>conditionem distinguit, scilicet intelligibilem et
+          <lb ed="#Qb"/>temporalem. De intelligibili dicit: <quote> In praescientia
+          <lb ed="#Qb"/>divinae virtutis omnem plenitudinemb humanae
+          <lb ed="#Qb"/>conditionis subsistere confitemur, contestificante
+          <lb ed="#Qb"/>nobis Propheta 2, qui dicit Deum nosse omnia
+          <lb ed="#Qb"/>antequam fiant </quote>. Et consequenter loquitur de
+          <lb ed="#Qb"/>temporali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicunt quidam3 quod animale
+          <lb ed="#Qb"/>potest dicere differentiam vel passionem. Si primo
+          <lb ed="#Qb"/>modo, bene compatiuntur se* animale et bru<lb ed="#Qb"/>tum;
+          secundo modo non, et hoc ultimo modo
+          <lb ed="#Qb"/>opponitur. Alio modo potest dici quod status in<lb ed="#Qb"/>nocentiae
+          dicitur beatitudo sive status beatitu<lb ed="#Qb"/>dinis
+          propter abundantiam bonorum et absentiam
+          <lb ed="#Qb"/>malorum, ut innuit <name ref="#Augustine">Augustinus</name>, XIV De civi<lb ed="#Qb"/>tate
+          Dei, cap. 104, qui post multam bonorumd
+          <lb ed="#Qb"/>enumerationem quae in statu isto aifluebant,
+          <lb ed="#Qb"/>subiungit: <quote> Quam igitur felices erant et nullis
+          <lb ed="#Qb"/>agitabantur perturbationibus animorum, nullis cer<lb ed="#Qb"/>porum
+          laedebantur incommodis 2! Atque ista per<lb ed="#Qb"/>manente
+          felicitate', donec per illam benedictionem,
+          <lb ed="#Qb"/>qua dictum est5: Crescite et multiplicamini, prae<lb ed="#Qb"/>destinatorum
+          sanctorum numerus compleretur,
+          <lb ed="#Qb"/>alia maior daretur, quae beatissimis angelis data
+          <lb ed="#Qb"/>est </quote>. Huic ergo felicitati sive beatitudini non est
+          <lb ed="#Qb"/>contraria animalitas de qua'hic intendit, licet sit
+          <lb ed="#Qb"/>contraria illi quae est patriae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud dicunt quidam quod in cor<lb ed="#Qb"/>pore
+          illof erat calor naturalis resolvens et dis<lb ed="#Qb"/>perdens
+          carnem secundum materiam, non tamen
+          <lb ed="#Qb"/>omnino sicut in nobis, sed8 moderamine maiore,
+          <lb ed="#Qb"/>ad cuius restaurationem necessarium fuit illi ali<lb ed="#Qb"/>mentum.
+          — Videtur autem aliter dicendum, quia si
+          <lb ed="#Qb"/>aliqua qualitas ita fuisset praedominans in cor<lb ed="#Qb"/>pore
+          illo, quae posset inducere passionem quae
+          <lb ed="#Qb"/>abiceret a subiecto, in illo corpore fuisset prin<lb ed="#Qb"/>cipium
+          dissolutionis illius, et ita non esset con<lb ed="#Qb"/>veniens
+          materiale sive perfectibile anima rationali,
+          <lb ed="#Qb"/>dum erat omnino subiecta et obediens Deo, ut
+          <lb ed="#Qb"/>supra tactum este. Praeterea, si corpus illud tuis<lb ed="#Qb"/>set
+          passibile modo praedicto a calore intrinseco
+          <lb ed="#Qb"/>vel aliqua alia qualitate, quae non erat ibi in
+          <lb ed="#Qb"/>ultimitate suae virtutis, sed in proportione et'l
+          <lb ed="#Qb"/>harmonia convenienti optimae complexioni, tunc
+          <lb ed="#Qb"/>multo fortius passibile fuisset a calore vel aliqua
+          <lb ed="#Qb"/>alia[ qualitate extrinseca, quae non erat in tali
+          <lb ed="#Qb"/>harmonia sive proportione respectu qualitatum
+          <cb ed="#Qb" n="b"/>
+          quae erant corporis illius. — Si autem diceretur
+          <lb ed="#Qb"/>quod nulla res sive qualitas extrinseca agere po<lb ed="#Qb"/>terat
+          in illo propter continentiam animae, cui
+          <lb ed="#Qb"/>omnia huiusmodi erant subiecta in statu illo,
+          <lb ed="#Qb"/>multo fortius videtur quod illa quae erant de
+          <lb ed="#Qb"/>esse illius corporis et in harmonia convenienti,
+          <lb ed="#Qb"/>debebant moderari ipsius animae continentia, ita
+          <lb ed="#Qb"/>quod nullam inducere possent passionem, quae
+          <lb ed="#Qb"/>abiceret a substantia ipsius corporis, cuius anima
+          <lb ed="#Qb"/>illa erat perfectio et actus. Videtur ergo aliter
+          <lb ed="#Qb"/>dicendum, scilicet quod corpus illud fuit defecti<lb ed="#Qb"/>bile,
+          non quia haberet in se* qualitates activas
+          <lb ed="#Qb"/>et passivas, ex quarum actione et passione fie<lb ed="#Qb"/>ret
+          aliqua deperditio substantiae ipsius corporis,
+          <lb ed="#Qb"/>sed ratione qua erat creatura, cuius appetitui
+          <lb ed="#Qb"/>non fuit omnino satisfactum per formam pro- .
+          <lb ed="#Qb"/>priam. Unde videtur dicendum quod fuit defecti<lb ed="#Qb"/>bile,
+          non propter actionem et passionem qualita<lb ed="#Qb"/>tum
+          interiorum nec propter huiusmodi detectibi<lb ed="#Qb"/>litatem
+          erat illi alimentum necessarium, sed magis
+          <lb ed="#Qb"/>quia ex hoc quod erat creatura talis, possibilisl
+          <lb ed="#Qb"/>erat deficere in se. Unde sicut est de spiritibus,
+          <lb ed="#Qb"/>scilicet angelo et anima rationali, quod '" deficerent
+          <lb ed="#Qb"/>ex hoc quod creaturae sunt, nisi virtute Conditoris"
+          <lb ed="#Qb"/>sui influente sustentarenturo 'in esse 7, nec tamen
+          <lb ed="#Qb"/>in eis est aliqua actio sive aliquod agens cor<lb ed="#Qb"/>rumpens
+          vel detrahens a substantia eorum: sic
+          <lb ed="#Qb"/>corpus illud fuit defectibileP et defecisset, etiam
+          <lb ed="#Qb"/>si permansisset primus homo in innocentia in
+          <lb ed="#Qb"/>qua conditus fuit, nisi'1 sustentatum esset virtute
+          <lb ed="#Qb"/>cibi concessi, non propter aliquam violentiam illi
+          <lb ed="#Qb"/>illatam a virtute aliqua intrinseca, sed quia de
+          <lb ed="#Qb"/>se non habebat unde stare posset in esse per<lb ed="#Qb"/>petuo,
+          ratione qua erat creatura talis, sicut ignis
+          <lb ed="#Qb"/>quandoque deficit per' violentiam illatam ab
+          <lb ed="#Qb"/>agente contrario, quandoque in-se sive ex se ipso.
+          <lb ed="#Qb"/>Virtutes autem activae et passivae erant in ipso
+          <lb ed="#Qb"/>in quadam harmonia ets pace, neque per se ne<lb ed="#Qb"/>que
+          per adiutorium alicuius virtutis'extrinsecae
+          <lb ed="#Qb"/>se mutuo infestantes neque de substantia cor<lb ed="#Qb"/>poris
+          illius abicientes, sed potius ipsum in esse
+          <lb ed="#Qb"/>salvantes per conversionem alimenti sive cibi
+          <lb ed="#Qb"/>sumpti ad restaurationem deperditionis ortae vel
+          <lb ed="#Qb"/>oriundae ex ipsa natura vel substantia deficiente
+          <lb ed="#Qb"/>in se.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad aliud dicendum quod est indigentia
+          <lb ed="#Qb"/>necessitatis naturalis et est indigentia passionis se<lb ed="#Qb"/>cundum
+          sensum. A prima est defectus, a secunda
+          <lb ed="#Qb"/>est sensus defectus. Prima non ponit poenam,
+          <pb ed="#Qb" n="592"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>sed manifestat naturam; secunda vero ponit; a
+          <lb ed="#Qb"/>prima est deficere, a secunda sentire defectum.
+          <lb ed="#Qb"/>Adam vero, si defecisset sine culpa sua, non
+          <lb ed="#Qb"/>sensisset aliquam passionem; unde appetitus na<lb ed="#Qb"/>'
+          turalis" infuit illi cum indigentia necessitatis
+          <lb ed="#Qb"/>naturalis, non autem appetitus vel indigentia
+          <lb ed="#Qb"/>passionis secundum sensum. Indigentia ergo illa
+          <lb ed="#Qb"/>non attestabatur statui culpae, sed defectui natu<lb ed="#Qb"/>rae,
+          defectui dico <!--b--> respectu perfectionis ultimae,
+          <lb ed="#Qb"/>quae erit in participatione gloriae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad aliud potest dici, sine praeiudicio, quod
+          <lb ed="#Qb"/>in statu illo bene poterat esse purgatio sive se<lb ed="#Qb"/>paratio
+          impuri per egestionem ; nec esset huius<lb ed="#Qb"/>modi
+          egestio poena aliqua, quia nullus fuisset
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>consecutus foetor sive immunditia vel turpitudo,
+          <lb ed="#Qb"/>sicut modo quando teruntur fructus vel calcantur
+          <lb ed="#Qb"/>uvae et eliquatur illud quod est puritatis et sub<lb ed="#Qb"/>tilitatis
+          maioris a substantia grossiore". Nec
+          <lb ed="#Qb"/>aestimandum est fructus paradisi, qui erant paren<lb ed="#Qb"/>tibus
+          primis dati in cibum, fuisse similes fructibus
+          <lb ed="#Qb"/>quibus vescimur, qui nascuntur ex terra male<lb ed="#Qb"/>dicta,
+          in grossitie vel sapore veld etiam virtute,
+          <lb ed="#Qb"/>sed erant multo maiorise subtilitatis, saporis et
+          <lb ed="#Qb"/>virtutis. — Vel potest dici, sicut forte ponebant
+          <lb ed="#Qb"/>quidamz, purgationem illam fieri per evapora<lb ed="#Qb"/>tiones
+          et exhalationes f. Vel, ut ponunt quidam,
+          <lb ed="#Qb"/>totus ille cibus aptus fuit ad conversionem propter
+          <lb ed="#Qb"/>sui puritatem et virtutem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

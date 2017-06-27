@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="280"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t3m1c2">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 2</head>
+        <head type="question-title">CUI CONVENIAT RATIO MIRACULI.</head>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head type="question-title">Utrum ratio miraculi conveniat operi creationis et gubernationis.</head>
+          <p>
+                  <pb ed="#Qb" n="281"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Secundo quaeritur cui conveniat ratio miraculi,
+            <lb ed="#Qb"/>scilicet utrum operi creationis et " gubernationis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod sic 2: 1. Nam dicitur de muta<lb ed="#Qb"/>tione
+            aquae in vinum, Ioan. 2, in Glossa3:
+      <quote>Maior virtus est in creatione caeli et terrae
+            <lb ed="#Qb"/>et gubernatione et quod quotidie aquae pluviae
+            <lb ed="#Qb"/>per vites in vinum vertitur et quod ex parvo
+            <lb ed="#Qb"/>seminario fruges nascuntur </quote>. Cum ergo pro mi<lb ed="#Qb"/>raculo
+            'virtus' accipiatur in Sacra Scriptura, sicut
+            <lb ed="#Qb"/>I Cor. 12,10: <quote ana="#Icor12_10">Aliis per Spiritum datur operatio
+            <lb ed="#Qb"/>virtutum</quote>, Glossa4: <quote> Miraculorum </quote>, erit maius
+            <lb ed="#Qb"/>miraculum, et ita omne opus creationis et guber<lb ed="#Qb"/>nationis
+            et etiam generationis secundum naturam
+            <lb ed="#Qb"/>erit miraculosum, et ita videtur quod omnia huius<lb ed="#Qb"/>modi
+            opera sint miracula 4.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, <name ref="#Augustine">Augustinus</name>, Super Ioannem 5,
+            <lb ed="#Qb"/>ubi agitur de quinque panibus, dicit: <quote>Quiae
+            <lb ed="#Qb"/>miracula Dei, quibus totum mundum regit uni<lb ed="#Qb"/>versamque
+            creaturam administrat, assiduitate vi<lb ed="#Qb"/>lueruntf,
+            ita ut nemo pene dignetur attendere
+            <lb ed="#Qb"/>opera Deig mira et stupenda in quolibet seminis
+            <lb ed="#Qb"/>grano, secundum ipsam suam misericordiam ma<lb ed="#Qb"/>gnam
+            servavit sibi quaedam ** quae faceret tempore
+            <lb ed="#Qb"/>opportuno praeter usitatum cursum ordinemque
+            <lb ed="#Qb"/>naturae, ut non maiora, sed insolita videndo, stu<lb ed="#Qb"/>perent
+            quibus quotidiana viluerant </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, ibidem: <quote> Maius enim miraculum est
+            <lb ed="#Qb"/>gubernatio totius mundi quam saturatio quinque
+            <lb ed="#Qb"/>millium hominum de quinque panibus et tamen
+            <lb ed="#Qb"/>hoc nemo miratur: illud mirantur homines, non
+            <lb ed="#Qb"/>quia maius est, sed quia rarum est </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, virtus est miraculum, sicut patet in
+            <lb ed="#Qb"/>GlossaG I Cor. 12,10: <quote ana="#Icor12_10">Aliis per Spiritum da<lb ed="#Qb"/>tur</quote>
+            etc.; igitur ubi maior virtus," maius mira<lb ed="#Qb"/>culum;
+            sed maior est virtus" in creatione caeli
+            <lb ed="#Qb"/>et terrae quam in mutatione aquae in vinum;
+            <lb ed="#Qb"/>ergo et' maius miraculum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Super illud Rom. 11,24: <quote ana="#rom11_24">Contra na<lb ed="#Qb"/>turam
+            insertus es in bonam olivam</quote>, Glossa7:
+      <quote> Dicitur humano more esse contra naturam,
+            <lb ed="#Qb"/>quod est contra solitum cursum naturae morta<lb ed="#Qb"/>libus
+            notum </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item: <quote> Non incongrue dicitur Deus facere
+            <lb ed="#Qb"/>contra naturam "', quando tacit contra id quod
+            <lb ed="#Qb"/>novimus in natura: hunc enim appellamus cogni<lb ed="#Qb"/>tum
+            nobis " cursum solitumque 0 ordinem naturae,
+            <lb ed="#Qb"/>contra quem cum Deus aliquid facit, magnalia
+            <lb ed="#Qb"/>vel mirabilia nominantur</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod, licet opera
+            <lb ed="#Qb"/>creationis sint ardua, non tamen sunt insolita,
+            <lb ed="#Qb"/>secundum quod insolitum dicitur quod est contra
+            <lb ed="#Qb"/>cursum naturae determinatum; quaedam etiam
+            <lb ed="#Qb"/>non sunt supra? facultatem admirantis: ratio<lb ed="#Qb"/>enim
+            ad quaedam potest attingere, quorum'l ra<lb ed="#Qb"/>tionem
+            potest invenire. '
+         </p>
+          <p>
+            <lb ed="#Qb"/>Si obiciature de Eccl. 8,17: Intellexi quod
+            <lb ed="#Qb"/>operum Dei nullam possit homo invenire ratio<lb ed="#Qb"/>nem,
+            respondeo: sufficientem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1-3. Ad illud quod obicitur, di<lb ed="#Qb"/>cendumf
+            quod non sequitur, si minora opera,
+            <lb ed="#Qb"/>id est minus ostendentia virtutem Dei, sunt mi<lb ed="#Qb"/>racula,
+            quod magis ostendentia sint magis mi—
+            <lb ed="#Qb"/>racula, quia miraculum non est nisi de iis quae
+            <lb ed="#Qb"/>sunt contra solitum cursum naturae; sed si in
+            <lb ed="#Qb"/>eodem genere entia magis ostenderent virtutem,
+            <lb ed="#Qb"/>tunc dicerentur magiss miraculosa.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad id quod obicitur idem esse virtutem
+            <lb ed="#Qb"/>et miraculum, et ideo si maior virtus, et maius mi<lb ed="#Qb"/>raculum?:
+            dicendum quod aliunde dicitur virtus,
+            <lb ed="#Qb"/>aliunde miraculum. Nam virtus dicitur respectu
+            <lb ed="#Qb"/>principii a quo, miraculum respectu eius cui fit 9.
+            <lb ed="#Qb"/>Praeterea, omne miraculum est virtus, sed non2
+            <lb ed="#Qb"/>omnis virtus est miraculum 10; et propter hoc non
+            <lb ed="#Qb"/>sequitur quod si sit maior virtus, quod sit maius
+            <lb ed="#Qb"/>miraculum. Dicitur autem maior virtus non ex
+            <pb ed="#Qb" n="282"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>parte Dei agentis, cui aeque facilia sunt magna
+            <lb ed="#Qb"/>uta parva, sed quoad magnitudinem rei quae fit
+            <lb ed="#Qb"/>et de quo fit. Et quia maius est facere aliquid de
+            <lb ed="#Qb"/>nihilo quam de aliquob et maioris virtutis res
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>est mundus quam "' aliqua particula mundi, ideo
+            <lb ed="#Qb"/>dicitur maior virtus,; sed creatio non est contrae
+            <lb ed="#Qb"/>aliquem naturae particularis cursum, similiter nec
+            <lb ed="#Qb"/>gubernatio, et ideo non dico miraculum.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">Utrum ratio miraculi conveniat incarnationi.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur etiam de operef incarnationis an sit
+            <lb ed="#Qb"/>miraculum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Videtur1 enim quod ei conveniat ratio mi<lb ed="#Qb"/>raculi: 
+            Est enim arduum et novum et quo nihil
+            <lb ed="#Qb"/>maius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, dicit Anselm us, in libro De con<lb ed="#Qb"/>ceptu
+            virginalizz <quote> Omnia quae fiunt, aut fiunt
+            <lb ed="#Qb"/>sola Dei voluntate aut natura secundum vim illi
+            <lb ed="#Qb"/>a Deo inditam aut voluntate creaturae; et ea
+            <lb ed="#Qb"/>quae nec natura nec voluntas facit, sed solus
+            <lb ed="#Qb"/>Deus, semper miranda sunt. Ex quo apparet
+            <lb ed="#Qb"/>quod tres sunt rerum cursus: mirabilis, naturalis
+            <lb ed="#Qb"/>et8 voluntarius </quote>; Cum igitur incarnatio non sit
+            <lb ed="#Qb"/>actus naturalis aut voluntarius voluntate creatu<lb ed="#Qb"/>rae,
+            erit mirabilis, et. ita opus incarnationis erit
+            <lb ed="#Qb"/>miraculum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Praeterea, maior est distantia increati ad
+            <lb ed="#Qb"/>creatum quam huius .speciei creatae quae est
+            <lb ed="#Qb"/>frumentum, ad illam quae est hordeum vel alia<lb ed="#Qb"/>rum
+            huiusmodi; sed si operante Deo fieret quod
+            <lb ed="#Qb"/>idem esset frumentum et hordeum, hoc diceretur
+            <lb ed="#Qb"/>miraculum; ergo illud magis dicetur miraculum,
+            <lb ed="#Qb"/>cum operante Deo factum est ut ille, qui erat
+            <lb ed="#Qb"/>Deus, esset homo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra,: a. Miracula sunt quae fiunt contra na<lb ed="#Qb"/>turam
+            particularem, non tantum supra, sicut quod
+            <lb ed="#Qb"/>caecus visum. recipiat et similia; sed opus in<lb ed="#Qb"/>carnationis
+            non est huiusmodi: supra enim na<lb ed="#Qb"/>turam
+            est, sed non currit" contrario cursu cur<lb ed="#Qb"/>suii
+            naturae; ergo non est miraculosum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, terminatur ad illud cuius non est
+            <lb ed="#Qb"/>simile reperire in natura: verbi gratia, quod Deus
+            <lb ed="#Qb"/>sit homo et e converso; sed opus miraculosum
+            <lb ed="#Qb"/>terminatur ad opus conforme naturae: visus enim
+            <lb ed="#Qb"/>conformisk est in prius caeco et naturaliter vi<lb ed="#Qb"/>dente,
+            similiter et vita in resuscitat-o '; restat
+            <lb ed="#Qb"/>ergo quod non est opus miraculosum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, ad Rom. 11,24, in Glossa3 super il<lb ed="#Qb"/>lud:
+      <quote>Insertus Es</quote> etc. dicitur quod miraculum est
+            <lb ed="#Qb"/>quod fit contra naturam; sed incarnatio Filii Dei
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>non fuit contra naturam; ergo non fuit miracu<lb ed="#Qb"/>lum.
+            — Probatio minoris": Si enim fuisset
+            <lb ed="#Qb"/>contra naturam, aut fuisset contra naturam" in<lb ed="#Qb"/>creatam
+            autP contra naturam creatam. Contra
+            <lb ed="#Qb"/>increatam non, quia ipsi nihilq est impossibile.
+            <lb ed="#Qb"/>Si contra creatam, hoc non videtur verum: con<lb ed="#Qb"/>stat
+            enim quod natura" creata semper habuit
+            <lb ed="#Qb"/>in se obedientiam ad obediendum naturae in<lb ed="#Qb"/>creatae,
+            nec ista obedientia repugnabat naturae
+            <lb ed="#Qb"/>creaturae, immo de natura creaturae erat ut obe<lb ed="#Qb"/>diens
+            esset.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Praeterea, cum divina natura uniebatur hu<lb ed="#Qb"/>manae,
+            nihil subtrahebatur humanae8 naturae,
+            <lb ed="#Qb"/>immo in hoc meliorabatur et complebatur ; ergo
+            <lb ed="#Qb"/>si completio creaturae non est contra naturam
+            <lb ed="#Qb"/>ipsius, patet quod non fuit incarnatio contra na<lb ed="#Qb"/>turam
+            creaturae; non fuit ergo miraculum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod, licet opus
+            <lb ed="#Qb"/>incarnationis sit mirabile, non tamen miraculum
+            <lb ed="#Qb"/>proprie dictum: omne enim miraculum est mira—
+            <lb ed="#Qb"/>bile, non e converso. Unde concedendum .est
+            <lb ed="#Qb"/>quod est secundum cursum mirabilem, prout dicit
+            <lb ed="#Qb"/>
+            <name ref="#Anselm">Anselmus</name>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Et-' per hoc patet solutio ad
+            <lb ed="#Qb"/>duo primo * obiecta. Nam insolitum, secundum
+            <lb ed="#Qb"/>quod ponitur in ratione miraculi, est" quod fit
+            <lb ed="#Qb"/>contra consuetum cursumx naturae, et tale non
+            <lb ed="#Qb"/>est incarnatio.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Similiter ad illud quod dicit <name ref="#Anselm">Anselmus</name>.
+            <lb ed="#Qb"/>Nam concedendum est" quod incarnatio sit*
+            <lb ed="#Qb"/>secundum cursum mirabilem; sed mirabile com<lb ed="#Qb"/>prehendit
+            ea quae sunt supra naturam et ea
+            <lb ed="#Qb"/>quae sunt contra naturam, id est contra soli<lb ed="#Qb"/>tum
+            cursum naturae; incarnatio autem, licet sit
+            <lb ed="#Qb"/>supra naturam, non est? contra cursum naturae,
+            <lb ed="#Qb"/>et ideo non est proprie miraculum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. A ad illud quod obicitur quod 'maior est di<lb ed="#Qb"/>stantia
+            inter creatum et increatum ' etc.: dicimus
+            <lb ed="#Qb"/>quod in creatura respectu creaturae est disparitas
+            <lb ed="#Qb"/>vel contrarietas ratione suarum formarum," etsicut
+            <lb ed="#Qb"/>haec forma distat ab illa, ita materia a materia
+            <pb ed="#Qb" n="283"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>nec potuit esse materia huius materia illius sicut
+            <lb ed="#Qb"/>nec istius torma illius a, et hoc est propter hoch
+            <lb ed="#Qb"/>quod quaelibet istarum formarum numerat et di<lb ed="#Qb"/>stinguit
+            materiam c suam totaliter a materia al<lb ed="#Qb"/>terius.
+            Non sic autem fuit in Creatore respectu
+            <lb ed="#Qb"/>creaturae: etsi enim diversa sit divinitatis et
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>humanitatis natura, tamen est una hypostasis per<lb ed="#Qb"/>sonae
+            Dei in ipso, qui est Deus et homo, sine
+            <lb ed="#Qb"/>aliqua subtractione ab hac natura vel illa. Dici<lb ed="#Qb"/>mus
+            ergo quod quantum ad hoc non est tanta
+            <lb ed="#Qb"/>discrepantia inter Creatorem et creaturam quanta
+            <lb ed="#Qb"/>est inter duas creaturas.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III.</head>
+          <head type="question-title">Utrum ratio miraculi fuerit in costa Adae de qua facta est Eva.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur similiter de costa Adae, de qua facta
+            <lb ed="#Qb"/>est Eva, utrum ibi fuerit miraculum vel non.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et quod sic, videtur: 1. Nam illi mutationid
+            <lb ed="#Qb"/>convenit tota ratio miraculi; nec potest dici quod
+            <lb ed="#Qb"/>ibi non fuerit ratio miraculi, quia non erat <mentioned> inso<lb ed="#Qb"/>litum</mentioned>, 
+            immo etiam erat in costa ordo ad contra<lb ed="#Qb"/>rium
+            eius quod factum est de ipsa.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Si dicatur quod illud non fuit <quote> supra ta<lb ed="#Qb"/>cultatem
+            admirantis</quote> — contra: aut enim di<lb ed="#Qb"/>citur
+            miraculum esse supra facultatem vel supra
+            <lb ed="#Qb"/>rationem admirantis, quando ratio naturaliter n0n
+            <lb ed="#Qb"/>potest comprehendere illud aut quando nec na<lb ed="#Qb"/>turaliter
+            nec aliter *. Si hoc ultimo modo, tuncf
+            <lb ed="#Qb"/>nullum erit miraculum: non enim reperitur aliquod
+            <lb ed="#Qb"/>miraculum ad quod ratio non possit attingere
+            <lb ed="#Qb"/>saltem credendog per fidem. Restat ergo quod
+            <lb ed="#Qb"/>dicetur esse miraculum supra facultatem sive su<lb ed="#Qb"/>pra
+            rationem, quando est supra" illud quod na<lb ed="#Qb"/>turaliter
+            potest intelligere; sed constat quod illud
+            <lb ed="#Qb"/>non poterat naturaliter intelligere, quia ratio non
+            <lb ed="#Qb"/>poterat naturaliter ad hoc attingere quod de costa
+            <lb ed="#Qb"/>fieret mulier:,hoc enim excedebat et corporalia
+            <lb ed="#Qb"/>et spiritualia, quae posset ratio comprehendere
+            <lb ed="#Qb"/>de se; ergo fuit <quote> supra facultatem admirantis </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod revera non
+            <lb ed="#Qb"/>fuit illud miraculum, sed mirabile. Sed intelli<lb ed="#Qb"/>gendum,
+            sicut dicit <name ref="#Augustine">Augustinus</name>, Super Gene<lb ed="#Qb"/>sim
+            ad litteramz: triplex est ratio exeundi : res
+            in esse. Et dicitur prima ratio causalis, et secun<lb ed="#Qb"/>dum
+            hoc dicit <name ref="#Augustine">Augustinus</name> quod de primo
+            <lb ed="#Qb"/>creatis secundum rationem causalem sive secun<lb ed="#Qb"/>dum
+            rationes causales potuerunt! omnia fieri quae
+            <lb ed="#Qb"/>postmodum facta sunt; haec ergo causalitas di<lb ed="#Qb"/>citur
+            esse in ipso Deo, et non in ipsis creatis
+            <lb ed="#Qb"/>nisi materialiter ", secundum quod de ipsis potest
+            <lb ed="#Qb"/>facere et ipsae sunt possibiles obedire. Est alia
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ratio, quae dicitur seminalis, secundum quam
+            <lb ed="#Qb"/>multa. possunt fieri per angelorum occultas ope<lb ed="#Qb"/>rationes
+            et per motum corporum superiorum, sicut
+            <lb ed="#Qb"/>fiunt ranae et huiusmodi animalia, quae fiunt ex !
+            <lb ed="#Qb"/>putrefactione. Est autem tertia ratio respectu cor<lb ed="#Qb"/>poralis
+            creaturae sicut naturae insitae ipsis rebus
+            <lb ed="#Qb"/>corporalibus creatis, secundum quod nos dicimus
+            <lb ed="#Qb"/>quod haec naturaliter producitur ab illa, ut gra<lb ed="#Qb"/>num
+            ex grano et planta ex planta. Dicimus ergo
+            <lb ed="#Qb"/>quod nihil, quod fiat secundum rationem natu<lb ed="#Qb"/>ralem
+            aut seminalem, est miraculum; sed omne
+            <lb ed="#Qb"/>miraculum fit secundum rationem causalem tan<lb ed="#Qb"/>tum,
+            non tamen'" convertitur ut omne quod fit
+            <lb ed="#Qb"/>secundum rationem causalem " sit miraculosum.
+            <lb ed="#Qb"/>Fieri enim secundum rationem causalem potuit
+            <lb ed="#Qb"/>aliquid dupliciter. Unde <name ref="#Augustine">Augustinus</name>, ino-IX
+            <lb ed="#Qb"/>Super Genesim ad litteramP3: <quote> Omnis iste na<lb ed="#Qb"/>turae
+            usitatissimus cursus habet quasdam natu<lb ed="#Qb"/>rales
+            leges. suas, secundum quas et spiritus vi<lb ed="#Qb"/>tae,
+            qui creatus est, habet quosdam appetitus
+            <lb ed="#Qb"/>suos determinatos quodam modo, quos etiam mala
+            <lb ed="#Qb"/>voluntas non possit excedere, et elementa mundi
+            <lb ed="#Qb"/>huius corporei habent determinatamq vim quali<lb ed="#Qb"/>tatemque
+            suam quid unumquodque valeat vel non
+            <lb ed="#Qb"/>valeat, quid' de quo fieri possit vel non possit.
+            <lb ed="#Qb"/>Ex iis, velut primordiis rerum, omnia, quae gi<lb ed="#Qb"/>gnuntur,
+            suo quoque tempore exortuss processus<lb ed="#Qb"/>que
+            sumunt finesquet et decessiones sui cuius<lb ed="#Qb"/>que
+            generis: unde fit" ut de grano tritici non
+            <lb ed="#Qb"/>nascatur faba vel de faba triticum vel de pecore
+            <lb ed="#Qb"/>homo vel de homine pecus. Super hunc autem mo<lb ed="#Qb"/>tum
+            cursumque rerum" naturalem potestas Crea<lb ed="#Qb"/>toris
+            habet apud se posse aliud de iis omnibusx
+            <lb ed="#Qb"/>facere quam eorum quasi seminales rationes ha<lb ed="#Qb"/>bent,
+            non tamen id quod non in eis posuit utJ' de
+            <lb ed="#Qb"/>iis fieri vel ab ipso possit. Neque enim potentia
+            <lb ed="#Qb"/>temeraria, sed sapiente virtute omnipotens est 2, et
+            <pb ed="#Qb" n="284"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>hoc de unaquaque re in suo tempore facit quod
+            <lb ed="#Qb"/>ante a in ea fecit ut possit. Alius ergo est rerum
+            <lb ed="#Qb"/>modus, quod illa herba sic germinat, illa sic, illa
+            <lb ed="#Qb"/>aetas parit b, illa non parit, homo loqui potest,
+            <lb ed="#Qb"/>pecus non potest. Horum et talium modorum ra<lb ed="#Qb"/>tiones
+            non tantum in Deo sunt, sed ab illo etiam
+            <lb ed="#Qb"/>rebus creatis inditae atque concreatae. Ut autem
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>lignum excisum de terra, aridum, perpolitumc,
+            <lb ed="#Qb"/>sine radice ulla, sine terra et aqua!! repente
+            <lb ed="#Qb"/>floreat et fructum gignat ', ut per iuventam * ste<lb ed="#Qb"/>rilis
+            femina in senectute pariat 2, ut asina lo-.
+            <lb ed="#Qb"/>quatur3, et sif quid eiusmodi est, dedit qui<lb ed="#Qb"/>dem
+            naturis quas creavitg ut [ex] eis et haec
+            <lb ed="#Qb"/>fieri possent </quote>.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS IV</head>
+          <head type="question-title">Utrum ratio miraculi conveniat iustificationi.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur5 iterum de opere '! iustificationis,
+            <lb ed="#Qb"/>utrum sit miraculosum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod sic 1. per illud quod dicitur
+            <lb ed="#Qb"/>Eph. 3,7: <quote ana="#eph3_7">Secundum donum gratiae, quae data est
+            <lb ed="#Qb"/>mihi secundum operationem virtutis eius</quote>, Glos<lb ed="#Qb"/>sa6:
+      <quote>Magna virtus eius" est, qua fecit quod
+            <lb ed="#Qb"/>persecutor esset' apostolus; hoc enim est ut
+            <lb ed="#Qb"/>quodlibet miraculum </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, in Psalmo <quote>Misericordias Domini, super
+            <lb ed="#Qb"/>illud7: Confitebuntur caeli mirabilia tua</quote>, Glos<lb ed="#Qb"/>sas:
+      <quote> In iustificatione impiorum quid laudas nisi
+            <lb ed="#Qb"/>mirabilia Dei?</quote> Immo plus miraculo'" videntur.
+            <lb ed="#Qb"/>Unde sequitur: <quote> Laudas, quia surrexerunt mor<lb ed="#Qb"/>tui;
+            plus lauda, quia redempti sunt perditi; vides
+            <lb ed="#Qb"/>hominem heri voraginem ebrietatis, hodie orna<lb ed="#Qb"/>mentum
+            sobrietatis </quote> etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Non convenit ei ratio miraculi supe<lb ed="#Qb"/>rius
+            positag: non enim est arduum et insolitum ",
+            <lb ed="#Qb"/>non semper fit absque voluntate creaturae, immo
+            <lb ed="#Qb"/>cum, ut in adulto; unde <name ref="#Augustine">Augustinus</name>w: <quote>Qui
+            <lb ed="#Qb"/>te creavit sine te, non te iustificat sine te </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, quia ostensivum est misericordiae di<lb ed="#Qb"/>vinae 
+            principaliter, miraculum autem non, sed
+            <lb ed="#Qb"/>magis potentiae".
+         </p>
+          <p>
+            <lb ed="#Qb"/>Ad obiecta. autem respondendum 1. quod non
+            <lb ed="#Qb"/>dicitur 'miraculum' in prima obiectione, sed
+            ' ut miraculum '. Sicut enim miraculum 0 est, cum
+            <lb ed="#Qb"/>de caeco fit videns, ita hic quasi cum de per<lb ed="#Qb"/>secutore
+            iit apostolus.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>2. Ad secundum dicendum quod dicuntur
+            <lb ed="#Qb"/>esse ' plus miraculo'P, hoc est quia illa mira sunt
+            <lb ed="#Qb"/>circa res nobiliores: vita enim gratiae nobilior et
+            <lb ed="#Qb"/>excellentior est vita naturae, quae ab ea perficitur.
+            <lb ed="#Qb"/>Undej A 11 gu stin u s, Super Genesim, IX 12 : <quote> Habet
+            <lb ed="#Qb"/>Deus in se ipso absconditas quorumdam factorum '?
+            <lb ed="#Qb"/>causas, quas rebus conditis non inseruit, easque "
+            <lb ed="#Qb"/>implet, non illo opere providentiae quo naturas
+            <lb ed="#Qb"/>substituit ut sint, sed illo quo eas administrat, ut
+            <lb ed="#Qb"/>voluerit, qui condidit. [bi est ets gratia, per quam
+            <lb ed="#Qb"/>salvi fiunt peccatores. Nam quod attinet ad na<lb ed="#Qb"/>turam
+            iniquai sua voluntate depravatam, re<lb ed="#Qb"/>cursum
+            per semetipsam non habet, sed per Dei
+            <lb ed="#Qb"/>gratiam, qua adiuvatur et instauratur. Neque
+            <lb ed="#Qb"/>enim desperandi sunt homines in illa sententia,
+            <lb ed="#Qb"/>in qua scriptum est 13: Omnes, qui ambulant in
+            <lb ed="#Qb"/>ea, non revertentur. Dictum est enim secundum
+            <lb ed="#Qb"/>pondus iniquitatis suae, ut qui revertitur, non
+            <lb ed="#Qb"/>sibi tribuat, sed gratiae Dei, non" ex operi<lb ed="#Qb"/>bus,
+            ne forte extollatur 14. Propterea" myste<lb ed="#Qb"/>rium
+            gratiae huiusx Apostolus absconditum di<lb ed="#Qb"/>xit15,
+            non in mundo, in quo sunt absconditae
+            <lb ed="#Qb"/>causales rationes omnium rerum naturaliter ori<lb ed="#Qb"/>turarum,
+            sicut absconditus erat Levi in lumbis
+            <lb ed="#Qb"/>Abrahae, quando et ipse decimatus est 16, sed
+            <lb ed="#Qb"/>in Deo, qui universa creavitï'".-Quam ob rem
+            <lb ed="#Qb"/>omnia, etiam quae ad hanc gratiam significan<lb ed="#Qb"/>dam"
+            non. naturali motu rerum, sed mirabiliter
+            <lb ed="#Qb"/>facta sunt, eorum etiam absconditae causae in
+            <lb ed="#Qb"/>Deo fuerant</quote>.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS V.</head>
+          <head type="question-title">Utrum ratio miraculi conveniat operi glorificationis vel resurrectionis.</head>
+          <p>
+                  <pb ed="#Qb" n="285"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Quaeritur 1 iterum de opere glorificationis vel
+            <lb ed="#Qb"/>resurrectionis, utrum sit miraculosum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod sit secundum naturam, 1. per
+            <lb ed="#Qb"/>hoc" quod dicitur super illudz: <quote>Posuerunt mor<lb ed="#Qb"/>talia
+            servorum</quote> etc. Glossa3: <quote> Quasi quidquam
+            <lb ed="#Qb"/>eorum resurrectioni deperiret, cum ille ex occultis
+            <lb ed="#Qb"/>naturae sinibus totum redintegret </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem sit miraculosum, videtur 2. ex
+            <lb ed="#Qb"/>praedicta auctoritate Anselmi 4.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Et praeterea :, resurrectio terminatur ad vi<lb ed="#Qb"/>tam
+            iteratam, non. secundum cursum naturae, sed
+            <lb ed="#Qb"/>supra; quare erit miraculosa.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Sua species est .quasi in infinitum
+            <lb ed="#Qb"/>nobilior specie quae sit d secundum naturam, sci<lb ed="#Qb"/>licet
+            claritas corporis, non similiter est in mira<lb ed="#Qb"/>culis; 
+            species autem quantum ad actum videndi
+            <lb ed="#Qb"/>non est melius in eo qui illuminatur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad hoc dicendum quod resurrectio
+            <lb ed="#Qb"/>nec est naturalis, quia non operatur ibi natura,
+            <lb ed="#Qb"/>nec miraculosa, quia non fit contra consuetum
+            <lb ed="#Qb"/>cursum naturae — cum natura sit possibilis
+            <lb ed="#Qb"/>et ex congruo disposita ad vitam gloriosam et
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>immortalemf ex ordinatione quam habet corpus
+            <lb ed="#Qb"/>ad animam rationalem — sed est mirabilis, id
+            <lb ed="#Qb"/>est supra naturam, et est ad complementum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 2. Nec concludit ex auctoritate
+            <lb ed="#Qb"/>
+            <name ref="#Anselm">Anselmi</name> nisi quod sit mirabilis ; mirabile autem
+            <lb ed="#Qb"/>commune est ad id quod est supra naturam et
+            <lb ed="#Qb"/>contra naturam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Ad illud quod obicitur quod sitg naturalis
+            <lb ed="#Qb"/>per hoc quod dicit Glossa quod <quote> ex naturae
+            <lb ed="#Qb"/>sinibus</quote> etc.: dicendum quod *ex' non dicit ibi
+            <lb ed="#Qb"/>aliquam rationem causae efficientis, sed materiae
+            <lb ed="#Qb"/>possibilis sive dispositae ex congruentia ad re<lb ed="#Qb"/>surrectionem
+            ex ordinatione quam habet corpus
+            <lb ed="#Qb"/>ad animam rationalem, et ideo non dicitur aliquo
+            <lb ed="#Qb"/>modo naturalis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad hoc quod obicitur quod 'esth miracu<lb ed="#Qb"/>losa,
+            quia terminatur ad vitam iteratam non se<lb ed="#Qb"/>cundum
+            cursum naturae': dicendum quod pro<lb ed="#Qb"/>prie
+            iteratio vitae illius non est contra solitum
+            <lb ed="#Qb"/>cursum naturae ", quia non iteratur vita mortalis,
+            <lb ed="#Qb"/>sed gloriosa, quae est completio naturae; ope<lb ed="#Qb"/>ratio
+            autem miraculosa terminatur ad aliquem
+            <lb ed="#Qb"/>actum conformem naturae.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

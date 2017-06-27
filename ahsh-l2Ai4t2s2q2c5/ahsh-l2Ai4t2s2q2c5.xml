@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="626"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s2q2c5">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 5</head>
+        <head type="question-title">DE FORTITUDINE CORPORIS EVAE.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur de fortitudine mulieris quantum advk
+          <lb ed="#Qb"/>corpus sive quantum ad sexum, sexus autem
+          <lb ed="#Qb"/>ad corpus refertur. Quaeritur ergo utrum aequalis
+          <lb ed="#Qb"/>erant fortitudinis sive virtutis vir primus et mu<lb ed="#Qb"/>lier
+          prima quantum ad corpus sive ad sexum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod non, videtur: a. Quia vir erat maioris
+          <lb ed="#Qb"/>virtutis quam mulier, ut habetur ab Hugone",
+          <lb ed="#Qb"/>dicente de'" diabolo :. <quote> Quasi" parum de suis viri<lb ed="#Qb"/>bus
+          praesumens, humanam naturam in eam'partem,
+          <lb ed="#Qb"/>ubi debilior videbatur, aggressus est,ut, si forte
+          <lb ed="#Qb"/>illic aliquatenus praevalere potuisset, postmodum
+          <lb ed="#Qb"/>cum maiori fiducia ad alteram, quae robustior
+          <lb ed="#Qb"/>fuit, pulsandam aut potius subvertendam acce<lb ed="#Qb"/>deret
+    </quote>. Idem habetur a Magistro Sententia<lb ed="#Qb"/>rum,
+          II, 21 distinctione 4.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>b. Item, Isidorus, in libro Etymologiarum,
+          41 cap. De aetatibus hominis 5 : <quote> Vir nuncupatur,
+          <lb ed="#Qb"/>quia maior in eo vis est quam in femina; unde
+          <lb ed="#Qb"/>et nomen virtutis accepit </quote>. *
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Isidorus, libro Etymologiarum 5,
+          <lb ed="#Qb"/>eodem quo supra: <quote> Eva, statim facta de latere
+          <lb ed="#Qb"/>viri ", appellata est a viro, dicente Scriptura7': Et
+          <lb ed="#Qb"/>formavit eam, id est costam, inP mulierem; virgo a
+          <lb ed="#Qb"/>viridiori aetate dicta, sicut et virga et vitula; alias
+          <lb ed="#Qb"/>ab incorruptione, quasi virago, quod ignorat femi<lb ed="#Qb"/>neam
+          passionem, virago vocata, quia virum agit,
+          <lb ed="#Qb"/>id est virilia opera facit et masculinif! vigoris est</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Basiliussz <quote> Aequales sunt eorum
+          <lb ed="#Qb"/>virtutes </quote>, et loquitur de viro et muliere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, ut habetur ab Augustinog, mulier data
+          <lb ed="#Qb"/>fuit viro in adiutorium quantum ad productionem
+          <pb ed="#Qb" n="627"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>prolis<!--a-->; quod autem difficultatis et onerisb erat
+          <lb ed="#Qb"/>in productione prolis, utpote portatio in utero, mu<lb ed="#Qb"/>lieri
+          fuit addictum 0, non viro; ex quo ergo divina
+          <lb ed="#Qb"/>providentia <quote> singulis providet ut habeat unum<lb ed="#Qb"/>quodque
+          quod sibi debetur et convenit </quote>, ut dicit
+          <lb ed="#Qb"/>Hugo 1, convenit autem ut ille, cui maius onus
+          <lb ed="#Qb"/>imponitur sine culpa, plusd habeat fortitudinis,
+          <lb ed="#Qb"/>plus fortitudinis debuit dari mulieri quam viro,
+          <lb ed="#Qb"/>et hoc, cume nihil erat viro imponendum quan<lb ed="#Qb"/>tum
+          ad statum illum, propter quodf requirebatur
+          <lb ed="#Qb"/>quod esset amplioris fortitudinis, quam mulier.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, illud quod facilitate maiori resistit ac<lb ed="#Qb"/>tioni
+          violentae g, non immerito iudicatur maioris
+          <lb ed="#Qb"/>esse virtutis sive fortitudinis eo quod minori, et e
+          <lb ed="#Qb"/>converso, et quod aequali aequalis; sed, sicut dicit
+          <lb ed="#Qb"/>Isidorus, libro De Trinitatez: <quote> Dum homo in
+          <lb ed="#Qb"/>paradiso innocenter viveret, ignis eum non ureret,
+          <lb ed="#Qb"/>aqua non mergeret nec spinarum aculei vulnera<lb ed="#Qb"/>'
+          rent nec omnia quae nocent mortalibus impedi<lb ed="#Qb"/>rent
+    </quote>. Ex quo " videtur quod nulla actio, quan<lb ed="#Qb"/>tumcumque
+          violenta, corpori humano in statu
+          <lb ed="#Qb"/>innocentiae nocere poterat, et hoc neque corpori
+          <lb ed="#Qb"/>viri neque mulieris; et ita Videtur quod modo
+          <lb ed="#Qb"/>quodam indifferenti poterat utrumque corpus
+          <lb ed="#Qb"/>actioni violentaei resistere; et ita videtur quod
+          <lb ed="#Qb"/>erant aequalis virtutis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, sicut dicit <name ref="#Augustine">Augustinus</name>, XIV De civi<lb ed="#Qb"/>tate
+          Dei *, 26 cap.3:- <quote> Quamdiu homo volebat hoc
+          <lb ed="#Qb"/>quod Deus iusserat, summa in carne sanitas erat</quote>;
+          <lb ed="#Qb"/>et constat quod hoc intelligitur tam de carne
+          <lb ed="#Qb"/>mulieris quam de carne viri; ergo in corpore
+          <lb ed="#Qb"/>utriusque erat summa sanitas; ergo aequalis sa<lb ed="#Qb"/>nitas:
+          quod enim per' superabundantiam diciturm
+          <lb ed="#Qb"/>pluribus convenire, aequaliter convenit sive modo
+          <lb ed="#Qb"/>unico; sed indifferentia sanitatis est ex indiffe<lb ed="#Qb"/>rentia"
+          miscibilium in mixto, aliis existentibus
+          <lb ed="#Qb"/>eisdem; per quamdam ergo indifferentiam erant in
+          <lb ed="#Qb"/>corporibus primorum parentum elementa activaa
+          <lb ed="#Qb"/>et passiva et aequalis consertio et consolidatio
+          <lb ed="#Qb"/>in membris; ergo aequalis erant fortitudinis:
+          <lb ed="#Qb"/>ex maiori enim abundantiaP elementorum agen<lb ed="#Qb"/>tium
+          in bene complexionatis est maior abundantia
+          <lb ed="#Qb"/>spirituum, et ita maior virtus sive fortitudo, et
+          <lb ed="#Qb"/>ex maiori abundantia elementorum passivorum
+          <lb ed="#Qb"/>minor, et- ita virtus minor 9, et ex aequali aequalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: Ad praedictorum intelligentiam no<lb ed="#Qb"/>tandum
+          quod congruebat mulierem fieri minus
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>fortem et virilem quantum ad corpus quam vi<lb ed="#Qb"/>rum.
+          Huius autem potest ratio quadruplex " assi<lb ed="#Qb"/>gnari:
+          prima ex parte actionis et passionis; se<lb ed="#Qb"/>cunda,
+          ex parte regiminis et subiectionis; tertia,
+          <lb ed="#Qb"/>ex parte nutriendae prolis; quarta, ex parte spi<lb ed="#Qb"/>ritualis
+          significationis. Ex parte actionis et pas<lb ed="#Qb"/>sionis
+          sumitur ratio congruentiae. Quia enim
+          <lb ed="#Qb"/>sexus virilis ordinatur ad agendum, mulieris ad
+          <lb ed="#Qb"/>patiendum, non solum secundum statum naturae
+          <lb ed="#Qb"/>lapsae, sed etiam institutae — et hoc dico in officio
+          <lb ed="#Qb"/>generationis, secundum illud Philosophi41Ma<lb ed="#Qb"/>teria
+          est, sicut mulier, passiva — sicut agens pa<lb ed="#Qb"/>tiente
+          praestantius et virilius est, sich fortius et
+          <lb ed="#Qb"/>robustius debuit esse corpus viri quam mulieris. -—
+          <lb ed="#Qb"/>Ex parte regiminis et subiectionis ratio. su<lb ed="#Qb"/>mitur,
+          quia regens in virtute praevalere debet ei
+          <lb ed="#Qb"/>quod regitur; sed vir c deputatus erat ad regimen
+          <lb ed="#Qb"/>mulieris, utd habetur XI Super Genesim ad litte<lb ed="#Qb"/>ram 5, 
+          non solum secundum animam, immo secun<lb ed="#Qb"/>dum 
+          totum coniunctum; unde I Cor. 11,3: Volo vos
+          <lb ed="#Qb"/>scire quod omnis viri caput Christus, caput autem
+          <lb ed="#Qb"/>mulieris vir; sensibus autem, qui vigent in ca<lb ed="#Qb"/>pite,
+          reguntur aliae partes corporis. Et quod hoc
+          <lb ed="#Qb"/>fuit in statu innocentiae, ostendit Apostoluse con<lb ed="#Qb"/>sequenter
+          in eodemf dicensöz Non enim vir ex mu<lb ed="#Qb"/>liere
+          est, sed mulier ex viro. Propter quod decuit
+          <lb ed="#Qb"/>corpus viri fieri robustiusg. — Ex parte nutrien<lb ed="#Qb"/>dae
+          prolis ratio sumitur, quia mulier ad hoc" ma<lb ed="#Qb"/>xime
+          deputatur ut prolem nutriat intra se ipsam, et
+          <lb ed="#Qb"/>ideo necesse fuit ipsam magis abundare in humi<lb ed="#Qb"/>ditateï
+          quam virum et ratione maioris humiditatis
+          <lb ed="#Qb"/>minor est consertiok et consolidatio in membris
+          <lb ed="#Qb"/>feminae quam maris, et hinc est! quod naturaliter
+          <lb ed="#Qb"/>sunt minoris roboris et vigoris. — Ex parte vero
+          <lb ed="#Qb"/>spiritualis"! significationis sumitur quarta ra<lb ed="#Qb"/>tio:
+          quia enim in " coniunctione maris et feminae
+          <lb ed="#Qb"/>significatur coniunctio Dei et animae, sicut anima,
+          <lb ed="#Qb"/>quae est per se imbecillis, recipit a Deo virtu<lb ed="#Qb"/>tem
+          sive vigorem multiplicandi Deo prolem spi<lb ed="#Qb"/>ritualem,
+          sic, ut signum signato responderet, de<lb ed="#Qb"/>buit
+          mulier, quae opere viri multiplicativa est
+          <lb ed="#Qb"/>prolis materialis, minus fortis fieri et vir magis.
+          <lb ed="#Qb"/>Minime enim deceret illum, quo Deus significatur,
+          <lb ed="#Qb"/>minoris esse virtutis illa qua" significatur crea<lb ed="#Qb"/>tura.
+          Unde HugoP 7: <quote> Coniugium sacramentum
+          <lb ed="#Qb"/>fuit cuiusdam societatis spiritualis, quae per di<lb ed="#Qb"/>lectionem
+          erat inter Deum et animam, in qua
+          <pb ed="#Qb" n="628"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>societate anima sponsa [erat] et sponsus Deus; et
+          <lb ed="#Qb"/>qui sponsus erat, superior erat, quae sponsa, infe<lb ed="#Qb"/>rior.
+          Propterea, natura humana duplici qualitate
+          <lb ed="#Qb"/>distincta est, ut in viro quidem robustior, in fe<lb ed="#Qb"/>mina
+          vero infirmior et aliena ope egens appa<lb ed="#Qb"/>reret</quote>. 
+          Ex hac autem debilitate ex parte corporis
+          <lb ed="#Qb"/>est sexus femineus imbecillior virili. Non enim
+          <lb ed="#Qb"/>ponitur quod Deus infuderit animas " infirmiores
+          <lb ed="#Qb"/>corporibus mulierum quam virorum, sed quia
+          <lb ed="#Qb"/>dispositiones spiritus, existentes in corpore, con<lb ed="#Qb"/>comitantur
+          dispositiones corporis cui unitur, cor<lb ed="#Qb"/>pus
+          autem muliebre ab initio fragilius et infir<lb ed="#Qb"/>mius
+          erat corpore virili, ideo spiritus sive anima,
+          <lb ed="#Qb"/>unita corpori muliebri, infirmior est illa quae
+          <lb ed="#Qb"/>unitur corpori virili: anima enim fortius et me<lb ed="#Qb"/>lius
+          viget in corpore meliori. Quod tamen corpus
+          <lb ed="#Qb"/>Evae fuit infirmius et imbecillius corpore Adae,
+          <lb ed="#Qb"/>non fuit poena spiritui mulieris, qui utique plus
+          <lb ed="#Qb"/>viguisset in meliori corpore, sicutb nec fragilitas
+          <lb ed="#Qb"/>corporis Adae respectiva, id est comparatione
+          <lb ed="#Qb"/>alterius corporis fortioris, fuit spiritui eius poena,
+          <lb ed="#Qb"/>qui spiritus plus viguisset, si unitus fuisset cor<lb ed="#Qb"/>pori
+          fortiori. Rationes ergoc quibus ostenditur
+          <lb ed="#Qb"/>mulierem fuisse infirmiorem quantum ad corpus
+          <lb ed="#Qb"/>concedimus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud quod primo obi<lb ed="#Qb"/>citur
+          in contrarium, dicendum quod mulier non
+          <lb ed="#Qb"/>dicitur ab Isidoro esse virilis vigoris, quia
+          <lb ed="#Qb"/>quantum ad naturalia, quae corpus respiciunt,
+          <lb ed="#Qb"/>tantae virtutis fuerit prima mulier quantae fuerit
+          <lb ed="#Qb"/>vir primus vel quia mulier generaliter viro ae<lb ed="#Qb"/>quivaleat
+          in viribus huiusmodi, sed potius inten<lb ed="#Qb"/>dit
+          dicere illas 4, quae vel dono gratuito gratis
+          <lb ed="#Qb"/>dato vel gratum faciente ad opera virilia assur<lb ed="#Qb"/>gunt,
+          hoc nomine quod est 'virago, quodam
+          <lb ed="#Qb"/>modo etymologizandi debere censeri, ut patet, si
+          <lb ed="#Qb"/>considerentur verba ipsius Isidori. Hoc modo
+          <lb ed="#Qb"/>loquendi dicitur II Machab.? 7, 21 de matre sep<lb ed="#Qb"/>tem
+          filiorum interfectorum pro legibus paternis:
+          <lb ed="#Qb"/>Femineae cogitationi masculinum animum infe<lb ed="#Qb"/>rens
+          dixit etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod dicit Basilius quod 'ae—
+          <lb ed="#Qb"/>quales virtutes suntf viri et mulieris': dicendum
+          <lb ed="#Qb"/>quod hoc intelligitur quantum ad virtutem spiri<lb ed="#Qb"/>tualem
+          quae potestatem merendi respicit, quo
+          <lb ed="#Qb"/>modog dicitur ad Gal. 3,28: Non est masculus
+          <lb ed="#Qb"/>neque femina; omnes enim vos unum estis in
+          <lb ed="#Qb"/>Christo Iesu, id est differentia in sexu tali vel
+          <lb ed="#Qb"/>tali non ponit differentiam in fide Christi sive
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>in merito fidei. Glo ssal ibi: <quote>Propter nihil ho<lb ed="#Qb"/>rum
+          aliquis dignior est in fide Christi </quote>. Et quod
+          <lb ed="#Qb"/>haec sit intentio Basilii, patet ex verbis quae
+          <lb ed="#Qb"/>sequuntur verba proposita. Dicit enim sicz: <quote> Ha<lb ed="#Qb"/>bet
+          enim mulier fieri ad imaginem Dei sicut et
+          <lb ed="#Qb"/>vir; sunt enim aequales eorum virtutes, aequales
+          <lb ed="#Qb"/>pugnae, aequales retributiones. Nec dicat mulier
+          'infirma sum': infirmitas enim carnis est, po<lb ed="#Qb"/>tentia
+          vero in anima est</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad illudh quod sequitur, dicendum quod,
+          <lb ed="#Qb"/>etsii mulieri incumbebat portare prolem et nutrire
+          <lb ed="#Qb"/>et huiusmodi, quae in statu culpae non sine onere
+          <lb ed="#Qb"/>et labore fieri possunt, tamen in statu illo nihil
+          <lb ed="#Qb"/>inferrent oneris vel laboris. Sicut enim habetur
+          <lb ed="#Qb"/>ab Augustin 0, IX Super Genesim ad'litteram 3,
+          <lb ed="#Qb"/>si perstitissent primi parentes in illo statu, <quote> essent
+          <lb ed="#Qb"/>nuptiae honorabiles et thorus immaculatus-4, sine
+          <lb ed="#Qb"/>ardore libidinis, sine labore pariendi</quote>: sic sinek
+          <lb ed="#Qb"/>onere et labore proles portaretur et educaretur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad illud quod sequitur, dicendum 5, sine
+          <lb ed="#Qb"/>praeiudicio, quod corpora humana, sive' primo<lb ed="#Qb"/>rum
+          parentum sive aliorum, non habebant de se
+          <lb ed="#Qb"/>virtutem resistendi cuilibet actioni sive agenti vio<lb ed="#Qb"/>lento
+          '", sed quod in statu innocentiae nulli ces<lb ed="#Qb"/>sissent
+          actioni, hoc fuisset ex virtute superiori,
+          <lb ed="#Qb"/>scilicet primae potentiae, conservante et prote<lb ed="#Qb"/>gente.
+          Dum enim homo innocenter" vixit, om<lb ed="#Qb"/>nino
+          Deo subditus et in nullo ab eius declinans
+          <lb ed="#Qb"/>voluntate, omnibus homine inferioribus domina<lb ed="#Qb"/>batur,
+          iuxta illud divini decreti, Gen. 1,26: Prae<lb ed="#Qb"/>sit
+          piscibus maris et volatilibus caeli et bestiis
+          <lb ed="#Qb"/>terrae universae etc. Unde de omnibus quasi de
+          <lb ed="#Qb"/>sibi subditis facere potuit quod volebat. Unde
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>, De civitate Dei, XIV 6: <quote> In para<lb ed="#Qb"/>diso
+          si non omnia poterat ante peccatum, quidquid
+          <lb ed="#Qb"/>tamen non poterat, non volebat, et" ideo poterat
+          <lb ed="#Qb"/>omnia quae volebatP </quote>. Sed ut dicit B e d a 7, <quote> post<lb ed="#Qb"/>quam
+          Conditori subditus esse uoluit, iure domi<lb ed="#Qb"/>nium
+          perdidit</quote>: unde creaturae habent potestatem
+          <lb ed="#Qb"/>molestare hominem. Unde subiungit Au gusti—
+          <lb ed="#Qb"/>nuss: <quote> Nunc vero vanitati similis factus estg;
+          <lb ed="#Qb"/>ipso namque invito et animus plerumque turba<lb ed="#Qb"/>tur
+          et caro dolet et veterascit et moritur et quid<lb ed="#Qb"/>quid
+          aliud patimur</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad illud quod sequitur, dicendum quod non
+          <lb ed="#Qb"/>sequitur 'summa sanitas erat in carne utriusque
+          <lb ed="#Qb"/>primorum parentum, ergo erant aequalis fortitu<lb ed="#Qb"/>dinis
+          corporalis '. Fortitudo enim in corpore hu<lb ed="#Qb"/>mano
+          causatur ex duobus, scilicet magnitudine
+          <pb ed="#Qb" n="629"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>extremitatum sive membrorum convenienter dispo<lb ed="#Qb"/>sitorum
+          et multitudine spirituum. Unde, licetratione
+          <lb ed="#Qb"/>aequalitatis complexionis convenirent in aequali<lb ed="#Qb"/>tate
+          spirituum, membrorum magnitudini propor<lb ed="#Qb"/>tionaliter
+          respondentium, poterant tamen differre
+          <lb ed="#Qb"/>in magnitudine membrorum, et ita a differrent in
+          <lb ed="#Qb"/>magnitudine membrorum et multitudine spirituum.
+          <lb ed="#Qb"/>Praeterea, dictum per superabundantiam dupliciter
+          <lb ed="#Qb"/>intelligitur dici: vel quia omnibus superponitur,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>et sic uni soli convenit; vel quia valde approxi<lb ed="#Qb"/>mat<!--b--> 
+          termino a quo imponitur, secundum quod
+          <lb ed="#Qb"/>albissimum dicitur valde album: et sic intelligitur
+          <lb ed="#Qb"/>quod sumniam sanitatem corporalem habebant
+          <lb ed="#Qb"/>primi parentes; quod autem si c pluribus conveni t,
+          <lb ed="#Qb"/>non necessario convenit modo indifferenti: prop<lb ed="#Qb"/>ter
+          quod, licet summa sanitas erat in corporibus
+          <lb ed="#Qb"/>illorum, non propter hoc sequitur quod erant c
+          <lb ed="#Qb"/>eiusdem fortitudinis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

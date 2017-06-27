@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 1, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 1, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q1m1c5">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 1, C. 5</head>
+        <head type="question-title">QUARE SINT TOT PROPRIETATES ET NON PLURES.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter procedendum est ad quinto quaesi<lb ed="#Qb"/>tum, 
+          quo quaeritur quare sint tot proprietates 
+          <lb ed="#Qb"/>et non plures.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Cum enim sit relatio ad essentiam divinam in
+          <lb ed="#Qb"/>quantum est causa, et sit'! relatio ad ipsam ra<lb ed="#Qb"/>tionem'
+          causae, secundum autem relationem ad
+          <lb ed="#Qb"/>tres rationes accipiuntur hae tres proprietates:
+          <lb ed="#Qb"/>erit ergo quarta in relatione ad eSSentiam causae;
+          <lb ed="#Qb"/>sicut enim relucet vestigium Trinitatis ins crea<lb ed="#Qb"/>tura,
+          ita. relucet vestigium ipsius unitatis essentiae.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>[Solutio]: Ad quod respondendum est quod
+          <lb ed="#Qb"/>sicut hae tres proprietates respondent tribus ra<lb ed="#Qb"/>tionibus
+          causae, ita esse causatii respondet esse
+          <lb ed="#Qb"/>causae; esse vero causati non connumeratur cum
+          <lb ed="#Qb"/>suis proprietatibus, propter quod non erit maior
+          <lb ed="#Qb"/>numerus proprietatum. Cum enim hae tres ra<lb ed="#Qb"/>tiones
+          causae" conveniant ipsi essentiae causae,
+          <lb ed="#Qb"/>materialis autem non conveniat, non erunt nisi
+          <lb ed="#Qb"/>tres proprietates respondentes tribus rationibus
+          <lb ed="#Qb"/>causae supra dictis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

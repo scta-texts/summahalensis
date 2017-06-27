@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 5, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 5, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="98"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q2t5c3">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 5, C. 3</head>
+        <head type="question-title">UTRUM CREATURA POSSIT ESSE SINE LOCALITATE.</head>
+        <p>
+                <pb ed="#Qb" n="98"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Tertio quaeritur utrum possit esse sine loca<lb ed="#Qb"/>litate.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod sic: a. Localitas dependet a ratione
+          <lb ed="#Qb"/>corporis; sed angelica natura, cum sit substantia 
+          <lb ed="#Qb"/>separata a corpore, non habet dependentiam a. 
+          <lb ed="#Qb"/>corpore vel conditionibus eius ; ergo potest esse
+          <lb ed="#Qb"/>sine localitate.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Forte dicetur" quod quoad substantiam
+          <lb ed="#Qb"/>potest esse angelus sine loco, sed non quoad
+          <lb ed="#Qb"/>operationem sive actum - contra quod sic:
+          <lb ed="#Qb"/>Duplex est actus, actus * scilicet contemplationis,
+          <lb ed="#Qb"/>quo contemplatur" Deum, et actus propriae co<lb ed="#Qb"/>gnitionis,
+          quo se cognoscit vel alia a se; sed
+          <lb ed="#Qb"/>quoad neutrum actum habet'-' dependentiam a
+          <lb ed="#Qb"/>corpore. Unde <name ref="#Augustine">Augustinus</name>, Ad Orosium 1:
+    <quote> Spiritus conditus, sicut est angelorum, quam<lb ed="#Qb"/>quam
+          sine tempore contempletur Dei aeternitatem,
+          <lb ed="#Qb"/>veritatem, caritatem, tamen quia ex tempore in "'
+          <lb ed="#Qb"/>inferioribus iussa Dei perficiunt, iure creduntur
+          <lb ed="#Qb"/>moveri in tempore </quote>, per hoc excludens locum.
+          <lb ed="#Qb"/>Et post sequitur: <quote> Spiritus hominum moventur *
+          <lb ed="#Qb"/>in tempore, reminiscendo praeterita, futura expec<lb ed="#Qb"/>tando,
+          aliqua nova discendo</quote>; nec tamen mo<lb ed="#Qb"/>tus
+          iste est in loco; multo fortius hoc est in an—
+          <lb ed="#Qb"/>gelis, cum se vel alia cognoscunt. Igitur creatura
+          <lb ed="#Qb"/>aliqua vel secundum substantiam vel secundum
+          <lb ed="#Qb"/>actum non habet dependentiam a loco, et ita non
+          <lb ed="#Qb"/>dicetur localis f, sed sine localitate poterit esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Item, intellecto 3 per impossibile quod nullum
+          <lb ed="#Qb"/>corpus esset et tamen substantia incorporea esset,
+          <lb ed="#Qb"/>abstrahereturh tunc a localitate; ergo aliquai
+          <lb ed="#Qb"/>creatura potest esse sine localitate; non ergo pro<lb ed="#Qb"/>prium
+          est creaturae esse localem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed tunc obicitur: 1. Numquid sicut'f .Deo
+          <lb ed="#Qb"/>proprium est esse .ubique, nonne similiter pro<lb ed="#Qb"/>prium
+          est creaturae esse hic, ita' quod non
+          <lb ed="#Qb"/>alibi? Sed etsi non esset corpus, diceretur Deus
+          <lb ed="#Qb"/>esse ubique in se ipso, sicut videtur dicere Au<lb ed="#Qb"/>gustinus,
+          Ad Dardanum 2: <quote> Ubique est Deus,
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quia nusquam est absens; in se autem ipso, quia
+          <lb ed="#Qb"/>non continetur ab eis quibus est praesens </quote>. Et
+          <lb ed="#Qb"/>iterum A ugustinus, contra Maximinum3 quac—
+          <lb ed="#Qb"/>rentem: Antequam faceret Deus caelum et terram-,
+          <lb ed="#Qb"/>antequam faceret sanctos, ubi habitabat? <quote>Habita<lb ed="#Qb"/>bat
+          "' in se Deus, apud se habitabat, apud se fuit </quote>.
+          <lb ed="#Qb"/>Similiter videtur dici de ipsis " substantiis incor<lb ed="#Qb"/>poreis
+          separatis quod sint hic, ita quod non ibi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod localitas,
+          <lb ed="#Qb"/>prout dependet a corpore, est conditio sine qua
+          <lb ed="#Qb"/>potest esse aliqua creatura; sed secundum quod
+          <lb ed="#Qb"/>extenditur, ut dicatur unaquaeque creatura ha<lb ed="#Qb"/>bere
+          propriam terminationem, sic non potest esse
+          <lb ed="#Qb"/>creatura sine illa terminatione, sicut nec" potest
+          <lb ed="#Qb"/>esse sine modo; sed hoc non consuevit Scrip<lb ed="#Qb"/>tura
+          vocare localitatem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad hoc autem quod obicitur
+          <lb ed="#Qb"/>quod ' Deus esset ubique, etsi—" non esset corpus,
+          <lb ed="#Qb"/>et similiter angelus haberet esse hic ita quod
+          <lb ed="#Qb"/>non alibi ', dicendum4 quod 'esse ubique' di<lb ed="#Qb"/>citur
+          dupliciter: proprie dicitur esse praesentem
+          <lb ed="#Qb"/>omni loco, et sic non existente corpore non di<lb ed="#Qb"/>ceretur
+          Deus ubique; alio vero modo dicitur esse
+          <lb ed="#Qb"/>praesentem omni creaturae vel' non deficientem
+          <lb ed="#Qb"/>respectu alicuius, et secundum hoc, non existente
+          <lb ed="#Qb"/>corpore, diceretur Deus ubique. Quod si 'sic ac<lb ed="#Qb"/>ciperetur
+          'esse hic' dupliciter, tunc uno modo
+          <lb ed="#Qb"/>diceretur de angelo quod esset hic, etsi non esset
+          <lb ed="#Qb"/>corpus-; sed non est consuetudo Scripturae sic
+          <lb ed="#Qb"/>dicere ' esse hic ', sed magis (esse hoc vel. illud',
+          <lb ed="#Qb"/>ut partitios attingat substantiam, non locum aut
+          <lb ed="#Qb"/>situm.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Si autem quaeratur utrum sit proprium
+          <lb ed="#Qb"/>creaturae esse alicubi, respondendum quod 
+          <lb ed="#Qb"/>proprium dicitur dupliciter: vel ut simpliciter vel 
+          <lb ed="#Qb"/>ut secundum tempus, sive, ut dicatur aliis nomi<lb ed="#Qb"/>nibus,
+          secundum substantiam et secundum actum
+          <lb ed="#Qb"/>qui nunc est. Primo modo non dicitur esse pro<lb ed="#Qb"/>prium
+          creaturae, ut quod conveniat omni crea<lb ed="#Qb"/>turae
+          "esse alicubi; secundo vero modo dicitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

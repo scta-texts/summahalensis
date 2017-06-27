@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="199"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t1d1m1c1">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 1, M. 1, C. 1</head>
+        <head type="question-title">UTRUM SVNDERESIS SIT IN ANGELIS.</head>
+        <p>
+          <lb ed="#Qb"/>Quod videtur: a. Quia synderesis est scintilla
+          <lb ed="#Qb"/>Qconscientiae 4, quae remurmurat malo, et dic<lb ed="#Qb"/>tando
+          naturaliter inclinatur in bonum; sed hae
+          <lb ed="#Qb"/>duae differentiae conveniunt naturae angelicae: est
+          <lb ed="#Qb"/>enim natura angelica inclinativa ad bonum natu<lb ed="#Qb"/>raliter
+          et fugitiva mali naturaliter.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, in daemonibus est poena exterior,
+          <lb ed="#Qb"/>scilicet ignis, qui non extinguetur5 ; ergo multo
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>fortius poena interior, scilicet vermis conscientiae,
+          <lb ed="#Qb"/>qui non morieturö; sed non potest esse vermis
+          <lb ed="#Qb"/>nisi fuerit conscientia in natura angelica; ergo
+          <lb ed="#Qb"/>conscientia inerit angelo; ergo et scintilla con<lb ed="#Qb"/>scientiae
+          0, scilicet synderesis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Praeterea, synderesis est naturale iudicato<lb ed="#Qb"/>rium
+          d ; naturale autem iudicatorium boni et mali non
+          <lb ed="#Qb"/>deest angelis; ergo synderesis non deest angelis 2.
+          <pb ed="#Qb" n="200"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Contra: 1. Nulla vis otiosa debet esse in sub<lb ed="#Qb"/>iecto
+          in quo est, quin aliquando eliciat actum ';
+          <lb ed="#Qb"/>sed remurmurare malo est actus, unus synderesis
+          <lb ed="#Qb"/>et est ad revocandum a peccato; sed in angelo
+          <lb ed="#Qb"/>non est revocatio a peccato, quia in bono an<lb ed="#Qb"/>gelo
+          non est illud, cum semper sit in bono, et
+          <lb ed="#Qb"/>nunquam ceciderit in illud, in malo autem angelo
+          <lb ed="#Qb"/>non est, quia nunquam revocatur a peccato, cum
+          <lb ed="#Qb"/>peccatum eius sit irremissibile; ergo iste actus
+          <lb ed="#Qb"/>non potest inesse; ergo vis, et qua egreditur talis
+          <lb ed="#Qb"/>actus, esset otiosa; sed illa est synderesis; ergo
+          <lb ed="#Qb"/>non habet synderesim.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, synderesis est <quote> scintilla conscien<lb ed="#Qb"/>tiae</quote>, 
+          et, sicut dicit 0 rego r i u s 2, significatur per
+          <lb ed="#Qb"/>faciem " aquilae, quae erat eminentior inter facies
+          <lb ed="#Qb"/>animalium; sed hae facies animalium non con—
+          <lb ed="#Qb"/>veniunt angelo, sed homini: non enim est distinctio
+          <lb ed="#Qb"/>virium sive potentiarum in angelo, quibus ap<lb ed="#Qb"/>tentur
+          facies animalium; ergo synderesis non
+          <lb ed="#Qb"/>convenit angelo, sed homini.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, synderesis est ** scintilla conscientiae et
+          <lb ed="#Qb"/>est adiutorium c quoddam ad resurgendum a pec<lb ed="#Qb"/>cato;
+          sed angelus non resurgit a peccato d; ergo
+          <lb ed="#Qb"/>non habet synderesim.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Praeterea, synderesis est scintilla conscien<lb ed="#Qb"/>tiae;
+          si ergo conscientia removetur ab angelo,
+          <lb ed="#Qb"/>ergo synderesis. — Quod autem conscientia
+          <lb ed="#Qb"/>removeatur, videtur per hoc quod eius differen<lb ed="#Qb"/>tiae
+          removentur; sed eius differentiae sunt con<lb ed="#Qb"/>scientia
+          recta et erronea, illaesa et cauteriata,
+          <lb ed="#Qb"/>tranquilla et perturbata; hae 3 autem non conve<lb ed="#Qb"/>niunt
+          angelis; quare nec synderesis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendumf quod, licet
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>synderesis sub ratione quadam non inveniatur in
+          <lb ed="#Qb"/>angelis, scilicetg prout synderesis et proaeresis
+          <lb ed="#Qb"/>sunt unius coordinationis, nihilominus naturale
+          <lb ed="#Qb"/>iudicatorium inest" angelo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id quod obicitur, dicen—
+          <lb ed="#Qb"/>dumi quod non est haec vis otiosa. Licet
+          <lb ed="#Qb"/>enim non habeat omnem actum in angelo, quem
+          <lb ed="#Qb"/>habere potest vel habet in homine *, non propter
+          <lb ed="#Qb"/>hoc est otiosa. Unde, licet remurmurare malo iam
+          <lb ed="#Qb"/>existenti, ut poeniteat, non insit angelo, nihilo<lb ed="#Qb"/>minus
+          angelus habuit ante lapsum naturale iudi<lb ed="#Qb"/>catorium
+          boni et mali ne caderet ', sed non ad—
+          <lb ed="#Qb"/>haesit illi malus angelus, sed suae libertati, id
+          <lb ed="#Qb"/>est flexibilitati in malum. Hoc autem naturale iu—
+          <lb ed="#Qb"/>dicatorium, licet non habeat effectum'" in dae<lb ed="#Qb"/>monibus
+          qui ceciderunt, ut resurgant, habet ta<lb ed="#Qb"/>men
+          effectum, quia cedit eis in poenam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundo obiectum dicendum quod,
+          <lb ed="#Qb"/>licet synderesis, ut tenet rationem faciei " aquilae,
+          <lb ed="#Qb"/>non sit0 in angelo, nihilominus-tamen vis natu<lb ed="#Qb"/>ralis
+          iudicatorii inest illi. .
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum quod, licet non ha<lb ed="#Qb"/>beat
+          hanc vim ut adiutorium ad resurgendum a
+          <lb ed="#Qb"/>peccato vel ad poenitentium, habet tamen eam
+          <lb ed="#Qb"/>angelus bonus? ut dirigentem intra ad bonum,
+          <lb ed="#Qb"/>malus vero habet eam ut afiligentem, eo quod
+          <lb ed="#Qb"/>non stetit in bono, cum stare potuit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad quartum dicendum quod, licet differen<lb ed="#Qb"/>tiae
+          conscientiae non conveniant angelo secun<lb ed="#Qb"/>dum
+          omnem modum, nihilominus tamen naturale
+          <lb ed="#Qb"/>iudicatorium est in eo, sed extinctum est ad bo<lb ed="#Qb"/>num
+          in malis angelis multo magis quam in ani<lb ed="#Qb"/>mabus
+          damnatis vel aeque.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="384"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s1q1c1">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 1, C. 1</head>
+        <head type="question-title">AN SIT ANIMA RATIONALIS.</head>
+        <p>
+                <pb ed="#Qb" n="384"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Quod autem sit anima rationalis, de qua prin<lb ed="#Qb"/>cipaliter 
+          intendimus, scilicet . anima hominis,
+          <lb ed="#Qb"/>accipitur ex actibus manifestis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>a.- Actus enim praevii a sunt secundum rationem
+          <lb ed="#Qb"/>potentiis 1, potentiae vero i p si essentiae. Ratiocinari
+          <lb ed="#Qb"/>enim, discernere verum a falso et bonum
+          <lb ed="#Qb"/>a malo, artes invenire et interpretari, libere velle
+          <lb ed="#Qb"/>et huiusmodi indicant aliquod b esse principium
+          <lb ed="#Qb"/>in homine quod non est in aliis c animantibus
+          <lb ed="#Qb"/>vel vitam habentibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Figura etiam corporis indicium est quod differens
+          <lb ed="#Qb"/>est forma quae perficit corpus humanum. Cum
+          <lb ed="#Qb"/>enim alia corpora animalium sint inclinata ad terram
+          <lb ed="#Qb"/>naturaliter, corpus humanum estd naturaliter
+          <lb ed="#Qb"/>erectum ad caelum: ex quo indicatur principium
+          <lb ed="#Qb"/>formale esse intrinsecum, quod ad superiora et caelestia
+          <lb ed="#Qb"/>ordinatur; hoc autem est anima rationalis sola
+          <lb ed="#Qb"/>comparatione aliarum; ergo anima rationalis est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Ex ipsa etiam differentia membrorum hoc
+          <lb ed="#Qb"/>deprehenditur e: ex lingua, quae est instrumentum
+          <lb ed="#Qb"/>locutionis 2, ex t manu, quae est organum
+          <lb ed="#Qb"/>organorum 3, et huiusmodi. Unde Gregori us
+          <lb ed="#Qb"/>N y s se nus 4 : <quote> Quod vero rectus est hominis
+          <lb ed="#Qb"/>habitus et ad caelum sese sustollens sursumque
+          <lb ed="#Qb"/>respiciens, et haec dona esse certissimum
+          <lb ed="#Qb"/>est, approbantia regiam potestatem. Denique quod
+          <lb ed="#Qb"/>solus ita formatus est ceterorumque omnium g
+          <lb ed="#Qb"/>prona sunt corpora et in deorsum proclivius
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>inclinata, manifesta h differentia honoris eius osten<lb ed="#Qb"/>ditur,
+          dum constet illa quidem huius esse subiecta
+          <lb ed="#Qb"/>potentiae, h une 1 autem supereminentis existere
+          <lb ed="#Qb"/>dignitatis. Nam aliis quidem omnibus anteriora
+          <lb ed="#Qb"/>membra corporis pedes sunt, in hominis autem k
+          <lb ed="#Qb"/>conditione haec membra manus effecta 1 sunt,
+          <lb ed="#Qb"/>quia rectitudini eius habitus unus egressus vi<lb ed="#Qb"/>debatur
+          esse sufficiens, qui geminis pedibus
+          <lb ed="#Qb"/>standi constantiam cauta m provisione firmaret.
+          <lb ed="#Qb"/>Alias quoque ad usum ratioÌlis offida manus
+          <lb ed="#Qb"/>aptata su n t: Et si quis rationali naturae ministe<lb ed="#Qb"/>rium
+          manuum proprium quid esse dixerit, mi<lb ed="#Qb"/>nime
+          delinquet: non solum enim ad hoc quod
+          <lb ed="#Qb"/>commune et promptum est intelligentiae nostrae
+          <lb ed="#Qb"/>respicio, quod scilicet litteris manus administra<lb ed="#Qb"/>tione
+          signamus. Et quidem nec ista gratia ra<lb ed="#Qb"/>tionalis
+          impar est dignitatis quod litteris quidem
+          <lb ed="#Qb"/>loqui possumus et manibus n disputamus, in ele<lb ed="#Qb"/>mentorum
+          figuris nostrum reponentes eloquium </quote>,
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Ex ipsa etiam distinctione corporis secundum
+          <lb ed="#Qb"/>dexteram et sin4stram 0 , ante et retro, sursum et
+          <lb ed="#Qb"/>deorsum in corpore humano deprehenditur motor
+          <lb ed="#Qb"/>interior, qui est perfectio esse intellectualis: so<lb ed="#Qb"/>lum
+          enim caelum efP corpus humanum habet
+          <lb ed="#Qb"/>hanc dispositionem 5 ; un de utrumque q corpus
+          <lb ed="#Qb"/>habet motorem intellectualem sive rationalem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Ex r ipsa etiam notitia naturali, qua nihil
+          <lb ed="#Qb"/>novit tantum quantum Deum esse et se, sicut
+          <lb ed="#Qb"/>dicit Augusti nus 6, colligitur ipsam esse.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

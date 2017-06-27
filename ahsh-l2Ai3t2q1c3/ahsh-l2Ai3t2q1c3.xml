@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 1, C. 3 DE CORPORALIUM DISTINCTIONE ET ORNATU IN COMMUNI.</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 1, C. 3 DE CORPORALIUM DISTINCTIONE ET ORNATU IN COMMUNI.</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="320"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q1c3">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 1, C. 3</head>
+        <head>DE CORPORALIUM DISTINCTIONE ET ORNATU IN COMMUNI.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur si naturalia omnia tunc facta
+          <lb ed="#Qb"/>sunt in genere et m specie vel non.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod sie: a. De talibus enim n dictum
+          <lb ed="#Qb"/>est Eccli. 1,9-10:<quote> Quid est quod futurum 
+          <lb ed="#Qb"/>est? Ipsum quod fuit ,· nihil sub sole novum</quote>.
+          <lb ed="#Qb"/>b~ Praeterea, opera Dei perfecta erant, sicut dicitur
+          <lb ed="#Qb"/>in Cantico Deuter. 5 et dicitur Gen. 2, 1 : Perfecti
+          <lb ed="#Qb"/>sunto caeli et terra et omnis ornatus eorum;
+          <lb ed="#Qb"/>perfectum autem dicitur cui nihil deest 6 ;
+          <lb ed="#Qb"/>ergo nihil defuit in caelo vel P in terra quantum
+          <lb ed="#Qb"/>ad ornatum; cum ergo genera et species
+          <lb ed="#Qb"/>rerum naturalium fuerint ad ornatum, omnia
+          <lb ed="#Qb"/>naturalia tu ne facta su n t in generi bus et q spe<lb ed="#Qb"/>ciebus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item 7, <quote ana="#gen1_31">vidit Deus cuncta quae fecerat, et
+          <lb ed="#Qb"/>erant valde bona</quote>; sed 'valde bonum' dicitur
+          <lb ed="#Qb"/>in termino intensionis boni in suo genere; ergo
+          <lb ed="#Qb"/>res naturales tunc erant factae in suis generibus
+          <lb ed="#Qb"/>et speciebus: nam si aliquae non essen t
+          <lb ed="#Qb"/>factae, non esset tunc positus terminus. bonitatis
+          <lb ed="#Qb"/>in genere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Multa genera vermium producuntur
+          <lb ed="#Qb"/>ex cadaveribus animalium; sed nondum erant
+          <lb ed="#Qb"/>cadavera; ergo nondum r erant huiusmodi species.
+          <lb ed="#Qb"/>Similiter potest obici de iis quae fiunt ex s exhalationibus
+          <lb ed="#Qb"/>vaporum, cum nondum essent.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo t: l. Videtur quod omnia facta sint ",
+          <lb ed="#Qb"/>scilicet naturalia, in suis generibus et speciebus,
+          <lb ed="#Qb"/>id est principiis generationum suarum. Licet ergo
+          <pb ed="#Qb" n="321"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>vermes tunc non essent et huiusmodi quae fiunt
+          <lb ed="#Qb"/>consequenter", nihilominus principia generatio<lb ed="#Qb"/>num
+          erant, ut cum esset materia conveniens,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>producerentur in esse. Unde ista facta sunt ma<lb ed="#Qb"/>terialiter
+          et causaliter, non quod in se habeant
+          <lb ed="#Qb"/>naturamb producendi simile ex simili.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

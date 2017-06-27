@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 2, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 2, M. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="229"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t2m1c1">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 2, M. 1, C. 1</head>
+        <head type="question-title">DE LOCALITATE ANGELI</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum inquirenda sunt haec:
+          <lb ed="#Qb"/>Primo, utrum sit in aliquo loco corporali;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>secundo, utrum sit ubique;
+          <lb ed="#Qb"/>tertio, utrum simul possit esse in pluribus locis.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum angelus sit in aliquo loco corporali</head>
+          <p>
+            <lb ed="#Qb"/>Circa primum sic: 1. Natura loci nobilior est
+            <lb ed="#Qb"/>locato 2; sed spiritus angelicus nobilior est quo<lb ed="#Qb"/>cumque
+            corpore; ergo non est angelus in aliquo
+            <lb ed="#Qb"/>loco corporali tamquam contentus ab eo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, Sap. 1,7 dicitur de Spiritu increato
+            <lb ed="#Qb"/>quod <quote ana="#sap1_7">continet omnia</quote>; sed constat quod spiritus
+            <lb ed="#Qb"/>angelicus, etsi creatus sit, plus tamen accedit ad
+            <lb ed="#Qb"/>naturam eius et'i rationem, secundum quod est
+            <lb ed="#Qb"/>possibilee in creatura, quam aliquod corpus;
+            <lb ed="#Qb"/>ergo secundum viam istam plus competit ut spi<lb ed="#Qb"/>ritus
+            creatus contineat corpus quam e converso.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Praeterea, corporis continentis ad contentumf
+            <lb ed="#Qb"/>est semper aliqua convenientia 3, sicut videmus
+            <lb ed="#Qb"/>in corporibus levibus quod, eo quod sunt levia, de<lb ed="#Qb"/>betur
+            eisg locus superior, sed gravibus, eo quod
+            <lb ed="#Qb"/>sunt gravia, debetur locus inferior: unde et cor<lb ed="#Qb"/>pora
+            superiora naturaliter moventur sursum, in<lb ed="#Qb"/>feriora
+            deorsum, ita quod nec gravia naturaliter
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>moventur sursum nec levia deorsum; sed angeli
+            <lb ed="#Qb"/>ad locum corporalem nulla videtur esse conve<lb ed="#Qb"/>nientia,
+            immo indifferenter potest moveri ", non
+            <lb ed="#Qb"/>solum circulariter, sicut corpus caeleste, sed etiam
+            <lb ed="#Qb"/>tam' sursum quam deorsum; videtur ergo quod k
+            <lb ed="#Qb"/>angelo non competat esse in loco corporali, cum
+            <lb ed="#Qb"/>corpori non assignetur aliquis locus corporalis
+            <lb ed="#Qb"/>nisi propter praedictam convenientiam, quae est
+            <lb ed="#Qb"/>naturaliter locati ad locans.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Praeterea, intelligamus per impossibile quod
+            <lb ed="#Qb"/>nullum esset corpus, constat quod adhuc posset
+            <lb ed="#Qb"/>esse angelus: non enim est de angelo sicut de
+            <lb ed="#Qb"/>anima, quae' ad minus videtur quantum ad exi<lb ed="#Qb"/>tum
+            sui in esse indigere corpore; sed angelus
+            <lb ed="#Qb"/>de se est natura separatus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Praeterea, nullo corpore creato potuit creari;
+            <lb ed="#Qb"/>videtur ergo quod nullo modo quoad eius esse
+            <lb ed="#Qb"/>dependeat a corpore, et ita videtur quod nulla
+            <pb ed="#Qb" n="230"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>sit necessitas assignandi angelum esse in corpore,
+            <lb ed="#Qb"/>ut quod ei per se conveniat. — Si dicatur
+            <lb ed="#Qb"/>quod verum est quod hoc ei per se non convenit,
+            <lb ed="#Qb"/>sed per accidens, scilicet ratione suae opera<lb ed="#Qb"/>tionis,
+            quod videtur dicere Damascenus1 <lb ed="#Qb"/>hoc
+            nihil est, quoniam constat quod, si di<lb ed="#Qb"/>catur
+            esse in loco ratione suae operationis, hoc
+            <lb ed="#Qb"/>non est nisi ratione operationum corporalium aut
+            <lb ed="#Qb"/>ratione eorum b quae circa nos exercent, quoniam
+            <lb ed="#Qb"/>planum est quod ratione operationum, quas ha<lb ed="#Qb"/>bet
+            immediate in Deum, non est ipsum assignare
+            <lb ed="#Qb"/>esse in loco corporali; ergo secundum hoc cir<lb ed="#Qb"/>cumscripta
+            omni operatione corporali, quam circa
+            <lb ed="#Qb"/>nos exercet, non esset dicere ipsum esse in loco '
+            <lb ed="#Qb"/>corporali: quod falsum est.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Praeterea, quid est dicere angelum esse in
+            <lb ed="#Qb"/>loco? Si hoc est solum dicere quiac est dum
+            <lb ed="#Qb"/>locus est, hoc nihil est, quoniam secundum hanc
+            <lb ed="#Qb"/>rationem omnia possentd dici esse in loco. Si
+            <lb ed="#Qb"/>autem diceretur esse in loco, quia loco est prae<lb ed="#Qb"/>sens
+            et locus ei: sed hoc adhuc nihil est, quo—
+            <lb ed="#Qb"/>niam hac viae est dicere Deumf esse ubique,
+            <lb ed="#Qb"/>et ita non diceretur alio modo angelus esse in
+            <lb ed="#Qb"/>loco quam dicatur Deus esse ubique: quod vi<lb ed="#Qb"/>detur
+            falsum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: Bene concedimus quod habet esse
+            <lb ed="#Qb"/>in loco corporali, licet sit spiritus, aliter tamen
+            <lb ed="#Qb"/>quam corpus. Concedimus tamen quod non quan<lb ed="#Qb"/>tum
+            ad proprietatem loci quae est salvare 2, quo<lb ed="#Qb"/>niam
+            corpus non est natum salvare spiritum, cum
+            <lb ed="#Qb"/>sine eo esseg possit; sed tamen possibile est
+            <lb ed="#Qb"/>ipsum esse in loco quoad proprietatem loci quae
+            <lb ed="#Qb"/>est continere vel definire 3. Tamen valde dubita<lb ed="#Qb"/>bile
+            est quomodo hoc sit possibile, quoniam in
+            <lb ed="#Qb"/>corporibus videmus quod contenta corpora sunt
+            <lb ed="#Qb"/>possibilia respectu continentium et per conti<lb ed="#Qb"/>nentiamkterminantur.
+            Unde ipsum continens est
+            <lb ed="#Qb"/>corpus superius, secundum quod dicimus quod
+            <lb ed="#Qb"/>aqua continet terram, aer aquam, ignis aerem,
+            <lb ed="#Qb"/>caelum omnia elementa et etiam ipsa elementai
+            <lb ed="#Qb"/>elementata et ponimus etiam ipsa corpora supe<lb ed="#Qb"/>riora,
+            prout sunt continentia, esse sicut species
+            <lb ed="#Qb"/>respectu inferiorum contentorum4: 'unde in cor<lb ed="#Qb"/>poralibus
+            semper ponimus aliquam'f formalem
+            <lb ed="#Qb"/>naturam ex parte continentis, secundum quam
+            <lb ed="#Qb"/>est natum continere '. Sed non videtur possibile
+            <lb ed="#Qb"/>reperiri ex parte corporis, secundum quod dicitur
+            <lb ed="#Qb"/>continere angelum, aliquam naturam formalem et
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ex parte angeli contenti aliquam naturam possi<lb ed="#Qb"/>bilem
+            aut materialem"; propter hoc valde est
+            <lb ed="#Qb"/>dubitabile quomodo angelus possit contineri ab
+            <lb ed="#Qb"/>aliquo corpore. Propter quod intelligendum est
+            <lb ed="#Qb"/>quod aliter continetur corpus a corpore et aliter
+            <lb ed="#Qb"/>spiritus a corpore, quoniam, ut ostensum est 5,
+            <lb ed="#Qb"/>aliqua proprietas est in corpore superiori, se<lb ed="#Qb"/>cundum 
+            quam natum est continere corpus inie<lb ed="#Qb"/>rius;
+            sed, licet in corpore sit aliqua proprietas
+            <lb ed="#Qb"/>secundum quam natum est continere angelum,
+            <lb ed="#Qb"/>non tamen dicimus quod sit proprietas corporalis
+            <lb ed="#Qb"/>ex parte corporis proveniens, sed potius est di<lb ed="#Qb"/>vinitus
+            data. Secundum hoc etiam est aliqua pro<lb ed="#Qb"/>prietas
+            angeli, secundum quam est natus conti<lb ed="#Qb"/>neri,
+            ut iam videbitur 5. Et hoc dicimus sine
+            <lb ed="#Qb"/>praeiudicio melioris sententiae, quoniam hoc non
+            <lb ed="#Qb"/>invenimus planca determinatum in Sacra Scrip<lb ed="#Qb"/>tura
+            nec a Sanctis nec ab expositoribus Sacrae
+            <lb ed="#Qb"/>Scripturae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Ad hoc tamen magis explanandum notandum
+            <lb ed="#Qb"/>quod Deus de natura sua duo habet, scilicet quod
+            <lb ed="#Qb"/>omnia continet et quod sit ubique7; ista vero
+            <lb ed="#Qb"/>communicat creaturae secundum quod est possi<lb ed="#Qb"/>bile
+            a creatura suscipi 3. Rationem ergo continendi
+            <lb ed="#Qb"/>communicat creaturae; sed creatura spiritualis,
+            <lb ed="#Qb"/>quae est angelica, hanc non potuit suscipere,
+            <lb ed="#Qb"/>quoniam ipsi angeliP sunt ad invicem distincti
+            <lb ed="#Qb"/>quoad naturas suas nec: ita ordinatur unus ad
+            <lb ed="#Qb"/>alium sicut ex parte corporum est. Similiter di<lb ed="#Qb"/>cimus
+            ex parte animarum. Congruitqi ergo crea<lb ed="#Qb"/>turae
+            corporali, tamen' secundum quod est pos<lb ed="#Qb"/>sibile,
+            ut quod in Deo est secundum indivisionem,
+            <lb ed="#Qb"/>sit in creatura corporali per divisionem. Unde in
+            <lb ed="#Qb"/>Deos est ista potentia quasi infinita, in creatura
+            <lb ed="#Qb"/>corporali quasi finit:-if, quoniam, sicut dicit Phi<lb ed="#Qb"/>losophusgf
+      <quote> Omnis virtus unita plus est in<lb ed="#Qb"/>finita
+            quam virtus multiplicata </quote>. Et praecipue
+            <lb ed="#Qb"/>congruit illi creaturae corporali, quae est compo<lb ed="#Qb"/>sita
+            in universo, — et hoc est ipsum universum:
+            <lb ed="#Qb"/>quod verum est, quia " ex se habet virtutem con<lb ed="#Qb"/>tinendi
+            et corpora et spiritus — et praecipue illi
+            <lb ed="#Qb"/>particulari creaturae quae nobilior est, sicut cae<lb ed="#Qb"/>lum,
+            et aliis sicut est magis et minus secundum
+            <lb ed="#Qb"/>nobilitatem maiorem et minorem. Et ideo secun<lb ed="#Qb"/>dum
+            hoc nobis videtur dicendum quod in cor<lb ed="#Qb"/>porali
+            creatura est proprietas, tamen divinitus
+            <lb ed="#Qb"/>data, secundum quam" potest continere spiritus,
+            <lb ed="#Qb"/>licet hanc proprietatem non habeat ex parte illa
+            <pb ed="#Qb" n="231"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>ex a qua est corpus; sed, secundum hoc quod
+            <lb ed="#Qb"/>dictum fuit 1, Deus non·solum habet virtutem continendi
+            <lb ed="#Qb"/>omnia, sed etiam habet esse ubique, et
+            <lb ed="#Qb"/>hoc communicat creaturae secundum quod ei possibile
+            <lb ed="#Qb"/>est; sed esse ubique nulli creaturae potest
+            <lb ed="#Qb"/>convenire b, sed solum esse hic, secundum quod
+            <lb ed="#Qb"/>dicit A mb rosi u s, in libro De Spirifu Sancto 2, l
+            <lb ed="#Qb"/>quod <quote> unaquaeque creatura certis limitibus et
+            <lb ed="#Qb"/>finibus definita est </quote>· Et ita spiritus angelicus
+            <lb ed="#Qb"/>habet ad minus ex parte sua quod debeat definiri
+            <lb ed="#Qb"/>loco et quod sit hic ita quod non ibi, et ideo
+            <lb ed="#Qb"/>haec duo ei conferunt esse in loco. Ad hoc etiam
+            <lb ed="#Qb"/>val et quod videtur dicere Ber n a r d u s c 3 quod
+            <lb ed="#Qb"/>unusquisque spiritus creatus habet aliquam ordinationem
+            <lb ed="#Qb"/>ad corpus: ex hac enim ordina tione
+            <lb ed="#Qb"/>potest habere quasi potestatem ad hoc ut possit
+            <lb ed="#Qb"/>contineri a corpore. Concedimus tamen quod non
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>propter hoc sequitur quod, si d Iocus corporalis
+            <lb ed="#Qb"/>non esset, quod propter hoc angelus non esset;
+            <lb ed="#Qb"/>immo bene dicimus quod posset esse, etsi non
+            <lb ed="#Qb"/>esset in loco corporali, quoniam ab hac ratione
+            <lb ed="#Qb"/>continendi non dependet esse angeli, sed solum
+            <lb ed="#Qb"/>ab hac ratione continendi qua e dicimus quod
+            <lb ed="#Qb"/>Deus continet omnia: et verum est quod, nisi
+            <lb ed="#Qb"/>Deus contineret suo modo continendi, quod non
+            <lb ed="#Qb"/>haberet 4 esse. Et hoc est quod dici t Gr ego r i u s,
+            <lb ed="#Qb"/>in Moralibus 5, quod <quote> omnia tenderent in · non
+            <lb ed="#Qb"/>esse, nisi manu Conditoris tenerentur </quote>·
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1-6. Et per hoc patet solutio a d
+            <lb ed="#Qb"/>omnia "obiecta. Posset tamen dici quod non
+            <lb ed="#Qb"/>dicitur esse in loco nisi quia praesens est loco;
+            <lb ed="#Qb"/>et! tunc non oporteret esse aliquam dependentiam
+            <lb ed="#Qb"/>eius ad Iocum corporalem aut g ad corpus aliquod
+            <lb ed="#Qb"/>et tunc cessarent omnes illae oppositiones.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum angelus sit ubique simul et semel.</head>
+          <p>
+            <lb ed="#Qb"/>Secundo quaeritur utrum angelus possit esse
+            <lb ed="#Qb"/>ubique simul et semel.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod non, videtUP: a. Quia proprium est Dei
+            <lb ed="#Qb"/>esse ubique 7 ; ergo h non conveni t alicui creaturae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, si conveniret angelo aliquando esse ubique,
+            <lb ed="#Qb"/>non posset moveri : motus enim est 1 ab uno
+            <lb ed="#Qb"/>loco ad alium; sed quod est ubique, praesens est
+            <lb ed="#Qb"/>omni loco; ergo non deest ei Iocus aliquis; ergo
+            <lb ed="#Qb"/>non movetur ad illum locum: motus enim estk
+            <lb ed="#Qb"/>ad obtinendum aliquid quod non 1 habet - hoc
+            <lb ed="#Qb"/>dico de motu recto- vel ad continuandum quod
+            <lb ed="#Qb"/>habet m, sicut in motu circulari.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Praeterea, si esset ubique, haberet virtutem 1
+            <lb ed="#Qb"/>extensam ad omnem creaturam corporalem n; si
+            <lb ed="#Qb"/>ergo nullus angelus habet virtutem 0 extensam ad
+            <lb ed="#Qb"/>omnem creaturam corporalem, non potest esse
+            <lb ed="#Qb"/>ubique simul.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contrarium autem P videtUP 1. per hoc quod
+            <lb ed="#Qb"/>anima, quae est in corpore suo, ubique est in corpore
+            <lb ed="#Qb"/>suo, sicut dìcit Augustinus 8 : est enim per
+            <lb ed="#Qb"/>vitam in omni parte corporis, et non est per vitam
+            <lb ed="#Qb"/>in aliquo nisi ubi ipsa q est unita, cum sit vita
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>corporis vel vivificans corpus; cum ergo angelus
+            <lb ed="#Qb"/>aliquis r possit esse minister ad moven~um caelum
+            <lb ed="#Qb"/>illud primum s, penes quod ò.eterminatur t
+            <lb ed="#Qb"/>motus diurnus et secundum illud moveantur alii
+            <lb ed="#Qb"/>caeli et consequenter fiat mutatio in elementis et
+            <lb ed="#Qb"/>elementatis, habebit operationem per ministerium
+            <lb ed="#Qb"/>in iis, et <quote>ibi est, ubi operatur </quote>; ergo potest
+            <lb ed="#Qb"/>esse ubique in toto ilio corpore.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum u quod non potest
+            esse_ ubique simul.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: l. Ad obiectum autem in contrarium
+            <lb ed="#Qb"/>dicendum quod, licet possit v ex ministerio
+            <lb ed="#Qb"/>aliquod caelum movere, non tamen est per totum
+            <lb ed="#Qb"/>illud caelum: non enhn unitur ei sicut forma materiae
+            <lb ed="#Qb"/>aut perfectio subiecto, sed coniungitur sicut
+            <lb ed="#Qb"/>motor moto. Motor autem indivisibilis potest movere
+            <lb ed="#Qb"/>corpus quod est divisibile x, etiam cum est separatumY
+            <lb ed="#Qb"/>per essentiam ab ipso, et si esset in ali.,.
+            <lb ed="#Qb"/>qua parte ipsius tamquam in loco, posset alias partes
+            <lb ed="#Qb"/>movere, sicut motor qui est in una parte navis.
+            <lb ed="#Qb"/>S ed ad h u c p o s s et o bici quod indifferenter
+            <lb ed="#Qb"/>se habet ad omnem locum nec plus est
+            <lb ed="#Qb"/>in uno quam in ali o; ergo, si est in uno, pari
+            <pb ed="#Qb" n="232"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>ratione est in quolibet; ergo ubique. -— R e 5 p 0 n<lb ed="#Qb"/>deo
+            <lb ed="#Qb"/>quod sic est angelus indifferenter ad omnem
+            <lb ed="#Qb"/>locum quod ex natura non determinatur ei ali<lb ed="#Qb"/>quis
+            <lb ed="#Qb"/>locus, ut sursum vel deorsum; tamen, cum
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>nunc est vel cum operatur, praesens est huic loco
+            <lb ed="#Qb"/>et continetur ab illo ita quod non ab alio, et hoc
+            <lb ed="#Qb"/>est quia determinatae est virtutis, ad differentiam
+            <lb ed="#Qb"/>Dei, cuius est infinita virtus 17.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III.</head>
+          <head type="question-title">Utrum angelus simul possit esse in pluribus locis.</head>
+          <p>
+            <lb ed="#Qb"/>Tertio quaeritur utrum simul possit esse in
+            <lb ed="#Qb"/>pluribus locis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Circa. quod sic: 1. In ordine universi nobilior
+            <lb ed="#Qb"/>est substantia angeli quam sit anima, eo quod
+            <lb ed="#Qb"/>angelus ex natura sua est substantia separata a
+            <lb ed="#Qb"/>corpore, anima vero substantia corpori unita aut
+            <lb ed="#Qb"/>unibilis; sed anima potest esse simul in pluribus
+            <lb ed="#Qb"/>locis: unde dicit <name ref="#Augustine">Augustinus</name>, in libro De
+            <lb ed="#Qb"/>anima et spiritu 2, quod <quote>tota est in qualibet
+            <lb ed="#Qb"/>parte corporis </quote>; ergo multo magis angelus poterit
+            <lb ed="#Qb"/>esse simul in pluribus locis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Si dicatur quod, licet8 anima secundum
+            <lb ed="#Qb"/>se tota" sit in qualibet parte corporis, tamen ** non
+            <lb ed="#Qb"/>propter hoc debet dici quod sit simul in pluribus
+            <lb ed="#Qb"/>locis, sed in loco partibili 2, quoniam ratio locandi
+            <lb ed="#Qb"/>proprie debetur toti corpori, sed partibus cor<lb ed="#Qb"/>poris
+            nonf debetur nisi prout sunt in toto, et
+            <lb ed="#Qb"/>ideo non habent rationem locandi differentem a
+            <lb ed="#Qb"/>ratione quae est in toto; et eodem modo conce—
+            <lb ed="#Qb"/>ditur de angelo quod bene possibile est ipsum
+            <lb ed="#Qb"/>esse in uno loco partibili: verbi gratia, si debeat
+            <lb ed="#Qb"/>subvertere Sodomam 3, dicemus ipsum esse in 50<lb ed="#Qb"/>doma
+            sicut in loco uno, qui tamen locus est par<lb ed="#Qb"/>tibilis
+            - contra: si angelus mittatur! ad sub<lb ed="#Qb"/>versionem
+            Sodomae, "constat quod aequaliter debet
+            <lb ed="#Qb"/>subvertere unam partem sicut et aliam; ergo aut
+            <lb ed="#Qb"/>erit aequaliter in qualibet parte aut in nulla; sed
+            <lb ed="#Qb"/>non potest poni quod in nulla, quoniam tunc
+            <lb ed="#Qb"/>non subverteret; ergo in omni. — Minor patet:
+            <lb ed="#Qb"/>quoniam non est de angelo, quando debet sub<lb ed="#Qb"/>vertere
+            aliquam civitatem aut aliquid huiusmodi
+            <lb ed="#Qb"/>operari, sicut de nauta cum debet movere navem,
+            <lb ed="#Qb"/>qui in una parte navis potest sedere vel movere "
+            <lb ed="#Qb"/>et tamen totam navem movere, et hoc est quo<lb ed="#Qb"/>niam
+            motus navis quasi dependet ex motu huius
+            <lb ed="#Qb"/>partis, et ideo plus habet ordinationemi ad hanc
+            <lb ed="#Qb"/>partem quam ad aliamk; sed non est sic de
+            <lb ed="#Qb"/>angelo, immo ordinationeml habet ad partem
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quamlibet. Nec etiam de ipso est ut de rege qui,
+            <lb ed="#Qb"/>existens in una parte regni, potest regere totum
+            <lb ed="#Qb"/>regnum, quoniam potestas eius "' plus dependet ex
+            <lb ed="#Qb"/>una parte quam ex' alia, reliquas etiam partes
+            <lb ed="#Qb"/>regit mediantibus aliquibus ministris; sed, licet
+            <lb ed="#Qb"/>fortassis angelus ad unam partem caeli empyrei "
+            <lb ed="#Qb"/>determinatam sibi magis se habeat quam ad aliam,
+            <lb ed="#Qb"/>non tamen sic est respectu locorum inferiorum.
+            <lb ed="#Qb"/>Et ita videtur quod sequatur conclusio prae<lb ed="#Qb"/>dicta.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: Dicimus quod angelus non est nisi
+            <lb ed="#Qb"/>in uno loco partibili, secundum quod ipsum po<lb ed="#Qb"/>nimus
+            in loco ratione suae essentiae. Nihilominus
+            <lb ed="#Qb"/>tamen potest movere quoddam corpus magnum
+            <lb ed="#Qb"/>et tamen in unica parte esse, sed eius virtus et
+            <lb ed="#Qb"/>operatio extendito se ad quamlibet partem eius, ut
+            <lb ed="#Qb"/>cuilibet parti dicatur praesens per effectum suae
+            operationis. Secundum hoc potest intelligi quod
+            <lb ed="#Qb"/>dicit Damascenus4 quod <quote>ibi est ubi ope<lb ed="#Qb"/>ratur</quote>,
+            non quod oporteat ipsum esse per essen<lb ed="#Qb"/>tiam
+            in quacumque parte operatur, sed solum per
+            <lb ed="#Qb"/>effectum suae operationis, secundum quod sua
+            <lb ed="#Qb"/>virtus potest se extendere. Quaedam enim cor<lb ed="#Qb"/>pora
+            possunt movere corpora etiam per essen<lb ed="#Qb"/>tiamP
+            a se distincta, sicut adamas ferrum, et multo
+            <lb ed="#Qb"/>magis potest esse hoc in spiritibus angelicis. Unde
+            <lb ed="#Qb"/>secundum hocq dicimus quod per essentiam non
+            <lb ed="#Qb"/>est [nisi] in uno loco' etiam in partibili.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1-2. Ad id quod obicitur incon<lb ed="#Qb"/>trarium
+            per simile de anima, respondeo quod non
+            <lb ed="#Qb"/>est simile. Anima enim non solum unitur corpori
+            <lb ed="#Qb"/>ut motor mobili, sed etiam ut perfectio perfecti<lb ed="#Qb"/>bili
+            5, et sic fit una natura ex anima et corpore:
+            <lb ed="#Qb"/>et ideo est in toto corpore sicut perfectio in suo
+            <lb ed="#Qb"/>perfectibili toto, nec hoc habet ratione qua dicitur
+            <lb ed="#Qb"/>motor. Sed angelus solum unitur corpori sicut
+            <lb ed="#Qb"/>motor mobili, et ideo non oportet quod in toto
+            <lb ed="#Qb"/>corpore loceturs per essentiam, sed solum quod
+            <lb ed="#Qb"/>in una parte, et ad reliquas partes extendatur
+            <pb ed="#Qb" n="233"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>sua virtus et operatio, ut dictum est]. Et ge<lb ed="#Qb"/>neraliter
+            nunquam foportet quod si aliqua duo
+            <lb ed="#Qb"/>uniantur, quod ubicumque sit unum, quod alterum,
+            <lb ed="#Qb"/>nisi fiat una natura ex ipsis. Unde, licet humana
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>natura sit unita divinae et divina natura sit ubi<lb ed="#Qb"/>que,
+            non propter hoc oportet quod humana, quo<lb ed="#Qb"/>niam
+            non uniuntur in unitate naturae, sed solum
+            <lb ed="#Qb"/>personae.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

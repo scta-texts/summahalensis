@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="449"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t1m2c1">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 2, C. 1</head>
+        <head type="question-title">DE PRIMA DIVISIONE AUGUSTINI: RATIO, INTELLECTUS, INTELLIGENTIA.</head>
+        <p>
+          <lb ed="#Qb"/>Dicendum est ergo de divisione quam ponit 
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name> et patet ex iam dictis ratio
+          <lb ed="#Qb"/>divisionis penes quid accipiatur. Sed potest quaeri,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>I. cum ex parte sensibilis est" retentiva sensibi<lb ed="#Qb"/>lium,
+          quare non assignetur ex parte intelligibi<lb ed="#Qb"/>lium
+          retentiva, aut si est assignata, ubi assignatur.
+        </p>
+        <p>
+                <pb ed="#Qb" n="450"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod, licet in prae<lb ed="#Qb"/>dicta
+          divisione trimembri non pOnatur vis reten<lb ed="#Qb"/>tiva, 
+          scilicet memoria, nihilominus alibi 1, cum
+          <lb ed="#Qb"/>comparat has vires animae, ponit memoriam post
+          <lb ed="#Qb"/>rationem et deinde intellectum et intelligentiam;
+          <lb ed="#Qb"/>per quod innuit quodb eadem est in substantia
+          <lb ed="#Qb"/>cognitiva intelligibilium et memorativa intelligibi<lb ed="#Qb"/>lium
+          6; ideo in prima divisione trimembri non
+          <lb ed="#Qb"/>enumerabatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Sed adhuc restat quaestio quare magis
+          <lb ed="#Qb"/>distinguatur memorativa sensibilis tamquam po<lb ed="#Qb"/>tentia
+          quam intelligibilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Responderi potestd quod memorativa
+          <lb ed="#Qb"/>sensibilis utitur organo et habet aliud organum
+          <lb ed="#Qb"/>quam cognitiva sensibilis. Nam oportet organum
+          <lb ed="#Qb"/>aliter disponi ad recipiendum et aliter ad reti<lb ed="#Qb"/>nendum.
+          Ad recipiendum enim'! humidum 'est
+          <lb ed="#Qb"/>conveniens, ad retinendum vero siccum: siccum
+          <lb ed="#Qb"/>enim bene retinet quod imprimiturz, et ideo vis,
+          <lb ed="#Qb"/>quae est proportionalis organo, differens est, ut
+          <lb ed="#Qb"/>sicut organa distinguuntur secundumf debitam
+          <lb ed="#Qb"/>proportionem et determinatam ad recipiendum et
+          <lb ed="#Qb"/>retinendum, ita et vires-g. In parte vero intelligi<lb ed="#Qb"/>bili,
+          quae " quantum est de se non utitur organo,
+          <lb ed="#Qb"/>non est necesse fieri hanc distinctionem, sed quae
+          <lb ed="#Qb"/>accipit intelligibilia, eai conservat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>III. Adhuc etiam quaeritur, cum sint intelligibilia
+          <lb ed="#Qb"/>quaedam infra, quaedam iuxta, quaedam intra,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>quaedam supra, ut narrat<name ref="#Augustine">Augustinus</name>3, quare
+          <lb ed="#Qb"/>non sunt quatuor differentiae virium, ut una sit
+          <lb ed="#Qb"/>vis respectu intelligibilium intra, sicut est triplex
+          <lb ed="#Qb"/>differentia respectu intelligibilium extra.
+          [Solutio]: Ad quod dicendum quod divisio, quam
+          <lb ed="#Qb"/>facit <name ref="#Augustine">Augustinus</name>, est proprie respectu intelligibi<lb ed="#Qb"/>lium
+          extra. Quod patet per hoc quod rationem
+          <lb ed="#Qb"/>ponit ipse4 cognoscitivam naturarum, formarum,
+          <lb ed="#Qb"/>differentiarum, proprietatum et accidentium, sed
+          <lb ed="#Qb"/>non extra corpora nisi ratione'f subsistentium; per
+          <lb ed="#Qb"/>quodl patet quod rationis est cognoscere ea quae
+          <lb ed="#Qb"/>sunt infra rationem: omnia enim quae spectant ad
+          <lb ed="#Qb"/>corpora sunt infra rationem. Intellectum vero
+          <lb ed="#Qb"/>ponit5 cognoscitivum angelorum, daemonum, ani<lb ed="#Qb"/>marum
+          et omnis spiritus creati; ex quo patet
+          <lb ed="#Qb"/>quod loquitur de intelligibilibus quae sunt iuxta
+          <lb ed="#Qb"/>animam rationalem. Cum autem dicitur5 quod
+          <lb ed="#Qb"/>
+          <quote>intelligentia immediate supponitur Deo </quote>, loquitur
+          <lb ed="#Qb"/>de eo quod est supra animam rationalem. Ea
+          <lb ed="#Qb"/>vero quae sunt intra, sicut sunt scientiae et vir<lb ed="#Qb"/>tutes
+          et quod ipsa anima se ipsam cognoscit,
+          <lb ed="#Qb"/>quia non est necesse similitudines alias ab intel<lb ed="#Qb"/>ligibilibus
+          pervenire ad intellectum '", ideo non
+          <lb ed="#Qb"/>computantur in vi separata, sed cognoscuntur
+          <lb ed="#Qb"/>a vi in qua nata sunt esse7. Cum enim anima
+          <lb ed="#Qb"/>ipsam scientiam vel artem habeat apud se, quae
+          <lb ed="#Qb"/>necessitas est habere similitudinem separatam ab
+          <lb ed="#Qb"/>intelligibili? Sed in aliis rebus intelligibilibus
+          <lb ed="#Qb"/>oportet habere similitudinem, qua intellectus iuve<lb ed="#Qb"/>tur
+          ad hoc quod intelligibile fiat actu intellectum 3.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

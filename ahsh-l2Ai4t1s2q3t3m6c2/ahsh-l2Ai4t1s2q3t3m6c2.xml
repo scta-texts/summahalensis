@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 6, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 6, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="487"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t3m6c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 6, C. 2</head>
+        <head type="question-title">UTRUM LIBERUM ARBITRIUM SIT CAUSA CONTINGENTIUM ACTUUM TANTUM.</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur utrum sit causa contingentium
+          <lb ed="#Qb"/>actuum an etiam'f necessariorum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod tantum contingentium: a. Li<lb ed="#Qb"/>berum
+          enim arbitrium est potestas ad opposita-;
+          <lb ed="#Qb"/>sed potestas ad opposita estl contingentium tan<lb ed="#Qb"/>tum;
+          ergo liberum arbitrium est contingentium
+          <lb ed="#Qb"/>tantum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, sicut dicit Au gu sti n u s, in En<lb ed="#Qb"/>chiridion
+          8: <quote> Sic'" oportebat hominem fieri, ut bene
+          <lb ed="#Qb"/>velle posset et male </quote>; sed hoc est per liberum
+          <lb ed="#Qb"/>arbitrium; ergo liberum arbitrium in homine fuit,
+          <lb ed="#Qb"/>quo posset homo" utroque modo agere; sed quod
+          <lb ed="#Qb"/>est huiusmodi principium, est contingentium cau<lb ed="#Qb"/>sa;
+          ergo liberum arbitrium est contingentium
+          <lb ed="#Qb"/>causa 0.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, Eccli. 15,18: Ante hominem vita et mors,
+          <lb ed="#Qb"/>bonum et malum; quod placuerit, dabitur illi.
+          <lb ed="#Qb"/>Ergo liberum arbitrium est eorum quae ad utrum<lb ed="#Qb"/>libet P.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. A libero arbitrio exeunt actus, non
+          <lb ed="#Qb"/>tantum qui sunt in praesenti, sed etiam qui erunt
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>in futuro; sed in futuro erunt actus necessarii;
+          <lb ed="#Qb"/>ergo liberum arbitrium non tantum est eorum,
+          <lb ed="#Qb"/>scilicet contingentium, sed necessariorum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Ambrosiusgz <quote> Fidei succedit visio
+          <lb ed="#Qb"/>veritatis, spei similiter tentio ardui, caritatis au<lb ed="#Qb"/>tem
+          actus eri-t dilectio summi boni</quote>; sed ii actus
+          <lb ed="#Qb"/>indesinenter erunt et non exibunt nisi a libero
+          <lb ed="#Qb"/>arbitrio; ergo liberum arbitrium est necessario<lb ed="#Qb"/>rum
+          actuum, non tantum contingentium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Praeterea, nobilius principium est liberum ar<lb ed="#Qb"/>bitrium
+          quam natura vel necessitas sive? fatum;
+          <lb ed="#Qb"/>sed illa dicuntur esse causa necessariorum' ut
+          <lb ed="#Qb"/>semper vel uts frequenter; ergo multo fortius
+          <lb ed="#Qb"/>liberum arbitrium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1-2. Ad quod dicendum quod liberum
+          <lb ed="#Qb"/>arbitrium humanum de se est causa contingen<lb ed="#Qb"/>tium.
+          Quod autem erit in futuro causa necessa—
+          <lb ed="#Qb"/>riorum, hoc est ex superadditione determinationis,
+          <lb ed="#Qb"/>quae est a iustitia causae primae retribuentis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad id vero quod obicitur 'liberum arbi<lb ed="#Qb"/>tri-um
+          esse nobiliorem causam' etc., dicendum!
+          <lb ed="#Qb"/>quod nobilitas causae potest attendi vel quia
+          <pb ed="#Qb" n="488"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>sibi sufficiens est ad motum: et hoc modo no<lb ed="#Qb"/>bilius 
+          est liberum arbitrium quam natura in supe<lb ed="#Qb"/>rioribusb 
+          corporibus velc inferioribus; vel quoad 
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>modum intluentiae actuum, ut liberum arbitrium
+          <lb ed="#Qb"/>influat necessarios actus vel non necessarios: et
+          sic potest natura esse nobilius principium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

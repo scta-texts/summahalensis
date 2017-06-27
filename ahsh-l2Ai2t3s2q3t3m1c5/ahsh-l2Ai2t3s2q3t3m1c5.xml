@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="290"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t3m1c5">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 5</head>
+        <head type="question-title">DE RATIONIBUS SECUNDUM QUAS FIUNT MIRACULA</head>
+        <p>
+                <pb ed="#Qb" n="290"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Deinde quaeritur de rationibus secundum quas
+          <lb ed="#Qb"/>habent fieri miracula. Quaerit enim " Augu<lb ed="#Qb"/>stinus2
+          an ratio, quam Deus primis operibus
+          <lb ed="#Qb"/>cokncreavit ", id haberet ut secundum ipsam ex
+          <lb ed="#Qb"/>viri latere fieri feminam necesse foret.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Quaeritur ergo 0 utrum idem sit ratio naturalis
+          <lb ed="#Qb"/>et seminalis vel non;
+          <lb ed="#Qb"/>similiter utrum seminalis etd causalis;
+          <lb ed="#Qb"/>et utrum primordiales sint in rebus sive in Deo;
+          <lb ed="#Qb"/>item, quot sunt genera? rationum.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head>Utrum idem sit ratio naturalis et seminalis.</head>
+          <p>
+            <lb ed="#Qb"/>Quod ratio naturalis et seminalis idem sintf,
+            <lb ed="#Qb"/>videtur 1. per hoc quod dicit <name ref="#Augustine">Augustinus</name>, Su<lb ed="#Qb"/>per
+            Genesim 3. Dicit enimg quod <quote> omnis iste usita<lb ed="#Qb"/>tissimus
+            naturae cursus habet quasdam naturales
+            <lb ed="#Qb"/>leges, secundum quas spiritus vitae, qui creatus est,
+            <lb ed="#Qb"/>habet quosdam appetitus determinatos; super hunc
+            <lb ed="#Qb"/>autem cursum naturalem potestas Creatoris habet
+            <lb ed="#Qb"/>apud'se posse de omnibus iis facere aliud quam eo<lb ed="#Qb"/>rum
+            quasi seminales rationes habent </quote>. Et ita vi<lb ed="#Qb"/>detur
+            idem dicere naturalem rationem et seminalem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, nonne naturalis ratio est cum ex grano
+            <lb ed="#Qb"/>producitur granum vel cum ex herba spica? et
+            <lb ed="#Qb"/>haec est seminalis; ergo idem'" videntur esse.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. A u gu s ti n u 5, IV Super Genesim 4:
+      <quote> Hoc, quod nunc temporalibus intervallis ea mo<lb ed="#Qb"/>veri
+            videmus ad peragenda ea quae suo generi
+            <lb ed="#Qb"/>competunt, ex illis insitis rationibus venit quas
+            <lb ed="#Qb"/>tamquam seminaliter Sparsitk Deus in actu con<lb ed="#Qb"/>dendi,
+            cum dixit et facta sunt-5</quote>. Videtur ergo
+            <lb ed="#Qb"/>dicere quod seminales sunt illae quae sunt con<lb ed="#Qb"/>ditae
+            in operibus sex dierum, et ex illis sunt de<lb ed="#Qb"/>ductae
+            naturales.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>[Solutio]: Ad quod videtur dicendum quod
+            <lb ed="#Qb"/>seminalis ratio videtur 'dici dupliciter, secundum
+            <lb ed="#Qb"/>quod dicit <name ref="#Augustine">Augustinus</name>, "VI Super Genesimö:
+      <quote> Aliter in' rebus, quae secundum causas simul
+            <lb ed="#Qb"/>creatas, non'" iam simul, sed suo tempore crean<lb ed="#Qb"/>tur,
+            sicut foenum est exortum; aliter in seminibus,
+            <lb ed="#Qb"/>in quibus rursus primordiales causae repetuntur
+            <lb ed="#Qb"/>de rebus ductae, quae secundum causas, quas"
+            <lb ed="#Qb"/>primo condidit, extiterant 0, velut herba ex terra,
+            <lb ed="#Qb"/>semen ex herba </quote>. Unde bis tangitur in principio
+            <lb ed="#Qb"/>Geneseos. PrimoP enim dicitur'f: Protulit terra
+            <lb ed="#Qb"/>herbam virentem et facientem semen iuxta genus
+            <lb ed="#Qb"/>suum; deinde dicitur 24,4-5: Istae sunt genera<lb ed="#Qb"/>tiones
+            caeli et terrae, in die qua fecit Deus cae<lb ed="#Qb"/>lum
+            et terram et omnef virgultum agri, ante<lb ed="#Qb"/>quam
+            oriretur in terra, et omnes virgultum re<lb ed="#Qb"/>gionis,
+            priusquam germinaret: non enim pluerat
+            <lb ed="#Qb"/>Dominus super terram, et homo non erat qui .
+            <lb ed="#Qb"/>operaretur terram etc.t Videtur enim dicere du<lb ed="#Qb"/>plicem
+            seminalem rationem: unam, secundum
+            <lb ed="#Qb"/>quam primo fiebant ; aliam, secundum quam nunc
+            <lb ed="#Qb"/>fiunt, et haec dicitur naturalis.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum idem sit ratio seminalis et causalis.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur utrum idem sit seminalis et 
+            <lb ed="#Qb"/>causalis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod" videtur 1. per hoc quod dicit Augu<lb ed="#Qb"/>stinus,
+            Super Genesim, IVS: <quote>Ex illis insitis
+            <lb ed="#Qb"/>rationibus, quas tamquam seminaliter sparsit</quote>.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>2. Item, Augustinus 9: <quote> Omnium rerum cau<lb ed="#Qb"/>sas,
+            quae corporaliter visibiliterque nascuntur",
+            <lb ed="#Qb"/>occulta quaedam semina in corporeis huius mundi
+            <lb ed="#Qb"/>elementis latent, quae Deus originaliter eis in<lb ed="#Qb"/>didit
+      </quote>. Et post sequitur: <quote>Incrementa et forma<lb ed="#Qb"/>rum
+            distinctiones ab originalibus, ut ita dicam,
+            <pb ed="#Qb" n="291"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>regulis </quote>. Sed quid aliud sunt originales regulae "
+            <lb ed="#Qb"/>nisi causales rationes? Ergo idem sunt causales
+            <lb ed="#Qb"/>rationes et seminales.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Rationes seminales non sunt ad fa<lb ed="#Qb"/>cienda
+            miracula; sed causales rationes sunt ad
+            <lb ed="#Qb"/>facienda miraculab; ergo non est idem ratio se<lb ed="#Qb"/>minalis
+            et causalis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendumc quod proprie
+            <lb ed="#Qb"/>sumendo non est idem ratio causalis et seminalis;
+            <lb ed="#Qb"/>large autem sumendo 'causalem' omnis seminalis
+            <lb ed="#Qb"/>est causalis, sed non omnis causalis ratio est
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>seminalis. Unde proprie facta distinctione possu<lb ed="#Qb"/>mus
+            dicere quod naturalis ratio refertur ad for<lb ed="#Qb"/>mam,
+            ut quod granum ex grano et ita de aliis,
+            <lb ed="#Qb"/>seminalis vero ad materiam dispositam, ut quod 4
+            <lb ed="#Qb"/>fit ex putrefactione dicitur ex? ratione seminali
+            <lb ed="#Qb"/>esse, sicut ranae et huiusmodi resf fiunt ex semi<lb ed="#Qb"/>nalibus
+            rationibus quae sunt in elementis nec ta<lb ed="#Qb"/>meng
+            dicuntur ex naturalibus proprie dictis, sed
+            <lb ed="#Qb"/>communiter; causalis vero ad efficientem, et di<lb ed="#Qb"/>citur
+            esse in Deo, qui est causa efficiens ad ea
+            <lb ed="#Qb"/>quae mirabiliter producuntur ab ipso.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Utrum rationes causales primordiales sint in rebus aut tantum in Deo.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur utrum causales rationes sive
+            <lb ed="#Qb"/>primordiales sint in rebus primo conditis ab ipso"
+            <lb ed="#Qb"/>aut tantum in Deo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur' quod in rebus: a. Quia ", Super
+            <lb ed="#Qb"/>Genesim, VI 1: <quote> Quaeri merito potest, causales
+            <lb ed="#Qb"/>illaek rationes, quas mundo indidit, cum primum
+            <lb ed="#Qb"/>simul omnia creavit, quomodo sunt institutae? </quote>
+            <lb ed="#Qb"/>Ergo videtur quod causales rationes sint in mundo,
+            <lb ed="#Qb"/>id est in' primis operibus conditis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. A ugu stin us, Super Genesim, VI2:
+      <quote> Habet in se quasdam quorumdam factorum cau<lb ed="#Qb"/>sas
+            absconditas in se ipso, quas rebus creatis non
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>inseruit</quote>. Ergo sunt absconditae causales rationes
+            <lb ed="#Qb"/>in Deo, non in rebus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad hoc videtur dicendum quod di<lb ed="#Qb"/>cuntur
+            causales rationes duobus modis. Uno modo
+            <lb ed="#Qb"/>communiter, et sic causalis ratio dicitur eorum
+            <lb ed="#Qb"/>quae fiunt a Deo mediante natura. Unde dicit
+            <lb ed="#Qb"/>
+            <name ref="#Augustine">Augustinus</name>, in eodem libro3: <quote>Mysterium gra<lb ed="#Qb"/>tiae
+            absconditum dixitl in mundo 4, in quo sunt
+            <lb ed="#Qb"/>absconditae rationes causales omnium rerum na<lb ed="#Qb"/>turaliter
+            oriturarum </quote>. Si vero '" causalis ratio ap<lb ed="#Qb"/>proprietur,
+            dicitur" esse in Deo respectu eorum
+            <lb ed="#Qb"/>quae sunt0 supra naturam, non mediante opere
+            <lb ed="#Qb"/>naturae.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS IV</head>
+          <head type="question-title">Quot sunt genera rationum.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur quot sunt genera rationum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Ad quod potest responderi per hoc quod eli<lb ed="#Qb"/>citur
+            ex verbis B.:" A ugustini, Super Genesim 5.
+            <lb ed="#Qb"/>Dicit enim sic: <quote> Aliter in Verbo Dei? sunt, ubi
+            <lb ed="#Qb"/>ista non facta, Sed aeterna" sunt </quote>; et secundum
+            <lb ed="#Qb"/>hoc dicuntur incommutabiles rationes, prout di<lb ed="#Qb"/>citur,
+            Super Genesim, Vl 7: <quote> Aliter se habent orn<lb ed="#Qb"/>nium
+            rerum incommutabiles rationes ins Verbo
+            <lb ed="#Qb"/>Dei, aliter opera a quibus die septimo requievit',
+            <lb ed="#Qb"/>aliter ista quae ex illis operatur</quote>. Item, 8 <quote> aliter
+            <lb ed="#Qb"/>sunt' 1n elementis mundi, ubi omnia simul facta fu<lb ed="#Qb"/>tura 
+            sunt </quote>; et secundum hoc videtur esse ratio . turalis.
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>causalis sive primordialis in mundo indita. <quote> Ali<lb ed="#Qb"/>ter
+            in rebus, quae secundum causas simul crea<lb ed="#Qb"/>tas, 
+            non iam sirnul, sed suo tempore quaeque
+            <lb ed="#Qb"/>creantur ", sicut foenum fuit primo exortum </quote>, et
+            <lb ed="#Qb"/>secundum hoc videtur dicix seminalis vel ma<lb ed="#Qb"/>terialis.
+      <quote>Aliter in seminibus, in quibus rur<lb ed="#Qb"/>sus
+            quasi primordiales causae repetuntur de re<lb ed="#Qb"/>bus
+            ductae, quae? secundum causas, quas con<lb ed="#Qb"/>didit,
+            extiterant :, sicut quod herba est ex terra,
+            <lb ed="#Qb"/>semen ex herba</quote>. Ex hoc uno modo dicitur
+            <lb ed="#Qb"/>naturalis, alio modo seminalis: ratione materiae
+            <lb ed="#Qb"/>aptatae, seminalis; ratione naturae agentis, na<lb ed="#Qb"/>turalis
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS V</head>
+          <head type="question-title">
+            <lb ed="#Qb"/>Utrum rationes inditae sint rebus a principio creationis.</head>
+          <p>
+                  <pb ed="#Qb" n="292"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Deinde quaeritur utrum inditae sint" rationes
+            <lb ed="#Qb"/>a principio creationis, non solum ad opera quae
+            <lb ed="#Qb"/>fiunt secundum cursum naturae, sed etiam ad
+            <lb ed="#Qb"/>miraculosa, et utrum eadem sit possibilitas in
+            <lb ed="#Qb"/>specie ad omnia opera.
+         </p>
+          <p>
+            <lb ed="#Qb"/>I. a. Creavit enim Deus in sex diebus perfectas
+            <lb ed="#Qb"/>res quoad genus et quoad speciem; ergo a prin<lb ed="#Qb"/>cipio
+            erantb potentiae in specie determinataec
+            <lb ed="#Qb"/>ad omnia fienda; ergo possibilitas ad opera[1 mi<lb ed="#Qb"/>raculosa
+            erate a principio creata.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod. autem non sitf, videtur 1. per hoc quod,
+            <lb ed="#Qb"/>si esset possibilitas, secundum eam esset potentia
+            <lb ed="#Qb"/>ad actum; cum ergo non sit possibile - sicut ha<lb ed="#Qb"/>beturI
+            Cor. 1, 20, ubi dicitur quodg stultam fecit
+            <lb ed="#Qb"/>Deus sapientiam huius mundi, Glossaz: <quote> Hanc
+            <lb ed="#Qb"/>stultam fecit Deus declarando esse possibile et
+            <lb ed="#Qb"/>faciendo quod illa impossibile iudicat</quote> -— nonh
+            <lb ed="#Qb"/>erit illa potentia sive possibilitas a principio in
+            <lb ed="#Qb"/>materia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, dicit Damascenus, in principio.
+            <lb ed="#Qb"/>III libri3: <quote> Post assensum Virginis Spiritus Sanc<lb ed="#Qb"/>tus
+            supervenit super ipsam secundum Domini ser<lb ed="#Qb"/>monem
+            quem dixit angelus4,.purgans ipsamï et
+            <lb ed="#Qb"/>virtutem tribuens susceptivam divini Verbi simul
+            <lb ed="#Qb"/>autem et generativam </quote>. Ex quo relinquitur quod '
+            <lb ed="#Qb"/>potentia ad opera miraculosa non fuit* a prin<lb ed="#Qb"/>cipio
+            in materia. Si enim sic esset, quare.. non
+            <lb ed="#Qb"/>diceremus de virgis quod' possunt fieri ser<lb ed="#Qb"/>pentes
+            et e converso?
+         </p>
+          <p>
+            <lb ed="#Qb"/>Item, quod sint potentiae am prineipio ad
+            <lb ed="#Qb"/>opera miraeulosa, videtur b., per hoc. quod dicit
+            <lb ed="#Qb"/>
+            <name ref="#Augustine">Augustinus</name>, in Hexaemeron, VI libro5: .<quote> Si in
+            <lb ed="#Qb"/>illis primis rerum causis, quas primitus Creator
+            <lb ed="#Qb"/>rerum instituit, non tantum posuit quod de limo
+            <lb ed="#Qb"/>erat formaturus hominem, sed quemadmodum fac<lb ed="#Qb"/>turus,
+            utrum in matris utero an- in forma iuvenili,
+            <lb ed="#Qb"/>procul dubio Sic factum est ut illic praeiixerat:
+            <lb ed="#Qb"/>neque enim contra, suam dispositionem factum
+            <lb ed="#Qb"/>est. Si autem vim posuit ibi possibilitatis ut homo
+            <lb ed="#Qb"/>fieret, ut sic et sic fieri posset, ipsum autem
+            <lb ed="#Qb"/>modum quo facturus erat sibi " reservavit in sua
+            <lb ed="#Qb"/>voluntate, non in mundi constitutione contexuit,
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>manifestum est non esse [factum] hominem contra
+            <lb ed="#Qb"/>illam rationem quae erat in prima rerum con<lb ed="#Qb"/>ditione,
+            quia erat ibi sic fieri posse, quamvis non
+            <lb ed="#Qb"/>erat necesse sic fierivel esse </quote>. Ex quo relin<lb ed="#Qb"/>quitur
+            quod in materia est possibilitas ad opera<lb ed="#Qb"/>miraculosa
+            sive mirabilia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Quod si est, aut ergo erata eadem potentia
+            <lb ed="#Qb"/>ad haec opera et ad aliab quae sunt secundum
+            <lb ed="#Qb"/>cursum naturae aut alia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur quod alia: 1. Quia 0 non est eadem
+            <lb ed="#Qb"/>potentia secundum naturam ad opera contraria
+            <lb ed="#Qb"/>naturae vel ad contrarium actum vel ad contra<lb ed="#Qb"/>rium
+            ordinem naturae; sed actus miraculosus est
+            <lb ed="#Qb"/>contrarii ordinis in fieri ordini naturae; ergo non
+            <lb ed="#Qb"/>est eadem potentia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem sit eadem potentia, videtur a. per
+            <lb ed="#Qb"/>hoc quod dicit <name ref="#Augustine">Augustinus</name> 6: Sunt causae se<lb ed="#Qb"/>minales,
+      <quote> quas Deus mundo indidit, cum omnia
+            <lb ed="#Qb"/>primo creavit</quote>, et hae quaerunt ternpus aptum et
+            <lb ed="#Qb"/>sunt ad naturalia. Sunt etiam causales sine tem<lb ed="#Qb"/>poris
+            determinatione, sicut <quote> Adam factus est in
+            <lb ed="#Qb"/>virili aetated sine ullo progressu-incrementorum </quote>,
+            <lb ed="#Qb"/>et hae sunt ad miracula. Verumtamen an causae
+            <lb ed="#Qb"/>tam ad miracula faciendae quam ad naturalia
+            <lb ed="#Qb"/>sint similiter rebusf insitae a principio, an cau<lb ed="#Qb"/>sae
+            ad miracula de novo factae sint in rebus,
+            <lb ed="#Qb"/>quaerit ibi <name ref="#Augustine">Augustinus</name>7, et8 dicit Augusti<lb ed="#Qb"/>nus
+            quod <quote> restat ut ad utrumque modum ha<lb ed="#Qb"/>biles
+            sint creatae, sive ad istum quo usitatissime
+            <lb ed="#Qb"/>res discurrunt sive ad illum quo tanta miracula
+            <lb ed="#Qb"/>fiunt, sicut Deo placuit facere </quote>. Ex quo relin<lb ed="#Qb"/>quitur
+            quod eadem possibilitash ad haec opera
+            <lb ed="#Qb"/>et etiam ad illa iuit' in materia. <lb ed="#Qb"/>
+               </p>
+          <p>
+            <lb ed="#Qb"/>Solutio: Dicendumka quod potentia obedien<lb ed="#Qb"/>tiae
+            ad omnia opera d1v1na ', sive mediante na<lb ed="#Qb"/>turam
+            principio sive'l voluntate creaturae sive
+            <lb ed="#Qb"/>immediate creata, est a principio et est eadem
+            <lb ed="#Qb"/>potentia obedientiae ad omnia opera 0, sed nen
+            <lb ed="#Qb"/>est potentia in. eodem gradu ad haec opera et ad
+            <lb ed="#Qb"/>alia, sed ad aliaP dicitur potentia in secundo
+            <lb ed="#Qb"/>gradu vel in tertio 9, ad opera vero miraculosa pos<lb ed="#Qb"/>sibilitas
+            tantum. Sed non sequitur quod potentia
+            <pb ed="#Qb" n="293"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>sit ad actum, quia illa possibilitas est secundum
+            <lb ed="#Qb"/>obedientiam creaturae, de qua Deus potest fa<lb ed="#Qb"/>cere
+            quod vult, et est possibilitas passiva.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: I. 2. Ad id vero quod obicitur
+            <lb ed="#Qb"/>de Ioanne Damasceno quoda *potentia data
+            <lb ed="#Qb"/>est Virgini susceptiva et generativa, ergo prius
+            <lb ed="#Qb"/>non habebat': respOndeo quod prius non ha<lb ed="#Qb"/>'bebat
+            huiusmodi potentiam ", sed tamen habebat
+            <lb ed="#Qb"/>possibilitatem modo quo iamc dictum est 1, ut
+            <lb ed="#Qb"/>de ipsa et in ipsa hoc faceret Deus. Potentia
+            <lb ed="#Qb"/>autem, quae data est, dicitur potentia aptata".
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Et sic intelligendum est verbum illud2 quod
+            (Deus de impossibili fecit possibile', id est de
+            <lb ed="#Qb"/>eo quod erat impossibile simpliciter, fecit pos—
+            <lb ed="#Qb"/>sibile seeundum potentiam aptatam. Et sic sol<lb ed="#Qb"/>vitur
+            quod obici solet: de impossibili fecit pos<lb ed="#Qb"/>sibile'.-Aut
+            enim loquitur de impossibili secun<lb ed="#Qb"/>dum
+            naturam superiorem aut secundum naturam
+            <lb ed="#Qb"/>inferiOrem: non superiorem, quia nihil ei! 'im<lb ed="#Qb"/>possibile3
+            ; si de impossibili secundum naturam
+            <lb ed="#Qb"/>inferiorem, ergo de impossibili secundum naturam
+            <lb ed="#Qb"/>inferioremf fecit- possibile secundum naturam in<lb ed="#Qb"/>feriorem;
+            ergo hoc est factum possibile secun<lb ed="#Qb"/>dum
+            naturam inferiorem et adhuc est possibile
+            <lb ed="#Qb"/>secundum huiusmodi naturam. Et dicendum
+            <lb ed="#Qb"/>est quod de impossibili simpliciter et ita se<lb ed="#Qb"/>cundum
+            naturam aptatam fecit possibile secun<lb ed="#Qb"/>dum
+            potentiam aptatam. Est enim potentia activa
+            <lb ed="#Qb"/>et est potentia susceptiva et est potentia aptata
+            <lb ed="#Qb"/>etcg non aptata ", et potentia activa est tam na<lb ed="#Qb"/>turae
+            interioris quam superiorisi, susceptiva au<lb ed="#Qb"/>tem
+            tanturn naturae inferioris. Et verum est quod
+            <lb ed="#Qb"/>quidquid est Deo possi-bile secundum potentiam
+            <lb ed="#Qb"/>activam, est naturae possibile,'non simpliciter,
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>sed secundum potentiam susceptivam, et haec
+            <lb ed="#Qb"/>est dicta possibilitas, sed non secundum activam
+            <lb ed="#Qb"/>potentiamk nec secundum aptatam4.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Etf per hoc patet solutio ad sequens, scilicet
+            <lb ed="#Qb"/>quod haec concedenda non est de virgis possunt
+            <lb ed="#Qb"/>fieri serpentes '; nec valet ' Deus de virgis potest
+            <lb ed="#Qb"/>facere serpentes etc., ergo ' etc.; eodem modo ' de
+            <lb ed="#Qb"/>hac costa potest fieri mulier ', nisi intelligatur
+            <lb ed="#Qb"/>quasi determinata comparatione principii, cuius
+            <lb ed="#Qb"/>est ratio causalis, scilicet Dei m, ut cum dicitur
+            ' pluit' vel ' tonat ', determinatum intelligitur sup<lb ed="#Qb"/>positum.
+            Et hoc posset dici per auctoritatem Au<lb ed="#Qb"/>gustini,
+            II Sententiarum, 18", ibi.: <quote>Omnis rursus
+            <lb ed="#Qb"/>naturae</quote>5 etc., in fine: <quote> Non habuit prima rerum
+            <lb ed="#Qb"/>conditio ut femina sic tieret, sed ut fieri posset</quote>,
+            <lb ed="#Qb"/>scilicet a Deo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. 1. Ad aliud quod dicitur quod 'non eadem
+            <lb ed="#Qb"/>estqpotentia per naturam ad actum naturae et ad
+            <lb ed="#Qb"/>contrarium actum naturae': respondeo quod po<lb ed="#Qb"/>tentia
+            secundum naturam, ut est ratio seminalis
+            <lb ed="#Qb"/>et naturalis, est " tantum ad actum secundum na<lb ed="#Qb"/>turam;
+            ad illum autem actum qui est contra
+            <lb ed="#Qb"/>naturam non est per modum activae potentiae,
+            <lb ed="#Qb"/>sed per modum susceptivae, et ille actus fit in
+            <lb ed="#Qb"/>natura secundum rationem causalem, non secun<lb ed="#Qb"/>dum
+            naturalem vel seminalem. Unde dicit Augu<lb ed="#Qb"/>stinus,
+            in II Sententiarum, 18, ibi: <quote>Omnium igitur
+            <lb ed="#Qb"/>rerum causae</quote> 5 etc.: <quote> Dedit Deus? naturis ut ex
+            <lb ed="#Qb"/>iis fieri possent, non ut naturali motu haberent </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>a. Ad id quod obicitur quod dicit Augusti<lb ed="#Qb"/>nus:
+      <quote> Restat ut ad utrumque habiles sint crea<lb ed="#Qb"/>tae</quote>,
+            dicendum quod 'habiles* ibi large acci<lb ed="#Qb"/>pitur,
+            id est possibiles, quia in se non sunt ha<lb ed="#Qb"/>biles
+            nisi ad actum qui est secundum naturam.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

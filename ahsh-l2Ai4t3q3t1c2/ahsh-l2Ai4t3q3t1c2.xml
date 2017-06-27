@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="733"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q3t1c2">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 1, C. 2</head>
+        <head type="question-title">UTRUM PRIMUS HOMO POTERAT STARE EX ACCEPTO [N SUI CONDITIONE.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur inquirere utrum poterat stare ex accepto
+          <lb ed="#Qb"/>in sui conditione. De quo quaeruntur tria:
+          <lb ed="#Qb"/>Primum est'? utrum ex accepto potuit stare
+          <lb ed="#Qb"/>simpliciter;,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>secundum, utrum ex illo accepto fuerit inver<lb ed="#Qb"/>tibilis;
+          <lb ed="#Qb"/>tertium, utrum potuit illi dari invertibilitas per
+          <lb ed="#Qb"/>naturam *, scilicet sine additamento gratiae.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum primus homo ex accepta in primaconditione potuit stare simpliciter.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur ergo primo utrum ex accepto in sui
+            <lb ed="#Qb"/>conditione poterat stare simpliciter.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod autem sic, videtur a. ex verbis Ma<lb ed="#Qb"/>gistri,
+            II Sententiarum, 24 dist.5 Dicit enim:
+      <quote> Sciendum est1 quod homini in creatione datum
+            <lb ed="#Qb"/>est per gratiam auxilium et collata potentia per
+            <lb ed="#Qb"/>quam stare poterat, id est non declinare ab eo
+            <lb ed="#Qb"/>quod acceperat, sed non poterat proficere in tan<lb ed="#Qb"/>tum
+            ut per gratiam creationis sine alia mereri
+            <lb ed="#Qb"/>salutem valeret </quote>. Et ad hoc ostendendum plures
+            <lb ed="#Qb"/>inducit'" auctoritates, cap. 1, 24 distinctione.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>b. Item, <name ref="#Anselm">Anselmus</name>ö: <quote>Liberum arbitrium est
+            <lb ed="#Qb"/>potestas servandi rectitudinem propter se " </quote>; sed
+            <lb ed="#Qb"/>servando rectitudinem non declinasset ab eo quod
+            <lb ed="#Qb"/>acceperat; ergo, cum in conditione ei datum tue<lb ed="#Qb"/>rit
+            liberum arbitrium etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, si non posset stare, cum nullus pec<lb ed="#Qb"/>cet
+            ex eo quod vitare non potest, ut habetur
+            <lb ed="#Qb"/>ab A ugu sti no, De libero arbitrio 7, si cecidisset,
+            <lb ed="#Qb"/>non esset illi imputandum ad culpam; sed con<lb ed="#Qb"/>stat
+            quod hoc est falsum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, natura nulli dat esse quin etiam det ei
+            <lb ed="#Qb"/>aliquam potentiam permanendi, cum non deficiat
+            <pb ed="#Qb" n="734"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>in necessariis: unde sicut aliquid naturaliter
+            <lb ed="#Qb"/>propagatur, sic" etiam in naturali virtute in
+            <lb ed="#Qb"/>esse conservatur; si ergo liberum arbitrium ho<lb ed="#Qb"/>mini
+            datum, per naturam propriam innocens erat
+            <lb ed="#Qb"/>etb immune a culpa, ergo per naturam propriam
+            <lb ed="#Qb"/>absque omni gratia permanere poterat in sua in<lb ed="#Qb"/>nocentia;
+            ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>e. Item, voluntatis rectitudo solo actu servatur:
+            <lb ed="#Qb"/>qui 6 enim rectus est, obliquus esse non potest,
+            <lb ed="#Qb"/>quamdiu ipse vult esse rectus; sed <quote> nihil tam est
+            <lb ed="#Qb"/>in potestate ** nostra quam ipsa voluntas 2 </quote>, nihil
+            <lb ed="#Qb"/>facilius homini recto quam velle rectitudinem; si
+            <lb ed="#Qb"/>ergo liberum arbitrium hominis, quantum est de
+            <lb ed="#Qb"/>sua conditione primaria, rectum erat, absque *
+            <lb ed="#Qb"/>omni gratia superaddita rectitudinem servare po<lb ed="#Qb"/>terat;
+            ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Iob 41, 24: Non est potestas superf
+            <lb ed="#Qb"/>terram quae comparetur ei, dicitur de Behemoth;
+            <lb ed="#Qb"/>ex quo patet quod nulla potestas humana natu<lb ed="#Qb"/>ralis
+            este potestati suae comparabilis; ergo ho<lb ed="#Qb"/>mine
+            habente solummodo naturalia, in quibus
+            <lb ed="#Qb"/>conditus erat, fortior erat diabolus; ergo ex ac<lb ed="#Qb"/>cepto
+            in conditione non poterat primus homo
+            <lb ed="#Qb"/>illi" resistere, sed illo impetente necesse habuit
+            <lb ed="#Qb"/>cadere.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, <name ref="#Augustine">Augustinus</name>, De gratia et vera in<lb ed="#Qb"/>nocentiaB:
+      <quote> Natura humana, etsi in illa integri<lb ed="#Qb"/>tate,
+            in qua condita est, permaneret, nullo modo
+            <lb ed="#Qb"/>se ipsam sine Creatore adiuvante servaret </quote>. Ex
+            <lb ed="#Qb"/>hoc patet quod sine gratia stare non potuit.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, si virtute propria posset homo absque<lb ed="#Qb"/>
+            <lb ed="#Qb"/>omni gratia tentationi resistere, potuisset etiam
+            <lb ed="#Qb"/>victoriam- de inimico obtinere; sed victoriae re<lb ed="#Qb"/>spondet
+            corona; ergo absque omnii gratia po<lb ed="#Qb"/>tuisset
+            mereri et pervenire ad gloriam; quod si
+            <lb ed="#Qb"/>evidenter falsumk est, restat etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, maioris difficultatis est tentationibus
+            <lb ed="#Qb"/>resistere quam opera virtutum exercere: hoc bene
+            <lb ed="#Qb"/>noverunt experti difficultatem tentationum ; ergo
+            <lb ed="#Qb"/>maioris difficultatis est starel in bono accepto
+            <lb ed="#Qb"/>quam in bonum acquirendum proficere; si ergo
+            <lb ed="#Qb"/>non poterat tunc proficere '", etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Item, vitium culpae non opponitur naturae
+            <lb ed="#Qb"/>per se, sed potius gratiae, similiter vitium natu-<lb ed="#Qb"/>rae
+            non opponitur gratiae per se, sed potius na—
+            <lb ed="#Qb"/>turae; est ergo similis comparatio vitii culpae ad
+            <lb ed="#Qb"/>gratiam et vitii naturae ad naturam et permuta<lb ed="#Qb"/>tim,
+            scilicet naturae ad gratiam et vitii naturae
+            <lb ed="#Qb"/>ad vitium culpae; ergo si per gratiam sive
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>gratuita non potest quis stare quin labatur in vi<lb ed="#Qb"/>tium
+            naturae, ergo consimili ratione nec per na<lb ed="#Qb"/>turam
+            aliquam sive naturalia quaecumque potest
+            <lb ed="#Qb"/>quis stare quin labatur in" vitium culpae; ergo
+            <lb ed="#Qb"/>primus homo per naturalia non poterat stare quin
+            <lb ed="#Qb"/>caderet in culpam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: Dicendum quod primus homo ex
+            <lb ed="#Qb"/>acceptis in conditione poterat stare et resistere
+            <lb ed="#Qb"/>omni tentationi, sicut habetur a Magistro Sen<lb ed="#Qb"/>tentiarum'g
+            nec oportebat illum cadere nisi vellet.
+            <lb ed="#Qb"/>Unde <name ref="#Augustine">Augustinus</name>, De correptione et gratia5:
+      <quote> Tunc dederat Deus homini bonam voluntatem,
+            <lb ed="#Qb"/>in illa quippe eum fecerat qui fecerat rectum;
+            <lb ed="#Qb"/>dederat adiutorium, sine quo in ea non posset"
+            <lb ed="#Qb"/>permanere, si vellet; ut autem vellet, in eius re<lb ed="#Qb"/>liquit
+            libero arbitrio. Posset ergo permanere, si
+            <lb ed="#Qb"/>vellet, quia non deerat adiutorium per quod pos—
+            <lb ed="#Qb"/>set. et sine quo non posset perseveranter bonum
+            <lb ed="#Qb"/>tenere quod vellet </quote>. Cum hoc autem intelligen<lb ed="#Qb"/>dum
+            est quod, sicut supra dictum est 5, primus
+            <lb ed="#Qb"/>homo conditus fuit in gratia eo modo quo gratia
+            <lb ed="#Qb"/>dicitur communiter, scilicet secundum quod com<lb ed="#Qb"/>prehendit
+            quidquid est additum naturalibus, quae
+            <lb ed="#Qb"/>sunt de generali constitutione rerum, et quod est
+            <lb ed="#Qb"/>additum libero arbitrio disponens et faciens ad
+            <lb ed="#Qb"/>eius rectitudinem. Nota ergo quod primus homo
+            <lb ed="#Qb"/>duplicem habuit gratiam'in primo statu, hoc est
+            <lb ed="#Qb"/>antequam habuitP gratiam gratum iacientem, sci<lb ed="#Qb"/>licet
+            gratis datam, communiter dicta gratia eo
+            <lb ed="#Qb"/>modo quo dictum est7, et gratiam superintusam,
+            <lb ed="#Qb"/>quae erat continua influentia virtutis a causa
+            <lb ed="#Qb"/>prima. Cum ergo dicitur quod *primus homo po<lb ed="#Qb"/>terat
+            stare ex acceptis in conditione absque gratia ',
+            <lb ed="#Qb"/>hoc potest intelligi dupliciter: vel ita quod exclu<lb ed="#Qb"/>datur
+            continuatio divinae intluentiae vel ita quod
+            <lb ed="#Qb"/>excludatur appositio novae gratiae. Primum sim<lb ed="#Qb"/>pliciter
+            est impossibile: nunquam enim liberum
+            <lb ed="#Qb"/>arbitrium tentationi resisteret nisi Deus suae
+            <lb ed="#Qb"/>bonitatis influentia illud in bono conservaret.
+            <lb ed="#Qb"/>Secundo modo veritatem habet pro statu inno<lb ed="#Qb"/>centiae.
+            Dicit enim <name ref="#Lombard">Magister</name>, II Sententiarum,
+            24 dist., cap. Hic considerandums: <quote> lllud adiu<lb ed="#Qb"/>torium
+            homini datum in creatione 'quo poterat
+            <lb ed="#Qb"/>manere, si vellet, fuit libertas arbitrii ab omni
+            <lb ed="#Qb"/>labe et corruptela immunis atque voluntatis recti<lb ed="#Qb"/>tudo
+            et omnium naturalium potentiarum animae
+            <lb ed="#Qb"/>sinceritas atque vivacitas </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud ergo quod primoq
+            <lb ed="#Qb"/>obicitur contra hoc per illud Iob: Non est potestas
+            <pb ed="#Qb" n="735"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>super terram etc., potest dici quod, licet po<lb ed="#Qb"/>testas
+            diaboli maior sit per naturam, tamen"
+            <lb ed="#Qb"/>tum quia enervata est per peccatum, tum quia
+            <lb ed="#Qb"/>non permittitur totam potentiam suam exercere
+            <lb ed="#Qb"/>in tentando, tum quia tentat suggerendo, non
+            <lb ed="#Qb"/>violentiam inferendo, non est tantae potestatis
+            <lb ed="#Qb"/>neque fuit tunc quod primum hominem vel etiam
+            <lb ed="#Qb"/>alium, non subiectum sibi per peccatum, potest
+            <lb ed="#Qb"/>vel poterat superare. Praeterea, nullus superari
+            <lb ed="#Qb"/>potest nisi volens; unde nullius potestatis est
+            <lb ed="#Qb"/>diabolus respectu hominis: potestatis, dico, ad
+            <lb ed="#Qb"/>vincendum. Gregoriusl: <quote>Debilis est hostis
+            <lb ed="#Qb"/>qui non vincitb nisi volentem </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad illud quod obicitur per <name ref="#Augustine">Augustinum</name>,
+            <lb ed="#Qb"/>De vera innocentia, scilicet quod <quote> nulla natura,
+            <lb ed="#Qb"/>in quacumque sit innocentia vel rectitudine, po<lb ed="#Qb"/>test
+            se servare sine divino adiutorio </quote>: dicendum
+            <lb ed="#Qb"/>quod hoc non dicitur quia natura instituta in
+            <lb ed="#Qb"/>primo homine, eo modo quoe fuit instituta, ad
+            <lb ed="#Qb"/>hoc quod stare posset necesse habuit nova gra<lb ed="#Qb"/>tia
+            fulciri, sed quia in quocumque statu essetd,
+            <lb ed="#Qb"/>indiguit influentia divinae virtutis sustentantis
+            <lb ed="#Qb"/>illam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad illud quod obicitur 'si posset stare,
+            <lb ed="#Qb"/>posset victoriam de tentatione obtinere' etc.: di<lb ed="#Qb"/>cendum2
+            quod plus est victoriam de hoste obti<lb ed="#Qb"/>nere
+            quam stare sive hosti resistere. Ad hoc
+            <lb ed="#Qb"/>enim quod aliquis,victoriam obtineate de hoste,
+            <lb ed="#Qb"/>requiritur quod assequatur oppositum illius quod
+            <lb ed="#Qb"/>ab hoste intenditur; hoc autem est quando non
+            <lb ed="#Qb"/>solum illi resistit voluntarie, verumf etiam meri<lb ed="#Qb"/>torie.
+            Tunc enim recte vincitur hostis diabolus,
+            <lb ed="#Qb"/>quando ex8 vexatione tentationis, per quam in<lb ed="#Qb"/>tendit
+            incurvare ad demeritum, homo proficit ad
+            <lb ed="#Qb"/>meritum; hoc autem facere non potest liberum
+            <lb ed="#Qb"/>arbitrium nisi per gratiae adiutorium nec potuit
+            <lb ed="#Qb"/>in primo homine, quamvis per se posset refu<lb ed="#Qb"/>gereh
+            peccatum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad illud quod obicitur quod "maioris dif<lb ed="#Qb"/>ficultatis
+            est tentationi resistere quam' etc.: dicen<lb ed="#Qb"/>dum
+            quod quidam3 posuerunt angelos beatos
+            <lb ed="#Qb"/>magna difficultate restitisse tentationi illi qua
+            <lb ed="#Qb"/>apostataei ceciderunt. Secundum istos non mo<lb ed="#Qb"/>dica
+            difficultate restitissent primi parentes pri<lb ed="#Qb"/>mae
+            tentationi, quae ratione arduitatis habendae,
+            <lb ed="#Qb"/>quamk proposuit, violentissime allexit, ut illi po<lb ed="#Qb"/>nunt.—Sed
+            hoc simpliciter est falsum, quia
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>tentatio non potest esse alicui violenta sine
+            <lb ed="#Qb"/>poena, poenam autem non ingerit tentatio nisi
+            <lb ed="#Qb"/>illis in quibus est aliquid quod ad malum com<lb ed="#Qb"/>pellit;
+            hoc non potuit esse in primo homine
+            <lb ed="#Qb"/>ante peccatum, ut habetur a Magistro Sen<lb ed="#Qb"/>tentiarum,
+            II libro, dist. 24 4. — Aliter ergo
+            <lb ed="#Qb"/>dicendum est ', scilicet quod in primo statu nul<lb ed="#Qb"/>lius
+            erat difficultatis resistere tentationi, etiam
+            <lb ed="#Qb"/>non habita gratia gratum faciente; proficere au<lb ed="#Qb"/>tem
+            in merito, ipsa non habita, fuit impossi<lb ed="#Qb"/>bile.
+            Si autem in illo statu primus homo exer<lb ed="#Qb"/>cuisset
+            opera de genere virtutum, non propter
+            <lb ed="#Qb"/>hoc profecisset in merito, quia opera illa non
+            <lb ed="#Qb"/>essent progressa de radice meriti, sed potius de
+            <lb ed="#Qb"/>virtute et appetitu naturali. Non enim semper
+            <lb ed="#Qb"/>proficit homo in meritum, cum facit opus bonum
+            <lb ed="#Qb"/>bonitate morali sive de genere virtutis", sed
+            <lb ed="#Qb"/>solummodo quando ipse agens est bonus boni<lb ed="#Qb"/>tate
+            gratiae informantis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad illud quod obicitur quod 'similis" est
+            <lb ed="#Qb"/>comparatio vitii culpae ad gratiam et vitii naturae
+            <lb ed="#Qb"/>ad naturam et permutatim' etc.: dicendum quod
+            <lb ed="#Qb"/>alia fuit comparatio istorum ad invicem in statu
+            <lb ed="#Qb"/>naturae conditae et alia in statu naturae lapsae.
+            <lb ed="#Qb"/>In statu enim naturae conditae consequebatur
+            <lb ed="#Qb"/>integritas naturae ad informationem gratiae, immo
+            <lb ed="#Qb"/>ad absentiam culpae. Vitium enim culpae intro<lb ed="#Qb"/>duxit
+            vitium naturae: ex culpa enim sive pec<lb ed="#Qb"/>cato
+            primi hominis introducta est corruptio naturae
+            <lb ed="#Qb"/>humanae; unde culpa personae fuit causa vitii
+            <lb ed="#Qb"/>sive corruptionis naturae 5. Unde in statu illo gratia
+            <lb ed="#Qb"/>non solum erat incontingens vitio culpae, sed vi<lb ed="#Qb"/>tio
+            naturae; similiter integritas naturae non solum
+            <lb ed="#Qb"/>erat incontingens vitio naturae, sed vitio culpae.
+            <lb ed="#Qb"/>Propter hoc, licet" in statu lapsus gratia sustineat
+            <lb ed="#Qb"/>lapsum in vitium naturae, tamen in statu illo
+            <lb ed="#Qb"/>nullo modo sustinuisset: omnino enimP erant tunc
+            <lb ed="#Qb"/>incompossibilia. Similiter, licet naturalia in statu
+            <lb ed="#Qb"/>lapsus, quantumcumque sint bona, iuxta quod
+            <lb ed="#Qb"/>sustinet status huiusmodi, sustinent lapsum in
+            <lb ed="#Qb"/>vitium culpae ipsis non cadentibus in oppositum
+            <lb ed="#Qb"/>genus, in statu illo non sustinuissent, immo ne<lb ed="#Qb"/>cessario
+            cecidissent in genus oppositum, quia in
+            <lb ed="#Qb"/>corruptionem ab integritate. Propter quod non
+            <lb ed="#Qb"/>valet argumentum illud: 'si'? per gratiam non
+            <lb ed="#Qb"/>potest quis stare quin labatur etc., ergo primus
+            <lb ed="#Qb"/>homo per naturalia' etc.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">Utrum primus homo ex accepta in sui conditione fuerit invertibilis in malum.</head>
+          <p>
+                  <pb ed="#Qb" n="736"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Sequitur inquirere utrum ex acceptis in condi<lb ed="#Qb"/>tione
+            potuit stare invertibilis in malum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod sic, videtur: t. Duas fecit Deus creaturas
+            <lb ed="#Qb"/>rationales a principio, angelum et animam; angelum
+            <lb ed="#Qb"/>autem fecit vertibilem in malum; ad hoc ergo
+            <lb ed="#Qb"/>quod esset universum completum, decuit illum
+            <lb ed="#Qb"/>facere animam invertibilem in malum; sed constat
+            <lb ed="#Qb"/>quod fecit illam talem qualem decuit illum
+            <lb ed="#Qb"/>facere; ergo etc. Et hoc videtur per Augustin
+            <lb ed="#Qb"/>u m, dicentem in libro III De libero arbitrio 2 :
+            <lb ed="#Qb"/>
+            <quote> Ad plenam perfectìonem universi decuit fieri
+            <lb ed="#Qb"/>omnem creaturam quae a recta ratìone potuit
+            <lb ed="#Qb"/>excogitari</quote>; sed recta ratione potest excogitari a
+            <lb ed="#Qb"/>ad perfectionem universi spectare creaturam talem:
+            <lb ed="#Qb"/>quod patet per hoc quod quando universum erit
+            <lb ed="#Qb"/>in ultima completione, tunc erit creatura talis;
+            <lb ed="#Qb"/>ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, honestum propria virtute allicit; ergo
+            <lb ed="#Qb"/>magis honestum magis b alli ci t; ergo summe ho<lb ed="#Qb"/>nestum
+            summe alli ci t et infinitum infinite; ergo,
+            <lb ed="#Qb"/>cum primus homo conditus fuerit in notitia et
+            <lb ed="#Qb"/>amore summi bo n i ........ dicit enim B o e t h i u s c 3
+            <lb ed="#Qb"/>quod amor et notitia summi boni naturaliter
+            <lb ed="#Qb"/>sunt insita humanae animae - ex quo sequitur
+            <lb ed="#Qb"/>quod si d fuit ilio bono allectus, summe fuit al<lb ed="#Qb"/>lectus
+            illo e qui est summe honestus; nihil tale
+            <lb ed="#Qb"/>est vertibile ab eo; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, primus homo conditus fuit secundum
+            <lb ed="#Qb"/>animam in esse naturali communi et rectitudine
+            <lb ed="#Qb"/>sive iustitia naturali 4 ; ratione qua conditus erat
+            <lb ed="#Qb"/>ex nihilo fuit in possibilitate quadam et ad nonesse
+            <lb ed="#Qb"/>quantum ad esse naturale, si sibi esset re<lb ed="#Qb"/>lictus
+            5, et similiter ad non-esse q uantum ad esse
+            <lb ed="#Qb"/>naturalis iustitiae; sed in utroq ue esse conser<lb ed="#Qb"/>vabatur
+            per influentiam virtutis divinae; sed
+            <lb ed="#Qb"/>melius et magis acceptum fuit Deo esse naturalis
+            <lb ed="#Qb"/>rectitudinis sive iustitiae quam esse naturae simpliciter,
+            et quanto aliquid est melius et magis
+            <lb ed="#Qb"/>acceptum Deo, magis decet illum in statu illo,
+            <lb ed="#Qb"/>influendo, virtutem illi conservare; ergo, si con<lb ed="#Qb"/>tinua
+            influentia virtutis anima/ primi hominis
+            <lb ed="#Qb"/>invertibilisg fuit quantum ad esse naturae, multo
+            <lb ed="#Qb"/>fortius videtur quod fuit invertibilis quantum ad
+            <lb ed="#Qb"/>esse naturalis iustitiae.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>4. Item, hoc etiam videtur per divinam bonitatem.
+            <lb ed="#Qb"/>Ut enim dici t D i o n y si u s 6 : <quote> Opti mi est
+            <lb ed="#Qb"/>optima adducere </quote>; sed melior est natura rationalis
+            <lb ed="#Qb"/>quae non potest peccare quam quae potest;
+            <lb ed="#Qb"/>cum ergo conveniat Optimum, scilicet Deum, optima
+            <lb ed="#Qb"/>adducere, . sed h secundum quod convenii
+            <lb ed="#Qb"/>sibi, adduxit, relinquitur quod adduxit naturam
+            <lb ed="#Qb"/>rationalem, scilicet hominem primum, impotentem
+            <lb ed="#Qb"/>peccare et ita invertibilem ad peccandum~
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Hoc idem videtur per liberalitatem ipsius:
+            <lb ed="#Qb"/>liberalis enim est, et maxime conferentis ex mera
+            <lb ed="#Qb"/>grafia, statim dare indigenti quod intendi t. Ad quod
+            <lb ed="#Qb"/>hortatur divina sapientia, Prov. 3, 28: Ne dicas
+            <lb ed="#Qb"/>amico tuo : V ade et revertere et cras dabo ti bi,
+            <lb ed="#Qb"/>cum statim possis dare; mora enim in dando
+            <lb ed="#Qb"/>gratiam dantis denigrat; sed consta t quod Deus
+            <lb ed="#Qb"/>intendebat facere primum hominem aliquando
+            <lb ed="#Qb"/>invertibilem; ergo videtur quod statim fecit eu m
+            <lb ed="#Qb"/>tale m.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Idem videtur per divinam sapientiam, quae
+            <lb ed="#Qb"/>summa est: maioris enim scientiae est scire malum
+            <lb ed="#Qb"/>praecavere quam malo facto remedium adhibere;
+            <lb ed="#Qb"/>melius enim providet si bi et alii qui praecavet
+            <lb ed="#Qb"/>ne in malum incidat quam qui post casum
+            <lb ed="#Qb"/>remedium adhibet; ergo, si divina sapientia maxime
+            <lb ed="#Qb"/>manifestanda erat in hominis conditione, videtur
+            <lb ed="#Qb"/>quod talem debuit eum fecisse et tanta
+            <lb ed="#Qb"/>illum cautela contra lapsum munivisse quod non
+            <lb ed="#Qb"/>posset incidere in eum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>7. Item, idem videtur per divinam potentiam
+            <lb ed="#Qb"/>quod, ex eo quod infinita est, influit unicuique
+            <lb ed="#Qb"/>quantum potest capere: videtur enim t, eo quod
+            <lb ed="#Qb"/>divina potentia indivisibilis k est in se et cum
+            <lb ed="#Qb"/>hoc infinita, non minus influere in dando quam
+            <lb ed="#Qb"/>si t creatura capax in accipiendo; sed primus
+            <lb ed="#Qb"/>homo fui t capax invertibilitatis; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Gloria est bo n um laudabile; se d
+            <lb ed="#Qb"/>nullus est laudabilis in eo quod habet, nisi habeat
+            <lb ed="#Qb"/>illud 1 per merita; ergo, si Deus feci t hominem
+            <lb ed="#Qb"/>ad hoc ut perveniret ad statum gloriae et
+            <lb ed="#Qb"/>praemii, videtur quod debuit etiam facere hominem
+            <lb ed="#Qb"/>in statu meriti; séd status meriti et praemii
+            <lb ed="#Qb"/>sunt distincti sicut status viae et patriae secundum
+            <lb ed="#Qb"/>legem communem; ergo et dona via e et patria e;
+            <lb ed="#Qb"/>si igitur habere impossibilitatem ad peccandum
+            <pb ed="#Qb" n="737"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>hoc spectat ad securitatem beatitudinis, videtur
+            <lb ed="#Qb"/>quod a principio non debuit homini dari.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, universum ex oppositione mali ad bo<lb ed="#Qb"/>num
+            decoratur <quote> quasi quibusdam antithetis </quote>,
+            <lb ed="#Qb"/>sicut dicit<name ref="#Augustine">Augustinus</name> 1, et Eccli. 33,15 innuit:
+            <lb ed="#Qb"/>Contra bonum malum etc. Si ergo Deus univer—
+            <lb ed="#Qb"/>sum debuit venustare et decorare, videtur quod
+            <lb ed="#Qb"/>nunc'! decorem universo non debuit auferre ; sed,
+            <lb ed="#Qb"/>si fecisset hominem invertibilem, iam hic decor
+            <lb ed="#Qb"/>non esset; ergo etc. <lb ed="#Qb"/>
+               </p>
+          <p>
+            <lb ed="#Qb"/>c. Hoch idem videtur, quia Deus universum
+            <lb ed="#Qb"/>fecit ad sui ipsius manifestationem; et sicut Deus
+            <lb ed="#Qb"/>est summe potens et sapiens, sic est summe
+            <lb ed="#Qb"/>iustus et misericors; ergo tale debuit facere uni<lb ed="#Qb"/>.versum
+            in quo manifestaretur eius summa iustitia
+            <lb ed="#Qb"/>et summa misericordiaz; sed summa iustitia non
+            <lb ed="#Qb"/>manifestatur nisi in severitate punitionis malo<lb ed="#Qb"/>rum,
+            summa misericordia non manifestatur per<lb ed="#Qb"/>fecte
+            nisi in liberatione miserorum et remissione
+            <lb ed="#Qb"/>delictorum; haec autem non possent esse nisi
+            <lb ed="#Qb"/>rationalis creatura facta esset in statu in quo
+            <lb ed="#Qb"/>posset peccare; ergo divina iustitia et misericordia
+            <lb ed="#Qb"/>exigebat hominem vertibilem fieri. ,
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo? Ut ex supra dictis 04 patet, Deus
+            <lb ed="#Qb"/>creaturas, et maxime rationales, condidit et etiam
+            <lb ed="#Qb"/>modum et qualitatem in conditione convenienter
+            <lb ed="#Qb"/>observavit ad Sui magnificentiam declarandam et<lb ed="#Qb"/>creaturae
+            rationalis utilitatem. Nota ergo quod,
+            <lb ed="#Qb"/>etsi divina operatio non indigeat approbatione,
+            <lb ed="#Qb"/>pro eo quod quidquid Deus facit, optime facit,
+            <lb ed="#Qb"/>verumtamen ad excitandam devotionem in men—
+            <lb ed="#Qb"/>tibus tidelium et compescendamd rabiem in ore
+            <lb ed="#Qb"/>blasphemantium ete Deum in suis operibus in<lb ed="#Qb"/>culpantium,
+            multiplex potest assignari ratio quare
+            <lb ed="#Qb"/>Deus fecit hominem vertibilem in malum. Una
+            <lb ed="#Qb"/>est manifestatio divinae potentiae5. Voluit enim
+            <lb ed="#Qb"/>Deus ostendere homini quod sicut sine eo factus
+            <lb ed="#Qb"/>non fuerat, ita nec sine ipso persistere poterat.
+            <lb ed="#Qb"/>Ut ergo homo nosceret quod divinum posse non
+            <lb ed="#Qb"/>solummodof est omnis potentiae creativum €, sed
+            <lb ed="#Qb"/>etiam omnis potentiae conservativum et quod ille
+            <lb ed="#Qb"/>solus est indefectibilis et invertibilis 5, ideo placuit
+            <lb ed="#Qb"/>sibi creaturam rationalem facere vertibilem nec
+            <lb ed="#Qb"/>ipsam confirmare in bono, quousque illi con<lb ed="#Qb"/>staret
+            quod ipse solus est in quo non cadit non
+            <lb ed="#Qb"/>posse. — Secunda ratio est manifestatio divi<lb ed="#Qb"/>nae
+            sapientiae, quae ostenditur ex tribus,
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>scilicet ex ordine malorum cum bonis sive ad
+            <lb ed="#Qb"/>bonum, virtutis ad actum proprium, meriti ad
+            <lb ed="#Qb"/>praemium. Ex vertibilitate enim hominis in ma<lb ed="#Qb"/>lum,
+            quod quidem malum Deus ordinat 'cum bonis
+            <lb ed="#Qb"/>et ex quo bonum elicit, divina sapientia mani<lb ed="#Qb"/>festatur.
+            Maioris enim sapientiae est scire ordi—
+            <lb ed="#Qb"/>nare bona cum malis et elicere bonum ex, malis
+            <lb ed="#Qb"/>quam ordinare solummodo bona cum bonis et
+            <lb ed="#Qb"/>ex bonis elicere bona: et ideo, cum non deceret
+            <lb ed="#Qb"/>Deum facere mala, debuit talem facere creatu<lb ed="#Qb"/>ram,
+            quae posset in operando deficere et malum
+            <lb ed="#Qb"/>committere, ut Deus mala illa ordinando suam
+            <lb ed="#Qb"/>sapientiam declararet 7. Dicit enim Augustinu 8,
+            <lb ed="#Qb"/>XI De civitate Dei, 18 cap.8: <quote>Neque Deus
+            <lb ed="#Qb"/>ullumh, non dico angelorum, sed vel hominum
+            <lb ed="#Qb"/>crearet, quem malum futurum esse praescisset,
+            <lb ed="#Qb"/>nisi pariter nosseti quibus eos bonorum usibus
+            <lb ed="#Qb"/>commodaret </quote>. Ostenditur etiam divina sapientia
+            <lb ed="#Qb"/>ex ordine virtutis ad actum proprium: sic enim
+            <lb ed="#Qb"/>divina providentia omnes res administrat, ut eas
+            <lb ed="#Qb"/>agere propriis motibus sinatg: et ideo hominem
+            <lb ed="#Qb"/>condidit in libertate arbitrii et in manu consilii
+            <lb ed="#Qb"/>sui reliquit 10; hoc enim competebat regimini divi<lb ed="#Qb"/>nae
+            sapientiae in conservatione ordinis, qui atten—
+            <lb ed="#Qb"/>ditur ex comparatione virtutis ad actum proprium.
+            <lb ed="#Qb"/>Ostenditur etiam ex ordine qui attenditur ex
+            <lb ed="#Qb"/>comparatione meriti ad praemium. Quia nemo
+            <lb ed="#Qb"/>dignus est coronari nisi qui legitime certaverit,
+            <lb ed="#Qb"/>II Tim. 2, 5, ideo decuit divinam sapientiam homi<lb ed="#Qb"/>nem
+            prius quasi in campo certaminis examinare
+            <lb ed="#Qb"/>quam in gloria exaltare. — Alia ratio est mani<lb ed="#Qb"/>festatio
+            divinae misericordiae, quae potis<lb ed="#Qb"/>sime
+            manifestata est, cum- Unigenitum suum
+            <lb ed="#Qb"/>tradidit pro servi liberatione k". — Alia ratio est
+            <lb ed="#Qb"/>manifestatio divinae iustitiae, quae potissime
+            <lb ed="#Qb"/>manifestatur in hoc quod Deus retribuit unicui<lb ed="#Qb"/>que
+            secundum opera sua 12, bonis scilicet bona
+            <lb ed="#Qb"/>aeterna retribuendo, malis aeterna poena pu<lb ed="#Qb"/>niendo.
+            Haec autem retributio et punitio et prae<lb ed="#Qb"/>fata
+            misericordiae liberatio non esset nisi Deus
+            <lb ed="#Qb"/>hominem in .statu vertibilitatis condidisset. —<lb ed="#Qb"/>Praeterea,
+            alia ratio est'augmentum gloriae
+            <lb ed="#Qb"/>beatorum. Gloriosius enim est homini, in verti<lb ed="#Qb"/>bilitate
+            ad malum condito, quodam modo ex me<lb ed="#Qb"/>ritis
+            gloriam obtinere quam [in] invertibilitate
+            <lb ed="#Qb"/>conditum fuisse et sic sine aliquo genere meriti
+            <lb ed="#Qb"/>beatificari; propter hoc ad commendationem iusti
+            <pb ed="#Qb" n="738"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>vertibilis in malum dicitur Eceli. 31',10: Qui potuit 
+            <lb ed="#Qb"/>transgredi et non est transgressus-,- face-re malum '
+            <lb ed="#Qb"/>et non fecit. Huiusmodi ergo rationibus-patet quod
+            <lb ed="#Qb"/>congruit Deum hominem vertibilem feci-Sse; unde ;
+            <lb ed="#Qb"/>rationes ad hoc adductae sunt concedendae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[.Ad. obiecta]: l. Adillud qued primo obi-5
+            <lb ed="#Qb"/>citur contra hoc, scilicet de completione' universi: i
+            <lb ed="#Qb"/>dicendum quod ex hoc potius esset deformatio ;
+            <lb ed="#Qb"/>universi et defectus" quam completio. Ad com—
+            <lb ed="#Qb"/>pletionem enim universi et decorem est solum- '
+            <lb ed="#Qb"/>mod-o Deum deficere non posse nec vertibilem
+            <lb ed="#Qb"/>esse' et rationalem creaturam d'efectibilem et ver— '
+            <lb ed="#Qb"/>tibilem esse: et hoc duobus modis, ita quod
+            <lb ed="#Qb"/>aliqua-sit vertibilis semel, id est vertibilis cum
+            <lb ed="#Qb"/>impossibilitate revertendi, scilicet angelica; alia?
+            <lb ed="#Qb"/>vertibilis pluries, id esta-vertibilis cum possibi- ?
+            <lb ed="#Qb"/>litate revertendi. Magis ergo est ad completionem
+            <lb ed="#Qb"/>et decorem universi hominem fuisse "conditumg
+            <lb ed="#Qb"/>vertibilem quam invertibilem. Praeterea, magis:<lb ed="#Qb"/>'convenieba-t
+            ad divinam-potentiam, bonitatem et ;
+            <lb ed="#Qb"/>sapientiam manifestandam homi-nem fuisse sic
+            <lb ed="#Qb"/>conditum quam: sic, 'et ad hominis gloriam. —
+            <lb ed="#Qb"/>Ad illud quod subditur quod 'ad plenam per— .'
+            <lb ed="#Qb"/>fectionem universi decuit fieri omnem creaturam
+            <lb ed="#Qb"/>quae a ratione recta potuit excogitari': dicendum
+            "quod ali-ud est dicere 'omnem creaturam 'et dicere ,
+            <lb ed="#Qb"/>Singulas creaturas Vel unamquamque: 'omnem'
+            <lb ed="#Qb"/>enim" dicit multitudinem in ordined. Praeterea,
+            ' excogitare ' non dicit solummodo conceptibnem ** ï
+            <lb ed="#Qb"/>intellectus sive apprehensio-nem, sed cum ratione :
+            "et iudicio; cogi-tatiof eni-m est Simul agitatio:
+            <lb ed="#Qb"/>unde "excogitare' dicit Conceptionem intellectus"
+            <lb ed="#Qb"/>cum ratione et iuditio pertecto. Haec enim prae<lb ed="#Qb"/>positio
+            ' ex' auget in compositione, cum dicitur
+            "excogitare,. Unde, licet hominem fuisse condi— 
+            <lb ed="#Qb"/>tum invertibiiem potuit a recta ratione concipi
+            <lb ed="#Qb"/>sive apprehendi ut erat de numero singulorum,
+            <lb ed="#Qb"/>non tamen ut erat de numero omnium poterat.
+            <lb ed="#Qb"/>excogitari. —— Ad illud quod subditur quod
+            'quando universum erit in ulti-ma completione,
+            <lb ed="#Qb"/>tunc erit homo talis': dicendum quod tunc erit
+            "status praemii et anima 'erit8 in quadam deifor<lb ed="#Qb"/>mi-ta-te;
+            propter quod tunc- erit quod nunc non est.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad aliud" quod obicitur quod "summe
+            <lb ed="#Qb"/>honestum summe allicit' etc.: dicendum[ quod
+            <lb ed="#Qb"/>hoci verum est quantum est de aptitudine et
+            <lb ed="#Qb"/>efficacia alticientis, ipsa tamen anima, quantum<lb ed="#Qb"/>cumque
+            sit naturalibus praedita, nisi fuerit gratia .
+            <lb ed="#Qb"/>disposita et informata, non sic allicitur. Nisi enim
+            <lb ed="#Qb"/>fuerit a curvi-tate naturae per gratiam erectak et
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>a tenebris obscuritatis n-afuralis'þurgata, ita qitod
+            <lb ed="#Qb"/>apta sit ad figend'ünïl aspectu-rn in c'andoiäe [umi<lb ed="#Qb"/>nis
+            aeterni, non erit apta" neque etiam pessibilis
+            <lb ed="#Qb"/>adhoc quod Stimme alliciatur, sed inspecto
+            <lb ed="#Qb"/>candore illo lucis deterhäez, quae est inaccessi<lb ed="#Qb"/>bilis 
+            viatoribus, perfecte rapietur anima in summe
+            <lb ed="#Qb"/>honestum et summe allicietur: unde sic allici
+            <lb ed="#Qb"/>comprehensoru-i'n est, non viatorum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad illud quod obicitur" quod " quanto ali<lb ed="#Qb"/>quid
+            est melius et magis acceptum Deo, tanto ' etc.:
+            <lb ed="#Qb"/>dicendum quod hoc Verum est conservatis con<lb ed="#Qb"/>gruitate
+            et condecentia divinae excellentiae, modo
+            <lb ed="#Qb"/>et ordine perfectionis " statu um et retributionis per<lb ed="#Qb"/>fectione
+            3. Ut enim ex dictis patet 4,— plus congruit
+            <lb ed="#Qb"/>divinae eXcellentiae', scilicet potentiae, sapien<lb ed="#Qb"/>tia-e,
+            iustitiae et misericordiae, hominem fuisse
+            <lb ed="#Qb"/>conditum vertibilem quam invertibilen'i, et etiam
+            <lb ed="#Qb"/>magis congruit statui perfed-ionis humanae et
+            <lb ed="#Qb"/>gloriae eiusdem perfectioni", sicut infra pate-bits.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad illud quod" obicitur per auctoritatem
+            <lb ed="#Qb"/>Dionysii quod *eius est facere liominem opti<lb ed="#Qb"/>mum,:
+            dicendum quod est optimumP simpliciter
+            <lb ed="#Qb"/>et est optimum in ordine. Cum autem dicit Dio<lb ed="#Qb"/>nysius
+            quod <quote>Optimi est optima adducere </quote>,
+            <lb ed="#Qb"/>non intelligit absolute, sed in ordine, et ideo ex
+            <lb ed="#Qb"/>hoc non sequitur quod homo debuerit fieri in
+            <lb ed="#Qb"/>optimo statu simpliciter, sed in statu in quo
+            <lb ed="#Qb"/>optime salvare-tur universitatis ordo et pulcritudo ;
+            <lb ed="#Qb"/>et sic tactus est, cum productus fuit in statu
+            <lb ed="#Qb"/>v'ertibilitatistl ut Ordinato processu perveniret et
+            <lb ed="#Qb"/>merito ad praemium et ab imperfecto ad periec<lb ed="#Qb"/>tum,
+            ab inferiori ad supremum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad iliud quod obicitur de summa libera<lb ed="#Qb"/>litate,
+            dicendum quod, etsi Deus Sit liberalissimus,
+            <lb ed="#Qb"/>tamen liberalitas non praecludit viam iustitiae et
+            <lb ed="#Qb"/>sapientiae. ldeo sic dona sua distribuit largiter,
+            <lb ed="#Qb"/>ut tamen non excludatur sapientiae recta ordi<lb ed="#Qb"/>natio
+            vel iustitiae iusta retributio 6 ; ideo non sta<lb ed="#Qb"/>tim
+            debuit beatificare et confirmare', sed merita
+            <lb ed="#Qb"/>hominis expectare.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Ad illud quod obicitur quod "maioris sa<lb ed="#Qb"/>pientiae
+            est praecavere malum' etc.: dicendum
+            <lb ed="#Qb"/>quod falsum est, immo multo maioris sapientiae
+            <lb ed="#Qb"/>est mor-bum bene cura-re quam natur-am a morbo
+            <lb ed="#Qb"/>praeservare, Unde <name ref="#Augustine">Augustinus</name>, in Enchiridion7:
+      <quote>Melius iudicavit Deus de malis bona facere
+            <lb ed="#Qb"/>quam mala nulla permittere </quote>. Et maiori etiam
+            <lb ed="#Qb"/>sapientiae attestatur, ut praedictum est 3, sic res
+            <lb ed="#Qb"/>ordinare, ut ex superveniente deordinatione non
+            <lb ed="#Qb"/>deturpentur, sed earum* ordinatio decoretur.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="739"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>7. Ad aliud-1 quod obicitur per potentiam.;
+            <lb ed="#Qb"/>divinam, quae infinita est et simplex etc.; dicen- ?
+            <lb ed="#Qb"/>dum quod, licet sit infinita, eo tamen quod in<lb ed="#Qb"/>fluit
+            et agitb per electionem, moderate, secundum :
+            <lb ed="#Qb"/>quod exigit quantitas effectus inducendi, operatur.. <lb ed="#Qb"/>Omnipotentia
+            enim Conditoris non solum potest f
+            <lb ed="#Qb"/>in omnia .quae0 vult ipsa divina voluntas, sed ,
+            <lb ed="#Qb"/>potest in omniad ut vult; propter quod potest;
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>in effectus nobiliores et minus nobiles 2; maio<lb ed="#Qb"/>res
+            et minoresf secundum electionem suae vo<lb ed="#Qb"/>luntatis.
+            Et, licet divina potentia simplex sit, non
+            <lb ed="#Qb"/>propter hoc exeritg se totaliter in agendo, immo
+            <lb ed="#Qb"/>moderate operatur, iuxta beneplacitum suae vo<lb ed="#Qb"/>luntatis.
+            Unde quod est in se impartibile, partitur
+            <lb ed="#Qb"/>in .suis effectibus, sicut legitur de h <quote ana="#sap7_22">spiritu intelli<lb ed="#Qb"/>gentiae
+            quod est multiplex et unicus</quote>, Sap. 7, 22.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Utrum libero arbitrio primi hominis potuit dari invertibilitas per naturam 1.</head>
+          <p>
+            <lb ed="#Qb"/>Sequitur inquirere utrum libero arbitrio hominis g
+            <lb ed="#Qb"/>primi vel alicuius creaturae poterat conferri quod
+            .esset invertibile per naturam, scilicet sine gratia
+            <lb ed="#Qb"/>superaddita.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod. sic, videtur: 1. Et primo a simili sumpto j
+            <lb ed="#Qb"/>a luce corporali. Contingit enim reperire lucem
+            <lb ed="#Qb"/>corporalem quam impossibile est per naturam in
+            <lb ed="#Qb"/>se obn-ubilarii, sicut lucem empyrei velk lucem
+            <lb ed="#Qb"/>solis; si ergo lux spiritualis muito purior est
+            <lb ed="#Qb"/>quam corporalis, videtur quod anima humana'i
+            <lb ed="#Qb"/>potuit fieriiin perfectione tanti luminis per na<lb ed="#Qb"/>turam,
+            quod nullo modo posset'obscurari nec per
+            <lb ed="#Qb"/>ignorantiam nec per culpam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, contingit reperire aliquam substantiam ..
+            <lb ed="#Qb"/>corporalem intransmutabitem quantum ad sub—
+            <lb ed="#Qb"/>stantiam et quantum ad proprietates, sicut est
+            <lb ed="#Qb"/>corpus ultimum, scilicet empyreum 2, et hoc non
+            <lb ed="#Qb"/>habet solum per-gratiam, sed etiam'" per naturam;
+            <lb ed="#Qb"/>ergo pari ratione est spiritualem substantiam per '
+            <lb ed="#Qb"/>naturam in tanta stabilitate " fieri, quod nullo modo
+            <lb ed="#Qb"/>valeat permutari a rectitudine naturali; si .enim
+            <lb ed="#Qb"/>hoc reperitur in substantia corporali, multo tor<lb ed="#Qb"/>tius
+            reperiri potest in substantia digniori.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, gratia est perfectio naturae et perfectio
+            <lb ed="#Qb"/>conformatur suo perfectibili; si ergoo gratia con<lb ed="#Qb"/>firmationis
+            omnino reddit naturam .impossibilem
+            <lb ed="#Qb"/>ad peccandum, videtur quod anima humana natu<lb ed="#Qb"/>raliter
+            capax sit talis stabilitatisl' et i-nvertibilitatis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Si tu dicas quod non est capax talis in<lb ed="#Qb"/>vertibilitatis
+            nisi media-nte gratia - obicitur
+            <lb ed="#Qb"/>contra hoc quia talis vertibilitas ad malum
+            <lb ed="#Qb"/>aut est essentialis ipsi naturae aut non. *Si est
+            <lb ed="#Qb"/>essentia.-lis, ergo videtur quod per gratiam non
+            <lb ed="#Qb"/>possit auterri. .Si non est essentialis, ergo videtur
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quodq sine tali vertibilitate ad malum possit na<lb ed="#Qb"/>tura
+            rationalis tieri, salva sua natura et nulla
+            <lb ed="#Qb"/>superaddita gratia. -— Propter hoc est quaestio:
+            <lb ed="#Qb"/>cum tam liberum arbitrium hominis quam gratia
+            <lb ed="#Qb"/>sit creatum, ut quid dari potest gratiae inflexibi<lb ed="#Qb"/>litas
+            ad malum et non potest dari creaturae ra<lb ed="#Qb"/>tionali? 
+            Videtur enim'ratione consimili quod, sif
+            <lb ed="#Qb"/>potest dari uni, quods possitdari alteri.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Item, licet omnis creatura per se sit verti<lb ed="#Qb"/>bilis
+            secundum naturam, aliquae. tamen tales
+            <lb ed="#Qb"/>creantur a sua origine quod impossibile est eas
+            <lb ed="#Qb"/>corrumpi, et hoc habent sine aliquo addito natu<lb ed="#Qb"/>ralibus,
+            sicut patet in aliis simplicibus: unde
+            angeli et animae per naturam sunt immortales3 ;
+            <lb ed="#Qb"/>ergo pari ratione videtur quod aliquae animae
+            <lb ed="#Qb"/>possint creari per naturam ad malum intlexibiles;
+            <lb ed="#Qb"/>videtur igitur possibile tale adiutorium a Deo
+            <lb ed="#Qb"/>conferri per quod naturaliter ad malum non posset
+            <lb ed="#Qb"/>inflecti.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Ista duo sunt convertibilia, sicut
+            <lb ed="#Qb"/>vult Damascenus4 et etiam Augustin-us5,
+            <lb ed="#Qb"/>videlicet esse creaturam et esse vertibilef; sic
+            <lb ed="#Qb"/>ergo in omni creatura necesse est esse aliquam
+            <lb ed="#Qb"/>vertibilitatem; sed in substantia spiritu-ali non est
+            <lb ed="#Qb"/>vertibilitas secundum substantiam; ergo necesse
+            <lb ed="#Qb"/>est quod sit secundum electionem; ergo impos<lb ed="#Qb"/>sibile
+            est substantiam creatam habere liberum
+            <lb ed="#Qb"/>arbitrium per naturam intiexibile.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, non est per naturam magis arctatus"
+            <lb ed="#Qb"/>affectus quam intellectus; sed intellectus, eo ipso
+            <lb ed="#Qb"/>quod intellectus" est, per naturam suam est natus
+            .omnia intelligereö; pari ergo ratione affectus per
+            <lb ed="#Qb"/>naturam suam est potens hoc vel illud appetere,
+            <lb ed="#Qb"/>ergo ab uno oppositorum in alterum transire;
+            <lb ed="#Qb"/>ergo omnis affectus creatus, quantum est de
+            <pb ed="#Qb" n="740"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>natura sua, non solum bonum simpliciter, sed
+            <lb ed="#Qb"/>etiam apparens, non solum bonum concessum,
+            <lb ed="#Qb"/>sed etiam prohibitum, potest velle et potest eli<lb ed="#Qb"/>gere;
+            ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, liberum arbitrium creatum, hoc ipso"
+            <lb ed="#Qb"/>quod creatum est, factum est debens aliquid suo
+            <lb ed="#Qb"/>Creatori, videlicet honorem; ergo, si dominatur
+            <lb ed="#Qb"/>suo actui, potest non-reddere quod debet; sed
+            <lb ed="#Qb"/>hoc est peccatum; ergo necessarium est liberum
+            <lb ed="#Qb"/>arbitrium, quantum est de sua natura, fieri flexi<lb ed="#Qb"/>bile
+            ad peccatum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Item, sib liberum arbitrium per naturam
+            <lb ed="#Qb"/>suam esset inflexibile ad malum, ergo stare in
+            <lb ed="#Qb"/>bono et facere bonum esset eic naturale; ergo
+            <lb ed="#Qb"/>omne opus egrediens a libero arbitrio - esset in
+            <lb ed="#Qb"/>genere operis naturalis et nullum esset in genere
+            <lb ed="#Qb"/>moris; ergo, si hoc verum est, nullum esset me<lb ed="#Qb"/>ritorium,
+            nullum etiam esset laudabile, per nul<lb ed="#Qb"/>lum
+            etiam opus quod iaceret esset-liberum ar<lb ed="#Qb"/>bitrium
+            ad gloriam ordinabile ; sed hoc est con<lb ed="#Qb"/>tra
+            naturalem liberi arbitrii institutionem; ergo
+            <lb ed="#Qb"/>impossibile est alicui creaturae dari liberum ar<lb ed="#Qb"/>bitrium
+            per naturam inflexibile.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeod: Cum dicitur 'aliquid dari alicui ',
+            <lb ed="#Qb"/>per hoc quod dicitur 'dari' notatur aliquid me<lb ed="#Qb"/>dium
+            inter dantem et accipientem. .Cum ergo
+            <lb ed="#Qb"/>quaeritur utrum dari potuit libero arbitrio primi
+            <lb ed="#Qb"/>hominis per naturame quod esset invertibile in
+            <lb ed="#Qb"/>malum: dicendum quod, in quantum hoc quod
+            <lb ed="#Qb"/>dicitur 'dari' dicit rem suam relatam ad acci<lb ed="#Qb"/>pientem,
+            non potest; per naturam dico, quia hoc
+            <lb ed="#Qb"/>est privare liberum arbitrium natura propria, et
+            <lb ed="#Qb"/>esse eius naturali repugnat, utf infra patebit 1. Se—
+            <lb ed="#Qb"/>cundum autem quod dicit rem suam relatam ad
+            <lb ed="#Qb"/>ipsum dantem, scilicet Deum, loquendo de po<lb ed="#Qb"/>testate
+            absoluta, potuit, loquendo de potestateg
+            <lb ed="#Qb"/>ordinata, non'potuith. Et dico potestatem ordi<lb ed="#Qb"/>natam
+            quaf influit esse rebus, secundum quod
+            <lb ed="#Qb"/>praevidit et ordinavit eas iiendas et ordinandas
+            <lb ed="#Qb"/>ab aeterno; potestatem absolutam dico qua po—
+            <lb ed="#Qb"/>tuit aliter ab aeterno praevidisse'c res fiendas et
+            <lb ed="#Qb"/>ordinandas' et illis naturas alias in tempore indi—
+            <lb ed="#Qb"/>disse: potuit enim ab aeterno praevidisse primum
+            <lb ed="#Qb"/>hominem futurum invertibilem quantum ad libe—
+            <lb ed="#Qb"/>rum arbitrium et illum talis naturae condidisse
+            <lb ed="#Qb"/>in tempore. Ex iis patet quod impossibile'fuit
+            <lb ed="#Qb"/>hominem primum vel aliquam creaturam ratio—
+            <lb ed="#Qb"/>nalem habere liberum arbitrium invertibile ad
+            <lb ed="#Qb"/>malum, quia hoc repugnat naturae ipsius crea<lb ed="#Qb"/>turae
+            rationalis et a parte principii initialis et a
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>parte<!--l--> termini finalis. — Quod sic patet:
+            <lb ed="#Qb"/>Si liberum arbitrium creaturae rationalis tieret
+            <lb ed="#Qb"/>naturaliter invertibile ad malum, aut hoc esset'"
+            <lb ed="#Qb"/>propter ipsius'arctationem ad bonum aut propter
+            <lb ed="#Qb"/>ipsius determinationem ad bonum. Si propter
+            <lb ed="#Qb"/>arctationem, ut sic'[ scilicet taceret bonum sicut"
+            <lb ed="#Qb"/>lapis tendit deorsum, iam revera nec liberum
+            <lb ed="#Qb"/>arbitrium esset liberum nec opus eius laude di<lb ed="#Qb"/>gnum,
+            et ita ineptum esset ad finem propter
+            <lb ed="#Qb"/>quem est factum, scilicet ad praemium gloriae.
+            <lb ed="#Qb"/>Si autem inflexibile esset ad malum propter de<lb ed="#Qb"/>terminationem
+            ad bonum-, quia sic potens esset
+            <lb ed="#Qb"/>per naturam propriam in bonum ut non posset
+            <lb ed="#Qb"/>verti in malum, sicut est de libero arbitrio divino,
+            <lb ed="#Qb"/>quod ad sola bona determinatum" est, iam tale
+            <lb ed="#Qb"/>liberum arbitrium careret vanitate per naturam
+            <lb ed="#Qb"/>suam; ergo iam non esset creatura nec productum
+            <lb ed="#Qb"/>ex nihilo, et ita hoc esset contra naturam prin<lb ed="#Qb"/>cipii
+            initialis, quantum ad hoc quod dicimus
+            <lb ed="#Qb"/>creaturam rationalem ex nihilo esse productam 2.
+            <lb ed="#Qb"/>Repugnante ergo natura rationalis creaturae et
+            <lb ed="#Qb"/>ex parte initialis principii et ex parte finalis ter<lb ed="#Qb"/>mini,
+            impossibile fuit primum hominem vel aliam
+            <lb ed="#Qb"/>creaturam rationalem habere liberum arbitrium
+            <lb ed="#Qb"/>per naturam invertibile ad malum: per naturam,
+            <lb ed="#Qb"/>dico, propter illos qui habent hoc per beneficium
+            <lb ed="#Qb"/>gratiae perfectae, sicut illi qui iam gaudent bea—
+            <lb ed="#Qb"/>titudine. —- Si obiciatur quod Deus de po<lb ed="#Qb"/>tentia
+            absoluta posset contulisse illis naturam
+            <lb ed="#Qb"/>talem, ut supra tactum est 3, et nihilominus essent
+            <lb ed="#Qb"/>creaturae et producta in esse de nihilo: dicen<lb ed="#Qb"/>dum
+            quod Deus de potentia absoluta-" non pos<lb ed="#Qb"/>set
+            creaturae rationali contulisse naturam talem,
+            <lb ed="#Qb"/>scilicet quod staret per naturam prOpriam in in<lb ed="#Qb"/>vertibilitate
+            tali. Posset tamen contulisse naturam
+            <lb ed="#Qb"/>talem quod posset stare in tali invertibilitate
+            <lb ed="#Qb"/>gratia superinfusa continue influente et ipsum
+            <lb ed="#Qb"/>liberum arbitrium in hoc-couservante. Unde talis
+            <lb ed="#Qb"/>invertibilitas non posset esse per naturam, sed
+            <lb ed="#Qb"/>solum? beneficio Conditoris. Possunt ergo con<lb ed="#Qb"/>cedi
+            rationes hoc ostendentes.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: ]. Ad hoc quod primo obicitur
+            <lb ed="#Qb"/>contra hoc de luce corporali, dicendum4 quod non
+            <lb ed="#Qb"/>est simile, tum' propter hoc quod fons lucis
+            <lb ed="#Qb"/>corporalis reperiri potest in genere. creaturae,
+            <lb ed="#Qb"/>fons autem lucis spiritualis in genere creaturaes
+            <lb ed="#Qb"/>nequaquam, sed est ipse Creator, iuxta illud
+            <lb ed="#Qb"/>Eccli.5: Fons sapientiae verbum Dei in excelsis;
+            <lb ed="#Qb"/>tum etiam quia lux corporalis respectu actus lu<lb ed="#Qb"/>cendi
+            arctationem habet a Conditore suae naturae:
+            <pb ed="#Qb" n="741"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>unde eius lucere non est laudabile, quia pure na<lb ed="#Qb"/>turale.
+            Non sic est de rectitudine et operatione
+            <lb ed="#Qb"/>rationalis creaturae sive voluntatis deliberativae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad illuda quod obicitur quod 'aliqua
+            <lb ed="#Qb"/>substantia corporalis per naturam est immuta<lb ed="#Qb"/>bilis'
+            etc., iam patet responsio, quia non valet
+            <lb ed="#Qb"/>creatura rationalis ut est creatura in sua natura
+            <lb ed="#Qb"/>condita nec deceret illam sic esse arctatam ad
+            <lb ed="#Qb"/>suum opus sicut corporalem ad suum, sive etiam
+            <lb ed="#Qb"/>quia non tenet summum in genere spiritus, sicut
+            <lb ed="#Qb"/>aliqua creatura corporalis tenet summum in ge<lb ed="#Qb"/>nere
+            corporum. Verumtamen dici posset quod
+            <lb ed="#Qb"/>omne corpus mutabile'est aliquo genere muta<lb ed="#Qb"/>tionis,
+            ut vult <name ref="#Augustine">Augustinus</name> 1, sive quia ipsum
+            <lb ed="#Qb"/>mutatur in se ", sicut ista corpora inferiora, sive
+            <lb ed="#Qb"/>quia aliqua mutantur in ipso, et hocultimo
+            <lb ed="#Qb"/>modo posset esse mutatio in supremo corpore,
+            <lb ed="#Qb"/>scilicet in caelo empyreo'. Iste tamen'modus di<lb ed="#Qb"/>cendi
+            mutationem est extraneus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad illud quod obicitur de gratia confir<lb ed="#Qb"/>mante,
+            dicendum quod gratia dicitur esse per<lb ed="#Qb"/>fectio
+            naturae, non solum quia illam adiuvat,
+            <lb ed="#Qb"/>sed quia defectum eius excludit. Unde in omni
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>natura creaturae rationalis est aliquis defectusc
+            <lb ed="#Qb"/>naturalis,'qui per gratiam habet excludi, quan<lb ed="#Qb"/>tumcumque
+            illa natura in genere creaturae sit
+            <lb ed="#Qb"/>perfecta; et ideo non sequitur quod si aliquid
+            <lb ed="#Qb"/>convenit alicui per gratiam, quod conveniat per
+            <lb ed="#Qb"/>naturam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Et si obiciatur quod Deus potuit dare
+            <lb ed="#Qb"/>naturae quod dedit gratiae — dicendum quod
+            <lb ed="#Qb"/>natura, ut est natura haec, non fuit nata susci<lb ed="#Qb"/>pere
+            hoc quod Deus dedit gratiae. Sicut enim
+            <lb ed="#Qb"/>alia est natura operis moralis, alia operis natu<lb ed="#Qb"/>ralis,
+            nec proprietas operis moralis potest con<lb ed="#Qb"/>venire
+            operi naturali nisi naturale desineret esse
+            <lb ed="#Qb"/>naturale, sic in proposito intelligendum est: laus
+            <lb ed="#Qb"/>enim et vituperium, quae est proprietas operis
+            <lb ed="#Qb"/>moralis secundum quod huiusmodi, non potest
+            <lb ed="#Qb"/>competere operi naturali in quantum huiusmodi-z.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad illud quod obicitur de immortalitated,
+            <lb ed="#Qb"/>iam patet responsio per praedicta3: quod enim
+            <lb ed="#Qb"/>naturaliter est immortalee, ex hoc non est lau<lb ed="#Qb"/>dabile
+            vel vituperabile; et ita, si liberum arbitrium
+            <lb ed="#Qb"/>inflexibile creatum esset, nec laudis nec vituperii
+            <lb ed="#Qb"/>capax esset.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="115"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q5c2">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 2</head>
+        <head type="question-title">UTRUM PERFECTIO UNIVERSI SIT TANTUM IN BONIS AN ETIAM IN MALIS.</head>
+        <p>
+          <lb ed="#Qb"/>Hoc supposito, quaeritur si perfectio universi
+          <lb ed="#Qb"/>est tantum in bonis an etiam in malis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem perfectio sit in bonis tantum,
+          <lb ed="#Qb"/>videtur: a. Universum enim bonum est et valde
+          <pb ed="#Qb" n="116"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>bonum; sed bonum non componitur nisi ex bonis:
+          <lb ed="#Qb"/>componitur enim ex suis partibus; ergo partes
+          <lb ed="#Qb"/>sunt bonae; sed malum non esta bonum; ergo
+          <lb ed="#Qb"/>malum non est deb compositione universi; uni<lb ed="#Qb"/>versum
+          ergo tantum ex bonis componitur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem: componatur ex malo et bono,
+          <lb ed="#Qb"/>videtur 1. per hoc quod dicit <name ref="#Augustine">Augustinus</name>, ind
+          <lb ed="#Qb"/>XI De civitate Dei 1: <quote>Contrariorum oppositione
+          <lb ed="#Qb"/>saeculi pulcritudo componiture</quote>; sed haec con<lb ed="#Qb"/>traria
+          sunt bonum et malum ; ergo 'pulcritudo 
+          <lb ed="#Qb"/>saeculi compdnitur ex bono et malo; sed hoc'
+          <lb ed="#Qb"/>est universum; ergo universum componitur ex
+          <lb ed="#Qb"/>bono et malo f. .
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, <name ref="#Augustine">Augustinus</name>, Super Genesimz: <quote>Mala
+          <lb ed="#Qb"/>nullo modo eiticiuntg ut non ipsa recte ordinata
+          <lb ed="#Qb"/>cum toto atque universo sint bonah </quote>. Ergo uni<lb ed="#Qb"/>versum
+          componitur ex malis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, Dionysius3: <quote>Malum est ad omne
+          <lb ed="#Qb"/>conterens </quote>; sed 'omne' dicitur universum; ergo
+          <lb ed="#Qb"/>malum confert ad universum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod universum
+          <lb ed="#Qb"/>non habet partes sui nisi bona * secundum
+          <lb ed="#Qb"/>quod huiusmodi, ut consonent partes toti. Unde
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>, Contra Manichaeam4: <quote> Tanta
+          <lb ed="#Qb"/>vis et potentia integritatis est, ut quae multa sunt
+          <lb ed="#Qb"/>bona tunc placeant, cum in universum aliquid
+          <lb ed="#Qb"/>conveniunt atquel concurrunt </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Ad id vero quod obicitur de malis, dicen<lb ed="#Qb"/>dumm
+          quod universum habet in se mala tam<lb ed="#Qb"/>quam
+          partes, non secundum rationem malorum,
+          <lb ed="#Qb"/>sed secundum rationem bonorum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad obiectum autem primo
+          <lb ed="#Qb"/>dicendum quod, cum dicitur 'pulcritudo saeculi
+          <lb ed="#Qb"/>componitur ex oppositione contrariorum ', facienda
+          <lb ed="#Qb"/>est vis in nomine 'pulcritudinis ', eo quod bona
+          <lb ed="#Qb"/>pulcriora apparent ex adiunctione malorum, non
+          <lb ed="#Qb"/>quod mala, in eo quod mala ", unam partem di<lb ed="#Qb"/>cant
+          pulcritudinis: malum enim, in se considera<lb ed="#Qb"/>tum,
+          turpe est et deforme.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum vero dicendum" quod
+          <lb ed="#Qb"/>mala non secundum rationem malorum, sed se<lb ed="#Qb"/>cundum
+          rationem expedientium, nen dico hone<lb ed="#Qb"/>storum,
+          conterunt ad universum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Et per idem solvitur quod dicit Diony<lb ed="#Qb"/>sius, 
+          et ita integritas universi ex bonis simpli<lb ed="#Qb"/>citer
+          vel ex bonis secundum quid constituitur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

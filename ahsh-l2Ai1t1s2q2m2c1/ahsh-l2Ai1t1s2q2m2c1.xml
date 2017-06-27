@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="57"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q2m2c1">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 2, C. 1</head>
+        <head type="question-title">UTRUM CREARI SIT IN TEMPORE.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur de conditione perti<lb ed="#Qb"/>nente 
+          ad ipsum creari sive fieri utrum creari
+          <lb ed="#Qb"/>sit in tempore vel non sit in tempore 3.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod non sit in tempore, sie probatur: a. Tem—
+          <lb ed="#Qb"/>pus ipsum coepit esse: nam si nullus esset motus
+          <lb ed="#Qb"/>vel spiritualis creaturae vel corporalis, quo per
+          <lb ed="#Qb"/>praesens praeteritis futura succederent, nullum
+          <lb ed="#Qb"/>esset tempus omnino; moveri autem creatura non
+          <lb ed="#Qb"/>posset, si non esset**; est autem eo'" quod crea<lb ed="#Qb"/>tur;
+          ergo tempus est posterius ipso creari; non
+          <lb ed="#Qb"/>ergo est in tempore.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, si creatio esset in tempore, tempus prae<lb ed="#Qb"/>cederet;
+          sed nihil est prius creatione nisi Deus,
+          <lb ed="#Qb"/>qui est aeternus; ergo tempus esset aeternum;
+          <lb ed="#Qb"/>sed hoc non est verum: aeternitas enim est " prior
+          <lb ed="#Qb"/>tempore; ergo creatio non est in tempore".
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, tempus non est in sui initio nec simul
+          <lb ed="#Qb"/>cum illo ; ergo, cum creatio passive dicta sit cum
+          <lb ed="#Qb"/>initio temporis vel ante initium, non erit creatio
+          <lb ed="#Qb"/>in tempore.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, Contra Manichaeum5:
+    <quote> Cum ipsa creatura, quam fecit Deus, tempora
+          <lb ed="#Qb"/>esse coeperunt</quote>, et loquitur de factura mundi;
+          <lb ed="#Qb"/>ergo tempus est coaevum creaturae vel ipsi crea<lb ed="#Qb"/>tioni
+          passive dictae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, ad Rom. ultimo, 25 dicitur: <quote>Secundum
+          <lb ed="#Qb"/>revelationem mysterii-" temporibus aeternis taciti</quote>.
+          <lb ed="#Qb"/>Ergo tempora dicuntur aeterna ; sed creatio non;
+          <lb ed="#Qb"/>ergo tempus est ante creationem vel cum creatione.
+          <lb ed="#Qb"/>Et'1 ipsa etiam Glossa6 dicitf: <quote> Aeterna tem<lb ed="#Qb"/>pora
+          dicit quae praecesserunt mundi exordium </quote>.
+          — Item, super illud 11 Tim. 1,9: Ante tempora
+          <lb ed="#Qb"/>saecularia, H aym o, in originali 7: <quote> Tempora sae<lb ed="#Qb"/>cularia
+          intelligimus quae ex eo esse coeperunt
+          <lb ed="#Qb"/>quo mundus factus est, ad differentiam temporum
+          <lb ed="#Qb"/>aeternorum </quote>. Sive ergo accipiantur tempora ae<lb ed="#Qb"/>terna
+          sive saecularia, erit tempus simul cum crea<lb ed="#Qb"/>tione
+          vel ante.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod tempus ac<lb ed="#Qb"/>cipitur
+          multipliciters: uno modo pro mensura mo<lb ed="#Qb"/>tus
+          reis supercaelestis; alio vero modo accipiturf
+          <lb ed="#Qb"/>pro mensura cuiuscumque motus sive rei spiri<lb ed="#Qb"/>tualis
+          sive corporalisgz et secundum neutrum isto<lb ed="#Qb"/>rum
+          modorum est cum creatione. Alio vero modo
+          <lb ed="#Qb"/>sumitur tempus pro mensura mutationis quae su<lb ed="#Qb"/>bito
+          fit vel exitus creaturae de non-esse in esse,
+          <lb ed="#Qb"/>et secundum hoc dicitur esse in" creatione pas<lb ed="#Qb"/>sive
+          dicta sive cum creatura: secundum hunc
+          <lb ed="#Qb"/>modum" principium durationis successivae, quae
+          <lb ed="#Qb"/>dicitur tempus, large accipitur sub tempore. Unde
+          <lb ed="#Qb"/>aliquando invenitur quod in principio temporis
+          <pb ed="#Qb" n="58"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>creavit Deus caelum et terram, hoc est in ' nunc ',
+          <lb ed="#Qb"/>sicut exponit <name ref="#Augustine">Augustinus</name>? secundum unum
+          <lb ed="#Qb"/>modum, in libro suo Contra Manichaenm 1. Alio
+          <lb ed="#Qb"/>vero modo dicitur etiamb esse in tempore, sicut
+          <lb ed="#Qb"/>habitum est in praedicta auctoritate 2, cum di<lb ed="#Qb"/>citur:
+    <quote> Cum ipsa'creatura, quam fecit Deus, tem—
+          <lb ed="#Qb"/>pora esse coeperunt</quote>. Alio vero modo dicitur
+          <lb ed="#Qb"/>tempus pro duratione. Et sic secundum unam ex<lb ed="#Qb"/>positionem
+          idem est dicere ' tempora aeterna'
+          <lb ed="#Qb"/>quod 'durationem aeternam ', quemadmodum dicit
+          <lb ed="#Qb"/>Haym o; secundum aliam vero rationem dicuntur
+          ' tempora aeterna ' quae semper sunt cum mundo:
+          <lb ed="#Qb"/>et secundum hoc dicit <name ref="#Augustine">Augustinus</name>, Contra
+          <lb ed="#Qb"/>Manichaeumw: <quote> Ideo dicuntur tempora aeterna,
+          <lb ed="#Qb"/>non tamen sic aeterna quomodo d Deus est ae<lb ed="#Qb"/>ternus,
+          quia Deus est ante tempora, qui fabricator
+          <lb ed="#Qb"/>est temporum </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: Per hoc patet solutio ad obiecta.
+          <lb ed="#Qb"/>Nam secundum quod tempus dicitur mensura
+          <lb ed="#Qb"/>motus rei supercaelestis vel etiam motus rei
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>corporalis vel spiritualis, dicitur creatio ante tem<lb ed="#Qb"/>pus,
+          non in tempore vel cum tempore.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Ad hoc vero quod dicit <name ref="#Augustine">Augustinus</name>, Con<lb ed="#Qb"/>tra
+          Manichaeum, quod <quote>cum ipsa creatura, quam
+          <lb ed="#Qb"/>fecit Deus, tempora esse coeperunt</quote>: dicendum
+          <lb ed="#Qb"/>quod tempus accipitur ibi pro mensura mutatio<lb ed="#Qb"/>nis,
+          quae subito fite sive exitus rei de non-esse
+          <lb ed="#Qb"/>in esse, et secundum istum modum conceden<lb ed="#Qb"/>dum
+          est quod tempus est cum creatione passive
+          <lb ed="#Qb"/>dicta.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad hoc quod dicitur adf Rom. ultimo, 25:
+          <lb ed="#Qb"/>Tempora aeterna, et etiam Haymo: <quote> Tempora
+          <lb ed="#Qb"/>saecularia ad differentiam aeternorum temporum,
+          <lb ed="#Qb"/>quae praecesserunt mundi exordium </quote>: dicendum
+          <lb ed="#Qb"/>quod tempus accipitur ibi generaliter pro dura<lb ed="#Qb"/>tione,
+          et secundum hoc 'tempora aeterna' dice<lb ed="#Qb"/>turig
+          duratio aeternitatis, quae praecessit mundi
+          <lb ed="#Qb"/>exordium, ad differentiam temporum saecularium,
+          <lb ed="#Qb"/>vel 'tempora aeterna ', quae semper sunt cum
+          <lb ed="#Qb"/>mundo, sicut supra dictum est 4.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

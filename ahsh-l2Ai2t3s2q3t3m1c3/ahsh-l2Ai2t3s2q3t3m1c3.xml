@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="285"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t3m1c3">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 3, M. 1, C. 3</head>
+        <head type="question-title">UTRUM ALIQUID FIAT A DEO CONTRA NATURAM.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur ratione eius quod di<lb ed="#Qb"/>citur-quod
+          miraculum est 'contra naturam *,
+          <lb ed="#Qb"/>I. utrum aliquid fiat a Deo contra naturam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod non 1. per illud quod habetur
+          <lb ed="#Qb"/>super illud ad Eph. 3,9: <quote ana="#eph3_9">Quae sit dispensatio sa<lb ed="#Qb"/>cramenti
+          absconditi a saeculis in Deo</quote>, Glossa 6:
+    <quote> Nec contra causas, quas Deus voluntarie insti<lb ed="#Qb"/>tuit,
+          voluntate mutabili' aliquid facit </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, super illud Rom. 11,24: <quote ana="#rom11_24">Contra naturam
+          <lb ed="#Qb"/>insertus es in bonam olivam</quote>, Glossa7: <quote> Deus,
+          <lb ed="#Qb"/>creator et conditor omnium naturarum, nihil tacit
+          <lb ed="#Qb"/>contra naturam </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Super illud<!--m--> II Cor. 12,11-12: <quote>Etsi
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>nihil sim, tamen signa apostolatus mei" facta
+          <lb ed="#Qb"/>sunt super vos in omni patientia, in signis et pro<lb ed="#Qb"/>digiis
+          et virtutibus</quote>, Glossa 3: <quote>Signa et prodi<lb ed="#Qb"/>gia
+          sunt in iis quae contra naturam fiunt, virtus in
+          <lb ed="#Qb"/>iis quae non contra naturam, ut per impositionem
+          <lb ed="#Qb"/>manus et orationem hominem a morbo liberare </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, super illud Rom. 11,24: <quote ana="#rom11_24">Contra naturam
+          <lb ed="#Qb"/>insertus es in bonam olivam</quote>, Glossa 9: <quote> Dicitur
+          <lb ed="#Qb"/>humano more ' contra naturam" quod est contra
+          <lb ed="#Qb"/>naturae cursum mortalibus notum, sicut est illud
+          <lb ed="#Qb"/>ut surculus fructus radicis terat. Id enim con<lb ed="#Qb"/>tra
+          naturam dicit Apostolus, quod est contra
+          <lb ed="#Qb"/>consuetudinem naturae quam notitia humana com<lb ed="#Qb"/>prehendit</quote>.
+        </p>
+        <p>
+                <pb ed="#Qb" n="286"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>c. Item, in eadem a Glossa: <quote>Non incongrue
+          <lb ed="#Qb"/>dicitur Deus aliquid facere contra naturam, quando
+          <lb ed="#Qb"/>facit contra id quod novimus in natura. Hanc
+          <lb ed="#Qb"/>enim appellamus . cognitum nobis cursum solitumque
+          <lb ed="#Qb"/>naturae, contra quem cum Deus aliquid
+          <lb ed="#Qb"/>facit, magnalia ve! mirabilia nominantur </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Item, cum de ratione miraculi b si t fieri contra
+          <lb ed="#Qb"/>naturam, quaeritur utrum quidquid fit c contra
+          <lb ed="#Qb"/>naturam sit miraculum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod si dicatur - contra: monstra enim fiunt
+          <lb ed="#Qb"/>contra naturam, et tamen non sunt miracula d,
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et est responsio I. 1. quod natura dicitur multipliciter.
+          <lb ed="#Qb"/>Dicitur enim quandoqtie naturalis cursus
+          <lb ed="#Qb"/>hominibus notus, ut in praedicta auctoritate dicitur1 : 
+    <quote> Humano more </quote>. etc. Quandoque dicitur
+          <lb ed="#Qb"/>natura possibilitas quaedam naturae, quam dedit
+          <lb ed="#Qb"/>ei Deus ut ex ea sit quod ipse vult, et sic accipitur
+          <lb ed="#Qb"/>in 01 ossa super illud. ad e Rom. 11,24:
+          <lb ed="#Qb"/>
+          <quote ana="#rom11_24">Contra naturam insertus es</quote> etc., Glossa 2 : <quote> Id
+          <lb ed="#Qb"/>naturae est cuique rei quod de ea Deus facit, a
+          <lb ed="#Qb"/>quo omnis modus, numerus et ordo naturae </quote>;
+          <lb ed="#Qb"/>et II Sententiarum, 18 3 : <quote> Dedit autem Deus naturis
+          <lb ed="#Qb"/>ut ex eis hoc fieri posset, non ut motu
+          <lb ed="#Qb"/>naturali haberent</quote>, et ponit exemplum de virga
+          <lb ed="#Qb"/>arida et de costa. Quandoque f dicitur natura
+          <lb ed="#Qb"/>summa Iex naturae, scilicet ipse Deus, super illud
+          <lb ed="#Qb"/>ad Rom. 11,24: <quote ana="#rom11_24">Contra naturam insertus ess
+          <lb ed="#Qb"/>in bonam olivam</quote>, Glossa 4 : <quote> Contra illam summam
+          <lb ed="#Qb"/>naturae legem a notitia remotam sive impiorum
+          <lb ed="#Qb"/>sive infirmorum tam Deus nullo modo
+          <lb ed="#Qb"/>facit quam contra se ipsum non facit</quote>. - Sic
+          <lb ed="#Qb"/>ergo patet quod, secundum quod accipitur ultimo
+          <lb ed="#Qb"/>modo, nihil contra naturam facit. Similiter nec
+          <lb ed="#Qb"/>secundum quod modo medio, quia id naturae est
+          <lb ed="#Qb"/>in re quod de ea hoc possit facere. Secundum
+          <lb ed="#Qb"/>autem primum modum dicitur facere contra lz naturam;
+          <lb ed="#Qb"/>unde illud 5 : <quote> Non incongrue dicitur facere
+          <lb ed="#Qb"/>Deus contra naturam, quando facit contra
+          <lb ed="#Qb"/>id quod novimus in natura </quote> etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>II. Ad a l i u d respondeo quod monstra non
+          <lb ed="#Qb"/>sunt miracula, licet fiant contra naturam secundum
+          <lb ed="#Qb"/>quod errat in opere suo 1: unde, licet sint
+          <lb ed="#Qb"/>contra naturam, tamen a natura sunt per errorem
+    
+    
+          <lb ed="#Qb"/>naturae. Miracula autem ab àlio principio fiunt
+          <lb ed="#Qb"/>quam sit natura, scilicèt a superiori et k prima
+          <lb ed="#Qb"/>natura, cui debet obedientiam creatura.
+        </p>
+        <p>
+          <lb ed="#Qb"/>III. Quaeritur 6 an si t differentia inter fa cere con<lb ed="#Qb"/>tra 
+          natura m et praeter et supra, et si est, qua e si t 7•
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Quandoque enim invenimus aliqua fieri praeter
+          <lb ed="#Qb"/>naturam, ut 18 dist. Il libri Sententiarum, cap.
+          <lb ed="#Qb"/>Omnium rerum 8, ubi dicitur: <quote>Su per 1 bune naturalem
+          <lb ed="#Qb"/>cursum habet apud se de omnibus posse
+          <lb ed="#Qb"/>facere </quote> etc.; alia vero praeter naturam, quorum .
+          <lb ed="#Qb"/>causae sunt in Deo, ut ad m Eph. 3,9, super illud:
+          <lb ed="#Qb"/>Quae sit dispensatio sacramenti absconditi a saeculis
+          <lb ed="#Qb"/>in peo, Glossa 9 : <quote> Sic causae omnium, quae
+          <lb ed="#Qb"/>ad Christi adventum praenuntiandum in rerum
+          <lb ed="#Qb"/>natura praeter usitatum cursum mirabiliter facta
+          <lb ed="#Qb"/>sunt, in Deo sunt </quote> etc. Quandoque dicitur aliquid
+          <lb ed="#Qb"/>fieri contra naturam, ad Rom. 11,24: Contra
+          <lb ed="#Qb"/>naturam insertus es in bonam olivam, Glossa 10 :
+          <lb ed="#Qb"/>
+          <quote> Dicitur humano more fieri contra naturam </quote> etc.
+          <lb ed="#Qb"/>Ergo aliqua differentia dicitur esse inter fieri ·
+          <lb ed="#Qb"/>contra naturam et praeter et supra.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: l. Illa n, de quibus ponit exemplum
+          <lb ed="#Qb"/>quod fiunt contra naturam, sunt illa quae dicuntur
+          <lb ed="#Qb"/>fieri contra naturam et supra 0 naturam; ergo
+          <lb ed="#Qb"/>nulla est differentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: Quandoque accipitur ' praeter ' pro
+          <lb ed="#Qb"/>'contra' et 'supra' P, ut in praedictis, et sic nulla
+          <lb ed="#Qb"/>est differentia. Quandoque ita distinguuntur haec
+          <lb ed="#Qb"/>nomina, quod diversa sunt. Verbi gratia q' opus
+          <lb ed="#Qb"/>incarnationis dicitur proprie supra naturam, sed
+          <lb ed="#Qb"/>non proprie contra, quia illud quod dicitur fieri
+          <lb ed="#Qb"/>contra naturam, currit contrario cursu r cursui
+          <lb ed="#Qb"/>naturae, ut quod caecus visum recipiat: cursus
+          <lb ed="#Qb"/>enim naturae est ut de privatione ad · habitum
+          <lb ed="#Qb"/>non fiat regressus 11, contra cursum est ut fiat;
+          <lb ed="#Qb"/>istud autem, scilicet Deum fieri hominem, non
+          <lb ed="#Qb"/>est tale. Praeter naturam autem dicuntur proprie
+          <lb ed="#Qb"/>fieri quae habent aliquid simile in ordine naturae
+          <lb ed="#Qb"/>et ha ben t aliquam · convenientiam in natura et aliquam
+          <lb ed="#Qb"/>differentiam: vegetabilia enim ordinantur
+          <lb ed="#Qb"/>ad s sensibilia et habent continuationem, secundum
+          <lb ed="#Qb"/>P h il oso p h u m 12 , ut in . porcelio !3 t et in ave
+          <lb ed="#Qb"/>quae de arbore nascitur 14, quod continuare dicitur
+          <pb ed="#Qb" n="287"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>animalia et vegetabilia: secundum enim quod
+          <lb ed="#Qb"/>haeret saxo" et non vivit si separetur, habetf'
+          <lb ed="#Qb"/>commune cum vegetabili quod non vivit sepa<lb ed="#Qb"/>ratum
+          a terra;, secundum quod motum habet
+          <lb ed="#Qb"/>retrahendi et exeundi, cum animalibus. Fit ergo
+          <lb ed="#Qb"/>progressus de vegetabili ad sensibile et non e
+          <lb ed="#Qb"/>converso. Quod ergo de virgis facti sunt serpentes,
+          <lb ed="#Qb"/>videtur esse de iis quae fiunt praeter naturam pro<lb ed="#Qb"/>prie,
+          et non contra; fieri autem de serpente virgam
+          <lb ed="#Qb"/>non est simile, sed est omnino contra naturam.
+          <lb ed="#Qb"/>Unde Exod. 7 de mutatione virgarum in serpentes,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Glossa <name ref="#Augustine">Augustini</name>': <quote> Insunt rebus corpo<lb ed="#Qb"/>reis
+          per omnia elementa mundi quaedam occultae
+          <lb ed="#Qb"/>seminariae rationes, quibus cum data fuerit oppor<lb ed="#Qb"/>tunitas
+          temporalis, prorumpunt in species debitas
+          <lb ed="#Qb"/>suis modis et finibus. Nec dicuntur, qui faciunt, ani<lb ed="#Qb"/>malium
+          creatores, sicut nec agricolae segetum vel
+          <lb ed="#Qb"/>arborum vel huiusmodi, quamvis praebeant quas<lb ed="#Qb"/>dam
+          visibiles opportunitates et causas nascendi</quote>.
+          <lb ed="#Qb"/>lllud igitur in quo iuvant D seminales rationes, licet
+          <lb ed="#Qb"/>per aliquid aliud excitentur, non dicitur " iieri
+          <lb ed="#Qb"/>contra naturam, sed praeter, ut in proposito casu.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="610"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s2q2c1">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 1</head>
+        <head type="question-title">UTRUM CORPUS MULIERIS FORMARI DEBUERIT IN VIRI ADIUTORIUM</head>
+        <p>
+          <lb ed="#Qb"/>Gen 2,18 scribitur: <quote ana="#gen2_18">Non est bonum hominem
+          <lb ed="#Qb"/>G esse solum; faciamus ei adiutorium simile sibi</quote>.
+          <lb ed="#Qb"/>Et quaerit <name ref="#Augustine">Augustinus</name>, Super Genesim aa' lit<lb ed="#Qb"/>teram,
+          IX 2, ad quide debuit habere hoc adiuto<lb ed="#Qb"/>rium.
+          Et determinat quod ad procreationem filio<lb ed="#Qb"/>rum,
+          dicens: <quote> Si quaeritur ad quam rem fieri
+          <lb ed="#Qb"/>oportuit hoc adiutorium, nihil aliud probabiliter
+          <lb ed="#Qb"/>occurrit quam propter filiös procreandos, sicut
+          <lb ed="#Qb"/>adiutorium semini terra est ut virgultum ex utro<lb ed="#Qb"/>que
+          nascatur </quote>. Et hoc ostendit sic3: Quia non
+          <lb ed="#Qb"/>oportuit sibi dari adiutorium mulieris magis quam
+          <lb ed="#Qb"/>viri propter terram excolendam nec ad tollendum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>fastidium nec ad convivendum vel colloquendum
+          <lb ed="#Qb"/>nec ad hoc quod unus alteri esset conformis in
+          <lb ed="#Qb"/>pace et voluntate. Et huiusmodi causis exclusis
+          <lb ed="#Qb"/>concludit quod non fuit alia causa quam pro<lb ed="#Qb"/>creatio
+          filiorum. Dicit enim sic, Super Genesim, IX:
+    <quote> Si ad hoc adiutorium gignendi filios non esset
+          <lb ed="#Qb"/>facta mulier viro, ad quod ergo adiutorium facta
+          <lb ed="#Qb"/>est? Sif quia simul operaretur terram: nondum
+          <lb ed="#Qb"/>erat labor ut adiumento indigeret, et, si opus esset,
+          <lb ed="#Qb"/>melius adiutorium masculus fieret. Hoc et de so<lb ed="#Qb"/>latio
+          dici potest, si solitudinis fortasse taedebatg.
+          <lb ed="#Qb"/>Quanto enim congruentius ad convivendum et
+          <pb ed="#Qb" n="611"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>colloquendum duo amici pariter quam vir et'
+          <lb ed="#Qb"/>mulier habitarent! Quod si oportebat alium iu<lb ed="#Qb"/>bendo
+          4, alium obsequendo pariter vivere, ne con<lb ed="#Qb"/>trariae
+          voluntates pacem cohabitantium pertur<lb ed="#Qb"/>barent,
+          nec ad hoc retinendum ordo defuisset,
+          <lb ed="#Qb"/>quo prior unus, alter posterior, maxime si poste<lb ed="#Qb"/>rior
+          ex priore crearetur sicut femina creata est.
+          <lb ed="#Qb"/>An aliquis dixerit de costa hominis Deum femi<lb ed="#Qb"/>nam
+          tantum, non etiam masculum, si hoc vellet,
+          <lb ed="#Qb"/>iacere potuisse? Propter quod non invenio ad
+          <lb ed="#Qb"/>quod adiutorium facta sit mulier viro, si pariendi
+          <lb ed="#Qb"/>causa subtrahitur </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quaeritur ergo primo utrum conveniens fuit
+          <lb ed="#Qb"/>corpus mulieris formari in viri adiutorium ad
+          <lb ed="#Qb"/>prolis procreationem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et quod non, videtur: 1. Quia natura operatur
+          <lb ed="#Qb"/>in quantum breviusb potest', et hoc spectat ad
+          <lb ed="#Qb"/>eius nobilitatem et dignitatem; ergo, si generatio
+          <lb ed="#Qb"/>humana fieret ab uno solo principio, videlicet ab
+          <lb ed="#Qb"/>una persona, et uno sexu, natura humana dignius
+          <lb ed="#Qb"/>et perfectius esset instituta; ergo videtur quod
+          <lb ed="#Qb"/>Deus non debuerit eam condere in sexuum plu<lb ed="#Qb"/>ralitate.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, ratio quare omnes homines ex uno
+          <lb ed="#Qb"/>procedunt est ut invicem conglutinentur glutino
+          <lb ed="#Qb"/>dilectionis per unitatem quam habent in principio
+          <lb ed="#Qb"/>propagationis 2; sed si ab uno solo sexu homines
+          <lb ed="#Qb"/>orirentur, magis invicem coniungerentur quam cum
+          <lb ed="#Qb"/>propagantur ex plurium sexuum concursu; ergo
+          <lb ed="#Qb"/>videtur quod magis competebat hominem fieri in
+          <lb ed="#Qb"/>sexus unitate quam in sexuum diversitate.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, nihil debuit Deus dare homini inc
+          <lb ed="#Qb"/>adiutorium, quod praevideret ei esse in offendi<lb ed="#Qb"/>culum;
+          sed Deus praevidit muliebrem sexum
+          <lb ed="#Qb"/>praestiturum esse viro occasionem lapsus, et ita
+          <lb ed="#Qb"/>fieri ei in scandalum; ergo minus provide videtur
+          <lb ed="#Qb"/>fecisse, cum virili sexui addidit muliebrem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, homo in statu innocentiae debuit
+          <lb ed="#Qb"/>fieri expeditus ad hoc quod posset assurgere
+          <lb ed="#Qb"/>sursum; sed intensio amoris circa creaturam
+          <lb ed="#Qb"/>aggravat mentem ne sursum tendat; si ergo mu<lb ed="#Qb"/>lier,
+          ex viro formata et in coniugium ei copulata,
+          <lb ed="#Qb"/>magis attrahebat affectum viri quam aliquid(1
+          <lb ed="#Qb"/>aliud creatum, sicut patet ex ** textu Geneseos 3 et
+          <lb ed="#Qb"/>ex eventu consequente, videtur quod formato viro
+          <lb ed="#Qb"/>non fuit convenienS'Deum formaref mulierem.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>5. Item, in genere animalium est aliqua species
+          <lb ed="#Qb"/>in qua non est distinctio sexus, sed sunt seriusg
+          <lb ed="#Qb"/>sive generis promiscui ", ut cuniculus, lepus et
+          <lb ed="#Qb"/>huiusmodi ; est et alia species in qua est distinctio
+          <lb ed="#Qb"/>huiusmodi4; sed illa species animalis videtur esse
+          <lb ed="#Qb"/>perfectioris in genere suo, quae sine adiutorio
+          <lb ed="#Qb"/>alterius sufficit ad productionem sui similis quam
+          <lb ed="#Qb"/>quae non sufficit: perfectum enim esti quod nullo
+          <lb ed="#Qb"/>indiget, ut'f dicit Philosophuss; ergo, si decet
+          <lb ed="#Qb"/>genus humanum communicare cum animalibus
+          <lb ed="#Qb"/>naturae perfectioris, videtur quod decebat homi— ,
+          <lb ed="#Qb"/>nem fieri in' unitate sexus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, in omni genere animalium, scilicet tam
+          <lb ed="#Qb"/>perfectorum quam impertectorum, fit procreatio
+          <lb ed="#Qb"/>foetus sine adiutorio" consimilis 'speciei. Hoc
+          <lb ed="#Qb"/>autem" patet in genere animalis habitantis in tri<lb ed="#Qb"/>plici
+          elemento, cuiusmodi sunt reptilia in terra,
+          <lb ed="#Qb"/>aquatilia in aqua et volatilia in aere. Et illorum
+          <lb ed="#Qb"/>duplex genus: imperfectum et perfectum. Imper<lb ed="#Qb"/>fectum
+          0 appellatur totalum a Philosophoö, quod
+          <lb ed="#Qb"/>dicitur totalum, quia est totum simul propter
+          <lb ed="#Qb"/>carentiam perfectae distinctionis in sensibus vel
+          <lb ed="#Qb"/>quia totum in alis, secundum expositionem alio<lb ed="#Qb"/>rum,
+          cuiusmodi sunt apes et vespae; perfectum
+          <lb ed="#Qb"/>vero quod habet omnes sensus perfecte. De repti<lb ed="#Qb"/>libus,
+          quae habitant in terra P, hoc patet: cicadae
+          <lb ed="#Qb"/>enim nascuntur ex pluvia et ranae et mures de
+          <lb ed="#Qb"/>terra 7. Unde Basiliu s, Hexaemeron, IX 8: <quote> Non
+          <lb ed="#Qb"/>enim cicadas solum ex imbribus terra rigata pro<lb ed="#Qb"/>ducit
+          vel alia plurima volatilium millia, quorum
+          <lb ed="#Qb"/>maxima pars propter sui tenuitatem vocabulis
+          <lb ed="#Qb"/>caret, sed etiam mures et ranas ex terra generari
+          <lb ed="#Qb"/>videmus; denique in Aegyptiacis Thebis si plu<lb ed="#Qb"/>vias
+          largiores aestivo tempore terra fuderit, mox
+          <lb ed="#Qb"/>infinitis muribus tota completur regio </quote>. Similiter
+          <lb ed="#Qb"/>de aquatilibus patet. Dicit enim idem Basilius,
+          <lb ed="#Qb"/>eodem libro: <quote> Anguillasq non aliter nisi de coeno
+          <lb ed="#Qb"/>nasci certissimum est, quarum genus nec ovumf
+          <lb ed="#Qb"/>nec aliquis alter partus instaurat, sed de limo
+          <lb ed="#Qb"/>gignendi sortiuntur originem</quote>. De animantibus
+          <lb ed="#Qb"/>aeris vagis vel volatilibus similiter patet: apes
+          <lb ed="#Qb"/>enim nascuntur ex floribus, sicut dicunt et phi<lb ed="#Qb"/>losophig
+          et sancti et maxime Cassianus, in
+          <lb ed="#Qb"/>libro VII De incarnatione Verbi contra Nestorium 10:
+    <quote> Apes sicut minima admodum, ita prudentissima
+          <lb ed="#Qb"/>ac solertissima animalia, ex diversissimis edi le<lb ed="#Qb"/>gimus
+          atque exire naturis. Cum enim sint miri
+          <pb ed="#Qb" n="612"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>ingenii animantia et non solum sensu ", sed etiam
+          <lb ed="#Qb"/>prudentia abundent, ex quibusdam herbarum flo<lb ed="#Qb"/>ribus
+          procreantur </quote>. De animalibus etiam perfec<lb ed="#Qb"/>torum
+          sensuum habemus exemplum a Basilio
+          <lb ed="#Qb"/>in vulturibus, Hexaemeron, Vlll 1, dicente: <quote> Eorum
+          <lb ed="#Qb"/>quae altiusb volitant animalium quaedam sterilia
+          <lb ed="#Qb"/>omnino sunt, sicut vultures, quos asserunt sine
+          <lb ed="#Qb"/>coitu generare *, praecipue cum sint longaevi: nam
+          <lb ed="#Qb"/>vitamd eorum centum annis manere confirmant </quote>.
+          <lb ed="#Qb"/>Praeterea, ut habetur ab Augustino, De civi<lb ed="#Qb"/>tate
+          Dei 2, equa gignit sine commixtione cum mare,
+          <lb ed="#Qb"/>scilicet in Cappadocia. Quare ergo oportuit viro,
+          <lb ed="#Qb"/>qui conditus fuit in maxima potestate et virtute,
+          <lb ed="#Qb"/>dari adiutorium sibi simile ad procreationem
+          <lb ed="#Qb"/>prolis?
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Item, nihil cuius simile in specie occasiona<lb ed="#Qb"/>liter
+          deducitur in esse operatione naturae, debuit
+          <lb ed="#Qb"/>inter prima principia rerum, id est'-' inter illa opera
+          <lb ed="#Qb"/>ex quibus operatione naturae aliqua sunt in esse
+          <lb ed="#Qb"/>producta, cuiusmodi sunt de quibus habetur in
+          <lb ed="#Qb"/>operibus sex dierum, in esse produci; sed tale
+          <lb ed="#Qb"/>quid est mulier, id est occasionaliter operatione
+          <lb ed="#Qb"/>naturae producitur in esse. Unde Philosoph us,
+          <lb ed="#Qb"/>libro De animalibas3, dicit quod <quote>mulier est mas
+          <lb ed="#Qb"/>occasionatus </quote>; hoc autem dicit, quia natura inten<lb ed="#Qb"/>dens
+          producere virum in esse, occasionaliter pro<lb ed="#Qb"/>ducit
+          in esse mulierem; igitur mulierf non debuit
+          <lb ed="#Qb"/>produci in esse inter prima rerum principia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>8. Item, summa sapientia, creaturis optime et
+          <lb ed="#Qb"/>discretissime providens, inter creaturas existentes
+          <lb ed="#Qb"/>ad eius imaginem non debuit aliquid condere
+          <lb ed="#Qb"/>quod non ad divinam formam principaliter con<lb ed="#Qb"/>formaretur,
+          sed magis irrationabili naturae: quod
+          <lb ed="#Qb"/>enim est Dei imago sive ad eius imaginem, prin<lb ed="#Qb"/>cipalem
+          debet habere respectum ad illud cuius
+          <lb ed="#Qb"/>est imago et8 non ad naturam irrationabilem,
+          <lb ed="#Qb"/>cuius imaginem non gerit; sed huiusmodi est
+          <lb ed="#Qb"/>mulier. Unde Gregorius Nyssenustz <quote>'Qui
+          <lb ed="#Qb"/>novit omnia antequam fiant, sicut Propheta5 pro<lb ed="#Qb"/>nuntiat,
+          providens atque prospiciens virtute prae<lb ed="#Qb"/>scientiae
+          suae, in quae declinaret homo iuxta
+          <lb ed="#Qb"/>spontaneam—voluntatem humanam motus arbitrii,
+          <lb ed="#Qb"/>quia id quod futurum erat inspexit, tribuit ima<lb ed="#Qb"/>gini
+          differentiam maris et feminae, quae iam non
+          <lb ed="#Qb"/>ad divinam formam principalemque respiceret, sed
+          <lb ed="#Qb"/>irrationabili naturae propinquareth </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>9. Item, ex ista auctoritate Gregorii Nysseni
+          <lb ed="#Qb"/>videtur quod mulier condita non esset in adiu<lb ed="#Qb"/>torium
+          viri nisi vir fuisset lapsus per culpam.
+          <lb ed="#Qb"/>Unde vult dicere quod, quia Deus sciebat primum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>hominem peccaturum, et ita merito peccati defi<lb ed="#Qb"/>cere
+          a virtute in qua conditus erat, formavit Deus
+          <lb ed="#Qb"/>mulierem ut esset sibi'" in adiutorium ad filios
+          <lb ed="#Qb"/>procreandos, et sic sexus differentia propter pec<lb ed="#Qb"/>catum
+          erat, non propter peccatum ut tunc perpe<lb ed="#Qb"/>tratum,
+          sed ut perpetrandum sive praecognitum
+          <lb ed="#Qb"/>a Deo iore perpetrandum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Cum sit generatio in plantis et in
+          <lb ed="#Qb"/>animalibus, perfectiori modo est in animalibus
+          <lb ed="#Qb"/>quam in plantis; sed quamvis in plantis non sit
+          <lb ed="#Qb"/>manifesta distinctio sexuum, in animalibus tamen
+          <lb ed="#Qb"/>est distinctio sexuum manifesta, et hoc attestatur
+          <lb ed="#Qb"/>generationi perfectiori; ergo, si homo perfectis<lb ed="#Qb"/>simum
+          est omnium animalium, videtur quod
+          <lb ed="#Qb"/>conveniens fuerit hominem fieri in distinctione
+          <lb ed="#Qb"/>sexuum. .
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, ad perfectionem universitatis spectat
+          <lb ed="#Qb"/>quod agentia et patientia sint distincta; si ergo
+          <lb ed="#Qb"/>ad generationem humanam necessario concurrunt
+          <lb ed="#Qb"/>agens et patiens, et hoc secundum quod competit
+          <lb ed="#Qb"/>perfectioni universi, videtur quod debeant esse
+          <lb ed="#Qb"/>distincta. '
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, in primo statu homo conditus erat ex
+          <lb ed="#Qb"/>duplici principio, scilicet ex spirituali et corpo<lb ed="#Qb"/>rali,
+          et'in primo communicabat cum angelis, in
+          <lb ed="#Qb"/>secundo cum animalibus brutisG; sed principium
+          <lb ed="#Qb"/>spirituale hominis, quod est anima, sicut commu<lb ed="#Qb"/>nicat
+          cum angelis in participatione rationis, sic
+          <lb ed="#Qb"/>communicat in modo productionis et cibationis:
+          <lb ed="#Qb"/>sicut enim angelus producitur in esse per crea<lb ed="#Qb"/>tionem
+          et reficitur per Verbum vitae 7, sic et anima
+          <lb ed="#Qb"/>rationalis; ergo videtur quod consimiliter ex parte
+          <lb ed="#Qb"/>corporis homo habeat cum brutis cibari et gene<lb ed="#Qb"/>rari;
+          sed homo habebat cibari ex fructibus arbo<lb ed="#Qb"/>rum
+          et terrae nascentibus sicut animalia bruta;
+          <lb ed="#Qb"/>ergo debet communicare in modo generandi cum'f
+          <lb ed="#Qb"/>animalibus brutis ; sed, cum sit' duplex modus <lb ed="#Qb"/>est
+          enim quidam '" modus generandi in distinctione
+          <lb ed="#Qb"/>sexus, quidam sine — magis convenit" homini
+          <lb ed="#Qb"/>illa communicatio quae est per modum nobilio<lb ed="#Qb"/>rem
+          quam alia; modus autem nobilior est quo
+          <lb ed="#Qb"/>distinguitur agens a patiente quam ille quo con<lb ed="#Qb"/>funduntur
+          in eodem; ergo etc. — Quod con<lb ed="#Qb"/>cedimus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad praedictorum intelligentiam est
+          <lb ed="#Qb"/>notandum quod conveniens fuit genus humanum
+          <lb ed="#Qb"/>formari in sexuum distinctione secundum quod
+          <lb ed="#Qb"/>innuit textus Geneseos 8. Huius autem ratio fuit
+          <lb ed="#Qb"/>litteralis, moralis, allegorica et anagogica. Litte<lb ed="#Qb"/>ralis
+          quidem, quia natura desiderat perfectionem
+          <pb ed="#Qb" n="613"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>et refugit confusionem ', et ideo debuit homo fieri
+          <lb ed="#Qb"/>taliter ut esset in eo perfectio ad actum propagandi,
+          <lb ed="#Qb"/>et ita in primaria hominis conditione debuit fieri
+          <lb ed="#Qb"/>agens et patiens, et haec inconfusa. Et hinc est
+          <lb ed="#Qb"/>quod mulier formata fuit a viro distincta, ne, si
+          <lb ed="#Qb"/>pluralitas sexuum in unam personam concurreret",
+          <lb ed="#Qb"/>confusionem faceret ", quam refugit natura et rec<lb ed="#Qb"/>tum
+          rationis iudicium, sicut videmus circac her<lb ed="#Qb"/>maphroditum.
+          - Ratio vero moralis fuit ut
+          <lb ed="#Qb"/>in hoc erudiretur homo quantum ad usum hu<lb ed="#Qb"/>militatis
+          et exercitium caritatis, videlicet ut dum
+          <lb ed="#Qb"/>vir videret se alieni sexus indigere, se ipsum
+          <lb ed="#Qb"/>h'umiliaret; dum etiam attenderet alium sexum
+          <lb ed="#Qb"/>suo auxilio indigere, se ipsum illi liberaliterd
+          <lb ed="#Qb"/>impenderet et caritative. — Ratio allegorica
+          <lb ed="#Qb"/>fuit ut in illorum sexuum distinctione et con<lb ed="#Qb"/>iunctione
+          in carnis unitatem * significaretur con<lb ed="#Qb"/>iunctio
+          Christi et Ecclesiaez. —- Postremof ratio
+          <lb ed="#Qb"/>fuit anagogica, ut in illa amicabili coniunctione
+          <lb ed="#Qb"/>viri et mulieris significaretur coniunctio animae et
+          <lb ed="#Qb"/>Dei. Unde H u go3: <quote> Erant duo in ipso coniugio,
+          <lb ed="#Qb"/>coniugium ipsum et coniugiig officium, et utrum<lb ed="#Qb"/>que
+          sacramentum erat. Coniugium constabat in
+          <lb ed="#Qb"/>consensu foederis socialis, officium coniugii con<lb ed="#Qb"/>stabat
+          in copula carnis. Coniugium sacramentum
+          <lb ed="#Qb"/>fuit cuiusdam societatis spiritualis quae per di-'
+          <lb ed="#Qb"/>lectionem erat inter Deum et animam, in qua so<lb ed="#Qb"/>cietate
+          anima sponsa erat et sponsus Deus. Offi<lb ed="#Qb"/>cium
+          coniugii sacramentum fuit cuiusdam societa<lb ed="#Qb"/>tis
+          quae futura erat per carnem assumptam inter
+          <lb ed="#Qb"/>Christum et Ecclesiam, in qua societate Christus
+          <lb ed="#Qb"/>sponsus futurus erat et sponsa Ecclesia </quote>. Signifi<lb ed="#Qb"/>catur
+          ergo hac coniunctione coniunctio animae et
+          <lb ed="#Qb"/>Dei et quantum ad magnitudinem adhaerentiae
+          <lb ed="#Qb"/>et-quantum ad fructus foecunditatem. Sicut enim
+          <lb ed="#Qb"/>mulier in coniunctione ad virilem sexum habet
+          <lb ed="#Qb"/>foecundari, sic bona voluntas foecundari habet
+          <lb ed="#Qb"/>dum'l Deo adhaeret per gratiam Spiritus Sancti,
+          <lb ed="#Qb"/>quae est tamquam summularium Spiritus Sancti.
+          ,Unde Hugo4: <quote> ln hoc officio, masculo quidem,
+          <lb ed="#Qb"/>qui superior erat, datum est quod propagandum
+          <lb ed="#Qb"/>fuisset de suo semine, feminae autem concipere
+          <lb ed="#Qb"/>et parere, ut in eadem similitudine demonstra—
+          <lb ed="#Qb"/>retur quoniam in illa invisibili societate anima
+          <lb ed="#Qb"/>rationalis nullatenus tructificare posset nisi prius
+          <lb ed="#Qb"/>semen virtutis a Deo conciperet </quote>. Ad hoc etiamf
+          <lb ed="#Qb"/>iaciunt rationes quae supra in opponendo5 ad—
+          <lb ed="#Qb"/>ductae sunt.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo obiectum in con<lb ed="#Qb"/>trarium
+          dicendum quod 'bonitati sive virtuti * na<lb ed="#Qb"/>turae
+          attestatur quod non facit per plura' etc.,
+          <lb ed="#Qb"/>hoc verum est, quando ita bene et ita conve<lb ed="#Qb"/>nienter
+          facit brevi operatione sicut fieret prolixiore
+          <lb ed="#Qb"/>et uno operatore sicut pluribus. Sed non est ita
+          <lb ed="#Qb"/>in proposito: melius enim et convenientius pro<lb ed="#Qb"/>ducitur
+          proles ex mare et femina quam fieret si
+          <lb ed="#Qb"/>ex mare sölummodo produceretur, sicut ex dictis
+          <lb ed="#Qb"/>patet 6.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Si autem quaereretur quare Deus non fecit
+          <lb ed="#Qb"/>virum talis potestatis et virtutis ut sine adiutorio
+          <lb ed="#Qb"/>feminae posset genus humanum propagare: dici
+          <lb ed="#Qb"/>posset quod Deus sapientissime condidit res et
+          <lb ed="#Qb"/>unicuique dedit naturam quae .sibi competebat;
+          <lb ed="#Qb"/>ut enim dicitur, IX [Super] Genesim ad litteram ",
+    <quote> potentia Dei non est temeraria, [sed] sapiente'
+          <lb ed="#Qb"/>virtute omnipotens </quote>. Et H ugoS: <quote> Singulis provi<lb ed="#Qb"/>det
+          ut habeat unumquodque quod sibi debetur et
+          <lb ed="#Qb"/>convenit</quote>. Natura autem creata de sua natura,
+          <lb ed="#Qb"/>ratione qua creata est, indigens est: unde alieno
+          <lb ed="#Qb"/>eget auxilio. Homo ergo", ratione qua est crea<lb ed="#Qb"/>tura,
+          naturam habet in" indigentia constitutam 0.
+          <lb ed="#Qb"/>Unde Hugog: <quote> Homo natura egens erat alieni
+          <lb ed="#Qb"/>auxilii, quo vel salvaret quod mutabile acceperat
+          <lb ed="#Qb"/>vel augeret quod non consummatum habebat </quote>.
+          <lb ed="#Qb"/>Divina ergo sapientia, optime providens hominis
+          <lb ed="#Qb"/>indigentiae, providit non solum de adiutorio, quo
+          <lb ed="#Qb"/>salvaret quod mutabile accepit, id est!' bonum
+          <lb ed="#Qb"/>quod ad corporis mutabilis salutem spectat, sed
+          <lb ed="#Qb"/>quo augeret quod'2 non consummatum habebat,
+          <lb ed="#Qb"/>id est bonum quo aptus fuit ad divinam partici<lb ed="#Qb"/>pationem
+          in gloria. Propter hoc Deus in provi<lb ed="#Qb"/>dendo
+          primo homini indigenti adiutorio ad pro<lb ed="#Qb"/>lis
+          procreationem providit illi modo optimo ", ut
+          <lb ed="#Qb"/>quo illi innotescerent divina sacramenta et humi<lb ed="#Qb"/>liaretur
+          et ad amorem Dei et proximi accende<lb ed="#Qb"/>retur,-ut
+          patet in assignatione causarum quare
+          <lb ed="#Qb"/>data tuit primo viro mulier in adiutorium"). Prae<lb ed="#Qb"/>terea
+          5, non decuit humanamt dignitatem in tali
+          <lb ed="#Qb"/>opere, scilicet propagationis- humanae, confusio<lb ed="#Qb"/>nem
+          agentis et patientis sustinere. Ex iis patet
+          <lb ed="#Qb"/>quod melius et decentius factum fuit cum homine,
+          <lb ed="#Qb"/>qui erat principium generationis humanae, quando
+          <lb ed="#Qb"/>datum fuit illi adiutorium sibi simile, quam si
+          <lb ed="#Qb"/>esset sibi datum in conditione quod ad modum"
+          <lb ed="#Qb"/>quorumdam irrationalium sine tali adiutorio posset
+          <lb ed="#Qb"/>prolem producere.
+        </p>
+        <p>
+                <pb ed="#Qb" n="614"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>2. Ad aliud dicendum quod modus procreandi
+          <lb ed="#Qb"/>prolem per commixtionema similium in specie,
+          <lb ed="#Qb"/>dummodo una persona commiscentium originem
+          <lb ed="#Qb"/>habuerit ex altera, non diminuit rationem mutuae
+          <lb ed="#Qb"/>dilectionis in prole, quia et in hoc modo propa<lb ed="#Qb"/>gationis
+          sicut in alio omnes sunt ab uno, et iste
+          <lb ed="#Qb"/>modus est propagatis utilior ratione qua in hac
+          <lb ed="#Qb"/>commixtione divina percipiunt sacramenta, et con<lb ed="#Qb"/>venientiorb
+          ratione qua contusio naturarum non
+          <lb ed="#Qb"/>admittitur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud dicendum quod divina sapientia
+          <lb ed="#Qb"/>sive providentia, quae est lex aeterna, non est
+          <lb ed="#Qb"/>eventibus temporalibus regulanda: quod fieret, si
+          <lb ed="#Qb"/>facienda non faceret neque ordinanda ordinaret
+          <lb ed="#Qb"/>nisi secundum proventus consequentes rerum
+          <lb ed="#Qb"/>conditionem. Sicut enim divina c voluntas non ha<lb ed="#Qb"/>bet
+          causam 1, sed ipsa est causa simpliciter et per
+          <lb ed="#Qb"/>se, nec iuste vult aliquid quia illud d futurum est
+          <lb ed="#Qb"/>iustum, sed e converso — unde Hugozz <quote>Prima
+          <lb ed="#Qb"/>rerum omnium causa voluntas est Creatoris, quam
+          <lb ed="#Qb"/>nulla praecedens causa movit, quia aeterna est,
+          <lb ed="#Qb"/>neque subsequens aliqua confirmat, quoniam ex
+          <lb ed="#Qb"/>semetipsa2 iusta est. Neque enim idcirco iuste
+          <lb ed="#Qb"/>voluit, quia futurum iustum fuit quod voluit, sed
+          <lb ed="#Qb"/>quodf voluit, idcirco iustum fuit, quia ipse vo<lb ed="#Qb"/>luit</quote>
+          — similiter nec suag dispositio vel providen<lb ed="#Qb"/>tia
+          recta '1 est sive ordinata, quia aliquod futurum
+          <lb ed="#Qb"/>est ordinatum et rectum, sed quae bona sunt
+          <lb ed="#Qb"/>et bene facta secundum ipsam sunt talia, et quae
+          <lb ed="#Qb"/>mala secundum ipsami ordinata. Unde Hugo3:
+    <quote> Secundum hanc universalem providentiam cunc<lb ed="#Qb"/>torum
+          non solum suis, quae bona fecit, sed alie<lb ed="#Qb"/>nis
+          quoque, quae mala non ipse fecit, sed per<lb ed="#Qb"/>misit,
+          quod debitum est, dispensat, ut nihil in
+          <lb ed="#Qb"/>regno suo iustam ordinationem evadat </quote>. Quod
+          <lb ed="#Qb"/>ergo summa sapientia convenienter et utiliter
+          <lb ed="#Qb"/>disposuit, scilicet mulierem dari viro in adiu<lb ed="#Qb"/>torium,
+          non debuit propter malum, occasionaliter
+          <lb ed="#Qb"/>sequens, non fieri, sed malum, si tieret, conve<lb ed="#Qb"/>nienter
+          ordinari. Unde Hugo 4: <quote> Bonak disposi<lb ed="#Qb"/>tionem
+          desuperl habent, et ut sint, quia bona sunt,
+          <lb ed="#Qb"/>et ut sic sint, quia ordinata sunt; mala vero ex
+          <lb ed="#Qb"/>dispositione superna non habent quod sunt, quia
+          <lb ed="#Qb"/>mala sunt, et tamen habent quod sic sunt, quia"
+          <lb ed="#Qb"/>ordinata sunt. Deus enim malum non facit,'sed,
+          <lb ed="#Qb"/>cum factum est, inordinatum esse non permittit,
+          <lb ed="#Qb"/>quia malorum auctor non est, sed ordinator </quote>.
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Multa enim sunt bona quae elicit divina sapien<lb ed="#Qb"/>tia
+          ex malis, ut supra tactum est—", propter quae"
+          <lb ed="#Qb"/>convenienter permittit ea fieri. Ut enim dicit Augu<lb ed="#Qb"/>stinus,
+          Xl libro De civitate Dei, cap. 185: <quote> Neque
+          <lb ed="#Qb"/>Deus ullum, non dico angelorum, sed vel homi<lb ed="#Qb"/>num
+          crearet, quem malum futurum esse prae-'
+          <lb ed="#Qb"/>scisset, nisi pariter nosset quibus eos bonorum
+          <lb ed="#Qb"/>usibus commodaret </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad aliud dicendum quod adiutorium illud
+          <lb ed="#Qb"/>datum viro non impediebat assurrectionem eius
+          <lb ed="#Qb"/>ad superna, quia nondum movebatur aliqua affec<lb ed="#Qb"/>tione
+          amoris libidinosi, quia adhuc habebat iusti<lb ed="#Qb"/>tiam
+          naturalem cum integritate naturae, sed potius
+          <lb ed="#Qb"/>promovebat, ut patet consideratis rationibus su<lb ed="#Qb"/>pra
+          dictis 7, scilicet quare datum fuit illi adiutorium
+          <lb ed="#Qb"/>tale. Amor enim naturalis proximi in statu inno<lb ed="#Qb"/>centiae
+          non impediebat erectionem affectus per
+          <lb ed="#Qb"/>amorem in Deumaz quod patet, quia regulabatur
+          <lb ed="#Qb"/>iustitia naturali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad aliud quod obicitur de animalibus
+          <lb ed="#Qb"/>promiscui sexus: dicendum quod ad procreatio<lb ed="#Qb"/>nem
+          foetus talium animalium est unum gerens
+          <lb ed="#Qb"/>vicem maris et aliud vicem feminae, verumtamen
+          <lb ed="#Qb"/>vicissim hoc faciunt: utrumque" enim utriusque
+          <lb ed="#Qb"/>utitur officio; quod enim uno tempore vicem gerit
+          <lb ed="#Qb"/>maris, alio vicem gerit feminae. Unde in talibus
+          <lb ed="#Qb"/>non est procreatio foetus ex uno nec modus iste
+          <lb ed="#Qb"/>procreationis perfectus est, sed imperfectus, et in
+          <lb ed="#Qb"/>natura nobili abusio esset, non usus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad illud quod primo obicitur de triplici
+          <lb ed="#Qb"/>genere animalium quae non producuntur in esse
+          <lb ed="#Qb"/>per commixtionem maris et feminae in suo genere:
+          <lb ed="#Qb"/>dicendum quod hoc est naturae defectus in illis
+          <lb ed="#Qb"/>et imperfectionis. Ut enim dicit Philosophusg,
+          <lb ed="#Qb"/>tunc est unumquodque perfectum, cum potest
+          <lb ed="#Qb"/>attingere propriae virtuti; tunc autem dicitur res
+          <lb ed="#Qb"/>naturae attingere propriae virtuti, sicut ibidem P 1"
+          <lb ed="#Qb"/>patet, quando potest facere 4 quale ipsum est. Iste
+          <lb ed="#Qb"/>igitur modus productionis naturae attestatur im<lb ed="#Qb"/>perfectioni;
+          quare homini non conveniebat. Nec
+          <lb ed="#Qb"/>dicit Basilius vulturem produci in esse sine
+          <lb ed="#Qb"/>semine consimilis in specie, sed potius quod dicit
+          <lb ed="#Qb"/>relatio est quaedam secundum assertionem alio<lb ed="#Qb"/>rum.
+          Quae' autem virtus collata huiusmodi avibus '
+          <lb ed="#Qb"/>et aliis animalibus est a Conditore eorum, meam
+          <lb ed="#Qb"/>latets insipientiam et modum propagationis in
+          <lb ed="#Qb"/>illis ignoro, sed quod generatione univoca aliquod
+          <pb ed="#Qb" n="615"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>huiusmodi sine semine vel aliquo seminis virtu<lb ed="#Qb"/>tem
+          habente non producatur in esse, vehementer
+          <lb ed="#Qb"/>opinor.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Ad aliud dicendum" quod quaedam est
+          <lb ed="#Qb"/>occasio quae importat vitium, sicut inordinatio
+          <lb ed="#Qb"/>velb ex parte superiluitatis vel indigentiae, ut
+          <lb ed="#Qb"/>inc monstris, et ista non fuit in prima con<lb ed="#Qb"/>ditione;
+          alia est occasio quae magis respicit
+          <lb ed="#Qb"/>proprietatem aut veritatem ex parte finis, et sic
+          <lb ed="#Qb"/>posset dici mulier occasionata, id est occasione
+          <lb ed="#Qb"/>viri facta quodam modo. Sed hoc modo ultimod
+          <lb ed="#Qb"/>non loquitur Philosophus nec verbum eius
+          <lb ed="#Qb"/>veritatem habet quantum ad statum primae con—
+          <lb ed="#Qb"/>ditionis: natura enim muliebris aequee pertinet
+          <lb ed="#Qb"/>ad veritatem" naturae humanae sicut natura viri<lb ed="#Qb"/>lis,
+          sicut probat Iulianus Toletanus, in libro
+          <lb ed="#Qb"/>qui dicitur Prognostica futuri saeculi, libro III,
+          <lb ed="#Qb"/>cap. 231, et introducit verbum <name ref="#Augustine">Augustini</name>2 di<lb ed="#Qb"/>centis:
+    <quote> ' Non est vitium sexus femineus, sed na<lb ed="#Qb"/>tura';
+          corporibus enim illis in futuro vitia detra<lb ed="#Qb"/>hentur
+          et natura salvabitur </quote>. Quod nullo modo
+          <lb ed="#Qb"/>esset, nisif differentia sexus pertineret ad na<lb ed="#Qb"/>turarn.
+        </p>
+        <p>
+          <lb ed="#Qb"/>8. Ad illud quod "dicit Nyssenus, dici po<lb ed="#Qb"/>testg
+          quod mulier condita fuit ut esset viro in
+          <lb ed="#Qb"/>officium ", habito respectu ad statum innocentiae,
+          <lb ed="#Qb"/>et ut esset illi in remedium, habito respectu ad
+          <lb ed="#Qb"/>statum lapsus. Et hoc videntur insinuare verba
+          <lb ed="#Qb"/>eius in quibus dicitur: <quote> Quiai id, quod futurum
+          <lb ed="#Qb"/>erat, inspexit, tribuit imagini differentiam maris et
+          <lb ed="#Qb"/>feminae, quae iam non ad divinam formam prin<lb ed="#Qb"/>cipalemque
+          respiceret, sed irrationabilik naturae
+          <lb ed="#Qb"/>propinquare videretur </quote>. In statu enim lapsus irra<lb ed="#Qb"/>tionabili
+          naturae videbantur appropinquare, quia
+          <lb ed="#Qb"/>tunc insurgebant in eis motus brutales et inor<lb ed="#Qb"/>dinati,
+          nec poterant ad invicem carnaliter com<lb ed="#Qb"/>misceri
+          sine libidine et voluptate inordinata, in
+          <lb ed="#Qb"/>qua factus est homo totus caro ad modum bruti.
+          <lb ed="#Qb"/>Si autem stetissent in innocentia in qua conditi
+          <lb ed="#Qb"/>erant, non esset sic. Unde Hugo 3: <quote> Antei pec<lb ed="#Qb"/>catum
+          institutum fuit coniugium et coniugii offi—
+          <lb ed="#Qb"/>cium, utrumque ad sacramentum; ut coniugium"
+          <lb ed="#Qb"/>quidem sanctificaretur" pura mentis dilectione,
+          <lb ed="#Qb"/>officium quoque coniugii impleretur sine carnis
+          <lb ed="#Qb"/>pollutione. Nunc vero, quia per peccatum homi<lb ed="#Qb"/>nis
+          caro humana corrupta est, iam post peccatum
+          <lb ed="#Qb"/>carnis commixtio sine carnali concupiscentia fieri
+          <lb ed="#Qb"/>non potest </quote>.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>9. Sed, quia videtur esse opinio Graecorum,
+          <lb ed="#Qb"/>scilicet Gregorii Nysseni et Ioannis Da<lb ed="#Qb"/>masceni,
+          quod non fuisset condita mulier nisi
+          <lb ed="#Qb"/>Dominus praevidisset lapsum humanum — dicit
+          <lb ed="#Qb"/>enim Damascenus, 114: <quote> Sciens praecognitor
+          <lb ed="#Qb"/>Deus quod in transgressione fieret et sub cor<lb ed="#Qb"/>ruptione
+          caderet, fecit ex ipso feminam auxilia<lb ed="#Qb"/>tricem
+          ipsi secundum ipsum: auxiliatricem autem
+          <lb ed="#Qb"/>ad eam quae per genesim, id est" per genera<lb ed="#Qb"/>tionem,
+          post transgressionem generisp ex succes<lb ed="#Qb"/>sione
+          consistentiam </quote> —— propter hoc aliter respon<lb ed="#Qb"/>dendumq.
+          Si'enim dictum Nysseni cum praeci<lb ed="#Qb"/>sione
+          intelligatur et causam importet sub hoc
+          <lb ed="#Qb"/>sensu: 'si non peccasset primus parens vel non
+          <lb ed="#Qb"/>esset peccaturus, non sequeretur mulieris forma<lb ed="#Qb"/>tio,,
+          ut quasi peccatum praescitum futurum esse
+          <lb ed="#Qb"/>causa fuerit tormationis corporis muliebris: hoc
+          <lb ed="#Qb"/>nullo modo est concedendum, sed est contra catho<lb ed="#Qb"/>licos
+          et latinos expositores 5, et maxime contra A n—
+          <lb ed="#Qb"/>gustinum, XIV' libro De civitate Dei ", cap. 21 5,
+          <lb ed="#Qb"/>dicentem: <quote> Ilia benedictio nuptiarum, ut coniu<lb ed="#Qb"/>gata
+          crescerent et multiplicarentur et implerent-*
+          <lb ed="#Qb"/>terram 7, quamvis et in delinquentibus perman<lb ed="#Qb"/>serit,
+          tamen antequam deliquerint data est, ut
+          <lb ed="#Qb"/>cognosceretur procreationem filiorum ad gloriam
+          <lb ed="#Qb"/>connubii, non ad poenam pertinere peccati</quote>. Et
+          <lb ed="#Qb"/>sic patet quod neque coniugium neque filiorum
+          <lb ed="#Qb"/>procreatio ex viro et muliere respicit tantum pri<lb ed="#Qb"/>mam
+          culpam. Aliter ergo intelligendum est ver<lb ed="#Qb"/>bum
+          Nysseni et Damasceni.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod notat: Primus homo conditus erat ut
+          <lb ed="#Qb"/>participaret divinum esse; unde intentio naturae
+          <lb ed="#Qb"/>in illo fuit perpetuatio esse talis, id est esse rei
+          <lb ed="#Qb"/>rationalis. Non autem in hoc stabat intentio Con<lb ed="#Qb"/>ditoris,
+          sed intendebat ut ex eo fieret propagatio
+          <lb ed="#Qb"/>humana et multiplicatio numeri electorum beati<lb ed="#Qb"/>ficandorum
+          in participatione Dei in gloria sive
+          <lb ed="#Qb"/>deiiormitatis.Nyssenus ergo et Damascenus
+          <lb ed="#Qb"/>referentes considerationem ad primum finem, sci<lb ed="#Qb"/>licet
+          finem intentum a natura, quia primus homo
+          <lb ed="#Qb"/>conditus fuit immortalis, si non peccasset -— unde
+          <lb ed="#Qb"/>poterat assequi finem illum, scilicet perpetuitatem
+          <lb ed="#Qb"/>esse sine commixtione sive coniunctione cum mu<lb ed="#Qb"/>liere
+          -— ponunt quod non oportuit sibi dari adiu<lb ed="#Qb"/>torium
+          mulieris nisi fuisset casus in culpam.
+          <lb ed="#Qb"/>Unde non est dicendum quod ipsi crederent mu<lb ed="#Qb"/>lierem
+          non debere dari viro in adiutorium nisi
+          <lb ed="#Qb"/>peccasset, sed quod non oportuit propter primum
+          <pb ed="#Qb" n="616"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>finem; si autem non peccasset, debuit sibi dari
+          <lb ed="#Qb"/>in adiutorium ad procreationem sive multiplica<lb ed="#Qb"/>tionem
+          numeri electorum. Unde si quaereretur"
+          <lb ed="#Qb"/>utrum Nyssenus et Damascenus ponebant
+          <lb ed="#Qb"/>mulierem non debere formari sive creari in adiu<lb ed="#Qb"/>torium
+          viri nisi causa vel occasione peccati:
+          <lb ed="#Qb"/>potest dici quod non, sed quod ponebant non
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>oportere illam dari viro in adiutorium propter
+          <lb ed="#Qb"/>esse sui perpetuationem nisi peccasset, oportuit
+          <lb ed="#Qb"/>tamen propter multiplicationem numeri electorum.
+          <lb ed="#Qb"/>Unde dicentes quod Deus praevidens transgres<lb ed="#Qb"/>sionem 
+          tuturam, sich mulierem etc., non dicunt
+          <lb ed="#Qb"/>totam causam conditionis eius neque praecisam,
+          <lb ed="#Qb"/>ut dictum est 1.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

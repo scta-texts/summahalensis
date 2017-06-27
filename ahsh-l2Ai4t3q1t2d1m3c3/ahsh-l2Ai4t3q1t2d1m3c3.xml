@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 3, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="673"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q1t2d1m3c3">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 3, C. 3</head>
+        <head type="question-title">UTRUM VITA SIT IN CREATURA CORPORALI.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur inquirere utrum in corporalibus crea<lb ed="#Qb"/>turis
+          sit vita qua vivunt.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Quod sic, patet: a. Super' illud Marci ul<lb ed="#Qb"/>timo, 15: 
+          Praedicate Evangelium omni creaturae,
+          <pb ed="#Qb" n="674"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>dicit Gregorius': <quote> Omnis creaturae aliquid
+          <lb ed="#Qb"/>habet homo: habet namque esse commune cum
+          <lb ed="#Qb"/>lapidibus, vivere cum arboribus, sentire cum ani<lb ed="#Qb"/>malibus
+    </quote>. Ex quo patet quod arbores vivunt et
+          <lb ed="#Qb"/>animalia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, vegetari, sentire, intelligere sunt actus
+          <lb ed="#Qb"/>consequentes ad actum vivendi sive quo" est vita
+          <lb ed="#Qb"/>nec insunt alicui cui non inest vita; unde in libro
+          <lb ed="#Qb"/>De motu cordis 2: <quote> Vivit et vegetatur animal, sentit
+          <lb ed="#Qb"/>et movetur, discernit et intelligit, et quae ex eis
+          <lb ed="#Qb"/>oriuntur, non facile numerabilia, efficere habet. Et
+          <lb ed="#Qb"/>harum potentiarum haec prima distantia est quod
+          <lb ed="#Qb"/>vitam quasi praeviam ceterae sequuntur, sine qua
+          <lb ed="#Qb"/>ceterarumb nullam inesse possibile est</quote>. Si ergo
+          <lb ed="#Qb"/>iic actus sunt creaturarum corporalium — quod '
+          <lb ed="#Qb"/>patet manifeste de actu vegetandi et sentiendi, qui
+          <lb ed="#Qb"/>sunt actus plantarum et brutorum; similiter patet
+          <lb ed="#Qb"/>de actu intelligendi per verbum Philosophi3
+          <lb ed="#Qb"/>dicentis: <quote> Qui dicit animam intelligere, nihil aliud '
+          <lb ed="#Qb"/>est quam si diceret animam texere vel aedifi<lb ed="#Qb"/>care</quote>
+          — relinquitur igitur quod actus vivendi
+          <lb ed="#Qb"/>sive qui est vita, sit creaturarum corporalium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Vita est forma sive actus praecipuus
+          <lb ed="#Qb"/>et maxime essentialis substantiae spirituali, sci<lb ed="#Qb"/>licet
+          angelo et animae rationali4 ; quod autem est
+          <lb ed="#Qb"/>substantiis spiritualibus praecipuum et maxime
+          <lb ed="#Qb"/>essentiale, non convenit substantiis corporalibus,
+          <lb ed="#Qb"/>sicut nec e converso; ergo corporales substantiae
+          <lb ed="#Qb"/>non vivunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, inter omnia quae in genere actuum
+          <lb ed="#Qb"/>praecipue et proprie et essentialiter conveniunt
+          <lb ed="#Qb"/>substantiis spiritualibus, cuiusmodi sunt discer<lb ed="#Qb"/>nere,
+          intelligere, sapere, diligere, prius et essen<lb ed="#Qb"/>tialius
+          convenit actu-s qui est vita; si ergo actus
+          <lb ed="#Qb"/>discernendi, intelligendi, sapiendi, diligendi nond '<lb ed="#Qb"/>
+          <lb ed="#Qb"/>sunt actus corporales neque corporalibus creaturis
+          <lb ed="#Qb"/>conveniunt, multo fortius nec actus qui est vita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, ut dicit <name ref="#Augustine">Augustinus</name>, Contra Maximi<lb ed="#Qb"/>num5:
+          In illis quae mutantur <quote> nonnulla mors est
+          <lb ed="#Qb"/>ipsa mutatio </quote>. Sed creaturae corporales continuas
+          <lb ed="#Qb"/>sustinent mutationes, utpote mutationes generatio<lb ed="#Qb"/>nis
+          vel corruptionis vel augmenti vel diminutionis
+          <lb ed="#Qb"/>vel alterationis vel loci mutationis; ergo, ut vide<lb ed="#Qb"/>tur,
+          sunt in continuitate mortis; ergo non vivunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, si creaturae corporales vivunt, quae
+          <lb ed="#Qb"/>est differentia vitae corporalium creaturarum et
+          <lb ed="#Qb"/>spiritualium? spirituales creaturas dico animas
+          <lb ed="#Qb"/>et angelos. .
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo <!--e--> : Ad propositi manifestationem
+          <lb ed="#Qb"/>notandum quod est differentia vitae multiplex;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>trahitur enim in species secundum quod variatur
+          <lb ed="#Qb"/>appetitus in substantiis simplicibus sive spiritua<lb ed="#Qb"/>libus
+          et corporeis. Sicut enim supra tactum este,
+          <lb ed="#Qb"/>appetitus substantiae spiritualis nisi suo actui
+          <lb ed="#Qb"/>coniungatur et sic perficiatur, nec in se viget
+          <lb ed="#Qb"/>nec vitam operatur., Unde ex coniunctione cum
+          <lb ed="#Qb"/>suo desiderabili in se viget et quasi suscitatur
+          <lb ed="#Qb"/>ad vitam; cum autem caret suo desiderabili, aut
+          <lb ed="#Qb"/>languet vita aut extinguitur. Sed intelligendum
+          <lb ed="#Qb"/>est quod non uno modo appetitus iste, sed diffe<lb ed="#Qb"/>renti,
+          perficitur, et secundum hoc varias vitae
+          <lb ed="#Qb"/>differentias operatur. Aut enim iste appetitus in
+          <lb ed="#Qb"/>substantiis simplicibus intrinsecus omnino finitur
+          <lb ed="#Qb"/>aut totaliter extrinsecusf terminatur aut partim
+          <lb ed="#Qb"/>sic, partim sic. Si autem intrinsecus totaliter fi<lb ed="#Qb"/>nitur,
+          ut nullo penitus indigeat, neque propter
+          <lb ed="#Qb"/>esse neque. propter bene esse, sed in se et ex
+          <lb ed="#Qb"/>se habet quidquid requiritur ad esse et ad bene
+          <lb ed="#Qb"/>esse, utpote ubi est idem appetitus sive appetens
+          <lb ed="#Qb"/>et appetibile sive fruens et quo fruitur, tunc est
+          <lb ed="#Qb"/>vita per se et secundum se delectabilis et per<lb ed="#Qb"/>fecta,
+          scilicet in fine perfectionis et nobilitatis,
+          <lb ed="#Qb"/>sicut in primo bono et "summo. Si autem totaliter
+          <lb ed="#Qb"/>extrinsecusg terminatur, utpote ad aliqui-dh quo
+          <lb ed="#Qb"/>indiget ad esse et sine quoneque etiam vita esse
+          <lb ed="#Qb"/>potest, tunc est vita ipsa minime delectabilis et
+          <lb ed="#Qb"/>minimae perfectionis, ut in vegetabilibus et sen<lb ed="#Qb"/>sibilibus.
+          Unde Dionysius, De divinis nomi<lb ed="#Qb"/>nibus,
+          cap. De vïta7: <quote> Animalia omnia et germina
+          <lb ed="#Qb"/>secundum novissima-m consonantiam vitae habent
+          <lb ed="#Qb"/>vivere </quote>. Cum autem appetitus partim terminatur
+          <lb ed="#Qb"/>intrinsecus, partim extrinsecus, tunc aliquo indiget,
+          <lb ed="#Qb"/>non propter vitarn, sed propter vitae illustrationem
+          <lb ed="#Qb"/>et delectationem, hoc esti- non propter esse, sed
+          <lb ed="#Qb"/>propter bene esse. Illud autem quo indiget aut se
+          <lb ed="#Qb"/>ipso potest adipisci, id est sin-e aliquo corpore
+          <lb ed="#Qb"/>sibi uni-to: et sic est vita in angelis; aut se ipso
+          <lb ed="#Qb"/>non potest, sed indiget unione cum corpore ut
+          <lb ed="#Qb"/>illud possit adipisci: sic est vita animae ratio<lb ed="#Qb"/>.na—lis.
+          Unde dicit Avicenna8 quod anima unitur
+          <lb ed="#Qb"/>corpori ut perficiatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Adhuc nota quod appetitus substantiae simplicis
+          <lb ed="#Qb"/>terminatur extrinsecus, quando indiget aliquo ex<lb ed="#Qb"/>trinseco
+          sine quo non est in sua perfectione. Sed
+          <lb ed="#Qb"/>hoc potest esse multipliciter: illud autem extrin<lb ed="#Qb"/>secum
+          potest esse vel res vel rei species sive
+          <lb ed="#Qb"/>similitudo vel utrurnque, quia substantia spiri<lb ed="#Qb"/>tualis,
+          cuius est vita, aut-indiget re tantum, a
+          <lb ed="#Qb"/>qua dependet quantum ad essentiam, aut specie'f
+          <lb ed="#Qb"/>rei quantum ad illustrationem et bene esse. Si
+          <pb ed="#Qb" n="675"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>autem illud extrinsecum, quo indiget, sit solum—
+          <lb ed="#Qb"/>modo res a qua dependet essentialiter sive se<lb ed="#Qb"/>cundum
+          essentiam, tunc est vita vegetabilis. Si
+          <lb ed="#Qb"/>autem illud extrinsecum sit res, a qua dependet
+          <lb ed="#Qb"/>quantum ad essentiam, et species sive similitudo
+          <lb ed="#Qb"/>rei, a qua dependet quantum ad illustrationem,
+          <lb ed="#Qb"/>tunc est vita sensibilis: substantia autem animae .
+          <lb ed="#Qb"/>sensibilis essentialiter dependet a corpore; et quia
+          <lb ed="#Qb"/>vita in sensibilibus est cognitiva, non solum re
+          <lb ed="#Qb"/>sive corpore indiget, sed specie rei sive similitu<lb ed="#Qb"/>.
+          dine. Vis autem sensitiva est bipartita: habet
+          <lb ed="#Qb"/>enim quosdam sensus propter esse, quosdam
+          <lb ed="#Qb"/>propter bene esse, quosdam propter vitam, quos<lb ed="#Qb"/>dam
+          propter illustrationem vitae. Unde duplici
+          <lb ed="#Qb"/>principio naturali indiget, scilicet calore et luce
+          <lb ed="#Qb"/>sive qualitate fervida et luculenta 1, secundum
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinum</name>: calore" sive qualitate fervida
+          <lb ed="#Qb"/>propter vitam, luce sive qualitate luculenta propter
+          <lb ed="#Qb"/>vitae illustrationem; qualitas autem luculenta est
+          <lb ed="#Qb"/>in cerebro, unde est origo sensuum. Dicit enim a,
+          <lb ed="#Qb"/>VII Super Genesim ad litteramzz <quote>Omnis caro
+          <lb ed="#Qb"/>habet aliquid ignis, non solum fervidam qualita<lb ed="#Qb"/>tem,
+          cuius sedes est in iecore et in cerebro, verum
+          <lb ed="#Qb"/>etiam luculentam, quam velut eliquarib ac sub<lb ed="#Qb"/>volare
+          ostenduntc in excelsum. cerebri locum,
+          <lb ed="#Qb"/>tamquam in caelum corporis nostri, unde et
+          <lb ed="#Qb"/>radii emicant oculorum et de cuius medio, velut
+          <lb ed="#Qb"/>centro quodam, non solum ad oculos, sed etiam
+          <lb ed="#Qb"/>ad sensus ceteros, tenues fistulae deducuntur d, ad
+          <lb ed="#Qb"/>aures scilicet, ad nares, ad palatum, propter
+          <lb ed="#Qb"/>audiendum, olfaciendum atque? gustandum</quote> etc.
+          <lb ed="#Qb"/>Et Philosophus dicit, in libro De anima3:
+    <quote> Sine igne non est sentire </quote>. Quando verof extrin<lb ed="#Qb"/>secum,
+          quo indiget substantia spiritualis, non est
+          <lb ed="#Qb"/>res a qua dependet quantum ad essentiam, sed
+          <lb ed="#Qb"/>similitudo quantum ad illustrationem, tunc8 est
+          <lb ed="#Qb"/>vita rationalis. Vita enim rationalis non dependet
+          <lb ed="#Qb"/>essentialiter a corpore, indiget tamen rei specie
+          <lb ed="#Qb"/>propter bene esse vel propter illustrationem vitae,
+          <lb ed="#Qb"/>quae fit per rei similitudinem, quae accepta ducit
+          <lb ed="#Qb"/>in aliud et facit cognitionem, quae est vitae illu<lb ed="#Qb"/>strat-io:
+          et ideo haec vita est separabilis. Vita ergo
+          <lb ed="#Qb"/>ista continetur quodam modo sub duplici membro
+          <lb ed="#Qb"/>divisionis praedictae, quia et vita eius interius est
+          <lb ed="#Qb"/>terminata et non terminata interius: quantum ad
+          <lb ed="#Qb"/>esse terminata, quoad bene esse non terminata.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Similiter ex parte creatura-rum corporearum va<lb ed="#Qb"/>riatur
+          appetitus secundum variationem animarum
+          <lb ed="#Qb"/>a quibus vitam habent. Unicuique enim corpori
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>inditus est ab eius causa proprius appetitus
+          <lb ed="#Qb"/>respectu sui delectabilis sive suae perfectionis,
+          <lb ed="#Qb"/>a qua vitam participat, sicut ex parte perficientis
+          <lb ed="#Qb"/>formaliter est inditus appetitus respectu sui per<lb ed="#Qb"/>fectibilis:
+          et ex isto duplici appetitu est colli<lb ed="#Qb"/>gantia
+          eorum ad invicem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Concedendae ergo Sunt rationes, quibus osten<lb ed="#Qb"/>ditur
+          quod in corporalibus creaturis est vita.
+          <lb ed="#Qb"/>Ad illud tamen quoh persuasum4 est quod
+          <lb ed="#Qb"/>actus intelligendi sit actus corporis, per verbum
+          <lb ed="#Qb"/>Philosophi: <quote> Qui dicit animam intelligere</quote> etc.,
+          <lb ed="#Qb"/>dicendum quod duplex est intellectus, scilicet
+          <lb ed="#Qb"/>phantasticus et impermixtus phantasiae5. Quod
+          <lb ed="#Qb"/>igitur dicit Philosophus: <quote>Qui dicit animam
+          <lb ed="#Qb"/>intelligere </quote> etc., intelligit de actu intellectus phan<lb ed="#Qb"/>tastici,
+          qui non exit et potentia nisii adminiculo
+          <lb ed="#Qb"/>sensus et phantasiae. Quia igitur sensui etk phan<lb ed="#Qb"/>tasiae
+          deserviunt organa corporalia, convenienter
+          <lb ed="#Qb"/>attribuit actum huiusmodi ipsi composito ex anima
+          <lb ed="#Qb"/>et corpore. Aliter autem est de actu intellectus
+          <lb ed="#Qb"/>impermixti phantasiae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud quod primo obi<lb ed="#Qb"/>citur
+          contra hoc, dicendum quod illud quod est
+          <lb ed="#Qb"/>essentiale substantiae spirituali, bene potest par<lb ed="#Qb"/>ticipari
+          sive communicari corporali; anima enim
+          <lb ed="#Qb"/>essentialiter vivit, corpus animatum per partici<lb ed="#Qb"/>pationem
+          sive' communicationem: anima enim
+          <lb ed="#Qb"/>perficiens corpus, communicat illi vitam. Huius<lb ed="#Qb"/>modi
+          autem communicatio attestatur nobiiitati
+          <lb ed="#Qb"/>creaturarum et bonitati: nobiliores enim creatu<lb ed="#Qb"/>rae,
+          ea, quae essentialiter earum'" sunt, commu<lb ed="#Qb"/>nicant
+          aliis per influentiam quamdam vel" multi<lb ed="#Qb"/>plicationem,
+          sicut corpora superiora inferioribuso
+          <lb ed="#Qb"/>et substantiae spirituales corporalibus 6. Sed illud
+          <lb ed="#Qb"/>quod est essentiale et praecipuum substantiae
+          <lb ed="#Qb"/>spirituali, non est essentiale? et praecipuum cor<lb ed="#Qb"/>porali,
+          bene tamen est illi aliquo modo commu<lb ed="#Qb"/>nicabile.—Vel
+          potest dici, secundum Dionysium,
+          <lb ed="#Qb"/>cap. De vita 7, quod solus Deus essentialiter vivit,
+          <lb ed="#Qb"/>cuius vita est essentia, creaturae autem per par<lb ed="#Qb"/>ticipationem,
+          quia earum vita non est earum
+          <lb ed="#Qb"/>essentia. Sed quaedam participant vitam et prima
+          <lb ed="#Qb"/>vita, ut substantiae spirituales; unde Diony<lb ed="#Qb"/>sius,
+          cap. De vita: <quote> Laudanda est laudabilis vita
+          <lb ed="#Qb"/>aeterna, ex qua per se ipsam vita et omnis vita
+          <lb ed="#Qb"/>et a qua in omnia, utcumque vitam partici<lb ed="#Qb"/>pantia,
+          vivere proprie unicuique exseminaturi</quote>.
+          <lb ed="#Qb"/>Sed corporales creaturae participant vitarn ab
+          <lb ed="#Qb"/>animabus; unde Dionysius, cap. De vitas:
+        </p>
+        <p>
+                <pb ed="#Qb" n="676"/>
+                <cb ed="#Qb" n="a"/>
+          <quote>Sive intellectualem dixeris sive rationalem sive
+          <lb ed="#Qb"/>nutritivam et auctivama sive qualemcumque vi<lb ed="#Qb"/>tam
+          aut vitae'J principium aut vitae essentiam,
+          <lb ed="#Qb"/>ex ipsa et vivit et vivunt, quae est super omnem
+          <lb ed="#Qb"/>vitam</quote>. Super illud <quote>vitae principium</quote> Com<lb ed="#Qb"/>mentator":
+    <quote>Vitae principium ait, ut puta
+          <lb ed="#Qb"/>nostram animam sensibilemque. Ipsae quippe
+          <lb ed="#Qb"/>principia sunt vitae iis quae per ea in vitam in<lb ed="#Qb"/>cipiunt
+          moveri corporibus </quote>. Et hoc ad idem redit
+          <lb ed="#Qb"/>quod supra tactum est?, quia substantiae spiritua<lb ed="#Qb"/>les,
+          licet non essentialiter vivant eod modo quo
+          <lb ed="#Qb"/>Deus, essentialiter tamen vivunt, quia vita est
+          <lb ed="#Qb"/>illis essentialis. Non sic est de corporibus, quibus
+          <lb ed="#Qb"/>vita communicatur per influentiam a substantiis **
+          <lb ed="#Qb"/>spiritualibus, id est animabus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod sequitur, dicendum quod
+          <lb ed="#Qb"/>anima se ipsa est actus velf perfectio corporis
+          <lb ed="#Qb"/>organici3 etc., non sui parte: unde se ipsa com<lb ed="#Qb"/>municat
+          vitarn corpori, cuius est actus; sed, secun<lb ed="#Qb"/>dum
+          Philosophum4, <quote> oportet accipere quode
+          <lb ed="#Qb"/>est in parte, in toto vivente corpore: simile nam<lb ed="#Qb"/>que
+          habet, sicut pars ad partem, sich totus sensus
+          <lb ed="#Qb"/>ad totum corpus </quote>. Unde est aliquis actus ab anima
+          <lb ed="#Qb"/>ipsa in[ corpore indistinctek, sicut vivere: non
+          <lb ed="#Qb"/>enim vivit alia specie vitae oculus quam auris,
+          <lb ed="#Qb"/>sicut alia specie sensus sentit. Actus igitur qui
+          <lb ed="#Qb"/>est ab ipsa' secundum se totam, cuiusmodi est
+          <lb ed="#Qb"/>vivere, communicatur corpori et toti corpori, sicut
+          <lb ed="#Qb"/>anima illius totius est perfectio. Similiter actus,
+          <lb ed="#Qb"/>qui est a parte seu potentia animae, quae est
+          <lb ed="#Qb"/>perfectio partis, communicatur parti, sicut audire,
+          <lb ed="#Qb"/>videre et huiusmodi. Sed actus intelligendi et qui
+          <lb ed="#Qb"/>ad actum intellectus sequuntur, non possunt cor<lb ed="#Qb"/>pori
+          communicari, quia pars animae intellectiva
+          <lb ed="#Qb"/>neque corporis neque partis corporis est actus,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ut vult Philosophuss. Licet ergo actus vivendi
+          <lb ed="#Qb"/>sit praecipuus actus et maxime essentialis sub<lb ed="#Qb"/>stantiae
+          spirituali, scilicet"! animaeö, tamen, quia
+          <lb ed="#Qb"/>est actus animae secundum se, quae est perfectio
+          <lb ed="#Qb"/>corporis, corpori communicatur. Actus autem in<lb ed="#Qb"/>telligendi
+          et qui ad ipsum sequuntur, quia non
+          <lb ed="#Qb"/>est actus animae ratione alicuius partis seu po<lb ed="#Qb"/>tentiae
+          animae, quae est actus corporis vel partis
+          <lb ed="#Qb"/>illius, corpori non communicatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad illud quod sequitur, scilicet 'quia"
+          <lb ed="#Qb"/>corpora continuis subiacent mutationibus, non
+          <lb ed="#Qb"/>vivunt, quia nonnulla mors est ipsa mutatio': po<lb ed="#Qb"/>test
+          dici quod, cum dicitur : <quote> nonnulla mors est
+          <lb ed="#Qb"/>ipsa mutatio </quote>, ibi sumitur mors pro declinatione
+          <lb ed="#Qb"/>sive tendentia ad non-esse. Unde dicit <quote>non<lb ed="#Qb"/>nulla
+          mors </quote>, id est aliquod genus sive modus
+          <lb ed="#Qb"/>mortis. Unde intellectus verbi <name ref="#Augustine">Augustini</name> est
+          <lb ed="#Qb"/>quod illa quae subiacent mutationibus, sia sibi
+          <lb ed="#Qb"/>essent derelicta, deficerent et in nihilum decli<lb ed="#Qb"/>narentI.
+          Unde mors, secundum intellectum verbi
+          <lb ed="#Qb"/>supra dicti, non dicit privationem vitae, secundum
+          <lb ed="#Qb"/>quod hic intenditur de vita, sed potius sumitur
+          <lb ed="#Qb"/>per oppositionem ad immortalitatem, de qua
+          <lb ed="#Qb"/>I Tim. 6,16: Qui solus habet immortalitatem. De
+          <lb ed="#Qb"/>qua<name ref="#Augustine">Augustinus</name>, libro IP De TrinitateB: <quote> Cum
+          <lb ed="#Qb"/>animaq modo quodam immortalis esse dicatur
+          <lb ed="#Qb"/>et sic non diceret': Solus habet immortalitatem,
+          <lb ed="#Qb"/>nisi quia vera immortalitas incommutabilitas est,
+          <lb ed="#Qb"/>quam nulla potest habere creatura</quote>. Vel mutatio
+          <lb ed="#Qb"/>dicitur <quote> nonnulla mors </quote>, quia mutatio facit aliquid
+          <lb ed="#Qb"/>non esse in re' mutabili, quod ante erat. De hoc
+          <lb ed="#Qb"/>I libro Sententiarum, dist. 8, cap. 4: Uis enim ait 9.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad ultimum quaesitum patet responsio ex
+          <lb ed="#Qb"/>praedictis, scilicet ubi tactum est de differentia
+          <lb ed="#Qb"/>vitae corporalium creaturarum et spiritualium 10.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="263"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q3t2m3c1">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, C. 1</head>
+        <head type="question-title">UTRUM ANGELUS HABEAT POTESTATEM CUSTODIENDI HOMINEM-SECUNDUM ANIMAM</head>
+        <p>
+          <lb ed="#Qb"/>Quaeritur ergo in primis utrum angelus habeat
+          <lb ed="#Qb"/>potestatem custodiendi hominem secundum
+          <lb ed="#Qb"/>animam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem custodiat g, probatur a. per auc<lb ed="#Qb"/>toritates
+          Sacrae]z Scripturae. Matth; 18,10: <quote ana="#mt18_10">Angeli
+          <lb ed="#Qb"/>eorum semper vident faciem Patris</quote>; et planius
+          <lb ed="#Qb"/>habetur in .Glossaz, quae dicit: <quote>Magna est
+          <lb ed="#Qb"/>dignitas animarum, ut unaquaeque ab ortu suae
+          <lb ed="#Qb"/>nativitatis in sui custodiam habeat angelum sibit
+          <lb ed="#Qb"/>deputatum </quote>; unde *, Isai. 62,6: <quote ana="#is62_6">Super muros tuos ',
+          <lb ed="#Qb"/>Ierusalem, constitui custodes</quote>; Item, Eccli. 17, 14:
+          <lb ed="#Qb"/>
+          <quote ana="#sir17_14">In unaquaque gente praeposuit rectores</quote>, id est
+          <lb ed="#Qb"/>angelos.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, quamdiu puer parvulus est et facilis
+          <lb ed="#Qb"/>ad casum secundum corpus, indiget manuductore,
+          <lb ed="#Qb"/>quousque scilicet veniat ad aetatem perfectam, in
+          <lb ed="#Qb"/>qua fortis est et sufficiens sibi; ergo similiter
+          <lb ed="#Qb"/>videtur quod secundum animam homo, quamdiu
+          <lb ed="#Qb"/>debilis est et facilis ad casum spiritualem, indiget
+          <lb ed="#Qb"/>custode sive manuductore spirituali, quousque ve<lb ed="#Qb"/>niat"
+          ad aetatem pertectam 3. Et huic" concordat
+          <lb ed="#Qb"/>Apostolus, Gal. 3,24: <quote ana="#gal3_24">Lex paedagogus noster
+          <lb ed="#Qb"/>fuit in Christo</quote>. Haec autem perfecta aetas non
+          <lb ed="#Qb"/>habetur, quamdiu homo est in via; ergo quamdiu
+          <lb ed="#Qb"/>est in via sive in statu viae, semper eget custode;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>huiusmodi autem custos non videtur nisi angelus;
+          <lb ed="#Qb"/>ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, I Cor. 15, 24: <quote ana="#Icor15_24">Cum evacuaverit omnem
+          <lb ed="#Qb"/>principatum</quote>, Glossa4: <quote> Tunc, id est in futuro,
+          <lb ed="#Qb"/>omnis praelatio cessabit, quaP angeli angelis et
+          <lb ed="#Qb"/>animabus praesunt</quote>. Si ergo haec cessatio tunc
+          <lb ed="#Qb"/>est, manifestum? est quod modo est huiusmodi
+          <lb ed="#Qb"/>praelatio; angeli ergo praesunt animabus, et non.
+          <lb ed="#Qb"/>apparet in quo nisi in custodia; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: Videtur quod non congruat homini
+          <lb ed="#Qb"/>habere angelum custodem. 1. <name ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Qb"/>libro 83 Quaestionum, 23 quaest: <quote> Mentem
+          <lb ed="#Qb"/>factam ' [ad] imaginem Dei dicunt, quae, nulla in<lb ed="#Qb"/>terposita
+          substantia, a prima veritate formatur </quote>.
+          <lb ed="#Qb"/>Ergo nec interposito angelo; sed custos, in quan<lb ed="#Qb"/>tum
+          huiusmodi, praeponitur custodito; ergo an—
+          <lb ed="#Qb"/>gelus non est custos animae, saltem quantum ad
+          <lb ed="#Qb"/>mentem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Iob 7, 20: <quote ana="#iob7_20">Quid faciam tibi 8, o custos
+          <lb ed="#Qb"/>hominum?</quote> ita dicit Iob ad Deum; Deus ergo est
+          <lb ed="#Qb"/>custos hominum-; ideo Psalmi: <quote>Nisi Dominus
+          <lb ed="#Qb"/>custodierit civitatem</quote> etc.; cum igitur Deus sit
+          <lb ed="#Qb"/>sufficientissimus, non videtur quod ponatur alius
+          <lb ed="#Qb"/>custos.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, sicut homo geritimaginem Dei ratione
+          <lb ed="#Qb"/>bonitatis et sapientiae, itat ratione potentiae. Unde
+          <pb ed="#Qb" n="264"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Gen. 1,26, postquam dictum est: <quote ana="#gen1_26">Faciamus ho<lb ed="#Qb"/>minem
+          ad imaginem et similitudinem nostram</quote>,
+          <lb ed="#Qb"/>statim subiungitur de potentia: <quote>Et praesit pisci<lb ed="#Qb"/>bus</quote>.
+          Sed inter imaginem et id cuius est imago,
+          <lb ed="#Qb"/>nihil interponitur; ergo inter hominem, in quantum
+          <lb ed="#Qb"/>gerit imaginem Dei in potentia cognoscendi, et
+          <lb ed="#Qb"/>Deum nihil est medium, immo immediate est sub
+          <lb ed="#Qb"/>Dei potestate; sed custos b habet potestatem super
+          <lb ed="#Qb"/>custoditum;,ergo angelus non est custos hominis
+          <lb ed="#Qb"/>sive non habet potestatem custodiendi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Si dicatur quod angelus praeest homini ut
+          <lb ed="#Qb"/>custos ex parte cognitivae, quia instruite eum et
+          <lb ed="#Qb"/>docet in multis, sed non praeest ex parte mo<lb ed="#Qb"/>tivae,
+          quia non dat eid suam perfectionem quae
+          <lb ed="#Qb"/>est gratia, sed Deus immediate, et sic intelligitur
+          <lb ed="#Qb"/>supra positae auctoritas <name ref="#Augustine">Augustini</name>, in librof
+          83 Quaestionum1 - sed contra hoc est quod
+          <lb ed="#Qb"/>sequitur in auctoritate: <quote> ab ipsa veritate forma<lb ed="#Qb"/>tur
+    </quote>, ut fiat vis in verbo: veritas enim, in quan<lb ed="#Qb"/>tum
+          huiusmodi, respicit cognitivam et non moti—
+          <lb ed="#Qb"/>vam; ergo ista auctoritas intelligitur de imme<lb ed="#Qb"/>diatione
+          Dei ad mentem quoad cognitivam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Praeterea, sicut homo est imago Dei quoad
+          <lb ed="#Qb"/>potentiam motivam, ita et secundum cognitivam;
+          <lb ed="#Qb"/>ergo secundum utramque nihil est medium inter
+          <lb ed="#Qb"/>mentem et Deum; ergo nec angelus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, hoc dicit <name ref="#Augustine">Augustinus</name>, in libro De
+          <lb ed="#Qb"/>quantitate animae 2, ubi loquitur de anima, dicit
+          <lb ed="#Qb"/>quod <quote> nihil inter omnia est propinquius </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>7. Item, dicit <name ref="#Augustine">Augustinus</name>, Super Genesim 3,
+          <lb ed="#Qb"/>quod sicut <quote> agricolae non dicuntur creatores fru<lb ed="#Qb"/>gum,
+          quamvis multas praeparationes faciant ad
+          <lb ed="#Qb"/>producendas fruges, ita nec angeli dicuntur crea-.
+          <lb ed="#Qb"/>tores </quote>, quia scilicet nulli rei dant formam ulti<lb ed="#Qb"/>mam,
+          quamvis saepe ad formam ultimam sua
+          <lb ed="#Qb"/>operatione praeparent et disponantg. Sicut ergo
+          <lb ed="#Qb"/>angelus non dat motivae potentiae suam per<lb ed="#Qb"/>fectionem
+          vel formam completivam vel gratiam
+          <lb ed="#Qb"/>sive amorem summae bonitatis, ita nec potentiae
+          <lb ed="#Qb"/>cognitivae dath suam perfectionem vel comple<lb ed="#Qb"/>tionem,
+          id est summae virtutisi cognitionem, sed
+          <lb ed="#Qb"/>utrique potentiae datur perfectio a Deo immediate;
+          <lb ed="#Qb"/>ergo quoad hoc aequaliter se habent immediate
+          <lb ed="#Qb"/>adk Deum ambae potentiae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>8. Praeterea, sicut angelus operatione sua prae<lb ed="#Qb"/>parat
+          et disponit cognitivam ad suam completio<lb ed="#Qb"/>nem
+          instruendo et docendo, ita videtur dispo<lb ed="#Qb"/>nere
+          motivam consulendo de fugiendis et agen<lb ed="#Qb"/>dis
+          et excitando sive inflammando ad' amorem
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>summae bonitatis; ergo quoad hoc sunt aequales
+          <lb ed="#Qb"/>huiusmodi potentiae; ergo qua ratione dicetur ha<lb ed="#Qb"/>bere
+          potentiam super cognitivam, eadem ratione
+          <lb ed="#Qb"/>et super motivam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>9. Item, <name ref="#Augustine">Augustinus</name>, in libro 83 Quaestio<lb ed="#Qb"/>num4:
+    <quote> Perfecta ratio, quae virtus vocatur, uti<lb ed="#Qb"/>tur
+          primo se ipsa ad intelligendum Deum-ut ipso
+          <lb ed="#Qb"/>fruatur, ceteris rationabilibus ad societatem, uti<lb ed="#Qb"/>tur
+          animantibus irrationabilibus ad" eminentiam,
+          <lb ed="#Qb"/>utitur corporalibus vivificandis ad beneficentiam,
+          <lb ed="#Qb"/>utitur quibusdam assumendis vel respuendis ad
+          <lb ed="#Qb"/>beatitudinem, quibusdam tolerandis ad patientiam,
+          <lb ed="#Qb"/>quibusdam ordinandis ad iustitiam; utitur etiam
+          <lb ed="#Qb"/>iis, a. quibus abstinet, ad patientiam</quote>. Ex iis
+          <lb ed="#Qb"/>patet quod anima utitur angelis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>10. Idem autem <name ref="#Augustine">Augustinus</name>, in libro De
+          <lb ed="#Qb"/>Trinitate 5, definit 'uti' sic: <quote>Uti est assumere
+          <lb ed="#Qb"/>aliquid in voluntatis facultatem " </quote> propter id quo
+          <lb ed="#Qb"/>fruendum est. Ex hoc quod dicit <quote> assumere in
+          <lb ed="#Qb"/>facultatem voluntatisP </quote> videtur quod illud, quod
+          <lb ed="#Qb"/>utitur, superius sit eo quo utitur in quantum
+          <lb ed="#Qb"/>huiusmodi. Arguitur ergo sic: Omne, quod utitur
+          <lb ed="#Qb"/>alio, superius est eo in quantum q huiusmodi; sed
+          <lb ed="#Qb"/>anima utitur 'angelis' ; ergo superior est eis in
+          <lb ed="#Qb"/>quantum huiusmodi; ergo angelus non habet po<lb ed="#Qb"/>testatem
+          super animam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>11. Item, <quote> utitur ceteris rationabilibus ad 50<lb ed="#Qb"/>cietatem</quote>; 
+          ubi autem 5 est societas, ibi est pari<lb ed="#Qb"/>tas,
+          et non praeeminentia; ergo inter animam et
+          <lb ed="#Qb"/>angelum nonnest praeeminentia, et inde ut prius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Solutio: Dicimus cum primo positis auctori<lb ed="#Qb"/>tatibus
+          et rationibus quod angeli habent potesta<lb ed="#Qb"/>tem
+          custodiendi animas et eas custodiunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum quod obicit
+          <lb ed="#Qb"/>de immediatione, quae habetur in auctoritate Au<lb ed="#Qb"/>gustini,
+          solet dici quod mens communiter ac<lb ed="#Qb"/>cepta
+          duplicem habet vims: superiorem, quae di<lb ed="#Qb"/>citur
+          intelligentia, qua* cognoscit Creatorem, et
+          <lb ed="#Qb"/>de hac intelligitur auctoritas <name ref="#Augustine">Augustini</name>, et in<lb ed="#Qb"/>feriorem,
+          scilicet intellectum, qua " cognoscit crea<lb ed="#Qb"/>turas,
+          et de hac non intelligitur V, et quoad istam
+          <lb ed="#Qb"/>verum est quod habet angelum custodem. — Sed
+          <lb ed="#Qb"/>aliter videtur dicendum quod secundum utramque
+          <lb ed="#Qb"/>vim habetx custodiam angeli secundum aliquam
+          <lb ed="#Qb"/>rationem custodiae; verum est tamen quod se<lb ed="#Qb"/>cundum
+          quod? plusdescendunt potentiae, secun<lb ed="#Qb"/>dum
+          hoc plus est ibi de ratione custodiae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad auctoritatem ergo <name ref="#Augustine">Augustini</name> respon<lb ed="#Qb"/>deoz
+          faciendo vim in hoc quod dicitura: <mentioned>formatur</mentioned>:
+          <pb ed="#Qb" n="265"/>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>dicimus quod quaelibet vis animae, et motiva
+          <lb ed="#Qb"/>et cognitiva et superior et inferior, immediate <quote> a
+          <lb ed="#Qb"/>prima veritate formatur </quote>, scilicet forma ultima,
+          <lb ed="#Qb"/>id est perficitur ultima completione. Nihilominus
+          <lb ed="#Qb"/>tamen angeli habent potentiam praeparandi" et
+          <lb ed="#Qb"/>disponendi aliquo modo quamlibet animae po<lb ed="#Qb"/>tentiam
+          ad suam ultimam completionem, et quo<lb ed="#Qb"/>ad
+          hanc potentiam velb potestatem habent ipsi
+          <lb ed="#Qb"/>custodire. Illud plane habetur in Glossa super
+          <lb ed="#Qb"/>illud 1: Manus tuae fecerant me et plasmaverunt
+          <lb ed="#Qb"/>me, ubi dicitur: <quote> Solus Deus dat intellectum, etsi
+          <lb ed="#Qb"/>aliquando mediante angelo, ut Danieli, cui dixit
+          <lb ed="#Qb"/>angelusz: Ego veni tibi intellectum dare; Deus
+          <lb ed="#Qb"/>tamen, qui lux est 3, per se ipsum illuminat pias
+          <lb ed="#Qb"/>mentes, etsi aliquandoutitur ministerio angelorum:
+          <lb ed="#Qb"/>ita enim dicitur intellectum dare homini c ut quis<lb ed="#Qb"/>que
+          dicitur dare lumen domui, cuid fenestram
+          <lb ed="#Qb"/>facit, cum eame sua luce non illustret4a.</quote>
+             </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud quod obiciturf de imagine quae
+          <lb ed="#Qb"/>est in homine ratione potentiae, dicendum-25
+          <lb ed="#Qb"/>quod, cum dicitur: Praesit piscibus etc., non loqui<lb ed="#Qb"/>tur
+          ibi nisi h de potestate hominis super corporales
+          <lb ed="#Qb"/>creaturas, ut patet ex textu. Unde istai potentia,
+          <lb ed="#Qb"/>quae est in homine secundum quod est ad ima<lb ed="#Qb"/>ginem
+          Dei, non dicitur qua': possit superange—
+          <lb ed="#Qb"/>lum, sed' super irrationales creaturas; unde non
+          <lb ed="#Qb"/>obstat quin angelus habeat aliquam potestatem
+          <lb ed="#Qb"/>super eum. Si autem ista potentia esset talis
+          <lb ed="#Qb"/>quod per eam posset se'" homo custodire et re<lb ed="#Qb"/>gere,
+          non habens indigentiam ut custodiatur, va<lb ed="#Qb"/>leret
+          ratio ista; sed non sic est, quia homo semper
+          <lb ed="#Qb"/>indiget, dum est in via. — Ad hoc quod obi<lb ed="#Qb"/>citur"
+          quod 'inter imaginem" et id cuius est
+          <lb ed="#Qb"/>imago, nihil est medium': solvendum estP per
+          <lb ed="#Qb"/>praedicta, dicendo quod nihil est medium quoad
+          <lb ed="#Qb"/>perfectionem ultimam, est tamen aliquod medium
+          <lb ed="#Qb"/>praeparans et? diSponens eamdem imaginem ad<lb ed="#Qb"/>huc
+          informem ad suam ultimam perfectionem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Dicimus etiam quod animam custodit et
+          <lb ed="#Qb"/>Deus et angelus, sed differenter: Deus quidem
+          <lb ed="#Qb"/>auctoritate, angelus' ministerio, secundum illud
+          <lb ed="#Qb"/>Hebr. 1,14: <quote ana="#hebr1_14">Omnes sunt administratorii spiri<lb ed="#Qb"/>tus</quote>
+          etc. Et, licet Deus sit sufficiens ad custodien<lb ed="#Qb"/>dum
+          sine ministerio, angelus tamen custodit prop<lb ed="#Qb"/>ter
+          servandum ordinem rerum, cuiusmodi ordo
+          <lb ed="#Qb"/>est Dei ad angelum et angeli ad hominem, sicut
+          <lb ed="#Qb"/>patebit in sequenti Problemate 5. Simili enim
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>modo posset obici quoniam Deus omnia faceret"
+          <lb ed="#Qb"/>per se et nihil mediante natura vel angelo, cum
+          <lb ed="#Qb"/>ad omnia sufficiat Deus; sed non oportet hoc,
+          <lb ed="#Qb"/>quia, licet sit sufficiens, non tamen tollitb ordi<lb ed="#Qb"/>nem
+          rerum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>9—11. Ad aliud quod obiciturc de eo quod est
+          <lb ed="#Qb"/>uti ', respondetur quod 'uti aliquo' dupliciter
+          <lb ed="#Qb"/>est: aut tamquam instrumento, quemadmodum ar<lb ed="#Qb"/>tifex
+          utitur securi, et sic verum est quod utens
+          <lb ed="#Qb"/>superius est eo quo utitur; autd tamquam patrono
+          <lb ed="#Qb"/>vel adiutorio, sicut quis utitur advocato, et sic non
+          <lb ed="#Qb"/>oportet quod utens sit superiuse, immo potestf
+          <lb ed="#Qb"/>esse inferius, et sic utitur anima angelo; unde
+          <lb ed="#Qb"/>non ex hoc sequitur quod sit superior eo. —
+          <lb ed="#Qb"/>Aliter dicendumg accipiendo intellectum auctori<lb ed="#Qb"/>tatis
+    <name ref="#Augustine">Augustini</name>, quia h revera, secundum quod
+          <lb ed="#Qb"/>ipse dicit, animai ad intelligendum Deum, id est
+          <lb ed="#Qb"/>ad deveniendum * in Dei cognitionem, utitur omni
+          <lb ed="#Qb"/>creatura, quia sicut prima et summa bonitas habet
+          <lb ed="#Qb"/>aliquam sui similitudinem in creatura' quae ad
+          <lb ed="#Qb"/>ipsam ducit "', ita summa veritas habet aliquam
+          <lb ed="#Qb"/>sui similitudinem " quae ad se ducit: unde quoad
+          <lb ed="#Qb"/>hoc omnis creatura habet rationem intelligibilis;
+          <lb ed="#Qb"/>sed praeter hoc rationalis creatura non solum
+          <lb ed="#Qb"/>habet rationem intelligibilis, sed insuper habet"
+          <lb ed="#Qb"/>rationem intellectivi, scilicet anima et angelus.
+          <lb ed="#Qb"/>Dicimus ergo quod anima, in quantum habet ra<lb ed="#Qb"/>tionemintellectivi,
+          utitur ceteris omnibus, in quan<lb ed="#Qb"/>tum
+          intelligibilia sunt, ad deveniendum in cogni<lb ed="#Qb"/>tionem
+          Creatoris: unde utitur etiam angelo. Nec
+          <lb ed="#Qb"/>ideo sequitur quod? sit superior, quia <quote> se ipsa uti<lb ed="#Qb"/>tur
+    </quote> hoc modo, secundum quod dicit eadem auc<lb ed="#Qb"/>toritas,
+          nec ideo superior est se ipsa; vel si se<lb ed="#Qb"/>quatur
+          quod nobilior sit quoad hoc, quia videlicet
+          <lb ed="#Qb"/>intellectivum ut huiusmodi nobilius est intelligibili
+          <lb ed="#Qb"/>ut huiusmodi, non tamen sequitur quod simpli<lb ed="#Qb"/>citer
+          nobilior sit, quia non solum habet angelus
+          <lb ed="#Qb"/>naturam intelligibilis, sed etiam intellectivi, sicut
+          <lb ed="#Qb"/>et anima; unde anima utitur eo 4 intelligendo eum
+          <lb ed="#Qb"/>et ipse utitur ea' intelligendo eam: unde quoad
+          <lb ed="#Qb"/>hoc est paritas. Et hoc est quod dicit auctoritas
+          <lb ed="#Qb"/>praedicta: <quote> Utitur ceteris rationabilibus ad socie<lb ed="#Qb"/>tatem
+    </quote>, quia invicem se intelligunt et utrumque
+          <lb ed="#Qb"/>utroque utitur hac via. Necs tamen per hoc ex<lb ed="#Qb"/>cluditur
+          potestas custodiae in angelo, quia]f se<lb ed="#Qb"/>cundum
+          aliam viam est ibi praeeminentia, ut iam
+          <lb ed="#Qb"/>patebit 7. '
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

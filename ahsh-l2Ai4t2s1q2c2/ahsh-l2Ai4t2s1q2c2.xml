@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="519"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s1q2c2">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 2, C. 2</head>
+        <head type="question-title">UTRUM MAIORIS POTENTIAE FUERIT CREARE DE NIHILO CORPUS PRIMI HOMINIS QUAM FORMARE DE LIMO.</head>
+        <p>
+                <pb ed="#Qb" n="519"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Sequitur inquirere utrum maioris potentiae fuerit
+          <lb ed="#Qb"/>creare corpus primi hominis de nihilo an for<lb ed="#Qb"/>mare
+          de limo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod maioris, videtur sic: a. <name ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Qb"/>libro De Symbolo 1: <quote>Ideo dicitur Deus omnipotens,
+          <lb ed="#Qb"/>quia de nihilo fecit omnia quae fecit; non enim
+          <lb ed="#Qb"/>aliqua materies eum iuvit" ex qua demonstraret
+          <lb ed="#Qb"/>artis suae potentiam, sed ex nihilo cuncta crea<lb ed="#Qb"/>vit</quote>.
+          Si ergo manifestatur Dei omnipotentia in
+          <lb ed="#Qb"/>creando aliquid ex nihilo, non autem formando
+          <lb ed="#Qb"/>aliquid de aliquo quocumque, cum in illa forma—
+          <lb ed="#Qb"/>tione iuvet eum materia subiecta, videtur maioris
+          <lb ed="#Qb"/>potentiae esse creare de nihilo quam formare de
+          <lb ed="#Qb"/>limo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, inter aliquid et nihil est infinita distan<lb ed="#Qb"/>tia,
+          inter aliquid et aliquid finita 0: unde in factione
+          <lb ed="#Qb"/>alicuius de nihilo est actus potentiae infinitae, in
+          <lb ed="#Qb"/>formatione alicuius de aliquo 0 est actus finitae;
+          <lb ed="#Qb"/>igitur, cum infiniti ad finitumd nulla sit proportio 2,
+          <lb ed="#Qb"/>improportionabiliter est maioris potentiae formare
+          <lb ed="#Qb"/>aliquid de nihilo quam facere aliquid de aliquo;
+          <lb ed="#Qb"/>ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Ut habetur ab Augustino 3, maius
+          <lb ed="#Qb"/>est facere de impio pium quam creare caelum et
+          <lb ed="#Qb"/>terram, et hoc est, ut dicitur, quia in, creatione
+          <lb ed="#Qb"/>caeli et terrae non est aliqua dispositio contra<lb ed="#Qb"/>ria,
+          sicut in iustificatione, ubi invenitur dispositio
+          <lb ed="#Qb"/>liberi arbitrii repugnans gratiae. Ergo a simili,
+          <lb ed="#Qb"/>cum limus haberet suam formam, quia erat hoc
+          <lb ed="#Qb"/>aliquid,, nec illa materia inclinationem haberet ad
+          <lb ed="#Qb"/>corpus humanum, sed quasi oppositam 2, eo quod
+          <lb ed="#Qb"/>complebatur perf formam suam, Videtur, cum de
+          <lb ed="#Qb"/>limo factum fuit corpus humanum, maioris fuisse
+          <lb ed="#Qb"/>potentiae quam si illud fuisset ex nihilo.
+        </p>
+        <p>
+    
+          <lb ed="#Qb"/>2. Praeterea, arguit <ref>
+            <name ref="#Lombard">Magister</name>, in Sententiis,
+          <lb ed="#Qb"/>II libro, dist. 18, cap. <seg type="incipit">Solet quaeri <!-- actually incipit --></seg>
+          </ref>4: <quote> Angeli non
+          <lb ed="#Qb"/>possunt creare naturam, ergo nec formare costam
+          <lb ed="#Qb"/>in mulierem" </quote>; sed sive hic sit argumentum a si<lb ed="#Qb"/>mili
+          sive a maiori, non sequitur quod maior sit
+          <lb ed="#Qb"/>potentia facere aliquid ex nihilo quam facere
+          <lb ed="#Qb"/>mulierem ex costa. A simili videtur in proposito,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>cum eadem fuerit conditio in formatione mulieris
+          <lb ed="#Qb"/>de costa et corporis Adae de limo, quia sicut in
+          <lb ed="#Qb"/>costa non fuit unde fieret mulier, sed unde fieri
+          <lb ed="#Qb"/>posset5, similiter in limo non fuit unde fieret cor<lb ed="#Qb"/>pus
+          Adae, sed unde fieri posset; igitur non fuit
+          <lb ed="#Qb"/>maioris potentiae creare corpus illud de nihilo
+          <lb ed="#Qb"/>quam formare de limo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, Deus est infinitae virtutis eti necessario
+          <lb ed="#Qb"/>agit tota virtute quidquid agit, quia eius virtus,
+          <lb ed="#Qb"/>cum sit ipse k, simplex est et impartibilis; igitur
+          <lb ed="#Qb"/>in formatione hominis de limo operatus est tota
+          <lb ed="#Qb"/>virtute, scilicet infinita; sed maiore non opera<lb ed="#Qb"/>baturl
+          in creando caelum et terram; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Praeterea, ut habetur a Philosopho 6, po<lb ed="#Qb"/>tentia
+          est principium transmutationis in aliud in
+          <lb ed="#Qb"/>quantum aliud; sed non-ens non est subiectum
+          <lb ed="#Qb"/>transmutationis; ergo potentia est principium
+          <lb ed="#Qb"/>transmutationis eius quod est in aliud; ergo ubi
+          <lb ed="#Qb"/>salvatur ratio potentiae agentis sive facientis, ne<lb ed="#Qb"/>cessario
+          erit materia subiecta actioni; ergo ubi
+          <lb ed="#Qb"/>non est materia subiecta actioni '", nulla est actio
+          <lb ed="#Qb"/>potentiae; igitur nihil est quaerere utrum fuerit
+          <lb ed="#Qb"/>maioris potentiae creare etc., ex quo nulla po<lb ed="#Qb"/>tentia
+          agit aliquid ex nihilo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]7: Ad hoc" notandum quod duplex
+          <lb ed="#Qb"/>est potentia materiae sive subiecti transmutatio<lb ed="#Qb"/>nis,
+          scilicet activa et passiva: passiva, quae nihil
+          <lb ed="#Qb"/>cooperatur " formae inducendae in materiam ipsam,
+          <lb ed="#Qb"/>sedP est tantum potentia recipiendi formam; activa,
+          <lb ed="#Qb"/>quae aliquo modo cooperatur ipsi agenti ad induc<lb ed="#Qb"/>tionem
+          iormae, quia aliquid formae latet in ma<lb ed="#Qb"/>teria
+          vel quia appetitus materiae habet aliquam q
+          <lb ed="#Qb"/>inclinationem ad illam formam 3, sicut estin illis in
+          <lb ed="#Qb"/>quibus est ratio seminalis ad aliqua producenda
+          <lb ed="#Qb"/>in esse ex illis. Quandoque ex parte materiae sive
+          <lb ed="#Qb"/>subiecti est defectus potentiae sive principii activi,
+          <lb ed="#Qb"/>sicut fuit in limo, in quo non erat ut fieret ex
+          <lb ed="#Qb"/>eo corpus Adae, quia non erat in illo potentia
+          <lb ed="#Qb"/>formalis sive activa, quae cooperabatur' eductioni
+          <lb ed="#Qb"/>illius in esse, potentia Creatoris educente illud
+          <lb ed="#Qb"/>ex eo. Quandoque est duplex detectus, scilicet
+          <lb ed="#Qb"/>diminutio ex parte materiae et carentia principii
+          <pb ed="#Qb" n="520"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>activi, sicut fuit in costa. Unde Hugo *, distin<lb ed="#Qb"/>guendo
+          operationes quibus substantiae producun<lb ed="#Qb"/>tur
+          in esse, ponit opus unum, quod est <quote>facere
+          <lb ed="#Qb"/>de aliis aliquid secundum substantiam et quanti<lb ed="#Qb"/>tatem
+          in maius </quote>, et hoc modo operandi dicit2 cor<lb ed="#Qb"/>pus
+          mulieris factum ex costa <quote> divina virtute absque
+          <lb ed="#Qb"/>extrinsecofl additamento </quote>, ut supra tactum est 3.
+          <lb ed="#Qb"/>ln eductione autemb rei sive formae de materia
+          <lb ed="#Qb"/>sive subiecto primo modo sumpto potest natura
+          <lb ed="#Qb"/>in eductionec rei de subiecto; secundo modo
+          <lb ed="#Qb"/>sumpto non potest et multo fortius nec tertio,
+          <lb ed="#Qb"/>sed solus Creator. Secundum igitur hos gradus
+          <lb ed="#Qb"/>est facilius et magis difficile d educere res in esse,
+          <lb ed="#Qb"/>quia ex materia vele subiecto primo modo se
+          <lb ed="#Qb"/>habente est modus facillimus, ex secundo modo
+          <lb ed="#Qb"/>se habentef difficilior et ex tertio adhuc difficilior,
+          <lb ed="#Qb"/>sed adhuc producere aliquid in esse ex nihilo
+          <lb ed="#Qb"/>simpliciter difficillimum est et magis mirabile este.
+          <lb ed="#Qb"/>Unde Hugo4: <quote> Magis" est mirabile de nihilo
+          <lb ed="#Qb"/>aliquid facere quam de aliquo plus facere </quote>. Haec
+          <lb ed="#Qb"/>autem ultima tria genera operumi sunt de genere
+          <lb ed="#Qb"/>mirabilium et nonnisi a solo Deo esse possunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Cum ergo quaeritur 'utrum maioris potentiae
+          <lb ed="#Qb"/>sit creare' etc.: dicendum quod nequek maioris
+          <lb ed="#Qb"/>neque minoris, sed omnino indifferentis, quia—di<lb ed="#Qb"/>vina
+          potentia, quae est idem cum ipso, omnino
+          <lb ed="#Qb"/>simplex est et impartibilis in se; opus tamen
+          <lb ed="#Qb"/>sive effectus eius, qui est productust in esse ex
+          <lb ed="#Qb"/>nihilo, simpliciter est magis mirabile eo quod
+          <lb ed="#Qb"/>producitur in esse ex aliquo, scilicet ex limo,
+          <lb ed="#Qb"/>sicut habetur ab Hugonem. Concedenda est
+          'ergo ratio <name ref="#Augustine">Augustini</name> qua ostenditur Deum
+          <lb ed="#Qb"/>esse omnipotentem, quia fecit omnia" ex nihilo 6.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: a. Cum autem obicitur quod
+          <lb ed="#Qb"/>non ostenditur eius potentia esse infinita in- for<lb ed="#Qb"/>mando
+          aliquid de aliquo, cum in illa formatione
+          <lb ed="#Qb"/>iuvet eum materia ex qua': dicendum quod
+          <lb ed="#Qb"/>hoc non dicitur quia aliquo modo eius" possit
+          <lb ed="#Qb"/>iuvari potentia inP actione, sed hoc dicitur4
+          <lb ed="#Qb"/>illo- tropo ? loquendi quo illud dicitur 'iuvare'
+          <lb ed="#Qb"/>agentem quo effectus agentis facilius exit in
+          <lb ed="#Qb"/>esse. Unde, quia quod educitur in esse de ali<lb ed="#Qb"/>quo,
+          facilius exit in esse quam quod ex nihilo,
+          <lb ed="#Qb"/>quantum est de se, quia minus distat ab esse
+          <lb ed="#Qb"/>sive forma fiendas, quando scilicet proportio<lb ed="#Qb"/>naturt
+          virtus agentis distantiae rei educendae
+          <lb ed="#Qb"/>in esse ad illud de quo dicitur educi, dicitur
+          'iuvare'. eum materia ex qua.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>b. Ad aliud quod sequitur, dicendum quod illa
+          <lb ed="#Qb"/>ratio argumentandi locum non habet ubi eadem
+          <lb ed="#Qb"/>est potentia et substantia agentis: ibi enim a non
+          <lb ed="#Qb"/>commensuratur virtus sive potentia agentis di<lb ed="#Qb"/>stantiae
+          existe-utii5 inter illud de quo fit aliquid
+          <lb ed="#Qb"/>et quod fit, quia potentia est impartibilis sicut
+          <lb ed="#Qb"/>este substantia. Unde, quia in Deo est idem po<lb ed="#Qb"/>tentia
+          quod essentia, impartibilis est potentia sicut
+          <lb ed="#Qb"/>et essentia: unde in omnimoda indifferentia se
+          <lb ed="#Qb"/>habet quidquid "' ea producitur in esse. Sicut enim
+          <lb ed="#Qb"/>eadem voluntate potentia et indifferenti volo ma<lb ed="#Qb"/>iora
+          et minora, similiter si eadem esset in me
+          <lb ed="#Qb"/>voluntas et potentia agendi, ipsa indivisa poten<lb ed="#Qb"/>tia
+          et omnino indifferenti facerem maiora et mi<lb ed="#Qb"/>nor—a.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Ad illud-* quod obicitur ex alia parte, sci<lb ed="#Qb"/>licet
+          quod 'maius est facere de impio pium' etc.:
+          <lb ed="#Qb"/>dicendum7 quod hoc non dicitur quia maior vel
+          <lb ed="#Qb"/>minor difficultas faciendi hoc vel illud sit ex parte
+          <lb ed="#Qb"/>Dei, sed potius propter repugnantiam ex parte
+          <lb ed="#Qb"/>creaturae fiendae. Cum autem Deus creavit cae<lb ed="#Qb"/>lum 
+          et terram, nulla eratf repugnantia ex parte
+          <lb ed="#Qb"/>aliqua divinae potentiae sive voluntati; cum au<lb ed="#Qb"/>tem
+          Deus de impio facit pium, infundendog gra<lb ed="#Qb"/>tiam
+          disponentem .et praeparantem ad gratiam
+          <lb ed="#Qb"/>perficientem, ipsa voluntas impii est contraria et
+          <lb ed="#Qb"/>repugnans divinae operationi. — Ad argumen<lb ed="#Qb"/>tum
+          autem dicendum quod non est simile de
+          <lb ed="#Qb"/>forma quae continue transmutatur circa mate<lb ed="#Qb"/>riam
+          et de h deformitate liberi arbitrii quam solus
+          <lb ed="#Qb"/>Creator removere potest per gratiam. Unde forma
+          <lb ed="#Qb"/>illa quae erat in materia passibili 1, scilicet limo,
+          <lb ed="#Qb"/>de facili transire poterat et eo facilius quo erat
+          <lb ed="#Qb"/>subiectum eius transmutabilius, quod competebat
+          <lb ed="#Qb"/>limo, in quo erat natura terrea et aquea: haec
+          <lb ed="#Qb"/>enim duo maxime ordinantur ad passionem, hu<lb ed="#Qb"/>mor
+          et humus, sicut dicit Augu stin u se, et etiam
+          <lb ed="#Qb"/>Philosophus9 probat ea, quae k ex iis. duobus
+          <lb ed="#Qb"/>resolvuntur, maxime esse materialia et passibilia,
+          <lb ed="#Qb"/>scilicet vaporem et furnum, et ideo non valet ar<lb ed="#Qb"/>gumentum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>
+          <lb ed="#Qb"/>3. Ad hoc quod postea' obicitur quod 'Deus
+          <lb ed="#Qb"/>agit tota virtute sua, quae est infinita, quando<lb ed="#Qb"/>cumque
+          aliquid agit' etc.: dicendum quod verum
+          <lb ed="#Qb"/>est et vera est conclusio quae ex hoc consequitur '".
+          <lb ed="#Qb"/>-— Si autem quaeratur: unde est ergo differentia
+          <lb ed="#Qb"/>tanta effectuum et quo modo ex tanta, scilicet
+          <lb ed="#Qb"/>infinita, potentia agente exeunt effectus minoris
+          <pb ed="#Qb" n="521"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>virtutis et maioris" in esse? Dicendum quod in
+          <lb ed="#Qb"/>Deo idem est potentia quod essentia et quod
+          <lb ed="#Qb"/>voluntas, et quod voluntas b est causa propinqua
+          <lb ed="#Qb"/>et coniuncta effectui; propter quod divina poten<lb ed="#Qb"/>tia,
+          cum agit, non agit ex necessitate 0, sed po<lb ed="#Qb"/>tius
+          electivel, immo, quod plus est, suum velle
+          <lb ed="#Qb"/>est efficere. Propter quod, licet semper indiffe<lb ed="#Qb"/>renti
+          agat potentia et infinita, secundum con<lb ed="#Qb"/>gruentiam
+          sui beneplaciti moderate et distincte
+          <lb ed="#Qb"/>producuntur effectus in esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad argumentum <name ref="#Lombard">Magistri</name>, in Senten<lb ed="#Qb"/>tiis,
+          dicendum quod bene tenet et est argumen<lb ed="#Qb"/>tum
+          a simili, quia utrobique, scilicet in forma<lb ed="#Qb"/>tione
+          alicuius de nihilo d et in formatione corporis
+          <lb ed="#Qb"/>Adae de limo et mulieris de costa 2, est actus
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>infinitae potentiae et creatio, communi modof
+          <lb ed="#Qb"/>sumpta creatione, licet unum opus sit magisg
+          <lb ed="#Qb"/>mirabile alio, ut dictum est 2.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad hoc quod obicitur de auctoritate Phi<lb ed="#Qb"/>losophi,
+          scilicet quod ' potentia est principium
+          <lb ed="#Qb"/>transmutationis in aliud' etc.: dicendum" quod
+          <lb ed="#Qb"/>Phiilosophus determinat virtutem potentiae
+          <lb ed="#Qb"/>creaturaei quae non potest aliquid agere nisi in
+          <lb ed="#Qb"/>materia sive natura subiecta: unde actioni natu<lb ed="#Qb"/>rae
+          sive potentiae creaturaek agenti semper sub<lb ed="#Qb"/>est
+          aliqua materia. Non sic est de potentia in<lb ed="#Qb"/>creata,
+          cuius virtus in agendo non est determi<lb ed="#Qb"/>nata
+          sive distincta circa materiam sive! in ma<lb ed="#Qb"/>teria,
+          immo ex nihilo facit quod competit sicut
+          <lb ed="#Qb"/>ex aliquo.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

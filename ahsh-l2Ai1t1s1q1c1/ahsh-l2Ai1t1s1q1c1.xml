@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+      <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, C. 1</title>
+      <author ref="#AlexanderOfHales">Alexander of Hales</author>
+      <respStmt>
+       <name xml:id="JW">Jeffrey C. Witt</name>
+       <resp>TEI encoder</resp>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition n="0.0.0-dev">
+      <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, C. 1</title>
+       <date when="2017-06-27">June 27, 2017</date>
+      </edition>
+    </editionStmt>
+    <publicationStmt>
+      <authority>
+       <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+      </authority>
+      <availability status="free">
+       <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+            </p>
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+      <listWit>
+       <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+      </listWit>
+    </sourceDesc>
+   </fileDesc>
+   <encodingDesc>
+    <schemaRef n="lbp-critical-1.0.0"
+          url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+    <editorialDecl>
+      <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a critical edition.</p>
+    </editorialDecl>
+   </encodingDesc>
+   <revisionDesc status="draft">
+    <listChange>
+      <change when="2017-06-27" status="draft" n="0.0.0">
+       <p>Created file for the first time.</p>
+      </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+   <front>
+    <div xml:id="starts-on">
+      <pb ed="#Q" n=""/>
+      <pb ed="#Q" n="a"/>
+    </div>
+   </front>
+   <body>
+    <div xml:id="ahsh-l2Ai1t1s1q1c1">
+      <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, C. 1</head>
+      <head type="question-title">SI EST PRINCIPIUM PRIMUMI.</head>
+      <p>
+             <lb ed="#Qb"/>Supponendum autem est quod principium sit, ex
+   <lb ed="#Qb"/>S comparationec eorum quae fluunt a "' principio:
+   <lb ed="#Qb"/>in omnibus enim invenitur aliqua mutabilitas quae
+   <lb ed="#Qb"/>non convenit primo principio.
+  </p>
+      <p>
+             <lb ed="#Qb"/>a. Unde IsidorusZ: <quote> Materia mutabilis est,
+   <lb ed="#Qb"/>quia de informi transit ad formatum </quote>; angeli et
+   <lb ed="#Qb"/>animae mutabiles sunt 3, dum in bonum et malum
+   <lb ed="#Qb"/>sunt vertibiles; in creaturis vero corporalibus
+   <lb ed="#Qb"/>patet quod mutabiles sunt. Ex quo concluditur,
+   <lb ed="#Qb"/>cum immutabile omnino sit prius mutabili et hoc
+   <lb ed="#Qb"/>ab illoc dependet, aliquod esse principium quod
+   <lb ed="#Qb"/>est immutabile.
+  </p>
+      <p>
+             <lb ed="#Qb"/>b. Praeterea,loannes Damascenus4: <quote> In<lb ed="#Qb"/>tellectualia,
+   angelos scilicet et animas, secundum
+   <lb ed="#Qb"/>electionem et eam quae est in bono profectionemf
+   <lb ed="#Qb"/>et eam quae estf ex bono abcessionem intensam
+   <lb ed="#Qb"/>et remissam dicimus transmutari, reliqua vero
+   <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>secundum generationem et corruptionem et aug<lb ed="#Qb"/>mentationem
+          et diminutionem et secundum qua<lb ed="#Qb"/>litatem
+          h transmutationem et localem motum </quote>.
+   <lb ed="#Qb"/>Omnia autem haec cum sint vertibilia, necesse est
+   <lb ed="#Qb"/>esse ab1 aliquo quod estk invertibile omnino; ei
+   <lb ed="#Qb"/>ergo convenit esse principium, cum omnis trans<lb ed="#Qb"/>mutatio
+          ultimo dependeat ab omnino intrans<lb ed="#Qb"/>mutabili
+          5.
+  </p>
+      <p>
+             <lb ed="#Qb"/>c. Praeterea, non est aliqua creatura, quae non
+   <lb ed="#Qb"/>habeat possibilitatem ad aliquam perfectionem
+   <lb ed="#Qb"/>naturaliter; nihil autem se ipsum perficit: distant
+   <lb ed="#Qb"/>enim natura' perficiens et perfectibile; ergo ne<lb ed="#Qb"/>cesse
+   est aliquod esse perfectivum; erit ergo ali<lb ed="#Qb"/>quod
+   principium quo alia perficientur, quod non
+   <lb ed="#Qb"/>aliunde perficietur.
+  </p>
+      <p>
+             <lb ed="#Qb"/>d. Hoc idem potest elici ex aliis conditionibus
+   <lb ed="#Qb"/>quae sunt causae vel principii et eius quod est
+   <lb ed="#Qb"/>ex principio sive causatio "'.
+  </p>
+    </div>
+   </body>
+  </text>
+</TEI>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 1, M. 2, C. 1 AN VERBA 'FIAT LUX' INTELLIGANTUR DE NATURALI AN DE GRATUITA FACTIONE ANGELI.</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 1, M. 2, C. 1 AN VERBA 'FIAT LUX' INTELLIGANTUR DE NATURALI AN DE GRATUITA FACTIONE ANGELI.</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="333"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q2t1m2c1">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 2, T. 1, M. 2, C. 1</head>
+        <head>AN VERBA 'FIAT LUX' INTELLIGANTUR DE NATURALI AN DE GRATUITA FACTIONE ANGELI.</head>
+        <p>
+                <pb ed="#Qb" n="333"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Quaeritur ergo primo utrum, cum diciturlz
+          <lb ed="#Qb"/>lux etc., ibi intelligatur prima factio angelicae
+          <lb ed="#Qb"/>creaturae, scilicet naturalis, quae communis est
+          <lb ed="#Qb"/>bonis et malis, aut gratuita, quae solum est bo<lb ed="#Qb"/>norum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur primo quod de factione naturali,
+          <lb ed="#Qb"/>quae communis est, intelligatur: 1. Dicit enim
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>2 quod simul est creatio et distinc<lb ed="#Qb"/>tio
+          rerum; sed ista distinctio angelorum, quae
+          <lb ed="#Qb"/>fuit per quorumdam confirmationem et per alio<lb ed="#Qb"/>rum
+          casum sive per conversionem" et aversio<lb ed="#Qb"/>nem
+          b, non simul fuit cum creatione, quia opor<lb ed="#Qb"/>tet
+          prius angelum esse quam converti vel averti,
+          <lb ed="#Qb"/>non solum natura, sed etiam tempore vel dura<lb ed="#Qb"/>tione3;
+          ergo ista distinctio, quam dicit Augu<lb ed="#Qb"/>stinus
+          simul esse cum creatione, non intelli<lb ed="#Qb"/>gitur
+          de factione gratuita, quae fuit in distin<lb ed="#Qb"/>guendo
+          bonos a malis, sed de factione naturali,
+          <lb ed="#Qb"/>quae communis est.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contrac: a. Idem A u gus ti n u s 4 quaerit utrum
+          <lb ed="#Qb"/>per hoc quod facta est vespera intelligatur <quote>pec<lb ed="#Qb"/>catum
+          rationalis creaturae </quote>, per hocd quod fac<lb ed="#Qb"/>tum
+          est mane <quote> eiusdem renovatio </quote>; et subdit
+          <lb ed="#Qb"/>quod ista expositio <quote>allegoricae prophetiae </quote> est;
+          <lb ed="#Qb"/>ergo patet quod intelligitur de factione angelicae
+          <lb ed="#Qb"/>creaturae quae est per gratiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, ibidemsz <quote> Non sicut nos ad participan<lb ed="#Qb"/>dam
+          sapientiam proficiebant angeli, ut? invisibilia
+          <lb ed="#Qb"/>Dei6 etc., qui ex quo facti sunt, ipsa aeternitate
+          <lb ed="#Qb"/>sancta et pia contemplatione perfruuntur</quote>; per<lb ed="#Qb"/>frui
+          autem non estf nisi bonorum ; ergo nec factio
+          <lb ed="#Qb"/>ista de qua loquitur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, per mane intelligitur cognitio in Verbo7;
+          <lb ed="#Qb"/>dies autem comprehendit mane et vespere; cum
+          <lb ed="#Qb"/>ergo mane illud, id est "cognitio in Verbo, videa<lb ed="#Qb"/>tur
+          tantum bonorum fuisse, ergo et dies, cuiuse
+          <lb ed="#Qb"/>mane est pars; ergo iste dies, qui ibi determina<lb ed="#Qb"/>tur,
+          vel illa cognitio, quae per lucem intelligitur,
+          <lb ed="#Qb"/>cum dicitur: Fiat lux, tanturn pertinet ad bonos
+          <lb ed="#Qb"/>angelos.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, quod intelligatur de factione gra—
+          <lb ed="#Qb"/>tuita, videtur per <name ref="#Augustine">Augustinum</name>, IV Super Ge—
+          <lb ed="#Qb"/>nesim 3, qui sic dicit: <quote> Tunc nox ad diem pertinet,
+          <lb ed="#Qb"/>non dies ad noctem, cum sublimes et sancti angeli
+          <lb ed="#Qb"/>id quod creaturam in ipsa creatura" noverunt,
+          <lb ed="#Qb"/>referunt ad illum in quo aeternas rationes, quibus
+          <lb ed="#Qb"/>creata est, contemplantur", eaque concordissima
+          <lb ed="#Qb"/>contemplatione sunt unus dies, quem fecit Do<lb ed="#Qb"/>minus,
+          cui coniungetur Ecclesia de hac peregri<lb ed="#Qb"/>natione
+          liberata </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]9: Ad quod dicendumk quod intelli<lb ed="#Qb"/>gitur
+          de conditione gratuita, ut primo 'creati' es<lb ed="#Qb"/>sent,
+          cum dicitur "): Creavit caelum, sicut vult A u<lb ed="#Qb"/>gustinus,
+          in XI Confessionum", 'facti' autem,
+          <lb ed="#Qb"/>id est formati' formatione gratiae, cum conversi
+          <lb ed="#Qb"/>sunt per intellectum et affectum, et hoc intelli<lb ed="#Qb"/>gitur
+          ibi'" 12: <quote>Fiat lux</quote> etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum autem obiec<lb ed="#Qb"/>tum 
+          in contrarium, dicendum quod creatio et
+          <lb ed="#Qb"/>factio simul erant secundum opinionem Au gu<lb ed="#Qb"/>stini,
+          hoc est indistanter. Vel hoc potuitfintelligi
+          <lb ed="#Qb"/>de conditione prima quae est- quantum ad esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Ad secundum dicendum" quod illud
+          <lb ed="#Qb"/>Opinando vel? inquirendo dicit <name ref="#Augustine">Augustinus</name>.
+          <lb ed="#Qb"/>Quod patet per hoc quod ipsemet dicit, in IV
+          <lb ed="#Qb"/>libro Super Genesim 13: <quote> Nec quisquam arbi<lb ed="#Qb"/>tretur
+          illud quod? dixi de luce spirituali et de
+          <lb ed="#Qb"/>condito die spirituali et angelica creatura et con<lb ed="#Qb"/>templatione
+          quam habet in Verbo Dei et de co<lb ed="#Qb"/>gnitione
+          qua in se ipsa cognoscitur, eiusque' re<lb ed="#Qb"/>latione 
+          ad laudem incommutabilis veritatis, ubi
+          <lb ed="#Qb"/>prius ratio videbatur rei faciendae, quae cognita
+          <lb ed="#Qb"/>est facta, non iam proprie, sed quasi8 figurate
+          <lb ed="#Qb"/>atque allegorice convenire * ad intelligendum
+          <lb ed="#Qb"/>diem et vesperam et mane, sed aliter quidem
+          <lb ed="#Qb"/>quam in hac consuetudine quotidianaeu lucis
+          <lb ed="#Qb"/>huius et corporalis, non tamen tamquam" hic
+          <lb ed="#Qb"/>proprie, ibi figurate. Ubi enim melior et certiorx
+          <lb ed="#Qb"/>lux, ibi verior etiam dies. Quare non et? verior
+          <lb ed="#Qb"/>vespera et verius mane? Nam si in istis die<lb ed="#Qb"/>bus
+          habet quamdam declinationem suam lux in
+          <pb ed="#Qb" n="334"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>occasum, quam nomine'z vesperae nuncupamus, 
+          <lb ed="#Qb"/>et ad ortum iterum reditum, quemb mane dicimus;
+          <lb ed="#Qb"/>cur' et illic vesperam non dicamus, cum creatura
+          <lb ed="#Qb"/>a contemplatione Creatoris despiciturc, et mane,
+          <lb ed="#Qb"/>cum a cognitione creaturae in laudem Creatoris
+          <lb ed="#Qb"/>assurgitur ? </quote>
+             </p>
+      </div>
+    </body>
+  </text>
+</TEI>

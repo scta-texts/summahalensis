@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="225"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t1d2m2c1">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 1, D. 2, M. 2, C. 1</head>
+        <head type="question-title">AN DILECTIO ELECTIVA SIT IN ANGELIS.</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum sic obicitur: Quod angelus dili<lb ed="#Qb"/>gat 
+          dilectione electiva sive rationali, vide<lb ed="#Qb"/>tur.
+          a. Liberum enim arbitrium est in eis, sicut
+          <lb ed="#Qb"/>supra habitum est 1; liberum autem arbitrium est
+          <lb ed="#Qb"/>facultas voluntatis " et rationis sive ratiOnalis vo<lb ed="#Qb"/>luntatis
+          2; ergo rationalis * voluntas est in eis.; sed
+          <lb ed="#Qb"/>rationalis voluntas est electiva voluntas, quae
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>scilicet procedit ex cognitione data vel acquisita;
+          <lb ed="#Qb"/>ergo voluntas huiusmodi est in angelis; dilectio
+          <lb ed="#Qb"/>autem est voluntas boni ex electione procedens;
+          <lb ed="#Qb"/>ergo dilectio electiva? est in angelis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, angelus habet potestatem cogno<lb ed="#Qb"/>scendi
+          ex intellectu vel ratione bonum et malum et
+          <lb ed="#Qb"/>inter bona quod sit melius; ergo habet potestatem
+          <pb ed="#Qb" n="226"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>eligendi et praeeligendi; ex huiusmodi autem
+          <lb ed="#Qb"/>electione vel praeelectione" sequitur dilectio; ergo
+          <lb ed="#Qb"/>in angelis est huiusmodi dilectio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed videtur contrarium 1. per rationem quam
+          <lb ed="#Qb"/>ponit Damascenus 1. Assigriat enim rationem,
+          <lb ed="#Qb"/>quare electio non est in Deo, quia <quote> Deus non
+          <lb ed="#Qb"/>consiliatur </quote>; electio autem est cumb consilio; si
+          <lb ed="#Qb"/>ergo unus angelus non consiliatur cum altero,
+          <lb ed="#Qb"/>nec etiam in se ipso: consilium enim este cum
+          <lb ed="#Qb"/>deliberatione, deliberatio autem est cum dubita<lb ed="#Qb"/>tione;
+          si ergo in angelis naturaliter non est du<lb ed="#Qb"/>bitatio,
+          in eis non est electio; ergo nec dilectio
+          <lb ed="#Qb"/>electiva.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, electio huiusmodi est. ex discus<lb ed="#Qb"/>sionef'
+          rationum ad utramque partem; sed dis<lb ed="#Qb"/>cussio
+          rationum ad utramque partem non est
+          <lb ed="#Qb"/>in angelis; ergo nec electio quae ex illalconse<lb ed="#Qb"/>.
+          quitur; ergo nec dilectio consequens electionem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod dilectio
+          <lb ed="#Qb"/>electiva est in angelis secundum quod eligere
+          <lb ed="#Qb"/>est alterum alteri praeoptare 2.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 2. Ad illud vero quod obici<lb ed="#Qb"/>tur
+          in contrarium, dicendum * quod est quaedam
+          <lb ed="#Qb"/>electio, quae est ex pertractatione rationum ad
+          <lb ed="#Qb"/>utramque partem in ipso dubitante per ratioci<lb ed="#Qb"/>nationem
+          determinante, et talis electio est hominis
+          <lb ed="#Qb"/>qui non statim praevidet vel aestimat hoc esse
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>illo melius: et hoc' modo non est in ipsis angelis
+          <lb ed="#Qb"/>electio, cum citissime videant vel aestiment hoc
+          <lb ed="#Qb"/>esse illo melius.- Est autem alia electio, quae pro<lb ed="#Qb"/>cedit
+          ex iudicio statim" habito de bono vel de
+          <lb ed="#Qb"/>meliori: et hoc modo potest esse electio in ipsis
+          <lb ed="#Qb"/>angelis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Quod autem dicit Ioannes Damascenus
+          <lb ed="#Qb"/>electionem non esse in Deo, quoniamf electionis
+          <lb ed="#Qb"/>est consiliari, <quote> Deus autem non consiliatur: igno<lb ed="#Qb"/>rantiae
+          enim est consiliari3 </quote>: verum est de elec<lb ed="#Qb"/>tione
+          quae requirit consilium,- sicut loquitur Phi<lb ed="#Qb"/>losophus4,
+          non quod omnino tollatur electio a
+          <lb ed="#Qb"/>Deo" secundum quod electio est actus perfectus
+          <lb ed="#Qb"/>rationis vel intellectus circa bonum 5. In angelis
+          <lb ed="#Qb"/>vero potest esse consilium; unde inferiores angeli
+          <lb ed="#Qb"/>consilium accipiunt a superioribus quid placeat
+          <lb ed="#Qb"/>Deo et quid fiendum est; superiores etiam consu<lb ed="#Qb"/>lunt
+          Deum de iis quae pertinent ad eius volun<lb ed="#Qb"/>tatem.
+          Si ergo[ hoc est in sanctis angelis, multo
+          <lb ed="#Qb"/>magis est in aliis *, ex eo quod habent secundum
+          <lb ed="#Qb"/>naturam quod ad invicem consiliantur. — Nec hoc
+          <lb ed="#Qb"/>est cOntrariu-m quod <quote> ignorantiae est consiliari </quote>,
+          <lb ed="#Qb"/>ignorantia autem est poena; est enim ignorantia
+          <lb ed="#Qb"/>quaedam quae poena est ', et talis non fuit in an<lb ed="#Qb"/>gelis
+          ex natura; est autem alia ignorantia quae
+          <lb ed="#Qb"/>nescientia dicitur, et hoc modo multorum est
+          <lb ed="#Qb"/>ignorantia, hanc autem 'sequitur consilium.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

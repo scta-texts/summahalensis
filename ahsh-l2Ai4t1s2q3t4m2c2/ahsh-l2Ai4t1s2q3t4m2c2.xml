@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="496"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t4m2c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 2</head>
+        <head type="question-title">UTRUM CONSCIENTIA SIT HABITUS NATURALIS VEL ACQUISITUS 4.</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur utrum conscientia sit habitus
+          <lb ed="#Qb"/>naturalis vel acquisitus.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Et videtur quod sit habitus acquisitus: 1. Quia
+          <lb ed="#Qb"/>conscientia aliquando est munda, aliquando
+          <pb ed="#Qb" n="497"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>immunda; sed hae differentiae contrariae non in<lb ed="#Qb"/>sunt"
+          ei a natura, sed potius ab acquisitione, quia
+          <lb ed="#Qb"/>quod naturaliter ei inest, semper inest et a prin<lb ed="#Qb"/>vcipio
+          ; conscientia autem non semper est sub
+          <lb ed="#Qb"/>huiusmodi differentiis; ergo non videtur esse ha<lb ed="#Qb"/>bitus 
+          naturalis, sed potius acquisitus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, modo potest quis habere conscientiam
+          <lb ed="#Qb"/>alicuius rei quam prius non habuit, sicut patet
+          <lb ed="#Qb"/>de ludaeis, qui ante dationem Legis non habebant
+          <lb ed="#Qb"/>conscientiam deb immundis, sed post dationem
+          <lb ed="#Qb"/>habuerunt vel habere debuerunt; conscientia ergo
+          <lb ed="#Qb"/>incipitc esse de aliquibus de quibus ante'ï non
+          <lb ed="#Qb"/>fuit; sed habitus naturalis semper est de iis de
+          <lb ed="#Qb"/>quibus est; ergo ut prius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. loannes Damascenus1 dicit
+          <lb ed="#Qb"/>conscientiam esse legem nostri intellectus, prout
+          <lb ed="#Qb"/>legi mentis repugnat lex carnis; sed lex carnise
+          <lb ed="#Qb"/>est in homine quam cito homo incipit esse: quam
+          <lb ed="#Qb"/>cito enim animaf coniungitur carni, habet homo
+          <lb ed="#Qb"/>legem carnis; unde, quia ex coniunctione ad car<lb ed="#Qb"/>nem
+          habet homo legem carnis, ideo earn habet
+          <lb ed="#Qb"/>quam cito incipit esse. Cum ergo! lex mentis
+          <lb ed="#Qb"/>insit animae a sua creatione, patet quod multo
+          <lb ed="#Qb"/>magis debet habere homo legem mentis quam
+          <lb ed="#Qb"/>cito incipit esse; ergo et conscientiam, cum haec
+          <lb ed="#Qb"/>dicatur illa/1; sed quod inesti homini a principio
+          <lb ed="#Qb"/>et esthabitus, est habitusk naturalis; ergo' con<lb ed="#Qb"/>scientia
+          est habitus naturalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Rom. 2,14: <quote ana="#rom2_14">Cum gentes, quae legem non
+          <lb ed="#Qb"/>habent, naturaliter ea, quae legis sunt'", faciant,
+          <lb ed="#Qb"/>ipsi sibi sunt lex</quote>, Glossaz: <quote> Etsi gentiles non
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>habeant legem scriptam, habent tamen legem na<lb ed="#Qb"/>turalem
+          qua" quisque intelligit et sibi conscius
+          <lb ed="#Qb"/>est quid sit bonum et quid sit malum </quote>; sed
+          <lb ed="#Qb"/>huiusmodi lex naturalis habitus est naturalis;
+          <lb ed="#Qb"/>ergo "et ipsa conscientia, quia ea conscius est
+          <lb ed="#Qb"/>quid sit bonum et quid sit malum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: 1-2. Sicut scientia accipitur secun<lb ed="#Qb"/>dum
+          actum et secundum habitum —— secundum ac<lb ed="#Qb"/>tum,
+          quando aliquis habet scientiam actualiter ali<lb ed="#Qb"/>cuius
+          scibilis et actualiter " convertitur super illud;
+          <lb ed="#Qb"/>secundum habitum, quando, etsi habeat scientiam
+          <lb ed="#Qb"/>alicuius scibilis, non tamen convertitur actualiter
+          <lb ed="#Qb"/>super illud!' — similiter et conscientia, quae in se
+          <lb ed="#Qb"/>scientiam q includit, potest accipi secundum actum
+          <lb ed="#Qb"/>et secundum habitum. Unde conscientia est talis
+          <lb ed="#Qb"/>habitus, a quo potest elici actus qui prius non
+          <lb ed="#Qb"/>fuit elicitus; nihilominus tamen semper habet ali<lb ed="#Qb"/>quem
+          actum secundum habitum 3, etsi non secun<lb ed="#Qb"/>dum
+          actum, ut post videbitur 4. Prout ergo acci<lb ed="#Qb"/>pitur
+          secundum habitum, bene concedimus quod
+          <lb ed="#Qb"/>est habitus naturalis, sed prout' secundum actum,
+          <lb ed="#Qb"/>acquisitus. Unde bene concedimus quod huius<lb ed="#Qb"/>modi
+          differentiae *mundum et immundum, et sic
+          <lb ed="#Qb"/>de aliis differentiis, non sunt differentiae conscien<lb ed="#Qb"/>tiae
+          prout est habitus naturalis, sed prout dicit ac<lb ed="#Qb"/>ceptionem
+          iuxta huiusmodi habitum, et hoc prout
+          <lb ed="#Qb"/>se tenet ex parte rationis. Et iterum conscientia
+          <lb ed="#Qb"/>de se dicit duo: scilicet 'scientiam ', et sic potest
+          <lb ed="#Qb"/>dicere habitum naturalem; vel potest dicere accep<lb ed="#Qb"/>tionem
+          ratione eius quod dicitur 'cum', et sic re<lb ed="#Qb"/>cipit
+          errorem, et potest dicere habitum acquisitum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

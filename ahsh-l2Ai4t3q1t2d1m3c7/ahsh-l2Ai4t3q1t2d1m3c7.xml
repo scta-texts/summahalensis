@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 3, C. 7</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 3, C. 7</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="684"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q1t2d1m3c7">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 3, C. 7</head>
+        <head type="question-title">UTRUM VITA SIT IN HUMORIBUS.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur inquirere utrum humores vivunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod sic, videtur: 1. Nihil resurget nisi quod
+          <lb ed="#Qb"/>vivit, cum illud quod resurget sit de veritate
+          <lb ed="#Qb"/>humanae naturae; ergo, si humores non vivunt,
+          <lb ed="#Qb"/>non resurgent; sed resurgente, sicut patet in
+          <lb ed="#Qb"/>Christo, in quo resurrexit sanguis, cuiusf sacra<lb ed="#Qb"/>mentum
+          est species vini in Sacramento altaris:
+          <lb ed="#Qb"/>sanguis enim qui ibi sumitur, est glorificatus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Christus secundum corpus tactus est
+          <lb ed="#Qb"/>ex purissimis sanguinibus B. Virginisz; sed con<lb ed="#Qb"/>stat
+          quod Christusg sumpsit carnem ex substan<lb ed="#Qb"/>tia
+          quae fuit viva in Virgine; ergo sanguis vixit
+          <lb ed="#Qb"/>in illa; consimiliter videtur quod in aliis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, omne illud vivit in quo est sedes ani<lb ed="#Qb"/>mae 
+          sive vitae; sed humor sanguineus est huius<lb ed="#Qb"/>modi,
+          ut ex dictis patet3;, ergo vivit; consimili
+          <lb ed="#Qb"/>ratione videtur quod et alii humores similiter
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, cor est domicilium vitae, ut habetur
+          <lb ed="#Qb"/>in libro De motu co'rdis4; sed, ut recitat Cassio<lb ed="#Qb"/>dorus5,
+    <quote> in corde purissimus sanguis et vitalis
+          <lb ed="#Qb"/>spiritus continetur</quote>; ergo humor huiusmodi, sci<lb ed="#Qb"/>licet
+          sanguineus, maxime approximatur principio
+          <lb ed="#Qb"/>vitae, id est cordi; sed quanto aliquid est prin<lb ed="#Qb"/>cipio
+          vitae proximius, tanto magis vitamh parti<lb ed="#Qb"/>cipat; 
+          ergo videtur quod huiusmodi humor magis '
+          <lb ed="#Qb"/>participat vitam quam extremitates corporis, quae
+          <lb ed="#Qb"/>magis distant a corde.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Praeterea, humores nutriuntur, augmentantur
+          <lb ed="#Qb"/>et diminuuntur: nutriunturi enim et augmentan<lb ed="#Qb"/>tur
+          ex cibis sanis et amicis, naturae; huiusmodi
+          <lb ed="#Qb"/>autem actus sunt animae vegetativae; ergoletc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Nihil vivit quod non est colliga<lb ed="#Qb"/>tum
+          membro; humores autem non sunt membris
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>colligati: sunt enim in partibus corporis sicut
+          <lb ed="#Qb"/>in vase, scilicet in venis; unde sine laesione fit
+          <lb ed="#Qb"/>horumk diminutio; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, ipsis humoribus nutriuntur membra;
+          <lb ed="#Qb"/>alimentum autem, quo membra nutriuntur ante<lb ed="#Qb"/>quam
+          conversum fuerit in membrum, non'est
+          <lb ed="#Qb"/>subiectum vitae; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, nihil vivificatur ab anima nisi quod
+          <lb ed="#Qb"/>habet stabilitatem et fixionem in corpore; sed
+          <lb ed="#Qb"/>humores non sunt huiusmodi, quia continue tlu<lb ed="#Qb"/>unt
+          et refluunt; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: Dicendum quod vivere, dictum' de
+          <lb ed="#Qb"/>corpore, tripliciter accipi potest, scilicet proprie '",
+          <lb ed="#Qb"/>minus proprie et minime proprie. Proprie dicitur
+          <lb ed="#Qb"/>vivere illud corpus quod unitur animae ipsum
+          <lb ed="#Qb"/>perticienti, sicut corpus organicum iam actu ab
+          <lb ed="#Qb"/>anima perfectum. Minus proprie dicitur vivere
+          <lb ed="#Qb"/>quod, licet non sit unitum animae perticienti,
+          <lb ed="#Qb"/>coniunctum tamen est corpori habenti animam
+          <lb ed="#Qb"/>ut perfectionem, et, licet non habeat animam, ha<lb ed="#Qb"/>bet
+          aliquam vitalem virtutem, per quam ut per
+          <lb ed="#Qb"/>virtutem alienam, scilicet alicuius contigui vel
+          <lb ed="#Qb"/>continentis, habet operationes consimiles rei vi<lb ed="#Qb"/>vae,
+          sicut in praecedentibus dictum est de em<lb ed="#Qb"/>brione6
+          et sicut est de capillis et unguibus. Mi<lb ed="#Qb"/>nime
+          proprie dicitur vivere quod ex colligatione
+          <lb ed="#Qb"/>sui cum corpore vivente recipit aliquam vegeta<lb ed="#Qb"/>tionem:
+          unde est in dispositione ad unionem cum
+          <lb ed="#Qb"/>corpore viviticato et est sicut instrumentum re<lb ed="#Qb"/>spectu
+          vitalis virtutis, quamvis non sit unitum
+          <lb ed="#Qb"/>animae nec habeat virtutem vitalem intra se: et
+          <lb ed="#Qb"/>per hunc modum dicuntur vivere spiritus et -hu<lb ed="#Qb"/>mores
+          qui deserviunt virtuti vitali et per illam in
+          <lb ed="#Qb"/>corpore quodam modo vegetantur et augmentantur
+          <pb ed="#Qb" n="685"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>et restaurantur: vegetantur, dico, communiter lo<lb ed="#Qb"/>quendo,
+          eo modo quo'1 dicitur vegetari in cor<lb ed="#Qb"/>.pore
+          quod non putrescit vel corrumpitur. Sic
+          <lb ed="#Qb"/>igitur, improprie accepto 'vivere ', concedi potest
+          <lb ed="#Qb"/>quod humores vivunt; si autem proprie acci<lb ed="#Qb"/>piatur,
+          sic dicendum est quod nonb vivunt, sicut
+          <lb ed="#Qb"/>rationes ad secundam partem1 ostendunt.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum quo ostenditur
+          <lb ed="#Qb"/>quod vivunt" proprie, quia resurgent, potest dici
+          <lb ed="#Qb"/>quod non solum resurget quod vivit, primo modo
+          <lb ed="#Qb"/>dicto vivendi, sed et quod d secundo, sicut capilli
+          <lb ed="#Qb"/>et ungues, et etiam quod tertio, sicut humores,
+          <lb ed="#Qb"/>qui resurgent, ut dicunt quidam, forte ad de<lb ed="#Qb"/>centiam
+          repletionis vacuitatis in corpore sive in
+          <lb ed="#Qb"/>venis vel ad complementum corporis humani.
+          <lb ed="#Qb"/>Supponatur hoc de resurrectione humorum *, de
+          <lb ed="#Qb"/>qua erit quaestio in loco suo 2.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod sequitur quod, cum dicitur
+          <lb ed="#Qb"/>quodf Christus factus est secundum corpus ex
+          <lb ed="#Qb"/>purissimis sanguinibus B. Virginis, sicut dicit Da<lb ed="#Qb"/>mascenus,
+          et recitat <name ref="#Lombard">Magister</name>, in Sententiis 3,
+          <lb ed="#Qb"/>non intelligitur de sanguine qui est unus de
+          <lb ed="#Qb"/>quatuor humoribus, sed sanguis sumitur ibi pro
+          <lb ed="#Qb"/>carne4: unde quandoque dicitur factus de came5,
+          <lb ed="#Qb"/>quandoque de sanguinibus 6. Ratio autem quare
+          <lb ed="#Qb"/>dicitur Christus! assumpsisse carnem de san<lb ed="#Qb"/>guinibus
+          B. Virginis, potest esse quod illa portio
+          <lb ed="#Qb"/>carnis, de qua factus est Christus secundum
+          <lb ed="#Qb"/>corpus, vim habebat seminis, propter quod
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>
+          <lb ed="#Qb"/>convenienter sanguis nominatur, qui est in pro<lb ed="#Qb"/>pinquiore
+          conformitate ad semen quam caro.
+          <lb ed="#Qb"/>Unde, sicut dicit Magister, in Sententiis7, Spi<lb ed="#Qb"/>ritus
+          Sanctus potentiam contulit generandi B. Vir<lb ed="#Qb"/>gini
+          absque semine virili; et Damascenus8
+          <lb ed="#Qb"/>dicit quod in Virgine erat semen divinum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad illud quod sequitur, patet responsio
+          <lb ed="#Qb"/>ex supra dictis 9, ubi tactum est propter quid
+          <lb ed="#Qb"/>sanguis dicitur ' sedes animae et quis est intel?
+          <lb ed="#Qb"/>lectus verbi huius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad aliud quod obicitur quod *sanguis est
+          <lb ed="#Qb"/>propinquior principio vitae* etc.: potest dici
+          <lb ed="#Qb"/>quod huiusmodi propinquitas non est causa vi<lb ed="#Qb"/>tae
+          sive vivificationis, sed potius aptitudo susci<lb ed="#Qb"/>piendi
+          vitamh sive vivificationem ab anima, quae
+          <lb ed="#Qb"/>provenit ex propinquitate sive conformitate har<lb ed="#Qb"/>moniae
+          et numerorumi quae est rei viventis ad
+          <lb ed="#Qb"/>animam vivificantem 10.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad ultimum dicendum quod humores
+          <lb ed="#Qb"/>non nutriuntur vel augmentantur sicut illa quae
+          <lb ed="#Qb"/>vivunt ex influentia animae perficientis ipsak, sed
+          <lb ed="#Qb"/>ex influentia animae perficientisl illud quod con<lb ed="#Qb"/>tinet
+          ipsos humores. Unde illa eadem impro<lb ed="#Qb"/>prietate'"
+          qua dicuntur vivere, dicuntur nutriri
+          <lb ed="#Qb"/>et augmentari, prout nutriri et augmentati" di<lb ed="#Qb"/>cuntur
+          opera vegetativae. Hoc dico, quia. in ali<lb ed="#Qb"/>quo
+          vegetare et augmentari non est opus vege<lb ed="#Qb"/>tativae, 
+          sicut in igne, qui- dicitur nutriri et aug<lb ed="#Qb"/>mentari.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

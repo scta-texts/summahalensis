@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="168"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m1c2">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 2</head>
+        <head type="question-title">UTRUM UTRAQUE HAEC COGNITIO ANGELI SIT NATURALIS.</head>
+        <p>
+          <lb ed="#Qb"/>Secundo quaeritur an cognitio in angelis ma<lb ed="#Qb"/>tutina
+          vel vespertina dicatur naturalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod sic: a. Illud dicitur naturale quod a
+          <lb ed="#Qb"/>principio fuit in angelis; sed cognitio vespertina
+          <lb ed="#Qb"/>fuit in eis a principio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, aliquam habuerunt de Creatore co<lb ed="#Qb"/>gnitionem;
+          ergo, cum illa non dicatur vespertina,
+          <lb ed="#Qb"/>erit matutina, et ita utraque cognitio erit in an<lb ed="#Qb"/>gelis
+          naturalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: l. Cognitio matutina est angelicae na<lb ed="#Qb"/>turae
+          formatae, cum dictum est5: <quote ana="#gen1_3">Fiat lux</quote> etc.;
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ergo, cum non sit angelus secundum naturam
+          <lb ed="#Qb"/>suam formatuss, non habuit cognitionem matu<lb ed="#Qb"/>tinam 
+          secundum primitivam conditionem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, haec est"cognitio rerum in Ver<lb ed="#Qb"/>bo;
+          sed haec cognitio est spirituum habentium
+          <lb ed="#Qb"/>gloriam; sed angeli mali non habuerunt istum
+          <lb ed="#Qb"/>statum; ergo nec cognitionem matutinam; et
+          <lb ed="#Qb"/>habuerunt naturalem; ergo illa non fuit ma<lb ed="#Qb"/>tutina.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1-2.-Ad quod dicendum quod vesper- <lb ed="#Qb"/>tina
+          cognitio potest dici dupliciter: vel cum cogno<lb ed="#Qb"/>scuntur 
+          res in suo genere vel cum ex ipsis rebus
+          <pb ed="#Qb" n="169"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>sive ex ipsa natura cognoscitivi sine  adminiculo
+          <lb ed="#Qb"/>gratiae gratum facientis ascendit creatura angelica
+          <lb ed="#Qb"/>ad cognitionem Creatoris. Cum ergo dicitur quod 
+          <lb ed="#Qb"/>angelus de natura sua vel exb consideratione"
+          <lb ed="#Qb"/>rerum creatarum cognoscit Creatorem, dicitur haec
+          <lb ed="#Qb"/>cognitio non matutina, sed vespertina, quia non
+          <lb ed="#Qb"/>incipit a Creatore et pervenit ad creaturas, sed in<lb ed="#Qb"/>cipit
+          a creatura et pervenit ad Creatorem. — Nec
+          <lb ed="#Qb"/>hoc est contrarium quod ponit B. Bernardus1
+          <lb ed="#Qb"/>differentiam inter cognitionem humanae naturae
+          <lb ed="#Qb"/>et angelicae: videtur enim dicere quod angelus
+          <lb ed="#Qb"/>immediate cognoscat Deum, non sic autem homo.
+          <lb ed="#Qb"/>Sed hoc" intelligendum est quod assignare in<lb ed="#Qb"/>tendit
+          differentiam inter hanc cognitionem et illam,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>quod angelus non indiget adminiculo creaturae
+          <lb ed="#Qb"/>corporalis sicutd homo: non enim per cognitio<lb ed="#Qb"/>nem
+          sensibilem venit ad intelligibilem; sed non
+          <lb ed="#Qb"/>excludit quin creatura intelligibilis per se nitatur
+          <lb ed="#Qb"/>ascendere'ad cognitionem creatricis essentiae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad illud vero quod quaeritur utrum altera ista<lb ed="#Qb"/>rum 
+          cognitionum sit naturalis, dicendum quod
+          'naturale' dicitur dupliciter: vel ad quod sufficit
+          <lb ed="#Qb"/>natura vel quod datum est a principio ipsi na<lb ed="#Qb"/>turae
+          et reputatur quasi naturale. Secundo modo
+          <lb ed="#Qb"/>posset dici altera illarum naturalis; primo vero
+          <lb ed="#Qb"/>modo dicitur naturalis quaedam cognitio, qua
+          <lb ed="#Qb"/>potuerunt angeli cognoscere res- in se ipsis vel in
+          <lb ed="#Qb"/>proprio genere. Hoc infra plenius videbiturfz.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

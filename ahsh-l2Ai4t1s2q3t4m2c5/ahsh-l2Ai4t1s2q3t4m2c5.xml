@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t4m2c5">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 5</head>
+        <head type="question-title">UTRUM CONSCIENTIA SIT IDEM QUOD LEX NATURALIS.</head>
+        <p>
+          <lb ed="#Qb"/>Quinto quaeritur utrum conscientia sit idem quod
+          <lb ed="#Qb"/>lex naturalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod non: a. Lex enimg naturalis
+          <lb ed="#Qb"/>non est deponibilis; sed conscientia esth deponi<lb ed="#Qb"/>bilis:
+          unde habenti conscientiam erroneam dicitur
+          'depone conscientiam tuam'; ergo lex naturalis
+          <lb ed="#Qb"/>non est idem cumi conscientia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, quorum sunt diversae differentiae,
+          <lb ed="#Qb"/>ipsa sunt diversa; sed huius et illius sunt cli<lb ed="#Qb"/>versae
+          differentiae: non enim lex naturalis recipit
+          <lb ed="#Qb"/>istas differentias ' mundum etk immundum, [, et
+          <lb ed="#Qb"/>ita de aliis; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, Ioannes Damascenus5: <quote> Lex
+          <lb ed="#Qb"/>Deim intellectum nostrum attrahit" ad se ipsam et
+          <lb ed="#Qb"/>pungit nostram conscientiam 0 </quote>; et ita ut prius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Rom. 2,14: <quote ana="#rom2_14">Cum enim gentes</quote> etc.,
+          <lb ed="#Qb"/>Glossaü: <quote> EtsiP gentiles non habeant legem
+          <lb ed="#Qb"/>scriptam, habent tamen legem naturalem, qua
+          <lb ed="#Qb"/>quisque intelligit et sibi conscius est quid sit
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>bonum et quid sit malum </quote>. Lege ergo naturali
+          <lb ed="#Qb"/>est unusquisque conscius; sed conscientia est
+          <lb ed="#Qb"/>illud quo sibi unusquisque conscius estf! ; ergo
+          <lb ed="#Qb"/>conscientia est idem ,quod lex naturalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: Dicimus quod haec differunt quem<lb ed="#Qb"/>admodum-
+          aliquod principium, quod facit scire
+          <lb ed="#Qb"/>aliquam conclusionem, et scientia illius principii.
+          <lb ed="#Qb"/>Lex enim naturalis scripta est in corde: unde est
+          <lb ed="#Qb"/>sicut quoddam scibile quod dirigit potentiam in<lb ed="#Qb"/>tellectivam
+          ad motum, prout habet in se ratio<lb ed="#Qb"/>nem
+          cogniti. Unde sicut in scientia principii in<lb ed="#Qb"/>cluditur
+          ipsum principium, sic in conscientia ' lex
+          <lb ed="#Qb"/>naturalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id quod obicitur quod
+          ' conscientias est qua aliquis sibi conscius est, et
+          <lb ed="#Qb"/>similiter lege naturali *, dicimus quod diversa ha<lb ed="#Qb"/>bitudo
+          notatur per hunc ablativum et per illum ':
+          <lb ed="#Qb"/>per hunc enim ablativum 'conscientia' notatur
+          <lb ed="#Qb"/>habitudo formalis, sed per hunc ablativum 'lege'
+          <lb ed="#Qb"/>naturali' dispositio materialis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

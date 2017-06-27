@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Praeambulum</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="161"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2prae">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Praeambulum</head>
+        <p>
+                <pb ed="#Qb" n="161"/>
+          <lb ed="#Qb"/>Deinde procedendum est ad considerationem potentiarum et actuum particulariter.
+          <lb ed="#Qb"/>Potest autem deprehendi in genere numerus potentiarum et actuum secundum 
+          <lb ed="#Qb"/>rationem actuum. Sunt enim tres actus qui derelinquunt similitudinem summae
+          <lb ed="#Qb"/>Trinitatis in angelis, scilicet praeesse creaturis secundum regimen aut potestatem, co<lb ed="#Qb"/>gnoscere
+          cum suo 1nd1c1o ", motus interior velb exterior. Praeesse enim secundum re<lb ed="#Qb"/>gimen
+          aut e potestatem appropriatur Patri; cognoscere cum suo indicio ", quod est locutio,
+          <lb ed="#Qb"/>appropriatur Filio ; motus vero interior vel e exterior appropriatur Spiritui Sancto tamquam
+          <lb ed="#Qb"/>principio. Sic ergo in iis actibus relinquitur quaedam similitudo Trinitatis in angelo. Per
+          <lb ed="#Qb"/>actus autem cognoscuntur potentiae; erit ergo triplex potentia, scilicet praesidendi, co—
+          <lb ed="#Qb"/>gnoscendif cum'suo indiciog et movendi motu interiori vel exteriori.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ex iis autem posset videri quod potentia praesidendi derelinquat similitudinem per
+          <lb ed="#Qb"/>appropriationem respectu Patris, et ita prior debeat esse. Sed videtur e contrario propter
+          <lb ed="#Qb"/>hoc quod praeesse secundum regimenh in angelis dependet ex cognitione et motu, et
+          <lb ed="#Qb"/>ideo prius dicendum est de potentia cognitiva cum suo actu; deinde dei potentia mo<lb ed="#Qb"/>tiva;
+          et tertio de potentia praesidendi secundum regimenk vel potestatem respectu crea—
+          <lb ed="#Qb"/>turae angelicae vel humanae vel alterius. — Nec obstat quod potentia praesidendi ap<lb ed="#Qb"/>propriatur
+          Patri, quia tunc debet unum praeordinari alteri, quando intelligitur absolute,
+          <lb ed="#Qb"/>illud vero in comparatione; et ideo, cum potentia cognitiva quasi dicat id quod pertinet
+          <lb ed="#Qb"/>ad intelligentiam angelicam secundum se, potentia vero praesidendi ut ad1 alterum et
+          <lb ed="#Qb"/>ex prioribus actibus dirigatur, recte primo existimamus'" agendum de potentia cognitiva
+          <lb ed="#Qb"/>cum suo actu et deinde de aliis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Potentia vero cognitiva dupliciter attenditur: vel ratione proprii actus vel ratione
+          <lb ed="#Qb"/>consequentis, qui est potentiae indicativae ", cuiusmodi est locutio. Primo ergo dicendum
+          <lb ed="#Qb"/>est de potentia cognitiva cum suo actu proprio et" principali: et primo est consideratio
+          <lb ed="#Qb"/>de potentia, postea de actu.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

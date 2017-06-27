@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="58"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q2m2c2">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 2, C. 2</head>
+        <head type="question-title">QUALITER ACCIPIATUR HOC IPSUM 'NIHIL'</head>
+        <p>
+          <lb ed="#Qb"/>Consequenterh quaeritur de hoc quod creari
+          <lb ed="#Qb"/>est fieri ex nihilo, qualiter accipiatur hoc ipsum
+          <lb ed="#Qb"/>nihil .
+        </p>
+        <p>
+          <lb ed="#Qb"/>l. <quote> Ex quocumque enim fit aliquid, id est causa
+          <lb ed="#Qb"/>eius quod ex illoi fit; si ergo factum est ali<lb ed="#Qb"/>quid
+          ex nihilo, ipsum ' nihil ' est causa eius quod
+          <lb ed="#Qb"/>ex ipso 'factum est5 </quote>; sed id'f quod nihil est,
+          <lb ed="#Qb"/>nullum habet esse' ; quod nullum habet esse'",
+          <lb ed="#Qb"/>non adiuvat aliud ut perveniat ad esse; ergo,
+          <lb ed="#Qb"/>cum dicitur 'ex nihilo ', non notatur causa.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, <quote> vox omnium est: de nihilo nihil
+          <lb ed="#Qb"/>fite; ergo quidquid fit, fit ex aliquo 7 </quote>; sed quod
+          <lb ed="#Qb"/>creatur, ex nihilo fit; ergo nihil creatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, si creari est procedere non ex aliquo,
+          <lb ed="#Qb"/>aut hoc est non" ex aliquo quod sit" alterius
+          <lb ed="#Qb"/>substantiae: et secundum hoc diceretur Filius
+          <lb ed="#Qb"/>procedere ex nihilo, quia non est alterius sub<lb ed="#Qb"/>stantiae
+          a Patre; aut dicitur procedere non ex
+          <lb ed="#Qb"/>aliquo generaliter, scilicet quod? nec est eadem
+          <lb ed="#Qb"/>substantia nec differens: et secundum hoc, cum
+          <lb ed="#Qb"/>malum neciy sit eadem substantia' nec differens,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>quod ex malo procedit dicetur creari, quia pro<lb ed="#Qb"/>cedit
+          ex nihilo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Praeterea, dicitur quod homo loquitur de ni<lb ed="#Qb"/>hilo,
+          cums loquitur de re inutili vel omnino non<lb ed="#Qb"/>ente
+          ; sed loqui est agere quoddam; non autem
+          <lb ed="#Qb"/>dicitur homo creare; ergo non omne procedere
+          <lb ed="#Qb"/>ex nihilo est creari, sicut non omne agere de
+          <lb ed="#Qb"/>nihilo est creare.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Praeterea, quod informe est, quodammodo
+          <lb ed="#Qb"/>dicitur nihil: unde * materia, cum est informis, di<lb ed="#Qb"/>citur
+          nihil; ergo fieri ex materia secundum illum
+          <lb ed="#Qb"/>modum, est fieri ex nihilo; sed hoc non est
+          <lb ed="#Qb"/>creari; ergo non omne fieri de nihilo est creari.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Praeterea, cum aliquis de nulla re loquitur,
+          <lb ed="#Qb"/>dicitur quod " de nihilo loquitur 8; numquid" eo<lb ed="#Qb"/>dem
+          modo dicetur creari fieri ex nihilo?
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum9 quod fieri ex
+          <lb ed="#Qb"/>nihilo sive de nihilo dicitur multipliciter. Narn ' de '
+          <lb ed="#Qb"/>vel ' ex' potest dicere ordinem, nonx causam 10,
+          <lb ed="#Qb"/>qui tamen ordo nonsalvatur nisi in altero extremo<lb ed="#Qb"/>rum:
+          et secundum hunc modum dicitur 'creari'
+          <lb ed="#Qb"/>fieri ex nihilo vel de nihilo, quia post omnino
+          <pb ed="#Qb" n="59"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>non-esse procedit creatura in esse. Et sic dicit
+          <lb ed="#Qb"/>A ugustinus, in libro De civitate Dei": <quote> Quae
+          <lb ed="#Qb"/>facta sunt, mutabilia sunt, quia non de illo D, sed
+          <lb ed="#Qb"/>de nihilo facta sunt </quote>. Si vero dicat causam, secun<lb ed="#Qb"/>dum
+          illum modum 0 non est creari fieri ex nihilo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Et per hoc solvitur primo
+          <lb ed="#Qb"/>obiectum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Similiter potest solvi secundum: quod
+          <lb ed="#Qb"/>enim omnino est non-ens non potest esse materia
+          <lb ed="#Qb"/>entis, et ita ex eo ** non producetur materialiter
+          <lb ed="#Qb"/>aliquid; hoc tamen non est contrarium ei quod
+          <lb ed="#Qb"/>post non-esse producatur aliquid in esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum quod Filius non di<lb ed="#Qb"/>citur
+          procedere ex nihilo vel de nihilo, sed de
+          <lb ed="#Qb"/>Patre 2. Unde Hilarius, in XII De Trinitate3:
+    <quote> Cum ex manente natus est, non est natus ex
+          <lb ed="#Qb"/>nihilo </quote>; non enim post non esse Filium procedit
+          <lb ed="#Qb"/>Filius in esse nec post omnino non-esse. — Item,
+          <lb ed="#Qb"/>cum dicitur 'creari' fieri ex nihilo, non intelli<lb ed="#Qb"/>gitur
+          'nihil' privative, sicut malum dicitur esse
+          <lb ed="#Qb"/>nihil: malum enim nullae substantia est, sicut
+          <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>, In Ioannem4 1,3: Sine ipso
+          <lb ed="#Qb"/>factum est nihil, <quote> id est peccatum </quote>. Cum ergo
+          <lb ed="#Qb"/>aliquid dicitur fieri ex malo f, id est peccato,
+          <lb ed="#Qb"/>privationem habet pro origine; cum autem ali<lb ed="#Qb"/>quid
+          dicitur creari ex nihilo, sumitur negative,
+          <lb ed="#Qb"/>non causaliter. — Item, fieri ex nihilo potest in<lb ed="#Qb"/>telligi
+          quod non fit ex aliqua causa, sicut dicit
+          <lb ed="#Qb"/>Ans elm us 5: <quote> Contristatur de nihilo, id est non
+          <lb ed="#Qb"/>contristatur ex aliqua causa vel contristatur-€ sine
+          <lb ed="#Qb"/>causa</quote>. Licet de Patre possit dici 'Pater non
+          <lb ed="#Qb"/>fit ex aliquo ', non conceditur tamenh quod Pa<lb ed="#Qb"/>ter
+          fiti de nihilo: in forma enim dicendi datur
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>intelligi quod Pater fiat; quod nullatenus est con<lb ed="#Qb"/>cedendum.
+          Si vero dicatur iieri de nihilo, hoc est
+          <lb ed="#Qb"/>tierik sine causa, cum nihil sine causa fiat, op<lb ed="#Qb"/>positio
+          esset in hoc verbo 'creari ': poneret enim
+          <lb ed="#Qb"/>quod fieret et quod non ex aliqua causa fieret.
+          <lb ed="#Qb"/>Ista autem duo non sunt opposita: "fieri ex ali<lb ed="#Qb"/>quo
+          ', id est ex aliqua causa, et ' fieri ex nihilo ',
+          <lb ed="#Qb"/>prout continetur in ratione eius quod est creari.
+          <lb ed="#Qb"/>Unde Anselm us, in Monologion 5: <quote> Sine omni
+          <lb ed="#Qb"/>repugnantia ea, quae sunt a creatricel essentia
+          <lb ed="#Qb"/>dici possunt esse facta ex nihilo </quote> eo modo quo
+          <lb ed="#Qb"/>dici solet dives fieri"1 ex paupere et sanitatem
+          <lb ed="#Qb"/>recepisse quis ex aegritudine, id est qui prius
+          <lb ed="#Qb"/>erat pauper, nunc est dives.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad quartum dicendum est" quod, cum di<lb ed="#Qb"/>citur
+          'homo loquitur de nihilo ', dupliciter in.<lb ed="#Qb"/>telligitur:
+          vel negative, id est non loquitur de
+          <lb ed="#Qb"/>aliqua re, et sic non ponitur hoc verbum 'fieri,,
+          <lb ed="#Qb"/>ut ex hoc sequatur quod aliquid0 fiat ; si vero
+          <lb ed="#Qb"/>privative velP negative in genere, secundum hoc
+          <lb ed="#Qb"/>ponitur loqui. Et licet loqui sit agere, non tamen
+          <lb ed="#Qb"/>sic agere de nihilo est creare: 'nihil, enim dicitur
+          <lb ed="#Qb"/>inutile vel omnino non-ens, sicut chimera, quod 4
+          <lb ed="#Qb"/>est materia locutionis. 'Ex nihilo' autem, prout
+          <lb ed="#Qb"/>ponitur in ratione eius 'creari ', non ponit mate<lb ed="#Qb"/>riam,
+          et ita differenter accipitur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad id vero quod obicitur de materia, quod
+          ' materia ' nihil est secundum quemdam modum ':
+          <lb ed="#Qb"/>dicendum quod sic 'fieri ex nihilo ' privative di<lb ed="#Qb"/>cetur,
+          non pure negative; item materialiter, non
+          <lb ed="#Qb"/>tantum ordinaliter.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et per hoc possunt solvi ea quae primo obi<lb ed="#Qb"/>ciuntur.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

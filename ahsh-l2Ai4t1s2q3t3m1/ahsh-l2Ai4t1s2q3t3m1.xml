@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="466"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t3m1">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 1</head>
+        <head type="question-title">An sit liberum arbitrium 5.</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum sic obicitur: Videtur enim
+          <lb ed="#Qb"/>quod non sit liberum arbitrium secundum
+          <lb ed="#Qb"/>quod est flexibile. 1. Hieronymus6 enim sic
+          <lb ed="#Qb"/>arguit: <quote> Deus est bonus voluntate et fecit ho<lb ed="#Qb"/>minem
+          ad imaginem suam </quote>. Ergo fecit hominem
+          <lb ed="#Qb"/>bonum voluntate. Sig hoc sequitur, ergo simi<lb ed="#Qb"/>liter
+          sequetur ex alia parte ' Deus non potest non
+          <lb ed="#Qb"/>esse bonus, et fecit hominem ad imaginem suam,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ergo fecit eum talem qui non potest non esse
+          <lb ed="#Qb"/>bonus, ergo non est in eo flexibilitas liberi ar<lb ed="#Qb"/>bitrii
+          ad opposita-'; et haec est libertas de qua
+          <lb ed="#Qb"/>loquimur; ergo non habet libertatem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, melior est potentia iaciendi bonum quae
+          <lb ed="#Qb"/>est impermixta potentiae faciendi malum, quam
+          <lb ed="#Qb"/>illa quae se habet ad utrumque, scilicet ad posse
+          <lb ed="#Qb"/>facere benum et malum7: quod patet, quia talis
+          <pb ed="#Qb" n="467"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>potentia est in Deo. Si ergo omnis invidia rele<lb ed="#Qb"/>gata
+          est a summo bono 1, cum talis potentia sit
+          <lb ed="#Qb"/>nobilissima et communicare eam potuit, commu<lb ed="#Qb"/>nicavit
+          eama rationali creaturae quae est adima<lb ed="#Qb"/>ginem
+          suam; ergo rationalis creatura habet po<lb ed="#Qb"/>tentiam
+          faciendi bonumb impermixtam potentiae
+          <lb ed="#Qb"/>faciendi malum; ergo non est in ea liberum ar<lb ed="#Qb"/>bitrium
+          secundum quod est flexibile ad bonum
+          <lb ed="#Qb"/>et malum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, si non esset aliqua creatura in universo
+          <lb ed="#Qb"/>quae talem haberetc potentiam ut posset facere
+          <lb ed="#Qb"/>bonum et non posset facere malum, incompleta
+          <lb ed="#Qb"/>esset universitas creaturarum, cum Deus talem
+          <lb ed="#Qb"/>possit facere creaturamz; ergo est aliqua talis;
+          <lb ed="#Qb"/>sed, si aliqua est talis, haec est creatura ra<lb ed="#Qb"/>tionalis;
+          ergo creatura rationalisd non habet
+          <lb ed="#Qb"/>flexibilitatem ad bonum et malum; ergo nec li<lb ed="#Qb"/>bertatem
+          secundum quod hic loquimur de li<lb ed="#Qb"/>bertate.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Damascenus3: <quote>Omne genera<lb ed="#Qb"/>bile
+          vertibile; animata vero et'2 irrationabilia ver<lb ed="#Qb"/>tuntur
+          secundum corporales alterationes, rationale
+          <lb ed="#Qb"/>vero secundum electionem, contemplativum se<lb ed="#Qb"/>cundum
+          excogitationem, activum vero secundum
+          <lb ed="#Qb"/>consilium </quote>. Relinquitur quod rationalis creatura
+          <lb ed="#Qb"/>vertibilis estf secundum electionem; et hoc est
+          <lb ed="#Qb"/>flexibile secundum liberum arbitrium; ergo in ea
+          <lb ed="#Qb"/>est liberum arbitrium flexibile.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Bernardustz .<quote>Tolle liberum arbi<lb ed="#Qb"/>trium,
+          non erit quod salvetur; tolle gratiam, non
+          <lb ed="#Qb"/>erit unde salvetur </quote>; sed rationalis creatura or—
+          <lb ed="#Qb"/>dinata est ad participationem praemii et meri<lb ed="#Qb"/>tum
+          est ante praemium et principium merendi
+          <lb ed="#Qb"/>ante meritum; ergo, si principium meriti est li<lb ed="#Qb"/>berum
+          arbitrium 5, liberum arbitrium est8 in
+          <lb ed="#Qb"/>homine.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, <name ref="#Augustine">Augustinus</name>, in libro'1 83 Quaestio<lb ed="#Qb"/>numöz
+    <quote> Melior est homo qui voluntate quam
+          <lb ed="#Qb"/>qui necessitate bonus est </quote>. Voluntas igitur libera
+          <lb ed="#Qb"/>homini danda fuit.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Respondeo: Concedoi quod liberum arbitrium,
+          <lb ed="#Qb"/>secundum quod est flexibile ad bonum et malum,
+          <lb ed="#Qb"/>sitk in creatura rationali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad hoc quod obicitur quod
+          <lb ed="#Qb"/>'cum Deus sit necessitate bonus et homo sit ad
+          <lb ed="#Qb"/>imaginem? et similitudinem Dei, erit necessitate
+          <lb ed="#Qb"/>bonus et ita non habebit liberum arbitrium flexi<lb ed="#Qb"/>bile
+          ' etc.: dicendum quod non est simile, sed bene
+          <lb ed="#Qb"/>tenet: Deus est voluntate bonus, et fecit hominem
+          <lb ed="#Qb"/>ad imaginemm suam, quod fecit eum voluntate
+          <lb ed="#Qb"/>bonum, quia creatura, cum sit ex nihilo, verti<lb ed="#Qb"/>bilis
+          est et ita oppositionem" habet ad necessi<lb ed="#Qb"/>tatem
+          7, quia necessitas est ex parte perfectae po<lb ed="#Qb"/>tentiae,
+          et ita solum in Deo, non in creatura, cum
+          <lb ed="#Qb"/>ibi sit defectus potentiae, et ideo non sequitur
+          <lb ed="#Qb"/>quod, si Deus est necessario bonus, quod homo
+          <lb ed="#Qb"/>existens ad imaginem eius sit necessario bonus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendum3 quod verum est?
+          <lb ed="#Qb"/>quod Deus potuit conferre alicui creaturae poten<lb ed="#Qb"/>tiam
+          determinatam ad bonum, sed hoc non per
+          <lb ed="#Qb"/>naturam, sed per gratiam. Nulli enim creaturae
+          <lb ed="#Qb"/>potest conferri quod habeat potentiam flexibilem
+          <lb ed="#Qb"/>ad bonum et non ad malum per naturam, nisi di<lb ed="#Qb"/>catur
+          natura illud quod datur homini a principio,
+          <lb ed="#Qb"/>licet non sit de esse ipsius. Causa autem quare
+          <lb ed="#Qb"/>non potest conferri homini per naturam est quia
+          <lb ed="#Qb"/>vertibile secundum naturam consequitur de ne<lb ed="#Qb"/>cessitate
+          esse creaturae. Unde sicut non potest
+          <lb ed="#Qb"/>conferri homini quod eius natura non sit creata,
+          <lb ed="#Qb"/>ita non potest conferri quod non sit vertibilis,
+          <lb ed="#Qb"/>sed solum confertur Filio, qui procedit ab ipso
+          <lb ed="#Qb"/>in identitate naturae; confertur tamen creatu<lb ed="#Qb"/>rae
+          per gratiam quod non potest habere per
+          <lb ed="#Qb"/>naturam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud dicendum quod non sequitur
+          <lb ed="#Qb"/>quod, si homini non confertur potentia determi<lb ed="#Qb"/>nata
+          ad bonum secundum naturam, quod sit in<lb ed="#Qb"/>completa
+          universitas creaturarum; sed illud for<lb ed="#Qb"/>sitan
+          sequeretur, si aliquo modo non conferretur
+          <lb ed="#Qb"/>ei, scilicet per gratiam.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

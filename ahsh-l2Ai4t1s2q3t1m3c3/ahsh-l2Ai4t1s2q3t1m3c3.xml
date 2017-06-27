@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="462"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t1m3c3">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 1, M. 3, C. 3</head>
+        <head type="question-title">UTRUM SENSUS INTERIOR SIT SEPARABILIS A CORPORE VEL INSEPARABILIS.</head>
+        <p>
+                <pb ed="#Qb" n="462"/>
+          <lb ed="#Qb"/>Tertio quaeritur utrum huiusmodi sensus sit
+          <lb ed="#Qb"/>separabilis a corpore vel inseparabilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod separabilis, videtur a. per Augusti<lb ed="#Qb"/>num",
+          in libro De ecclesiasticis dogmatibus 1:
+    <quote> Solum hominem credimus habere animam sub<lb ed="#Qb"/>stantivam,
+          quae exuta a" corpore vivit-et sensus
+          <lb ed="#Qb"/>suos atque ingenia vivaciter tenet </quote>. Ergo, si exuta
+          <lb ed="#Qb"/>a corpore tenet sensus suos, ergo' huiusmodi sen<lb ed="#Qb"/>sus
+          sunt separabiles.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Cassiodorus, in libro De animaZ:
+    <quote> Sciendum est quod haecc immortalis anima vivit
+          <lb ed="#Qb"/>in se, post huius saeculi amissionem non reflante
+          <lb ed="#Qb"/>spiritu sicut corpus, sed aequali mobilitate, quae
+          <lb ed="#Qb"/>illi attributa est, pura, subtili, cita d, aeterna videt,
+          <lb ed="#Qb"/>audit, tangit ac reliquis sensibus efficacius valet</quote>.
+          <lb ed="#Qb"/>Ergo anima post amissionem huius saeculi utitur
+          <lb ed="#Qb"/>sensibus suis; ergo isti sensus sunt separabiles.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, in libro De libero
+          <lb ed="#Qb"/>arbitrio 3: <quote> Magis arbitror ratione nos comprehen<lb ed="#Qb"/>dere
+          esse interiorem quemdam * sensum, ad quem
+          <lb ed="#Qb"/>ab istis quinque notissimisf omnia referantur </quote>.
+          <lb ed="#Qb"/>Et postmodum subdit: <quote> Hic autem nec visus nec
+          <lb ed="#Qb"/>auditus nec olfactus nec gustus nec tactus dici
+          <lb ed="#Qb"/>potest, sed nescio quid aliud quod communiter
+          <lb ed="#Qb"/>omnibus praesidet</quote>. Si ergo praesidet quinqueg
+          <lb ed="#Qb"/>sensibus exterioribus, sed isti non sunt separa<lb ed="#Qb"/>biles,
+          ergo nec iste.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Bernardus, in libro De amore Dei4,
+          <lb ed="#Qb"/>assignat hos quinque sensus, et unus est amor
+          <lb ed="#Qb"/>parentum, alius amor sociorum et tertius amor
+          <lb ed="#Qb"/>inimicorum; sed hoc non habet exercere anima
+          <lb ed="#Qb"/>nisi in corpore; ergo isti sensus non sunt se<lb ed="#Qb"/>parabiles
+          a corpore.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum 5 quod sensus in<lb ed="#Qb"/>terior
+          dicitur dupliciter. Aliquando enim dicitur
+          <lb ed="#Qb"/>sensus interior, qui pertinet ad partem sensibi<lb ed="#Qb"/>lem,
+          scilicet sensus communis sive imaginatio;
+          <lb ed="#Qb"/>aliquando vero dicitur sensus interior ipsius par—
+          <lb ed="#Qb"/>tis rationalis. Et hoc dupliciter: dicitur enim ali<lb ed="#Qb"/>quando
+          sensus interior pertinens ad intellectum,
+          <lb ed="#Qb"/>aliquando pertinens ad affectum ". Ad intellectum
+          <lb ed="#Qb"/>veroi dupliciter: aliquando secundum quod est
+          <lb ed="#Qb"/>mediantibus speciebus quae sunt in phantasmate,
+          <lb ed="#Qb"/>aliquando vero mediantibus speciebus praeter
+          <lb ed="#Qb"/>phantasmata. Si ergo': dicatur sensus interior
+          <lb ed="#Qb"/>primo modo, quoad actum non separatur a cor<lb ed="#Qb"/>pore;
+          si vero dicatur sensus interior' qui ad
+          <lb ed="#Qb"/>affectum pertinet, licet possit esse quantum ad
+          <lb ed="#Qb"/>quaedam separabilis, quantum ad alia non est
+          <lb ed="#Qb"/>separabilis; si vero accipiatur sensus interior
+          <lb ed="#Qb"/>prout est mediantibus speciebus in phantasmate,
+          <lb ed="#Qb"/>non separatur, alio vero modo separatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1-2. a—b. Per hoc patet responsio
+          <lb ed="#Qb"/>ad obiecta. Narn B. Bernardus loquitur de sensu
+          <lb ed="#Qb"/>interiori secundum quod pertinet ad affectum;
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name> vero, in libro De liberam arbitrio,
+          <lb ed="#Qb"/>loquitur de sensu communi secundum quod per<lb ed="#Qb"/>tinet
+          ad partem sensibilem; auctoritas vero Cas<lb ed="#Qb"/>siodori
+          loquitur de sensu interiori secundum
+          <lb ed="#Qb"/>quod sensus interior dicitur intellectus; Au gu<lb ed="#Qb"/>stinus
+          vero ", in' libro De ecclesiasticis'dogma<lb ed="#Qb"/>tibus,
+          loquitur de sensu communiter, sive dicatur
+          <lb ed="#Qb"/>quod interior sensus pertineat ad partem sensi<lb ed="#Qb"/>bilem
+          sive ad rationalem: nam, etsi anima non
+          <lb ed="#Qb"/>sit quantum ad partem sensibilem separabilis se<lb ed="#Qb"/>cundum
+          actum, exuta tamen a corpore defert se<lb ed="#Qb"/>cum
+          huiusmodi potentias.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

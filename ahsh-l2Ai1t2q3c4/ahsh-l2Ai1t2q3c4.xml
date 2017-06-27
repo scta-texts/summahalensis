@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 3, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 3, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="102"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q3c4">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 3, C. 4</head>
+        <head type="question-title">UTRUM PULCRITUDO POSSIT AUGERI VEL MINUI IN MUNDO.</head>
+        <p>
+          <lb ed="#Qb"/>Quarto, quaeritur utrum pulcritudo possit augeri
+          <lb ed="#Qb"/>vel minui.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur: 1. Cum enim viventia, in eo quod
+          <lb ed="#Qb"/>huiusmodi, pulcritudinem habeant, ergo ea quae
+          <lb ed="#Qb"/>moriuntur vel" desinunt habent deformitatem ;
+          <lb ed="#Qb"/>sed contingit in universo pluraï esse viventia vel
+          <lb ed="#Qb"/>pauciora; ergo contingit pulcritudinem universi
+          <lb ed="#Qb"/>augeri vel minui.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, sicut minor dicitur pulcritudo cum homo
+          <lb ed="#Qb"/>senescit quam cum homo est in iuventute, ita
+          <lb ed="#Qb"/>videtur in universo. Cum ergo, sicut dicit Au<lb ed="#Qb"/>gustinus-",
+          modo sit quasi senectus mundi, in
+          <lb ed="#Qb"/>principio vero erat quasi iuventus, maior erat
+          <lb ed="#Qb"/>tunc pulcritudo quam nunc sit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, contingit animam rationalem per pecca<lb ed="#Qb"/>tum
+          deficere a bono, et cum deficit a bono,
+          <lb ed="#Qb"/>quoad hoc minuitur pulcritudo creaturae in uni<lb ed="#Qb"/>verso,
+          et ita contingit pulcritudinem universi di<lb ed="#Qb"/>minui;
+          ergo pari ratione et augeri; ergo contingit
+          <lb ed="#Qb"/>pulcritudinemk universi augeri et minui.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Quocumque modo se habeant partes
+          <lb ed="#Qb"/>mundi, perfecta est universitas; quod autem per<lb ed="#Qb"/>fectum
+          est et manet huiusmodi, non augetur 'necl
+          <lb ed="#Qb"/>minuitur; ergo pulcritudo mundi nec augetur nec
+          <lb ed="#Qb"/>minuitur. Unde Augustin us, in III De libero ar<lb ed="#Qb"/>bitrio
+          4: <quote> Cum non peccantibus adest beatitudo "',
+          <lb ed="#Qb"/>perfecta est universitas; cum vero peccantibus
+          <lb ed="#Qb"/>adest miseria, nihilominus perfecta est universitas.
+          <lb ed="#Qb"/>Quod autem non " ipsae desunt animae, quas vel
+          <lb ed="#Qb"/>peccantes sequitur miseria vel recte facientes
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>beatitudo, semper in naturis omnibus universitas
+          <lb ed="#Qb"/>plena atque perfecta est </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod perfectio"
+          <lb ed="#Qb"/>attenditur dupliciter: secundum formam totius et
+          <lb ed="#Qb"/>secundum formam partium. Si ergo attendatur
+          <lb ed="#Qb"/>perfectio? secundum formam totius, semper est
+          <lb ed="#Qb"/>perfecta universitas mundi; si vero secundum
+          <lb ed="#Qb"/>formam partium, contingit augeri vel minui. Forma
+          <lb ed="#Qb"/>etiam partium potest attendi secundum esse vel
+          <lb ed="#Qb"/>secundum bene esse: et secundum hoc diversi<lb ed="#Qb"/>ficatur
+          perfectio in partibus vel quoad esse vel
+          <lb ed="#Qb"/>quoad bene esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: ]. Ad p rimo ergo 4 obiectum di<lb ed="#Qb"/>cendum
+          ' quod, licet sint plura viventia vel pau<lb ed="#Qb"/>ciora,
+          non tamen pulcritudo mundi quoad genera
+          <lb ed="#Qb"/>et species augetur vel minuitur vel etiam per<lb ed="#Qb"/>fectio
+          mundi quoad formam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2; Ad secundo vero obiectum dicendums
+          <lb ed="#Qb"/>quod, licet determinetur iuventus mundi et se<lb ed="#Qb"/>nectus,
+          et quoad hoc attendatur pulcritudo maior
+          <lb ed="#Qb"/>vel minor, secundum quod minus vel magis do<lb ed="#Qb"/>minatur
+          ipsa poena peccati, nihilominus tamen
+          <lb ed="#Qb"/>est quaedam pulcritudo essentialis, quae in mundo
+          <lb ed="#Qb"/>nec augetur nec minuitur; reliqua vero, quae erat<lb ed="#Qb"/>ex
+          accidenti proveniens, poterat augeri vel minui.
+          <lb ed="#Qb"/>Unde si stetisset Adam in statu innocentiae, non
+          <lb ed="#Qb"/>determinaretur * iuventus mundi vel senectus, sed<lb ed="#Qb"/>pulcritudo
+          remaneret indifferens.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertio vero obiectum dicendum quod,
+          <lb ed="#Qb"/>sicut dictum eSt 5, est pulcritudo in universo ra<lb ed="#Qb"/>tione
+          pulcritudinis partium, pars autem una e
+          <pb ed="#Qb" n="103"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>nobilioribus est ipsa anima rationalis; sed haec
+          <lb ed="#Qb"/>habet duplicem pulcritudinem : unam ratione sub<lb ed="#Qb"/>stantiae
+          sive essentiae et aliam ratione voluntatis
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>actualis. Quantum ad primam" non dicitur pul<lb ed="#Qb"/>critudo
+          mundi augeri vel minui, quantum ad se<lb ed="#Qb"/>cundam
+          contingit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

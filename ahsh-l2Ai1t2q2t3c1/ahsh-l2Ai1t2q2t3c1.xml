@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 3, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="77"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q2t3c1">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 3, C. 1</head>
+        <head type="question-title">UTRUM MUTATIO DICATUR AEQUIVOCE AN UNIVOCE DE CREATIONE ET DE CONDITIONE.</head>
+        <p>
+          <lb ed="#Qb"/>Circa primum sic: a. Mutatio, quae est de
+          <lb ed="#Qb"/>omnino non-esse in esse, nihil habet com<lb ed="#Qb"/>mune,
+          mutatio vero, quae est de esse in non-esse,
+          <lb ed="#Qb"/>habet-7 aliquid commune secundum quod dici<lb ed="#Qb"/>tur: 
+    <quote> generatio unius est corruptio alterius4 </quote>, se<lb ed="#Qb"/>cundum
+          quod dicitur quod non omnino secedit in
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>non-esse; ergo mutatio non dicitur secundum
+          <lb ed="#Qb"/>unam rationem de exitu primo et exitu conse<lb ed="#Qb"/>quenti.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Quod autem dicatur ratione primi exitus mu<lb ed="#Qb"/>tatio,
+          sic arguitur: Oppositio est inter Creatorem
+          <lb ed="#Qb"/>et creaturam, in quantum huiusmodi; sed Creator,
+          <pb ed="#Qb" n="78"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>in quantum huiusmodi, est immutabilis; ergo
+          <lb ed="#Qb"/>creatura 4, in quantum creatura, est mutabilis;
+          <lb ed="#Qb"/>sed creatura, in quantum" huiusmodi, dicit exi<lb ed="#Qb"/>tum
+          devnon-esse in esse; ergo secundum hoc
+          <lb ed="#Qb"/>est mutabilis; utroque ergo modo dicetur mu<lb ed="#Qb"/>tabilis
+          per oppositionem ad Creatorem, qui nec
+          <lb ed="#Qb"/>mutatur de non-esse in esse nec de esse in
+          <lb ed="#Qb"/>non-esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Quae est causa rerum ut sint post
+          <lb ed="#Qb"/>non-esse, ea est causa rerum ut non sint post
+          <lb ed="#Qb"/>esse; sicut ergo eadem est causa, ita etc idem 
+          <lb ed="#Qb"/>effectus; sed ille. effectus est mutatio 'sive
+          <lb ed="#Qb"/>variatio; ergo variatio sive mutatio dicetur
+          <lb ed="#Qb"/>univoce.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, licet generatio sit mutatio de non-esse
+          <lb ed="#Qb"/>in esse et corruptio sit de esse in non-esse, ni<lb ed="#Qb"/>hilominus
+          tamen 4 mutatio, dicetur univoce de
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>generatione et corruptione; ergo a simili dicetur
+          <lb ed="#Qb"/>de primo exitu et consequenti.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad hoc respondendum ' quod mutatio
+          <lb ed="#Qb"/>proprie dicta fundatur super aliquod subiectum *,
+          <lb ed="#Qb"/>quod mutari dicitur; extenditur tamen ut dica<lb ed="#Qb"/>tur
+          mutatio <quote>a non-subiecto in subiectum vel a
+          <lb ed="#Qb"/>subiecto in non-subiectum vel a subiecto inf sub<lb ed="#Qb"/>iectum,
+          large sumpto non-subiecto ad non—sub<lb ed="#Qb"/>iectum2
+    </quote> negative sumptum et privative: et se<lb ed="#Qb"/>cundum
+          hunc modum dicetur mutatio in exitu
+          <lb ed="#Qb"/>primog. Sed attendendum est quod mutatio de
+          <lb ed="#Qb"/>non-esse in esse respicit in quod" mutatur prin<lb ed="#Qb"/>cipaliter;
+          mutatio vero de 'esse in non-esse respi<lb ed="#Qb"/>cit
+          a quo fit mutatio. Non negatur ergo quin
+          <lb ed="#Qb"/>sumpta generali ratione dicatur univoce mutatio
+          <lb ed="#Qb"/>de primo exitu et consequenti 1, proprie vero
+          <lb ed="#Qb"/>sumpta non dicitur univoce.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

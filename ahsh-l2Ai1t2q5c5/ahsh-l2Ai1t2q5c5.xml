@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="119"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q5c5">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 5</head>
+        <head type="question-title">UTRUM PERFECTIO UNIVERSI ATTENDATUR RESPECTU RERUM IN GENERE VEL IN SPECIE VEL ETIAM IN INDIVIDUIS.</head>
+        <p>
+          <lb ed="#Qb"/>Quinto quaeritur utrum perfectio attendatur re—
+          <lb ed="#Qb"/>spectu rerum in genere vel in specie vel
+          <lb ed="#Qb"/>etiam' in individuis.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Quod sit in generibus et speciebus, videtur
+          <lb ed="#Qb"/>1. per hoc quod dicitur in Gen. I in fine: Igitur
+          <lb ed="#Qb"/>perfecti sunt caeli et omnis ornatus eorum; sed
+          <pb ed="#Qb" n="120"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>haec perfectio fuit in generibus et speciebus omni<lb ed="#Qb"/>bus,
+          non autem in omnibus individuis, et tunc
+          <lb ed="#Qb"/>fuit perfectum universum; ergo perfectio uniVerSi
+          <lb ed="#Qb"/>consistit in istis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, <name ref="#Augustine">Augustinus</name>, Super Genesim ad lit<lb ed="#Qb"/>teraml:
+    <quote> Sia aliquam creaturam sic instituere
+          <lb ed="#Qb"/>putaverimus ut genus eius primae illi condi<lb ed="#Qb"/>tioni
+          non inseruerit b, aperte contradicimus di<lb ed="#Qb"/>centi
+          Scripturae quia consummavit omne opus
+          <lb ed="#Qb"/>die sexto * </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Plus est esse unum numero quam
+          <lb ed="#Qb"/>esse unum specie vel genere 2; perfectio ergod
+          <lb ed="#Qb"/>multitudinis plus colligetur ex iis quae habent
+          <lb ed="#Qb"/>unitatem numeralem quam ex iis quae habent
+          <lb ed="#Qb"/>unitatem generis vel speciei; sed haec est per<lb ed="#Qb"/>fectio
+          ipsius mundi; ergo perfectio mundi non
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>consistit tantum in multitudine generum aut
+          <lb ed="#Qb"/>specierum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod duplex est
+          <lb ed="#Qb"/>perfectio: una in rebus actu entibus et,alia est in
+          <lb ed="#Qb"/>ipsis principiis habentibus virtutem multiplicandi
+          <lb ed="#Qb"/>res actu existentes. Quantum ad primum modum
+          <lb ed="#Qb"/>non fuit omnimoda perfectio in operibus sex die<lb ed="#Qb"/>rum;
+          quantum ad secundum modum fuit perfectio
+          <lb ed="#Qb"/>sufficiens. Unde <name ref="#Augustine">Augustinus</name>, Super Genesim
+          <lb ed="#Qb"/>ad litteram 3: <quote> Potest intelligi Deum requievisse
+          <lb ed="#Qb"/>a condendis generibus creaturae, quia ultra iam
+          <lb ed="#Qb"/>non condidit aliqua genera nova; deinceps autem
+          <lb ed="#Qb"/>usque nunc et ultra operatur eorumdem generum
+          <lb ed="#Qb"/>administrationem </quote>. Item, <name ref="#Augustine">Augustinus</name>, Super
+          <lb ed="#Qb"/>Genesim4: <quote> Non defuit aliquid tunc causaliter
+          <lb ed="#Qb"/>conditum, quod postea visibiliter condebatur </quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

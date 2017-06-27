@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 2, M. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 2, M. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="749"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q3t2m1">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 2, M. 1</head>
+        <head type="question-title">Utrum primus homo habuit gratiam et. virtutes ante lapsum.</head>
+        <p>
+          <lb ed="#Qb"/>Quaeritur ergo utrum habuit" gratiam et vir<lb ed="#Qb"/>tutes 
+          ante lapsum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod sic, videtur: a. Luc. 10,30: Qui etiam
+          <lb ed="#Qb"/>exspoliauerunt eum et plagis impositis etc.; et
+          <lb ed="#Qb"/>exponunt Sancti2 et Glossa3 quod <quote> exspolia<lb ed="#Qb"/>verunt
+          eum gratuitis et vulneraverunt in natura<lb ed="#Qb"/>libus
+    </quote>. Ergo, si hoc intelligitur in primo homine,
+          <lb ed="#Qb"/>primus homo non tantum habuit naturalia, sed
+          <lb ed="#Qb"/>etiam gratuita ante peccatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Bernardus4: <quote> Cum videret patrem
+          <lb ed="#Qb"/>nostrum hominum aemulus caritate circumda<lb ed="#Qb"/>tum
+          et omni virtute vestitum, et hoc accepisse
+          <lb ed="#Qb"/>terrenum hominem quod ipse per superbiam
+          <lb ed="#Qb"/>amisit, invidit insanabilis homicida</quote>. Ex hoc igi<lb ed="#Qb"/>tur
+          patet quod primus homo et caritatem habebat
+          <lb ed="#Qb"/>et omnem virtutem. '
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, Adam recepit mandatum disciplinae;
+          <lb ed="#Qb"/>sed ", si illud mandatum servassetc absque gratia,
+          <lb ed="#Qb"/>meruisset; si igitur illud mandatum datum erat
+          <lb ed="#Qb"/>sibi in meritum obedientiae, videtur quod Deusd
+          <lb ed="#Qb"/>non dederit sibi in praeceptum praeter gratiae
+          <lb ed="#Qb"/>adiutorium, alioquin dedisset ei in malum: quod
+          <lb ed="#Qb"/>nullo modo decet facere Deum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item,-hoc habetur a Magistro Sententia<lb ed="#Qb"/>rum,
+          II libro, dist. 29, cap.? Praeterea,.quaeri
+          <lb ed="#Qb"/>solet5, ubi ad hoc ostendendum introducuntur
+          <lb ed="#Qb"/>auctoritates plures. '
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Deus sciebat ipsum statim esse
+          <lb ed="#Qb"/>lapsarum; ergo sciebat quod illud gratiae donum
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>in nullo esset sibi utile, sed potius esset illi in
+          <lb ed="#Qb"/>nocumentum; si igitur sapiens artifex non debet
+          <lb ed="#Qb"/>aliquid frustra facere vel etiam quod vertatur in
+          <lb ed="#Qb"/>operis sui damnum et nocumentum, videtur quod
+          <lb ed="#Qb"/>non dederit illi gratiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Adam quia iustitiam originalem habuit,
+          <lb ed="#Qb"/>quando peccavit, et voluntarie perdidit, nunquam
+          <lb ed="#Qb"/>eam recuperavit; ergo pari ratione, si habuisset
+          <lb ed="#Qb"/>donum gratiae gratum facientis, nec ipse nec 
+          <lb ed="#Qb"/>aliquis posterorum eius gratiam recuperasset; si
+          <lb ed="#Qb"/>igitur gratiam gratum facientem ipse recuperavit, 
+          <lb ed="#Qb"/>videtur quod ante lapsum eam non habueritf.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, Adam habebat optima naturalia et
+          <lb ed="#Qb"/>nullam habebat pronitatem ad malum nec diffi<lb ed="#Qb"/>cultatem
+          ad bonum 5; ergo, si caritatem et gratiam
+          <lb ed="#Qb"/>habuisset, totaliter Deo adhaesisset; ergo nun—
+          <lb ed="#Qb"/>quam in peccatum cecidisset; sed constat quod
+          <lb ed="#Qb"/>cecidit; ergog gratiam ante lapsum non habuit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Praeterea, ex quo habebat optima naturalia,
+          <lb ed="#Qb"/>gratia apposita terebatur totaliter in Deum, et ita
+          <lb ed="#Qb"/>esset confirmatus sicut erant angeli.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, Lucifer non habuit gratiam gratum
+          <lb ed="#Qb"/>facientem7; si ergo Adam gratiam gratum facien<lb ed="#Qb"/>temh
+          habuit et ab illa cecidit, ergo de altiori
+          <lb ed="#Qb"/>gradu cedidit quam angelus; ergo videtur quod
+          <lb ed="#Qb"/>peccatum eius fuit incurabilius quam peccatum
+          <lb ed="#Qb"/>angelicum; si ergo hoci constat esse falsum,
+          <lb ed="#Qb"/>ante peccatum non] habuit gratiae donum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, prius debet aliquisk probari quam in
+          <lb ed="#Qb"/>amicum assumi; hoc non solum est verum in
+          <pb ed="#Qb" n="750"/>
+          <lb ed="#Qb"/>amicitia humana, verum etiam in amicitia divina ;
+          <lb ed="#Qb"/>unde dicitur Hebr. 8': Abraham pater noster"
+          <lb ed="#Qb"/>tentatus est, et per multas tribulationes probatas,
+          <lb ed="#Qb"/>Dei amicus effectus est. Si igitur nullus habet
+          <lb ed="#Qb"/>Dei gratiam quin habeat Deib amicitiamz, videtur
+          <lb ed="#Qb"/>quod ante tentationem Adam non habuerit gra<lb ed="#Qb"/>tiam;
+          sed statim post tentationem peccavit; ergo
+          <lb ed="#Qb"/>non habuit gratiam ante lapsum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo: Ad praedictorum intelligentiamc
+          <lb ed="#Qb"/>notandum quod circa hoc duplex consuevit esse
+          <lb ed="#Qb"/>opinio. Quidam3 enim dicere voluerunt quod
+          <lb ed="#Qb"/>Adam non habuit gratiam gratum facientem, pro
+          <lb ed="#Qb"/>eo quod non videtur credibile quod lapsus esset,
+          <lb ed="#Qb"/>si tale adiutorium habuisset. Ad auctoritates au<lb ed="#Qb"/>tem
+          et rationes respondent, dicentes quod Adam
+          <lb ed="#Qb"/>habuit multas gratias gratis datas et naturam ha<lb ed="#Qb"/>buit
+          valde bonam 'et propterea Sancti videntur
+          <lb ed="#Qb"/>aliquando dicere ipsum habuisse gratuita ante
+          <lb ed="#Qb"/>lapsum, non quia habuit donum gratiae gratum
+          <lb ed="#Qb"/>iaci-entis, sed donum gratiaed gratis datae, et per
+          <lb ed="#Qb"/>illud poterat tentationi resistere et :ad gratiam
+          <lb ed="#Qb"/>gratum facientem disponere se ipsum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed, quoniam auctoritates Sanctorum expresse
+          <lb ed="#Qb"/>videntur dicere de gratia gratum faciente, sicut
+          <lb ed="#Qb"/>patet ex obiectis, et huic etiam consona videtur
+          <lb ed="#Qb"/>Sacrae Scripturae auctoritas et rationis probabi<lb ed="#Qb"/>litas,
+          ideo est alia opinio communior, verior e-t
+          <lb ed="#Qb"/>probabilior, quam etiam <name ref="#Lombard">Magister</name> Sententia<lb ed="#Qb"/>,rnm4
+          sustinet, scilicet quod Adam ante lapsum
+          <lb ed="#Qb"/>gratiam gratum iacientem habuit, per quam non
+          <lb ed="#Qb"/>solum malo resistere, sed in bono proficere ;po<lb ed="#Qb"/>tuit,
+          et illa gratia adiutus ita bene meruisset,
+          <lb ed="#Qb"/>mandatum Domini observando, sicut demeruit
+          <lb ed="#Qb"/>transgrediendo. Hanc igitur opinionem sustinendo
+          <lb ed="#Qb"/>concedere possumus rationes quae ad primam
+          <lb ed="#Qb"/>partem inducuntur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad illud autem quod obi<lb ed="#Qb"/>citur
+          in contrarium quod 'Deus sciebat statim
+          <lb ed="#Qb"/>ipsum esse lapsum-m": dicendum quod propter
+          <lb ed="#Qb"/>hoc non debui-t dimitteref donum gratiae sibi
+          <lb ed="#Qb"/>dare-2, .duplici ratione. Primo quidem, quia simul
+          <lb ed="#Qb"/>cum hoc praesciebat. quod bonum debebat de
+          <lb ed="#Qb"/>lapsu eius elicere, Sec-undo vero, quia Deus inh
+          <lb ed="#Qb"/>conferendo gratiam non attendit futura peccata,
+          <lb ed="#Qb"/>sed idOneitatem praesentem .ad gratiam, sicut pa<lb ed="#Qb"/>tet
+          cum confert gratiam in tempore .praescitis et
+          <lb ed="#Qb"/>eis' quos .ab aeterno reprobavit, Et in utroque
+          <lb ed="#Qb"/>eorum commendatur Dei largitas et sapientia et
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>arguitur hominis ingratitudo et iniustitiak in hoc
+          <lb ed="#Qb"/>quod a tam beneiico et tam benigno se avertit
+          <lb ed="#Qb"/>sine causa.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod obicitur quod 'non potuit re<lb ed="#Qb"/>cuperare
+          originalem iustitiam quam habuit quando
+          <lb ed="#Qb"/>peccavit': dicendum quod haec non est tota ratio,
+          <lb ed="#Qb"/>scilicet quod voluntarie amisit iustitiam illam,
+          <lb ed="#Qb"/>sed simul cum hoc facit quia iustitia originalis
+          <lb ed="#Qb"/>non tantum respiciebat voluntatem deliberativam,
+          <lb ed="#Qb"/>sed etiam respiciebat ipsam naturam institutam,
+          <lb ed="#Qb"/>gratia autem respicit ipsam voluntatem liberam
+          <lb ed="#Qb"/>ut est libera. Et quoniam voluntas de facili ver<lb ed="#Qb"/>titur
+          et revertitur ', natura autem cum corruptione
+          <lb ed="#Qb"/>non sic de facili relevatur, hinc est quod magis
+          <lb ed="#Qb"/>potest recuperari gratia quam prima iustitia, quam<lb ed="#Qb"/>vis
+          utraque fuerit per peccatum amissa: non'"
+          <lb ed="#Qb"/>de facili, dico, quia non ante naturae reparatio<lb ed="#Qb"/>nem.
+          — Ad huius evidentiam nota quod Deus
+          <lb ed="#Qb"/>condidit duas creaturas vicissitudinarie inverti<lb ed="#Qb"/>biles,
+          scilicet nobilissimam, id est angelicam, .et
+          <lb ed="#Qb"/>intimam, id est" irrationalem. Invertibilitas autem
+          <lb ed="#Qb"/>huius suae-attestatur nobilitati, illius suae" vili<lb ed="#Qb"/>tati.
+          Mediam creaturam, scilicet hominem, qui se<lb ed="#Qb"/>cundum
+          aliquid est rationalis, secundum aliquidP
+          <lb ed="#Qb"/>irrationalis, fecit Deus vertibilem 5. Angelicam
+          <lb ed="#Qb"/>naturam fecit Deusq talem quod ad quod se con<lb ed="#Qb"/>verteret,
+          illi ' invertibiliter adhaereret 6. Irrationabi<lb ed="#Qb"/>lems
+          fecit talem quod, quantum esset de sua
+          <lb ed="#Qb"/>natura, sibi inhaereret nec aliquid supra se nec
+          <lb ed="#Qb"/>nisi propter se appeteret. Hominem autem fecit
+          <lb ed="#Qb"/>Deus vertibilem vicissitudinarie quantum ad li<lb ed="#Qb"/>berum
+          arbitrium sive quantum ad partem rationa<lb ed="#Qb"/>bilem,
+          iuvertibilem de sua natura quantum ad par<lb ed="#Qb"/>tem
+          irrationabilem *. Pars autem rationalis, dum<lb ed="#Qb"/>modo
+          per obedientiam suberat dominio sui Condi<lb ed="#Qb"/>toris,
+          parti irrationali dominabatur; unde Augu<lb ed="#Qb"/>stinus,
+          Xi-V De civitate Dei, cap. 157: <quote> In pa.<lb ed="#Qb"/>radiso
+          enim, etiam si non omnia poterat ante
+          <lb ed="#Qb"/>peccatum, quidquid tamen non poterat, non vo<lb ed="#Qb"/>lebat,
+          et ideo poterat omnia quae volebat</quote>; sed
+          <lb ed="#Qb"/>nolens subesse dominio sui superioris, dominium
+          <lb ed="#Qb"/>amisit sui inferioris. Unde <name ref="#Augustine">Augustinus</name>, eo<lb ed="#Qb"/>dem:
+    <quote>Denique ", ut breviter dicatur, in illius
+          <lb ed="#Qb"/>peccatiV poena quid inobedientiae nisi inobe<lb ed="#Qb"/>dientia
+          :retributa est? Nam .quae hominis est?
+          <lb ed="#Qb"/>alia miseria nisi adversus eum ipsum inobedientia
+          <lb ed="#Qb"/>eius ipsius, ut quoniam noluit quod potuit, quod
+          <lb ed="#Qb"/>quidem non potest, velit? Quis enim enu-inerat
+          <pb ed="#Qb" n="751"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>quam multa, quae non potest, velit, dum sibi
+          <lb ed="#Qb"/>ipsia, id est voluntati eius, ipse animus eius eo-ï
+          <lb ed="#Qb"/>queb inferior caro eius non obtemperat? Ipsoc
+          <lb ed="#Qb"/>namque inifitd et animus plerumque turbatur et
+          <lb ed="#Qb"/>caro dolet et veterascit et moritur et quidquid
+          <lb ed="#Qb"/>aliud patimur, quod non pateremurd inviti, si
+          <lb ed="#Qb"/>voluntati nostrae nostra natura omni modo atque
+          <lb ed="#Qb"/>ex omnibus partibus obediret </quote>. Irrationabilis ergo
+          <lb ed="#Qb"/>pars, quantume est de sua natura et maxime in '
+          <lb ed="#Qb"/>quantum corrupta, tantum est convertibilis ad se
+          <lb ed="#Qb"/>nec potest erigi sive converti secundumf debitum '
+          <lb ed="#Qb"/>iustitiae originalis ad suum superius dominio
+          <lb ed="#Qb"/>sive potestate partis rationalis, cuius inobedien<lb ed="#Qb"/>tiae
+          inobedientia retributa est'. Propter autem?
+          .colligantiarn partis rationalis et irrationalis ne<lb ed="#Qb"/>cesse
+          est partem rationalem deflecti et declinare;
+          <lb ed="#Qb"/>secundum motu-mg partis irrationabilis: propter
+          :quod ante reparationem naturae corruptae non
+          <lb ed="#Qb"/>re'cuperabi-tur' perfecte naturalis iustitia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliudh quod obicitur quod 'si Adam ,
+          <lb ed="#Qb"/>habuisset gratiam, inseparabiliter Deo adhaesis<lb ed="#Qb"/>set':
+          dicendum quod hoc non oportet, quia-libe<lb ed="#Qb"/>rum
+          arbitrium, habens gratiam, de sua libertate, ,
+          . quae cogi non potest2 dum manet invertibilitate
+          <lb ed="#Qb"/>in qua conditum est, moveri potest1 praeter gra<lb ed="#Qb"/>tiae
+          inclinationem et frequenter movetur, nihil
+          <lb ed="#Qb"/>considerans de eo ad quod movet gratia. Unde
+          <lb ed="#Qb"/>frequenter contingit quod homo, valde praeditus
+          <lb ed="#Qb"/>gratia et virtutibus, inordinate afficitur, pro eo
+          <lb ed="#Qb"/>quod non semper fertur actualiter in illud sum<lb ed="#Qb"/>mum
+          bonum, ad quod desiderium illius assurgit
+          <lb ed="#Qb"/>per gratiam, et sic intelligendum est accidisse
+          <lb ed="#Qb"/>ipsi Adae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. A d aliud quod obicitur quod ' confirmatus
+          <lb ed="#Qb"/>esset ut angelus': d-icendum'k quod non est simile,
+          <lb ed="#Qb"/>tum quia angelus habet n-obi-liora naturalia, tum
+          <lb ed="#Qb"/>propter corpus quod habebat adhaerens, ratione
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>cuius retardabatur ne totaliter ferretur in Deum;
+          <lb ed="#Qb"/>erat enim corpus illud tunc animale 3. Nihilominus
+          <lb ed="#Qb"/>aliter retardabat tunc, aliter nunc, quia nunc re<lb ed="#Qb"/>tardat
+          movendo ad contrarium, tunc retardabat
+          <lb ed="#Qb"/>non sinendo libere et expedite ferri et moveri in
+          <lb ed="#Qb"/>Deum :. propter quod non sequitur quod fuisset
+          <lb ed="#Qb"/>confirmatus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad illud quod obicitur quod ' Lucifer non
+          <lb ed="#Qb"/>habuit gratiam gratum facientem' etc.: dicendum
+          <lb ed="#Qb"/>quod hoc' verum est4. Ex hoc tamen non se<lb ed="#Qb"/>quitur
+          quod homo peccaverit maiori ingratitu<lb ed="#Qb"/>dine',
+          pro eo quod Lucifer optima habuit'" natu<lb ed="#Qb"/>ralia, 
+          propter quod dicitur fuisse quodam modo
+          <lb ed="#Qb"/>deiformis, et pro eo quod proximior erat statui
+          <lb ed="#Qb"/>gloriae: uncle simul recepisset gratiam et glo—
+          <lb ed="#Qb"/>riam.. Homo vero nec talibus fuit praeditus
+          <lb ed="#Qb"/>naturalibus et conditus fuit ut magno tem—
+          <lb ed="#Qb"/>poris intervallo haberet gratiam ante gloriam,
+          <lb ed="#Qb"/>in cuius signum positus erat in terra, quae
+          <lb ed="#Qb"/>est locus longe distans a caelo.-Unde in trans<lb ed="#Qb"/>grediendo
+          nec adeo cecidit de alto ut Lucifer
+          <lb ed="#Qb"/>nec adeo fuit ingratus nec adeo per peccatum
+          <lb ed="#Qb"/>depravatus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad illu d" quod obicitur quod 'prius debet
+          <lb ed="#Qb"/>homo tentari quam in amicum assumi': dicendum
+          <lb ed="#Qb"/>quod illud intelligitur de illa amicitia quae facit
+          <lb ed="#Qb"/>hominem Deo privatum et familiarem, per quem
+          <lb ed="#Qb"/>modum dicit ipse Dominus Apostolis, Ioan. 15, 15:
+          <lb ed="#Qb"/>Vos autem dixi amicos etc. De amici-tia autem
+          <lb ed="#Qb"/>large sumpta hoc non potest intelligi apud Deum,
+          <lb ed="#Qb"/>licet possit intelligi de amicitia apud homines,
+          <lb ed="#Qb"/>pro eo quod, nisi Deus gratiam daret in pro<lb ed="#Qb"/>bando,
+          potius reprobaret quam approbaret: non
+          <lb ed="#Qb"/>enim habemus per quod possumus approbari a
+          <lb ed="#Qb"/>Deo nisi per eius donum. Non sic autem est de
+          <lb ed="#Qb"/>homine respectu hominis, et sic patet responsio
+          <lb ed="#Qb"/>ad illud.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

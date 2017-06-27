@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="471"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t3m2c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 3, M. 2, C. 2</head>
+        <head type="question-title">QUID SIT LIBERUM ARBITRIUM SECUNDUM DEFINITIONEM 8.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter dicendum est quid sit liberum ar<lb ed="#Qb"/>bitrium
+          secundum definitionem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Definit autem <name ref="#Anselm">Anselmus</name> liberum arbitrium
+          <lb ed="#Qb"/>sic, in libro De libero arbitrio ": <quote> Libe- <lb ed="#Qb"/>rum
+          arbitrium' est potestas servandi rectitudi<lb ed="#Qb"/>nem
+          propter se </quote>, id est propter ipsam rectitu<lb ed="#Qb"/>dinem.
+          <lb ed="#Qb"/>
+             </p>
+        <p>
+          <lb ed="#Qb"/>Item, ponitur alia definitio Au gusti-ni 10, ?
+          <lb ed="#Qb"/>quae talis est: <quote> Liberum arbitrium 'est3 facultas
+          <cb ed="#Qb" n="b"/>
+          voluntatis et rationis, 'qua bonum eligitur gratia
+          <lb ed="#Qb"/>assistente, malum vero gratia desistente </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Item, alia est B. Bernardi, in libro De libero
+          <lb ed="#Qb"/>arbitrio ": <quote> Liberum arbitrium est consensus obt
+          <lb ed="#Qb"/>voluntatis inamissibilem libertatem et rationis in<lb ed="#Qb"/>declinabile
+          iudicium </quote>. ,
+        </p>
+        <p>
+          <lb ed="#Qb"/>Primo quaerendum est de qualibet definitione
+          <lb ed="#Qb"/>per se;
+          <lb ed="#Qb"/>deinde, qualiter distinguantur inter se.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head type="question-title">De singulis definitionibus.</head>
+          <div>
+            <head>PROBLEMA I.</head>
+            <head type="question-title">De definitione <name ref="#Anselm">Anselmi</name>.</head>
+            <p>
+                    <pb ed="#Qb" n="472"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>Circa primam definitionem <name ref="#Anselm">Anselmi</name>, quae
+             <lb ed="#Qb"/>est: <quote> Liberum arbitrium est potestas servandi
+             <lb ed="#Qb"/>rectitudinem propter se </quote>, obicitur: 1. Non enim<lb ed="#Qb"/>
+              <lb ed="#Qb"/>videtur quod universaliter" conveniat, quia libe<lb ed="#Qb"/>rum
+             arbitrium est commune Deo et angelis bonis
+             <lb ed="#Qb"/>et malis 1; sed <quote> potestas servandi rectitudinem </quote>
+              <lb ed="#Qb"/>non est in angelis malis nec in damnatis, cum non
+             <lb ed="#Qb"/>possit eis inesseb rectitudo; ergo non potest in
+             <lb ed="#Qb"/>eis servari; ergo eis non convenit haec definitio.
+           </p>
+            <p>
+              <lb ed="#Qb"/>2. Item, in creatura rationali est potestas ser<lb ed="#Qb"/>vandi
+             rectitudinem et eam deserendi; et potestas
+             <lb ed="#Qb"/>liberi arbitrii 0 est ad haec duo; quare ergo defi<lb ed="#Qb"/>nitur
+             tantum per alterum?
+           </p>
+            <p>
+              <lb ed="#Qb"/>3. Item, <quote>liberum arbitrium est potestas ser<lb ed="#Qb"/>vandi
+             rectitudinem propter se</quote>; sed nihil ad se
+             <lb ed="#Qb"/>ipsum ordinatur tamquam ad finem; ergo non
+             <lb ed="#Qb"/>bene dicitur <quote> potestas servandi rectitudinem prop<lb ed="#Qb"/>ter
+             rectitudinem </quote>.
+           </p>
+            <p>
+              <lb ed="#Qb"/>Respondeo: 1. Dicendum est quod <quote> potestas ser<lb ed="#Qb"/>vandi
+       </quote> dupliciter accipitur. Uno modo, secundum
+             <lb ed="#Qb"/>quod colligitur a parte eius quod potest servare
+             <lb ed="#Qb"/>et eius quod potest servari et medii per quod
+             <lb ed="#Qb"/>potest servari: secundum hunc modum absente
+             <lb ed="#Qb"/>rectitudine non est " <quote> potestas servandi rectitudi<lb ed="#Qb"/>nem
+       </quote>; sic autem non sumitur in definitione liberi
+             <lb ed="#Qb"/>arbitrii quam ponit <name ref="#Anselm">Anselmus</name>. Alio vero modo
+             <lb ed="#Qb"/>dicitur <quote> potestas servandi </quote> solum quantum ad
+             <lb ed="#Qb"/>illud quod pertinet ad naturam potentis, et secun<lb ed="#Qb"/>dum
+             hunc modum absente rectitudine est <quote> pote<lb ed="#Qb"/>stas
+             servandi rectitudineme</quote>. Et est exemplum
+             <lb ed="#Qb"/>
+              <name ref="#Anselm">Anselmi</name> 2 de potestate videndi, quae uno modo 
+             <lb ed="#Qb"/>colligitur ex vidente et viso etf medio, et secundum
+             <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>hoc, cum absens est visibile vel cum detectus est
+             <lb ed="#Qb"/>debitae dispositionis ex parte medii, dicitur quod
+             <lb ed="#Qb"/>homo non potest videre rerng illam; alio vero
+             <lb ed="#Qb"/>modo dicitur potentia. videndi tantum quantum
+             <lb ed="#Qb"/>ad virtutem quae- est ex parte videntis, et se<lb ed="#Qb"/>cundum
+             hunc modum, sive sit absens sive prae<lb ed="#Qb"/>sens
+             obiectum sive medium dispositum sive non,
+             <lb ed="#Qb"/>dicitur potestas videndi.
+           </p>
+            <p>
+              <lb ed="#Qb"/>2. Ad hoc quod quaeritur 'quareh non de<lb ed="#Qb"/>finitur
+             potestas deserendi'", cum sit potestas oppo—
+             <lb ed="#Qb"/>sitorum', dico quod potestas oppositorum dicitur
+             <lb ed="#Qb"/>dupliciter: quandoque oppositorum ita quod utrius—
+             <lb ed="#Qb"/>que per se; quandoque ad unum per se, ad al<lb ed="#Qb"/>terum
+             per accidens; quandoque ad alterum per
+             <lb ed="#Qb"/>se, ad alterum non. Liberum ergo arbitrium nec
+             <lb ed="#Qb"/>est ad malum per se nec ad malum per accidens,
+             <lb ed="#Qb"/>sed est tantum mali. Quando ergo dicitur ' potestas
+             <lb ed="#Qb"/>deserendi.', non determinatur finis eius, sed illud
+             <lb ed="#Qb"/>circa quod.
+           </p>
+            <p>
+              <lb ed="#Qb"/>3. Ad illud quod obicitur quod 'rectitudo non
+             <lb ed="#Qb"/>est finis sui ipsius, unde'f non est servanda
+             <lb ed="#Qb"/>propter se', dico quod duplex est rectitudo: una
+             <lb ed="#Qb"/>creata et altera increata; secunda est in Deo,
+             <lb ed="#Qb"/>prima in libero arbitrio, quae est ad illam. Recti<lb ed="#Qb"/>tudo
+             ergo illa, propter quam ista est' servata,
+             <lb ed="#Qb"/>est rectitudo increata. Definitur enim liberum
+             <lb ed="#Qb"/>arbitrium ut est commune Deo et creaturae;
+             <lb ed="#Qb"/>ergo oportet sumere rectitudinem secundum quod
+             <lb ed="#Qb"/>convenit utrique: et sic respectu Dei causam
+             <lb ed="#Qb"/>finalem, respectu creaturae rationem tantum et
+             <lb ed="#Qb"/>non causam finalem, quia ipsa non est causa
+             <lb ed="#Qb"/>finalis sui ipsius.
+           </p>
+          </div>
+          <div>
+            <head>PROBLEMA II.</head>
+            <head type="question-title">De defnitiane <name ref="#Augustine">Augustini</name>.</head>
+            <p>
+              <lb ed="#Qb"/>Circa secundam definitionem, quae est: <quote> Li<lb ed="#Qb"/>berum
+             arbitrium est facultas rationis et volun<lb ed="#Qb"/>tatis,
+             qua bonum eligitur gratia assistente et ma<lb ed="#Qb"/>lum
+             eadem desistente </quote>, sic obicitur: 1. Dicit enim'"
+             <lb ed="#Qb"/>
+              <name ref="#Anselm">Anselmus</name>3 quod, si aliquid additum alicui mi<lb ed="#Qb"/>nuit
+             et separatum auget, non est illud nec pars il<lb ed="#Qb"/>lius;
+             sed potestas peccandi, in quantum huiusmodi,
+             <lb ed="#Qb"/>minuit libertatem; liberior" enim est qui potest
+             <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>recte agere et non potest non recte agere" quam qui
+             <lb ed="#Qb"/>potest recte agere et non recte ; ergo possibilitas?
+             <lb ed="#Qb"/>peccandi non est pars libertatis4 ; ergo nec liberi
+             <lb ed="#Qb"/>arbitrii ; ergo non est ponendum in definitione illius.
+           </p>
+            <p>
+              <lb ed="#Qb"/>2. item, non est una? facultas diversarum po<lb ed="#Qb"/>tentiarum; 
+             sed ratio et voluntas sunt diversae
+             <lb ed="#Qb"/>potentiae ; ergo liberum arbitrium non est facultas
+             <lb ed="#Qb"/>illarum potentiarum.
+           </p>
+            <p>
+                    <pb ed="#Qb" n="473"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>3. Item, <quote>facultas voluntatis et rationis </quote> conver<lb ed="#Qb"/>titur
+             cum libero arbitrio; ergo "superfluum" est
+             <lb ed="#Qb"/>illud quod additur: <quote> qua bonum eligitur </quote> etc.
+           </p>
+            <p>
+              <lb ed="#Qb"/>Respondeob: 1. Ad primum dicendum quod 0
+             <lb ed="#Qb"/>est triplex libertas, scilicet naturae, gratiae et glo<lb ed="#Qb"/>riae:
+             libertas naturae libera est a coactione, li<lb ed="#Qb"/>bertas
+             gratiae a culpa, libertas gloriae a miseria '.
+             <lb ed="#Qb"/>Quando ergo dicitur 'quod separatum auget et
+             <lb ed="#Qb"/>additum minuit non est pars illius ', non intelli<lb ed="#Qb"/>gitur
+             de libertate naturae, quia illa non potest au<lb ed="#Qb"/>geri
+             vel minui2 — Bernardus3: <quote> Sicut in
+             <lb ed="#Qb"/>bono, ita in malo aeque perdurat voluntas </quote> —
+             <lb ed="#Qb"/>sed dicitur respectu eius quod est a culpa et a
+             <lb ed="#Qb"/>miseria: potest enim culpa augeri et minui etd
+             <lb ed="#Qb"/>miseria. Unde .magis liberum potest esse ab iis
+             <lb ed="#Qb"/>tantum ; unde potentia eligendi malum gratia desi<lb ed="#Qb"/>stente
+             est pars libertatis, non secundum quod com<lb ed="#Qb"/>munis
+             est cum Deo, sed secundum quod creatura.
+           </p>
+            <p>
+              <lb ed="#Qb"/>2. Ad aliud dicendum quod ratio dicitur du<lb ed="#Qb"/>pliciter
+             4. Est enim aliquando ratio cognitio veri, et
+             <lb ed="#Qb"/>haec non pertinet ad liberum arbitrium secun<lb ed="#Qb"/>dum
+             quod huiusmodi. Dicitur etiam ratio cognitio
+             <lb ed="#Qb"/>boni, et hoc dupliciter, quia potest esse cognitio '.
+             <lb ed="#Qb"/>boni quod est faciendum simpliciter vel non fa<lb ed="#Qb"/>ciendum,
+             et haec * iterum non habet unitatem cum 
+             <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>voluntate, secundum quod <quote> liberum arbitrium est
+             <lb ed="#Qb"/>facultas voluntatis et rationis </quote>; ratio etiam po<lb ed="#Qb"/>test
+             esse cognitio boni, non solum quod facien<lb ed="#Qb"/>dum
+             sit vel non faciendum, sed cognitio boni
+             <lb ed="#Qb"/>faciendi ad hoc ut fiat, et haec est proxima dispo<lb ed="#Qb"/>sitio
+             ad voluntatem. Sicut ergo proxima dispo<lb ed="#Qb"/>sitio
+             et forma habent quodam modo unitatem, ita
+             <lb ed="#Qb"/>secundum hanc viam ratio et voluntas, ut sint
+             <lb ed="#Qb"/>quasi una potentia, et secundum hoc potest esse
+             <lb ed="#Qb"/>una facultas voluntatis et rationis: rationis ut
+             <lb ed="#Qb"/>consulentis f, voluntatis ut inclinantis 5.
+           </p>
+            <p>
+              <lb ed="#Qb"/>3. Ad tertium dicendum quod non superfluit
+             <lb ed="#Qb"/>illud quod apponitur in definitione: <quote>quali bo<lb ed="#Qb"/>num
+             eligitur </quote>. Nam, etsi convertantur liberum
+             <lb ed="#Qb"/>arbitrium et facultas voluntatis et rationis, non
+             <lb ed="#Qb"/>tamen propter hoc datur intelligi quod ista'! fa<lb ed="#Qb"/>cultas
+             sit oppositdrum ; intelligitur autem per hoc
+             <lb ed="#Qb"/>quod sequitur: <quote> qua bonum eligitur </quote> etc. — Prae<lb ed="#Qb"/>terea,
+             duplex est facultas voluntatis et rationis.
+             <lb ed="#Qb"/>Est enim quaedam facultas naturalis quae est
+             <lb ed="#Qb"/>determinata ad unum tantum, et ista non con<lb ed="#Qb"/>vertitur
+             cum libero arbitrio; est alia facultas vo<lb ed="#Qb"/>luntaria
+             quae se habet ad opposita, et haec conver<lb ed="#Qb"/>titur
+             cum libero arbitrio et haec determinatur per
+             <lb ed="#Qb"/>hoc quod sequitur: <quote> qua bonum eligitur</quote> etc.
+           </p>
+          </div>
+          <div>
+            <head>Problema III</head>
+            <head type="question-title">De definitione Bernardi.</head>
+            <p>
+              <lb ed="#Qb"/>Circa tertiam definitionem, quae est: <quote> -Li- ,
+             <lb ed="#Qb"/>berum arbitrium est consensus obi voluntatis ina<lb ed="#Qb"/>missibilem
+             libertatem et rationis indeclinabile iudi—
+             <lb ed="#Qb"/>cium </quote>, sic obicitur: 1. Quaeritur enim quid di<lb ed="#Qb"/>catur
+             hic <quote> consensus </quote>, aut scilicet consentire cum
+             <lb ed="#Qb"/>sensuk mentis aut cum sensu carnis. Si cum
+             <lb ed="#Qb"/>sensu mentis ', sic nullus consensusm esset ma<lb ed="#Qb"/>lus;
+             si vero cum sensu carnis, sic nullus con<lb ed="#Qb"/>sensus
+             esset bonus. Restat ergo quod istud" erit
+             <lb ed="#Qb"/>consensus ad utrumlibet0 vel cum sensu mentis,
+             <lb ed="#Qb"/>qui scilicet consensus est bonus, vel cum sensu
+             <lb ed="#Qb"/>carnis, qui scilicet consensus est malus; sed iste
+             <lb ed="#Qb"/>consensus medius non videtur pertinere ad libe<lb ed="#Qb"/>rum
+             arbitrium — unde dicit Bernardusöz <quote> Nemo
+             <lb ed="#Qb"/>putet ideo dictum liberum arbitrium quia inter
+             <lb ed="#Qb"/>bonum et malum potestate vel facultate versetur </quote>
+             — ergo consensus, secundum quod indifferenter
+             <lb ed="#Qb"/>est ad bonum et malum, non pertinet ad liberum
+             <lb ed="#Qb"/>arbitrium.
+           </p>
+            <p>
+              <lb ed="#Qb"/>2. Item, quaeritur de hoc quod dicitur <quote> ob vo<lb ed="#Qb"/>luntatis
+             inamissibilem libertatem </quote>, ex quo videtur
+             <lb ed="#Qb"/>quod libertas voluntatis sit inamissibilis, et hoc
+             <lb ed="#Qb"/>videtur falsum. Dicit enim <name ref="#Augustine">Augustinus</name>, in
+             <lb ed="#Qb"/>Enchiridion 7, quod <quote> homo male utens libero ai:<lb ed="#Qb"/>bitrio
+             perdiditP se et ipsum </quote>. Ergo liberum arbi<lb ed="#Qb"/>trium
+             est amissibile; sed hoc non intelligitur quan<lb ed="#Qb"/>tum
+             ad potentiam; ergo quantum ad libertatem;
+             <lb ed="#Qb"/>ergo libertas est amissibilis.
+           </p>
+            <p>
+              <lb ed="#Qb"/>3. Item, quaeritur de hoc quod dicitur <quote>ob ra<lb ed="#Qb"/>tionis
+             indeclinabile iudicium </quote>. Nam distinguit
+             <lb ed="#Qb"/>B. Bernardus8 inter liberum arbitrium et li<lb ed="#Qb"/>berum
+             consilium; haec autem ultima pars defi<lb ed="#Qb"/>nitionis
+             videtur convenire libero consilio; non ergo
+             <lb ed="#Qb"/>solum convenit libero arbitrio: liberi enim con<lb ed="#Qb"/>silii
+             est eligere quid q expediat vel non expediat.
+           </p>
+            <p>
+              <lb ed="#Qb"/>4. Praeterea, dicit Bernardusg: <quote>Si ratio
+             <lb ed="#Qb"/>induceretf necessitatem voluntati, non iam esset
+             <lb ed="#Qb"/>voluntas libera </quote>. Iudicium ergo rationis respectu
+             <pb ed="#Qb" n="474"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>voluntatis non est nisi per modum " consilii ; ergo
+             <lb ed="#Qb"/>liberum arbitrium non videtur differre a libero
+             <lb ed="#Qb"/>consilio nec e converso; erit ergo liberum consi<lb ed="#Qb"/>lium
+             consensus etc.
+           </p>
+            <p>
+              <lb ed="#Qb"/>5. Praeterea, cum dicitur <quote> rationis iudicium in<lb ed="#Qb"/>declinabile
+       </quote>, aut dicitur <quote> indeclinabile </quote> quia non
+             <lb ed="#Qb"/>potest declinari in non rectitudinem, et secundum
+             <lb ed="#Qb"/>hoc liberum arbitrium ex parte rationis semper
+             <lb ed="#Qb"/>recte iudicaret, sive sequeretur recta voluntas sive
+             <lb ed="#Qb"/>non: quod cum non sit, eo quod ratio est recta
+             <lb ed="#Qb"/>etb non recta sicut voluntas bona et mala, non
+             <lb ed="#Qb"/>dicetur <quote> indeclinabile </quote> secundum hanc rationem.
+             — Si vero dicatur <quote> indeclinabile iudicium </quote>
+              <lb ed="#Qb"/>quia nunquam voluntas moveatur nisi ex iudicio
+             <lb ed="#Qb"/>rationis - contra hoc est quod voluntas ali—
+             <lb ed="#Qb"/>quando scienter movetur in malum, et cum scien<lb ed="#Qb"/>ter
+             movetur in malum, movetur contra iudicium
+             <lb ed="#Qb"/>rationis: sicut enim dicit Bernardusl, multa
+             <lb ed="#Qb"/>facit contra consilium sive iudicium rationis; non
+             <lb ed="#Qb"/>ergo hoc: modo dicitur <quote> indeclinabile </quote>. Quo
+             <lb ed="#Qb"/>ergo modo dicitur <quote> indeclinabile </quote>?
+           </p>
+            <p>
+              <lb ed="#Qb"/>Respondeo d: 1. Ad primum dicendum quod
+       <quote>consensus</quote> ob hoc dicitur quia medium est,
+             <lb ed="#Qb"/>sicut dicit Bernardusz, inter sensum mentis et
+             <lb ed="#Qb"/>sensum carnis sive appetitum; aliquando vero
+             <lb ed="#Qb"/>consentit in id quod dictat sensus mentis, ali<lb ed="#Qb"/>quando
+             in id quod dictat sensuse carnis, non
+             <lb ed="#Qb"/>tamen aeque se habet ad utrumque ex natura,
+             <lb ed="#Qb"/>sed per se habet ut ordinetur ad sensum mentis,
+             <lb ed="#Qb"/>scilicet ut ordinetur ad bonum, et ideo dicitur—
+             <lb ed="#Qb"/>non aeque se habere ad utrumque.
+           </p>
+            <p>
+              <lb ed="#Qb"/>2. Ad secundum dicendum quod libertas na<lb ed="#Qb"/>turae
+             non est amissibilis, secundum quod natura
+             <lb ed="#Qb"/>essentialiter accipitur in iis in quibus est. Secun<lb ed="#Qb"/>dum
+             autem quod natura dicitur naturale bonum
+             <lb ed="#Qb"/>innocentiae quod primitus est datum -— prout di<lb ed="#Qb"/>citur
+             in II libro Sententiarum, 24 dist. 3: <quote> Libertas
+             <cb ed="#Qb" n="b"/>
+                <lb ed="#Qb"/>arbitrii est ab omni labe et corruptela rationis
+             <lb ed="#Qb"/>immunisf atque voluntatis rectitudo et omnium
+             <lb ed="#Qb"/>potentiarum animae vivacitas </quote> — sic est amis—
+             <lb ed="#Qb"/>sibilis. Amissibilis etiam est secundum quod im<lb ed="#Qb"/>portat
+             in seg libertatem a peccato. Iis ergo modis
+             <lb ed="#Qb"/>dicitur amissibilis. Sed secundum hunc modum
+             <lb ed="#Qb"/>non accipiebatur in ratione, sed quia cogi non
+             <lb ed="#Qb"/>potuit aut non decuit.
+           </p>
+            <p>
+              <lb ed="#Qb"/>3. Ad tertium dicendum quod non est idem
+             <lb ed="#Qb"/>liberum arbitrium et liberum consilium, sicut dicit
+             <lb ed="#Qb"/>Bernard us 4: <quote> Iudicii enim est discernere quid
+             <lb ed="#Qb"/>liceat et quid non liceat, consilii autem est pro<lb ed="#Qb"/>bare
+             quid expediat, quid non expediat</quote>; hoc au<lb ed="#Qb"/>te'm
+             non est idem illi: multa enim per iudicium li<lb ed="#Qb"/>cita
+             vel illicita decernimus h, quae tamen licita non
+             <lb ed="#Qb"/>approbamus et illicita [non] respuimus; hoc autem
+             <lb ed="#Qb"/>modo accipitur <quote>iudicium </quote> in ratione liberi arbi<lb ed="#Qb"/>trii,
+             non prout est commune arbitrio et consilio.
+           </p>
+            <p>
+              <lb ed="#Qb"/>4. Ad quartum dicendum quod, licet ratio
+             <lb ed="#Qb"/>non imponat necessitatem voluntati et ita <quote> iudi<lb ed="#Qb"/>cium
+             rationis </quote> non videatur aliud esse quam con<lb ed="#Qb"/>silium,
+             tamen non est sici consilium sicut po<lb ed="#Qb"/>nitur
+             in intentione liberi consilii: hoc enim est con<lb ed="#Qb"/>silium
+             quod procedit ex gratia vel * defectu gratiae.
+             <lb ed="#Qb"/>Iudicare autem, primo modo dictum, fuit ex ipsa
+             <lb ed="#Qb"/>ratione in se, magis tamen proprie liberum con<lb ed="#Qb"/>silium
+             dicitur tantum ad libertatem gratiae referri.
+           </p>
+            <p>
+              <lb ed="#Qb"/>5. Ad quintum dicendum quod iudicium di<lb ed="#Qb"/>citur
+       <quote>indeclinabile </quote>, quia inseparabile est se<lb ed="#Qb"/>cundum
+             quod ratio inseparabilis est a libero ar<lb ed="#Qb"/>bitrio.
+             Unde dicit Bernardus 5: <quote> Habet volun<lb ed="#Qb"/>tas
+             rationalis 1, quocumque se vertit, rationem
+             <lb ed="#Qb"/>semper comitem et quodam modo pedissequam",
+             <lb ed="#Qb"/>non quod semper ex" ratione, sed.quod0 nun—
+             <lb ed="#Qb"/>quam absque ratione moveatur </quote>. Non autem ac—'
+             <lb ed="#Qb"/>cipitur <quote>iudicium indeclinabile</quote> a rectitudine,
+             <lb ed="#Qb"/>sicut obiectum est.
+           </p>
+          </div>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">Qualiter distinguantur istae tres definitiones inter se.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur qualiter distinguantur istae
+            <lb ed="#Qb"/>tres!7 definitiones inter se.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod, cum sint
+            <lb ed="#Qb"/>quatuor causae — causa movens prima et causa
+            <lb ed="#Qb"/>finalis et causa materialis vel quod se habet ad
+            <lb ed="#Qb"/>modum causae materialisq et causa formalis —
+            <lb ed="#Qb"/>definitio B. Bernardi attenditur in ' comparatione
+            <lb ed="#Qb"/>ad causam moventem, cum dicitur quod <quote> liberum
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>arbitrium est consensus </quote>: consensus enim dicit
+            <lb ed="#Qb"/>conversionem virium ad causam moventem; in
+            <lb ed="#Qb"/>nobis enim est consentire Deo vel non consentire.
+            <lb ed="#Qb"/>Definitio vero <name ref="#Anselm">Anselmi</name> data est in comparatione
+            <lb ed="#Qb"/>ad finem, secundum quod dicitur <quote> potestas con<lb ed="#Qb"/>servandi
+            rectitudinem propter se </quote>: rectitudo enim
+            <lb ed="#Qb"/>aeterna est finis ad quem ordinatur liberum arbi<lb ed="#Qb"/>trium 
+            per se, mediante suo actu. Definitio vero li<lb ed="#Qb"/>beri 
+            arbitrii, quam ponit Augustinus, attenditur
+            <pb ed="#Qb" n="475"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>penes potentias, rationem scilicet et voluntatem,
+            <lb ed="#Qb"/>quae se habent ad modum causae materialis.<lb ed="#Qb"/>moventur
+            enim a primo motore ad bonum; gra—
+            - tia vero est forma, secundum quam diriguntur in
+            <lb ed="#Qb"/>finem. Sic ergo potest attendi differentia istarum
+            <lb ed="#Qb"/>definitionum supra positarum. — Nec hoc obstat
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quod a potentiae illae possunt ex se moveri libere
+            <lb ed="#Qb"/>in malum. Non enim 0 ad hoc creatum est liberum
+            <lb ed="#Qb"/>arbitrium, sed, cum possit in malum,'cedat ei in
+            <lb ed="#Qb"/>meritum non consentire malo, prout dicitur in
+            <lb ed="#Qb"/>Eccli. 31,10: <quote ana="#sir31_10">Qui potuit facere mala et non
+            <lb ed="#Qb"/>fecit</quote> etc.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

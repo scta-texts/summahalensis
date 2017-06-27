@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 1, Q. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 1, Q. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="316"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t1q2c2">
+        <head>Ia-IIae, Inq. 3, Tract. 1, Q. 2, C. 2</head>
+        <head type="question-title">QUID DESIGNETUR NOMINE</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur de hocf quod dicitur: <quote ana="#gen1_1">Crea<lb ed="#Qb"/>vit
+          caelum</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>quitur de corporibus; ergo caelum non contine—
+          <lb ed="#Qb"/>bitur in nomine terrae. —— Contra: Terrae no<lb ed="#Qb"/>mine
+          notatur materia informis, de qua fecit cae<lb ed="#Qb"/>lumg
+          et terram; dicitur 10 enim terra'1 inanis 'et
+          <lb ed="#Qb"/>vacua, vel, secundum aliam litteram 11, invisibilis
+          <lb ed="#Qb"/>et incomposita; et hoc idem est quod terra; ergo
+          <lb ed="#Qb"/>caelum continetur in nomine terrae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, dicitur in Psalmo 12: <quote>Caelum caeli Do<lb ed="#Qb"/>mino</quote>
+          etc. lbi distinguit caelum et terram tamquam
+          <lb ed="#Qb"/>diversam habitationem et dicit quod <quote> per caelum
+          <lb ed="#Qb"/>intelligitur caelum empyreum, quod statim sanctis
+          <lb ed="#Qb"/>angelis est repletum '3 </quote>; sed constat quod angeli,
+          <lb ed="#Qb"/>sicut dicit <name ref="#Augustine">Augustinus</name>, creati erant simul cum
+          <lb ed="#Qb"/>materia informi. Unde dicit in libro Confessio<lb ed="#Qb"/>num
+          14: <quote> Duo reperio, quae fecisti carentia tempo<lb ed="#Qb"/>ribus,
+          cum tamen neutrum tibi coaeternum-sit:
+          <lb ed="#Qb"/>unum, quod ita formatum est, uti sine ullo
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>defectu contemplationis ", sine ullo intervallo mu<lb ed="#Qb"/>tationis,
+          quamvis mutabile, tamen non mutatum,
+          <lb ed="#Qb"/>tua aeternitate atque incommutabilitate.l perfruaf. 
+          <lb ed="#Qb"/>Dividitur enim caelum contra terram, et 10— '
+          <lb ed="#Qb"/>tur; alterum quod ita informem erat ut, ex qua
+          <lb ed="#Qb"/>forma in quam" formam vel motionis vel sta<lb ed="#Qb"/>
+            <lb ed="#Qb"/>tionis mutaretur, quo tempori subderetur, non
+          <lb ed="#Qb"/>haberet</quote>. Ergo angeli ad caelum pertinebant.
+          <lb ed="#Qb"/>Restat ergo quod nomine caeli intelligitur caelum 0
+          <lb ed="#Qb"/>empyreum et angeli, et ita non videtur pertinere
+          <lb ed="#Qb"/>ad informem materiam, quae nomine 'caeli vel
+          <lb ed="#Qb"/>aquae designatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, videtur quod caelum empyreum,-cum sit
+          <lb ed="#Qb"/>corpus, pertineat ad materiam informem. Caelum
+          <lb ed="#Qb"/>enim empyreum pars est mundi, prout mundus
+          <lb ed="#Qb"/>dicitur machina mundana; sed ex materia informi
+          <lb ed="#Qb"/>factus est mundus; ergo et caelum empyreum. —
+          <lb ed="#Qb"/>Item, dicit Hugo 15 quod per caelum intelligitur
+          <lb ed="#Qb"/>quidquid est mundi sensibilis praeter terram; unde
+          <lb ed="#Qb"/>dicit: <quote> In altum porrigitur, quousque summum
+          <lb ed="#Qb"/>naturae corporeae pertingat </quote>. Ergo caelum em<lb ed="#Qb"/>pyreumP
+          continebatur in materia informi caeli.
+        </p>
+        <p>
+                <pb ed="#Qb" n="317"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Contra: a. Caelum caeli dicitur empyreum cae<lb ed="#Qb"/>lum,
+          quod statim sanctis angelis est repletum; sed
+          <lb ed="#Qb"/>eis non congruit habitatio informis iam formam
+          <lb ed="#Qb"/>habentibus; ergo illud" caelum erat formatum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo b: 1. Ad primum dicendum quod,
+          <lb ed="#Qb"/>licet caelum C dividatur contra terram, id est ma<lb ed="#Qb"/>teriam
+          informem de qua haec fierent quae inter
+          <lb ed="#Qb"/>se dividuntur, nihilominus cum dicitur: Terra
+          <lb ed="#Qb"/>erat inanis etc., ibi caelum COntinetur sub infor<lb ed="#Qb"/>mitate
+          terrae d. Aliter enim quodam modo accipitur
+          <lb ed="#Qb"/>nomen terrae: primoe accipitur pro materia, in
+          <lb ed="#Qb"/>quantum ex ea futura erat terra; secundo vero
+          <lb ed="#Qb"/>accipitur communiter.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum dicendumf quod caelum
+          <lb ed="#Qb"/>empyreum continetur nomine caeli, et sicut angeli
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>quodam'modog informes dicebantur priusquam
+          <lb ed="#Qb"/>reciperent formam gratiae, quae nomine lucis
+          <lb ed="#Qb"/>designatur ', ita et caelum empyreum poterat
+          <lb ed="#Qb"/>dici informe, quousque Dominus in formam per<lb ed="#Qb"/>fectam
+          redigeret, dicendozz Fiat lux etc. Et se<lb ed="#Qb"/>cundum
+          hoc nomine lucis non intelligitur tantum
+          <lb ed="#Qb"/>lux quae distinguit per sui revolutionem noctem et
+          <lb ed="#Qb"/>diem, sed etiam lux distincta a tenebris, quo modo h
+          <lb ed="#Qb"/>caelum empyreum est lux distincta: tenebrae enim
+          <lb ed="#Qb"/>hic fiunt in aere, aqua et terra, ibi autem non.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud dicendumi quod, licet pertineat
+          <lb ed="#Qb"/>caelum empyreum ad angelos, nihilominus tamen
+          <lb ed="#Qb"/>potuit aliquo modo ad materiam informem per<lb ed="#Qb"/>tinere.
+          Et sic videtur Hugo3 sentire. In talibus
+          <lb ed="#Qb"/>autem nihil est temere definiendum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

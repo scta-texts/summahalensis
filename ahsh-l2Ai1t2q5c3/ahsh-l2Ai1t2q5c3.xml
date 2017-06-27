@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="116"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q5c3">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 5, C. 3</head>
+        <head type="question-title">UTRUM ALIQUIBUS BONIS DEFICIENTIBUS SIT PERFECTIO.</head>
+        <p>
+          <lb ed="#Qb"/>Tertio quaeritur, si perfectio est in bonis, utrum
+          <lb ed="#Qb"/>aliquibus bonis deficientibus sit perfectio P.
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Ratione cuius quaeritur primo in nobilioribus,
+          <lb ed="#Qb"/>secundo in ignobilioribus.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head type="question-title">Utrum, si deessent angeli, deesset perfectio universi.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur ergo de ipsis angelis, si deessent,
+            <lb ed="#Qb"/>utrum deesset perfectio universi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur: 1. Perfectum dicitur illud cuiq
+            <lb ed="#Qb"/>nihil deest [de] partibus 5; sed nobiliores substan<lb ed="#Qb"/>tiae
+            sunt partes universi; ergo si desint, non erit
+            <lb ed="#Qb"/>perfectio universi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Per simile etiam ostenditur: Cum enim' in
+            <lb ed="#Qb"/>corpore humano sint partes nobiliores et minus
+            <lb ed="#Qb"/>nobiles, si desit aliqua illarum, non est perfectio
+            <lb ed="#Qb"/>corporis humani; ergo a simili in mundo, si desit
+            <lb ed="#Qb"/>aliqua partium, et maxime nobilium, non erit per<lb ed="#Qb"/>fectio
+            universi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. Si deessent angeli, adhuc remaneret
+            <lb ed="#Qb"/>sufficientia divinae potestatis ad regendam mundi
+            <lb ed="#Qb"/>universitatem; dum autem convenienter regitur
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>universitas mundi, est perfecta universitas mundi;
+            <lb ed="#Qb"/>ergo non existentibus angelis esset perfecta uni<lb ed="#Qb"/>versitas 3.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, malitia adveniens aliquibus angelis non
+            <lb ed="#Qb"/>tollit perfectionem universitatis. Unde A 11 g u sti<lb ed="#Qb"/>nus,
+            - III De libero arbitrio 6: <quote> Cum peccantibus
+            <lb ed="#Qb"/>adest miseria, nihilominus perfecta est universi<lb ed="#Qb"/>tas </quote>. 
+            Ergo a simili videtur, si non essent angeli,
+            <lb ed="#Qb"/>nihilominust esset perfectio: non esse enim om<lb ed="#Qb"/>nino
+            'non dicitur detormare partem universi, sed
+            <lb ed="#Qb"/>esse" malum dicitur deformare; ergo si non es<lb ed="#Qb"/>sent
+            angeli, nihilominus esset perfecta universitas.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod perfectio
+            <lb ed="#Qb"/>universitatis dicitur dupliciter": uno modo, cum
+            <lb ed="#Qb"/>nulla pars deest illarum partium quae sunt de in<lb ed="#Qb"/>tegritate
+            universi, etx secundum hoc si deessent
+            <pb ed="#Qb" n="117"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>nobiliores a partes universi, non diceretur uni<lb ed="#Qb"/>versum
+            perfectum. Unde <name ref="#Augustine">Augustinus</name>, in li<lb ed="#Qb"/>bro
+            De libero arbitrioï: <quote>Sine-istarum officiis
+            <lb ed="#Qb"/>iustis atque perfectis esse universitas non potest</quote>.
+            <lb ed="#Qb"/>Si vero dicatur perfectum in universo quantum
+            <lb ed="#Qb"/>ad sufficiens regimen universi, secundum 'hoc di<lb ed="#Qb"/>cetur
+            esse perfectio in universo, etsi non essent
+            <lb ed="#Qb"/>angeli vel si peccassent. Unde Augustin'uszz
+      <quote> Etiamsi omnes peccassent angeli, nullam inopiam
+            <lb ed="#Qb"/>facerent ad regendum imperium suum Creatori
+            <lb ed="#Qb"/>angelorum </quote>. Et iterum: <quote> Si ipsa peccaret</quote>, sci<lb ed="#Qb"/>
+            <lb ed="#Qb"/>licet angelica creatura, <quote> sufficeret Dei potestas '
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>ad regendam istam universitatem, ut omnibus
+            <lb ed="#Qb"/>congrua etb condigna retribuens, nihil in' tota uni<lb ed="#Qb"/>versitate
+            sua turpe atque indecorum esse permit<lb ed="#Qb"/>teret
+      </quote>. Una ergo perfectio est ipsius universi ex
+            <lb ed="#Qb"/>sufficientia partium, altera vero est ex perfectione
+            <lb ed="#Qb"/>agentis in regendo quotcumque sint partes. Eodem
+            <lb ed="#Qb"/>modo intelligendum est de ipsis animabus, sive
+            <lb ed="#Qb"/>non essent sive per peccatum defecissent. Unde
+            <lb ed="#Qb"/>
+            <name ref="#Augustine">Augustinus</name> 3: <quote> Si deessent quae sive pecca<lb ed="#Qb"/>rent
+            sive non peccarent, nihil universitatis or<lb ed="#Qb"/>dini
+            minueretur, etiam si e plurimum deessent
+            <lb ed="#Qb"/>animae </quote>.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum sine minoribus creaturis esset perfectum universum.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur, quantum ad detectum mino<lb ed="#Qb"/>rum
+            creaturarum, utrum sine iis esset perfectum
+            <lb ed="#Qb"/>universum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum per hoc quod 
+            <lb ed="#Qb"/>dicit A u g u sti n u 5, XII De civitate Dei 4: <quote> Cae<lb ed="#Qb"/>lestibus
+            non fuerant terrena coaequanda, nec ideo
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>universitati deesse ista debuerunt, quoniam sunt
+            <lb ed="#Qb"/>illa meliora ** ; cum ergo in iis locis, ubi esse talia
+            <lb ed="#Qb"/>competebat, aliis deficientibus alia oriuntur et
+            <lb ed="#Qb"/>succumbunt minora maioribus atque in qualitates
+            <lb ed="#Qb"/>superantium superata vertuntur, rerum est ordo
+            <lb ed="#Qb"/>transeuntium </quote>. Ex quo accipitur quod et maiora
+            <lb ed="#Qb"/>et minora ad perfectionem faciunt universi.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Utrum sine rebus minoribus, quae nocent homini, remaneret universitas perfecta.</head>
+          <p>
+            <lb ed="#Qb"/>Ratione autem quarumdam rerum minorum, ut
+            <lb ed="#Qb"/>rerum quae videntur nocere homini, quaeriturf
+            <lb ed="#Qb"/>utrum illis subtractis adhucg remaneret univer<lb ed="#Qb"/>sitas
+            perfecta.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod videtur: 1. Si enim omnia huiusmodi or.<lb ed="#Qb"/>dinata
+            sunt ad hominem, omnia debent esse con<lb ed="#Qb"/>ferentia
+            homini h; ergo si non sunt coniere'ntia,
+            <lb ed="#Qb"/>non congruunt ipsi universo.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Quod etiam videtur accipi ex humanis appeti<lb ed="#Qb"/>tibus.
+            Unde A u gu stin u 5, XI De civitate Dei5:
+      <quote> Est alius aestimationis rnodus, ut quaedam sensu
+            <lb ed="#Qb"/>carentia quibusdam sentientibus praeponamus, in
+            <lb ed="#Qb"/>tantum ut, si potestas esset, ea prorsus de natura
+            <lb ed="#Qb"/>rerum .auferre vellemus </quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Sed contrarium videtur: a. Ex hoc quod nihil
+            <lb ed="#Qb"/>est in universitate rerum quod non proprie deser<lb ed="#Qb"/>viat
+            utilitati, sicut est de officiis in civitate ordina<lb ed="#Qb"/>tis:
+            nullum est quod noti conferat ad rem publicam
+            <lb ed="#Qb"/>civitatis; ergo non est aliqua res, etiam de mi<lb ed="#Qb"/>noribus
+            rebus, quae non conferat perfectioni uni<lb ed="#Qb"/>versi.
+            Unde A ugustinus, in XI De civitate
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Dei 5: <quote>Non attendunti quantum in suis locis
+            <lb ed="#Qb"/>naturisque * vigeant pulcroque ordine dispo<lb ed="#Qb"/>nantur,
+            quantumque universitati rerum pro suis
+            <lb ed="#Qb"/>dispositionibus decoris tamquam in communem
+            <lb ed="#Qb"/>rempublicam conferant vel nobis ipsis, si eis con<lb ed="#Qb"/>gruenter
+            atque scienter utamur, commoditatis at<lb ed="#Qb"/>
+              <lb ed="#Qb"/>tribuant, ita ut ipsa venena, convenienter adhi<lb ed="#Qb"/>bita, 
+            in salubria medicamenta vertantur </quote>. Ex quo
+            <lb ed="#Qb"/>accipitur quod minora in ordine creaturarum con—
+            <lb ed="#Qb"/>ferunt ad perfectionem universi.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod est duplex
+            <lb ed="#Qb"/>consideratio '. Est enim consideratio rationis, qua
+            <lb ed="#Qb"/>considerat haec minora '" secundum id " secundum
+            <lb ed="#Qb"/>quod sunt partes universi et ordinatae etiam ad
+            <lb ed="#Qb"/>hominem ut quodammodo finem, et in hac con<lb ed="#Qb"/>sideratione
+            invenitur pulcritudo in universo et
+            <lb ed="#Qb"/>utilitas respectu hominis. Est alia consideratio se<lb ed="#Qb"/>cundum
+            aestimationem, qua magis necessaria se<lb ed="#Qb"/>cundum
+            aestimationem hominis praeferuntur mi<lb ed="#Qb"/>nus
+            necessariis et voluptuosa minus delectabilibus.
+      <quote> Quis enim in domo sua non plus panem habere
+            <lb ed="#Qb"/>velit quam mures, et nummos quam pulices?
+            <pb ed="#Qb" n="118"/>
+                    <cb ed="#Qb" n="a"/>
+              <lb ed="#Qb"/>Necessitas autem quid" propter quid expetat 17,
+            <lb ed="#Qb"/>cogitat, et voluptas quid iucundum sensibus cor<lb ed="#Qb"/>poris
+            blandiatur, expectat' </quote>. In hac ergo conside<lb ed="#Qb"/>ratione
+            aestimativa non omnia dicuntur esse de
+            <lb ed="#Qb"/>perfectione universi; in altera vero consideratione
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>rationis recte ea,- quae ordinata sunt, ad per<lb ed="#Qb"/>fectionem
+            faciunt universi secundum quod <quote> sen<lb ed="#Qb"/>tientia
+            praeferuntur nonc sentientibus et viven<lb ed="#Qb"/>tia
+            non viventibus et intelligentia non intelli<lb ed="#Qb"/>gentibus</quote>.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

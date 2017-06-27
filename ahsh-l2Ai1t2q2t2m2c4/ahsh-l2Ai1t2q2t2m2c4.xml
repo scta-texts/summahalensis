@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="76"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q2t2m2c4">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 2, C. 4</head>
+        <head type="question-title">UTRUM RATIO COMPONIBILIS CONVENIAT OMNI REI.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur utrum ratio componibi<lb ed="#Qb"/>lis'
+          conveniat omni rei aut ab aliqua remo<lb ed="#Qb"/>veatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod sic, videtur: 1. Nulla enim res est quae
+          <lb ed="#Qb"/>non cedat in rationem alicuius 'unius'5 secun<lb ed="#Qb"/>dum
+          quod ' unum ' dicitur multipliciter; sed quod
+          <lb ed="#Qb"/>cedit in rationem 'unius ','cedit "' in rationem
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>componibilis; ergo quaelibet res cedit in ratio<lb ed="#Qb"/>nem
+          componibilis ".
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, si illud, de quo minus videtur, cedit in<lb ed="#Qb"/>rationem
+          componibilis, et illud cedet" de quo<lb ed="#Qb"/>magis
+          videtur; sed magis conveniunt creatura et
+          <lb ed="#Qb"/>creatura quam Creator et creatura; sed Creator
+          <lb ed="#Qb"/>et creatura conveniunt ad rationem ' unius' se<lb ed="#Qb"/>cundum
+          quod Christus dicitur-P unus in duabus
+          <pb ed="#Qb" n="77"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>
+          <lb ed="#Qb"/>naturis; ergo creatura et creatura magis possunt
+          <lb ed="#Qb"/>convenire ut ex illis fiat unum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra,: a. Duo, quae sunt in actu, non erunt
+          <lb ed="#Qb"/>aliqua hora unum in actu: actus enim dividitl;
+          <lb ed="#Qb"/>ergo ex substantiis, quae sunt in actu, non erit
+          <lb ed="#Qb"/>una substantia; non ergo est quidlibet cum'quo—
+          <lb ed="#Qb"/>libet componibile.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, totum et pars componuntur 42; sed quod
+          <lb ed="#Qb"/>est componibile potest habere rationem partis;
+          <lb ed="#Qb"/>ergo quod habet rationem totius non est compo—
+          <lb ed="#Qb"/>nibile; sed res completa .habet rationem totius;
+          <lb ed="#Qb"/>ergo non est componibilis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, omni et quo removetur ratio possibilis V 
+          <lb ed="#Qb"/>ad aliud, removetur ratio .componibilis; sed di<lb ed="#Qb"/>vina
+          essentia est a qua * removetur ratio possibi<lb ed="#Qb"/>lis
+          d ad aliud; ergo divina essentia non est ' com<lb ed="#Qb"/>ponibilis;
+          non ergo omnis res est componibilisf.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod non con<lb ed="#Qb"/>venit
+          omni rei ratio componibilis ut ex eag fiat
+          <lb ed="#Qb"/>aliquid, et hoc maxime removetur a divina es<lb ed="#Qb"/>sentia,
+          quae est completissima.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>[Ad obiecta.]: 2. Nec est contrarium quod Chri<lb ed="#Qb"/>stus
+          est una persona in duabusnaturis: non enim
+          <lb ed="#Qb"/>ex illis duabus naturis" constituitur persona nec
+          <lb ed="#Qb"/>divina natura possibilis est ad illam personam, sed
+          <lb ed="#Qb"/>humana natura, quae indigens erat perfectione,
+          <lb ed="#Qb"/>possibilis erat; neutra tamen erat pars: persona
+          <lb ed="#Qb"/>enim in se simplex est eti completa. — Et si 0 b i<lb ed="#Qb"/>ciatur
+          in contrarium quod conveniunt in illa
+          - respondendum quod hoc non est ad eam
+          <lb ed="#Qb"/>constituendam, sed quae prius erat in una natura,
+          <lb ed="#Qb"/>deinceps subsisteret in duabus naturis. Unde in
+          <lb ed="#Qb"/>Ioanne Damasceno3 dicitur <quote> composita </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Ad aliud dicendum quod licet ' unum '
+          <lb ed="#Qb"/>dicatur multis modis, non tamen ex quibuscumque
+          <lb ed="#Qb"/>fit quodcumque; excepto ergo 'uno ', quod uni<lb ed="#Qb"/>versum
+          dicitur *, non est quaelibet creatura or<lb ed="#Qb"/>dinata
+          ad compositionem alicuius 'unius': crea<lb ed="#Qb"/>turae
+          enim quae sunt in se completae actu, non
+          <lb ed="#Qb"/>ordinantur ad ulterius complementum; nihilominus 
+          <lb ed="#Qb"/>tamen relata ad Creatorem possibilitatem habet,
+          <lb ed="#Qb"/>ut de ea fiat quod vult.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

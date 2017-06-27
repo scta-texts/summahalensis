@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 3, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 3, M. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q3t3m2c4">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 3, T. 3, M. 2, C. 4</head>
+        <head type="question-title">CUR DICITUR SINGULARITER (AD IMAGINEM DEI CREAVIT ILLUM</head>
+        <p>
+          <lb ed="#Qb"/>Adhuc etiam quaeritur propter quid dicitur 10: 
+           <lb ed="#Qb"/>Ad imaginem Dei creavit iilum, postquam
+          <lb ed="#Qb"/>dictum est": <quote>Creavit Deus hominem ad imaginem
+          <lb ed="#Qb"/>et similitudinem suam</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod dicendum 12 quod primo dixit
+          <lb ed="#Qb"/>pluraliter, ut exprimeretur Trinitas personaliterl', se<lb ed="#Qb"/>cundo
+          singulariter, ut exprimeretur unitas essentiae:
+          <lb ed="#Qb"/>uti imago responderet unitati essentiae in Trinitate
+          <cb ed="#Qb" n="b"/>
+          personarum. Sed unitas essentiae estin duplici ra<lb ed="#Qb"/>tione: 
+          in quantum est forma exemplaris et in quan<lb ed="#Qb"/>tum
+          est finis; et ideo exprimendo exemplarem dixit:
+          <lb ed="#Qb"/>Creavit Deus ad imaginem suam; exprimendo con<lb ed="#Qb"/>versionem
+          iterum ad ipsam tamquam adx finem
+          <lb ed="#Qb"/>dicitur: Ad imaginem Dei creavit illam. Et hoc
+          <lb ed="#Qb"/>est quod dicitur in-V Eccli. 17,1-2: Secundum ima<lb ed="#Qb"/>ginem
+          Dei fecit illum et iterum convertit illum2 in
+          <lb ed="#Qb"/>ipsam, ubi loquitur de conditione primi hominis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

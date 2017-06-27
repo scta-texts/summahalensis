@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="17"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s1q2t1m2c1">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 2, C. 1</head>
+        <head type="question-title">UTRUM CAUSA EXEMPLARIS SIT DE NECESSITATE.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur? de singulis rationibus
+          <lb ed="#Qb"/>causae sigillatim acceptis. Et primo de: ra<lb ed="#Qb"/>tione
+          causae exemplaris, utrum causa illa exem<lb ed="#Qb"/>plaris
+          de necessitate sit7.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod arguitur ex hoc quod nihil ignorans fecit 3 ;
+          <lb ed="#Qb"/>ergo prius erant in sua scientia quam essent in
+          <lb ed="#Qb"/>sua natura; et ideo dicitur Hebr. 11,3: Fide in<lb ed="#Qb"/>telligimus
+          aptata esse saecula Verbo Dei, ut ex
+          <pb ed="#Qb" n="18"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>invisibilibus visibilia fierent,- ubi dicit Glossal:
+    <quote> Dicens ex invisibilibus, significatur invisibilis
+          <lb ed="#Qb"/>mundus, qui erat in Dei sapientia, ad cuius si<lb ed="#Qb"/>militudinem
+          tactus est hic visibilis mundus </quote>; et
+          <lb ed="#Qb"/>postea sequiturz: <quote> Haec est dispositio, qua dis<lb ed="#Qb"/>posuit
+          omnia ista visibilia, ut fierent iuxta invi<lb ed="#Qb"/>sibile
+          exemplar, quod erat in; mente Dei </quote>. Quod
+          <lb ed="#Qb"/>autem reprobant philosophi ideas 0, sicut ha—
+          <lb ed="#Qb"/>betur in fine Primae Philosophiae3 et similiter ab 4
+          <lb ed="#Qb"/>Avicenna, in sua Philosophia 4, hoc est quia
+          <lb ed="#Qb"/>loquuntur de formis mathematicis, quas ponunt
+          <lb ed="#Qb"/>ideales; sed hic non est intentio illarum forma<lb ed="#Qb"/>rum
+          exemplarium sive idealium, de quibus nos
+          <lb ed="#Qb"/>hic intendimus: intentio enim hic est loqui de
+          <lb ed="#Qb"/>idea secundum quod distinguit Seneca5. Dicit
+          <lb ed="#Qb"/>enim praeter quatuor genera causarum esse ideam,
+          <lb ed="#Qb"/>distinguens inter ideam et siöov, ut idea sit Species
+          "divina, sïöore vero forma in materia 5.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Supponamus ergo exemplarem causam esse ex
+          <lb ed="#Qb"/>iam dictis. Et ex hocf dicit <name ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Qb"/>libro Retractationum 7, loquens de mundo in<lb ed="#Qb"/>telligibili:
+    <quote> Mundum intelligibilem nuncupavit
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>
+            <name ref="#Plato">Plato</name> ipsam rationem sempiternam, qua fecit
+          <lb ed="#Qb"/>Deus mundum; quam qui esseg negat, sequitur
+          <lb ed="#Qb"/>ut dicat Deum irrationabiliter fecisse quod iecit,
+          <lb ed="#Qb"/>aut cum faceret vel antequam taceret, nescisse'"
+          <lb ed="#Qb"/>quid faceret, si apud eum ratio faciendi non erat;
+          <lb ed="#Qb"/>si vero erat, sicut erat, ipsam videtur Plato
+          <lb ed="#Qb"/>vocasse intelligibilem mundum </quote>. Nec est hoc con<lb ed="#Qb"/>trarium
+          quodf dicit Dionysiusg, volens ex<lb ed="#Qb"/>cludere
+          causam exemplarem, ut videtur, dicens:
+    <quote> Ex ipso et in ipso '" secundum causam omnium
+          <lb ed="#Qb"/>notitiam etscientiam et substantiam praehabetk et
+          <lb ed="#Qb"/>praeconcipit, non secundum ideam singulis im<lb ed="#Qb"/>mittens,
+          sed secundum unam causae excellentiam
+          <lb ed="#Qb"/>omnia noscens et continens </quote>. Loquitur enim de
+          <lb ed="#Qb"/>idea ad similitudinem formae intelligibilis quae
+          <lb ed="#Qb"/>est in anima, quae non *est idem quod essentia
+          <lb ed="#Qb"/>ipsius animae, secundum quem modum non co<lb ed="#Qb"/>gnoscit
+          Deus secundum ideam": hoc enim esset
+          <lb ed="#Qb"/>per ignobilius se cognoscere; nobilius enim ha<lb ed="#Qb"/>bere
+          non potest nec par, quod non sit eiusdem
+          <lb ed="#Qb"/>essentiae: hoc enim dicitur, quia' Filius est aequa<lb ed="#Qb"/>lis
+          Patri, sed est eiusdem essentiae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

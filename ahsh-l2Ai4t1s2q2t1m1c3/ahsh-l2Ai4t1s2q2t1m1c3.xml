@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 1, M. 1, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 1, M. 1, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="432"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q2t1m1c3">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 1, M. 1, C. 3</head>
+        <head type="question-title">PENES QUID ACCIPIATUR NUMERUS SENSUUM.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter quaeritur penes quid accipiatur
+          <lb ed="#Qb"/>numerus virium sensibilium apprehendendum
+          <lb ed="#Qb"/>extrinsecus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Dixerunt enim quidam3 quod secundum
+          <lb ed="#Qb"/>differentiam mediorum. Quod non, vide<lb ed="#Qb"/>tur:
+          Sunt enim tantum tres differentiae medio<lb ed="#Qb"/>rum:
+          caro in tactu et in gustu, vel secundum
+          <lb ed="#Qb"/>quosdam4, humor salivalis, in aliis vero aer
+          <lb ed="#Qb"/>vel aqua. Restat ergo quod non essent secun<lb ed="#Qb"/>dum
+          hoc nisi tres sensus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Si vero secundumf differentias obiecto<lb ed="#Qb"/>rum,
+          secundum hoc cum plura sint obiecta — non
+          <lb ed="#Qb"/>enim omnia quae discernuntur tactu, ad unum
+          <lb ed="#Qb"/>commune in genere reducuntur— essent plures
+          <lb ed="#Qb"/>sensus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Si vero secundum differentias principio<lb ed="#Qb"/>rum
+          vel moventium, sicut dixerunt qui dam5, ut
+          <lb ed="#Qb"/>visus penes naturam lucis, odor penes naturam
+          <lb ed="#Qb"/>ignis facientem vaporem, sonus penes naturam
+          <lb ed="#Qb"/>acris, gustus penes naturam-? aquae, tactus penes
+          <lb ed="#Qb"/>naturam terrae: contra hoc est quod aer com<lb ed="#Qb"/>munis
+          est in visu et auditu et olfactu 5. Praeterea,
+          <lb ed="#Qb"/>aer non est causa effectiva soni, sed materialis,
+          <lb ed="#Qb"/>sicut lux effectiva erat sensibilis in visu; humi<lb ed="#Qb"/>dum
+          autem in gustu non est ab aqua tamquam
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ab<!--h--> efficiente; in tactu autem accipitur medietas
+          <lb ed="#Qb"/>ex omnibus elementis; causa ergo tactus non
+          <lb ed="#Qb"/>attenditur tantumi secundum terrae naturam, sed
+          <lb ed="#Qb"/>secundum complexionem ex omnibus elementis
+          <lb ed="#Qb"/>factam. Restat ergo quod non secundum nume<lb ed="#Qb"/>rum
+          principiorum accipiatur hoc modo numerus
+          <lb ed="#Qb"/>quinque sensuum.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Videtur tamen <name ref="#Augustine">Augustinus</name>, Super Genesim
+          <lb ed="#Qb"/>ad litteram 7, isto modo assignare, reducendo ad
+          <lb ed="#Qb"/>principia quadam transmutatione, cum dicit: <quote> In<lb ed="#Qb"/>choat
+          motum in omnibus sensibus a subtilitate
+          <lb ed="#Qb"/>ignis, sed non in 'omnibus ad idem pervenit. In
+          <lb ed="#Qb"/>visu enim pervenit, represso * calore, usque ad eius
+          <lb ed="#Qb"/>lucem'; in auditu usque ad liquidiorem aerem
+          <lb ed="#Qb"/>calore ignis penetrat; in olfactu autem transit
+          <lb ed="#Qb"/>aerem purum et pervenit ad humidam exhalatio<lb ed="#Qb"/>nem,
+          unde"l crassior haec aura subsistit; in gustu
+          <lb ed="#Qb"/>et hanc transit et pervenit usque ad humorem
+          <lb ed="#Qb"/>corpulentiorem ",-quo etiam penetrato atque tra<lb ed="#Qb"/>iecto,
+          cum" ad terrenam gravitatem pervenitP,
+          <lb ed="#Qb"/>tangendi ultimum sensum agit</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Ad quod potest dici quod, si debeat
+          <lb ed="#Qb"/>accipiq divisio secundum rationem mediorum,
+          <lb ed="#Qb"/>accipitur secundum rationem mediorum' corpo<lb ed="#Qb"/>rum
+          inter extrema; extrema autem * corpora in
+          <lb ed="#Qb"/>compositione corporis animalis sunt ignis et terra,
+          <pb ed="#Qb" n="433"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>media autem sunt aer et aqua et" commixtum.
+          <lb ed="#Qb"/>Aer autem triplicem habet dispositionem: ex
+          <lb ed="#Qb"/>influentia lucis, ex influentia caloris ignei, quae fit
+          <lb ed="#Qb"/>ex vapore, ex ipsa commotione raritatis, quae est
+          <lb ed="#Qb"/>propria eius dispositio; aqua vero habet dispo<lb ed="#Qb"/>sitionem
+          unam ex influentia lucis, alteramb ex
+          <lb ed="#Qb"/>communi dispositione cum aere, quae est raritas,
+          <lb ed="#Qb"/>tertiam f ex se; commixtum autem habet unicam.
+          <lb ed="#Qb"/>Cum ergo hae non sint nisi quinque, erunt
+          <lb ed="#Qb"/>quinque differentiae mediorum sensibilium 1. Nam
+          <lb ed="#Qb"/>ex communi dispositione influente super aerem
+          <lb ed="#Qb"/>et aquam est medium in visu; ex dispositione
+          <lb ed="#Qb"/>vero influente ex calido igneo medium in olfactu 4,
+          <lb ed="#Qb"/>quae dispositio est aer vaporosus ; ex dispositione
+          <lb ed="#Qb"/>tertia, quae communis est aeri et aquae, scilicet
+          <lb ed="#Qb"/>raritate, est medium in auditu, sicut dicit P hilo<lb ed="#Qb"/>sophusz;
+          ex dispositionee vero humoris aquosi
+          <lb ed="#Qb"/>est medium in gustu; ex dispositione vero com<lb ed="#Qb"/>mixtionis
+          omnium, quae est in carne, est medium
+          <lb ed="#Qb"/>in tactu. Et per hoc potest patere solutio eius
+          <lb ed="#Qb"/>quod obiciturf de differentia sensuum accepta
+          <lb ed="#Qb"/>secundum media.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Si vero accipiatur divisio secundum differentiam
+          <lb ed="#Qb"/>effectivig — sic enim accipit <name ref="#Augustine">Augustinus</name>3
+          <lb ed="#Qb"/>ponens differentias lucis aut ignis, ut influant
+          <lb ed="#Qb"/>secundum rationem lucis et caloris in se, ut in
+          <lb ed="#Qb"/>visu ; deinde secundum rationem eius pervenientis
+          <lb ed="#Qb"/>calore ignis ad aerem liquidiorem, sicut in auditu;
+          <lb ed="#Qb"/>deinde secundum rationem eius pervenientis ad
+          <lb ed="#Qb"/>auram flabilem, uth in olfactu; deinde secundum
+          <lb ed="#Qb"/>rationem eius pervenientisi ad humorem labilem,
+          <lb ed="#Qb"/>sicut in gustu; ultimo pervenit ad terrenam gra<lb ed="#Qb"/>vitatem,
+          et sic est in tactu — sic ergo sicut intrak
+          <lb ed="#Qb"/>nihil est sine calore sensitivum, sic' extra fit
+          <lb ed="#Qb"/>dispositio sensibilis ad hoc quod sentiatur.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Secundum autem dispositionem obiectorum
+          <lb ed="#Qb"/>potest similiterm ratio divisionis accipi. Nam
+          <lb ed="#Qb"/>qualitas sensibilis vel est de iis quae conveniunt
+          <lb ed="#Qb"/>ad esse, sicut est qualitas elementaris vel quae
+          <lb ed="#Qb"/>per se consequitur eam, et secundum hoc est
+          <lb ed="#Qb"/>obiectum tactus — tactus" enim est elementaris
+          <lb ed="#Qb"/>qualitatis vel immediate consequentis — vel est de
+          <lb ed="#Qb"/>iis quae consequuntur compositionem"; qualitas
+          <lb ed="#Qb"/>vero consequens compositionemP relinquitur se<lb ed="#Qb"/>cundum
+          virtutem dominantis alicuius. Sunt au<lb ed="#Qb"/>tem
+          contrarietates quatuor, quae requirunturq ad
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>compositionem in corpore elementato 4, in quibus
+          <lb ed="#Qb"/>quatuor'z qualitas una dicitur dominans: verbi
+          <lb ed="#Qb"/>gratia lucidum et opacum dicuntur una con<lb ed="#Qb"/>trarietas,
+          in qua dominatur lucidum sive prae<lb ed="#Qb"/>cellit;
+          altera contrarietas est calidum et frigidum,
+          <lb ed="#Qb"/>in qua praecellit calidum; tertia contrarietas est
+          <lb ed="#Qb"/>humidum et siccum, in qua praecellit humidum;
+          <lb ed="#Qb"/>quarta contrarietas est rarum et " densum, in qua
+          <lb ed="#Qb"/>praecellit rarum.— Quod autem omnes hae
+          <lb ed="#Qb"/>necessariae sint ad compositionem, pa<lb ed="#Qb"/>tet
+          per hoc quod calidum et frigidum 0, humidum
+          <lb ed="#Qb"/>et siccum sunt quae miscentur ", rarum autem-et
+          <lb ed="#Qb"/>densum, sieut dicit Philosophus5, disponunt
+          <lb ed="#Qb"/>materiam ad hoc, lucidum vero est 6 quod efficit:
+          <lb ed="#Qb"/>lux enim mediantef calore caelesti efficit mixtio<lb ed="#Qb"/>nem
+          6. Sic ergo haec omniag sunt necessaria ad
+          <lb ed="#Qb"/>compositionem elementati. Sunt ergo quatuor qua<lb ed="#Qb"/>litates
+          dominantes: nam calidum est dominans
+          <lb ed="#Qb"/>respectu frigidi in agendo interius, humidum " re<lb ed="#Qb"/>spectu
+          sicci in recipiendo interius, rarumï respectu
+          <lb ed="#Qb"/>densi in disponendo materiam, lucidumk super
+          <lb ed="#Qb"/>opacum in inducendo formam. Cum ergo, sicut
+          <lb ed="#Qb"/>dictum est", sit qualitas sensibilis consequens
+          <lb ed="#Qb"/>compositionem" ratione dominantis, aut conse<lb ed="#Qb"/>quetur
+          " ratione dominantis inducentis formam: et
+          <lb ed="#Qb"/>hic est color" qui consequitur lucem, est enim
+          <lb ed="#Qb"/>extremitas perspicui in corpore terminatos; aut
+          <lb ed="#Qb"/>ratione dominantis disponentis principalius? for<lb ed="#Qb"/>mam:
+          et haec qualitas est sonus, qui consequitur
+          <lb ed="#Qb"/>rarefactionem aeris vel aquae; aut ratione qualitatis
+          <lb ed="#Qb"/>dominantis in actione interius: et haec qualitas est
+          <lb ed="#Qb"/>odor 4, qui consequitur caliditatem' facientem va<lb ed="#Qb"/>porem;
+          aut ratione qualitatis dominantis in recep<lb ed="#Qb"/>tione:
+          et haec est sapor, qui consequitur humidi<lb ed="#Qb"/>tatem
+          aquosam. Sic ergo patet numerus secundum
+          <lb ed="#Qb"/>distinctionem s obiectorum. '
+        </p>
+        <p>
+          <lb ed="#Qb"/>Addunt etiam aliqui, accipientes ex doctrina
+          <lb ed="#Qb"/>Philosophi9, distinctionem ex partet modi sen<lb ed="#Qb"/>tiendi.
+          Aut enim est sentire pertapproximatio<lb ed="#Qb"/>nem
+          aut secundum distantiam. Si vero secundum
+          <lb ed="#Qb"/>approximationem, aut appropiat" sensibile corpori
+          <lb ed="#Qb"/>potenti sentire contingendo aut profundando x. Si
+          <lb ed="#Qb"/>contingendo, secundum quod contigua dicuntur
+          <lb ed="#Qb"/>quorum termini sunt simul 10, secundum? hoc est
+          <lb ed="#Qb"/>sentire in tactu; si profundando, sic est in gustu:
+          <lb ed="#Qb"/>gustabile enim pervenit ad concavitatem linguae,
+          <pb ed="#Qb" n="434"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>in qua profundatur. Si vero fit secundum distan<lb ed="#Qb"/>tiam,
+          aut est immutatio " sensibilis tantum secun<lb ed="#Qb"/>dum
+          unam partem, et sic est visus: visum enim
+          <lb ed="#Qb"/>necesse est esse in directum; aut secundum plu<lb ed="#Qb"/>res
+          partes, et sic fit odoratus: odoratus " enim fit
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>secundum attractionem odoris in naribus ex omni
+          <lb ed="#Qb"/>parte interius; aut este secundum omnem partem
+          <lb ed="#Qb"/>immutatio, et sic fit auditus: sonus enim estd ex
+          <lb ed="#Qb"/>motu aeris rarefacti possibilis moveri usque ad
+          <lb ed="#Qb"/>auditum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

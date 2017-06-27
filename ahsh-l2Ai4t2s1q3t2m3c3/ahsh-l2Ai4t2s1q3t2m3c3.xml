@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 3, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="541"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s1q3t2m3c3">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 3, C. 3</head>
+        <head type="question-title">UTRUM ILLA AEQUALITAS FUIT DIVINA IUSTITIA RESTITUTA PER GRATIAM.</head>
+              <pb ed="#Qb" n="542"/>
+              <cb ed="#Qb" n="a"/>
+        <p>
+          <lb ed="#Qb"/>Sequitur inquirere utrum illa aequalitas, divina
+          <lb ed="#Qb"/>iustitia sublata propter peccatum, tuit divina
+          <lb ed="#Qb"/>iustitia restituta per gratiam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod sic: 1. Si Oppositum est causa
+          <lb ed="#Qb"/>oppositi, et propositum" propositi 1, et hoc est
+          <lb ed="#Qb"/>consonum omni aequitati et iustitiae; ergo, si
+          <lb ed="#Qb"/>aversio a summe aequalibus, scilicet tribus per<lb ed="#Qb"/>sonis,
+          et samme indivisibili, scilicetb divina es<lb ed="#Qb"/>sentia,
+          fuit causa divisionis -et inaequalitatis in
+          <lb ed="#Qb"/>corpore Adae, igitur conversio ad idem et ea<lb ed="#Qb"/>demc
+          per recuperationemd gratiae sive per gra<lb ed="#Qb"/>tiam
+          debuit esse causa aequalitatis reparatae";
+          <lb ed="#Qb"/>sicut ergo aversio iuste fuit causa inaequalitatis,
+          <lb ed="#Qb"/>et conversio iuste iuit causaf reparationis ae<lb ed="#Qb"/>qualitatis
+          vel esse debuit.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, iustum est Deum esse summe miseri<lb ed="#Qb"/>cordemg
+          sicut summe bonum: misericordia enim
+          <lb ed="#Qb"/>bonitas est; unde <name ref="#Anselm">Anselmus</name>hz: <quote>Ideo miseri<lb ed="#Qb"/>cors
+          es, quia totus et summe bonus esi</quote>; iu<lb ed="#Qb"/>stum
+          enim est ipsum esse summum" in omni
+          <lb ed="#Qb"/>bono; sed summa misericordia est qua maior ex<lb ed="#Qb"/>cogitari
+          non potest, sicut summa bonitas, summa
+          <lb ed="#Qb"/>potentia ', summa scientia; sed si gratia data de
+          <lb ed="#Qb"/>misericordia non essent omnia reparata et resti<lb ed="#Qb"/>tuta
+          quae sunt amissa per peccatum de iustitia,
+          <lb ed="#Qb"/>posset maior misericordia excogitari, scilicet illa
+          <lb ed="#Qb"/>qua '" omnia essent restituta; igitur misericordia,
+          <lb ed="#Qb"/>quam Deum habere iustum fuit, debuit fieri om<lb ed="#Qb"/>nium
+          amissorum reparatio; igitur et aequalitatis;
+          <lb ed="#Qb"/>ergo" de iustitia debuit esse illius reparatio.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, Matth. 8,15; <quote ana="#mt8_15">Dimisit eam febris et sar<lb ed="#Qb"/>rexit
+          et ministrabat" eis</quote>, Glossa-"': <quote>Sanitas
+          <lb ed="#Qb"/>quae datur Domini imperio, tota simul reditP</quote>.
+          <lb ed="#Qb"/>Sed sanitas dabatur Adae in receptione gratiae
+          <lb ed="#Qb"/>post lapsum; ergo tota rediit; sed ante lapsum
+          <lb ed="#Qb"/>erat in corpore eius summa sanitas, ut dicit Au<lb ed="#Qb"/>gustinus4;
+          ergo, cum illa redire non posset
+          <lb ed="#Qb"/>nisi rediisset aequalitas praedicta, ergo 4 etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra5: a. Si primi parentes non peccassent,
+          <lb ed="#Qb"/>propagata esset natura humana quantum ad
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>corpus in illa integritate, in qua condita fuit, et
+          <lb ed="#Qb"/>ita esset propagata in " ista aequalitate virtutum
+          <lb ed="#Qb"/>elementarium, in qua condita fuit; et hoc iustum b
+          <lb ed="#Qb"/>erat, quia, ut dicit <name ref="#Anselm">Anselmus</name>, 2 cap. De con<lb ed="#Qb"/>ceptu
+          virginali 5, <quote>tota humana natura in illis erat
+          <lb ed="#Qb"/>et extra ipsos nihil erat </quote>; sed qua ratione iustum
+          <lb ed="#Qb"/>erat ut natura illa esset propagata in sua inte<lb ed="#Qb"/>gritate
+          in qua erat, et iustum erat ut esset pro<lb ed="#Qb"/>pagata 
+          in illa corruptione et inaequalitate in e
+          <lb ed="#Qb"/>qua illa erat. Hoc concludit <name ref="#Anselm">Anselmus</name>, 2 cap.
+          <lb ed="#Qb"/>De conceptu virginali, dicens7: <quote> Sicut itaque si
+          <lb ed="#Qb"/>non peccasset, qualis facta est a Deo, talis pro<lb ed="#Qb"/>pagaretur,
+          ita post peccatum qualem se pec<lb ed="#Qb"/>cando'f
+          fecit, talis propagatur </quote>. Ex hoc patet
+          <lb ed="#Qb"/>quod illud quod fuit corruptum in corpore primi
+          <lb ed="#Qb"/>hominis, non debuit reparari, sed ipsa natura
+          <lb ed="#Qb"/>humana sivee corporea in sua corruptione pro<lb ed="#Qb"/>pagari.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: Quod concedimus. Praeter hanc
+          <lb ed="#Qb"/>rationem alia est haecf : Ut habetur Rom. 6, 23,
+          <lb ed="#Qb"/>stipendiumg peccati mors ", et hoc iusto Dei iu<lb ed="#Qb"/>dicio,
+          propteri quod primus homo peccando
+          <lb ed="#Qb"/>iuste tuit addictus necessitati moriendi; ad casum
+          <lb ed="#Qb"/>autem ab aequalitatek et carentiam illius sequi—
+          <lb ed="#Qb"/>tur divisio et pugna ipsorum mixtorum in cor<lb ed="#Qb"/>pore
+          illius, quae praeparant et disponunt ad dis<lb ed="#Qb"/>solutionem
+          et animae separationem, quibus exe—'
+          <lb ed="#Qb"/>cutum' est decretum divinae'" iustitiae de poena
+          <lb ed="#Qb"/>debita peccato; Dominus ergo, qui iusto iudicio
+          <lb ed="#Qb"/>decrevit ipsum pro peccato morte" puniendum,
+          <lb ed="#Qb"/>defectum inducentem" mortem non", debuit repa<lb ed="#Qb"/>rare,
+          ne? sic impediret quod futurum decreverat.
+          <lb ed="#Qb"/>Ut enim9 dicit <name ref="#Augustine">Augustinus</name>, Super Genesim ad
+          <lb ed="#Qb"/>litteram, VI fg: <quote> Tam non facit Deus contras cau<lb ed="#Qb"/>sam,
+          quam sine dubio* volens praestituit, quam
+          <lb ed="#Qb"/>contra voluntatem suam non iacit </quote>. Quia ergo
+          <lb ed="#Qb"/>non praestituit contra voluntatem suam" quod
+          <lb ed="#Qb"/>esset causa mortis, nec debet aliquid facere
+          <lb ed="#Qb"/>uncle mors non sequatur peccatum. Propter quod
+          <lb ed="#Qb"/>dicitur Gen. 3,22-23: <quote>Nunc ergo, ne forte mittat
+          <lb ed="#Qb"/>manum suam et sumat de ligno vitae " et comedat
+          <pb ed="#Qb" n="543"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>et vivat in aeternum. Emisit eum Dominus Deus
+          <lb ed="#Qb"/>de paradiso voluptatis</quote> etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: !. Ad primo a obiectum in con<lb ed="#Qb"/>trarium, 
+          dicendum quod gratiae imperfectae, utb
+          <lb ed="#Qb"/>quae est viatoris c, effectus est liberare a domi—
+          <lb ed="#Qb"/>nio peccati, non ad defectibus corporis; gratiae
+          <lb ed="#Qb"/>autem perfectae, ut quae est comprehensoris, ef—
+          <lb ed="#Qb"/>fectus est liberare ab illis. Unde <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Qb"/>Contra Iulianum, libro VI': <quote> Gratia perfecte
+          <lb ed="#Qb"/>novum hominem facit, quandoquidem, quantum
+          <lb ed="#Qb"/>ad corpus attinet, ad immortalitatem plenamque
+          <lb ed="#Qb"/>felicitatem <!--e--> ipsa perducit. Nunc autem ipsa
+          <lb ed="#Qb"/>perfecte innovat hominem, quantum attinet ad
+          <lb ed="#Qb"/>liberationem ab omni dominio peccati, non quan<lb ed="#Qb"/>tum
+          attinet ad liberationem ab omnibus malis et
+          <lb ed="#Qb"/>ab omni corruptione mortalitatisf qua <quote ana="#sap9_15">nunc cor<lb ed="#Qb"/>pus
+          aggravat animam</quote> 
+          </quote>, Sap. 9,15. — Ad illud g
+          <lb ed="#Qb"/>quod obicitur "si oppositum est causa oppo<lb ed="#Qb"/>siti'
+          etc.: dicendum quod verum est, secundum
+          <lb ed="#Qb"/>quod causae oppositae comparantur ad effectus
+          <lb ed="#Qb"/>immediatos et proprios, ut si'.' albedo est causa dis<lb ed="#Qb"/>gregationis
+          2, et nigredo congregationis; proprius
+          <lb ed="#Qb"/>autem effectus peccati non est inaequalitas corpo<lb ed="#Qb"/>ris,
+          sed deformatio imaginis' Dei in anima, cuius
+          <lb ed="#Qb"/>reformatio est per gratiam. — Vel aliter potest
+          <lb ed="#Qb"/>dici quod inaequalitatisk qualitatum in corpore
+          <lb ed="#Qb"/>Adae non fuit peccatum causa, in quantum est
+          <lb ed="#Qb"/>sive eratl oppositum gratiae, sed potius in quan—
+          <lb ed="#Qb"/>tum oppositum '" naturali iustitiae; unde, cum non
+          <lb ed="#Qb"/>sit per gratiam reparatio" naturalis iustitiae, nec
+          <lb ed="#Qb"/>est reparatio illius inaequalitatis. Praeterea, pec—
+          <lb ed="#Qb"/>catum non fuit causa inaequalitatis praedictae nisi
+          <lb ed="#Qb"/>meritoria; similiter est gratia causa " meritoria re<lb ed="#Qb"/>parationis
+          aequalitatis. Quare autem non statim
+          <lb ed="#Qb"/>adveniente gratia facta est reparatio, plures sunt
+          <lb ed="#Qb"/>rationes, quarum una est illa quae tacta est 3, sci<lb ed="#Qb"/>licet
+          quod haecP inaequalitas disponit etq prae<lb ed="#Qb"/>parat
+          quodam modo ad executionem divini de<lb ed="#Qb"/>creti,
+          cui contraire non deceret. Alia est ratio
+          <lb ed="#Qb"/>
+          <name ref="#Anselm">Anselmi</name> praetacta 4.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendum quod Deus est summe
+          <lb ed="#Qb"/>misericors, sicut summe bonus, summe potens,
+          <lb ed="#Qb"/>summe sapiens; sed sicut non deceret aliquid
+          <lb ed="#Qb"/>fieri ab eius potestate velf bonitate, quo deroga<lb ed="#Qb"/>retur
+          eius sapientiae — dicit enim Augustinus,
+          <lb ed="#Qb"/>IX Super Genesim5: <quote> Neque potentia temeraria,
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>sed sapiente" virtute omnipotens est</quote> — sicb
+          <lb ed="#Qb"/>non deceret aliquid fieri de misericordia, quo de<lb ed="#Qb"/>rogaretur
+          eius iustitiae. Ad hoc ergo quod obi<lb ed="#Qb"/>citur
+          quod ' summa misericordiac est qua maior
+          <lb ed="#Qb"/>excogitari non potest, etc.: dicendum ** quod hoc
+          <lb ed="#Qb"/>verum est, sed hoc non intelligitur in singulis ope<lb ed="#Qb"/>ribus
+          misericordiae. Sicut enim .in operibus Dei dif<lb ed="#Qb"/>ferentibus
+          in quadam differentia erat 2 Dei bonitas,
+          <lb ed="#Qb"/>scilicet quantum ad differentiam in effectu, verbi
+          <lb ed="#Qb"/>gratia in opere incarnationis et passionis et in
+          <lb ed="#Qb"/>aliis quibuscumque, similiter dico de Operibus
+          <lb ed="#Qb"/>misericordiae ; in aliquibus enim est magis divina
+          <lb ed="#Qb"/>misericordia quam in aliis. Unde, licet maior
+          <lb ed="#Qb"/>possetf excogitari misericordia quam illa qua re<lb ed="#Qb"/>parati
+          fuerunt casus Adae, non propter hoc sequitur
+          <lb ed="#Qb"/>quod Deus non sit summe misericors; summitas
+          <lb ed="#Qb"/>enim sive abundantia divinae misericordiae non
+          <lb ed="#Qb"/>ine uno effectu neque" in multis, quotquot essent,
+          <lb ed="#Qb"/>esse potest, sed est in voluntate miserendi. Unde
+          <lb ed="#Qb"/>sicut non sequitur 'Deus est ita bonus quod'"
+          <lb ed="#Qb"/>melior excogitari non potest, ergo quaecumque
+          <lb ed="#Qb"/>fiunt a divina bonitate ita bona suntk quod non
+          <lb ed="#Qb"/>possunt excogitari meliora fieri ', ita nec sequi<lb ed="#Qb"/>tur
+          'Deus est ita! misericors quod non potest
+          <lb ed="#Qb"/>excogitari magis misericors, ergo omnia quae di<lb ed="#Qb"/>vinam
+          misericordia reparantur, ita reparantur quod
+          <lb ed="#Qb"/>non possunt excogitari melius reparari': Deus
+          <lb ed="#Qb"/>enim, etsi sua summa" bonitate, summa miseri<lb ed="#Qb"/>cordia
+          reso reparet, non tamen summe.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad aliud dicendum quod Glossa illa
+          <lb ed="#Qb"/>quae dicit quod <quote> sanitas, quae datur Domini im<lb ed="#Qb"/>perio,
+          tota simul redit </quote>, non generaliter intelli<lb ed="#Qb"/>gitur,
+          sed intelligitur iuxta nutum divini imperii,
+          <lb ed="#Qb"/>sub hoc sensu: <quote> sanitas, quae datur Domini im<lb ed="#Qb"/>perio,
+          tota simul redit </quote>, scilicet secundum Domini
+          <lb ed="#Qb"/>imperium, quia aliquando Dominus simul inte<lb ed="#Qb"/>gram
+          sanitatem dabat, aliquando non simul, sed
+          <lb ed="#Qb"/>successive, ut patet Marc. 8, 24-25 in caeco illu<lb ed="#Qb"/>minato,
+          qui prius vidit homines velut arbores
+          <lb ed="#Qb"/>ambulantes? et postmodum vidit clare; unde
+          <lb ed="#Qb"/>dicit ibi Glossaö: <quote>Quemq uno verbo totum
+          <lb ed="#Qb"/>simul curare poterat, paulatim curat, ut magnitu<lb ed="#Qb"/>dinem
+          humanae caecitatis ostendat, quae vix et
+          <lb ed="#Qb"/>quasi per gradus ad lucem redeat</quote>. Et sic non
+          <lb ed="#Qb"/>est generaliter et ubique intelligendum quod di<lb ed="#Qb"/>citur:
+    <quote> sanitas tota simul redit</quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 1, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t1s2q1m1c4">
+        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 1, M. 1, C. 4</head>
+        <head type="question-title">EX QUA PARTE ACCIPIANTUR HAE RATIONES.</head>
+        <p>
+          <lb ed="#Qb"/>Ad illud quaesitum quod quaerebatur ex qua
+          <lb ed="#Qb"/>parte acciperentur *, sic obicitur:
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Cumf accipiantur ut consequentia creatu<lb ed="#Qb"/>ram,
+          in quantum est creatura - esse- enim fi<lb ed="#Qb"/>nitum 
+          est consequens creaturam in quantum hu<lb ed="#Qb"/>iusmodi, 
+          similiter esse speciosum et esse ordina<lb ed="#Qb"/>tum:
+          dico autem speciosum a specie, quae non
+          <lb ed="#Qb"/>est id cuius est species — ergo mensura, numerus
+          <lb ed="#Qb"/>etg pondus erunt per se accidentia creaturae in 
+          <lb ed="#Qb"/>quantum huiusmodi" nec ad aliud praecedens
+          <lb ed="#Qb"/>referentur i.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Istis respondent modus, species et
+          <lb ed="#Qb"/>ordo; sed ista triak secundum rationes tres causae
+          <lb ed="#Qb"/>accipiuntur: modus enim ad causam efficientem,
+          <lb ed="#Qb"/>species ad formalem exemplarem, ordo ad fina<lb ed="#Qb"/>lem;
+          ergo hae tres dispositiones ex parte ratio<lb ed="#Qb"/>num
+          in causa accipiuntur. Unde <name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Qb"/>in libro' 83 Quaestionum3: <quote> Universa creatura
+          <lb ed="#Qb"/>habet quo constat, quo discernitur, quo congruit.
+          <lb ed="#Qb"/>Causam ergo eius trinam esse oportet; qua sit,
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>qua hoc sit ", qua sibi amica sit ". Creaturae au<lb ed="#Qb"/>tem
+          causam dicimus Deum. Oportet ergo esse"
+          <lb ed="#Qb"/>Trinitatem qua nihil praestantius sive intelligen<lb ed="#Qb"/>tius
+          sive beatius invenire perfecta ratio potest</quote>. —
+          <lb ed="#Qb"/>Quod concedendum est".
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad obiectum vero in con<lb ed="#Qb"/>trarium
+          respondendum quod licet hae conditiones
+          <lb ed="#Qb"/>proprie conveniant creaturae, nihilominus tamen
+          <lb ed="#Qb"/>conveniunt ex quadam relatione ad rationes causae
+          <lb ed="#Qb"/>quae sunt in Creatore. Et est attendendum quod
+          <lb ed="#Qb"/>duplex est differentia conditionum in creatura. Est
+          <lb ed="#Qb"/>enim quaedam secundum conditi-ones aliquo modo
+          <lb ed="#Qb"/>similes in Creatore et creatura, utpote sunt unitas,
+          <lb ed="#Qb"/>veritas, bonitas. Sunt et aliae, quae sunt in crea<lb ed="#Qb"/>tura
+          in relatione ad rationes quae sunt in Crea<lb ed="#Qb"/>tore,
+          et istae non procedunt secundum? simili<lb ed="#Qb"/>tudinem
+          quemadmodum- et praedictae, et de ta<lb ed="#Qb"/>libus
+          sunt mensura, numerus et pondus: licet
+          <lb ed="#Qb"/>enim aliquo modo conveniant Creatori prout est
+    <quote> mensura sine mensura </quote> etc., hoc tamen est ae<lb ed="#Qb"/>quivoce.'
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

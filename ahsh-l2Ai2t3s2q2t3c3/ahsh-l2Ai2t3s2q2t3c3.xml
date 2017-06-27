@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 3, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 3, C. 3</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="250"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q2t3c3">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 2, T. 3, C. 3</head>
+        <head type="question-title">UTRUM BONI ANGELI DE SINGULIS ORDINIBUS MITTANTUR</head>
+        <p>
+          <lb ed="#Qb"/>Deinde potest quaeri utrum" omnes angeli mit<lb ed="#Qb"/>tantur
+          de quovis ordine an de quodam ordine
+          <lb ed="#Qb"/>mittantur, de quodam non 4.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod non mittantur de superio<lb ed="#Qb"/>ribus
+          ordinibus: 1. Dicit enim Gregorius3,
+          <lb ed="#Qb"/>recitans sententiam Dionysii 4: <quote> Superiora ag<lb ed="#Qb"/>mina
+          ab intimis nun-quam recedunt, quia ea, quae
+          <lb ed="#Qb"/>praeeminent, usum exterioris ministerii non ha<lb ed="#Qb"/>bent</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea., inferiores ordines * dicuntur angeli<lb ed="#Qb"/>
+          <lb ed="#Qb"/>et archangeli; sed angelorum et archangelorum
+          <lb ed="#Qb"/>est mitti sub hac ratione; ergo, cum nullus alius
+          <lb ed="#Qb"/>ordo rationem missi-onis dicat, non videtur quod
+          <lb ed="#Qb"/>superiores angeli mittantur: non enim Seraphim
+          <lb ed="#Qb"/>vel Cherubim vel Throni rationem missionis de<lb ed="#Qb"/>terminant.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, Dan. 7,10: <quote ana="#dan7_10">Millia millium ministrabant
+          <lb ed="#Qb"/>ei et decies milliesf centena millia assistebant ei</quote>.
+          <lb ed="#Qb"/>Ergo videtur quod quidam sunt assistentes et
+          <lb ed="#Qb"/>alii sunt ministrantes.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, super illud Ezech. 1,26: <quote>Similitudo
+          <lb ed="#Qb"/>throni</quote>, Glossa5: <quote> Cum angeli saepe ad nun<lb ed="#Qb"/>tiand-umg
+          quaedam hominibus exeunt, Throni
+          <lb ed="#Qb"/>missi ad ministerium nunquam leguntur </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Sed contrarium videtur a. per hoc quod dici<lb ed="#Qb"/>tur
+          Isai. 6, 6: <quote ana="#is6_6">Volavit ad me unus de Seraphim</quote>; su<lb ed="#Qb"/>per
+          quod dicit B. Gregorius 5: <quote> In hac Prophe<lb ed="#Qb"/>tae
+          sententia vult intelligi quoniam" ii spiritus,
+          <lb ed="#Qb"/>qui mittuntur, eorum vocabulum percipiunt quo<lb ed="#Qb"/>rum
+          officium gerunt, quia ut peccata locutionis
+          <lb ed="#Qb"/>incendat'i, angelus, qui de altari carbonem por<lb ed="#Qb"/>tat,
+          Seraphim dicitur, quod incendium interpre<lb ed="#Qb"/>tatur</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Praeterea, in quibusdam locis, quaedamper
+          <lb ed="#Qb"/>Cherubim, quaedam per Seraphim agit Dominus.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>c. Item, ad Hebr. 1,14: <quote ana="#hebr1_14">Omnes sunt administra<lb ed="#Qb"/>torii
+          spiritus in ministerium missi</quote> etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, diversi sunt effectus respondentes di<lb ed="#Qb"/>versis
+          officiis; cum ergo officio Cherubim et Se<lb ed="#Qb"/>raphim
+          respondeant diversi effectus, mittentur non
+          <lb ed="#Qb"/>tantum de inferiori ordine, sed etk de superiori.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo per hoc quod dicit B.' Grego—
+          <lb ed="#Qb"/>rius7: <quote> Utrum per se hoc faciant superiores
+          <lb ed="#Qb"/>angeli an per subiecta agmina agatur, nos affir<lb ed="#Qb"/>mare
+          nolumus, quod certis testimoniis non ap<lb ed="#Qb"/>probatur</quote>.
+          Ex hoc accipit <name ref="#Lombard">Magister</name>, in Sen—
+          <lb ed="#Qb"/>tentiis 8, quod ponit duplicem opinionem;.unam
+          <lb ed="#Qb"/>illorum qui dicunt quod omnes mittuntur, sive
+          <lb ed="#Qb"/>sint de superioribus sive de mediis sive de in<lb ed="#Qb"/>ferioribus"
+          immediate; alii vero dicunt quod su<lb ed="#Qb"/>periores
+          nuntiant inferioribus, inferiores vero
+          <lb ed="#Qb"/>nuntiant hominibus, et illi per se dicuntur mitti.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud quod dicit Gre<lb ed="#Qb"/>gorius
+          quod <quote>ii qui praeeminent usum exte<lb ed="#Qb"/>rioris
+          officii non habent </quote>: respondent illi qui sus—
+          <lb ed="#Qb"/>tinent quod omnes" mittuntur, faciendo vim in
+          <lb ed="#Qb"/>hoc quod dicitur <quote> exterioris </quote>. Nam est quoddam
+          <lb ed="#Qb"/>officium exterius, ad quod deputati sunt" angeli
+          <lb ed="#Qb"/>de inferioribus et mediis ordinibus, ut est nuntiare,
+          <lb ed="#Qb"/>punire et similia officia; est aliud officium in<lb ed="#Qb"/>terius,
+          ut purgare et illuminare et huiusmodi, et
+          <lb ed="#Qb"/>ad hoc deputati sunt illi qui suntP de superiori
+          <lb ed="#Qb"/>ordine, utpurgatio Isaiae facta ministerio Sera—
+          <lb ed="#Qb"/>phim 9. Non negatur ergoq quin illi qui' praee<lb ed="#Qb"/>minent
+          habeant usum alicuius officii, sed quia
+          <lb ed="#Qb"/>non habent usum * exterioris officii, quia ad tales
+          <lb ed="#Qb"/>actus exteriores non leguntur missi in Scriptura.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendum quod ratio missionis
+          <lb ed="#Qb"/>non appropriatur angelis et archangelis, sed ratio
+          <lb ed="#Qb"/>missionis ad nuntiandum: ut archangeli dicantur,
+          <lb ed="#Qb"/>qui maiora nuntient *, angeli qui minora 10. Unde
+          <pb ed="#Qb" n="251"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>non oportet propter hoc quod alii non mittantur
+          <lb ed="#Qb"/>ad alia officia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Similiter, cum dicitur: <quote>Millia millium mini<lb ed="#Qb"/>strabant</quote> 
+          etc., non innuitur per hoc quod illi, qui
+          <lb ed="#Qb"/>sunt assistentes, non sint ministrantes vel e con<lb ed="#Qb"/>verso,
+          sed innuitur duplex offioïum con-veniens
+          <lb ed="#Qb"/>omnibus angelis, scilicet assistere et ministrare.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>4. Ad illud quod obicitur quod Throni non
+          <lb ed="#Qb"/>leguntur missi: dicendum quod, licetb non le<lb ed="#Qb"/>gatur
+          in Scriptura de missione Thronorum spe<lb ed="#Qb"/>
+          <lb ed="#Qb"/>cialiter, nihilominus potestc eis convenire ratio
+          <lb ed="#Qb"/>missionis; et hoc accipitur ex hoc quod dicit
+          <lb ed="#Qb"/>Apostolus generaliter de omnibus quod <quote>omnes
+          <lb ed="#Qb"/>sunt in ministerium missi</quote>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

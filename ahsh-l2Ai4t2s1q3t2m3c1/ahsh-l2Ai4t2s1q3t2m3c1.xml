@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 3, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 3, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="537"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t2s1q3t2m3c1">
+        <head>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 3, T. 2, M. 3, C. 1</head>
+        <head type="question-title">UTRUM AEQUALITAS FUERIT CORPORI ADAE COLLATA A DIVINA IUSTITIA.</head>
+        <p>
+                <pb ed="#Qb" n="537"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Quaeritur ergo si aequalitas corporis Adae erat 
+          <lb ed="#Qb"/>ei collata a divina iustitia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod sic, videtur: a. Dicit enim Dionysius,
+          <lb ed="#Qb"/>De divinis nominibus, cap. 81: <quote>Iustitia Deus
+          <lb ed="#Qb"/>velut omnibus quae sunt, 'secundumb dignita<lb ed="#Qb"/>tem
+          distribuens laudatur et mensurationem et
+          <lb ed="#Qb"/>formam et ordinationem etc dispositionem </quote>. Ex
+          <lb ed="#Qb"/>hac littera sumitur in scholis " haec ratio: <quote> Iu<lb ed="#Qb"/>stitia
+          est habitus aequalitatis distributorius </quote>.
+          <lb ed="#Qb"/>Et dicit ibi Abbas VercellensisZ: <quote> Deus di<lb ed="#Qb"/>citur
+          iustitia tamquam distribuens omnibus se<lb ed="#Qb"/>cundume
+          singulorum congruentiam et commen<lb ed="#Qb"/>surationem
+          et pulcritudinem et bonam ordina<lb ed="#Qb"/>tionem
+    </quote>. Si ergof divina iustitia este omnium
+          <lb ed="#Qb"/>commensuratioh et ordinatio, ut ex auctoritatei
+          <lb ed="#Qb"/>Dionysii patet, igitur et mensuratio et ordi<lb ed="#Qb"/>natio
+          aequalitatis, quae fuit in corpore Adae,
+          <lb ed="#Qb"/>fuit a divina iustitia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Dionysius, De. divinis nominibus,
+          <lb ed="#Qb"/>cap. 83: <quote>Divina iustitia est secundum quam
+          <lb ed="#Qb"/>omnis aequitas mensuratur et terminatur </quote>, et po<lb ed="#Qb"/>nit
+          aequitatem pro aequalitate. Si ergo omnis ae<lb ed="#Qb"/>qualitas
+          mensuratur a divina iustitia, et aequa<lb ed="#Qb"/>litas
+          corporis primi hominis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Dionysius, De divinis nominibus,
+          <lb ed="#Qb"/>cap. 84: <quote> Divina iustitia, omnia ab omnibus clara
+          <lb ed="#Qb"/>et incontusa salvans, unicuique cognata omnibus
+          <lb ed="#Qb"/>existentibus donat secundum unicuique existen<lb ed="#Qb"/>tium
+          insitam dignitatem </quote>. Abbas Vercellen<lb ed="#Qb"/>sis,
+          ibidem5 : <quote> Iustitia divina singula a singulis
+          <lb ed="#Qb"/>incommixta et inconiusa salvat </quote>. Ex hoc verbo
+          <lb ed="#Qb"/>Dionysii duo videntur, scilicet quod divina
+          <lb ed="#Qb"/>iustitia salvat singula a singulis sine commixtione
+          <lb ed="#Qb"/>et quodl ea, quae donat, donat'" secundum quod
+          <lb ed="#Qb"/>exigit dignitas rei cui dat". Ex primo videtur quod
+          [nec] in corpore primi hominis similiter nec in ali<lb ed="#Qb"/>quo
+          alio sit aliqua commixtio a divina iustitia; ex
+          <lb ed="#Qb"/>secundo videtur quod, cum corpus primi hominis
+          <lb ed="#Qb"/>ante conditionem nullius esset dignitatis et sic
+          <lb ed="#Qb"/>illius dignitas nihil exigebat, quod a divina iustitia
+          <lb ed="#Qb"/>nihil ei donabatur.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>2. Item, aliquid fieri de iustitia dicit debitum
+          <lb ed="#Qb"/>fiendi, quod autem'1 mera liberalitate fit, non
+          <lb ed="#Qb"/>dicitur de iustitia fieri; igitur,.cum minus recte
+          <lb ed="#Qb"/>diceretur Deum aliquid facere ex debito et praeci<lb ed="#Qb"/>pue
+          quoad illud quod ex sola liberalitate eius iac<lb ed="#Qb"/>tum
+          est, sicut fuit corpus Adae, non videtur quod
+          <lb ed="#Qb"/>debeat dici aliquid in illo factum a divina iustitia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, D io n y s i u s, in eodem 5: <quote> Divina iusti<lb ed="#Qb"/>tia
+          b et salus omnium laudatur, et propriam unius<lb ed="#Qb"/>cuiusque
+          et puram ab aliis essentiam et ordinem *
+          <lb ed="#Qb"/>Salvans et custodiens </quote>. Ex hoc verbo patet quod
+          <lb ed="#Qb"/>propria, quae rebus creatis distribuit, in suo ordine
+          <lb ed="#Qb"/>et virtute salvat. Si igitur aequalitas corporis
+          <lb ed="#Qb"/>Adae fuisset a divina iustitia, essetd salvata in
+          <lb ed="#Qb"/>suo ordine et virtute ab eadem; igitur ex quo
+          <lb ed="#Qb"/>non fuit salvata — quod patet per hoc quod ne<lb ed="#Qb"/>cesse
+          erat ipsum dissolvie — relinquitur quod
+          <lb ed="#Qb"/>illa aequalitas non fuit a divina iustitia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, idem, in eodem7: <quote> Oportet scire divi<lb ed="#Qb"/>nam
+          iustitiam in hoc vere existentem, quia om<lb ed="#Qb"/>nibus
+          retribuitf propria secundum uniuscuiusque
+          <lb ed="#Qb"/>existentium dignitatem, et uniuscuiusque natu<lb ed="#Qb"/>ram
+          in propria salvat ordinatione et virtute </quote>. Ex
+          <lb ed="#Qb"/>hoc patet idem quod supra.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item 8, Dionysius, in eodems: <quote> Iustitia
+          <lb ed="#Qb"/>est secundum quam omnis aequitas mensuratur et
+          <lb ed="#Qb"/>omnis inaequitas ", quae est per privationem in ip<lb ed="#Qb"/>sis
+          singulis aequitatis, exterminatur </quote>. Hic sumitur
+          <lb ed="#Qb"/>aequitas et inaequitas pro aequalitate et inaequa<lb ed="#Qb"/>litate
+          l. Abbasg: <quote> Iustitia est secundum quam
+          <lb ed="#Qb"/>omnis aequalitas mensuratur et definitur et omnis
+          <lb ed="#Qb"/>inaequalitas, quae privat dictam aequalitatem, a
+          <lb ed="#Qb"/>singulis exterminaturk </quote>. Ex iis verbis habetur
+          <lb ed="#Qb"/>quod divina iustitia exterminatur' inaequalitas,
+          <lb ed="#Qb"/>quae est privatio aequalitatis, quae est a divina
+          <lb ed="#Qb"/>iustitia. Igitur, cum inaequalitatem, quae fuit pri<lb ed="#Qb"/>vatio
+          aequalitatis quae erat primo corporis Adae,
+          <lb ed="#Qb"/>non exterminavit '", sed esse permisit, videtur
+          <lb ed="#Qb"/>quod illa aequalitas non erat a divina iustitia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Praeterea, potest quaeri quam inaequalita<lb ed="#Qb"/>tem
+          sustinet divina iustitia in rebus et quam ex<lb ed="#Qb"/>terminat.
+        </p>
+        <p>
+                <pb ed="#Qb" n="538"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>[Solutio]: Ad hoc dicendum quod illa aequa<lb ed="#Qb"/>litas
+          erat a divina" iustitia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad hoc quod primo obicitur
+          <lb ed="#Qb"/>quod 'divina iustitiab salvat singula sine com<lb ed="#Qb"/>mixtione'
+          etc.: dicendum quod est multiplex com<lb ed="#Qb"/>mixtio.
+          Una est, quae ponit confusionem rerum
+          <lb ed="#Qb"/>quantum ad dignitates earum, et virtutes et ordi—
+          <lb ed="#Qb"/>nem rerumc auferens, quam ponunt illi qui dicunt
+          <lb ed="#Qb"/>Deum debuisse eos, qui mortales sunt, fecisse
+          <lb ed="#Qb"/>immortales etd eos, qui imperfecti sunt, fecisse
+          <lb ed="#Qb"/>perfectos et eis, qui habent liberum arbitrium
+          <lb ed="#Qb"/>eligendi bonum et malum, induxisse necessitatem
+          <lb ed="#Qb"/>faciendi bonum, et variabilibus contulisse inva<lb ed="#Qb"/>riabilitatem,
+          et consimiliter de aliis, dignitatemi
+          <lb ed="#Qb"/>rerum et ordinemf confundendo. Et hoc est quod
+          <lb ed="#Qb"/>dicit Dionysius postg determinationem sive
+          <lb ed="#Qb"/>definitionem divinae iustitiae subiungens '": <quote> Etsi
+          <lb ed="#Qb"/>haec recte dicimus, quicumque divinis maledicunt,
+          <lb ed="#Qb"/>iustitia eos latet, suam iniustitiami in aperto
+          <lb ed="#Qb"/>condemnantes. Aiunt enim debere inesse morta<lb ed="#Qb"/>libus
+          immortalitatem et imperfectis perfectionemk
+          <lb ed="#Qb"/>et per se ipsos motis alteram moventem necessita<lb ed="#Qb"/>tem
+          et mutabilibus immutabilitatem et perfectam
+          <lb ed="#Qb"/>potentiam' infirmis et aeterna 'esse temporalia et
+          <lb ed="#Qb"/>intransmutabilia natura mobilia et temporales
+          <lb ed="#Qb"/>delicias '" aeternas, et omnino " quae sunt aliorum
+          <lb ed="#Qb"/>aliis porrigunto </quote>. Alia autem est mixtioP, quae
+          <lb ed="#Qb"/>ponit harmoniam et proportionem miscibilium
+          <lb ed="#Qb"/>secundum temperamentum conveniens naturae
+          <lb ed="#Qb"/>mixtiq producendi in esse. Ex huiusmodi conve<lb ed="#Qb"/>nientia
+          miscibilium et sine hac mixtione non salvat
+          <lb ed="#Qb"/>divina iustitia singula, sed potius mediante hac
+          <lb ed="#Qb"/>mixtione salvat et conservat mixta in esse. Unde
+          <lb ed="#Qb"/>Dionysius, De divinis nominibus, cap. 82: <quote> Pro<lb ed="#Qb"/>cedunt
+          ea quae sunt indeticientis virtutis, et ad
+          <lb ed="#Qb"/>homines et ad animalia et plantas et totam ho<lb ed="#Qb"/>minisf
+          naturam, et firmat unita ad sui invicem
+          <lb ed="#Qb"/>amicitiam et communionem </quote>. Unita autem vocat
+          <lb ed="#Qb"/>ea quae mixta sunt in aliquo, quae firmat et
+          <lb ed="#Qb"/>confortat virtus indeficiens ad amicitiam, quando 3
+          <lb ed="#Qb"/>mensurate et mansuetudine. quadam unita sunt
+          <lb ed="#Qb"/>in toto. Unde Expositor3: <quote> Deus largitur et
+          <lb ed="#Qb"/>confortat ad amicitiam unita et ad communionem,
+          <lb ed="#Qb"/>id est semina omnium seu elementa mensurate
+          <lb ed="#Qb"/>ad collegium pariter incedentia, et ad invicem
+          <lb ed="#Qb"/>mixta, id estt propinquantia, mensurate et man<lb ed="#Qb"/>suete
+          ad virtutem deducit sensibilia gignendi</quote>.
+          <lb ed="#Qb"/>Sic ergo duplex est mixtio: una, quam non
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>sustinet divina iustitia; alia, quam salvat et con<lb ed="#Qb"/>fortat,
+          qua conservantur mixta in esse. — Ad
+          <lb ed="#Qb"/>aliud quod obicitur quod 'ea, quae donat,
+          <lb ed="#Qb"/>donata secundum exigentiam dignitatis rei cui
+          <lb ed="#Qb"/>dat, etc., dicendum quod in rebus est duo con<lb ed="#Qb"/>siderare:
+          ipsam substantiam b et essentialem pro<lb ed="#Qb"/>prietatem,
+          quac substantia et virtus rei huius
+          <lb ed="#Qb"/>speciei distinguitur a re alterius speciei. Quod
+          <lb ed="#Qb"/>ergo dicitur aliquid dari rebus a divina iustitia
+          <lb ed="#Qb"/>secundum uniuscuiusque dignitatem-, hoc intelli—
+          <lb ed="#Qb"/>gendum est quantum ad proprietates essentiales
+          <lb ed="#Qb"/>ipsarum rerum, secundum quas ordinem habent
+          <lb ed="#Qb"/>et virtutem, sicut alia est virtus et ordinatio terrae
+          <lb ed="#Qb"/>et alia ignis, et hoc estd ex proprietatibus eis
+          <lb ed="#Qb"/>datis secundum convenientiam suae speciei. Unde
+          <lb ed="#Qb"/>dare existentibus secundum suam dignitatem, hoc
+          <lb ed="#Qb"/>est dare illis secundum convenientiam specierum
+          <lb ed="#Qb"/>eorumdem e. Quod autem intelligi habet quantum
+          <lb ed="#Qb"/>ad huiusniodi proprietates, patet ex verbo supra
+          <lb ed="#Qb"/>dicto B. Dionysii4, quod est!': <quote> Oportet scire
+          <lb ed="#Qb"/>divinam iustitiam in hoc vere existentem, quod
+          <lb ed="#Qb"/>omnibus retribuit propriag secundum uniuscuius<lb ed="#Qb"/>que
+          existentium dignitatem, et uniuscuiusque na<lb ed="#Qb"/>turam
+          inh propria salvat ordinatione et virtute </quote>.
+          <lb ed="#Qb"/>Nota quod dicit <quote> existentium </quote> et <quote> propria </quote>, ex
+          <lb ed="#Qb"/>quibusi patet quod intelligit de existentibus et
+          <lb ed="#Qb"/>proprietatibus collatis ipsis existentibus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad aliud dicendum quod, sicut dicitk An<lb ed="#Qb"/>selmus, 
+          in Proslogion, 105, Deus dicitur' quan<lb ed="#Qb"/>doque
+          iustus secundum se, quandoque secundum
+          <lb ed="#Qb"/>nos: secundum se, quando non est aliqua ratio ex
+          <lb ed="#Qb"/>parte eius respectu cuius dicitur iuste agere, sed
+          <lb ed="#Qb"/>solummodo ratio est condecentia suae bonitatis ;
+          <lb ed="#Qb"/>secundum nos, quando meritum ex parte nostra
+          <lb ed="#Qb"/>hoc requirit. Cum ergo dicitur 'aliquid fieri de
+          <lb ed="#Qb"/>iustitia importat debitum fiendi ' "', dicendum quod
+          <lb ed="#Qb"/>hoc verum est quando aliquid dicitur fieri de
+          <lb ed="#Qb"/>iustitia secundum nos, non autem quando dicitur
+          <lb ed="#Qb"/>aliquid fieri de iustitia secundum Deum, nisi ve—
+          <lb ed="#Qb"/>limus extendere quod dicitur 'debitum' ut su—
+          <lb ed="#Qb"/>matur pro decenti, ut illud dicatur debitum quod
+          <lb ed="#Qb"/>est decens 5.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3-4. Ad hoc quod postea obicitur quod *pro<lb ed="#Qb"/>pria
+          quae rebus creatis distribuit, in suo ordine et
+          <lb ed="#Qb"/>virtute salvat ' etc.:, dicendum quod hoc " intelli<lb ed="#Qb"/>gitur
+          de illis quorum virtus et operatio determi<lb ed="#Qb"/>natur
+          secundum legem naturae, non de illis quae
+          <lb ed="#Qb"/>subiacent libero arbitrio. Illa enim, quorum virtus
+          <pb ed="#Qb" n="539"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>et operatio secundum legem naturae determi<lb ed="#Qb"/>natur
+          0, secundum legem eis inditamb in operibus
+          <lb ed="#Qb"/>suis progrediuntur: unde, quia non declinant a
+          <lb ed="#Qb"/>lege indita quoadusquec sua claudantur periodo,
+          <lb ed="#Qb"/>influentia virtutis primaed salvantur in esse. Ali<lb ed="#Qb"/>tere
+          est de iis quae subiacent libero arbitrio,
+          <lb ed="#Qb"/>quorum potestas est declinandi a lege eis indita,
+          <lb ed="#Qb"/>quae, cum declinant a lege eis indita, avertunt
+          <lb ed="#Qb"/>se a suo Conditore et Salvatore; unde influentiam
+          <lb ed="#Qb"/>ab illo non recipiunt: propter quod necessario
+          <lb ed="#Qb"/>deficit quod in illis conditum est. Tale fuit cor<lb ed="#Qb"/>pus
+          Adae, quod erat regendum libero arbitrio,
+          <lb ed="#Qb"/>quod peccato sui motoris et perfectionis cecidit
+          <lb ed="#Qb"/>in defectum et carentiam naturalis iustitiae; unde
+          <lb ed="#Qb"/>in illud, quodam modo aversum a Deo, non in<lb ed="#Qb"/>fluebat
+          virtus divina salvans quod condiderat in
+          <lb ed="#Qb"/>illo: propter quod defecerunt quae in eof condita
+          <lb ed="#Qb"/>erant. Auctor autem duos insinuat intellectus
+          <lb ed="#Qb"/>verbi propositi, quorum unum ponit, alium ap<lb ed="#Qb"/>probat
+          8. In illo, quem ponit, intelligitur salvatio
+          <lb ed="#Qb"/>quantum ad esse rei, quantum ad ordinem ",
+          <lb ed="#Qb"/>quantum ad operationem; quod patet ex verbis
+          <lb ed="#Qb"/>ipsius, quae sunt haec 1: <quote> Divina iustitia et salus
+          <lb ed="#Qb"/>omnium laudatur, propriam uniuscuiusque et pu<lb ed="#Qb"/>ram
+          ab aliis essentiam et ordinem salvans et
+          <lb ed="#Qb"/>custodiens, foetida purgans in omnibus propriae
+          <lb ed="#Qb"/>actionis </quote>. Et secundum Expositorem 2: <quote> Pro—
+          <lb ed="#Qb"/>priam actionem nominat uniuscuiusque existen<lb ed="#Qb"/>tium
+          secundum naturam specialem motum ; neque
+          <lb ed="#Qb"/>enim quae angelorum sunt, hominibus est possibile
+          <lb ed="#Qb"/>agere, aut quae ignis, aquae et e converso </quote>. Intel<lb ed="#Qb"/>lectus
+          iste plenius patet ex verbis Abbatis di<lb ed="#Qb"/>centis
+          3: <quote> Ipsa divina iustitia recte etiam dicitur
+          <lb ed="#Qb"/>omnium salvatio, in quantum salvat et custodit
+          <lb ed="#Qb"/>uniuscuiusque propriam substantiam munde se—
+          <lb ed="#Qb"/>gregatam ab aliis, similiter et cuiuslibet rei ordi<lb ed="#Qb"/>nem,
+          et in singulis rebus munde existit propriae
+          <lb ed="#Qb"/>operationis causa </quote>. Et vocat ipsam mundam se<lb ed="#Qb"/>gregationem,
+          quando nulla est communicatio alie<lb ed="#Qb"/>narum
+          proprietatum, sicut ignis munde segrega<lb ed="#Qb"/>tus
+          est ab aliis[ elementis, quia nullum illorum
+          <lb ed="#Qb"/>communicat cum illo in essentialibus proprietatibus
+          <lb ed="#Qb"/>illius nec e converso. -— Alius autem est intellectus
+          <lb ed="#Qb"/>quem approbat, scilicet de salvatione morali, sci<lb ed="#Qb"/>licet
+          quando salvator salvat a statu deteriore de—
+          <lb ed="#Qb"/>ducens ad meliorem. Unde Dionysius4: <quote> Si
+          <lb ed="#Qb"/>quis salutem laudaverit et sic ex malis velut
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>parturientem eripientem, omnino" ibi et hunc
+          <lb ed="#Qb"/>laudabilem laudatorem largissimae salutis acci<lb ed="#Qb"/>piemus
+    </quote>. Abba55:. <quote> Si Deitas vocatur salvatio
+          <lb ed="#Qb"/>tamquam ex statu peiori ad meliorem cuncta
+          <lb ed="#Qb"/>salvatorie b quocumque modo deducens, nos
+          <lb ed="#Qb"/>hanc laudem dignissimae salvationis bene re<lb ed="#Qb"/>cipimus</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad hoc quod obicitur postea quod ' divina
+          <lb ed="#Qb"/>iustitia exterminatur inaequalitas, quae est priva<lb ed="#Qb"/>tio
+          aequalitatis' etc.: dicendum quod ista extermi<lb ed="#Qb"/>natio
+          inaequalitatis est salvatio rerum in intrans<lb ed="#Qb"/>mutabilitate
+          d ad alienas proprietates et operatio<lb ed="#Qb"/>nes.
+          Unde salvat2 ignem in intransmutabilitatef
+          <lb ed="#Qb"/>ad alienas proprietates et operationes, scilicet
+          <lb ed="#Qb"/>aquae et terrae et huiusmodi. Unde paulo ante
+          <lb ed="#Qb"/>dicitur in eodem 6: <quote> Et hanc primam salvationem
+          <lb ed="#Qb"/>totorum rogabimus ipsum definire, quig omnia in
+          <lb ed="#Qb"/>se ipsis intransmutabilia'1 et fortia contra peiora
+          <lb ed="#Qb"/>salvat et omnia custodit non pugnantia et non bel<lb ed="#Qb"/>lantia,
+          singula suisi ipsorum rationibus ornata, et
+          <lb ed="#Qb"/>omnem inaequalitatem et alienam operationem ex *
+          <lb ed="#Qb"/>totis exterminat et proportiones uniuscuiusque
+          <lb ed="#Qb"/>constituit, non valentes cadere ad contraria nec'
+          <lb ed="#Qb"/>transire</quote>. Hanc autem inaequalitatem extermi<lb ed="#Qb"/>navit
+          in Adam, scilicet salvans eum in intrans—
+          <lb ed="#Qb"/>mutabilitatem ad alienas proprietates et opera<lb ed="#Qb"/>tiones.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Ad illud quod ultimo quaeritur, dicendum
+          <lb ed="#Qb"/>quod duplex est inaequalitas: una est, quae pri<lb ed="#Qb"/>vatur"
+          omnino, alia, quae salvatur. Prima duplex,
+          <lb ed="#Qb"/>scilicet peccatum in animabus " et confusio in re<lb ed="#Qb"/>bus.
+          Utramque removet DominusP: primam per
+          <lb ed="#Qb"/>gratuitam misericordiam, secundam per iustitiam
+          <lb ed="#Qb"/>provisivam, scilicet providendo ne subintrasset
+          <lb ed="#Qb"/>universum. Alia est inaequalitas, quae salvatur
+          <lb ed="#Qb"/>scilicet, vel differentia unius totius ad aliud totum,
+          <lb ed="#Qb"/>ut quando unum maius est altero aut qua totum
+          <lb ed="#Qb"/>maius est sua parte. Hanc enim inaequalitatem
+          <lb ed="#Qb"/>salvat divina iustitia et custodit, sicut dicit Dio<lb ed="#Qb"/>nysius,
+          non permittens turbari universitatem
+          <lb ed="#Qb"/>commixtione. Et hoc est, quodq sequitur7: <quote>Et<lb ed="#Qb"/>enim
+          inaequalitatem si quis accipiat differentias in
+          <lb ed="#Qb"/>toto' totorum ad tota, et huius iustitia est ser<lb ed="#Qb"/>vativa,
+          non concedens commixta tota in totis
+          <lb ed="#Qb"/>facta turbari, custodiens autem existentia omnia
+          <lb ed="#Qb"/>secundum speciem unumquodque, in qua unum<lb ed="#Qb"/>quodque3
+          esse naturam habetf</quote>. Ex hac enim
+          <pb ed="#Qb" n="540"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>inaequalitate consistit pulcritudo in universo, sicut
+          <lb ed="#Qb"/>tangit C o m m e n t a t or, su per cap. 1 Angelicae
+          <lb ed="#Qb"/>hierarchiae 1; vocans eam <quote> unificam a contemperantiam
+          <lb ed="#Qb"/>provisorum </quote>, Alia. est inaequalitas si<lb ed="#Qb"/>militer<!--b-->, 
+          quam salvat divina iustitia, quae est
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>manifestativa et commendativa divinae iustitiae,
+          <lb ed="#Qb"/>et illa est in corpo re h umano et fui t in corpore c
+          <lb ed="#Qb"/>Adae post peccatum, secundum quod non per<lb ed="#Qb"/>misit
+          Deus dedecus culpae in ilio d sine decore
+          <lb ed="#Qb"/>vindictae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

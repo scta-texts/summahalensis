@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 1, M. 2, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 1, M. 2, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="437"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q2t1m2c4">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 1, M. 2, C. 4</head>
+        <head type="question-title">DE DISTINCTIONE VIRIUM SENSITIVARUM INTRINSECUS COGNOSCENTIUM</head>
+        <p>
+          <lb ed="#Qb"/>Deinde quaeritur de distinctione virium et in<lb ed="#Qb"/>cidit 
+          hic duplex quaestio:
+          <lb ed="#Qb"/>Una, de comparatione sensuum exteriorum,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>qui dicuntur particulares, qualiter se habeatd
+          <lb ed="#Qb"/>sensus communis ad illos e;
+          <lb ed="#Qb"/>alia, de distinctione harum virium interiorum
+          <lb ed="#Qb"/>inter se.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Qualiter se habeat sensus communis ad sensus particulares.</head>
+          <p>
+            <lb ed="#Qb"/>I. Cirea pPimum a. ostenditur quod sensus communis
+            <lb ed="#Qb"/>non est communis ad modum universalis,
+            <lb ed="#Qb"/>utl de omni sensu praedicetur. Si ~nim sic esset,
+            <lb ed="#Qb"/>non haberet actum proprium, sed eius actus
+            <lb ed="#Qb"/>tantum esset in sensi bus particularibus; sed sensus
+            <lb ed="#Qb"/>communis habet proprium actum et singularem,
+            <lb ed="#Qb"/>scilicet discernere album a dulci 2 vel conferre;
+            <lb ed="#Qb"/>ergo non est communis unitate g essentiae universalis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. ltem, non dicitur h communis propter hoc quod
+            <lb ed="#Qb"/>organum eius sint organa sensuum particularium
+            <lb ed="#Qb"/>et nullum habeat 1 organum proprium. Si enim
+            <lb ed="#Qb"/>discerni t album a d ulci et confert, necesse est
+            <lb ed="#Qb"/>recipi formam utriusque in k uno organo; illud
+            <lb ed="#Qb"/>non eri t organum gustus nec organum visus;
+            <lb ed="#Qb"/>necesse est ergo esse organum interius differens
+            <lb ed="#Qb"/>ab illis, quod sit sensus communis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Praeterea, non sic est organum sensus communis
+            <lb ed="#Qb"/>unum confusione, quemadmodum lingua,
+            <lb ed="#Qb"/>tactus et gustus : sic enim diceretur visus esse
+            <lb ed="#Qb"/>quidam sensus communis et auditus similiter,
+            <lb ed="#Qb"/>sicut dicitur quod gustus est quidam tactus 3.
+         </p>
+          <p>
+            <lb ed="#Qb"/>d. Praeterea, sensus communis unus est, habens
+            <lb ed="#Qb"/>unitatem organi, quia 1 omnia organa sensuum l
+            <lb ed="#Qb"/>particularium conveniunt ad unum in quo m terminantur,
+            <lb ed="#Qb"/>ubi completur iudicium 4, et illud est
+            <lb ed="#Qb"/>organum sensus communis; sed non si c conveniunt
+            <lb ed="#Qb"/>per confusionem, ut illud organum secundum
+            <lb ed="#Qb"/>aliquid eius sit organum auditus, secundum aliquid
+            <lb ed="#Qb"/>visus, secundum alterum tactus et ita de
+            <lb ed="#Qb"/>aliis.; ergo non dicitur sensus communis, quia n
+            <lb ed="#Qb"/>habeat organum per confusionem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>e. Praeterea, ostenditur quod sensus particularis
+            <lb ed="#Qb"/>perficitur a sensu communi. Cum enim organa
+            <lb ed="#Qb"/>sensuum particularium bipartita sint, praeterquam
+            <lb ed="#Qb"/>in organo gustus, ubi sunt coniuncta: ut 0 in duobus
+            <lb ed="#Qb"/>oculis et P duabus auri bus, tamen q sensibile non
+            <lb ed="#Qb"/>apparet duo, sed unum, necesse est tunc deferri
+            <lb ed="#Qb"/>ad unum organum interius 5; cum ergo simul tempore
+            <lb ed="#Qb"/>percipitur sensibile, et ut unum simul tempore
+            <lb ed="#Qb"/>sit species in organo interiore et exteriore:
+            <lb ed="#Qb"/>ergo perfectio sensus particularis est a sensu
+            <lb ed="#Qb"/>communi, cum perficitur in organo interiore. Hoc
+            <lb ed="#Qb"/>idem est in omnibus sensibus: nam r omnia organa
+            <lb ed="#Qb"/>sensuum particularium, scilicet nervi, perveniunt
+            <lb ed="#Qb"/>ad unam radicem sive originem, in qua conveniunt,
+            <lb ed="#Qb"/>a1iter nunquam esset collatio sive discretio
+            <lb ed="#Qb"/>sensibilium sensuum diversorum et ibi fit complementum
+         </p>
+          <p>
+            <lb ed="#Qb"/>f. Praeterea, non differt sensus communis sensibilis
+            <lb ed="#Qb"/>in suo sensibili a particularibus: quinque
+            <lb ed="#Qb"/>enim sensibilia, quae sunt magnitudo, motus,
+            <lb ed="#Qb"/>numerus, figura, quies, quae sunt t communia
+            <lb ed="#Qb"/>sensuum particularium, etiam sunt propria sensus
+            <lb ed="#Qb"/>communis. Apprehenduntur etiam sensibilia sensuum
+            <lb ed="#Qb"/>particularium a sensu communi: nam aliter
+            <lb ed="#Qb"/>non posset inter illa distinguere; ergo necesse
+            <lb ed="#Qb"/>est non differre sensum communem in obiecto
+            <lb ed="#Qb"/>a sensibus particularibus. Et hoc videtur per
+            <lb ed="#Qb"/>hoc quod dici t P h i l oso p h u s 7 quod sensus
+            <pb ed="#Qb" n="438"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>communis est qui omnia sensu percepta recipit
+            <lb ed="#Qb"/>et propter earum formas patitur, quae in ipso
+            <lb ed="#Qb"/>copulantur.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Praeterea, quaeritur de instrumento sensus
+            <lb ed="#Qb"/>communis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Et videtur 1. quod sit " aliqua pars cerebri, in
+            <lb ed="#Qb"/>qua conveniunt sensibiles nervi; et hoc arguunt
+            <lb ed="#Qb"/>medici, quia laesio sensus communis est ex lae<lb ed="#Qb"/>sione
+            cerebri, bonitas sensus communis est ex
+            <lb ed="#Qb"/>bonitate cerebri.
+         </p>
+          <p>
+            <lb ed="#Qb"/>a. Sed Philosophusl arguit eius organum
+            <lb ed="#Qb"/>esse cor vel aliquid simile cordi in non haben<lb ed="#Qb"/>tibus
+            cor, eo quod organa sensuum particularium
+            <lb ed="#Qb"/>in sua radice continuantur cordi. Praeterea, nihil
+            <lb ed="#Qb"/>est sensitivum sine calorez, caloris vero expansio
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>est a corde et reditio ad interius inb somno:
+            <lb ed="#Qb"/>ex quo arguit quod sensus communis organum
+            <lb ed="#Qb"/>est cor.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Et potest utrumque esse verum, quod
+            <lb ed="#Qb"/>dicunt medici et quod dicit Philosophus; sed
+            <lb ed="#Qb"/>medici ad causam propinquam respiciunt, et ideo
+            <lb ed="#Qb"/>dicunt originem nervorum esse a cerebro et ra<lb ed="#Qb"/>mificari
+            motus differenter, ut fiat sensus et mo<lb ed="#Qb"/>tus;
+            Philosophus vero respicit ad causam
+            <lb ed="#Qb"/>primam: videt enim quod, licet quies sit in somno
+            <lb ed="#Qb"/>ab operatione sensus communis excitati a parti<lb ed="#Qb"/>cularibus,
+            nihilominus est operatio interior conti—
+            <lb ed="#Qb"/>nua, secundum motum scilicet phantasiae, et illudf
+            <lb ed="#Qb"/>non posset esse nisi ubi viget calor animalis in
+            <lb ed="#Qb"/>corde tempore somni, propter quod sensus commu<lb ed="#Qb"/>nis
+            dicitur habere cor tamquam organum primum.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">De numero virium sensibilium cognitivarum interius 3.</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur I. de numero virium sensibi<lb ed="#Qb"/>lium
+            'cognitivarum interius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quarum ratio sic accipitur4: quaedam enim
+            <lb ed="#Qb"/>sunt quarum actus sunt circa formas sensibiles,
+            <lb ed="#Qb"/>quaedam circa intentiones formarum sensibilium.
+            <lb ed="#Qb"/>Quae vero est circa formas sensibiles aut est
+            <lb ed="#Qb"/>apprehendens aut custodiens aut transformans
+            <lb ed="#Qb"/>sive conferens absente materia. Si vero est ap<lb ed="#Qb"/>prehendens,
+            dicitur sensus communis; si vero
+            <lb ed="#Qb"/>custodiens, dicitur imaginatio vel alio modo phan<lb ed="#Qb"/>tasia;
+            si vero est transiormans vel conferens ab<lb ed="#Qb"/>sente
+            materia, dicitur imaginativa. Si vero est
+            <lb ed="#Qb"/>circa intentiones, ut bonitatem et malitiam, sive
+            <lb ed="#Qb"/>nocumentum et iuvamentum, prout accidit de
+            <lb ed="#Qb"/>agnod respectu ovis aut lupi5, aut est apprehen<lb ed="#Qb"/>dens
+            aut custodiens. Si apprehendens, dicitur
+            <lb ed="#Qb"/>aestimativa; si custodiens, dicitur memorativa.
+            <lb ed="#Qb"/>Et distinguuntur:, secundum Avicennamö, ut
+            <lb ed="#Qb"/>sensus communis sit in anteriori parte cerebri,
+            <lb ed="#Qb"/>imaginatio vel phantasia in eadem parte, ima<lb ed="#Qb"/>ginativa
+            vero vel cogitativaf in media, in ea<lb ed="#Qb"/>dem
+            aestimativa, memorativa vero in ultima
+            <lb ed="#Qb"/>parte cerebri.
+         </p>
+          <p>
+            <lb ed="#Qb"/>II. Sed incidit quaestio quare respectu intentio<lb ed="#Qb"/>num
+            non dicuntur tres vires, sed duae tanturn,
+            <lb ed="#Qb"/>scilicet aestimativa et memorativa, respectu vero
+            <lb ed="#Qb"/>formarum sensibilium secundum se, dicuntur tres.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod respectu
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>formarum sensibilium additur una ut sint tres.
+            <lb ed="#Qb"/>Nam quaedam est apprehensiva a sensibus par<lb ed="#Qb"/>ticularibus,
+            et haec dicitur sensus communis;
+            <lb ed="#Qb"/>nulla autem est apprehendens intentiones ex sen<lb ed="#Qb"/>sibus
+            particularibus, sed ab intus habet, et prop<lb ed="#Qb"/>ter
+            hoc illa abundat ex illa parte.
+         </p>
+          <p>
+            <lb ed="#Qb"/>III. Praeterea, propter quid est retentiva" ante
+            <lb ed="#Qb"/>compositivam formarum sensibilium 1, composi<lb ed="#Qb"/>tiva
+            autem intentionumk sensibilium est ante
+            <lb ed="#Qb"/>suam retentivam?
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Respondendum' est quod formae
+            <lb ed="#Qb"/>sensibiles, quas oportet componere vel Supra quas
+            <lb ed="#Qb"/>negotiatur imaginativa, veniunt ab extra per sen<lb ed="#Qb"/>sus,
+            et nisi essent fixae intra, non esset compo<lb ed="#Qb"/>sitio
+            imaginativae super illas abeunte sensu, et
+            <lb ed="#Qb"/>ideo necesse est quod praecedat retentiva; in<lb ed="#Qb"/>tentiones
+            vero sunt ab intra innatae, et ideo'"
+            <lb ed="#Qb"/>non est necesse memorativam praecedere, sed se<lb ed="#Qb"/>qui,
+            eo quod servat compositiones factas inten<lb ed="#Qb"/>tionum
+            cum formis sensibilibus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>IV. Quaeri etiam potest quare in una parte
+            <lb ed="#Qb"/>cerebri collocantur" apprehensiva formarum sen<lb ed="#Qb"/>sibilium
+            et" retentiva, non autem apprehensiva
+            <lb ed="#Qb"/>intentionum et memorativa, quae est retentiva.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio]: Ad quod dicendum quod dissimiliter
+            <lb ed="#Qb"/>dicuntur retentivae. Haec enim quae est in ante<lb ed="#Qb"/>riori
+            parte cerebri, non est nisi retentiva ad hoc
+            <pb ed="#Qb" n="439"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>ut in eis fiat compositio et a operatio abeunte
+            <lb ed="#Qb"/>sensu; illa vero, quae est memorativa, generaliter
+            <lb ed="#Qb"/>est retentiva ut ex illa possint!? aestimativa et
+            <lb ed="#Qb"/>intellectiva etiam negotiari: unde dicitur memo<lb ed="#Qb"/>riae
+            et rememorationis .: promptuarium. Et signum
+            <lb ed="#Qb"/>huius est quod Ioannes Damascenusl, cum
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>enumerat vires, non enumerat nisi imaginativam
+            <lb ed="#Qb"/>sive imaginationem et excogitativam et memora<lb ed="#Qb"/>tivam
+            d, dans intelligere quod prima est appre<lb ed="#Qb"/>hensiva,
+            secunda collativa, tertia retentiva; non
+            <lb ed="#Qb"/>ergo computat in prima parte retentivam nisi
+            <lb ed="#Qb"/>cum apprehensiva.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

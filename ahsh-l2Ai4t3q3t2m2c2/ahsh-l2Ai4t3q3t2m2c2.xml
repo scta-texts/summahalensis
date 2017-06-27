@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 2, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 2, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="756"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q3t2m2c2">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 2, M. 2, C. 2</head>
+        <head type="question-title">DE QUANTITATE GRATIARUM ET VIRTUTUM QUANTUM AD EFFICACIAM.</head>
+        <p>
+                <pb ed="#Qb" n="756"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>equitur inquirere de quantitate gratiarum quan<lb ed="#Qb"/>tum
+          ad efficaciam.
+          <lb ed="#Qb"/>Et primo quaeritur utrum in statu illo habebant
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>efficaciam merendi, hoc est utrum habens illas
+          <lb ed="#Qb"/>potuit per illas mereri;
+          <lb ed="#Qb"/>secundo, utrum erant efficaciores tunc quam
+          <lb ed="#Qb"/>nunc vel e converso.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum primus homo in statu innocentiae potuit mereri.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur ergo primo si primus homo poterat
+            <lb ed="#Qb"/>illis mereri ante lapsum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod0 sic, videtur: a. Ex puris naturalibus non
+            <lb ed="#Qb"/>poterat quis tunc mereri; unde - A u g u stin u s,
+            <lb ed="#Qb"/>in Enchiridionzz <quote> Sine gratia nec tunc </quote>, id est in
+            <lb ed="#Qb"/>primo statu, <quote> meritum esse potuisset</quote>. Igitur, sib
+            <lb ed="#Qb"/>etiam cum gratia sive gratuitis mereri non po<lb ed="#Qb"/>tuisset, 
+            status ille fuisset pessimus, cum sine.
+            <lb ed="#Qb"/>merito nullus pervenisset ad gloriam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, gratia sive gratuita modo sunt princi<lb ed="#Qb"/>pium
+            merendi, per se loquendo, I Cor. 15,10:
+            <lb ed="#Qb"/>
+            <quote ana="#Icor15_10">Non ego, sed gratia Dei mecum</quote>; et fuerunt in
+            <lb ed="#Qb"/>statu illo, cum illis mediantibus erat homo gra—
+            <lb ed="#Qb"/>tus Deo, ut ex dictis patet3, et illis solum; ergo
+            <lb ed="#Qb"/>existens in illis per illas poterat mereri.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, gloria est remuneratio gratiae sive
+            <lb ed="#Qb"/>merces, Ioan. I, 16: Gratiam pro gratia, ubi"
+            <lb ed="#Qb"/>Au gust-inus4: <quote> Non solum gratiam, quae plene
+            <lb ed="#Qb"/>gratis datur sine merito, ut fidem, quae per di<lb ed="#Qb"/>lectionem
+            operatur5, ex qua iustus vivitö, sed et
+            <lb ed="#Qb"/>pro ista gratiam d, id est beatitudinem aeternam 2,
+            <lb ed="#Qb"/>quae et merces iustitiae dicitur7 </quote>. Ergo, cum gloria
+            <lb ed="#Qb"/>remuneratur merito, patet quod meritum est ex
+            <lb ed="#Qb"/>gratia. Et hoc est quod subiungitur in Glossa A u<lb ed="#Qb"/>gustinif
+            praedicta 5, ubig dicitur quodh gratia,
+      <quote> quia meritum ex gratia </quote>; et ita idem quod prius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Ubi est pugna, ibi est meritum;
+            <lb ed="#Qb"/>ergo ubi maior pugna, maius meritum et ubi
+            <lb ed="#Qb"/>minor, minus; ergo ubi nulla, nullum; sed in
+            <lb ed="#Qb"/>statu illo nulla potuit esse pugnai ; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, II Tim. 2,5: Non coronabitur nisi
+            <lb ed="#Qb"/>qui legitime certaverit; sed in primo statu non
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>erat certamen; ergo neque corona; ergo'f neque
+            <lb ed="#Qb"/>meritum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, secundum Philosoph um9, virtus est
+            <lb ed="#Qb"/>circa bonum et difficile; igitur, cum meritum sit
+            <lb ed="#Qb"/>mediante virtute,-meritum requirit difficultatem;
+            <lb ed="#Qb"/>sed difficultas non potuit esse in statu illo;
+            <lb ed="#Qb"/>ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, <name ref="#Lombard">Magister</name>, II Sententiarum, 24 dist.,
+            2 cap. 10, dicit quod Adam non meruisset non' con<lb ed="#Qb"/>sentiendo
+            tentationi, quia nullum habebat intus
+            <lb ed="#Qb"/>impellens ad malum. Ergo ad hoc quod sit ibi
+            <lb ed="#Qb"/>meritum, oportet quod sit'" impellens ad malum,
+            <lb ed="#Qb"/>et ita difficultas; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Item, si Adam sine difficultate potuit me<lb ed="#Qb"/>reri,
+            quare non,similiter sancti in patria?
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo quod-gratuita habuerunt efficaciam
+            <lb ed="#Qb"/>merendi in statu ante lapsum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum obiectum contra
+            <lb ed="#Qb"/>hoc, scilicet quod 'ubi est pugna, ibi est meri<lb ed="#Qb"/>tum
+            ' etc.: dicendum quod, licet ubi est pugna,
+            <lb ed="#Qb"/>ibi sit'1 meritum etc., non tamen ubi nulla est
+            <lb ed="#Qb"/>pugna, nullum est meritum, quia meritum est
+            <lb ed="#Qb"/>sine pugna. Viri enim sancti frequenter merentur
+            <lb ed="#Qb"/>quando in nulla sunt pugna, ut quando sunt in
+            <lb ed="#Qb"/>iucunditate contemplationis. — Si obiciatur
+            <lb ed="#Qb"/>de statu, scilicet quod qui est extra statum pu<lb ed="#Qb"/>gnandi,
+            est extra statum " merendi: dicendum
+            <lb ed="#Qb"/>quod, si hoc sit verum, hoc est solummodo in
+            <lb ed="#Qb"/>statu naturae lapsae, qui non est sine pugna, quia
+            <lb ed="#Qb"/>caro concupiscit adversus spiritum, ad Gal. 5, 17;
+            <lb ed="#Qb"/>aliter fuit in statu naturae conditae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad illud quod obicitur quod ' non corona<lb ed="#Qb"/>bitur'
+            etc., dicendum " quod duplex est corona
+            <pb ed="#Qb" n="757"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>beatorum: una, quae respicit praemium substan<lb ed="#Qb"/>tiale,
+            et haec respondet radici meriti sive'z caritati ;
+            <lb ed="#Qb"/>alia, quae respicit praemium accidentale superad<lb ed="#Qb"/>ditum
+            substantiali, quae proprie respondet trium<lb ed="#Qb"/>pho
+            sive victoriae vitiorum habitae per conflictum
+            <lb ed="#Qb"/>sive certamen: et de hac loquitur Apostolus. Quod
+            <lb ed="#Qb"/>patet ex verbis illiusb; dicit enim: Qui certat
+            <lb ed="#Qb"/>in agone, non coronabitur nisi f legitime certa<lb ed="#Qb"/>verit
+            ". Unde illa corona, quae respondet triumpho
+            <lb ed="#Qb"/>habito de vitiis, non habetur nisi post legitimum
+            <lb ed="#Qb"/>certamen nec istam obtinuisset primus homo me<lb ed="#Qb"/>rito
+            gratuitorum, sed aliam tantum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad aliude quod obicitur quod "virtus est
+            <lb ed="#Qb"/>circa bonum et difficile' etc.: dicendum quod
+            <lb ed="#Qb"/>sicut duplex est meritum, duplex est difficultas.
+            <lb ed="#Qb"/>Est enim meritum dimissionis poenae, et hoc
+            <lb ed="#Qb"/>est meritum satisfactionisf, et est meritumg glo<lb ed="#Qb"/>riae;
+            sic duplex esth difficultas: uno modo di<lb ed="#Qb"/>citur
+            difficile, id est laboriosum, et hoc modo
+            <lb ed="#Qb"/>difficile requiritur ad meritum satisfactionis; alio
+            <lb ed="#Qb"/>modo dicitur difficile quod est super omnes vires
+            <lb ed="#Qb"/>naturae: et hoc modo difficile requiritur ad me—
+            <lb ed="#Qb"/>ritum gloriae, quae est supra naturam. Illa ergo
+            <lb ed="#Qb"/>difficultate, quae requiritur ad meritum dimis<lb ed="#Qb"/>sionis
+            poenae, non meruisset quis ante lapsum,
+            <lb ed="#Qb"/>sed solummodo illa quae est in elevatione ali<lb ed="#Qb"/>cuius
+            supra propriam naturam. Verbum autem
+            <lb ed="#Qb"/>Philosophi, dicentis quod virtus est circa
+            <lb ed="#Qb"/>difficile et bonum ', intelligendum est habito
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>respectu ad statum naturae lapsae, non naturae
+            <lb ed="#Qb"/>conditae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad illud quod dicit <name ref="#Lombard">Magister</name> quod *pri—
+            <lb ed="#Qb"/>mus homo non meruisset non consentiendo ten<lb ed="#Qb"/>tationi,
+            quia non habuit impellens' etc.: dicendum
+            <lb ed="#Qb"/>quodk quidam dicunt quodl <name ref="#Lombard">Magister</name> intel<lb ed="#Qb"/>lexit
+            de merito dimissionis poenae. Sed quia
+            <lb ed="#Qb"/>meritum dimissionis poenae esse non poterat,
+            <lb ed="#Qb"/>dummodo esset status ille, videtur'" haec respon<lb ed="#Qb"/>sio
+            impertinens ad propositum. Propter hoc aliter
+            <lb ed="#Qb"/>potest dici ', scilicet" quod est meritorium quan<lb ed="#Qb"/>tum
+            est de genere operis et est meritorium quan<lb ed="#Qb"/>tum
+            est 0 ex radice caritatis. Meritorium de genere
+            <lb ed="#Qb"/>operis dicitur quod est meritorium eo quod est
+            <lb ed="#Qb"/>opus virtutis de se: hoc autem arduum et diffi<lb ed="#Qb"/>cile;
+            alio modo dicitur meritorium omne opus,
+            <lb ed="#Qb"/>quodcumque sit, dum tamen ex radiCe caritatis
+            <lb ed="#Qb"/>procedat. Vult ergo <name ref="#Lombard">Magister</name> dicere quod in
+            <lb ed="#Qb"/>resistendo tentationi Adae non fuisset meritum,
+            <lb ed="#Qb"/>si non habuisset gratiam nec primo modo nec
+            <lb ed="#Qb"/>secundo. Si vero restitisset ex caritate, meritorium
+            <lb ed="#Qb"/>fuisset secundo!" modo, non primo. In nobis
+            <lb ed="#Qb"/>autem4 semper est meritorium vel utroque modo
+            <lb ed="#Qb"/>vel saltem altero, scilicet propter difficultatem ad
+            <lb ed="#Qb"/>bonum et pronitatem ad malum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad ultimum dicendum quod non est si<lb ed="#Qb"/>mile
+            de sanctis, quia iam non sunt in statu me<lb ed="#Qb"/>rendi,
+            Adam autem erat in statu viatoris, et ita
+            <lb ed="#Qb"/>patet quod' non est simile.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum gratuita erant efficaciora ante lapsum quam post.</head>
+          <p>
+            <lb ed="#Qb"/>Sequitur inquirere utrum gratuita erant effica<lb ed="#Qb"/>ciora
+            ante lapsum quam post.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod sic, videtur: 1. Nobiliori perfectibili no<lb ed="#Qb"/>biliors
+            debetur perfectio3; quialt ergo homo in
+            <lb ed="#Qb"/>statu innocentiae multo nobilior erat quam nunc,
+            <lb ed="#Qb"/>multo" nobiliora habebat gratuita 4.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, habitus cognitivae nobilior erat et me<lb ed="#Qb"/>lior
+            tunc quam, nunc; cognitio ergo maior erat
+            <lb ed="#Qb"/>et perfectior: iniIicta est enim homini ignorantia
+            <lb ed="#Qb"/>per culpam primorum parentum; sed, si" cognitio
+            <lb ed="#Qb"/>fuit perfectior, et dilectio similiter, secundum il<lb ed="#Qb"/>lud
+      <name ref="#Augustine">Augustini</name>5: <quote> Quantum cognoscis, tantum
+            <cb ed="#Qb" n="b"/>
+              <lb ed="#Qb"/>diligis </quote>; sed secundum quantitatem caritatis sive
+            <lb ed="#Qb"/>dilectionis sunt gratuita efficaciora; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, fides in statu illo, utx ex verbis Hugo<lb ed="#Qb"/>nis5
+            patet, maior fuit et? excellentior illa quae
+            <lb ed="#Qb"/>fuit post lapsum; a simili videtur quod dilectio
+            <lb ed="#Qb"/>sive caritas maior fuerit in statu ante lapsum
+            <lb ed="#Qb"/>quam illa quae fuit post et aliae virtutes simi<lb ed="#Qb"/>liter;
+            et ita ut prius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, <quote>albius est quod est nigro imper<lb ed="#Qb"/>mixtius7
+      </quote> ; ergo magis est meritorium quod mi<lb ed="#Qb"/>nus
+            habet in se de demeritoz; sed omnia merita
+            <lb ed="#Qb"/>nostra quodam modo permixta sunt culpae, se<lb ed="#Qb"/>cundum
+            illud Isai. 64,6: Omnes iustitiae nostrae
+            <pb ed="#Qb" n="758"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>sicut pannus menstruatae. Si ergo in Adam se<lb ed="#Qb"/>cundum
+            statum innocentiae merita omnino fuis<lb ed="#Qb"/>sent
+            impermixta culpae, videtur" quod in statu
+            <lb ed="#Qb"/>illo merita fuissent maiora; sed quantitas me<lb ed="#Qb"/>riti
+            est secundum quantitatem gratuitorum et
+            <lb ed="#Qb"/>efficaciam; ergo gratuita tunc erant maioris ef<lb ed="#Qb"/>ficaciae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Item, meritum est a gratia et libero arbitrio;
+            <lb ed="#Qb"/>quanto igitur liberum arbitrium gratiae magis
+            <lb ed="#Qb"/>obedit, tanto gratia efficacius in actum suum exit;
+            <lb ed="#Qb"/>sed tunc" natura magis erat obediens gratiae
+            <lb ed="#Qb"/>quam nunc, cum est corrupta; ergo tuncc dona
+            <lb ed="#Qb"/>gratuita erant ad merendum efficaciora.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Item, rectitudo iustitiae naturalis magnum
+            <lb ed="#Qb"/>fuit expedimentum gratuitorum et causa efficaciae
+            <lb ed="#Qb"/>eorumdem, sicut concupiscentia noxiorum nunc
+            <lb ed="#Qb"/>est impedimentum; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contrad: a. Tam gratia quam virtutes sunt
+            <lb ed="#Qb"/>divina quaedam et dona Dei, et hoc ante lapsum
+            <lb ed="#Qb"/>et post; sed ante lapsum data erant ad perfi<lb ed="#Qb"/>ciendum
+            naturam institutam, post vero ad reparan<lb ed="#Qb"/>dum
+            naturam destitutam et perficiendum illam';
+            <lb ed="#Qb"/>sed constat quod divina bonitas, omnia optime
+            <lb ed="#Qb"/>ordinans et disponens, non contulit gratuita dona
+            <lb ed="#Qb"/>minoris efficaciae ad reparandum naturam desti<lb ed="#Qb"/>tutam
+            et perficiendum quam ad naturam institutam
+            <lb ed="#Qb"/>perficiendam; ergo post lapsum fuerunt tantae
+            <lb ed="#Qb"/>efficaciae vel maioris quam ante lapsum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, natura destituta ad hoc quod perve—
+            <lb ed="#Qb"/>niat ad finem suum adiutorio indiget maiori
+            <lb ed="#Qb"/>quam natura constituta; ergo, cum dona gratuita,
+            <lb ed="#Qb"/>ut gratia et virtutes, data sint * a summa bonitate,
+            <lb ed="#Qb"/>quae omnibus dat affluenter, Iac. 1,5, in subsidium
+            <lb ed="#Qb"/>et adiutorium naturae, ut illis mediantibus per<lb ed="#Qb"/>veniat
+            ad finem, relinquitur quod gratuita data
+            <lb ed="#Qb"/>post lapsum sunt maioris efficaciaef quam quae
+            <lb ed="#Qb"/>data erant ante lapsum: non enim dedisset uni<lb ed="#Qb"/>cuique
+            affluenter, nisi magis indigenti dona maiora
+            <lb ed="#Qb"/>dedisset. — Quod autem natura humana
+            <lb ed="#Qb"/>magisg indigeat nunc quam in statu
+            <lb ed="#Qb"/>illo, patet per hoc quod multa sunt inflicta ho<lb ed="#Qb"/>mini
+            propter peccata primorum parentum, ex
+            <lb ed="#Qb"/>quibus debilitata est et deteriorata.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, hoc videtur per hoc quod natura in<lb ed="#Qb"/>ferior
+            magis subvenit et efficacius magis indi<lb ed="#Qb"/>genti:
+            quod patet per hoc quod membro laeso
+            <lb ed="#Qb"/>magis et efficacius subvenit natura quam membro
+            <lb ed="#Qb"/>sano, et hoc attestatur eius bonitati; ergo multo
+            <lb ed="#Qb"/>fortius hoc convenit bonitati auctoris naturae;
+            <lb ed="#Qb"/>ergo etc.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>d. Item, status post lapsum est status pugnae:
+            <lb ed="#Qb"/>unde magis impugnatur homo quam ante lapsum;
+            <lb ed="#Qb"/>unde II Tim. 2,5: Non coronabitur nisi qui etc.;
+            <lb ed="#Qb"/>sed has vincendo pugnas gloriosius triumphat
+            <lb ed="#Qb"/>et maiorem meretur coronam; sed maior corona
+            <lb ed="#Qb"/>debetur maiori merito ", maius autem meritum
+            <lb ed="#Qb"/>gratiae maiori sive gratuitis maioribus sivei<lb ed="#Qb"/>maioris
+            efficaciae; ergo, cum homo in statu na<lb ed="#Qb"/>turae
+            lapsae gloriosius triumphat quam ante,
+            <lb ed="#Qb"/>relinquitur quod gratuita habet maiora sivek
+            <lb ed="#Qb"/>maioris efficaciae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>e. Item, habito respectu ad statum naturae lap<lb ed="#Qb"/>sae
+            intelligendum est verbum Philosophiz:
+      <quote> Ars et virtus sunt circa difficilia</quote>; si'- hoc per
+            <lb ed="#Qb"/>se verum est, quanto actus virtutis est difficilior,
+            <lb ed="#Qb"/>tanto virtuosior, et quanto virtuosior, tanto ad
+            <lb ed="#Qb"/>merendum efficacior. Si ergo maior 'est difficultas
+            <lb ed="#Qb"/>in perficiendis divinis" mandatis nunc quam esset
+            <lb ed="#Qb"/>in statu naturae institutae, videtur quod maior
+            <lb ed="#Qb"/>sit merendi efficacia; efficacia autem merendi est
+            <lb ed="#Qb"/>ab efficacia gratuitorum, et ita ut prius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>f. Item, sacramenta priora erant minoris " effi<lb ed="#Qb"/>caciae
+            succedentibus. Unde Hugo, in Sacramen<lb ed="#Qb"/>tis3:
+      <quote> Semper quae tempore posteriora fuerunt,
+            <lb ed="#Qb"/>effectu gratiae spiritualis digniora inveniuntur</quote>.
+            <lb ed="#Qb"/>Ex hoc verbo patet quod gratia in sacramentis
+            <lb ed="#Qb"/>sive sacramentalis minoris erat" efficaciae in
+            <lb ed="#Qb"/>primis temporibus quam sit nunc. Similiter vi<lb ed="#Qb"/>detur
+            quod gratiaP in virtutibus et ipsae virtutes,
+            <lb ed="#Qb"/>quae efficaciam habent a gratia, non fuerunt tantae .
+            <lb ed="#Qb"/>efficaciae primo quantae sunt nunc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>g. Item, secundum quod magis appropinquavit
+            <lb ed="#Qb"/>ab initio adventus Salvatoris, maior erat effectus
+            <lb ed="#Qb"/>salutis. Unde- Hugo4: <quote> Sciendum quod divinae
+            <lb ed="#Qb"/>dispensationis ordo et ratio hoc poscunt? ut
+            <lb ed="#Qb"/>sicut ab initio, procurrente' tempore, magis sem<lb ed="#Qb"/>per
+            ac magis adventus Salvatoris appropinquaf
+            <lb ed="#Qb"/>vit, sic semper magis ac magis effectus salutis
+            <lb ed="#Qb"/>cresceret et cognitio veritatis </quote>. Sed maior ef<lb ed="#Qb"/>fectus
+            salutis est ex maiori efficacia gratuitorum,
+            <lb ed="#Qb"/>et ita ut prius.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeos quod loqui possumus de efficacia
+            <lb ed="#Qb"/>gratuitorum secundum comparationem personae
+            <lb ed="#Qb"/>ad personam aut status adistatum. Si primo
+            <lb ed="#Qb"/>modo, sic se haberent sicut excedentia et excessa.
+            <lb ed="#Qb"/>Probabiliter enim praesumi potest quod aliqui
+            <lb ed="#Qb"/>fuerunt post lapsum qui maiorem gratiam ha—.
+            <lb ed="#Qb"/>buerunt et in meritis efficaciorem quam aliqui
+            <lb ed="#Qb"/>qui fuissent in statu innocentiae, si status ille
+            <lb ed="#Qb"/>perseverasset, aliqui vero minorem, sicut creditur
+            <pb ed="#Qb" n="759"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>de personis existentibus currente Lege Moysi et
+            <lb ed="#Qb"/>existentibus currente Lege evangelica. Si secundo
+            <lb ed="#Qb"/>modo, id est si comparetur generaliter status ad
+            <lb ed="#Qb"/>statum, adhuca occurrit duplex consideratio, quia
+            <lb ed="#Qb"/>gratia sive virtutes possunt considerari vel in
+            <lb ed="#Qb"/>comparatione ad illos quos informant etb perfi<lb ed="#Qb"/>ciunt,
+            hoc est ad suscipientes, vel in se sive
+            <lb ed="#Qb"/>secundum se. Si considerantur in comparatione
+            <lb ed="#Qb"/>ad suscipientes, quia efficacia gratiae et virtutum
+            <lb ed="#Qb"/>maior est ex idoneitate suscipientis, quae quidem
+            <lb ed="#Qb"/>idoneitas est ex consentaneitate voluntatis et
+            <lb ed="#Qb"/>promptitudine obediendi sive subiciendi se ipsi
+            <lb ed="#Qb"/>gratiae et virtutibus, potest dici quod gratia:
+            <lb ed="#Qb"/>et virtutes efficaciores erant in statu naturae con<lb ed="#Qb"/>ditae
+            quam in statu naturae lapsae. Si consi<lb ed="#Qb"/>derentur
+            gratia et virtutes secundum se, non
+            <lb ed="#Qb"/>usquequaque certum est in quo statu Dominus
+            <lb ed="#Qb"/>gratiam contulerit maiorem et virtutes poten<lb ed="#Qb"/>tiores
+            sive efficaciores, pro eo quod magnitudo
+            <lb ed="#Qb"/>gratiae distributae et efficacia virtutum attenditur
+            <lb ed="#Qb"/>secundum discretionem distribuentis, quae cogni—
+            <lb ed="#Qb"/>tionem nostram latet, et etiam secundum maiorem
+            <lb ed="#Qb"/>praeparationem ex parte suscipientis. Pie tamen
+            <lb ed="#Qb"/>et non omnino absque probabilitate supponendum
+            <lb ed="#Qb"/>est quod maiora munera gratiae et virtutum lar<lb ed="#Qb"/>gitus
+            est homini lapso quam dedisset homini, si
+            <lb ed="#Qb"/>in statu innocentiae permansisset, tum quia homo
+            <lb ed="#Qb"/>maiori gratiae adiutorio indiget, tum etiam quia
+            <lb ed="#Qb"/>decet Deum de malo maius bonum elicere quam
+            <lb ed="#Qb"/>sit illud bonum, quod adimendo malum nocet 1.
+            <lb ed="#Qb"/>Ex hac ergo duplici ratione, quarum una est in
+            <lb ed="#Qb"/>commendatione misericordiae divinae, alia in com<lb ed="#Qb"/>mendatione
+            sapientiae, non irrationabiliter colli<lb ed="#Qb"/>gitur
+            quod dona gratuita secundum se sint ma<lb ed="#Qb"/>iora
+            et efficaciora post lapsum quam ante, et
+            <lb ed="#Qb"/>maxime post adventum Salvatoris 2, qui mediator
+            <lb ed="#Qb"/>et intercessor pro nobis interpellat 3, quem decet
+            <lb ed="#Qb"/>exaudiri in omnibus pro sua reverentia, Hebr. 5, 7.
+            <lb ed="#Qb"/>Unde, cum appareat vultui Dei semper ad inter<lb ed="#Qb"/>pellandum
+            pro nobis, Hebr. 7, 25, et pro nobis in
+            <lb ed="#Qb"/>cruce oblatus fuerit et quotidie offeratur, valde
+            <lb ed="#Qb"/>probabile videtur quod maiusf' munus gratiae
+            <lb ed="#Qb"/>tribuatur nobis quam si ipse non fuisset incar<lb ed="#Qb"/>natus
+            vele pro nobis oblatus. Et hoc expresse
+            <lb ed="#Qb"/>videturf innui Ioan. 7, 39 3, cum dicitur quod Spi<lb ed="#Qb"/>ritus
+            nondum erat datus, quia Iesus nondum erat
+            <lb ed="#Qb"/>glorificatus. Unde, cum ascendit in altum, tunc
+            <lb ed="#Qb"/>dedit dona hominibus 4.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1.Ad illud quod primo obi<lb ed="#Qb"/>citur
+            contra hoc, per hoc scilicet quod ' nobiliori
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>perfectibili debetur nobilior perfectio ': dicendum
+            <lb ed="#Qb"/>quod hoch verum est de perfectibili et perfec<lb ed="#Qb"/>tione
+            quantum ad esse primum, quia sibi invicem
+            <lb ed="#Qb"/>respondent" secundum quamdam praecisionem et
+            <lb ed="#Qb"/>adaequationem; gratia autem et virtutes perficiunt
+            <lb ed="#Qb"/>quantum ad esse secundum. Praeterea, haec, sci<lb ed="#Qb"/>licet
+            gratia et virtutes, sunt pure gratuita et se<lb ed="#Qb"/>cundum
+            libitum et electionem Dei collata, qui
+            <lb ed="#Qb"/>quandoque personae viliori, quantum est de na<lb ed="#Qb"/>turalibus,
+            gratiam confert maiorem et nobiliori
+            <lb ed="#Qb"/>minorem, secundum iudicium profunditatis sa<lb ed="#Qb"/>pientiae
+            illius, humanae scientiae incomprehensi<lb ed="#Qb"/>bile,
+            iuxta illud ad Rom. 11,33: <quote ana="#rom11_33">O altitudo divi<lb ed="#Qb"/>tiarum</quote>
+            etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad illud quod obicitur quod 'habitus
+            <lb ed="#Qb"/>cognitivae erat meliori et efficacior ante lapsum
+            <lb ed="#Qb"/>quam post' etc.: dicendum quod hoc verum est,
+            <lb ed="#Qb"/>sed hoc non est in ratione illa qua gratuitus est,
+            <lb ed="#Qb"/>sed hoc est propter potentiamk cognitivam, quae
+            <lb ed="#Qb"/>demerito peccati obnubilata est, et ignorantiam in<lb ed="#Qb"/>flictaml.
+            Sicut enim videtur manifeste in visiva
+            <lb ed="#Qb"/>exteriori quod, licet ipsa potentia secundum se
+            <lb ed="#Qb"/>non recipiat variationem deteriorationis, nihilo<lb ed="#Qb"/>minus
+            melius videt iuvenis quam senex propter
+            <lb ed="#Qb"/>defectum organi, similiter est in proposito. —
+            <lb ed="#Qb"/>Ad hoc quod dicitur quod'quantum cogno<lb ed="#Qb"/>scis
+            m, tantum diligis' etc.: dicendum quod hoc
+            <lb ed="#Qb"/>intelligitur de cognitione et dilectione ad invicem
+            <lb ed="#Qb"/>comparatis in statu uno, scilicet vel in statu na<lb ed="#Qb"/>turae
+            lapsae vel conditae, non autem in diversis.
+            <lb ed="#Qb"/>In statu enim naturae lapsae quantum cognoscis,
+            <lb ed="#Qb"/>tanturn diligis, et in alio similiter. Nec intelligitur "
+            <lb ed="#Qb"/>de quacumque cognitione, sed de illa quae est
+            <lb ed="#Qb"/>experientiae sive sapientiae, quae est cum gustu;
+            <lb ed="#Qb"/>et0 etiam quae dico 'tantum, quantum', non dicunt
+            <lb ed="#Qb"/>praecisionem, sed proportionemP in genere, sub
+            <lb ed="#Qb"/>hoc sensu: si multum cognoscis, multum diligis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad illud quod obicitur de fide *quae vi<lb ed="#Qb"/>detur
+            fuisseq tunc excellentior et efficacior quam
+            <lb ed="#Qb"/>illa quae est nunc' etc.: dicendum quod, sicut
+            <lb ed="#Qb"/>tactum est 5, gratuita in statu innocentiae habebant
+            <lb ed="#Qb"/>efficaciam quamdam ex ordinatione et obedientia
+            <lb ed="#Qb"/>potentiarum ipsius animae et subiectione respectu
+            <lb ed="#Qb"/>gratuitorum; uncle efficacius movebant et ipsam
+            <lb ed="#Qb"/>affectivam' et ipsam Operativam quam faciant
+            <lb ed="#Qb"/>nunc.sive quandos amissa rectitudine naturali
+            <lb ed="#Qb"/>inclinatus est affectus per concupiscentiam et
+            <lb ed="#Qb"/>operativa debilitata. Et sic comparatione fidei
+            <lb ed="#Qb"/>et aliarum virtutum ad potentias recipientes,
+            <lb ed="#Qb"/>bene potest concedi quod habebant quamdam
+            <pb ed="#Qb" n="760"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>efficaciam in statu illo quam post non habuerunt.
+            <lb ed="#Qb"/>Unde bene potest concedi quod secundum hanc
+            <lb ed="#Qb"/>comparationem fide tunc purius et quietius ad<lb ed="#Qb"/>haerebant
+            primae veritatiï; nec propter hoc ne<lb ed="#Qb"/>cesse
+            est quod fides et aliae virtutes, secundum
+            <lb ed="#Qb"/>se consideratae, essent tunc maioris efficaciae
+            <lb ed="#Qb"/>quam nunc. Si autem loquamurvde visione fidei,
+            <lb ed="#Qb"/>potest dici quod, quia visiva interior nullatenus
+            <lb ed="#Qb"/>erat obnubilata, luculentior fuit quam sit modo:
+            <lb ed="#Qb"/>unde clara fuit tunc et sine aenigmate; et quan<lb ed="#Qb"/>tum
+            ad hoc, ut vult Hugo, fides tunc erat maior
+            <lb ed="#Qb"/>et efficacior, non tamen ut est virtus sive habitus
+            <lb ed="#Qb"/>virtutisz.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad aliud " quod obicitur quod albius est
+            <lb ed="#Qb"/>quod est nigro impermixtius etc.: dicendum
+            <lb ed="#Qb"/>quod efficacia meriti ex pluribus venit, scilicet
+            <lb ed="#Qb"/>ex difficultate operis, ex promptitudine voluntatis,
+            <lb ed="#Qb"/>ex magnitudine caritatis et consequenter aliarum
+            <lb ed="#Qb"/>virtutum. Difficultas enim operis multum
+            <lb ed="#Qb"/>valet ad meritum, ut patetb in operibus super<lb ed="#Qb"/>erogativis,
+            quorum quaedam efficaciter disponunt
+            <lb ed="#Qb"/>ad augmentum gratiae et per consequens ad
+            <lb ed="#Qb"/>augmentum meriti; in aliquo autem, ut in marty<lb ed="#Qb"/>rio,
+            augmentatur gratia et meritum similiter.—
+            <lb ed="#Qb"/>Promptitudo etiam voluntatis plurimum
+            <lb ed="#Qb"/>facit ad meritum. Quantacumque enim sit gratia
+            <lb ed="#Qb"/>in homine, nisi sit voluntas gratiae consentanea,
+            <lb ed="#Qb"/>nunquam elicit opera meritoria; et quanto magis
+            <lb ed="#Qb"/>voluntas gratiae subiacet et conformatur, tanto
+            <lb ed="#Qb"/>fructuosius homo in operibus meritoriis exerce<lb ed="#Qb"/>tur;
+            prompta enim voluntate et hilari operantes
+            <lb ed="#Qb"/>plus merentur quam illi qui minus sunt huius<lb ed="#Qb"/>modi;
+            propter hoc dicitur: Hilarem datorem di<lb ed="#Qb"/>ligit
+            Deus, 11 Cor. 9, 7. — Magnitudo cari<lb ed="#Qb"/>tatis
+            efficacissime facit ad meritum, quia secun<lb ed="#Qb"/>dum
+            illius quantitatem attenditur remuneratio
+            <lb ed="#Qb"/>praemii substantialis: pondus enim amoris opera
+            <lb ed="#Qb"/>meritoria facit esse ponderis et valoris. Quantum
+            <lb ed="#Qb"/>ergo ad primam conditionem, scilicet difficultatem,
+            <lb ed="#Qb"/>efficaciores sunt virtutes nunc quam tunc fuerunt.
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Nunc enim magis impugnatur et impugnando
+            <lb ed="#Qb"/>probatur et examinatur virtus quam tunc, sicut
+            <lb ed="#Qb"/>patet in exercentibus se in operibus supereroga<lb ed="#Qb"/>tivis
+            et maxime in martyribus. Quantum ad se<lb ed="#Qb"/>cundam
+            conditionem, scilicet promptitudinem vo<lb ed="#Qb"/>luntatis,
+            efficaciores fuissent virtutes in merendo
+            <lb ed="#Qb"/>tunc quam nunc, quia voluntas tunc continua
+            <lb ed="#Qb"/>fuisset in bonis operibus Deo placentibus sine
+            <lb ed="#Qb"/>retardatione; nunc autem, sive ex fatigatione
+            <lb ed="#Qb"/>sive ex surreptione, frequenter cessat' a bonis
+            <lb ed="#Qb"/>operibus et nocivis intendit et inutilibus, tum
+            <lb ed="#Qb"/>propter difficultatem ad bonum, tum propter pro<lb ed="#Qb"/>nitatem
+            ad malum. — Ad ide ergo quod obi<lb ed="#Qb"/>citur
+            quod ' meritum magis erat impermixtum in
+            <lb ed="#Qb"/>statu innocentiae, etc.: dicendum quod hoc est
+            <lb ed="#Qb"/>ex eo quod voluntas non est nunc 4 ita prompta et
+            <lb ed="#Qb"/>consentanea gratiae sicut fuit tunc, propter gra<lb ed="#Qb"/>vitatem
+            carnis coniunctae et pronitatem concu<lb ed="#Qb"/>piscentiae
+            contractae. Potest ergo concedi quod
+            <lb ed="#Qb"/>secundum quod efficacia merendi venit ex promp<lb ed="#Qb"/>titudine
+            voluntatis, sic erant tunc gratuita effica<lb ed="#Qb"/>ciora
+            quam nunc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad aliude quod obicitur, scilicet quod
+            ' liberum arbitrium magis obediebat gratiae etc. .,
+            <lb ed="#Qb"/>iam patet responsio, quia dictum est3 quod quan<lb ed="#Qb"/>tum
+            ad promptitudinem voluntatisf, quod idem
+            <lb ed="#Qb"/>dicit in re quod obedientia prompta liberi arbi<lb ed="#Qb"/>trii,
+            efficaciores erant tunc virtutes ad merendum
+            <lb ed="#Qb"/>quam nunc. Ex iis tamen non sequitur quod
+            <lb ed="#Qb"/>gratia et virtutes secundum se erant maiores et
+            <lb ed="#Qb"/>efficaciores quam sint nunc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>6. Ad illud quod obicitur quod naturalis
+            <lb ed="#Qb"/>rectitudo erat tunc magnum expedimentum etc.,
+            <lb ed="#Qb"/>iam patet responsio, quia8 ex illa naturali recti<lb ed="#Qb"/>tudine
+            erat voluntas prompta et omnino consen<lb ed="#Qb"/>tanea
+            gratiae, et, licet ita sit quod efficaciores
+            <lb ed="#Qb"/>erant virtutes ex hoc, non tamen ex hoc sequitur
+            <lb ed="#Qb"/>quod ipsae secundum se et sua propria volun<lb ed="#Qb"/>tate
+            erant tunc efficaciores quam sint nunc, sicut
+            <lb ed="#Qb"/>ex dictis patet.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

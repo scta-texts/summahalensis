@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 4</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="170"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m1c4">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 4</head>
+        <head type="question-title">DE COMPARATIONE UNIUS COGNITIONIS AD ALIAM.</head>
+        <p>
+          <lb ed="#Qb"/>Quarto quaeritur de comparatione unius cogni<lb ed="#Qb"/>.
+          tionisl ad aliam, quae potior sit 4.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad quod sic: a. Melius cognoscuntur res in arte
+          <lb ed="#Qb"/>qua fiunt quam in ipsis rebus, sicut dicit A u<lb ed="#Qb"/>gustinus,
+          in libro De civitate Dei5; et idem
+          <lb ed="#Qb"/>super illud Ioan. 1,45: Quod factum est, in ipsa
+          <lb ed="#Qb"/>vita erat: <quote> Arca vivit in mente </quote>; quod fit, transit
+          <lb ed="#Qb"/>cum tempore; sed cognitio rerum in arte est in
+          <lb ed="#Qb"/>ipso Verbo '", rerum in se ipsis in proprio genere;
+          <lb ed="#Qb"/>ergo potior est cognitio in Verbo quam quae est
+          <lb ed="#Qb"/>in proprio genere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, melius cognoscuntur res, cum cogno<lb ed="#Qb"/>scuntur"
+          secundum quod habent esse immutabi—
+          <lb ed="#Qb"/>liter" quam secundum quod habent esse muta<lb ed="#Qb"/>biliter;
+          sed in " Verbo habent esse immutabiliter,
+          <lb ed="#Qb"/>in proprio genere mutabiliter 'I, et in hoc et in'
+          <lb ed="#Qb"/>illo cognoscuntur prout ibi sunt; ergo potior est
+          <lb ed="#Qb"/>cognitio rerum in Verbo quam in proprio genere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, <name ref="#Augustine">Augustinus</name>, Ad Orosium7: <quote> Plus
+          <lb ed="#Qb"/>videtur creatura in Verbo quam in se ipsa videa<lb ed="#Qb"/>tur;
+          plus videtur in arte, in qua fit, quam in se
+          <lb ed="#Qb"/>ipsa videatur</quote>. Unde <name ref="#Augustine">Augustinus</name>, in: XI
+          <lb ed="#Qb"/>De civitate Dei, 7 cap.8: <quote> Scientia creaturae in
+          <lb ed="#Qb"/>comparatione scientiae Creatoris quodammodo
+          <lb ed="#Qb"/>advesperascit; itemque * lucescit et mane fit,
+          <lb ed="#Qb"/>cum ipsa refertur ad laudem dilectionemque"
+          <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Creatoris, nec in noctem vergitur, ubi non Crea<lb ed="#Qb"/>tor
+          creaturae dilectione relinquitur </quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, ibidem: <quote>Cognitio creaturae" in se
+          <lb ed="#Qb"/>ipsa decoloratior est, ut ita dicam, quam cum" in
+          <lb ed="#Qb"/>Dei sapientia cognoscitur, velut in arte qua facta
+          <lb ed="#Qb"/>est; ideox vesperaquam nox congruentius dici
+          <lb ed="#Qb"/>potest</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Item, matutinum, secundum quod huiusmodi,
+          <lb ed="#Qb"/>nobilius est vespertino; ergo cognitio matutina
+          <lb ed="#Qb"/>potior est cognitione vespertina.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Potior est cognitio qua res distincte
+          <lb ed="#Qb"/>cognoscuntur quam qua indistincte; sed in pro<lb ed="#Qb"/>prio
+          genere cognoscuntur distincte, in Verbo vero
+          <lb ed="#Qb"/>indistincte; ergo potior est cognitio in proprio
+          <lb ed="#Qb"/>genere quam in Verbo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, sicut se habet esse ad esse, ita cognitio
+          <lb ed="#Qb"/>ad cognitionem 9, curn cognitio rei sequatur eSSe
+          <lb ed="#Qb"/>eiusdem et iuxta proprietates essendi sumatur ra<lb ed="#Qb"/>tio
+          cognoscendi; sed esse rei in proprio genere
+          <lb ed="#Qb"/>est esse simpliciter, esse in Verbo est esse se—
+          <lb ed="#Qb"/>cundum quid; ergo et cognitio; sed rei cognitio 7,
+          <lb ed="#Qb"/>quae est cognitio simpliciter, potior est quam illa
+          <lb ed="#Qb"/>quae estz secundum quid; ergo etc.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, si B cognoscitur per A, ita quod propria
+          <lb ed="#Qb"/>ratio cognoscendi sit A, si A non cognoscitur nisi
+          <lb ed="#Qb"/>per privationem, ergo nec B; a simili arguitur:
+          <lb ed="#Qb"/>constat enim quod Verbum est ratio cognitionis
+          <pb ed="#Qb" n="171"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>angeli, cum cognoscit in Verbo; sed ipsum Ver<lb ed="#Qb"/>bum
+          non contingit cognoscere nisiül per priva<lb ed="#Qb"/>tionem,
+          ut videtur per hoc quod dicitur 1 Tim.
+          <lb ed="#Qb"/>ultimo, 16: Qui habitat lucem inaccessibilem. Et
+          <lb ed="#Qb"/>hoc ostendit Dionysius ' ; dicit enim quod cer<lb ed="#Qb"/>tiores
+          sunt de Deo negationes quam affirmationes:
+          <lb ed="#Qb"/>licet enim multae affirmationes de Deo sintb ve<lb ed="#Qb"/>rae,
+          tamen incertae, sed negationes" sunt certis—
+          <lb ed="#Qb"/>simae, ut quod non est leo "' aut lapis aut aliquid
+          <lb ed="#Qb"/>huiusmodi; ergo angelus cognoscit res in Verbo
+          <lb ed="#Qb"/>solummodo privative; sed talis cognitio non est
+          <lb ed="#Qb"/>certitudinalis; sed cognitio rerum in proprio e
+          <lb ed="#Qb"/>genere est certitudinalis; potior autem estf co<lb ed="#Qb"/>gnitio
+          certitudinalis non certitudinali; quare ut
+          <lb ed="#Qb"/>prius.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, videtur quod nullo modo possint angeli
+          <lb ed="#Qb"/>cognoscere res in Verbo, quoniam Verbum est
+          <lb ed="#Qb"/>infinitae lucis, potentia autem angeli finita est et"
+          <lb ed="#Qb"/>res, quae cognoscitur, finita; sed non videtur
+          <lb ed="#Qb"/>quod finitum copuletur finito per infinitum; quod
+          <lb ed="#Qb"/>esset, si diceretur quod angelus cbgnosceret res
+          <lb ed="#Qb"/>in Verbo vel quod Verbum esset ratio secundum
+          <lb ed="#Qb"/>quam uniretur intelligibile cum intelligentes; quod
+          <lb ed="#Qb"/>cum videatur impossibile, videtur quod angelus
+          <lb ed="#Qb"/>non possit res in Verbo cognoscere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondeo, secundum <name ref="#Augustine">Augustinum</name>, Super
+          <lb ed="#Qb"/>Genesim ad litteram 2, et Ad Orosium3: potior
+          <lb ed="#Qb"/>est cognitio quae est" in Verbo quam quae est
+          <lb ed="#Qb"/>in proprio genere, quoniam in Verbo cognoscitur
+          <lb ed="#Qb"/>res aeternaliter et incorruptibiliter et ut in causa,
+          <lb ed="#Qb"/>sed in proprio genere ut temporaliter et ut cor<lb ed="#Qb"/>ruptibiliterf
+          et ut create; sed nobilior et potior
+          <lb ed="#Qb"/>est istak cognitio quam illa:-quemadmodum enim
+          <lb ed="#Qb"/>dicimus quod certius cognoscemus' res in futuro
+          <lb ed="#Qb"/>quam modo, quia in futuro cognoscemus -in Verbo,
+          <lb ed="#Qb"/>modo autem cognoscimus in proprio genere, ita
+          <lb ed="#Qb"/>dicimus quod melius cognoscunt angeli res in
+          <lb ed="#Qb"/>Verbo quam in proprio genere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo obiectum dicimus
+          <lb ed="#Qb"/>quod Deus uno et eodem cognoscit res distincte,
+          <lb ed="#Qb"/>scilicet se ipso, et ideo dicimus quod potissima
+          <lb ed="#Qb"/>est sua" cognitio, cum uno et eodem modo possit
+          <lb ed="#Qb"/>cognoscere plura 4, et impotentia est intellectus
+          <lb ed="#Qb"/>creati quod non possit cognoscere plura nisi'"
+          <lb ed="#Qb"/>pluribus. Sicut enim dicimus quod nobilior
+          <lb ed="#Qb"/>est" motus unius motoris habentis virtutem plu<lb ed="#Qb"/>rium
+          0 quam plurium habentium solum huiusmodi
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>virtutem, ita dicimus quod de nobilitate Dei est
+          <lb ed="#Qb"/>quod uno et eodem" possit cognoscere plura et
+          <lb ed="#Qb"/>distincta: illud enim unum habet virtutem, ipso.
+          <lb ed="#Qb"/>manente uno b, distinguendi res ipsas. Non ehim
+          <lb ed="#Qb"/>est Deus sicut speculum materialec, quod secun<lb ed="#Qb"/>dum
+          unam speciem non potest distinguere plura,
+          <lb ed="#Qb"/>sed est etiam distinctivumd ipsarum, et ideo sol<lb ed="#Qb"/>vendum
+          est per interemptionem. — Ad id quod
+          <lb ed="#Qb"/>obicitur quod angelus in Verbo cognoscit res in<lb ed="#Qb"/>distincte:
+          dicendum ! quod potest eas ibi cogno<lb ed="#Qb"/>scere
+          distincte, non quia sit distinctio in Verbo,
+          <lb ed="#Qb"/>sed in rebus ipsis a Verbo, et ipsum speculum
+          <lb ed="#Qb"/>angelicum in recipiendo easf distincte recipit:
+          <lb ed="#Qb"/>unde Deus facit in angelo huiusmodi distinctionem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum dicendumg quod esse re<lb ed="#Qb"/>runi
+          in Primo est esse h simpliciter, quoniam
+          <lb ed="#Qb"/>illud esse nihil aliud est quam esse "Primi, se<lb ed="#Qb"/>cundum
+          quod dicit <name ref="#Anselm">Anselmus</name>5 quod <quote>crea<lb ed="#Qb"/>tura
+          in Creatore nihil aliud est quam creatrix
+          <lb ed="#Qb"/>essentia </quote>. Non enim dicimus quod lapis habeat
+          <lb ed="#Qb"/>esse lapidis in Deo, et sic de aliis, sed esse,
+          <lb ed="#Qb"/>quod habet in Deo, est esse increatum, et ideo
+          <lb ed="#Qb"/>est esse simpliciter, quoniami quidquid est in
+          <lb ed="#Qb"/>ipso, ut est in ipso, est ipse. Non sic in anima,
+          <lb ed="#Qb"/>in qua sunt species rerum, quaelc non-sunt ipsa
+          <lb ed="#Qb"/>anima, et ideo, cum cognitio sequatur esse, ma<lb ed="#Qb"/>nifestum
+          est quod simpliciter' est cognoscere res
+          <lb ed="#Qb"/>in Verbo. Unde etiam dicit Philosophusü,
+          <lb ed="#Qb"/>quod cognoscere causatum in causa est ipsum
+          <lb ed="#Qb"/>cognoscere simpliciter; et'" multo magis in causa
+          <lb ed="#Qb"/>prima, quae supra omnem causam est, sicut est
+          <lb ed="#Qb"/>causa prima.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum quod aliter est in
+          <lb ed="#Qb"/>cognitione nostra quam angelorum, secundum
+          <lb ed="#Qb"/>quod ostendit Bernardus, in 5 homilia Super
+          <lb ed="#Qb"/>Cantica " 7, dicens: <quote> Supercaelestis spiritus abs<lb ed="#Qb"/>que
+          adiutorio corporis et absque intuitu ho<lb ed="#Qb"/>rum
+          quae per corpus sentiuntur, sola proiecto"
+          <lb ed="#Qb"/>suae vicinitate ac. vivacitate naturae sufficit ap<lb ed="#Qb"/>prehendere
+          summa et intima penetrare. An non
+          <lb ed="#Qb"/>hoc Apostolus intellexit qui, cum dicerets: <quote>Invi<lb ed="#Qb"/>sibilia
+          Dei per ea, quae facta sunt, intellecta
+          <lb ed="#Qb"/>conspiciuntur, adiecit protinus: a? creatura mundi?</quote>
+            <lb ed="#Qb"/>nimirum quoniam a creatura Caeli non ita. Quo *?
+          <lb ed="#Qb"/>enim is involutus carne ac ' terrae incola spiritus
+          <lb ed="#Qb"/>ex consideratione sensibilium proficiens, gradatim
+          <lb ed="#Qb"/>quodammodo paulatimque nititur pervenire, eo ille
+          <pb ed="#Qb" n="172"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>caelestium habitator ingenua subtilitate ac" su<lb ed="#Qb"/>blimitate
+          sua in omni facilitate pertingit, nullo
+          ,utique sensus corporei adminiculo fultus, nullo
+          <lb ed="#Qb"/>corporei membri adiutus officio, nullo corporeae
+          <lb ed="#Qb"/>cuiuscumque rei reformatus intuitu </quote>. Et idemb
+          <lb ed="#Qb"/>subdit exempla notabilia dicens: <quote> Cur enim inter
+          <lb ed="#Qb"/>corpora'spirituales scruteturc sensus, quos in
+          <lb ed="#Qb"/>libro vitae et absque contradictione legit ** et abs<lb ed="#Qb"/>que
+          difficultate intelligit? Cur in sudore vultus
+          <lb ed="#Qb"/>sui laboret excutere grana de paleis, de vineis
+          <lb ed="#Qb"/>uvas et de amurcae oleum, qui de omnibus satis
+          <lb ed="#Qb"/>abundeque ad manum habet? Quis mendicet vic<lb ed="#Qb"/>tum
+          suum, in domo sua abundans panibus? Quis
+          <lb ed="#Qb"/>puteum fodere curat et inf terrae visceribus ve<lb ed="#Qb"/>nas
+          aquarum cum labore rimari, cui ultroe affatim
+          <lb ed="#Qb"/>aquas limpidas fons vivus emanat? </quote>. Idem dicit
+          <lb ed="#Qb"/>
+          <name ref="#Augustine">Augustinus</name>, Super Genesim ad litteram, II
+          <lb ed="#Qb"/>libro, circa medium 1: <quote> Neque enim, sicut nos,
+          <lb ed="#Qb"/>ad percipiendam sapientiam eius proficiebant
+          <lb ed="#Qb"/>angeli, ut invisibilia Dei/1 per ea, quae facta
+          <lb ed="#Qb"/>sunt, intellecta conspicerent, qui, ex quo' facti
+          <lb ed="#Qb"/>sunt, ipsa aeternitate sancta et pia contem<lb ed="#Qb"/>platione
+          perfruuntur</quote>. Facit ergo Bernardus
+          <lb ed="#Qb"/>vim 'in hoc quod dicit "a creatura mundi ', id est
+          <lb ed="#Qb"/>a creatura humana, et non dicit a creatura caeli,
+          <lb ed="#Qb"/>id est a creatura angelica, quasi diceret: licet in<lb ed="#Qb"/>tellectus
+          humanus veniat ad cognitionem invi<lb ed="#Qb"/>sibilium
+          per creaturas, non tamen intellectus
+          <lb ed="#Qb"/>angelicus. Secundum hoc ergo dicimus quod ve<lb ed="#Qb"/>rum
+          est quod creatura humana, quantum est de
+          <lb ed="#Qb"/>se, nunquam venit ad " cognitionem invisibilium,
+          <lb ed="#Qb"/>sed solum aut per privationem aut per effectus,
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Secundum etiam quod'dicit Dionysiusz. Verbi
+          <lb ed="#Qb"/>gratia per privationemfsicut si velim scire quid
+          <lb ed="#Qb"/>est Deus, inducendo in creaturis, removendo eas
+          <lb ed="#Qb"/>a Deo, ut dicatur quod * non est lapis aut equus,
+          <lb ed="#Qb"/>et sic de aliis: et' sic con'icitur' quod est super
+          <lb ed="#Qb"/>omnem creaturam. Alio modo per effectus eius
+          <lb ed="#Qb"/>repertos in creaturis, sicut si dicatur lhaec crea<lb ed="#Qb"/>tura
+          est bona, et non est bona a- se, ergo ab
+          <lb ed="#Qb"/>alio'; sed tunc quaeritur: vel ab alia creatura
+          <lb ed="#Qb"/>vel'" ab alio quam a creatura; et tunc conici<lb ed="#Qb"/>tur"
+          quod'ab alio quam. a creatura; et tunc
+          <lb ed="#Qb"/>conicitur aliquam " substantiam eSSe increatam
+          <lb ed="#Qb"/>primam, quoniam non est abire inP infinitum 3.
+          <lb ed="#Qb"/>Sed sic non est in angelo, sed angelus cognoscit
+          <lb ed="#Qb"/>Deum vel per ipsum vel per similitudinem ab ipso
+          <lb ed="#Qb"/>acceptam, et ideo certissima est eius cognitio
+          <lb ed="#Qb"/>qua cognoscit res in Verbo, quoniam per ipsum
+          <lb ed="#Qb"/>Verbum cognoscit Verbum et per ipsum alia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad ultimum dicimus quoniam, etsi lu<lb ed="#Qb"/>men
+          increatum ? sit infinitum, quantum est de se,
+          <lb ed="#Qb"/>tamen intelligens secundum sui possibilitatem
+          <lb ed="#Qb"/>ipsum recipit, et ita finite: omne enim receptum
+          <lb ed="#Qb"/>est in recipiente per modum recipientis, et non
+          <lb ed="#Qb"/>per modum recepti 4, et hoc magis explanatum
+          <lb ed="#Qb"/>est in Quaestione' de visione sive cognitione
+          <lb ed="#Qb"/>Dei 5, ubi ostensum est quomodos Deus, licet
+          <lb ed="#Qb"/>sit infinitae virtutis, tamen se contemperat intel—
+          <lb ed="#Qb"/>ligenti, ut ipsum possit recipere secundum suam
+          <lb ed="#Qb"/>possibilitatem. — Nec valet oppositio ' si per in'<lb ed="#Qb"/>finitum
+          virtute intelligatur finitum': non enim
+          <lb ed="#Qb"/>oportet intellectum pertransire illud ut est infi<lb ed="#Qb"/>nitum,
+          sed attingere illud ut est.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

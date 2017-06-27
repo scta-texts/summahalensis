@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 5</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 5</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="172"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai2t3s2q1t2m1c5">
+        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 1, C. 5</head>
+        <head type="question-title">UTRUM COGNITIO, QUA COGNOSCUNT ANGELI VERBUM, SIT MATUTINA AUT VESPERTINA.</head>
+        <p>
+          <lb ed="#Qb"/>Quinto quaeritur utrum cognitio, qua cognoscit
+          <lb ed="#Qb"/>angelus Verbum, sit matutina aut vespertina.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et videtur quod non matutina: 1. Quoniam
+          <lb ed="#Qb"/>aliud est intueri lumen solis et rem in lumine
+          <lb ed="#Qb"/>solis; ergo similiter aliud et aliud est intueri
+          <lb ed="#Qb"/>Verbum et res in Verbo, et alius modus intuendi
+          <lb ed="#Qb"/>videtur; sed cognitio rerum in Verbo dicitur ma<lb ed="#Qb"/>tutina;
+          ergo cognitio ipsius Verbi non videtur
+          <lb ed="#Qb"/>dici matutina; et constat quod non dicitur ve<lb ed="#Qb"/>spertina.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, cum dicitur Gen. 1,5-8: <quote>dies unus
+          <lb ed="#Qb"/>vel secundus</quote> etc., 'dies' ibi accipitur praesentia
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>luminis aeterni super creaturam angelicam quam
+          <lb ed="#Qb"/>illuminat, et haec praesentia est in conversione ad
+          <lb ed="#Qb"/>lumen aeternum; sed non possunt converti ad
+          <lb ed="#Qb"/>illud et illud non cognoscere; ergo in conver<lb ed="#Qb"/>tendo
+          cognoscunt ipsum lumen; sed postmodum
+          <lb ed="#Qb"/>subditur5: Factum est vespere et mane etc. Ergo
+          <lb ed="#Qb"/>ex ordine verborum videtur quod istat cognitio
+          <lb ed="#Qb"/>non fuit matutina aut vespertina.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Angelus cognoscit Verbum et res in
+          <lb ed="#Qb"/>Verbo per ipsum Verbum ; ergo utrobique est idem
+          <lb ed="#Qb"/>principium cognoscendi; ergo eadem est cognitio
+          <lb ed="#Qb"/>in specie; sed illa est matutina qua cognoscunt"
+          <lb ed="#Qb"/>res in Verbo per Verbum; ergo et reliqua 7.
+        </p>
+        <p>
+                <pb ed="#Qb" n="173"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>[Solutio]: Ad hoc respondendum" per aucto<lb ed="#Qb"/>ritatem
+    <name ref="#Augustine">Augustini</name>, Ad Orosium 1, dicentis sic:
+          <lb ed="#Qb"/>
+          <quote> Hoc intelligi posse arbitror quod non in ipso
+          <lb ed="#Qb"/>die, tamquam eius bono indigens quo sit beatior,
+          <lb ed="#Qb"/>requievit, sed ipsum diem septimum, id est an<lb ed="#Qb"/>gelicam
+          naturam, adduxisse ad requiem suam, ut
+          <lb ed="#Qb"/>viderent ", scilicet in Deo, sicut omnem forman<lb ed="#Qb"/>dam
+          creaturam, ita et illum viderent c, quod nul<lb ed="#Qb"/>lam
+          creaturam pro indigentia, sedd sola boni<lb ed="#Qb"/>tate
+          fecisset</quote>. Ex quo videtur quod eadem est
+          <lb ed="#Qb"/>cognitio qua vident angelit Verbum et qua vi<lb ed="#Qb"/>dent
+          res in Verbo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primo obiectum dicendum
+          <lb ed="#Qb"/>quod non est simile de visione solis et eius quod
+          <lb ed="#Qb"/>videtur in lumine solisf et de cognitione Verbi et
+          <lb ed="#Qb"/>eius quod videtur in Verbo. Visio enim alicuius
+          <lb ed="#Qb"/>in lumine solis non est idem quod visio solis,
+          <lb ed="#Qb"/>visio autem alicuius in Verbo est idem quod vi<lb ed="#Qb"/>sio
+          Verbi: res enim in Verbo est idem quod
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>ipsum Verbum, visum autem in sole non est idem
+          <lb ed="#Qb"/>quod sol. Cum ergo matutina vel diurna2 dicatur
+          <lb ed="#Qb"/>visio illas! quae est cognitio rei in Verbo, dicetur
+          <lb ed="#Qb"/>similiter matutina sive diurna ipsa cognitio Verbi.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundum dicendum quod, licet prae<lb ed="#Qb"/>mittatur
+          de factura lucis antequam dicaturf' de
+          <lb ed="#Qb"/>vespere et mane, nihilominus tamen ipsa lux
+          <lb ed="#Qb"/>comprehendit in se mane et vespere, ut in hoc
+          <lb ed="#Qb"/>intelligatur omnis cognitio angelica quae procedit
+          <lb ed="#Qb"/>ex perfectione ipsius angeli. Omnis enim cognitio
+          <lb ed="#Qb"/>vel est in principio vel est in iis quae sunt a
+          <lb ed="#Qb"/>principio; cognitio autem in principio est cogni<lb ed="#Qb"/>tio
+          principii: principium enim se ostendit et alia
+          <lb ed="#Qb"/>quae sunt in illo, et ideo cognitio ipsius principii
+          <lb ed="#Qb"/>dicetur cognitio matutina sive diurna' ; cognitio
+          <lb ed="#Qb"/>autem quaek ortum habet ab iis quae sunt a
+          <lb ed="#Qb"/>principio, licet fiat ex praesentia luminis divini
+          <lb ed="#Qb"/>effective, non tamen formaliter: et ideo talis co<lb ed="#Qb"/>gnitio
+          non dicitur matutina, sed vespertina.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

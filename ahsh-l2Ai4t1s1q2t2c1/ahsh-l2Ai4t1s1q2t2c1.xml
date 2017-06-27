@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 2, T. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 2, T. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="398"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s1q2t2c1">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 1, Q. 2, T. 2, C. 1</head>
+        <head type="question-title">UTRUM ANIMA HUMANA SIT COMPOSITA EX MATERIA ET FORMA.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter, quia est una consideratio inqui<lb ed="#Qb"/>rendi
+          utrum habeat causam formalem et
+          <lb ed="#Qb"/>utrum habeat causam materia!em, secundum quod
+          <lb ed="#Qb"/>forma est illud quod cum materia constituit to<lb ed="#Qb"/>tum, 
+          restat inquirere si anima humana compo<lb ed="#Qb"/>sita
+          sit ex materia et forma: de illa enim est
+          <lb ed="#Qb"/>nostra intentio principalis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod videtur a. per hoc quod dici t Bo e t h i u s,
+          <lb ed="#Qb"/>in libro De Trinita te 4: <quote> In omni eo quod est citra
+          <lb ed="#Qb"/>Primum est hoc et hoc </quote>, et loquitur de iis quae
+          <lb ed="#Qb"/>sunt substantiae per se, ad differentiam formae
+          <lb ed="#Qb"/>et materiae, qui a a !iter . esset ab ire in infinitum;
+          <lb ed="#Qb"/>sed anima humana est talis, quia est per se exi<lb ed="#Qb"/>stens:
+          quod patet ex separa tione et ex d motu;
+          <lb ed="#Qb"/>ergo habet in se <quote>hoc et hoc</quote>; sed hoc non erit ma<lb ed="#Qb"/>teria
+          et materia vel forma et forma: alterum enim
+          <lb ed="#Qb"/>esset supervacuum; ergo erunt e i!la duo materia
+          <lb ed="#Qb"/>et forma; ergo anima habet materiam et formam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, Dionysius 5 : <quote> Post monadem sequitur
+          <lb ed="#Qb"/>binarius </quote>; sed prima monas est Deus; ergo cum
+          <lb ed="#Qb"/>sequatur primus binarius- et! non loquitur de binario
+          <lb ed="#Qb"/>composito ex illa unitate, sed de rebus se
+          <lb ed="#Qb"/>habentibus per modum numerorum: sicg enim dicit
+          <lb ed="#Qb"/>Bo e t h i u s 6 quod omnia, qua e su n t a prima arte,
+          <lb ed="#Qb"/>numerorum ratione videntur esse formata h- ergo,
+          <lb ed="#Qb"/>cum non sit nisi primus binarius 7 materiae et
+          <lb ed="#Qb"/>formae, erunt i substantiae spirituales quae imme<lb ed="#Qb"/>diate
+          sunt post prima m substantiam, qua e est Deus, '
+          <lb ed="#Qb"/>ut angelus et anima, habentes materiam et formam.
+        </p>
+        <p>
+          <lb ed="#Qb"/>c. Item, nihil est agens et recipiens secundum
+          <lb ed="#Qb"/>idem in se omnino 8 ; cum ergo agere con venia t
+          <lb ed="#Qb"/>formae et recipere materiae, erit anima humana
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>habens utrumque, et ita composita; et haec ratio
+          <lb ed="#Qb"/>cum praedictis extendit k se ad alias animas.
+        </p>
+        <p>
+          <lb ed="#Qb"/>d. Item, in anima humana est intellectus quo est
+          <lb ed="#Qb"/>omnia facere et quo est omnia fieri sive agens
+          <lb ed="#Qb"/>et possibilis 9, et iste non est ili e; ergo, cum intel<lb ed="#Qb"/>lectus
+          possibilis sit potentia respondens parti
+          <lb ed="#Qb"/>receptivae, intellectus agens parti activae, necesse
+          <lb ed="#Qb"/>est ante istam pluralitatem potentiarum 1 esse
+          <lb ed="#Qb"/>pluralitatem partium essentialium.
+        </p>
+        <p>
+          <lb ed="#Qb"/>e. Item, omne agens, cuius actio non est m sua
+          <lb ed="#Qb"/>substantia, est agens non per se totum n, sed per
+          <lb ed="#Qb"/>aliquid sui: et loquor de per se agentibus; sed
+          <lb ed="#Qb"/>omnis agentis praeter Deum est actio non sua
+          <lb ed="#Qb"/>substantia 10 ; ergo animae; ergo anima habet aliquid
+          <lb ed="#Qb"/>sui per quod agi t; ergo non est omnino
+          <lb ed="#Qb"/>shnplex, sed composita.
+        </p>
+        <p>
+          <lb ed="#Qb"/>f. Item, anima est movens corpus ,; et nihil idem
+          <lb ed="#Qb"/>secundum o substantiam est movens et motum 11 ;
+          <lb ed="#Qb"/>ergo anima P est substantia praeter corpus et
+          <lb ed="#Qb"/>maxime h umana; sed, cum ipsa si t substantia
+          <lb ed="#Qb"/>praeter corpus, habet quod patitur, sicut cum
+          <lb ed="#Qb"/>punitur, et quod agit, sicut cum convertit se super
+          <lb ed="#Qb"/>cognoscibilia; ergo, cum actio et passi o . dicant
+          <lb ed="#Qb"/>multiplicitatem oppositorum accidentium q, necesse
+          <lb ed="#Qb"/>est oppositionem r principiorum praecedere.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Augusti nus, in libro De quantitate
+          <lb ed="#Qb"/>animae 12 : <quote>Simplex natura animae dici
+          potest, quia ex aliis naturis non est</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, Augustinus, in libro De anima et
+          <lb ed="#Qb"/>spiritu: <quote>Anima est substantia s spiritualis, simplex,
+          indissolubilis</quote>.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Item, omnis essentia nobilior est quam sua po<lb ed="#Qb"/>tentia
+          vel ad minus aeque nobilis; sed intellectus
+          <pb ed="#Qb" n="399"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>est potentia animae et est simplex; ergo eius 
+          <lb ed="#Qb"/>essentia erit simplex.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Item, anima humanaa est ad imaginem Dei,
+          <lb ed="#Qb"/>sicut dicit <name ref="#Augustine">Augustinus</name> 1, quiab anima humana
+          <lb ed="#Qb"/>habet vires suas ad quamdam imaginem Trinitatis
+          <lb ed="#Qb"/>summae, ut sunt memoria, intelligentia etc vo<lb ed="#Qb"/>luntas:
+          una mens, una essentia, una vita, sicut
+          <lb ed="#Qb"/>Pater et Filius et Spiritus Sanctusd sunt una
+          <lb ed="#Qb"/>essentia. Sicut ergo pluralitas personarum non
+          <lb ed="#Qb"/>repugnat simplicitati essentiae divinaez, ita nec
+          <lb ed="#Qb"/>pluralitas virium repugnabit simplicitati animae
+          <lb ed="#Qb"/>humanae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Item, si formam contingit esse simplicem,
+          <lb ed="#Qb"/>non compositam scilicet ext materia et forma,
+          <lb ed="#Qb"/>et ibi esse statum, propter quid non potest anima
+          <lb ed="#Qb"/>humana esse simplex, non habens formam par<lb ed="#Qb"/>tem
+          sui, sed quod ipsa sit forma?
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, angelus et anima humana conveniunt
+          <lb ed="#Qb"/>in genere et differunt in specie3; sedf omnia
+          <lb ed="#Qb"/>sic convenientia et differentia habent genus et
+          <lb ed="#Qb"/>differentiam; ergo hanc compositionem habent,
+          <lb ed="#Qb"/>et propter hoc, licet habeant hanc compositio<lb ed="#Qb"/>nem,
+          nihil prohibet simplicitatem habere. — Sed
+          <lb ed="#Qb"/>huic videtur obviare quod dicitur4 illi com—
+          <lb ed="#Qb"/>positioni rationali altera compositiog respondere
+          <lb ed="#Qb"/>in natura, scilicet quae est ex materia et forma.
+          <lb ed="#Qb"/>Aliqui 5 etiam volebant dicere quod anima
+          <lb ed="#Qb"/>habet compositionem in hoc tantum quodh ipsa
+          <lb ed="#Qb"/>est non se ipsa, 'sed dependens secundum esse'
+          <lb ed="#Qb"/>suum a Deo, et ideol dicatur in ea differre 'quod
+          <lb ed="#Qb"/>est' et 'quo est'. Sed nosk non inquirimus hic
+          <lb ed="#Qb"/>hanc differentiam: sic enim formae essent compo<lb ed="#Qb"/>sitae,
+          quae sunt creatae in materia; sed nos loqui<lb ed="#Qb"/>mur
+          de compositione ex materia et forma, prout di<lb ed="#Qb"/>citur
+          forma materiae non per se subsistere, sed
+          <lb ed="#Qb"/>in materia, animam vero per se subsistere, non
+          <lb ed="#Qb"/>tantum in materia, et ita formam non habere
+          <lb ed="#Qb"/>compositionem, sed animam. Eodem modo forma
+          <lb ed="#Qb"/>non movet suam materiam localiter, quia non
+          <lb ed="#Qb"/>est quid actu praeter suam materiam ; anima vero
+          <lb ed="#Qb"/>movet ipsum corpus quod est perfectum ab ea,
+          <lb ed="#Qb"/>et ideo non dicitur tantum forma, sed in se
+          <lb ed="#Qb"/>substantia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]5: Ad quod dicendum quod anima hu<lb ed="#Qb"/>mana
+          dicitur composita ex forma et materia intel<lb ed="#Qb"/>lectuali.,
+          Nullatenus autem sic habet materiam et
+          <lb ed="#Qb"/>formam sicut dicuntur corpora habere materiam
+          <lb ed="#Qb"/>et formam, sive sint caelestia sive inferiora:
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>materiae enim corporalis terminus est magnitudo 7,
+          <lb ed="#Qb"/>spiritualis autem materiae non est terminus; et
+          <lb ed="#Qb"/>ideo 1, in libro De generatione, dicit'" Philoso<lb ed="#Qb"/>phuss:
+    <quote>Impossibile est materiam esse absque
+          <lb ed="#Qb"/>magnitudine </quote>, loquens de materia corporali.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Ad. obiecta autem in contrarium respondendum:
+          <lb ed="#Qb"/>1. Ad primum" quod simplex, cum dicitur de
+          <lb ed="#Qb"/>anima et de angelo, intelligitur in comparatione,
+          <lb ed="#Qb"/>scilicet ad corpora quae habent compositionem
+          <lb ed="#Qb"/>ex partibus quantitativis, prout dicitur quod cor<lb ed="#Qb"/>pus
+          est ex corporibus ut est divisibile in infini<lb ed="#Qb"/>tum;
+          sed non dicitur simplex absolute: sic enim
+          <lb ed="#Qb"/>convenit Deo esse simplicem 9.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad illud quod dicit <name ref="#Augustine">Augustinus</name> animam
+          <lb ed="#Qb"/>esse indissolubilem et ita non compositam: dicen<lb ed="#Qb"/>dum0
+          quod compositum est dissolubile secundum
+          <lb ed="#Qb"/>- intellectum, sed non quod pars stet extra partem;
+          <lb ed="#Qb"/>sed anima dicitur indissolubilis, quia non desinit
+          <lb ed="#Qb"/>esse: fit enim ibi sermo de anima rationali, et ideo
+          <lb ed="#Qb"/>non est hoc de ratione animae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>3. Ad tertium dicendum quod, licet essentia
+          <lb ed="#Qb"/>dicatur nobilior quam sua potentia in hoc quod
+          <lb ed="#Qb"/>potentia dependet ab essentia et non e converso,
+          <lb ed="#Qb"/>non tamen in simplicitate opposita compositioni .
+          <lb ed="#Qb"/>principiorum oportet esse nobiliorem P, quia sicut
+          <lb ed="#Qb"/>intellectus est simplex comparatione ad vires
+          <lb ed="#Qb"/>sensibiles, ita anima simplex est comparatione
+          <lb ed="#Qb"/>ad sensibilem et vegetabilem.
+        </p>
+        <p>
+          <lb ed="#Qb"/>4. Ad quartum dicendum quod, licet anima
+          <lb ed="#Qb"/>dicatur ad imaginem divinae q Trinitatis, quia
+          <lb ed="#Qb"/>pluralitas virium est unius essentiae, respondeo
+          <lb ed="#Qb"/>quod hoc '. non est tota ratio, sed quia pluralitas
+          <lb ed="#Qb"/>est talium virium, memoriae, intelligentiae et
+          <lb ed="#Qb"/>voluntatis, quae sic se habent ut intelligentia sit
+          <lb ed="#Qb"/>a memoria et voluntas ab utroque. Secundum
+          <lb ed="#Qb"/>autem intellectum possibilem et agentem non est
+          <lb ed="#Qb"/>anima humana ad imaginem: non enim in DeoS
+          <lb ed="#Qb"/>est intellectus possibilis sive materialis. Et ideo
+          <lb ed="#Qb"/>recte loquendo, licet illa pluralitas non attestetur
+          <lb ed="#Qb"/>multiplicitati sive compositioni essentiae, haec
+          <lb ed="#Qb"/>pluralitas attestatur compositioni essentiae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>5. Ad quintum dicendum quod non est simile
+          <lb ed="#Qb"/>de forma et anima: forma enim, praeter hoc quod
+          <lb ed="#Qb"/>est materiae forma, non habet aliquam actuali<lb ed="#Qb"/>tatem;
+          sed anima praeter hoc quod est anima,
+          <lb ed="#Qb"/>habet virtutem quamdam secundum quam diciturt
+          <lb ed="#Qb"/>habere compositionem propriam, cui respondet
+          <lb ed="#Qb"/>agere et pati, etiam cum est separata.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

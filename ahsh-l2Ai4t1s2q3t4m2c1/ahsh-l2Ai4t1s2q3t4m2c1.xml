@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n=""/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q3t4m2c1">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 3, T. 4, M. 2, C. 1</head>
+        <head type="question-title">UTRUM CONSCIENTIA SIT POTENTIA VEL HABITUS.</head>
+        <p>
+          <lb ed="#Qb"/>Quod autem non sit potentia, sic videtur: 1.
+          <lb ed="#Qb"/>Quia<!--b--> conscientia dicitur erronea et recta,
+          <lb ed="#Qb"/>tranquilla et perturbata; sed ista nulli potentiae
+          <lb ed="#Qb"/>conveniunt; ergo 0 conscientia non est potentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, conscientia est scientia qua aliquis sibi
+          <lb ed="#Qb"/>conscius est; sed scientia non est potentia, sed
+          <lb ed="#Qb"/>habitus; ergo conscientia est habitus d.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Quod autem non sit habitus 8, videtur: a. Quia
+          <lb ed="#Qb"/>conscientia in damnatis est poena; sed nullus ha<lb ed="#Qb"/>bitus
+          est eis poena; ergo conscientia non est ha<lb ed="#Qb"/>bitus.
+        </p>
+        <p>
+          <lb ed="#Qb"/>6. Item, conscientia dicitur aliquando munda,
+          <lb ed="#Qb"/>aliquando immunda; sed nullus habitus immun<lb ed="#Qb"/>dus
+          aliquando potest esse mundus nec e converso;
+          <lb ed="#Qb"/>ergo conscientia non est habitus<!-- f-->.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Item, videtur quod nec sit potentia nec ha<lb ed="#Qb"/>bitus.
+          c. Dicit enim Damascenus 1 quod <quote>con<lb ed="#Qb"/>scientia
+          est lex nostri intellectus </quote>; sed lex non
+          <lb ed="#Qb"/>dicitur potentia vel habitus; ergo nec conscientia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 2. Ad quod dicendum quod conscien<lb ed="#Qb"/>tia
+          tripliciter accipitur. Aliquando enim accipitur
+          <lb ed="#Qb"/>pro eo quod conscimus 3, et sic conscientia nec est
+          <lb ed="#Qb"/>potentia nec habitus, sicut nec scibile in anima
+          <lb ed="#Qb"/>proprie dicitur potentia vel habitus, et sic accipitur
+          <lb ed="#Qb"/>a Ioanne Damascenoz, cum dicitur <quote> conscien—
+          <lb ed="#Qb"/>tia est'l lex nostri intellectus </quote>. Aliquando vero
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>accipitur pro eo quoi conscii sumus, et sic .di<lb ed="#Qb"/>citur.
+          habitus, quo Scilicet conscimus, et sic pro<lb ed="#Qb"/>cedebat
+          s ec unda 0 bi e cti 0, quae dicebat quod
+          <lb ed="#Qb"/>conscientia est scientia. Tertio modo accipitur con<lb ed="#Qb"/>scientia
+          pro ipsa potentia habente vel recipiente il<lb ed="#Qb"/>lud
+          quod conscimus, secundum quod dicitur quod
+          <lb ed="#Qb"/>lex mentis nostrae scripta est in conscientia; et
+          <lb ed="#Qb"/>sic dicitur conscientia naturalis potentia animae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>1. Ad hoc quod obicitur quod 'conscientia
+          <lb ed="#Qb"/>dicitur esse recta vel erronea, tranquilla vel per<lb ed="#Qb"/>turbata
+          *, munda vel immunda ', quod non convenit
+          <lb ed="#Qb"/>potentiae naturali': dicendum'" quod conscientia
+          <lb ed="#Qb"/>accipitur ibi pro habitu acquisito, qui scilicet re<lb ed="#Qb"/>linquitur
+          in anima ex eo quod conscitur; unde
+          <lb ed="#Qb"/>concedo quod secundum hunc modum non di<lb ed="#Qb"/>citur
+          potentia primo et principaliter.
+        </p>
+        <p>
+          <lb ed="#Qb"/>a. Quod autem obicitur quod "conscientia in
+          <lb ed="#Qb"/>damnatis est poena': dicendum quod conscientia
+          <lb ed="#Qb"/>accipitur ibi pro afflictione consequente, non pro
+          <lb ed="#Qb"/>habitu vel pro" potentia.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Cum autem dicitur quod 'conscientia dicitur
+          <lb ed="#Qb"/>esse munda vel immunda ', accipitur pro poten<lb ed="#Qb"/>tia,
+          quae dicitur aliquando munda, adveniente
+          <lb ed="#Qb"/>gratia, aliquando immunda, adveniente culpa.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Et sic patet Solutio ad omnia obiecta per di<lb ed="#Qb"/>stinctionem
+          conscientiae supra dictam 3.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 1, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="425"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t1s2q1c2">
+        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 1, C. 2</head>
+        <head type="question-title">DE POTENTIARUM DISTINCTIONE.</head>
+        <p>
+          <lb ed="#Qb"/>Consequenter, supposito quod anima non est<lb ed="#Qb"/>
+          <lb ed="#Qb"/>suae vires secundum essentiam, licet aliquo
+          <lb ed="#Qb"/>modo secundum substantiam, quaeritur:
+          <lb ed="#Qb"/>Utrum' una sit vis tantum aut plures;
+          <lb ed="#Qb"/>secundo, si plures, utrum omnes debeant dici
+          <lb ed="#Qb"/>partes animae an quaedam sic '" et quaedam non;
+          <lb ed="#Qb"/>tertio, secundum quid accipiatur divisio vi<lb ed="#Qb"/>rium.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I</head>
+          <head type="question-title">Utrum in anima sit una vis tantum aut plures.</head>
+          <p>
+            <lb ed="#Qb"/>Quod autem una sit vis tantum, arguitur
+            <lb ed="#Qb"/>1. ex hoc quod virtus in spiritualibus sequi vi<lb ed="#Qb"/>detur
+            formam; 'ab unitate ergo formae sequitur
+            <lb ed="#Qb"/>unitas virtutis. Sicut enim in corporalibus uni<lb ed="#Qb"/>tatem
+            formae sequitur unitas naturae — forma
+            <lb ed="#Qb"/>autem dicitur in quantum perficit esse 5, natura
+            <lb ed="#Qb"/>in quantum est principium motus5 —- sic in
+            <lb ed="#Qb"/>spiritualibus forma dicitur in quantum perficit
+            <lb ed="#Qb"/>esse, virtus vero- in quantum est principium
+            <lb ed="#Qb"/>actus. Ex hoc ergo" videtur quod una de—
+            <lb ed="#Qb"/>beret esse virtus animae, cum sit una forma;
+            <lb ed="#Qb"/>vel si anima-rationalis est una forma, prout
+            <lb ed="#Qb"/>autem est" sensibilis, est alia forma, prout est
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>vegetabilis, alia, sicut dicunt quidam7, adhuc
+            <lb ed="#Qb"/>non dicerentur nisi tres vires secundum terna<lb ed="#Qb"/>rium
+            formarum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Praeterea, in Primo est unitas virtutis sicut
+            <lb ed="#Qb"/>unitas essentiae; in creatura autem, cum non sit
+            <lb ed="#Qb"/>repugnantia ut una sit virtus sicut una est?
+            <lb ed="#Qb"/>essentia, quemadmodum repugnat creaturae ut
+            <lb ed="#Qb"/>virtus sit idem omnino quod essentia — hoc enim
+            <lb ed="#Qb"/>dicitur proprium Dei — possibile estq ergo crea<lb ed="#Qb"/>turam
+            aliquam in hoc assimilari Primo; illa autem
+            <lb ed="#Qb"/>convenienter' est spiritualis, ut angelus aut anima
+            <lb ed="#Qb"/>rationalis; habebit ergo unitatem virtutis quemad<lb ed="#Qb"/>modum
+            unitatem essentiae 8.
+         </p>
+          <p>
+                  <pb ed="#Qb" n="426"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>Contra: a. Divisi o entis per unum et multa
+            <lb ed="#Qb"/>prior est quam per idem et diversum t. Si ergo
+            <lb ed="#Qb"/>debet accipi differentia inter Creatorem et crea<lb ed="#Qb"/>turam
+            quantum ad virtutem, accipietur a prius
+            <lb ed="#Qb"/>penes unitatem et pluralitatem quam penes iden<lb ed="#Qb"/>titatem
+            et diversitatem. Sicut ergo creatura differt
+            <lb ed="#Qb"/>a Creatore in hoc quod virtus in creatura non
+            <lb ed="#Qb"/>est omnino idem quod sua essentia, sic differet b
+            <lb ed="#Qb"/>in hoc quod habet per pluralitatem virtutis quod
+            <lb ed="#Qb"/>habet Creator per virtutis c indivisionem, ut Crea<lb ed="#Qb"/>tor
+            una virtute agat omne quod agit; creatura vero
+            <lb ed="#Qb"/>agat pluribus virtutibus differentia d.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, anima rationalis ad imaginem
+            <lb ed="#Qb"/>condita est ipsius Creatoris; sed in Creatore est
+            <lb ed="#Qb"/>unitas essentiae et virtutis et differentia perso<lb ed="#Qb"/>nalis;
+            ergo in anima erit praeter unitatem essen<lb ed="#Qb"/>tiae
+            aliqua p l uralitas; nonnisi viri um; ergo anima
+            <lb ed="#Qb"/>habet pluralitatem virium aut virtutum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio] 2 : Ad quod dicendum quod anima
+            habet pluralitatem virium e.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obieeta]: l. Ad primo autem obiectumf
+            <lb ed="#Qb"/>in contrarium dicendum g quod non est simile de
+            <lb ed="#Qb"/>virtute respectu formae quae est substantia, et h
+            <lb ed="#Qb"/>de natura. Natura enim i proprie et primo respicit
+            <lb ed="#Qb"/>multiplicationem formae in materia 3 , in quibus est
+            <lb ed="#Qb"/>possibile multiplicari, sicut natura ignis ut multi<lb ed="#Qb"/>plicet
+            formam ignis, et si respicit k alium modum,
+            <lb ed="#Qb"/>hoc est in quantum ad hunc ordinatur. In illis
+            <lb ed="#Qb"/>autem in quibus non est multiplicatio formae, ut
+            <lb ed="#Qb"/>in sole et huiusmodi, determinat speciem motus,
+            <lb ed="#Qb"/>ut uni natura e unus 1 respondeat motus; virtus
+            <lb ed="#Qb"/>autem respicit actum, actus autem diversi sunt ..
+            <lb ed="#Qb"/>essentiae compositae; oportet ergo intercidere
+            <lb ed="#Qb"/>diversitatem virium.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. A d se c un d u m dicendum m quod differen<lb ed="#Qb"/>tia
+            creaturae ad Creatorem non tantum o attendi<lb ed="#Qb"/>tur
+            in hoc quod non .est idem virtus quod essen<lb ed="#Qb"/>tia
+            P, sed in hoc quod unius q essentiae perfectae
+            <lb ed="#Qb"/>sunt plures virtutes quae particulariter agunt, cum
+            <lb ed="#Qb"/>ipsum Primum una virtute universaliter agat.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II</head>
+          <head type="question-title">Utrum omnes potentiae debeant dici partes animae</head>
+          <p>
+            <lb ed="#Qb"/>Deinde quaeritur utrum omnes vires debeant
+            <lb ed="#Qb"/>dici partes aut quaedam sic a et quaedam non.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Quod omnes, videtur 1. per hoc quod anima
+            <lb ed="#Qb"/>dicitur esse totum virtuale b, partes autem eius ·
+            <lb ed="#Qb"/>su n t vires ve! virtutes c: toti enim respondet pars;
+            <lb ed="#Qb"/>ergo quaelibet potentia debet dici pars animae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: a. In sensibili d quinque sensus non
+            <lb ed="#Qb"/>sunt quinque partes animae; similiter in vegeta<lb ed="#Qb"/>bili,
+            augrnentativa, nutritiva, generativa e non di<lb ed="#Qb"/>cuntur 
+            tres partes animae, quemadmodum dicimus
+            <lb ed="#Qb"/>partem inteltectivam, sensitivam et t vegetativam;
+            <lb ed="#Qb"/>ergo non omnis potentia pars est animae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Praeterea, videtur quod nulla potentia sit
+            <lb ed="#Qb"/>pars anirnae. Dicit enim Augusti nus 5 : " Tota
+            <lb ed="#Qb"/>essentia animae in g suis potentiis consisti t nec
+            <lb ed="#Qb"/>per partes dividitur, cum sit simplex et indivi<lb ed="#Qb"/>dua"· 
+            Ergo potentiae non sunt partes.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Solutio] 6 : Ad quod dicendum h quod non
+            <lb ed="#Qb"/>omnes vires debent i dici partes animae, proprie
+            <lb ed="#Qb"/>accipiendo vocabulum. Si vero extendatur quod
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>partes dicantur eo quod particulznt posse animae
+            <lb ed="#Qb"/>per actus differentes k, secundum hoc possunt dici
+            <lb ed="#Qb"/>partes, et hoc modo dicit Augusti nus 7 : <quote> Qua<lb ed="#Qb"/>dam 
+            similitudine dicitur habere 1 partes </quote>· Illae
+            <lb ed="#Qb"/>vero proprie dicuntur partes quae particulant sub<lb ed="#Qb"/>stantiam
+            animae vel multiplicatam ostendunt.
+            <lb ed="#Qb"/>Verbi gratia,. sensibilis in brutis, vegetabilis in
+            <lb ed="#Qb"/>plantis, rationalis vel intellectualis in hominibus
+            <lb ed="#Qb"/>multiplicant substantiam animae vel multiplicatam
+            <lb ed="#Qb"/>ostendunt: alia enirn est substantia rationalis ani<lb ed="#Qb"/>mae
+            in homine, alia sensibilis in bruto, alia vege<lb ed="#Qb"/>tabilis
+            in pianta; unde istae tres potentiae partes
+            <lb ed="#Qb"/>animae dicuntur secundum p h i l oso p h o s 8, et m
+            <lb ed="#Qb"/>etiam in homine hae tres potentiae n fundantur in
+            <lb ed="#Qb"/>tribus substantiis. Non sic autem est 0 de quinque
+            <lb ed="#Qb"/>viribus sensuum ve! P aliis differentiis potentiarum.
+            <lb ed="#Qb"/>Si vero dicantur partes quae constituunt substan<lb ed="#Qb"/>tiam,
+            secundum hoc anima non dicitur habere has
+            <lb ed="#Qb"/>vires pro partibus: non enim ex aliquibus viribus
+            <lb ed="#Qb"/>substantia animae constituitur. Sed nec anima
+            <lb ed="#Qb"/>dicitur habere partes eo modo quo continuum
+            <pb ed="#Qb" n="427"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>habere partes dicitur vel discretum, et hoc modo
+            <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>1 quod anima, <quote> cum sit sim<lb ed="#Qb"/>plex,
+            non dicitur habere partes veritate 'composi<lb ed="#Qb"/>tionis</quote>.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Per iam dicta patet qualiter
+            <lb ed="#Qb"/>respondendum est ad obiecta. Pars enim dicitur
+            <lb ed="#Qb"/>tripliciter: ingrediens compositionem, et sic non
+            <lb ed="#Qb"/>dicitur habere partes <quote> veritate" compositionis </quote>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>ad modum continui vel discreti; vel concomitans
+            <lb ed="#Qb"/>multiplicationem substantiae, et sic dicuntur ra<lb ed="#Qb"/>tionalis,
+            sensibilis, vegetabilis partes; vel quae
+            <lb ed="#Qb"/>particulant posse animae per actus differentes, et
+            <lb ed="#Qb"/>sic aliae vires dicuntur partes: et hae proprie
+            <lb ed="#Qb"/>dicuntur partes b virtuales, quae in una substantia
+            <lb ed="#Qb"/>animae conveniunt et differunt per actus diffe<lb ed="#Qb"/>rentes
+            in specie.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS III</head>
+          <head type="question-title">Secundum quid accipiatur distinctio potentiarum.</head>
+          <p>
+            <lb ed="#Qb"/>Tertio quaeritur secundum quid accipiatur cli<lb ed="#Qb"/>visio
+            vel distinctio virium. Aut enimc distin<lb ed="#Qb"/>guuntur
+            per actus vel per organa aut per
+            <lb ed="#Qb"/>obiecta.
+         </p>
+          <p>
+            <lb ed="#Qb"/>1. Si per actus, tunc quae sunt differentiae
+            <lb ed="#Qb"/>actuum, hae essent differentiae virium; sed opinio
+            <lb ed="#Qb"/>et scientia sunt duo actus; ergo intellectus, a quo
+            <lb ed="#Qb"/>procedit scientia et a quo proceditd opinio, sunt
+            <lb ed="#Qb"/>duae vires; quod cum non sit, non attenditur
+            <lb ed="#Qb"/>omnino * divisio virium secundum differentias
+            <lb ed="#Qb"/>actuum. — Praeterea, differunt actus in tactu
+            <lb ed="#Qb"/>secundum quod sunt respectu diversarum quali<lb ed="#Qb"/>tatum:
+            est enim alius actus in tactu respectu
+            <lb ed="#Qb"/>calidi et frigidi et respectu mollis et duri et re<lb ed="#Qb"/>spectu
+            humidi et sicci et ita de aliis, et tamen
+            <lb ed="#Qb"/>sensum dicimus esse unum in specie sive tactum 3;
+            <lb ed="#Qb"/>ergo non est differentia virium secundum diffe<lb ed="#Qb"/>rentiam
+            actuum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Quod autem non differant secun<lb ed="#Qb"/>dum
+            differentiam organorum, patet per hoc
+            <lb ed="#Qb"/>quodf non omnes vires animae utuntur orga<lb ed="#Qb"/>nis
+            ad eliciendum actum, sicut est intellectiva;
+            <lb ed="#Qb"/>ergo penes differentias organorum non attendi<lb ed="#Qb"/>tur
+            pluralitas virium. — Praeterea, in memo<lb ed="#Qb"/>ria,
+            intelligentia et voluntate hoc ostenditur: hac
+            <lb ed="#Qb"/>enim non differunt secundum differentiam orga<lb ed="#Qb"/>norum;
+            ergo secundum hoc non attenditur dif<lb ed="#Qb"/>ferentia.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Nec hoc est 'secundum differentias
+            <lb ed="#Qb"/>obiectorum. Cum enim verum et bonum sint
+            <lb ed="#Qb"/>diversa obiecta in specie, intellectiva specula<lb ed="#Qb"/>tiva
+            et practica essent duae vires 8, quod non
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>videtur per verbum Philosophi 4 dicentis: <quote>Ex<lb ed="#Qb"/>tendente
+            se intelligentia speculativa fit practica </quote>.
+            -— Praeterea, idem est obiectum sensus communis
+            <lb ed="#Qb"/>et particularis, ut visus est albi, gustus dulcis,
+            <lb ed="#Qb"/>sensus communis albi dulcis5; similiter intellectus
+            <lb ed="#Qb"/>agensh habet pro obiectof species abstractas a
+            <lb ed="#Qb"/>materia, intellectus possibilis similiter, et tamen
+            <lb ed="#Qb"/>sunt duae vires; non ergo secundum differentias
+            <lb ed="#Qb"/>obiectorum sunt differentiae virium. — Praeterea,
+            <lb ed="#Qb"/>diversa sunt obiecta in tactu secundum differen<lb ed="#Qb"/>tias
+            contrarietatis, eadem autem potentia tangi<lb ed="#Qb"/>bilis;
+            ergo non attenditur differentia virium vel
+            <lb ed="#Qb"/>identitas secundum differentias obiectorum.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Solutiok : Ad primum dicendum quod prima
+            <lb ed="#Qb"/>differentia est in se ipsis, consequenter! autem
+            <lb ed="#Qb"/>quaedam differunt per actus differentes in specie,
+            <lb ed="#Qb"/>quaedam differunt per organa, quaedam per
+            <lb ed="#Qb"/>obiecta, quaedam secundum materias. Differentia
+            <lb ed="#Qb"/>autem virium, qua dicitur quod alia est'" natu<lb ed="#Qb"/>ralis,
+            alia vitalis, alia animalis, est per se ipsas,
+            <lb ed="#Qb"/>dignosci tamen potest per organa: orgarïifnïenim
+            <lb ed="#Qb"/>naturalis virtutis est hepar vel quod tenet locum
+            <lb ed="#Qb"/>hepatis; vitalis vero est cor vel quod tenet locum
+            <lb ed="#Qb"/>cordis; animalis vero aliquod organum est cere<lb ed="#Qb"/>brum
+            vel aliquid loco cerebri 6. Rationalis vero et
+            <lb ed="#Qb"/>sensibilis et vegetabilis" sunt vires quae secun<lb ed="#Qb"/>dum
+            se differunt, nihilominus tamen dignoscitur
+            <lb ed="#Qb"/>earum-'fdifferentia ex actibus specie differentibus.
+            <lb ed="#Qb"/>Tres autem vires animae vegetabilis, nutritiva, aug<lb ed="#Qb"/>mentativa,
+            generativa, differentes sunt in" se ipsis
+            <lb ed="#Qb"/>et sunt consequentes ad invicem secundum con<lb ed="#Qb"/>venientiamP
+            materiarum. Nam nutritiva operatur
+            <lb ed="#Qb"/>super alimentum, augmentativa super quantum
+            <pb ed="#Qb" n="428"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>in<!--"--> alimento, generativa autem super residuum
+            <lb ed="#Qb"/>utriusque naturaliter, contingit tamen et aliter.
+            <lb ed="#Qb"/>Verumtamen non semper operatur augmentativa,
+            <lb ed="#Qb"/>cum invenit quantum in alimento, quia quod
+            <lb ed="#Qb"/>afferit? nutritiva, aliquando est aequale ei quod
+            <lb ed="#Qb"/>dissolvitur, aliquando minus, aliquando plus. Cum
+            <lb ed="#Qb"/>autem fuerit minus vel aequale, non operatur
+            <lb ed="#Qb"/>augmentativa, sed cum fuerit plus. Hoc autem
+            <lb ed="#Qb"/>non quocumque modo: nam impinguari est de eo
+            <lb ed="#Qb"/>quod plus existit; sed, cum secundum naturalem
+            <lb ed="#Qb"/>quantitatem in omnibus existit diametris 6, ut per<lb ed="#Qb"/>ducatur 
+            ad complementum, tunc estd augmenta<lb ed="#Qb"/>tiva. 
+            Semen autem est de superfluo eius quod
+            <lb ed="#Qb"/>pertinet ad esse determinatum in quantitate 1. Sen<lb ed="#Qb"/>sus
+            autem distinguuntur ete secundum organa et
+            <lb ed="#Qb"/>secundum obiecta; vis autem f cognitiva intel<lb ed="#Qb"/>lectiva
+            et motiva penes obiecta,'vires etiam co<lb ed="#Qb"/>gnitivae2
+            penes obiecta, vires etiam motivae pe<lb ed="#Qb"/>nes
+            obiecta quae etiam in illo genere dicuntur
+            <lb ed="#Qb"/>obiectivag. Sic ergo patet quod differentia virium
+            <lb ed="#Qb"/>non est tantum cognita penes actiones in omnih
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>differentia actionum nec penes organa tantum
+            <lb ed="#Qb"/>nec penes obiecta tantum nec penes materias tan<lb ed="#Qb"/>tum
+            aut penes moventia, sed est etiam quaedam
+            <lb ed="#Qb"/>differentia virium inter se, quae praecedit omnem
+            <lb ed="#Qb"/>differentiam iam dictam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Ut autem manifestius fiat, ad differentias virium
+            <lb ed="#Qb"/>descendemus. <quote>Habet autem anima</quote>, sicut di<lb ed="#Qb"/>cit
+      <name ref="#Augustine">Augustinus</name>3, <quote>vires, quibus corpori com<lb ed="#Qb"/>miscetur
+      </quote> — et hoc est quia i iis non operatur sine
+            <lb ed="#Qb"/>corpore — quae sunt <quote> naturalis, vitalis, anima—
+            <lb ed="#Qb"/>lis </quote>, quae differunt in animali secundum diffe<lb ed="#Qb"/>rentias
+            organorum: <quote>naturalis in .hepate, vitalis
+            <lb ed="#Qb"/>in corde, animalis in cerebro </quote>. Naturalis opera<lb ed="#Qb"/>tur
+            per spiritum naturalem, vitalis per vitalem,
+            <lb ed="#Qb"/>animalisk per animalem. Naturali respondent ve<lb ed="#Qb"/>nae,
+            per quas transmittitur humor; vitali respon<lb ed="#Qb"/>dentl
+            arteriae, per quas transmittitur motus vita<lb ed="#Qb"/>lis;
+            animali'" respondent nervi, per quos trans<lb ed="#Qb"/>mittitur
+            sensus et nihilominus motus per nervos
+            <lb ed="#Qb"/>motivos, sed ii cum arteriis conveniunt in aliqua
+            <lb ed="#Qb"/>parte.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

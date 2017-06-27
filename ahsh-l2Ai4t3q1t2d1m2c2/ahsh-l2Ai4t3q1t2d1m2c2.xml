@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 2, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 2, C. 2</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="665"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai4t3q1t2d1m2c2">
+        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 1, T. 2, D. 1, M. 2, C. 2</head>
+        <head type="question-title">A QUO SIT VITA ORIGINALITER.</head>
+        <p>
+          <lb ed="#Qb"/>Sequitur determinare a quo sit ' vita originaliter,
+            <lb ed="#Qb"/>hoc est determinare quid sit in substantia vi.<lb ed="#Qb"/>vente
+            unde ipsa Vivit.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>Et primo, si aliquid sit in illa unde vivit in se;
+          <lb ed="#Qb"/>secundo, unde alii vitam tribuit, scilicet illi qui
+          <lb ed="#Qb"/>vivit per participationem.
+        </p>
+        <div type="articulus">
+          <head>ARTICULUS I.</head>
+          <head type="question-title">Utrum vita sit aliquid in substantia vivente ex se.</head>
+          <p>
+            <lb ed="#Qb"/>Quaeritur ergo primo utrum aliquid sit in sub<lb ed="#Qb"/>
+            <lb ed="#Qb"/>stantia vivente ex se, cuiusmodi est anima, unde 
+            <lb ed="#Qb"/>vivit.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>Quod sic, videtur: a. Sicut tactum est 5, quae<lb ed="#Qb"/>dam 
+            vivunt ex se, quaedam 5 per participationem
+            <lb ed="#Qb"/>eorum quae vivunt ex se, sicut anima dicitur
+            <pb ed="#Qb" n="666"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>vivere ex se, corpus per" participationem; quae
+            <lb ed="#Qb"/>autem vivunt per participationem, nonf' vivunt
+            <lb ed="#Qb"/>per aliquid quod sit in eorum substantia sive de
+            <lb ed="#Qb"/>illis, sed per aliquid quod est" aliud ab illis se<lb ed="#Qb"/>cundum
+            substantiam; ergo ab oppositis videtur
+            <lb ed="#Qb"/>quod ea quae vivunt ex se, vivunt per aliquid
+            <lb ed="#Qb"/>quod est de eorum Substantia, et non per aliquid"'
+            <lb ed="#Qb"/>quod sit aliud secundum substantiam.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Hoc etiam patet per hoc quod dicuntur vi<lb ed="#Qb"/>vere
+            ex se: nulla enim ratione videtur debere
+            <lb ed="#Qb"/>dici vivere ex se quod vivit per aliquid quod
+            <lb ed="#Qb"/>non est de substantia viventis, et ita quae vivunt
+            <lb ed="#Qb"/>ex se, habent aliquid in se quod est illis origo
+            <lb ed="#Qb"/>sive principium intrinsecume vitae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>c. Item, illud quo vivit anima, ut habetur a
+            <lb ed="#Qb"/>Platone et exponit Macrobiusl, essentia est
+            <lb ed="#Qb"/>animae; sed constat quod in ente est aliquid
+            <lb ed="#Qb"/>unde est essentia, cum rei sive entis essentia sit
+            <lb ed="#Qb"/>originaliter ex principiis illius; ergo etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Ut dicit Ambrosius 2, <quote> anima vita
+            <lb ed="#Qb"/>est</quote>; sed anima non est originaliter a se ipsa ne<lb ed="#Qb"/>que
+            ab aliqua illiusf parte, cum sit simplex, et
+            <lb ed="#Qb"/>ita non habet partem; ergo vita non habet ori<lb ed="#Qb"/>ginem
+            in vivente ex se,. scilicet anima.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Item, in re vivente ex se non sunt nisi duo
+            <lb ed="#Qb"/>principia, materia et forma sive illud quod est
+            <lb ed="#Qb"/>quasi materia et illud quod est quasi forma, quae
+            <lb ed="#Qb"/>in simplicibuse dicuntur ab aliquibus ' quod' et
+            'quo' vel potentia et actus3; sed a. materia vel
+            <lb ed="#Qb"/>quasi materia non est vita sicut ab originali prin<lb ed="#Qb"/>cipio,
+            cum sit'! actus primus viventis et inter om<lb ed="#Qb"/>nes
+            actus nobilissimus sicut ille a quo vel qui
+            <lb ed="#Qb"/>est esse.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, vita semper est in suo actu: unde de<lb ed="#Qb"/>finitur
+            per actum continuum, ut ex dictis4 patet;
+            <lb ed="#Qb"/>quod autem est tale, non est a materia sicut a
+            <lb ed="#Qb"/>principio originali. Neque, ut videtur, est a forma
+            <lb ed="#Qb"/>vel quasi a forma, cum forma non sit ex forma 5,
+            <lb ed="#Qb"/>vita autemf est forma quaedam. Unde, cum res
+            <lb ed="#Qb"/>sit ex illo quod est eius principium originale
+            <lb ed="#Qb"/>sive eius origo, videtur quod illud quod est
+            <lb ed="#Qb"/>forma viventis non sit origo vitae eiusdem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, origo rei est principium eiusdem ; prin<lb ed="#Qb"/>cipium
+            et causa idem, ut'f dicit Philosophusö;
+            <lb ed="#Qb"/>ergo origo rei est causa eiusdem; ergo, cum in
+            <lb ed="#Qb"/>genere formarum vita est nobilissima, causa autem
+            <lb ed="#Qb"/>est nobilioris conditionis' illo cuius est causa,
+            <lb ed="#Qb"/>nulla forma est causa sive origo vitae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Si autem diceretur quod 'vita non est
+            <lb ed="#Qb"/>a materia viventis neque a a forma, sed ab utro<lb ed="#Qb"/>que
+            - contrarium potest argui ex dictis,
+            <lb ed="#Qb"/>iuxta modum quo arguit P hilosophus 57, con<lb ed="#Qb"/>cludens
+            illud quod ex neutro est aliquorum duo<lb ed="#Qb"/>rum,
+            non esse ex utroque.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo: Ad horumc determinationem intel<lb ed="#Qb"/>ligendum
+            quod vita est quidam motus sive actus
+            <lb ed="#Qb"/>et vigor internus. Ut enim dicit Bernardus,
+            <lb ed="#Qb"/>libro De libero arbitriosz <quote> Vita est internus mo<lb ed="#Qb"/>tus,
+            tantum vigens intrinsecus </quote>. Videndum est
+            <lb ed="#Qb"/>ergo quid sit in substantia vivente ex se, unde
+            <lb ed="#Qb"/>sit motus iste. et vigor qui est vita. Quod, ut
+            <lb ed="#Qb"/>competentius fiat, incipiatur a principio generali
+            <lb ed="#Qb"/>motus intrinseco in omnibus: est enim principium
+            <lb ed="#Qb"/>motus duplex, scilicet intrinsecum et extrinse<lb ed="#Qb"/>cum;
+            hic autem intenditur de principio intrinseca.
+            <lb ed="#Qb"/>Nota ergo quod in omni motu, sive ad for<lb ed="#Qb"/>mam
+            sive ad 01 situm, primum principium " motus
+            <lb ed="#Qb"/>intrinsecum est appetitus: haec etenim est. vis
+            <lb ed="#Qb"/>a Creatore omnibusfrindita creaturis, per quam
+            <lb ed="#Qb"/>ad sui complementum ordinanturä et in sui com<lb ed="#Qb"/>plemento.
+            stant et radicantur. Nec h solum sic est
+            <lb ed="#Qb"/>in creaturis, sed etiam in creaturarum essentia<lb ed="#Qb"/>libus
+            .principiis, quae sunt materia et forma, actus
+            <lb ed="#Qb"/>et potentia: neque enim materia se ipsa movetur
+            <lb ed="#Qb"/>ad formam, quia, cum! nullam determinet, non
+            <lb ed="#Qb"/>magis moveretur ad hanc quam ad illam; neque
+            <lb ed="#Qb"/>forma se ipsam facit in materia, sed per appe<lb ed="#Qb"/>titum
+            insitum utrique ad invicem ordinantur et
+            <lb ed="#Qb"/>per appetitum 'f huiusmodi inseparabiliter coniune
+            <lb ed="#Qb"/>guntur9. Nec solum appetitus rem' completam in
+            <lb ed="#Qb"/>esse sequitur, sed in ipsis rerum principiis essen<lb ed="#Qb"/>tialibus
+            radicatur' et fundatur. Et sicut est in
+            <lb ed="#Qb"/>motu ad formam, sic est in omni motu non vio<lb ed="#Qb"/>lento
+            "': in omni enim motu appetitus excitat mo<lb ed="#Qb"/>torem
+            ad motum. Ex quo patet ipsum esse prin<lb ed="#Qb"/>cipium
+            motus intrinsecum universale. Ex hoc ergo
+            <lb ed="#Qb"/>patet quod appetitus in omnibus excitat ad mo<lb ed="#Qb"/>tum
+            et quemdam efficit" vigorem in illis; non
+            <lb ed="#Qb"/>tamen vigorem vitae facit in omnibus, sed solum
+            <lb ed="#Qb"/>in simplicibus. Quod manifestius patebit per dif<lb ed="#Qb"/>ferentias
+            appetituum et eorum in quibus est ap<lb ed="#Qb"/>petitus.
+            Supponatur ergo quod omnibus rebus
+            <lb ed="#Qb"/>naturalibus inest appetitus, sed differenter, sicut
+            <lb ed="#Qb"/>et diversae sunt. Rerum enim" naturalium quae-'
+            <lb ed="#Qb"/>dam magis habent de specie, minus de materia;
+            <lb ed="#Qb"/>quaedam e converso magis deP materia et minus
+            <pb ed="#Qb" n="667"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>de specie; quaedam vero quasi totaliter species
+            <lb ed="#Qb"/>sive actus sunt, sicut substantiae simplices", quae
+            <lb ed="#Qb"/>semper in actu sunt 1. In quibus autem magis est
+            <lb ed="#Qb"/>de materia, minus de specie, ut in terra, quasi
+            <lb ed="#Qb"/>sopitus et obtusus estb appetitus; in quibus vero
+            <lb ed="#Qb"/>magis de specie etc minus de materia, ut in
+            <lb ed="#Qb"/>igne, quasi acutus et vigens estd appetitus: unde
+            <lb ed="#Qb"/>ignis semper est in actu et cito generatur. Quare
+            <lb ed="#Qb"/>in eis, quae quasi totae actus suntf, validior
+            <lb ed="#Qb"/>adhuc et acutior erit appetitus. Ergo, cum anima
+            <lb ed="#Qb"/>sitg substantia simplex et semper in actu, in ea
+            <lb ed="#Qb"/>fortis et potens, acutus et vigens" erit appetitus.
+            <lb ed="#Qb"/>Huius vigoris modum exprimens maximus poe<lb ed="#Qb"/>tarum
+            Virgiliusz, dixit:
+      <quote>Igneus est illis vigor et caelestis origo
+            <lb ed="#Qb"/>Seminibus i </quote>.
+      <mentioned> Igneus vigor </mentioned>, quia subtilis et acutus; <mentioned> et cae—
+            <lb ed="#Qb"/>lestis origo </mentioned>, quia vis est'f indita divinitus. Ecce
+            <lb ed="#Qb"/>unde tantus est motus et vigor in animabus. Ma<lb ed="#Qb"/>nifestum
+            etiam est, si vita est vigor et motus in<lb ed="#Qb"/>temus,
+            quare appetitus vitam operatur in simpli<lb ed="#Qb"/>cibus.
+            In quibusdam tamenl corporeis, ut in illis
+            <lb ed="#Qb"/>quae '" minus habent de materia, magis de specie
+            <lb ed="#Qb"/>et de actu, ut in igne et luce, quamdam imagi<lb ed="#Qb"/>nem
+            vitae operatur, quia semper in actu sunt.
+            <lb ed="#Qb"/>Unde et argentum fusile vivum vocatur, quia
+            <lb ed="#Qb"/>semper et continue movetur, et eadem ratione fons
+            <lb ed="#Qb"/>vivus dicitur. Appetitus autem iste, qui vigorem
+            <lb ed="#Qb"/>internum et vitam operatur in substantiis simpli<lb ed="#Qb"/>cibus, 
+            fundatur in earum principiis essentialibus. .
+            <lb ed="#Qb"/>Sicut enim corporalium principia sunt materia
+            <lb ed="#Qb"/>et forma, sic simplicium actus et potentia sive
+            *quod' et 'quo': per appetitum enim potentia
+            <lb ed="#Qb"/>actui coniungitur et perficitur. Et sicut-per appe<lb ed="#Qb"/>titum
+            medium forma cum materia unitur et actus
+            <lb ed="#Qb"/>cum potentia, ut fiat substantia, sic per appetitum
+            <lb ed="#Qb"/>fortem, acutum et vigentem potentia simplicis cum
+            <lb ed="#Qb"/>actu ipsius ordinatur, ut fiat non solum 'substan<lb ed="#Qb"/>tia,
+            sed substantia vivens: unde manifestum est
+            <lb ed="#Qb"/>principia vitae" tundari in essentialibus rei" prin<lb ed="#Qb"/>cipiis.
+            Addunt tamen aliquid supraP principia
+            <lb ed="#Qb"/>substantiae principia substantiae viventis ". Patet
+            <lb ed="#Qb"/>ergo quid est illud quod vigorem facit in sub<lb ed="#Qb"/>stantiis
+            simplicibus et quod vigor ille fundatur in
+            <lb ed="#Qb"/>principiis earum essentialibus et vitam opera<lb ed="#Qb"/>tur.
+            Patet etiam'quid vivere. addat supra esse in
+            <lb ed="#Qb"/>substantiis viventibus et quod motus internus
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>substantiae simplicis est vigens appetitus, qui vi<lb ed="#Qb"/>tam
+            operatur in simplicibus. Et ita videtur" ne<lb ed="#Qb"/>cesse
+            ponere, quia praeter appetitum autb desi<lb ed="#Qb"/>derium
+            impossibile est aliquid reperire " quod vi<lb ed="#Qb"/>geat
+            intrinsecus.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad hoc ergo quod primo
+            <lb ed="#Qb"/>obicitur contra hoc, scilicet quod *anima est vita
+            <lb ed="#Qb"/>et quodd anima non est e originaliter a se ipsa' etc.:
+            <lb ed="#Qb"/>dicendum quod, ut supra tactum est3, anima di<lb ed="#Qb"/>citur
+            vita, per concomitantiam causalitatis, non
+            <lb ed="#Qb"/>per identitatem essentiae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad aliudf quod sequitur, dicendum quod,
+            <lb ed="#Qb"/>ut ex dictis4 patet, principia vitae fundantur quo<lb ed="#Qb"/>dam
+            modo in principiis essentialibus rei viventis:
+            <lb ed="#Qb"/>unde ab ipsis quodam modo vita habet originem.
+            <lb ed="#Qb"/>Licet enim materia, in quantum huiusmodi, non
+            <lb ed="#Qb"/>sit per se activag sive operativa, tamen ratione
+            <lb ed="#Qb"/>qua habet appetitum inclinativum ad actum, po<lb ed="#Qb"/>test
+            esse origo quodam modo ferinae, quae est
+            <lb ed="#Qb"/>omnino activa sive in actu qui" est vita.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad illud quod obicituri quod Uformae
+            <lb ed="#Qb"/>non est forma' etc.: dicendum quod hoc verum
+            <lb ed="#Qb"/>est, per se loquendo, scilicet in ratione qua forma
+            <lb ed="#Qb"/>est informans-: forma enim, per se loquendo ",
+            <lb ed="#Qb"/>non est perfectibilis torma' neque forma est per<lb ed="#Qb"/>fectiva
+            formae 5, sed potius materiae sive existentis
+            <lb ed="#Qb"/>in potentia, in quantum huiusmodi. Potest tamen
+            <lb ed="#Qb"/>torma una esse originale principium alterius tor<lb ed="#Qb"/>mae:
+            forma enim sive perfectio totius quodam
+            <lb ed="#Qb"/>modo originem habet a forma quae est forma
+            <lb ed="#Qb"/>sive perfectio materiae.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad aliud quod sequitur quod 'causa est
+            <lb ed="#Qb"/>nobilioris conditionism eo cuius est causa' etc.:
+            <lb ed="#Qb"/>dicendum quod hoc non est verum de quacumque
+            <lb ed="#Qb"/>causa, sed de causa" efficiente, completa et sui<lb ed="#Qb"/>iiciente.
+            Principium autem originale rei non de
+            <lb ed="#Qb"/>necessitate est huiusmodi, sed potius est dete—
+            <lb ed="#Qb"/>rioris conditionis eo cuius est origo, ut patet de
+            <lb ed="#Qb"/>limo, qui fuit quodam modooriginale principium
+            <lb ed="#Qb"/>corporis hominis primi 5.
+         </p>
+          <p>
+            <lb ed="#Qb"/>5. Ad ultimum dicendum quod in multis
+            <lb ed="#Qb"/>sortitur aliquid esse a duobus, quod a" neutro
+            <lb ed="#Qb"/>per se. Quod autem dicit auctorP Sex principio<lb ed="#Qb"/>rum7:
+      <quote> Si quis primam et secundam destruxit,
+            <lb ed="#Qb"/>utique et tertiam destruitq, quae ex utriusque
+            <lb ed="#Qb"/>efficitur coniunctione </quote>, "intelligitur ubi ' ali<lb ed="#Qb"/>quid
+            ponitur esse ex utroque aliquorum divisim
+            <pb ed="#Qb" n="668"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>sumptorum. Quod patet ex casu in quo loquitur:
+            <lb ed="#Qb"/>intendit enim '1 determinare a quo dicitur aliquid
+            <lb ed="#Qb"/>suscipere magis et minus. Et ponebant quidam
+            <lb ed="#Qb"/>hoc esse a cremento vel decremento suscipientis;
+            <lb ed="#Qb"/>quidam a cremento vel decrementa eius quod
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>suscipitur; quidam ab utroque, scilicet et" ab
+            <lb ed="#Qb"/>hoc et ab illo 5. Et in hoc casu dicit quod, si non
+            <lb ed="#Qb"/>dicitur aliquid magis vel minus a suscipiente
+            <lb ed="#Qb"/>sive subiecto 4, neque ab illo quod suscipitur, sci<lb ed="#Qb"/>licet
+            forma vel qualitas, non suscipit ab utroque.
+         </p>
+        </div>
+        <div type="articulus">
+          <head>ARTICULUS II.</head>
+          <head type="question-title">Unde vivens ex se alii vitam tribuit.</head>
+          <p>
+            <lb ed="#Qb"/>Sequitur inquirere unde vivens ex se alii vitam
+            <lb ed="#Qb"/>tribuit, scilicet illi quod ** vivit per participationem,
+            <lb ed="#Qb"/>scilicet anima corpori.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Circa hoc proeediturf sic: a. <name ref="#Augustine">Augustinus</name>,
+            <lb ed="#Qb"/>De civitate Dei, XIII, cap. 21: <quote>Vivit corpus ex
+            <lb ed="#Qb"/>anima, cum anima. vivit in corpore, seu vivat
+            <lb ed="#Qb"/>ipsa seu non vivat ipsa exrg Deo</quote>. Sed, ut habe.<lb ed="#Qb"/>tur
+            a Philosophoz, <quote> anima est actus sive per<lb ed="#Qb"/>fectio
+            corporis physici organici, potentia vitam
+            <lb ed="#Qb"/>habentis </quote>; corpus ergo vivit ab anima 71 ut ab ea
+            <lb ed="#Qb"/>quae est eius perfectio, et anima vitam tribuit
+            <lb ed="#Qb"/>corpori ut eius perfectibili; cum autem illud
+            <lb ed="#Qb"/>quod est perfectio tribuat aliquid perfectibili in
+            <lb ed="#Qb"/>quantum huiusmodi, unde illi hoc tribuit! est
+            <lb ed="#Qb"/>aliquo modo originaliter in ipsok tribuente; ergo
+            <lb ed="#Qb"/>vivens ex se habet aliquo modo originaliter in
+            <lb ed="#Qb"/>se unde tribuit vitam viventi per participationem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>b. Item, cum vivens per participationem recipit
+            <lb ed="#Qb"/>vitam a vivente per se sive ex se, hoc est per
+            <lb ed="#Qb"/>aliquod quod originaliter est in ipso- recipiente:
+            <lb ed="#Qb"/>a simili videtur' ex parte dantis quod etc.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Contra: 1. Substantia dividitur in substantiam
+            <lb ed="#Qb"/>spiritualem et corporalem, sicut animal in'" ratio<lb ed="#Qb"/>nale
+            et irrationale: unde idem est genus distan<lb ed="#Qb"/>tiae
+            inter substantiam spiritualem et corporalem
+            <lb ed="#Qb"/>quae est inter animal rationale et irrationale;
+            <lb ed="#Qb"/>substantia autem" vivens in se est spiritualis,
+            <lb ed="#Qb"/>vivens per participationem est Corporalis; sed
+            <lb ed="#Qb"/>animali rationali nihil est indituma neque habet
+            <lb ed="#Qb"/>unde tribuat vel tribuere appetat animali irratio<lb ed="#Qb"/>nali
+            illud quod est in illo nobilissimum vel inter
+            <lb ed="#Qb"/>nobilia illius potissimum; eadem ratione videtur
+            <lb ed="#Qb"/>quod nihil est inditum substantiae spirituali neque
+            <lb ed="#Qb"/>habet aliquid unde tribuat vel tribuere appetat
+            <lb ed="#Qb"/>substantiae corporali quod est in illo nobilissimum
+            <lb ed="#Qb"/>sive inter nobilia illius potissimum, cuiusmodi
+            <lb ed="#Qb"/>est vita. Ergo videtur quod nihil sit in substantiaP
+            <lb ed="#Qb"/>vivente ex se, unde vitam tribuat illi quod vivit
+            <lb ed="#Qb"/>per participationem.
+         </p>
+          <p>
+                  <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>2. Item, actus vel perfectio nobilis requirit
+            <lb ed="#Qb"/>perfectibile nobile sibi convenienter respondens;
+            <lb ed="#Qb"/>ergo, cum vita sit de perfectionibus nobilissimis,
+            <lb ed="#Qb"/>eius appetitus est determinatus circa periectibile
+            <lb ed="#Qb"/>quod est de genere nobilium; talis autem est
+            <lb ed="#Qb"/>substantia spiritualis, non autem corporalis; ergo
+            <lb ed="#Qb"/>fixus est' eius appetitus circa substantiam spiri<lb ed="#Qb"/>tualem
+            quae vivit ex se et non extendit se ad
+            <lb ed="#Qb"/>illud quod non vivit ex se; et ita nihil habet in
+            <lb ed="#Qb"/>se unde appetat attribuere vitam illi quod vivit
+            <lb ed="#Qb"/>per participationem.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Item, conditiones istae, quae sunt unitas,
+            <lb ed="#Qb"/>simplicitas, attestantur nobilitati eorum quorum
+            <lb ed="#Qb"/>sunt conditiones; ergo, cum tormae minus nobiles
+            <lb ed="#Qb"/>quam vita habeant esse determinatum cirea unum
+            <lb ed="#Qb"/>et idem -nec diffunduntur sive extenduntur ad
+            <lb ed="#Qb"/>plura, multo fortius videtur quod ita debeat esse
+            <lb ed="#Qb"/>de vita, scilicets quod in quadam indivisione
+            <lb ed="#Qb"/>sive unitate habeat esse in uno materiali et non
+            <lb ed="#Qb"/>in divisione et extensione ad plura, scilicet spi<lb ed="#Qb"/>rituale
+            et corporale.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Item, quando aliqua proprietas communicatur
+            <lb ed="#Qb"/>a duobus, necesse est hoc esse mediante aliquo
+            <lb ed="#Qb"/>unot in quo conveniunt: et non dico uno gene<lb ed="#Qb"/>rali,
+            sed uno propinquiori; sed substantia spi<lb ed="#Qb"/>ritualis
+            et corporalis non habent convenientiam
+            <lb ed="#Qb"/>nisi in genere nec videntur convenire in aliquo
+            <lb ed="#Qb"/>propinquiori secundum quod requirit communi<lb ed="#Qb"/>catio-
+            vitae; et ita videtur quod nihil habet sub<lb ed="#Qb"/>stantia
+            spiritualis in se unde communicet" vitam
+            <lb ed="#Qb"/>corporali.
+         </p>
+          <p>
+            <lb ed="#Qb"/>Respondeo3: Ad horum notificationem nota"
+            <lb ed="#Qb"/>quod sicut per appetitum anima in se vigoratur,
+            <lb ed="#Qb"/>sic per appetitum in corpore, quod vivificat, vitam
+            <lb ed="#Qb"/>operatur: per appetitum enim corpori unitur et
+            <lb ed="#Qb"/>per appetitum corpus variis motibus movet, ut
+            <lb ed="#Qb"/>et ipsum perficiat et ipsa etiam perficiatur. Quodx
+            <lb ed="#Qb"/>ut manifestius fiat, modum unitionis animae cum
+            <lb ed="#Qb"/>corpore et quare necessarium est ipsam uniri cor<lb ed="#Qb"/>pori,
+            videamus. Sciendum ergo est quod appetitus
+            <pb ed="#Qb" n="669"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>in substantia simplici nec vigorem actualem fa<lb ed="#Qb"/>cit
+            nec vitam operatur nisi cum perficitur. Cum
+            <lb ed="#Qb"/>autem suo actui coniungitur et suo desiderabili
+            <lb ed="#Qb"/>unitur et in eius unione delectatur, perfectus est
+            <lb ed="#Qb"/>et vitam operatur: tunc enim viget anima et de<lb ed="#Qb"/>lectatur.
+            Sicut autem dicit Avicen n a 1, delectatio
+            <lb ed="#Qb"/>cuiusque virtutis plena est acquisitio suae per<lb ed="#Qb"/>fectionis,
+            cum autem caret suo desiderabili, mi<lb ed="#Qb"/>nuitur
+            aut deficit appetitus et vita languet aut
+            <lb ed="#Qb"/>extinguitur; unde argumentum efficax sumitur
+            <lb ed="#Qb"/>quod supra appetitum vita fundaturzz si enim"
+            <lb ed="#Qb"/>completo appetitu vita perficitur, debilitato debi<lb ed="#Qb"/>litatur
+            et deficiente extinguitur, aut sunt idem
+            <lb ed="#Qb"/>appetitus et vita aut unum est causa alterius.
+            <lb ed="#Qb"/>Quia igitur appetitus vitam non facit in actu, nisi
+            <lb ed="#Qb"/>perficiatur, in quibusdam vero non est completus
+            <lb ed="#Qb"/>de se, sed aliquo indiget exteriori ut perficiatur,
+            <lb ed="#Qb"/>in eis vitam non facit in actu, nisi ei quo indiget
+            <lb ed="#Qb"/>coniungatur. Et haec est ratio quare substantia
+            <lb ed="#Qb"/>simplex corpori unitur, ut videlicet appetitus suo
+            <lb ed="#Qb"/>desiderabili coniungatur et sic in actu vigeat et
+            <lb ed="#Qb"/>vita in ea perficiatur. Si enim completus esset in
+            <lb ed="#Qb"/>se eius" appetitus, nunquam corpori essentialiter
+            <lb ed="#Qb"/>uniretur. Per appetitum ergo corpori unitur et
+            <lb ed="#Qb"/>inseparabiliter se tenet, nisi sit defectus ex parte
+            <lb ed="#Qb"/>corporis, et" ut per hoc suo actui coniungatur et
+            <lb ed="#Qb"/>vita perficiatur; per appetitum etiam variis moti<lb ed="#Qb"/>bus
+            movet corpus, ut etiam ipsum perficiat et
+            <lb ed="#Qb"/>ipsa4 perficiatur. Et haec est ratio colligationis
+            <lb ed="#Qb"/>animae cum corpore, quamvis haec ratio colliga<lb ed="#Qb"/>tionis
+            multiplex sit etc differens in diversis: in
+            <lb ed="#Qb"/>quibusdam enim maior, in aliis vero minor repe<lb ed="#Qb"/>ritur
+            vis colligationis. In quibusdam enimf quo<lb ed="#Qb"/>dam
+            modo idem estg vivere et vitam alii tribuere.
+            <lb ed="#Qb"/>Unde quarumdam animarum et corporum est
+            <lb ed="#Qb"/>quasi vita una et unum vitae complementum, ut
+            <lb ed="#Qb"/>in vegetabili et sensibili: hae enim de se non
+            <lb ed="#Qb"/>habent aliquam differentiam vitae nisi quam con<lb ed="#Qb"/>trahunt
+            a corpore; unde et secundum vitam suam
+            <lb ed="#Qb"/>dependent ,a corpore, et ideo " vita eorum non est
+            <lb ed="#Qb"/>separabilis. In aliis vero, ut in rationali, non est
+            <lb ed="#Qb"/>idem vivere et'l' vitam corpori tribuere, quamvis
+            <lb ed="#Qb"/>ab eodem sit ut ab appetitu, modo quo- tactum
+            <lb ed="#Qb"/>est 3. Haec enim habet vitam propriam quae non
+            <lb ed="#Qb"/>est corporis k ; ab ipsa tamen derivatur uncle tri<lb ed="#Qb"/>buitur
+            vita corpori, et ideo haec sola secundum
+            <lb ed="#Qb"/>vitam suam a cOrpore est separabilis. Sic igitur
+            <lb ed="#Qb"/>patet quo modo' per. appetitum vitam corpori
+            <lb ed="#Qb"/>tribuit et quo modo per ipsum est ratio unionis et
+            <lb ed="#Qb"/>colligationis animae cum corpore et quo modo in
+            <lb ed="#Qb"/>diversis diversimode. Et ex iis patet quod scilicet
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>eodem vigore quo vivit anima, vitam potest cor<lb ed="#Qb"/>pori
+            tribuere.
+         </p>
+          <p>
+            <lb ed="#Qb"/>[Ad obiecta]: 1. Ad illud ergo quod primo
+            <lb ed="#Qb"/>obicitur, quo videtur ostendi quod 'nihil est
+            <lb ed="#Qb"/>inditum substantiae '" spirituali, unde tribuat sive
+            <lb ed="#Qb"/>tribuere appetat vitam corpori propter distantiam
+            <lb ed="#Qb"/>eorum' etc.: dicendum quod, licet sit distantia
+            <lb ed="#Qb"/>illorum ea quae tacta est in opponendo, in quan<lb ed="#Qb"/>tum
+            hoc est corporale et illud spirituale, est tamen
+            <lb ed="#Qb"/>quidam illorum ordo et" respectus4, qui est per<lb ed="#Qb"/>fectionis
+            ad perfectibile: unde est illorum appe<lb ed="#Qb"/>titus
+            mutuus, quo est quaedam ratio colligationis
+            <lb ed="#Qb"/>eorum ad invicem, quibus mediantibus est in<lb ed="#Qb"/>fluentia
+            vitae ab uno in aliud. Licet ergo nihil
+            <lb ed="#Qb"/>sit inditum substantiae spirituali unde appetat
+            <lb ed="#Qb"/>tribuere vitam corporali, in quantum distant ut
+            <lb ed="#Qb"/>corporale et Spirituale, in quantum tamen est
+            <lb ed="#Qb"/>appetitus huius " perficiendi illud et etiam in per<lb ed="#Qb"/>ficiendo
+            illud sibi pleniorem acquirere perfectio<lb ed="#Qb"/>nem,
+            habet aliquid unde sibi vitam appetit attri<lb ed="#Qb"/>buere
+            P.
+         </p>
+          <p>
+            <lb ed="#Qb"/>2. Ad aliud 'I quod sequitur, dicendum ' quod
+            <lb ed="#Qb"/>est aliqua substantias spiritualis, cuius perfectio
+            <lb ed="#Qb"/>nullo modo dependet aliquo modolt a corporali;
+            <lb ed="#Qb"/>est et alia, cuius perfectio aliquo modo dependet.
+            <lb ed="#Qb"/>Quia ergo appetitus rei nullo modo terminatur
+            <lb ed="#Qb"/>nisi adepta ipsius perfectione ", illius substantiae
+            <lb ed="#Qb"/>spiritualis appetitus, cuius perfectio dependet ali<lb ed="#Qb"/>quo
+            modo a corporali, non terminatur nisi in
+            <lb ed="#Qb"/>coniunctione cum substantia corporali. In nullo
+            <lb ed="#Qb"/>ergo deterioratur conditio vitae ex hoc quod appe<lb ed="#Qb"/>titus
+            substantiae spiritualis viventis est ut coniun<lb ed="#Qb"/>gatur
+            cum substantia corporali, a cuius coniunc<lb ed="#Qb"/>tione
+            pleniorem sortitur perfectionem, immo me<lb ed="#Qb"/>lioratur.
+            Nobilitas ergo huius actus, qui est vita,
+            <lb ed="#Qb"/>non impedit quin appetitus substantiae spiritualis
+            <lb ed="#Qb"/>viventis convenienter se extendat ad hoc quod
+            <lb ed="#Qb"/>uniatur cum substantia corporali.
+         </p>
+          <p>
+            <lb ed="#Qb"/>3. Ad illud quod sequitur, dicendum quod
+            <lb ed="#Qb"/>verum est quod unitas attestatur nobilitati, cuius
+            <lb ed="#Qb"/>conditio in nullo deterioratur ex ipsius uniusV
+            <lb ed="#Qb"/>multiplicatione, immo magis perficitur et perfec<lb ed="#Qb"/>tior
+            ostenditur, sicut patet de luce'5, cuiusx virtus
+            <lb ed="#Qb"/>ipsius multiplicatione maior efficitur et perfectior
+            <lb ed="#Qb"/>ostenditur. Similiter est in proposito: vita enim,
+            <lb ed="#Qb"/>ut tactum est 5, ex coniunctione substantiae spiri<lb ed="#Qb"/>tualis
+            cum? corporali, ex qua quodam modo mul—
+            <lb ed="#Qb"/>tiplicatur in substantia corporali, magis viget et
+            <lb ed="#Qb"/>efficitur iucundior et perfectior, nec haec multi<lb ed="#Qb"/>plicatio
+            aliquid tollit de unitate ipsius vitae, cum
+            <lb ed="#Qb"/>semper illa sit una quae est substantiae spiritualis,
+            <pb ed="#Qb" n="670"/>
+                  <cb ed="#Qb" n="a"/>
+            <lb ed="#Qb"/>sed est causa perfectionis illius" et ostensio no<lb ed="#Qb"/>bilitatis.
+         </p>
+          <p>
+            <lb ed="#Qb"/>4. Ad illud quod sequitur, dicendum quod
+            <lb ed="#Qb"/>substantiae spiritualis, scilicet animae, et corpo<lb ed="#Qb"/>ralis,
+            quae ab anima perficitur, est convenientia
+            <lb ed="#Qb"/>quaedam praeter illam quae est generalis, quae
+            <lb ed="#Qb"/>attenditur in multiplicitate potentiarum sive vir<lb ed="#Qb"/>tutum
+            operativarum ex parte—animae et'7 multi<lb ed="#Qb"/>plicitate
+            naturarum sive partium organicarum ex
+            <lb ed="#Qb"/>parte corporis. Ut enim supra tactum est], corpus
+            <lb ed="#Qb"/>humanum inter omnia corpora compositissimum
+            <lb ed="#Qb"/>est, et hoc requiritur propter hoc quod anima,
+            <cb ed="#Qb" n="b"/>
+            <lb ed="#Qb"/>quae est perfectio eius et motor, est multarum
+            <lb ed="#Qb"/>operationum effectiva, quarum cum non possit
+            <lb ed="#Qb"/>anima esse effectiva per se, immo, necessarium
+            <lb ed="#Qb"/>est ut exerceantur per corpus, necesse est-quod
+            <lb ed="#Qb"/>corpus huiusmodi multiplicitatem habeat organo<lb ed="#Qb"/>rum2. 
+            Praeterea 0, conveniunt in mutuo appetitu
+            <lb ed="#Qb"/>perfectionis: appetitus enim corporis est ut ab
+            <lb ed="#Qb"/>anima perficiatur; similiter et appetitus animae
+            <lb ed="#Qb"/>est ut corpus perficiat et illud d perficiendo ple<lb ed="#Qb"/>niorem
+            sortiatur perfectionem. Iste autem appe<lb ed="#Qb"/>titus
+            mutuus est causa colligationis illorum ad
+            <lb ed="#Qb"/>invicem et communicationis vitae.
+         </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 3, Tract. 2, Q. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 3, Tract. 2, Q. 1, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="319"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai3t2q1c1">
+        <head>Ia-IIae, Inq. 3, Tract. 2, Q. 1, C. 1</head>
+        <head type="question-title">UTRUM TUNC OMNIA CORPORALIA FACTA SINT SIMUL RATIONE MATERIAE VEL NON.</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic: a. Omnia creata sunt simul et
+          <lb ed="#Qb"/>hoc 'simul' est ratione materiae; creare au<lb ed="#Qb"/>tem
+          est facere' sub communi ratione; ergo omnia
+          <lb ed="#Qb"/>facta sunt simul.
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Ad idem facit quod dicit A 11 gu sti n u s, Can<lb ed="#Qb"/>tra
+          Manichaeos, introducens auctoritatem de libro
+          <lb ed="#Qb"/>Sapientiae 2 : 'Qu. fecisti mundum de materia invisa,
+          <lb ed="#Qb"/>ubi nos habemus: Qui creavit orbem terrarum de
+          <lb ed="#Qb"/>materia invisa; ergo sicut dicuntur simul creata c
+          <lb ed="#Qb"/>in materia, sic dieentur "1 omnia facta tunc ratione
+          <lb ed="#Qb"/>materiae.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: 1. Scriptura libri Geneseos et Psalmo<lb ed="#Qb"/>rum
+          distinguit inter creare et facere. Psalm.3:
+          <lb ed="#Qb"/>Dixit et facta sunt, mandavit et creata sunt, ut
+          <lb ed="#Qb"/>creatio respiciat ad exitum de non-esse in esse,
+          <lb ed="#Qb"/>factio autem respiciat ad formam in materia; non
+          <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>autem omnia tunc facta sunt in propria-materia et '
+          <lb ed="#Qb"/>torma; ergo non omnia tunc dicuntur esse "facta.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Praeterea, res mirabilesf non tunc factae
+          <lb ed="#Qb"/>sunt- in sua forma, ut incarnatio non tunc facta
+          <lb ed="#Qb"/>tuit in.sua torma, licet esset humana natura, et
+          <lb ed="#Qb"/>ita de aliis mirabilibus et artiïicialibusiergo'non
+          <lb ed="#Qb"/>omnia tunc erant facta.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Solutio]: 1. Ad quod videtur dicendum quod,
+          <lb ed="#Qb"/>sive 'tactum'g dicatur communiter ad creatum
+          <lb ed="#Qb"/>sive proprie, sicut distinguitur in libro Geneseos,
+          <lb ed="#Qb"/>omnia dicuntur tacta simul ratione materiae; et
+          <lb ed="#Qb"/>quia materia non fuit denudata sive nuda a forma
+          <lb ed="#Qb"/>aliqua, dicuntur omnia esse facta, sed non in pro<lb ed="#Qb"/>pria
+          torma neque in numero, sed in aliqua forma,
+          <lb ed="#Qb"/>quae ratione materiae suae et ratione sui habuit"
+          <lb ed="#Qb"/>possibilitatem obedientiae ad omne quod voluit
+          <pb ed="#Qb" n="320"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>Deus facere de illa creatura. Unde A ugustin us, ' 
+          <lb ed="#Qb"/>post quaestionem motam su per Genesim, dicit 1 : 
+          <lb ed="#Qb"/>
+          <quote>Restat quod ad utrumque habiles surtt creatae a 
+          <lb ed="#Qb"/>sive] ad istum modum quo usitatissime tem<lb ed="#Qb"/>poralia 
+          transcurrunt si ve ad illum quo rara et b 
+          <lb ed="#Qb"/>mirabilia fiunt, sicut placuit Deo facere</quote>, Factae 
+          <lb ed="#Qb"/>ergo sunt res in materia et in aliqua forma, l 
+          <lb ed="#Qb"/>de qua possit Deus facere illud quod ei 
+          <lb ed="#Qb"/>placuerit. tunc nuda fuit a forma.
+        </p>
+        <p>
+                <cb ed="#Qb" n="b"/>
+          <lb ed="#Qb"/>2. A d h o c autemc quod dicitur de incarnatione,
+          <lb ed="#Qb"/>dicendum quod h umana natura tunc facta est,
+          <lb ed="#Qb"/>quae habuit possibilitatem obedientiae, ut in d in[
+          <lb ed="#Qb"/>dividuo, in quo placuit Deo e, uniretur vel uniri
+          <lb ed="#Qb"/>posset divinae naturae; non est autem aliqua
+          <lb ed="#Qb"/>causa in creatura ut fiat, sed in Deo, cui nihil
+          <lb ed="#Qb"/>est impossibile. De artificialibus autem. dicen<lb ed="#Qb"/>dum 
+          quod ipsa tunc facta sunt in materia, quae
+          <lb ed="#Qb"/>tunc nuda fuit a forma.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 2, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 2, C. 1</title>
+          <date when="2017-06-27">June 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://lydiaschumacher.wixsite.com/earlyfranciscans">ERC Project 714427: Authority and Innovation in Early Franciscan Thought</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qb" n="quaracchi1928">Quaracchi 1924</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-06-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#Q" n="71"/>
+        <pb ed="#Q" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ahsh-l2Ai1t2q2t2m2c1">
+        <head>Ia-IIae, Inq. 1, Tract. 2, Q. 2, T. 2, M. 2, C. 1</head>
+        <head type="question-title">UNDE VENIAT COMPOSITIO SECUNDUM QUOD HUIUSMODI.</head>
+        <p>
+          <lb ed="#Qb"/>Ad primum sic: 1. Compositio elongatur aPrimo,
+          <lb ed="#Qb"/>cum Primum" sit omnino simplex. Unde Au<lb ed="#Qb"/>gustinus,
+          XI De civitate Dei 2: <quote> Est bonum solum
+          <lb ed="#Qb"/>simplex" et hoc solum est incommutabile, quod est
+          <lb ed="#Qb"/>Deus </quote>. Item, An s elm u s 3: <quote> Cuius partes co<lb ed="#Qb"/>gitari
+          nonP possunt, id in partes nullus intellectus
+          <lb ed="#Qb"/>dissolvere potest. Si ergo Deus est compositus,
+          <lb ed="#Qb"/>aliquid Deo, maius potest intelligi. Nam illud quod
+          <lb ed="#Qb"/>nec actu nec intellectu dissolvi potest, maius est
+          <lb ed="#Qb"/>quam illud quod actu vel intellectu est dissolu<lb ed="#Qb"/>bile
+    </quote>. Cum ergo Primum sit simplex, compositio
+          <lb ed="#Qb"/>non causabitur ab eo, eoq quod non habet simi<lb ed="#Qb"/>litudinem
+          cum ipso. Si autem causatur a crea<lb ed="#Qb"/>tura,
+          cum omnis creatura *habeat aliquod genus
+          <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>compositionis, erit processus' in infinitum; ex
+          <lb ed="#Qb"/>quo relinquitur quod non erits aliqua causa com<lb ed="#Qb"/>positionis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Item, dicit <name ref="#Augustine">Augustinus</name>, in XI De civitate
+          <lb ed="#Qb"/>Dei4: <quote> Creatat ab ipso non sunt simplicia, et
+          <lb ed="#Qb"/>ob" hoc mutabilia </quote>; quOd autem mutabile est,
+          <lb ed="#Qb"/>sicut dicit <name ref="#Augustine">Augustinus</name>, in libro Contra epi<lb ed="#Qb"/>stolam
+          fundamenti 5, aliunde est et aliunde est
+          <lb ed="#Qb"/>mutabile: est enim a Deo, sed mutabile ex hoc
+          <lb ed="#Qb"/>quod est de nihilo. Et Contra-adversarium Legis
+          <lb ed="#Qb"/>et Prophetarum 6: <quote> Propterea bona sunt, quoniam
+          <lb ed="#Qb"/>a summo bono " bona facta sunt ;jmutabilia vero,
+          <lb ed="#Qb"/>quia nOn dex ipso, sed denihilo facta sunt </quote>.
+          <lb ed="#Qb"/>Cum ergo mutabile sequatur compositum et
+          <pb ed="#Qb" n="72"/>
+                <cb ed="#Qb" n="a"/>
+          <lb ed="#Qb"/>mutabilitas compositionem, erit compositio rei,
+          <lb ed="#Qb"/>non quia est ab aliquo, sed quia est ex nihilo.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Contra: a. Dicitur in libro-De articulis fidei 1:
+    <quote> Cuiuslibet compositionis necesse est esse ali<lb ed="#Qb"/>quam
+          causam</quote>. Ex quo relinquitur" quod. com<lb ed="#Qb"/>positio
+          causam habet. '
+        </p>
+        <p>
+          <lb ed="#Qb"/>b. Item, omne compositum, in eo quod huius<lb ed="#Qb"/>modi,
+          partes habet vel pars est, ut aliud fiat ex
+          <lb ed="#Qb"/>eo 2. Si ergo <quote>nihil se ipsum componit3</quote>, erit
+          <lb ed="#Qb"/>aliqua alia causa compositionis; ergo compositio
+          <lb ed="#Qb"/>causam habet, cum non se ipsab subsistat.
+        </p>
+        <p>
+          <lb ed="#Qb"/>Respondendum est quod compositionis est ali<lb ed="#Qb"/>qua
+          causa4. Cum autem quaerimus causam, aut
+          <lb ed="#Qb"/>quaerimus efficientem aut materialem. Etc dicen<lb ed="#Qb"/>dum
+          est quod compositio habet causam efficientem
+          <lb ed="#Qb"/>similiter et causam materialem, ex quibus fit d com<lb ed="#Qb"/>positio.
+          Si vero quaeratur causa formalis compo<lb ed="#Qb"/>sitionis,
+          in quantum est compositio, non dicetur
+          <lb ed="#Qb"/>habere causam formalem aliam a se, et quia 
+          <lb ed="#Qb"/>compositio non pertinet ad perfectionem rei, sed
+          <lb ed="#Qb"/>ad imperfectionem, ideo * dicetur hoc habere,
+          <lb ed="#Qb"/>quia ex nihilo processit in esse.
+        </p>
+        <p>
+          <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primof obiectum dicen<lb ed="#Qb"/>dum
+          quod licet Primum simplex sit, nihilominus
+          <lb ed="#Qb"/>tamen est compositio ab ipso; sedg secundum hanc
+          <lb ed="#Qb"/>rationem non est per viam similitudinis, sed per
+          <lb ed="#Qb"/>viam dissimilitudinis.
+        </p>
+        <p>
+          <lb ed="#Qb"/>2. Ad secundo obiectum dicendum quod
+          <lb ed="#Qb"/>alia ratio est quodammodo eius quod est com<lb ed="#Qb"/>positum
+          et eius" quod est mutabile. Nam muta—
+          <lb ed="#Qb"/>bile respicit terminum a quo et in quid5; quod au<lb ed="#Qb"/>tem
+          mutabile in ' nihil ' est mutabile, hoc est quia
+          <lb ed="#Qb"/>ex nihilo; esse tamen mutabilis1 est ab eo quod
+          <lb ed="#Qb"/>est immutabile 5. Compositum vero 'quod est com<lb ed="#Qb"/>positum'
+          habet tumk ex ratione componibilium,
+          <lb ed="#Qb"/>tum ex ratione componentis, et ita semper ad ens
+          <lb ed="#Qb"/>reducetur, scilicet ad ens increatum ex parte primo
+          <lb ed="#Qb"/>componentis, ad ens creatum ex parte componibilis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
