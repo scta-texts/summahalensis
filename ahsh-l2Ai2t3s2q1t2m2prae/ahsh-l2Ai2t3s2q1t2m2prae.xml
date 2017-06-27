@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,9 +54,9 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai2t3s2q1t2m2prae">
-        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, Praeambulum</head>
-        <head type="question-title">DE ACTU PROPRIO POTENTIAE COGNITIVAE ANGELI.</head>
-        <p>
+        <head xml:id="ahsh-l2Ai2t3s2q1t2m2prae-Hd1e107">Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 1, T. 2, M. 2, Praeambulum</head>
+        <head xml:id="ahsh-l2Ai2t3s2q1t2m2prae-Hd1e110" type="question-title">DE ACTU PROPRIO POTENTIAE COGNITIVAE ANGELI.</head>
+        <p xml:id="ahsh-l2Ai2t3s2q1t2m2prae-d1e113">
                 <pb ed="#Qb" n="175"/>
                 <cb ed="#Qb" n="a"/>
           <lb ed="#Qb"/>Dicto de cognitione angeli quantum ad mo<lb ed="#Qb"/>dum 
@@ -66,7 +64,7 @@
           <lb ed="#Qb"/>de ipsa ratione cognoscibilium. Circa quam quae<lb ed="#Qb"/>runtur
           haec:
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai2t3s2q1t2m2prae-d1e129">
           <lb ed="#Qb"/>Primo, qualiter cognoscit quod supra se est,
           <lb ed="#Qb"/>scilicet Deum;
           <cb ed="#Qb" n="b"/>

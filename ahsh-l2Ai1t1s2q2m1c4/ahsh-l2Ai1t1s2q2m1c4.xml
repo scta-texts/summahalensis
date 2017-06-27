@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,16 +54,16 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai1t1s2q2m1c4">
-        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 4</head>
-        <head type="question-title">AN CREARI CONVENIAT TANTUM MATERIAE ET FORMAE.</head>
-        <p>
+        <head xml:id="ahsh-l2Ai1t1s2q2m1c4-Hd1e107">Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 4</head>
+        <head xml:id="ahsh-l2Ai1t1s2q2m1c4-Hd1e110" type="question-title">AN CREARI CONVENIAT TANTUM MATERIAE ET FORMAE.</head>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c4-d1e113">
           <lb ed="#Qb"/>Quarto' loco quaeritur an creari conveniat tan<lb ed="#Qb"/>tums
           materiae et formae, quae sunt principia
           <cb ed="#Qb" n="b"/>
           <lb ed="#Qb"/>rei compositae, ant conveniat etiam eis quae
           <lb ed="#Qb"/>fiunt ex materia et forma 5.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c4-d1e126">
                 <pb ed="#Qb" n="53"/>
                 <cb ed="#Qb" n="a"/>
           <lb ed="#Qb"/>Quod non conveniat nisi principüs, scilicet
@@ -77,30 +75,30 @@
           <lb ed="#Qb"/>composita ex materia et forma vel 4 ex huiusmodi
           <lb ed="#Qb"/>principiis, non sunt creata.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c4-d1e150">
           <lb ed="#Qb"/>2. Item, aliud est exire de non-esse in esse C et
           <lb ed="#Qb"/>aliud de potentia in actum; sed quae habent ma<lb ed="#Qb"/>teriam
           exeunt de potentia in actum, quae vero de
           <lb ed="#Qb"/>non-esse omnino in esse, creantur; ergo non di<lb ed="#Qb"/>cuntur
           illa creari.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c4-d1e164">
           <lb ed="#Qb"/>3. Item, secundum illamf expositionem, quam
           <lb ed="#Qb"/>ponit <name ref="#Augustine">Augustinus</name>, in libro Confessionum 1:
-    <quote>Caeli et terrae nomine materia utrorumque de<lb ed="#Qb"/>signatur</quote>.
+    <quote xml:id="ahsh-l2Ai1t1s2q2m1c4-Qd1e173">Caeli et terrae nomine materia utrorumque de<lb ed="#Qb"/>signatur</quote>.
           Ex quo videtur, cum intra sequatur
           <lb ed="#Qb"/>de iis quae fiunt in distinctionibus dierum, quod
           <lb ed="#Qb"/>esset! materia creata; quae autem sunt ex materia
           <lb ed="#Qb"/>non dicentur" creata, sed iacta.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c4-d1e186">
           <lb ed="#Qb"/>Contra: a. Cum diciturZ: In principio creavit
           <lb ed="#Qb"/>Deus caelum et terram, dicit <name ref="#Augustine">Augustinus</name>, Con<lb ed="#Qb"/>tra
-          Manto/meum 3, quod <quote> caeli et terrae nomine
+          Manto/meum 3, quod <quote xml:id="ahsh-l2Ai1t1s2q2m1c4-Qd1e197"> caeli et terrae nomine
           <lb ed="#Qb"/>universa creatura significata est, quam fecit et
           <lb ed="#Qb"/>condidit Deus </quote>.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c4-d1e205">
           <lb ed="#Qb"/>Respondendum est: Fieri de nihilo dicitur du<lb ed="#Qb"/>pliciter:
           vel quod fit non ex materia, et secun<lb ed="#Qb"/>dum 
           hunc modum materia et forma dicuntur fieri
@@ -111,7 +109,7 @@
           <lb ed="#Qb"/>et secundum hunc modum dicuntur non tantum
           <lb ed="#Qb"/>materia et forma creata, sed et * quae primo erant
           <lb ed="#Qb"/>ex illis. Unde <name ref="#Augustine">Augustinus</name>, Contra Manichaeum4:
-    <quote> Rectissime creditur omnia de nihilo fecisse; ipsa
+    <quote xml:id="ahsh-l2Ai1t1s2q2m1c4-Qd1e232"> Rectissime creditur omnia de nihilo fecisse; ipsa
           <lb ed="#Qb"/>etiam materia de omnino nihilo facta est, etiamsi
           <lb ed="#Qb"/>formata omnia de ista materia sint tacta </quote>. Non
           <lb ed="#Qb"/>enim prius extitit materia secundum sententiam
@@ -120,7 +118,7 @@
           <lb ed="#Qb"/>res, sed simul de non-esse in esse exierunt prin<lb ed="#Qb"/>cipia
           et quae erant ex illis.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c4-d1e251">
           <lb ed="#Qb"/>[Ad obiecta]: 1. Per iam dicta patet responsio
           <lb ed="#Qb"/>ad primo obiectum. Esse enim ex nihilo et
           <lb ed="#Qb"/>esse ex aliquo opponuntur, si consimiliter acci<lb ed="#Qb"/>piuntur
@@ -130,7 +128,7 @@
           <lb ed="#Qb"/>cum dicitur ' ex mane iit dies ', id est post mane,
           <lb ed="#Qb"/>non quod mane sit materia diei 5.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c4-d1e271">
           <lb ed="#Qb"/>2. Ad secundo obiectum dicendum est quod
           <lb ed="#Qb"/>'exire de potentia in actum, dicitur proprie de
           <lb ed="#Qb"/>iis quae habent praeexistentem materiam: et se<lb ed="#Qb"/>cundum
@@ -140,7 +138,7 @@
           <lb ed="#Qb"/>potentia in actum, et 'exire de nihilo in esse',
           <lb ed="#Qb"/>sed utrumque convenit creatis.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c4-d1e291">
           <lb ed="#Qb"/>3. Ad tertium patet responsio ex'" dictis.
         </p>
       </div>

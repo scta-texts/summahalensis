@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,23 +54,23 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai4t3q3t2m1">
-        <head>Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 2, M. 1</head>
-        <head type="question-title">Utrum primus homo habuit gratiam et. virtutes ante lapsum.</head>
-        <p>
+        <head xml:id="ahsh-l2Ai4t3q3t2m1-Hd1e107">Ia-IIae, Inq. 4, Tract. 3, Q. 3, T. 2, M. 1</head>
+        <head xml:id="ahsh-l2Ai4t3q3t2m1-Hd1e110" type="question-title">Utrum primus homo habuit gratiam et. virtutes ante lapsum.</head>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e113">
           <lb ed="#Qb"/>Quaeritur ergo utrum habuit" gratiam et vir<lb ed="#Qb"/>tutes 
           ante lapsum.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e120">
           <lb ed="#Qb"/>Quod sic, videtur: a. Luc. 10,30: Qui etiam
           <lb ed="#Qb"/>exspoliauerunt eum et plagis impositis etc.; et
-          <lb ed="#Qb"/>exponunt Sancti2 et Glossa3 quod <quote> exspolia<lb ed="#Qb"/>verunt
+          <lb ed="#Qb"/>exponunt Sancti2 et Glossa3 quod <quote xml:id="ahsh-l2Ai4t3q3t2m1-Qd1e128"> exspolia<lb ed="#Qb"/>verunt
           eum gratuitis et vulneraverunt in natura<lb ed="#Qb"/>libus
     </quote>. Ergo, si hoc intelligitur in primo homine,
           <lb ed="#Qb"/>primus homo non tantum habuit naturalia, sed
           <lb ed="#Qb"/>etiam gratuita ante peccatum.
         </p>
-        <p>
-          <lb ed="#Qb"/>b. Item, Bernardus4: <quote> Cum videret patrem
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e141">
+          <lb ed="#Qb"/>b. Item, Bernardus4: <quote xml:id="ahsh-l2Ai4t3q3t2m1-Qd1e145"> Cum videret patrem
           <lb ed="#Qb"/>nostrum hominum aemulus caritate circumda<lb ed="#Qb"/>tum
           et omni virtute vestitum, et hoc accepisse
           <lb ed="#Qb"/>terrenum hominem quod ipse per superbiam
@@ -80,7 +78,7 @@
           patet quod primus homo et caritatem habebat
           <lb ed="#Qb"/>et omnem virtutem. '
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e162">
           <lb ed="#Qb"/>c. Item, Adam recepit mandatum disciplinae;
           <lb ed="#Qb"/>sed ", si illud mandatum servassetc absque gratia,
           <lb ed="#Qb"/>meruisset; si igitur illud mandatum datum erat
@@ -89,13 +87,13 @@
           <lb ed="#Qb"/>adiutorium, alioquin dedisset ei in malum: quod
           <lb ed="#Qb"/>nullo modo decet facere Deum.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e180">
           <lb ed="#Qb"/>d. Item,-hoc habetur a Magistro Sententia<lb ed="#Qb"/>rum,
           II libro, dist. 29, cap.? Praeterea,.quaeri
           <lb ed="#Qb"/>solet5, ubi ad hoc ostendendum introducuntur
           <lb ed="#Qb"/>auctoritates plures. '
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e191">
           <lb ed="#Qb"/>Contra: 1. Deus sciebat ipsum statim esse
           <lb ed="#Qb"/>lapsarum; ergo sciebat quod illud gratiae donum
           <cb ed="#Qb" n="b"/>
@@ -105,7 +103,7 @@
           <lb ed="#Qb"/>operis sui damnum et nocumentum, videtur quod
           <lb ed="#Qb"/>non dederit illi gratiam.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e211">
           <lb ed="#Qb"/>2. Item, Adam quia iustitiam originalem habuit,
           <lb ed="#Qb"/>quando peccavit, et voluntarie perdidit, nunquam
           <lb ed="#Qb"/>eam recuperavit; ergo pari ratione, si habuisset
@@ -114,7 +112,7 @@
           <lb ed="#Qb"/>igitur gratiam gratum facientem ipse recuperavit, 
           <lb ed="#Qb"/>videtur quod ante lapsum eam non habueritf.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e229">
           <lb ed="#Qb"/>3. Item, Adam habebat optima naturalia et
           <lb ed="#Qb"/>nullam habebat pronitatem ad malum nec diffi<lb ed="#Qb"/>cultatem
           ad bonum 5; ergo, si caritatem et gratiam
@@ -122,12 +120,12 @@
           <lb ed="#Qb"/>quam in peccatum cecidisset; sed constat quod
           <lb ed="#Qb"/>cecidit; ergog gratiam ante lapsum non habuit.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e245">
           <lb ed="#Qb"/>4. Praeterea, ex quo habebat optima naturalia,
           <lb ed="#Qb"/>gratia apposita terebatur totaliter in Deum, et ita
           <lb ed="#Qb"/>esset confirmatus sicut erant angeli.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e255">
           <lb ed="#Qb"/>5. Item, Lucifer non habuit gratiam gratum
           <lb ed="#Qb"/>facientem7; si ergo Adam gratiam gratum facien<lb ed="#Qb"/>temh
           habuit et ab illa cecidit, ergo de altiori
@@ -136,7 +134,7 @@
           <lb ed="#Qb"/>angelicum; si ergo hoci constat esse falsum,
           <lb ed="#Qb"/>ante peccatum non] habuit gratiae donum.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e273">
           <lb ed="#Qb"/>6. Item, prius debet aliquisk probari quam in
           <lb ed="#Qb"/>amicum assumi; hoc non solum est verum in
           <pb ed="#Qb" n="750"/>
@@ -149,7 +147,7 @@
           sed statim post tentationem peccavit; ergo
           <lb ed="#Qb"/>non habuit gratiam ante lapsum.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e299">
           <lb ed="#Qb"/>Respondeo: Ad praedictorum intelligentiamc
           <lb ed="#Qb"/>notandum quod circa hoc duplex consuevit esse
           <lb ed="#Qb"/>opinio. Quidam3 enim dicere voluerunt quod
@@ -165,7 +163,7 @@
           <lb ed="#Qb"/>illud poterat tentationi resistere et :ad gratiam
           <lb ed="#Qb"/>gratum facientem disponere se ipsum.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e332">
           <lb ed="#Qb"/>Sed, quoniam auctoritates Sanctorum expresse
           <lb ed="#Qb"/>videntur dicere de gratia gratum faciente, sicut
           <lb ed="#Qb"/>patet ex obiectis, et huic etiam consona videtur
@@ -181,7 +179,7 @@
           <lb ed="#Qb"/>concedere possumus rationes quae ad primam
           <lb ed="#Qb"/>partem inducuntur.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e368">
           <lb ed="#Qb"/>[Ad obiecta.]: 1. Ad illud autem quod obi<lb ed="#Qb"/>citur
           in contrarium quod 'Deus sciebat statim
           <lb ed="#Qb"/>ipsum esse lapsum-m": dicendum quod propter
@@ -199,7 +197,7 @@
           <lb ed="#Qb"/>quod a tam beneiico et tam benigno se avertit
           <lb ed="#Qb"/>sine causa.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e405">
           <lb ed="#Qb"/>2. Ad illud quod obicitur quod 'non potuit re<lb ed="#Qb"/>cuperare
           originalem iustitiam quam habuit quando
           <lb ed="#Qb"/>peccavit': dicendum quod haec non est tota ratio,
@@ -233,13 +231,13 @@
           irrationabilem *. Pars autem rationalis, dum<lb ed="#Qb"/>modo
           per obedientiam suberat dominio sui Condi<lb ed="#Qb"/>toris,
           parti irrationali dominabatur; unde Augu<lb ed="#Qb"/>stinus,
-          Xi-V De civitate Dei, cap. 157: <quote> In pa.<lb ed="#Qb"/>radiso
+          Xi-V De civitate Dei, cap. 157: <quote xml:id="ahsh-l2Ai4t3q3t2m1-Qd1e480"> In pa.<lb ed="#Qb"/>radiso
           enim, etiam si non omnia poterat ante
           <lb ed="#Qb"/>peccatum, quidquid tamen non poterat, non vo<lb ed="#Qb"/>lebat,
           et ideo poterat omnia quae volebat</quote>; sed
           <lb ed="#Qb"/>nolens subesse dominio sui superioris, dominium
           <lb ed="#Qb"/>amisit sui inferioris. Unde <name ref="#Augustine">Augustinus</name>, eo<lb ed="#Qb"/>dem:
-    <quote>Denique ", ut breviter dicatur, in illius
+    <quote xml:id="ahsh-l2Ai4t3q3t2m1-Qd1e499">Denique ", ut breviter dicatur, in illius
           <lb ed="#Qb"/>peccatiV poena quid inobedientiae nisi inobe<lb ed="#Qb"/>dientia
           :retributa est? Nam .quae hominis est?
           <lb ed="#Qb"/>alia miseria nisi adversus eum ipsum inobedientia
@@ -267,7 +265,7 @@
           :quod ante reparationem naturae corruptae non
           <lb ed="#Qb"/>re'cuperabi-tur' perfecte naturalis iustitia.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e556">
           <lb ed="#Qb"/>3. Ad aliudh quod obicitur quod 'si Adam ,
           <lb ed="#Qb"/>habuisset gratiam, inseparabiliter Deo adhaesis<lb ed="#Qb"/>set':
           dicendum quod hoc non oportet, quia-libe<lb ed="#Qb"/>rum
@@ -283,7 +281,7 @@
           <lb ed="#Qb"/>per gratiam, et sic intelligendum est accidisse
           <lb ed="#Qb"/>ipsi Adae.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e587">
           <lb ed="#Qb"/>4. A d aliud quod obicitur quod ' confirmatus
           <lb ed="#Qb"/>esset ut angelus': d-icendum'k quod non est simile,
           <lb ed="#Qb"/>tum quia angelus habet n-obi-liora naturalia, tum
@@ -297,7 +295,7 @@
           <lb ed="#Qb"/>Deum :. propter quod non sequitur quod fuisset
           <lb ed="#Qb"/>confirmatus.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e616">
           <lb ed="#Qb"/>5. Ad illud quod obicitur quod ' Lucifer non
           <lb ed="#Qb"/>habuit gratiam gratum facientem' etc.: dicendum
           <lb ed="#Qb"/>quod hoc' verum est4. Ex hoc tamen non se<lb ed="#Qb"/>quitur
@@ -315,7 +313,7 @@
           <lb ed="#Qb"/>nec adeo fuit ingratus nec adeo per peccatum
           <lb ed="#Qb"/>depravatus.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t3q3t2m1-d1e653">
           <lb ed="#Qb"/>6. Ad illu d" quod obicitur quod 'prius debet
           <lb ed="#Qb"/>homo tentari quam in amicum assumi': dicendum
           <lb ed="#Qb"/>quod illud intelligitur de illa amicitia quae facit

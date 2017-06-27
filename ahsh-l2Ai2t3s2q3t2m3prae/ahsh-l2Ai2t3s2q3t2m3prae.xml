@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,8 +54,8 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai2t3s2q3t2m3prae">
-        <head>Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, Praeambulum</head>
-        <p>
+        <head xml:id="ahsh-l2Ai2t3s2q3t2m3prae-Hd1e107">Ia-IIae, Inq. 2, Tract. 3, S. 2, Q. 3, T. 2, M. 3, Praeambulum</head>
+        <p xml:id="ahsh-l2Ai2t3s2q3t2m3prae-d1e110">
                 <pb ed="#Qb" n="263"/>
                 <cb ed="#Qb" n="a"/>
           <lb ed="#Qb"/>Dicto de praesidentia qua praeest angelus su- '
@@ -67,7 +65,7 @@
           <lb ed="#Qb"/>circa custodiam. Quaerendum est ergo de custodia
           <lb ed="#Qb"/>angelica.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai2t3s2q3t2m3prae-d1e130">
           <lb ed="#Qb"/>Primo ergo quaeritur utrum angelus habeat
           <lb ed="#Qb"/>potestatemc custodiendi hominem secundum ani<lb ed="#Qb"/>mam;
           <lb ed="#Qb"/>secundo, supposito quod habeat, an habeat a

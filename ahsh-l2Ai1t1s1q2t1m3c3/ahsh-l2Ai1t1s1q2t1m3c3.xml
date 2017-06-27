@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,13 +54,13 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai1t1s1q2t1m3c3">
-        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 3, C. 3</head>
-        <head type="question-title">UTRUM OMNIA APPETANT HANC RATIONEM CAUSAE FINALIS.</head>
-        <p>
+        <head xml:id="ahsh-l2Ai1t1s1q2t1m3c3-Hd1e107">Ia-IIae, Inq. 1, Tract. 1, Sect. 1, Q. 1, T. 1, M. 3, C. 3</head>
+        <head xml:id="ahsh-l2Ai1t1s1q2t1m3c3-Hd1e110" type="question-title">UTRUM OMNIA APPETANT HANC RATIONEM CAUSAE FINALIS.</head>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e113">
           <lb ed="#Qb"/>Sequitur dicere utrum omnia appetant in sua 
           <lb ed="#Qb"/>actione hunc 9 finem 7.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e120">
           <lb ed="#Qb"/>Quod non, videtur: 1. Finis enim iste consti<lb ed="#Qb"/>tuitur 
           perfectio rationalis creaturae: beatitudo 
           <lb ed="#Qb"/>enim et finis iste idem 8. Si ergo beatitudo non 
@@ -70,19 +68,19 @@
           summum sunt' idem, non ergo omnia ap<lb ed="#Qb"/>petunt 
           hunc finem.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e133">
           <lb ed="#Qb"/>2. Praeterea, appetitus naturalis plantae est ut 
           <lb ed="#Qb"/>salvetur esse plantae, et ita de aliis rebus naturali— 
           <lb ed="#Qb"/>bus; ergo non tendit ad obtinendum hunc finem.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e143">
           <lb ed="#Qb"/>3. Item, sicut-dicit Boethius, De consola<lb ed="#Qb"/>tione 9: 
-    <quote> Bonum, et unum idem in substantia,
+    <quote xml:id="ahsh-l2Ai1t1s1q2t1m3c3-Qd1e149"> Bonum, et unum idem in substantia,
           <lb ed="#Qb"/>lapis vero partium suarum appetit unitatem, et ita 
           <lb ed="#Qb"/>de aliis compositis, et hoc sibi sufficit</quote>. Ergo non8 
           <lb ed="#Qb"/>appetunt hunc finem, cum iste finis sit ulterior.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e159">
                 <cb ed="#Qb" n="b"/>
           <lb ed="#Qb"/>4. Praeterea, completo numero electorum, cum
           <lb ed="#Qb"/>erit resurrectio, desinent haec esse, et ita non
@@ -90,10 +88,10 @@
           perficitur autem vel perficietur; non ergo
           iste est" finis quem omnia appetunt.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e172">
           <lb ed="#Qb"/>Contra: a. Dionysius, in libro De divinis no<lb ed="#Qb"/>minibus 10: 
-    <quote>Bonum est quod desideratur ab omni<lb ed="#Qb"/>bus</quote>, 
-          et Philosophus: <quote> Bonum est quod
+    <quote xml:id="ahsh-l2Ai1t1s1q2t1m3c3-Qd1e178">Bonum est quod desideratur ab omni<lb ed="#Qb"/>bus</quote>, 
+          et Philosophus: <quote xml:id="ahsh-l2Ai1t1s1q2t1m3c3-Qd1e183"> Bonum est quod
           <lb ed="#Qb"/>omnia optant</quote>; sed non est bonum nisi- partici<lb ed="#Qb"/>2.
           patione summi boni, sicut dicit <name ref="#Augustine">Augustinus</name>,
           <lb ed="#Qb"/>in libro De civitate Dei '2 'et De Trinitate 13; ergo
@@ -101,7 +99,7 @@
           <lb ed="#Qb"/>bono; sed iste est finis iam dictus; ergo finis
           <lb ed="#Qb"/>iam dictus est" quem omnia appetunt.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e203">
           <lb ed="#Qb"/>[Solutio]: 1. Ad quod respondendum quod
           <lb ed="#Qb"/>duplex est appetitus: unus ex cognitione praeha<lb ed="#Qb"/>bita 
           naturaliter vel exx acquisitione sive dono,
@@ -118,7 +116,7 @@
           ratione quae est secundum quod bonum
           <lb ed="#Qb"/>summum " omnia conservat et terminat.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e238">
           <lb ed="#Qb"/>2. Ad id vero quod secundo obiciturvdi<lb ed="#Qb"/>cendum
           esta quod plantae et aliae creaturae cor<lb ed="#Qb"/>ruptibiles,
           cum * appetunt continuationem sui esse
@@ -127,7 +125,7 @@
           <lb ed="#Qb"/>praesentialiter,1 — quoad hoc appetunt natura<lb ed="#Qb"/>liter
           summum bonum.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e254">
                 <cb ed="#Qb" n="26"/>
           <lb ed="#Qb"/>3. Ad tertio obiectum dicendum estf simi<lb ed="#Qb"/>liter
           de unitate quam appetunt res compositae:
@@ -135,7 +133,7 @@
           <lb ed="#Qb"/>summa bonitas, sine qua nec est nec esse posset,
           <lb ed="#Qb"/>et ideo eam naturaliter desiderat.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s1q2t1m3c3-d1e271">
           <lb ed="#Qb"/>4. Ad ultimo obiectum dicendum est! quod
           <lb ed="#Qb"/>est finis quidam corruptibilium creaturarum se<lb ed="#Qb"/>cundum
           quod sunt propter hominem, et illo fine

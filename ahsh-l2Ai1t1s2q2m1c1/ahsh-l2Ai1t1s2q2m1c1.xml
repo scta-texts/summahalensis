@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,9 +54,9 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai1t1s2q2m1c1">
-        <head>Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 1</head>
-        <head type="question-title">UTRUM CREARI SIT QUODDAM MUTARI VEL NON</head>
-        <p>
+        <head xml:id="ahsh-l2Ai1t1s2q2m1c1-Hd1e107">Ia-IIae, Inq. 1, Tract. 1, Sect. 2, Q. 2, M. 1, C. 1</head>
+        <head xml:id="ahsh-l2Ai1t1s2q2m1c1-Hd1e110" type="question-title">UTRUM CREARI SIT QUODDAM MUTARI VEL NON</head>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c1-d1e113">
           <lb ed="#Qb"/>Ad primum sic: a. Si creari est mutari, omne
           <lb ed="#Qb"/>A autem mutari vel est secundum substantiam
           <lb ed="#Qb"/>vel secundum accidens 3, ergo creari erit alterum
@@ -74,19 +72,19 @@
           <lb ed="#Qb"/>creatio nobilior alia processione creaturae; quod
           <lb ed="#Qb"/>cum non sit, non erit creari mutari.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c1-d1e146">
           <lb ed="#Qb"/>Contra: 1. Quod creatur, de non-esse procedit
           <lb ed="#Qb"/>in esse; sed quod demon-esse procedit in esse,
           <lb ed="#Qb"/>mutatur; ergo quod creatur mutatur.
         </p>
-        <p>
-          <lb ed="#Qb"/>2. Item, Isidorus 5: <quote> Creatura bonum est,
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c1-d1e155">
+          <lb ed="#Qb"/>2. Item, Isidorus 5: <quote xml:id="ahsh-l2Ai1t1s2q2m1c1-Qd1e159"> Creatura bonum est,
           <cb ed="#Qb" n="b"/>
             <lb ed="#Qb"/>sed non summum, quia mutabilis est</quote>; omne'
           <lb ed="#Qb"/>autem quod mutabile est mutatur; ergo creatura
           <lb ed="#Qb"/>mutatur.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c1-d1e172">
           <lb ed="#Qb"/>Respondendumd est quod 'mutari' dicitur du<lb ed="#Qb"/>pliciterö:
           uno modo, quod iam est ens potentia
           <lb ed="#Qb"/>vel actu et mutatur ab uno in aliud, et secundum
@@ -100,7 +98,7 @@
           unitas, cum non-esse omnino et esse e non
           <lb ed="#Qb"/>habeant commune.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai1t1s2q2m1c1-d1e201">
           <lb ed="#Qb"/>[Ad obiecta]: 1-2. Ad obiectum ergo dicen<lb ed="#Qb"/>dum
           <lb ed="#Qb"/>est quod non dicitur creari mutari eo modo quo
           <lb ed="#Qb"/>generari dicitur mutari; nihilominus tamen dicitur
@@ -114,7 +112,7 @@
           <lb ed="#Qb"/>modum creatura, cum est, mutabilis est, et sic
           <lb ed="#Qb"/>loquitur Isidorus; alio vero modo loquitur
           <lb ed="#Qb"/>
-          <name ref="#Augustine">Augustinus</name>, cum dicitzz <quote>Mutabilia sunt,
+          <name ref="#Augustine">Augustinus</name>, cum dicitzz <quote xml:id="ahsh-l2Ai1t1s2q2m1c1-Qd1e236">Mutabilia sunt,
           <lb ed="#Qb"/>quia non de illo, sed de nihilo facta sunt</quote>.
         </p>
       </div>

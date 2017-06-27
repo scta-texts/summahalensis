@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,27 +54,27 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai4t2s2q2c2">
-        <head>Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 2</head>
-        <head type="question-title">UTRUM COSTA VEL ALIUD MEMBRUM FUERIT MATERIALE PRINCIPIUM EVAE 2.</head>
-        <p>
+        <head xml:id="ahsh-l2Ai4t2s2q2c2-Hd1e107">Ia-IIae, Inq. 4, Tract. 2, S. 2, Q. 2, C. 2</head>
+        <head xml:id="ahsh-l2Ai4t2s2q2c2-Hd1e110" type="question-title">UTRUM COSTA VEL ALIUD MEMBRUM FUERIT MATERIALE PRINCIPIUM EVAE 2.</head>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e113">
           <lb ed="#Qb"/>Sequitur de materiali principio ipsius Evae.
           <lb ed="#Qb"/>Quaeritur. ergoC: quod fuit materiale princi<lb ed="#Qb"/>pium
           illius, utrum costa vel membrum aliud?
         </p>
-        <p>
-          <lb ed="#Qb"/>Quod costa, videtur: a. Gen. 2,22: <quote ana="#gen2_22">Aedificavit
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e122">
+          <lb ed="#Qb"/>Quod costa, videtur: a. Gen. 2,22: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e126" ana="#gen2_22">Aedificavit
           <lb ed="#Qb"/>Dominus Deus costam, quam tuleratd de Adam,
           <lb ed="#Qb"/>in mulierem</quote>.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e134">
           <lb ed="#Qb"/>b. Item, mulier formata fuit ut esset viro in ob<lb ed="#Qb"/>sequium
           sociale sive paritatis: hoc significatur
-          <lb ed="#Qb"/>Gen. 3,12, ubi dicitur: <quote ana="#gen3_12">Mulier quam dedisti mihi
+          <lb ed="#Qb"/>Gen. 3,12, ubi dicitur: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e142" ana="#gen3_12">Mulier quam dedisti mihi
           <lb ed="#Qb"/>in sociam</quote>e etc. Ergo debuit fieri ex illo membro
           <lb ed="#Qb"/>quo maxime paritas exprimitur utriusque sexus;
           <lb ed="#Qb"/>sed tale membrum est latus sive costa; ergo etc.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e154">
           <lb ed="#Qb"/>Contra: 1. Omnis sapiens operator, etsif pro<lb ed="#Qb"/>ducit
           rem aliquam de aliquo materiali principio,
           <lb ed="#Qb"/>illud praeeligit quod magis est habile ad illius for<lb ed="#Qb"/>mae
@@ -84,7 +82,7 @@
           <lb ed="#Qb"/>erat in corpore viri, habilior erat ad susceptionem
           <lb ed="#Qb"/>formae novi corporis quam costa; ergo etc.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e170">
           <lb ed="#Qb"/>2. Item, mulier formata est de corpore viri, ut
           <lb ed="#Qb"/>sicut illorum magna fuit unio ex parte corporum,
           <lb ed="#Qb"/>sic esset magna ex parte animorum, quae est
@@ -96,7 +94,7 @@
           <lb ed="#Qb"/>eius esset formata, magis esset illi colligata unione
           <lb ed="#Qb"/>corporis; ergoh etc.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e194">
           <lb ed="#Qb"/>3. Item, si haec formatio sic fiebat ut maior esset
           <lb ed="#Qb"/>inter eos colligatio amoris, debebat ita fieri ut
           <lb ed="#Qb"/>nullo modo esset provocatio odii vel occasio; ergo
@@ -106,8 +104,8 @@
           passus fuisset dispendium vel incurrisset
           <lb ed="#Qb"/>infirmitatem; sed dicit Glossa <name ref="#Augustine">Augustini</name>3
           <cb ed="#Qb" n="b"/>
-          <lb ed="#Qb"/>super illud Gen. 2,20: <quote ana="#gen2_20">Adam non inveniebatur
-          <lb ed="#Qb"/>adiutorium</quote> : <quote> Mulier facta est de latere viri, quae
+          <lb ed="#Qb"/>super illud Gen. 2,20: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e221" ana="#gen2_20">Adam non inveniebatur
+          <lb ed="#Qb"/>adiutorium</quote> : <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e226"> Mulier facta est de latere viri, quae
           <lb ed="#Qb"/>per ipsum firma facta est, quia ex osse eius; ille
           <lb ed="#Qb"/>propter ipsam infirmus, quia non costa, sed caro
           <lb ed="#Qb"/>suppleta </quote>. Ergo non debuit illa formatio ex aliquo
@@ -117,7 +115,7 @@
           ita quod in nullo passus esset dispendium
           <lb ed="#Qb"/>sensibile.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e247">
           <lb ed="#Qb"/>4. Item, mulier condita fuit ut esset viro in so<lb ed="#Qb"/>ciam,
           ut patet Gen. 3,12; ergo debuit ex illis
           <lb ed="#Qb"/>membris formari, in quibus maxima monstraretur
@@ -125,7 +123,7 @@
           <lb ed="#Qb"/>aequalitas, si de omnibus membris esset sumpta;
           <lb ed="#Qb"/>ergo etc.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e263">
           <lb ed="#Qb"/>5. Item, multiplex reperitur formationis modus
           <lb ed="#Qb"/>in genere humano, scilicet quadruplex, sicut mon<lb ed="#Qb"/>strat
     <name ref="#Anselm">Anselmus</name>4, ut supra tactum est; sed in
@@ -139,22 +137,22 @@
           <lb ed="#Qb"/>pari ratione corpus mulieris debuit formari de viro
           <lb ed="#Qb"/>ita' ut aliquid haberet de singulis membris viri.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e295">
           <lb ed="#Qb"/>6. Item, non videtur quod corpus mulieris for<lb ed="#Qb"/>matum
           sit de corpore viri. Dicit enim Isid o ru 55:
-    <quote> Adam et Eva conditi sunt simul </quote>. Ergo neutrum
+    <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e301"> Adam et Eva conditi sunt simul </quote>. Ergo neutrum
           <lb ed="#Qb"/>ex neutro formatum.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e308">
           <lb ed="#Qb"/>7. Item, si facta fuit ex costa, utrum ex osse
           <lb ed="#Qb"/>tantum aut ex osse cum carne.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e315">
           <lb ed="#Qb"/>8. Item, si facta fuit ex costa viri, quare non sup<lb ed="#Qb"/>plevit
           Deus aliam costam pro illa, sed carnem, ut
           <lb ed="#Qb"/>sic in nullo damnificaretur ex formatione mulieris ?
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e324">
                 <pb ed="#Qb" n="617"/>
                 <cb ed="#Qb" n="a"/>
           <lb ed="#Qb"/>Respondeo: Dicendum quod, sicut in praeee<lb ed="#Qb"/>dentibus
@@ -170,7 +168,7 @@
           officium paritatis; quarta ratio secundum
           <lb ed="#Qb"/>exigentiam socialis dilectionis.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e357">
           <lb ed="#Qb"/>Prima ratio sive congruentia patet sic: Si
           <lb ed="#Qb"/>aliquod membrum debuit detrahi ad formandum
           <lb ed="#Qb"/>mulierem, illud potissime fuit idoneum in cuius
@@ -179,7 +177,7 @@
           inter omnia membra organica: detractio enim
           <lb ed="#Qb"/>costae nullam attulit deformitatem 0, quia costa
           <lb ed="#Qb"/>fuit de membris occultis. Nec aliquod attulit
-          <lb ed="#Qb"/>damnum. Dicit enim d Cassi odoruszz <quote> Costae
+          <lb ed="#Qb"/>damnum. Dicit enim d Cassi odoruszz <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e378"> Costae
           <lb ed="#Qb"/>viginti quatuor radiis pro viscerum defensione
           <lb ed="#Qb"/>flectuntur, ne teneritudo illa intraneorum impor<lb ed="#Qb"/>tuna
           iniuria facillime laederetur </quote>. Et constat quod
@@ -193,12 +191,12 @@
           formatio Ecclesiae de Christo. Unde
           <lb ed="#Qb"/>ad Eph. 5, 31-32: Et erant duo in carne una 3 ; sa<lb ed="#Qb"/>cramentum
           hoc magnum in Christo et Ecclesia;
-          <lb ed="#Qb"/>Glossa <name ref="#Augustine">Augustini</name>4: <quote> Dormit Adam ut fiat
+          <lb ed="#Qb"/>Glossa <name ref="#Augustine">Augustini</name>4: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e414"> Dormit Adam ut fiat
           <lb ed="#Qb"/>Eva, moritur Christus ut fiat Ecclesia; dormiente
           <lb ed="#Qb"/>Adam * fit Eva de latere; mortuo Christo lanceaf
           <lb ed="#Qb"/>percutitur latus, ut profluant sacramenta, quibus
           <lb ed="#Qb"/>formeturg Ecclesia </quote>. Et Rom. 5, 14: Qui est forma
-          <lb ed="#Qb"/>futuri, ibi Glossa Chrysostomi5: <quote> Sicut ille
+          <lb ed="#Qb"/>futuri, ibi Glossa Chrysostomi5: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e428"> Sicut ille
           <lb ed="#Qb"/>est pater omnium secundum carnem, sic Christus
           <lb ed="#Qb"/>pater est omnium secundum fidemh; et sicut ex
           <lb ed="#Qb"/>latere illius dormientis assumpta est costa, undei
@@ -216,22 +214,22 @@
           <lb ed="#Qb"/>de costa, hoc- est de loco qui'" medium tenet
           <lb ed="#Qb"/>inter supremum in corpore et infimum. De pa<lb ed="#Qb"/>ritate
           maris et feminae in hoc opere habetur
-          <lb ed="#Qb"/>I Cor. 7,4: <quote ana="#Icor7_4">Similiter et vir potestatem sui cor<lb ed="#Qb"/>poris
-          non habet, sed mulier</quote>; ibi Glossaöz <quote> In
+          <lb ed="#Qb"/>I Cor. 7,4: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e470" ana="#Icor7_4">Similiter et vir potestatem sui cor<lb ed="#Qb"/>poris
+          non habet, sed mulier</quote>; ibi Glossaöz <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e475"> In
           <lb ed="#Qb"/>hoc pares sunt vir et mulier</quote>. Et in eodem7:
-          <lb ed="#Qb"/>Similiter et uxor viro ; ibi Glossas: <quote>Invicem
+          <lb ed="#Qb"/>Similiter et uxor viro ; ibi Glossas: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e482">Invicem
           <lb ed="#Qb"/>sibi subici" in hac causa dicit, ut una sit eorum
           <lb ed="#Qb"/>voluntas in lege naturae </quote>, id est in prolis pro<lb ed="#Qb"/>creatione
           sive commixtione in opere carnis, quod
           <lb ed="#Qb"/>fieri debet secundum legem naturae. — Quarta
           <lb ed="#Qb"/>autem ratio est coniunctio sive" unio dilec<lb ed="#Qb"/>tionis.
           Unde Hugog, et idem habetur a Magi<lb ed="#Qb"/>stro,
-          Il Sententiarum 'o: <quote> Facta est de latere viri,
+          Il Sententiarum 'o: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e500"> Facta est de latere viri,
           <lb ed="#Qb"/>ut ostenderetur quia in consortium creabaturlJ di<lb ed="#Qb"/>lectionis
     </quote>. De utroque, scilicet officio paritatis et
           <lb ed="#Qb"/>consortio dilectionis, potest intelligi illud quod
           <lb ed="#Qb"/>dicit <name ref="#Augustine">Augustinus</name>, libro De bono coniugali ", in
-          <lb ed="#Qb"/>principio; dicit enim: <quote>Quoniam unusquisque
+          <lb ed="#Qb"/>principio; dicit enim: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e517">Quoniam unusquisque
           <lb ed="#Qb"/>homo humani generis pars est et sociale quid<lb ed="#Qb"/>dam
           est humana natura magnumque habet et
           <lb ed="#Qb"/>naturale bonum vim quoque amicitiae, ob hoc
@@ -246,18 +244,18 @@
           <lb ed="#Qb"/>est: lateribus enim sibi iunguntur qui. pariter
           <lb ed="#Qb"/>ambulant et pariter quo ambulantt intuentur</quote>.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e549">
           <lb ed="#Qb"/>Si autem obiceretur contra hoc quod
           <lb ed="#Qb"/>dictum est, scilicet quod ad insinuationem pari<lb ed="#Qb"/>tatis
           inter virum et mulierem facta fuit mulier
           <lb ed="#Qb"/>de latere viri, per hoc quod dicitur 1 Cor. 11,3:
-          <lb ed="#Qb"/>Caput mulieris vir, ibi dicit Glossalzz <quote> Quia ex
+          <lb ed="#Qb"/>Caput mulieris vir, ibi dicit Glossalzz <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e562"> Quia ex
           <lb ed="#Qb"/>eius costa, Dei virtute, formata est, et ideo debet
           <lb ed="#Qb"/>subici viro, de quo facta est</quote>; et ad Ephes. 5, 23:
           <pb ed="#Qb" n="618"/>
                 <cb ed="#Qb" n="a"/>
           <lb ed="#Qb"/>
-          <quote ana="#eph5_23">Vir caput est mulieris</quote>, Glo ss a1 ibi: <quote> Rector et
+          <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e575" ana="#eph5_23">Vir caput est mulieris</quote>, Glo ss a1 ibi: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e578"> Rector et
           <lb ed="#Qb"/>auctor a quo mulier sumpsit initium </quote>- — ad hoc
           <lb ed="#Qb"/>potest dici quod mulier fuit indicta duplici
           <lb ed="#Qb"/>subiectioni, scilicet reverentiae — et hoc quan<lb ed="#Qb"/>tum
@@ -272,14 +270,14 @@
           <lb ed="#Qb"/>lier in adiutorium viri; quae Glossa sumitur
           <lb ed="#Qb"/>II libro Contra Manichaeum 2, et in eadem dicitur:
           <lb ed="#Qb"/>
-          <quote> Vocavit Adam uxorem suam tamquam potior in<lb ed="#Qb"/>ferioremd:
+          <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e612"> Vocavit Adam uxorem suam tamquam potior in<lb ed="#Qb"/>ferioremd:
           et dixit3: Hoc nunc os ex ossibus
           <lb ed="#Qb"/>meise</quote> etc. — et subiectioni servitutis, et hoc
           <lb ed="#Qb"/>quantum ad statum culpae, et hoc significatum est
           <lb ed="#Qb"/>Gen. 3,16, ubi dicitur: Sub viri potestate eris.
           <lb ed="#Qb"/>De hac subiectione, ad Eph. 5, 22 f : Mulieres viris
           <lb ed="#Qb"/>suis subditae sint sicut Domino; Glossa4 ibi:
-    <quote> In ea simplicitate, qua Domino subditae sunt,
+    <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e628"> In ea simplicitate, qua Domino subditae sunt,
           <lb ed="#Qb"/>sicut Sara subdita erat viro, quae dominum vo<lb ed="#Qb"/>cabat
           Abraham</quote>, I Petri 3,6. Haec autem subiec<lb ed="#Qb"/>tio
           siveg servitus debet intelligi, ut mihi videtur,
@@ -300,7 +298,7 @@
           <lb ed="#Qb"/>ex parte quae locum sive situm habet in medio
           <lb ed="#Qb"/>illius, scilicet de costa.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e672">
           <lb ed="#Qb"/>[Ad obiecta]: 1. Ad primum obiectum in
           <lb ed="#Qb"/>contrarium, dicendum quod omnia sunt apud Om<lb ed="#Qb"/>nipotentem
           eiusdem facilitatis: eadem enim faci<lb ed="#Qb"/>litate
@@ -314,13 +312,13 @@
           sed potius exigentia congruentiae vel
           <lb ed="#Qb"/>utilitatis.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e702">
           <lb ed="#Qb"/>2. Ad aliud dicendum quod non fuit formata
           <lb ed="#Qb"/>de latere propter unionem dilectionis ut" totam
           <lb ed="#Qb"/>causam sive praecisam, sed propter alia iam
           <lb ed="#Qb"/>dicta5 et etiam propter alia quae tangit Magi<lb ed="#Qb"/>ster,
           II Sententiarum 5, et Hugo, libro De sa<lb ed="#Qb"/>cramentis7,
-          dicens: <quote> Facta est de latere viri ut
+          dicens: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e717"> Facta est de latere viri ut
           <lb ed="#Qb"/>ostenderetur quia in consortium creabatur dilec<lb ed="#Qb"/>tionis,
           ne forte, si fuisset facta de capite, prae<lb ed="#Qb"/>ferenda
           videretur vim ad dominationem aut, si de
@@ -330,16 +328,16 @@
           <lb ed="#Qb"/>fuerat producenda, ut iuxta se ponendam? co<lb ed="#Qb"/>gnosceret
           quam de iuxta' se sumptam didicisset</quote>.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e738">
           <lb ed="#Qb"/>3. Ad aliud dicendum quod in nullo damnifi<lb ed="#Qb"/>catus
           est primus homo ex ** formatione illa. -— Ad
-          <lb ed="#Qb"/>Glossam supra dictam quae est quod <quote> ille prop<lb ed="#Qb"/>ter
+          <lb ed="#Qb"/>Glossam supra dictam quae est quod <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e746"> ille prop<lb ed="#Qb"/>ter
           illam infirmus, quia non costa, sed caro' est
           <lb ed="#Qb"/>suppleta</quote>: dicendum quod G lossa illa intelligi<lb ed="#Qb"/>tur
           de futura infirmitate, sub hoc sensu: propter
           <lb ed="#Qb"/>ipsam sive per ipsam intirmandus" erat. Unde
           <lb ed="#Qb"/>verbo illo exprimitur causa infirmitatis tunc ha<lb ed="#Qb"/>bita,
-          sub hoc sensu: <quote> propter ipsam infirmus </quote>,
+          sub hoc sensu: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e762"> propter ipsam infirmus </quote>,
           <lb ed="#Qb"/>id est habuit causam infirmitatis. Affectio enim
           <lb ed="#Qb"/>amoris, qua movebatur erga eam, licet non esset
           <lb ed="#Qb"/>inordinata tunc, causa fuit illiV infirmitatis sub<lb ed="#Qb"/>secutae:
@@ -351,13 +349,13 @@
           <lb ed="#Qb"/>tractione costae. — Si obiciatur contrax
           <lb ed="#Qb"/>ho c quia ex ipsa Glo ssa videtur quod intelliga<lb ed="#Qb"/>tur
           de infirmitate corporali, quia in Glossa sub<lb ed="#Qb"/>ditur
-    <quote> quia non costa, sed caro suppleta est?</quote>:
+    <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e794"> quia non costa, sed caro suppleta est?</quote>:
           <lb ed="#Qb"/>dicendum quod hoc dicitur significative, non
           <lb ed="#Qb"/>causative, id est suppletio carnis, non,,costae,
           <lb ed="#Qb"/>signum fuit infirmationis, non confirmationisz
           <lb ed="#Qb"/>sive virtutis. De hoc infra habebitur fortasse 9.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e807">
           <lb ed="#Qb"/>4. Ad illud quod sequitur, patet responsio,
           <lb ed="#Qb"/>quia, ut dictum est 10, socialis coniunctio non fuit
           <lb ed="#Qb"/>solum causa formationis mulieris ex costa, sed
@@ -366,7 +364,7 @@
           <lb ed="#Qb"/>aliae rationes praetactae hic et illa quae tacta.
           <lb ed="#Qb"/>est ab <name>Hugone</name> et <name>Magistro</name>, in Sententiis 1.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e831">
           <lb ed="#Qb"/>5. Ad illud quod sequitur, dicendum quod
           <lb ed="#Qb"/>alia fuit ratio compositionis mulieris ex viro et
           <lb ed="#Qb"/>compositionis Adae ex elementis et corporis Chri<lb ed="#Qb"/>sti
@@ -378,7 +376,7 @@
           et corporis Christi de sanguinibus cor—
           <lb ed="#Qb"/>poris B. Virginis.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e855">
           <lb ed="#Qb"/>6. Ad illudb quod sequitur, dicendum quod
           <lb ed="#Qb"/>verbum Is i d 0 ri debet intelligi sicut illud verbum
           <lb ed="#Qb"/>Iob 40,10: Ecce Behemoth, quem feci tecum,
@@ -386,7 +384,7 @@
           <lb ed="#Qb"/>in tempore, sed similitudinis in ratione; unde
           <lb ed="#Qb"/>sensus est: Quem feci tecum, id est tibi similem
           <lb ed="#Qb"/>in ratione. Unde Gregorius, in Moralibus4:
-    <quote> Si rerum causas subtili discussione pulsamus,
+    <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e872"> Si rerum causas subtili discussione pulsamus,
           <lb ed="#Qb"/>simul factum angelum hominemque cognoscimus,
           <lb ed="#Qb"/>sirnul videlicet, non unitate temporis, sed 0 cogna—
           <lb ed="#Qb"/>tioned rationis, simul pere acceptam imaginem sa<lb ed="#Qb"/>pientiae
@@ -396,7 +394,7 @@
           superbiae ex ipsa propinqui sui perditione
           <lb ed="#Qb"/>pertimescat</quote>. Ecce vocat diabolum propinquum
           <lb ed="#Qb"/>hominis propter rationabilitatis similitudinem, et
-          <lb ed="#Qb"/>hocest quod dicit: <quote>simul in cognatione ratio<lb ed="#Qb"/>nis</quote>.
+          <lb ed="#Qb"/>hocest quod dicit: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e896">simul in cognatione ratio<lb ed="#Qb"/>nis</quote>.
           Similiter dicendum est in proposito quod
           <lb ed="#Qb"/>Eva et. Adam dicuntur simul conditi, nonf uni<lb ed="#Qb"/>tate
           temporis, sed cognatione rationis 5. — Vel ali<lb ed="#Qb"/>ter
@@ -413,14 +411,14 @@
           Vel ^' simul dicuntur conditi rationibus
           <lb ed="#Qb"/>seminalibus, secundum quod dicit Augusti<lb ed="#Qb"/>nus
           7 illa fuisse creata simul cum aliis creaturis,
-          <lb ed="#Qb"/>iuxta illud: <quote ana="#sir18_1">Qui vivit in aeternum, creavit omnia
+          <lb ed="#Qb"/>iuxta illud: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e936" ana="#sir18_1">Qui vivit in aeternum, creavit omnia
           <lb ed="#Qb"/>simul</quote>, Eccli. 18,1.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e942">
           <lb ed="#Qb"/>7. Ad illud quod quaeritur' ' utrum formata
           <lb ed="#Qb"/>erat de costa cum carne ' etc.: dicendum quod de
           <lb ed="#Qb"/>costa cum carne, non ex osse tantum; et hoc patet
-          <lb ed="#Qb"/>Gen. 2, 23, ex verbis Adae, dicentis: <quote ana="#gen2_23">Hoc nunc
+          <lb ed="#Qb"/>Gen. 2, 23, ex verbis Adae, dicentis: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e952" ana="#gen2_23">Hoc nunc
           <lb ed="#Qb"/>os ex ossibus meis et caro de carne mea</quote> '". -—
           <lb ed="#Qb"/>Ad aliud potest dici quod secundum quos—
           <lb ed="#Qb"/>dam£t pro costa in latere viri Dominus" replevit
@@ -438,11 +436,11 @@
           <lb ed="#Qb"/>alia. Ethoc dicit Glossa10 <name ref="#Augustine">Augustini</name> super"
           <lb ed="#Qb"/>Gen. 2,20: Adam non inveniebatur adiutorium
           <lb ed="#Qb"/>simile sibi, et sumptum est a IX Super Genesim
-          <lb ed="#Qb"/>ad litteram"; dicitur enim ibi: <quote> Ille propter ip<lb ed="#Qb"/>sam
+          <lb ed="#Qb"/>ad litteram"; dicitur enim ibi: <quote xml:id="ahsh-l2Ai4t2s2q2c2-Qd1e998"> Ille propter ip<lb ed="#Qb"/>sam
           infirmus factus est, quia non costa, sed caros
           <lb ed="#Qb"/>suppleta est </quote>.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s2q2c2-d1e1007">
           <lb ed="#Qb"/>8. Ad illud quod quaeritur ' quare non resti<lb ed="#Qb"/>tuit
           Dominus illi aliam costam ,: potest dici quod
           <lb ed="#Qb"/>non est sibi alia restituta, ut gererett signum et

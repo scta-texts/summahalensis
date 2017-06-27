@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,14 +54,14 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai4t1s2q2t2m1c1">
-        <head>Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 1, C. 1</head>
-        <head type="question-title">QUALITER PHANTASIA ET AESTIMATIVA DICANTUR MOTIVAE.</head>
-        <p>
+        <head xml:id="ahsh-l2Ai4t1s2q2t2m1c1-Hd1e107">Ia-IIae, Inq. 4, Tract. 1, S. 2, Q. 2, T. 2, M. 1, C. 1</head>
+        <head xml:id="ahsh-l2Ai4t1s2q2t2m1c1-Hd1e110" type="question-title">QUALITER PHANTASIA ET AESTIMATIVA DICANTUR MOTIVAE.</head>
+        <p xml:id="ahsh-l2Ai4t1s2q2t2m1c1-d1e113">
           <lb ed="#Qb"/>Potest autemi quaeri qualiter phantasia et ae<lb ed="#Qb"/>stimativa
           dicuntur motivae, cum inter cogni<lb ed="#Qb"/>tivas
           sint positae.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t1s2q2t2m1c1-d1e122">
           <lb ed="#Qb"/>[Solutio]: Ad quod dicendum': quod motivae
           <lb ed="#Qb"/>dicuntur, quia disponunt ad motum per modum
           <cb ed="#Qb" n="b"/>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,21 +54,21 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai2t2q1c3">
-        <head>Ia-IIae, Inq. 2, Tract. 2, Q. 1, C. 3</head>
-        <head type="question-title">QUID SIT ANGELUS SECUNDUM RATIONEM.</head>
-        <div type="articulus">
-          <head>ARTICULUS I</head>
-          <head type="question-title">De definitione angeli a Damasceno posita.</head>
-          <p>
+        <head xml:id="ahsh-l2Ai2t2q1c3-Hd1e107">Ia-IIae, Inq. 2, Tract. 2, Q. 1, C. 3</head>
+        <head xml:id="ahsh-l2Ai2t2q1c3-Hd1e110" type="question-title">QUID SIT ANGELUS SECUNDUM RATIONEM.</head>
+        <div xml:id="ahsh-l2Ai2t2q1c3-Dd1e113" type="articulus">
+          <head xml:id="ahsh-l2Ai2t2q1c3-Hd1e115">ARTICULUS I</head>
+          <head xml:id="ahsh-l2Ai2t2q1c3-Hd1e118" type="question-title">De definitione angeli a Damasceno posita.</head>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e121">
             <lb ed="#Qb"/>Tertio quaeritur quid sit angelus secundum ra<lb ed="#Qb"/>tionem. 
             Et primo quaeritur quantum ad illam
             <lb ed="#Qb"/>definitionem quam ponit D a m a s c e n u 5, II libro,
-            <lb ed="#Qb"/>cap. 25: <quote> Angelus est substantia incorporea, in<lb ed="#Qb"/>tellectualis,
+            <lb ed="#Qb"/>cap. 25: <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e131"> Angelus est substantia incorporea, in<lb ed="#Qb"/>tellectualis,
             semper mobilis, arbitrio libera ", Deo
             <lb ed="#Qb"/>ministrans, secundum gratiam, non naturam ", im<lb ed="#Qb"/>mortalitatem
             suscipiens-</quote>.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e141">
             <lb ed="#Qb"/>Obicitur autem contra hanc rationem mul<lb ed="#Qb"/>tipliciter:
             ]. Videtur enim quod prima differentia
             <lb ed="#Qb"/>ibi posita vel tertia superfluat: videntur enim ibik
@@ -78,16 +76,16 @@
             arbitrio libera</mentioned> sit <mentioned>intellectualis </mentioned> et e
             <lb ed="#Qb"/>converso.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e163">
             <lb ed="#Qb"/>2. Item, contra secundam differentiam obicitur et
             <lb ed="#Qb"/>primo ratione eius quod dicitur <mentioned> mobilis </mentioned>, quia,
             <lb ed="#Qb"/>sicut probat P hilo s 0 p h u s 6, nullum impartibile
             <lb ed="#Qb"/>est mobile; sed angelus est impartibilis, cum sim<lb ed="#Qb"/>pliciter'
             et absolute sit simplex, ut probatum est 7.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e181">
                   <cb ed="#Qb" n="b"/>
-            <lb ed="#Qb"/>3. Item, obicitur contra hoc"1 quod dicitur <quote> sem<lb ed="#Qb"/>per
+            <lb ed="#Qb"/>3. Item, obicitur contra hoc"1 quod dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e187"> sem<lb ed="#Qb"/>per
             mobilis-</quote>: aut enim hoc dicitur eo quod"
             <lb ed="#Qb"/>semper actu moveatur aut quia semper possit mo<lb ed="#Qb"/>veri.
             Non primo modo, quia hoc falsum esset.
@@ -95,7 +93,7 @@
             <lb ed="#Qb"/>in corporibus; quid ergo adderet 'angelus supra
             <lb ed="#Qb"/>corpora ratione huius differentiae?
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e204">
             <lb ed="#Qb"/>4. Item, obicitur de ordine tertiae differentiae
             <lb ed="#Qb"/>ad secundam, quia constat quod prius est cogno<lb ed="#Qb"/>scere
             bonum aut malum et postmodum, hoc et
@@ -105,8 +103,8 @@
             ut diceretur 'angelus est substantia in<lb ed="#Qb"/>tellectualis,
             arbitrio libera, semper mobilis'.
          </p>
-          <p>
-            <lb ed="#Qb"/>5. Item, cum dicitur <quote> angelus est substantia ar<lb ed="#Qb"/>bitrio
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e224">
+            <lb ed="#Qb"/>5. Item, cum dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e228"> angelus est substantia ar<lb ed="#Qb"/>bitrio
             libera </quote>, de qua libertate intelligitur,,naturae
             <lb ed="#Qb"/>scilicet aut gratiae? Non gratiae, quia tunc illa
             <lb ed="#Qb"/>differentia non conveniret malis angelis; quod
@@ -126,12 +124,12 @@
             <lb ed="#Qb"/>est libertas aut pars libertatis; sed prius solum<lb ed="#Qb"/>modo
             convenit malis angelis; ergo ut prius.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e274">
             <lb ed="#Qb"/>6. Item, cum arbitrium sit rationis, et quod est
             <lb ed="#Qb"/>intellectuale et rationale videntur esse converti<lb ed="#Qb"/>bilia, 
             quaeritur quo modo differantb?
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e283">
             <lb ed="#Qb"/>7. Item, ad cuius differentiam componitur 0 haec
             <lb ed="#Qb"/>differentia <mentioned>incorporea</mentioned>? Et planum est quod
             <lb ed="#Qb"/>non ad differentiam substantiae incorporeae, cum
@@ -143,17 +141,17 @@
             <lb ed="#Qb"/>differt angelus ab anima. Et videtur quod per
             <lb ed="#Qb"/>nullam.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e314">
             <lb ed="#Qb"/>8. Item, quaeritur de hac differentia <mentioned> Deo mi<lb ed="#Qb"/>nistrans
       </mentioned>. Videtur enim quod non sit differentia
             <lb ed="#Qb"/>angeli essentialis, quia angelus desinet ministrare,
-            <lb ed="#Qb"/>cum propter homines ministret ut <quote ana="#hebr1_14">capiant here<lb ed="#Qb"/>ditatem
+            <lb ed="#Qb"/>cum propter homines ministret ut <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e327" ana="#hebr1_14">capiant here<lb ed="#Qb"/>ditatem
             salutis aeternae, ut dicitur</quote> Hebr. 1, 14,
             <lb ed="#Qb"/>et ita desinet ministrare cum homines ceperint '
             <lb ed="#Qb"/>hereditatem illam; ergo male ponitur haecf dif<lb ed="#Qb"/>ferentia
             in praedicta definitione.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e341">
             <lb ed="#Qb"/>9. Item, quaeritur de ultima differentia. Primo,
             <lb ed="#Qb"/>quareg non assignetur immortalitas angelo sim<lb ed="#Qb"/>pliciter 
             et absolute, cum Au gustinus2 simpli<lb ed="#Qb"/>citer
@@ -161,13 +159,13 @@
             magis videatur angelo quam animae
             <lb ed="#Qb"/>convenire.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e357">
             <lb ed="#Qb"/>10. Item, quaeritur utrum immortalitas conve<lb ed="#Qb"/>niat
             tam angelo quam animae per naturam vel per
             <lb ed="#Qb"/>gratiam. Et quod non <mentioned>per naturam </mentioned>, sed per
       <mentioned>gratiam</mentioned>, dicitur in definitione. Hoch etiam
             <lb ed="#Qb"/>patet per hoc quod dicit Gregorius3 quod
-      <quote>omnia creata, quia ex nihilo sunt, in nihilum
+      <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e374">omnia creata, quia ex nihilo sunt, in nihilum
             <lb ed="#Qb"/>tenderent, nisi manu Creatoris retinerentur </quote>. Ergo
             <lb ed="#Qb"/>per. naturam tendunt in non-esse; ergo nec an<lb ed="#Qb"/>gelus
             nec anima per naturam habent quod sint
@@ -175,7 +173,7 @@
             <lb ed="#Qb"/>immortales; ergo si sint immortales, hoc eriti
             <lb ed="#Qb"/>gratia, non natura.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e391">
             <lb ed="#Qb"/>Respondeo: Ad evidentiam huius definitionis
             <lb ed="#Qb"/>et partium eius primo notandum est quod duo
             <lb ed="#Qb"/>sunt modi definitionum 4. Unus attenditur quan<lb ed="#Qb"/>tum
@@ -202,11 +200,11 @@
             <lb ed="#Qb"/>non tamen ei unitur per essentiam, et sic dicitur
       <mentioned>incorporea </mentioned>; et ad Deum cui ministrat, et sic
             <lb ed="#Qb"/>dicitur <mentioned> Deo ministransk </mentioned>; et ad perfectionem
-            <lb ed="#Qb"/>suam, scilicet -ad gratiam, et sic dicitur <quote> immor<lb ed="#Qb"/>talitatem
+            <lb ed="#Qb"/>suam, scilicet -ad gratiam, et sic dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e465"> immor<lb ed="#Qb"/>talitatem
             gratia, non natura, suscipiens </quote> et ibi
             <lb ed="#Qb"/>sub gratia comprehenditur gloria.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e473">
             <lb ed="#Qb"/>[Ad obiecta]: 1. Ad id ergo quod primo
             <lb ed="#Qb"/>obicitur patet solutio ex praedictis: aliud enim
             <lb ed="#Qb"/>esse virtuale angeli determinatur per hanc diffe<lb ed="#Qb"/>rentiam
@@ -214,7 +212,7 @@
             ad cognoscendum, per aliam esse virtuale
             <lb ed="#Qb"/>ad movendum secundum affectiones.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e489">
             <lb ed="#Qb"/>2. Ad aliud dicendum5 quod illud quod dicit
             <lb ed="#Qb"/>Philosophus quod 'nullum impartibile mo<lb ed="#Qb"/>bile'
             intelligitur de mobili in corporibus, ubi est
@@ -232,8 +230,8 @@
             <lb ed="#Qb"/>sumendo transitum per medium, quia non se com<lb ed="#Qb"/>metitur
             loco. Hoc tamen magis alibi explanabitur.
          </p>
-          <p>
-            <lb ed="#Qb"/>3. Ad aliud dicendum quod dicitur <quote> semper
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e526">
+            <lb ed="#Qb"/>3. Ad aliud dicendum quod dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e530"> semper
             <lb ed="#Qb"/>mobilis </quote> ad differentiam tam rectorum corporum
             <lb ed="#Qb"/>quam circularium 2. Corpus enim rectum, quod
             <lb ed="#Qb"/>motu recto movetur, non semper estin hac con—
@@ -254,7 +252,7 @@
             <lb ed="#Qb"/>separato, quie est Deus, cuius imperium exi<lb ed="#Qb"/>gitur
             ad motum angeli.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e576">
             <lb ed="#Qb"/>4. Ad aliud dicimus quod angelus habet
             <lb ed="#Qb"/>comparationem ad corpora mobilia etf motu
             <lb ed="#Qb"/>recto et motu circulari, quoad utrumque motum,
@@ -277,11 +275,11 @@
             <lb ed="#Qb"/>Patet ergo quod maior est libertas in angelo
             <lb ed="#Qb"/>quantum ad motum secundum locum quam quan<lb ed="#Qb"/>tum
             ad motum secundum affectiones, et ideo no<lb ed="#Qb"/>bilior
-            est haec differentia <quote> semper mobilis </quote>
-            <lb ed="#Qb"/>quoad hocg quam haec differentia <quote> arbitrio li<lb ed="#Qb"/>bera
+            est haec differentia <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e628"> semper mobilis </quote>
+            <lb ed="#Qb"/>quoad hocg quam haec differentia <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e633"> arbitrio li<lb ed="#Qb"/>bera
       </quote>, et ideo prior in definitione.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e639">
             <lb ed="#Qb"/>5. Ad aliud dicendum quod duplex est li<lb ed="#Qb"/>bertas
             naturae: quaedam quae nec potest tolli
             <lb ed="#Qb"/>nec minui per peccatum, quae pure naturalis est,
@@ -297,7 +295,7 @@
             <lb ed="#Qb"/>peccaverunt, sunt inhabiles ad bonum. Unde li<lb ed="#Qb"/>bertatem
             arbitrii isto modo non habent, sed primo.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e675">
             <lb ed="#Qb"/>6. Ad aliud dicimus quod, cum dicitur <mentioned> ar<lb ed="#Qb"/>bitrio
             libera </mentioned>, arbitrium hic sumitur pro iudicio
             <lb ed="#Qb"/>secundum1 quod aliquis potest communiter eli<lb ed="#Qb"/>gere
@@ -310,32 +308,32 @@
             <lb ed="#Qb"/>unde utrumque cognitiönem respicit, sed ipsum
             <lb ed="#Qb"/>arbitrium rationis potentiam respicit motivam.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e704">
             <lb ed="#Qb"/>7. Ad aliud dicimus quod per hanc diffe<lb ed="#Qb"/>rentiam
-      <quote>incorporea </quote> differt angelus ab anima.
+      <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e710">incorporea </quote> differt angelus ab anima.
             <lb ed="#Qb"/>Licet enim anima non sit substantia corporea, ta<lb ed="#Qb"/>men
             est unita aut unibilis corpori; angelus vero
             <lb ed="#Qb"/>nec est substantia corporea nec unibilis corpori
             <lb ed="#Qb"/>nec unita, et hoc totum privatur ab ipso per hanc
-            <lb ed="#Qb"/>differentiam <quote> incorporea </quote>. Differt enim per hanc
-            <lb ed="#Qb"/>differentiam <quote> semper mobilis </quote>, quia angelus sem<lb ed="#Qb"/>per
+            <lb ed="#Qb"/>differentiam <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e724"> incorporea </quote>. Differt enim per hanc
+            <lb ed="#Qb"/>differentiam <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e729"> semper mobilis </quote>, quia angelus sem<lb ed="#Qb"/>per
             movetur, ut explanatum est superius 5, sed
             <lb ed="#Qb"/>anima movetur moto" corpore. — Si vero qu ae<lb ed="#Qb"/>ratur
             utrum simpliciter debeat dici incorporea:
             <lb ed="#Qb"/>dicimus quod sic, cum hoc absolute et secun<lb ed="#Qb"/>dum
-            se ei conveniat, licet <quote> quoad DeumP inve<lb ed="#Qb"/>niatur
+            se ei conveniat, licet <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e743"> quoad DeumP inve<lb ed="#Qb"/>niatur
             quid grossum et materiale 5 </quote>: hoc enim so<lb ed="#Qb"/>lum
             comparative ei convenit secundum quod dicit
             <lb ed="#Qb"/>Damascenus, et hoc secundum unam pro<lb ed="#Qb"/>prietatem
             corporis quae est definiri loco '1, quae
             <lb ed="#Qb"/>angelo convenit sicut et corpori.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e758">
             <lb ed="#Qb"/>8. Ad aliud dicimus quod ', licet non sit neces<lb ed="#Qb"/>sarium
             angelum semper ministrare ad utilitatem
             <lb ed="#Qb"/>hominum, nihilominus: cum ipso semper rema<lb ed="#Qb"/>nebit
             virtus et potentia ministrandi, et ideo quod
-            <lb ed="#Qb"/>dicitur <quote> ministrans </quote>, essentialiter ei convenit se<lb ed="#Qb"/>cundum
+            <lb ed="#Qb"/>dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e771"> ministrans </quote>, essentialiter ei convenit se<lb ed="#Qb"/>cundum
             quod sonat in habitum: et sic in defi<lb ed="#Qb"/>nitione
             sumitur. — Vel potest dici quod, licet non
             <lb ed="#Qb"/>semper ei conveniat ministerium, quod habet re<lb ed="#Qb"/>spectu
@@ -343,7 +341,7 @@
             <lb ed="#Qb"/>ad Deum, semper ei convenit: ipsos * enim ange<lb ed="#Qb"/>los
             voluntati Dei semper subiectos esse dicimus.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e788">
                   <pb ed="#Qb" n="139"/>
                   <cb ed="#Qb" n="a"/>
             <lb ed="#Qb"/>10. Ad aliud dicimus quod prout per a immortalitatem
@@ -354,7 +352,7 @@
             <lb ed="#Qb"/>vertibilitatem secundum affectiones et in nihil, tamen
             <lb ed="#Qb"/>immortalitas convenit eis gratia, non natura.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e811">
             <lb ed="#Qb"/>9. A d a l i u d ,quod b quaeritur 'quare non
             <lb ed="#Qb"/>dixit angelum simpliciter et absolute esse immortalem,
             <lb ed="#Qb"/>cum hoc dica t A u .g u s t i n u s 2 de anima
@@ -381,10 +379,10 @@
             <lb ed="#Qb"/>vertibilis.
          </p>
         </div>
-        <div type="articulus">
-          <head>ARTICULUS II</head>
-          <head type="question-title">De definitione angeli a Dionysio posita</head>
-          <p>
+        <div xml:id="ahsh-l2Ai2t2q1c3-Dd1e867" type="articulus">
+          <head xml:id="ahsh-l2Ai2t2q1c3-Hd1e869">ARTICULUS II</head>
+          <head xml:id="ahsh-l2Ai2t2q1c3-Hd1e872" type="question-title">De definitione angeli a Dionysio posita</head>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e875">
             <lb ed="#Qb"/>Quaeritur postea de definitione quam ponit l
             <lb ed="#Qb"/>D i o n y si u s, in libro De divinis nominibus,
             <lb ed="#Qb"/>cap. 6 5 : c Angelus est e imago Dei, manifestatio
@@ -395,7 +393,7 @@
             <lb ed="#Qb"/>declarans in se ipso, sicut possibile est, bonitatem
             <lb ed="#Qb"/>quae est in abditis.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e897">
             <lb ed="#Qb"/>I. Quaeritur ergo primo quantum ad primam
             <lb ed="#Qb"/>differentiam. Circa quam quaeruntur duo, scilicet:
             <lb ed="#Qb"/>utrum angelus sit imago; et si sic, cum hoc
@@ -409,26 +407,26 @@
             <lb ed="#Qb"/>de solo homine 8 : Faciamus hominem ad 
             <lb ed="#Qb"/>imaginem h etc. l
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e926">
             <lb ed="#Qb"/>2. Praeterea, obicitur de hoc quod dicitur in rectitudine
             <lb ed="#Qb"/>
-            <quote> angelus est imago </quote>. , qui a dici t A u g us<lb ed="#Qb"/>t i nus 9 
+            <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e932"> angelus est imago </quote>. , qui a dici t A u g us<lb ed="#Qb"/>t i nus 9 
             quod propri~m est Filii quod si t imago.
             <cb ed="#Qb" n="b"/>
             <lb ed="#Qb"/>Et ratio huius potest accipi ex hoc quod dicit
-            <lb ed="#Qb"/>H i I ari u s 10 quod <quote>imago est ad quam imaginatur
+            <lb ed="#Qb"/>H i I ari u s 10 quod <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e944">imago est ad quam imaginatur
             <lb ed="#Qb"/>species indifferens </quote>, secundum quod reci<lb ed="#Qb"/>tatur
       <title>Sententiarum</title>, dist. 31; et idem ibidem:
             <lb ed="#Qb"/>
-            <quote source="http://scta.info/resource/pll1d31c2-d1e3588">Imago est rei ad rem coaequandam imaginata
+            <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e957" source="http://scta.info/resource/pll1d31c2-d1e3588">Imago est rei ad rem coaequandam imaginata
             <lb ed="#Qb"/>et indiscreta similitudo</quote>; sed constat quod nulli
             <lb ed="#Qb"/>creaturae convenit quod si t indifferens a Deo;
             <lb ed="#Qb"/>ergo nulla creatura proprie debet dici imago, sed
             <lb ed="#Qb"/>solum ad imaginem, ut per hoc denotetur k diversitas
             <lb ed="#Qb"/>creaturae ad Creatorem, et secundum hoc
-            <lb ed="#Qb"/>videtur dictum Gen. 1,26: <quote ana="#gen1_26">Faciamus hominem</quote> etc.
+            <lb ed="#Qb"/>videtur dictum Gen. 1,26: <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e973" ana="#gen1_26">Faciamus hominem</quote> etc.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e978">
             <lb ed="#Qb"/>B. Circa secundum sie: 1. Primo, videtur 1 quod
             <lb ed="#Qb"/>ratio imaginis aequaliter participetur ab homine
             <lb ed="#Qb"/>et ab angelo: quia ab ipsis participatur ratione eius
@@ -440,7 +438,7 @@
             <lb ed="#Qb"/>aequalis est imitati o; ergo et aequalis est ratio
             <lb ed="#Qb"/>imaginis.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1002">
             <lb ed="#Qb"/>2. Si d i c a tu r quod ibi est n aequalitas
             <lb ed="#Qb"/>quoad hoc, non tamen quoad essentiae simplicitatem
             <lb ed="#Qb"/>vel habilitationes 0 potentiarum 12, immo
@@ -465,7 +463,7 @@
             inter hominem et angelum quantum ad
             <lb ed="#Qb"/>rationem imaginis.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1057">
             <lb ed="#Qb"/>3. Si dicatur quod hoc est verum quantum
             <lb ed="#Qb"/>ad habitumf, nihilominus tamen quantum ad actum
             <lb ed="#Qb"/>est praeeminentia in angelo: unde angelus magis
@@ -481,7 +479,7 @@
             <lb ed="#Qb"/>videtur quod adhuc sit ibi aequalitas quoad ra<lb ed="#Qb"/>tionem
             imaginis.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1090">
             <lb ed="#Qb"/>4. Praeterea, cum secundum quod dictum est 3,
             <lb ed="#Qb"/>anima sit ad imaginem Dei quantum ad partem
             <lb ed="#Qb"/>superiorem relatam ad' Deum, et ea, creatura
@@ -489,13 +487,13 @@
             <lb ed="#Qb"/>adhuc non possit" esse praeeminentia angeli ad
             <lb ed="#Qb"/>animam quantum ad rationem imaginis. ,
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1106">
             <lb ed="#Qb"/>Respondeo: A. 1-2. Concedimus quod proprium
             <lb ed="#Qb"/>est Filii esse imago Patris 5; imagoi enim proprie
-            <lb ed="#Qb"/>dicitur <quote> species indifferens </quote>, sicut dicit Hila<lb ed="#Qb"/>rius,
+            <lb ed="#Qb"/>dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1114"> species indifferens </quote>, sicut dicit Hila<lb ed="#Qb"/>rius,
             et ideo ad hoc quod aliquis sit imago,
-            <lb ed="#Qb"/>duo exiguntur, scilicet quod sit <quote>species</quote> et
-            <lb ed="#Qb"/>quod sit <quote>indifferens ab eo, cuius est imago </quote>,
+            <lb ed="#Qb"/>duo exiguntur, scilicet quod sit <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1122">species</quote> et
+            <lb ed="#Qb"/>quod sit <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1127">indifferens ab eo, cuius est imago </quote>,
             <lb ed="#Qb"/>in essentia. Quia ergo nulla creatura est eadem
             <lb ed="#Qb"/>in essentia cum Deo, ideo proprie nulla creatura
             <cb ed="#Qb" n="b"/>
@@ -512,14 +510,14 @@
             <lb ed="#Qb"/>est in creatura, et0 secundum hoc imago est si<lb ed="#Qb"/>militudo,
             sed non e converso, secundum quod
             <lb ed="#Qb"/>dicitur in libro 83 Quaestionum 7, et secundum
-            <lb ed="#Qb"/>quod dicit Philosophuss: <quote>Imago est cuius
+            <lb ed="#Qb"/>quod dicit Philosophuss: <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1167">Imago est cuius
             <lb ed="#Qb"/>generatio est per imitationem-</quote>. Et ponit ibi Au<lb ed="#Qb"/>gustinus9
             exemplum in duobus ovis, inter
             <lb ed="#Qb"/>quae est similitudo, quia tamen neutrum est ab
             <lb ed="#Qb"/>altero, ideo neutrum imago alterius dicitur. Hoc
             <lb ed="#Qb"/>ergo modo accipiendo communiter imaginem, di<lb ed="#Qb"/>c-unt
             Sancti quod angelus aut anima est imago
-            <lb ed="#Qb"/>Dei, secundum quod dicit Isidorus 10: <quote> Quanto
+            <lb ed="#Qb"/>Dei, secundum quod dicit Isidorus 10: <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1185"> Quanto
             <lb ed="#Qb"/>simplicior est natura, tanto in ea invenitur imago
             <lb ed="#Qb"/>Dei 'magis expressa </quote>. Verius tamen et magis
             <lb ed="#Qb"/>proprie loquendo est dicere angelum et hominem
@@ -528,10 +526,10 @@
             <lb ed="#Qb"/>ad Creatorem, et hoc ratione transitionis signifi<lb ed="#Qb"/>catae
             per praepositionem.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1204">
             <lb ed="#Qb"/>B. 1-4. Ad aliud quod quaeritur de ratione
             <lb ed="#Qb"/>imaginis in angelo et in anima et in quo est prae—
-            <lb ed="#Qb"/>eminentia: responderi potest" quod <quote> expressa si<lb ed="#Qb"/>militudo</quote>
+            <lb ed="#Qb"/>eminentia: responderi potest" quod <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1212"> expressa si<lb ed="#Qb"/>militudo</quote>
             potest attendi ratione potentiae praesi<lb ed="#Qb"/>dentisP
             et secundum hoc intelligitur illa auctoritas
             <lb ed="#Qb"/>quae est in Sermone <name ref="#Augustine">Augustini</name> 12, quod nulli
@@ -539,7 +537,7 @@
             <lb ed="#Qb"/>de eo enim dictum est '3: Ut praesit piscibus et vo<lb ed="#Qb"/>latilibus
             etc. Quantum ergo 'ad hanc rationem po<lb ed="#Qb"/>tentiae
             praesidentis dicitur homo ad imaginem,
-            'non sic angelus 14. Dicitur iterum <quote>expressa si<lb ed="#Qb"/>militudo
+            'non sic angelus 14. Dicitur iterum <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1234">expressa si<lb ed="#Qb"/>militudo
       </quote> ratione proprietatis in cognoscendo
             <lb ed="#Qb"/>creaturas, et secundum'1 hoc dicitur tam angelus
             <lb ed="#Qb"/>quam anima imago aut ad imaginem: et quantum
@@ -556,20 +554,20 @@
             <lb ed="#Qb"/>quod non angelo. — Et sic possunt solvi omnia
             <lb ed="#Qb"/>obiecta.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1271">
             <lb ed="#Qb"/>II. Quaeritur autem consequenterb de tribus
             <lb ed="#Qb"/>consequentibus differentiis quantum ad differen<lb ed="#Qb"/>tiam
             earum et ordinem et numerum.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1280">
             <lb ed="#Qb"/>A. Et videtur quod non differant, 1. cum quae<lb ed="#Qb"/>libet"
             earum videatur dicere rationem manifesta<lb ed="#Qb"/>tionis
             respectu Dei. — Si dicatur quod pro<lb ed="#Qb"/>prie
-            dicitur <quote>speculum</quote> prout ab alio recipit
+            dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1290">speculum</quote> prout ab alio recipit
             <lb ed="#Qb"/>lumen; sed imago et manifestatio dicuntd ratio<lb ed="#Qb"/>nem
             expressionis vel manifestationis, differunt
             <lb ed="#Qb"/>tamen 2, quia imago quantum ad habitum, et ideo
-            <lb ed="#Qb"/>proprie dicitur quod ipsa est <quote> cuius generatio est
+            <lb ed="#Qb"/>proprie dicitur quod ipsa est <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1302"> cuius generatio est
             <lb ed="#Qb"/>per imitationemfz</quote>, manifestatio vero quantum
             <lb ed="#Qb"/>ad actum - Sed tunc obicitur de ordine:
             <lb ed="#Qb"/>quia videtur secundum hoc quod tertia differentia
@@ -578,20 +576,20 @@
             quantum ad receptionem factam in ipsis,
             <lb ed="#Qb"/>tertio quantum ad manifestationem specierum
             <lb ed="#Qb"/>iam receptarum: et secundum hanc responsionem
-      <quote> imago </quote> quantum ad primum videtur sumi, <quote> spe<lb ed="#Qb"/>culum
-      </quote> quantum ad secundum, <quote> manifestatio oc<lb ed="#Qb"/>culti
+      <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1323"> imago </quote> quantum ad primum videtur sumi, <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1326"> spe<lb ed="#Qb"/>culum
+      </quote> quantum ad secundum, <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1331"> manifestatio oc<lb ed="#Qb"/>culti
             luminis</quote> quantum ad tertium. — Praete<lb ed="#Qb"/>rea,
             videtur quod differentia praeassignata inter
             <lb ed="#Qb"/>imaginem et manifestationem nulla - sit: quia
             <lb ed="#Qb"/>cuius est actus, eiusdem est habitus3; ergo se<lb ed="#Qb"/>cundum
-            illam differentiam <quote>imago</quote> et <quote>.mani<lb ed="#Qb"/>testatio
+            illam differentiam <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1345">imago</quote> et <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1348">.mani<lb ed="#Qb"/>testatio
       </quote> ad idem dicerentur; sed manifestatio di<lb ed="#Qb"/>citur
             ad inferius; ergo 'l secundum hoc et imago:
             <lb ed="#Qb"/>quod falsum est, secundum quod ostensum est
             <lb ed="#Qb"/>supra per auctoritatem <name ref="#Augustine">Augustini</name>, in libro
             <lb ed="#Qb"/>De Trinitate 4.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1366">
             <lb ed="#Qb"/>2. Item, dicimus quod in Trinitate potentia ap<lb ed="#Qb"/>propriatur
             Patri, sapientia Filio, bonitas Spiritui
             <lb ed="#Qb"/>Sancto5; sed constat quod praedictae tres diffe<lb ed="#Qb"/>rentiae
@@ -602,7 +600,7 @@
             <lb ed="#Qb"/>differentiae respicientesk sapientiam, non poten<lb ed="#Qb"/>tiam
             aut bonitatem.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1388">
             <lb ed="#Qb"/>3. Item, quaeritur utrum per aliquam istarum
             <lb ed="#Qb"/>differentiarum sit assignare differentiam angeli
             <cb ed="#Qb" n="b"/>
@@ -611,51 +609,51 @@
             <lb ed="#Qb"/>speculum, ratione cuiusm dicunt quidam6 quod
             <lb ed="#Qb"/>Prophetae vident in speculo, et ratione huius po<lb ed="#Qb"/>nimus
             intellectum speculativum in anima. Similiter
-            <lb ed="#Qb"/>anima" est <quote> manifestatio occulti luminis</quote>: per
+            <lb ed="#Qb"/>anima" est <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1409"> manifestatio occulti luminis</quote>: per
             <lb ed="#Qb"/>ipsam enim est manifestare Deum, etsi non plene,
             <lb ed="#Qb"/>sicut per angelum.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1418">
             <lb ed="#Qb"/>4. Quaeritur similiter de consequentibus diffe<lb ed="#Qb"/>rentiis
             quae videntur explanare rationem spe<lb ed="#Qb"/>culi,
-            prout angelus dicitur <quote> speculum </quote>, et quae<lb ed="#Qb"/>ritur
+            prout angelus dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1426"> speculum </quote>, et quae<lb ed="#Qb"/>ritur
             quomodo differant. Videtur" quod sit ibi
             <lb ed="#Qb"/>solum!J inculcatio verborum.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1435">
             <lb ed="#Qb"/>[Solutio]: 1. Ad quod dicendum quod haec
             <lb ed="#Qb"/>tria ponuntur in ratione angeli, prout ordinantur *?
             <lb ed="#Qb"/>ad contemplationem. Essentialiter enim et ' primo
             <lb ed="#Qb"/>se habet ad hunc actum: exigitur enim quod sit es<lb ed="#Qb"/>sentia
             potens intelligere, et quantum ad hoc tenet
-            <lb ed="#Qb"/>rationem <quote>imaginis </quote>. Requiritur etiam lumen,
+            <lb ed="#Qb"/>rationem <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1450">imaginis </quote>. Requiritur etiam lumen,
             <lb ed="#Qb"/>quo effective intelligit, et quantum ad respectum
-            <lb ed="#Qb"/>illius dicitur <quote> manifestatio occulti luminis </quote>. Exi<lb ed="#Qb"/>gitur
+            <lb ed="#Qb"/>illius dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1457"> manifestatio occulti luminis </quote>. Exi<lb ed="#Qb"/>gitur
             etiam quo intelligat formaliter, scilicet species
             <lb ed="#Qb"/>recepta ab intelligente, et respectu illius dicitur
-      <quote> speculum </quote>: sicut enim in speculo recipiuntur
+      <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1465"> speculum </quote>: sicut enim in speculo recipiuntur
             <lb ed="#Qb"/>sive resultant species sensibiles, ita in hocs spe<lb ed="#Qb"/>culo
             species intelligibiles. Ratione ergo horum
             <lb ed="#Qb"/>trium, quae exiguntur ad contemplationem, po<lb ed="#Qb"/>tens
             intelligere, lumen et species, et quasi ad
             <lb ed="#Qb"/>tres rationes causae referuntur, dicitur angelus,
-            <lb ed="#Qb"/>qui est prima creatura contemplativa, <quote> imagovDei,
+            <lb ed="#Qb"/>qui est prima creatura contemplativa, <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1481"> imagovDei,
             <lb ed="#Qb"/>manifestatio occulti luminis, speculum </quote> etc. —
             <lb ed="#Qb"/>Ex iis etiam patet ordo istarum differentiarum.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1490">
             <lb ed="#Qb"/>2. Si vero quaeratur 'quare angelus magis
             <lb ed="#Qb"/>definiatur ratione sapientiae quam bonitatis autt
             <lb ed="#Qb"/>potentiae': dicendum7 quod omnia dantur in<lb ed="#Qb"/>telligi.
-            Nam nomine <quote>imaginis</quote> intelligitur po<lb ed="#Qb"/>tentia
+            Nam nomine <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1500">imaginis</quote> intelligitur po<lb ed="#Qb"/>tentia
             intelligendi, quae est prima ipsius angeli;
-            <lb ed="#Qb"/>per hoc etiam quod dicitur <quote> speculum purum, in<lb ed="#Qb"/>contaminatum"
+            <lb ed="#Qb"/>per hoc etiam quod dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1508"> speculum purum, in<lb ed="#Qb"/>contaminatum"
       </quote>, notatur bonitas: et sic omnia
             <lb ed="#Qb"/>dantur intelligi; sed illud maxime pertinet ad
             <lb ed="#Qb"/>cognitionem, quia de natura primoV ordinatur
             <lb ed="#Qb"/>ad contemplandum Deum et alia consequenter.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1520">
             <lb ed="#Qb"/>3. Ad illud vero quod quaeritur utrum per
             <lb ed="#Qb"/>aliquam istarum differentiarum differat anima ab
             <lb ed="#Qb"/>angelo: dicimus quod etsi illae tres primae dif—,
@@ -674,7 +672,7 @@
             aliud speculum dicitur anima; tertium
             <lb ed="#Qb"/>angelus.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1559">
             <lb ed="#Qb"/>4.Per differentias vero subsequentes differt an<lb ed="#Qb"/>gelus
             essentialiter. Licet enim anima quantum ad
             <lb ed="#Qb"/>statum innocentiae posset esse <mentioned>speculum pu<lb ed="#Qb"/>rum</mentioned>, 
@@ -700,19 +698,19 @@
             Removetur ergo per hoc' omne ge<lb ed="#Qb"/>nus
             maculae quod contingit reperire in anima,
             <lb ed="#Qb"/>scilicet originalis, per hoc quod dicitur <mentioned> imma<lb ed="#Qb"/>culatum</mentioned>, 
-            et actualis per hoc quod dicitur <quote>in<lb ed="#Qb"/>coinquinatum
+            et actualis per hoc quod dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1637">in<lb ed="#Qb"/>coinquinatum
             et incontaminatum </quote>, quia actuale
             <lb ed="#Qb"/>peccatum potest esse in anima aut ex' contami<lb ed="#Qb"/>natione
             aut ex coinquinatione. Etf per hoc vult
             <lb ed="#Qb"/>ostendere Dionysius quod malum non est in
             <lb ed="#Qb"/>angelo 1.
          </p>
-          <p>
-            <lb ed="#Qb"/>Quod vero sequitur <quote>recipiens totam, si in<lb ed="#Qb"/>stum
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1651">
+            <lb ed="#Qb"/>Quod vero sequitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1655">recipiens totam, si in<lb ed="#Qb"/>stum
             est dicere, speciem</quote> etc. propter hocg dici<lb ed="#Qb"/>tur
             quod Filius simpliciter est specieszz unde tota
             <lb ed="#Qb"/>species Patris dicitur ; sed angelus non habet totam
-            <lb ed="#Qb"/>speciem, et ideo dicit <quote> totam, si iustum est dicere,
+            <lb ed="#Qb"/>speciem, et ideo dicit <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1667"> totam, si iustum est dicere,
             <lb ed="#Qb"/>speciem habens </quote>, id est secundum quod contingit
             <lb ed="#Qb"/>secundum possibilitatem naturae, sicut dicimus
             <lb ed="#Qb"/>quod secundum convenientiam recipientis dat Do<lb ed="#Qb"/>minus
@@ -727,17 +725,17 @@
             <lb ed="#Qb"/>Assuerus largitus est munera secundum magnifi<lb ed="#Qb"/>centiam
             principalem: et lyk *secundum' causali<lb ed="#Qb"/>tatem
             hic non notat; similiter haec praepositio
-            'secundum ', cum dicitur Eccli. 1,10: <quote>Secundum
+            'secundum ', cum dicitur Eccli. 1,10: <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1700">Secundum
             <lb ed="#Qb"/>datum suum praebet illam diligentibus se</quote>.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1706">
             <lb ed="#Qb"/>B. 1. Praeterea, videtur quod haec differentia
-      <quote> totam ', si iustum est dicere </quote> superflue ponatur
+      <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1710"> totam ', si iustum est dicere </quote> superflue ponatur
             <lb ed="#Qb"/>in hac definitione: videtur enim sine illa suffi<lb ed="#Qb"/>cienter
             manifestari esse angeli per praecedentes
             <lb ed="#Qb"/>differentias.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1720">
             <lb ed="#Qb"/>Respondeo: Verum est quod per praece<lb ed="#Qb"/>dentes
             "' differentias sufficienter manifestatur esse
             <lb ed="#Qb"/>angeli, quod habet ex natura: quoad .hoc enim
@@ -749,10 +747,10 @@
             <lb ed="#Qb"/>per gratiam boniformes vel bene formati. Unde
             <lb ed="#Qb"/>gratia haec appellatur <mentioned> speciositas </mentioned>, secundum
             <lb ed="#Qb"/>quam angeli bene " formati sunt deiformes, et ideo
-            <lb ed="#Qb"/>signanter additur <quote> bene formatae deiformitatis </quote>.
+            <lb ed="#Qb"/>signanter additur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1751"> bene formatae deiformitatis </quote>.
          </p>
-          <p>
-            <lb ed="#Qb"/>2. item, ad quid ibi additur <quote> totam </quote>? Ad quod
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1756">
+            <lb ed="#Qb"/>2. item, ad quid ibi additur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1760"> totam </quote>? Ad quod
             <lb ed="#Qb"/>dicimus quod ad differentiam animae. Anima
             <lb ed="#Qb"/>enim, etsi in praesenti possit suscipere gratiam
             <lb ed="#Qb"/>et ita huiusmodi speciositatem, non tamen totam,
@@ -772,26 +770,26 @@
             contingentem ipsos ', secundum illud Matth.
             25,15: Unicuique secundum propriam virtutem etc.,
             <lb ed="#Qb"/>et ideo iam susceperunt huiusmodi speciosita<lb ed="#Qb"/>tem.
-            Et ad hoc notandum dicimus <quote>suscipiens
+            Et ad hoc notandum dicimus <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1804">suscipiens
             <lb ed="#Qb"/>totam </quote> etc.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1810">
             <lb ed="#Qb"/>3. Quaeritur postea de hoc quod in fine ad<lb ed="#Qb"/>ditur
-      <quote>et pure declarans in se ipso, sicut possi<lb ed="#Qb"/>bile
+      <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1816">et pure declarans in se ipso, sicut possi<lb ed="#Qb"/>bile
             est, bonitatem quae est in abditis </quote>, et alia
             <pb ed="#Qb" n="143"/>
                   <cb ed="#Qb" n="a"/>
-            <lb ed="#Qb"/>translatione1 dicitur ": <quote> specificans benignita<lb ed="#Qb"/>temb
+            <lb ed="#Qb"/>translatione1 dicitur ": <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1828"> specificans benignita<lb ed="#Qb"/>temb
             silentii, quode est ' in abditis </quote>; hoc enim
             <lb ed="#Qb"/>omnino videtur superfluere d quantum ad manife<lb ed="#Qb"/>stationem
             esse ipsius angeli, quia constat quod non
             <lb ed="#Qb"/>habet nisi duplex esse, scilicet naturae et gratiae.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1840">
             <lb ed="#Qb"/>Respondeo: Verum est quod hic definitur
             <lb ed="#Qb"/>quantum ad utrumque esse. Et primo quantum
             <lb ed="#Qb"/>ad 'esse naturae, quantum ad hoc dicebantur
-            <lb ed="#Qb"/>principaliter tria de ipso, scilicet" quod est <quote> imago
+            <lb ed="#Qb"/>principaliter tria de ipso, scilicet" quod est <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1850"> imago
             <lb ed="#Qb"/>Dei, manifestatio occulti luminis et speculum </quote>;
             <lb ed="#Qb"/>quantum ad secundam differentiam determinabatur
             <lb ed="#Qb"/>potestas manifestandi lumen increatum, quae erat
@@ -805,22 +803,22 @@
             determinabatur duplex possibilitas, sic ex
             <lb ed="#Qb"/>parte qua definie-batur quoad esse gratiae, re<lb ed="#Qb"/>spondet
             ei distincte duplex actus. Unde ei quod
-            <lb ed="#Qb"/>prius dicebatur <quote> speculum </quote> respondet ex parte
-            <lb ed="#Qb"/>gratiae primus actus, qui est <quote> suscipere </quote>; ei
+            <lb ed="#Qb"/>prius dicebatur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1884"> speculum </quote> respondet ex parte
+            <lb ed="#Qb"/>gratiae primus actus, qui est <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1889"> suscipere </quote>; ei
             <lb ed="#Qb"/>quod dicebatur : manifestat-io occulti luminis,
             <lb ed="#Qb"/>actus secundus, qui est declarare; ei vero quod
-            <lb ed="#Qb"/>dicebatur <quote> imago </quote>, non respondet aliquis actus,
+            <lb ed="#Qb"/>dicebatur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1899"> imago </quote>, non respondet aliquis actus,
             <lb ed="#Qb"/>cum ipsa sit communis respectu utriusque pos<lb ed="#Qb"/>sibilitatis
             nec per ipsam determinetur distincte
             <lb ed="#Qb"/>aliqua possibilitas.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1909">
             <lb ed="#Qb"/>C. 1. "Sed tunc est oppositio de ordine:
             <lb ed="#Qb"/>quia secundum praedicta videtur quod actus se'<lb ed="#Qb"/>cundus
             deberet primo loco poni et actus primus
             <lb ed="#Qb"/>secundo.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1920">
             <lb ed="#Qb"/>Ad quodf dicendum quod manifestatio ha<lb ed="#Qb"/>bet
             respectum ad id quod manifestatur et ad eosE
             <lb ed="#Qb"/>quibus fit manifestatio. Angelus enim lumen
@@ -840,13 +838,13 @@
             est ordo1 inter illa, quantum ad secundum
             <lb ed="#Qb"/>inter ista.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1959">
             <lb ed="#Qb"/>2. Sed quaeritur-'quid vult dicere, cum di<lb ed="#Qb"/>cit:
-      <quote> benignitatem silentii, quod est in abditis </quote>,
+      <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e1965"> benignitatem silentii, quod est in abditis </quote>,
             <lb ed="#Qb"/>et quid appelletur ibi silentium et quid abdita
             <lb ed="#Qb"/>sive occulta et etiam quae est ista benignitas.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e1974">
             <lb ed="#Qb"/>Ad quod dicimus3 quod summumkverum
             <lb ed="#Qb"/>et increatum in se est incomprehensibile et oc<lb ed="#Qb"/>cultum,
             et de eius benignitate est quod permittit
@@ -861,16 +859,16 @@
             <lb ed="#Qb"/>declarationis: secundum hunc modum accipitur
             <lb ed="#Qb"/>silentium Apoc. 8,l et Sap. -18,14: Dum medium
             <lb ed="#Qb"/>silentium etc. Ratione ergo incomprehensibilitatis
-            <lb ed="#Qb"/>dicitur <quote> silentium </quote>, ratione eius quod " occultum
-            <lb ed="#Qb"/>est dicitur <quote> quod est in abditis </quote>.
+            <lb ed="#Qb"/>dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e2008"> silentium </quote>, ratione eius quod " occultum
+            <lb ed="#Qb"/>est dicitur <quote xml:id="ahsh-l2Ai2t2q1c3-Qd1e2014"> quod est in abditis </quote>.
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e2018">
             <lb ed="#Qb"/>3. Item quaeritur: in libro De hierarchia ange<lb ed="#Qb"/>tica4
             ponit tres actus: illuminare, purgare, per<lb ed="#Qb"/>ficere;
             quare potius definitur per primum actum
             <lb ed="#Qb"/>quam per" secundum vel tertium?
          </p>
-          <p>
+          <p xml:id="ahsh-l2Ai2t2q1c3-d1e2029">
             <lb ed="#Qb"/>Ad quod dicimus quod isti tres praedicti
             <lb ed="#Qb"/>actus assignantur inesse angelis superioribus re<lb ed="#Qb"/>spectu
             inferiorum aut respectu animarum. Quod

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -32,8 +31,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-              url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a critical edition.</p>
@@ -56,15 +54,15 @@
     </front>
     <body>
       <div xml:id="ahsh-l2Ai4t2s1q2c3">
-        <head>Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 2, C. 3</head>
-        <head type="question-title">UTRUM MODUS EDUCENDI CORPUS PRIMI HOMINIS PERTINEAT AD PERFECTIONEM UNIVERSI.</head>
-        <p>
+        <head xml:id="ahsh-l2Ai4t2s1q2c3-Hd1e107">Ia-IIae, Inq. 4, Tract. 2, S. 1, Q. 2, C. 3</head>
+        <head xml:id="ahsh-l2Ai4t2s1q2c3-Hd1e110" type="question-title">UTRUM MODUS EDUCENDI CORPUS PRIMI HOMINIS PERTINEAT AD PERFECTIONEM UNIVERSI.</head>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e113">
           <lb ed="#Qb"/>Sequitur inquirere utrum modus educendi cor<lb ed="#Qb"/>pus 
           primi hominis, scilicet formando illud
           <lb ed="#Qb"/>de limo, pertinet ad perfectionem universi.
         </p>
-        <p>
-          <lb ed="#Qb"/>Quod b sic, videtur: a. Gen. 2,2: <quote ana="#gen2_2">Igitur perfecti
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e122">
+          <lb ed="#Qb"/>Quod b sic, videtur: a. Gen. 2,2: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e126" ana="#gen2_2">Igitur perfecti
           <lb ed="#Qb"/>sunt caeli et terra et omnis ornatus eorum</quote>. Haec
           <lb ed="#Qb"/>est autem conclusio quae infertur ex eis quae
           <lb ed="#Qb"/>educta sunt in esse in" operibus sex dierum,
@@ -74,10 +72,10 @@
           <lb ed="#Qb"/>ergo quod non fuit completio universi sine hac
           <lb ed="#Qb"/>eductione.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e147">
           <lb ed="#Qb"/>b. Praeterea, A ns el m u s, ll ** Cur Deus Ira/7105:
           <lb ed="#Qb"/>
-          <quote> Quoddam est corpus humanum eductum in
+          <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e153"> Quoddam est corpus humanum eductum in
           <lb ed="#Qb"/>esse de viro et non de femina, cuiusmodif
           <lb ed="#Qb"/>fuit corpus Evae; aliud ergo respondere debuit
           <lb ed="#Qb"/>per oppositum, scilicet quod esset eductum de
@@ -92,7 +90,7 @@
           <lb ed="#Qb"/>oppositiones, valent ad ordinem universi; ubi no<lb ed="#Qb"/>tatur
           ordo unius contra unum, quod hic reperitur.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e186">
           <lb ed="#Qb"/>c. Item, non esset completum universum sine
           <lb ed="#Qb"/>modo dispositionis et modo ornatus; ex quo pa<lb ed="#Qb"/>tet
           quod modus dispositionis et ornatusk requi<lb ed="#Qb"/>ritur
@@ -102,7 +100,7 @@
           educendi illud in esse erat de completiorie
           <lb ed="#Qb"/>universi.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e206">
           <lb ed="#Qb"/>d. Item, illa proprie sunt de perfectione universi
           <lb ed="#Qb"/>quae habent similitudinem aliquam, scilicet ve<lb ed="#Qb"/>stigii
           vel imaginis, cum eo qui est complemen<lb ed="#Qb"/>tum
@@ -110,14 +108,14 @@
           <lb ed="#Qb"/>eductio praedicta, in qua erat unitas, veritas et'"
           <lb ed="#Qb"/>bonitas; ergo etc.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e222">
           <lb ed="#Qb"/>e. Si autem diceretur quod, licet aliquo modo
           <lb ed="#Qb"/>haberet similitudinem vestigii, tamen quia statim
           <lb ed="#Qb"/>transiit, non est de complemento universi — con<lb ed="#Qb"/>tra:
           Transitus rei temporalis non impedit quin
           <lb ed="#Qb"/>res transiens sit de pulcritudine universi. Unde
           <lb ed="#Qb"/>
-          <name ref="#Augustine">Augustinus</name>, in" libro De natura boni7: <quote>Fit
+          <name ref="#Augustine">Augustinus</name>, in" libro De natura boni7: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e240">Fit
           <lb ed="#Qb"/>decedentibus et succedentibus. rebus tempora<lb ed="#Qb"/>lis
           quaedam in suo genere pulcritudo, ut nec
           <lb ed="#Qb"/>ipsa quae moriuntur vel desinunto esse quod
@@ -131,7 +129,7 @@
           <lb ed="#Qb"/>transcurrant, bene sunt de completione universi;
           <lb ed="#Qb"/>ergo etc.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e270">
           <lb ed="#Qb"/>Contra: 1. Ut habeturb a Philosophol, na<lb ed="#Qb"/>tura
           est causa totius ordinationis; quae ergo fiunt
           <lb ed="#Qb"/>contra naturam sive contra cursum naturae, or<lb ed="#Qb"/>dinatione
@@ -142,7 +140,7 @@
           primi hominis fuit contra cursum naturae;
           <lb ed="#Qb"/>ergo etc.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e292">
           <lb ed="#Qb"/>2. Item, nihil quod non est aliquo modo de uni<lb ed="#Qb"/>verso
           sive in universo, est de complentibus uni<lb ed="#Qb"/>versum
           vel ad completionem universi;. modus
@@ -159,11 +157,11 @@
           ad completionem universi 4, ut habetur a
           <lb ed="#Qb"/>Dionysio; ergo nec illud quod simpliciter non
           <lb ed="#Qb"/>est. Dicit enim Dionysius, De divinis nomini<lb ed="#Qb"/>bus,
-          5 cap.i5: <quote>Inconveniens est'f quod malum
+          5 cap.i5: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e331">Inconveniens est'f quod malum
           <lb ed="#Qb"/>conferat ad completionem omnis et totil non im<lb ed="#Qb"/>perfectum
           esse per se ipsum largiatur </quote>.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e339">
           <lb ed="#Qb"/>3. Item, magis videntur esse de perfectione uni<lb ed="#Qb"/>versi
           nobilissimae creaturae, cuiusmodi est anima
           <lb ed="#Qb"/>hominis, quam eductio corporis humani in esse,
@@ -172,14 +170,14 @@
           <lb ed="#Qb"/>esse; igitur, si non existente anima humana es<lb ed="#Qb"/>set
           completum universum —- quod videtur ha<lb ed="#Qb"/>beri
           ab Augustino; dicit enim", in libro De
-          <lb ed="#Qb"/>libero arbitrio, IIIö: <quote> Si deessent animae, sive
+          <lb ed="#Qb"/>libero arbitrio, IIIö: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e360"> Si deessent animae, sive
           <lb ed="#Qb"/>peccarent sive non peccarent, nihil universitatis
           <lb ed="#Qb"/>ordini minueretur" </quote> — multo fortius si non es<lb ed="#Qb"/>set
           vel fuisset exitus corporis humani in esse.
           <lb ed="#Qb"/>Igitur eductio huiusmodi non est de completione
           <lb ed="#Qb"/>universi.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e376">
           <lb ed="#Qb"/>[Solutio]: Ad horum evidentiam intelligendum
           <lb ed="#Qb"/>est quod universum universalitatemp dicit et quod
           <lb ed="#Qb"/>continentia eius non arctatur ad universalitatem q
@@ -217,7 +215,7 @@
           <lb ed="#Qb"/>tinuam faciens generationem. Adhuc autem re<lb ed="#Qb"/>quiritur
           egressio operationis a virtute. De qua
           <lb ed="#Qb"/>Au'gustinus, Super Genesim ad litteram 'O:
-    <quote> Potest intelligi Deum requievisse a condendis
+    <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e458"> Potest intelligi Deum requievisse a condendis
           <lb ed="#Qb"/>generibus creaturae, quia ultra iam non" condidit
           <lb ed="#Qb"/>alia genera nova; deinceps autem usque nunc et
           <lb ed="#Qb"/>ultra operatur" eorumdem generum administratio<lb ed="#Qb"/>nem
@@ -229,7 +227,7 @@
           <lb ed="#Qb"/>sive rnodus educendi differens fuit ab aliis se<lb ed="#Qb"/>cundum
           speciem, ut ex1 dictis patet.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e483">
           <lb ed="#Qb"/>Praeterea, non fuit eductio rei tantum singu<lb ed="#Qb"/>laris,
           immo quodam modo generalis, eo quod in
           <lb ed="#Qb"/>ipso corpore completo sua perfectione, scilicet
@@ -242,7 +240,7 @@
           <lb ed="#Qb"/>quodam modo universalis, non immerito debet
           <lb ed="#Qb"/>dici esse de completione universi.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e509">
           <lb ed="#Qb"/>[Ad obiecta]: 1. Ad hoc quod primo obici<lb ed="#Qb"/>tur
           in contrarium, dicendum1 quod non dicitur esse
           <lb ed="#Qb"/>contra naturam quod ab auctore naturae efficitur
@@ -252,12 +250,12 @@
           <lb ed="#Qb"/>similium: in illa enim conditione naturam con<lb ed="#Qb"/>didit
           et esse rerum naturale et legem propaga<lb ed="#Qb"/>tionis
           naturalis. Ut enim dicit <name ref="#Augustine">Augustinus</name>,
-          <lb ed="#Qb"/>Contra Faustamz, <quote> hoc erit unicuique rei natu—
+          <lb ed="#Qb"/>Contra Faustamz, <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e536"> hoc erit unicuique rei natu—
           <lb ed="#Qb"/>rale quod ille fecerit a quo est omnis modus,
           <lb ed="#Qb"/>numerus et ordo naturae </quote>. Tamen potest dici hanc
           <lb ed="#Qb"/>eductionem fuisse supra naturam, non contra. —
           <lb ed="#Qb"/>Si contra hoc obiciatur per illud Augu<lb ed="#Qb"/>stini
-          dicentis ibi, Contra Fanstnm3: <quote> Non in<lb ed="#Qb"/>congrue
+          dicentis ibi, Contra Fanstnm3: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e549"> Non in<lb ed="#Qb"/>congrue
           dicetur aliquisb facere contra naturam,
           <lb ed="#Qb"/>qui facit contra id quod novimus in natura; hoc
           <lb ed="#Qb"/>appellamus cognitum nobis cursum, solitumque
@@ -271,14 +269,14 @@
           naturae in operando, sicut faciunt abusoresc
           <lb ed="#Qb"/>naturarum et earum d cursus pervertentes.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e579">
           <lb ed="#Qb"/>2. Ad illud quod sequitur patet responsio ex
           <lb ed="#Qb"/>dictis 6, quia continentia universi non extendit se
           <lb ed="#Qb"/>solum ad illa quae sunt, sed ad omnia quae ali<lb ed="#Qb"/>quando
           fuerunt et ita ad ea quae modo non sunt,
           <lb ed="#Qb"/>sicut patet ex auctoritate A u gu stini supra dicta,
           <lb ed="#Qb"/>De libero arbitrio 4. — Ad hoc quod obicitur
-          <lb ed="#Qb"/>de verbo Dionysii dicentis quod <quote> inconve<lb ed="#Qb"/>niens
+          <lb ed="#Qb"/>de verbo Dionysii dicentis quod <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e596"> inconve<lb ed="#Qb"/>niens
           est ponere quod malumf conferat ad com<lb ed="#Qb"/>pletionem
           omnis </quote> etc.: dicendum5 quod loquitur
           <lb ed="#Qb"/>Dionysius de malo culpae, quod potest con<lb ed="#Qb"/>siderari
@@ -289,10 +287,10 @@
           <lb ed="#Qb"/>Et neutro istorumg modorum sumptum est ad
           <cb ed="#Qb" n="b"/>
           <lb ed="#Qb"/>completionem universi. Unde <name ref="#Augustine">Augustinus</name>sz
-    <quote>Non ipsa peccata velh ipsa miseria sunt per—
+    <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e624">Non ipsa peccata velh ipsa miseria sunt per—
           <lb ed="#Qb"/>fectionii universitatis necessaria </quote>. Item, potest
           <lb ed="#Qb"/>considerari ut exk, eo elicitur bonum. Unde Au<lb ed="#Qb"/>gustinus,
-          XI De civitate Dei7: <quote>Neque Deus
+          XI De civitate Dei7: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e633">Neque Deus
           <lb ed="#Qb"/>ullum, non dico angelorum, sed vel hominuml
           <lb ed="#Qb"/>crearet, quem malum futurum esse praescisset,
           <lb ed="#Qb"/>nisi pariter nosceret '" quibus eos bonorum usibus
@@ -300,7 +298,7 @@
           pulcherrimum carmen etiam ex" quibus<lb ed="#Qb"/>dam
           quasi antithetis honestaret </quote>. Item, potest
           <lb ed="#Qb"/>considerari in quantum ordinatur0 ad poenam.
-          <lb ed="#Qb"/>Unde <name ref="#Augustine">Augustinus</name>, XI De civitate Deis: <quote> Sicut
+          <lb ed="#Qb"/>Unde <name ref="#Augustine">Augustinus</name>, XI De civitate Deis: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e657"> Sicut
           <lb ed="#Qb"/>Deus naturarum bonarum optimus creator est,
           <lb ed="#Qb"/>ita etP malarum voluntatum iustissimus ordinator,
           <lb ed="#Qb"/>ut, cum? illae male utuntur naturis bonis, ipse
@@ -308,7 +306,7 @@
           <lb ed="#Qb"/>test considerari in quantum bonum ei oppositum
           <lb ed="#Qb"/>et comparatum magis apparet bonum. Hoc osten<lb ed="#Qb"/>dit
     <name ref="#Augustine">Augustinus</name>', De civitate Deig, exemplo
-          <lb ed="#Qb"/>tali: <quote> Sicut pictura cum colore nigro in suo loco
+          <lb ed="#Qb"/>tali: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e680"> Sicut pictura cum colore nigro in suo loco
           <lb ed="#Qb"/>positos congruit, ita universitas rerum cum pec<lb ed="#Qb"/>catoribus
           pulcra est </quote>. Secundum istos modos
           <lb ed="#Qb"/>tres occasionaliter est de completione universi.
@@ -323,10 +321,10 @@
           tollit, ipsi toti subtrahit aliquid perfec<lb ed="#Qb"/>tionis.
           Quia ergo peccatum partern universi reddit
           <lb ed="#Qb"/>imperfectam", habet Dionysius pro inconve<lb ed="#Qb"/>nienti
-          quod <quote> non imperfectum esse largiatur
+          quod <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e713"> non imperfectum esse largiatur
           <lb ed="#Qb"/>toti</quote>.
         </p>
-        <p>
+        <p xml:id="ahsh-l2Ai4t2s1q2c3-d1e719">
           <lb ed="#Qb"/>3. Ad illud quod ultimo obicitur, qudd scili<lb ed="#Qb"/>cet
           ' completum essetV universum si deessent ani<lb ed="#Qb"/>mae,
           etc.: dicendum quod ad completionem uni<lb ed="#Qb"/>versi
@@ -351,15 +349,15 @@
           <lb ed="#Qb"/>animae deessent, nihil minueretur ordini univer<lb ed="#Qb"/>sitatis,
           non" autem quod nihil minueretur inte<lb ed="#Qb"/>gritati
           ;. hoc autem videntur sonare verba sua,
-          <lb ed="#Qb"/>scilicet haec 1: <quote> Si deessent, scilicet animae, quae
+          <lb ed="#Qb"/>scilicet haec 1: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e778"> Si deessent, scilicet animae, quae
           <lb ed="#Qb"/>sive peccarentc sive non peccarent, nihil univer<lb ed="#Qb"/>sitatis
           ordini minueretur, etiam si plurimum ** de<lb ed="#Qb"/>essentz</quote>,
           id estin plurium multitudine, vel forte
-          <lb ed="#Qb"/>littera est <quote>si plurium deessent</quote>, scilicet ani<lb ed="#Qb"/>mae.
+          <lb ed="#Qb"/>littera est <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e789">si plurium deessent</quote>, scilicet ani<lb ed="#Qb"/>mae.
           Nec videtur quod <name ref="#Augustine">Augustinus</name>. intelligat 
           <cb ed="#Qb" n="b"/>
           <lb ed="#Qb"/>quod nihil minuereturf universitati, quia
-          <lb ed="#Qb"/>contradiceret sibi ibidem. Dicit enim3: <quote> lnie.
+          <lb ed="#Qb"/>contradiceret sibi ibidem. Dicit enim3: <quote xml:id="ahsh-l2Ai4t2s1q2c3-Qd1e804"> lnie.
           <lb ed="#Qb"/>officii est ista, quae tantummodo si non .
           <lb ed="#Qb"/>non autem si peccaret, aliquid minus ha
           <lb ed="#Qb"/>universitas-8 </quote>. Item, ut videtur ex serie liti
