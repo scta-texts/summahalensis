@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 2, Inq. 4, T. 2, Q. 3, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 2, Inq. 4, T. 2, Q. 3, Praeambulum</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p2in4t2q3prae">
+        <head xml:id="ahsh-l3p2in4t2q3prae-Hd1e102">III, P. 2, Inq. 4, T. 2, Q. 3, Praeambulum</head>
+        <p xml:id="ahsh-l3p2in4t2q3prae-d1e105">
+          <lb ed="#Qd"/>Consequenter quaerendum est de praeceptis quibus ordinatur motus rationalis.
+          <lb ed="#Qd"/>Duplex autem est ordo vis rationalis. in verum et in" bonum. Ordinatur
+    . ergo Vis rationalisb per praecepta duo in verum, videlicet per prohibitionem
+          <lb ed="#Qd"/>iurationis, cum dicitur, Matth. 5, 33. Audistis quia dictum est. Non periurabis. Ego
+          <lb ed="#Qd"/>autem dico vobis, non iurare omnino; et per iussionem simplicis" assertionis, cum
+          <lb ed="#Qd"/>dicitur1 : Sit autem sermo vester; Est, est: Non, non. Item, ordinatur in bonum per prae<lb ed="#Qd"/>cepta
+          tripliciter. Primo, per praeceptum patientiae in perpessione iniuriarum, cum
+          <lb ed="#Qd"/>dicitu'rzz Audistis quia dictum est: Oculum pro oculo. Ego autem dico vobis, non re<lb ed="#Qd"/>sistere
+          etc. d. Secundo, per praecepta beneficentiae in erogatione beneficiorum, cum
+          <lb ed="#Qd"/>dicitura: Qui petit a te, da ei. Tertio, per praecepta caritatis in dilectione inimicorum,
+          <lb ed="#Qd"/>cum dicitur*: Audistis quia dictum est. Diliges amicum tuum etc. Ego autem dico
+          <lb ed="#Qd"/>vobis. Diligite inimicos vestros etc.
+          <lb ed="#Qd"/>Primo ergo inquirendum est de prohibitione iurationis;
+          <lb ed="#Qd"/>secundo, de praecepto simplicis assertionisvveritatis, sed de hoc sufficienter deter<lb ed="#Qd"/>minatum
+          est' inquisitione Decalogi, Quaestione de praecepto: Non falsum testimonium
+          <lb ed="#Qd"/>dicest;
+          <lb ed="#Qd"/>tertio, quaerendum est de praeceptis patientiae;
+          <lb ed="#Qd"/>quarto, de praeceptis beneficentiae; '
+          <lb ed="#Qd"/>quinto, de praeceptis caritatis.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 1, Inq. 1, T. 2, Q. 1, M. 3, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 1, Inq. 1, T. 2, Q. 1, M. 3, Praeambulum</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p1in1t2q1m3prae">
+        <head xml:id="ahsh-l3p1in1t2q1m3prae-Hd1e102">III, P. 1, Inq. 1, T. 2, Q. 1, M. 3, Praeambulum</head>
+        <head xml:id="ahsh-l3p1in1t2q1m3prae-Hd1e105" type="question-title">De principio et ratione conceptionis.</head>
+        <p xml:id="ahsh-l3p1in1t2q1m3prae-d1e108">
+          <lb ed="#Qd"/>Consequenter quaeritur de principio et ratione
+    äconceptionis; quaeritur igitur qua ratione
+          <lb ed="#Qd"/>dicatur Christus conceptus de Spiritu Sanctoä *.
+          <lb ed="#Qd"/>Ad quod assignantur tres rationes, de quibus
+          <lb ed="#Qd"/>quaeritur per singula:
+          <lb ed="#Qd"/>Prima ratio est ostensio caritatis;
+          <lb ed="#Qd"/>secunda ', ostensio gratiae, quam nulla praeces<lb ed="#Qd"/>serunt
+          merita;
+          <lb ed="#Qd"/>tertia, quia operatione et virtute Spiritus Sancti
+          <lb ed="#Qd"/>conceptus est.
+          <lb ed="#Qd"/>Quarto quaeritur quare non dicitur tilius Spi<lb ed="#Qd"/>ritus
+          Sancti.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

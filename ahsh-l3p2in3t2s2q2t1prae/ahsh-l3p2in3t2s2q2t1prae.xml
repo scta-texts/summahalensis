@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 2, Inq. 3, T. 2, S. 2, Q. 2, T. 1, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 2, Inq. 3, T. 2, S. 2, Q. 2, T. 1, Praeambulum</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p2in3t2s2q2t1prae">
+        <head xml:id="ahsh-l3p2in3t2s2q2t1prae-Hd1e102">III, P. 2, Inq. 3, T. 2, S. 2, Q. 2, T. 1, Praeambulum</head>
+        <p xml:id="ahsh-l3p2in3t2s2q2t1prae-d1e105">
+          <lb ed="#Qd"/>Consequenter tractandum est de praeceptis iudicialibus quae pertinent ad con<lb ed="#Qd"/>servationem
+          iustitiae. Horum autem quaedam respiciunt statum personarum,
+          <lb ed="#Qd"/>quaedam debitum rerum, quaedam ordinem actionum. Omnis enim ordo
+          <lb ed="#Qd"/>iustitiae inter homines conservandus aut respicit personas aut res aut actiones.
+          <lb ed="#Qd"/>Primo ergo quaerendum est de praeceptis iudicialibus" circa personas;
+          <lb ed="#Qd"/>secundo, de praeceptis iudicialibus circa res;
+          <lb ed="#Qd"/>tertio, de praeceptis iudicialibus circa actiones.
+          <lb ed="#Qd"/>Item, personarum quaedam suntb superiores, ut sacerdos et rex; quaedam infe<lb ed="#Qd"/>riores,
+          ut servi et ancillaec; quaedam pares et coniunctae, ut vir et uxor secundum
+          <lb ed="#Qd"/>mutuam servitutem; quaedam dispares et disiunctae, ut adversarii
+          <lb ed="#Qd"/>et infames. Et se<lb ed="#Qd"/>cundum 
+    hoc variantur leges iudiciales circa personas.
+          <lb ed="#Qd"/>Primo ergo quaerendum est de legibus iudicialibus circa personam regis et sa<lb ed="#Qd"/>cerdotis;
+    secundo, de legibus circa servos;
+          <lb ed="#Qd"/>tertio, de legibus circa virum et uxorem;
+          <lb ed="#Qd"/>quarto de legibus circa infames et adversarios.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

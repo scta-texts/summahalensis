@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 1, Inq. 1, T. 1, Q. 4, T. 1, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 1, Inq. 1, T. 1, Q. 4, T. 1, Praeambulum</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p1in1t1q4t1prae">
+        <head xml:id="ahsh-l3p1in1t1q4t1prae-Hd1e102">III, P. 1, Inq. 1, T. 1, Q. 4, T. 1, Praeambulum</head>
+        <p xml:id="ahsh-l3p1in1t1q4t1prae-d1e105">
+          <lb ed="#Qd"/>Tractatori de necessitate et convenientia et praedestinatione incarnationis, con—
+          <lb ed="#Qd"/>sequens est inquirere de actu incarnationis, qui consideratur duobus modis,
+          <lb ed="#Qd"/>scilicet in fieri et in facto esse. Actus incarnationis in tleri dicitur assumptio,
+          <lb ed="#Qd"/>actus vero Incarnationis in facto esse dicitur unio.
+          <lb ed="#Qd"/>Primo ergo quaerendum est de actu assumptionisf,
+          <lb ed="#Qd"/>secundo de actu unionist'.
+          <lb ed="#Qd"/>De assumptione autem quaeruntur ista:
+          <lb ed="#Qd"/>Primo de assumente;
+          <lb ed="#Qd"/>secundo, de assumpto.
+          <lb ed="#Qd"/>De primo quaeritur:
+          <lb ed="#Qd"/>Primo'' utrum assumere conveniat divinae naturae;
+          <lb ed="#Qd"/>secundo, utrum conveniat tribus personis.
+          <lb ed="#Qd"/>De assumpto quaeritur:
+          <lb ed="#Qd"/>Primo, utrum natura humana sit assumpta;
+          <lb ed="#Qd"/>secundo, utrum natura humana' secundum corpus et animam sit assumpta;
+          <lb ed="#Qd"/>tertio *, utrum corpus sit assumptum mediante anima';
+          <lb ed="#Qd"/>quarto "', utrum persona sit assumpta"; '
+          <lb ed="#Qd"/>quinto", qualiter intelligitur homo assumptus.";
+          <lb ed="#Qd"/>sexto, de coassumptis";
+          <lb ed="#Qd"/>septimo ', de constituto per assumptionem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

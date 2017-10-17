@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 2, Inq. 3, T. 2, S. 2, Q. 2, T. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 2, Inq. 3, T. 2, S. 2, Q. 2, T. 2</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p2in3t2s2q2t2">
+        <head xml:id="ahsh-l3p2in3t2s2q2t2-Hd1e102">III, P. 2, Inq. 3, T. 2, S. 2, Q. 2, T. 2</head>
+        <p xml:id="ahsh-l3p2in3t2s2q2t2-d1e105">
+          <lb ed="#Qd"/>Consequenter quaerendum est" de
+          <lb ed="#Qd"/>legibus circa possessiones rerum. Res au<lb ed="#Qd"/>
+          <lb ed="#Qd"/>tem quaedam sunt acquisitae, quaedam hereditariae, et de utrisque dantur
+          <lb ed="#Qd"/>leges iudiciales. De rebus ergo acquisitis datur lex, loquens de rege, Deu<lb ed="#Qd"/>
+          <lb ed="#Qd"/>ter. 17,17: Non habebit rex auri et argenti immensa pondera. De rebus hereditariis
+          <lb ed="#Qd"/>datur lex, Deuter. 18, 1: Non habebunt sacerdotes et levitae partem et hereditatem
+          <lb ed="#Qd"/>cum reliquo" populo Israel.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

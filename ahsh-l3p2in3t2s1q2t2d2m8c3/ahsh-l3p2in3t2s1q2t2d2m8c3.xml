@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 2, Inq. 3, T. 2, S. 1, Q. 1, T. 2, D. 2, M. 8, C. 3</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 2, Inq. 3, T. 2, S. 1, Q. 1, T. 2, D. 2, M. 8, C. 3</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3">
+        <head xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-Hd1e102">III, P. 2, Inq. 3, T. 2, S. 1, Q. 1, T. 2, D. 2, M. 8, C. 3</head>
+        <head xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-Hd1e105" type="question-title">DE COMITE VERITATE</head>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-d1e108">
+          <lb ed="#Qd"/>Deinde quaeritur de comite iuramenti qui est
+          <lb ed="#Qd"/>veritas.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-d1e115">
+          <lb ed="#Qd"/>1. Quaeritur ergo, si in iuramento desit veri<lb ed="#Qd"/>tas,
+          ut in illo qui iurat in dolo, utrum obliget.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-d1e122">
+          <lb ed="#Qd"/>Ad quod sic: 1. Periurlum non est obligato<lb ed="#Qd"/>rium;
+          sed iuramentum quod fit absque veritate " est
+          <cb ed="#Qd" n="b"/>
+          <lb ed="#Qd"/>periurium; ergo non est obligatorium, — Quod
+          <lb ed="#Qd"/>autem periurium sit tale iuramentum;
+          <lb ed="#Qd"/>probatur multis modis b. Primo, auctoritate A n g u<lb ed="#Qd"/>stini4
+          super Psalmumä: Domini est terra: <quote xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-Qd1e139">In
+          <lb ed="#Qd"/>dolo iurat qui aliter facturus est quam promittit,
+          <lb ed="#Qd"/>cum periurium sit ncquitcr decipere credentes </quote>.
+          <lb ed="#Qd"/>item, i-iiero nym us, Super Ieremiam 5: <quote xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-Qd1e148"> Qui
+          <pb ed="#Qd" n="487"/>
+            <cb ed="#Qd" n="a"/>
+            <lb ed="#Qd"/>falsum iurat, mentitur" </quote>. Mentiendo autem iu<lb ed="#Qd"/>rare
+          niliil" aliud est quam periurare; ergo, cum
+          <lb ed="#Qd"/>sic iurare sit periurare, non [ videtur obligare.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-d1e164">
+          <lb ed="#Qd"/>Contra: a. Isidorus': <quote xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-Qd1e168"> Quacumque arte
+          <lb ed="#Qd"/>verborum quis iurat, Deus ita accipit sicut ille,
+          <lb ed="#Qd"/>cui4 iuratur, intelligit</quote>. Cum ergo ille cui iu<lb ed="#Qd"/>ratur,
+          intelligat iurantem in dolo obligari, obli<lb ed="#Qd"/>gatur.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-d1e180">
+          <lb ed="#Qd"/>b. Praeterea, si tale iuramentum non obligaret,
+          <lb ed="#Qd"/>ex dolo reportaret lucrum; dolus autem nemini
+          <lb ed="#Qd"/>debet patrocinariz; relinquitur igitur quod, quam<lb ed="#Qd"/>vis
+          desit veritas in iuramento, nihilominus est
+          <lb ed="#Qd"/>obiigatorium.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-d1e193">
+          <lb ed="#Qd"/>II. Item, quaeritur quae sit ratio quod cxigantur
+          <lb ed="#Qd"/>tres comites in iuramento, iustitia, iudicium et
+          <lb ed="#Qd"/>veritas.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-d1e202">
+          <lb ed="#Qd"/>[Solutio]: I. Ad prim um dicendum quod,
+          <lb ed="#Qd"/>cum iuramentum sit duplex, assertorium et promis—
+          <lb ed="#Qd"/>sorium — et ' assertorium iuramentum est, quando
+          <lb ed="#Qd"/>iuratur de praesenti aliquid esse vel non esse vel
+          <lb ed="#Qd"/>de praeterito aliquid fuisse vel non fuisse; promis—
+          <lb ed="#Qd"/>sorium vero, cum iurat aliquisf de futuro se factu<lb ed="#Qd"/>rum
+          aliquid vel non facturum - cum autem
+          <lb ed="#Qd"/>quaeritur de obligatione iuramenti, debet referri
+          <lb ed="#Qd"/>ad promissorium, ratione cuius tenetur iurans ad
+          <lb ed="#Qd"/>aliquid faciendum vel non faciendum ing futuro.
+          <lb ed="#Qd"/>iuramentum ergo'l assertor-ium, cum deest ve<lb ed="#Qd"/>ritas,
+          non obligat ad aliquid' agendum nec alio
+          <lb ed="#Qd"/>modo, nisi obligatione reatus. Cum ergo obicitur
+          <lb ed="#Qd"/>de iurante in dolo, referendum est ad promisso<lb ed="#Qd"/>rium.
+          Tamen distinguendum ad illud quod obicit
+          <lb ed="#Qd"/>quod periurium non obligat *, quod periurium
+          <cb ed="#Qd" n="b"/>
+          <lb ed="#Qd"/>aliquando dicitur taisa' iuratio, aliquando per.
+          <lb ed="#Qd"/>versa iuratio, quando scilicet iuratur illicitum,
+          <lb ed="#Qd"/>aliquando vero transgressio iuramenti. Item, falsa
+          <lb ed="#Qd"/>iuratio dicitur"l duobus modis: falsitate iurantis
+          <lb ed="#Qd"/>vel eius quod iuratur. Hic autem accipitur iaisa "
+          <lb ed="#Qd"/>iuratio pro falsitate iurantis, quae est duplex: in
+          <lb ed="#Qd"/>asserendo et in promittendo. In asserendo falsa
+          <lb ed="#Qd"/>iuratio non obligat nisi obligatione reatus"; in
+          <lb ed="#Qd"/>promittendo "falsa iuratio obligat? ad executio<lb ed="#Qd"/>nem
+          promissi ", dummodo sit licitum et expe<lb ed="#Qd"/>diens.
+          Perversa vero' iuratio, cum scilicet iu<lb ed="#Qd"/>ratur
+          illicitum, quo modo obliget' et quo modo
+          <lb ed="#Qd"/>non, dictum est prius 3. Transgressio vero iura—
+          <lb ed="#Qd"/>menti non dicitur obligare nisi ' obligatione rea—
+          <lb ed="#Qd"/>tus, quo modo dicitur proprie periurium. Aliis
+          <lb ed="#Qd"/>vero" modis dicitur periurium interpretative".
+          <lb ed="#Qd"/>Cum ergo dicitur 'nullum periurium cst obliga<lb ed="#Qd"/>torium
+     ', per hanc distinctionem patet responsio.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m8c3-d1e280">
+          <lb ed="#Qd"/>II. Ad ultimum vero dicendum quod, sicut
+          <lb ed="#Qd"/>dicitur Ierem. 4,2: lumbis, vivit Dominus *, in
+          <lb ed="#Qd"/>veritate, ety iudicio, et iustitia, quod tres comites
+          <lb ed="#Qd"/>debent esse in quolibet iurainento, et hac ratione:
+          <lb ed="#Qd"/>nam iuramentum debet esse ordinatum tum1 ex
+          <lb ed="#Qd"/>parte iurantis, tum ex parte eius quod iuratur, tum
+          <lb ed="#Qd"/>ex parte causae pro qua iuratur. Ex parte iurantis
+          <lb ed="#Qd"/>comes iuramenti debet esse veritas, ut asserendo
+          <lb ed="#Qd"/>credat esse verum quod iurat et promittendo pro<lb ed="#Qd"/>ponat
+          se facturum quod iurat. Ex parte eius quod
+          <lb ed="#Qd"/>iuratur debet esse omnes iustitia, ut illud, quod
+          <lb ed="#Qd"/>iuratur, licitum sit et iustum. Ex parte vero cau<lb ed="#Qd"/>sae,
+          pro qua iuratur, debet esse comes iudicium,
+          <lb ed="#Qd"/>ut scilicet cum causa rationabili iuret, sine causa
+          <lb ed="#Qd"/>vero et discretione iudicii non iuret.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

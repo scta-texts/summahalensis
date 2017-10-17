@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 2, Inq. 2, Q. 1, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 2, Inq. 2, Q. 1, C. 2</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p2in2q1c2">
+        <head xml:id="ahsh-l3p2in2q1c2-Hd1e102">III, P. 2, Inq. 2, Q. 1, C. 2</head>
+        <head xml:id="ahsh-l3p2in2q1c2-Hd1e105" type="question-title">UTRUM LEX NATURALIS SIT CREATA VEL INCREATA.</head>
+        <p xml:id="ahsh-l3p2in2q1c2-d1e108">
+          <lb ed="#Qd"/>Secundo quaeritur utrum lex naturalis"l sit
+          <lb ed="#Qd"/>creata vel increata.
+        </p>
+        <p xml:id="ahsh-l3p2in2q1c2-d1e115">
+          <lb ed="#Qd"/>Ad quod sic: 1. Lex naturalis est secundum
+          <lb ed="#Qd"/>quam animae rationales de istis inferioribus recte
+          <cb ed="#Qd" n="b"/>
+          <lb ed="#Qd"/>iudicant; sed lex aeterna est huiusmodi; ergo lex
+          <lb ed="#Qd"/>naturalis est lex aeterna; ergo increata. —— Minor
+          <lb ed="#Qd"/>patet per <name ref="#Augustine">Augustinum</name>, in libro De vero re<lb ed="#Qd"/>iigiane':
+     <quote xml:id="ahsh-l3p2in2q1c2-Qd1e135">Lex aeterna est prima veritas et lex
+          <lb ed="#Qd"/>omnium artium et'J lex omnipotentis Artificis. Ut
+          <pb ed="#Qd" n="341"/>
+            <cb ed="#Qd" n="a"/>
+            <lb ed="#Qd"/>enim nos et omnes rationales animae secundum
+          <lb ed="#Qd"/>veritatem de interioribus recte iudicamus, sic de
+          <lb ed="#Qd"/>nobis, quando eidem inhaeremus", sola veritas
+          <lb ed="#Qd"/>iudicat</quote>. Et" hanc veritatem appellat legem ae<lb ed="#Qd"/>ternam,
+          et sic per eam recte iudicamus de inie<lb ed="#Qd"/>rioribus.
+        </p>
+        <p xml:id="ahsh-l3p2in2q1c2-d1e158">
+          <lb ed="#Qd"/>2. Secunda ratio. <name ref="#Augustine">Augustinus</name>, in libro De
+          <lb ed="#Qd"/>vera religione 1: <quote xml:id="ahsh-l3p2in2q1c2-Qd1e167"> Menti nostrae concessum est
+          <lb ed="#Qd"/>videre legem talem </quote>. Sed hoc non visione cor<lb ed="#Qd"/>porali,
+          istud planum est; similiter nec imaginaria;
+          <lb ed="#Qd"/>ergo visione intellectuali. Sed dicit <name ref="#Augustine">Augustinus</name> 2
+          <lb ed="#Qd"/>quod '1 visione intellectuali videntur res quae vi<lb ed="#Qd"/>dentur
+          re, non similitudine, sive quae non vi<lb ed="#Qd"/>dentur
+          imagine 4, sed re ipsa; ergo non est si<lb ed="#Qd"/>militudo
+          aliqua vel imago legis aeternae in anima,
+          <lb ed="#Qd"/>immo ipsa lex aeterna est inf anima. Sed lex
+          <lb ed="#Qd"/>naturalis creataE imago est illius; ergo ipsa non
+          <lb ed="#Qd"/>est in anima ^; ergo si est aliqua lex in anima,
+          <lb ed="#Qd"/>haec est solum lex naturalis increata.
+        </p>
+        <p xml:id="ahsh-l3p2in2q1c2-d1e199">
+          <lb ed="#Qd"/>Ad oppositum: a. Lex naturalis obscuratur
+          <lb ed="#Qd"/>et obienebratur per peccatum, sicut habetur in
+          <lb ed="#Qd"/>Glossaa Rom. 2; sed lex increata non; ergo
+          <lb ed="#Qd"/>lcx naturalis non[ est increata.
+        </p>
+        <p xml:id="ahsh-l3p2in2q1c2-d1e210">
+          <lb ed="#Qd"/>b. Secunda ratio. Eccli. l7,g: Addidit ei di<lb ed="#Qd"/>sciplinam,
+          et legem vitae hereditavit illas, Glos<lb ed="#Qd"/>sa":
+     <quote xml:id="ahsh-l3p2in2q1c2-Qd1e218"> Vel legem litterae' ad correctionem
+          <lb ed="#Qd"/>legis naturalis scribi voluit </quote>. Lex ergo naturalis
+          <lb ed="#Qd"/>est corrigibilis; sed lex'" increata non, quoniam
+          <lb ed="#Qd"/>in " lege aeterna sive increata non cadit mutabi<lb ed="#Qd"/>litas;
+          ergo lex naturalis non est increata, sed
+          <lb ed="#Qd"/>creata.
+        </p>
+        <p xml:id="ahsh-l3p2in2q1c2-d1e233">
+          <lb ed="#Qd"/>Solutio: Dicendum quod lex naturalis uno
+          <lb ed="#Qd"/>modo dicitur regula exemplaris prima, et sic
+          <lb ed="#Qd"/>ipsa est prima Veritas, et sic [ex naturalis idem
+          <lb ed="#Qd"/>est quod lex aeterna et increata. Alio modo di
+          <lb ed="#Qd"/>citur lex naturalis" regula quae est exemplum,
+          <lb ed="#Qd"/>indita animae ad cognoscendum quid faciendum
+          <lb ed="#Qd"/>et quid non, et hoc modo creata est? et con<lb ed="#Qd"/>creata
+          animae, et de hac procedit quaestio; et
+          <lb ed="#Qd"/>sic patet quod ipsa est creata".
+        </p>
+        <p xml:id="ahsh-l3p2in2q1c2-d1e255">
+          <lb ed="#Qd"/>[Ad obiecta]: 1. Ad primam rationem in con<lb ed="#Qd"/>trarium
+          dicendum quod, cum dicitur <quote xml:id="ahsh-l3p2in2q1c2-Qd1e261">secundum
+          <lb ed="#Qd"/>legem aeternam recte iudicamus de istis inferio<lb ed="#Qd"/>rihus</quote>, 
+    hic notatur causa formalis exemplaris '.
+          <cb ed="#Qd" n="b"/>
+          <lb ed="#Qd"/>Cum autem dicitur <quote xml:id="ahsh-l3p2in2q1c2-Qd1e273"> secundum legem naturalem
+          <lb ed="#Qd"/>iudicamus de interioribus</quote>, hie notatur causa
+          <lb ed="#Qd"/>formalis exemplata, et ita differenter dicitur illud
+          <lb ed="#Qd"/>de ipsis.
+        </p>
+        <p xml:id="ahsh-l3p2in2q1c2-d1e283">
+          <lb ed="#Qd"/>2. Ad secundam dicendum quod, cum di<lb ed="#Qd"/>citur
+          quod 'illud quod videtur^1 visione intellec<lb ed="#Qd"/>tuali,
+          videtur re ipsa et non similitudine ', hoc
+          <lb ed="#Qd"/>verum est de visione intellectuali, quae est ter—
+          <lb ed="#Qd"/>tium caelum. Nam triplex est visio5 rimo, una"
+          <lb ed="#Qd"/>corporalis, quae fit per sensum; alia autem ima<lb ed="#Qd"/>ginariaf,
+          quae tit in somnis; tertia intellectualis.
+          <lb ed="#Qd"/>Et haec est'1 triplex secundum tres caelos. Nam
+          <lb ed="#Qd"/>est visio intellectualis quae tit per similitudinem
+          <lb ed="#Qd"/>abstractam a sensu, et haec visio intellectualis
+          <lb ed="#Qd"/>corporalis dicitur suo" modo. Alia est visio in—
+          <lb ed="#Qd"/>tellectualis quae'dlcitur imaginaria, quae scili<lb ed="#Qd"/>cet-f
+          tit per similitudinem abstractam ab imagi<lb ed="#Qd"/>nationes.
+          Tertia est qua cognoscit anima rem
+          <lb ed="#Qd"/>non per similitudinem abstractam a sensu vel
+          <lb ed="#Qd"/>imaginatione", sed qua cognoscit rem ut est, et
+          <lb ed="#Qd"/>haec est tertium caelum. Et de hac dicitur Paulus
+          <lb ed="#Qd"/>esse raptus usque ad tertium caelum 5, et haec
+          <lb ed="#Qd"/>fuit visio per revelationem. De hac autem visione
+          <lb ed="#Qd"/>vera est illa auctoritas <name ref="#Augustine">Augustini</name>, non de aliis;
+          <lb ed="#Qd"/>nisi distinguatur similitudo duplex, scilicet cor<lb ed="#Qd"/>poralis
+          et spiritualis. Quae ergo videntur visione
+          <lb ed="#Qd"/>hacl, non videntur similitudine corporali, sed
+          <lb ed="#Qd"/>spirituali videntur'f quaedam hac visione. Nam
+          <lb ed="#Qd"/>quaedam' videt anima hac visione, quae non
+          <lb ed="#Qd"/>videt nec similitudine corporali nec spirituali,
+          <lb ed="#Qd"/>sicut quando videt se et suas aiiectiones et
+          <lb ed="#Qd"/>actiones et suam iustitiam. Quaedam autem
+          <lb ed="#Qd"/>videt hac visione per similitudinem spiritua—
+          <lb ed="#Qd"/>lem, sicut angelum et sicut cognoscit iustitiam
+          <lb ed="#Qd"/>alterius. Et propter hoc ista propositio inde—
+          <lb ed="#Qd"/>finite dicitur" quod 'quae videntur visione in<lb ed="#Qd"/>tellectuali
+     ", videntur re et non similitudine ', ut"
+          <lb ed="#Qd"/>intelligatur de illis quae videt anima per se et
+          <lb ed="#Qd"/>per praesentiam sive per revelationem. Verum
+          <lb ed="#Qd"/>est tamen simpliciter quod non videntur simi<lb ed="#Qd"/>litudine
+          corporali aliqua hac visioneF, sed ta<lb ed="#Qd"/>men
+          quaedam sic similitudine spirituali, et sic
+          <lb ed="#Qd"/>lex" aeterna in anima videtur per visionem in<lb ed="#Qd"/>tellectualem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

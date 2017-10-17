@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 1, Inq. 1, T. 4, Q. 3, M. 2, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 1, Inq. 1, T. 4, Q. 3, M. 2, Praeambulum</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p1in1t4q3m2prae">
+        <head xml:id="ahsh-l3p1in1t4q3m2prae-Hd1e102">III, P. 1, Inq. 1, T. 4, Q. 3, M. 2, Praeambulum</head>
+        <head xml:id="ahsh-l3p1in1t4q3m2prae-Hd1e105" type="question-title">De tempore merendi quantum ad Christum.</head>
+        <p xml:id="ahsh-l3p1in1t4q3m2prae-d1e108">
+          <lb ed="#Qd"/>Consequenter quaeritur de tempore merendi
+          <lb ed="#Qd"/>quantum ad ipsum Christum, et quaerun<lb ed="#Qd"/>tur
+          duo:
+          <cb ed="#Qd" n="b"/>
+          <lb ed="#Qd"/>Primum, an" ab initio conceptionis meruerit;
+          <lb ed="#Qd"/>secundum ", an in vita potuerit non mereri.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

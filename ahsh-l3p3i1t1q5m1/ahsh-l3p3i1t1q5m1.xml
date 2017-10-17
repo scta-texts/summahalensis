@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 3, Inq. 1, T. 1, Q. 5, M. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 3, Inq. 1, T. 1, Q. 5, M. 1</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p3i1t1q5m1">
+        <head xml:id="ahsh-l3p3i1t1q5m1-Hd1e102">III, P. 3, Inq. 1, T. 1, Q. 5, M. 1</head>
+        <head xml:id="ahsh-l3p3i1t1q5m1-Hd1e105" type="question-title">An sit gratiae causa meritoria. ex parte nostra.</head>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e108">
+          <lb ed="#Qd"/>Ad primum sic: l. Maius' bonum quam sit 
+          <lb ed="#Qd"/>gratia cadit sub merito, scilicet beatitudo 
+          <lb ed="#Qd"/>aeterna; gratia ergo], cum sit minus bonum, cadit 
+          <lb ed="#Qd"/>sub merito, et ita non est donum gratis datum.
+        </p>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e119">
+          <lb ed="#Qd"/>2. Item, aliquis potest mereri gratiam a rege 
+    terreno 5; ergo, cum similis sit ratio ex parte 
+          <lb ed="#Qd"/>ista ", qua homo habet gratiam a Deo sive a Rege
+          caelesti, ergo homo potest mereri gratiam 
+          <lb ed="#Qd"/>Regis caelestis. 
+        </p>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e128">
+          <lb ed="#Qd"/>3. Item, solet dici per distinctionem quod noni 
+    possumus  mereri gratiam secundum substantiam 
+          <lb ed="#Qd"/>gratiae, sed possumus mereri augmentum gra— 
+          <lb ed="#Qd"/>tiae, secundum quod dicit <name ref="#Augustine">Augustinus</name>, Ad 
+    Bonifaciumï:
+     <quote xml:id="ahsh-l3p3i1t1q5m1-Qd1e139">Gratia meretur augeri, ut aucta 
+          <lb ed="#Qd"/>mereatur et* pertici </quote>. -— Sed tunc obicitur: 
+          <lb ed="#Qd"/>Possumus mereri augmentum gratiae; sed aug- , 
+          <lb ed="#Qd"/>mentum gratiae est gratia, quia est gratis datum; 
+          <lb ed="#Qd"/>ergo possumus mereri gratiam. 
+        </p>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e153">
+          <lb ed="#Qd"/>Ad oppositum: a. <name ref="#Augustine">Augustinus</name>, Ad Bonifa- rium
+     3: <quote xml:id="ahsh-l3p3i1t1q5m1-Qd1e160"> Cum fides impetrat iustificationem, non 
+          <lb ed="#Qd"/>gratiam Dei praecedit aliquid meriti humani </quote> etc. 
+          <lb ed="#Qd"/>Si ergo aliquid meriti non praecedit gratiam, ergo gratia
+          non cadit sub merito. 
+        </p>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e168">
+          <lb ed="#Qd"/>b. item, si gratia cadit sub merito, omne au— 
+          <lb ed="#Qd"/>tem meritum est a gratia, ergo gratia est a gratia; 
+          <cb ed="#Qd" n="b"/> 
+          <lb ed="#Qd"/>ergo idem est a se, quod nihil est dictu. Ergo
+          gratia non cadit sub merito.
+        </p>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e179">
+          <lb ed="#Qd"/>c. item, omne meritum determinatur per rectam
+          <lb ed="#Qd"/>intentionem; recta vero intentio determinatur re
+          <lb ed="#Qd"/>spectu boni aeterni; ergo et meritum determina<lb ed="#Qd"/>
+    bitur! respectu boni aeterni; sed gratia non est
+    bonum aeternum; ergo meritum non determina<lb ed="#Qd"/>
+    tur respectu gratiae; ergo gratia non cadit sub
+    merito.
+        </p>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e192">
+          <lb ed="#Qd"/>Solutio: Dicendum quod gratia, secundum ra<lb ed="#Qd"/>
+    tionem nominis gratiae, non cadit sub merito.
+    Et". quamvis res gratiae possit cadere aliquo
+    modo sub merito, tamen ratio gratiae, in quan<lb ed="#Qd"/>
+    tum gratia est, nullo modo potest cadere sub
+    merito, quia gratia dicitur eo quod gratis datur':
+    haec enim est" interpretatio sui nominis; sed
+    quod gratis datur, non datur ex'7 merito, et ideo
+    gratia secundum rationem nominisP dicitur per
+    exclusionem? meriti. Nunquam ergo gratia, se<lb ed="#Qd"/>
+    cundum rationem gratiae, cadit sub merito 5, quia
+    sicut primum principium movendi non moveturs,
+    neque primum principium iiendi tit, ita nec pri<lb ed="#Qd"/>
+    mum principium merendi debet cadere sub merito.
+        </p>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e205">
+          <lb ed="#Qd"/>[Ad obiecta]: ]. Ad primum in contrarium
+          <lb ed="#Qd"/>dicendum quod meritum habet principium a quo,
+          <pb ed="#Qd" n="989"/>
+          <cb ed="#Qd" n="a"/>
+    et hoc a est gratia; item, habet finem, et hic est
+    praemium vel gloria aeterna. Sicut ergo non possemus
+    b dicere quod principium motus esset illud
+    in c quod est motus, immo est illud a quo
+    est, terminus autem finalis est illud in quod est
+    motus, ita nec principium meriti, a quo est omne
+    meritum, potest esse illud in quod d sit meritum,
+    sed finis meriti, scilicet e beatitudo; et ideo meritum
+    non dicitur respectu gratiae, dicitur tamen
+    respectu praemii f esse, scilicet respectu beatitudinis
+    aeternae.
+        </p>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e216">
+          <lb ed="#Qd"/>2. Ad sec und u rn dicendum quod meritum
+    gratiae regis terreni potest esse a nobis et principium
+    meriti illius quo meremur illam. Sed principium,
+    quo meremurc gratiam Regis caelestis,
+    non potest esse a nobis, quia in homine non est
+    quod possit habere gratiam Dei sine acceptione
+    a Deo sicut in ho mine h. Et Bernard us, in
+    libro De libera arbitria 1, ponit ta lem rationem:
+    « Nostra bona voluntas a Deo creata "• supple
+          <cb ed="#Qd" n="b"/>
+    bonitate naturali, « perfecta non erit, quousque
+    Creatori perfecte subiecta Sit "· Et per hoc distinguit
+    ipse i duplicem statum voluntatis, scilicet
+    statum creationis et statum perfectionis. Et
+    arguit hoc modo 2 : " Absit, ut ipsius voluntatis
+    perfectionem ipsi voluntati, non Deo creatori,
+    tribuamus, cum longe melius sit esse perfectum
+    quam factum '"· Et post subiungit k 3: Perfectio
+    autem est ex gratia.
+        </p>
+        <p xml:id="ahsh-l3p3i1t1q5m1-d1e224">
+          <lb ed="#Qd"/>3. Ad tertium dicendum 4 quod <name ref="#Augustine">Augustinus</name>
+    dicit quod 'gratia meretur augeri' etc., sed
+    non dicit quod ab alio quam ab ipsa gratia.
+    Non enim est augmentum gratiae ab operatione
+    liberi arbitrii causaliter, licet quodam modo
+    cooperatur; sed gratia, cum permanet, de se
+    meretur augeri. Unde non propter 1 hoc dicitur
+    cadere sub merito hominis augmentum gratiae;
+    unde statim subdit <name ref="#Augustine">Augustinus</name> 5 : "Voluntate
+    1\ conco~itante m, non ducente, pedissequa, non
+    praevta ».
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

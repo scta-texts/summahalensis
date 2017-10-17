@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 1, Inq. 1, T. 1, Q. 4, T. 1, D. 1, C. 1 UTRUM ASSUMERE CONVENIAT DIVINAE NATURAE</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 1, Inq. 1, T. 1, Q. 4, T. 1, D. 1, C. 1 UTRUM ASSUMERE CONVENIAT DIVINAE NATURAE</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p1in1t1q4t1d1c1">
+        <head xml:id="ahsh-l3p1in1t1q4t1d1c1-Hd1e102">III, P. 1, Inq. 1, T. 1, Q. 4, T. 1, D. 1, C. 1</head>
+        <head xml:id="ahsh-l3p1in1t1q4t1d1c1-Hd1e105" type="quesiton-title">UTRUM ASSUMERE CONVENIAT DIVINAE NATURAE</head>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e108">
+          <lb ed="#Qd"/>Ad primum sic: a. Quidquid convenit divinae 
+          <lb ed="#Qd"/>naturae, convenit toti Trinitati; sed assumere 
+          <lb ed="#Qd"/>humanam naturam non convenit Patri et Spi<lb ed="#Qd"/>ritui; 
+    ergo nec * divinae naturae.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e119">
+          <lb ed="#Qd"/>b. Item, <name ref="#Anselm">Anselmus</name>, in libro De Incarnatiune
+          <lb ed="#Qd"/>Verbi 3: <quote xml:id="ahsh-l3p1in1t1q4t1d1c1-Qd1e128"> Non differunt omnino Pater et Filius et
+          <lb ed="#Qd"/>Spiritus Sanctus in essentia divina</quote>; si ergo
+          <lb ed="#Qd"/>natura divina assumit humanam, ergo Pater et
+          <pb ed="#Qd" n="49"/>
+          <cb ed="#Qd" n="a"/>
+          <lb ed="#Qd"/>Filius et Spiritus Sanctus assumunt naturam hu<lb ed="#Qd"/>manam.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e145">
+          <lb ed="#Qd"/>Ad oppositum sio: 1 Assumere dicit actio<lb ed="#Qd"/>nem;
+          sed actio convenit substantiae et'1 naturae;
+          <lb ed="#Qd"/>ergo assumere convenit divinae naturae.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e155">
+          <lb ed="#Qd"/>2. Item, arguitur per simiIe- Anima intundendo
+          <lb ed="#Qd"/>creatur et creando iniunditur'; et eiusdem secun<lb ed="#Qd"/>dum
+          se est creare animam et eam unire; ergo
+          <lb ed="#Qd"/>eodem modo eiusdem secundum se erit huma<lb ed="#Qd"/>nam
+          naturam assumptam creare et eam assu<lb ed="#Qd"/>mere;
+          ergo, cum natura divina creaveritb huma<lb ed="#Qd"/>nam,
+          assumpsit eam.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e173">
+          <lb ed="#Qd"/>3. Item, assumere et assumptionem tacere con<lb ed="#Qd"/>vertuntur;
+          sed divina natura fecit assumptionem;
+          <lb ed="#Qd"/>ergo divina natura assumpsit humanam.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e182">
+          <lb ed="#Qd"/>4. Item, quaeritur: Quamvis ista concedatur
+    'natura divina assumpsit humanamc naturam ',
+          <lb ed="#Qd"/>numquid ista'i conceditur 'essentia divina as<lb ed="#Qd"/>sumpsit
+          humanam naturam", cum ipsa natura
+          <lb ed="#Qd"/>dicatur essentia et e converso?
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e193">
+          <lb ed="#Qd"/>5. Item, cum naturae humanae conveniat assumi
+          <lb ed="#Qd"/>et uniri proprie, ergo similiter ipsi naturae di<lb ed="#Qd"/>vinae
+          convenit assumere et unire: sic enim vide<lb ed="#Qd"/>tur
+          se habere natura divina ad unionem et as<lb ed="#Qd"/>sumptionem
+          activam sicut natura humana ad
+          <lb ed="#Qd"/>unionem et assumptionem passivam.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e209">
+          <lb ed="#Qd"/>Responsio: Assumere dicitur communiter et
+          <lb ed="#Qd"/>improprie 'ad aliquid sumere ', et secundum
+          <lb ed="#Qd"/>hunc modum tota Trinitas assumpsit/' Filio huma<lb ed="#Qd"/>nam
+          naturam. Item, assumere dicitur communiter
+          <lb ed="#Qd"/>et proprie 'ad se sumere ', quod potest esse
+          <lb ed="#Qd"/>duobus modis: vel ad se sumere ut sibi! uniatur,
+          <lb ed="#Qd"/>vel ad se sumere ut in quo liniatnr. Assumere
+          <lb ed="#Qd"/>vero propriissime dicitur 'in se sumere' vel 'ad
+          <lb ed="#Qd"/>se finaliter'l sumere', quod idem est. Secundum
+          <lb ed="#Qd"/>modum istum convenit personae solum' assu<lb ed="#Qd"/>mere,
+          quia hoc est sumere in se ut in quo unia<lb ed="#Qd"/>tur.
+          Secundum modum alium, quo assumere dicit
+          <lb ed="#Qd"/>ad se sumere ut sibi uniatur'f, sic convenit divinae
+          <lb ed="#Qd"/>naturae assumere humanam. Secundum ergo quod
+          <lb ed="#Qd"/>communiter et improprie' dicitur, convenit Trini<lb ed="#Qd"/>tati;
+          secundum quod communiter et proprie, con<lb ed="#Qd"/>venit
+          divinae naturae; secundum vero quod pro<lb ed="#Qd"/>priissime,
+          sic convenit personae Filii.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e251">
+          <lb ed="#Qd"/>Et secundum hoc in uno sensu procedunt
+          <lb ed="#Qd"/>rationes ad utramque partem obiectae, in alio,
+          <lb ed="#Qd"/>sensu non.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e261">
+          <lb ed="#Qd"/>[Ad obtenta]: a—b. Ad ea ergo, quae obiciuntur
+          <lb ed="#Qd"/>in partem negativam, respondendum est primo
+          <lb ed="#Qd"/>dicendo quod divinam naturam assumere huma<lb ed="#Qd"/>nam
+          potest accipi dupliciter. Uno modo, ut na<lb ed="#Qd"/>tura
+          divina consideretur secundum sc,ut una in
+          <cb ed="#Qd" n="b"/>
+          <lb ed="#Qd"/>tribus personis, et hoc modo non est conceden<lb ed="#Qd"/>dum
+          divinam naturam assumpsisse" humanam,
+          <lb ed="#Qd"/>proprie sumendo 'assumere'; vel secundum quod
+          <lb ed="#Qd"/>consideratur natura divina" tota in una persona,
+          <lb ed="#Qd"/>scilicet Filii, etc hoc modo natura divina assumpsit
+          <lb ed="#Qd"/>humanam id est sibi univit. — Ad illud ergod
+          <lb ed="#Qd"/>quod obi itur: 'Quidquid convenit divinae na<lb ed="#Qd"/>turae,
+          convenit toii Trinitati; sed assumere non
+          <lb ed="#Qd"/>convenit toti' Trinitati, ergo nec divinae natu<lb ed="#Qd"/>rae'f,
+          dicendum quod in hoc quod dico 'assu—
+          <lb ed="#Qd"/>mere' duo intelliguntur, scilicet 'sumere' actio!?
+          <lb ed="#Qd"/>et respectus ad idem, qui" notatur per 'ad se',
+          <lb ed="#Qd"/>secundum quod nos exponimus 'assumere', id
+          <lb ed="#Qd"/>est 'ad se sumere'; et ratione illius respectus
+          <lb ed="#Qd"/>non convenit toti Trinitati, quamvis conveniat
+          <lb ed="#Qd"/>naturae, quia tota Trinitas, secundum quod Tri<lb ed="#Qd"/>nitas,
+          non est in una persona, sed tota natura est
+          <lb ed="#Qd"/>in una persona.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e316">
+          <lb ed="#Qd"/>Et sic patet solutio ad ea quae obiciebantur
+          <lb ed="#Qd"/>ad partem negativam;
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e323">
+          <lb ed="#Qd"/>1. Ad ea vero', quae obiciuntur ad partem affir<lb ed="#Qd"/>mativam,
+          scilicet ad primum, dicendum quod
+    'assumerc' dicit actionem et cum hoc naturam'f
+          <lb ed="#Qd"/>relationis, scilicet 'ad se' vel 'in se'. Unde non
+          <lb ed="#Qd"/>sequitur quod, si actio convenit naturae, quod
+          <lb ed="#Qd"/>actio, quocumque alio' superaddita, conveniat.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e336">
+          <lb ed="#Qd"/>2. Ad secundum vero dicendum quod non
+          <lb ed="#Qd"/>est"[ simile de unione animae et assumptione,
+          <lb ed="#Qd"/>propter respectum superadditum.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e345">
+          <lb ed="#Qd"/>3. Ad tertium vero'l dicendum quod non con<lb ed="#Qd"/>vertuntur
+          assumere et assumptionem iacere, se<lb ed="#Qd"/>cundum
+          quod assumere proprie dicitur, quamvis
+          <lb ed="#Qd"/>convertantur secundum quod dicitur improprie.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e356">
+          <lb ed="#Qd"/>4. Ad quartum vero dicendum quod, quam<lb ed="#Qd"/>vis
+          idem sit natura et essentia, tamen differentia
+          <lb ed="#Qd"/>est in ratione dicendi, quia essentia dicitur quo
+          <lb ed="#Qd"/>res est, natura vero quo res agit vel patiturz. As<lb ed="#Qd"/>s'umere
+          autem dicit sicut actionem, assumi sicut
+          <lb ed="#Qd"/>passionem; et ideo assumere et assumi dicuntur
+          <lb ed="#Qd"/>de natura et non de essentia. Unde non est con<lb ed="#Qd"/>cedendum
+          quod quamvis divina natura assumat,
+          <lb ed="#Qd"/>quodD propter hoc divina essentia.
+        </p>
+        <p xml:id="ahsh-l3p1in1t1q4t1d1c1-d1e379">
+          <lb ed="#Qd"/>5. Ad ultimum dicendum quod, proprie Io<lb ed="#Qd"/>quendo,
+          differentia est inter assumptionem et
+          <lb ed="#Qd"/>unionem. Nam unio proprie dicit comparationem
+          <lb ed="#Qd"/>duorum ad tertium, assumptio vero dicit tantum
+          <lb ed="#Qd"/>comparationem? unius ad unum; assumere enim
+          <lb ed="#Qd"/>est aliquid sibi copulare, unde dicit habitudinem ?
+          <lb ed="#Qd"/>eius, in quo est unio, ad aliud; et ideo divina
+          <lb ed="#Qd"/>natura, proprie loquendo ', non debet dici assu—
+          <lb ed="#Qd"/>mere, licet proprie dicatur unire vel uniri hu<lb ed="#Qd"/>manae
+          naturae in unitatem personae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

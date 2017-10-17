@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 2, Inq. 3, T. 2, S. 3, Q. 6, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 2, Inq. 3, T. 2, S. 3, Q. 6, Praeambulum</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p2in3t2s3q6prae">
+        <head xml:id="ahsh-l3p2in3t2s3q6prae-Hd1e102">III, P. 2, Inq. 3, T. 2, S. 3, Q. 6, Praeambulum</head>
+        <head xml:id="ahsh-l3p2in3t2s3q6prae-Hd1e105" type="question-title">DE CESSATIONE CAERIMONIALIUM PRAECEPTORUM.</head>
+        <p xml:id="ahsh-l3p2in3t2s3q6prae-d1e108">
+          <lb ed="#Qd"/>Ordine consequenti inquirendum est de cessatione caerimonialium praeceptorum.
+          <lb ed="#Qd"/>Circa hoc autem duplex error eliminandus est: error Iudaeorum, qui reci<lb ed="#Qd"/>piunt
+          Scripturam Veteris Testamenti, qui asserunt caerimonialia praecepta
+          <lb ed="#Qd"/>semper esse servanda; et error Ebionitarum ', qui cum observantia Evangelii legales
+          <lb ed="#Qd"/>caerimonias simul custodiendas Christianis dixerunt. Ad eliminandum ergo utrumque er<lb ed="#Qd"/>
+          <lb ed="#Qd"/>rorem isto ordine procedemus:
+          <lb ed="#Qd"/>Quaerentes primo" in generali utrum observantia caerimonialium semper sit in
+          <lb ed="#Qd"/>praecepto;
+          <lb ed="#Qd"/>secundo, specialiter de sacrificiis, circ
+          <lb ed="#Qd"/>umcisione et sabbato;
+          <lb ed="#Qd"/>tertio, utrum observantia caerimonialium sit indifferensb tempore gratiae.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

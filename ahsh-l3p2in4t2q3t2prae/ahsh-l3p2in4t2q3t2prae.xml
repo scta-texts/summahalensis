@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 2, Inq. 4, T. 2, Q. 3, T. 2, Praeambulum</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 2, Inq. 4, T. 2, Q. 3, T. 2, Praeambulum</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p2in4t2q3t2prae">
+        <head xml:id="ahsh-l3p2in4t2q3t2prae-Hd1e102">III, P. 2, Inq. 4, T. 2, Q. 3, T. 2, Praeambulum</head>
+        <p xml:id="ahsh-l3p2in4t2q3t2prae-d1e105">
+                <pb ed="#Qd" n="899"/>
+          <lb ed="#Qd"/>Sequitur de-praeceptis patientiae respectu triplicis iniuriae. Est enim iniuria
+          <lb ed="#Qd"/>laesionis corporum et ablationis rerum et angariae operum. Patientia lae<lb ed="#Qd"/>*3
+          sionis corporum praecipitur, Matth. 5, 39, cum dicitur: Ego dico vobis, non
+          <lb ed="#Qd"/>resistere mala; sed qui te percusserit in dextra maxilla, praebe ei et alteram etc.
+          <lb ed="#Qd"/>Patientia ablationis rerum, cum ibidem, 40, sequitur: Et qui valuerit" tecum in iudicio
+          <lb ed="#Qd"/>cantendereb et tunicam fuam tollere, relinque ei etvpallium. Patientia angariae operum
+          <lb ed="#Qd"/>praecipitur ibidem, 41, cum subditur: Et quicumque te angariaverit mille passus, vade
+          <lb ed="#Qd"/>cum illo alia duo.
+        </p>
+        <p xml:id="ahsh-l3p2in4t2q3t2prae-d1e127">
+          <lb ed="#Qd"/>Primo ergo quaeritur de praecepto patientiae respectu laesionis corporum,
+          <lb ed="#Qd"/>secundo,-de praecepto patientiae respectu ablationis rerum.
+          <lb ed="#Qd"/>tertio, de praecepto patientiae£ respectu angariae operum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 1, Inq. 1, T. 6, Q. 2, T. 2, M. 1, C. 1</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 1, Inq. 1, T. 6, Q. 2, T. 2, M. 1, C. 1</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p1in1t6q2t2m1c1">
+        <head xml:id="ahsh-l3p1in1t6q2t2m1c1-Hd1e102">III, P. 1, Inq. 1, T. 6, Q. 2, T. 2, M. 1, C. 1</head>
+        <head xml:id="ahsh-l3p1in1t6q2t2m1c1-Hd1e105" type="question-title">QUO MODO DICATUR APPARITIO.</head>
+        <p xml:id="ahsh-l3p1in1t6q2t2m1c1-d1e108">
+          <lb ed="#Qd"/>Ad primum multum potest inveniri ex verbis
+          <lb ed="#Qd"/>
+          <name ref="#Augustine">Augustini</name>, in libro De Trinitate 2, ubi di<lb ed="#Qd"/>cit
+    quod legitur Dominus apparuisse in Veteri
+          <cb ed="#Qd" n="b"/>
+          <lb ed="#Qd"/>Tcstamcnto, ut Abrahae, Gen. 18, 2, et Moysi in
+          <lb ed="#Qd"/>rubo, Exod. 3, 2; legitur et apparuisse in Novo post
+          <lb ed="#Qd"/>resurrectionem, sicut habetur in fine omnium
+          <pb ed="#Qd" n="265"/>
+          <cb ed="#Qd" n="a"/>
+          <lb ed="#Qd"/>Evangeliorum. Si ergo sunt" apparitiones et hae
+          <lb ed="#Qd"/>et illae, quaeritur utrum eiusdem rationis sint, et
+          <lb ed="#Qd"/>si non, in quo conveniant et in quo differant.
+        </p>
+        <p xml:id="ahsh-l3p1in1t6q2t2m1c1-d1e140">
+          <lb ed="#Qd"/>[Solutio]: Ad quod dicimus quod illa apparitio
+          <lb ed="#Qd"/>quae fuit in Veteri Testamento, potest dici ma<lb ed="#Qd"/>nitestatio.
+          divinae naturae immutabilis in subiecta
+          <cb ed="#Qd" n="b"/>
+          <lb ed="#Qd"/>creatura mutabili. Oportebat enim, sicut dicit
+          <lb ed="#Qd"/>Augustinu s, in dicto libro ', quod creatura illa
+          <lb ed="#Qd"/>esset mutabilis, quia, sicui dicit ibi, omne quod
+          <lb ed="#Qd"/>visibile est, mutabile est. Apparitio vero prout
+          <lb ed="#Qd"/>in Novo, potest dici corporis impassibilis quasi
+          <lb ed="#Qd"/>passibilis ostensio.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

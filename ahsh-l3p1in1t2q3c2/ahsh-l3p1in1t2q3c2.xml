@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 1, Inq. 1, T. 2, Q. 3, C. 2</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 1, Inq. 1, T. 2, Q. 3, C. 2</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p1in1t2q3c2">
+        <head xml:id="ahsh-l3p1in1t2q3c2-Hd1e102">III, P. 1, Inq. 1, T. 2, Q. 3, C. 2</head>
+        <head xml:id="ahsh-l3p1in1t2q3c2-Hd1e105" type="question-title">UTRUM SINT DUAE NATIVITATES FILII DEI</head>
+        <p xml:id="ahsh-l3p1in1t2q3c2-d1e108">
+          <lb ed="#Qd"/>Consequenter quaeritur an sint duae nativitates
+          <lb ed="#Qd"/>Filii Dei.
+        </p>
+        <p xml:id="ahsh-l3p1in1t2q3c2-d1e115">
+          <lb ed="#Qd"/>Et arguitur sic: 1. Nunc aeternitatis et nunc
+          <lb ed="#Qd"/>temporis non faciunt numerum 5, quia aeternitas
+          <lb ed="#Qd"/>cum tempore est; ergo nec" iaciunt bis; ergo,
+          <lb ed="#Qd"/>cum Christus filius hominis natus sit in tempore,
+          <lb ed="#Qd"/>Christus Filius Dei natus in aeternitate, non est
+          <lb ed="#Qd"/>dicere quod sit bis natus.
+        </p>
+        <p xml:id="ahsh-l3p1in1t2q3c2-d1e131">
+          <lb ed="#Qd"/>2. Item, 'bis' dicit numerum et interruptionem
+          <lb ed="#Qd"/>temporum; ergo et discontinuationem et distan<lb ed="#Qd"/>tiam.
+          Si ergo non potest poni distantia entis in
+          <lb ed="#Qd"/>aeternitate et entis in tempore, cum simul sint,
+          <lb ed="#Qd"/>non erit dicere bis natum Christum propter ae<lb ed="#Qd"/>ternam
+          nativitatem et temporalem.
+        </p>
+        <p xml:id="ahsh-l3p1in1t2q3c2-d1e148">
+          <lb ed="#Qd"/>Respondeo: 1-2. Haec dictio ' bis' dupliciter di<lb ed="#Qd"/>citur:
+    quandoque enim significat numerum tem<lb ed="#Qd"/>porum,
+    quandoquc vcro ordinem aliquorum sc
+          <lb ed="#Qd"/>habentium secundum prius et posterius.
+        </p>
+        <p xml:id="ahsh-l3p1in1t2q3c2-d1e159">
+          <lb ed="#Qd"/>Secundum primum modum haec dictio 'bis'
+          <lb ed="#Qd"/>ponit interruptionem temporum? vel vicissitudi—
+          <lb ed="#Qd"/>nem, et ideo secundum hunc modum non esset
+          <lb ed="#Qd"/>dicere Christum bis genitum.
+        </p>
+        <p xml:id="ahsh-l3p1in1t2q3c2-d1e170">
+          <lb ed="#Qd"/>Secundum autem modum alium est dicere
+          <lb ed="#Qd"/>Christum bis genitum, quia? per hoc notatur
+          <lb ed="#Qd"/>ordo generationis temporalis ad aeternam, et
+          <lb ed="#Qd"/>quia aeternitas prior est tempore et non est
+          <lb ed="#Qd"/>tempus', ideo ratione nativitatis aeternae et
+          <lb ed="#Qd"/>temporalis est dicere bis natum Christum et bis
+          <lb ed="#Qd"/>genitum.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

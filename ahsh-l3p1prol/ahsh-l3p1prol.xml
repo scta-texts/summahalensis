@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 1, Prologus</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 1, Prologus</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p1prol">
+        <head xml:id="ahsh-l3p1prol-Hd1e102">III, P. 1, Prologus</head>
+        <p xml:id="ahsh-l3p1prol-d1e105">
+          <lb ed="#Qd"/>Tota christianae fidei disciplina pertinet ad duo: ad fidem et " intelligentiam
+          <lb ed="#Qd"/>Conditoris et fidem atque intelligentiam Salvatoris". Unde isaias Propheta,
+          <lb ed="#Qd"/>in persona Domini loquens, dicit, 43,10-11: Credatis et intelligatis quia
+          <lb ed="#Qd"/>ego ipse sum : ante me non est formatus deus et post me non erit. Ego
+    . sum, ego sum Dominus c, et non est absque me salvator.
+        </p>
+        <p xml:id="ahsh-l3p1prol-d1e116">
+          <lb ed="#Qd"/>Fides et intelligentia Conditoris" principaliter continet duo, scilicet cognitionem
+          <lb ed="#Qd"/>substantiae Conditoris et cognitionem operis Conditoris. Cognitio substantiae Condi<lb ed="#Qd"/>toris
+          consistit in cognitione divinae Unitatis et eiusdem beatissimae Trinitatis; cognitio
+          <lb ed="#Qd"/>vero operis Conditoris consistit in cognitione creationis rerum seue tormationis. Unde
+          <lb ed="#Qd"/>Propheta signanter dixit quantum ad cognitionem substantiae: Inielligatis quia ego sum;
+          <lb ed="#Qd"/>Exod. 3, 14: Ego sum qui' sum ; quantum ad cognitionem operis subdidit/: Ante me non
+          <lb ed="#Qd"/>est formatus deus, et quo sit principium universae creationis.
+        </p>
+        <p xml:id="ahsh-l3p1prol-d1e134">
+          <lb ed="#Qd"/>Item, fides et intelligentia Salvatorisf versatur circa duo, scilicet circa personam
+          <lb ed="#Qd"/>Salvatoris et circa opus salvationis. Persona autem Salvatoris est persona Filii Dei,
+          <lb ed="#Qd"/>scilicet Christus in duabus naturis, divinitatis scilicet et humanitatis: <quote xml:id="ahsh-l3p1prol-Qd1e142"> Deus enim et homo
+          <lb ed="#Qd"/>unus est Christus 1 </quote> Unde ad significandum personam Salvatoris in natura divinitatis
+          <lb ed="#Qd"/>dicit: Ego sum, cui scilicet competit nomen quod est 'qui est"', Exod. 3,14: Qui est
+          <lb ed="#Qd"/>misit me ad vos. Ad significandum eamdem personam in natura humanitatis addit: Ego
+          <lb ed="#Qd"/>sum Dominus; unde in' Apoc. 19, 16: Habebat in vestimenta suo et" in femore suo Scrip<lb ed="#Qd"/>tum:
+          Rex regum et Dominus dominantium 1. Opus salvationis consistit in sacramentis sa<lb ed="#Qd"/>lutis
+          per praesentem gratiam et praemiis salutis per futuram gloriam '". Ad quod designan<lb ed="#Qd"/>dum
+          addit: Et non est absque me salvator, a quo scilicet sit principium et causa nostrae "
+          <lb ed="#Qd"/>salvationis; Osee 13, 4: Deum absque me nescies, ei" salvator non est praeter me.
+        </p>
+        <p xml:id="ahsh-l3p1prol-d1e163">
+          <lb ed="#Qd"/>Inquisitio igitur catholica de iis quae pertinent ad tidem" quadripartita est: prima
+          <lb ed="#Qd"/>pars pertinet ad cognitionem substantiae q divinae Trinitatis et Unitatis; secunda ad opera
+          <lb ed="#Qd"/>divinae conditionis; tertia ad personam Salvatoris in natura divinitatis et natura huma<lb ed="#Qd"/>nitatis;
+          quarta vero pertinet ad sacramenta salutis et opera futurae glorificationis.
+        </p>
+        <p xml:id="ahsh-l3p1prol-d1e175">
+          <lb ed="#Qd"/>Pertractatis igitur duabus primis partibus pertinentibus ad fidem Conditoris, nunc
+          <lb ed="#Qd"/>accedendum est ad inquisitionem eorum quae pertinent ad iidem Salvatoris.
+        </p>
+        <p xml:id="ahsh-l3p1prol-d1e182">
+          <lb ed="#Qd"/>Et primo circa personam Filii Dei, qui est caput nostrae salutis per assumptionem
+          <lb ed="#Qd"/>nostrae humanitatis;
+          <lb ed="#Qd"/>deinde vero' circa sacramenta nostrae salutis et opus glorificationis.
+        </p>
+        <p xml:id="ahsh-l3p1prol-d1e191">
+          <lb ed="#Qd"/>Ad quam rem, scientes vere quod dicit B. Apostolus, ll Cor. 3, 5, quod non sumus
+          <lb ed="#Qd"/>sufficientes cogitare aliquid ex nobis8 quasi ex nobis, sed sufficientia nostrat ex Deo
+          <lb ed="#Qd"/>est, ex totis praecordiis Salvatoris gratiam imploramus.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

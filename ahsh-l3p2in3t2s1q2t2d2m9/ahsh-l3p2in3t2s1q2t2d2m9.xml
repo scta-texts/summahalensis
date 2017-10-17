@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>III, P. 2, Inq. 3, T. 2, S. 1, Q. 1, T. 2, D. 2, M. 8, C. 4</title>
+        <author ref="#AlexanderOfHales">Alexander of Hales</author>
+        <respStmt>
+          <name xml:id="JW">Jeffrey C. Witt</name>
+          <resp>TEI encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>III, P. 2, Inq. 3, T. 2, S. 1, Q. 1, T. 2, D. 2, M. 8, C. 4</title>
+          <date when="2017-10-16">October 16, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref>SCTA</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution 4.0 International</ref>
+               </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Qd" n="quaracchi1948d">Quaracchi 1948, Volume 4</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+               guidelines for a critical edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-16" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"/>
+    </front>
+    <body>
+      <div xml:id="ahsh-l3p2in3t2s1q2t2d2m9">
+        <head xml:id="ahsh-l3p2in3t2s1q2t2d2m9-Hd1e102">III, P. 2, Inq. 3, T. 2, S. 1, Q. 1, T. 2, D. 2, M. 8, C. 4</head>
+        <head xml:id="ahsh-l3p2in3t2s1q2t2d2m9-Hd1e105" type="question-title">De interpretatione iuramenti.</head>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m9-d1e108">
+          <lb ed="#Qd"/>Quaeritur postea secundum cuius intentionem
+          <lb ed="#Qd"/>interpretandum sit iuramentum, scilicet aut
+          <lb ed="#Qd"/>iurantis aut recipientis.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m9-d1e117">
+          <lb ed="#Qd"/>1. De hoc dat Isidorus' istam regulam:
+    <quote xml:id="ahsh-l3p2in3t2s1q2t2d2m9-Qd1e121">Quacumque arte verborum quis iuret, Deus ita
+          <lb ed="#Qd"/>accipit sicut ille, cui iuratur, intelligit</quote>.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m9-d1e127">
+          <lb ed="#Qd"/>2. Item, in matrimonio, etsi non omnino con<lb ed="#Qd"/>sentias
+     ", sed tantum verbis exprimas te con<lb ed="#Qd"/>sentire,
+          verborum tamen obligatione nihllominus
+          <lb ed="#Qd"/>obligaberis; similiter in voto, quia veritati prae<lb ed="#Qd"/>iudicat
+          opinio.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m9-d1e141">
+          <lb ed="#Qd"/>Contra: 11. Verba serviunt intentioni, et Deus
+          <lb ed="#Qd"/>talia verba iudicat qualia ex intimis proferuntur.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m9-d1e148">
+          <lb ed="#Qd"/>b. Item, dicit <name ref="#Ambrose">Ambrosius</name>z: <quote xml:id="ahsh-l3p2in3t2s1q2t2d2m9-Qd1e155">Affectus tuus
+          <lb ed="#Qd"/>operi tuo nomen imponit </quote>. Ergo, cum iste velit
+          <lb ed="#Qd"/>obligare se sic et non aliter ", obligabitur sic et
+          <lb ed="#Qd"/>non aliter ", scilicet secundum suam intentionem.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m9-d1e165">
+          <lb ed="#Qd"/>c. Item, quaeritur de illo qui dolose exigit iura—
+          <lb ed="#Qd"/>mentum ab aliquo, proponendo verba duplicia,
+          <lb ed="#Qd"/>ut" ipsum decipiat et capiat in sermone, ut
+          <cb ed="#Qd" n="b"/>
+          <lb ed="#Qd"/>imponat' ei postea quod illud iuraverit, cum do<lb ed="#Qd"/>lus
+          nemini debeat patrocinarl, quo modo accipiet
+          <lb ed="#Qd"/>Deus secundum intentionem illius cui iuratur.
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m9-d1e183">
+          <lb ed="#Qd"/>d. Quaeritur etiam, ubi sunt verba multiplicia
+          <lb ed="#Qd"/>in iuramento, quo modo sunt accipienda et ad
+          <lb ed="#Qd"/>quid obligatur iurans. Numquid obligatur ad seu<lb ed="#Qd"/>sum
+          illum ad quemf non intendit se obllgare?
+        </p>
+        <p xml:id="ahsh-l3p2in3t2s1q2t2d2m9-d1e194">
+          <lb ed="#Qd"/>Solutio: Deus simplicitatis amator et! dupli<lb ed="#Qd"/>citatis
+          aspernator, ita accipit sicut'' ille qui sine
+          <lb ed="#Qd"/>fraude intelligit. Unde regula Isidori 'intelli<lb ed="#Qd"/>gitur
+          de dolose iurante. Unde sensus est: <quote xml:id="ahsh-l3p2in3t2s1q2t2d2m9-Qd1e204"> qua<lb ed="#Qd"/>cumque
+          arte </quote>, id est quacumque malitia etc. Si
+          <lb ed="#Qd"/>vero' uterque fraudulentus tuerit, debent accipi
+          <lb ed="#Qd"/>ista verba secundum arbitrium boni viri et se<lb ed="#Qd"/>cundum
+          quod sonant verba'f illa apud recte in<lb ed="#Qd"/>telligentes.
+          Quando vero ita sunt duplicia ut'
+          <lb ed="#Qd"/>aequaliter diversos sensus exprimant, nnnm obli<lb ed="#Qd"/>gatur
+          iurans nisi secundum intentionem suam,
+          <lb ed="#Qd"/>nec potest cogi ad observationem in alio sensu,
+          <lb ed="#Qd"/>sed ad implendum in illo sensu in" quo inten<lb ed="#Qd"/>dit
+          iurare.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
