@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="187"/><cb ed="#Q" n="a"/>
       </div>
@@ -74,34 +68,34 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3761">
           <lb ed="#Q"/>Ad quod<!--b--> a. Dionysius, <title>De divinis nomini<lb ed="#Q"/>bus</title><!--1-->:
-          <quote>Confidimus dicere: malum non est ex
+          <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e154">Confidimus dicere: malum non est ex
           <lb ed="#Q"/>bono; non est ignis infrigidare; ergo nec erit boni
           <lb ed="#Q"/>malum producere</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3775">
-          <lb ed="#Q"/>b. Item, idem<!--c--> in eodem: <quote>Natura est bono
+          <lb ed="#Q"/>b. Item, idem<!--c--> in eodem: <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e169">Natura est bono
           <lb ed="#Q"/>producere et salvare, malo autem corrumpere et
           <lb ed="#Q"/>disperdere</quote>. Ergo malum non erit causatum ex
           <lb ed="#Q"/>bono.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3786">
-          <lb ed="#Q"/>c. Item, idem in eodem<!--2-->: <quote>Bonum ex una et
+          <lb ed="#Q"/>c. Item, idem in eodem<!--2-->: <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e185">Bonum ex una et
           <lb ed="#Q"/>generali causa, malum autem ex multis et parti<lb ed="#Q"/>cularibus
           defectibus</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3795">
-          <lb ed="#Q"/>d. Item, <title>Matth.</title> 7,18: <quote>Non potest arbor bona
+          <lb ed="#Q"/>d. Item, <title>Matth.</title> 7,18: <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e200">Non potest arbor bona
           <lb ed="#Q"/>fractus malos facere</quote>. Ergo malum non erit ex
           <lb ed="#Q"/>bono.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3804">
           <lb ed="#Q"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, in <title>Enchiridion</title><!--3-->:
-          <quote>Ex bono orta sunt mala nec nisi in aliquibus
+          <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e219">Ex bono orta sunt mala nec nisi in aliquibus
           <lb ed="#Q"/>bonis non sunt nec erat aliud unde oriretur ulla
           <lb ed="#Q"/>mali natura</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3813">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, in eodem<!--4-->: <quote>Cum mala
+          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, in eodem<!--4-->: <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e236">Cum mala
           <lb ed="#Q"/>ex bonis orta esse dicimus, non putetur hoc di<lb ed="#Q"/>vinae
           sententiae refragari qua<!--d--> dicit<!--5-->: <mentioned>Non potest
           <lb ed="#Q"/>arbor bona fructus malos facere, nec mala bonos;</mentioned>
@@ -125,7 +119,7 @@
         <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3859">
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>Respondeo, secundum <name ref="#Augustine">Augustinum</name>, in <title>En<lb ed="#Q"/>chiridion</title><!--3-->:
-          <quote>Nequaquam dubitare debemus rerum,
+          <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e325">Nequaquam dubitare debemus rerum,
           <lb ed="#Q"/>quae ad nos pertinent, bonarum causam non esse
           <lb ed="#Q"/>nisi bonitatem Dei, malarum<!--i--> vero ab immu<lb ed="#Q"/>tabili
           bono deficientem boni mutabilis volunta<lb ed="#Q"/>tem,
@@ -153,7 +147,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3919">
           <lb ed="#Q"/>Ad quod respondet a. <name ref="#Augustine">Augustinus</name>, in <title>I De
-          <lb ed="#Q"/>libero arbitrio</title><!--9-->, sic<!--p-->: <quote>Duobus modis malum
+          <lb ed="#Q"/>libero arbitrio</title><!--9-->, sic<!--p-->: <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e411">Duobus modis malum
           <lb ed="#Q"/>appellare solemus: uno, cum malum quemque<!--q-->
           <lb ed="#Q"/>fecisse dicimus; alio, cum mali aliquid esse per<lb ed="#Q"/>pessum.
           At<!--r--> si bonum Deum esse nosti vel credis,
@@ -182,8 +176,8 @@
           <title>De libero arbitrio</title>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c4-d1e3982">
-          <lb ed="#Q"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, in libro <title>83 Quae<lb ed="#Q"/>stionum</title><!--2-->:
-          <quote>Omne quod deficit ab eo quod est
+          <lb ed="#Q"/>Contra: 1. <ref xml:id="ahsh-l1p1i1t3q3m3c4-Rd1e492"><name ref="#Augustine">Augustinus</name>, in libro <title>83 Quae<lb ed="#Q"/>stionum</title></ref><!--2-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e502" source="http://scta.info/resource/a83-q21-d1e108">Omne quod deficit ab eo quod est
           <lb ed="#Q"/>esse, tendit in non-esse; ille autem, ad quem
           <lb ed="#Q"/>non—esse non pertinet, non est causa<!--a--> deficiendi</quote>;
           <lb ed="#Q"/>corruptio ista est defectus; ergo Deus non est 
@@ -196,7 +190,7 @@
           <lb ed="#Q"/>Deo, quia sic quaelibet res diceretur iusta; ergo
           <lb ed="#Q"/>dicitur iusta, quia propter iustum<!--d--> meritum. Et
           <lb ed="#Q"/>hoc est quod dicit <name ref="#Augustine">Augustinus</name>, in libro <title>De
-          <lb ed="#Q"/>summo bono</title><!--3-->: <quote>Peccantes in suppliciis ordinan<lb ed="#Q"/>tur;
+          <lb ed="#Q"/>summo bono</title><!--3-->: <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e547">Peccantes in suppliciis ordinan<lb ed="#Q"/>tur;
           quae ordinatio, quia naturae eorum non com<lb ed="#Q"/>petit,
           ideo poena est, sed quia culpae competit,
           <lb ed="#Q"/>ideo iustitia<!--e--> est</quote>. Ergo participat rationem bo<lb ed="#Q"/>nitatis
@@ -224,7 +218,7 @@
           <lb ed="#Q"/>et ex hoc est inordinatio quaedam et poena. Isti
           <lb ed="#Q"/>enim motus, quibus sic movetur rationalis secun<lb ed="#Q"/>dum
           motum<!--i--> aliarum, poena est, quia inordi<lb ed="#Q"/>nati<!--k-->.
-          <quote>Motus enim inordinatus poena est</quote>, ut
+          <quote xml:id="ahsh-l1p1i1t3q3m3c4-Qd1e622">Motus enim inordinatus poena est</quote>, ut
           <lb ed="#Q"/>dicit <name>Augustinus</name><!--4-->, quia corrumpitur naturalis
           <lb ed="#Q"/>habilitatio rationis, secundum quam movetur ad
           <lb ed="#Q"/>bonum et resistit malo.
