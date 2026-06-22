@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="149"/><cb ed="#Q" n="a"/>
       </div>
@@ -63,7 +57,7 @@
           <lb ed="#Q"/>omnis veritas aeterna sit.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3742">
-          <lb ed="#Q"/>Ad quod sic: 1. <name ref="#Augustine">Augustinus</name><!--2-->: <quote xml:id="ahsh-l1p1i1t3q2m2c3-Qd1e3749">Nihil ma<lb ed="#Q"/>gis
+          <lb ed="#Q"/>Ad quod sic: 1. <name xml:id="ahsh-l1p1i1t3q2m2c3-Nd1e126" ref="#Augustine">Augustinus</name><!--2-->: <quote xml:id="ahsh-l1p1i1t3q2m2c3-Qd1e3749">Nihil ma<lb ed="#Q"/>gis
           est aeternum quam ratio circuli et duo et tria
           <lb ed="#Q"/>esse quinque</quote>. Ergo aut dicetur <mentioned>Deus est ratio
           <lb ed="#Q"/>circuli</mentioned> et similiter <mentioned>duo et tria esse quinque</mentioned>
@@ -94,7 +88,7 @@
           <lb ed="#Q"/>ergo enuntiabilia fuerunt ab aeterno.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c3-d1e3807">
-          <lb ed="#Q"/>2. Item, <name>Augustinus</name>, in libro <title>Soliloquiorum</title><!--3-->,
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t3q2m2c3-Nd1e211">Augustinus</name>, in libro <title>Soliloquiorum</title><!--3-->,
           <lb ed="#Q"/>dicit quod sequitur: <mentioned>si mundus non fuit, mun<lb ed="#Q"/>dum
           non fuisse est verum</mentioned>. Et per hoc intendit
           <lb ed="#Q"/>probare quod veritas est aeterna, per hoc quod
@@ -125,10 +119,10 @@
           et huius <mentioned>duo et tria sunt quinque</mentioned> et hu<lb ed="#Q"/>ius
           <mentioned>circulus est figura plana</mentioned><!--b--> potest retorqueri
           <lb ed="#Q"/>vel<!--c--> ad id in quo radicatur veritas illa sicut in
-          <lb ed="#Q"/>subiecto, sicut dicit <name ref="#Augustine">Augustinus</name> quod bre<lb ed="#Q"/>vis
-          definitio veri est <quote>id quod est</quote>: et sic istae
-          <lb ed="#Q"/>veritates non sunt aeternae; et quod<!--d--> dicit <name>Au<lb ed="#Q"/>gustinus</name>:
-          <quote>Nihil magis est aeternum</quote> etc. ac<lb ed="#Q"/>cipitur
+          <lb ed="#Q"/>subiecto, sicut dicit <name xml:id="ahsh-l1p1i1t3q2m2c3-Nd1e310" ref="#Augustine">Augustinus</name> quod bre<lb ed="#Q"/>vis
+          definitio veri est <quote xml:id="ahsh-l1p1i1t3q2m2c3-Qd1e315">id quod est</quote>: et sic istae
+          <lb ed="#Q"/>veritates non sunt aeternae; et quod<!--d--> dicit <name xml:id="ahsh-l1p1i1t3q2m2c3-Nd1e321">Au<lb ed="#Q"/>gustinus</name>:
+          <quote xml:id="ahsh-l1p1i1t3q2m2c3-Qd1e327">Nihil magis est aeternum</quote> etc. ac<lb ed="#Q"/>cipitur
           ibi <mentioned>aeternum</mentioned> pro perpetuo vel pro ae<lb ed="#Q"/>terno
           temporis. Vel potest retorqueri dictarum
           <lb ed="#Q"/>propositionum veritas ad primam veritatem: et sic
@@ -184,17 +178,17 @@
           est; non tamen sequitur quod enuntiabilia<!--d-->
           <lb ed="#Q"/>ab aeterno. Unde distinguendum quod est veritas
           <lb ed="#Q"/>triplex. Est enim veritas rei, secundum quod dicit
-          <lb ed="#Q"/><name>Augustinus</name>, in libro <title>Salilaquiorum</title>: <quote>Verum
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m2c3-Nd1e501">Augustinus</name>, in libro <title>Salilaquiorum</title>: <quote xml:id="ahsh-l1p1i1t3q2m2c3-Qd1e505">Verum
           <lb ed="#Q"/>est id quod est</quote>. Est etiam veritas signi, secun<lb ed="#Q"/>dum
           quod dicimus orationem veram esse cum
           <lb ed="#Q"/>ostendit rem esse sicut est: et secundum hoc ve<lb ed="#Q"/>ritas
           est adaequatio signi ad id cuius est signum.
-          <lb ed="#Q"/>Est etiam veritas causae, de qua dicit <name>Ansel<lb ed="#Q"/>mus</name><!--2-->
+          <lb ed="#Q"/>Est etiam veritas causae, de qua dicit <name xml:id="ahsh-l1p1i1t3q2m2c3-Nd1e519">Ansel<lb ed="#Q"/>mus</name><!--2-->
           quod una et sola est veritas, licet plura
           <lb ed="#Q"/>sint vera ; et ponit exemplum de tempore: sicut
           <lb ed="#Q"/>est tempus unum, licet plura temporalia<!--e--> eodem
-          <lb ed="#Q"/>tempore mensurata<!--f-->; et hoc modo dicit <name>Augu<lb ed="#Q"/>stinus</name><!--3-->
-          quod <quote>omne<!--g--> verum est verum prima
+          <lb ed="#Q"/>tempore mensurata<!--f-->; et hoc modo dicit <name xml:id="ahsh-l1p1i1t3q2m2c3-Nd1e536">Augu<lb ed="#Q"/>stinus</name><!--3-->
+          quod <quote xml:id="ahsh-l1p1i1t3q2m2c3-Qd1e542">omne<!--g--> verum est verum prima
           <lb ed="#Q"/>veritate</quote>. Secundum primum modum <mentioned>mundum<!--h-->
           <lb ed="#Q"/>non esse</mentioned> et <mentioned>mundum futurum esse</mentioned> non fuit
           <lb ed="#Q"/>verum<!--i-->, antequam mundus<!--k-->: et res essent: nulla

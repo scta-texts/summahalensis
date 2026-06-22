@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="51"/><cb ed="#Q" n="a"/>
       </div>
@@ -114,7 +108,7 @@
           <lb ed="#Q"/>sive multiplicitas opposita unitati personali; sed
           <lb ed="#Q"/>diversitas essentialis non opponitur personali uni<lb ed="#Q"/>tati
           neci<!--d--> unitas essentialis differentiae personali.
-          <lb ed="#Q"/>Unde <name>Richardus de S, Victore</name><!--2-->: <quote>Sicut esse
+          <lb ed="#Q"/>Unde <name xml:id="ahsh-l1p1i1t1q3c2-Nd1e248">Richardus de S, Victore</name><!--2-->: <quote xml:id="ahsh-l1p1i1t1q3c2-Qd1e252">Sicut esse
           <lb ed="#Q"/>substantialiter aliud et aliud non tollit ubique
           <lb ed="#Q"/>unitatem personae, sic esse personaliter alium et
           <lb ed="#Q"/>alium non scindit ubique unitatem substantiae </quote>.

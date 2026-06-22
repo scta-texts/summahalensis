@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="80"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,8 +58,8 @@
           <lb ed="#Q"/>nativitatem<!--9-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3744">
-          <lb ed="#Q"/>Circa quod sic<!--o--> obicitur: 1. <name ref="#Augustine">Augustinus</name>, <title>Ad
-          <lb ed="#Q"/>Dardanum</title><!--10-->: <quote>Non video quomodo aedificantur
+          <lb ed="#Q"/>Circa quod sic<!--o--> obicitur: 1. <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e132" ref="#Augustine">Augustinus</name>, <title>Ad
+          <lb ed="#Q"/>Dardanum</title><!--10-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e141">Non video quomodo aedificantur
           <lb ed="#Q"/>homines in domum<!--p--> Dei ad habendum in se inha<lb ed="#Q"/>bitantem
           Deum<!--11-->, nisi cum fuerint renati<!--q-->, quod
           <lb ed="#Q"/>non possunt esse antequam nati</quote>. Ergo nullus
@@ -74,7 +68,7 @@
           <lb ed="#Q"/>non posset esse renatus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3764">
-          <lb ed="#Q"/>2. Item, idem <name ref="#Augustine">Augustinus</name><!--12-->: <quote>Illa sanctifi<lb ed="#Q"/>catio,
+          <lb ed="#Q"/>2. Item, idem <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e171" ref="#Augustine">Augustinus</name><!--12-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e175">Illa sanctifi<lb ed="#Q"/>catio,
           qua efficimur singuli templa Dei, non est
           <pb ed="#Q" n="81"/>
           <cb ed="#Q" n="a"/>
@@ -82,7 +76,7 @@
           <lb ed="#Q"/>non<!--a--> possunt</quote>. Ergo idem<!--b--> quod prius.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3781">
-          <lb ed="#Q"/>3. Item, <name>Augustinus</name>, ibidem<!--1-->: <quote>Quamlibet
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e198">Augustinus</name>, ibidem<!--1-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e202">Quamlibet
           <lb ed="#Q"/>igitur sententiam de parvulis intra materna vi<lb ed="#Q"/>scera
           constitutis habeamus, utrum existimemus
           <lb ed="#Q"/>eos donari aliquo sanctificationis modo, vel
@@ -98,11 +92,11 @@
           <lb ed="#Q"/>utero et ex utero: nullus ergo potest sanctificari
           <lb ed="#Q"/>sive inhabitari<!--d--> per gratiam a Deo ante nativitatem
           <lb ed="#Q"/>in utero, sed bene potest ante nativitatem ex utero
-          - contra: <name ref="#Augustine">Augustinus</name>, ibidem<!--2-->: <quote>Huic nati<lb ed="#Q"/>vitati
+          - contra: <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e241" ref="#Augustine">Augustinus</name>, ibidem<!--2-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e246">Huic nati<lb ed="#Q"/>vitati
           accedit secunda nativitas; ergo iam non erit
           <lb ed="#Q"/>secunda, sed tertia</quote><!--e-->; sed ita non potest intel<lb ed="#Q"/>ligi:
-          <quote>Dominus autem, cum loqueretur de spiri<lb ed="#Q"/>tuali
-          nativitate, inquit<!--3-->: <quote>Nisi quis renatus<!--f--> fuerit
+          <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e256">Dominus autem, cum loqueretur de spiri<lb ed="#Q"/>tuali
+          nativitate, inquit<!--3-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e262">Nisi quis renatus<!--f--> fuerit
           <lb ed="#Q"/>denuo</quote>, primam scilicet computans quae fit matre
           <lb ed="#Q"/>pariente, non concipiente, quae fit ex ea, non
           <lb ed="#Q"/>quae fit in ea</quote>. Nasci ergo denuo dicitur respectu
@@ -110,19 +104,19 @@
           <lb ed="#Q"/>secundum gratiam sanctificationis in utero.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3836">
-          <lb ed="#Q"/>5. Item, idem<!--4-->: <quote>Si homo regenerati in utero
+          <lb ed="#Q"/>5. Item, idem<!--4-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e288">Si homo regenerati in utero
           <lb ed="#Q"/>per gratiam Spiritus potest, quoniam restat adhuc
           <lb ed="#Q"/>illi nasci, renascitur antequam nascatur; quod
           <lb ed="#Q"/>fieri nullo modo potest</quote>. Ergo nec ut inhabitetur
           <lb ed="#Q"/>a Deo per gratiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3849">
-          <lb ed="#Q"/>6. Item, <name>Augustinus</name><!--5-->, exponens illud<!--6-->: <quote>Ante<lb ed="#Q"/>quam
+          <lb ed="#Q"/>6. Item, <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e304">Augustinus</name><!--5-->, exponens illud<!--6-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e309">Ante<lb ed="#Q"/>quam
           exires</quote> etc., loquens de sanctificatione Iere<lb ed="#Q"/>miae
           et Ioannis Baptistae, [dicit] quod illa sancti<lb ed="#Q"/>ficatio
-          <quote>potest secundum praedestinationem intel<lb ed="#Q"/>ligi,
+          <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e319">potest secundum praedestinationem intel<lb ed="#Q"/>ligi,
           sicut filios Dei appellat Evangelium nondum
-          <lb ed="#Q"/>regeneratos<!--h-->, cum dicitur, <name>Ioan.</name> 11,51-52, <quote source="http://scta.info/resource/io11_51@16-20 http://scta.info/resource/io11_52@8-14">quod
+          <lb ed="#Q"/>regeneratos<!--h-->, cum dicitur, <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e327">Ioan.</name> 11,51-52, <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e329" source="http://scta.info/resource/io11_51@16-20 http://scta.info/resource/io11_52@8-14">quod
           <lb ed="#Q"/>Iesus moriturus<!--i--> erat pro gente, ut filios Dei con<lb ed="#Q"/>gregaret</quote></quote>
           Ecce filios appellat eos<!--k--> qui futuri
           <lb ed="#Q"/>erant filii; ergo, si<!--l--> sanctificatio illa nihil aliud
@@ -131,35 +125,35 @@
           <lb ed="#Q"/>inhabitatus a Deo per gratiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3878">
-          <lb ed="#Q"/>Contra: a. <name>Bernardus</name>, <title>Ad Lugdunenses</title><!--7-->:
-          <quote>Lego de Ieremia quod priusquam ex utero exiret
+          <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e358">Bernardus</name>, <title>Ad Lugdunenses</title><!--7-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e363">Lego de Ieremia quod priusquam ex utero exiret
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>sanctificatus sit, et de Ioanne Baptista non secus
           <lb ed="#Q"/>sentio</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3889">
-          <lb ed="#Q"/>b. Item, <title>Ierem.</title> 1, 5: <quote>Priusquam<!--n--> exires de ven<lb ed="#Q"/>tre
-          sanctificavi te</quote>. <title>Glossa</title><!--8--> <quote>Ioannes etiam</quote>;
+          <lb ed="#Q"/>b. Item, <title>Ierem.</title> 1, 5: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e379">Priusquam<!--n--> exires de ven<lb ed="#Q"/>tre
+          sanctificavi te</quote>. <title>Glossa</title><!--8--> <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e389">Ioannes etiam</quote>;
           <lb ed="#Q"/>ergo uterque sanctificatus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3899">
-          <lb ed="#Q"/>c. Item, <title>Luc.</title> 1,41: <quote>Exultavit infans</quote> etc. <name>Am<lb ed="#Q"/>brosius</name><!--9-->:
-          <quote>Non prius repleta est mater quam
+          <lb ed="#Q"/>c. Item, <title>Luc.</title> 1,41: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e402">Exultavit infans</quote> etc. <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e404">Am<lb ed="#Q"/>brosius</name><!--9-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e410">Non prius repleta est mater quam
           <lb ed="#Q"/>filius, sed filius repletus replet et matrem</quote>. Et
-          <lb ed="#Q"/>apparet quod angelus dixerat quod <quote source="http://scta.info/resource/lc1_15@13-20">Spiritu Sancto
+          <lb ed="#Q"/>apparet quod angelus dixerat quod <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e418" source="http://scta.info/resource/lc1_15@13-20">Spiritu Sancto
           <lb ed="#Q"/>replebitur adhuc ex utero matris suae</quote><!--10-->. Ergo
           <lb ed="#Q"/>Spiritus Sanctus inhabitavit<!--o--> in ipso Ioanne per
           <lb ed="#Q"/>gratiam ante nativitatem.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3917">
-          <lb ed="#Q"/>d. Item, <name>Bernardus</name><!--11-->, loquens de sanctifica<lb ed="#Q"/>tione
-          B. Virginis: <quote>Fuit procul dubio mater Do<lb ed="#Q"/>mini
+          <lb ed="#Q"/>d. Item, <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e435">Bernardus</name><!--11-->, loquens de sanctifica<lb ed="#Q"/>tione
+          B. Virginis: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e440">Fuit procul dubio mater Do<lb ed="#Q"/>mini
           ante sancta quam nata</quote>. Ergo ante nativi<lb ed="#Q"/>tatem
           inhabitavit<!--p--> in ipsa Spiritus Sanctus per
           <lb ed="#Q"/>gratiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3930">
-          <lb ed="#Q"/>e. Item, <name>Bernardus</name><!--12-->: <quote>Non fallitur omnino
+          <lb ed="#Q"/>e. Item, <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e457">Bernardus</name><!--12-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e460">Non fallitur omnino
           <lb ed="#Q"/>Ecclesia celebrans eius nativitatis diem</quote>; sed
           <lb ed="#Q"/>statui<!--q--> in peccato non debetur gaudium, sed luc<lb ed="#Q"/>tus;
           ergo non fuit nata in peccato; ergo ante nati<lb ed="#Q"/>vitatem
@@ -174,7 +168,7 @@
           antequam nascatur. Alio modo dicitur
           <lb ed="#Q"/>Deus inhabitare in homine per gratiam Spiritus
           <lb ed="#Q"/>quae est secundum legem privatam, de qua dicit
-          <lb ed="#Q"/><name>Augustinus</name><!--13--> quod <quote>Deus non alligavit poten<lb ed="#Q"/>tiam
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e497">Augustinus</name><!--13--> quod <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e501">Deus non alligavit poten<lb ed="#Q"/>tiam
           suam sacramentis</quote>, quia sine omni sacra<lb ed="#Q"/>mento
           potest sanctificare: et hoc modo inhabi<lb ed="#Q"/>tavit
           Deus per gratiam in quibusdam ante nati<lb ed="#Q"/>vitatem,
@@ -182,11 +176,11 @@
           <lb ed="#Q"/>in utero.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c4-d1e3976">
-          <lb ed="#Q"/>[Ad obiecta]: 1-6. Dicendum ergo quod <name>Augu<lb ed="#Q"/>stinus</name>,
+          <lb ed="#Q"/>[Ad obiecta]: 1-6. Dicendum ergo quod <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e519">Augu<lb ed="#Q"/>stinus</name>,
           in <title>Epistola ad Dardanum</title>, loquitur de
           <lb ed="#Q"/>illa inhabitatione quae est secundum legem com<lb ed="#Q"/>munem,
           non secundum legem privatam. Et hoc
-          <lb ed="#Q"/>patet ex verbis eius; unde dicit: <quote>Illa sanctificatio
+          <lb ed="#Q"/>patet ex verbis eius; unde dicit: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e533">Illa sanctificatio
           <lb ed="#Q"/>qua efficimur singuli templa Dei etc.</quote> Per hoc
           <lb ed="#Q"/>quod dicit<!--s--> <mentioned>singuli</mentioned>, patet quod loquitur de illa
           <lb ed="#Q"/>inhabitatione quae pertinet ad omnes. Est ergo in<lb ed="#Q"/>habitatio
@@ -196,10 +190,10 @@
           <lb ed="#Q"/>sacramentorum, quam nullus habet antequam na<lb ed="#Q"/>tus;
           et est<!--a--> inhabitatio pertinens ad paucos, quae
           <lb ed="#Q"/>potest esse in existenti in utero. Nec illud vult
-          <lb ed="#Q"/>negare ibidem <name>Augustinus</name>; unde dicit: <quote>Quam<cb ed="#Q" n="b"/><lb ed="#Q"/>libet
+          <lb ed="#Q"/>negare ibidem <name xml:id="ahsh-l1p1i1t2q3t3m2c4-Nd1e564">Augustinus</name>; unde dicit: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e566">Quam<cb ed="#Q" n="b"/><lb ed="#Q"/>libet
           igitur sententiam habeamus, vel<!--b--> propter
           <lb ed="#Q"/>Ioannem</quote> etc.; ponit etiam auctoritatem de rege<lb ed="#Q"/>neratione
-          per sacramentum: <quote>Nisi quis renatus
+          per sacramentum: <quote xml:id="ahsh-l1p1i1t2q3t3m2c4-Qd1e578">Nisi quis renatus
           <lb ed="#Q"/>fuerit</quote> etc. Sic<!--c--> patet solutio ad obiecta.
         </p>
       </div>

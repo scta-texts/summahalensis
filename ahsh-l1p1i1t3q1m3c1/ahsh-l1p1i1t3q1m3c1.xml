@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="133"/><cb ed="#Q" n="a"/>
       </div>
@@ -73,8 +67,8 @@
         <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3799">
           <lb ed="#Q"/>Contra: 1. Unitas essentiae non multiplicat Tri<lb ed="#Q"/>nitatem;
           secundum autem unitatem personae ac<lb ed="#Q"/>cipitur
-          Trinitas. Unde <name>Boethius</name>, in libro <title>De
-          <lb ed="#Q"/>Trinitate</title><!--2-->: <quote>Substantia continet unitatem, relatio
+          Trinitas. Unde <name xml:id="ahsh-l1p1i1t3q1m3c1-Nd1e150">Boethius</name>, in libro <title>De
+          <lb ed="#Q"/>Trinitate</title><!--2-->: <quote xml:id="ahsh-l1p1i1t3q1m3c1-Qd1e159">Substantia continet unitatem, relatio
           <lb ed="#Q"/>multiplicat Trinitatem</quote>. Ergo haec unitas non est
           <lb ed="#Q"/>illa.
         </p>
@@ -104,8 +98,8 @@
         <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3862">
           <lb ed="#Q"/>Respondeo: I. Fatendum est divinum esse esse<!--m-->
           <lb ed="#Q"/>in summa simplicitate et in ordine naturae, sicut
-          <lb ed="#Q"/>dicit <name ref="#Augustine">B. Augustinus</name><!--3-->: Cum dicitur Filius a Pa<lb ed="#Q"/>tre,
-          non ostenditur <quote>inaequalitas substantiae, sed
+          <lb ed="#Q"/>dicit <name xml:id="ahsh-l1p1i1t3q1m3c1-Nd1e232" ref="#Augustine">B. Augustinus</name><!--3-->: Cum dicitur Filius a Pa<lb ed="#Q"/>tre,
+          non ostenditur <quote xml:id="ahsh-l1p1i1t3q1m3c1-Qd1e239">inaequalitas substantiae, sed
           <lb ed="#Q"/>ordo naturae</quote>. Summa ergo simplicitas cogit eam<lb ed="#Q"/>dem
           esse unitatem essentiae et personae secun<lb ed="#Q"/>dum
           rem. Ordo vero naturae, secundum quem
@@ -132,8 +126,8 @@
           <lb ed="#Q"/>naturae in divinis, essentia non. Ille autem ordo
           <lb ed="#Q"/>naturae, qui est ibi secundum rationem principii
           <lb ed="#Q"/>et eius quod est de principio, ibi facit distinctio<lb ed="#Q"/>nem
-          personalem. Et hoc est quod dicit <name>Boe<lb ed="#Q"/>thius</name><!--1-->
-          quod <quote>substantia continet unitatem, re<lb ed="#Q"/>latio
+          personalem. Et hoc est quod dicit <name xml:id="ahsh-l1p1i1t3q1m3c1-Nd1e309">Boe<lb ed="#Q"/>thius</name><!--1-->
+          quod <quote xml:id="ahsh-l1p1i1t3q1m3c1-Qd1e315">substantia continet unitatem, re<lb ed="#Q"/>latio
           multiplicat Trinitatem</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c1-d1e3934">

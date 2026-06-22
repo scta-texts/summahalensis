@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="17"/><cb ed="#Q" n="a"/>
       </div>
@@ -65,24 +58,24 @@
           <lb ed="#Q"/>sit cognoscibilis in sua immensitate<!--1-->.
         </p>
         <p xml:id="ahsh-l1tinq2m1c2-d1e3742">
-          <lb ed="#Q"/>Ad quod sic: 1. <title>Rom.</title> 1, 20: <quote>Invisibilia Dei</quote> etc.
-          <lb ed="#Q"/><title>Glossa</title><!--2-->: <quote>Tam pulcra astra condidit ut ex iis
+          <lb ed="#Q"/>Ad quod sic: 1. <title>Rom.</title> 1, 20: <quote xml:id="ahsh-l1tinq2m1c2-Qd1e132">Invisibilia Dei</quote> etc.
+          <lb ed="#Q"/><title>Glossa</title><!--2-->: <quote xml:id="ahsh-l1tinq2m1c2-Qd1e139">Tam pulcra astra condidit ut ex iis
           <lb ed="#Q"/>quantus et quam admirabilis est Creator eorum
           <lb ed="#Q"/>possit agnosci<!--b--></quote>. Ergo de Deo potest haberi co<lb ed="#Q"/>gnitio
           <mentioned>quantus sit</mentioned>; sed quantus est virtute in<lb ed="#Q"/>finita
           et immensa, et idem est ei esse quantum
-          <lb ed="#Q"/>quod magnum: <quote>nec mole magnus est, sed vir<lb ed="#Q"/>tute</quote>,
-          sicut dicit <name ref="#Augustine">Augustinus</name><!--3-->; ergo<!--c--> potest
+          <lb ed="#Q"/>quod magnum: <quote xml:id="ahsh-l1tinq2m1c2-Qd1e155">nec mole magnus est, sed vir<lb ed="#Q"/>tute</quote>,
+          sicut dicit <name xml:id="ahsh-l1tinq2m1c2-Nd1e161" ref="#Augustine">Augustinus</name><!--3-->; ergo<!--c--> potest
           <lb ed="#Q"/>cognosci in sua immensitate sive infinitate.
         </p>
         <p xml:id="ahsh-l1tinq2m1c2-d1e3764">
-          <lb ed="#Q"/>2. Item<!--d-->, <title>Eph.</title> 3, 19: <quote>Ut impleamini omni ple<lb ed="#Q"/>nitudine
+          <lb ed="#Q"/>2. Item<!--d-->, <title>Eph.</title> 3, 19: <quote xml:id="ahsh-l1tinq2m1c2-Qd1e178">Ut impleamini omni ple<lb ed="#Q"/>nitudine
           Dei</quote>; sed omnis plenitudo Dei est sua im<lb ed="#Q"/>mensitas;
           impletio autem<!--e--> ista est per cognitionem
           <lb ed="#Q"/>et amorem; ergo immensitas Dei<!--f--> poterit cognosci.
         </p>
         <p xml:id="ahsh-l1tinq2m1c2-d1e3774">
-          <lb ed="#Q"/>3. Item, <title>Ioan.</title> 15, 15: <quote source="http://scta.info/resource/io15_15@18-26">Omnia, quaecumque au<lb ed="#Q"/>divi
+          <lb ed="#Q"/>3. Item, <title>Ioan.</title> 15, 15: <quote xml:id="ahsh-l1tinq2m1c2-Qd1e200" source="http://scta.info/resource/io15_15@18-26">Omnia, quaecumque au<lb ed="#Q"/>divi
           a Patre meo<!--g-->, nata feci vobis</quote>; sed <mentioned>omnia</mentioned>
           <lb ed="#Q"/>ibi intelliguntur potentia, veritas, bonitas, aeter<lb ed="#Q"/>nitas
           et etiam immensitas, quia omnia ista nota
@@ -96,13 +89,13 @@
           <lb ed="#Q"/>immensitas.
         </p>
         <p xml:id="ahsh-l1tinq2m1c2-d1e3801">
-          <lb ed="#Q"/>Contra: a. <name>Ambrosius</name>, <title>Super Lucae</title> 1<!--4-->, in
-          <lb ed="#Q"/>originali: <quote><quote>Deum nemo vidit utiquam<!--h5--></quote>, quia
+          <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1tinq2m1c2-Nd1e234">Ambrosius</name>, <title>Super Lucae</title> 1<!--4-->, in
+          <lb ed="#Q"/>originali: <quote xml:id="ahsh-l1tinq2m1c2-Qd1e243"><quote xml:id="ahsh-l1tinq2m1c2-Qd1e244">Deum nemo vidit utiquam<!--h5--></quote>, quia
           <lb ed="#Q"/>eam, quae habitat in Deo, plenitudinem divinitatis
           <lb ed="#Q"/>nemo conspexit, nemo mente aut oculis compre<lb ed="#Q"/>hendit</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m1c2-d1e3814">
-          <lb ed="#Q"/>b. Item, <name>Boethius</name><!--6-->: <quote>Omne quod scitur vel
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1tinq2m1c2-Nd1e260">Boethius</name><!--6-->: <quote xml:id="ahsh-l1tinq2m1c2-Qd1e263">Omne quod scitur vel
           <lb ed="#Q"/>cognoscitur, non ex sua natura, sed secundum
           <lb ed="#Q"/>comprehendentium cognoscitur facultatem</quote>. Cum
           <lb ed="#Q"/>ergo facultas animae comprehendentis sit finita,
@@ -123,7 +116,7 @@
         </p>
         <p xml:id="ahsh-l1tinq2m1c2-d1e3854">
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud ergo<!--i--> quod primo
-          <lb ed="#Q"/>obicitur quod <quote>ex creaturis quantus sit Creator
+          <lb ed="#Q"/>obicitur quod <quote xml:id="ahsh-l1tinq2m1c2-Qd1e314">ex creaturis quantus sit Creator
           <lb ed="#Q"/>possit agnosci</quote>: dicendum quod quantus sit
           <lb ed="#Q"/>potest cognosci per modum privationis, non per
           <lb ed="#Q"/>modum positionis. Verbi gratia, quantus sit du<lb ed="#Q"/>ratione
@@ -138,15 +131,15 @@
           <lb ed="#Q"/>sive duratio, non est possibile.
         </p>
         <p xml:id="ahsh-l1tinq2m1c2-d1e3888">
-          <lb ed="#Q"/>2. Ad secundum respondet <name ref="#Augustine">Augustinus</name><!--9-->
+          <lb ed="#Q"/>2. Ad secundum respondet <name xml:id="ahsh-l1tinq2m1c2-Nd1e349" ref="#Augustine">Augustinus</name><!--9-->
           <lb ed="#Q"/>quod non est intelligendum illud ad <title>Eph.</title> 3<!--k-->, 19:
-          <lb ed="#Q"/><quote>Ut impleamini omni plenitudine Dei</quote>, ut habeamus
-          <lb ed="#Q"/>plenitudinem quam habet: <quote>Sic enim implebuntur
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq2m1c2-Qd1e361">Ut impleamini omni plenitudine Dei</quote>, ut habeamus
+          <lb ed="#Q"/>plenitudinem quam habet: <quote xml:id="ahsh-l1tinq2m1c2-Qd1e365">Sic enim implebuntur
           <lb ed="#Q"/>in omnem plenitudinem Dei, non cum fuerint et ipsi
           <lb ed="#Q"/>plenus Deus, sed cum perfecte fuerint pleni Deo</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m1c2-d1e3904">
-          <lb ed="#Q"/>3. Ad tertium dicendum quod <quote>omnia nota
+          <lb ed="#Q"/>3. Ad tertium dicendum quod <quote xml:id="ahsh-l1tinq2m1c2-Qd1e377">omnia nota
           <lb ed="#Q"/>feci vobis</quote><!--10--> intelligendum est<!--l-->: id est praeordi<lb ed="#Q"/>navi
           ut omnia nota faciam vobis<!--11-->; <mentioned>omnia</mentioned> autem
           <lb ed="#Q"/>ibi distribuit pro creaturis, non universaliter pro
@@ -180,4 +173,3 @@
     </body>
   </text>
 </TEI>
-

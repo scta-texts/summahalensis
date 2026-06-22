@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="116"/><cb ed="#Q" n="a"/>
       </div>
@@ -67,9 +61,9 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3748">
           <lb ed="#Q"/>Assignantur autem multis modis differentiae
-          <lb ed="#Q"/>unius: I. Secundum <name>B. Dionysium</name>, in libro
+          <lb ed="#Q"/>unius: I. Secundum <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e139">B. Dionysium</name>, in libro
           <lb ed="#Q"/><title>De divinis nominibus</title><!--3-->, hoc modo<!--u-->; dicit enim:
-          <quote>Causa omnium non est unum ut unum multorum,
+          <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e148">Causa omnium non est unum ut unum multorum,
           <lb ed="#Q"/>sed ante omne unum et multitudinem et omnis
           <lb ed="#Q"/>unius et multitudinis terminativum. Non enim est
           <lb ed="#Q"/>multitudo quae non participet alicubi unum, sed<!--v-->
@@ -87,8 +81,8 @@
           <lb ed="#Q"/>principio.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3790">
-          <lb ed="#Q"/>II. Item, alio modo <name>B. Bernardus</name>, in V li<lb ed="#Q"/>bro 
-          <quote>De consideratione</quote>, <quote>Ad Eugenium</quote><!--4-->: <quote>Est uni<pb ed="#Q" n=""/><cb ed="#Q" n=""/><lb ed="#Q"/>tas
+          <lb ed="#Q"/>II. Item, alio modo <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e208">B. Bernardus</name>, in V li<lb ed="#Q"/>bro 
+          <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e212">De consideratione</quote>, <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e214">Ad Eugenium</quote><!--4-->: <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e218">Est uni<pb ed="#Q" n=""/><cb ed="#Q" n=""/><lb ed="#Q"/>tas
           collectiva, ut multi lapides faciunt unum acer<lb ed="#Q"/>vum;
           et est unitas constitutiva, ut multa membra<!--a-->
           <lb ed="#Q"/>corpus unum vel multae partes unumquodque
@@ -99,18 +93,18 @@
           non instabilis, non dissimilis, sed unus
           <lb ed="#Q"/>sibimet semper nititur inveniri; et est unitas con<lb ed="#Q"/>sentanea,
           cum per caritatem multorum hominum
-          <lb ed="#Q"/>est <quote>cor unum et anima una</quote>, <title>Act.</title> 4,32; et est uni<lb ed="#Q"/>tas
+          <lb ed="#Q"/>est <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e254">cor unum et anima una</quote>, <title>Act.</title> 4,32; et est uni<lb ed="#Q"/>tas
           votiva, cum anima, votis omnibus adhaerens
-          <lb ed="#Q"/>Deo, <quote>unus spiritus est</quote>, <title>I Cor.</title> 6,17; et est unitas
+          <lb ed="#Q"/>Deo, <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e263">unus spiritus est</quote>, <title>I Cor.</title> 6,17; et est unitas
           <lb ed="#Q"/>dignativa, qua limus noster a Dei Verbo in unam
           <lb ed="#Q"/>assumptus est personam; et est<!--e--> unitas, substan<lb ed="#Q"/>tifica<!--f-->,
           quae est unitas Trinitatis, qua tres per<lb ed="#Q"/>sonae
           sunt una substantia</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3837">
-          <lb ed="#Q"/>III. Item, <name>philosophi</name> alio modo assignant dif<lb ed="#Q"/>ferentias
-          unitatis. <name>Avicenna</name>, in <title>Metaphysica</title>
-          <lb ed="#Q"/>sua<!--2-->: <quote><mentioned>Unum</mentioned> dicitur ambigue de rebus, quae in
+          <lb ed="#Q"/>III. Item, <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e287">philosophi</name> alio modo assignant dif<lb ed="#Q"/>ferentias
+          unitatis. <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e291">Avicenna</name>, in <title>Metaphysica</title>
+          <lb ed="#Q"/>sua<!--2-->: <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e300"><mentioned>Unum</mentioned> dicitur ambigue de rebus, quae in
           <lb ed="#Q"/>hoc conveniunt quod in eis non est divisio in ef<lb ed="#Q"/>fectu,
           in quantum unumquodque eorum est id quod
           <lb ed="#Q"/>est; haec autem intentio est in eis secundum prius
@@ -139,7 +133,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3894">
           <lb ed="#Q"/>Item, <mentioned>unum secundum comparationem</mentioned> decla<lb ed="#Q"/>ratur
-          ab eo<!--i--><!--4--> sic: <quote><mentioned>Unum enim comparatione</mentioned>
+          ab eo<!--i--><!--4--> sic: <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e392"><mentioned>Unum enim comparatione</mentioned>
           <lb ed="#Q"/>est<!--k--> inter quae est<!--l--> aliqua comparatio una, ut
           <lb ed="#Q"/>comparatio navis ad rectorem et civitatis ad re<lb ed="#Q"/>gem
           una est: eae enim duae comparationes con<lb ed="#Q"/>similes<!--m-->
@@ -147,12 +141,12 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3910">
           <lb ed="#Q"/>Item, <mentioned>unum subiecto</mentioned><!--5-->, cuius partes secun<lb ed="#Q"/>dum
-          naturam suam, etsi dividantur, habent <quote>uniri
+          naturam suam, etsi dividantur, habent <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e421">uniri
           <lb ed="#Q"/>in unum<!--n--> subiectum</quote>, et divisae retinent natu<cb ed="#Q" n="b"/><lb ed="#Q"/>ram
           speciei: ut multae aquae dicuntur <mentioned>unum
           <lb ed="#Q"/>in subiecto</mentioned>, quia natura suorum subiectorum est
           <lb ed="#Q"/>ut possint uniri et fieri <mentioned>unum subiecto</mentioned>, ut multae
-          <lb ed="#Q"/>aquae una aqua. Et inde est quod <quote>aggregatio
+          <lb ed="#Q"/>aquae una aqua. Et inde est quod <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e443">aggregatio
           <lb ed="#Q"/>multitudinis non est unum subiecto</quote> ». Item, na<lb ed="#Q"/>tura
           partium est <mentioned>unum specie</mentioned>: sunt enim eae<lb ed="#Q"/>dem
           specie cum suo toto<!--o-->, sicut partes aquae<!--p-->
@@ -167,17 +161,17 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e3952">
           <lb ed="#Q"/>Item, <mentioned>unum<!--q--> continuatione</mentioned> multipliciter: aut
-          <lb ed="#Q"/>quod sentitur secundum unum modum, <quote>ut in
+          <lb ed="#Q"/>quod sentitur secundum unum modum, <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e493">ut in
           <lb ed="#Q"/>lineis illa in qua non est angulus, et in superfi<lb ed="#Q"/>ciebus
           illa quae est planissima, et in corporibus
           <lb ed="#Q"/>illud quod circumdat superficies, in qua non est
           <lb ed="#Q"/>curvatura<!--r--> secundum angulum</quote><!--6--> ut sphaericum.
           <lb ed="#Q"/>Aut sentitur secundum dispositionem differentem,
-          <lb ed="#Q"/>licet <quote>duo extrema copulentur ad communem ter<lb ed="#Q"/>minum,
+          <lb ed="#Q"/>licet <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e512">duo extrema copulentur ad communem ter<lb ed="#Q"/>minum,
           sicut totalitas duarum linearum continen<lb ed="#Q"/>tium
           angulum</quote>. Aut sentitur secundum differen<lb ed="#Q"/>tem
           naturam, licet habeant unam cohaerentiam,
-          <quote>ut<!--s--> membra, quae sunt composita ex aliis<!--t--> mem<lb ed="#Q"/>bris</quote>,
+          <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e521">ut<!--s--> membra, quae sunt composita ex aliis<!--t--> mem<lb ed="#Q"/>bris</quote>,
           et hoc vel<!--u--> naturaliter vel artificialiter:
           <lb ed="#Q"/>naturaliter ut in corpore hominis, artificialiter ut
           <lb ed="#Q"/>in arca. Prima unitas maior est secunda, et se<lb ed="#Q"/>cunda
@@ -193,7 +187,7 @@
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4000">
           <lb ed="#Q"/>Item, <mentioned>unum numero secundum perfectionem</mentioned>
           <lb ed="#Q"/>est<!--y--> cuius partes non multiplicantur secundum na<lb ed="#Q"/>turam
-          suae speciei: quemadmodum <quote>unus homo
+          suae speciei: quemadmodum <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e579">unus homo
           <lb ed="#Q"/>numero non multiplicatur secundum naturam suam,
           <lb ed="#Q"/>scilicet secundum quod est homo, cum dividitur;
           <lb ed="#Q"/>multiplicatur autem alio modo, cum dividitur<!--z-->
@@ -223,7 +217,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4064">
           <lb ed="#Q"/>Item, <mentioned>unum numero per suam essentiam</mentioned> est
-          <lb ed="#Q"/>quod non est aliquo modo divisibile <quote>et in quo
+          <lb ed="#Q"/>quod non est aliquo modo divisibile <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e676">et in quo
           <lb ed="#Q"/>non<!--d--> est natura alia: sicut ipsamet unitas, quae
           <lb ed="#Q"/>est principium numeri, cui si adiungitur aliqua
           <lb ed="#Q"/>alia unitas, iam earum coniunctio<!--e--> erit nume<lb ed="#Q"/>rus</quote><!--3-->;
@@ -231,40 +225,40 @@
           <lb ed="#Q"/>divisibile nec re nec intellectu.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4082">
-          <lb ed="#Q"/>IV. Item, secundum <name>Aristotelem</name>, in <title>V Me<lb ed="#Q"/>taphysicae</title><!--4-->,
+          <lb ed="#Q"/>IV. Item, secundum <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e703">Aristotelem</name>, in <title>V Me<lb ed="#Q"/>taphysicae</title><!--4-->,
           assignantur differentiae <mentioned>unius</mentioned> hoc
           <lb ed="#Q"/>modo: unum per se et<!--f--> unum per accidens. Et
           <lb ed="#Q"/>unum per accidens secundum tres modos, sicut
           <lb ed="#Q"/>prius ab Avicenna.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4095">
-          <lb ed="#Q"/>Item, <mentioned>unum per se</mentioned> multipliciter: <quote><mentioned>unum con<lb ed="#Q"/>tinuatione</mentioned>,
+          <lb ed="#Q"/>Item, <mentioned>unum per se</mentioned> multipliciter: <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e729"><mentioned>unum con<lb ed="#Q"/>tinuatione</mentioned>,
           sicut linea vel lignum glutinatum vel
           <lb ed="#Q"/>membrum, vel sicut motus, qui non dividitur se<lb ed="#Q"/>cundum
           tempus; et <mentioned>unum</mentioned> quorum subiectum
           <lb ed="#Q"/>non dividitur secundum formam</quote>, quod ab Avi<lb ed="#Q"/>cenna
           dicebatur <mentioned>unum subiecto</mentioned>, quemadmo<lb ed="#Q"/>dum
           <mentioned>unum</mentioned> dicitur vinum et aqua et oleum;
-          <lb ed="#Q"/>et<!--g--> <mentioned>unum genere</mentioned>, <quote>quorum genus est unum
+          <lb ed="#Q"/>et<!--g--> <mentioned>unum genere</mentioned>, <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e759">quorum genus est unum
           <lb ed="#Q"/>et differunt per differentias subiectivas: sicut
           <lb ed="#Q"/>homo et equus</quote>; et <mentioned>unum</mentioned> secundum illud quod
-          <lb ed="#Q"/>intrat<!--h--> utriusque rei definitionem, <quote>ut augmen<lb ed="#Q"/>tabile
+          <lb ed="#Q"/>intrat<!--h--> utriusque rei definitionem, <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e773">ut augmen<lb ed="#Q"/>tabile
           et diminuibile sunt unum</quote>, quia definitio
           <lb ed="#Q"/>sui generis est <mentioned>unum</mentioned>; et <mentioned>unum modo sim<lb ed="#Q"/>plici</mentioned>,
           ut quod indivisibile est omnino, ut punc<lb ed="#Q"/>tus;
           et<!--i--> <mentioned>unum modo universali</mentioned>, quod scilicet
-          <lb ed="#Q"/>non dividitur <quote>secundum speciem suam, ut unum
+          <lb ed="#Q"/>non dividitur <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e796">secundum speciem suam, ut unum
           <lb ed="#Q"/>os et unus homo</quote>, et haec dicuntur <mentioned>unum in
           <lb ed="#Q"/>forma</mentioned>: <mentioned>unum autem in forma sunt quorum to<lb ed="#Q"/>talitas
           est una</mentioned>, secundum quem modum dicitur
           <lb ed="#Q"/>linea circuli una magis quam aliae lineae; et
           <mentioned>unum numero</mentioned>, quorum materia est una; et
-          <quote>unum secundum aequalitatem, quorum proportio
+          <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e816">unum secundum aequalitatem, quorum proportio
           <lb ed="#Q"/>est una</quote><!--k-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4144">
-          <lb ed="#Q"/>V. Item<!--l-->, <name ref="#Algazali">Algazel</name>, in sua <title>Metaphysica</title><!--5-->, alio
-          <lb ed="#Q"/>modo distinguit: <quote>Est enim <mentioned>unum simpliciter</mentioned> et
+          <lb ed="#Q"/>V. Item<!--l-->, <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e830" ref="#Algazali">Algazel</name>, in sua <title>Metaphysica</title><!--5-->, alio
+          <lb ed="#Q"/>modo distinguit: <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e839">Est enim <mentioned>unum simpliciter</mentioned> et
           'unum secundum quid'. <mentioned>Unum simpliciter</mentioned> tribus
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>modis: est enim <mentioned>unum</mentioned>, in quo non est multitudo
@@ -281,12 +275,12 @@
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4178">
           <lb ed="#Q"/>VI. Item, alio modo assignantur differentiae
           <mentioned>unius</mentioned> in libro <title>De unitate et uno</title><!--6-->, hoc modo:
-          <quote><mentioned>Unum</mentioned> aliud essentiae simplicitate unum, ut
+          <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e893"><mentioned>Unum</mentioned> aliud essentiae simplicitate unum, ut
           <lb ed="#Q"/>Deus. Aliud simplicium coniunctione unum, ut
           <lb ed="#Q"/>angelus et anima, quorum unumquodque est
           [unum] coniunctione materiae et formae</quote>; et hoc
           <lb ed="#Q"/>ibi dicitur<!--o--> secundum opinionem, tamen ibi sunt
-          <lb ed="#Q"/>componentia<!--p--> quasi materiae et formae.<quote> Aliud
+          <lb ed="#Q"/>componentia<!--p--> quasi materiae et formae.<quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e910"> Aliud
           <lb ed="#Q"/>continuitate, ut arbor et petra. Aliud composi<lb ed="#Q"/>tione,
           ut ex multis tabulis una arca. Aliud ag<lb ed="#Q"/>gregatione,
           ut unus populus, unus grex et acer<lb ed="#Q"/>vus
@@ -300,15 +294,15 @@
           <lb ed="#Q"/>vero dicuntur <mentioned>unum ratione</mentioned>, sed hoc duobus
           <lb ed="#Q"/>modis: vel ratione consortii, ut intellectus et vo<lb ed="#Q"/>cabulum
           et res unum sunt genus; vel ratione
-          <lb ed="#Q"/>unius sacramenti, ut <quote>spiritus, aqua et sanguis</quote><!--7--> di<lb ed="#Q"/>cuntur
+          <lb ed="#Q"/>unius sacramenti, ut <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e960">spiritus, aqua et sanguis</quote><!--7--> di<lb ed="#Q"/>cuntur
           <mentioned>unum</mentioned>. Alia vero dicuntur <mentioned>unum<!--r--> parti<lb ed="#Q"/>cipatione
           speciei</mentioned>, ut plures homines sunt <mentioned>unum</mentioned>.
           <lb ed="#Q"/>Alia vero <mentioned>unum lingua vel<!--s--> natione</mentioned>, ut multi
           <lb ed="#Q"/>homines una gens et una tribus. Alia vero dicun<lb ed="#Q"/>tur
           <mentioned>unum more</mentioned>, et hoc duobus modis: quia
           <lb ed="#Q"/>aut secundum consensum virtutum et dilectionis,
-          <lb ed="#Q"/>ut <quote>multitudinis<!--t--> credentium cor unum</quote><!--8-->, aut se<lb ed="#Q"/>cundum
-          consensum vitii, ut <quote source="http://scta.info/resource/Icor6_16@4-9">qui adhaeret mere<lb ed="#Q"/>trici,
+          <lb ed="#Q"/>ut <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e995">multitudinis<!--t--> credentium cor unum</quote><!--8-->, aut se<lb ed="#Q"/>cundum
+          consensum vitii, ut <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1004" source="http://scta.info/resource/Icor6_16@4-9">qui adhaeret mere<lb ed="#Q"/>trici,
           unum corpus efficitur</quote> cum ea</quote><!--9-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4241">
@@ -325,12 +319,12 @@
           <pb ed="#Q" n="119"/>
           <cb ed="#Q" n="a"/>
           <lb ed="#Q"/>sive in esse proprio<!--a-->. Secundum primum modum
-          <lb ed="#Q"/>assignat differentias <name ref="#Dionysius">B. Dionysius</name>, secundum
-          <lb ed="#Q"/>secundum modum<!--b--> <name>B. Bernardus</name>, secundum
+          <lb ed="#Q"/>assignat differentias <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1045" ref="#Dionysius">B. Dionysius</name>, secundum
+          <lb ed="#Q"/>secundum modum<!--b--> <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1052">B. Bernardus</name>, secundum
           <lb ed="#Q"/>tertium philosophi.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4277">
-          <lb ed="#Q"/>I. Secundum ergo <name>B. Dionysium</name> intentio est
+          <lb ed="#Q"/>I. Secundum ergo <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1061">B. Dionysium</name> intentio est
           <lb ed="#Q"/>haec. Aut enim consideratur unitas in causa, et
           <lb ed="#Q"/>secundum hoc est unitas non in multitudine, et
           <lb ed="#Q"/>iste est primus modus, aut consideratur unitas
@@ -349,36 +343,36 @@
           <lb ed="#Q"/>referendo ad fieri et ad partes ex quibus fit;
           <mentioned>unum subiecto</mentioned>, referendo ad factum esse et
           <lb ed="#Q"/>ad dispositiones quae accidunt rei postquam est.
-          <lb ed="#Q"/>Haec igitur assignatio est secundum <name>B.<!--f--> Dio<lb ed="#Q"/>nysium</name>.
+          <lb ed="#Q"/>Haec igitur assignatio est secundum <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1119">B.<!--f--> Dio<lb ed="#Q"/>nysium</name>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4321">
-          <lb ed="#Q"/>II. Secundum autem <name>B.<!--g--> Bernardum</name>, cuius
+          <lb ed="#Q"/>II. Secundum autem <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1131">B.<!--g--> Bernardum</name>, cuius
           <lb ed="#Q"/>est intentio referre omnes unitates ad unitatem
           <lb ed="#Q"/>primam secundum propinquius, intentio est haec.
           <lb ed="#Q"/>Primo enim confert unitates secundum quod in<lb ed="#Q"/>veniuntur
           in corpore; secundo vero confert uni<lb ed="#Q"/>tates
           secundum quod inveniuntur in homine; ter<lb ed="#Q"/>tio<!--h-->
           secundum quod inveniuntur in Deo. Se<lb ed="#Q"/>cundum
-          quod inveniuntur in corpore, <quote>est uni<lb ed="#Q"/>tas
+          quod inveniuntur in corpore, <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1153">est uni<lb ed="#Q"/>tas
           collectiva</quote>, quae est unitas secundum quid;
-          <lb ed="#Q"/>et <quote>constitutiva</quote>, quae est unitas simpliciter.
+          <lb ed="#Q"/>et <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1161">constitutiva</quote>, quae est unitas simpliciter.
           <lb ed="#Q"/>Item, secundum quod invenitur in homine, ponit
           <lb ed="#Q"/>unitatem<!--i--> tribus modis: iure, natura, voluntate.
-          <mentioned>Unitatem iure</mentioned> vocat unitatem <quote>coniugativam</quote>:
-          <lb ed="#Q"/>coniuges enim unitate iuris sunt <quote>una caro</quote>,
+          <mentioned>Unitatem iure</mentioned> vocat unitatem <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1172">coniugativam</quote>:
+          <lb ed="#Q"/>coniuges enim unitate iuris sunt <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1176">una caro</quote>,
           <lb ed="#Q"/>quia iure coniugali caro unius cedit in iure<!--k--> al<lb ed="#Q"/>terius.
           Item<!--l-->, <mentioned>unitatem natura</mentioned> ponit duplicem:
-          <lb ed="#Q"/>Quantum ad esse, quae vocatur <quote>nativa</quote>, qua
-          <lb ed="#Q"/>scilicet <quote>caro et anima nascitur unus homo</quote>;
-          <lb ed="#Q"/>et quantum ad bene esse, quae vocatur <quote>potesta<lb ed="#Q"/>tiva,
+          <lb ed="#Q"/>Quantum ad esse, quae vocatur <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1191">nativa</quote>, qua
+          <lb ed="#Q"/>scilicet <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1195">caro et anima nascitur unus homo</quote>;
+          <lb ed="#Q"/>et quantum ad bene esse, quae vocatur <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1200">potesta<lb ed="#Q"/>tiva,
           qua homo virtutis non instabilis, sed unus
           <lb ed="#Q"/>semper nititur inveniri</quote>. Item, <mentioned>unitatem volun<lb ed="#Q"/>tatum</mentioned>
           ponit duplicem: per relationem ad proxi<lb ed="#Q"/>mum,
-          quam vocat <quote>consentaneam, cum per ca<lb ed="#Q"/>ritatem
+          quam vocat <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1214">consentaneam, cum per ca<lb ed="#Q"/>ritatem
           multorum hominum est anima una</quote>; per<!--m-->
-          <lb ed="#Q"/>relationem ad Deum, quam vocat <quote>votivam,
+          <lb ed="#Q"/>relationem ad Deum, quam vocat <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1224">votivam,
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>cum anima Deo adhaerens, <quote>unus spiritus est</quote></quote>.
+          <lb ed="#Q"/>cum anima Deo adhaerens, <quote xml:id="ahsh-l1p1i1t3q1m1c3-Qd1e1230">unus spiritus est</quote></quote>.
           <lb ed="#Q"/>Item, unitatem in Deo considerat dupliciter: per<lb ed="#Q"/>sonalem
           et substantialem. In personali considerat
           <lb ed="#Q"/>tres naturas et ex tempore, ut in Christo tres
@@ -387,8 +381,8 @@
           <lb ed="#Q"/>aeterno in una natura et substantia.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4394">
-          <lb ed="#Q"/>III. Secundum autem <name>Avicennam</name>, qui se<lb ed="#Q"/>quitur
-          <name>Aristotelem</name>, differentiae <mentioned>unius</mentioned><!--a--> assi<lb ed="#Q"/>gnantur
+          <lb ed="#Q"/>III. Secundum autem <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1253">Avicennam</name>, qui se<lb ed="#Q"/>quitur
+          <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1257">Aristotelem</name>, differentiae <mentioned>unius</mentioned><!--a--> assi<lb ed="#Q"/>gnantur
           hoc modo. Nam non accipitur <mentioned>unum</mentioned><!--b--> in
           <lb ed="#Q"/>rerum natura nisi aut per se aut per accidens.
           <lb ed="#Q"/>Si <mentioned>per accidens</mentioned>, non potest esse nisi tribus
@@ -429,17 +423,17 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4477">
           <lb ed="#Q"/>Haec igitur est ratio assignationis differentia<lb ed="#Q"/>rum
-          unitatis secundum <name>Avicennam</name>, secundum
+          unitatis secundum <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1413">Avicennam</name>, secundum
           <lb ed="#Q"/>differentias eius quod est <mentioned>per se</mentioned> et eius quod
           <lb ed="#Q"/>est <mentioned>per<!--r--> accidens</mentioned>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c3-d1e4488">
           <lb ed="#Q"/>IV. Secundum quem etiam<!--a--> modum assignan<lb ed="#Q"/>tur
-          differentiae primae in assignatione <name>Aristo<lb ed="#Q"/>telis</name>,
+          differentiae primae in assignatione <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1436">Aristo<lb ed="#Q"/>telis</name>,
           consequentes<!--b--> vero variantur, sicut patet
           <lb ed="#Q"/>diligenter consideranti.
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/> V. Differentiae vero <name>Algazel</name> assignantur se<lb ed="#Q"/>cundum
+          <lb ed="#Q"/> V. Differentiae vero <name xml:id="ahsh-l1p1i1t3q1m1c3-Nd1e1450">Algazel</name> assignantur se<lb ed="#Q"/>cundum
           differentias eius quod est <mentioned>simpliciter</mentioned>
           <lb ed="#Q"/>et<!--c--> eius  quod est <mentioned>secundum quid</mentioned>, sicut patet
           <lb ed="#Q"/>diligenter intuenti.

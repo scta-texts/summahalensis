@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="82"/><cb ed="#Q" n="a"/>
       </div>
@@ -63,8 +57,8 @@
           <lb ed="#Q"/>per<!--d--> inhabitantem gratiam<!--1-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3742">
-          <lb ed="#Q"/>Ad quod sic opponitur: 1. <name>Bernardus</name>, in li<lb ed="#Q"/>bro
-          <title>De libero arbitrio</title><!--2-->: <quote>Deus auctor salutis est,
+          <lb ed="#Q"/>Ad quod sic opponitur: 1. <name xml:id="ahsh-l1p1i1t2q3t3m2c5-Nd1e130">Bernardus</name>, in li<lb ed="#Q"/>bro
+          <title>De libero arbitrio</title><!--2-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c5-Qd1e137">Deus auctor salutis est,
           <lb ed="#Q"/>liberum autem<!--e--> arbitrium capax; nec dare valet
           <lb ed="#Q"/>eam nisi Deus, nec capere nisi liberum arbi<lb ed="#Q"/>trium</quote>.
           Si ergo in parvulis non est liberum ar<lb ed="#Q"/>bitrium
@@ -77,7 +71,7 @@
           <lb ed="#Q"/>2. Si dicatur quod liberum arbitrium est in
           <lb ed="#Q"/>parvulis secundum<!--f--> potentiam et hoc sufficit ad
           <lb ed="#Q"/>susceptionem gratiae inhabitantis — contra:
-          <lb ed="#Q"/><name>Bernardus</name>, ibidem: <quote>Tam absque consensu
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q3t3m2c5-Nd1e169">Bernardus</name>, ibidem: <quote xml:id="ahsh-l1p1i1t2q3t3m2c5-Qd1e172">Tam absque consensu
           <lb ed="#Q"/>esse non potest recipientis quam absque gratia
           <lb ed="#Q"/>dantis</quote>; sed impossibile est quod gratia salutis
           detur absque gratia dantis; ergo impossibile est
@@ -86,8 +80,8 @@
           <lb ed="#Q"/>eis potentia ad susceptionem gratiae inhabi<lb ed="#Q"/>tantis.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3789">
-          <lb ed="#Q"/>3. Item, dicit <name ref="#Augustine">Augustinus</name>, in libro <title>Retracta<lb ed="#Q"/>tionum</title><!--3-->:
-          <quote>Non miseretur. Deus, nisi voluntas
+          <lb ed="#Q"/>3. Item, dicit <name xml:id="ahsh-l1p1i1t2q3t3m2c5-Nd1e193" ref="#Augustine">Augustinus</name>, in libro <title>Retracta<lb ed="#Q"/>tionum</title><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t3m2c5-Qd1e202">Non miseretur. Deus, nisi voluntas
           <lb ed="#Q"/>praecesserit</quote>; sed Dei miseratio est suae gratiae
           <lb ed="#Q"/>donatio; ergo non dat gratiam, nisi praecedat vo<lb ed="#Q"/>luntas;
           cum ergo in parvulis non possit esse vo<lb ed="#Q"/>luntas
@@ -96,7 +90,7 @@
           <lb ed="#Q"/>per gratiam in parvulis.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3809">
-          <lb ed="#Q"/>Contra<!--g-->: a. <title>Rom.</title> 5,20-21: <quote source="http://scta.info/resource/rom5_20@7-12 http://scta.info/resource/rom5_21@1-20">Ubi abundavit<!--h--> de<lb ed="#Q"/>lictum,
+          <lb ed="#Q"/>Contra<!--g-->: a. <title>Rom.</title> 5,20-21: <quote xml:id="ahsh-l1p1i1t2q3t3m2c5-Qd1e227" source="http://scta.info/resource/rom5_20@7-12 http://scta.info/resource/rom5_21@1-20">Ubi abundavit<!--h--> de<lb ed="#Q"/>lictum,
           superabundavit et gratia, ut sicut regna<lb ed="#Q"/>vit
           peccatum in mortem, ita et gratia regnet per
           <lb ed="#Q"/>iustitiam in vitam aeternam per Iesum Christum</quote>;
@@ -107,7 +101,7 @@
           <lb ed="#Q"/>gratiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3832">
-          <lb ed="#Q"/>b. Item, <title>Rom.</title> 5,15: <quote source="http://scta.info/resource/rom5_15@17-29">Non sicut delictum, ita et
+          <lb ed="#Q"/>b. Item, <title>Rom.</title> 5,15: <quote xml:id="ahsh-l1p1i1t2q3t3m2c5-Qd1e257" source="http://scta.info/resource/rom5_15@17-29">Non sicut delictum, ita et
           <lb ed="#Q"/>donum, quia gratia unius hominis Iesu Christi in
           <lb ed="#Q"/>plures abundavit</quote>. Si ergo gratia Iesu Christi in
           <lb ed="#Q"/>plures abundat<!--i--> quam peccatum originale, et
@@ -116,7 +110,7 @@
           <lb ed="#Q"/>Deus per inhabitantem gratiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c5-d1e3850">
-          <lb ed="#Q"/>c. Item, <title>I Cor.</title> 15,22: <quote source="http://scta.info/resource/Icor15_22@2-12">Sicut in Adam omnes
+          <lb ed="#Q"/>c. Item, <title>I Cor.</title> 15,22: <quote xml:id="ahsh-l1p1i1t2q3t3m2c5-Qd1e282" source="http://scta.info/resource/Icor15_22@2-12">Sicut in Adam omnes
           <lb ed="#Q"/>moriuntur, ita et in Christo omnes vivificabun<lb ed="#Q"/>tur</quote>.
           Si ergo in Adam moriuntur non solum adulti,
           <lb ed="#Q"/>sed parvuli, et vivificatio illa est per susceptio<lb ed="#Q"/>nem
@@ -141,7 +135,7 @@
           <lb ed="#Q"/>fit, removeatur per iustificationem, quae homini
           <lb ed="#Q"/>fit; iniustitia vero, quam facit, removeatur per iu<lb ed="#Q"/>stitiam
           ad quam iaciat aliquid. De qua iustifica<lb ed="#Q"/>tione
-          dicit <name ref="#Augustine">Augustinus</name><!--5-->: <quote>Qui<!--r--> te creavit
+          dicit <name xml:id="ahsh-l1p1i1t2q3t3m2c5-Nd1e354" ref="#Augustine">Augustinus</name><!--5-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c5-Qd1e359">Qui<!--r--> te creavit
           <lb ed="#Q"/>sine .te, non te iustificat sine te</quote>. Prima est in
           <lb ed="#Q"/>parvulo, secunda in adulto. Ex hoc patet quod
           <lb ed="#Q"/>non requiritur consensus in iustificatione prima,
@@ -174,7 +168,7 @@
           distinctione voluntatis respondendum est ad
           <lb ed="#Q"/>obiectum sequens. — Si tamen intelligere<lb ed="#Q"/>mus
           illud quod sequitur, loquitur illa auctoritas
-          <lb ed="#Q"/>de adultis; unde dicit<!--1-->: <quote>Gratiae operanti salutem
+          <lb ed="#Q"/>de adultis; unde dicit<!--1-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c5-Qd1e448">Gratiae operanti salutem
           <lb ed="#Q"/>cooperari dicitur liberum arbitrium</quote>. Sed libe<lb ed="#Q"/>rum
           arbitrium non cooperatur nisi adulto, cum<!--e-->
           <lb ed="#Q"/>in ipso solo sit usus liberi arbitrii; et propter hoc

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="92"/><cb ed="#Q" n="a"/>
       </div>
@@ -69,22 +63,22 @@
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e3750">
           <pb ed="#Q" n="93"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>Ad quod obicit a. <name>Richardus de S. Vic<lb ed="#Q"/>tore</name><!--a-->,
-          in libro <title>De Trinitate</title><!--1-->: <quote>Immensum dicitur
+          <lb ed="#Q"/>Ad quod obicit a. <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e144">Richardus de S. Vic<lb ed="#Q"/>tore</name><!--a-->,
+          in libro <title>De Trinitate</title><!--1-->: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e154">Immensum dicitur
           <lb ed="#Q"/>quod nulli mensurae aequale vel comparabile inve<lb ed="#Q"/>nitur.
           Si ergo plures immensos dicimus, erit qui<lb ed="#Q"/>libet
           eorum cuilibet inaequalis et incomparabilis;
           <lb ed="#Q"/>unius ergo mensura necessario supergredietur al<lb ed="#Q"/>terius
-          mensuram</quote>; ex quo sequitur quod <quote>erit
+          mensuram</quote>; ex quo sequitur quod <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e167">erit
           <lb ed="#Q"/>unaquaeque qualibet altera maior; quod est impos<lb ed="#Q"/>sibile</quote>.
-          Ex quo relinquitur quod <quote>impossibile est
+          Ex quo relinquitur quod <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e174">impossibile est
           <lb ed="#Q"/>plures immensos esse</quote>. Ex quo ulterius arguit,
-          <lb ed="#Q"/>sumpta propositione nota per se<!--2-->: <quote><mentioned>Si immen<lb ed="#Q"/>sitate
+          <lb ed="#Q"/>sumpta propositione nota per se<!--2-->: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e183"><mentioned>Si immen<lb ed="#Q"/>sitate
           carere non potuit qui aeternus est</mentioned>, si
           <lb ed="#Q"/>non possunt esse plures immensi, nec plures ae<lb ed="#Q"/>terni</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e3787">
-          <lb ed="#Q"/>b. Item, <name ref="#Anselm">Anselmus</name>, in <title ref="#Monologion">Monologion</title><!--3-->: <quote>Hoc
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e199" ref="#Anselm">Anselmus</name>, in <title ref="#Monologion">Monologion</title><!--3-->: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e206">Hoc
           <lb ed="#Q"/>solo aperte percipitur veram<!--b--> aeternitatem illi
           <lb ed="#Q"/>soli inesse substantiae, quae sola non facta, sed
           <lb ed="#Q"/>factrix inventa est, quoniam vera aeternitas prin<lb ed="#Q"/>cipii
@@ -153,7 +147,7 @@
           <lb ed="#Q"/>aliquid procedat a Deo ab aeterno, non consub<lb ed="#Q"/>stantiale
           illi, quod sit aeternum - contra: quam
           <lb ed="#Q"/>cito pes est in pulvere, relinquitur vestigium pe<lb ed="#Q"/>dis
-          in pulvere, ut dicit <name ref="#Augustine">Augustinus</name><!--k-->, <title>X De
+          in pulvere, ut dicit <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e372" ref="#Augustine">Augustinus</name><!--k-->, <title>X De
           <lb ed="#Q"/>civitate Dei</title><!--5-->; et si ab aeterno esset pes in pul<lb ed="#Q"/>vere,
           videtur tunc quod ab aeterno esset vesti<lb ed="#Q"/>gium
           pedis. Ponamus ergo quod mundus arche<lb ed="#Q"/>typus
@@ -179,7 +173,7 @@
           <lb ed="#Q"/>aeterno voluit - sed contra: si non ab aeterno
           <lb ed="#Q"/>voluit et postmodum voluit, ergo<!--n--> incepit velle et
           <lb ed="#Q"/>factus est de nolente volens; ergo erit mutatio in
-          <lb ed="#Q"/>eius voluntate, sicut obicit <name ref="#Augustine">Augustinus</name>, in li<lb ed="#Q"/>bro
+          <lb ed="#Q"/>eius voluntate, sicut obicit <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e441" ref="#Augustine">Augustinus</name>, in li<lb ed="#Q"/>bro
           <title>Confessionum</title><!--6-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e3992">
@@ -188,7 +182,7 @@
           <lb ed="#Q"/>4. Item, non est influentia activa sine passiva;
           <lb ed="#Q"/>aut ergo summa bonitas semper influit aut non.
           <lb ed="#Q"/>Si non semper, sed<!--a--> aliquando influxit: ergo et ali<lb ed="#Q"/>quando
-          innovatio ibi facta est; unde et <name>Philo<lb ed="#Q"/>sophus</name><!--1-->
+          innovatio ibi facta est; unde et <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e468">Philo<lb ed="#Q"/>sophus</name><!--1-->
           dixit, in isto casu, scilicet si non sem<lb ed="#Q"/>per
           influxit, necesse est quod in eo mutetur vo<lb ed="#Q"/>luntas
           vel renovetur<!--b--> appetitus. Oportet ergo po<lb ed="#Q"/>nere
@@ -209,10 +203,10 @@
           <lb ed="#Q"/>creaturarum ab aeterno.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e4046">
-          <lb ed="#Q"/>6. Item, <name ref="#Anselm">Anselmus</name>, in <title ref="#Monologion">Monologion</title><!--2-->: <quote>Intel<lb ed="#Q"/>ligere
+          <lb ed="#Q"/>6. Item, <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e521" ref="#Anselm">Anselmus</name>, in <title ref="#Monologion">Monologion</title><!--2-->: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e528">Intel<lb ed="#Q"/>ligere
           Dei est suum dicere</quote>; sed suum dicere
-          <lb ed="#Q"/>est facere creaturas<!--3-->: <quote>dixit enim et facta sunt</quote><!--4-->,
-          <lb ed="#Q"/>sicut dicit <name ref="#Augustine">Augustinus</name>, in libro <title>Confessio<lb ed="#Q"/>num</title><!--5-->;
+          <lb ed="#Q"/>est facere creaturas<!--3-->: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e538">dixit enim et facta sunt</quote><!--4-->,
+          <lb ed="#Q"/>sicut dicit <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e543" ref="#Augustine">Augustinus</name>, in libro <title>Confessio<lb ed="#Q"/>num</title><!--5-->;
           ergo<!--e--> suum intelligere est facere creatu<lb ed="#Q"/>ras;
           sed ab aeterno intelligit; ergo ab aeterno
           <lb ed="#Q"/>facit creaturas.
@@ -246,8 +240,8 @@
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e4118">
           <lb ed="#Q"/>9. Sunt etiam rationes philosophorum qui<lb ed="#Q"/>bus
           probatur creaturas esse ab aeterno. Quarum
-          <lb ed="#Q"/>unam ponit <name ref="#Augustine">Augustinus</name>, in <title>XII De civitate
-          <lb ed="#Q"/>Dei</title><!--5-->, ita dicens: Arguunt philosophi<!--k--> quod <quote>bo<lb ed="#Q"/>nitas
+          <lb ed="#Q"/>unam ponit <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e631" ref="#Augustine">Augustinus</name>, in <title>XII De civitate
+          <lb ed="#Q"/>Dei</title><!--5-->, ita dicens: Arguunt philosophi<!--k--> quod <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e643">bo<lb ed="#Q"/>nitas
           Dei nunquam vacua fuisse credenda est, ut
           <lb ed="#Q"/>sic inciperet operari quasi poenituerit eum prioris
           <lb ed="#Q"/>vacationis; et ideo necesse est, inquiunt<!--l-->, ea<lb ed="#Q"/>dem
@@ -260,14 +254,14 @@
           <lb ed="#Q"/>non erit idem cum illa, aut quare non?
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e4150">
-          <lb ed="#Q"/>11. Item, <name ref="#Augustine">Augustinus</name>, <title>XI Confessionum</title><!--7-->:
-          <quote>Si exortum est aliquid in Dei substantia quod
+          <lb ed="#Q"/>11. Item, <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e673" ref="#Augustine">Augustinus</name>, <title>XI Confessionum</title><!--7-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e679">Si exortum est aliquid in Dei substantia quod
           <lb ed="#Q"/>prius non erat, non veraciter dicitur aeterna iila
           <lb ed="#Q"/>substantia. Si autem voluntas Dei sempiterna erat
           <lb ed="#Q"/>ut esset creatura, cur non sempiterna est crea<lb ed="#Q"/>turax</quote>?
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e4163">
-          <lb ed="#Q"/>12. Item, obiciunt <name>philosophi</name><!--8-->, sumentes ra<pb ed="#Q" n="95"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tionem
+          <lb ed="#Q"/>12. Item, obiciunt <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e695">philosophi</name><!--8-->, sumentes ra<pb ed="#Q" n="95"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tionem
           ex natura motus<!--1-->. Nam motus caeli aut est
           <lb ed="#Q"/>aeternus aut non. Si non: fuit ergo factus; fuit
           <lb ed="#Q"/>ergo possibilis moveri et postea motus; ergo fuit
@@ -294,7 +288,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e4218">
           <lb ed="#Q"/>14. Item, alia ratio est<!--e--> ex parte motivi<!--3-->. Opor<lb ed="#Q"/>tet
-          enim dicere quod semper fuit, et ita, <quote>si idem,
+          enim dicere quod semper fuit, et ita, <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e773">si idem,
           <lb ed="#Q"/>ad idem similiter se habens, semper natum est
           <lb ed="#Q"/>idem facere</quote><!--4-->, semper fuit motus circa<!--f--> mate<lb ed="#Q"/>riam,
           et ita semper mundus.
@@ -375,13 +369,13 @@
           <lb ed="#Q"/>2. Ad secundum quod obicitur de pede 
           <lb ed="#Q"/>et vestigio in pulvere: dicendum quod non est
           <lb ed="#Q"/>simile comparatione mundi archetypi et sensibilis
-          <lb ed="#Q"/>secundum ordinem prioritatis. Cum enim dicat <name>Au<lb ed="#Q"/>gustinus</name>,
+          <lb ed="#Q"/>secundum ordinem prioritatis. Cum enim dicat <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e992">Au<lb ed="#Q"/>gustinus</name>,
           <title>XII Confessionum</title><!--1-->, quod aliquid di<lb ed="#Q"/>citur
           prius alio quatuor modis -— primo modo dici<lb ed="#Q"/>tur
-          prius <quote>origine, ut sonus cantu</quote>; secundo modo
-          <lb ed="#Q"/>dicitur prius <quote>tempore, ut flos prior fructu</quote>; ter<lb ed="#Q"/>tio
-          modo<!--c--> dignitate, <quote>ut fructus flore</quote>; quarto
-          <lb ed="#Q"/>modo prius <quote>aeternitate sive immensitate, ut Deus
+          prius <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1005">origine, ut sonus cantu</quote>; secundo modo
+          <lb ed="#Q"/>dicitur prius <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1010">tempore, ut flos prior fructu</quote>; ter<lb ed="#Q"/>tio
+          modo<!--c--> dignitate, <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1016">ut fructus flore</quote>; quarto
+          <lb ed="#Q"/>modo prius <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1020">aeternitate sive immensitate, ut Deus
           <lb ed="#Q"/>ante omnia</quote> —- pes autem in pulvere sola origine
           <lb ed="#Q"/>vel natura praecedit vestigium, et ideo nihil pro<lb ed="#Q"/>hibet
           illa esse simul duratione. Mundus autem
@@ -390,8 +384,8 @@
           <lb ed="#Q"/>immensitate: et ideo impossibile est mundum sen<lb ed="#Q"/>sibilem
           coaequari mundo archetypo in duratione,
           <lb ed="#Q"/>quia immenso nihil comparabile aut aequale in<lb ed="#Q"/>venitur
-          2. Unde <name>Augustinus</name>, in <title>XI De civitate
-          <lb ed="#Q"/>Dei </title><!--3-->: <quote>Illud temporis spatium, quod ab aliquo
+          2. Unde <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1045">Augustinus</name>, in <title>XI De civitate
+          <lb ed="#Q"/>Dei </title><!--3-->: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1054">Illud temporis spatium, quod ab aliquo
           <lb ed="#Q"/>initio progreditur et aliquo termino coercetur, ma<lb ed="#Q"/>gnitudine
           quacumque tendatur, comparatum illi
           <lb ed="#Q"/>quod initium non habet, nescio utrum pro minimo
@@ -400,7 +394,7 @@
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e4436">
           <lb ed="#Q"/>3. Ad tertium respondendum<!--e--> quod poten<lb ed="#Q"/>tia<!--f-->,
           scientia et voluntas faciendi mundum fue<lb ed="#Q"/>runt
-          in Deo ab aeterno, secundum <name>Augustinum</name>,
+          in Deo ab aeterno, secundum <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1079">Augustinum</name>,
           <lb ed="#Q"/>in libro <title>Confessionum</title><!--4-->; tamen<!--g-->, quamvis in eo
           <lb ed="#Q"/>esset ab aeterno<!--h--> voluntas ut mundus fieret, non
           <lb ed="#Q"/>tamen erat voluntas ut fieret<!--i--> ab aeterno, sed
@@ -432,7 +426,7 @@
           quae sunt in diversitate substantiae, et ad
           <lb ed="#Q"/>hanc influentiam, si ponatur non fuisse et postea
           <lb ed="#Q"/>esse, non sequitur mutatio ex parte bonitatis. -—
-          <lb ed="#Q"/>Quod vero dicit <name ref="#Aristotle">Philosophus</name> quod <mentioned>ne<lb ed="#Q"/>cesse
+          <lb ed="#Q"/>Quod vero dicit <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1179" ref="#Aristotle">Philosophus</name> quod <mentioned>ne<lb ed="#Q"/>cesse
           est quod mutetur in eo voluntas vel reno<lb ed="#Q"/>vetur<!--r-->
           appetitus </mentioned>: dicendum quod locutus est de
           <lb ed="#Q"/>Deo ad modum hominis, et ideo deceptus est.
@@ -467,7 +461,7 @@
           <lb ed="#Q"/>est ex parte defectus materiae creaturarum, quae
           <lb ed="#Q"/>non potest simul Sustinere impressiones agentium,
           <lb ed="#Q"/>qui non possunt agere nisi successive. Unde, in
-          <lb ed="#Q"/><name>Apocryphis Esdrae</name><!--6-->, interrogavit Esdras: <quote>Non
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1265">Apocryphis Esdrae</name><!--6-->, interrogavit Esdras: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1268">Non
           <lb ed="#Q"/>poteras facere eos qui facti sunt et qui sunt et
           <lb ed="#Q"/>qui futuri sunt, in unum, ut citius iudicium tuum
           <lb ed="#Q"/>ostenderes<!--u-->? Et respondit ad me et dixit: non
@@ -501,7 +495,7 @@
           <lb ed="#Q"/>aeternum. Exemplum huius est in sole: <mentioned>facere</mentioned>
           <lb ed="#Q"/>eius est lucere et illuminare, et unum<!--f--> coaevum
           <lb ed="#Q"/>soli, aliud<!--g--> non. Et nota ad hoc auctoritatem
-          <lb ed="#Q"/><name>Augustini</name>, <title>XI Confessionum</title><!--1-->: <quote>Verbo tuo
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1371">Augustini</name>, <title>XI Confessionum</title><!--1-->: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1376">Verbo tuo
           <lb ed="#Q"/>coaeterno simul et sempiterne<!--h--> dicis omnia quae
           <lb ed="#Q"/>dicis, et fit<!--i--> quidquid dicis ut fiat; nec aliter
           <lb ed="#Q"/>quam dicendo facis, nec tamen simul et sempi<lb ed="#Q"/>terna
@@ -560,12 +554,12 @@
           <lb ed="#Q"/>sed etiam creaturae: quod non potest esse.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e4778">
-          <lb ed="#Q"/>9. Ad nonum respondet <name ref="#Augustine">Augustinus</name>, <title>XII
+          <lb ed="#Q"/>9. Ad nonum respondet <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1536" ref="#Augustine">Augustinus</name>, <title>XII
           <lb ed="#Q"/>De civitate Dei</title><!--5-->, dicens: Non intelligunt phi<lb ed="#Q"/>losophi
           Deum animo aliter affici cum vacat<!--s-->
           <lb ed="#Q"/>quam cum operatur, quia nec affici dicendus<!--t-->
           <lb ed="#Q"/>est; voluit etiam Deus in hoc ostendere quod
-          <lb ed="#Q"/>rebus non eguerit, <quote>sed gratuita bonitate condi<lb ed="#Q"/>derit,
+          <lb ed="#Q"/>rebus non eguerit, <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1558">sed gratuita bonitate condi<lb ed="#Q"/>derit,
           cum sine illis in aeternitate non in minori
           <lb ed="#Q"/>beatitudine permansit</quote>. Ad obiectum ipsorum
           <lb ed="#Q"/>patet solutio ex dictis.
@@ -592,7 +586,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c4-d1e4843">
           <lb ed="#Q"/>12. Ad duodecimum dicendum quod<!--a--> re<lb ed="#Q"/>spicientes
-          <name>philosophi</name><!--2--> ad causas inferiores
+          <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1632">philosophi</name><!--2--> ad causas inferiores
           <lb ed="#Q"/>motus caeli, dixerunt motum caeli<!--b--> non habere
           <lb ed="#Q"/>principium nec finem suae durationis. Ex parte
           <lb ed="#Q"/>enim motoris, qui<!--c--> similiter se habens est sem<lb ed="#Q"/>per
@@ -612,7 +606,7 @@
           modo se habente materia subiecta semper,
           <lb ed="#Q"/>erit semper generatio et corruptio, et ita mundus.
           <lb ed="#Q"/>Secundum causas ergo inferiores erat<!--f--> positio
-          <lb ed="#Q"/><name>philosophorum</name> de aeternitate motus et mun<lb ed="#Q"/>di.
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1688">philosophorum</name> de aeternitate motus et mun<lb ed="#Q"/>di.
           -— Secundum vero causas superiores patet cui<lb ed="#Q"/>libet
           recte consideranti initium temporis et motus
           <lb ed="#Q"/>et mundi, secundum quod mundus dicitur fluxus
@@ -657,7 +651,7 @@
           <lb ed="#Q"/>dicendum quod respiciendo motivum primum,
           <lb ed="#Q"/>quod est divina dispositio sive voluntas divinae<!--k-->
           <lb ed="#Q"/>sapientiae disponentis et ordinantis ipsum motum
-          <lb ed="#Q"/>caeli, non tenet illa propositio: <quote>idem similiter se
+          <lb ed="#Q"/>caeli, non tenet illa propositio: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1809">idem similiter se
           <lb ed="#Q"/>habens natum est semper<!--l--> facere idem</quote>. Non enim
           <lb ed="#Q"/>plena est illa propositio in causa voluntaria, et
           <lb ed="#Q"/>maxime in illa quae nullo modo alligatur vel
@@ -672,15 +666,15 @@
           electorum seu multiplicatio hominum, ut
           <lb ed="#Q"/>dictum est<!--4-->, ex parte ipsius mobilis, in quantum
           <lb ed="#Q"/>huiusmodi sic considerati, est ratio desitionis<!--n-->
-          <lb ed="#Q"/>motus. Et hoc habetur in <name>Apocryphis Esdrae</name>, ubi
-          <lb ed="#Q"/>quaerit Esdras ab angelo<!--5-->: <quote>Usquequo spero sic,
+          <lb ed="#Q"/>motus. Et hoc habetur in <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1853">Apocryphis Esdrae</name>, ubi
+          <lb ed="#Q"/>quaerit Esdras ab angelo<!--5-->: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1859">Usquequo spero sic,
           <lb ed="#Q"/>et quando veniet fructus areae mercedis nostrae?
           <lb ed="#Q"/>Et respondit Uriel archangelus: quando impletus
           <lb ed="#Q"/>fuerit numerus seminum in vobis, quoniam in sta<lb ed="#Q"/>tera
           ponderavit saeculum et mensura numeravit
           <lb ed="#Q"/>tempora; et non commovebit nec excitabit, donec
           <lb ed="#Q"/>impleatur mensura praedicta</quote>. Et tangit illud quod
-          <lb ed="#Q"/>habetur <name>Iob</name> 14,12: <quote>Donec atteratur caelum, homo
+          <lb ed="#Q"/>habetur <name xml:id="ahsh-l1p1i1t2q4m2c4-Nd1e1878">Iob</name> 14,12: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1880">Donec atteratur caelum, homo
           <lb ed="#Q"/>non resurget</quote>. — Patet igitur quod respiciendo
           <lb ed="#Q"/>ad<!--o--> causas superiores dispositionis divinae, sa<lb ed="#Q"/>pientiae
           et voluntatis, quod cessare debet mo<lb ed="#Q"/>tus;
@@ -715,7 +709,7 @@
           <lb ed="#Q"/>finem habet suae motionis et actionis extra se,
           <lb ed="#Q"/>et ideo excitatur ab extrinseco; Deus vero nun<lb ed="#Q"/>quam<!--b-->
           habet finem extra se, sed intra, <title>Prov.</title>
-          16,4: <quote>Omnia propter semetipsum operatus est Do<lb ed="#Q"/>minus</quote>.
+          16,4: <quote xml:id="ahsh-l1p1i1t2q4m2c4-Qd1e1975">Omnia propter semetipsum operatus est Do<lb ed="#Q"/>minus</quote>.
           — Item, in motore naturali, sicut in corpo<lb ed="#Q"/>ribus
           inferioribus, quia non sunt possibilia tota<lb ed="#Q"/>liter
           ad suum motum complendum, accidit pro<lb ed="#Q"/>hibens;

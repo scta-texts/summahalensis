@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="147"/><cb ed="#Q" n="a"/>
       </div>
@@ -63,7 +57,7 @@
           <lb ed="#Q"/>utrum sit una ita quod non plures.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c1-d1e3742">
-          <lb ed="#Q"/>Ad quod sic: a. Secundum <name>Anselmum</name><!--1-->,
+          <lb ed="#Q"/>Ad quod sic: a. Secundum <name xml:id="ahsh-l1p1i1t3q2m2c1-Nd1e128">Anselmum</name><!--1-->,
           <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e3747">sicut se habet color ad corpus coloratum, sic
             <lb ed="#Q"/>veritas ad rem veram</quote>. Ergo si multiplicantur
           <lb ed="#Q"/>colores secundum quod multiplicatur coloratum,
@@ -72,7 +66,7 @@
           <lb ed="#Q"/>constet multa esse vera.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c1-d1e3762">
-          <lb ed="#Q"/>b. Item, si <quote>veritas non est aliud quam recti<lb ed="#Q"/>tudo;
+          <lb ed="#Q"/>b. Item, si <quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e151">veritas non est aliud quam recti<lb ed="#Q"/>tudo;
           sed alia rectitudo significationis, alia vo<lb ed="#Q"/>luntatis,
           quia haec in voluntate, sed<!--b--> illa in si<lb ed="#Q"/>gnificatione
           habet suum esse</quote><!--2-->; ergo alia<!--c--> ve<lb ed="#Q"/>ritas
@@ -84,28 +78,28 @@
           <lb ed="#Q"/>verorum, non erit una veritas omnium verorum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c1-d1e3785">
-          <lb ed="#Q"/>Contra: 1. <name ref="#Anselm">Anselmus</name>, <title>De veritate</title><!--3-->: <quote>Si rec<lb ed="#Q"/>titudo
+          <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1p1i1t3q2m2c1-Nd1e182" ref="#Anselm">Anselmus</name>, <title>De veritate</title><!--3-->: <quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e188">Si rec<lb ed="#Q"/>titudo
           non est in rebus illis, quae debent rectitu<lb ed="#Q"/>dinem,
           nisi cum sint secundum quod debent</quote>,
           <lb ed="#Q"/>debent autem esse secundum quod exigit prima
-          rectitudo, quae est prima veritas: ergo <quote>hoc est
+          rectitudo, quae est prima veritas: ergo <quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e198">hoc est
           <lb ed="#Q"/>illis rectas</quote> et veras esse secundum primam rec<lb ed="#Q"/>titudinem
           et veritatem esse; est igitur una recti<lb ed="#Q"/>tudo
           et veritas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c1-d1e3803">
-          <lb ed="#Q"/>2. Item, <name>Anselmus</name><!--4-->: <quote>Sicut tempus se habet
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t3q2m2c1-Nd1e212">Anselmus</name><!--4-->: <quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e215">Sicut tempus se habet
           <lb ed="#Q"/>ad temporalia, sic veritas ad vera: veritas enim
           <lb ed="#Q"/>est mensura omnium verorum, sicut tempus om<lb ed="#Q"/>nium
-          temporalium</quote>. Si ergo <quote>unum tempus om<lb ed="#Q"/>nium
+          temporalium</quote>. Si ergo <quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e224">unum tempus om<lb ed="#Q"/>nium
           temporalium</quote>, quamvis<!--f--> diversa tempora<lb ed="#Q"/>lia
           quae tempore mensurantur, ergo una veritas
           <lb ed="#Q"/>erit omnium verorum, quamvis multa sint quae
           veritate mensurantur.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c1-d1e3821">
-          <lb ed="#Q"/>3. Item, secundum <name ref="#Augustine">Augustinum</name>, in libro <title>So<lb ed="#Q"/>liloquiorum</title>,
-          et <name ref="#Anselm">Anselmum</name>, <title>De veritate</title>, veri<lb ed="#Q"/>tas
+          <lb ed="#Q"/>3. Item, secundum <name xml:id="ahsh-l1p1i1t3q2m2c1-Nd1e241" ref="#Augustine">Augustinum</name>, in libro <title>So<lb ed="#Q"/>liloquiorum</title>,
+          et <name xml:id="ahsh-l1p1i1t3q2m2c1-Nd1e249" ref="#Anselm">Anselmum</name>, <title>De veritate</title>, veri<lb ed="#Q"/>tas
           radicatur in permanente, non in non-perma<lb ed="#Q"/>nente<!--g-->;
           sed unum est permanens in omni re<!--h-->,
           <cb ed="#Q" n="b"/>
@@ -115,17 +109,17 @@
         <p xml:id="ahsh-l1p1i1t3q2m2c1-d1e3848">
           <lb ed="#Q"/>Respondeo: Veritas rei dicitur duobus modis<!--i-->.
           <lb ed="#Q"/>Uno modo, secundum quod dicitur <mentioned>indivisio<!--k--> esse
-          <lb ed="#Q"/>et quod est</mentioned>, prout dicitur ab <name>Augustino</name><!--7-->: <quote>Ve<lb ed="#Q"/>ritas
+          <lb ed="#Q"/>et quod est</mentioned>, prout dicitur ab <name xml:id="ahsh-l1p1i1t3q2m2c1-Nd1e286">Augustino</name><!--7-->: <quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e290">Ve<lb ed="#Q"/>ritas
           est id quod est</quote>; et haec veritas fundatur
           <lb ed="#Q"/>super debita principia essentiae rerum et debitam
           <lb ed="#Q"/>eorum<!--l--> unionem in creaturis, et haec veritas
           <lb ed="#Q"/>multiplicatur secundum multiplicationem essentiae
           <lb ed="#Q"/>verorum. — Alio modo, secundum quod veritas
-          <lb ed="#Q"/>dicitur ab <name>Augustino</name> <quote>lux intelligibilis</quote>, eo
+          <lb ed="#Q"/>dicitur ab <name xml:id="ahsh-l1p1i1t3q2m2c1-Nd1e308">Augustino</name> <quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e310">lux intelligibilis</quote>, eo
           <lb ed="#Q"/>quod in modum lucis manifestat omnia vera et
           <lb ed="#Q"/>tenet et conservat in esse, quemadmodum lux est
           <lb ed="#Q"/>principium conservativum suorum effectuum; prout
-          <lb ed="#Q"/>dicitur ab <name>Anselmo</name> <quote>rectitudo mente percepti<lb ed="#Q"/>bilis</quote>
+          <lb ed="#Q"/>dicitur ab <name xml:id="ahsh-l1p1i1t3q2m2c1-Nd1e321">Anselmo</name> <quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e323">rectitudo mente percepti<lb ed="#Q"/>bilis</quote>
           eo quod per ipsam mensurantur omnia
           <lb ed="#Q"/>vera, sicut per tempus omnia temporalia: hoc
           <lb ed="#Q"/>modo una est et sola veritas, quae est divina,
@@ -141,7 +135,7 @@
           <lb ed="#Q"/>differentias —- ut veritas significationis, veritas
           <lb ed="#Q"/>actionis<!--8--> etc. —- si nullam ab ipsis rebus accipit
           <lb ed="#Q"/>veritas<!--o--> diversitatem? Respondeo, secundum
-          <lb ed="#Q"/><name>Anselmum</name>, <title>De veritate</title><!--9-->: <quote>Improprie huius rei
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m2c1-Nd1e366">Anselmum</name>, <title>De veritate</title><!--9-->: <quote xml:id="ahsh-l1p1i1t3q2m2c1-Qd1e371">Improprie huius rei
           <lb ed="#Q"/>vel illius veritas dicitur esse, quoniam illa non
           <lb ed="#Q"/>in ipsis<!--p--> rebus aut ex ipsis aut per ipsas, in
           <lb ed="#Q"/>quibus esse dicitur, habet suum esse: sed cum

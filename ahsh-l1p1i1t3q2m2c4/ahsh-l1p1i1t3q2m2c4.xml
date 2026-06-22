@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="151"/><cb ed="#Q" n="a"/>
       </div>
@@ -63,18 +57,18 @@
           <lb ed="#Q"/>vel immutabilis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3742">
-          <lb ed="#Q"/>Ad quod sic: a. <name ref="#Anselm">Anselmus</name><!--1-->: <quote xml:id="ahsh-l1p1i1t3q2m2c4-Qd1e3749">Omnino vi<lb ed="#Q"/>deo
+          <lb ed="#Q"/>Ad quod sic: a. <name xml:id="ahsh-l1p1i1t3q2m2c4-Nd1e126" ref="#Anselm">Anselmus</name><!--1-->: <quote xml:id="ahsh-l1p1i1t3q2m2c4-Qd1e3749">Omnino vi<lb ed="#Q"/>deo
           ipsam rectitudinem immutabilem permanere</quote>;
           <lb ed="#Q"/>sed veritas est rectitudo; ergo veritas omnino est
           <lb ed="#Q"/>immutabilis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3759">
-          <lb ed="#Q"/>b. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De libero ar<lb ed="#Q"/>bitrio</title><!--2-->:
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t3q2m2c4-Nd1e144" ref="#Augustine">Augustinus</name>, in libro <title>De libero ar<lb ed="#Q"/>bitrio</title><!--2-->:
           <quote xml:id="ahsh-l1p1i1t3q2m2c4-Qd1e3768">Veritas non est inferior mente nostra,
           <lb ed="#Q"/>quia de ea iudicaremus</quote> — quod non est verum:
           <lb ed="#Q"/>non enim de ipsa iudicamus, sed per ipsam —nec
           <lb ed="#Q"/>menti aequalis, quia mutaretur sicut mens est mu<lb ed="#Q"/>tabilis.
-          Unde dicit<!--3-->: <quote>Mentes nostrae aliquando
+          Unde dicit<!--3-->: <quote xml:id="ahsh-l1p1i1t3q2m2c4-Qd1e167">Mentes nostrae aliquando
           <lb ed="#Q"/>plus vident, aliquando minus de ipsa: ipsa, in se
           <lb ed="#Q"/>manens, nec proficit nec deficit</quote>. Ex quo vide<lb ed="#Q"/>tur
           quod sit immutabilis.
@@ -125,8 +119,8 @@
           <lb ed="#Q"/>tempora varietur.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3878">
-          <lb ed="#Q"/>f. Item, <name ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--4-->:
-          <quote>Non existente significatione, non<!--k--> perit recti<lb ed="#Q"/>tudo
+          <lb ed="#Q"/>f. Item, <name xml:id="ahsh-l1p1i1t3q2m2c4-Nd1e291" ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--4-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m2c4-Qd1e297">Non existente significatione, non<!--k--> perit recti<lb ed="#Q"/>tudo
           eius qua rectum est et qua exigitur ut
           <lb ed="#Q"/>quod significandum est significetur. Nec ideo est
           <lb ed="#Q"/>rectitudo in significatione, quia nunc incipit esse,
@@ -143,16 +137,16 @@
           <lb ed="#Q"/>sunt, rectitudinem immutabilem permanere</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3913">
-          <lb ed="#Q"/>Contra: 1. <quote source="http://scta.info/resource/ps11_2@9-14">Diminutae sunt veritates<!--p--> a filiis
+          <lb ed="#Q"/>Contra: 1. <quote xml:id="ahsh-l1p1i1t3q2m2c4-Qd1e346" source="http://scta.info/resource/ps11_2@9-14">Diminutae sunt veritates<!--p--> a filiis
           <lb ed="#Q"/>hominum</quote><!--5-->. Ergo multo magis in aliis creaturis
           <lb ed="#Q"/>sunt diminutae, cum homo sit nobilior creatura et
           <lb ed="#Q"/>magis similis Deo; sed omne diminutum est
           <lb ed="#Q"/>mutatum sive mutabile<!--q-->; ergo veritas est mu<lb ed="#Q"/>tabilis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c4-d1e3929">
-          <lb ed="#Q"/>Solutio: Dicendum, secundum <name>Anselmum</name><!--6-->,
+          <lb ed="#Q"/>Solutio: Dicendum, secundum <name xml:id="ahsh-l1p1i1t3q2m2c4-Nd1e370">Anselmum</name><!--6-->,
           <lb ed="#Q"/>quod veritas prima est immutabilis. Et similiter
-          <lb ed="#Q"/><name>Augustinus</name> loquitur de veritate prima in prae<lb ed="#Q"/>dicta
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m2c4-Nd1e376">Augustinus</name> loquitur de veritate prima in prae<lb ed="#Q"/>dicta
           auctoritate<!--7-->: de hac enim simpliciter ve<lb ed="#Q"/>rum
           est quod est immutabilis. Sed de veritate,
           <lb ed="#Q"/>quae est in creaturis, dicimus quod in aliquibus
@@ -168,7 +162,7 @@
           <lb ed="#Q" n="a"/>
           <lb ed="#Q"/>habet veritatem: et haec veritas est immutabilis
           <lb ed="#Q"/>in re<!--a-->. Unde haec veritas non interit, secundum
-          <lb ed="#Q"/><name>Augustinum</name><!--1-->, existente re scilicet quae est<!--b-->
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m2c4-Nd1e421">Augustinum</name><!--1-->, existente re scilicet quae est<!--b-->
           <lb ed="#Q"/>fundamentum veritatis, nec variatur secundum suc<lb ed="#Q"/>cessionem
           motus et temporis. Sed est alia veritas,
           <lb ed="#Q"/>quae est adaequatio rei et intellectus: et haec ve<lb ed="#Q"/>ritas

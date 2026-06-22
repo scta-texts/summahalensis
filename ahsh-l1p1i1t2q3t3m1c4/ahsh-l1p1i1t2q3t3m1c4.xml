@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="75"/><cb ed="#Q" n="a"/>
       </div>
@@ -79,9 +73,9 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m1c4-d1e3772">
           <lb ed="#Q"/>Secundus modus distinguendi est secundum
-          <lb ed="#Q"/>quod dicit <name ref="#Dionysius">Dionysius</name><!--1-->, quod tribus modis ex<lb ed="#Q"/>eunt
+          <lb ed="#Q"/>quod dicit <name xml:id="ahsh-l1p1i1t2q3t3m1c4-Nd1e163" ref="#Dionysius">Dionysius</name><!--1-->, quod tribus modis ex<lb ed="#Q"/>eunt
           res a Deo, scilicet per<!--e--> processionem essen<lb ed="#Q"/>tialem,
-          vitalem, cognoscibilem. Et iterum <!--2-->: <quote>Quae
+          vitalem, cognoscibilem. Et iterum <!--2-->: <quote xml:id="ahsh-l1p1i1t2q3t3m1c4-Qd1e176">Quae
           <lb ed="#Q"/>exeunt per processionem cognoscibilem, exeunt
           <lb ed="#Q"/>tribus modis, scilicet per processionem sensua<lb ed="#Q"/>lem<!--f-->,
           rationalem et intelligibilem</quote>. In quantum

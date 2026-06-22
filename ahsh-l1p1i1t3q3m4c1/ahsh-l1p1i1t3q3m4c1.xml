@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="192"/><cb ed="#Q" n="a"/>
       </div>
@@ -65,8 +59,8 @@
         <head xml:id="ahsh-l1p1i1t3q3m4c1-Hd1e3741">I, P. 1, Inq. 1, Tract. 3, Q. 3, M. IV, C. 1</head>
         <head xml:id="ahsh-l1p1i1t3q3m4c1-Hd1e3744" type="question-title">AN INCREATO BONO OPPONATUR MALUM<!--1-->.</head>
         <p xml:id="ahsh-l1p1i1t3q3m4c1-d1e3796">
-          <lb ed="#Q"/>Circa primum sic obicitur: 1. <name ref="#Augustine">Augustinus</name>,
-          <lb ed="#Q"/><title>XI De civitate Dei</title><!--2-->: <quote>Vitium est contrarium
+          <lb ed="#Q"/>Circa primum sic obicitur: 1. <name xml:id="ahsh-l1p1i1t3q3m4c1-Nd1e121" ref="#Augustine">Augustinus</name>,
+          <lb ed="#Q"/><title>XI De civitate Dei</title><!--2-->: <quote xml:id="ahsh-l1p1i1t3q3m4c1-Qd1e128">Vitium est contrarium
           <lb ed="#Q"/>Deo quemadmodum malum bono</quote>; sed malum
           <lb ed="#Q"/>opponitur simpliciter bono; ergo et vitium Deo;
           <lb ed="#Q"/>sed nihil aliud est vitium<!--a--> quam malum; ergo
@@ -85,7 +79,7 @@
           respondens bono increato.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m4c1-d1e3836">
-          <lb ed="#Q"/>Contra: a. Vitium vel malum, sicut dicit <name>Au<lb ed="#Q"/>gustinus</name><!--3-->,
+          <lb ed="#Q"/>Contra: a. Vitium vel malum, sicut dicit <name xml:id="ahsh-l1p1i1t3q3m4c1-Nd1e178">Au<lb ed="#Q"/>gustinus</name><!--3-->,
           dicitur de<!--e--> eo quod nocet vel vi<lb ed="#Q"/>tiat.
           Ergo cui non contingit noceri<!--f--> vel quod non
           <lb ed="#Q"/>contingit vitiari, nullum<!--g--> malum est vel vitium
@@ -105,8 +99,8 @@
           <lb ed="#Q"/>opponitur<!--i--> aliquid; et si malum ei opponitur in
           <lb ed="#Q"/>se, hoc non est malum dictum privative, sed so<lb ed="#Q"/>lum
           secundum negationem. Verumtamen, quia
-          <lb ed="#Q"/>auctoritas <name ref="#Augustine">Augustini</name><!--4--> plus dicit -— dicit enim
-          <lb ed="#Q"/>quod <quote>vitium est contrarium Deo sicut malum
+          <lb ed="#Q"/>auctoritas <name xml:id="ahsh-l1p1i1t3q3m4c1-Nd1e233" ref="#Augustine">Augustini</name><!--4--> plus dicit -— dicit enim
+          <lb ed="#Q"/>quod <quote xml:id="ahsh-l1p1i1t3q3m4c1-Qd1e239">vitium est contrarium Deo sicut malum
           <lb ed="#Q"/>bono</quote> — ideo plus Oportet dicere. Dicimus ergo
           <lb ed="#Q"/>quod aliquid<!--k--> potest alicui contrariari dupliciter;
           <lb ed="#Q"/>vel in se vel in suo effectu, scilicet effectum
@@ -121,14 +115,14 @@
           <lb ed="#Q"/>impediri Deus nec destrui<!--o--> illud ex parte sua
           <lb ed="#Q"/>quo suos effectus conservat, ipsi tamen effectus
           <lb ed="#Q"/>conservati impediuntur et destruuntur a malo.
-          <lb ed="#Q"/>Exemplum autem<!--p--> <name>Augustini</name>, in <title>XI De civi<lb ed="#Q"/>tate
-          Dei</title><!--5-->, est illud <title>Iac.</title> 4,4: <quote>Amicus huius mundi
-          <lb ed="#Q"/>inimicus. est Dei</quote><!--q-->; dicitur ergo <quote>inimicus</quote>, non quia
+          <lb ed="#Q"/>Exemplum autem<!--p--> <name xml:id="ahsh-l1p1i1t3q3m4c1-Nd1e288">Augustini</name>, in <title>XI De civi<lb ed="#Q"/>tate
+          Dei</title><!--5-->, est illud <title>Iac.</title> 4,4: <quote xml:id="ahsh-l1p1i1t3q3m4c1-Qd1e298">Amicus huius mundi
+          <lb ed="#Q"/>inimicus. est Dei</quote><!--q-->; dicitur ergo <quote xml:id="ahsh-l1p1i1t3q3m4c1-Qd1e304">inimicus</quote>, non quia
           <lb ed="#Q"/>Deo directe adversatur, sed quia alicui effectui eius,
-          <lb ed="#Q"/>qui signum est beneplaciti eius, resistit. Unde <name>Au<lb ed="#Q"/>gustinus</name>,
-          ibidem<!--6-->: <quote>Inimici sunt voluntate re<lb ed="#Q"/>sistendi,
+          <lb ed="#Q"/>qui signum est beneplaciti eius, resistit. Unde <name xml:id="ahsh-l1p1i1t3q3m4c1-Nd1e311">Au<lb ed="#Q"/>gustinus</name>,
+          ibidem<!--6-->: <quote xml:id="ahsh-l1p1i1t3q3m4c1-Qd1e318">Inimici sunt voluntate re<lb ed="#Q"/>sistendi,
           non potestate laedendi</quote>. Secundum hoc
-          <lb ed="#Q"/>intelligitur auctoritas <name ref="#Augustine">Augustini</name>: <quote>Vitium est
+          <lb ed="#Q"/>intelligitur auctoritas <name xml:id="ahsh-l1p1i1t3q3m4c1-Nd1e326" ref="#Augustine">Augustini</name>: <quote xml:id="ahsh-l1p1i1t3q3m4c1-Qd1e329">Vitium est
           <lb ed="#Q"/>contrarium Deo</quote>, non in se, sed in suo effectu.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m4c1-d1e3932">

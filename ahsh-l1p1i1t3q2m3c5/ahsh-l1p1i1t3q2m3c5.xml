@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="158"/><cb ed="#Q" n="a"/>
       </div>
@@ -74,11 +68,11 @@
           <cb ed="#Q" n="a"/>
           <lb ed="#Q"/>aliquid et nihil; nam negatio nullum ens ponit,
           <lb ed="#Q"/>falsum autem habet ens subsistens, sicut dic<lb ed="#Q"/>tum
-          est, secundum <name ref="#Augustine">Augustinum</name><!--1-->; relinquitur
+          est, secundum <name xml:id="ahsh-l1p1i1t3q2m3c5-Nd1e153" ref="#Augustine">Augustinum</name><!--1-->; relinquitur
           <lb ed="#Q"/>ergo quod primae veritati non opponitur falsum
           <lb ed="#Q"/>ut affirmationi<!--a--> negatio. — Item, nec ut pri<lb ed="#Q"/>vatio
-          habitui, quia <quote>prima veritas, sicut dicit
-          <lb ed="#Q"/><name>Augustinus</name><!--2-->, est similitudo summa<!--b-->, in qua
+          habitui, quia <quote xml:id="ahsh-l1p1i1t3q2m3c5-Qd1e166">prima veritas, sicut dicit
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m3c5-Nd1e169">Augustinus</name><!--2-->, est similitudo summa<!--b-->, in qua
           <lb ed="#Q"/>nulla est dissimilitudo, ex qua falsitas oritur</quote>.
           <lb ed="#Q"/>Ergo nulla est ei privatio opposita. Praeterea, si
           <lb ed="#Q"/>esset privabilis habitus, esset mutabilis: quod
@@ -94,15 +88,15 @@
         <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3806">
           <lb ed="#Q"/>Contra: a. Sicut idolum et Deus opponuntur in
           <lb ed="#Q"/>Scriptura, ita veritas et mendacium, <title>Psalm.</title><!--3-->:
-          <lb ed="#Q"/><quote>Quaeritis mendacium</quote>, <quote>id est idola, quae vana sunt
-          <lb ed="#Q"/>et a vero esse aliena</quote>; similiter, <title>Ierem.</title> 8,5: <quote>Appre<lb ed="#Q"/>henderunt
-          mendacium</quote>, <title>Glossa</title><!--4-->: <quote>Mendacium
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q2m3c5-Qd1e213">Quaeritis mendacium</quote>, <quote xml:id="ahsh-l1p1i1t3q2m3c5-Qd1e216">id est idola, quae vana sunt
+          <lb ed="#Q"/>et a vero esse aliena</quote>; similiter, <title>Ierem.</title> 8,5: <quote xml:id="ahsh-l1p1i1t3q2m3c5-Qd1e223">Appre<lb ed="#Q"/>henderunt
+          mendacium</quote>, <title>Glossa</title><!--4-->: <quote xml:id="ahsh-l1p1i1t3q2m3c5-Qd1e231">Mendacium
           <lb ed="#Q"/>dicuntur idola</quote>. Ergo veritas prima habet oppo<lb ed="#Q"/>sitionem
           cum mendacio; sed mendacium illud fal<lb ed="#Q"/>sitas
           est; ergo habet falsitatem sibi oppositam.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3826">
-          <lb ed="#Q"/>b. Item, dicit <name ref="#Aristotle">Philosophus</name><!--5-->: <quote>Falsum<!--d--> di<lb ed="#Q"/>citur
+          <lb ed="#Q"/>b. Item, dicit <name xml:id="ahsh-l1p1i1t3q2m3c5-Nd1e246" ref="#Aristotle">Philosophus</name><!--5-->: <quote xml:id="ahsh-l1p1i1t3q2m3c5-Qd1e250">Falsum<!--d--> di<lb ed="#Q"/>citur
           esse umbra vel phantasmat<!--e--> rei</quote>; sed hae
           <lb ed="#Q"/>creaturae sunt umbrae et phantasmata respectu
           <lb ed="#Q"/>veritatis increatae<!--6-->. Cum ergo coluntur, sicut inter
@@ -114,7 +108,7 @@
         <p xml:id="ahsh-l1p1i1t3q2m3c5-d1e3846">
           <lb ed="#Q"/>Solutio: Secundum quosdam dicendum quod
           <lb ed="#Q"/>est falsitas opposita primae veritati. Unde dicitur
-          <lb ed="#Q"/><title>Deuter.</title> 4,16: <quote source="http://scta.info/resource/deut4_16@1-9">Ne forte decepti<!--f--> faciatis vobis
+          <lb ed="#Q"/><title>Deuter.</title> 4,16: <quote xml:id="ahsh-l1p1i1t3q2m3c5-Qd1e284" source="http://scta.info/resource/deut4_16@1-9">Ne forte decepti<!--f--> faciatis vobis
           <lb ed="#Q"/>sculptam similitudinem aut imaginem</quote>; haec si<lb ed="#Q"/>militudo
           est mater falsitatis, cum ipsa est deficiens.
         </p>
@@ -125,7 +119,7 @@
           <lb ed="#Q"/>summo bono et de vero. Nam malum dicitur du<lb ed="#Q"/>pliciter:
           uno modo, quia deficiens a bono; alio
           <lb ed="#Q"/>modo, quia potest nocere bono. -—-Quod ergo dicit
-          <lb ed="#Q"/><name>Augustinus</name><!--7-->, quod summo bono non est ma<lb ed="#Q"/>lum
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m3c5-Nd1e312">Augustinus</name><!--7-->, quod summo bono non est ma<lb ed="#Q"/>lum
           oppositum: intelligitur quantum ad illam ra<lb ed="#Q"/>tionem
           qua dicitur malum quod potest nocere,
           <lb ed="#Q"/>quia summo bono nihil potest nocere; sed alio
@@ -153,7 +147,7 @@
           <lb ed="#Q"/>Summo ergo vero primo modo non opponitur
           <lb ed="#Q"/>falsum aliquo modo, quia secundum hoc nihil est
           <lb ed="#Q"/>in ipsius imitatione; falsum autem est, sicut dic<lb ed="#Q"/>tum
-          est<!--8-->, <quote>quod est longe a similitudine veri,
+          est<!--8-->, <quote xml:id="ahsh-l1p1i1t3q2m3c5-Qd1e390">quod est longe a similitudine veri,
           <lb ed="#Q"/>dum tamen habeat ad verum nonnullam imitatio<lb ed="#Q"/>nem</quote>.
           Secundo modo, prout consideratur in par<lb ed="#Q"/>ticipatione,
           secundum quam creatura est in imita<lb ed="#Q"/>tione

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="52"/><cb ed="#Q" n="a"/>
       </div>
@@ -71,7 +65,7 @@
           <lb ed="#Q"/>formarum est summe et vere simplex, sicut patet 
           <pb ed="#Q" n="53"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>ex <ref target="http://scta.info/resource/pl-l1d8c3">dist. 8, I libri <title>Sententiarum</title></ref>; 
+          <lb ed="#Q"/>ex <ref xml:id="ahsh-l1p1i1t1q3c3-Rd1e145" target="http://scta.info/resource/pl-l1d8c3">dist. 8, I libri <title>Sententiarum</title></ref>; 
           sed prima ma<lb ed="#Q"/>teria
           non habet compositionem partium nec ac<lb ed="#Q"/>cidentium
           nec formarum; ergo prima materia est
@@ -87,7 +81,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t1q3c3-d1e3794">
           <lb ed="#Q"/>2. Item, de specie sive forma universali obi<lb ed="#Q"/>citur
-          quia, sicut dicit <name ref="#Aristotle">Philosophus</name><!--2-->, <quote>forma
+          quia, sicut dicit <name xml:id="ahsh-l1p1i1t1q3c3-Nd1e186" ref="#Aristotle">Philosophus</name><!--2-->, <quote xml:id="ahsh-l1p1i1t1q3c3-Qd1e190">forma
           <lb ed="#Q"/>est compositioni contingens, simplici et invariabili
           <lb ed="#Q"/>essentia consistens</quote>. Ergo, cum sit in simplici et
           <lb ed="#Q"/>invariabili essentia, relinquitur quod simplicitas
@@ -105,8 +99,8 @@
           contingens.
         </p>
         <p xml:id="ahsh-l1p1i1t1q3c3-d1e3832">
-          <lb ed="#Q"/>3. Item, <name>Boethius</name>, in libro <title>De Trinitate</title><!--3-->:
-          «<quote>In omni eo quod est citra primum, differt <mentioned>quod
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t1q3c3-Nd1e234">Boethius</name>, in libro <title>De Trinitate</title><!--3-->:
+          «<quote xml:id="ahsh-l1p1i1t1q3c3-Qd1e239">In omni eo quod est citra primum, differt <mentioned>quod
           <lb ed="#Q"/>est</mentioned> et <mentioned>quo est</mentioned></quote>; sed ipsum <mentioned>quod est</mentioned> aut
           <lb ed="#Q"/>est aliquid citra primum aut nihil; constans est
           <lb ed="#Q"/>quod non nihil; ergo aliquid; in<!--f--> eo ergo erit
@@ -153,7 +147,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t1q3c3-d1e3926">
           <lb ed="#Q"/>3. Ad aliud vero quod obicit ultimo, quod
-          <lb ed="#Q"/>dicit <name>Boethius</name> <quote>in eo quod est citra pri<lb ed="#Q"/>mum</quote>
+          <lb ed="#Q"/>dicit <name xml:id="ahsh-l1p1i1t1q3c3-Nd1e381">Boethius</name> <quote xml:id="ahsh-l1p1i1t1q3c3-Qd1e383">in eo quod est citra pri<lb ed="#Q"/>mum</quote>
           etc.: intelligitur de iis quae secundum se
           <lb ed="#Q"/>habent esse; <mentioned>quod est</mentioned> autem<!--n--> et <mentioned>quo est</mentioned>, prout
           <lb ed="#Q"/>dicunt principia esse cuiusque, non habent esse

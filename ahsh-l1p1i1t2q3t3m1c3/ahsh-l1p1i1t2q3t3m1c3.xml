@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="74"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,7 +58,7 @@
           <lb ed="#Q"/>Deum in rebus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m1c3-d1e3742">
-          <lb ed="#Q"/>Ad quod sic: 1. <name ref="#Augustine">Augustinus</name><!--2-->:<quote>Deus dici<lb ed="#Q"/>tur
+          <lb ed="#Q"/>Ad quod sic: 1. <name xml:id="ahsh-l1p1i1t2q3t3m1c3-Nd1e126" ref="#Augustine">Augustinus</name><!--2-->:<quote xml:id="ahsh-l1p1i1t2q3t3m1c3-Qd1e130">Deus dici<lb ed="#Q"/>tur
           esse in mundo ut creator et rector</quote>; sed<!--b--> ut
           <lb ed="#Q"/>creator dicitur esse potentialiter, ut rector prae<lb ed="#Q"/>sentialiter;
           ergo solum iis duobus modis est in
@@ -77,7 +71,7 @@
           <lb ed="#Q"/>Deum esse essentialiter et praesentialiter in rebus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m1c3-d1e3767">
-          <lb ed="#Q"/>3. Item, Deus se habet ad res ut <quote>alpha et
+          <lb ed="#Q"/>3. Item, Deus se habet ad res ut <quote xml:id="ahsh-l1p1i1t2q3t3m1c3-Qd1e161">alpha et
           <lb ed="#Q"/>omega</quote><!--3-->, et isti modi non sunt aliqui praedicto<lb ed="#Q"/>rum;
           ergo aliis modis quam tribus praedictis est
           <lb ed="#Q"/>Deus in rebus.
@@ -85,7 +79,7 @@
         <p xml:id="ahsh-l1p1i1t2q3t3m1c3-d1e3778">
           <lb ed="#Q"/>4. Item, quaeritur si est in omnibus per volun<lb ed="#Q"/>tatem,
           sicut<!--c--> aliis modis. —— Et videtur quod
-          <lb ed="#Q"/>non: cum dicat Dominus per Prophetam: <quote>Non
+          <lb ed="#Q"/>non: cum dicat Dominus per Prophetam: <quote xml:id="ahsh-l1p1i1t2q3t3m1c3-Qd1e182">Non
           <lb ed="#Q"/>est voluntas mea in vobis</quote>, <title>Malach.</title> l,10. — Sed
           <lb ed="#Q"/>contra: Potentia non exit in esse nisi per vo<lb ed="#Q"/>luntatem;
           ergo magis se habet ad res per volun<lb ed="#Q"/>tatem
@@ -123,16 +117,16 @@
           <lb ed="#Q"/>2. Ad secundum dicendum quod esse prae<lb ed="#Q"/>sentialiter
           est dupliciter: uno modo dicitur praesen<lb ed="#Q"/>tialiter
           esse adesse rei et<!--i--> non deesse; alio mo<lb ed="#Q"/>do
-          dicitur esse praesentialiter quasi <quote>prae sensu<!--k-->
+          dicitur esse praesentialiter quasi <quote xml:id="ahsh-l1p1i1t2q3t3m1c3-Qd1e277">prae sensu<!--k-->
           <lb ed="#Q"/>esse</quote> ', ut scilicet habeat in re esse cognoscibiliter,
-          <lb ed="#Q"/><name>Sap.</name> 13,5: <quote>A magnitudine speciei et creaturae
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q3t3m1c3-Nd1e285">Sap.</name> 13,5: <quote xml:id="ahsh-l1p1i1t2q3t3m1c3-Qd1e287">A magnitudine speciei et creaturae
           <lb ed="#Q"/>poterat Creator horum cognoscibiliter videri</quote>. Primo
           <lb ed="#Q"/>modo idem est esse praesentialiter quod essen<lb ed="#Q"/>tialiter;
           secundo modo non. Et sic procedit illa
           <lb ed="#Q"/>ratio ex parte qua non faciunt differentiam<!--l-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m1c3-d1e3876">
-          <lb ed="#Q"/>3. Ad tertium dicendum quod esse ut <quote>alpha 
+          <lb ed="#Q"/>3. Ad tertium dicendum quod esse ut <quote xml:id="ahsh-l1p1i1t2q3t3m1c3-Qd1e307">alpha 
           <lb ed="#Q"/>et omega</quote> non dicunt habitudinem secundum quam
           <lb ed="#Q"/>Deus est in rebus, sed in quantum est extra,
           <lb ed="#Q"/>ut principium et finis rerum<!--4-->: et ideo non fa<lb ed="#Q"/>ciunt

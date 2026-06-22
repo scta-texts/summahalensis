@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="5"/><cb ed="#Q" n="a"/>
       </div>
@@ -66,7 +59,7 @@
         </p>
         <p xml:id="ahsh-l1tinq1c3-d1e3742">
           <lb ed="#Q"/>Circa quod diversa leguntur: 1. a. <title>Hugo de
-          <lb ed="#Q"/>S. Victore</title>, in libro <title>Sententiarum</title><!--10-->: <quote>Materia
+          <lb ed="#Q"/>S. Victore</title>, in libro <title>Sententiarum</title><!--10-->: <quote xml:id="ahsh-l1tinq1c3-Qd1e140">Materia
           <lb ed="#Q"/>divinarum Scripturarum sunt opera reparationis;
           <lb ed="#Q"/>aliarum vero scientiarum opera conditionis</quote>.
         </p>
@@ -84,9 +77,9 @@
         <p xml:id="ahsh-l1tinq1c3-d1e3776">
           <pb ed="#Q" n="6"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>II. 3. Item, <name ref="#Lombard">Magister</name>, in <title>Sententiis</title><!--1-->, secun<lb ed="#Q"/>dum
-          <name>B. Augustinum</name>, <title>De doctrina christiana</title><!--2-->,
-          <lb ed="#Q"/>ponit <quote>continentiam Novae et Veteris Legis circa
+          <lb ed="#Q"/>II. 3. Item, <name xml:id="ahsh-l1tinq1c3-Nd1e181" ref="#Lombard">Magister</name>, in <title>Sententiis</title><!--1-->, secun<lb ed="#Q"/>dum
+          <name xml:id="ahsh-l1tinq1c3-Nd1e190">B. Augustinum</name>, <title>De doctrina christiana</title><!--2-->,
+          <lb ed="#Q"/>ponit <quote xml:id="ahsh-l1tinq1c3-Qd1e197">continentiam Novae et Veteris Legis circa
           <lb ed="#Q"/>res et signa versari</quote>; ergo materia divinarum
           <lb ed="#Q"/>Scripturarum sunt res et signa.
         </p>
@@ -99,31 +92,31 @@
         </p>
         <p xml:id="ahsh-l1tinq1c3-d1e3807">
           <lb ed="#Q"/>5. Item, res de quibus agit Theologia, secun<lb ed="#Q"/>dum
-          <name ref="#Augustine">Augustinum</name><!--3-->, sunt res <quote>quibus fruen<lb ed="#Q"/>dum,
+          <name xml:id="ahsh-l1tinq1c3-Nd1e225" ref="#Augustine">Augustinum</name><!--3-->, sunt res <quote xml:id="ahsh-l1tinq1c3-Qd1e229">quibus fruen<lb ed="#Q"/>dum,
           quibusque<!--a--> utendum, quae fruuntur et
           <lb ed="#Q"/>utuntur</quote>; sed sub iis comprehenditur omne ge<lb ed="#Q"/>nus
           rerum; ergo Theologia est de omnibus.
         </p>
         <p xml:id="ahsh-l1tinq1c3-d1e3818">
           <lb ed="#Q"/>III. 6. Item, ponunt alii<!--4--> quod materia divina<lb ed="#Q"/>rum
-          Scripturarum est <quote>Christus integer, caput et
+          Scripturarum est <quote xml:id="ahsh-l1tinq1c3-Qd1e249">Christus integer, caput et
           <lb ed="#Q"/>corpus, Christus et Ecclesia, sponsus et sponsa</quote>,
           <lb ed="#Q"/>iuxta <title>Glossam</title><!--5--> in principio Psalterii, quia
-          <lb ed="#Q"/><quote>nihil est in divina Scriptura quod non pertineat
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq1c3-Qd1e261">nihil est in divina Scriptura quod non pertineat
           <lb ed="#Q"/>ad Christum vel ad<!--b--> Ecclesiam<!--6--></quote>.
         </p>
         <p xml:id="ahsh-l1tinq1c3-d1e3831">
-          <lb ed="#Q"/>Sed contra: 7. <quote>Finis Legis est Christus</quote>, <title>Rom.</title>
-          10, 4; et <title>Eccli.</title> 43, 29: <quote>Consummatio sermonum
+          <lb ed="#Q"/>Sed contra: 7. <quote xml:id="ahsh-l1tinq1c3-Qd1e274">Finis Legis est Christus</quote>, <title>Rom.</title>
+          10, 4; et <title>Eccli.</title> 43, 29: <quote xml:id="ahsh-l1tinq1c3-Qd1e280">Consummatio sermonum
           <lb ed="#Q"/>ipse est</quote>; ergo non est materia.
         </p>
         <p xml:id="ahsh-l1tinq1c3-d1e3837">
           <lb ed="#Q"/>Respondeo: Materia dupliciter accipitur in scien<lb ed="#Q"/>tiis<!--c-->:
           <mentioned>de qua</mentioned> et <mentioned>circa quam</mentioned>. <mentioned>Materia de qua</mentioned>
-          <lb ed="#Q"/>potest assignari tripliciter, secundum illud <name>B.<!--d-->
+          <lb ed="#Q"/>potest assignari tripliciter, secundum illud <name xml:id="ahsh-l1tinq1c3-Nd1e304">B.<!--d-->
           <lb ed="#Q"/>Dionysii</name>, in <title>Hierarchia angelica</title><!--7-->: 
           <cit>
-            <quote source="http://scta.info/resource/pdah-c11-d1e132">In tria di<lb ed="#Q"/>viduntur
+            <quote xml:id="ahsh-l1tinq1c3-Qd1e316" source="http://scta.info/resource/pdah-c11-d1e132">In tria di<lb ed="#Q"/>viduntur
             supermundana ratione omnes divini in<lb ed="#Q"/>tellectus:
             in essentiam, virtutem et operationem</quote>
             <bibl><ref target="http://scta.info/resource/pdah-c11-d1e132">De cael. hierarch., cap. 11</ref></bibl>
@@ -135,7 +128,7 @@
           <lb ed="#Q"/>Si vero assignemus materiam divinarum Scriptu<lb ed="#Q"/>rarum
           secundum rationem virtutis, dicemus quod
           <lb ed="#Q"/>materia divinarum Scripturarum est Christus, qui
-          <lb ed="#Q"/>est <quote>Dei virtus et Dei sapientia</quote>, <title>I Cor.</title> 1, 24. Si
+          <lb ed="#Q"/>est <quote xml:id="ahsh-l1tinq1c3-Qd1e346">Dei virtus et Dei sapientia</quote>, <title>I Cor.</title> 1, 24. Si
           <lb ed="#Q"/>vero<pb ed="#V" n="4-r"/> assignemus materiam divinarum Scriptura<lb ed="#Q"/>rum
           secundum rationem essentiae, dicemus quod
           <lb ed="#Q"/>materia divinarum Scripturarum est Deus sive
@@ -146,7 +139,7 @@
         <p xml:id="ahsh-l1tinq1c3-d1e3879">
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud<!--f--> ergo quod primo
-          <lb ed="#Q"/>obicitur contra assignationem <name>Hugonis</name>, quod <mentioned>in
+          <lb ed="#Q"/>obicitur contra assignationem <name xml:id="ahsh-l1tinq1c3-Nd1e380">Hugonis</name>, quod <mentioned>in
           <lb ed="#Q"/>1 <title>Gen.</title> agitur de operibus conditionis</mentioned>: dicendum<!--g-->
           <lb ed="#Q"/>quod duplici ratione agitur in scientia de aliquo:
           <lb ed="#Q"/>vel quia pertinet ad genus rei de qua agitur in illa
@@ -155,8 +148,8 @@
           Secundum primum modum agitur etiam in
           <lb ed="#Q"/>sacra Scriptura de operibus reparationis, sed
           <lb ed="#Q"/>secundum modum secundum agitur de operibus
-          <lb ed="#Q"/>conditionis. Unde <name>Hugo de S. Victore</name>, in <title>Sen<lb ed="#Q"/>tentiis</title><!--9-->:
-          <quote>Ut competentius ad tractanda opera
+          <lb ed="#Q"/>conditionis. Unde <name xml:id="ahsh-l1tinq1c3-Nd1e409">Hugo de S. Victore</name>, in <title>Sen<lb ed="#Q"/>tentiis</title><!--9-->:
+          <quote xml:id="ahsh-l1tinq1c3-Qd1e418">Ut competentius ad tractanda opera
           <lb ed="#Q"/>restaurationis accedat, primum in ipso capite nar<lb ed="#Q"/>rationis
           constitutionem narrat operum conditio<lb ed="#Q"/>nis,
           <title>Gen.</title> 1. Non enim convenienter ostendere
@@ -177,10 +170,10 @@
           <lb ed="#Q"/>causa, quae Deus est, declaratur per opus repara<lb ed="#Q"/>tionis,
           per virtutem Christum, sicut dictum est<!--10-->, ut
           <lb ed="#Q"/>in operatione cognoscamus virtutem et in virtute
-          <lb ed="#Q"/>divinitatem, <title>Rom.</title> 1, 20: <quote source="http://scta.info/resource/rom1_20@1-11">Invisibilia Dei</quote>, scilicet
-          <lb ed="#Q"/><quote>virtus et divinitas, cognoscuntur per ea quae
-          <lb ed="#Q"/>facta sunt</quote>. — Nota ergo secundum <name>Hugonem</name><!--11-->
-          <lb ed="#Q"/>quod <quote>opus conditionis est creatio mundi cum
+          <lb ed="#Q"/>divinitatem, <title>Rom.</title> 1, 20: <quote xml:id="ahsh-l1tinq1c3-Qd1e477" source="http://scta.info/resource/rom1_20@1-11">Invisibilia Dei</quote>, scilicet
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq1c3-Qd1e481">virtus et divinitas, cognoscuntur per ea quae
+          <lb ed="#Q"/>facta sunt</quote>. — Nota ergo secundum <name xml:id="ahsh-l1tinq1c3-Nd1e486">Hugonem</name><!--11-->
+          <lb ed="#Q"/>quod <quote xml:id="ahsh-l1tinq1c3-Qd1e491">opus conditionis est creatio mundi cum
           <lb ed="#Q"/>omnibus elementis suis; opus vero restaurationis
           est incarnatio Verbi cum omnibus sacramentis
           <lb ed="#Q"/>suis. Mundanae sive saeculares scientiae mate<lb ed="#Q"/>riam
@@ -193,8 +186,8 @@
           circa res et signa: dicendum quod res et
           <lb ed="#Q"/>signa sunt materia circa quam est sacra Scrip<lb ed="#Q"/>tura,
           non materia de qua est; et ideo conve<pb ed="#Q" n="7"/><cb ed="#Q" n="a"/><lb ed="#Q"/>nienter
-          dixit, iuxta <name ref="#Augustine">B. Augustinum</name><!--1-->, materiam
-          <lb ed="#Q"/>sacrae Scripturae <quote>circa res et signa<!--a--> versari</quote>.
+          dixit, iuxta <name xml:id="ahsh-l1tinq1c3-Nd1e524" ref="#Augustine">B. Augustinum</name><!--1-->, materiam
+          <lb ed="#Q"/>sacrae Scripturae <quote xml:id="ahsh-l1tinq1c3-Qd1e530">circa res et signa<!--a--> versari</quote>.
           <lb ed="#Q"/>Materia vero de qua est sacra Scriptura est di<lb ed="#Q"/>vina
           substantia cognoscenda per, Christum in
           <lb ed="#Q"/>opere reparationis. Quemadmodum est dicere de
@@ -269,4 +262,3 @@
     </body>
   </text>
 </TEI>
-

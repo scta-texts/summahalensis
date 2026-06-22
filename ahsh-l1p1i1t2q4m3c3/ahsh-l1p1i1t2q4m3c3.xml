@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="103"/><cb ed="#Q" n="a"/>
       </div>
@@ -76,11 +70,11 @@
           <lb ed="#Q"/>ergo oportet aevum habere compositionem.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c3-d1e3766">
-          <lb ed="#Q"/>2. Item, ad idem <name ref="#Anselm">Anselmus</name>, in <title ref="#Proslogion">Proslogion</title><!--7-->,
+          <lb ed="#Q"/>2. Item, ad idem <name xml:id="ahsh-l1p1i1t2q4m3c3-Nd1e161" ref="#Anselm">Anselmus</name>, in <title ref="#Proslogion">Proslogion</title><!--7-->,
           <lb ed="#Q"/>quaerit quomodo Deus est ultra aeterna, et ap<lb ed="#Q"/>pellat
-          <mentioned>aeterna</mentioned> aeviterna, exponens illud<!--8--> <quote source="http://scta.info/resource/ex15_18@1-6">Domi<lb ed="#Q"/>nus
+          <mentioned>aeterna</mentioned> aeviterna, exponens illud<!--8--> <quote xml:id="ahsh-l1p1i1t2q4m3c3-Qd1e177" source="http://scta.info/resource/ex15_18@1-6">Domi<lb ed="#Q"/>nus
           regnabit in aeternum et ultra</quote>; unde dicit:
-          <quote>An hoc quoque<!--g--> modo transis aeterna, quia
+          <quote xml:id="ahsh-l1p1i1t2q4m3c3-Qd1e182">An hoc quoque<!--g--> modo transis aeterna, quia
           <lb ed="#Q"/>illorum aeternitas tota tibi praesens est, omni<!--h-->
           <lb ed="#Q"/>illa nondum habeant de sua aeternitate quod ven<lb ed="#Q"/>turum
           est, sicut<!--i--> iam non habent quod praeteritum
@@ -131,7 +125,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c3-d1e3874">
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud<!--b--> quod obicitur
-          <lb ed="#Q"/>quod <quote>illud quod ab aliqua differentia deficit, ca<lb ed="#Q"/>dit
+          <lb ed="#Q"/>quod <quote xml:id="ahsh-l1p1i1t2q4m3c3-Qd1e310">illud quod ab aliqua differentia deficit, ca<lb ed="#Q"/>dit
           in differentiam oppositam</quote>: respondeo quod
           <lb ed="#Q"/>aeternitas increata simplex est omnino, et ideo
           <lb ed="#Q"/>in ipsa est carentia omnis compositionis. Est
@@ -157,8 +151,8 @@
           est considerare substantiam et actionem.
           <lb ed="#Q"/>Nomen ergo aevi potest accipi communiter et
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>proprie: <quote>Proprie enim est aevum, secundum
-          <lb ed="#Q"/><name>B. Dionysium</name><!--1-->, inalteratum et secundum to<lb ed="#Q"/>tum
+          <lb ed="#Q"/>proprie: <quote xml:id="ahsh-l1p1i1t2q4m3c3-Qd1e373">Proprie enim est aevum, secundum
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m3c3-Nd1e376">B. Dionysium</name><!--1-->, inalteratum et secundum to<lb ed="#Q"/>tum
           esse mensurans</quote>. Et secundum hoc aevum
           <lb ed="#Q"/>est mensura aeviterni, in quantum habet esse
           <lb ed="#Q"/>extra motum omnem et mutationem; hoc autem
@@ -167,8 +161,8 @@
           <lb ed="#Q"/>sole lucere et in angelo intelligere. In quantum
           <lb ed="#Q"/>vero habet esse in mutatione et motu, mensura
           <lb ed="#Q"/>ipsius est tempus vel aliquid ad modum temporis
-          <lb ed="#Q"/>se habens, secundum quod dicit <name ref="#Aristotle">Philosophus</name>,
-          <lb ed="#Q"/>in libro <title>De causis</title><!--2-->: <quote>Inter rem cuius substantia
+          <lb ed="#Q"/>se habens, secundum quod dicit <name xml:id="ahsh-l1p1i1t2q4m3c3-Nd1e399" ref="#Aristotle">Philosophus</name>,
+          <lb ed="#Q"/>in libro <title>De causis</title><!--2-->: <quote xml:id="ahsh-l1p1i1t2q4m3c3-Qd1e408">Inter rem cuius substantia
           <lb ed="#Q"/>est in momento aeternitatis, et rem cuius sub<lb ed="#Q"/>stantia
           et actio est in momento temporis, est me<lb ed="#Q"/>dia:
           cuius substantia est in momento aeternitatis
@@ -190,7 +184,7 @@
           aevum invariabilia habentia principium
           <lb ed="#Q"/>ut mensura<!--i--> propria, variabilia ut mensura com<lb ed="#Q"/>munis;
           et ex hoc non sequitur quod aevum par<lb ed="#Q"/>tibile
-          sit. <name ref="#Anselm">Anselmus</name> autem<!--k--> aeternitati ange<lb ed="#Q"/>lorum
+          sit. <name xml:id="ahsh-l1p1i1t2q4m3c3-Nd1e471" ref="#Anselm">Anselmus</name> autem<!--k--> aeternitati ange<lb ed="#Q"/>lorum
           concreavit operationem, secundum quam
           <lb ed="#Q"/>aliquid eis advenit, aliquid praeteriit. Quae au<lb ed="#Q"/>tem
           sit mensura propria huius operationis, infra
@@ -215,8 +209,8 @@
           actus. Et<!--a--> hanc durationem voluerunt 
           <lb ed="#Q"/>quidam<!--1--> appellare <mentioned>saeculum</mentioned><!--b-->, quod dicitur
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>a sequendo<!--2-->, et, sicut dicit <name>Damascenus</name><!--3-->,
-          <quote>protenditur cum aeternis velut temporalis motus
+          <lb ed="#Q"/>a sequendo<!--2-->, et, sicut dicit <name xml:id="ahsh-l1p1i1t2q4m3c3-Nd1e549">Damascenus</name><!--3-->,
+          <quote xml:id="ahsh-l1p1i1t2q4m3c3-Qd1e552">protenditur cum aeternis velut temporalis motus
           et spatium</quote>.
         </p>
       </div>

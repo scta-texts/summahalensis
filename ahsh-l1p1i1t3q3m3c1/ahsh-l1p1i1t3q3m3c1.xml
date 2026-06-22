@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="173"/><cb ed="#Q" n="a"/>
       </div>
@@ -66,7 +60,7 @@
         <head xml:id="ahsh-l1p1i1t3q3m3c1-Hd1e3744" type="question-title">DE MODO SPECIE ET ORDINE QUIBUS DETERMINATUR BONUM IN CREATURIS</head>
         <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3747">
           <lb ed="#Q"/>Consequenter quaeritur secundum quid deter<lb ed="#Q"/>minetur
-          bonum in creatura. Secundum <name>Au<lb ed="#Q"/>gustinum</name>
+          bonum in creatura. Secundum <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e121">Au<lb ed="#Q"/>gustinum</name>
           determinatur per modum, speciem 
           <lb ed="#Q"/>et ordinem. Ad pleniorem ergo intelligentiam quae<lb ed="#Q"/>rendum
           est de iis hoc modo:
@@ -89,12 +83,12 @@
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3796">
             <lb ed="#Q"/>Quod sic, videtur: a. Per auctoritatem <title>Sap.</title> 11, 21: 
-            <lb ed="#Q"/><quote>Omnia numero, pondere et mensura disposuisti</quote>.
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e182">Omnia numero, pondere et mensura disposuisti</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3803">
-            <lb ed="#Q"/>5. Et per auctoritatem <name ref="#Augustine">Augustini</name>, in libro
+            <lb ed="#Q"/>5. Et per auctoritatem <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e189" ref="#Augustine">Augustini</name>, in libro
             <lb ed="#Q"/><title>De natura boni</title><!--4-->, loquentis<!--d--> de modo, specie et
-            <lb ed="#Q"/>ordine: <quote>Ubi haec tria sunt magna, et magnum
+            <lb ed="#Q"/>ordine: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e201">Ubi haec tria sunt magna, et magnum
             <lb ed="#Q"/>bonum est; ubi<!--e--> parva, parvum; ubi nulla, nul<lb ed="#Q"/>lum
             bonum est</quote>. Omne autem quod est, in quan<lb ed="#Q"/>tum
             est, bonum est; nullum igitur est ens<!--f--> in
@@ -112,13 +106,13 @@
             <lb ed="#Q"/>species et ordo, tunc quaeritur de modo: aut est
             <lb ed="#Q"/>Creator aut creatura. Non Creator, quia in ipso
             <lb ed="#Q"/>non cadit nec<!--h--> terminatio nec formatio nec huius<lb ed="#Q"/>modi,
-            secundum quod, dicit <name ref="#Augustine">Augustinus</name>, <title>Ad
-            <lb ed="#Q"/>Orosium</title><!--6-->, quod Deus <quote>est mensura sine men<cb ed="#Q" n="b"/><lb ed="#Q"/>sura</quote>.
+            secundum quod, dicit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e249" ref="#Augustine">Augustinus</name>, <title>Ad
+            <lb ed="#Q"/>Orosium</title><!--6-->, quod Deus <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e258">est mensura sine men<cb ed="#Q" n="b"/><lb ed="#Q"/>sura</quote>.
             Praeterea, si solum dicerent aliquid in
             <lb ed="#Q"/>Creatore illa tria, ergo nihil essent in creatura:
             <lb ed="#Q"/>quod non est verum; ergo non est modus ali<lb ed="#Q"/>quid<!--i-->
             in Creatore; erit ergo creatura. Si ergo
-            <quote>omnis creatura habet modum, speciem et ordi<lb ed="#Q"/>nem</quote>,
+            <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e273">omnis creatura habet modum, speciem et ordi<lb ed="#Q"/>nem</quote>,
             habebit modus<!--k--> modum, speciem et ordi<lb ed="#Q"/>nem<!--l-->.
             Sed tunc potest quaeri de illo modo, specie
             <lb ed="#Q"/>et ordine etc.; aut ergo ibitur in infinitum aut stabi<lb ed="#Q"/>tur
@@ -127,16 +121,16 @@
             <lb ed="#Q"/>creatura modus. Similiter opponi potest de aliis.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3871">
-            <lb ed="#Q"/>3. Item, <name>Ambrosius</name>, in <title>Hexaemeron</title><!--7-->: <quote>Lucis
+            <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e300">Ambrosius</name>, in <title>Hexaemeron</title><!--7-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e305">Lucis
             <lb ed="#Q"/>natura est ut non in numero, non in mensura, non
             <lb ed="#Q"/>in pondere, ut alia creatura, sit</quote>. Cum ergo lux
             <lb ed="#Q"/>sit creatura<!--n-->, non sunt illa tria in omni creatura.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3882">
-            <lb ed="#Q"/>II. Item, quaeritur, cum <name>Augustinus</name><!--8--> utatur
-            <lb ed="#Q"/>iis verbis <quote>modus, species et ordo</quote>, quare in
+            <lb ed="#Q"/>II. Item, quaeritur, cum <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e321">Augustinus</name><!--8--> utatur
+            <lb ed="#Q"/>iis verbis <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e326">modus, species et ordo</quote>, quare in
             <lb ed="#Q"/><title>Sap.</title> 11,21 non dicitur <mentioned>omnia disposuisti in modo,
-            <lb ed="#Q"/>specie et ordine</mentioned> aut quare <name ref="#Augustine">Augustinus</name> non
+            <lb ed="#Q"/>specie et ordine</mentioned> aut quare <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e337" ref="#Augustine">Augustinus</name> non
             <lb ed="#Q"/>utitur<!--o--> verbis ibi positis.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3895">
@@ -155,7 +149,7 @@
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3926">
             <lb ed="#Q"/>2. Ad illud<!--a--> quod obicitur quod <mentioned>sic ibitur
             <lb ed="#Q"/>in infinitum aut erit modus sine modo</mentioned>: dicen<lb ed="#Q"/>dum,
-            secundum <name>Augustinum</name>, <title>Super Genesim</title><!--1-->,
+            secundum <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e389">Augustinum</name>, <title>Super Genesim</title><!--1-->,
             <lb ed="#Q"/>quod cum dicitur: <mentioned>omnia habent modum, speciem
             <lb ed="#Q"/>et ordinem</mentioned>, ly <mentioned>omnia</mentioned> distribuit pro creatis ab<lb ed="#Q"/>solute:
             omnia enim talia habent modum, speciem
@@ -164,19 +158,19 @@
             vel ad suas causas. Unde non sequitur: si
             <lb ed="#Q"/>omnia creata habent modum, speciem et ordinem,
             <lb ed="#Q"/>quod modus habeat haec tria. Et<!--c--> est exemplum
-            <lb ed="#Q"/><name>Augustini</name><!--2-->: <quote>Omnia corporalia facta sunt in
+            <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e423">Augustini</name><!--2-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e426">Omnia corporalia facta sunt in
             <lb ed="#Q"/>colore, color tamen non est factus in colore</quote>.
-            -— Aliter posset dici etiam secundum <name>Augusti<lb ed="#Q"/>num</name><!--3-->.
-            Quaerit enim: <quote>Omnia disposuisti numero,
+            -— Aliter posset dici etiam secundum <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e431">Augusti<lb ed="#Q"/>num</name><!--3-->.
+            Quaerit enim: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e437">Omnia disposuisti numero,
             <lb ed="#Q"/>pondere et mensura</quote>: haec autem, numerum, pon<lb ed="#Q"/>dus
             et mensuram<!--d-->, ubi disposuit<!--e-->? Et respondet
-            <lb ed="#Q"/>quod <quote>in se ipso, qui est numerus sine numero,
+            <lb ed="#Q"/>quod <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e451">in se ipso, qui est numerus sine numero,
             <lb ed="#Q"/>pondus sine pondere</quote>. Et sic non ibitur in infi<lb ed="#Q"/>nitum,
             sed stabitur in ipso Deo.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e3971">
             <lb ed="#Q"/>3. Ad illud<!--f--> quod postea obicitur de auctori<lb ed="#Q"/>tate
-            <name>Ambrosii</name>: dicimus quod quidam volunt
+            <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e468">Ambrosii</name>: dicimus quod quidam volunt
             <lb ed="#Q"/>eam exponere de luce spirituali solum. Sed adhuc
             <lb ed="#Q"/>ista via non posset exponi nisi de luce increata:
             <lb ed="#Q"/>haec enim revera non est creata in numero, pon<lb ed="#Q"/>dere
@@ -184,11 +178,11 @@
             <lb ed="#Q"/>illa auctoritate; sed de luce spirituali, quae est
             <lb ed="#Q"/>angelica natura, non posset exponi: illa enim<!--g-->
             <lb ed="#Q"/>non caret numero, pondere etc. Nos autem di<lb ed="#Q"/>cimus
-            quod <name>Ambrosius</name> loquitur ibi de luce
+            quod <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e490">Ambrosius</name> loquitur ibi de luce
             <lb ed="#Q"/>corporali, sed non simpliciter respectu omnium
             <lb ed="#Q"/>quae sunt, sed solum respectu aliorum<!--h--> corpora<cb ed="#Q" n="b"/><lb ed="#Q"/>lium,
             comparando eam ad ipsa. Comparando enim
-            <lb ed="#Q"/>ad lucem increatam, de qua <title>1 Tim.</title> 6,16: <quote>Lucem
+            <lb ed="#Q"/>ad lucem increatam, de qua <title>1 Tim.</title> 6,16: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e506">Lucem
             <lb ed="#Q"/>habitat inaccessibilem</quote>, secundum quod illa dicitur
             <lb ed="#Q"/>esse ubique, constat .quod haec<!--l--> lux est termi<lb ed="#Q"/>nata:
             non enim est ubique, cum sit aliquid crea<lb ed="#Q"/>tum.
@@ -203,16 +197,16 @@
             <lb ed="#Q"/>in opacis, ut in terra: non solum in terrae su<lb ed="#Q"/>perficie
             potest videri virtus eius, sed etiam in
             <lb ed="#Q"/>corde terrae; aliter enim non possent fieri gene<lb ed="#Q"/>rationes
-            quae ibi fiunt. Unde <name>Ambrosius</name>, in
-            <lb ed="#Q"/>eodem<!--4-->: <quote>Non in splendore tantum<!--n-->, sed in omni
+            quae ibi fiunt. Unde <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e550">Ambrosius</name>, in
+            <lb ed="#Q"/>eodem<!--4-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e557">Non in splendore tantum<!--n-->, sed in omni
             <lb ed="#Q"/>virtute natura lucis probatur</quote>. Et propter hoc re<lb ed="#Q"/>spectu
             aliorum corporum est verum quod dicit
-            <lb ed="#Q"/>quod <quote>non est creata in numero, pondere etc.<!--o-->,
+            <lb ed="#Q"/>quod <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e568">non est creata in numero, pondere etc.<!--o-->,
             <lb ed="#Q"/>sicut alia</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4048">
-            <lb ed="#Q"/>II. Ad hoc quod quaeritur quare <name ref="#Augustine">Augustinus</name>
-            <lb ed="#Q"/>non utitur verbis sumptis <title>Sap.</title> 11,21: <quote>dicimus
+            <lb ed="#Q"/>II. Ad hoc quod quaeritur quare <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e580" ref="#Augustine">Augustinus</name>
+            <lb ed="#Q"/>non utitur verbis sumptis <title>Sap.</title> 11,21: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e587">dicimus
             <lb ed="#Q"/>quod revera idem sunt in substantia modus, spe<lb ed="#Q"/>cies
             et ordo, et numerus, pondus et mensura</quote><!--5-->,
             <lb ed="#Q"/>ut<!--p--> referatur numerus ad speciem, modus ad
@@ -224,10 +218,10 @@
             <lb ed="#Q"/>ponderant quotquot sunt necessaria ad facien<lb ed="#Q"/>dum.
             Et ideo quia in <title>Sap.</title> loquitur de rebus secun<lb ed="#Q"/>dum
             suum fieri,<!--u--> quod patet per hoc<!--v--> quod dici<lb ed="#Q"/>tur
-            <quote>disposuisti</quote>, ideo proprie utitur tribus prae<lb ed="#Q"/>dictis.
+            <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e634">disposuisti</quote>, ideo proprie utitur tribus prae<lb ed="#Q"/>dictis.
             Modus autem, species et ordo proprie di<lb ed="#Q"/>cunt
             dispositionem rei, ut iam facta est. Quia ergo
-            <lb ed="#Q"/><name>Augustinus</name> loquitur de conditionibus rerum
+            <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e642">Augustinus</name> loquitur de conditionibus rerum
             <lb ed="#Q"/>ut iam factae sunt, proprie utitur illis tribus:
             <lb ed="#Q"/>modus, species et ordo.
           </p>
@@ -244,14 +238,14 @@
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4118">
             <lb ed="#Q"/>Quod autem essentialia sint, videtur: Quia 
-            <lb ed="#Q"/>dicit <name ref="#Augustine">Augustinus</name><!--6-->: <quote>Ubi haec magna sunt,
+            <lb ed="#Q"/>dicit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e683" ref="#Augustine">Augustinus</name><!--6-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e687">Ubi haec magna sunt,
             <pb ed="#Q" n="175"/>
             <cb ed="#Q" n="a"/>
             <lb ed="#Q"/>magnum bonum est</quote>. Ergo videtur quod bonum
             <lb ed="#Q"/>non<!--a--> sit sine iis; sed quod non est bonum se<lb ed="#Q"/>cundum
-            naturam, non est: <quote>omne enim quod est,
+            naturam, non est: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e703">omne enim quod est,
             <lb ed="#Q"/>secundum quod huiusmodi, bonum est</quote>, ut dicit
-            <lb ed="#Q"/><name>Augustinus</name>, <title>De doctrina christiana</title><!--1-->; ergo
+            <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e709">Augustinus</name>, <title>De doctrina christiana</title><!--1-->; ergo
             <lb ed="#Q"/>nullum ens potest esse sine iis; ergo sunt es<lb ed="#Q"/>sentialia.
             -— Respondebit<!--b--> quod non sequitur:
             <mentioned>hoc non potest esse sine<!--c--> hoc, ergo est essentiale
@@ -289,12 +283,12 @@
             <lb ed="#Q"/>et ordine. — Quod autem haec tria dicant relatio<lb ed="#Q"/>nem
             rei ad sua principia et quod dicant termina<lb ed="#Q"/>tionem
             et formationem <!--o--> et ordinationem rei ad fi<lb ed="#Q"/>nem,
-            dicit <name ref="#Augustine">Augustinus</name>, <title>Super Genesim</title><!--2-->, plane
-            <lb ed="#Q"/>iis verbis: <quote>Mensura unicuique rei modum prae<lb ed="#Q"/>figit,
+            dicit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e823" ref="#Augustine">Augustinus</name>, <title>Super Genesim</title><!--2-->, plane
+            <lb ed="#Q"/>iis verbis: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e832">Mensura unicuique rei modum prae<lb ed="#Q"/>figit,
             numerus omni<!--p--> rei speciem praebet, pondus
             <lb ed="#Q"/>est quod ad quietem et stabilitatem trahit</quote>. Et
             <lb ed="#Q"/>istud potest extrahi in parte ex<!--q--> <title>Glossa<!--3--> Ge<lb ed="#Q"/>nesis</title>
-            super illud: <quote>Complevit Deus</quote> etc. Unde in
+            super illud: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e853">Complevit Deus</quote> etc. Unde in
             <lb ed="#Q"/>omnibus rebus sunt, et in corporalibus et in spi<lb ed="#Q"/>ritualibus<!--4-->:
             in corporalibus tamen facilius compre<lb ed="#Q"/>henduntur,
             in spiritualibus vero non ita faciliter.
@@ -306,7 +300,7 @@
             <lb ed="#Q"/>quod illa sint essentialia.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4252">
-            <lb ed="#Q"/>Contra: 1. <name>Dionysius</name><!--5-->: <quote>Nihil existentium
+            <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e885">Dionysius</name><!--5-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e888">Nihil existentium
             <lb ed="#Q"/>corrumpitur, secundum quod est<!--s--> existentia, vel
             <lb ed="#Q"/>natura</quote>. Ergo [id] secundum quod fit corruptio,
             <lb ed="#Q"/>proprie essentiale non est; fit autem corruptio se<lb ed="#Q"/>cundum
@@ -364,7 +358,7 @@
             <pb ed="#Q" n="176"/>
             <cb ed="#Q" n="a"/>
             <lb ed="#Q"/>Deum ut ad efficientem, species ut ad formam,
-            <lb ed="#Q"/>ordo ut ad finem. Et secundum hoc dicit <name>Au<lb ed="#Q"/>gustinus</name>,
+            <lb ed="#Q"/>ordo ut ad finem. Et secundum hoc dicit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e1028">Au<lb ed="#Q"/>gustinus</name>,
             <title>X De civitate Dei</title><!--1-->, quod tria quae<lb ed="#Q"/>rimus:
             quis fecit rem, quomodo facta est res<!--a-->,
             <lb ed="#Q"/>propter quid facta est. Si ergo ostenditur quod
@@ -424,43 +418,43 @@
             <lb ed="#Q"/>Contra: Videtur quod unitas non sit ponenda
             <lb ed="#Q"/>quartum illorum nec essentia similiter, sed quod
             <lb ed="#Q"/>contineatur sub altero illorum trium, quod est
-            <lb ed="#Q"/>modus, species et ordo. 1. <name ref="#Augustine">Augustinus</name>, in li<lb ed="#Q"/>bro<!--l-->
-            <title>De vera religione</title><!--3-->: <quote>Omne quod est<!--m--> ha<lb ed="#Q"/>bet
+            <lb ed="#Q"/>modus, species et ordo. 1. <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e1191" ref="#Augustine">Augustinus</name>, in li<lb ed="#Q"/>bro<!--l-->
+            <title>De vera religione</title><!--3-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1202">Omne quod est<!--m--> ha<lb ed="#Q"/>bet
             quod unum sit, quod specie discernatur, quod
             <lb ed="#Q"/>rerum ordinem non excedat</quote>; et loquitur quo<lb ed="#Q"/>modo
             illa tria, modus, species et ordo, sunt in
-            <lb ed="#Q"/>qualibet re. Si ergo hoc quod dico <quote>quod propria
-            <lb ed="#Q"/>specie discernatur</quote> retorquetur ad speciem, <quote>quod
+            <lb ed="#Q"/>qualibet re. Si ergo hoc quod dico <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1216">quod propria
+            <lb ed="#Q"/>specie discernatur</quote> retorquetur ad speciem, <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1221">quod
             <lb ed="#Q"/>rerum ordinem non excedat</quote> ad ordinem, patet
-            <lb ed="#Q"/>quod <quote>unum esse</quote> retorquetur ad modum; non
+            <lb ed="#Q"/>quod <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1228">unum esse</quote> retorquetur ad modum; non
             <lb ed="#Q"/>ergo erit unitas quartum, sed contentum sub modo.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4517">
             <lb ed="#Q"/>2. Item, quod ipsa essentia vel esse similiter
             <lb ed="#Q"/>non sit quartum, sed comprehendatur sub modo,
             <cb ed="#Q" n="b"/>
-            <lb ed="#Q"/>videtur sic: <name ref="#Augustine">Augustinus</name>, in libro <title>83 Quae<lb ed="#Q"/>stionum</title><!--4-->:
-            <quote>In omni eo quod est, aliud est quo
+            <lb ed="#Q"/>videtur sic: <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e1243" ref="#Augustine">Augustinus</name>, in libro <title>83 Quae<lb ed="#Q"/>stionum</title><!--4-->:
+            <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1253">In omni eo quod est, aliud est quo
             <lb ed="#Q"/>constat, aliud quo discernitur, aliud quo suis par<lb ed="#Q"/>tibus
             congruit</quote>; et retorquentur haec tria ad illa
-            <lb ed="#Q"/>tria, modum, speciem et ordinem. Si ergo <quote>quo<!--n-->
-            <lb ed="#Q"/>discernitur</quote> refertur ad speciem, <quote>quo partibus
-            <lb ed="#Q"/>congruit</quote> ad ordinem, patet quod<!--o--> <quote>quo con<lb ed="#Q"/>stat</quote>
+            <lb ed="#Q"/>tria, modum, speciem et ordinem. Si ergo <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1262">quo<!--n-->
+            <lb ed="#Q"/>discernitur</quote> refertur ad speciem, <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1269">quo partibus
+            <lb ed="#Q"/>congruit</quote> ad ordinem, patet quod<!--o--> <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1277">quo con<lb ed="#Q"/>stat</quote>
             refertur ad modum; ergo si <mentioned>quo est</mentioned> vel
-            <quote>quo constat</quote> essentia est, patet quod essentia
+            <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1284">quo constat</quote> essentia est, patet quod essentia
             <lb ed="#Q"/>refertur ad modum; et ita non ponetur quartum.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4546">
-            <lb ed="#Q"/>3. Item <name>Augustinus</name><!--5-->, volens ostendere Tri<lb ed="#Q"/>nitatem
+            <lb ed="#Q"/>3. Item <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e1293">Augustinus</name><!--5-->, volens ostendere Tri<lb ed="#Q"/>nitatem
             personarum in creaturis, dicit quod non
-            <lb ed="#Q"/>sunt nisi tres quaestiones de re, scilicet<!--p--> <quote>si est,
+            <lb ed="#Q"/>sunt nisi tres quaestiones de re, scilicet<!--p--> <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1303">si est,
             <lb ed="#Q"/>quid est, et utrum probandum vel improbandum
-            <lb ed="#Q"/>est</quote>. Si ergo <quote>utrum probandum vel improban<lb ed="#Q"/>dum<!--q-->
+            <lb ed="#Q"/>est</quote>. Si ergo <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1310">utrum probandum vel improban<lb ed="#Q"/>dum<!--q-->
             sit</quote> spectet ad ordinem — probatio enim
             <lb ed="#Q"/>vel improbatio attenditur penes relationem ad fi<lb ed="#Q"/>nem
-            — <quote>quid est</quote> autem spectat ad speciem,
-            <lb ed="#Q"/>patet quod <quote>si est</quote> spectat ad modum; si ergo
-            <quote>si est</quote> quaestio est de essentia vel de esse,
+            — <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1321">quid est</quote> autem spectat ad speciem,
+            <lb ed="#Q"/>patet quod <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1326">si est</quote> spectat ad modum; si ergo
+            <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1328">si est</quote> quaestio est de essentia vel de esse,
             <lb ed="#Q"/>patet quod essentia continetur sub altero illorum
             <lb ed="#Q"/>trium, quod est modus.
           </p>
@@ -479,9 +473,9 @@
             <lb ed="#Q"/>quare non sumuntur similiter quantum ad par<lb ed="#Q"/>ticulares?
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e4603">
-            <lb ed="#Q"/>III. Item, <title>Sap.</title> ll,21, super illum locum: <quote>Omnia
+            <lb ed="#Q"/>III. Item, <title>Sap.</title> ll,21, super illum locum: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1378">Omnia
             <lb ed="#Q"/>numero, pondere et mensura disposuisti</quote>, dicit
-            <lb ed="#Q"/>Glossa<!--a--><!--1-->: <quote>In mensura qualitas, in numero quan<lb ed="#Q"/>titas,
+            <lb ed="#Q"/>Glossa<!--a--><!--1-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1389">In mensura qualitas, in numero quan<lb ed="#Q"/>titas,
             in pondere ratio attenditur</quote>. Sed quaeritur
             <lb ed="#Q"/>quomodo haec<!--b--> habeant veritatem. Videtur enim
             <lb ed="#Q"/>quod deberet magis dici <mentioned>in mensura quantitas</mentioned>:
@@ -532,14 +526,14 @@
             aequalitas, aeternitatis aequalitatisque con<lb ed="#Q"/>nexio<!--3-->.
             Cum ergo aeternitas nihil aliud sit nisi
             <lb ed="#Q"/>esse semper durans, patet quod esse aliquando
-            <lb ed="#Q"/>appropriatur Patri. Unde <name ref="#Augustine">Augustinus</name>, in libro
-            <lb ed="#Q"/><title>De anima et spiritu</title><!--4-->: <quote>Haec omni existenti in<lb ed="#Q"/>sunt:
+            <lb ed="#Q"/>appropriatur Patri. Unde <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e1521" ref="#Augustine">Augustinus</name>, in libro
+            <lb ed="#Q"/><title>De anima et spiritu</title><!--4-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1528">Haec omni existenti in<lb ed="#Q"/>sunt:
             essentia qua sunt, species qua differunt,
             <lb ed="#Q"/>usus quo proficiunt; essentia in Patre, species in
             <lb ed="#Q"/>Imagine, usus in Munere</quote>; et hoc modo respon<lb ed="#Q"/>det
             illi esse creatum, quod reducitur ad modum.
             —- Posset tamen aliter solvi, faciendo vim in hoc
-            <lb ed="#Q"/>quod dicitur; <quote>quo constat</quote>. <quote>Quo constat<!--i--></quote>
+            <lb ed="#Q"/>quod dicitur; <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1542">quo constat</quote>. <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1544">Quo constat<!--i--></quote>
             <lb ed="#Q"/>enim plus dicit quam <mentioned>quo est</mentioned>: dicit enim <mentioned>con<lb ed="#Q"/>stare</mentioned>
             fixionem<!--5--> esse; et ita si <mentioned>constare</mentioned> reduci<lb ed="#Q"/>bile
             sit ad modum, non tamen <mentioned>quo est</mentioned>, quia
@@ -568,8 +562,8 @@
             <lb ed="#Q"/>fit sermo dupliciter; est enim duplex ordo: unus,
             <lb ed="#Q"/>quem habent res inter se in universo et etiam
             <lb ed="#Q"/>quem habent ex suis partibus ex quibus com<lb ed="#Q"/>ponuntur:
-            et secundum hoc dicit <name ref="#Augustine">Augustinus</name><!--6-->,
-            <lb ed="#Q"/>quando<!--o--> loquitur de pertinente ad ordinem: <quote>quo
+            et secundum hoc dicit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e1638" ref="#Augustine">Augustinus</name><!--6-->,
+            <lb ed="#Q"/>quando<!--o--> loquitur de pertinente ad ordinem: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1647">quo
             <lb ed="#Q"/>suis partibus congruit</quote>; est etiam ordo omnium
             <lb ed="#Q"/>rerum relatione ad Deum sicut ad finem: et se<lb ed="#Q"/>cundum
             hoc aliter dicitur de ordine quod est
@@ -661,19 +655,19 @@
             potest et non ultra</mentioned>: hic enim est<!--r--> quasi
             <lb ed="#Q"/>quaedam clausio, ex qua resultat<!--s--> quasi figuratio
             <lb ed="#Q"/>quaedam potentiae ipsius rei. Et hoc est quod
-            <lb ed="#Q"/>in illa <title>Glossa</title> appellatur <quote>qualitas</quote>, et ita
-            <lb ed="#Q"/>patet quod secundum hoc recte dicitur <quote>in men<lb ed="#Q"/>sura
-            qualitas</quote>. — Similiter cum dicit quod <quote>in
+            <lb ed="#Q"/>in illa <title>Glossa</title> appellatur <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1903">qualitas</quote>, et ita
+            <lb ed="#Q"/>patet quod secundum hoc recte dicitur <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1908">in men<lb ed="#Q"/>sura
+            qualitas</quote>. — Similiter cum dicit quod <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1913">in
             <lb ed="#Q"/>numero quantitas<!--t--></quote>: dicimus quod in corpori<lb ed="#Q"/>bus,
             ubi est partium multitudo determinatarum
-            <lb ed="#Q"/>sub unitate formae, hoc quod dicitur <quote>quanti<lb ed="#Q"/>tas</quote>
+            <lb ed="#Q"/>sub unitate formae, hoc quod dicitur <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1923">quanti<lb ed="#Q"/>tas</quote>
             accipitur ibi pro ipsa quantitate vel nume<lb ed="#Q"/>rositate
             partium; unde intelligenda est in tali<lb ed="#Q"/>bus
             quantum ad numerum quantitas<!--u--> materialis,
             <lb ed="#Q"/>scilicet ratione partium. Sed universaliter non
             <lb ed="#Q"/>posset ita dici in spiritualibus, ubi non est mul<lb ed="#Q"/>titudo
             partium; non enim potest dici quod id
-            <lb ed="#Q"/>quod est <quote>quantitas</quote> accipiatur pro numerosi<lb ed="#Q"/>tate
+            <lb ed="#Q"/>quod est <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1944">quantitas</quote> accipiatur pro numerosi<lb ed="#Q"/>tate
             partium, et ideo in huiusmodi<!--v--> potest dici
             <lb ed="#Q"/>quod quantitas ibi accipitur non pro numerosi<lb ed="#Q"/>tate
             partium, sed pro unitate formae vel unitate
@@ -682,7 +676,7 @@
             <lb ed="#Q"/>ipsam rem cuilibet alii, a qua ipsa est distincta;
             <lb ed="#Q"/>quando autem connumeratur aliquid alii, habetur
             <lb ed="#Q"/>quantitas discreta, quae est numerus<!--4-->. Et sic
-            <lb ed="#Q"/>patet quod dicitur <quote>in numero quantitas</quote><!--y-->. — In
+            <lb ed="#Q"/>patet quod dicitur <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e1972">in numero quantitas</quote><!--y-->. — In
             <lb ed="#Q"/>tertio autem, scilicet pondere, non est vis.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5023">
@@ -700,8 +694,8 @@
             <lb ed="#Q"/>Unde nota quod in hac via assignatur vesti<lb ed="#Q"/>gium
             Trinitatis multipliciter<!--1-->. Primo in re secun<lb ed="#Q"/>dum
             quam fit, et sic accipitur in <title>Sap.</title> 11,21:
-            <lb ed="#Q"/><quote>mensura, numero et pondere</quote>. Unde <name>Augusti<lb ed="#Q"/>nus</name>,
-            <title>Ad Orosium</title><!--2-->: <quote>Si in numero, mensura<!--b-->
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2018">mensura, numero et pondere</quote>. Unde <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2020">Augusti<lb ed="#Q"/>nus</name>,
+            <title>Ad Orosium</title><!--2-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2028">Si in numero, mensura<!--b-->
             <lb ed="#Q"/>et pondere disposuit Deus omnia: numerum et
             <lb ed="#Q"/>pondus et mensuram ubi disposuit? Numerus,
             <lb ed="#Q"/>pondus et mensura est ipse Deus; numerus sine
@@ -711,30 +705,30 @@
             <lb ed="#Q"/>creaturam extra se vidit, sicut homo qui retinet
             <lb ed="#Q"/>in memoria quae facit. — Secunda trinitas est,
             <lb ed="#Q"/>secundum quam res est: et haec est unitas sive
-            <lb ed="#Q"/>aeternitas, veritas, bonitas. Unde <name>Bernardus</name>,
-            <lb ed="#Q"/><title>Super Canticum</title><!--3-->: <quote>O beata Trinitas: veritas, bo<lb ed="#Q"/>nitas,
+            <lb ed="#Q"/>aeternitas, veritas, bonitas. Unde <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2055">Bernardus</name>,
+            <lb ed="#Q"/><title>Super Canticum</title><!--3-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2062">O beata Trinitas: veritas, bo<lb ed="#Q"/>nitas,
             aeternitas</quote>; primum Filio, secundum Spi<lb ed="#Q"/>ritui
             Sancto, tertium Patri coaptatur. —- Tertia
             <lb ed="#Q"/>est, secundum quam res perfecte est, scilicet mo<lb ed="#Q"/>dus,
-            species et ordo. <name ref="#Augustine">Augustinus</name>, in libro <title>De
-            <lb ed="#Q"/>natura summi boni</title><!--4-->: <quote>Ubi haec magna sunt,
+            species et ordo. <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2074" ref="#Augustine">Augustinus</name>, in libro <title>De
+            <lb ed="#Q"/>natura summi boni</title><!--4-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2083">Ubi haec magna sunt,
             <lb ed="#Q"/>magnum bonum est, ubi minima minimum, ubi
             <cb ed="#Q" n="b"/>
             <lb ed="#Q"/>mediocria mediocre</quote>. — Quarta est<!--c-->, secundum
             <lb ed="#Q"/>quam res disponitur ad actum: substantia, spe<lb ed="#Q"/>cies
-            et virtus. Unde in <title>Psalmo</title><!--5--> <quote>Bonum est con<lb ed="#Q"/>fiteri
-            Domino<!--d--></quote>, versus: <quote>Et stultus non intelliget
-            <lb ed="#Q"/>haec</quote>, ibi <title>Glossa</title><!--6--> ponit: <quote>Substantia<!--e-->, forma
+            et virtus. Unde in <title>Psalmo</title><!--5--> <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2102">Bonum est con<lb ed="#Q"/>fiteri
+            Domino<!--d--></quote>, versus: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2108">Et stultus non intelliget
+            <lb ed="#Q"/>haec</quote>, ibi <title>Glossa</title><!--6--> ponit: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2117">Substantia<!--e-->, forma
             <lb ed="#Q"/>et virtus</quote>. —— Quinta est, secundum quod in actu
             <lb ed="#Q"/>est: et haec est essentia, virtus et operatio. Hanc
-            <lb ed="#Q"/>ponit <name ref="#Dionysius">Dionysius</name>, in <title>Hierarchia</title>, cap. <quote>Quare
+            <lb ed="#Q"/>ponit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2128" ref="#Dionysius">Dionysius</name>, in <title>Hierarchia</title>, cap. <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2133">Quare
             <lb ed="#Q"/>angeli dicuntur virtutes</quote><!--7-->. - Sexta est, secundum
             <lb ed="#Q"/>quod<!--f--> res ad cognitionem disponitur: substantia,
-            <lb ed="#Q"/>species, ratio; hanc ponit <name>Trismegistus</name><!--8--> phi<lb ed="#Q"/>losophus.
+            <lb ed="#Q"/>species, ratio; hanc ponit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2146">Trismegistus</name><!--8--> phi<lb ed="#Q"/>losophus.
             -— Septima est, secundum<!--g--> quod est
-            <lb ed="#Q"/>in cognitione, et secundum hoc <quote>quo<!--h--> constat,
-            <lb ed="#Q"/>quo congruit, quo discernitur</quote>; hanc ponit <name>Au<lb ed="#Q"/>gustinus</name>,
-            in <title>83 Quaestion.</title><!--9-->, iis verbis: <quote>Omne
+            <lb ed="#Q"/>in cognitione, et secundum hoc <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2156">quo<!--h--> constat,
+            <lb ed="#Q"/>quo congruit, quo discernitur</quote>; hanc ponit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2163">Au<lb ed="#Q"/>gustinus</name>,
+            in <title>83 Quaestion.</title><!--9-->, iis verbis: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2171">Omne
             <lb ed="#Q"/>quod constat aliud est<!--i--> quo constat, aliud quo
             <lb ed="#Q"/>discernitur, aliud quo congruit. Universa ergo
             <lb ed="#Q"/>creatura si est, et ab eo, quod ipsa non est, distat
@@ -850,21 +844,21 @@
             <lb ed="#Q"/>secundum quod insunt omni rei.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5371">
-            <lb ed="#Q"/>Ad quod intelligendum est quod dicit <name>Augu<lb ed="#Q"/>stinus</name>,
-            in<!--q--> <title>XI Confessionum</title><!--1-->: <quote>Domine, duo
+            <lb ed="#Q"/>Ad quod intelligendum est quod dicit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2473">Augu<lb ed="#Q"/>stinus</name>,
+            in<!--q--> <title>XI Confessionum</title><!--1-->: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2483">Domine, duo
             <lb ed="#Q"/>fecisti: unum prope te et aliud<!--r--> prope nihil</quote>;
-            <quote>prope nihil</quote> appellatur ibi materia quantum
-            <lb ed="#Q"/>est de se; <quote>prope Deum</quote> appellatur angelica
+            <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2491">prope nihil</quote> appellatur ibi materia quantum
+            <lb ed="#Q"/>est de se; <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2495">prope Deum</quote> appellatur angelica
             <lb ed="#Q"/>natura sive quaecumque a materia separata inter
             <lb ed="#Q"/>creaturas. Quanto ergo minus habet creatura de
-            <lb ed="#Q"/>eo quod est <quote>prope nihil</quote>, tanto minus habet
+            <lb ed="#Q"/>eo quod est <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2504">prope nihil</quote>, tanto minus habet
             <lb ed="#Q"/>de vertibilitate communiter dicta; quanto autem
-            <lb ed="#Q"/>magis habet creatura de eo quod est<!--s--> <quote>prope
+            <lb ed="#Q"/>magis habet creatura de eo quod est<!--s--> <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2512">prope
             <lb ed="#Q"/>nihil</quote>, tanto magis habet de vertibilitate et cor<lb ed="#Q"/>ruptibilior
             est. Sicut ergo peccatum secundum ali<lb ed="#Q"/>quam
             vertibilitatem erat corruptivum modi, speciei
             <lb ed="#Q"/>et ordinis quae insunt rationabilibus tantum, ita
-            <lb ed="#Q"/>accessus ad <quote>prope nihil</quote>, secundum hanc ver<lb ed="#Q"/>tibilitatem
+            <lb ed="#Q"/>accessus ad <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2526">prope nihil</quote>, secundum hanc ver<lb ed="#Q"/>tibilitatem
             quae inest omni creaturae<!--t-->, est cor<lb ed="#Q"/>ruptivus
             modi, speciei et ordinis communiter dic<lb ed="#Q"/>torum.
             Unde etiam<!--u--> secundum hoc est differen<lb ed="#Q"/>tia
@@ -874,7 +868,7 @@
             <lb ed="#Q"/>a summo bono et non penes accessum ad oppo<lb ed="#Q"/>situm.
             Corruptio autem, quae est secundum ver<lb ed="#Q"/>tibilitatem
             communem, est secundum accessum
-            <lb ed="#Q"/>ad nihil vel ad id quod est <quote>prope nihil</quote>.
+            <lb ed="#Q"/>ad nihil vel ad id quod est <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2558">prope nihil</quote>.
           </p>
         </div>
         <div xml:id="ahsh-l1p1i1t3q3m3c1-Dd1e5427" type="articulus">
@@ -887,8 +881,8 @@
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5444">
             <cb ed="#Q" n="b"/>
-            <lb ed="#Q"/>Ad quod sic: a. <name ref="#Augustine">Augustinus</name>, in libro <title>De na<lb ed="#Q"/>tura
-            summi boni</title><!--2-->:<quote>Omnis modus, species et
+            <lb ed="#Q"/>Ad quod sic: a. <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2585" ref="#Augustine">Augustinus</name>, in libro <title>De na<lb ed="#Q"/>tura
+            summi boni</title><!--2-->:<quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2594">Omnis modus, species et
             <lb ed="#Q"/>ordo a Deo sunt; quantum<!--y--> moderata, speciosa,
             <pb ed="#Q" n="181"/>
             <cb ed="#Q" n="a"/>
@@ -900,8 +894,8 @@
             vel dignoscitur bonum penes ista tria.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5468">
-            <lb ed="#Q"/>b. Item, <name ref="#Augustine">Augustinus</name>, in <title>83 Quaestion.</title><!--1-->:
-            <quote>Ubi est<!--a--> aliqua species, necessario est aliquis
+            <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2623" ref="#Augustine">Augustinus</name>, in <title>83 Quaestion.</title><!--1-->:
+            <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2629">Ubi est<!--a--> aliqua species, necessario est aliquis
             <lb ed="#Q"/>modus, et modus aliquid boni est; summum ergo
             <lb ed="#Q"/>malum nullum modum<!--b--> habet: caret enim bono</quote>;
             <lb ed="#Q"/>et similiter, cum careat modo et specie, caret et
@@ -911,31 +905,31 @@
             <lb ed="#Q"/>caret istis.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5489">
-            <lb ed="#Q"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, <title>Super Genesim ad
+            <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2657" ref="#Augustine">Augustinus</name>, <title>Super Genesim ad
             <lb ed="#Q"/>litteram</title><!--2-->, accipit hanc auctoritatem <title>Sap.</title> 11,21:
-            <lb ed="#Q"/><quote>Omnia disposuisti in numero, pondere et mensura</quote>,
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2670">Omnia disposuisti in numero, pondere et mensura</quote>,
             <lb ed="#Q"/>et dicit quod haec tria sunt in omni creatura.
-            <lb ed="#Q"/>Unde dicit: <quote>Mensura omni rei modum praefigit,
+            <lb ed="#Q"/>Unde dicit: <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2676">Mensura omni rei modum praefigit,
             <lb ed="#Q"/>et numerus omni rei speciem praebet, et pondus
             <lb ed="#Q"/>omnem rem ad quietem ac<!--c--> stabilitatem trahit;
             <lb ed="#Q"/>ille primitus et singulariter et veraciter ista<!--d--> est,
             <lb ed="#Q"/>qui terminat omnia et format omnia<!--e--> et ordinat
-            <lb ed="#Q"/>omnia</quote>. In quantum <quote>terminat omnia</quote>, dicitur
+            <lb ed="#Q"/>omnia</quote>. In quantum <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2696">terminat omnia</quote>, dicitur
             <lb ed="#Q"/>causa efficiens quae dat mensuram vel modum; in
-            <lb ed="#Q"/>quantum autem <quote>format</quote>, dicitur causa formalis et
+            <lb ed="#Q"/>quantum autem <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2703">format</quote>, dicitur causa formalis et
             <lb ed="#Q"/>dat numerum sive speciem; in quantum est causa
-            <lb ed="#Q"/>finalis, <quote>trahit rem ad stabilitatem et quietem</quote>, si<lb ed="#Q"/>cut<!--f-->
+            <lb ed="#Q"/>finalis, <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2709">trahit rem ad stabilitatem et quietem</quote>, si<lb ed="#Q"/>cut<!--f-->
             facit pondus in corporibus. Ex quo patet quod
             <lb ed="#Q"/>ordo refertur ad causam finalem. Sed bonum se<lb ed="#Q"/>cundum
-            <name>Boethium</name><!--3--> dicitur, quia ad bonum
+            <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2720">Boethium</name><!--3--> dicitur, quia ad bonum
             <lb ed="#Q"/>tendit; unde bonum dicit comparationem<!--g--> ad
             <lb ed="#Q"/>finem; ergo bonum secundum ordinem solum
             <lb ed="#Q"/>determinatur et dignoscitur et non secundum illa
             <lb ed="#Q"/>tria.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5537">
-            2. Item, <name ref="#Augustine">Augustinus</name>, in <title>83 Quaestion.</title><!--4-->:
-            <quote>Quasi<!--n--> totum nomen mali de specie<!--i--> privatione
+            2. Item, <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2737" ref="#Augustine">Augustinus</name>, in <title>83 Quaestion.</title><!--4-->:
+            <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2743">Quasi<!--n--> totum nomen mali de specie<!--i--> privatione
             <lb ed="#Q"/>repertum est</quote>. Maxima ergo est oppositio mali
             <lb ed="#Q"/>contra speciem; ergo bonum, quod opponitur
             <lb ed="#Q"/>malo, maxime consistit circa<!--k--> speciem; sicut ergo
@@ -947,9 +941,9 @@
             determinatur penes superfluum et diminutum,
             <lb ed="#Q"/>ergo et bonum; sed medium istud reducitur ad
             <lb ed="#Q"/>modum; ergo solum penes modum determinatur
-            <lb ed="#Q"/>bonum. — Item, <name ref="#Augustine">Augustinus</name>, <title>De natura summi
+            <lb ed="#Q"/>bonum. — Item, <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2777" ref="#Augustine">Augustinus</name>, <title>De natura summi
             <lb ed="#Q"/>boni</title><!--5-->, dicit quod ista recipiunt determinationem
-            <lb ed="#Q"/>mali<!--l-->; unde dicitur <quote>malus modus, mala species,
+            <lb ed="#Q"/>mali<!--l-->; unde dicitur <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2790">malus modus, mala species,
             <lb ed="#Q"/>malus ordo</quote>; sed bonum non potest cadere in
             <cb ed="#Q" n="b"/>
             <lb ed="#Q"/>malum; ergo penes ista non determinatur vel di<lb ed="#Q"/>gnoscitur
@@ -958,14 +952,14 @@
           <p xml:id="ahsh-l1p1i1t3q3m3c1-d1e5576">
             <lb ed="#Q"/>Solutio: Dicendum quod penes haec tria de<lb ed="#Q"/>terminatur
             et dignoscitur bonum in Creatore et
-            <lb ed="#Q"/>creatura. Bonum enim increatum, sicut dicit <name>Dio<lb ed="#Q"/>nysius</name><!--6-->,
-            dicitur <quote>ex quo omnia subsistunt</quote>:
+            <lb ed="#Q"/>creatura. Bonum enim increatum, sicut dicit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2811">Dio<lb ed="#Q"/>nysius</name><!--6-->,
+            dicitur <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2817">ex quo omnia subsistunt</quote>:
             <lb ed="#Q"/>et sic se habet in ratione efficientis ad bonum
             <lb ed="#Q"/>creatum, quod ab ipso est; et dicitur bonum in<lb ed="#Q"/>creatum
-            <quote>in quo omnia contenta sunt</quote>: et sic se
+            <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2826">in quo omnia contenta sunt</quote>: et sic se
             <lb ed="#Q"/>habet in ratione causae formalis ad bonum crea<lb ed="#Q"/>tum,
             quod in ipso est tamquam in continente;
-            <lb ed="#Q"/>item, bonum increatum dicitur <quote>quod omnia af<lb ed="#Q"/>fectant
+            <lb ed="#Q"/>item, bonum increatum dicitur <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2835">quod omnia af<lb ed="#Q"/>fectant
             et ad quod omnia convertuntur</quote>: et sic
             <lb ed="#Q"/>habet intentionem causae finalis. Bonum vero<!--m-->
             <lb ed="#Q"/>creatum dicitur quia a bono, quia in bono, quia
@@ -1020,8 +1014,8 @@
             <lb ed="#Q"/>et ordo dicuntur mali, non secundum idem; verbi
             <lb ed="#Q"/>gratia, malus modus in anima prava, quae ser<lb ed="#Q"/>vat<!--a-->
             modum natura, quamvis non voluntate; vel,
-            <lb ed="#Q"/>quemadmodum dicit <name ref="#Augustine">Augustinus</name>, in libro <title>De
-            <lb ed="#Q"/>natura boni</title><!--1--> <quote>Malus modus vel mala species
+            <lb ed="#Q"/>quemadmodum dicit <name xml:id="ahsh-l1p1i1t3q3m3c1-Nd1e2981" ref="#Augustine">Augustinus</name>, in libro <title>De
+            <lb ed="#Q"/>natura boni</title><!--1--> <quote xml:id="ahsh-l1p1i1t3q3m3c1-Qd1e2990">Malus modus vel mala species
             <lb ed="#Q"/>vel malus ordo aut ideo dicuntur quia minora
             <lb ed="#Q"/>sunt quam esse debuerunt, aut quia non iis rebus
             <lb ed="#Q"/>accommodantur quibus accommodanda sunt, ut

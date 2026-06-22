@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="66"/><cb ed="#Q" n="a"/>
       </div>
@@ -71,8 +65,8 @@
           in omni loco.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3757">
-          <lb ed="#Q"/>Ad oppositum: 1. <name ref="#Augustine">Augustinus</name><!--b-->, in libro <title>De
-          <lb ed="#Q"/>anima et spiritu</title><!--1-->: <quote>Ex eo intellectuales naturas
+          <lb ed="#Q"/>Ad oppositum: 1. <name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e145" ref="#Augustine">Augustinus</name><!--b-->, in libro <title>De
+          <lb ed="#Q"/>anima et spiritu</title><!--1-->: <quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e155">Ex eo intellectuales naturas
           <lb ed="#Q"/>corporeas dicimus, quia loco circumscribuntur</quote>;
           <lb ed="#Q"/>sed quod in<!--c--> loco circumscribitur, locale est;
           <lb ed="#Q"/>ergo omnis natura spiritualis localis est, multo
@@ -110,25 +104,25 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3833">
           <lb ed="#Q"/>Respondeo quod est locus corporalis, de quo
-          <lb ed="#Q"/><name>Damascenus</name> ait<!--l--><!--2-->: <quote>Locus corporalis est finis
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e277">Damascenus</name> ait<!--l--><!--2-->: <quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e282">Locus corporalis est finis
           <lb ed="#Q"/>eius quod continet secundum id quod continet
           <lb ed="#Q"/>quod continetur</quote>. — Est etiam locus spiritualis, de
-          <lb ed="#Q"/>quo idem<!--m--> <name>Damascenus</name><!--3-->: <quote>Est autem intelli<lb ed="#Q"/>gibilis
+          <lb ed="#Q"/>quo idem<!--m--> <name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e294">Damascenus</name><!--3-->: <quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e297">Est autem intelli<lb ed="#Q"/>gibilis
           locus, ubi intelligitur et est intellectualis et
           <lb ed="#Q"/>incorporea natura; et non corporaliter continetur,
           <lb ed="#Q"/>sed intelligibiliter</quote>. - Est autem<!--n--> locus corporalis
           <lb ed="#Q"/>communis, scilicet primum caelum, quod continet
-          <lb ed="#Q"/>visibilia et invisibilia, de quo <name>Damascenus</name><!--4-->:
-          <quote>Caelum est continentia visibilium et invisibilium
+          <lb ed="#Q"/>visibilia et invisibilia, de quo <name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e313">Damascenus</name><!--4-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e316">Caelum est continentia visibilium et invisibilium
           <lb ed="#Q"/>creaturarum; intra enim ipsum intellectuales an<cb ed="#Q" n="b"/><lb ed="#Q"/>gelorum
           virtutes et omnia sensibilia concluduntur
           <lb ed="#Q"/>et circumterminantur<!--o--></quote>. — Similiter est locus
           <lb ed="#Q"/>spiritualis communis<!--p-->, scilicet divina virtus sive
-          <lb ed="#Q"/>potentia, de qua<!--q--> dicit <name ref="#GregoryGreat">Gregorius</name><!--5--> quod <quote>quo<lb ed="#Q"/>libet
+          <lb ed="#Q"/>potentia, de qua<!--q--> dicit <name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e336" ref="#GregoryGreat">Gregorius</name><!--5--> quod <quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e340">quo<lb ed="#Q"/>libet
           mittantur angeli, intra Deum currunt</quote>. —
           <lb ed="#Q"/>Est iterum locus spiritualis specialis, scilicet li<lb ed="#Q"/>mitatio
            sive terminatio propriae potentiae. Unde
-          <lb ed="#Q"/><name>Ambrosius</name>, in libro <title>De Spiritu Sancto</title><!--6-->:<quote> Om<lb ed="#Q"/>nis
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e351">Ambrosius</name>, in libro <title>De Spiritu Sancto</title><!--6-->:<quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e356"> Om<lb ed="#Q"/>nis
           creatura certis naturae suae circumscripta est
           <lb ed="#Q"/>limitibus</quote>.
         </p>
@@ -136,19 +130,19 @@
           <lb ed="#Q"/>Modis propriis loci respondent modi proprii
           <lb ed="#Q"/>eius quod est <mentioned>ubi</mentioned>. Unde modo proprio loci cor<lb ed="#Q"/>poralis
           respondet modus proprius eius quod est
-          <mentioned>ubi</mentioned><!--r--> secundum quod describit <name ref="#Aristotle">Philosophus</name><!--7-->
-          <lb ed="#Q"/>dicens: <quote><mentioned>Ubi</mentioned> est circumscriptio corporis a loci
+          <mentioned>ubi</mentioned><!--r--> secundum quod describit <name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e378" ref="#Aristotle">Philosophus</name><!--7-->
+          <lb ed="#Q"/>dicens: <quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e384"><mentioned>Ubi</mentioned> est circumscriptio corporis a loci
           <lb ed="#Q"/>circumscriptione procedens</quote>. - Similiter modo
           <lb ed="#Q"/>proprio loci spiritualis respondet <mentioned>ubi</mentioned> de quo
-          <lb ed="#Q"/><name>Augustinus</name>, in libro <title>De anima et spiritus</title><!--8-->:
-          <quote>Sicut Deus ubique<!--s--> est in semetipso, sic anima
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e396">Augustinus</name>, in libro <title>De anima et spiritus</title><!--8-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e401">Sicut Deus ubique<!--s--> est in semetipso, sic anima
           <lb ed="#Q"/>ubique est in semetipsa quodammodo</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c3-d1e3902">
           <lb ed="#Q"/>Sumendo igitur <mentioned>ubi</mentioned> communiter, prout res<lb ed="#Q"/>pondet
           loco corporali et spirituali, Deum esse
           <lb ed="#Q"/>ubique est Deum adesse omni <mentioned>ubi</mentioned> et nulli <mentioned>ubi</mentioned>
-          <lb ed="#Q"/>deesse; et hoc est quod dicit <name ref="#Augustine">Augustinus</name><!--9-->,
+          <lb ed="#Q"/>deesse; et hoc est quod dicit <name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e426" ref="#Augustine">Augustinus</name><!--9-->,
           <lb ed="#Q"/>quod<!--t--> Deum esse ubique est nusquam Deum
           <lb ed="#Q"/>abesse. Sic igitur sumpto <mentioned>ubi</mentioned>, omnia habent
           <mentioned>ubi</mentioned>: spiritualia, <mentioned>ubi</mentioned> quod respondet loco pro<lb ed="#Q"/>prio
@@ -180,8 +174,8 @@
           <lb ed="#Q"/>quod <mentioned>omnis creatura est corporalis</mentioned>: dicendum
           <lb ed="#Q"/>quod spiritualis creatura non est corporalis sim<lb ed="#Q"/>pliciter;
           dicitur tamen corporalis, habito<!--a--> res<lb ed="#Q"/>pectu
-          ad simplicitatem primi<!--1-->. Unde dicit <name>Da<lb ed="#Q"/>mascenus</name><!--2-->: 
-          <quote>Omne quod est, comparatum ad
+          ad simplicitatem primi<!--1-->. Unde dicit <name xml:id="ahsh-l1p1i1t2q3t2c3-Nd1e540">Da<lb ed="#Q"/>mascenus</name><!--2-->: 
+          <quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e547">Omne quod est, comparatum ad
           <lb ed="#Q"/>Deum, qui solus est incorporalis, grossum et ma<lb ed="#Q"/>teriale
           invenitur; solus enim essentialiter immate<lb ed="#Q"/>rialis<!--b-->
           et incorporeus Deus est</quote>. Unde ex tali
@@ -194,7 +188,7 @@
           scilicet virtuale et dimensivum. Virtuale est
           <lb ed="#Q"/>duplex, scilicet extra et intra: intra<!--c-->, sicut anima
           <lb ed="#Q"/>virtualiter continet corpus; Deus autem est vir<lb ed="#Q"/>tuale
-          continens intra et extra: ipse enim <quote>est intra
+          continens intra et extra: ipse enim <quote xml:id="ahsh-l1p1i1t2q3t2c3-Qd1e580">est intra
           <lb ed="#Q"/>omnia non inclusus et extra omnia non exclu<lb ed="#Q"/>sus</quote><!--3-->
           Ea ergo<!--d--> ratione qua ipse est continens
           <lb ed="#Q"/>intra, sicut anima corpus, dicitur esse in rebus,

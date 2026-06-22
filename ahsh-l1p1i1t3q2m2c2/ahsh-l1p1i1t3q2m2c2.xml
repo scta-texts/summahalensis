@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
       </div>
@@ -78,14 +72,14 @@
           <lb ed="#Q"/>veritas una est ab aeterno.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3772">
-          <lb ed="#Q"/>Contra: 1. Cum dico: <quote>Pater generat, Filius ge<lb ed="#Q"/>neratur,
+          <lb ed="#Q"/>Contra: 1. Cum dico: <quote xml:id="ahsh-l1p1i1t3q2m2c2-Qd1e167">Pater generat, Filius ge<lb ed="#Q"/>neratur,
           Spiritus Sanctus procedit</quote>, hic sunt plu<lb ed="#Q"/>res
           veritates, sicut plures personae vel proprie<lb ed="#Q"/>tates;
           sed veritates istae sunt<!--g--> aeternae sine prin<lb ed="#Q"/>cipio;
           ergo plures veritates ab aeterno.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3785">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name><!--3--> dicit quod <quote>tres sunt
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t3q2m2c2-Nd1e186" ref="#Augustine">Augustinus</name><!--3--> dicit quod <quote xml:id="ahsh-l1p1i1t3q2m2c2-Qd1e190">tres sunt
           <lb ed="#Q"/>res quibus fruendum est</quote>; sed veritas convertitur
           <lb ed="#Q"/>cum re; ergo tres sunt<!--h--> veritates respondentes
           <lb ed="#Q"/>huiusmodi tribus rebus; sed huiusmodi res sunt
@@ -109,7 +103,7 @@
           ergo plures sunt veritates ab aeterno.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3835">
-          <lb ed="#Q"/>Solutio: Dicendum quod <quote>una sola est veri<lb ed="#Q"/>tas</quote><!--4-->,
+          <lb ed="#Q"/>Solutio: Dicendum quod <quote xml:id="ahsh-l1p1i1t3q2m2c2-Qd1e249">una sola est veri<lb ed="#Q"/>tas</quote><!--4-->,
           cuius proprium est esse sine initio; et
           <lb ed="#Q"/>haec est veritas prima, quae est principium om<lb ed="#Q"/>nium
           aliarum veritatum et prior illis causalitate
@@ -118,11 +112,11 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c2-d1e3851">
           <lb ed="#Q"/>[Ad obiecta]: 1—2. Ad primum<!--5--> obiectum di<lb ed="#Q"/>cendum
-          quod, cum dicit <name>Augustinus</name> quod <quote>tres
+          quod, cum dicit <name xml:id="ahsh-l1p1i1t3q2m2c2-Nd1e275">Augustinus</name> quod <quote xml:id="ahsh-l1p1i1t3q2m2c2-Qd1e277">tres
           <lb ed="#Q"/>sunt res quibus est fruendum</quote>; dicendum quod
           <lb ed="#Q"/>res aliquando appellatur natura, aliquando res
-          <lb ed="#Q"/>appellatur ipsa res naturae. <name ref="#Augustine">Augustinus</name> ergo<!--m-->
-          <lb ed="#Q"/>ibi vocat <quote>tres<!--n--> res</quote>, tres divinas personas. Unde
+          <lb ed="#Q"/>appellatur ipsa res naturae. <name xml:id="ahsh-l1p1i1t3q2m2c2-Nd1e287" ref="#Augustine">Augustinus</name> ergo<!--m-->
+          <lb ed="#Q"/>ibi vocat <quote xml:id="ahsh-l1p1i1t3q2m2c2-Qd1e294">tres<!--n--> res</quote>, tres divinas personas. Unde
           <lb ed="#Q"/>sunt hic tres res naturae sive tres<!--o--> personae:
           <lb ed="#Q"/>non tres res, id est tres naturae, immo sunt tres<!--p-->
           <lb ed="#Q"/>unius naturae et sunt illa natura, scilicet divina
@@ -173,7 +167,7 @@
           <lb ed="#Q"/>aliis futuris; sed <mentioned>Deum fore creaturum mundum</mentioned>
           <lb ed="#Q"/>idem est quod <mentioned>Deum<!--l--> esse</mentioned>; et ita veritates istae
           <lb ed="#Q"/>relate ad divinam essentiam<!--m--> unum sunt, quia sunt
-          <lb ed="#Q"/>divina essentia. Unde hac ratione dicit <name>Ansel<lb ed="#Q"/>mus</name><!--1-->
+          <lb ed="#Q"/>divina essentia. Unde hac ratione dicit <name xml:id="ahsh-l1p1i1t3q2m2c2-Nd1e481">Ansel<lb ed="#Q"/>mus</name><!--1-->
           quod creatura in Creatore est creatrix essen<lb ed="#Q"/>tia.
           Unde sicut nos dicimus de ideis quod ideae
           <lb ed="#Q"/>relate ad ipsa<!--n--> ideata plures sunt, quia crea<lb ed="#Q"/>turae,

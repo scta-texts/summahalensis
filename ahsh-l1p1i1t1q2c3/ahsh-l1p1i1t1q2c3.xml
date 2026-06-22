@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="48"/><cb ed="#Q" n="a"/>
       </div>
@@ -65,8 +59,8 @@
           <lb ed="#Q"/>conveniat creaturae, sed soli Deo<!--6-->
         </p>
         <p xml:id="ahsh-l1p1i1t1q2c3-d1e3747">
-          <lb ed="#Q"/>Obicitur ergo sic: a. <name ref="#Augustine">Augustinus</name>, in libro
-          <lb ed="#Q"/><title>De natura boni</title> <!--7-->: <quote>Solus Deus incommutabilis
+          <lb ed="#Q"/>Obicitur ergo sic: a. <name xml:id="ahsh-l1p1i1t1q2c3-Nd1e132" ref="#Augustine">Augustinus</name>, in libro
+          <lb ed="#Q"/><title>De natura boni</title> <!--7-->: <quote xml:id="ahsh-l1p1i1t1q2c3-Qd1e140">Solus Deus incommutabilis
           <lb ed="#Q"/>est; quae autem fecit, quia ex nihilo, mutabilia 
           <pb ed="#Q" n="49"/>
           <cb ed="#Q" n="a"/>
@@ -75,7 +69,7 @@
           ergo est ei proprium.
         </p>
         <p xml:id="ahsh-l1p1i1t1q2c3-d1e3767">
-          <lb ed="#Q"/>b. Item, <ref xml:id="ahsh-l1p1i1t1q2c3-Rxcnn7u" corresp="#ahsh-l1p1i1t1q2c3-Qvn448d"><name ref="#Augustine">Augustinus</name>, VII <title>De Trinitate</title></ref>: <quote xml:id="ahsh-l1p1i1t1q2c3-Qvn448d" source="http://scta.info/resource/adt-l5-d1e680@116-134">Quod mutatur non servat ipsum esse; et quod
+          <lb ed="#Q"/>b. Item, <ref xml:id="ahsh-l1p1i1t1q2c3-Rxcnn7u" corresp="#ahsh-l1p1i1t1q2c3-Qvn448d"><name xml:id="ahsh-l1p1i1t1q2c3-Nd1e162" ref="#Augustine">Augustinus</name>, VII <title>De Trinitate</title></ref>: <quote xml:id="ahsh-l1p1i1t1q2c3-Qvn448d" source="http://scta.info/resource/adt-l5-d1e680@116-134">Quod mutatur non servat ipsum esse; et quod
           <lb ed="#Q"/>mutari potest, etiam si non mutetur, potest quod
           <lb ed="#Q"/>iuerat non esse</quote>. Si ergo soli divinae essentiae
           <lb ed="#Q"/>conveniat quod non possit quod fuerat vel est
@@ -83,8 +77,8 @@
           <lb ed="#Q"/>est ei esse immutabile.
         </p>
         <p xml:id="ahsh-l1p1i1t1q2c3-d1e3784">
-          <lb ed="#Q"/>c. Item, <name ref="#Augustine">Augustinus</name>, <title>Contra Maximinum</title><!--z-->
-          <quote>Solus dicitur <!--3--> habere immortalitatem. In omni
+          <lb ed="#Q"/>c. Item, <name xml:id="ahsh-l1p1i1t1q2c3-Nd1e187" ref="#Augustine">Augustinus</name>, <title>Contra Maximinum</title><!--z-->
+          <quote xml:id="ahsh-l1p1i1t1q2c3-Qd1e193">Solus dicitur <!--3--> habere immortalitatem. In omni
           <lb ed="#Q"/>mutabili natura nonnulla mors est ipsa mutatio,
           <lb ed="#Q"/>quae facit aliquid non esse in ea quod erat<!--b--></quote>.
         </p>
@@ -101,8 +95,8 @@
           <lb ed="#Q"/>sed per gratiam, et ita nulli per naturam convenit
           <lb ed="#Q"/>esse immutabile nisi Deo — contra: quod anima
           <lb ed="#Q"/>sit imago, est ei a <!--c--> natura; sed eo quod est
-          <lb ed="#Q"/>imago, est immortalis <!--d-->, quia, ut dicit <name>Cassio<lb ed="#Q"/>dorus</name><!--4-->,
-          <quote>non esset imago, si mortis termino
+          <lb ed="#Q"/>imago, est immortalis <!--d-->, quia, ut dicit <name xml:id="ahsh-l1p1i1t1q2c3-Nd1e238">Cassio<lb ed="#Q"/>dorus</name><!--4-->,
+          <quote xml:id="ahsh-l1p1i1t1q2c3-Qd1e245">non esset imago, si mortis termino
           <lb ed="#Q"/>clauderetur</quote>; eo autem quo immortalis, est im<lb ed="#Q"/>mutabilis;
           ergo est immutabilis quantum ad esse
           <lb ed="#Q"/>per naturam et non solum per gratiam.

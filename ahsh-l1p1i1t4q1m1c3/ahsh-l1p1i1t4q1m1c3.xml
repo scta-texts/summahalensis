@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
       </div>
@@ -86,7 +80,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3786">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>Contra: 1. <name ref="#Anselm">Anselmus</name>, in libro <title>De conceptu
+          <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1p1i1t4q1m1c3-Nd1e186" ref="#Anselm">Anselmus</name>, in libro <title>De conceptu
           <lb ed="#Q"/>virginali</title><!--3-->: Deus potest de trunco facere vitulum,
           <lb ed="#Q"/>non tamen de trunco potest fieri vitulus, quia
           <lb ed="#Q"/>deest aptitudo ex parte materiae. Relinquitur igi<lb ed="#Q"/>tur
@@ -96,8 +90,8 @@
           <lb ed="#Q"/>ut fiat messis.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3809">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De Symbolo</title><!--4-->:
-          <lb ed="#Q"/><quote>Omnipotens dicitur, quia de nihilo fecit quae<lb ed="#Q"/>cumque
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t4q1m1c3-Nd1e219" ref="#Augustine">Augustinus</name>, in libro <title>De Symbolo</title><!--4-->:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t4q1m1c3-Qd1e226">Omnipotens dicitur, quia de nihilo fecit quae<lb ed="#Q"/>cumque
           fecit; non enim aliqua materies eum iuvit,
           <lb ed="#Q"/>ex qua demonstraret artis suae potentiam, sed<!--r-->
           <lb ed="#Q"/>ex nihilo cuncta creavit</quote>. Ex hoc relinquitur quod,
@@ -133,8 +127,8 @@
           <lb ed="#Q"/>quod videtur inconveniens.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3879">
-          <lb ed="#Q"/>5. Item <name>Athanasius</name>, in <title>Altercatione contra
-          <lb ed="#Q"/>Arium</title><!--e--><!--1-->: <quote>Vide quot et quantis vocabulis ap<lb ed="#Q"/>pellemus
+          <lb ed="#Q"/>5. Item <name xml:id="ahsh-l1p1i1t4q1m1c3-Nd1e335">Athanasius</name>, in <title>Altercatione contra
+          <lb ed="#Q"/>Arium</title><!--e--><!--1-->: <quote xml:id="ahsh-l1p1i1t4q1m1c3-Qd1e344">Vide quot et quantis vocabulis ap<lb ed="#Q"/>pellemus
           sapientem, bonum et omnipotentem, et
           <lb ed="#Q"/>hoc quoad se; quoad nos vero misericordem,
           <lb ed="#Q"/>pium et iustum</quote>. Ergo nihil creatum connotatur,
@@ -152,9 +146,9 @@
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m1c3-d1e3917">
           <lb ed="#Q"/>[Ad obiecta]: 1-2. Ad illa ergo quae obi<lb ed="#Q"/>ciuntur
-          per auctoritatem <name ref="#Anselm">Anselmi</name> quod non<!--i-->
+          per auctoritatem <name xml:id="ahsh-l1p1i1t4q1m1c3-Nd1e391" ref="#Anselm">Anselmi</name> quod non<!--i-->
           <lb ed="#Q"/>connotatur aptitudo materiae, et per auctoritatem
-          <lb ed="#Q"/><name>Augustini</name> quod non<!--k--> connotatur possibilitas
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t4q1m1c3-Nd1e400">Augustini</name> quod non<!--k--> connotatur possibilitas
           <lb ed="#Q"/>materiae: dicendum quod aptitudo et possibilitas
           <lb ed="#Q"/>materiae possunt considerari ut in sua natura:
           <lb ed="#Q"/>et hoc modo non connotantur, cum dicitur <mentioned>Deus
@@ -166,9 +160,9 @@
           <lb ed="#Q"/>aeterno, quia tunc<!--m--> esse in potentia causae non
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>est aliud quam esse ipsa potentia causae, prout
-          <lb ed="#Q"/>dicit <name ref="#Anselm">Anselmus</name><!--2--> quod <quote>creatura in Creatore
+          <lb ed="#Q"/>dicit <name xml:id="ahsh-l1p1i1t4q1m1c3-Nd1e437" ref="#Anselm">Anselmus</name><!--2--> quod <quote xml:id="ahsh-l1p1i1t4q1m1c3-Qd1e442">creatura in Creatore
           <lb ed="#Q"/>est creatrix essentia</quote>, quod debet intelligi com<lb ed="#Q"/>posite<!--n--><!--3-->:
-          nam cum dicitur <quote>creatura in Crea<lb ed="#Q"/>tore</quote>,
+          nam cum dicitur <quote xml:id="ahsh-l1p1i1t4q1m1c3-Qd1e452">creatura in Crea<lb ed="#Q"/>tore</quote>,
           trahitur extra rationem creaturae ad sup<lb ed="#Q"/>ponendum<!--o-->
           existentiam eius in causa.
         </p>

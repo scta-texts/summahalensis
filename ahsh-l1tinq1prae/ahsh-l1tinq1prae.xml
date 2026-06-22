@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,8 +34,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -54,10 +50,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="1"/><cb ed="#Q" n="a"/>
         <pb ed="#V" n="3-r"/><cb ed="#V" n="a"/>
@@ -66,9 +59,9 @@
     <body>
       <div xml:id="ahsh-l1tinq1prae">
         <head xml:id="ahsh-l1tinq1prae-Hd1e3729">I, Tract. Intro., Q. 1, Praeambula</head>
-        <p xml:id="ahsh-l1tinq1prae-d1e3737">Quoniam, sicut dicit <name>Boethius</name>, in libro <title>De Trinitate</title><!--1-->, <quote>optime dictum
+        <p xml:id="ahsh-l1tinq1prae-d1e3737">Quoniam, sicut dicit <name xml:id="ahsh-l1tinq1prae-Nd1e119">Boethius</name>, in libro <title>De Trinitate</title><!--1-->, <quote xml:id="ahsh-l1tinq1prae-Qd1e124">optime dictum
           <lb ed="#Q"/>videtur<!--2-->: eruditi est hominis unumquodque, ut ipsum est, ita de eo fidem
-          <lb ed="#Q"/>capere tentare<!--3--></quote> — unde <quote>in naturalibus rationabiliter, in mathematicis
+          <lb ed="#Q"/>capere tentare<!--3--></quote> — unde <quote xml:id="ahsh-l1tinq1prae-Qd1e134">in naturalibus rationabiliter, in mathematicis
           <lb ed="#Q"/>disciplinaliter, in divinis intellectualiter versari oportebit</quote>, - theologicae
           <lb ed="#Q"/>facultatis inquisitionibus intendentes, cum adiutorio gratiae<!--a--> Iesu Christi
           <lb ed="#Q"/>tale principium capimus, inquirentes in primis de doctrina Theologiae:

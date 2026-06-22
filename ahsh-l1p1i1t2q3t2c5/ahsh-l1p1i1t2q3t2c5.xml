@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="69"/><cb ed="#Q" n="a"/>
       </div>
@@ -87,7 +81,7 @@
         <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3776">
           <lb ed="#Q"/>4. Item, angelus potest velle esse ubique; sed
           <lb ed="#Q"/>si istud potest velle, potest esse ibi: quia, cum
-          dicat <name ref="#Augustine">Augustinus</name><!--3--> de corpore glorificato, quod
+          dicat <name xml:id="ahsh-l1p1i1t2q3t2c5-Nd1e183" ref="#Augustine">Augustinus</name><!--3--> de corpore glorificato, quod
           <lb ed="#Q"/>ibi erit ubi volet, multo magis istud est verum
           <lb ed="#Q"/>de angelo; ergo angelo potest convenire esse
           <lb ed="#Q"/>ubique et non soli Deo.
@@ -95,8 +89,8 @@
         <p xml:id="ahsh-l1p1i1t2q3t2c5-d1e3789">
           <lb ed="#Q"/>Solutio: Cum dicitur Deus esse ubique, sem<lb ed="#Q"/>per
           ita intelligitur quod non sit dependentia eius
-          <lb ed="#Q"/>ab<!--f--> <mentioned>ubi</mentioned>. Et ideo dicit <name ref="#Augustine">Augustinus</name>, <title>Ad Dar<lb ed="#Q"/>danum</title><!--4-->:
-          <quote>In se ipso Deus est et ubique: ubique,
+          <lb ed="#Q"/>ab<!--f--> <mentioned>ubi</mentioned>. Et ideo dicit <name xml:id="ahsh-l1p1i1t2q3t2c5-Nd1e208" ref="#Augustine">Augustinus</name>, <title>Ad Dar<lb ed="#Q"/>danum</title><!--4-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t2c5-Qd1e217">In se ipso Deus est et ubique: ubique,
           <lb ed="#Q"/>quia nusquam est absens; in se ipso, quia non 
           <lb ed="#Q"/>continetur<!--g--> iis quibus est praesens</quote>. Et propter
           <lb ed="#Q"/>hoc per hanc <mentioned>Deus est ubique</mentioned> non excluditur<!--h-->

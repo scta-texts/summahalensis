@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="132"/><cb ed="#Q" n="a"/>
       </div>
@@ -95,7 +89,7 @@
           <lb ed="#Q"/>creato; relinquitur ergo quod est in esse divino.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c5-d1e3811">
-          <lb ed="#Q"/>Contra: 1. <name>Richardus de S. Victore</name><!--7-->: <quote>Ubi
+          <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1p1i1t3q1m2c5-Nd1e210">Richardus de S. Victore</name><!--7-->: <quote xml:id="ahsh-l1p1i1t3q1m2c5-Qd1e213">Ubi
           <lb ed="#Q"/>nulla differentia, nulla pluralitas esse potest</quote>;
           <lb ed="#Q"/>ubi autem est summe simplex, nulla potest esse
           <cb ed="#Q" n="b"/>
@@ -105,8 +99,8 @@
           <lb ed="#Q"/>personarum est in illo<!--g-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c5-d1e3831">
-          <lb ed="#Q"/>2. Item, <name>Boethius</name>, in libro <title>De Trinitate</title><!--8-->:
-          <quote>Deus nullas habet differentias; ubi autem dif<lb ed="#Q"/>ferentiae
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t3q1m2c5-Nd1e238">Boethius</name>, in libro <title>De Trinitate</title><!--8-->:
+          <quote xml:id="ahsh-l1p1i1t3q1m2c5-Qd1e243">Deus nullas habet differentias; ubi autem dif<lb ed="#Q"/>ferentiae
           absunt, abest et pluralitas</quote>. Ergo ibi
           <lb ed="#Q"/>non est pluralitas personarum.
         </p>
@@ -120,22 +114,22 @@
           <lb ed="#Q"/>triplex est differentia: differentia<!--i--> secundum sub<lb ed="#Q"/>stantiam,
           differentia secundum accidens et diffe<lb ed="#Q"/>rentia
           secundum originem sive secundum rela<lb ed="#Q"/>tionem.
-          Cum ergo dicit <name>Boethius</name> quod<!--k--> in Deo
+          Cum ergo dicit <name xml:id="ahsh-l1p1i1t3q1m2c5-Nd1e277">Boethius</name> quod<!--k--> in Deo
           <lb ed="#Q"/>nulla est differentia, intendit excludere a Deo
           <lb ed="#Q"/>differentiam secundum substantiam et differen<lb ed="#Q"/>tiam
           secundum accidens, sed non differentiam
           <lb ed="#Q"/>secundum originem, immo ponit eam in unitate
           <lb ed="#Q"/>divini esse: et hoc facit differentiam personalem
-          <lb ed="#Q"/>in divino esse. Immo dicit <name>Boethius</name>, in libro
-          <lb ed="#Q"/><title>De Trinitate</title><!--9-->: Quia <quote>nulla relatio ad se ipsam re<lb ed="#Q"/>ferri
+          <lb ed="#Q"/>in divino esse. Immo dicit <name xml:id="ahsh-l1p1i1t3q1m2c5-Nd1e294">Boethius</name>, in libro
+          <lb ed="#Q"/><title>De Trinitate</title><!--9-->: Quia <quote xml:id="ahsh-l1p1i1t3q1m2c5-Qd1e301">nulla relatio ad se ipsam re<lb ed="#Q"/>ferri
           potest, facta est quidem Trinitatis numero<lb ed="#Q"/>sitas
           in eo quod est praedicatio relationis, ser<lb ed="#Q"/>vata
           vero unitas in eo quod est indifferentia sub<lb ed="#Q"/>stantiae
-          et operationis</quote>. Ex quo concludit<!--10-->: <quote>Ita
+          et operationis</quote>. Ex quo concludit<!--10-->: <quote xml:id="ahsh-l1p1i1t3q1m2c5-Qd1e314">Ita
           <lb ed="#Q"/>igitur substantia continet unitatem, relatio multi<lb ed="#Q"/>plicat
           Trinitatem</quote>, quae provenit ex differentia
-          <lb ed="#Q"/>originis. Similiter <name>Richardus</name>, in libro <title>De Tri<lb ed="#Q"/>nitate</title><!--11-->:
-          <quote>Tres illae in Trinitate, sive dicantur
+          <lb ed="#Q"/>originis. Similiter <name xml:id="ahsh-l1p1i1t3q1m2c5-Nd1e323">Richardus</name>, in libro <title>De Tri<lb ed="#Q"/>nitate</title><!--11-->:
+          <quote xml:id="ahsh-l1p1i1t3q1m2c5-Qd1e332">Tres illae in Trinitate, sive dicantur
           <lb ed="#Q"/>personae sive subsistentiae sive substantiae, nihil
           <lb ed="#Q"/>aliud oportet intelligere quam habentes substan<lb ed="#Q"/>tiale
           esse sub discreta et differenti proprietate</quote>:
@@ -148,7 +142,7 @@
           ab alio per generationem, et habens ab alio
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>per processionem. Et sic illa proprietas diffe<lb ed="#Q"/>rens,
-          de qua loquitur <name>Richardus</name>, non est acci<lb ed="#Q"/>dentalis<!--d-->
+          de qua loquitur <name xml:id="ahsh-l1p1i1t3q1m2c5-Nd1e369">Richardus</name>, non est acci<lb ed="#Q"/>dentalis<!--d-->
           neque substantialis, sed est proprietas
           <lb ed="#Q"/>originis sive habitudinis, quae simplicitati divinae
           <lb ed="#Q"/>substantiae<!--e--> non derogat. Et sic patet veritas

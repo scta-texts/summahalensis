@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="61"/><cb ed="#Q" n="a"/>
       </div>
@@ -112,7 +106,7 @@
           <lb ed="#Q"/>nec ex parte medii videndi — quia<!--k--> non videbitur
           <lb ed="#Q"/>per similitudines aliquas, sed videbitur per se et<!--l-->
           <lb ed="#Q"/>in se -— sed solum erit ibi diversitas ex parte
-          <lb ed="#Q"/>videntis: sicut enim dicit <name>Boethius</name><!--5-->: <quote>Omne
+          <lb ed="#Q"/>videntis: sicut enim dicit <name xml:id="ahsh-l1p1i1t2q2c2-Nd1e250">Boethius</name><!--5-->: <quote xml:id="ahsh-l1p1i1t2q2c2-Qd1e253">Omne
           <lb ed="#Q"/>quod apprehenditur est in apprehendente per mo<lb ed="#Q"/>dum
           rei apprehendentis et non per modum rei
           <lb ed="#Q"/>apprehensae</quote>. Quia ergo in gloria erit differentia
@@ -124,7 +118,7 @@
           <lb ed="#Q"/>et in eadem dispositione ad res, quantum est de
           <lb ed="#Q"/>se, ille intellectus, qui erit perspicacior per glo<lb ed="#Q"/>riam,
           plus de ipsa percipiet<!--p--> quam alius minus
-          <lb ed="#Q"/>perspicax. Sicut <quote>enim stella differt a stella in
+          <lb ed="#Q"/>perspicax. Sicut <quote xml:id="ahsh-l1p1i1t2q2c2-Qd1e290">enim stella differt a stella in
           <lb ed="#Q"/>claritate</quote><!--6-->, sic corpora glorificata different in cla<lb ed="#Q"/>ritate<!--7-->;
           ita etiam animae different in claritate in
           <lb ed="#Q"/>gloria. Et ita, licet divina essentia sit simplex et
@@ -139,8 +133,8 @@
           <lb ed="#Q"/>scilicet<!--t--> illustrationis, secundum quem dicitur dif<lb ed="#Q"/>ferens
           participatio. Differentia autem istius par<lb ed="#Q"/>ticipationis
           est ex parte participandum, non ex
-          <lb ed="#Q"/>parte Dei, quia sicut dicit <name ref="#Aristotle">Philosophus</name>, in
-          <lb ed="#Q"/>libro <title>De causis</title><!--9-->: <quote>Causa prima se habet ad res
+          <lb ed="#Q"/>parte Dei, quia sicut dicit <name xml:id="ahsh-l1p1i1t2q2c2-Nd1e337" ref="#Aristotle">Philosophus</name>, in
+          <lb ed="#Q"/>libro <title>De causis</title><!--9-->: <quote xml:id="ahsh-l1p1i1t2q2c2-Qd1e346">Causa prima se habet ad res
           <lb ed="#Q"/>omnes secundum dispositionem unam; non ta<lb ed="#Q"/>men
           omnes res secundum dispositionem unam
           <lb ed="#Q"/>ab ipsa recipiunt influentiam</quote>. Sicut idem<!--u--> ra<lb ed="#Q"/>dius

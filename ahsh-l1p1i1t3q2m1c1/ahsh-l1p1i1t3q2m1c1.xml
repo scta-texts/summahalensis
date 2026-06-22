@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="138"/><cb ed="#Q" n="a"/>
       </div>
@@ -80,8 +74,8 @@
           <!-- end proem -->
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3778">
-          <lb ed="#Q"/>Ad primum arguitur: a. Ex <title>Soliloquiis</title> <name>Au<lb ed="#Q"/>gustini</name><!--1-->:
-          <quote>Si manebit mundus iste, ve<lb ed="#Q"/>rum
+          <lb ed="#Q"/>Ad primum arguitur: a. Ex <title>Soliloquiis</title> <name xml:id="ahsh-l1p1i1t3q2m1c1-Nd1e171">Au<lb ed="#Q"/>gustini</name><!--1-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c1-Qd1e177">Si manebit mundus iste, ve<lb ed="#Q"/>rum
           est mundum semper esse mansurum; si non
           <lb ed="#Q"/>manebit, verum est non esse mansurum; si interi<lb ed="#Q"/>turus
           est, cum interierit, verum est mundum inte<lb ed="#Q"/>riisse:
@@ -89,10 +83,10 @@
           <lb ed="#Q"/>sit</quote>. Erit igitur veritas, etiam si mundus intereat.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3797">
-          <lb ed="#Q"/>b. Item, <name ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--2--> et
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t3q2m1c1-Nd1e196" ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--2--> et
           <lb ed="#Q"/>in <title ref="#Monologion">Monologion</title><!--3-->, probat sic necessario veritatem
           <lb ed="#Q"/>aeternaliter esse ut non possit cogitari non esse.
-          <lb ed="#Q"/>Primo sic ostensive: <quote>Cogitet qui potest quando
+          <lb ed="#Q"/>Primo sic ostensive: <quote xml:id="ahsh-l1p1i1t3q2m1c1-Qd1e213">Cogitet qui potest quando
           <lb ed="#Q"/>incepit aut quando non fuit hoc verum, quia sci<lb ed="#Q"/>licet
           futurum erat aliquid; aut quando desinet et
           <lb ed="#Q"/>non erit hoc verum, videlicet quia praeteritum
@@ -102,7 +96,7 @@
           <lb ed="#Q"/>aut principium habeat</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3823">
-          <lb ed="#Q"/>c. Item<!--e-->, idem <name ref="#Anselm">Anselmus</name>, ibidem<!--4-->: <quote>Si ve<lb ed="#Q"/>ritas
+          <lb ed="#Q"/>c. Item<!--e-->, idem <name xml:id="ahsh-l1p1i1t3q2m1c1-Nd1e240" ref="#Anselm">Anselmus</name>, ibidem<!--4-->: <quote xml:id="ahsh-l1p1i1t3q2m1c1-Qd1e245">Si ve<lb ed="#Q"/>ritas
           habuerit principium aut finem habebit, an<cb ed="#Q" n="b"/><lb ed="#Q"/>tequam
           ipsa<!--f--> inciperet, verum erat tunc quia non
           <lb ed="#Q"/>erat veritas, et postquam finita erit, verum erit
@@ -136,8 +130,8 @@
           verum simpliciter.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3893">
-          <lb ed="#Q"/>Respondeo, secundum <name ref="#Augustine">Augustinum</name>, in libro
-          <lb ed="#Q"/><title>De vera religione</title><!--1-->: <quote>Nullus intelligit falsa: nam
+          <lb ed="#Q"/>Respondeo, secundum <name xml:id="ahsh-l1p1i1t3q2m1c1-Nd1e353" ref="#Augustine">Augustinum</name>, in libro
+          <lb ed="#Q"/><title>De vera religione</title><!--1-->: <quote xml:id="ahsh-l1p1i1t3q2m1c1-Qd1e360">Nullus intelligit falsa: nam
           <lb ed="#Q"/>verum esse oportet quod intellectu contemplor</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c1-d1e3902">

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="31"/><cb ed="#Q" n="a"/>
       </div>
@@ -85,8 +78,8 @@
           <lb ed="#Q"/>proportio vel habitudo.
         </p>
         <p xml:id="ahsh-l1tinq2m3c2-d1e3783">
-          <lb ed="#Q"/>3. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De libera ar<lb ed="#Q"/>bitrio</title><!--6-->:
-          <quote>Fortis acies mentis, cum multa et<!--n--> in<lb ed="#Q"/>commutabilia
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1tinq2m3c2-Nd1e173" ref="#Augustine">Augustinus</name>, in libro <title>De libera ar<lb ed="#Q"/>bitrio</title><!--6-->:
+          <quote xml:id="ahsh-l1tinq2m3c2-Qd1e182">Fortis acies mentis, cum multa et<!--n--> in<lb ed="#Q"/>commutabilia
           conspexerit, diriget se in summam
           <lb ed="#Q"/>veritatem<!--o--> qua omnia alia monstrantur, eique in<lb ed="#Q"/>haerens
           obliviscitur cetera</quote>; sed cum intelligit
@@ -103,23 +96,23 @@
           et sine medio videt ipsam.
         </p>
         <p xml:id="ahsh-l1tinq2m3c2-d1e3819">
-          <lb ed="#Q"/>5. Item, <title>Matth.</title> 11, 27: <quote>Nemo novit Patrem nisi
-          <lb ed="#Q"/>Filius</quote>. <title>Glossa</title><!--1-->: <quote>Pater declaratur per Verbum</quote>.
+          <lb ed="#Q"/>5. Item, <title>Matth.</title> 11, 27: <quote xml:id="ahsh-l1tinq2m3c2-Qd1e227">Nemo novit Patrem nisi
+          <lb ed="#Q"/>Filius</quote>. <title>Glossa</title><!--1-->: <quote xml:id="ahsh-l1tinq2m3c2-Qd1e235">Pater declaratur per Verbum</quote>.
           <lb ed="#Q"/>Ergo videmus Deum per Filium, non per creaturas.
-          <lb ed="#Q"/>— Ad idem est illud <title>Sententiarum</title><!--2-->: <quote>Deus Pater,
+          <lb ed="#Q"/>— Ad idem est illud <title>Sententiarum</title><!--2-->: <quote xml:id="ahsh-l1tinq2m3c2-Qd1e245">Deus Pater,
           <lb ed="#Q"/>qui verissime indicare se omnibus<!--b--> cognituris et
           <lb ed="#Q"/>voluit et potuit, hoc<!--c--> ad se indicandum genuit,
           <lb ed="#Q"/>quod est ipse qui genuit</quote>. Ergo Filius proprie
           <lb ed="#Q"/>est ad indicandum Deum.
         </p>
         <p xml:id="ahsh-l1tinq2m3c2-d1e3837">
-          <lb ed="#Q"/>Contra: a. <title>Rom.</title> 1, 20: <quote>Invisibilia Dei</quote>. <title>Glos<lb ed="#Q"/>sa</title><!--3-->:
-          <quote>Deus, qui invisibilis erat natura, opus
+          <lb ed="#Q"/>Contra: a. <title>Rom.</title> 1, 20: <quote xml:id="ahsh-l1tinq2m3c2-Qd1e267">Invisibilia Dei</quote>. <title>Glos<lb ed="#Q"/>sa</title><!--3-->:
+          <quote xml:id="ahsh-l1tinq2m3c2-Qd1e275">Deus, qui invisibilis erat natura, opus
           <lb ed="#Q"/>suum fecit quod opificem sua visibilitate mon<lb ed="#Q"/>straret</quote>.
           Ergo videmus eum per creaturas.
         </p>
         <p xml:id="ahsh-l1tinq2m3c2-d1e3848">
-          <lb ed="#Q"/>b. Item, <title>I Cor.</title> 13, 12: <quote>Videmus nunc per spe<lb ed="#Q"/>culam
+          <lb ed="#Q"/>b. Item, <title>I Cor.</title> 13, 12: <quote xml:id="ahsh-l1tinq2m3c2-Qd1e289">Videmus nunc per spe<lb ed="#Q"/>culam
           in aenigmate</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m3c2-d1e3855">
@@ -144,10 +137,10 @@
         <p xml:id="ahsh-l1tinq2m3c2-d1e3893">
           <lb ed="#Q"/>2. Ad secundum dicendum quod est conside<lb ed="#Q"/>rare
           divinam substantiam in se et ut causam. In se
-          <lb ed="#Q"/>considerata est <quote>velut quoddam pelagus substan<cb ed="#Q" n="b"/><lb ed="#Q"/>tiae
+          <lb ed="#Q"/>considerata est <quote xml:id="ahsh-l1tinq2m3c2-Qd1e354">velut quoddam pelagus substan<cb ed="#Q" n="b"/><lb ed="#Q"/>tiae
           infinitae<!--4--></quote>. Si vero consideretur ut causa, du<lb ed="#Q"/>pliciter
           consideratur: ut causa efficiens et ut causa
-          <lb ed="#Q"/>finalis, quia est <quote>alpha et omega</quote><!--5-->. Isto secundo
+          <lb ed="#Q"/>finalis, quia est <quote xml:id="ahsh-l1tinq2m3c2-Qd1e366">alpha et omega</quote><!--5-->. Isto secundo
           <lb ed="#Q"/>modo consideratur in quantum finiens creaturam:
           <lb ed="#Q"/>a parte ante, in quantum est causa efficiens, et
           <lb ed="#Q"/>a parte post, ut causa finalis; et sic est accipere
@@ -162,15 +155,15 @@
           <lb ed="#Q"/>modo. — Dicendum ergo quod est cognitio in<!--l-->
           <lb ed="#Q"/>fieri et in facto esse: cognitio de Deo semper est
           <lb ed="#Q"/>in fieri in vita ista, sed in futuro erit facta. Et hoc
-          <lb ed="#Q"/>modo debet intelligi quod dicit <name ref="#Augustine">Augustinus</name><!--6-->,
-          <lb ed="#Q"/>quod <quote>mens obliviscitur cetera</quote>. Sicut patet cum
+          <lb ed="#Q"/>modo debet intelligi quod dicit <name xml:id="ahsh-l1tinq2m3c2-Nd1e404" ref="#Augustine">Augustinus</name><!--6-->,
+          <lb ed="#Q"/>quod <quote xml:id="ahsh-l1tinq2m3c2-Qd1e411">mens obliviscitur cetera</quote>. Sicut patet cum
           <lb ed="#Q"/>aliquis facit rem, habet instrumenta<!--m-->, sed cum
-          <lb ed="#Q"/>facta est, proicit ea. <name ref="#Augustine">Augustinus</name><!--7-->: <quote>Indige<lb ed="#Q"/>mus
+          <lb ed="#Q"/>facta est, proicit ea. <name xml:id="ahsh-l1tinq2m3c2-Nd1e419" ref="#Augustine">Augustinus</name><!--7-->: <quote xml:id="ahsh-l1tinq2m3c2-Qd1e424">Indige<lb ed="#Q"/>mus
           in praesenti dispensationis similitudinibus</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m3c2-d1e3947">
           <lb ed="#Q"/>4. Ad quartum dicendum quod defectus est
-          <lb ed="#Q"/>a parte naturae: <quote>Sic enim se habet intellectus
+          <lb ed="#Q"/>a parte naturae: <quote xml:id="ahsh-l1tinq2m3c2-Qd1e436">Sic enim se habet intellectus
           <lb ed="#Q"/>noster ad manifestissima naturae sicut oculus
           <lb ed="#Q"/>noctuae ad solem<!--8--></quote>. Sicut enim visus noster de<lb ed="#Q"/>ficit
           in maxime lucidis et minime, ita intellectus in

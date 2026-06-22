@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="186"/><cb ed="#Q" n="a"/>
       </div>
@@ -79,33 +73,33 @@
           <lb ed="#Q"/>b. Item, ad idem: Cuius usus bonus est, ipsum
           <lb ed="#Q"/>est bonum, et cuius usus est<!--d--> immutabiliter bo<lb ed="#Q"/>nus,
           ipsum est immutabiliter bonum; sed usus
-          <lb ed="#Q"/>virtutum est immutabiliter bonus. Unde <name>Augu<lb ed="#Q"/>stinus</name>,
-          <title>De libero arbitrio</title><!--2--> <quote>Virtutibus nemo
+          <lb ed="#Q"/>virtutum est immutabiliter bonus. Unde <name xml:id="ahsh-l1p1i1t3q3m3c3-Nd1e150">Augu<lb ed="#Q"/>stinus</name>,
+          <title>De libero arbitrio</title><!--2--> <quote xml:id="ahsh-l1p1i1t3q3m3c3-Qd1e158">Virtutibus nemo
           <lb ed="#Q"/>male utitur, ceteris autem bonis, id est mediis</quote>,
-          <lb ed="#Q"/>sicut sunt potentiae animi<!--e-->, <quote>et minimis</quote>, ut
-          <lb ed="#Q"/>sunt species quorumlibet corporum, <quote>non solum
+          <lb ed="#Q"/>sicut sunt potentiae animi<!--e-->, <quote xml:id="ahsh-l1p1i1t3q3m3c3-Qd1e168">et minimis</quote>, ut
+          <lb ed="#Q"/>sunt species quorumlibet corporum, <quote xml:id="ahsh-l1p1i1t3q3m3c3-Qd1e172">non solum
           <lb ed="#Q"/>bene, sed et male quisque<!--f--> uti potest</quote>. Item,
-          <lb ed="#Q"/><name>Augustinus</name><!--3-->: <quote>In virtutibus recta ratio vi<lb ed="#Q"/>get<!--g-->,
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q3m3c3-Nd1e180">Augustinus</name><!--3-->: <quote xml:id="ahsh-l1p1i1t3q3m3c3-Qd1e183">In virtutibus recta ratio vi<lb ed="#Q"/>get<!--g-->,
           sine qua virtutes esse non possunt; recta
           <lb ed="#Q"/>autem ratione nemo male uti potest</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c3-d1e3797">
-          <lb ed="#Q"/>Contra: 1. <quote>Omne quod a versione incipit est
-          <lb ed="#Q"/>vertibile</quote>, ut dicit <name>Damascenus</name><!--4-->; sed omne
+          <lb ed="#Q"/>Contra: 1. <quote xml:id="ahsh-l1p1i1t3q3m3c3-Qd1e198">Omne quod a versione incipit est
+          <lb ed="#Q"/>vertibile</quote>, ut dicit <name xml:id="ahsh-l1p1i1t3q3m3c3-Nd1e203">Damascenus</name><!--4-->; sed omne
           <lb ed="#Q"/>creatum incipit a versione, quia exit de non-esse
           <lb ed="#Q"/>in esse; ergo omne creatum vertibile; et omne
           <lb ed="#Q"/>vertibile mutabile; ergo nullum bonum creatum
           <lb ed="#Q"/>est immutabile: ex quo non est aliquod<!--h--> immu<lb ed="#Q"/>tabile.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c3-d1e3815">
-          <lb ed="#Q"/>2. Item, si dicatur, sicut dicit <name>Porretanus</name><!--5-->,
+          <lb ed="#Q"/>2. Item, si dicatur, sicut dicit <name xml:id="ahsh-l1p1i1t3q3m3c3-Nd1e224">Porretanus</name><!--5-->,
           <lb ed="#Q"/>quod bonum dicitur duobus modis: in se et ab<lb ed="#Q"/>solute,
           sic bonum summum, quod est Deus, est
           <lb ed="#Q"/>immutabiliter bonum; si<!--i--> vero bonum secun<lb ed="#Q"/>dum
           usum: sic virtutes et recta ratio sunt im<lb ed="#Q"/>mutabiliter
           bona, quia usus ipsarum non po<lb ed="#Q"/>test
-          non esse bonus — contra: <name ref="#Augustine">Augustinus</name>,
-          <lb ed="#Q"/><title>De civitate Dei</title><!--6-->: <quote>Virtutes, cum referuntur ad
+          non esse bonus — contra: <name xml:id="ahsh-l1p1i1t3q3m3c3-Nd1e242" ref="#Augustine">Augustinus</name>,
+          <lb ed="#Q"/><title>De civitate Dei</title><!--6-->: <quote xml:id="ahsh-l1p1i1t3q3m3c3-Qd1e250">Virtutes, cum referuntur ad
           <lb ed="#Q"/>se ipsas nec propter aliud<!--k--> expetuntur, inflatae
           <lb ed="#Q"/>atque superbae sunt</quote>; sed inflatio et superbia
           <cb ed="#Q" n="b"/>
@@ -130,7 +124,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m3c3-d1e3879">
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod obicit<!--r--> quod
-          <quote>mutabile [est] omnes creatum</quote>: concedo quantum
+          <quote xml:id="ahsh-l1p1i1t3q3m3c3-Qd1e320">mutabile [est] omnes creatum</quote>: concedo quantum
           <lb ed="#Q"/>est de conditione suae originalis materiae, quia de
           <lb ed="#Q"/>nihilo; sed quantum est de conditione suae ori<lb ed="#Q"/>ginis
           causalis, perpetuum est et immutabile quan<lb ed="#Q"/>tum
@@ -146,10 +140,10 @@
           <lb ed="#Q"/>non appetuntur propter Deum; sed effective vel
           <lb ed="#Q"/>formaliter falsum est, quia tunc esset sensus quod
           <lb ed="#Q"/>ex virtutibus esset motus superbiae vel malus
-          <lb ed="#Q"/>usus. Et haec est intentio <name ref="#Augustine">Augustini</name> quod
+          <lb ed="#Q"/>usus. Et haec est intentio <name xml:id="ahsh-l1p1i1t3q3m3c3-Nd1e360" ref="#Augustine">Augustini</name> quod
           <lb ed="#Q"/>virtutibus, scilicet operando per virtutes, non con<lb ed="#Q"/>tingit
           male uti; unde dicit, in libro <title>De libero ar<lb ed="#Q"/>bitrio</title><!--8-->:
-          <quote>Ideo virtute nemo male utitur, quia
+          <quote xml:id="ahsh-l1p1i1t3q3m3c3-Qd1e374">Ideo virtute nemo male utitur, quia
           <lb ed="#Q"/>opus virtutis est bonus usus ipsorum<!--u--> quibus
           <lb ed="#Q"/>etiam non bene uti possumus</quote>.
         </p>

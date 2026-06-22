@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="87"/><cb ed="#Q" n="a"/>
       </div>
@@ -63,10 +57,10 @@
           <lb ed="#Q"/>definitionem.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e3742">
-          <lb ed="#Q"/>Ad quod: a. <name>Boethius</name>, in fine <title>De consolatione</title><!--4-->:
-          <quote>Aeternitas est interminabilis vitae tota simul et
+          <lb ed="#Q"/>Ad quod: a. <name xml:id="ahsh-l1p1i1t2q4m1c3-Nd1e126">Boethius</name>, in fine <title>De consolatione</title><!--4-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e131">Aeternitas est interminabilis vitae tota simul et
           <lb ed="#Q"/>perfecta possessio</quote>. Hanc definitionem exponit
-          <lb ed="#Q"/><name>Boethius</name> sic<!--5-->: <quote>Quidquid vivit in tempore, id<!--c-->
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m1c3-Nd1e138">Boethius</name> sic<!--5-->: <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e142">Quidquid vivit in tempore, id<!--c-->
           <lb ed="#Q"/>praesens a praeteritis in futura procedit: nihil enim
           <lb ed="#Q"/>est in tempore constitutum quod totum vitae suae
           <lb ed="#Q"/>spatium possit amplecti, sed crastinum quidem<!--d-->
@@ -80,31 +74,31 @@
           <lb ed="#Q"/>Sed obicitur contra singulas partes: 1. Pri<lb ed="#Q"/>mo,
           quia videtur haec definitio convenire perpe<lb ed="#Q"/>tuitati, 
           quae est in animabus et angelis beatis:
-          <lb ed="#Q"/>eorum enim perpetuitas est <quote>interminabilis vi<lb ed="#Q"/>tae</quote>
-          interminabilis <quote>possessio tota simul</quote>.
+          <lb ed="#Q"/>eorum enim perpetuitas est <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e177">interminabilis vi<lb ed="#Q"/>tae</quote>
+          interminabilis <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e183">possessio tota simul</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e3782">
           2. Item, cum aeternitas sit diuturnitas dura<lb ed="#Q"/>tionis,
           duratio autem respicit esse: ergo magis
           <lb ed="#Q"/>debet dici <mentioned>interminabilis esse possessio</mentioned> quam
-          <quote>interminabilis vitae</quote>.
+          <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e195">interminabilis vitae</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e3789">
           <lb ed="#Q"/>3. Item, cum <mentioned>totum</mentioned> dicat constitutum ex par<lb ed="#Q"/>tibus,
-          qualiter dicitur <quote>tota</quote>? cum aeternitas non
+          qualiter dicitur <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e206">tota</quote>? cum aeternitas non
           <lb ed="#Q"/>habeat partes.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e3798">
-          <lb ed="#Q"/>4. Item, qualiter dicitur ibi <quote>simul</quote> ? cum <mentioned>si<lb ed="#Q"/>mul</mentioned><!--e-->
+          <lb ed="#Q"/>4. Item, qualiter dicitur ibi <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e215">simul</quote> ? cum <mentioned>si<lb ed="#Q"/>mul</mentioned><!--e-->
           dicat pluralitatem differentium secundum
           <lb ed="#Q"/>substantiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e3807">
-          <lb ed="#Q"/>5. Item, qualiter dicitur <quote>possessio</quote>? cum pos<lb ed="#Q"/>sessio
+          <lb ed="#Q"/>5. Item, qualiter dicitur <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e230">possessio</quote>? cum pos<lb ed="#Q"/>sessio
           ponat prius et posterius, quasi <mentioned>sessio
           <lb ed="#Q"/>post</mentioned>, in aeternitate autem nullo modo accipitur
           <lb ed="#Q"/>prius et posterius. — Praeterea, videtur repu<lb ed="#Q"/>gnare
-          ei quod est <quote>simul</quote>.
+          ei quod est <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e244">simul</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e3820">
           <lb ed="#Q"/>6. Item, quare aggregantur tot conditiones in 
@@ -116,25 +110,25 @@
           creatae et increatae?
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e3837">
-          <lb ed="#Q"/>Respondeo: 7. Definitio ista <name>Boethii</name> convenit
+          <lb ed="#Q"/>Respondeo: 7. Definitio ista <name xml:id="ahsh-l1p1i1t2q4m1c3-Nd1e268">Boethii</name> convenit
           <lb ed="#Q"/>aeternitati increatae et, sicut quibusdam<!--6--> visum
           <lb ed="#Q"/>est, tanguntur tres conditiones quae sunt insepa<lb ed="#Q"/>rabiles
            ab aeternitate increata, quae sunt: inter<lb ed="#Q"/>minabilitas,
            invariabilitas, simplicitas. Est enim
           <lb ed="#Q"/>quiddam quod est terminabile et ex parte ante
           <lb ed="#Q"/>et ex parte post, ut generabilia et corruptibilia:
-          <lb ed="#Q"/>ad quorum differentiam dicitur aeternitas <quote>inter<lb ed="#Q"/>minabilis
+          <lb ed="#Q"/>ad quorum differentiam dicitur aeternitas <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e287">inter<lb ed="#Q"/>minabilis
           vitae possessio</quote>. —— Item, sunt intermi<lb ed="#Q"/>nabilia
           ex parte post<!--f-->, sicut perpetua, et tamen
           <lb ed="#Q"/>sunt mutabilia seu variabilia: ad quorum diffe<lb ed="#Q"/>rentiam
-          additur <quote>tota simul</quote>; nihil enim variabile
+          additur <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e301">tota simul</quote>; nihil enim variabile
           <lb ed="#Q"/>est totum simul, immo<!--g--> quiddam habet actu, quid<lb ed="#Q"/>dam
           nondum habet. —— Item, quoddam est esse
           <lb ed="#Q"/>et interminabile et invariabile, sed tamen com<lb ed="#Q"/>positum,
           sicut est esse angelicum, quod habet
-          <lb ed="#Q"/>compositionem, sicut<!--h--> dicit <name>Boethius</name><!--7-->, ex eo
+          <lb ed="#Q"/>compositionem, sicut<!--h--> dicit <name xml:id="ahsh-l1p1i1t2q4m1c3-Nd1e318">Boethius</name><!--7-->, ex eo
           <mentioned>quod est</mentioned> et <mentioned>quo est</mentioned>: ad cuius<!--i--> differentiam
-          <lb ed="#Q"/>additur <quote>perfecta</quote>; illud enim<!--k--> summe perfectum
+          <lb ed="#Q"/>additur <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e330">perfecta</quote>; illud enim<!--k--> summe perfectum
           <lb ed="#Q"/>est, cui non est possibilis aliqua additio et ubi
           <lb ed="#Q"/>non est aliqua pars possibilis respectu totius:
           <lb ed="#Q"/>et simplicitate ista solus Deus perfectus est, quia
@@ -152,8 +146,8 @@
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e3905">
           <lb ed="#Q"/>1. Ad primum quod <mentioned>videtur convenire
           <lb ed="#Q"/>perpetuitati angelorum</mentioned> iam patet responsio,
-          <lb ed="#Q"/>quia etsi possit dici <quote>interminabilis vitae pos<lb ed="#Q"/>sessio
-          tota simul</quote>, non tamen <quote>perfecta</quote>, ut
+          <lb ed="#Q"/>quia etsi possit dici <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e379">interminabilis vitae pos<lb ed="#Q"/>sessio
+          tota simul</quote>, non tamen <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e384">perfecta</quote>, ut
           <lb ed="#Q"/>dictum est. — Praeterea, cum hoc quod dico 
           <pb ed="#Q" n="88"/>
           <cb ed="#Q" n="a"/>
@@ -161,7 +155,7 @@
           —- est autem terminus initialis et finalis -— in<lb ed="#Q"/>terminabilitas
           simpliciter dicetur per abnegatio<lb ed="#Q"/>nem
           utriusque termini, scilicet principii et finis:
-          <lb ed="#Q"/>et hoc modo <quote>interminabilis vitae possessio</quote>
+          <lb ed="#Q"/>et hoc modo <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e403">interminabilis vitae possessio</quote>
           <lb ed="#Q"/>convenit soli aeternitati, et non perpetuitati an<lb ed="#Q"/>gelorum,
           quamvis eis conveniat interminabilitas
           <lb ed="#Q"/>secundum quod est abnegatio termini finalis
@@ -169,18 +163,18 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e3940">
           <lb ed="#Q"/>2. Ad secundum quod obicit quod <mentioned>male
-          <lb ed="#Q"/>ponitur <quote>interminabilis vitae</quote>, sed magis [debet
+          <lb ed="#Q"/>ponitur <mentioned>interminabilis vitae</mentioned>, sed magis [debet
           <lb ed="#Q"/>dici] interminabilis esse</mentioned>: respondendum quod
           <mentioned>vita</mentioned> hic dicitur communissime, extenso nomine
           <lb ed="#Q"/>pro actualitate existendi<!--a-->; secundum quem mo<lb ed="#Q"/>dum
-          dicit <name ref="#Augustine">Augustinus</name>, <title>Contra Maximinum</title><!--1-->:
-          <quote>Solus Deus habere immortalitatem dicitur. In
+          dicit <name xml:id="ahsh-l1p1i1t2q4m1c3-Nd1e437" ref="#Augustine">Augustinus</name>, <title>Contra Maximinum</title><!--1-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e443">Solus Deus habere immortalitatem dicitur. In
           <lb ed="#Q"/>omni enim mutabili natura nonnulla mors est
           <lb ed="#Q"/>ipsa mutatio, quia<!--b--> facit aliquid in ea non esse,
-          <lb ed="#Q"/>quod prius<!--c--> erat</quote>. In hoc sensu accipit <name>Boe<lb ed="#Q"/>thius</name>;
+          <lb ed="#Q"/>quod prius<!--c--> erat</quote>. In hoc sensu accipit <name xml:id="ahsh-l1p1i1t2q4m1c3-Nd1e456">Boe<lb ed="#Q"/>thius</name>;
           unde de expositione definitionis loquens,
           <lb ed="#Q"/>de serie motus rerum mutabilium dicit sic<!--2-->:
-          <quote>Factum est<!--d--> ut motus temporalium eundo con<lb ed="#Q"/>tinuaret
+          <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e466">Factum est<!--d--> ut motus temporalium eundo con<lb ed="#Q"/>tinuaret
           vitam, cuius plenitudinem complecti<!--e--> non
           <lb ed="#Q"/>valuit permanendo</quote>.
         </p>
@@ -202,7 +196,7 @@
           successionis: et hoc modo accipitur ad dis<lb ed="#Q"/>tinctionem
           aeternitatis a tempore et temporali;
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>unde per hoc quod dicitur <quote>simul</quote> ostenditur
+          <lb ed="#Q"/>unde per hoc quod dicitur <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e533">simul</quote> ostenditur
           <lb ed="#Q"/>quod non sit ibi<!--h--> successio.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c3-d1e4010">
@@ -218,27 +212,27 @@
           <lb ed="#Q"/>6. Ad aliud dici potest quod ini ratione ae<lb ed="#Q"/>ternitatis
           aggregantur eae differentiae hac ratione:
           <lb ed="#Q"/>in quibusdam enim rebus est terminabilitas sim<lb ed="#Q"/>pliciter:
-          ad quarum<!--k--> differentiam ponitur <quote>inter<lb ed="#Q"/>minabilis</quote>.
+          ad quarum<!--k--> differentiam ponitur <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e577">inter<lb ed="#Q"/>minabilis</quote>.
           —- In quibusdam vero est intermi<lb ed="#Q"/>nabilitas
           essentiae, sed non vitae, ut in corpo<lb ed="#Q"/>ribus
           caelestibus: ad quorum differentiam additur
-          <quote>vitae</quote>. — Item, in quibusdam est interminabi<lb ed="#Q"/>litas
+          <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e586">vitae</quote>. — Item, in quibusdam est interminabi<lb ed="#Q"/>litas
           vitae, sed tamen cum miseria et infelicitate,
           <lb ed="#Q"/>ut in daemonibus et damnatis: ad quorum diffe<lb ed="#Q"/>rentiam
-          additur <quote>possessio</quote>, in cuius intellectu
+          additur <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e595">possessio</quote>, in cuius intellectu
           <lb ed="#Q"/>est iucunditas felicitatis. -— Item, in quibusdam
           <lb ed="#Q"/>est interminabilis<!--l--> vitae possessio, sed tamen non
           <lb ed="#Q"/>tota, ut in hominibus beatis ante iudicium, quo<lb ed="#Q"/>rum
           est beatitudo secundum partem animae, non
           <lb ed="#Q"/>corporis: ad quorum differentiam dicitur <mentioned>totum</mentioned>.
-          — Item, in quibusdam est <quote>interminabilis vitae
+          — Item, in quibusdam est <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e612">interminabilis vitae
           <lb ed="#Q"/>possessio tota</quote>, ut in angelis beatis ante iudicium,
           <lb ed="#Q"/>quia secundum totam sui substantiam habent fe<lb ed="#Q"/>licem
-          et interminabilem vitam, sed tamen non <quote>si<lb ed="#Q"/>mul</quote>,
+          et interminabilem vitam, sed tamen non <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e622">si<lb ed="#Q"/>mul</quote>,
           cum aliqua sit in eis successio revelatio<lb ed="#Q"/>num 
           et gaudiorum<!--m-->. —- Item, in quibusdam est
-          <lb ed="#Q"/><quote>interminabilis vitae possessio et tota simul</quote>, sed
-          <lb ed="#Q"/>tamen non <quote>perfecta</quote>, eo modo quo nos dicimus
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e632">interminabilis vitae possessio et tota simul</quote>, sed
+          <lb ed="#Q"/>tamen non <quote xml:id="ahsh-l1p1i1t2q4m1c3-Qd1e637">perfecta</quote>, eo modo quo nos dicimus
           <mentioned>perfectum</mentioned> nullo indigens, secundum quem mo<lb ed="#Q"/>dum
           est in angelis et in<!--n--> hominibus beatis post<!--o-->
           <lb ed="#Q"/>iudicium: ad quorum differentiam<!--p--> additur in

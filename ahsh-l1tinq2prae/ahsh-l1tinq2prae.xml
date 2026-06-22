@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="14"/><cb ed="#Q" n="a"/>
       </div>
@@ -61,13 +54,13 @@
         <head xml:id="ahsh-l1tinq2prae-Hd1e3729">I, Tract. Intro., Q. 2, Praeambula</head>
         <p xml:id="ahsh-l1tinq2prae-d1e3732">
           <lb ed="#Q"/>Volens autem se manifestare humanis cordibus superessentialis substantia, Deus<!--1-->,
-          <lb ed="#Q"/>in latione<!--a--> Legis praecipit Moysi, <title>Exod.</title> 19, 21: <quote source="http://scta.info/resource/ex19_21@6-15">Contestare populum, ne forte
+          <lb ed="#Q"/>in latione<!--a--> Legis praecipit Moysi, <title>Exod.</title> 19, 21: <quote xml:id="ahsh-l1tinq2prae-Qd1e127" source="http://scta.info/resource/ex19_21@6-15">Contestare populum, ne forte
           <lb ed="#Q"/>velint transcendere terminos ad videndum Deum</quote>, ponens limites humanae ra<lb ed="#Q"/>tioni<!--this page is partially cut off on the left side of the page, so the beginnings of lines are all guesses, it should be double checked for accuracy-->
           in inquisitione divinorum et maxime in perscrutatione abditissimae et sacratissimae
-          <lb ed="#Q"/>doctrinae Unitatis et Trinitatis. Hinc est etiam quod per Sapientem<!--b--> dictum est: <quote>Ne trans<lb ed="#Q"/><!--this word inclomplete-->ediaris
+          <lb ed="#Q"/>doctrinae Unitatis et Trinitatis. Hinc est etiam quod per Sapientem<!--b--> dictum est: <quote xml:id="ahsh-l1tinq2prae-Qd1e140">Ne trans<lb ed="#Q"/><!--this word inclomplete-->ediaris
           terminos, quos posuerunt patres tui</quote><!--c-->, <title>Prov.</title> 22, 28. Termini autem isti sunt
-          <lb ed="#Q"/><!--part of this word missing-->ntentiae divini Eloquii. Propter quod <name ref="#Dionysius">B. Dionysius</name>, in libro <title>De divinis nominibus</title><!--2-->,
-          <lb ed="#Q"/><!--part of this word missing-->cit <quote>universaliter non audere aliud cogitare vel dicere de superexcellentissima divi<lb ed="#Q"/><!--part of this word missing-->ate
+          <lb ed="#Q"/><!--part of this word missing-->ntentiae divini Eloquii. Propter quod <name xml:id="ahsh-l1tinq2prae-Nd1e153" ref="#Dionysius">B. Dionysius</name>, in libro <title>De divinis nominibus</title><!--2-->,
+          <lb ed="#Q"/><!--part of this word missing-->cit <quote xml:id="ahsh-l1tinq2prae-Qd1e163">universaliter non audere aliud cogitare vel dicere de superexcellentissima divi<lb ed="#Q"/><!--part of this word missing-->ate
           praeter hoc quod in divinis<!--d--> Scripturis invenitur expressum</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2prae-d1e3754">
@@ -110,4 +103,3 @@
     </body>
   </text>
 </TEI>
-

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="86"/><cb ed="#Q" n="a"/>
       </div>
@@ -63,12 +57,12 @@
           rem.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c2-d1e3742">
-          <lb ed="#Q"/>Ad quod sic: a. <quote>Quidquid est in Deo est
+          <lb ed="#Q"/>Ad quod sic: a. <quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e126">Quidquid est in Deo est
           <lb ed="#Q"/>Deus</quote><!--7-->; sed aeternitas est in Deo; ergo est
           <lb ed="#Q"/>Deus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c2-d1e3751">
-          <lb ed="#Q"/>b. Item, <name ref="#Anselm">Anselmus</name><!--8-->: <quote>Aeternitas huius<!--i--> rei
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t2q4m1c2-Nd1e139" ref="#Anselm">Anselmus</name><!--8-->: <quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e143">Aeternitas huius<!--i--> rei
           <lb ed="#Q"/>est, quae nihil aliud est quam ipsa, immutabilis
           <lb ed="#Q"/>ens et sine partibus</quote>.
         </p>
@@ -77,8 +71,8 @@
           <lb ed="#Q"/>aeterno, erunt ergo diversa ab aeterno.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c2-d1e3768">
-          <lb ed="#Q"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, in libro <title>83 Quaestio<lb ed="#Q"/>num</title>,
-          23 quaestione<!--9-->: <quote>Anima fit aeterna aeter<lb ed="#Q"/>nitatis
+          <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1p1i1t2q4m1c2-Nd1e165" ref="#Augustine">Augustinus</name>, in libro <title>83 Quaestio<lb ed="#Q"/>num</title>,
+          23 quaestione<!--9-->: <quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e175">Anima fit aeterna aeter<lb ed="#Q"/>nitatis
           participatione: non<!--k--> ita aeternus Deus, sed
           <lb ed="#Q"/>quia ipsius aeternitatis est auctor</quote>. Si ergo sem<cb ed="#Q" n="b"/><lb ed="#Q"/>per
           differunt in substantia auctor et eius effectus,
@@ -86,10 +80,10 @@
           <lb ed="#Q"/>aeternitatis.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c2-d1e3787">
-          <lb ed="#Q"/>2. Item, <name ref="#Aristotle">Philosophus</name>, in libro <title>De causis</title><!--10-->:
-          <quote>Omne quod est: aut est ante aeternitatem</quote>, ut
-          <lb ed="#Q"/>Deus, <quote>aut cum aeternitate</quote>, ut angelus et ani<lb ed="#Q"/>ma,
-          <quote>aut post aeternitatem</quote>, ut tempus et tem<lb ed="#Q"/>poralia.
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t2q4m1c2-Nd1e197" ref="#Aristotle">Philosophus</name>, in libro <title>De causis</title><!--10-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e203">Omne quod est: aut est ante aeternitatem</quote>, ut
+          <lb ed="#Q"/>Deus, <quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e208">aut cum aeternitate</quote>, ut angelus et ani<lb ed="#Q"/>ma,
+          <quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e212">aut post aeternitatem</quote>, ut tempus et tem<lb ed="#Q"/>poralia.
           Si ergo Deus est ante aeternitatem et
           <lb ed="#Q"/>nihil est ante se, non erit aeternitas Deus.
         </p>
@@ -107,13 +101,13 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c2-d1e3826">
           [Ad obiecta]: 1-2. Et in hoc sensu intelliguntur
-          <lb ed="#Q"/>auctoritates <name ref="#Augustine">Augustini</name> et <name>Philosophi</name>, se<cb ed="#Q" n="b"/><lb ed="#Q"/>cundum
-          quod dicit <name ref="#Dionysius">B. Dionysius</name>, in libro <title>De
-          <lb ed="#Q"/>divinis nominibus</title><!--1-->: <quote>Absolute ingenita</quote>, id est
-          <lb ed="#Q"/>sine principio, <quote>et vere perpetua dicuntur ae<lb ed="#Q"/>terna</quote>
-          sicut divina. Item2: <quote>Incorrupta et im<lb ed="#Q"/>mortalia<!--b-->
+          <lb ed="#Q"/>auctoritates <name xml:id="ahsh-l1p1i1t2q4m1c2-Nd1e259" ref="#Augustine">Augustini</name> et <name xml:id="ahsh-l1p1i1t2q4m1c2-Nd1e262">Philosophi</name>, se<cb ed="#Q" n="b"/><lb ed="#Q"/>cundum
+          quod dicit <name xml:id="ahsh-l1p1i1t2q4m1c2-Nd1e267" ref="#Dionysius">B. Dionysius</name>, in libro <title>De
+          <lb ed="#Q"/>divinis nominibus</title><!--1-->: <quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e277">Absolute ingenita</quote>, id est
+          <lb ed="#Q"/>sine principio, <quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e281">et vere perpetua dicuntur ae<lb ed="#Q"/>terna</quote>
+          sicut divina. Item2: <quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e286">Incorrupta et im<lb ed="#Q"/>mortalia<!--b-->
           dicuntur aeterna</quote>, ut cum dicitur<!--3-->:
-          <lb ed="#Q"/><quote>Et elevamini portae aeternales</quote>, et similia.
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m1c2-Qd1e297">Et elevamini portae aeternales</quote>, et similia.
         </p>
       </div>
     </body>

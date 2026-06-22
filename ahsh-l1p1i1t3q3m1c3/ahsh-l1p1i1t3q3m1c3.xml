@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="166"/><cb ed="#Q" n="a"/>
       </div>
@@ -84,7 +78,7 @@
           <lb ed="#Q"/>et <mentioned>ubi</mentioned> simultas, et iterum aliis modis, sicut<!--v--> dic<lb ed="#Q"/>tum
           est prius<!--5-->. Item, simili modo nec differentiae
           <lb ed="#Q"/>veri multiplicantur secundum differentias generum,
-          <lb ed="#Q"/>immo, secundum <name>Anselmum</name><!--5-->, veritas distingui<lb ed="#Q"/>tur
+          <lb ed="#Q"/>immo, secundum <name xml:id="ahsh-l1p1i1t3q3m1c3-Nd1e199">Anselmum</name><!--5-->, veritas distingui<lb ed="#Q"/>tur
           in veritatem signi et veritatem rei; et veritas
           <lb ed="#Q"/>rei in veritatem quae est se ipsa, ut veritas divina,
           <lb ed="#Q"/>et veritatem quae est ab<!--x--> alia, ut veritas creata;
@@ -118,9 +112,9 @@
           <lb ed="#Q"/>bonitas per essentiam, bonitas vero causati est per
           <lb ed="#Q"/>participationem, sed per comparationem ad effi<lb ed="#Q"/>ciens
           dicitur bonum naturae: sic enim res bona
-          <lb ed="#Q"/>dicitur, quia a bono, ut dicit <name>Boethius</name><!--2-->; per
+          <lb ed="#Q"/>dicitur, quia a bono, ut dicit <name xml:id="ahsh-l1p1i1t3q3m1c3-Nd1e293">Boethius</name><!--2-->; per
           <lb ed="#Q"/>comparationem ad materiam dicitur bonum in
-          <lb ed="#Q"/>genere: <quote>nam forma actionis contracta ad mate<lb ed="#Q"/>riam
+          <lb ed="#Q"/>genere: <quote xml:id="ahsh-l1p1i1t3q3m1c3-Qd1e301">nam forma actionis contracta ad mate<lb ed="#Q"/>riam
           propriam dicitur bonum in<!--f--> genere, ut pa<lb ed="#Q"/>scere
           esurientem</quote><!--3-->; per comparationem ad cau<lb ed="#Q"/>sam
           formalem, quae est secundum circumstantias
@@ -138,7 +132,7 @@
           cum praecedentibus?
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c3-d1e3900">
-          <lb ed="#Q"/>III. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De libero ar<lb ed="#Q"/>bitrio</title><!--4-->,
+          <lb ed="#Q"/>III. Item, <name xml:id="ahsh-l1p1i1t3q3m1c3-Nd1e346" ref="#Augustine">Augustinus</name>, in libro <title>De libero ar<lb ed="#Q"/>bitrio</title><!--4-->,
           distinguit bona maxima, magna, minima:
           <lb ed="#Q"/>et maxima virtutes, minima species corporum in<lb ed="#Q"/>feriorum
           quorumlibet, magna potentiae animae;
@@ -146,7 +140,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c3-d1e3916">
           <lb ed="#Q"/>Respondeo, sicut dicit <title>Commentator</title><!--i--> libri
-          <lb ed="#Q"/><name>Boethii</name> <title>De hebdomadibus</title><!--5-->: <quote>Bonum duobus
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q3m1c3-Nd1e373">Boethii</name> <title>De hebdomadibus</title><!--5-->: <quote xml:id="ahsh-l1p1i1t3q3m1c3-Qd1e379">Bonum duobus
           <lb ed="#Q"/>modis dicitur<!--k-->: absolute et in comparatione. Ab<lb ed="#Q"/>solute
           bonum dicitur quod<!--l--> [est] secundum se bo<lb ed="#Q"/>num,
           sicut Deus, vel haec res dicitur in se bonum ;
@@ -169,7 +163,7 @@
           actus et potentiae rei secundum quod est,
           <lb ed="#Q"/>id est secundum<!--q--> esse rei, aut actionis secun<lb ed="#Q"/>dum
           quod actio, aut actus qui acquiritur rei per
-          <lb ed="#Q"/>actionem. Si est indivisio actus a potentia <quote>se<lb ed="#Q"/>cundum
+          <lb ed="#Q"/>actionem. Si est indivisio actus a potentia <quote xml:id="ahsh-l1p1i1t3q3m1c3-Qd1e445">se<lb ed="#Q"/>cundum
           quod est: sic est bonum naturae; si est
           <lb ed="#Q"/>actionis secundum quod actio: sic est bonum ex
           <lb ed="#Q"/>genere, nam forma actionis generalis contracta ad
@@ -184,8 +178,8 @@
           <lb ed="#Q"/>extra nos: sic est bonum gloriae, quod a solo Deo
           <lb ed="#Q"/>habet principium; si habet principium extra nos
           <lb ed="#Q"/>et intra se<!--t-->: sic est bonum gratiae. Sicut enim
-          <lb ed="#Q"/>dicit<!--u--> <name>B. Bernardus</name>, <title>De gratia et libero arbi<lb ed="#Q"/>trio</title><!--7-->:
-          <quote>Tam absque consensu non est" reci<lb ed="#Q"/>pientis
+          <lb ed="#Q"/>dicit<!--u--> <name xml:id="ahsh-l1p1i1t3q3m1c3-Nd1e489">B. Bernardus</name>, <title>De gratia et libero arbi<lb ed="#Q"/>trio</title><!--7-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m1c3-Qd1e498">Tam absque consensu non est" reci<lb ed="#Q"/>pientis
           quam absque gratia dantis</quote>, et loquitur
           <lb ed="#Q"/>de gratia secundum quod est<!--x--> in adultis: nam
           <lb ed="#Q"/>ad hoc requiritur infusio ex parte Dei et con<lb ed="#Q"/>sensus
@@ -200,7 +194,7 @@
           <lb ed="#Q"/>accipiuntur differentiae istae<!--z-->: honestum, delec<pb ed="#Q" n="168"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tabile,
           utile<!--1-->; sed honestum dicit dispositionem
           <lb ed="#Q"/>secundum quam usus boni movet rationabilem,
-          <lb ed="#Q"/>quia sicut dicit <name ref="#Augustine">Augustinus</name><!--2-->: <quote>Honestas est
+          <lb ed="#Q"/>quia sicut dicit <name xml:id="ahsh-l1p1i1t3q3m1c3-Nd1e542" ref="#Augustine">Augustinus</name><!--2-->: <quote xml:id="ahsh-l1p1i1t3q3m1c3-Qd1e547">Honestas est
           <lb ed="#Q"/>pulcritudo intelligibilis</quote>; delectabile, dispositio<lb ed="#Q"/>nem
           secundum quam movetur concupiscibilis;
           <lb ed="#Q"/>utile, dispositionem secundum quam movetur ira<lb ed="#Q"/>scibilis:
@@ -211,7 +205,7 @@
           <lb ed="#Q"/>appetimus, et hoc appetitu irascibilis. — Item<!--a-->,
           <lb ed="#Q"/>consideratione speciali, secundum quod usus
           <lb ed="#Q"/>boni coarctatur ad bonum creatum, accipiuntur<!--b-->
-          <lb ed="#Q"/>differentiae boni, .secundum <name ref="#Augustine">Augustinum</name>, <title>De
+          <lb ed="#Q"/>differentiae boni, .secundum <name xml:id="ahsh-l1p1i1t3q3m1c3-Nd1e578" ref="#Augustine">Augustinum</name>, <title>De
           <lb ed="#Q"/>libero arbitrio</title><!--3-->, in maxima et minima et media.
           <lb ed="#Q"/>Nam bonum, quo non contingit male uti, sunt
           <lb ed="#Q"/>virtutes, et ideo maxima, et tamen non utuntur;
@@ -247,7 +241,7 @@
           <lb ed="#Q"/>sumptus secundum quatuor causas, non per<lb ed="#Q"/>tinet
           ad bonum nisi secundum quod compara<lb ed="#Q"/>tionem<!--g-->
           habet unaquaeque causa ad causam fi<lb ed="#Q"/>nalem.
-          <quote>Causa enim finalis ratio<!--h--> est aliarum
+          <quote xml:id="ahsh-l1p1i1t3q3m1c3-Qd1e677">Causa enim finalis ratio<!--h--> est aliarum
           <lb ed="#Q"/>causarum; faber enim serram facit de ferro acu<lb ed="#Q"/>tam.
           Quare de ferro? quia aptior est ad se<lb ed="#Q"/>candum.
           Quare acutam? quia ad secandum.

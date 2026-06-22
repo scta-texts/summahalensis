@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="101"/><cb ed="#Q" n="a"/>
       </div>
@@ -95,12 +89,12 @@
           <lb ed="#Q"/>aeva, ut ita dicatur.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3808">
-          <lb ed="#Q"/>4. Item, in <name>Apocryphis Esdrae</name><!--4-->: <quote>Maiestas et
+          <lb ed="#Q"/>4. Item, in <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e204">Apocryphis Esdrae</name><!--4-->: <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e207">Maiestas et
           <lb ed="#Q"/>potestas aevorum est apud te, Domine</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3815">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>5. Item, <name ref="#Dionysius">Dionysius</name><!--5-->: <quote>Ipse est aevum ae<lb ed="#Q"/>vorum</quote>;
+          <lb ed="#Q"/>5. Item, <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e219" ref="#Dionysius">Dionysius</name><!--5-->: <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e223">Ipse est aevum ae<lb ed="#Q"/>vorum</quote>;
           loquitur de Deo.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3824">
@@ -110,18 +104,18 @@
           quam temporalis; ergo duratio mensurans
           <lb ed="#Q"/>esse perpetuum magis erit una quam quae men<lb ed="#Q"/>surat
           esse<!--m--> temporale; ergo aevum est<!--n--> magis
-          <lb ed="#Q"/>unum tempore. Cum ergo <quote>tempus sit unum om<lb ed="#Q"/>nium
-          temporalium</quote>, ut dicit <name>Anselmus</name>, in libro
-          <lb ed="#Q"/><title>De veritate</title><!--6-->: <quote>Dicitur tempus huius rei et illius,
+          <lb ed="#Q"/>unum tempore. Cum ergo <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e250">tempus sit unum om<lb ed="#Q"/>nium
+          temporalium</quote>, ut dicit <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e255">Anselmus</name>, in libro
+          <lb ed="#Q"/><title>De veritate</title><!--6-->: <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e262">Dicitur tempus huius rei et illius,
           <lb ed="#Q"/>cum unum et idem<!--o--> sit tempus omnium quae in
           <lb ed="#Q"/>eodem tempore simul sunt, et si non esset haec
           <lb ed="#Q"/>res vel illa, non minus esset idem tempus</quote>. Ergo
           <lb ed="#Q"/>multo magis erit unum aevum.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3855">
-          <lb ed="#Q"/>b. Item, <title>Eccli.</title> 1,1: <quote source="http://scta.info/resource/sir1_1@1-15">Omnis sapientia a Domino
+          <lb ed="#Q"/>b. Item, <title>Eccli.</title> 1,1: <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e282" source="http://scta.info/resource/sir1_1@1-15">Omnis sapientia a Domino
           <lb ed="#Q"/>Deo est et cum illo fuit semper et est ante aevum</quote>.
-          — Item, 42,19: <quote>Respexit Dominus in signum aevi</quote>.
+          — Item, 42,19: <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e287">Respexit Dominus in signum aevi</quote>.
           <lb ed="#Q"/>In omnibus iis auctoritatibus nominatur in sin<lb ed="#Q"/>gulari,
           non in plurali, et tamen nominatur per to<lb ed="#Q"/>tam
           durationem suam; ex quo videtur quod non
@@ -147,18 +141,18 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3909">
           <lb ed="#Q"/>Ad solutionem huius quaestionis nota primo
-          <lb ed="#Q"/>opinionem quorumdam quod<!--b-->, sicut dicit <name>Boe<lb ed="#Q"/>thius</name>,
-          in libro <title>De consolatione</title><!--2-->: <quote>Sic se habet fa<lb ed="#Q"/>tum
+          <lb ed="#Q"/>opinionem quorumdam quod<!--b-->, sicut dicit <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e358">Boe<lb ed="#Q"/>thius</name>,
+          in libro <title>De consolatione</title><!--2-->: <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e367">Sic se habet fa<lb ed="#Q"/>tum
           ad providentiam divinam, ut tempus ad aeter<lb ed="#Q"/>nitatem</quote>;
-          <quote>providentia vero est ratio divina quae
+          <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e374">providentia vero est ratio divina quae
           <lb ed="#Q"/>cuncta disponit, fatum vero inhaerens rebus mo<lb ed="#Q"/>bilibus
           dispositio, per quam providentia suis quae<lb ed="#Q"/>que<!--c-->
           nectit ordinibus</quote><!--3-->. Quamvis autem dican<lb ed="#Q"/>tur
           plura fata, quia quaelibet res per providen<lb ed="#Q"/>tiam
           habet assignatum ordinem, hoc non est
           <lb ed="#Q"/>nisi quia fatum est huius rei<!--d--> et illius; fatum
-          <lb ed="#Q"/>autem est unum, quia, sicut dicit <name>Boethius</name>, in
-          <lb ed="#Q"/>eodem<!--4-->: <quote>Ordo quidam<!--e--> cuncta complectitur, ut
+          <lb ed="#Q"/>autem est unum, quia, sicut dicit <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e397">Boethius</name>, in
+          <lb ed="#Q"/>eodem<!--4-->: <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e403">Ordo quidam<!--e--> cuncta complectitur, ut
           <lb ed="#Q"/>si quis ab assignato ordine recesserit, in alium
           <lb ed="#Q"/>ordinem relabatur</quote>. Ab unitate ergo huius ordinis
           <lb ed="#Q"/>cuncta complectentis erit fatum unum, non ab
@@ -166,22 +160,22 @@
           <lb ed="#Q"/>modo se habet tempus ad aeternitatem, erit tem<lb ed="#Q"/>pus
           unum, non ab unitate temporalium, quae men<lb ed="#Q"/>surantur<!--f-->
           tempore, sicut patet ex praedicta sen<lb ed="#Q"/>tentia
-          <name ref="#Anselm">Anselmi</name>, in libro <title>De veritate</title><!--5-->, sed ab
+          <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e428" ref="#Anselm">Anselmi</name>, in libro <title>De veritate</title><!--5-->, sed ab
           <lb ed="#Q"/>unitate causae, quae est influentia seu virtus du<lb ed="#Q"/>rationis
           ab aeternitate, secundum quod res sunt
           <lb ed="#Q"/>in participatione aeternitatis; simili modo unitas
           <lb ed="#Q"/>aevi, in quo est primo et principaliter<!--g--> influentia
           <lb ed="#Q"/>virtutis<!--h--> durationis ab aeternitate. Et secundum
-          <lb ed="#Q"/>hanc rationem <name ref="#Dionysius">B. Dionysius</name>, in libro <title>De divinis
-          <lb ed="#Q"/>nominibus</title><!--6-->, dicit: <quote>Oportet divinum<!--i--> tamquam
+          <lb ed="#Q"/>hanc rationem <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e451" ref="#Dionysius">B. Dionysius</name>, in libro <title>De divinis
+          <lb ed="#Q"/>nominibus</title><!--6-->, dicit: <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e461">Oportet divinum<!--i--> tamquam
           <lb ed="#Q"/>aevum et tamquam tempus hymnire</quote>, id est lau<lb ed="#Q"/>dare,
-          <quote>ut omnis temporis et aevi causam</quote>.
+          <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e470">ut omnis temporis et aevi causam</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e3977">
           <lb ed="#Q"/>[Ad obiecta]: 1. Secundum hoc respondendum
           <lb ed="#Q"/>ad primum et dicendum unum esse aevum ae<lb ed="#Q"/>viternorum,
           sicut unum tempus omnium tempora<lb ed="#Q"/>lium,
-          quemadmodum dicit <name>Anselmus</name><!--7-->: <quote>Tem<lb ed="#Q"/>pus
+          quemadmodum dicit <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e483">Anselmus</name><!--7-->: <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e487">Tem<lb ed="#Q"/>pus
           unum et idem est omnium eorum quae in
           <lb ed="#Q"/>eodem tempore simul sunt; et si<!--k--> non esset haec
           <lb ed="#Q"/>res vel illa, nihilominus est tempus unum</quote><!--l-->. Ita
@@ -231,10 +225,10 @@
           <lb ed="#Q"/>proximam, in qua primo appareat unitas aevi,
           <lb ed="#Q"/>quemadmodum in motu caeli apparet unitas tem<lb ed="#Q"/>poris
           secundum praesentem statum. Hoc autem
-          <lb ed="#Q"/>cogitur<!--u-->, quoniam sicut dicit <name ref="#Dionysius">B. Dionysius</name><!--10-->:
-          <quote>Omnia exeunt<!--v--> a primo secundum ordinem</quote>;
-          <lb ed="#Q"/>item, propter hoc quod dicit <name>B. Augustinus</name><!--11-->:
-          <quote>Omnia sunt inaequalia<!--x-->, ad hoc inaequalia ut
+          <lb ed="#Q"/>cogitur<!--u-->, quoniam sicut dicit <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e626" ref="#Dionysius">B. Dionysius</name><!--10-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e630">Omnia exeunt<!--v--> a primo secundum ordinem</quote>;
+          <lb ed="#Q"/>item, propter hoc quod dicit <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e638">B. Augustinus</name><!--11-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m3c2-Qd1e641">Omnia sunt inaequalia<!--x-->, ad hoc inaequalia ut
           <lb ed="#Q"/>essent omnia</quote>. Erit ergo ponere gradum in virtute
           <lb ed="#Q"/>durationis in aeviternis, sicut in temporalibus po<lb ed="#Q"/>nitur
           secundum actum durationis. Hoc tamen abs<lb ed="#Q"/>que<!--y-->
@@ -275,7 +269,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c2-d1e4175">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>Si autem obicitur quod dicit <name>Philoso<lb ed="#Q"/>phus</name><!--1-->
+          <lb ed="#Q"/>Si autem obicitur quod dicit <name xml:id="ahsh-l1p1i1t2q4m3c2-Nd1e740">Philoso<lb ed="#Q"/>phus</name><!--1-->
           quod si essent plures caeli, nihilominus
           <lb ed="#Q"/>esset tempus unum, similiter etsi sint plura ae<lb ed="#Q"/>viterna,
           nihilominus erit aevum unum: potest dici

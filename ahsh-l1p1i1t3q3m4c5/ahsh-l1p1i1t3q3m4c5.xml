@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="197"/><cb ed="#Q" n="a"/>
       </div>
@@ -92,8 +86,8 @@
           virtus naturalis, secundum quod dicitur
           <lb ed="#Q"/><title>Matth</title>. 8,9 de Centurione, ubi dicit <title>Glossa</title><!--8-->
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>quod ille Centurio habet <quote>virtutes naturales</quote>,
-          <lb ed="#Q"/>secundum quod definitur virtus sic<!--s--><!--9-->: <quote>Virtus est
+          <lb ed="#Q"/>quod ille Centurio habet <quote xml:id="ahsh-l1p1i1t3q3m4c5-Qd1e197">virtutes naturales</quote>,
+          <lb ed="#Q"/>secundum quod definitur virtus sic<!--s--><!--9-->: <quote xml:id="ahsh-l1p1i1t3q3m4c5-Qd1e205">Virtus est
           <lb ed="#Q"/>habitus animi, naturae in modum, rationi consen<lb ed="#Q"/>taneus</quote>.
           —— Si ergo dicatur quod huiusmodi
           <lb ed="#Q"/>habitus naturalis corruptivum est malum - con<lb ed="#Q"/>tra:

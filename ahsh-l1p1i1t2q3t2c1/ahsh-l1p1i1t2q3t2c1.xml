@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="64"/><cb ed="#Q" n="a"/>
       </div>
@@ -61,19 +55,19 @@
         <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3736">
           <lb ed="#Q"/>Quantum ad primum, scilicet<!--a--> an Deus sit ali<lb ed="#Q"/>cubi 
           sive in loco, sic obicitur: I. a. <title>Cant.</title> 5,17:
-          <lb ed="#Q"/><quote>Quo abiit dilectus tuus</quote>? <name>Gregorius</name><!--2-->: <quote>Notan<lb ed="#Q"/>dum
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e128">Quo abiit dilectus tuus</quote>? <name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e131">Gregorius</name><!--2-->: <quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e134">Notan<lb ed="#Q"/>dum
           quod Deus, qui ubique est, in loco est, sed
           <lb ed="#Q"/>localis non est</quote>; sed si<!--b--> in loco est, ergo ali<lb ed="#Q"/>cubi 
           est<!--3-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3752">
-          <lb ed="#Q"/>Contra: 1. <name>Boethius</name>, in libro <title>De Trini<lb ed="#Q"/>tate</title><!--4-->:
-          <quote>Omnino in loco esse non potest qui ubi<lb ed="#Q"/>que
+          <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e152">Boethius</name>, in libro <title>De Trini<lb ed="#Q"/>tate</title><!--4-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e160">Omnino in loco esse non potest qui ubi<lb ed="#Q"/>que
           est</quote>; sed Deus ubique est; ergo non potest
           <lb ed="#Q"/>esse in aliquo loco; ergo nec alicubi.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3763">
-          <lb ed="#Q"/>2. Item, <name ref="#Anselm">Anselmus</name>, in <title>Manologion</title><!--5-->: <quote>In
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e172" ref="#Anselm">Anselmus</name>, in <title>Manologion</title><!--5-->: <quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e178">In
           <lb ed="#Q"/>nullo loco aut tempore est, quia nullum locum aut
           <lb ed="#Q"/>tempus habet; nec in se recipit locorum distinctio<lb ed="#Q"/>nem,
           ut hic vel ibi vel alicubi, neque temporum, ut
@@ -100,8 +94,8 @@
           <lb ed="#Q"/>tamen alio modo est in loco<!--g--> - sed tamen, quid<lb ed="#Q"/>quid
           dicatur, eo modo quo haec est falsa:<mentioned> Deus
           <lb ed="#Q"/>est alicubi</mentioned>, est haec vera: <mentioned>Deus est nusquam</mentioned>,
-          <lb ed="#Q"/>quae est sua contradictoria. — Item, <name>Boethius</name>,
-          <lb ed="#Q"/>in<!--h--> libro <title>De Trinitate</title><!--7-->: <quote>Ideo nusquam esse
+          <lb ed="#Q"/>quae est sua contradictoria. — Item, <name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e255">Boethius</name>,
+          <lb ed="#Q"/>in<!--h--> libro <title>De Trinitate</title><!--7-->: <quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e265">Ideo nusquam esse
           <lb ed="#Q"/>dicitur, quia ubique est</quote>. Ergo est nusquam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3828">
@@ -109,7 +103,7 @@
           <lb ed="#Q"/>ipso</mentioned>
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3835">
-          <lb ed="#Q"/>a. <name ref="#Augustine">Augustinus</name>, <title>Ad Dardanum</title><!--8-->: <quote>Deus est
+          <lb ed="#Q"/>a. <name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e285" ref="#Augustine">Augustinus</name>, <title>Ad Dardanum</title><!--8-->: <quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e291">Deus est
           <lb ed="#Q"/>ubique et in se ipso; ubique, quia nusquam
           <lb ed="#Q"/>est absens; in se ipso, quia<!--i--> non continetur ubi
           <lb ed="#Q"/>est praesens, tamquam sine ipsis esse non pos<lb ed="#Q"/>sit</quote>.
@@ -126,8 +120,8 @@
           <lb ed="#Q"/>et non in Deo; ergo ponit <mentioned>alibi</mentioned>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3866">
-          <lb ed="#Q"/>Solutio: Dicendum<!--m-->, secundum <ref><name ref="#Boethius">Boethium</name>,
-          <lb ed="#Q"/>in libro <title>De Trinitate</title></ref><!--9-->: <quote><mentioned>Deus est ubique</mentioned> ita
+          <lb ed="#Q"/>Solutio: Dicendum<!--m-->, secundum <ref xml:id="ahsh-l1p1i1t2q3t2c1-Rd1e343"><name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e344" ref="#Boethius">Boethium</name>,
+          <lb ed="#Q"/>in libro <title>De Trinitate</title></ref><!--9-->: <quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e352"><mentioned>Deus est ubique</mentioned> ita
           <lb ed="#Q"/>dici videtur non quod sit in omni loco, sed quod
           <lb ed="#Q"/>omnis locus ei adsit ad eum capiendum, cum ipse
           <lb ed="#Q"/>non capiatur in loco</quote>. Est ergo esse in loco mul<lb ed="#Q"/>tipliciter:
@@ -140,7 +134,7 @@
           ad istud positae, scilicet quod non<!--a--> sit in
           <lb ed="#Q"/>loco ut contentus a loco. Secundo modo est in
           <lb ed="#Q"/>loco<!--b-->, non tamen ut dicatur replere locum mate<lb ed="#Q"/>rialiter,
-          sed virtualiter; secundum quod dicit <ref><name ref="#Augustine">Au<lb ed="#Q"/>gustinus</name>,
+          sed virtualiter; secundum quod dicit <ref xml:id="ahsh-l1p1i1t2q3t2c1-Rd1e395"><name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e396" ref="#Augustine">Au<lb ed="#Q"/>gustinus</name>,
           <title>Ad Dardanum</title> </ref><!--1-->, quod aliter dicitur<!--c-->
           <lb ed="#Q"/>sapientia replere sapientem et aqua vas. Eo modo
           <lb ed="#Q"/>quo sapientia replet sapientes, eo modo divina
@@ -150,13 +144,13 @@
           <lb ed="#Q"/>quod dat locis esse et virtutem qua repleantur.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3930">
-          <lb ed="#Q"/>[Ad obiecta]: I. 1. Ad primam rationem <name>Boe<lb ed="#Q"/>thii</name>
-          <quote>omnino esse in loco non potest</quote> etc.: si
+          <lb ed="#Q"/>[Ad obiecta]: I. 1. Ad primam rationem <name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e426">Boe<lb ed="#Q"/>thii</name>
+          <quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e431">omnino esse in loco non potest</quote> etc.: si
           <lb ed="#Q"/>dicatur esse in loco contentive, verum est; si di<lb ed="#Q"/>catur
           esse in loco per praesentiam, falsum est.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e3941">
-          <lb ed="#Q"/>2. Ad <name ref="#Anselm">Anselmi</name> rationem dicendum quod ex
+          <lb ed="#Q"/>2. Ad <name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e442" ref="#Anselm">Anselmi</name> rationem dicendum quod ex
           <lb ed="#Q"/>illa auctoritate sequitur quod non sit in loco distinc<lb ed="#Q"/>tive,
           ita quod sit in uno loco et non in alio; sed non
           <lb ed="#Q"/>sequitur ex hoc quod non sit in loco aliquo modo.
@@ -184,15 +178,15 @@
           <lb ed="#Q"/>Et propter hoc, ut concedatur, oportet addi <mentioned>Deus
           <lb ed="#Q"/>est nusquam circumscriptive vel contentive</mentioned>. Et
           <lb ed="#Q"/>in hoc sensu<!--h--> haec est falsa <mentioned>Deus est alicubi</mentioned>
-          <lb ed="#Q"/>et non aliter; et in<!--i--> hoc sensu dicit <name>Boethius</name><!--2-->:
-          <quote>Nusquam esse dicitur, quia ubique est</quote>.
+          <lb ed="#Q"/>et non aliter; et in<!--i--> hoc sensu dicit <name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e522">Boethius</name><!--2-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e526">Nusquam esse dicitur, quia ubique est</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c1-d1e4002">
           <lb ed="#Q"/>III. Adultimum dicendum quod haec est vera
           <mentioned>Deus est in se ipso</mentioned>, et haec similiter <mentioned>Deus est
-          <lb ed="#Q"/>ubique</mentioned>. Et ex una istarum vult <name ref="#Augustine">Augustinus</name>
+          <lb ed="#Q"/>ubique</mentioned>. Et ex una istarum vult <name xml:id="ahsh-l1p1i1t2q3t2c1-Nd1e540" ref="#Augustine">Augustinus</name>
           <lb ed="#Q"/>ostendere praesentiam Dei ad omnem locum, scili<lb ed="#Q"/>cet
-          ex hac <mentioned>Deus est ubique</mentioned>, cum dicit<!--3-->: <quote>Ubique
+          ex hac <mentioned>Deus est ubique</mentioned>, cum dicit<!--3-->: <quote xml:id="ahsh-l1p1i1t2q3t2c1-Qd1e552">Ubique
           <lb ed="#Q"/>est, quia nusquam est absens</quote>; resolvatur enim
           <lb ed="#Q"/>haec negatio <mentioned>nusquam est absens</mentioned><!--k--> in affirma<lb ed="#Q"/>tivam,
           sensus est: <mentioned>praesens est omni loco</mentioned>. Ex

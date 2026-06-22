@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="62"/><cb ed="#Q" n="a"/>
       </div>
@@ -59,15 +53,15 @@
         <head xml:id="ahsh-l1p1i1t2q3t1c1-Hd1e3729">I, P. 1, Inq. 1, Tract. 2, Q. 3, Tit. 1, C. 1</head>
         <head xml:id="ahsh-l1p1i1t2q3t1c1-Hd1e3732" type="question-title">AN DIVINA ESSENTIA SIT INCIRCUMSCRJPTIBILIS<!--2-->.</head>
         <p xml:id="ahsh-l1p1i1t2q3t1c1-d1e3735">
-          <lb ed="#Q"/>Quantum ad primum obicitur sic: a. <name>Dama<lb ed="#Q"/>scenus</name><!--3-->:
-          <quote>Circumscriptibile est quod loco
+          <lb ed="#Q"/>Quantum ad primum obicitur sic: a. <name xml:id="ahsh-l1p1i1t2q3t1c1-Nd1e121">Dama<lb ed="#Q"/>scenus</name><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t1c1-Qd1e127">Circumscriptibile est quod loco
           <lb ed="#Q"/>vel tempore vel comprehensione comprehenditur;
           <lb ed="#Q"/>incircumscriptibile quod nullo horum continetur</quote>;
           <lb ed="#Q"/>sed Deus nullo horum continetur; ergo est in<lb ed="#Q"/>circumscriptibilis.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t1c1-d1e3751">
-          <lb ed="#Q"/>Contra: 1. <title>II Cor.</title> 6,15: <quote>Quae est conventio
-          <lb ed="#Q"/>Christi ad Belial, lucis ad tenebras</quote>? <quote>quasi dicat:
+          <lb ed="#Q"/>Contra: 1. <title>II Cor.</title> 6,15: <quote xml:id="ahsh-l1p1i1t2q3t1c1-Qd1e145">Quae est conventio
+          <lb ed="#Q"/>Christi ad Belial, lucis ad tenebras</quote>? <quote xml:id="ahsh-l1p1i1t2q3t1c1-Qd1e150">quasi dicat:
           <lb ed="#Q"/>nulla</quote><!--4-->; sed semper est conventio existentis ad
           <lb ed="#Q"/>illud in quo existit; ergo non existit Deus sive
           <lb ed="#Q"/>lux divina in daemonibus; sed omne quod est
@@ -76,7 +70,7 @@
           <lb ed="#Q"/>item, iustitia non existit in iniquitate<!--5-->; ergo etc.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t1c1-d1e3771">
-          <lb ed="#Q"/>2. Item, <title>Sap.</title> 1, 5: <quote>Spiritus Sanctus disciplinae ef<lb ed="#Q"/>fugiet
+          <lb ed="#Q"/>2. Item, <title>Sap.</title> 1, 5: <quote xml:id="ahsh-l1p1i1t2q3t1c1-Qd1e183">Spiritus Sanctus disciplinae ef<lb ed="#Q"/>fugiet
           fictum</quote>. Ergo Spiritus Sanctus non est in ficto;
           <lb ed="#Q"/>ergo est quid terminatum, ergo circumscriptibile. 
         </p>
@@ -110,7 +104,7 @@
         <p xml:id="ahsh-l1p1i1t2q3t1c1-d1e3836">
           <lb ed="#Q"/>2. Per hoc patet solutio de ficto, qui potest
           <lb ed="#Q"/>considerari in quantum fictus: et sic est Deo dis<lb ed="#Q"/>similis,
-          et sic <quote>spiritus disciplinae</quote> ipsum <quote>effugiet</quote>;
+          et sic <quote xml:id="ahsh-l1p1i1t2q3t1c1-Qd1e271">spiritus disciplinae</quote> ipsum <quote xml:id="ahsh-l1p1i1t2q3t1c1-Qd1e273">effugiet</quote>;
           <lb ed="#Q"/>non tamen in quantum est substantia quaedam a
           <lb ed="#Q"/>Deo condita.
         </p>

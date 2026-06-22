@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="198"/><cb ed="#Q" n="a"/>
       </div>
@@ -70,7 +64,7 @@
           <lb ed="#Q"/>triplici vel unico<!--2-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m4c7-d1e3756">
-          <lb ed="#Q"/>Ad quod sic: 1. <title>Nahum</title> l,9: <quote>Non consurget
+          <lb ed="#Q"/>Ad quod sic: 1. <title>Nahum</title> l,9: <quote xml:id="ahsh-l1p1i1t3q3m4c7-Qd1e132">Non consurget
           <lb ed="#Q"/>duplex<!--k--> tribulatio</quote>. Ex quo arguitur quod uni
           <lb ed="#Q"/>peccato debetur unica poena et plures pluribus.
           <lb ed="#Q"/>Si ergo unum est peccatum quod committi<lb ed="#Q"/>tur<!--l-->,
@@ -81,8 +75,8 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m4c7-d1e3778">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>2. Item, quaeritur: quatuor, sicut dicit <name>Augu<lb ed="#Q"/>stinus</name>
-          et <name>Beda</name><!--3-->, infiicta sunt nobis propter
+          <lb ed="#Q"/>2. Item, quaeritur: quatuor, sicut dicit <name xml:id="ahsh-l1p1i1t3q3m4c7-Nd1e163">Augu<lb ed="#Q"/>stinus</name>
+          et <name xml:id="ahsh-l1p1i1t3q3m4c7-Nd1e168">Beda</name><!--3-->, infiicta sunt nobis propter
           <lb ed="#Q"/>peccatum, scilicet infirmitas, ignorantia, malitia
           <lb ed="#Q"/>et concupiscentia. Si ergo infirmitas est ex de<lb ed="#Q"/>fectu
           potentiae, et sic, est corruptio modi; igno<lb ed="#Q"/>rantia

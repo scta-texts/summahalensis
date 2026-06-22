@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="141"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,38 +58,38 @@
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3740">
           <lb ed="#Q"/>Ponendae ergo sunt diversae a diversis ve<lb ed="#Q"/>ritatis
           et veri notificationes. 1. Nam in libro
-          <lb ed="#Q"/><title>Solilaquiorum</title><!--6--> <name>Augustini</name> ponitur haec<!--h-->: <quote>Ve<lb ed="#Q"/>rum
+          <lb ed="#Q"/><title>Solilaquiorum</title><!--6--> <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e132">Augustini</name> ponitur haec<!--h-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e137">Ve<lb ed="#Q"/>rum
           est quod ita ut est<!--i--> videtur</quote>; et colligitur<!--k-->
-          <lb ed="#Q"/>ex suo opposito: <quote>Si enim est falsum quod aliter
+          <lb ed="#Q"/>ex suo opposito: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e148">Si enim est falsum quod aliter
           <lb ed="#Q"/>quam est videtur, ergo verum est quod ita ut
           <lb ed="#Q"/>est videtur</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3758">
           <lb ed="#Q"/>1. Sed haec definitio improbatur sic<!--l--> ab
-          <lb ed="#Q"/><name>Augustino</name><!--7-->: Nam ablato eo cui aliquid vide<lb ed="#Q"/>tur,
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e163">Augustino</name><!--7-->: Nam ablato eo cui aliquid vide<lb ed="#Q"/>tur,
           non videtur aliquid ut est nec videtur ali<lb ed="#Q"/>quid
-          aliter quam est<!--m-->; ergo <quote>ablato eo cui vi<lb ed="#Q"/>detur,
+          aliter quam est<!--m-->; ergo <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e173">ablato eo cui vi<lb ed="#Q"/>detur,
           neque verum neque falsum est</quote>; quod est
-          <lb ed="#Q"/>manifestum inconveniens: nam secundum hoc <quote>la<lb ed="#Q"/>pides
+          <lb ed="#Q"/>manifestum inconveniens: nam secundum hoc <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e180">la<lb ed="#Q"/>pides
           in abditissimo terrae sinu<!--n--> non essent veri
           <lb ed="#Q"/>lapides, quia non videntur</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3779">
           <lb ed="#Q"/>II. Propterea ponitur alia definitio in eodem ta<lb ed="#Q"/>lis<!--8-->:
-          <quote>Verum est quod ita se habet ut cognitori
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e199">Verum est quod ita se habet ut cognitori
           <lb ed="#Q"/>videtur, si velit et possit cognoscere</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3788">
           <lb ed="#Q"/>2. Sed contra hanc obicitur: quia ex hoc
-          <lb ed="#Q"/>sequitur quod <quote>verum non erit quod nemo potest
-          <lb ed="#Q"/>cognoscere</quote>. — Item, <quote>si falsum esto quod ali<lb ed="#Q"/>ter
+          <lb ed="#Q"/>sequitur quod <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e211">verum non erit quod nemo potest
+          <lb ed="#Q"/>cognoscere</quote>. — Item, <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e216">si falsum esto quod ali<lb ed="#Q"/>ter
           quam est videtur, ergo si alteri videatur hic
           <lb ed="#Q"/>lapis esse lapis, alteri lignum, eadem res et<!--p-->
           <lb ed="#Q"/>falsa et vera erit</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3804">
           <lb ed="#Q"/>III. Propterea ponitur alia brevis in eodem<!--9-->:
-          <quote>Verum est id quod est</quote>.
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e234">Verum est id quod est</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3809">
           <lb ed="#Q"/>3. Sed obicitur: Cum <mentioned>id<!--q--> quod est</mentioned> sit sus<lb ed="#Q"/>ceptivum
@@ -133,23 +127,23 @@
           <lb ed="#Q"/>haec vera: <mentioned>homo non est asinus</mentioned>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3874">
-          <lb ed="#Q"/>VI. Item, ponitur alia ab <name>Augustino</name>, in libro
-          <lb ed="#Q"/><title>De vera religione</title><!--4-->: <quote>Veritas est<!--f--> qua ostenditur
-          <lb ed="#Q"/>id quod est</quote>; et colligitur sic: <quote>Si falsitas est<!--8-->
+          <lb ed="#Q"/>VI. Item, ponitur alia ab <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e337">Augustino</name>, in libro
+          <lb ed="#Q"/><title>De vera religione</title><!--4-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e343">Veritas est<!--f--> qua ostenditur
+          <lb ed="#Q"/>id quod est</quote>; et colligitur sic: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e351">Si falsitas est<!--8-->
           <lb ed="#Q"/>qua id putatur quod non est, ea est veritas qua
           <lb ed="#Q"/>ostenditur<!--h--> id quod est</quote>. Cui similis est noti<lb ed="#Q"/>ficatio
-          <name>Hilarii</name><!--5-->: <quote>Verum est declarativum aut
+          <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e364">Hilarii</name><!--5-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e367">Verum est declarativum aut
           <lb ed="#Q"/>manifestativum esse</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3892">
-          <lb ed="#Q"/>6. Sed obicitur: Si <quote>verum est declarati<lb ed="#Q"/>vum
+          <lb ed="#Q"/>6. Sed obicitur: Si <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e377">verum est declarati<lb ed="#Q"/>vum
           aut manifestativum esse</quote><!--i--> sive eius quod
           <lb ed="#Q"/>est: ergo verum non erit id<!--k--> quod est aut esse,
           <lb ed="#Q"/>cum nihil se ipsum clarificet.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3903">
-          <lb ed="#Q"/>VII. Item, ponitur alia ab <name>Augustino</name><!--l-->, in
-          <lb ed="#Q"/>libro <title>De vera religiones</title>: <quote>Veritas est summa
+          <lb ed="#Q"/>VII. Item, ponitur alia ab <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e394">Augustino</name><!--l-->, in
+          <lb ed="#Q"/>libro <title>De vera religiones</title>: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e401">Veritas est summa
           <lb ed="#Q"/>similitudo<!--m--> principii, quae sine ulla dissimilitu<lb ed="#Q"/>dine
           est, unde falsitas oritur</quote>.
         </p>
@@ -162,8 +156,8 @@
           <lb ed="#Q"/>ergo in creatura non est veritas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3931">
-          <lb ed="#Q"/>VIII. Item, ponitur alia definitio ab <name>Anselmo</name>,
-          <lb ed="#Q"/>in libro <title>De veritate</title><!--7-->: <quote>Veritas est rectitudo sola
+          <lb ed="#Q"/>VIII. Item, ponitur alia definitio ab <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e432">Anselmo</name>,
+          <lb ed="#Q"/>in libro <title>De veritate</title><!--7-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e439">Veritas est rectitudo sola
           <lb ed="#Q"/>mente perceptibilis</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3940">
@@ -183,7 +177,7 @@
           <lb ed="#Q"/>erit veritas nec in illis intelligibilibus quae intel<lb ed="#Q"/>liguntur
           ut punctus et circulus, non erit veritas;
           <lb ed="#Q"/>ergo in Deo non erit veritas, cum, secundum
-          <lb ed="#Q"/><name>Trismegistum</name><!--8-->, <quote>Deus sit sphaera intelligi<lb ed="#Q"/>bilis,
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e491">Trismegistum</name><!--8-->, <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e494">Deus sit sphaera intelligi<lb ed="#Q"/>bilis,
           cuius centrum est ubique, circumferentia
           <lb ed="#Q"/>nusquam</quote>; ergo intelligitur per modum puncti
           <lb ed="#Q"/>et per modum circuli.
@@ -191,21 +185,21 @@
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e3986">
           <lb ed="#Q"/>10. Item, si accipiatur rectitudo pro iustitia, se<lb ed="#Q"/>cundum
           quod dicitur: <mentioned>quod fit iuste, fieri recte</mentioned>,
-          <lb ed="#Q"/>in quem modum dicitur rectitudo ab <name>Anselmo</name><!--9-->,
+          <lb ed="#Q"/>in quem modum dicitur rectitudo ab <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e515">Anselmo</name><!--9-->,
           <lb ed="#Q"/>secundum quam est aliquid ut debet vel sic ut
           <lb ed="#Q"/>debet, tunc non conveniet divinae veritati, quae
           <lb ed="#Q"/>nulli debet esse rectitudinem.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4002">
           <lb ed="#Q"/>11. Item, cum iustitia et bonitas sit secundum
-          <lb ed="#Q"/>hoc <quote>sola mente perceptibilis</quote>, non different se<lb ed="#Q"/>cundum
+          <lb ed="#Q"/>hoc <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e532">sola mente perceptibilis</quote>, non different se<lb ed="#Q"/>cundum
           definitionem veritas<!--r-->, iustitia et bonitas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4011">
           <lb ed="#Q"/>12. Item, cum sint<!--s--> aliqua quae percipiuntur
           <lb ed="#Q"/>non solum mente, sed sensu, ut corporalia: ergo
           <lb ed="#Q"/>in corporalibus non erit veritas<!--t-->, cum veritas
-          <lb ed="#Q"/>sit <quote>sola mente perceptibilis</quote>.
+          <lb ed="#Q"/>sit <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e554">sola mente perceptibilis</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4023">
           <lb ed="#Q"/>IX. Item, si<!--u--> tot modis assignatae sunt notifi<lb ed="#Q"/>cationes
@@ -221,37 +215,37 @@
           <lb ed="#Q"/>sive sit cogitationis<!--x--> sive voluntatis sive actionis
           <pb ed="#Q" n="143"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>sive significationis<!--a--> — et haec est: <quote>Veritas est
+          <lb ed="#Q"/>sive significationis<!--a--> — et haec est: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e604">Veritas est
           <lb ed="#Q"/>rectitudo</quote> etc., sicut ipse innuit, in libro <title>De ve<lb ed="#Q"/>ritate</title><!--1-->,
           et nomine rectitudinis dividit eam ab
           <lb ed="#Q"/>omni re quae rectitudo non vocatur. Quod vero
-          <quote>sola mente perceptibilis</quote> dicitur, separat eam
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e617">sola mente perceptibilis</quote> dicitur, separat eam
           <lb ed="#Q"/>ab omni rectitudine visibili.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4065">
           <lb ed="#Q"/>Speciales vero notificationes differunt. Nam
           <lb ed="#Q"/>quaedam datae sunt de veritate comprehensionis,
           <lb ed="#Q"/>ut illae <title>Soliloquiorum</title><!--b--><!--2--> quae coincidunt in idem:
-          <quote>Verum est quod ita ut est videtur</quote>, et alia:
-          <quote>Verum est quod ita est ut cognitori videtur, si
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e635">Verum est quod ita ut est videtur</quote>, et alia:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e637">Verum est quod ita est ut cognitori videtur, si
           <lb ed="#Q"/>velit possitque cognoscere</quote>. -- Quaedam de ve<lb ed="#Q"/>ritate
-          signi sive significationis, ut illa<!--3-->: <quote>Veritas
+          signi sive significationis, ut illa<!--3-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e646">Veritas
           <lb ed="#Q"/>est adaequatio signi etc. vel intellectus</quote> etc.<!--c-->.
           — Quaedam de veritate rei, ut illae duae quae<!--d-->
-          <lb ed="#Q"/>coincidunt in idem<!--4-->: <quote>Verum est id quod est</quote>
+          <lb ed="#Q"/>coincidunt in idem<!--4-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e660">Verum est id quod est</quote>
           <lb ed="#Q"/>et iterum<!--5-->: <mentioned>Veritas est indivisio esse et eius<!--e-->
           <lb ed="#Q"/>quod est</mentioned>. -— Quaedam vero de veritate increata
-          <lb ed="#Q"/>principaliter, ut illae duae <name ref="#Augustine">Augustini</name>, <title>De vera
+          <lb ed="#Q"/>principaliter, ut illae duae <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e676" ref="#Augustine">Augustini</name>, <title>De vera
           <lb ed="#Q"/>religione</title>; sed una de veritate secundum quod
           <lb ed="#Q"/>accipitur essentialiter, et haec notificatio est per
-          <lb ed="#Q"/>effectum consequentem<!--6-->: <quote>Veritas est<!--f--> qua
+          <lb ed="#Q"/>effectum consequentem<!--6-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e691">Veritas est<!--f--> qua
           <lb ed="#Q"/>ostenditur id quod est</quote>, quia prima veritas se
           <lb ed="#Q"/>habet ad intelligibilia sicut lux ad visibilia<!--g-->, et
-          <lb ed="#Q"/>huic consonat definitio <name>Hilarii</name>: <quote>Verum est
+          <lb ed="#Q"/>huic consonat definitio <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e704">Hilarii</name>: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e706">Verum est
           <lb ed="#Q"/>declarativum esse</quote>; alia vero<!--h--> de veritate in<lb ed="#Q"/>creata
           secundum quod accipitur personaliter et
           <lb ed="#Q"/>appropriatur Filio, sicut unitas Patri et bonitas
-          <lb ed="#Q"/>Spiritui Sancto, quae est<!--7-->: <quote>Veritas est summa
+          <lb ed="#Q"/>Spiritui Sancto, quae est<!--7-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e722">Veritas est summa
           <lb ed="#Q"/>similitudo principii</quote> etc. et principium ibi dicit
           <lb ed="#Q"/>Patrem.
         </p>
@@ -261,7 +255,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4122">
           <lb ed="#Q"/>1. Ad obiectum contra primam<!--i--> definitionem:
-          <quote>Verum est quod ita est ut videtur</quote>, iam patet
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e743">Verum est quod ita est ut videtur</quote>, iam patet
           <lb ed="#Q"/>responsio<!--8-->; nam data est de veritate comprehen<lb ed="#Q"/>sionis
           sive cognitionis, non rei; et ideo, ablato
           <lb ed="#Q"/>cognitore, non est<!--k--> haec veritas secundum actum,
@@ -282,48 +276,48 @@
           <lb ed="#Q"/>praedicamentum et est sophisma figurae dictionis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4165">
-          <lb ed="#Q"/>3. Ad aliud obiectum contra tertiam: <quote>Ve<lb ed="#Q"/>ritas
+          <lb ed="#Q"/>3. Ad aliud obiectum contra tertiam: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e802">Ve<lb ed="#Q"/>ritas
           est id quod est</quote> et primo ratione enuntia<lb ed="#Q"/>tionis<!--b-->,
           quae est vera et falsa: dicendum, sicut
-          <lb ed="#Q"/>distinguit<!--c--> <name ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--9-->:
-          <quote>Alia est rectitudo et veritas enuntiationis, quia
+          <lb ed="#Q"/>distinguit<!--c--> <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e816" ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--9-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e822">Alia est rectitudo et veritas enuntiationis, quia
           <lb ed="#Q"/>significat ad quod significandum est facta; alia,
           <lb ed="#Q"/>quia<!--d--> significat quod accepit significare</quote>. Facta
           <lb ed="#Q"/>est enim ad significandum rem esse dum est, et
           <lb ed="#Q"/>non esse dum non est; accepit autem significare
           <lb ed="#Q"/>rem<!--e--> esse indifferenter dum est et dum non est:
           <lb ed="#Q"/>verbi gratia, sive dies sit sive non sit, haec oratio
-          <quote>dies est</quote> accepit significare<!--f--> diem esse. Primo
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e842">dies est</quote> accepit significare<!--f--> diem esse. Primo
           <lb ed="#Q"/>modo veritas dicta est mutabilis et separabilis in
           <lb ed="#Q"/>contingentibus; secundo modo, inseparabilis. Primo
           <lb ed="#Q"/>modo est<!--g--> susceptiva veri et falsi: veritas in hac
           <lb ed="#Q"/>enim via<!--h--> non attenditur secundum id quod ac<lb ed="#Q"/>cepit
           enuntiatio, sed secundum id ad quod est;
           <lb ed="#Q"/>secundo modo non, quia attenditur id quod ac<lb ed="#Q"/>cepit.
-          Unde <name ref="#Anselm">Anselmus</name> dicit quod primam ve<lb ed="#Q"/>ritatem
+          Unde <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e866" ref="#Anselm">Anselmus</name> dicit quod primam ve<lb ed="#Q"/>ritatem
           habet accidentaliter, secundam naturaliter.
           — Ad illud vero quod obicit de homine picto,
           <lb ed="#Q"/>dicendum<!--i--> quoniam homo pictus vera est pictura
           <lb ed="#Q"/>et est id quod est, sed falsus homo, et hoc<!--k--> est
-          <lb ed="#Q"/>id quod non est, quemadmodum dicit <name>Augusti<lb ed="#Q"/>nus</name>,
-          <title>De vera religione</title><!--10-->: <quote>Si rerum visibilium
+          <lb ed="#Q"/>id quod non est, quemadmodum dicit <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e882">Augusti<lb ed="#Q"/>nus</name>,
+          <title>De vera religione</title><!--10-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e891">Si rerum visibilium
           <lb ed="#Q"/>pulcritudo, quia continetur unitate et non implet
           <lb ed="#Q"/>unitatem, nos<!--l--> fallit, intelligamus non ex eo quod
           <lb ed="#Q"/>est nos falli, sed ex eo quod non est; omne<!--m-->
           <lb ed="#Q"/>enim corpus verum corpus est, sed falsa unitas</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4224">
-          <lb ed="#Q"/>4. Ad obiectum contra quartam<!--n-->: <quote>Veritas est
+          <lb ed="#Q"/>4. Ad obiectum contra quartam<!--n-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e914">Veritas est
           <lb ed="#Q"/>adaequatio</quote> etc.: dicendum quoniam definitiones
           <lb ed="#Q"/>non respiciunt esse<!--o--> actu, sed esse in habitu;
           <lb ed="#Q"/>unde si nullus homo sit, adhuc est vera definitio:
           <mentioned>homo est animal rationale, mortale</mentioned><!--p-->, ita cum di<lb ed="#Q"/>citur
-          <quote>veritas est adaequatio</quote>, non copulatur
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e931">veritas est adaequatio</quote>, non copulatur
           <lb ed="#Q"/>adaequatio in actu, sed in habitu.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4240">
           <lb ed="#Q"/>5. Ad [obiectum contra] quintam, scilicet
-          <quote>Veritas est indivisio</quote><!--q--> etc.: dicendum quod ve<lb ed="#Q"/>ritas
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e940">Veritas est indivisio</quote><!--q--> etc.: dicendum quod ve<lb ed="#Q"/>ritas
           negationum fundatur in veritate affirmatio<lb ed="#Q"/>num.
           Unde veritas huius negationis <mentioned>homo non
           <lb ed="#Q"/>est asinus</mentioned> fundatur in hac affirmatione <mentioned>homo
@@ -339,16 +333,16 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4271">
           <lb ed="#Q"/>6. Ad obiectum contra sextam definitionem,
-          <lb ed="#Q"/>quae est: <quote>Veritas est qua ostenditur</quote> etc., quae
-          <lb ed="#Q"/>eadem est cum definitione <name>Hilarii</name>: <quote>Verum est
+          <lb ed="#Q"/>quae est: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e993">Veritas est qua ostenditur</quote> etc., quae
+          <lb ed="#Q"/>eadem est cum definitione <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e997">Hilarii</name>: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1000">Verum est
           <lb ed="#Q"/>declarativum</quote> etc.: dicendum quod sicut lux ma<lb ed="#Q"/>nifestat
           se et alia, sic veritas, quae est divina es<lb ed="#Q"/>sentia,
           quia est ipsa lux intelligibilis, sicut dicit
-          <lb ed="#Q"/><name>Augustinus</name>, <title>De vera religione</title><!--2-->.
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1010">Augustinus</name>, <title>De vera religione</title><!--2-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4289">
           <lb ed="#Q"/>7. Ad obiectum contra septimam definitio<lb ed="#Q"/>nem,
-          scilicet<!--a--> <quote>Veritas est summa similitudo prin<lb ed="#Q"/>cipii</quote>:
+          scilicet<!--a--> <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1024">Veritas est summa similitudo prin<lb ed="#Q"/>cipii</quote>:
           dicendum, prout dictum est<!--3-->, quod haec
           <lb ed="#Q"/>definitio est primae veritatis, prout accipitur per<lb ed="#Q"/>sonaliter
           et per appropriationem, et ideo nihil ad
@@ -364,7 +358,7 @@
           sic est creatura, quae quamvis similis
           <lb ed="#Q"/>sit, tamen non potest exprimere illam unitatem
           <lb ed="#Q"/>principii quam imitatur; et ideo in hoc potest oriri
-          <lb ed="#Q"/>falsitas, sicut dicit <name ref="#Augustine">Augustinus</name><!--5-->: <quote>Non in
+          <lb ed="#Q"/>falsitas, sicut dicit <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1070" ref="#Augustine">Augustinus</name><!--5-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1075">Non in
           <lb ed="#Q"/>quantum imitatur, sed in<!--d--> quantum implere non
           <lb ed="#Q"/>potest</quote>. Item, si est a principio in identitate sub<lb ed="#Q"/>stantiae,
           adhuc dupliciter: aut ergo in identitate
@@ -387,10 +381,10 @@
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>
           similitudo minor. Et hic est intellectus positae
-          <lb ed="#Q"/>definitionis: in hoc enim quod dicitur <quote>similitudo
+          <lb ed="#Q"/>definitionis: in hoc enim quod dicitur <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1134">similitudo
           <lb ed="#Q"/>principii</quote>, distinguitur a Patre; in hoc quod
-          <quote>summa</quote>, per modum qui dictus est, a Spiritu
-          <lb ed="#Q"/>Sancto; in hoc quod <quote>nulla dissimilitudo<!--h-->, ex qua
+          <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1139">summa</quote>, per modum qui dictus est, a Spiritu
+          <lb ed="#Q"/>Sancto; in hoc quod <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1143">nulla dissimilitudo<!--h-->, ex qua
           <lb ed="#Q"/>falsitas oritur</quote>, distinguitur a creatura. Falsitas
           <lb ed="#Q"/>enim est in creatura ex hoc quod imitatur uni<lb ed="#Q"/>tatem
           principii et<!--i--> illud implere non potest; illa
@@ -402,7 +396,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4400">
           <lb ed="#Q"/>8. Ad obiecta contra definitionem ultimam
-          <lb ed="#Q"/><name>Anselmi</name> respondeo<!--k-->: ad primum, quod recti<lb ed="#Q"/>tudo
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1173">Anselmi</name> respondeo<!--k-->: ad primum, quod recti<lb ed="#Q"/>tudo
           dicitur per similitudinem duobus modis. In
           <lb ed="#Q"/>rectitudine autem est debita ordinatio medii ad
           <lb ed="#Q"/>extrema, quia ipsum medium non declinat ab
@@ -412,30 +406,30 @@
           medii ab extremis, dicetur rectum,
           <lb ed="#Q"/>quamvis proprie ibi non sit ratio medii et extre<lb ed="#Q"/>morum.
           Dicendum ergo quod haec definitio ge<lb ed="#Q"/>neraliter
-          datur ab <name>Anselmo</name>: <quote>Veritas est recti<lb ed="#Q"/>tudo</quote>
+          datur ab <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1199">Anselmo</name>: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1201">Veritas est recti<lb ed="#Q"/>tudo</quote>
           etc. Et cum dicatur veritas multipliciter --
-          <lb ed="#Q"/>in signo, ut in sermone, ut<!--l--> <title>Zachar.</title> 8,16: <quote source="http://scta.info/resource/zac8_16@7-12">Loqui<lb ed="#Q"/>mini<!--m-->
+          <lb ed="#Q"/>in signo, ut in sermone, ut<!--l--> <title>Zachar.</title> 8,16: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1213" source="http://scta.info/resource/zac8_16@7-12">Loqui<lb ed="#Q"/>mini<!--m-->
           veritatem unusquisque cum proximo</quote><!--n--> etc.;
-          <lb ed="#Q"/>et in cogitatione, <title>Psalmus</title><!--6-->: <quote>Qui loquitur verita<lb ed="#Q"/>tem
+          <lb ed="#Q"/>et in cogitatione, <title>Psalmus</title><!--6-->: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1226">Qui loquitur verita<lb ed="#Q"/>tem
           in carde<!--o--> suo</quote>; et in voluntate<!--p-->, <title>Ioan.</title> 8,44
-          <lb ed="#Q"/>de diabolo: <quote>In veritate non stetit</quote>; et in opera<lb ed="#Q"/>tione<!--q-->,
-          <title>Ioan.</title> 3,21: <quote source="http://scta.info/resource/io3_21@1-7">Omnis qui facit veritatem
-          <lb ed="#Q"/>venit ad lucem</quote> -— ostendit <name ref="#Anselm">Anselmus</name><!--7--> quod
+          <lb ed="#Q"/>de diabolo: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1240">In veritate non stetit</quote>; et in opera<lb ed="#Q"/>tione<!--q-->,
+          <title>Ioan.</title> 3,21: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1249" source="http://scta.info/resource/io3_21@1-7">Omnis qui facit veritatem
+          <lb ed="#Q"/>venit ad lucem</quote> -— ostendit <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1254" ref="#Anselm">Anselmus</name><!--7--> quod
           <lb ed="#Q"/>in omnibus est rectitudo ex debita ordinatione,
           <lb ed="#Q"/>per hoc quod sunt vel faciunt quod debent vel ad
           <lb ed="#Q"/>quod debent. Unde veritas enuntiationis est<!--r--> cum
           <lb ed="#Q"/>sit quod debet et ad quod debet; similiter et de
-          <lb ed="#Q"/>ceteris. Item, est Veritas prima, <title>Ioan.</title> l4,6: <quote>Ego
+          <lb ed="#Q"/>ceteris. Item, est Veritas prima, <title>Ioan.</title> l4,6: <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1273">Ego
           <lb ed="#Q"/>sum<!--s--> via, veritas et vita</quote>, in qua non cadit pro<lb ed="#Q"/>prie
           intentio debiti, nisi sit accipere debitum con<lb ed="#Q"/>venientiae,
-          non necessitatis, sicut dicit <name>Ansel<lb ed="#Q"/>mus</name><!--8-->,
-          quia <quote>nulli debet, sed omnia ei debent</quote>;
+          non necessitatis, sicut dicit <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1285">Ansel<lb ed="#Q"/>mus</name><!--8-->,
+          quia <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1291">nulli debet, sed omnia ei debent</quote>;
           <lb ed="#Q"/>et ideo<!--t-->, quia omnia debite ordinantur ad ipsam,
           <lb ed="#Q"/>ipsa est<!--u--> rectitudo, non quia ipsa debite ordinetur
           <lb ed="#Q"/>ad res, sed res debite ad ipsam. In omnibus
           <lb ed="#Q"/>ergo invenitur debita ordinatio et ita rectitudo
           <lb ed="#Q"/>secundum primum modum. — Item, quia ordo,
-          <lb ed="#Q"/>sicut dicit <name ref="#Augustine">Augustinus</name>, consistit in tribus, in<pb ed="#Q" n="145"/><cb ed="#Q" n="a"/><lb ed="#Q"/>venitur
+          <lb ed="#Q"/>sicut dicit <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1310" ref="#Augustine">Augustinus</name>, consistit in tribus, in<pb ed="#Q" n="145"/><cb ed="#Q" n="a"/><lb ed="#Q"/>venitur
           in omnibus veritas quasi medium non
           <lb ed="#Q"/>declinans ab extremis. Verbi gratia: In veritate
           <lb ed="#Q"/>creata esse vel facere quod debent et ad quod
@@ -461,8 +455,8 @@
           <lb ed="#Q"/>accipitur intentio bonitatis; invenitur intentio cau<lb ed="#Q"/>sae
           formalis, quasi medium inter extrema non de<lb ed="#Q"/>clinans,
           et haec est veritas secundum quam for<lb ed="#Q"/>mantur
-          omnia, ut dicit <name>Augustinus</name><!--1-->. Et<!--g--> hunc
-          <lb ed="#Q"/>ordinem monstrat <name>Augustinus</name>, in fine <title>De vera
+          omnia, ut dicit <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1396">Augustinus</name><!--1-->. Et<!--g--> hunc
+          <lb ed="#Q"/>ordinem monstrat <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1404">Augustinus</name>, in fine <title>De vera
           <lb ed="#Q"/>religione</title><!--2-->, ut dictum est<!--3-->. Secundum autem quod
           <lb ed="#Q"/>consideratur in se, hoc est duobus modis: id est
           <lb ed="#Q"/>personaliter et essentialiter. Secundum quod per<lb ed="#Q"/>sonaliter,
@@ -531,12 +525,12 @@
           quae est<!--z--> bonitas. Prima percipitur intel<lb ed="#Q"/>ligentia
           mentis, secunda vero sentitur affectu
           <lb ed="#Q"/>voluntatis; et ideo convenienter posset ad dif<lb ed="#Q"/>ferentiam
-          voluntatis poni quod dicitur <quote>mente
+          voluntatis poni quod dicitur <quote xml:id="ahsh-l1p1i1t3q2m1c3-Qd1e1609">mente
           <lb ed="#Q"/>perceptibilis</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c3-d1e4688">
           <lb ed="#Q"/>12. Ad ultimum vero quod obicitur de sen<lb ed="#Q"/>sibilibus,
-          dicunt quod non intendit <name ref="#Anselm">Anselmus</name><!--7-->
+          dicunt quod non intendit <name xml:id="ahsh-l1p1i1t3q2m1c3-Nd1e1621" ref="#Anselm">Anselmus</name><!--7-->
           <pb ed="#Q" n="146"/>
           <cb ed="#Q" n="a"/>
           <lb ed="#Q"/>nisi de veritate intelligibilium. — Sed contra:

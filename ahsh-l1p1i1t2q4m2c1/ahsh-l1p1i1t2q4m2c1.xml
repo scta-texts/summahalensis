@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="89"/><cb ed="#Q" n="a"/>
       </div>
@@ -65,8 +59,8 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c1-d1e3744">
           <lb ed="#Q"/>Ad quod sic obicitur: 1. Omnis pars aliquo<lb ed="#Q"/>tiens
-          sumpta reddit totum; sed <quote>tempus est pars
-          <lb ed="#Q"/>aeternitatis</quote>, sicut dicit <name>Tullius</name><!--5-->; ergo tempus
+          sumpta reddit totum; sed <quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e136">tempus est pars
+          <lb ed="#Q"/>aeternitatis</quote>, sicut dicit <name xml:id="ahsh-l1p1i1t2q4m2c1-Nd1e141">Tullius</name><!--5-->; ergo tempus
           <lb ed="#Q"/>aliquotiens sumptum erit aequale<!--l--> aeternitati.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c1-d1e3755">
@@ -76,15 +70,15 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c1-d1e3765">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>3. Item, <name ref="#Augustine">Augustinus</name><!--n-->, <title>XI Confessionum</title><!--6-->:
-          <lb ed="#Q"/><quote>Praesens tempus, si semper esset praesens, iam
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t2q4m2c1-Nd1e167" ref="#Augustine">Augustinus</name><!--n-->, <title>XI Confessionum</title><!--6-->:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e176">Praesens tempus, si semper esset praesens, iam
           <lb ed="#Q"/>non esset tempus, sed aeternitas</quote>; sed praesens
           <lb ed="#Q"/>tempus potest intelligi semper esse praesens;
           <lb ed="#Q"/>ergo potest intelligi esse aeternitas; ergo multo
           <lb ed="#Q"/>magis aequale aeternitati.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c1-d1e3783">
-          <lb ed="#Q"/>4. Item, <name ref="#Anselm">Anselmus</name>, in <title>Proslogian</title><!--7-->, loquens
+          <lb ed="#Q"/>4. Item, <name xml:id="ahsh-l1p1i1t2q4m2c1-Nd1e192" ref="#Anselm">Anselmus</name>, in <title>Proslogian</title><!--7-->, loquens
           <lb ed="#Q"/>ad Dominum dicit: <quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e3789">Tu imples et complecteris
           <lb ed="#Q"/>omnia; tu es ante et ultra omnia. Et quidem ante
           <lb ed="#Q"/>omnia es, quia antequam fierent, tu es. Ultra
@@ -94,9 +88,9 @@
         <p xml:id="ahsh-l1p1i1t2q4m2c1-d1e3801">
           <pb ed="#Q" n="90"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>Contra: a. <name>Richardus</name>, in libro <title>De Trinitate</title><!--a--><!--1-->:
-          <quote>Constat quod qui aeternitatem habet immensi<lb ed="#Q"/>tatem
-          utique non habere non<!--b--> valet</quote>. <quote>Immen<lb ed="#Q"/>sum
+          <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1p1i1t2q4m2c1-Nd1e220">Richardus</name>, in libro <title>De Trinitate</title><!--a--><!--1-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e227">Constat quod qui aeternitatem habet immensi<lb ed="#Q"/>tatem
+          utique non habere non<!--b--> valet</quote>. <quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e234">Immen<lb ed="#Q"/>sum
           vero dicitur quod nulla mensura compre<lb ed="#Q"/>henditur;
           immensum vero dicitur<!--c--> quod nulli
           <lb ed="#Q"/>mensurae aequale vel mensurabile invenitur</quote><!--2-->. Si
@@ -109,9 +103,9 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c1-d1e3830">
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod dicitur primo:
-          <lb ed="#Q"/><quote>tempus est pars aeternitatis</quote>: dicendum quod<!--e-->
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e265">tempus est pars aeternitatis</quote>: dicendum quod<!--e-->
           <lb ed="#Q"/>per similitudinem dictum est. Non enim dicitur
-          <lb ed="#Q"/><quote>pars aeternitatis</quote> eo quod integretur aeternitas
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e273">pars aeternitatis</quote> eo quod integretur aeternitas
           <lb ed="#Q"/>ex tempore sicut sua parte, sed istud dicitur ra<lb ed="#Q"/>tione
           durationis aeternitatis excedentis tempus.
           <lb ed="#Q"/>Pars enim et totum dupliciter comparantur: uno
@@ -120,25 +114,25 @@
           <lb ed="#Q"/>tempus pars aeternitatis; alio modo est compa<lb ed="#Q"/>ratio
           habitudinalis, secundum quod excedit omne
           <lb ed="#Q"/>totum suam partem: hac<!--g--> igitur similitudine di<lb ed="#Q"/>citur
-          tempus <quote>pars aeternitatis</quote>, quia exceditur
+          tempus <quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e298">pars aeternitatis</quote>, quia exceditur
           <lb ed="#Q"/>ab aeternitate, quia ante tempus est aeternitas et
           <lb ed="#Q"/>cum tempore et post tempus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c1-d1e3865">
-          <lb ed="#Q"/>2. Ad secundum respondet <name ref="#Anselm">Anselmus</name>, in
+          <lb ed="#Q"/>2. Ad secundum respondet <name xml:id="ahsh-l1p1i1t2q4m2c1-Nd1e310" ref="#Anselm">Anselmus</name>, in
           <lb ed="#Q"/><title>Proslogion</title><!--3-->, assignans tres rationes quare per<lb ed="#Q"/>petua
           non possunt aequari aeternitati etiam ex
-          <lb ed="#Q"/>parte post. Quarum prima est, quia <quote>perpetua
+          <lb ed="#Q"/>parte post. Quarum prima est, quia <quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e322">perpetua
           <lb ed="#Q"/>sine Deo nullatenus<!--h--> esse possunt; Deus autem
           <lb ed="#Q"/>nullo modo minus est si illa redeant in nihilum:
           <lb ed="#Q"/>et sic quodam modo est ultra illa</quote>. — Secunda
-          <lb ed="#Q"/>ratio est, quia <quote>illa possunt cogitari habere fi<lb ed="#Q"/>nem,
+          <lb ed="#Q"/>ratio est, quia <quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e335">illa possunt cogitari habere fi<lb ed="#Q"/>nem,
           Deus vero nequaquam: et hoc modo perpetua
           <lb ed="#Q"/>habent finem quodam modo, Deus autem nullo 
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>modo; et certe quod nullo modo habet finem, ultra
           <lb ed="#Q"/>illud est quod aliquo modo finitur</quote>. —— Tertia
-          <lb ed="#Q"/>ratio est, quia <quote>aeternitas Dei et perpetuorum tota
+          <lb ed="#Q"/>ratio est, quia <quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e350">aeternitas Dei et perpetuorum tota
           <lb ed="#Q"/>Deo praesens est, cum illa nondum habeant de
           <lb ed="#Q"/>sua aeternitate quod venturum est, sicut iam non
           <lb ed="#Q"/>habent quod praeteritum est: et sic Deus est
@@ -154,10 +148,10 @@
           in futurum; et ideo non sequitur quod si
           <lb ed="#Q"/>praesens possit intelligi esse aeternitas, quod
           <lb ed="#Q"/>propter hoc tempus. Immo, posito adhuc quod tem<lb ed="#Q"/>pus,
-          secundum quod videtur<!--4--> posuisse <name>Aristo<lb ed="#Q"/>teles</name><!--15-->,
+          secundum quod videtur<!--4--> posuisse <name xml:id="ahsh-l1p1i1t2q4m2c1-Nd1e393">Aristo<lb ed="#Q"/>teles</name><!--15-->,
           non habuisset initium nec finem, adhuc
           <lb ed="#Q"/>tamen non esset coaeternum Deo, sicut ostendit
-          <lb ed="#Q"/><name>Boethius</name>, in libro <title>De consolatione</title><!--m--><!--6--> <quote>Vitae
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m2c1-Nd1e403">Boethius</name>, in libro <title>De consolatione</title><!--m--><!--6--> <quote xml:id="ahsh-l1p1i1t2q4m2c1-Qd1e409">Vitae
           <lb ed="#Q"/>immobilis praesentarium<!--n--> statum, id est aeter<lb ed="#Q"/>nitatem,
           infinitus ille temporalium rerum motus
           <lb ed="#Q"/>imitatur, cumque eum effingere atque aequare non

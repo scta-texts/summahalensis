@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="65"/><cb ed="#Q" n="a"/>
       </div>
@@ -62,7 +56,7 @@
           <lb ed="#Q"/>Secundo quaeritur an divina<!--q--> essentia sit ubi<lb ed="#Q"/>que<!--4-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c2-d1e3742">
-          <lb ed="#Q"/>Ad quod sic: a. <name ref="#Anselm">Anselmus</name><!--5-->: <quote>Omne quod
+          <lb ed="#Q"/>Ad quod sic: a. <name xml:id="ahsh-l1p1i1t2q3t2c2-Nd1e130" ref="#Anselm">Anselmus</name><!--5-->: <quote xml:id="ahsh-l1p1i1t2q3t2c2-Qd1e134">Omne quod
           <lb ed="#Q"/>clauditur aliquatenus loco vel tempore minus est
           <lb ed="#Q"/>quam quod nulla lex loci vel temporis coercet.
           <lb ed="#Q"/>Quoniam ergo maius te nihil est, nullus locus
@@ -72,8 +66,8 @@
           <lb ed="#Q"/>Deum. Deus ergo ubique est.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t2c2-d1e3763">
-          <lb ed="#Q"/>b. Item, <name>Ioannes Damascenus</name>, in<!--t--> I libro<!--6-->:
-          <lb ed="#Q"/><quote>Sive secundum bonitatem sive secundum virtu<lb ed="#Q"/>tem
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t2q3t2c2-Nd1e162">Ioannes Damascenus</name>, in<!--t--> I libro<!--6-->:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q3t2c2-Qd1e169">Sive secundum bonitatem sive secundum virtu<lb ed="#Q"/>tem
           sive secundum sapientiam sive secundum
           <lb ed="#Q"/>tempus sive secundum locum deficiat a perfec<lb ed="#Q"/>tione,
           nequaquam erit Deus</quote>. Non ergo deficit a
@@ -126,8 +120,8 @@
           <lb ed="#Q"/>dicere <mentioned>Deus est ubique</mentioned> quod <mentioned>Deus omni<!--k--> ubi
           <lb ed="#Q"/>praesens est totus et secundum idem</mentioned><!--l-->, sumpto
           <mentioned>ubi</mentioned> communiter, ut infra<!--4--> dicetur. <mentioned>Totus et se<lb ed="#Q"/>cundum
-          idem</mentioned><!--m-->, quia sicut dicit <name>Augustinus</name><!--5-->:
-          <quote>Sicut anima est in qualibet parte corporis sui
+          idem</mentioned><!--m-->, quia sicut dicit <name xml:id="ahsh-l1p1i1t2q3t2c2-Nd1e327">Augustinus</name><!--5-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t2c2-Qd1e330">Sicut anima est in qualibet parte corporis sui
           <lb ed="#Q"/>tota, sic Deus in suo mundo</quote>; et ita <mentioned>esse ubique</mentioned>
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>ponit praesentiam Dei ad omne <mentioned>ubi</mentioned>. Nisi enim

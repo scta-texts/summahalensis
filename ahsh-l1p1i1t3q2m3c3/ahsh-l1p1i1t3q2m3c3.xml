@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="156"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,33 +58,33 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3742">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>a. Ad quod <name>Augustinus</name>, in libro <title>Soliloquio<lb ed="#Q"/>rum</title><!--5-->:
+          <lb ed="#Q"/>a. Ad quod <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e128">Augustinus</name>, in libro <title>Soliloquio<lb ed="#Q"/>rum</title><!--5-->:
           <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e3753">Quod oculi vident non dicitur falsum,
           <pb ed="#Q" n="157"/>
           <cb ed="#Q" n="a"/>
           <lb ed="#Q"/>nisi habeat aliquam similitudinem veri: ut homo,
           <lb ed="#Q"/>quem videmus in somnis, non est verus homo,
           <lb ed="#Q"/>sed falsus, eo ipso quod habet veri similitudi<lb ed="#Q"/>nem;</quote>
-          et sic de aliis; <quote>similitudo ergo rerum
+          et sic de aliis; <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e153">similitudo ergo rerum
           <lb ed="#Q"/>mater est falsitatis</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3773">
-          <lb ed="#Q"/>b. Item, in eodem<!--1-->: <quote>Apparet in omnibus sen<lb ed="#Q"/>sibus
+          <lb ed="#Q"/>b. Item, in eodem<!--1-->: <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e165">Apparet in omnibus sen<lb ed="#Q"/>sibus
           similitudine lenocinante nos falli<!--a-->, et eas
           <lb ed="#Q"/>res falsas nominamus quas veri similes deprehen<lb ed="#Q"/>dimus</quote>.
           Ergo etc.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3785">
-          <lb ed="#Q"/>c. Item, in eodem<!--2-->: <quote>Dubitari non potest esse
+          <lb ed="#Q"/>c. Item, in eodem<!--2-->: <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e184">Dubitari non potest esse
           <lb ed="#Q"/>falsum quidquam nisi veri imitatione</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3792">
-          <lb ed="#Q"/>Contra: 1. Obicit <name ref="#Augustine">Augustinus</name><!--3-->: <quote>Imago
+          <lb ed="#Q"/>Contra: 1. Obicit <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e194" ref="#Augustine">Augustinus</name><!--3-->: <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e198">Imago
           <lb ed="#Q"/>in speculo deprehenditur esse falsa, eo quod non
           <lb ed="#Q"/>tenetur, non vivit, non sonat</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3801">
-          <lb ed="#Q"/>2. Item<!--4-->, <quote>homines quos videmus in somnis
+          <lb ed="#Q"/>2. Item<!--4-->, <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e212">homines quos videmus in somnis
           <lb ed="#Q"/>teneri<!--b-->, loqui et vivere, si possent teneri et vivere
           <lb ed="#Q"/>et loqui, et ab illis, quos videmus vigilantes, non
           <lb ed="#Q"/>differrent, veri homines essent; sed ex hoc quod
@@ -100,32 +94,32 @@
           falsitatis<!--d--> [esse] fatendum est</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3821">
-          <lb ed="#Q"/>3. Item, <name ref="#Augustine">Augustinus</name>, <title>De vera religione</title><!--5-->:
-          <quote>Falsitas ex iis est quae imitantur unum<!--e-->, non in
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e241" ref="#Augustine">Augustinus</name>, <title>De vera religione</title><!--5-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e247">Falsitas ex iis est quae imitantur unum<!--e-->, non in
           <lb ed="#Q"/>quantum illud imitantur, sed in quantum implere
           <lb ed="#Q"/>non possunt</quote>, et loquitur de primo<!--f--> uno quod
-          <lb ed="#Q"/>est primum principium; sed <quote>in quantum non
+          <lb ed="#Q"/>est primum principium; sed <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e261">in quantum non
           <lb ed="#Q"/>possunt implere</quote>, dissimilia sunt illi uni; re<lb ed="#Q"/>linquitur
           ergo quod dissimilitudo mater est<!--g--> fal<lb ed="#Q"/>sitatis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3839">
-          <lb ed="#Q"/>4. Item, <name ref="#Augustine">Augustinus</name>, ibidem<!--6-->, dicit quod
+          <lb ed="#Q"/>4. Item, <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e277" ref="#Augustine">Augustinus</name>, ibidem<!--6-->, dicit quod
           <lb ed="#Q"/>prima veritas est summa similitudo principii, in<!--h-->
           <lb ed="#Q"/>qua nulla est dissimilitudo ex<!--i--> qua falsitas oritur.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3848">
-          <lb ed="#Q"/>5. Item, obicit <name>Augustinus</name>, in <title>Soliloquiis</title><!--k--><!--7-->:
-          <quote>Cum considero illud quod falsum vocamus, con<lb ed="#Q"/>sidero
+          <lb ed="#Q"/>5. Item, obicit <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e296">Augustinus</name>, in <title>Soliloquiis</title><!--k--><!--7-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e302">Cum considero illud quod falsum vocamus, con<lb ed="#Q"/>sidero
           aliquid simile habere veri et aliquid dis<lb ed="#Q"/>simile</quote>.
           Aut ergo nominatur falsum ex eo quod
-          <lb ed="#Q"/>simile aut ex eo quod dissimile. <quote>Si ex eo quod
+          <lb ed="#Q"/>simile aut ex eo quod dissimile. <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e312">Si ex eo quod
           <lb ed="#Q"/>dissimile: nihil est quod falsum dici non possit;
           <lb ed="#Q"/>nihil enim est quod alicui<!--l--> dissimile non sit. Si
           <lb ed="#Q"/>ex eo quod simile: ova<!--m--> reclamant quae ex eo
           <lb ed="#Q"/>vera sunt quo similia</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3869">
-          <lb ed="#Q"/>6. Item, <name ref="#Augustine">Augustinus</name>, in eodem<!--8-->: <quote>Si quis
+          <lb ed="#Q"/>6. Item, <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e334" ref="#Augustine">Augustinus</name>, in eodem<!--8-->: <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e339">Si quis
           <lb ed="#Q"/>dicit lapidem esse argentum, dicit falsum</quote>; nec
           <lb ed="#Q"/>ex hoc quod lapis habeat argenti imitationem ali<cb ed="#Q" n="b"/><lb ed="#Q"/>quam
           vel quod videatur argentum et non sit;
@@ -136,16 +130,16 @@
           <lb ed="#Q"/>7. Item, si falsum dicitur propter similitudinem<!--n-->
           <lb ed="#Q"/>veri, cum non sit verum, sicut dicitur plumbum
           <lb ed="#Q"/>falsum argentum, quod assimilatur argento et
-          <lb ed="#Q"/>non est argentum: numquid, quaerit <name>Augusti<lb ed="#Q"/>nus</name><!--9-->,
+          <lb ed="#Q"/>non est argentum: numquid, quaerit <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e368">Augusti<lb ed="#Q"/>nus</name><!--9-->,
           potest dici argentum falsum plumbum,
           <lb ed="#Q"/>quod tamen assimilatur plumbo et non est plum<lb ed="#Q"/>bum?
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3904">
-          <lb ed="#Q"/>Respondeo, secundum <name ref="#Augustine">Augustinum</name><!--10-->, quod
+          <lb ed="#Q"/>Respondeo, secundum <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e383" ref="#Augustine">Augustinum</name><!--10-->, quod
           <lb ed="#Q"/>similitudo similis, in quantum huiusmodi, mater
           <lb ed="#Q"/>est veritatis. Unde prima veritas est summa si<lb ed="#Q"/>militudo
           unitatis<!--o--> principii, quae, sicut ipse dicit<!--11-->,
-          <quote>id implere<!--p--> potuit et illud esse quod est<!--q--> [illud];
+          <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e398">id implere<!--p--> potuit et illud esse quod est<!--q--> [illud];
           <lb ed="#Q"/>ipsa est quae illud, sicut est, ostendit: unde recte
           <lb ed="#Q"/>et Verbum et lux eius dicitur. Cetera illius unius
           <lb ed="#Q"/>similia dici possunt in quantum sunt, et in tan<lb ed="#Q"/>tum
@@ -153,11 +147,11 @@
           et ideo veritas. Ut enim veritate prima sunt
           <lb ed="#Q"/>quae vera sunt, ita similitudine similia sunt quae<lb ed="#Q"/>cumque
           similia sunt<!--r-->, et, in quantum vera<!--s--> sunt,
-          <lb ed="#Q"/>illius principalis unius similia sunt</quote>. Unde <name>Au<lb ed="#Q"/>gustinus</name>,
-          in <title>Soliloquiis</title><!--12--> <quote>Falsum est quod
+          <lb ed="#Q"/>illius principalis unius similia sunt</quote>. Unde <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e427">Au<lb ed="#Q"/>gustinus</name>,
+          in <title>Soliloquiis</title><!--12--> <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e435">Falsum est quod
           <lb ed="#Q"/>a veri similitudine longe est, sed tamen habet ad
-          <lb ed="#Q"/>verum nonnullam imitationem</quote>. Item, <name>Augusti<lb ed="#Q"/>nus</name><!--t-->,
-          <title>De vera religione</title><!--13-->: <quote>Corpora intantum
+          <lb ed="#Q"/>verum nonnullam imitationem</quote>. Item, <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e442">Augusti<lb ed="#Q"/>nus</name><!--t-->,
+          <title>De vera religione</title><!--13-->: <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e452">Corpora intantum
           <lb ed="#Q"/>fallunt, in quantum non implent illud quod con<lb ed="#Q"/>vincuntur
           imitari</quote>.
         </p>
@@ -169,13 +163,13 @@
           huiusmodi.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c3-d1e3959">
-          <lb ed="#Q"/>6. Ad illud vero quod obicit de illo qui <quote>dicit
+          <lb ed="#Q"/>6. Ad illud vero quod obicit de illo qui <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e480">dicit
           <lb ed="#Q"/>lapidem esse argentum, qui dicit falsum</quote>, et ta<lb ed="#Q"/>men<!--u-->
           non est similitudo lapidis ad argentum:
-          <lb ed="#Q"/>dicendum, secundum <name>Augustinum</name>, quod haec<!--v-->
+          <lb ed="#Q"/>dicendum, secundum <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e492">Augustinum</name>, quod haec<!--v-->
           <lb ed="#Q"/>est falsitas dicti vel enuntiationis, non rei; et ideo
           <lb ed="#Q"/>similitudo est in<!--x--> dicto vel<!--y--> enuntiatione, quia,
-          <lb ed="#Q"/>sicut dicit <name ref="#Augustine">Augustinus</name><!--15-->: <quote>Falsa enuntiatio
+          <lb ed="#Q"/>sicut dicit <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e507" ref="#Augustine">Augustinus</name><!--15-->: <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e511">Falsa enuntiatio
           <lb ed="#Q"/>imitatur veras sententias. Quae si non creditur, eo
           <lb ed="#Q"/>solo imitatur [veras] quod ita dicitur; quod si ei
           <lb ed="#Q"/>non creditur, est<!--z--> tantum falsa, non etiam fallens;
@@ -185,19 +179,19 @@
           <pb ed="#Q" n="158"/>
           <cb ed="#Q" n="a"/>
           <lb ed="#Q"/>7. Ad ultimum quod quaerit, dicendum, se<lb ed="#Q"/>cundum
-          <name ref="#Augustine">Augustinum</name>, in <title>Soliloquiis</title><!--1-->: Non
-          <lb ed="#Q"/>dicitur argentum falsum plumbum, quia <quote>argen<lb ed="#Q"/>tum
+          <name xml:id="ahsh-l1p1i1t3q2m3c3-Nd1e535" ref="#Augustine">Augustinum</name>, in <title>Soliloquiis</title><!--1-->: Non
+          <lb ed="#Q"/>dicitur argentum falsum plumbum, quia <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e544">argen<lb ed="#Q"/>tum
           melius est, et quasi in contumeliam ei<!--a--> di<lb ed="#Q"/>citur;
           plumbi<!--b--> autem velut honor est, si falsum
           <lb ed="#Q"/>argentum vocetur</quote>. Similiter imago hominis<!--c--> di<lb ed="#Q"/>citur
           falsus homo, non homo falsa imago, quia,
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>sicut ipse dicit<!--2-->, <quote>falsum est quod ad similitu<lb ed="#Q"/>dinem
+          <lb ed="#Q"/>sicut ipse dicit<!--2-->, <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e568">falsum est quod ad similitu<lb ed="#Q"/>dinem
           alicuius accommodatum est, nec id tamen
           <lb ed="#Q"/>est cuius simile apparet</quote>; non autem homo ad
           <lb ed="#Q"/>similitudinem imaginis, sed e converso, nec ar<lb ed="#Q"/>gentum
           ad similitudinem plumbi, sed e converso<!--d-->:
-          <quote>esse enim ad imitationem</quote> alicuius dicit digni<lb ed="#Q"/>tatem
+          <quote xml:id="ahsh-l1p1i1t3q2m3c3-Qd1e582">esse enim ad imitationem</quote> alicuius dicit digni<lb ed="#Q"/>tatem
           in illo ad cuius imitationem dicitur.
         </p>
       </div>

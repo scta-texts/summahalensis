@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="63"/><cb ed="#Q" n="a"/>
       </div>
@@ -65,21 +59,21 @@
           <lb ed="#Q"/>sit proprium divinae essentiae.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t1c2-d1e3746">
-          <lb ed="#Q"/>Ad quod sic: a. <name>Damascenus</name>, in <title>I libro</title><!--1-->:
-          <quote>Incircumscriptibilis solus Deus est, sine prin<lb ed="#Q"/>cipio
+          <lb ed="#Q"/>Ad quod sic: a. <name xml:id="ahsh-l1p1i1t2q3t1c2-Nd1e130">Damascenus</name>, in <title>I libro</title><!--1-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e135">Incircumscriptibilis solus Deus est, sine prin<lb ed="#Q"/>cipio
           et sine fine ens, omnia continens, nulla com<lb ed="#Q"/>prehensione
           contentus</quote>. Ergo solus Deus est in<lb ed="#Q"/>circumscriptibilis.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t1c2-d1e3757">
-          <lb ed="#Q"/>b. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De anima et
-          <lb ed="#Q"/>spiritu</title><!--2-->: <quote>Ex eo corporales dicimus intellectuales
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t2q3t1c2-Nd1e149" ref="#Augustine">Augustinus</name>, in libro <title>De anima et
+          <lb ed="#Q"/>spiritu</title><!--2-->: <quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e158">Ex eo corporales dicimus intellectuales
             <lb ed="#Q"/>substantias et naturas, quia loco circumscribun<lb ed="#Q"/>tur</quote>;
             solus autem Deus est incircumscriptibilis<!--a-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t1c2-d1e3769">
-          <lb ed="#Q"/>Contra: 1. <title>Cant.</title> 5, 17: <quote source="http://scta.info/resource/cant5_17@1-7">Quo abiit dilectus tuus,
+          <lb ed="#Q"/>Contra: 1. <title>Cant.</title> 5, 17: <quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e175" source="http://scta.info/resource/cant5_17@1-7">Quo abiit dilectus tuus,
           <lb ed="#Q"/>o pulcherrima inter mulieres</quote>? Super istud dicit
-          <lb ed="#Q"/><name>Gregorius</name><!--3-->: <quote>Cum dicantur angeli locales,
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q3t1c2-Nd1e181">Gregorius</name><!--3-->: <quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e185">Cum dicantur angeli locales,
           <lb ed="#Q"/>circumscribi non possunt: longe minus illa sub<lb ed="#Q"/>stantia
           incomprehensibilis</quote>, scilicet divina. Si
           <lb ed="#Q"/>ergo angeli dicuntur locales, non tamen circum<lb ed="#Q"/>scriptibiles,
@@ -100,20 +94,20 @@
         <p xml:id="ahsh-l1p1i1t2q3t1c2-d1e3811">
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad primam autem<!--d--> ratio<lb ed="#Q"/>nem
           qua in contrarium obicitur de angelis: dicen<lb ed="#Q"/>dum,
-          secundum quod dicit <name ref="#Anselm">Anselmus</name>, in <title>Ma<lb ed="#Q"/>nologion</title><!--5-->,
-          quasi loquens cum Deo: <quote>Creatus
+          secundum quod dicit <name xml:id="ahsh-l1p1i1t2q3t1c2-Nd1e238" ref="#Anselm">Anselmus</name>, in <title>Ma<lb ed="#Q"/>nologion</title><!--5-->,
+          quasi loquens cum Deo: <quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e248">Creatus
           <lb ed="#Q"/>spiritus. ad te collatus est circumscriptus, ad cor<lb ed="#Q"/>pus
           vero est incircumscriptus. Omnino circum<lb ed="#Q"/>scriptum
           est quod, cum alicubi totum est, non
           <lb ed="#Q"/>potest alibi<!--e--> simul esse: quod de solis corpo<lb ed="#Q"/>ribus
           cernitur; incircumscriptum vero, quod simul
           <lb ed="#Q"/>est ubique totum: quod de te<!--f--> solo intelligitur</quote>;
-          <lb ed="#Q"/>et loquitur hic ad Deum. <quote>Circumscriptum simul
+          <lb ed="#Q"/>et loquitur hic ad Deum. <quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e270">Circumscriptum simul
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>et incircumscriptum, quod, cum<!--g--> alicubi sit to<lb ed="#Q"/>tum<!--h-->,
           potest simul esse totum alibi, non tamen
           <lb ed="#Q"/>ubique: quod de creatis spiritibus<!--i--> cognosci<lb ed="#Q"/>tur</quote>
-          Et ponit rationem huiusmodi:<quote> Si enim
+          Et ponit rationem huiusmodi:<quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e290"> Si enim
           <lb ed="#Q"/>anima non esset tota<!--k--> in singulis membris sui
           <lb ed="#Q"/>corporis, non sentiret tota in singulis</quote>. Sed li<lb ed="#Q"/>cet
           anima sit ubique in suo corpore, non ta<lb ed="#Q"/>men
@@ -123,20 +117,20 @@
           <lb ed="#Q"/>in angelis: respectu Dei circumscriptus est an<lb ed="#Q"/>gelus;
           quod autem dicatur incircumscriptus, hoc
           <lb ed="#Q"/>est secundum quid<!--6-->, scilicet respectu corporis. Et
-          <lb ed="#Q"/>secundum hoc loquitur <name ref="#GregoryGreat">Gregorius</name><!--7-->, quod <quote>an<lb ed="#Q"/>geli
+          <lb ed="#Q"/>secundum hoc loquitur <name xml:id="ahsh-l1p1i1t2q3t1c2-Nd1e321" ref="#GregoryGreat">Gregorius</name><!--7-->, quod <quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e326">an<lb ed="#Q"/>geli
           circumscribi non possunt</quote>: istud verum est,
           <lb ed="#Q"/>sicut corpora, et de tali circumscriptione loquitur
-          <lb ed="#Q"/>ibi, quia sicut dicitur ibi, <title>Cant</title>. 5,17<!--8-->: <quote>Locale
+          <lb ed="#Q"/>ibi, quia sicut dicitur ibi, <title>Cant</title>. 5,17<!--8-->: <quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e339">Locale
           <lb ed="#Q"/>dicitur quod circumscribitur secundum partes loci,
           <lb ed="#Q"/>supra et intra, ante et retro, dextra, sinistra</quote>. Ex
           <lb ed="#Q"/>quo patet quod loquitur de circumscriptione cor<lb ed="#Q"/>porum
           secundum quam angeli sunt incircumscrip<lb ed="#Q"/>tibiles.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t1c2mv-d1e3887">
-          <lb ed="#Q"/>2. Ad secundum dicendum, secundum <name>Am<lb ed="#Q"/>brosium</name>,
+          <lb ed="#Q"/>2. Ad secundum dicendum, secundum <name xml:id="ahsh-l1p1i1t2q3t1c2-Nd1e358">Am<lb ed="#Q"/>brosium</name>,
           quod triplex est circumscriptio, scilicet
           <lb ed="#Q"/>loco, fine et tempore. Unde dicit, <title>VI De Trinitate</title><!--9-->:
-          <quote>Sicut in aliquo loco non circumscribitur Pater,
+          <quote xml:id="ahsh-l1p1i1t2q3t1c2-Qd1e368">Sicut in aliquo loco non circumscribitur Pater,
           <lb ed="#Q"/>qui est super omnia, nec Filius suorum operum
           <lb ed="#Q"/>temporibus concluditur, qui totius est opifex crea<lb ed="#Q"/>turae,
           neque Spiritus Sanctus aliquibus finibus

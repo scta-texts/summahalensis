@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="57"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,7 +58,7 @@
           quod sit infinita.
         </p>
         <p xml:id="ahsh-l1p1i1t2q1c2-d1e3744">
-          <lb ed="#Q"/>Ad Quod sic: 1. <title>Ioan.</title> 3,34: <quote>Non est ei da<lb ed="#Q"/>tus
+          <lb ed="#Q"/>Ad Quod sic: 1. <title>Ioan.</title> 3,34: <quote xml:id="ahsh-l1p1i1t2q1c2-Qd1e130">Non est ei da<lb ed="#Q"/>tus
           spiritus ad mensuram</quote><!--6-->, et loquitur de gratia
           <lb ed="#Q"/>Christi; ergo gratia Christi est spiritus non ad 
           <cb ed="#Q" n="b"/>
@@ -73,7 +67,7 @@
           <lb ed="#Q"/>est ei proprium.
         </p>
         <p xml:id="ahsh-l1p1i1t2q1c2-d1e3762">
-          <lb ed="#Q"/>Contra: <quote>a. Omnia creata sunt sub numero, pon<lb ed="#Q"/>dere
+          <lb ed="#Q"/>Contra: <quote xml:id="ahsh-l1p1i1t2q1c2-Qd1e152">a. Omnia creata sunt sub numero, pon<lb ed="#Q"/>dere
           et mensura</quote>, <title>Sap.</title> 11,21; ergo omnia creata
           <lb ed="#Q"/>sunt finita; ergo, si convenit infinitas alicui, hoc
           <lb ed="#Q"/>est soli Creatori.
@@ -107,7 +101,7 @@
           scilicet potestate satisfaciendi, quia non est
           <lb ed="#Q"/>ponere tot peccata quin pro pluribus posset sa<cb ed="#Q" n="b"/><lb ed="#Q"/>tisfacere,
           nec ita magna quin et pro maioribus,
-          <lb ed="#Q"/>si essent, sicut<!--d--> dicit <name ref="#Anselm">Anselmus</name><!--1-->: <quote>Putasne
+          <lb ed="#Q"/>si essent, sicut<!--d--> dicit <name xml:id="ahsh-l1p1i1t2q1c2-Nd1e241" ref="#Anselm">Anselmus</name><!--1-->: <quote xml:id="ahsh-l1p1i1t2q1c2-Qd1e246">Putasne
           <lb ed="#Q"/>tantum bonum, tam amabile, posse sufficere ad
           <lb ed="#Q"/>solvendum quod debetur pro peccatis totius 
           <lb ed="#Q"/>mundi? Immo plus potest in infinitum</quote>. Unde 
@@ -118,16 +112,16 @@
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod obicitur quod
           <lb ed="#Q"/><mentioned>datus est ei<!--f--> spiritus non ad mensuram</mentioned>: di<lb ed="#Q"/>cendum
           quod hoc intelligitur non absolute, sed
-          <lb ed="#Q"/>facta comparatione ad alios homines, quibus <quote source="http://scta.info/resource/eph4_7@1-10">data
+          <lb ed="#Q"/>facta comparatione ad alios homines, quibus <quote xml:id="ahsh-l1p1i1t2q1c2-Qd1e276" source="http://scta.info/resource/eph4_7@1-10">data
           <lb ed="#Q"/>est gratia secundum mensuram donationis Chri<lb ed="#Q"/>sti</quote><!--2-->;
-          nam, sicut dicitur <title>I Cor.</title> 12, 8: <quote>Aliis datur per
+          nam, sicut dicitur <title>I Cor.</title> 12, 8: <quote xml:id="ahsh-l1p1i1t2q1c2-Qd1e287">Aliis datur per
           <lb ed="#Q"/>Spiritum sermo sapientiae, aliis sermo scientiae
           <lb ed="#Q"/>secundum eumdem Spiritum</quote> etc. Quia ergo in
           <lb ed="#Q"/>Christo erat gratia universaliter ad omnia quae
           <lb ed="#Q"/>dabantur aliis, particulariter dicitur habuisse spi<lb ed="#Q"/>ritum
-          <quote>non ad mensuram</quote>, quia non habuit ad men<lb ed="#Q"/>suram
-          aliorum. Unde super illud <title>Ioan.</title> 3, 35: <quote source="http://scta.info/resource/io3_35@5-9">Omnia
-          <lb ed="#Q"/>dedit in manu eius,</quote> <title>Glossa <name ref="#Augustine">Augustini</name></title><!--3-->: <quote>Ho<lb ed="#Q"/>minibus
+          <quote xml:id="ahsh-l1p1i1t2q1c2-Qd1e300">non ad mensuram</quote>, quia non habuit ad men<lb ed="#Q"/>suram
+          aliorum. Unde super illud <title>Ioan.</title> 3, 35: <quote xml:id="ahsh-l1p1i1t2q1c2-Qd1e307" source="http://scta.info/resource/io3_35@5-9">Omnia
+          <lb ed="#Q"/>dedit in manu eius,</quote> <title>Glossa <name xml:id="ahsh-l1p1i1t2q1c2-Nd1e314" ref="#Augustine">Augustini</name></title><!--3-->: <quote xml:id="ahsh-l1p1i1t2q1c2-Qd1e318">Ho<lb ed="#Q"/>minibus
           dat ad mensuram, Filio non ad mensuram,
           <lb ed="#Q"/>sed sicut totum ex se ipso toto genuit Filium
           <lb ed="#Q"/>suum, ita incarnato Filio suo totum<!--g--> suum Spi<lb ed="#Q"/>ritum

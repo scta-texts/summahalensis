@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="35"/><cb ed="#Q" n="a"/>
       </div>
@@ -69,8 +62,8 @@
           <lb ed="#Q"/>Ad quod obicitur sic: 1. Certius videtur quod
           <lb ed="#Q"/>videtur in<!--n--> lumine quam quod videtur in tene<cb ed="#Q" n="b"/><lb ed="#Q"/>bris;
           sed creatura videtur ut<!--o--> in lumine, divina
-          <lb ed="#Q"/>vero substantia ut<!--p--> in tenebris, Psalmus<!--q9-->: <quote>Po<lb ed="#Q"/>suit
-          tenebras latibulum suum</quote>. <title>Glossa</title><!--10-->: <quote>In iis
+          <lb ed="#Q"/>vero substantia ut<!--p--> in tenebris, Psalmus<!--q9-->: <quote xml:id="ahsh-l1tinq2m3c5-Qd1e148">Po<lb ed="#Q"/>suit
+          tenebras latibulum suum</quote>. <title>Glossa</title><!--10-->: <quote xml:id="ahsh-l1tinq2m3c5-Qd1e157">In iis
           <lb ed="#Q"/>tenebris vitae mortalis<!--r--> latet, ubi per fidem am<lb ed="#Q"/>bulamus,
           non per speciem</quote>. Ergo certius cogno<lb ed="#Q"/>scitur
           creatura.
@@ -83,7 +76,7 @@
           de re <mentioned>quia est</mentioned> et <mentioned>quid non est</mentioned> et de
           <lb ed="#Q"/>qua non potest cognosci <mentioned>quid est</mentioned>; sed de crea<lb ed="#Q"/>tura
           est cognitio primo modo, de Deo<!--a--> cognitio
-          <lb ed="#Q"/>secundo modo, sicut dicit <name ref="#Dionysius">Dionysius</name><!--1--> et <name>Da<lb ed="#Q"/>mascenus</name><!--2-->;
+          <lb ed="#Q"/>secundo modo, sicut dicit <name xml:id="ahsh-l1tinq2m3c5-Nd1e201" ref="#Dionysius">Dionysius</name><!--1--> et <name xml:id="ahsh-l1tinq2m3c5-Nd1e205">Da<lb ed="#Q"/>mascenus</name><!--2-->;
           ergo certior est cognitio de crea<lb ed="#Q"/>tura.
         </p>
         <p xml:id="ahsh-l1tinq2m3c5-d1e3793">
@@ -95,8 +88,8 @@
         <p xml:id="ahsh-l1tinq2m3c5-d1e3804">
           <lb ed="#Q"/>Contra: a. Certius videtur lux quam ea quae
           <lb ed="#Q"/>lumine videntur; sed ipse Deus se habet ad in<lb ed="#Q"/>telligibilia
-          sicut lux ad visibilia, ut dicit <name>Augu<lb ed="#Q"/>stinus</name>,
-          in I <title>Soliloquiorum</title><!--3-->: <quote>Quomodo in<!--b--> hoc
+          sicut lux ad visibilia, ut dicit <name xml:id="ahsh-l1tinq2m3c5-Nd1e237">Augu<lb ed="#Q"/>stinus</name>,
+          in I <title>Soliloquiorum</title><!--3-->: <quote xml:id="ahsh-l1tinq2m3c5-Qd1e246">Quomodo in<!--b--> hoc
           <lb ed="#Q"/>sole tria animadvertimus<!--c-->: quod est, quod fulget,
           <lb ed="#Q"/>quod illuminat, sic in secretissimo Deo tria anim<lb ed="#Q"/>advertere
           debemus: quod est, quod intelligit, quod

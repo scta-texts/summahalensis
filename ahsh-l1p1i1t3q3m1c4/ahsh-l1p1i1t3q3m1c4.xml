@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="168"/><cb ed="#Q" n="a"/>
       </div>
@@ -65,8 +59,8 @@
         <p xml:id="ahsh-l1p1i1t3q3m1c4-d1e3742">
           <lb ed="#Q"/>Et videtur quod non, possit esse commune
           <lb ed="#Q"/>secundum aliquid rei: a. Dictum enim de summo
-          <lb ed="#Q"/>bono est id ipsum, quia sicut dicit <name ref="#Augustine">Augustinus</name>,
-          <lb ed="#Q"/><title>IV libro De Trinitate</title><!--6-->: <quote>Non est in Deo alterum
+          <lb ed="#Q"/>bono est id ipsum, quia sicut dicit <name xml:id="ahsh-l1p1i1t3q3m1c4-Nd1e132" ref="#Augustine">Augustinus</name>,
+          <lb ed="#Q"/><title>IV libro De Trinitate</title><!--6-->: <quote xml:id="ahsh-l1p1i1t3q3m1c4-Qd1e140">Non est in Deo alterum
           <lb ed="#Q"/>esse Deum et esse bonum, vel esse et esse bo<lb ed="#Q"/>num</quote>.
           Ergo bonum dictum de Deo<!--i--> est indifferens
           <lb ed="#Q"/>illi; ergo non potest esse commune in summo

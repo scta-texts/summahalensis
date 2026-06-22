@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="88"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,8 +58,8 @@
           <lb ed="#Q"/>aeternitas<!--r-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c4-d1e3742">
-          <lb ed="#Q"/>Arguit autem hoc modo a. <name>Richardus de
-          <lb ed="#Q"/>S. Victore</name><!--3-->: <quote>Nihil omnino potest esse a se<lb ed="#Q"/>metipso
+          <lb ed="#Q"/>Arguit autem hoc modo a. <name xml:id="ahsh-l1p1i1t2q4m1c4-Nd1e128">Richardus de
+          <lb ed="#Q"/>S. Victore</name><!--3-->: <quote xml:id="ahsh-l1p1i1t2q4m1c4-Qd1e134">Nihil omnino potest esse a se<lb ed="#Q"/>metipso
           quod non sit ab aeterno : quidquid enim
           <lb ed="#Q"/>ex tempore esse<!--s--> coepit, fuit<!--4--> quando non fuit;
           <cb ed="#Q" n="b"/>
@@ -89,7 +83,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m1c4-d1e3791">
           <lb ed="#Q"/>Sed obicitur 1. de ratione consequentiae qua
-          <lb ed="#Q"/>arguit <name>Richardus</name><!--2-->: <quote>Si aliquid est<!--a--> a semet<lb ed="#Q"/>ipso,
+          <lb ed="#Q"/>arguit <name xml:id="ahsh-l1p1i1t2q4m1c4-Nd1e199">Richardus</name><!--2-->: <quote xml:id="ahsh-l1p1i1t2q4m1c4-Qd1e202">Si aliquid est<!--a--> a semet<lb ed="#Q"/>ipso,
           non ab alio, est ab aeterno</quote>. Ad privatio<lb ed="#Q"/>nem
           ergo principii, posito ente<!--b--> aliquo tali, se<lb ed="#Q"/>quitur
           aeternitas; cum<!--c--> ergo de intentione aeter<lb ed="#Q"/>nitatis
@@ -117,7 +111,7 @@
           <lb ed="#Q"/>in non esse et ideo non potest habere finem; et
           <lb ed="#Q"/>ideo sequitur: si non habet principium, quod non
           <lb ed="#Q"/>habet finem, et ita quod est aeternum. Ratio igitur
-          <lb ed="#Q"/>consequentiae necessaria est: <quote>si aliquid est a se<lb ed="#Q"/>metipso,
+          <lb ed="#Q"/>consequentiae necessaria est: <quote xml:id="ahsh-l1p1i1t2q4m1c4-Qd1e277">si aliquid est a se<lb ed="#Q"/>metipso,
           quod est ab aeterno</quote>. Ex parte autem
           <lb ed="#Q"/>alia, cum omne quod habet principium differens
           <lb ed="#Q"/>in substantia, habeat esse post non esse, verti<lb ed="#Q"/>bile

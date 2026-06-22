@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="113"/><cb ed="#Q" n="a"/>
       </div>
@@ -68,7 +62,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3749"> 
           <lb ed="#Q"/>1. Quia<!--s-->, cum <mentioned>unum</mentioned> convertatur cum ente —
-          <lb ed="#Q"/>sicut dicit <name>B. Dionysius</name><!--5-->: <quote>Nihil est entium ex<lb ed="#Q"/>pers
+          <lb ed="#Q"/>sicut dicit <name xml:id="ahsh-l1p1i1t3q1m1c2-Nd1e145">B. Dionysius</name><!--5-->: <quote xml:id="ahsh-l1p1i1t3q1m1c2-Qd1e149">Nihil est entium ex<lb ed="#Q"/>pers
           unius</quote>—non videbitur addere intentio <mentioned>unius</mentioned>
           <lb ed="#Q"/>ad ens; quia si addit, illa determinatio addita con<lb ed="#Q"/>trahet
           intentionem entis et restringet ad<!--t--> pauciora
@@ -87,7 +81,7 @@
           <lb ed="#Q"/>nisi sicut additiones <mentioned>unius</mentioned> ad ens.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3790">
-          <lb ed="#Q"/>Hoc autem manifestum est sic. <ref xml:id="ahsh-l1p1i1t3q1m1c2-Rja9jjj" corresp="#ahsh-l1p1i1t3q1m1c2-Qjavvxx"><name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Q"/>Hoc autem manifestum est sic. <ref xml:id="ahsh-l1p1i1t3q1m1c2-Rja9jjj" corresp="#ahsh-l1p1i1t3q1m1c2-Qjavvxx"><name xml:id="ahsh-l1p1i1t3q1m1c2-Nd1e211" ref="#Augustine">Augustinus</name>,
           <lb ed="#Q"/>in <title>83 Quaestion.</title></ref>: <quote xml:id="ahsh-l1p1i1t3q1m1c2-Qjavvxx" source="http://scta.info/resource/a83-q18-d1e108@1-13">In omni quod est, aliud est
           <pb ed="#Q" n="114"/>
           <cb ed="#Q" n="b"/>
@@ -106,7 +100,7 @@
           <lb ed="#Q"/>aliqua continentur et ordinem appetunt aut te<lb ed="#Q"/>nent</quote>.
           Ecce quod ens assignatur vestigium Pa<lb ed="#Q"/>tris,
           sicut species Filii et ordo Spiritus Sancti.
-          — Sed iterum, <ref xml:id="ahsh-l1p1i1t3q1m1c2-Rfjj88aa" corresp="#ahsh-l1p1i1t3q1m1c2-Qz88jjj"><name ref="#Augustine">Augustinus</name>, <title>De vera religio<lb ed="#Q"/>ne</title></ref>:
+          — Sed iterum, <ref xml:id="ahsh-l1p1i1t3q1m1c2-Rfjj88aa" corresp="#ahsh-l1p1i1t3q1m1c2-Qz88jjj"><name xml:id="ahsh-l1p1i1t3q1m1c2-Nd1e292" ref="#Augustine">Augustinus</name>, <title>De vera religio<lb ed="#Q"/>ne</title></ref>:
           <quote xml:id="ahsh-l1p1i1t3q1m1c2-Qz88jjj">Omnis vel substantia vel essentia vel na<lb ed="#Q"/>tura
           vel si aliquo verbo melius enuntiatur, ha<lb ed="#Q"/>bet
           haec tria: ut unum aliquid sit, propria spe<lb ed="#Q"/>cie
@@ -137,7 +131,7 @@
           <lb ed="#Q"/>unitatis et veritatis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3887">
-          <lb ed="#Q"/>2. Item, sicut. quidam<!--5--> posuerunt iuxta <name>phi<lb ed="#Q"/>losophos</name>:
+          <lb ed="#Q"/>2. Item, sicut. quidam<!--5--> posuerunt iuxta <name xml:id="ahsh-l1p1i1t3q1m1c2-Nd1e390">phi<lb ed="#Q"/>losophos</name>:
           veritas est indivisio esse et eius quod
           <lb ed="#Q"/>est; sed indivisio entis est unitas; ergo per eam<lb ed="#Q"/>dem
           rationem erit unitas et<!--h--> veritas.
@@ -154,8 +148,8 @@
           <lb ed="#Q"/>obicitur:
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3919">
-          <lb ed="#Q"/>1. <name>Boethius</name><!--i-->, in libro <title>De consolationes</title><!--6-->:
-          <quote>Omne, quod subsistere aut permanere appetit,
+          <lb ed="#Q"/>1. <name xml:id="ahsh-l1p1i1t3q1m1c2-Nd1e431">Boethius</name><!--i-->, in libro <title>De consolationes</title><!--6-->:
+          <quote xml:id="ahsh-l1p1i1t3q1m1c2-Qd1e437">Omne, quod subsistere aut permanere appetit,
           <lb ed="#Q"/>id <mentioned>unum</mentioned> esse desiderat; omnia igitur <mentioned>unum</mentioned>
           <lb ed="#Q"/>desiderant</quote>. Si ergo ratio boni ab eodem<!--k--> est
           <mentioned>quod omnia appetunt</mentioned>, relinquitur quod eadem
@@ -177,8 +171,8 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3956">
           <lb ed="#Q"/>1. Nam cum omnis creatura componatur<!--m--> ex
-          <lb ed="#Q"/>hoc et hoc, sicut dicit <name>Boethius</name>, in libro <title>De
-          <lb ed="#Q"/>Trinitate</title><!--7-->: <quote>In omni eo quod est citra<!--n--> primum,
+          <lb ed="#Q"/>hoc et hoc, sicut dicit <name xml:id="ahsh-l1p1i1t3q1m1c2-Nd1e502">Boethius</name>, in libro <title>De
+          <lb ed="#Q"/>Trinitate</title><!--7-->: <quote xml:id="ahsh-l1p1i1t3q1m1c2-Qd1e511">In omni eo quod est citra<!--n--> primum,
           <lb ed="#Q"/>est hoc et hoc</quote>; ergo ad hoc quod res sit, oportet
           <lb ed="#Q"/>sicut causam praecedere unionem eorum ex qui<lb ed="#Q"/>bus
           est; ergo unitas erit causa entitatis; ergo
@@ -186,13 +180,13 @@
           quia unionem illam consequitur veritas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3974">
-          <lb ed="#Q"/>2. Item, <name>Boethius</name>, in libro<!--o--> <title>De consola<lb ed="#Q"/>tione</title><!--8-->:
-          <quote>Sublato <mentioned>uno</mentioned>, nec esse quibusquam
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t3q1m1c2-Nd1e531">Boethius</name>, in libro<!--o--> <title>De consola<lb ed="#Q"/>tione</title><!--8-->:
+          <quote xml:id="ahsh-l1p1i1t3q1m1c2-Qd1e541">Sublato <mentioned>uno</mentioned>, nec esse quibusquam
           <lb ed="#Q"/>permanebit</quote>, similiter nec verum esse. Ergo uni<lb ed="#Q"/>tas
           causa est entitatis et veritatis<!--p-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c2-d1e3985">
-          <lb ed="#Q"/>3. Item, <name>Boethius</name>, <title>De consolatione</title><!--9-->: <quote>Quae
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t3q1m1c2-Nd1e558">Boethius</name>, <title>De consolatione</title><!--9-->: <quote xml:id="ahsh-l1p1i1t3q1m1c2-Qd1e563">Quae
           <lb ed="#Q"/>discrepant, bona minime sunt; cum vero<!--q--> <mentioned>unum</mentioned>
           <lb ed="#Q"/>esse coeperint<!--r-->, bona fiunt; ut ergo bona sint,
           <lb ed="#Q"/>unitatis<!--s--> adeptione contingit</quote>. Ergo unitas causa
@@ -293,7 +287,7 @@
           <lb ed="#Q"/>tali, quae est ratio indivisionis. Quantum vero ad
           <lb ed="#Q"/>ambitum suppositorum non coarctat, quia non exi<lb ed="#Q"/>stit
           aliquod ens quod non participet unitatem,
-          <lb ed="#Q"/>sicut dicit<!--n--> <name ref="#Dionysius">Dionysius</name><!--2-->: <quote>Sicut omnis nume<lb ed="#Q"/>rus
+          <lb ed="#Q"/>sicut dicit<!--n--> <name xml:id="ahsh-l1p1i1t3q1m1c2-Nd1e838" ref="#Dionysius">Dionysius</name><!--2-->: <quote xml:id="ahsh-l1p1i1t3q1m1c2-Qd1e842">Sicut omnis nume<lb ed="#Q"/>rus
           unitatem participat, et unus binarius et de<lb ed="#Q"/>narius
           dicitur, et dimidium unum et decimum
           <lb ed="#Q"/>unum, sic omnia et omnium omnis particula uno

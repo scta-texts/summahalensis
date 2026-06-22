@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="199"/><cb ed="#Q" n="a"/>
       </div>
@@ -106,7 +100,7 @@
           cum illo, quamvis non sonet in tantum ut
           <lb ed="#Q"/>vulnerare dicatur. Secundum hoc solet<!--r--> dici
           <lb ed="#Q"/>quod veniale facit nemini mortale vulnus. Dicit
-          <lb ed="#Q"/>etiam <name ref="#GregoryGreat">Gregorius</name>, in <title>Moralibus</title><!--3-->, quod veniale
+          <lb ed="#Q"/>etiam <name xml:id="ahsh-l1p1i1t3q3m4c8-Nd1e222" ref="#GregoryGreat">Gregorius</name>, in <title>Moralibus</title><!--3-->, quod veniale
           <lb ed="#Q"/>obscurat, mortale caligat. Secundum hoc dicimus
           <lb ed="#Q"/>quod veniale disponit ut mortale subintret, non
           <pb ed="#Q" n="200"/>

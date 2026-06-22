@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="99"/><cb ed="#Q" n="a"/>
       </div>
@@ -68,14 +62,14 @@
           <lb ed="#Q"/>duratio quae est tempus, aut duratio quae est ae<lb ed="#Q"/>ternitas;
           aevum igitur non est aliqua duratio sepa<lb ed="#Q"/>rata
           a tempore et aeternitate. -— Quod autem
-          <lb ed="#Q"/><mentioned>nunc</mentioned> non sit nisi duplex, patet per <name>Boe<lb ed="#Q"/>thium</name>,
-          in libro <title>De Trinitate</title><!--3-->, ubi dicit: <quote>Nostrum
+          <lb ed="#Q"/><mentioned>nunc</mentioned> non sit nisi duplex, patet per <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e145">Boe<lb ed="#Q"/>thium</name>,
+          in libro <title>De Trinitate</title><!--3-->, ubi dicit: <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e153">Nostrum
           <lb ed="#Q"/><mentioned>nunc</mentioned>, quasi<!--i--> currens tempus, facit sempiternita<lb ed="#Q"/>tem;
           divinum <mentioned>nunc</mentioned> permanens aeternitatem</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c1-d1e3798">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, <title>XI Canfessionum</title><!--4-->: 
-          <lb ed="#Q"/><quote>Praesens, si semper est praesens, iam non est
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e170" ref="#Augustine">Augustinus</name>, <title>XI Canfessionum</title><!--4-->: 
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e177">Praesens, si semper est praesens, iam non est
           <lb ed="#Q"/>tempus, sed aeternitas</quote>; sed praesens in esse per<lb ed="#Q"/>petuorum
           semper est praesens; ergo est aeter<cb ed="#Q" n="b"/><lb ed="#Q"/>nitas;
           si ergo ponitur mensura esse perpetui, in
@@ -85,7 +79,7 @@
         <p xml:id="ahsh-l1p1i1t2q4m3c1-d1e3817">
           <lb ed="#Q"/>3. Item, quasi<!--k--> ex opposito obicitur: diversitas
           <lb ed="#Q"/>materiae non diversificat rationem formae, ma<lb ed="#Q"/>xime
-          in formis accidentalibus; unde dicit <name>Philo<lb ed="#Q"/>sophus</name><!--5-->
+          in formis accidentalibus; unde dicit <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e203">Philo<lb ed="#Q"/>sophus</name><!--5-->
           quod eodem denario mensurantur<!--l-->
           <lb ed="#Q"/>decem homines et decem equi, non tamen sunt
           <lb ed="#Q"/>eadem decem. Similiter eadem mensura duratio<lb ed="#Q"/>nis
@@ -121,8 +115,8 @@
           <lb ed="#Q"/>tempore.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c1-d1e3898">
-          <lb ed="#Q"/>5. Item, <title>Eccli.</title> 43,6: <quote source="http://scta.info/resource/sir43_6@8-12">Luna ostensio temporis
-          <lb ed="#Q"/>et signum aevi</quote>. Et exponit <name>Rabanus</name><!--I--> quod
+          <lb ed="#Q"/>5. Item, <title>Eccli.</title> 43,6: <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e299" source="http://scta.info/resource/sir43_6@8-12">Luna ostensio temporis
+          <lb ed="#Q"/>et signum aevi</quote>. Et exponit <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e304">Rabanus</name><!--I--> quod
           <lb ed="#Q"/>ludaei intelligebant tempora penes cursum lunae.
           <lb ed="#Q"/>Secundum hoc ergo luna est ostensio temporis, id
           <lb ed="#Q"/>est differentiarum et partium temporis, et etiam
@@ -130,27 +124,27 @@
           <lb ed="#Q"/>quae per aevum poterit mensurari.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c1-d1e3916">
-          <lb ed="#Q"/>Contra: a. <title>Eccli.</title> 1,1: <quote source="http://scta.info/resource/sir1_1@1-15">Omnis sapientia a Do<lb ed="#Q"/>mino
+          <lb ed="#Q"/>Contra: a. <title>Eccli.</title> 1,1: <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e327" source="http://scta.info/resource/sir1_1@1-15">Omnis sapientia a Do<lb ed="#Q"/>mino
           Deo est et cum illa fuit semper et est ante
           <lb ed="#Q"/>aevum</quote>. Igitur cuius duratio est aeternitas, prae<lb ed="#Q"/>cedit
           aevum; ergo est duratio sequens aeternita<lb ed="#Q"/>tatem;
           ergo alia ab aeternitate.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c1-d1e3930">
-          <lb ed="#Q"/>b. Item, <name>Boethius</name><!--2-->: <quote>Tempus ab aevo ire
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e343">Boethius</name><!--2-->: <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e346">Tempus ab aevo ire
           <lb ed="#Q"/>iubes</quote>; sed quod exit ab aliquo non est idem
           <lb ed="#Q"/>illi; ergo aevum est duratio differens a tempore.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c1-d1e3939">
-          <lb ed="#Q"/>c. Item, <name ref="#Dionysius">Dionysius</name>, in libro <title>De divinis no<lb ed="#Q"/>minibus</title><!--3-->:
-          <quote>Proprietas aevi est antiquum, inalte<lb ed="#Q"/>ratum,
+          <lb ed="#Q"/>c. Item, <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e358" ref="#Dionysius">Dionysius</name>, in libro <title>De divinis no<lb ed="#Q"/>minibus</title><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e367">Proprietas aevi est antiquum, inalte<lb ed="#Q"/>ratum,
           secundum totum esse mensurans; tempus
           <lb ed="#Q"/>vero est quod est in generatione et corruptione
           <lb ed="#Q"/>aliter se habens</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c1-d1e3952">
-          <lb ed="#Q"/>d. Item, <name ref="#Augustine">Augustinus</name>, in<!--f--> <title>83 Quaestion</title><!--4-->:
-          <quote>In hoc distat tempus ab aevo, quia istud sta<lb ed="#Q"/>bile,
+          <lb ed="#Q"/>d. Item, <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e381" ref="#Augustine">Augustinus</name>, in<!--f--> <title>83 Quaestion</title><!--4-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e389">In hoc distat tempus ab aevo, quia istud sta<lb ed="#Q"/>bile,
           illud autem mutabile</quote>. Ergo non est idem
           <lb ed="#Q"/>tempori<!--g-->.
         </p>
@@ -175,14 +169,14 @@
           <lb ed="#Q"/>autem quod<!--k--> nomen aevi dicitur multipliciter.
           <lb ed="#Q"/>Aliquando enim aevum accipitur pro omni dura<lb ed="#Q"/>tione
           quae non est tempus, secundum quod dicit
-          <lb ed="#Q"/><name>Dionysius</name><!--6-->: <quote>Proprietas aevi antiquum</quote> etc.
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e454">Dionysius</name><!--6-->: <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e457">Proprietas aevi antiquum</quote> etc.
           <lb ed="#Q"/>Aliquando vero pro tota duratione temporis, secun<lb ed="#Q"/>dum
-          quod dicit <name ref="#Dionysius">Dionysius</name>, in libro <title>De divinis
-          <lb ed="#Q"/>nominibus</title>: <quote>Aliquando totam durationem tem<lb ed="#Q"/>poris,
+          quod dicit <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e463" ref="#Dionysius">Dionysius</name>, in libro <title>De divinis
+          <lb ed="#Q"/>nominibus</title>: <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e472">Aliquando totam durationem tem<lb ed="#Q"/>poris,
           quae<!--l--> apud nos est, aevum appellat</quote>; et
-          <lb ed="#Q"/>hoc modo accipitur <title>Eccli.</title> 43,6: <quote source="http://scta.info/resource/sir43_6@8-12">Luna ostensio
+          <lb ed="#Q"/>hoc modo accipitur <title>Eccli.</title> 43,6: <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e483" source="http://scta.info/resource/sir43_6@8-12">Luna ostensio
           <lb ed="#Q"/>temporis et signum aevi</quote>. Aliquando vero pro an<lb ed="#Q"/>tiquitate
-          temporis; unde <name>Dionysius</name>: <quote>Saepe an<lb ed="#Q"/>tiquissima
+          temporis; unde <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e491">Dionysius</name>: <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e493">Saepe an<lb ed="#Q"/>tiquissima
           aevi cognominatione<!--m--> fingunt</quote>. Ali<lb ed="#Q"/>quando
           pro magna parte temporis: ab Adam usque
           <lb ed="#Q"/>ad Noe, unum aevum. Aliquando vero pro periodo
@@ -195,7 +189,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c1-d1e4042">
           <lb ed="#Q"/>[Ad obiecta]: ]. Ad primum ergo dicendum
-          <lb ed="#Q"/>quod <name>Boethius</name> non negavit <mentioned>nunc</mentioned> aevi, sed
+          <lb ed="#Q"/>quod <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e524">Boethius</name> non negavit <mentioned>nunc</mentioned> aevi, sed
           <lb ed="#Q"/>stabilitatem <mentioned>nunc</mentioned> sive praesentis aeternitatis
           <lb ed="#Q"/>declaravit per comparationem ad <mentioned>nunc</mentioned> tem<lb ed="#Q"/>poris,
           quod nobis magis manifestum est. Triplex
@@ -220,7 +214,7 @@
           <lb ed="#Q"/>partibilitatis, sed perfectionis. Intelligitur ergo
           <pb ed="#Q" n="101"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/><mentioned>semper</mentioned>, cum dicitur <quote>praesens, si semper est
+          <lb ed="#Q"/><mentioned>semper</mentioned>, cum dicitur <quote xml:id="ahsh-l1p1i1t2q4m3c1-Qd1e605">praesens, si semper est
           <lb ed="#Q"/>praesens</quote> etc., de totalitate aeternitatis in dura<lb ed="#Q"/>tione
           quae non incipit nec desinit, si accipiatur
           <lb ed="#Q"/>aeternitas proprie, et non de totalitate temporis:
@@ -228,7 +222,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m3c1-d1e4114">
           <lb ed="#Q"/>3. Ad tertium dicendum quod quantitas est
-          <lb ed="#Q"/>duobus modis, sicut dicit B.<!--a--> <name ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Q"/>duobus modis, sicut dicit B.<!--a--> <name xml:id="ahsh-l1p1i1t2q4m3c1-Nd1e628" ref="#Augustine">Augustinus</name>, in
           <lb ed="#Q"/>libro <title>De quantitate animae</title><!--1-->: est enim quantum
           <lb ed="#Q"/>virtute, quantum dimensione. Dicendum ergo quod
           <lb ed="#Q"/>aevum accidens est rei aeviternae, id est perpe<lb ed="#Q"/>tuae,

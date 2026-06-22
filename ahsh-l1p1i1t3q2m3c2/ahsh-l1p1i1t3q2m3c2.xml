@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="155"/><cb ed="#Q" n="a"/>
       </div>
@@ -66,8 +60,8 @@
             <lb ed="#Q"/>an etiam in intellectu.
           </p>
           <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3750">
-            <lb ed="#Q"/>1. Ad quod <name ref="#Augustine">Augustinus</name>, in <title>Soliloquiis</title><!--a--><!--1-->:
-            <quote>Apparet nos in omnibus sensibus sive in aequa<lb ed="#Q"/>libus
+            <lb ed="#Q"/>1. Ad quod <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e134" ref="#Augustine">Augustinus</name>, in <title>Soliloquiis</title><!--a--><!--1-->:
+            <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e141">Apparet nos in omnibus sensibus sive in aequa<lb ed="#Q"/>libus
             sive in deterioribus rebus<!--b--> similitudine le<lb ed="#Q"/>nocinante
             falli aut<!--c-->, etiam si non fallamur, sus<lb ed="#Q"/>pendentes
             consensionem nostram aut etiam dif<lb ed="#Q"/>ferentias
@@ -76,14 +70,14 @@
             <lb ed="#Q"/>sensibus contingit esse falsitatem.
           </p>
           <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3768">
-            <lb ed="#Q"/>2. Item, <name>Augustinus</name>2 inducit per sensus om<lb ed="#Q"/>nes,
-            ex quo contingit <quote>ratiocinari veri similitu<lb ed="#Q"/>dine<!--d-->
+            <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e167">Augustinus</name>2 inducit per sensus om<lb ed="#Q"/>nes,
+            ex quo contingit <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e171">ratiocinari veri similitu<lb ed="#Q"/>dine<!--d-->
             falsitatem</quote>, ut<!--e--> navigantibus aquam<!--f--> vi<lb ed="#Q"/>detur
             turris moveri quae stat<!--3-->, et in horologiis
             <lb ed="#Q"/>audiri videtur cantus merulae vel corvi<!--4-->.
           </p>
           <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3782">
-            <lb ed="#Q"/>3. Item, <name ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--5-->: <quote>Est
+            <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e197" ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--5-->: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e203">Est
             <lb ed="#Q"/>quidem in sensibus corporis veritas, sed non
             <lb ed="#Q"/>semper: nam fallunt nos aliquando. Nam cum
             <lb ed="#Q"/>video aliquando per medium vitrum aliquid, fallit
@@ -96,8 +90,8 @@
             <lb ed="#Q"/>sensus fallunt</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3808">
-            <lb ed="#Q"/>Contra: a. <name>Augustinus</name>, <title>De vera religione</title><!--6-->:
-            <quote>Ipsi oculi non fallunt: non enim renuntiare<!--h-->
+            <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e234">Augustinus</name>, <title>De vera religione</title><!--6-->:
+            <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e239">Ipsi oculi non fallunt: non enim renuntiare<!--h-->
             <lb ed="#Q"/>possunt animo nisi affectionem; quod si non so<lb ed="#Q"/>lum
             ipsi<!--i-->, sed et omnes corporis sensus ita nun<lb ed="#Q"/>tiant<!--k-->
             ut afficiuntur, quid amplius ab eis exigere
@@ -105,7 +99,7 @@
             <lb ed="#Q"/>in sensibus non est falsitas.
           </p>
           <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3824">
-            <lb ed="#Q"/>b. Item<!--7-->, <quote>si quis remum fractum in aqua opina<lb ed="#Q"/>tur,
+            <lb ed="#Q"/>b. Item<!--7-->, <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e269">si quis remum fractum in aqua opina<lb ed="#Q"/>tur,
             quando auferetur, integrari, non malum habet
             <lb ed="#Q"/>Internuntium, sed malus est iudex: nam ille pro
             5111 natura non potuit aliter in aqua sentire nec
@@ -116,13 +110,13 @@
             locum in sensu.
           </p>
           <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3844">
-            <lb ed="#Q"/>Respondeo, secundum <name>Anselmum</name>, in libro
+            <lb ed="#Q"/>Respondeo, secundum <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e294">Anselmum</name>, in libro
             <lb ed="#Q"/><title>De veritate</title><!--8-->: Est sensus exterior sive particu<lb ed="#Q"/>laris,
             in quo non accidit falsitas; et est<!--n--> sensus
             <lb ed="#Q"/>interior sive communis, ad quem pertinet iudicare
             <lb ed="#Q"/>differentias et communia sensuum et componere
             <lb ed="#Q"/>et dividere de sensibilibus: et in ipso accidit fal<lb ed="#Q"/>sitas,
-            sicut dicit <name ref="#Anselm">Anselmus</name> iis verbis: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e3864">Non
+            sicut dicit <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e313" ref="#Anselm">Anselmus</name> iis verbis: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e3864">Non
             <lb ed="#Q"/>mihi videtur falsitas in sensibus esse, sed in opi<lb ed="#Q"/>nione;
             ipse namque sensus interior se fallit, non
             <lb ed="#Q"/>illi<!--o--> mentitur exterior. Quod facile cognoscitur.
@@ -172,7 +166,7 @@
             quod possunt, quoniam<!--f--> ita posse acce<lb ed="#Q"/>perunt,
             sed iudicio animae imputandum est quod
             <lb ed="#Q"/>non<!--g--> bene discernit quid illi possint aut quid
-            <lb ed="#Q"/>debeant</quote>. Haec <name ref="#Anselm">Anselmus</name>.
+            <lb ed="#Q"/>debeant</quote>. Haec <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e458" ref="#Anselm">Anselmus</name>.
           </p>
         </div>
         <div xml:id="ahsh-l1p1i1t3q2m3c2-Dd1e3980">
@@ -182,7 +176,7 @@
             <lb ed="#Q"/>Item, quaeritur an possit esse falsitas in intel<lb ed="#Q"/>lectu.
           </p>
           <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e3995">
-            <lb ed="#Q"/>a. <name ref="#Augustine">Augustinus</name>, <title>De vera religione</title><!--1-->: <quote>Ego
+            <lb ed="#Q"/>a. <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e482" ref="#Augustine">Augustinus</name>, <title>De vera religione</title><!--1-->: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e488">Ego
             <lb ed="#Q"/>unus sum, et hoc loco sentio corpus meum, et
             <lb ed="#Q"/>tamen figmento cogitationis pergo quolibet et lo<lb ed="#Q"/>quor
             cum quolibet: falsa sunt haec, nec<!--i--> quis<lb ed="#Q"/>quam
@@ -193,7 +187,7 @@
             intelligi, non potest fieri in intellectu.
           </p>
           <p xml:id="ahsh-l1p1i1t3q2m3c2-d1e4017">
-            <lb ed="#Q"/>Contra: I. <name ref="#Augustine">Augustinus</name><!--2-->: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e4024">Lux vera est
+            <lb ed="#Q"/>Contra: I. <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e518" ref="#Augustine">Augustinus</name><!--2-->: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e4024">Lux vera est
             <lb ed="#Q"/>qua haec omnia non esse vera cognoscis</quote>; sed
             <lb ed="#Q"/>constat quod illa est prima veritas, quae est lux
             <lb ed="#Q"/>solius intellectus; intellectu ergo cognoscuntur
@@ -242,7 +236,7 @@
             quae scilicet nata est ad discernenda ea
             <lb ed="#Q"/>quae apparent; cum ergo hoc<!--p--> modo iudicat in<lb ed="#Q"/>tellectus,
             iam non est rectus, sed phantasticus, et
-            <lb ed="#Q"/>in eo contingit esse errorem. Unde <name ref="#Augustine">Augusti<lb ed="#Q"/>nus</name>, <title>De vera religione</title><!--3-->, dicit quod hoc modo
+            <lb ed="#Q"/>in eo contingit esse errorem. Unde <name xml:id="ahsh-l1p1i1t3q2m3c2-Nd1e640" ref="#Augustine">Augusti<lb ed="#Q"/>nus</name>, <title>De vera religione</title><!--3-->, dicit quod hoc modo
             <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e4137">phantasmata<!--q--> dici solent; unde<!--4-->: <quote xml:id="ahsh-l1p1i1t3q2m3c2-Qd1e4139">Anima mea
             <lb ed="#Q"/>impleta est illusionibus</quote></quote>.
           </p>

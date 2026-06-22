@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n=""/><cb ed="#Q" n="a"/>
       </div>
@@ -71,8 +64,8 @@
           <lb ed="#Q"/>Ad quod sic obicitur: 1. Sicut se habet lux
           <lb ed="#Q"/>ista<!--d--> corporalis ad sensum et visibilia, ita se
           <lb ed="#Q"/>habet lux divina ad intellectum et intelligibilia,
-          <lb ed="#Q"/>sicut dicit <name ref="#Augustine">Augustinus</name>, in libro <title>Soliloquio<lb ed="#Q"/>rum</title><!--3-->,
-          quod <quote>terra visibilis est et lux. Sed terra
+          <lb ed="#Q"/>sicut dicit <name xml:id="ahsh-l1tinq2m3c1-Nd1e143" ref="#Augustine">Augustinus</name>, in libro <title>Soliloquio<lb ed="#Q"/>rum</title><!--3-->,
+          quod <quote xml:id="ahsh-l1tinq2m3c1-Qd1e152">terra visibilis est et lux. Sed terra
           <lb ed="#Q"/>nisi luce illustrata videri non potest; similiter di<lb ed="#Q"/>sciplinarum<!--e-->
           spectamina non possunt intelligi,
           <lb ed="#Q"/>nisi aliquo suo<!--f--> sole illustrentur</quote>; et illud est
@@ -82,30 +75,30 @@
         </p>
         <p xml:id="ahsh-l1tinq2m3c1-d1e3775">
           <lb ed="#Q"/>2. Item, cum tria sint genera visionis<!--h-->, sicut
-          <lb ed="#Q"/>dicit <name ref="#Augustine">Augustinus</name><!--4-->, corporalis, imaginaria et
-          <lb ed="#Q"/>intellectualis, tertio genere videntur <quote>res quae non
+          <lb ed="#Q"/>dicit <name xml:id="ahsh-l1tinq2m3c1-Nd1e183" ref="#Augustine">Augustinus</name><!--4-->, corporalis, imaginaria et
+          <lb ed="#Q"/>intellectualis, tertio genere videntur <quote xml:id="ahsh-l1tinq2m3c1-Qd1e190">res quae non
           <lb ed="#Q"/>habent similitudinem nisi se ipsas</quote>, ut dicitur
-          <lb ed="#Q"/><title>I Cor.</title><!--i--> 12, 2, in <title>Glossa</title> <name ref="#Augustine">Augustini</name><!--5-->; ergo
+          <lb ed="#Q"/><title>I Cor.</title><!--i--> 12, 2, in <title>Glossa</title> <name xml:id="ahsh-l1tinq2m3c1-Nd1e201" ref="#Augustine">Augustini</name><!--5-->; ergo
           <lb ed="#Q"/>non videtur per imaginem<!--k--> sive per<!--l--> similitudi<lb ed="#Q"/>nem.
           Quod autem tertio genere visionis videatur
-          <lb ed="#Q"/>Deus, habetur <title>Rom.</title> 1, 20 super illud: <quote>Invisibilia
+          <lb ed="#Q"/>Deus, habetur <title>Rom.</title> 1, 20 super illud: <quote xml:id="ahsh-l1tinq2m3c1-Qd1e219">Invisibilia
           <lb ed="#Q"/>Dei</quote> etc., quod philosophi viderunt Deum tertio
           <lb ed="#Q"/>genere visionis<!--6-->.
         </p>
         <p xml:id="ahsh-l1tinq2m3c1-d1e3800">
-          <lb ed="#Q"/>3. Item, dicit <name ref="#Augustine">Augustinus</name><!--7--> quod <quote>mens,
+          <lb ed="#Q"/>3. Item, dicit <name xml:id="ahsh-l1tinq2m3c1-Nd1e234" ref="#Augustine">Augustinus</name><!--7--> quod <quote xml:id="ahsh-l1tinq2m3c1-Qd1e238">mens,
           <lb ed="#Q"/>nulla interposita natura, ab ipsa prima veritate
           <lb ed="#Q"/>formatur</quote>. Nulla igitur alia natura intercurret<!--m-->
           <lb ed="#Q"/>inter primam veritatem et mentem, quae sit sicut
           <lb ed="#Q"/>medium ad cognoscendum Deum.
         </p>
         <p xml:id="ahsh-l1tinq2m3c1-d1e3813">
-          <lb ed="#Q"/>Contra: a. <title>I Cor.</title> 13, 12: <quote source="http://scta.info/resource/Icor13_12@1-6">Videmus nunc per
-          <lb ed="#Q"/>speculum et<!--n--> in aenigmate</quote>. <title>Glossa</title><!--8-->: <quote><quote>Per
+          <lb ed="#Q"/>Contra: a. <title>I Cor.</title> 13, 12: <quote xml:id="ahsh-l1tinq2m3c1-Qd1e259" source="http://scta.info/resource/Icor13_12@1-6">Videmus nunc per
+          <lb ed="#Q"/>speculum et<!--n--> in aenigmate</quote>. <title>Glossa</title><!--8-->: <quote xml:id="ahsh-l1tinq2m3c1-Qd1e269"><quote xml:id="ahsh-l1tinq2m3c1-Qd1e270">Per
           <lb ed="#Q"/>speculum<!--o--> in aenigmate</quote>, id est per imaginem<!--p-->
           <lb ed="#Q"/>obscuram: videmus enim aliquas creaturas in
           <lb ed="#Q"/>quibus aliqua Dei similitudo relucet</quote>. Et sequi<lb ed="#Q"/>tur<!--9-->:
-          <quote>Sicut speculi nomine imaginem<!--q--> signifi<lb ed="#Q"/>cavit,
+          <quote xml:id="ahsh-l1tinq2m3c1-Qd1e289">Sicut speculi nomine imaginem<!--q--> signifi<lb ed="#Q"/>cavit,
           ita nomine aenigmatis similitudinem, quam<lb ed="#Q"/>vis
           obscuram. Utroque igitur nomine similitudines
           <lb ed="#Q"/>significatae sunt quae valent ad intelligendum
@@ -113,8 +106,8 @@
           <lb ed="#Q"/>cognoscitur in praesenti Deus nisi per similitu<lb ed="#Q"/>dines
           creaturarum.</p>
         <p xml:id="ahsh-l1tinq2m3c1-d1e3842">
-          <lb ed="#Q"/>b. Item<!--r-->, <name ref="#Dionysius">Dionysius</name>, in principio <title>Hierar<lb ed="#Q"/>chiae</title><!--10-->:
-          <quote>Non est possibile animo nostro ad non<!--s-->
+          <lb ed="#Q"/>b. Item<!--r-->, <name xml:id="ahsh-l1tinq2m3c1-Nd1e313" ref="#Dionysius">Dionysius</name>, in principio <title>Hierar<lb ed="#Q"/>chiae</title><!--10-->:
+          <quote xml:id="ahsh-l1tinq2m3c1-Qd1e322">Non est possibile animo nostro ad non<!--s-->
           <lb ed="#Q"/>materialem illam ascendere caelestium hierarchia<lb ed="#Q"/>rum
           contemplationem, nisi ea quae secundum ip<lb ed="#Q"/>sum
           est materiali manuductione utatur: huius rei
@@ -162,10 +155,10 @@
           <lb ed="#Q"/>visio intellectualis, sed solum illa qua res videtur
           <lb ed="#Q"/>non per similitudinem aliam a re. Et hoc modo
           <lb ed="#Q"/>accipitur <title>II Cor.</title> 12, 2, in <title>Glossa</title><!--3--> super illud:
-          <lb ed="#Q"/><quote>Raptus usque ad tertium caelum</quote>, ubi dicitur:
-          <lb ed="#Q"/><quote>Tertium genus visionis est illud quo dilectio<!--e-->
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq2m3c1-Qd1e447">Raptus usque ad tertium caelum</quote>, ubi dicitur:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq2m3c1-Qd1e450">Tertium genus visionis est illud quo dilectio<!--e-->
           <lb ed="#Q"/>intellecta conspicitur, eas res continet quae non
-          <lb ed="#Q"/>habent imagines sui similes</quote>. Et sequitur: <quote>Di<lb ed="#Q"/>lectio
+          <lb ed="#Q"/>habent imagines sui similes</quote>. Et sequitur: <quote xml:id="ahsh-l1tinq2m3c1-Qd1e459">Di<lb ed="#Q"/>lectio
           enim non aliter videtur praesens in specie
           <lb ed="#Q"/>qua est et aliter absens in aliqua imagine sui<!--f-->
           <lb ed="#Q"/>simili</quote>. Dicendum ergo quod primo modo, vi<lb ed="#Q"/>sione
@@ -176,9 +169,9 @@
           <lb ed="#Q"/>3. Ad tertium dicendum quod natura potest
           <lb ed="#Q"/>accipi dupliciter, scilicet substantia aliqua vel dis<lb ed="#Q"/>positio
           ipsius substantiae. Secundum quod natura
-          <lb ed="#Q"/>appellatur substantia aliqua, sic<!--g--> dicit <name>Augu<lb ed="#Q"/>stinus</name><!--4-->
+          <lb ed="#Q"/>appellatur substantia aliqua, sic<!--g--> dicit <name xml:id="ahsh-l1tinq2m3c1-Nd1e489">Augu<lb ed="#Q"/>stinus</name><!--4-->
           <pb ed="#V" n="9r"/>
-          quod <quote>nulla est interposita natura inter
+          quod <quote xml:id="ahsh-l1tinq2m3c1-Qd1e497">nulla est interposita natura inter
           <lb ed="#Q"/>mentem et Deum, ut scilicet sit aliqua substantia
           <lb ed="#Q"/>intellectualis</quote>, velut angelus, per quam formetur
           <lb ed="#Q"/>et perficiatur ipsa mens, quemadmodum<!--h--> philo<lb ed="#Q"/>sophi<!--5-->

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="110"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,8 +58,8 @@
           natura tota sit in omni tempore et semper.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m4c1-d1e3744">
-          <lb ed="#Q"/>1. Ad quod<!--g--> obicit <name ref="#Anselm">Anselmus</name>, in <title>Monolo<lb ed="#Q"/>gion</title><!--1-->:
-          <quote>Si<!--h--> summa natura tota est semper et
+          <lb ed="#Q"/>1. Ad quod<!--g--> obicit <name xml:id="ahsh-l1p1i1t2q4m4c1-Nd1e130" ref="#Anselm">Anselmus</name>, in <title>Monolo<lb ed="#Q"/>gion</title><!--1-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e139">Si<!--h--> summa natura tota est semper et
           <lb ed="#Q"/>in singulis temporibus: aut ergo simul aut dis<lb ed="#Q"/>tincte
           per diversa tempora. Si simul: sed cum
           <lb ed="#Q"/>ipsa tempora non sint simul, nihil<!--i--> poterit totum
@@ -84,9 +78,9 @@
           temporibus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m4c1-d1e3786">
-          <lb ed="#Q"/>2. Item, idem, in eodem<!--2-->: <quote>Quod totum est in
+          <lb ed="#Q"/>2. Item, idem, in eodem<!--2-->: <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e194">Quod totum est in
           <lb ed="#Q"/>aliquo loco, nihil eius est quod non sit in eodem
-          <lb ed="#Q"/>loco</quote><!--m-->. — Item<!--3-->: <quote>De quo nihil est quod non sit
+          <lb ed="#Q"/>loco</quote><!--m-->. — Item<!--3-->: <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e204">De quo nihil est quod non sit
           <lb ed="#Q"/>in aliquo loco, nihil de eo est quod sit<!--n--> eodem
           <lb ed="#Q"/>tempore extra eumdem locum; quod igitur totum
           <lb ed="#Q"/>est in aliquo<!--o--> loco, nihil eius est quod eodem
@@ -103,7 +97,7 @@
           <lb ed="#Q"/>et semper.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m4c1-d1e3828">
-          <lb ed="#Q"/>Contra: a. <name>Anselmus</name><!--4-->: <quote>Irrefragabiliter con<lb ed="#Q"/>stat
+          <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1p1i1t2q4m4c1-Nd1e258">Anselmus</name><!--4-->: <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e261">Irrefragabiliter con<lb ed="#Q"/>stat
           quia sine divina essentia nec aliquid usquam
           <lb ed="#Q"/>nec unquam [est], quia sine ea nihil est; necesse
           <lb ed="#Q"/>est igitur eam esse ubique et semper et in om<lb ed="#Q"/>nibus
@@ -111,8 +105,8 @@
           <lb ed="#Q"/>simplex est, tota erit ubique, tota erit semper</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m4c1-d1e3844">
-          <lb ed="#Q"/>b. Item, <name>Richardus</name>, in libro <title>De Trinitate</title><!--5-->:
-          <quote>Si omnipotens est, consequenter et ubique po<lb ed="#Q"/>test;
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t2q4m4c1-Nd1e279">Richardus</name>, in libro <title>De Trinitate</title><!--5-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e284">Si omnipotens est, consequenter et ubique po<lb ed="#Q"/>test;
           si ubique potest, potentialiter ubique est; si
           <lb ed="#Q"/>ubique potentialiter, ubique essentialiter<!--t-->: quia
           <lb ed="#Q"/>non est aliud eius potentia et aliud eius es<lb ed="#Q"/>sentia;
@@ -123,14 +117,14 @@
           <lb ed="#Q"/>et extra omnia</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m4c1-d1e3866">
-          <lb ed="#Q"/>c. Item<!--6-->: <quote>Quoniam simplicis naturae est Deus,
+          <lb ed="#Q"/>c. Item<!--6-->: <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e317">Quoniam simplicis naturae est Deus,
           <lb ed="#Q"/>non erit hic et ibi divisus per partes, sed ubique
           <lb ed="#Q"/>totus; erit igitur<!--x--> in quantulacumque cuiuslibet
           <lb ed="#Q"/>totius parte totus et in toto totus<!--y--> et extra to<lb ed="#Q"/>tum
           totus</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m4c1-d1e3879">
-          <lb ed="#Q"/>d. Item, idem, in eodem<!--7-->: <quote>Sicut eorum, quae
+          <lb ed="#Q"/>d. Item, idem, in eodem<!--7-->: <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e340">Sicut eorum, quae
           <lb ed="#Q"/>nondum sunt, nihil est ei futurum, sic omnium
           <lb ed="#Q"/>eorum, quae iam non sunt, nihil est ei praeteri<lb ed="#Q"/>tum
           et omnium eorum, quae iam praesentialiter
@@ -140,7 +134,7 @@
           est.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m4c1-d1e3899">
-          <lb ed="#Q"/>Et ad obiecta secundum <name>Anselmum</name> respon<lb ed="#Q"/>dendum
+          <lb ed="#Q"/>Et ad obiecta secundum <name xml:id="ahsh-l1p1i1t2q4m4c1-Nd1e363">Anselmum</name> respon<lb ed="#Q"/>dendum
           quod in illis quae<!--b--> lege loci aut tem<lb ed="#Q"/>poris
           coarctantur, sicut ea quae sic sunt in loco
           <lb ed="#Q"/>vel tempore ut loci spatium vel diuturnitatem
@@ -149,12 +143,12 @@
           <lb ed="#Q"/>diversis locis et temporibus</mentioned>; in iis vero, quae
           <lb ed="#Q"/>huiusmodi non sunt, hoc ipsum nulla necessitate
           <lb ed="#Q"/>concluditur<!--c-->, quale est divina natura. Quod sic
-          <lb ed="#Q"/>probat <name ref="#Anselm">Anselmus</name><!--1-->: <quote>Cuius amplitudini aut
+          <lb ed="#Q"/>probat <name xml:id="ahsh-l1p1i1t2q4m4c1-Nd1e390" ref="#Anselm">Anselmus</name><!--1-->: <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e394">Cuius amplitudini aut
           <lb ed="#Q"/>diuturnitati nulla meta vel a loco vel a tempore
           <lb ed="#Q"/>opponitur, illi<!--d--> nullum esse locum vel tempus
           <lb ed="#Q"/>vere proponitur, quia locus non facit ei quod
           <lb ed="#Q"/>locus, nec tempus quod tempus</quote>. Ex quo se<lb ed="#Q"/>quitur
-          quod <quote>nullatenus loci aut temporis conti<lb ed="#Q"/>nentia
+          quod <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e409">nullatenus loci aut temporis conti<lb ed="#Q"/>nentia
           cingitur, nulla eorum lege constringitur.
           <lb ed="#Q"/>Quoniam ergo summam essentiam totam<!--e--> neces<lb ed="#Q"/>sitas
           exigit nulli loco aut tempori deesse, et nulla
@@ -169,7 +163,7 @@
           <lb ed="#Q"/>tota simul, quamvis ipsa tempora non sint simul,
           <lb ed="#Q"/>quia etsi ipsa tempora succedant et transeant,
           <lb ed="#Q"/>aeternitati tamen eius non transeunt, sicut probat
-          <lb ed="#Q"/><name>Richardus</name><!--2-->.
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m4c1-Nd1e446">Richardus</name><!--2-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m4c1-d1e3964">
           <lb ed="#Q"/>2. Ad secundum iam patet responsio, quod
@@ -180,8 +174,8 @@
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>dicitur divina natura tota in omnibus locis et tem<lb ed="#Q"/>poribus
           et ubique et semper, quia perfecta et com<lb ed="#Q"/>pleta.
-          Unde nota<!--g--> quod, secundum <name>Anselmum</name><!--4-->,
-          <quote>in omni loco et tempore est, quia nulli abest; in
+          Unde nota<!--g--> quod, secundum <name xml:id="ahsh-l1p1i1t2q4m4c1-Nd1e479">Anselmum</name><!--4-->,
+          <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e482">in omni loco et tempore est, quia nulli abest; in
           <lb ed="#Q"/>nullo vero est, quia nullum locum aut tempus [ha<lb ed="#Q"/>bet]
           nec in se recipit distinctiones locorum aut tem<lb ed="#Q"/>porum,
           ut hic vel illic vel alicubi aut nunc aut
@@ -196,13 +190,13 @@
           <lb ed="#Q"/>Si autem quaeritur quae sit intentio eius
           <lb ed="#Q"/>quod est <mentioned>semper</mentioned>, cum dicitur: <mentioned>Deus est<!--h--> sem<lb ed="#Q"/>per</mentioned>,
           respondendum uno modo, secundum
-          <lb ed="#Q"/><name>Augustinum</name><!--5-->, quod <mentioned>semper</mentioned> supponit uni<lb ed="#Q"/>versum
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m4c1-Nd1e521">Augustinum</name><!--5-->, quod <mentioned>semper</mentioned> supponit uni<lb ed="#Q"/>versum
           tempus. Unde sensus est: <mentioned>Deus est
           <lb ed="#Q"/>semper</mentioned>, id est <mentioned>Deus est in omni praeterito, in
           <lb ed="#Q"/>omni praesenti, in omni futuro, nec deest alicui
           <lb ed="#Q"/>praeterito vel alicui praesenti vel alicui futuro</mentioned>.
-          <lb ed="#Q"/>Secundum vero <name>Anselmum</name>, in <title ref="#Monologion">Monologion</title><!--6-->,
-          <quote>multo verius intelligitur significare aeternitatem,
+          <lb ed="#Q"/>Secundum vero <name xml:id="ahsh-l1p1i1t2q4m4c1-Nd1e543">Anselmum</name>, in <title ref="#Monologion">Monologion</title><!--6-->,
+          <quote xml:id="ahsh-l1p1i1t2q4m4c1-Qd1e550">multo verius intelligitur significare aeternitatem,
           <lb ed="#Q"/>quae sibi ipsi nunquam est dissimilis, quam tem<lb ed="#Q"/>porum
           varietatem, quae sibi semper in aliquo
           <lb ed="#Q"/>est non similis. Cum ergo dicitur: <mentioned>semper esse</mentioned>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="25"/><cb ed="#Q" n="a"/>
       </div>
@@ -85,7 +78,7 @@
         </p>
         <p xml:id="ahsh-l1tinq2m2c3-d1e3783">
           <lb ed="#Q"/>3. Item, <title>Exod.</title> 3, 2 legitur Dominus apparuisse
-          <lb ed="#Q"/>Moysi in rubo; et <title>Exod.</title> 24, 10, <quote source="http://scta.info/resource/ex24_10@1-17">septuaginta se<lb ed="#Q"/>nioribus,
+          <lb ed="#Q"/>Moysi in rubo; et <title>Exod.</title> 24, 10, <quote xml:id="ahsh-l1tinq2m2c3-Qd1e182" source="http://scta.info/resource/ex24_10@1-17">septuaginta se<lb ed="#Q"/>nioribus,
           qui viderant Deum Israel et sub pedibus
           <lb ed="#Q"/>eius quasi opus lapidis sapphirini et quasi cae<lb ed="#Q"/>lum<!--a-->,
           cum serenum est</quote>; et Abrahae in specie hu<lb ed="#Q"/>mana,
@@ -99,10 +92,10 @@
         </p>
         <p xml:id="ahsh-l1tinq2m2c3-d1e3812">
           <lb ed="#Q"/>4. Item, legitur Dominus<!--c--> apparuisse in specie
-          <lb ed="#Q"/>imaginaria, ut Iacob, <title>Gen.</title> 28, 12-13, quando <quote>vidit in
-          <lb ed="#Q"/>somnis Dominam innixum scalae</quote>; et <title>Is.</title> 6, 1: <quote source="http://scta.info/resource/is6_1@8-13">Vidi
+          <lb ed="#Q"/>imaginaria, ut Iacob, <title>Gen.</title> 28, 12-13, quando <quote xml:id="ahsh-l1tinq2m2c3-Qd1e224">vidit in
+          <lb ed="#Q"/>somnis Dominam innixum scalae</quote>; et <title>Is.</title> 6, 1: <quote xml:id="ahsh-l1tinq2m2c3-Qd1e232" source="http://scta.info/resource/is6_1@8-13">Vidi
           <lb ed="#Q"/>Dominum sedentem super solium excelsum</quote> etc.;
-          <lb ed="#Q"/>et <title>Dan.</title> 7, 9, quando <quote source="http://scta.info/resource/dan7_9@1-9">aspiciebat, donec throni po<lb ed="#Q"/>siti
+          <lb ed="#Q"/>et <title>Dan.</title> 7, 9, quando <quote xml:id="ahsh-l1tinq2m2c3-Qd1e241" source="http://scta.info/resource/dan7_9@1-9">aspiciebat, donec throni po<lb ed="#Q"/>siti
           sunt, et antiquus dierum sedit</quote> etc.; ergo ipse
           <lb ed="#Q"/>apparuit in visione imaginaria; sed visio imagi<lb ed="#Q"/>naria
           est virtutis<!--d--> imaginativae sive sensus inte<lb ed="#Q"/>rioris;
@@ -114,7 +107,7 @@
           <lb ed="#Q"/>a sensu quam aliqua forma creata; sed forma
           <lb ed="#Q"/>aliqua creata<!--f-->, ut caritas, non est perceptibilis a
           <lb ed="#Q"/>sensu; ergo multo magis nec forma divina. Et ad
-          <lb ed="#Q"/>hoc <name>Augustinus</name>, <title>De videndo Deo</title><!--3-->: <quote>Caritas,
+          <lb ed="#Q"/>hoc <name xml:id="ahsh-l1tinq2m2c3-Nd1e277">Augustinus</name>, <title>De videndo Deo</title><!--3-->: <quote xml:id="ahsh-l1tinq2m2c3-Qd1e282">Caritas,
           <lb ed="#Q"/>quantulacumque in nostra voluntate consistit no<lb ed="#Q"/>bisque
           perspicua<!--g--> est, nec in loco videtur<!--h--> nec
           <lb ed="#Q"/>corporalibus oculis quaeritur; quanto magis nec
@@ -123,16 +116,16 @@
           sicut nec caritas.
         </p>
         <p xml:id="ahsh-l1tinq2m2c3-d1e3860">
-          <lb ed="#Q"/>b. Item, <name>Ambrosius</name>, <title>Super Lucam</title><!--5-->: <quote>Deus
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1tinq2m2c3-Nd1e310">Ambrosius</name>, <title>Super Lucam</title><!--5-->: <quote xml:id="ahsh-l1tinq2m2c3-Qd1e315">Deus
           <lb ed="#Q"/>non in loco videtur, sed in mundo corde, nec
           <lb ed="#Q"/>circumscribitur visu nec tactu tenetur<pb ed="#V" n="8r"/> nec auditur
-          <lb ed="#Q"/>affatu<!--k--> nec incessu sentitur</quote>. <quote><mentioned>Non<!--6--> circum<lb ed="#Q"/>scribitur<!--l-->
+          <lb ed="#Q"/>affatu<!--k--> nec incessu sentitur</quote>. <quote xml:id="ahsh-l1tinq2m2c3-Qd1e328"><mentioned>Non<!--6--> circum<lb ed="#Q"/>scribitur<!--l-->
           visu</mentioned> propter id quod dictum est,
-          <lb ed="#Q"/><title>Exod.</title> 33, 23: <quote>Posteriora mea videbis</quote>; <mentioned>nec tactu
+          <lb ed="#Q"/><title>Exod.</title> 33, 23: <quote xml:id="ahsh-l1tinq2m2c3-Qd1e341">Posteriora mea videbis</quote>; <mentioned>nec tactu
           <lb ed="#Q"/>tenetur</mentioned> dicit propter luctam Iacob, <title>Gen.</title> 28<!--7-->;
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/><mentioned>nec auditur<!--m--> affatu</mentioned></quote> dicit, quia legitur etiam
-          <lb ed="#Q"/>auditus a filiis Israel, <title>Exod.</title> 21<!--8-->, <quote><mentioned>nec sentitur
+          <lb ed="#Q"/>auditus a filiis Israel, <title>Exod.</title> 21<!--8-->, <quote xml:id="ahsh-l1tinq2m2c3-Qd1e368"><mentioned>nec sentitur
           <lb ed="#Q"/>incessu</mentioned><!--n-->, sicut legitur <title>Gen.</title> 3, 8, dum deambu<lb ed="#Q"/>laret
           Dominus</quote> etc. Relinquitur ergo quod Deus
           <lb ed="#Q"/>non videtur visione corporali.
@@ -143,17 +136,17 @@
           <lb ed="#Q"/>locorum seu circumstantiis loci. Si ergo Deus
           <lb ed="#Q"/>cognoscitur absque omni spatio locali, relinquitur
           <lb ed="#Q"/>quod non potest aliquo modo cognosci a virtute
-          <lb ed="#Q"/>imaginativa. Unde <name ref="#Augustine">Augustinus</name>, <title>De videnda
-          <lb ed="#Q"/>Deo</title><!--9-->: <quote>Si illa quae in luce cordis oculis intue<lb ed="#Q"/>mur</quote>,
+          <lb ed="#Q"/>imaginativa. Unde <name xml:id="ahsh-l1tinq2m2c3-Nd1e400" ref="#Augustine">Augustinus</name>, <title>De videnda
+          <lb ed="#Q"/>Deo</title><!--9-->: <quote xml:id="ahsh-l1tinq2m2c3-Qd1e409">Si illa quae in luce cordis oculis intue<lb ed="#Q"/>mur</quote>,
           sicut sunt cogitationes animi et affectio<lb ed="#Q"/>nes
-          et virtutes animae, <quote>nullis locorum spatiis se<lb ed="#Q"/>parantur
+          et virtutes animae, <quote xml:id="ahsh-l1tinq2m2c3-Qd1e417">nullis locorum spatiis se<lb ed="#Q"/>parantur
           et tamen<!--p--> discernuntur inter se, quanto
-          <lb ed="#Q"/>magis<!--q--> Deus, <quote>qui lucem habitat inaccessibilem</quote><!--10-->
+          <lb ed="#Q"/>magis<!--q--> Deus, <quote xml:id="ahsh-l1tinq2m2c3-Qd1e427">qui lucem habitat inaccessibilem</quote><!--10-->
           <lb ed="#Q"/>corporis sensibus, quo nec ipsius nisi mundi<!--r-->
           <lb ed="#Q"/>corde potest esse accessus</quote>!
         </p>
         <p xml:id="ahsh-l1tinq2m2c3-d1e3922">
-          <lb ed="#Q"/>d. Item, idem in eodem<!--11-->: <quote>Cum ab exterio<lb ed="#Q"/>ribus
+          <lb ed="#Q"/>d. Item, idem in eodem<!--11-->: <quote xml:id="ahsh-l1tinq2m2c3-Qd1e445">Cum ab exterio<lb ed="#Q"/>ribus
           sensibus interiora distinguis atque illa istis
           <lb ed="#Q"/>anteponis, cumque, illis foris relictis, istis intrin<lb ed="#Q"/>secus
           demoraris, et ea quibusdam suis finibus
@@ -178,7 +171,7 @@
           <lb ed="#Q"/>apprehendi virtute sensibili interiori vel exteriori.
         </p>
         <p xml:id="ahsh-l1tinq2m2c3-d1e3974">
-          <lb ed="#Q"/>f. Item, <quote>superior vis continet inferiorem, infe<lb ed="#Q"/>rior
+          <lb ed="#Q"/>f. Item, <quote xml:id="ahsh-l1tinq2m2c3-Qd1e510">superior vis continet inferiorem, infe<lb ed="#Q"/>rior
           autem non surgit in superiorem<!--12--></quote>; sed Deus
           <lb ed="#Q"/>est obiectum rationis; ergo non potest in illum
           <lb ed="#Q"/>sensus<!--y-->, cum omnino sit absque conditione ma<lb ed="#Q"/>teriae.
@@ -201,8 +194,8 @@
         </p>
         <p xml:id="ahsh-l1tinq2m2c3-d1e4018">
           <lb ed="#Q"/>[Ad obiecta]: 1. Et dicendum<!--e--> ad obiecta,
-          <lb ed="#Q"/>secundum<!--f--> <name ref="#Augustine">Augustinum</name>, in libro <title>De videndo
-          <lb ed="#Q"/>Deo</title><!--2-->, quod <quote>interiores oculi sunt iudices exte<lb ed="#Q"/>riorum
+          <lb ed="#Q"/>secundum<!--f--> <name xml:id="ahsh-l1tinq2m2c3-Nd1e580" ref="#Augustine">Augustinum</name>, in libro <title>De videndo
+          <lb ed="#Q"/>Deo</title><!--2-->, quod <quote xml:id="ahsh-l1tinq2m2c3-Qd1e590">interiores oculi sunt iudices exte<lb ed="#Q"/>riorum
           oculorum; isti autem illis quodam officio
           <lb ed="#Q"/>nuntiandi et<!--g--> ministerio famulantur; multaque illi
           <lb ed="#Q"/>vident quae isti non vident</quote>. Secundum hoc ergo
@@ -218,8 +211,8 @@
         </p>
         <p xml:id="ahsh-l1tinq2m2c3-d1e4053">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>2. Ad secundum dicendum est quod <name>Augu<lb ed="#Q"/>stinus</name><!--k-->,
-          in libro <title>De videnda Deo</title><!--3-->, dicit: <quote>Ea
+          <lb ed="#Q"/>2. Ad secundum dicendum est quod <name xml:id="ahsh-l1tinq2m2c3-Nd1e632">Augu<lb ed="#Q"/>stinus</name><!--k-->,
+          in libro <title>De videnda Deo</title><!--3-->, dicit: <quote xml:id="ahsh-l1tinq2m2c3-Qd1e642">Ea
           <lb ed="#Q"/>quae mente conspiciuntur non indigent ullo cor<lb ed="#Q"/>poris
           sensu ut ea vera esse noverimus; quae
           <lb ed="#Q"/>autem per corpus nuntiantur, nisi<!--l--> mens adsit

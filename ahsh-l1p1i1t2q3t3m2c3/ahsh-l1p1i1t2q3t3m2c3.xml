@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="79"/><cb ed="#Q" n="a"/>
       </div>
@@ -63,19 +57,19 @@
           <lb ed="#Q"/>animae possit esse Deus<!--c--> per gratiam inha<lb ed="#Q"/>bitantem<!--2-->
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3744">
-          <lb ed="#Q"/>Ad quod sic opponitur: 1. <title>Luc.</title><!--d--> 1,41: <quote>Exul<lb ed="#Q"/>tavit
-          infans</quote>. <title>Glossa</title><!--3-->: <quote>Nondum erat in ipso
+          <lb ed="#Q"/>Ad quod sic opponitur: 1. <title>Luc.</title><!--d--> 1,41: <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e135">Exul<lb ed="#Q"/>tavit
+          infans</quote>. <title>Glossa</title><!--3-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e144">Nondum erat in ipso
           <lb ed="#Q"/>spiritus vitae et iam inerat<!--e--> spiritus gratiae</quote>; sed
           <lb ed="#Q"/>in quibus est spiritus gratiae, inhabitat Deus<!--f--> per
           .gratiam; ergo ante infusionem animae erat in
-          <lb ed="#Q"/><name>Ioanne</name><!--g--> per inhabitantem gratiam.
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q3t3m2c3-Nd1e156">Ioanne</name><!--g--> per inhabitantem gratiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3757">
-          <lb ed="#Q"/>2. Item, <title>Ierem.</title> 1,5: <quote source="http://scta.info/resource/ier1_5@1-7">Priusquam te formarem
+          <lb ed="#Q"/>2. Item, <title>Ierem.</title> 1,5: <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e166" source="http://scta.info/resource/ier1_5@1-7">Priusquam te formarem
           <lb ed="#Q"/>in utero novi te</quote>; sed duplex est<!--h--> notitia Dei<!--4-->:
           <lb ed="#Q"/>prima est simplex qua cognoscit omnia, secunda
           <lb ed="#Q"/>est notitia approbationis, de qua <title>Matth.</title> 25,12:
-          <lb ed="#Q"/><quote>Non novi vas</quote>; sed non loquitur ad Ieremiam de
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e183">Non novi vas</quote>; sed non loquitur ad Ieremiam de
           <lb ed="#Q"/>prima, quia illa est communis omnibus et ita non
           <lb ed="#Q"/>esset commendatio<!--i--> Ieremiae; ergo de secunda;
           <lb ed="#Q"/>ergo iam ante formationem approbabat; sed non
@@ -96,7 +90,7 @@
           <lb ed="#Q"/>ante infusionem animae per inhabitantem gratiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3809">
-          <lb ed="#Q"/>4. Item, <name>I Cor.</name> 6,19: <quote source="http://scta.info/resource/Icor6_19@1-9">Nescitis quoniam membra
+          <lb ed="#Q"/>4. Item, <name xml:id="ahsh-l1p1i1t2q3t3m2c3-Nd1e235">I Cor.</name> 6,19: <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e237" source="http://scta.info/resource/Icor6_19@1-9">Nescitis quoniam membra
           <lb ed="#Q"/>vestra templum sunt Spiritus Sancti</quote>? sed Spiri<lb ed="#Q"/>tus
           Sanctus non dicitur inhabitare nisi per gra<lb ed="#Q"/>tiam;
           ergo Spiritus Sanctus est in membris per
@@ -126,7 +120,7 @@
         <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3862">
           <lb ed="#Q"/>c. Item, nihil pertinet ad gratiam quod non
           <lb ed="#Q"/>pertineat ad gloriam, quia gratia est ordinata ad
-          <lb ed="#Q"/>gloriam; sed <name ref="#Augustine">Augustinus</name> quaerit de aborti<lb ed="#Q"/>vis
+          <lb ed="#Q"/>gloriam; sed <name xml:id="ahsh-l1p1i1t2q3t3m2c3-Nd1e309" ref="#Augustine">Augustinus</name> quaerit de aborti<lb ed="#Q"/>vis
           sine anima an pertineant ad gloriam resur<lb ed="#Q"/>rectionis,
           in libro <title>De civitate Dei</title><!--5-->, et respondet
           <lb ed="#Q"/>quod non, quia non ceciderunt per mortem. Unde
@@ -137,7 +131,7 @@
           <lb ed="#Q"/>Deo per gratiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3888">
-          <lb ed="#Q"/>d. Item,<!--q--> <title>Exod.</title> 21,2: <quote>Si quis percusserit mu<lb ed="#Q"/>lierem
+          <lb ed="#Q"/>d. Item,<!--q--> <title>Exod.</title> 21,2: <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e342">Si quis percusserit mu<lb ed="#Q"/>lierem
           praegnantem</quote> etc. Distinguit ibi de abor<lb ed="#Q"/>tivis
           ante animationem et post, et quasi ibi non
           <lb ed="#Q"/>computat de inanimatis<!--7-->; ergo non sunt receptiva
@@ -161,9 +155,9 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e3940">
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo<!--d--> quod obi<lb ed="#Q"/>citur
-          <quote>nondum erat in illo spiritus vitae</quote> etc.
+          <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e412">nondum erat in illo spiritus vitae</quote> etc.
           <lb ed="#Q"/>satis potest solutio perpendi, quia sicut dicitur in
-          <lb ed="#Q"/>textu<!--1-->: <quote>Iam erat sextus mensis</quote>; ergo iam erat<!--e-->
+          <lb ed="#Q"/>textu<!--1-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e421">Iam erat sextus mensis</quote>; ergo iam erat<!--e-->
           <lb ed="#Q"/>corpus animatum. Dicendum ergo quod aliquando
           <lb ed="#Q"/>dicitur res tunc primo esse, cum primo innote<lb ed="#Q"/>scit<!--2-->,
           non esse, quando non innotescit; unde
@@ -178,15 +172,15 @@
           et sic nihil boni ponit actu; vel secun<lb ed="#Q"/>dum
           praesentem iustitiam, cum aliquis cognosci<lb ed="#Q"/>tur
           per gratiam praesentis iustitiae. Primo modo
-          <lb ed="#Q"/>accipitur notitia Ieremiae. Unde<!--g--> <name>Bernardus</name><!--3-->:
-          <quote>Pulcre inter figurationem in utero et parturitio<lb ed="#Q"/>nem
+          <lb ed="#Q"/>accipitur notitia Ieremiae. Unde<!--g--> <name xml:id="ahsh-l1p1i1t2q3t3m2c3-Nd1e470">Bernardus</name><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e473">Pulcre inter figurationem in utero et parturitio<lb ed="#Q"/>nem
           ex utero divinum distinxit oraculum, ut illam
           <lb ed="#Q"/>tantum praecognitam, istam sanctitatis munere
           <lb ed="#Q"/>formatam ostenderet</quote>. Sed de notitia approba<lb ed="#Q"/>tionis
           secundo modo accipitur illud quod sequi<cb ed="#Q" n="b"/><lb ed="#Q"/>tur
-          in auctoritate <title>Ierem.</title><!--4-->: <quote>Et antequam exires
-          <lb ed="#Q"/>de ventre sanctificavi te</quote>. Unde subdit <name>Bernar<lb ed="#Q"/>dus</name><!--5-->:
-          <quote>Ne quis praerogativam Prophetae puta<lb ed="#Q"/>verit
+          in auctoritate <title>Ierem.</title><!--4-->: <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e491">Et antequam exires
+          <lb ed="#Q"/>de ventre sanctificavi te</quote>. Unde subdit <name xml:id="ahsh-l1p1i1t2q3t3m2c3-Nd1e496">Bernar<lb ed="#Q"/>dus</name><!--5-->:
+          <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e503">Ne quis praerogativam Prophetae puta<lb ed="#Q"/>verit
           de sola praescientia aestimandam</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e4003">
@@ -199,9 +193,9 @@
           sive ad suscipiendam gratiam. Potest
           <lb ed="#Q"/>enim corrumpi caro dupliciter: vel corruptione
           <lb ed="#Q"/>naturae vel personae. Verbi gratia, caro Adae
-          <lb ed="#Q"/>statim ex peccato corrupta fuit; unde fecit <quote>sibi
+          <lb ed="#Q"/>statim ex peccato corrupta fuit; unde fecit <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e538">sibi
           <lb ed="#Q"/>perizomata</quote><!--6-->. Persona autem, secundum quod dicit
-          <lb ed="#Q"/><name>Anselmus</name><!--7-->, corrupit naturam, quia caro illa in
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q3t3m2c3-Nd1e545">Anselmus</name><!--7-->, corrupit naturam, quia caro illa in
           <lb ed="#Q"/>potentia erat caro omnium hominum, et sua pro<lb ed="#Q"/>pria
           caro erat ibi<!--i--> persona; ergo primo corrupit
           <lb ed="#Q"/>naturam, natura corrupta postea corrupit perso<lb ed="#Q"/>nam,
@@ -218,8 +212,8 @@
           <lb ed="#Q"/>sanctificatio.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m2c3-d1e4062">
-          <lb ed="#Q"/>4. Unde secundum hoc <name ref="#Paul">Apostolus</name><!--8--> proprie lo<lb ed="#Q"/>quitur:
-          <quote>Nescitis quoniam membra vestra</quote> etc., quia
+          <lb ed="#Q"/>4. Unde secundum hoc <name xml:id="ahsh-l1p1i1t2q3t3m2c3-Nd1e592" ref="#Paul">Apostolus</name><!--8--> proprie lo<lb ed="#Q"/>quitur:
+          <quote xml:id="ahsh-l1p1i1t2q3t3m2c3-Qd1e598">Nescitis quoniam membra vestra</quote> etc., quia
           <lb ed="#Q"/>ex hoc quod corpus habet animam, ex hoc habet
           <lb ed="#Q"/>Spiritum Sanctum inhabitantem per gratiam<!--n-->.
         </p>

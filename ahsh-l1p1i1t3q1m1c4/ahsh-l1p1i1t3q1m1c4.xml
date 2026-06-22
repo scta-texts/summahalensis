@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="120"/><cb ed="#Q" n="a"/>
       </div>
@@ -69,13 +63,13 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3751">
           <lb ed="#Q"/>b. Item, non potest poni Oppositio contrarie<lb ed="#Q"/>tatis,
-          cum natura contrariorum sit, <quote>ut cum unum
+          cum natura contrariorum sit, <quote xml:id="ahsh-l1p1i1t3q1m1c4-Qd1e151">ut cum unum
           <lb ed="#Q"/>venit in subiectum, destruit alterum</quote><!--2-->; <mentioned>unum</mentioned>
           <lb ed="#Q"/>autem non destruit <mentioned>multum</mentioned>, cum ponitur in sub<lb ed="#Q"/>iecto
           quod erat multitudinis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3765">
-          <lb ed="#Q"/>c. Item, <quote>ad conditionem<!--e--> contrariorum non suf<lb ed="#Q"/>ficit
+          <lb ed="#Q"/>c. Item, <quote xml:id="ahsh-l1p1i1t3q1m1c4-Qd1e172">ad conditionem<!--e--> contrariorum non suf<lb ed="#Q"/>ficit
           quod<!--f--> sit unum subiectum et quod sibi succe<lb ed="#Q"/>dant,
           sed<!--g--> oportet quod naturae sint<!--h--> refugientes a
           <lb ed="#Q"/>se et multum distantes</quote><!--3-->; non sic autem est inter
@@ -83,18 +77,18 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3776">
           <lb ed="#Q"/>d. Item, non potest poni quod sit oppositio
-          <lb ed="#Q"/>sicut privationis et habitus: nam <quote>unitas est in
+          <lb ed="#Q"/>sicut privationis et habitus: nam <quote xml:id="ahsh-l1p1i1t3q1m1c4-Qd1e202">unitas est in
           <lb ed="#Q"/>multitudine ut constituens eam</quote><!--4-->. Si ergo ponatur
-          <lb ed="#Q"/>multitudo privatio unitatis, sicut habitus, erit <quote>pri<lb ed="#Q"/>vatio
+          <lb ed="#Q"/>multitudo privatio unitatis, sicut habitus, erit <quote xml:id="ahsh-l1p1i1t3q1m1c4-Qd1e210">pri<lb ed="#Q"/>vatio
           composita ex habitibus</quote>; quod nunquam<!--i-->
           <lb ed="#Q"/>contingit. Similiter, si poneretur habitus multitudo
-          <lb ed="#Q"/>et unitas privatio, <quote>erit privatio composita ex
+          <lb ed="#Q"/>et unitas privatio, <quote xml:id="ahsh-l1p1i1t3q1m1c4-Qd1e222">erit privatio composita ex
           <lb ed="#Q"/>suis habitibus</quote>; quod est inconvenientissimum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m1c4-d1e3796">
           <lb ed="#Q"/>e. Item, nec potest poni oppositio relativa: nam
           <lb ed="#Q"/>si multitudo esset correlativum unitatis, sequere<lb ed="#Q"/>tur
-          <quote>quod sicut quidditas multitudinis dicitur re<lb ed="#Q"/>spectu
+          <quote xml:id="ahsh-l1p1i1t3q1m1c4-Qd1e236">quod sicut quidditas multitudinis dicitur re<lb ed="#Q"/>spectu
           unitatis, sic quidditas unitatis, in quantum
           <lb ed="#Q"/>est unitas, diceretur respectu multitudinis secun<lb ed="#Q"/>dum
           conditionem conversionis relativorum et<!--k-->
@@ -125,7 +119,7 @@
           <lb ed="#Q"/>sit aliqua illarum quatuor, sed oppositione dispa<lb ed="#Q"/>rationis
           qua aliquid, quod est de principio, oppo<lb ed="#Q"/>nitur
           suis principiis ex quibus perficitur. Et hoc
-          <lb ed="#Q"/>dicit <name ref="#Dionysius">B. Dionysius</name><!--7--> quod <quote>non est multi<lb ed="#Q"/>tudo,
+          <lb ed="#Q"/>dicit <name xml:id="ahsh-l1p1i1t3q1m1c4-Nd1e333" ref="#Dionysius">B. Dionysius</name><!--7--> quod <quote xml:id="ahsh-l1p1i1t3q1m1c4-Qd1e338">non est multi<lb ed="#Q"/>tudo,
           quae non participet uno</quote>. Alio modo dicit
           <lb ed="#Q"/>multitudo pluralitatem excedentem: et secundum
           <lb ed="#Q"/>hoc multitudo opponitur paucitati oppositione re<lb ed="#Q"/>lationis;

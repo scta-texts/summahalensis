@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="105"/><cb ed="#Q" n="a"/>
       </div>
@@ -80,19 +74,19 @@
             <lb ed="#Q"/>praecedit aevum.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e3776">
-            <lb ed="#Q"/>2. Item, omne<!--f--> quod coepit, sicut dicit <name>Ri<lb ed="#Q"/>chardus
-            de S. Victore</name><!--5-->, <quote>coepit esse ex
+            <lb ed="#Q"/>2. Item, omne<!--f--> quod coepit, sicut dicit <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e175">Ri<lb ed="#Q"/>chardus
+            de S. Victore</name><!--5-->, <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e181">coepit esse ex
             <lb ed="#Q"/>tempore</quote>. Cum ergo aevum coeperit, coepit ex
             <lb ed="#Q"/>tempore; ergo primum.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e3787">
-            <lb ed="#Q"/>3. Item, <quote>simul coepit esse<!--g--> tempus et angelus
+            <lb ed="#Q"/>3. Item, <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e193">simul coepit esse<!--g--> tempus et angelus
             <lb ed="#Q"/>et materia prima</quote><!--6-->; sed aevum est duratio ange<lb ed="#Q"/>licae<!--h-->
             naturae; ergo simul exiit in esse tempus
             <lb ed="#Q"/>et aevum; ergo aevum non praecedit tempus.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e3799">
-            <lb ed="#Q"/>Contra: a. <name>Boethius</name><!--7-->: <quote>Tempus ab aevo
+            <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e213">Boethius</name><!--7-->: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e216">Tempus ab aevo
             <lb ed="#Q"/>ire iubes</quote>; sive igitur sit sensus: ab aevo sicut a
             <lb ed="#Q"/>causa, vel ab aevo, id est<!--i--> post aevum, semper
             <lb ed="#Q"/>originaliter aevum erit ante tempus.
@@ -149,10 +143,10 @@
             <lb ed="#Q"/>quae<!--t--> est de uno in aliud continue et successive.
             <pb ed="#Q" n="106"/>
             <cb ed="#Q" n="a"/>
-            <lb ed="#Q"/>Primus sensus habetur ex <title>Gen.</title> 1,1: <quote>In prin<lb ed="#Q"/>cipio
-            creavit Deus</quote> etc. <title>Glossa</title><!--1-->: <quote>In principio
-            <lb ed="#Q"/>temporis</quote>. Secundus et tertius habentur ab <name>Au<lb ed="#Q"/>gustino</name>,
-            in <title>XII De civitate Dei</title><!--2-->: <quote>Usque adeo
+            <lb ed="#Q"/>Primus sensus habetur ex <title>Gen.</title> 1,1: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e369">In prin<lb ed="#Q"/>cipio
+            creavit Deus</quote> etc. <title>Glossa</title><!--1-->: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e377">In principio
+            <lb ed="#Q"/>temporis</quote>. Secundus et tertius habentur ab <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e382">Au<lb ed="#Q"/>gustino</name>,
+            in <title>XII De civitate Dei</title><!--2-->: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e391">Usque adeo
             <lb ed="#Q"/>angeli omni tempore fuerunt, ut etiam ante omnia
             <lb ed="#Q"/>tempora facti sint. Si a caelo incepta sunt tem<lb ed="#Q"/>pora,
             et illi iam erant ante caelum; at si tem<lb ed="#Q"/>pus
@@ -163,8 +157,8 @@
             <lb ed="#Q"/>angelicis motibus tale aliquid iuit, necesse est
             <lb ed="#Q"/>quod angeli, ex quo facti sunt, temporaliter mo<lb ed="#Q"/>vebantur;
             quare<!--a--> cum illis tempus fuit</quote>. Et
-            <lb ed="#Q"/>hoc modo dicit, <quote>Super Genesim ad litteram</quote><!--3-->,
-            <lb ed="#Q"/>quod <quote>Deus creaturam Spiritualem movet per
+            <lb ed="#Q"/>hoc modo dicit, <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e419">Super Genesim ad litteram</quote><!--3-->,
+            <lb ed="#Q"/>quod <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e425">Deus creaturam Spiritualem movet per
             <lb ed="#Q"/>tempus</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e3953">
@@ -193,7 +187,7 @@
             <lb ed="#Q"/>tempore</mentioned>: et hoc modo non est verum aevum
             <lb ed="#Q"/>coepisse ex tempore; vel <mentioned>coepisse ex tempore</mentioned>,
             <lb ed="#Q"/>id est cum tempore: et hoc modo verum est. Unde
-            <lb ed="#Q"/><name>Augustinus</name>, <title>De civitate Dei</title><!--4-->: <quote>Mundus non
+            <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e537">Augustinus</name>, <title>De civitate Dei</title><!--4-->: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e542">Mundus non
             <lb ed="#Q"/>coepit in<!--g--> tempore, sed cum tempore</quote>. Coepisse
             <lb ed="#Q"/>autem dicitur tempus cum primo <mentioned>nunc</mentioned> variatio<lb ed="#Q"/>nis
             cuiuslibet rei, secundum quod tempus dici<lb ed="#Q"/>tur
@@ -206,7 +200,7 @@
             et esse fluens in motu, ut est esse
             <lb ed="#Q"/>temporalium, ordine tamen naturae hoc est prius
             <lb ed="#Q"/>isto, et esse motum radicatur<!--h--> in esse manenti,
-            <lb ed="#Q"/>sicut ostendebatur<!--6-->; et hoc modo <quote>tempus ab
+            <lb ed="#Q"/>sicut ostendebatur<!--6-->; et hoc modo <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e583">tempus ab
             <lb ed="#Q"/>aevo ire iubet</quote>.
           </p>
         </div>
@@ -218,11 +212,11 @@
             media inter aevum et tempus<!--7-->.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e4051">
-            <lb ed="#Q"/>Ad quod sic: 1. <name>Dionysius</name>, in libro <title>De di<lb ed="#Q"/>vinis
-            nominibus</title><!--8-->: <quote>Oportet aeterna et temporalia
+            <lb ed="#Q"/>Ad quod sic: 1. <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e611">Dionysius</name>, in libro <title>De di<lb ed="#Q"/>vinis
+            nominibus</title><!--8-->: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e619">Oportet aeterna et temporalia
             <lb ed="#Q"/>secundum modos agnitos subaudire</quote>, et aeterna
-            <lb ed="#Q"/>ibi dicit aeviterna. <quote>Aevi autem proprietatem</quote> di<lb ed="#Q"/>xit
-            <quote>esse sine alteratione et secundum totum me<lb ed="#Q"/>tiri;
+            <lb ed="#Q"/>ibi dicit aeviterna. <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e627">Aevi autem proprietatem</quote> di<lb ed="#Q"/>xit
+            <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e631">esse sine alteratione et secundum totum me<lb ed="#Q"/>tiri;
             temporis<!--i--> vero quod in alteratione est et
             <lb ed="#Q"/>alias aliter se habens; media vero entium quae hic
             <lb ed="#Q"/>quidem aevo, illic tempore participant</quote>. Ex quo
@@ -239,7 +233,7 @@
             variatio aliqua est in contemplatione an<lb ed="#Q"/>geli
             et affectione; sed constans est<!--l--> quod huius<lb ed="#Q"/>modi
             variationis non est mensura aevum, cum
-            <lb ed="#Q"/>dicat <name ref="#Augustine">Augustinus</name>, in<!--m--> <title>83 Quaestion.</title><!--9-->, as<lb ed="#Q"/>signans
+            <lb ed="#Q"/>dicat <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e675" ref="#Augustine">Augustinus</name>, in<!--m--> <title>83 Quaestion.</title><!--9-->, as<lb ed="#Q"/>signans
             differentiam temporis et aevi, quod tem<lb ed="#Q"/>pus
             est variabile, aevum vero<!--n--> invariabile. Si<lb ed="#Q"/>militer
             nec huius<!--o--> durationis mensura potest
@@ -281,7 +275,7 @@
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e4179">
             <lb ed="#Q"/>5. Item, poena interni habet variabilitatem, quia<!--g-->
-            <lb ed="#Q"/>sicut dicitur <title>Iob</title> 24,19: <quote>Transibunt ab aquis ni<lb ed="#Q"/>vium<!--h-->
+            <lb ed="#Q"/>sicut dicitur <title>Iob</title> 24,19: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e799">Transibunt ab aquis ni<lb ed="#Q"/>vium<!--h-->
             ad calorem nimium</quote>; ex quo relinquitur
             <lb ed="#Q"/>quod mensura ipsius non erit aevum. Habet etiam
             <lb ed="#Q"/>perpetuitatem et etiam<!--i--> esse, cessante motu caeli,
@@ -306,8 +300,8 @@
             quarta media inter aevum et tempus.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e4232">
-            <lb ed="#Q"/>b- Item, <name ref="#Aristotle">Philosophus</name>, in libro <title>De causis</title><!--4-->:
-            <quote>Inter rem, cuius substantia et operatio est in
+            <lb ed="#Q"/>b- Item, <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e888" ref="#Aristotle">Philosophus</name>, in libro <title>De causis</title><!--4-->:
+            <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e894">Inter rem, cuius substantia et operatio est in
             <lb ed="#Q"/>momento aeternitatis, et rem, cuius substantia et
             <lb ed="#Q"/>operatio est in momento temporis, est media: cuius
             <lb ed="#Q"/>Substantia est in momento aeternitatis et operatio
@@ -323,7 +317,7 @@
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e4263">
             <lb ed="#Q"/>c. Item, in <title>Psalmo</title><!--5-->, loquendo de poena repro<lb ed="#Q"/>borum,
-            dicit: <quote source="http://scta.info/resource/ps80_16@6-11">Et erit tempus eorum in saecula</quote>.
+            dicit: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e935" source="http://scta.info/resource/ps80_16@6-11">Et erit tempus eorum in saecula</quote>.
             <lb ed="#Q"/>Ex quo relinquitur quod tempus etiam<!--u--> est men<lb ed="#Q"/>sura
             poenarum inferni; non erit ergo necesse po<lb ed="#Q"/>nere
             mensuram mediam.
@@ -355,7 +349,7 @@
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e4327">
             <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud ergo quod obicit
-            <lb ed="#Q"/>primo de <name>B. Dionysio</name>: dicendum quod ex
+            <lb ed="#Q"/>primo de <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e1023">B. Dionysio</name>: dicendum quod ex
             <lb ed="#Q"/>hoc non sequitur quod ponenda sit media mensura
             <lb ed="#Q"/>secundum rem, sed ad hoc sequitur quod habeant
             <lb ed="#Q"/>mensuram duplicem, scilicet aevum et tempus;
@@ -373,8 +367,8 @@
             <cb ed="#Q" n="a"/>
             <lb ed="#Q"/>qua mutatur, sicut est operatio<!--a--> qua ministrat
             <lb ed="#Q"/>nobis, mensuratur tempore; secundum quem mo<lb ed="#Q"/>dum
-            dicit <name ref="#Augustine">Augustinus</name>, <title>Super Genesim</title>, quod
-            <quote>Deus creaturam spiritualem movet per tempus,
+            dicit <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e1069" ref="#Augustine">Augustinus</name>, <title>Super Genesim</title>, quod
+            <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e1074">Deus creaturam spiritualem movet per tempus,
             <lb ed="#Q"/>non per loca</quote>. Quantum vero ad operationem
             <lb ed="#Q"/>contemplationis intensae vel remissae vel contem<lb ed="#Q"/>plationis
             huius rei desinentis esse, si respiciatur
@@ -399,9 +393,9 @@
             <lb ed="#Q"/>dicendum quod quantum ad perpetuitatem men<lb ed="#Q"/>surabuntur
             aevo, quantum vero ad variationem<!--b-->
             <lb ed="#Q"/>tempore; quod significat illa auctoritas <title>Psalmi</title><!--3-->: 
-            <lb ed="#Q"/><quote>Erit tempus illorum in saecula</quote>. —- Et quod obi<lb ed="#Q"/>citur
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e1134">Erit tempus illorum in saecula</quote>. —- Et quod obi<lb ed="#Q"/>citur
             quod, cessante motu caeli, cessabit tempus,
-            <lb ed="#Q"/>quod etiam videtur accipi<!--c--> ex <title>Apoc.</title> 10,6: <quote source="http://scta.info/resource/ap10_6@2-7">Iuravit
+            <lb ed="#Q"/>quod etiam videtur accipi<!--c--> ex <title>Apoc.</title> 10,6: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e1145" source="http://scta.info/resource/ap10_6@2-7">Iuravit
             <lb ed="#Q"/>angelus per viventem in saecula saeculorum, quod
             <lb ed="#Q"/>tempus non erit amplius</quote>: dicendum quod tempus
             <lb ed="#Q"/>duplicem habet radicationem, et secundum hoc
@@ -416,7 +410,7 @@
             <lb ed="#Q"/>est ante quartam diem in materia, et erit cessante
             <lb ed="#Q"/>motu caeli, quemadmodum ipsa variabilitas quae
             <lb ed="#Q"/>contingit ex imperfectione materialitatis, quae re<lb ed="#Q"/>manebit
-            in reprobis, sicut dicit <name ref="#Augustine">Augustinus</name><!--5-->.
+            in reprobis, sicut dicit <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e1187" ref="#Augustine">Augustinus</name><!--5-->.
             <lb ed="#Q"/>Secundum autem modum alium tempus incipit
             <lb ed="#Q"/>cum motu caeli et desinit. Cum motu ergo caeli
             <lb ed="#Q"/>protenditur tempus secundum quod est determi<cb ed="#Q" n="b"/><lb ed="#Q"/>nata
@@ -453,16 +447,16 @@
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e4526">
             <lb ed="#Q"/>Et rationem huius positionis confirmant per auc<lb ed="#Q"/>toritatem
-            <name>Haymonis</name><!--7--> dicentis: <quote>Saecula com<lb ed="#Q"/>putantur
+            <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e1323">Haymonis</name><!--7--> dicentis: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e1326">Saecula com<lb ed="#Q"/>putantur
             ex quo materies informis per species est
             <lb ed="#Q"/>distincta</quote>. — Item<!--p-->, idem, super illud <title>II Tim.</title> 1,9<!--q-->:
-            <lb ed="#Q"/><quote>Tempora saecularia</quote>, dicit sic<!--8-->: <quote><mentioned>Tempora saecu<lb ed="#Q"/>laria</mentioned>
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e1341">Tempora saecularia</quote>, dicit sic<!--8-->: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e1345"><mentioned>Tempora saecu<lb ed="#Q"/>laria</mentioned>
             dicimus quae ex eo<!--r--> coeperunt ex quo
             <lb ed="#Q"/>mundus factus est</quote>; ibi autem appellat <mentioned>tempora
             <lb ed="#Q"/>saecularia</mentioned> idem quod <mentioned>saeculum</mentioned>.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m3c4-d1e4546">
-            <lb ed="#Q"/>Item, <name>Damascenus</name><!--9-->: <quote>Saeculi nomen plura
+            <lb ed="#Q"/>Item, <name xml:id="ahsh-l1p1i1t2q4m3c4-Nd1e1369">Damascenus</name><!--9-->: <quote xml:id="ahsh-l1p1i1t2q4m3c4-Qd1e1372">Saeculi nomen plura
             <lb ed="#Q"/>significat. Saeculum enim dicitur uniuscuiusque
             <lb ed="#Q"/>eorum quae sunt vita; dicitur rursus<!--s--> saeculum
             <lb ed="#Q"/>et<!--t--> mille annorum tempus; rursus dicitur saeculum

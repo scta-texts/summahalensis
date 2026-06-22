@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="170"/><cb ed="#Q" n="a"/>
       </div>
@@ -108,8 +102,8 @@
           <lb ed="#Q"/>nec aliud bonum; ergo idem sequitur quod prius.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m2c2-d1e3836">
-          <lb ed="#Q"/>c. Item, <name ref="#Augustine">Augustinus</name><!--r-->, <title>VIII libro De Trini<lb ed="#Q"/>tate</title><!--3-->:
-          <quote>Bonum hoc, bonum illud; tolle <mentioned>hoc</mentioned>,
+          <lb ed="#Q"/>c. Item, <name xml:id="ahsh-l1p1i1t3q3m2c2-Nd1e228" ref="#Augustine">Augustinus</name><!--r-->, <title>VIII libro De Trini<lb ed="#Q"/>tate</title><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m2c2-Qd1e238">Bonum hoc, bonum illud; tolle <mentioned>hoc</mentioned>,
           <lb ed="#Q"/>tolle <mentioned>illud</mentioned>, et vide<!--s--> ipsum bonum, si potes: ita
           <lb ed="#Q"/>Deum videbis, non alio bono bonum, sed bonum
           <lb ed="#Q"/>omnis boni</quote>. Ex hac auctoritate patet quod<!--t-->
@@ -119,7 +113,7 @@
           <lb ed="#Q"/>Contra: 1. Bonum dividitur per summum et
           <lb ed="#Q"/>non—summum; ergo possum intelligere bonum
           <lb ed="#Q"/>in hac creatura, non cointellecto summo. Et hoc
-          <lb ed="#Q"/>est quod dicit <name>Boethius</name><!--4-->: <quote>Circumscribatur
+          <lb ed="#Q"/>est quod dicit <name xml:id="ahsh-l1p1i1t3q3m2c2-Nd1e270">Boethius</name><!--4-->: <quote xml:id="ahsh-l1p1i1t3q3m2c2-Qd1e274">Circumscribatur
           <lb ed="#Q"/>Primum per intellectum, adhuc est intelligere ho<lb ed="#Q"/>minem
           sub intentione hominis, sicut potest in<lb ed="#Q"/>telligi
           ens<!--u--> secundum quod sic, non intellecto
@@ -154,12 +148,12 @@
           <lb ed="#Q"/>omni bono, commune est tamen in causando<!--b--> sicut
           <lb ed="#Q"/>bonum in praedicando, et aequalis ambitus, quia
           <lb ed="#Q"/>ipsum est causa omnis boni; illud autem est di<lb ed="#Q"/>cibile
-          de omni bono. — Quod ergo<!--c--> dicit <name>Au<lb ed="#Q"/>gustinus</name><!--1-->:
-          <quote>Tolle <mentioned>hoc</mentioned>, tolle <mentioned>illud</mentioned></quote> etc.: di<lb ed="#Q"/>cendum
+          de omni bono. — Quod ergo<!--c--> dicit <name xml:id="ahsh-l1p1i1t3q3m2c2-Nd1e369">Au<lb ed="#Q"/>gustinus</name><!--1-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m2c2-Qd1e376">Tolle <mentioned>hoc</mentioned>, tolle <mentioned>illud</mentioned></quote> etc.: di<lb ed="#Q"/>cendum
           quod ipse procedit ab effectibus ad cau<lb ed="#Q"/>sam,
           secundum quod bonum in effectibus dat
-          <lb ed="#Q"/>intelligere bonum in causa. Unde quod dicit: <quote>vi<lb ed="#Q"/>debis
-          bonum omnis boni</quote>, verum est, <quote>bonum
+          <lb ed="#Q"/>intelligere bonum in causa. Unde quod dicit: <quote xml:id="ahsh-l1p1i1t3q3m2c2-Qd1e388">vi<lb ed="#Q"/>debis
+          bonum omnis boni</quote>, verum est, <quote xml:id="ahsh-l1p1i1t3q3m2c2-Qd1e393">bonum
           <lb ed="#Q"/>omnis boni</quote> in causando, non in dicendo, immo
           <lb ed="#Q"/>quantum ad hoc dicit determinationem rationis.
         </p>

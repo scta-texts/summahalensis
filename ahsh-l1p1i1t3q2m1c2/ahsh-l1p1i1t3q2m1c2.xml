@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="139"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,18 +58,18 @@
           <lb ed="#Q"/>bonitatis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3744">
-          <lb ed="#Q"/>I. 1. Nam definiendo dicit <name ref="#Augustine">Augustinus</name>, in
-          <lb ed="#Q"/><title>Soliloquiis</title><!--3-->: <quote>Verum est id quod est</quote>. Ergo ve<lb ed="#Q"/>ritas
+          <lb ed="#Q"/>I. 1. Nam definiendo dicit <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e130" ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Q"/><title>Soliloquiis</title><!--3-->: <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e137">Verum est id quod est</quote>. Ergo ve<lb ed="#Q"/>ritas
           definitive est entitas; ergo non differt in<lb ed="#Q"/>tentio
           veritatis et entitatis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3755">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, <title>De vera religione</title><!--4-->:
-          <lb ed="#Q"/><quote>Vera in tantum vera sunt, in quantum sunt</quote>.
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e149" ref="#Augustine">Augustinus</name>, <title>De vera religione</title><!--4-->:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e156">Vera in tantum vera sunt, in quantum sunt</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3763">
-          <lb ed="#Q"/>Contra: a. <name>Augustinus</name><!--f-->, De vera religione<!--5-->:
-          <quote>Cui manifestum est falsitatem esse qua putatur
+          <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e164">Augustinus</name><!--f-->, De vera religione<!--5-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e169">Cui manifestum est falsitatem esse qua putatur
           <lb ed="#Q"/>quod non est<!--g-->, intelligat eam esse veritatem qua
           <lb ed="#Q"/>ostenditur id quod est</quote>. Cum ergo differant inten<lb ed="#Q"/>tione
           id quo<!--h--> res est et quo ostenditur — entitas
@@ -83,10 +77,10 @@
           — ergo differunt intentione veritas et entitas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3779">
-          <lb ed="#Q"/>II. 3. Item, <name ref="#Augustine">Augustinus</name>, in libro<!--k--> <title>De vera
+          <lb ed="#Q"/>II. 3. Item, <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e194" ref="#Augustine">Augustinus</name>, in libro<!--k--> <title>De vera
           <lb ed="#Q"/>religione</title><!--6-->, dicit quod veritas prima est secun<lb ed="#Q"/>dum
           quam de inferioribus iudicamus. - Item,
-          <lb ed="#Q"/>in eodem<!--7-->: <quote>Cum aliquis dicit<!--l--> corporibus:
+          <lb ed="#Q"/>in eodem<!--7-->: <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e212">Cum aliquis dicit<!--l--> corporibus:
           <mentioned>vos quidem, nisi aliqua unitas contineret, nihil
           <lb ed="#Q"/>essetis</mentioned>, sed rursus: <mentioned>si vos essetis ipsa unitas,
           <lb ed="#Q"/>corpora non essetis</mentioned>, recte illi dicitur: <mentioned>unde nosti
@@ -101,8 +95,8 @@
           <lb ed="#Q"/>Contra: a. Non contingit de eodem accipere
           <lb ed="#Q"/>veritatem et falsitatem secundum idem; sed de
           <lb ed="#Q"/>corpore accipimus veritatem corporeitatis<!--n--> et fal<lb ed="#Q"/>sitatem
-          unitatis — unde <name ref="#Augustine">Augustinus</name>, <title>De vera
-          <lb ed="#Q"/>religione</title><!--8-->: <quote>Omne corpus verum corpus est, sed
+          unitatis — unde <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e257" ref="#Augustine">Augustinus</name>, <title>De vera
+          <lb ed="#Q"/>religione</title><!--8-->: <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e266">Omne corpus verum corpus est, sed
           <lb ed="#Q"/>falsa unitas</quote> —- ergo non est idem veritas cor<lb ed="#Q"/>poreitatis
           et unitas corporeitatis.
         </p>
@@ -114,16 +108,16 @@
           <lb ed="#Q"/>non sunt intentione idem veritas et unitas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3839">
-          <lb ed="#Q"/>III. 4. Item, <name>Augustinus</name>, super illud Psalmi<!--11-->:
-          <lb ed="#Q"/><quote>Quaeritis mendacium</quote>, dicit quod <quote>sola veritas
+          <lb ed="#Q"/>III. 4. Item, <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e294">Augustinus</name>, super illud Psalmi<!--11-->:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e299">Quaeritis mendacium</quote>, dicit quod <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e301">sola veritas
           <lb ed="#Q"/>perficit bona, qua omnia vera sunt</quote>. Si ergo bo<lb ed="#Q"/>nitas
           est quae bona perficit, secundum intentio<lb ed="#Q"/>nem
           idem erit veritas et bonitas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3852">
-          <lb ed="#Q"/>5. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De vera re<lb ed="#Q"/>ligione</title><!--12-->:
-          Verum est lux intelligibilis. Et <name>B. Dio<pb ed="#Q" n="140"/><cb ed="#Q" n="a"/><lb ed="#Q"/>nysius</name>
-          dicit quod <quote>lux intelligibilis est bo<lb ed="#Q"/>num,
+          <lb ed="#Q"/>5. Item, <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e316" ref="#Augustine">Augustinus</name>, in libro <title>De vera re<lb ed="#Q"/>ligione</title><!--12-->:
+          Verum est lux intelligibilis. Et <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e325">B. Dio<pb ed="#Q" n="140"/><cb ed="#Q" n="a"/><lb ed="#Q"/>nysius</name>
+          dicit quod <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e332">lux intelligibilis est bo<lb ed="#Q"/>num,
           quod est super omnem lucem, ut fontalis
           <lb ed="#Q"/>radius et emergens lucis effusio omnem super<lb ed="#Q"/>mundanum
           et mundanum intellectum illustrans</quote>.
@@ -131,8 +125,8 @@
           <lb ed="#Q"/>est lux intelligibilis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e3875">
-          <lb ed="#Q"/>6. Item, <name ref="#Augustine">Augustinus</name>, in<!--a--> <title>83 Quaestion.</title><!--2-->:
-          <quote>Totum malum de speciei privatione repertum
+          <lb ed="#Q"/>6. Item, <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e352" ref="#Augustine">Augustinus</name>, in<!--a--> <title>83 Quaestion.</title><!--2-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e360">Totum malum de speciei privatione repertum
           <lb ed="#Q"/>est</quote>. Ergo totum bonum ex speciei positione; sed
           <lb ed="#Q"/>ex positione speciei est<!--b--> in re veritas; ex eodem
           <lb ed="#Q"/>ergo est in re veritas et bonitas; ergo non diffe<lb ed="#Q"/>runt
@@ -168,8 +162,8 @@
           <lb ed="#Q"/>ad<!--h--> causam, quae est: <mentioned>unum</mentioned>, principium in ra<lb ed="#Q"/>tione
           efficientis, <mentioned>veritas</mentioned> in ratione formalis, <mentioned>bo<lb ed="#Q"/>nitas</mentioned>
           in ratione causae finalis: quae appropriantur
-          <lb ed="#Q"/>Trinitati. Unde <name ref="#Augustine">Augustinus</name>, <title>De civitate Dei</title><!--7-->:
-          <quote>Dixit Deus: fiat lux, et facta est lux: vidit lu<lb ed="#Q"/>cem
+          <lb ed="#Q"/>Trinitati. Unde <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e472" ref="#Augustine">Augustinus</name>, <title>De civitate Dei</title><!--7-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e478">Dixit Deus: fiat lux, et facta est lux: vidit lu<lb ed="#Q"/>cem
           quod esset bona<!--i-->. Ecce dicens et quod dicit
           <lb ed="#Q"/>et propter quod<!--k--> dicit</quote>. Intentio <mentioned>unius</mentioned> refertur
           <lb ed="#Q"/>ad dicentem, intentio <mentioned>veritatis</mentioned> ad verbum, intentio
@@ -182,12 +176,12 @@
           <lb ed="#Q"/>Istae ergo intentiones non separantur ab es<lb ed="#Q"/>sentia
           rei velut vestigia primae causae, quae est
           <lb ed="#Q"/>Trinitas unius essentiae. Unde secundum hoc dicit
-          <lb ed="#Q"/><name>Augustinus</name>, in fine <title>De vera religiones</title><!--8-->: <quote>Co<lb ed="#Q"/>lere
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e517">Augustinus</name>, in fine <title>De vera religiones</title><!--8-->: <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e523">Co<lb ed="#Q"/>lere
           et tenere nos convenit unius substantiae Tri<lb ed="#Q"/>nitatem,
           unum Deum quo auctore conditi sumus,
           <lb ed="#Q"/>similitudinem eius per quam ad imitationem for<lb ed="#Q"/>mamur,
           et pacem qua unitati adhaeremus; Deum,
-          <lb ed="#Q"/>qui dixit <quote>fiat</quote>, et Verbum eius, per quod factum
+          <lb ed="#Q"/>qui dixit <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e536">fiat</quote>, et Verbum eius, per quod factum
           <lb ed="#Q"/>est quod<!--m--> naturaliter est, et donum benignitatis,
           <lb ed="#Q"/>quo placuit ut non interiret quidquid per Verbum
           <lb ed="#Q"/>ab eo factum est; unum Deum, quo creatore vi<lb ed="#Q"/>vimus,
@@ -201,18 +195,18 @@
           <lb ed="#Q"/>hoc quod dicitur <mentioned>id quod est</mentioned> intelligitur id
           <lb ed="#Q"/>quod habet esse; in illo vero quod habet esse
           <lb ed="#Q"/>intelligitur indivisio esse et eius<!--n--> quod est. Unde
-          <lb ed="#Q"/>eadem est per intellectum illa definitio<!--o--> <name>Augu<lb ed="#Q"/>stini</name><!--9-->:
-          <quote>Verum est id quod est</quote>, cum ista:
+          <lb ed="#Q"/>eadem est per intellectum illa definitio<!--o--> <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e579">Augu<lb ed="#Q"/>stini</name><!--9-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e585">Verum est id quod est</quote>, cum ista:
           <mentioned>Verum est quod habet indivisum esse ab eo
           <lb ed="#Q"/>quod est</mentioned>, sicut explanatum est prius<!--10-->; hoc au<lb ed="#Q"/>tem
           dicitur per additionem ad ens
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e4021">
           <lb ed="#Q"/>2. Ad secundum dicendum quod cum di<lb ed="#Q"/>citur:
-          <quote>omnia sunt vera in quantum sunt</quote>, quod
-          <lb ed="#Q"/>dico <quote>in quantum</quote>, quod est determinatio, potest
+          <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e604">omnia sunt vera in quantum sunt</quote>, quod
+          <lb ed="#Q"/>dico <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e608">in quantum</quote>, quod est determinatio, potest
           <lb ed="#Q"/>referri ad conditionem suppositi per hoc quod
-          <lb ed="#Q"/>dico <quote>vera</quote>: et hoc modo verum est <quote>omnia sunt
+          <lb ed="#Q"/>dico <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e615">vera</quote>: et hoc modo verum est <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e617">omnia sunt
           <lb ed="#Q"/>vera in quantum sunt</quote>, quia nunquam in aliquo
           <lb ed="#Q"/>supposito separantur verum et ens, immo sequitur:
           <mentioned>si est, verum est</mentioned>. Vel potest referri ad conditio<lb ed="#Q"/>nem
@@ -225,8 +219,8 @@
           <lb ed="#Q"/>II. 3. Ad tertium quod obicit de unitate: dicen<lb ed="#Q"/>dum
           quod <mentioned>secundum unitatem iudicamus</mentioned> sicut
           <lb ed="#Q"/>secundum artem et exemplar de opere, secundum
-          <lb ed="#Q"/>veritatem ut lucem<!--p-->. Unde dicit <name>Augustinus</name>, in
-          <lb ed="#Q"/>libro <title>De vera religione</title><!--9-->: <quote>Ista est lux vera per
+          <lb ed="#Q"/>veritatem ut lucem<!--p-->. Unde dicit <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e656">Augustinus</name>, in
+          <lb ed="#Q"/>libro <title>De vera religione</title><!--9-->: <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e663">Ista est lux vera per
           <lb ed="#Q"/>quam phantasmata non vera esse cognoscis, et ita
           <lb ed="#Q"/>differenter</quote>. Notandum quod cum dicis quod <mentioned>se<lb ed="#Q"/>cundum
           unitatem iudicamus</mentioned>, hoc est in quantum
@@ -236,7 +230,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c2-d1e4073">
           <lb ed="#Q"/>III. 4. Ad quartum quod obicit: intelligendum
-          <lb ed="#Q"/>quod <quote>veritas perficit bona</quote> in ratione causae for<lb ed="#Q"/>malis,
+          <lb ed="#Q"/>quod <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e691">veritas perficit bona</quote> in ratione causae for<lb ed="#Q"/>malis,
           bonitas in ratione causae finalis. Utramque
           <lb ed="#Q"/>autem perfectionem habent bona<!--a-->: veritas perfi<lb ed="#Q"/>cit<!--b-->
           quantum ad esse naturae relatum ad causam
@@ -251,13 +245,13 @@
           bonum est lux quantum ad practicum.
           — Praeterea, lux duplicem habet effectum: manife<lb ed="#Q"/>stare
           et movere. Est enim principium manifestandi
-          <lb ed="#Q"/>se et alia, ut dicit <name>Augustinus</name>, in quadam <title>Ho<lb ed="#Q"/>milia
+          <lb ed="#Q"/>se et alia, ut dicit <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e731">Augustinus</name>, in quadam <title>Ho<lb ed="#Q"/>milia
           super Ioannem</title><!--2-->, ex illo verbo <title>Eph.</title> 5,13:
-          <lb ed="#Q"/><quote source="http://scta.info/resource/eph5_13@1-7">Quae arguantur, a lumine manifestantur</quote>: omne
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e743" source="http://scta.info/resource/eph5_13@1-7">Quae arguantur, a lumine manifestantur</quote>: omne
           <lb ed="#Q"/>enim quod manifestatur lumen est; et secundum
           <lb ed="#Q"/>hunc modum <mentioned>verum est lux intelligibilis</mentioned>, quia
-          <lb ed="#Q"/>principium manifestativum. Unde <name>Hilarius</name><!--3-->:
-          <quote>Verum est declarativum esse</quote>. -— Item, est prin<cb ed="#Q" n="b"/><lb ed="#Q"/>cipium
+          <lb ed="#Q"/>principium manifestativum. Unde <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e755">Hilarius</name><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e758">Verum est declarativum esse</quote>. -— Item, est prin<cb ed="#Q" n="b"/><lb ed="#Q"/>cipium
           motivum. Unde corpora<!--d--> quae non sunt
           <lb ed="#Q"/>in participatione lucis, ut opaca et terrea, natu<lb ed="#Q"/>raliter
           sunt immobilia; quae vero in participa<lb ed="#Q"/>tione
@@ -267,7 +261,7 @@
           <lb ed="#Q"/>vero lux est de substantia sunt mobilia per se,
           <lb ed="#Q"/>ut corpora caelestia et ignis: et hac ratione bo<lb ed="#Q"/>num,
           quod est principium movendi, est lux in<lb ed="#Q"/>telligibilis.
-          Unde <name ref="#Dionysius">Dionysius</name><!--4-->: <quote>Bonum est
+          Unde <name xml:id="ahsh-l1p1i1t3q2m1c2-Nd1e785" ref="#Dionysius">Dionysius</name><!--4-->: <quote xml:id="ahsh-l1p1i1t3q2m1c2-Qd1e789">Bonum est
           <lb ed="#Q"/>ad<!--e--> quod omnia convertuntur et quod omnia
           <lb ed="#Q"/>affectant</quote>.
         </p>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="134"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,8 +58,8 @@
           <lb ed="#Q"/>ergo an sit maior unitas quae possit intelligi.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3744">
-          <lb ed="#Q"/>Ad quod sic: a. <name>Bernardus</name>, <title>Ad Eugenium</title><!--3-->:
-          <quote>Inter omnia quae recte dicuntur unum, arcem
+          <lb ed="#Q"/>Ad quod sic: a. <name xml:id="ahsh-l1p1i1t3q1m3c2-Nd1e128">Bernardus</name>, <title>Ad Eugenium</title><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t3q1m3c2-Qd1e133">Inter omnia quae recte dicuntur unum, arcem
           <lb ed="#Q"/>tenet unitas Trinitatis</quote>; sed haec est illa<!--f--> quam
           <lb ed="#Q"/>ponimus in Deo et quam divinam appellamus;
           <lb ed="#Q"/>ergo summa est inter omnes unitas divina.
@@ -117,7 +111,7 @@
           esse summa. Sic dicimus quod pluralitas
           <lb ed="#Q"/>personarum plus declarat et manifestat unitatem
           <lb ed="#Q"/>essentiae divinae<!--s--> quam unitas personae sive no<lb ed="#Q"/>tionis.
-          Unde secundum <name ref="#Augustine">Augustinum</name><!--5-->: <quote>Sicut
+          Unde secundum <name xml:id="ahsh-l1p1i1t3q1m3c2-Nd1e273" ref="#Augustine">Augustinum</name><!--5-->: <quote xml:id="ahsh-l1p1i1t3q1m3c2-Qd1e277">Sicut
           <lb ed="#Q"/>verbum declarat illud quod habemus<!--t--> in animo</quote>,
           <lb ed="#Q"/>sic et ista pluralitas personarum virtutem et uni<lb ed="#Q"/>tatem
           essentiae manifestat.
@@ -139,7 +133,7 @@
           <lb ed="#Q"/>generat Deum</mentioned> sive <mentioned>Pater generat, Filius ge<lb ed="#Q"/>neratur,
           Spiritus Sanctus procedit ab utroque</mentioned>,
           <lb ed="#Q"/>totum refertur ad unitatem essentiae, sicut dicit
-          <lb ed="#Q"/><name>Anselmus</name><!--1-->.
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q1m3c2-Nd1e339">Anselmus</name><!--1-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c2-d1e3898">
           <lb ed="#Q"/>Item, tertia ratio est: quia quidquid est in di<lb ed="#Q"/>vinis
@@ -150,7 +144,7 @@
           <lb ed="#Q"/>est quam divina essentia. Unde omnia ista et om<lb ed="#Q"/>nes
           rationes personales ad unitatem essentiae re<lb ed="#Q"/>ducuntur,
           quae in ipsis non multiplicatur: et sic
-          <lb ed="#Q"/>fecunditas generationis, sicut loquitur <name>B. Diony<lb ed="#Q"/>sius</name><!--2-->,
+          <lb ed="#Q"/>fecunditas generationis, sicut loquitur <name xml:id="ahsh-l1p1i1t3q1m3c2-Nd1e378">B. Diony<lb ed="#Q"/>sius</name><!--2-->,
           facit declarationem unitatis essentiae.
         </p>
       </div>

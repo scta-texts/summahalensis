@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="58"/><cb ed="#Q" n="a"/>
       </div>
@@ -60,22 +54,22 @@
         <head xml:id="ahsh-l1p1i1t2q2c1-Hd1e3732" type="question-title">UTRUM DIVINA ESSENTIA SIT COMPREHENSIBILIS VEL INCOMPREHENSIBILIS<!--4--></head>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e3735">
           <lb ed="#Q"/>Quantum ad primum sic obicitur: a. <title>Ierem.</title>
-          <lb ed="#Q"/>32, 19: <quote>Magnus consilio, incomprehensibilis co<lb ed="#Q"/>gitatu</quote>, 
+          <lb ed="#Q"/>32, 19: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e124">Magnus consilio, incomprehensibilis co<lb ed="#Q"/>gitatu</quote>, 
           et loquitur de Deo; sed dicendo <mentioned>Deum</mentioned>
           <lb ed="#Q"/>dico divinam essentiam, quia dico ipsum sine no<cb ed="#Q" n="b"/><lb ed="#Q"/>tione
           personali; et sic loquitur; ergo divina es<lb ed="#Q"/>sentia 
           est incomprehensibilis.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e3751">
-          <lb ed="#Q"/>b. Item, <name>Damescenus</name><!--5-->: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e3758">Infinitus est Deus 
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e144">Damescenus</name><!--5-->: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e3758">Infinitus est Deus 
           <lb ed="#Q"/>et incomprehensibilis</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e3764">
           <pb ed="#Q" n="59"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>c. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De videndo
-          Deo</title><!--1-->, ponit auctoritatem <name>Ambrosii</name><!--2--> dicens:
-          <quote>Plenitudinem divinitatis eius nemo aspexit, nemo
+          <lb ed="#Q"/>c. Item, <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e161" ref="#Augustine">Augustinus</name>, in libro <title>De videndo
+          Deo</title><!--1-->, ponit auctoritatem <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e168">Ambrosii</name><!--2--> dicens:
+          <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e171">Plenitudinem divinitatis eius nemo aspexit, nemo
           <lb ed="#Q"/>mente aut oculis comprehendit</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e3776">
@@ -95,46 +89,46 @@
           <lb ed="#Q"/>cognoscere quantus est; ergo potest ipsum com<lb ed="#Q"/>prehendere; 
           ergo est comprehensibilis. — Minor
           <lb ed="#Q"/>patet, <title>Rom.</title> l,20: <title>Invisibilia Dei</title><!--d-->. <title>Glossa</title><!--6-->:
-          <quote>Tam pulcra astra condidit, ut ex magnitudine
+          <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e240">Tam pulcra astra condidit, ut ex magnitudine
           <lb ed="#Q"/>eorum quantus esset posset cognosci</quote><!--e-->.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e3811">
-          <lb ed="#Q"/>2. Item, <title>Philipp.</title> 3,12: <quote>Sequor<!--f-->, si quo modo
+          <lb ed="#Q"/>2. Item, <title>Philipp.</title> 3,12: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e253">Sequor<!--f-->, si quo modo
           <lb ed="#Q"/>comprehendam, in quo et comprehensus sum</quote>.
-          <lb ed="#Q"/><title>Glossa interlinearis</title><!--g--><!--7-->:<quote>Si aliquo modo
+          <lb ed="#Q"/><title>Glossa interlinearis</title><!--g--><!--7-->:<quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e266">Si aliquo modo
           <lb ed="#Q"/>potero perfecte cognoscere Christum<!--h-->, qui est
-          <lb ed="#Q"/>summa beatitudo</quote>. Intendebat ergo <name ref="#Paul">Apostolus</name>
+          <lb ed="#Q"/>summa beatitudo</quote>. Intendebat ergo <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e275" ref="#Paul">Apostolus</name>
           <lb ed="#Q"/>quod posset Christum comprehendere; sed non
           <lb ed="#Q"/>sequeretur, nisi esset possibile; non esset autem<!--i-->
           <lb ed="#Q"/>hoc possibile, nisi totam divinitatem comprehen<lb ed="#Q"/>deret;
           ergo est comprehensibilis. — Item, ibidem
-          <lb ed="#Q"/>super illud: <quote>In quo et comprehensus sum</quote>, <title>Glos<lb ed="#Q"/>sa</title><!--8-->:
-          <quote>Ut scilicet videam eum sicut est, sicut
+          <lb ed="#Q"/>super illud: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e291">In quo et comprehensus sum</quote>, <title>Glos<lb ed="#Q"/>sa</title><!--8-->:
+          <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e299">Ut scilicet videam eum sicut est, sicut
           <lb ed="#Q"/>ipse me videt sicut sum</quote>; sed constat quod ipse<!--k-->
-          <lb ed="#Q"/>Christus videbat <name>Apostolum</name> per comprehensio<lb ed="#Q"/>nem;
-          ergo <name ref="#Paul">Apostolus</name> intendebat ipsum compre<lb ed="#Q"/>hendere.
+          <lb ed="#Q"/>Christus videbat <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e309">Apostolum</name> per comprehensio<lb ed="#Q"/>nem;
+          ergo <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e313" ref="#Paul">Apostolus</name> intendebat ipsum compre<lb ed="#Q"/>hendere.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e3846">
-          <lb ed="#Q"/>3. Item, <title>Eph.</title> 3,18: <quote source="http://scta.info/resource/eph3_18@1-15">Ut possitis comprehendere
+          <lb ed="#Q"/>3. Item, <title>Eph.</title> 3,18: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e325" source="http://scta.info/resource/eph3_18@1-15">Ut possitis comprehendere
           <lb ed="#Q"/>cum omnibus sanctis, quae sit longitudo, latitudo,
           <lb ed="#Q"/>sublimitas et profundum</quote>, scilicet Dei longitudo,
           <lb ed="#Q"/>scilicet aeternitatis; latitudo, scilicet caritatis; su<lb ed="#Q"/>blimitas,
           scilicet maiestatis; profundum, scilicet
-          <lb ed="#Q"/>sapientiae Dei<!--9-->. Et sequitur<!--10-->: <quote source="http://scta.info/resource/eph3_19@7-12">Ut impleamini
+          <lb ed="#Q"/>sapientiae Dei<!--9-->. Et sequitur<!--10-->: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e343" source="http://scta.info/resource/eph3_19@7-12">Ut impleamini
           in omnem plenitudinem Dei</quote>. Ergo vult quod<!--l--> sit 
           <lb ed="#Q"/>comprehensibilis.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e3864">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>4. Item, <title>I Cor.</title> 2,10: <quote>Spiritus scrutatur omnia,
-          <lb ed="#Q"/>etiam profunda Dei</quote>, id est <quote>facit nos scrutari</quote><!--11-->;
+          <lb ed="#Q"/>4. Item, <title>I Cor.</title> 2,10: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e359">Spiritus scrutatur omnia,
+          <lb ed="#Q"/>etiam profunda Dei</quote>, id est <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e364">facit nos scrutari</quote><!--11-->;
           <lb ed="#Q"/>sed quod facit nos scrutari<!--m--> cognoscemus in pa<lb ed="#Q"/>tria;
           sed si omnia et etiam profunda Dei cogno<lb ed="#Q"/>scemus,
           ergo comprehendemus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e3880">
-          <lb ed="#Q"/>5. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De anima et
-          <lb ed="#Q"/>spiritu</title><!--12-->: <quote>Anima, ad similitudinem "totius sa<lb ed="#Q"/>pientiae
+          <lb ed="#Q"/>5. Item, <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e381" ref="#Augustine">Augustinus</name>, in libro <title>De anima et
+          <lb ed="#Q"/>spiritu</title><!--12-->: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e390">Anima, ad similitudinem "totius sa<lb ed="#Q"/>pientiae
           facta, omnium similitudines in se gerit</quote><!--n-->.
           <lb ed="#Q"/>Anima autem, quia est similitudo Dei, se utitur
           <lb ed="#Q"/>ut similitudine ad Deum cognoscendum; sed ipsa
@@ -151,14 +145,14 @@
           comprehensionem primo modo, dicendum
           <lb ed="#Q"/>quod Deus est comprehensibilis, quia intellectus
           <lb ed="#Q"/>noster adhaeret veritati quae Deus est; unde
-          <lb ed="#Q"/><name>Sponsa</name> in <title>Canticis</title><!--14-->: <quote>Tenui eum, non dimittam</quote>.
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q2c1-Nd1e432">Sponsa</name> in <title>Canticis</title><!--14-->: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e438">Tenui eum, non dimittam</quote>.
           <lb ed="#Q"/>Et haec comprehensio nihil aliud est quam quae<lb ed="#Q"/>dam
-          apprehensio. Hoc modo loquitur <name ref="#Paul">Apostolus</name>,
-          <lb ed="#Q"/>cum dicit<!--15-->: <quote>Sequor, si quo modo comprehendam</quote>,
-          <lb ed="#Q"/>id est <quote>si quo modo perfecte<!--p--> potero cognoscere
+          apprehensio. Hoc modo loquitur <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e444" ref="#Paul">Apostolus</name>,
+          <lb ed="#Q"/>cum dicit<!--15-->: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e452">Sequor, si quo modo comprehendam</quote>,
+          <lb ed="#Q"/>id est <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e456">si quo modo perfecte<!--p--> potero cognoscere
           <lb ed="#Q"/>Christum</quote><!--16-->, et istud <mentioned>perfecte</mentioned> attenditur in ad<lb ed="#Q"/>haesione
           ad Deum. — Si dicatur comprehensio co<lb ed="#Q"/>gnitio
-          intellectus includentis: hoc modo facit <name>Au<lb ed="#Q"/>gustinus</name>,
+          intellectus includentis: hoc modo facit <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e471">Au<lb ed="#Q"/>gustinus</name>,
           in libro <title>De videndo Deo</title>, <title>Ad Pauli<lb ed="#Q"/>nam</title><!--17-->,
           differentiam inter <mentioned>comprehendere</mentioned> et <mentioned>vi<lb ed="#Q"/>dere</mentioned>
           dicens quod <mentioned>videre</mentioned> non ponit nisi prae<lb ed="#Q"/>sentiam
@@ -166,17 +160,17 @@
           <lb ed="#Q"/>in videndo includere, ita quod de re nihil lateat.
           <lb ed="#Q"/>Hoc modo impossibile est Deum comprehendi,
           <lb ed="#Q"/>quia impossibile est quod intellectus includat di<lb ed="#Q"/>vinam
-          essentiam; secundum enim <name>Augusti<lb ed="#Q"/>num</name><!--18-->,
+          essentiam; secundum enim <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e509">Augusti<lb ed="#Q"/>num</name><!--18-->,
           illud solum comprehendere possumus
-          <quote>cuius fines circumspici possunt</quote>; illud autem
+          <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e515">cuius fines circumspici possunt</quote>; illud autem
           <lb ed="#Q"/>impossibile est in Deo.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e3960">
-          <lb ed="#Q"/>Sed obicitur: <quote>Omne simplex, cum non ha<lb ed="#Q"/>beat
+          <lb ed="#Q"/>Sed obicitur: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e525">Omne simplex, cum non ha<lb ed="#Q"/>beat
           partem, cum attingitur, attingitur totum</quote><!--19-->;
           <lb ed="#Q"/>cum vero attingitur totum, comprehenditur; cum 
           <pb ed="#Q" n="60"/>
-          <cb ed="#Q"/>
+          <cb ed="#Q" n="a"/>
           <lb ed="#Q"/>ergo divina essentia intellectu humano attingatur
           <lb ed="#Q"/>aliquo modo, cum ipsa sit simplex, comprehende<lb ed="#Q"/>tur;
           ergo, si cognoscetur cognitione visionis, cogno<lb ed="#Q"/>scetur
@@ -203,8 +197,8 @@
           <lb ed="#Q"/>in circumferentia infinita, quae non habet princi<lb ed="#Q"/>pium
           nec finem, sed in infinitum excedens es<lb ed="#Q"/>sendi<!--b-->
           modum in creatura, sicut circumferentia
-          <lb ed="#Q"/>centrum<!--2-->. Propter quod dicit <name>Trismegistus</name><!--3-->:
-          <quote>Deus est sphaera intelligibilis,cuius centrum
+          <lb ed="#Q"/>centrum<!--2-->. Propter quod dicit <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e612">Trismegistus</name><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e615">Deus est sphaera intelligibilis,cuius centrum
           <lb ed="#Q"/>est ubique, circumferentia nusquam</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e4034">
@@ -214,8 +208,8 @@
           <lb ed="#Q"/>1. Ad primum dicendum quod est cognitio de
           <lb ed="#Q"/>Deo per<!--c--> positionem, sicut cognitio de ipso <mentioned>quia
           <lb ed="#Q"/>est</mentioned>, et cognitio<!--d--> per privationem, sicut cognitio
-          <lb ed="#Q"/>de Deo <mentioned>quid non est</mentioned><!--4-->, sicut dicit <name ref="#Dionysius">Dionysius</name><!--5-->:
-          <quote>Contingit de Deo cognoscere non<!--e--> quid est, sed
+          <lb ed="#Q"/>de Deo <mentioned>quid non est</mentioned><!--4-->, sicut dicit <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e647" ref="#Dionysius">Dionysius</name><!--5-->:
+          <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e651">Contingit de Deo cognoscere non<!--e--> quid est, sed
           <lb ed="#Q"/>quid non est</quote>. Cognitione ergo qua cognoscitur
           <lb ed="#Q"/>de Deo <mentioned>quid est</mentioned> non potest cognosci<!--f--> quantus
           <lb ed="#Q"/>est Deus; sed cognitione qua cognoscitur per pri<lb ed="#Q"/>vationem
@@ -227,24 +221,24 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e4068">
           <lb ed="#Q"/>2. Ad secundum dicendum quod loquitur
-          <lb ed="#Q"/><name>Apostolus</name> de comprehensione quae est<!--i--> secun<lb ed="#Q"/>dum
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q2c1-Nd1e692">Apostolus</name> de comprehensione quae est<!--i--> secun<lb ed="#Q"/>dum
           adhaesionem<!--k--> sive quae est idem quod
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>apprehensio, et non de comprehensione quae
           <lb ed="#Q"/>est intellectus includentis. Et prima<!--l--> appellatur
           <lb ed="#Q"/>velut comprehensio manu, quia comprehensio
           <lb ed="#Q"/>manu non includit necessario totam rem; sic<!--m-->
-          <lb ed="#Q"/>loquitur <name ref="#Paul">Apostolus</name>: <quote>Ut comprehendam</quote>, id est
+          <lb ed="#Q"/>loquitur <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e718" ref="#Paul">Apostolus</name>: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e721">Ut comprehendam</quote>, id est
           <lb ed="#Q"/>ut apprehendam et adhaeream etc. Secunda ap<lb ed="#Q"/>pellatur
           comprehensio visu, quia comprehensio
           <lb ed="#Q"/>visu non est nisi<!--o--> totam rem includat; unde ipsa
           <lb ed="#Q"/>est comprehensio per inclusionem, et non prima.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e4099">
-          <lb ed="#Q"/>3. Ad tertium dicendum, secundum <name>Augu<lb ed="#Q"/>stinum</name><!--7-->,
-          quod illud quod dicit <name ref="#Paul">Apostolus</name> non
-          <lb ed="#Q"/>intelligitur quod simus <quote>plenus Deus</quote>, sed quod
-          <lb ed="#Q"/>simus <quote>pleni Deo</quote>; et dicimur<!--p--> <quote>pleni Deo</quote>,
+          <lb ed="#Q"/>3. Ad tertium dicendum, secundum <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e739">Augu<lb ed="#Q"/>stinum</name><!--7-->,
+          quod illud quod dicit <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e745" ref="#Paul">Apostolus</name> non
+          <lb ed="#Q"/>intelligitur quod simus <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e750">plenus Deus</quote>, sed quod
+          <lb ed="#Q"/>simus <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e755">pleni Deo</quote>; et dicimur<!--p--> <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e759">pleni Deo</quote>,
           <lb ed="#Q"/>quia intellectus noster secundum suam capacitatem
           <lb ed="#Q"/>impletur divinitate. Sed si ipsum comprehende<lb ed="#Q"/>remus
           totum, aequaremur ei — quod est impossi<lb ed="#Q"/>bile<!--q-->,
@@ -252,17 +246,17 @@
           nisi ipse — ex<!--r--> hoc sequeretur, si ei ae<lb ed="#Q"/>quaremur,
           quod<!--s--> essemus plenus Deus et quod
           <lb ed="#Q"/>in nos verteretur; quod est impossibile. Et propter
-          <lb ed="#Q"/>hoc dicit <name>Augustinus</name><!--8--> super illud: <quote>Hanc ple<lb ed="#Q"/>nitudinem
+          <lb ed="#Q"/>hoc dicit <name xml:id="ahsh-l1p1i1t2q2c1-Nd1e785">Augustinus</name><!--8--> super illud: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e788">Hanc ple<lb ed="#Q"/>nitudinem
           Dei quidam in iis verbis sic<!--t--> intellexe<lb ed="#Q"/>runt,
           ut putarent nos hoc idem futuros quod
           <lb ed="#Q"/>Deus est, dicentes: si aliquid minus quam Deus
-          <lb ed="#Q"/>habebimus et minores erimus, quomodo <quote>imple<lb ed="#Q"/>bimur
+          <lb ed="#Q"/>habebimus et minores erimus, quomodo <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e801">imple<lb ed="#Q"/>bimur
           in omnem plenitudinem Dei</quote>? Sed quoniam
           <lb ed="#Q"/>implebimur, profecto erimus aequales</quote>. Et certe
           <lb ed="#Q"/>ex hoc sequeretur quod essemus Deus, quia nihil
           <lb ed="#Q"/>aequale Deo<!--u--> nisi Deus. Et propter hoc dicit<!--9-->:
           <lb ed="#Q"/>Detestandus est error iste: non enim sic imple<lb ed="#Q"/>buntur,
-          <quote>ut sint plenus Deus, sed ut perfecte</quote><!--v-->
+          <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e822">ut sint plenus Deus, sed ut perfecte</quote><!--v-->
           <lb ed="#Q"/>sint pleni Deo.
         </p>
         <p xml:id="ahsh-l1p1i1t2q2c1-d1e4152">
@@ -279,7 +273,7 @@
           <lb ed="#Q"/>sed non sequitur quod comprehendat, quia totalitas
           <lb ed="#Q"/>similitudinis non attenditur quantum ad aequalita<lb ed="#Q"/>tem,
           sed quantum ad repraesentationem<!--y-->. Unde
-          <lb ed="#Q"/><name>Augustinus</name>, in libro <title>83 Quaestionum</title><!--10-->: <quote>Ubi
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q2c1-Nd1e871">Augustinus</name>, in libro <title>83 Quaestionum</title><!--10-->: <quote xml:id="ahsh-l1p1i1t2q2c1-Qd1e876">Ubi
           <lb ed="#Q"/>imago et similitudo<!--z-->, non continuo est aequa<pb ed="#Q" n="61"/><lb ed="#Q" n="a"/><lb ed="#Q"/>litas:
           ut in speculo est imago [hominis], quia de
           <lb ed="#Q"/>illo<!--a--> expressa est; est etiam necessario simili<lb ed="#Q"/>tudo,

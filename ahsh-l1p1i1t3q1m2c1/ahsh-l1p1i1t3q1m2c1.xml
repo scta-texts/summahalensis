@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="120"/><cb ed="#Q" n="a"/>
       </div>
@@ -72,8 +66,8 @@
           <lb ed="#Q"/>omni pluralitate; ergo divina unitas absolvitur ab
           <lb ed="#Q"/>omni pluralitate; ergo secum non compatitur ali<lb ed="#Q"/>quam
           pluralitatem. —- Item, super illud <title>Eph.</title> 3,18:
-          <lb ed="#Q"/><quote>Ut possitis comprehendere</quote> etc. dicit <name>Bernardus</name><!--1-->:
-          <quote>Cum videbimus Deum facie ad faciem, non dis<lb ed="#Q"/>siliet
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q1m2c1-Qd1e157">Ut possitis comprehendere</quote> etc. dicit <name xml:id="ahsh-l1p1i1t3q1m2c1-Nd1e159">Bernardus</name><!--1-->:
+          <quote xml:id="ahsh-l1p1i1t3q1m2c1-Qd1e163">Cum videbimus Deum facie ad faciem, non dis<lb ed="#Q"/>siliet
           anima in suam pluralitatem, sed congregabit
           <lb ed="#Q"/>se in suam unitatem</quote>. Si ergo ad hoc quod anima
           <lb ed="#Q"/>congregetur in Deum, oportet quod congregetur
@@ -124,8 +118,8 @@
           Oppositum, videlicet corruptio et desitio
           <lb ed="#Q"/>ipsius esse. — Quod autem unitati attri<cb ed="#Q" n="b"/><lb ed="#Q"/>buatur
           permanentia et consistentia
-          <lb ed="#Q"/>ipsius esse, patet per <name>Boethium</name>, in libro
-          <lb ed="#Q"/><title>De consolationes</title><!--5-->: <quote>Omne quod est tamdiu ma<lb ed="#Q"/>net
+          <lb ed="#Q"/>ipsius esse, patet per <name xml:id="ahsh-l1p1i1t3q1m2c1-Nd1e290">Boethium</name>, in libro
+          <lb ed="#Q"/><title>De consolationes</title><!--5-->: <quote xml:id="ahsh-l1p1i1t3q1m2c1-Qd1e297">Omne quod est tamdiu ma<lb ed="#Q"/>net
           atque consistit quamdiu unum est, sed ne<lb ed="#Q"/>cesse
           est interire atque dissolvi, cum unum esse
           <lb ed="#Q"/>desierit</quote>. Si<!--i--> ergo a divino esse relegata est om<lb ed="#Q"/>nino
@@ -161,15 +155,15 @@
           <lb ed="#Q"/>ponere pluralitatem.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e3944">
-          <lb ed="#Q"/>c. Tertia est ratio <name>Richardi</name><!--8--> per rationem ca<lb ed="#Q"/>ritatis,
+          <lb ed="#Q"/>c. Tertia est ratio <name xml:id="ahsh-l1p1i1t3q1m2c1-Nd1e387">Richardi</name><!--8--> per rationem ca<lb ed="#Q"/>ritatis,
           suppositis tribus propositionibus per se
-          <lb ed="#Q"/>notis: prima est quod <quote>ubi est summa bonitas,
+          <lb ed="#Q"/>notis: prima est quod <quote xml:id="ahsh-l1p1i1t3q1m2c1-Qd1e394">ubi est summa bonitas,
           <lb ed="#Q"/>non potest deesse summa caritas; secunda est
           <lb ed="#Q"/>quod summa caritas non est amor privatus, sed
           <lb ed="#Q"/>communis, quia sic esset diminutus<!--o-->; tertia est
           <lb ed="#Q"/>quod amor communis, non privatus, est amor cur<lb ed="#Q"/>rens
-          in alterum</quote>. Iuxta quod dicit <name>Richardus</name>,
-          <lb ed="#Q"/>in libro <title>De Trinitate</title><!--9-->, quia <quote>oportet ut amor in
+          in alterum</quote>. Iuxta quod dicit <name xml:id="ahsh-l1p1i1t3q1m2c1-Nd1e411">Richardus</name>,
+          <lb ed="#Q"/>in libro <title>De Trinitate</title><!--9-->, quia <quote xml:id="ahsh-l1p1i1t3q1m2c1-Qd1e418">oportet ut amor in
           <lb ed="#Q"/>alterum tendat ut caritas esse queat: nullus enim
           <lb ed="#Q"/>pro privato et proprio sui ipsius amore dicitur
           <lb ed="#Q"/>proprie caritatem habere. Ubi autem<!--p--> totius bo<lb ed="#Q"/>nitatis
@@ -187,13 +181,13 @@
           ergo quod in divino esse est pluralitas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4000">
-          <lb ed="#Q"/>d. Item, ostendit <name>Richardus de S. Vic<lb ed="#Q"/>tore</name><!--1-->
+          <lb ed="#Q"/>d. Item, ostendit <name xml:id="ahsh-l1p1i1t3q1m2c1-Nd1e472">Richardus de S. Vic<lb ed="#Q"/>tore</name><!--1-->
           quod illa caritas vel amor non erit in
           <lb ed="#Q"/>aliquid extra<!--e--> Deum quod sit creatum, dicens:
-          <quote>Summam caritatem erga personam creatam ha<lb ed="#Q"/>bere
+          <quote xml:id="ahsh-l1p1i1t3q1m2c1-Qd1e482">Summam caritatem erga personam creatam ha<lb ed="#Q"/>bere
           non posset: inordinata enim caritas esset</quote>,
           <lb ed="#Q"/>si summe diligeret quod summe diligendum non
-          <lb ed="#Q"/>esset. <quote>Ut autem<!--f--> caritas summa et summe per<lb ed="#Q"/>fecta
+          <lb ed="#Q"/>esset. <quote xml:id="ahsh-l1p1i1t3q1m2c1-Qd1e492">Ut autem<!--f--> caritas summa et summe per<lb ed="#Q"/>fecta
           sit, oportet ut sit tanta<!--g--> ut maior esse non
           <lb ed="#Q"/>possit et talis qua non possit esse melior. Quam<lb ed="#Q"/>diu
           autem quis nullum alium quam se ipsum di<lb ed="#Q"/>ligit,
@@ -210,7 +204,7 @@
           <lb ed="#Q"/>non carere</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c1-d1e4046">
-          <lb ed="#Q"/>e. Item, <name>Richardus</name>, in libro <title>De Trinitate</title><!--2-->,
+          <lb ed="#Q"/>e. Item, <name xml:id="ahsh-l1p1i1t3q1m2c1-Nd1e545">Richardus</name>, in libro <title>De Trinitate</title><!--2-->,
           <lb ed="#Q"/>arguit istud per rationem beatitudinis, suppositis
           <lb ed="#Q"/>tribus propositionibus<!--n--> per se notis: prima est
           <lb ed="#Q"/>quod in Deo sit summa beatitudo; secunda, quod
@@ -306,7 +300,7 @@
           <mentioned>non esse ab alio</mentioned>, licet in divino esse reperiantur,
           <lb ed="#Q"/>non tamen detrahunt simplicitati ipsius, quia so<lb ed="#Q"/>lum
           dicunt differentiam secundum relationem:
-          <lb ed="#Q"/>unde, secundum <name>Boethium</name><!--d--><!--1-->, nihil addunt ad
+          <lb ed="#Q"/>unde, secundum <name xml:id="ahsh-l1p1i1t3q1m2c1-Nd1e829">Boethium</name><!--d--><!--1-->, nihil addunt ad
           <lb ed="#Q"/>esse. Nec etiam pluralitas in personis, quae ab
           <lb ed="#Q"/>iis est, unitati divini<!--e--> esse opponitur<!--f-->, sed plu<lb ed="#Q"/>ralitas<!--g-->
           in naturis ei opponitur; et de hac procedit
@@ -319,8 +313,8 @@
           <lb ed="#Q"/>procederet, si pluralitas quaelibet opponeretur et
           <lb ed="#Q"/>detraheret simplicitati divini esse; pluralitas autem
           <lb ed="#Q"/>secundum relationem, quae est in divino esse, non
-          <lb ed="#Q"/>opponitur unitati naturae. Unde <name>Richardus</name>,
-          <lb ed="#Q"/>in libro <title>De Trinitate</title><!--2-->: <quote>Habet homo quomodo
+          <lb ed="#Q"/>opponitur unitati naturae. Unde <name xml:id="ahsh-l1p1i1t3q1m2c1-Nd1e869">Richardus</name>,
+          <lb ed="#Q"/>in libro <title>De Trinitate</title><!--2-->: <quote xml:id="ahsh-l1p1i1t3q1m2c1-Qd1e876">Habet homo quomodo
           <lb ed="#Q"/>legat et discat in se ipso quid per contrarium de<lb ed="#Q"/>beat<!--l-->
           aestimare de Deo: ibi quidem pluralitas
           <lb ed="#Q"/>personarum in unitate substantiae, hic autem plu<lb ed="#Q"/>ralitas

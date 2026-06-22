@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="4"/><cb ed="#Q" n="a"/>
       </div>
@@ -68,7 +61,7 @@
           in<!--g--> illis ut alicui parti Philosophiae sup<lb ed="#Q"/>ponatur.
         </p>
         <p xml:id="ahsh-l1tinq1c2-d1e3748">
-          <lb ed="#Q"/>Ad quod obicitur sic: 1. <title>Eccli.</title> 1, 1: <quote>Omnis
+          <lb ed="#Q"/>Ad quod obicitur sic: 1. <title>Eccli.</title> 1, 1: <quote xml:id="ahsh-l1tinq1c2-Qd1e143">Omnis
           <lb ed="#Q"/>sapientia a Domino Deo est</quote>; ergo omnis sapien<lb ed="#Q"/>tia
           seu scientia est theologica vel<!--h--> divina, quia
           <lb ed="#Q"/>theologica scientia non est aliud quam scientia
@@ -85,10 +78,10 @@
         </p>
         <p xml:id="ahsh-l1tinq1c2-d1e3780">
           <lb ed="#Q"/>3. Item, si dicatur divina quia a Spiritu di<lb ed="#Q"/>vino
-          edita, obicitur: quia <quote>omne verum, a quo<lb ed="#Q"/>cumque
+          edita, obicitur: quia <quote xml:id="ahsh-l1tinq1c2-Qd1e185">omne verum, a quo<lb ed="#Q"/>cumque
           dicatur, a Spiritu Sancto est</quote> verum,
           <lb ed="#Q"/>sicut dicit <title>Glossa</title><!--5--> super illud <title>I Cor.</title> 12, 3:
-          <lb ed="#Q"/><quote source="http://scta.info/resource/Icor12_3@15-19">Nemo potest dicere: Dominus Iesus</quote> etc.; ergo
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq1c2-Qd1e199" source="http://scta.info/resource/Icor12_3@15-19">Nemo potest dicere: Dominus Iesus</quote> etc.; ergo
           <lb ed="#Q"/>omnis veritas cuiuscumque scientiae est edita a
           <lb ed="#Q"/>Spiritu Sancto; ergo, cum Theologia sit scientia a
           <cb ed="#Q" n="b"/>
@@ -100,7 +93,7 @@
           <lb ed="#Q"/>4. Item, si theologica seu divina dicatur quia
           <lb ed="#Q"/>per divinam revelationem habita, obicitur: <title>Rom.</title>
           <lb ed="#Q"/>1, 19, ubi, loquitur de cognitione philosophorum
-          <lb ed="#Q"/>quam habuerunt, de Deo: <quote source="http://scta.info/resource/rom1_19@2-13">Quod notum est Dei ma<lb ed="#Q"/>nifestum
+          <lb ed="#Q"/>quam habuerunt, de Deo: <quote xml:id="ahsh-l1tinq1c2-Qd1e231" source="http://scta.info/resource/rom1_19@2-13">Quod notum est Dei ma<lb ed="#Q"/>nifestum
           est in<!--l--> illis: Deus enim illis revelavit<!--6--></quote>;
           <lb ed="#Q"/>ergo, cognitio, philosophica de Deo fuit habita
           <lb ed="#Q"/>per revelationem; ergo est<!--m--> theologica.
@@ -121,32 +114,32 @@
         <p xml:id="ahsh-l1tinq1c2-d1e3839">
           <lb ed="#Q"/>b. Item, omnes humanae scientiae fundantur su<lb ed="#Q"/>per
           testimonium creaturae, ex quo colligitur ex<lb ed="#Q"/>perimentum,
-          sicut dicit <name ref="#Aristotle">Philosophus</name>, in <title>Me<lb ed="#Q"/>taphysicis</title><!--8-->:
-          <quote>Omnis scientia et ars per expe<lb ed="#Q"/>rientiam
+          sicut dicit <name xml:id="ahsh-l1tinq1c2-Nd1e283" ref="#Aristotle">Philosophus</name>, in <title>Me<lb ed="#Q"/>taphysicis</title><!--8-->:
+          <quote xml:id="ahsh-l1tinq1c2-Qd1e293">Omnis scientia et ars per expe<lb ed="#Q"/>rientiam
           accidit: experientia enim fecit artem</quote>;
           <lb ed="#Q"/>sed theologica doctrina fundatur super testimo<lb ed="#Q"/>nium
           fidei, <title>Is.</title> 7, 9 secundum aliam litteram<!--9-->:
-          <lb ed="#Q"/><quote>Nisi credideritis, non intelligetis</quote>; ergo non est
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq1c2-Qd1e308">Nisi credideritis, non intelligetis</quote>; ergo non est
           <lb ed="#Q"/>sicut aliae scientiae.
         </p>
         <p xml:id="ahsh-l1tinq1c2-d1e3859">
           <pb ed="#Q" n="5"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>c. Item, <title>I Cor.</title> 2, 7: <quote source="http://scta.info/resource/Icor2_7@4-9">Sapientiam loquimur in
-          <lb ed="#Q"/>mysterio, quae abscondita est</quote>. <title>Glossa</title><!--1-->: <quote>Ut
-          <lb ed="#Q"/>nesciant pseudo</quote>, <quote>quia non est<!--a--> in verbis, sed in
+          <lb ed="#Q"/>c. Item, <title>I Cor.</title> 2, 7: <quote xml:id="ahsh-l1tinq1c2-Qd1e323" source="http://scta.info/resource/Icor2_7@4-9">Sapientiam loquimur in
+          <lb ed="#Q"/>mysterio, quae abscondita est</quote>. <title>Glossa</title><!--1-->: <quote xml:id="ahsh-l1tinq1c2-Qd1e332">Ut
+          <lb ed="#Q"/>nesciant pseudo</quote>, <quote xml:id="ahsh-l1tinq1c2-Qd1e337">quia non est<!--a--> in verbis, sed in
           <lb ed="#Q"/>virtute, non<!--b--> humana ratione comprehensibilis<!--c-->,
           <lb ed="#Q"/>sed Spiritus efficacia credibilis<!--2--></quote>; ergo non est
           <lb ed="#Q"/>sicut aliae scientiae.
         </p>
         <p xml:id="ahsh-l1tinq1c2-d1e3882">
-          <lb ed="#Q"/>d. Item, <name>Hugo de S. Victore</name><!--3-->: Aliae scien<lb ed="#Q"/>tiae
-          sunt <quote>de operibus conditionis, quae<!--d--> scili<lb ed="#Q"/>cet
+          <lb ed="#Q"/>d. Item, <name xml:id="ahsh-l1tinq1c2-Nd1e359">Hugo de S. Victore</name><!--3-->: Aliae scien<lb ed="#Q"/>tiae
+          sunt <quote xml:id="ahsh-l1tinq1c2-Qd1e364">de operibus conditionis, quae<!--d--> scili<lb ed="#Q"/>cet
           apparent in rerum natura; Theologia vero est
           <lb ed="#Q"/>de<!--e--> operibus reparationis</quote>, quae apparent ex
           <lb ed="#Q"/>fide, non in rerum natura seu in humana ra<lb ed="#Q"/>tione,
-          sicut dicitur super illud <title>Rom.</title> 1, 19: <quote>Quod
-          <lb ed="#Q"/>notum est Dei</quote><!--4-->, <quote>id est quod de Deo noscibile
+          sicut dicitur super illud <title>Rom.</title> 1, 19: <quote xml:id="ahsh-l1tinq1c2-Qd1e382">Quod
+          <lb ed="#Q"/>notum est Dei</quote><!--4-->, <quote xml:id="ahsh-l1tinq1c2-Qd1e388">id est quod de Deo noscibile
           <lb ed="#Q"/>est per naturalem rationem, quia multa sunt<!--f--> quae
           <lb ed="#Q"/>de Deo sciri per naturam non possunt</quote>; ergo
           <lb ed="#Q"/>non est connumerabilis<!--g--> inter alias scientias.
@@ -155,10 +148,10 @@
           <lb ed="#Q"/>e. Item, in aliis scientiis sunt solum significa<lb ed="#Q"/>tiones
           verborum, in hac autem sunt non solum
           <lb ed="#Q"/>significationes verborum, sed etiam<!--h--> rerum<!--5-->, <title>Gal.</title>
-          <lb ed="#Q"/>4, 22: <quote source="http://scta.info/resource/gal4_22@1-8">Scriptum est quoniam Abraham duos filios
-          <lb ed="#Q"/>habuit</quote>; et sequitur<!--i6-->: <quote source="http://scta.info/resource/gal4_24@1-5">Quae sunt per allegoriam
-          <lb ed="#Q"/>dicta</quote>; et <title>I Cor.</title> 2, 7: <quote source="http://scta.info/resource/Icor2_7@2-6">Loquimur sapientiam<!--k--> in
-          <lb ed="#Q"/>mysterio</quote>; <title>Glossa</title><!--7-->: <quote>Exponendo mysteria <title>Ve<lb ed="#Q"/>teris
+          <lb ed="#Q"/>4, 22: <quote xml:id="ahsh-l1tinq1c2-Qd1e419" source="http://scta.info/resource/gal4_22@1-8">Scriptum est quoniam Abraham duos filios
+          <lb ed="#Q"/>habuit</quote>; et sequitur<!--i6-->: <quote xml:id="ahsh-l1tinq1c2-Qd1e426" source="http://scta.info/resource/gal4_24@1-5">Quae sunt per allegoriam
+          <lb ed="#Q"/>dicta</quote>; et <title>I Cor.</title> 2, 7: <quote xml:id="ahsh-l1tinq1c2-Qd1e434" source="http://scta.info/resource/Icor2_7@2-6">Loquimur sapientiam<!--k--> in
+          <lb ed="#Q"/>mysterio</quote>; <title>Glossa</title><!--7-->: <quote xml:id="ahsh-l1tinq1c2-Qd1e444">Exponendo mysteria <title>Ve<lb ed="#Q"/>teris
           Testamenti</title>, in quibus Christus significatur,
           <lb ed="#Q"/>ut in hostia<!--l--> Abel vel Abrahae</quote>.
         </p>
@@ -170,10 +163,10 @@
           <lb ed="#Q"/>secundum ordinem informationis practicae prin<lb ed="#Q"/>cipiorum
           ad operationes, ut moveatur affectus
           <lb ed="#Q"/>secundum timorem et amorem ex fide iustitiae et
-          <lb ed="#Q"/>misericordiae Dei. Unde <title>Deut.</title> 6, 5: <quote>Diliges Domi<cb ed="#Q" n="b"/><lb ed="#Q"/>num
-          Deum tuum</quote> etc.; et infra<!--8-->: <quote>Dominum Deum
-          <lb ed="#Q"/>tuum timebis</quote> etc.; et <title>Exod.</title> 20, 5: <quote>Ego sum Deus
-          <lb ed="#Q"/>zelotes, vindicans</quote> etc. <quote>et faciens misericordias</quote> etc.
+          <lb ed="#Q"/>misericordiae Dei. Unde <title>Deut.</title> 6, 5: <quote xml:id="ahsh-l1tinq1c2-Qd1e480">Diliges Domi<cb ed="#Q" n="b"/><lb ed="#Q"/>num
+          Deum tuum</quote> etc.; et infra<!--8-->: <quote xml:id="ahsh-l1tinq1c2-Qd1e489">Dominum Deum
+          <lb ed="#Q"/>tuum timebis</quote> etc.; et <title>Exod.</title> 20, 5: <quote xml:id="ahsh-l1tinq1c2-Qd1e496">Ego sum Deus
+          <lb ed="#Q"/>zelotes, vindicans</quote> etc. <quote xml:id="ahsh-l1tinq1c2-Qd1e501">et faciens misericordias</quote> etc.
           <!--missing a p-break here-->
           <lb ed="#Q"/>[Solutio]: Ex iis igitur sequitur quod Theolo<lb ed="#Q"/>gia
           non est sicut alia scientia, nec connumera<lb ed="#Q"/>bitur
@@ -212,4 +205,3 @@
     </body>
   </text>
 </TEI>
-

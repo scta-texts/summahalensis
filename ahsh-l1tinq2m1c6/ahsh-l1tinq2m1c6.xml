@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="22"/><cb ed="#Q" n="a"/>
       </div>
@@ -68,8 +61,8 @@
           <lb ed="#Q"/>praesens est omnibus rebus.
         </p>
         <p xml:id="ahsh-l1tinq2m1c6-d1e3749">
-          <lb ed="#Q"/>Et videtur quod sic:. a. <title>Rom.</title> 1, 20: <quote>Invisibilia
-          <lb ed="#Q"/>Dei</quote> etc. <title>Glossa</title><!--4-->: <quote>Per gubernationem videtur
+          <lb ed="#Q"/>Et videtur quod sic:. a. <title>Rom.</title> 1, 20: <quote xml:id="ahsh-l1tinq2m1c6-Qd1e137">Invisibilia
+          <lb ed="#Q"/>Dei</quote> etc. <title>Glossa</title><!--4-->: <quote xml:id="ahsh-l1tinq2m1c6-Qd1e145">Per gubernationem videtur
           <lb ed="#Q"/>quod praesens est omni rei</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m1c6-d1e3758">
@@ -81,7 +74,7 @@
           nam illa cognitio certior est.
         </p>
         <p xml:id="ahsh-l1tinq2m1c6-d1e3776">
-          <lb ed="#Q"/>2. Item, Ambrosius<!--5-->: <quote>Cum absens puta<lb ed="#Q"/>tur,
+          <lb ed="#Q"/>2. Item, Ambrosius<!--5-->: <quote xml:id="ahsh-l1tinq2m1c6-Qd1e175">Cum absens puta<lb ed="#Q"/>tur,
           videtur; cum praesens est, non videtur</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m1c6-d1e3783">
@@ -98,32 +91,32 @@
         <p xml:id="ahsh-l1tinq2m1c6-d1e3805">
           <pb ed="#Q" n="23"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>2. Ad auctoritatem <name>Ambrosii</name> potest dici, se<lb ed="#Q"/>cundum<!--a-->
-          quod exponitur a pluribus<!--1-->: <quote>Cum absens
+          <lb ed="#Q"/>2. Ad auctoritatem <name xml:id="ahsh-l1tinq2m1c6-Nd1e215">Ambrosii</name> potest dici, se<lb ed="#Q"/>cundum<!--a-->
+          quod exponitur a pluribus<!--1-->: <quote xml:id="ahsh-l1tinq2m1c6-Qd1e224">Cum absens
           <lb ed="#Q"/>putatur</quote>, id est reputatur ut absens per humilita<lb ed="#Q"/>tem,
-          <quote>videtur</quote>, quia tunc est praesens per gratiam;
-          <lb ed="#Q"/>item, <quote>cum praesens est</quote> per gratiam, <quote>non vide<lb ed="#Q"/>tur</quote>,
+          <quote xml:id="ahsh-l1tinq2m1c6-Qd1e231">videtur</quote>, quia tunc est praesens per gratiam;
+          <lb ed="#Q"/>item, <quote xml:id="ahsh-l1tinq2m1c6-Qd1e235">cum praesens est</quote> per gratiam, <quote xml:id="ahsh-l1tinq2m1c6-Qd1e237">non vide<lb ed="#Q"/>tur</quote>,
           quia reputatur absens per humilitatem. — No<lb ed="#Q"/>tandum
-          tamen, secundum <name>Augustinum</name>, in libro
-          <lb ed="#Q"/><title>De videnda Deo</title><!--2-->, quod <name>Ambrosius</name> intendit
-          <lb ed="#Q"/>tractare<!--b--> verba illa <title>Ioan.</title> 13<!--3-->: <quote>Tanto tempore vo<lb ed="#Q"/>biscum
-          sum</quote> etc. <quote>Philippe, qui videt me</quote> etc. Se<lb ed="#Q"/>cundum
-          hoc ergo dicit <name>Ambrosius</name> quod, quam<lb ed="#Q"/>vis
+          tamen, secundum <name xml:id="ahsh-l1tinq2m1c6-Nd1e245">Augustinum</name>, in libro
+          <lb ed="#Q"/><title>De videnda Deo</title><!--2-->, quod <name xml:id="ahsh-l1tinq2m1c6-Nd1e251">Ambrosius</name> intendit
+          <lb ed="#Q"/>tractare<!--b--> verba illa <title>Ioan.</title> 13<!--3-->: <quote xml:id="ahsh-l1tinq2m1c6-Qd1e262">Tanto tempore vo<lb ed="#Q"/>biscum
+          sum</quote> etc. <quote xml:id="ahsh-l1tinq2m1c6-Qd1e267">Philippe, qui videt me</quote> etc. Se<lb ed="#Q"/>cundum
+          hoc ergo dicit <name xml:id="ahsh-l1tinq2m1c6-Nd1e271">Ambrosius</name> quod, quam<lb ed="#Q"/>vis
           ubique sit praesens per immensitatem, tamen
           <lb ed="#Q"/>putatur<!--c--> esse absens per incomprehensibilitatem.
-          <lb ed="#Q"/>Secundum hoc ergo sic exponitur auctoritas: <quote>Cum
-          <lb ed="#Q"/>absens putatur</quote>, id est<!--d--> incomprehensibilis, <quote>tunc
+          <lb ed="#Q"/>Secundum hoc ergo sic exponitur auctoritas: <quote xml:id="ahsh-l1tinq2m1c6-Qd1e282">Cum
+          <lb ed="#Q"/>absens putatur</quote>, id est<!--d--> incomprehensibilis, <quote xml:id="ahsh-l1tinq2m1c6-Qd1e290">tunc
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>videtur</quote>, id est cognoscitur; item, <quote>cum praesens
+          <lb ed="#Q"/>videtur</quote>, id est cognoscitur; item, <quote xml:id="ahsh-l1tinq2m1c6-Qd1e297">cum praesens
           <lb ed="#Q"/>est, non videtur</quote>, quia non putatur eius praesen<lb ed="#Q"/>tia
           incomprehensibilis. Unde Philippus et alii
           <lb ed="#Q"/>Apostoli habebant Christum praesentem et non vi<lb ed="#Q"/>debant,
           quia non cogitabant<!--e--> eum ut absentem,
-          <lb ed="#Q"/>id est incomprehensibilem. Unde <name ref="#Augustine">Augustinus</name>,
-          <lb ed="#Q"/>exponens verbum <name>Ambrosii</name>, in libro <title>De vi<lb ed="#Q"/>dando
-          Deo</title><!--4-->: <quote><mentioned>Cum absens putatur, videtur</mentioned>;
+          <lb ed="#Q"/>id est incomprehensibilem. Unde <name xml:id="ahsh-l1tinq2m1c6-Nd1e313" ref="#Augustine">Augustinus</name>,
+          <lb ed="#Q"/>exponens verbum <name xml:id="ahsh-l1tinq2m1c6-Nd1e318">Ambrosii</name>, in libro <title>De vi<lb ed="#Q"/>dando
+          Deo</title><!--4-->: <quote xml:id="ahsh-l1tinq2m1c6-Qd1e327"><mentioned>Cum absens putatur, videtur</mentioned>;
           <lb ed="#Q"/>non dicit <mentioned>cum absens est</mentioned>, sed <mentioned>cum absens pu<lb ed="#Q"/>tatur</mentioned>:
-          nusquam enim absens est qui <quote>caelum et
+          nusquam enim absens est qui <quote xml:id="ahsh-l1tinq2m1c6-Qd1e339">caelum et
           <lb ed="#Q"/>terram implet</quote><!--5-->, nec spatiis intercluditur parvis
           <lb ed="#Q"/>nec magnis<!--f--> diffunditur; ubique totus est et a
           <lb ed="#Q"/>nullo continetur loco. Haec qui excedente mente

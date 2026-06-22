@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="34"/><cb ed="#Q" n="a"/>
       </div>
@@ -67,19 +60,19 @@
           per rationem<!--1-->.
         </p>
         <p xml:id="ahsh-l1tinq2m3c4-d1e3749">
-          <lb ed="#Q"/>1. Nam dicit <name ref="#GregoryGreat">B.<!--b--> Gregorius</name><!--2-->: <quote>Fides non
+          <lb ed="#Q"/>1. Nam dicit <name xml:id="ahsh-l1tinq2m3c4-Nd1e134" ref="#GregoryGreat">B.<!--b--> Gregorius</name><!--2-->: <quote xml:id="ahsh-l1tinq2m3c4-Qd1e140">Fides non
           <lb ed="#Q"/>habet meritum, cui humana ratio praebet experi<lb ed="#Q"/>mentum</quote>.
           Ergo fidem probare est meritum fidei
           <lb ed="#Q"/>evacuare<!--c-->.
         </p>
         <p xml:id="ahsh-l1tinq2m3c4-d1e3760">
-          <lb ed="#Q"/>2. Item<!--d-->, ad <title>Hebr.</title> 11, 1: <quote>Fides est substantia
+          <lb ed="#Q"/>2. Item<!--d-->, ad <title>Hebr.</title> 11, 1: <quote xml:id="ahsh-l1tinq2m3c4-Qd1e160">Fides est substantia
           <lb ed="#Q"/>rerum sperandarum, argumentum non apparen<lb ed="#Q"/>tium</quote>.
           Cum ergo fides argumentum sit, ergo est<!--e-->
           <lb ed="#Q"/>probans, non probatum.
         </p>
         <p xml:id="ahsh-l1tinq2m3c4-d1e3772">
-          <lb ed="#Q"/>3. Item, cum dicat auctoritas<!--3--> quod <quote>nihil est
+          <lb ed="#Q"/>3. Item, cum dicat auctoritas<!--3--> quod <quote xml:id="ahsh-l1tinq2m3c4-Qd1e180">nihil est
           <lb ed="#Q"/>homini certius sua fide</quote>, omnis autem probatio
           <lb ed="#Q"/>est per certius: ergo fides non poterit probari;
           <lb ed="#Q"/>supervacuae ergo et vanae sunt rationes ad pro<lb ed="#Q"/>bandum
@@ -93,8 +86,8 @@
           ratione.
         </p>
         <p xml:id="ahsh-l1tinq2m3c4-d1e3798">
-          <lb ed="#Q"/>Contra: a. <name>Richardus</name>, in libro <title>De Trini<lb ed="#Q"/>tate</title><!--4-->:
-          <quote>Credo sine dubio ad quaecumque quae
+          <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1tinq2m3c4-Nd1e213">Richardus</name>, in libro <title>De Trini<lb ed="#Q"/>tate</title><!--4-->:
+          <quote xml:id="ahsh-l1tinq2m3c4-Qd1e221">Credo sine dubio ad quaecumque quae
           <lb ed="#Q"/>necesse est esse, non tantum probabilia, immo
           <lb ed="#Q"/>etiam necessaria argumenta non deesse</quote>. Cum
           <lb ed="#Q"/>ergo credenda maxime necesse sit esse, ad ipsa
@@ -106,7 +99,7 @@
           <lb ed="#Q"/>triplici ratione possunt probari credenda per na<lb ed="#Q"/>turales
           rationes. Prima ratio est propter nos<!--g-->;
           <lb ed="#Q"/>intelligentia creditae veritatis quam semper debe<lb ed="#Q"/>mus
-          investigare; iuxta illud <title>Psalmi</title><!--6-->: <quote>Quaerite
+          investigare; iuxta illud <title>Psalmi</title><!--6-->: <quote xml:id="ahsh-l1tinq2m3c4-Qd1e256">Quaerite
           <lb ed="#Q"/>faciem eius semper</quote>. Unde propter hanc intelligen<lb ed="#Q"/>tiam
           veritatis, quam credimus, obtinendam, pos<lb ed="#Q"/>sumus
           excogitare rationes, ad quas inveniendas il<lb ed="#Q"/>luminat
@@ -115,15 +108,15 @@
           <lb ed="#Q"/>per bona temporalia simplices promoventur ad
           <lb ed="#Q"/>divinum amorem, sic per huiusmodi rationes pro<lb ed="#Q"/>moventur
           ad perfectam seu maiorem fidem. Unde
-          <lb ed="#Q"/>propter hoc praelatis dicitur, <title>I Petr.</title> 3, 15, ut <quote source="http://scta.info/resource/Ipetr3_15@8-21">omni
+          <lb ed="#Q"/>propter hoc praelatis dicitur, <title>I Petr.</title> 3, 15, ut <quote xml:id="ahsh-l1tinq2m3c4-Qd1e281" source="http://scta.info/resource/Ipetr3_15@8-21">omni
           <lb ed="#Q"/>poscenti parati sint reddere rationem de ea, quae
           <lb ed="#Q"/>in eis est, fide et spe</quote><!--7-->. — Tertia ratio est revocatio
-          <lb ed="#Q"/>infidelium ad fidem: sicut enim dicit <name>Ioannes Da<lb ed="#Q"/>mascenus</name>,
-          I libro<!--8-->, <quote>quamvis cognitio existendi
+          <lb ed="#Q"/>infidelium ad fidem: sicut enim dicit <name xml:id="ahsh-l1tinq2m3c4-Nd1e291">Ioannes Da<lb ed="#Q"/>mascenus</name>,
+          I libro<!--8-->, <quote xml:id="ahsh-l1tinq2m3c4-Qd1e299">quamvis cognitio existendi
           <lb ed="#Q"/>Deum naturaliter nobis inserta sit, tamen in tan<lb ed="#Q"/>tum
           praevaluit perniciosa malitia hominum natu<lb ed="#Q"/>turae<!--sic-->,
           ut dicant non esse Deum, secundum quod
-          <lb ed="#Q"/>dicit David<!--9-->: <quote source="http://scta.info/resource/ps13_1@5-12 http://scta.info/resource/ps52_1@7-14">Dixit insipiens in corde suo: non
+          <lb ed="#Q"/>dicit David<!--9-->: <quote xml:id="ahsh-l1tinq2m3c4-Qd1e314" source="http://scta.info/resource/ps13_1@5-12 http://scta.info/resource/ps52_1@7-14">Dixit insipiens in corde suo: non
           <lb ed="#Q"/>est Deus</quote></quote>. Propterea, ad tales revocandas neces<lb ed="#Q"/>sariae
           sunt rationes.
         </p>
@@ -138,10 +131,10 @@
           in cognitione vero per fidem acquiesci<lb ed="#Q"/>mus
           ipsi veritati non propter testimonium pro<lb ed="#Q"/>prium,
           sed alienum, scilicet divinum seu primae
-          <lb ed="#Q"/>veritatis. Et hoc insinuavit <name>Augustinus</name>, supra<!--1-->,
+          <lb ed="#Q"/>veritatis. Et hoc insinuavit <name xml:id="ahsh-l1tinq2m3c4-Nd1e352">Augustinus</name>, supra<!--1-->,
           <lb ed="#Q"/><title>De videnda Deo</title>. — Ad illud ergo quod obici<lb ed="#Q"/>tur
-          quod <quote>fides non habet meritum</quote> etc.: dicen<lb ed="#Q"/>dum
-          quod <quote>humana ratio praebet experimentum</quote>
+          quod <quote xml:id="ahsh-l1tinq2m3c4-Qd1e362">fides non habet meritum</quote> etc.: dicen<lb ed="#Q"/>dum
+          quod <quote xml:id="ahsh-l1tinq2m3c4-Qd1e366">humana ratio praebet experimentum</quote>
           <lb ed="#Q"/>ei qui innititur soli rationi, ut scilicet credat ipsam
           <lb ed="#Q"/>veritatem propter rationem: et illa evacuat<!--a--> me<lb ed="#Q"/>ritum.
           Ei vero qui<!--b--> non innititur rationi, immo<!--c-->
@@ -150,11 +143,11 @@
           quia quamvis habeat rationem creden<lb ed="#Q"/>dorum,
           non tamen ei innititur: et hoc modo est
           <lb ed="#Q"/>in fidelibus. Quod significatum fuit, <title>Ioan.</title> 4, 42,
-          <lb ed="#Q"/>in Samaritanis, qui dixerunt mulieri<!--d-->: <quote>Iam non
+          <lb ed="#Q"/>in Samaritanis, qui dixerunt mulieri<!--d-->: <quote xml:id="ahsh-l1tinq2m3c4-Qd1e398">Iam non
           <lb ed="#Q"/>propter te credimus</quote><!--2-->.
         </p>
         <p xml:id="ahsh-l1tinq2m3c4-d1e3928">
-          <lb ed="#Q"/>2. Ad secundum quod obicitur quod <quote>fides
+          <lb ed="#Q"/>2. Ad secundum quod obicitur quod <quote xml:id="ahsh-l1tinq2m3c4-Qd1e409">fides
           <lb ed="#Q"/>est argumentum</quote> etc., eleganter quidam<!--3--> respon<lb ed="#Q"/>dendo
           dixerunt quod aliter se habet ratio in logicis
           <lb ed="#Q"/>ad iidem, aliter in theologicis. In logicis enim ratio
@@ -168,13 +161,13 @@
           rationes quibus probentur credenda<!--5-->.
         </p>
         <p xml:id="ahsh-l1tinq2m3c4-d1e3955">
-          <lb ed="#Q"/>3. Ad tertium quod obicit quod <quote>nihil est
+          <lb ed="#Q"/>3. Ad tertium quod obicit quod <quote xml:id="ahsh-l1tinq2m3c4-Qd1e454">nihil est
           <lb ed="#Q"/>homini certius sua fide</quote>, distinguendum est: quod
           <lb ed="#Q"/>est certitudo secundum speculationem intellectus,
           <lb ed="#Q"/>quae est per modum visus, et est certitudo se<lb ed="#Q"/>cundum
           sensum affectus<!--6-->, quae est per modum
           <lb ed="#Q"/>adhaerentiae<!--h7-->, voluntatis scilicet<!--i--> vel amoris. Et
-          <lb ed="#Q"/>hoc secundo<!--k--> modo intelligitur <quote>nihil est certius
+          <lb ed="#Q"/>hoc secundo<!--k--> modo intelligitur <quote xml:id="ahsh-l1tinq2m3c4-Qd1e478">nihil est certius
           <lb ed="#Q"/>homini sua fide</quote>, non primo.
         </p>
         <p xml:id="ahsh-l1tinq2m3c4-d1e3975">
@@ -189,7 +182,7 @@
           <lb ed="#Q"/>etsi medium sit infra intellectum humanum vel
           <lb ed="#Q"/>iuxta, nihil prohibet quin probet veritatem quae
           <lb ed="#Q"/>est supra humanam rationem vel intellectum, ut<!--l-->
-          <lb ed="#Q"/><quote source="http://scta.info/resource/rom1_20@1-19">invisibilia Dei, sempiterna quoque eius<!--m--> virtus et
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq2m3c4-Qd1e513" source="http://scta.info/resource/rom1_20@1-19">invisibilia Dei, sempiterna quoque eius<!--m--> virtus et
           <lb ed="#Q"/>divinitas, per ea quae facta sunt</quote>, <title>Rom.</title> 1, 20. Et
           <lb ed="#Q"/>hoc modo probantur credenda.
         </p>

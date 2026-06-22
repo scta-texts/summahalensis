@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="17"/><cb ed="#Q" n="a"/>
       </div>
@@ -65,7 +58,7 @@
           rationem Trinitas personarum<!--1-->.
         </p>
         <p xml:id="ahsh-l1tinq2m1c3-d1e3742">
-          <lb ed="#Q"/>Et videtur quod sic: a. <title>Rom.</title> 1, 20: <quote source="http://scta.info/resource/rom1_20@1-19">Invisibilia
+          <lb ed="#Q"/>Et videtur quod sic: a. <title>Rom.</title> 1, 20: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e132" source="http://scta.info/resource/rom1_20@1-19">Invisibilia
           <lb ed="#Q"/>Dei per ea quae facta sunt, intellecta conspiciun<lb ed="#Q"/>tur;
           sempiterna quoque<!--a--> eius virtus et divinitas</quote>.
           <lb ed="#Q"/>Ibi dicit <title>Glossa</title><!--a--> quod per illa tria <mentioned>invisibi<lb ed="#Q"/>lia,
@@ -74,13 +67,13 @@
           a philosophis<!--b--> per naturalem ra<lb ed="#Q"/>tionem.
         </p>
         <p xml:id="ahsh-l1tinq2m1c3-d1e3762">
-          b. Item, <name ref="#Aristotle">Philosophus</name>, in libro <title>De caelo et
+          b. Item, <name xml:id="ahsh-l1tinq2m1c3-Nd1e163" ref="#Aristotle">Philosophus</name>, in libro <title>De caelo et
           <lb ed="#Q"/>mundo</title>, in principio<!--3-->, ostendit quod ternarius est
           <lb ed="#Q"/>numerus omnis rei, et inducit<!--4--> in naturalibus,
           <lb ed="#Q"/>mathematicis et divinis: in naturalibus, ut<!--c--> motus
           <lb ed="#Q"/>a medio, motus ad medium, motus<!--d--> circa me<lb ed="#Q"/>dium;
           in mathematicis<!--e-->, ut linea, superficies, cor<lb ed="#Q"/>pus;
-          in divinis similiter. Unde dicit<!--5-->: <quote>Hoc nu<lb ed="#Q"/>mero
+          in divinis similiter. Unde dicit<!--5-->: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e195">Hoc nu<lb ed="#Q"/>mero
           adhibuimus nosmetipsi magnificare Deum
           <lb ed="#Q"/>unum, creatorem, eminentem<!--f-->, ex proprietatibus
           <lb ed="#Q"/>eorum quae creata sunt</quote>. Ergo et ipse Philo<cb ed="#Q" n="b"/><lb ed="#Q"/>sophus<!--g-->
@@ -88,19 +81,19 @@
           <lb ed="#Q"/>Trinitatis.
         </p>
         <p xml:id="ahsh-l1tinq2m1c3-d1e3791">
-          <lb ed="#Q"/>c. Item, <name>Trismegistus</name><!--6-->: <quote>Monas monadem
+          <lb ed="#Q"/>c. Item, <name xml:id="ahsh-l1tinq2m1c3-Nd1e220">Trismegistus</name><!--6-->: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e223">Monas monadem
           <lb ed="#Q"/>genuit et in se suum<!--h--> reflectit ardorem</quote>; ergo
-          <lb ed="#Q"/><name>Trismegistus</name> habuit notitiam Trinitatis, quia
+          <lb ed="#Q"/><name xml:id="ahsh-l1tinq2m1c3-Nd1e231">Trismegistus</name> habuit notitiam Trinitatis, quia
           <lb ed="#Q"/>monas gignens est Pater, monas genita Filius et
           <lb ed="#Q"/>ardor Spiritus Sanctus.
         </p>
         <p xml:id="ahsh-l1tinq2m1c3-d1e3804">
-          <lb ed="#Q"/>d. Item, <name>Augustinus</name>, in libro <title>De Trinitate</title><!--7-->:
-          <lb ed="#Q"/><quote>Philosophi sapientiam tripartitam esse</quote> dixe<lb ed="#Q"/>runt,
-          qua<!--i--> est significatio Trinitatis. <quote>Cui enim
+          <lb ed="#Q"/>d. Item, <name xml:id="ahsh-l1tinq2m1c3-Nd1e243">Augustinus</name>, in libro <title>De Trinitate</title><!--7-->:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq2m1c3-Qd1e249">Philosophi sapientiam tripartitam esse</quote> dixe<lb ed="#Q"/>runt,
+          qua<!--i--> est significatio Trinitatis. <quote xml:id="ahsh-l1tinq2m1c3-Qd1e256">Cui enim
           <lb ed="#Q"/>sunt eae adscribendae nisi auctori omnium crea<lb ed="#Q"/>turarum,
           datori intelligentiae, amoris inspiratori</quote>?
-          <lb ed="#Q"/>Unde vult dicere <name ref="#Augustine">Augustinus</name> quod Naturalis
+          <lb ed="#Q"/>Unde vult dicere <name xml:id="ahsh-l1tinq2m1c3-Nd1e265" ref="#Augustine">Augustinus</name> quod Naturalis
           <lb ed="#Q"/>Philosophia est de iis quae pertinent ad condi<lb ed="#Q"/>tionem
           naturae; Rationalis, de iis quae pertinent
           <lb ed="#Q"/>ad rationem et intelligentiam; Moralis, de iis quae
@@ -109,8 +102,8 @@
           amori seu bonitati, Spiritui Sancto.
         </p>
         <p xml:id="ahsh-l1tinq2m1c3-d1e3830">
-          <lb ed="#Q"/>Contra: 1. <title>Rom.</title> 1, 20: <quote>Invisibilia Dei</quote> etc.
-          <lb ed="#Q"/><title>Glossas</title><!--8-->: <quote><name ref="#Augustine">Augustinus</name> dicit philosophos non
+          <lb ed="#Q"/>Contra: 1. <title>Rom.</title> 1, 20: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e290">Invisibilia Dei</quote> etc.
+          <lb ed="#Q"/><title>Glossas</title><!--8-->: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e297"><name xml:id="ahsh-l1tinq2m1c3-Nd1e298" ref="#Augustine">Augustinus</name> dicit philosophos non
           <pb ed="#Q" n="19"/>
           <lb ed="#Q" n="a"/>
           <lb ed="#Q"/>
@@ -122,7 +115,7 @@
           <lb ed="#Q"/>sunt; sed in<!--b--> tertio signo deiecerunt magi, quia
           <lb ed="#Q"/>usque ad tertiam personam pervenire non value<lb ed="#Q"/>runt
           philosophi</quote>. - Respondeo, secundum
-          <lb ed="#Q"/><title>Glossam</title><!--1-->, quod <quote>cognitionem ipsius Trinitatis
+          <lb ed="#Q"/><title>Glossam</title><!--1-->, quod <quote xml:id="ahsh-l1tinq2m1c3-Qd1e342">cognitionem ipsius Trinitatis
           <lb ed="#Q"/>per propria ipsarum personarum non habuerunt
           <lb ed="#Q"/>nec habere potuerunt<!--c-->, nisi per doctrinam aut
           <lb ed="#Q"/>inspirationem; sed notitiam Trinitatis per appro<lb ed="#Q"/>priata
@@ -138,12 +131,12 @@
           <lb ed="#Q"/>et Filii, ita et personam Spiritus Sancti.
         </p>
         <p xml:id="ahsh-l1tinq2m1c3-d1e3891">
-          <lb ed="#Q"/>2. Item, nonne <name>Trismegistus</name> cognovit per<lb ed="#Q"/>sonas
-          per propria, cum dixit<!--2-->: <quote>Monas mona<lb ed="#Q"/>dem
+          <lb ed="#Q"/>2. Item, nonne <name xml:id="ahsh-l1tinq2m1c3-Nd1e388">Trismegistus</name> cognovit per<lb ed="#Q"/>sonas
+          per propria, cum dixit<!--2-->: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e394">Monas mona<lb ed="#Q"/>dem
           genuit et ardorem procedentem</quote>?
         </p>
         <p xml:id="ahsh-l1tinq2m1c3-d1e3900">
-          <lb ed="#Q"/>3. Item, <name>Richardus de S. Victore</name><!--3-->: <quote>Credo
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1tinq2m1c3-Nd1e404">Richardus de S. Victore</name><!--3-->: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e407">Credo
           <lb ed="#Q"/>sine dubio quod ad quorumcumque<!--h--> explanatio<lb ed="#Q"/>nem
           quae necesse est esse, non modo probabilia,
           <lb ed="#Q"/>immo et necessaria argumenta non deesse</quote>; sed
@@ -169,8 +162,8 @@
           et minime. Hinc est: cum esse divinarum
           <lb ed="#Q"/>personarum in unitate essentiae sit maxime et
           <lb ed="#Q"/>verissime, intellectus noster obtenebratus deficit.
-          <lb ed="#Q"/>Nec hoc est mirum, quia, sicut dicit <name>Aristote<lb ed="#Q"/>les</name>,
-          in <title>Prima Philosophia</title><!--4-->: <quote>Intellectus noster<!--n-->
+          <lb ed="#Q"/>Nec hoc est mirum, quia, sicut dicit <name xml:id="ahsh-l1tinq2m1c3-Nd1e477">Aristote<lb ed="#Q"/>les</name>,
+          in <title>Prima Philosophia</title><!--4-->: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e486">Intellectus noster<!--n-->
           <lb ed="#Q"/>se habet ad manifestissima naturae sicut oculus
           <lb ed="#Q"/>noctuae ad solem</quote>.
         </p>
@@ -188,9 +181,9 @@
           et sapientiam, non tamen habuerunt ap<lb ed="#Q"/>propriatum
           tertiae personae, scilicet bonitatem<!--5-->.
           <!--missing a p break here-->
-          <lb ed="#Q"/>2. Ad secundum dicendum quod<!--r-->, etsi <name>Tris<lb ed="#Q"/>megistus</name>
+          <lb ed="#Q"/>2. Ad secundum dicendum quod<!--r-->, etsi <name xml:id="ahsh-l1tinq2m1c3-Nd1e540">Tris<lb ed="#Q"/>megistus</name>
           intellexit propria personarum, cum
-          <lb ed="#Q"/>dixit: <quote>Monas monadem genuit</quote> etc., quod hoc
+          <lb ed="#Q"/>dixit: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e547">Monas monadem genuit</quote> etc., quod hoc
           <lb ed="#Q"/>habuit non per naturalem rationem, sed per doc<lb ed="#Q"/>trinam
           vel inspirationem<!--6-->.
         </p>
@@ -203,8 +196,8 @@
           <lb ed="#Q"/>rei, sed est defectus ex parte<!--v--> rationis confe<lb ed="#Q"/>rentis,
           id est intellectus nostri, qui non potest
           <lb ed="#Q"/>ipsum medium invenire et inventum conferre ad
-          <lb ed="#Q"/>concludendum veritatem. Unde dicit <name>Richar<lb ed="#Q"/>dus</name><!--x-->,
-          ibidem<!--7-->: <quote>Ad quaecumque necessaria est
+          <lb ed="#Q"/>concludendum veritatem. Unde dicit <name xml:id="ahsh-l1tinq2m1c3-Nd1e586">Richar<lb ed="#Q"/>dus</name><!--x-->,
+          ibidem<!--7-->: <quote xml:id="ahsh-l1tinq2m1c3-Qd1e594">Ad quaecumque necessaria est
           <lb ed="#Q"/>esse argumenta, non deesse, quamvis contingat
           <lb ed="#Q"/>nostram industriam latere</quote>.
         </p>
@@ -212,4 +205,3 @@
     </body>
   </text>
 </TEI>
-

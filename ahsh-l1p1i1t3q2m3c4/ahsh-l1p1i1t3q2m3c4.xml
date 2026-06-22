@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="158"/><cb ed="#Q" n="a"/>
       </div>
@@ -75,16 +69,16 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c4-d1e3763">
           <lb ed="#Q"/>Contra: a. Sicut se habet bonum ad malum,
-          <lb ed="#Q"/>sic verum ad falsum. Si ergo, ut dicit<!--h--> <name>Diony<lb ed="#Q"/>sius</name>,
-          <title>De divinis nominibus</title><!--4-->, <quote>bonum substan<lb ed="#Q"/>tificat<!--i-->
+          <lb ed="#Q"/>sic verum ad falsum. Si ergo, ut dicit<!--h--> <name xml:id="ahsh-l1p1i1t3q2m3c4-Nd1e158">Diony<lb ed="#Q"/>sius</name>,
+          <title>De divinis nominibus</title><!--4-->, <quote xml:id="ahsh-l1p1i1t3q2m3c4-Qd1e167">bonum substan<lb ed="#Q"/>tificat<!--i-->
           privationem suam sui participatione</quote>, quod
-          <lb ed="#Q"/>est malum, <quote>omnino enim bono abeunte, non erit
+          <lb ed="#Q"/>est malum, <quote xml:id="ahsh-l1p1i1t3q2m3c4-Qd1e176">omnino enim bono abeunte, non erit
           <lb ed="#Q"/>bonum neque mixtum neque malum</quote>: ergo simi<lb ed="#Q"/>liter
           verum substantificabit suam privationem,
           <lb ed="#Q"/>quae est falsum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c4-d1e3783">
-          <lb ed="#Q"/>b. Item, <name ref="#Augustine">Augustinus</name>, in <title>Soliloquiis</title><!--5-->: <quote>Tra<lb ed="#Q"/>goedus,
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t3q2m3c4-Nd1e190" ref="#Augustine">Augustinus</name>, in <title>Soliloquiis</title><!--5-->: <quote xml:id="ahsh-l1p1i1t3q2m3c4-Qd1e196">Tra<lb ed="#Q"/>goedus,
           qui repraesentabat alienas personas in
           <lb ed="#Q"/>theatris, non esset falsus Hector, si non esset
           <lb ed="#Q"/>verus tragoedus. Similiter equus pictus non esset
@@ -95,8 +89,8 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m3c4-d1e3806">
           <lb ed="#Q"/>Respondeo: Concedo quod falsum substantifi<cb ed="#Q" n="b"/><lb ed="#Q"/>catur
-          in aliquo vero, quia, sicut dicit <name>Augusti<lb ed="#Q"/>nus</name><!--6-->:
-          <quote>Res, quae omnino non est, non potest
+          in aliquo vero, quia, sicut dicit <name xml:id="ahsh-l1p1i1t3q2m3c4-Nd1e224">Augusti<lb ed="#Q"/>nus</name><!--6-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m3c4-Qd1e230">Res, quae omnino non est, non potest
           <lb ed="#Q"/>dici falsum<!--l-->; si enim falsum est, est</quote>. Omne ergo
           <lb ed="#Q"/>falsum subsistit in ente; sed omne ens est ve<lb ed="#Q"/>rum,
           quia convertuntur verum et ens; ergo omne
@@ -120,7 +114,7 @@
           vero in quo subsistit<!--q-->, sed opponitur
           <lb ed="#Q"/>vero in quo non subsistit: ut falsus equus non
           <lb ed="#Q"/>opponitur picturae equi, sed vero equo. Immo
-          <lb ed="#Q"/>sicut dicit <name ref="#Augustine">Augustinus</name>, in <title>Soliloquiis</title><!--7-->: <quote>In
+          <lb ed="#Q"/>sicut dicit <name xml:id="ahsh-l1p1i1t3q2m3c4-Nd1e298" ref="#Augustine">Augustinus</name>, in <title>Soliloquiis</title><!--7-->: <quote xml:id="ahsh-l1p1i1t3q2m3c4-Qd1e304">In
           <lb ed="#Q"/>huiusmodi ad suum verum eis prodest quod
           <lb ed="#Q"/>ad aliud falsa sunt. Nam unde vera hominis in
           <lb ed="#Q"/>speculo imago, si non esset falsus homo? aut

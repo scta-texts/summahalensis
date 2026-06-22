@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="135"/><cb ed="#Q" n="a"/>
       </div>
@@ -94,7 +88,7 @@
           </p>
           <p xml:id="ahsh-l1p1i1t3q1m3c3-d1e3808">
             <lb ed="#Q"/>Contra: 1. Unitas in componentibus<!--f--> est unitas
-            <lb ed="#Q"/>secundum quid: unde <name ref="#Augustine">Augustinus</name>, in libro
+            <lb ed="#Q"/>secundum quid: unde <name xml:id="ahsh-l1p1i1t3q1m3c3-Nd1e206" ref="#Augustine">Augustinus</name>, in libro
             <lb ed="#Q"/><title>De natura summi boni</title><!--3-->, dicit quod materia non
             <lb ed="#Q"/>habet unitatem nisi secundum quid, sicut nec esse
             <lb ed="#Q"/>nisi secundum quid; sed unitas simpliciter<!--g--> ma<lb ed="#Q"/>gis

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="206"/><cb ed="#Q" n="a"/>
       </div>
@@ -70,17 +64,17 @@
           <lb ed="#Q"/>ordinem et quantum ad extensionem.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e3756">
-          <lb ed="#Q"/>I. Quantum ad ordinem obicitur: 1. <name>Ansel<lb ed="#Q"/>mus</name>,
-          in libro <title>Cur Deus homo</title>, II libro<!--3-->: <quote>Omnis
+          <lb ed="#Q"/>I. Quantum ad ordinem obicitur: 1. <name xml:id="ahsh-l1p1i1t4q1m2c2-Nd1e128">Ansel<lb ed="#Q"/>mus</name>,
+          in libro <title>Cur Deus homo</title>, II libro<!--3-->: <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e137">Omnis
           <lb ed="#Q"/>potestas sequitur voluntatem</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e3765">
-          <lb ed="#Q"/>2. Item, <title>Sap.</title> 13,18: <quote>Tibi subest, Domine, cum
+          <lb ed="#Q"/>2. Item, <title>Sap.</title> 13,18: <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e149">Tibi subest, Domine, cum
           <lb ed="#Q"/>volueris, posse</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e3773">
-          <lb ed="#Q"/>3. Item, dicit <name>Hugo</name><!--i-->, in suis <title>Sententiis</title><!--4-->, quod
-          <lb ed="#Q"/><quote>voluntas movet, scientia disponit, potentia ope<lb ed="#Q"/>ratur</quote>.
+          <lb ed="#Q"/>3. Item, dicit <name xml:id="ahsh-l1p1i1t4q1m2c2-Nd1e160">Hugo</name><!--i-->, in suis <title>Sententiis</title><!--4-->, quod
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e167">voluntas movet, scientia disponit, potentia ope<lb ed="#Q"/>ratur</quote>.
           Ex iis relinquitur quod voluntas prior est
           <lb ed="#Q"/>quam scientia et potentia.
         </p>
@@ -93,17 +87,17 @@
           <lb ed="#Q"/>II. Item, quaeritur de ambitu sive<!--k--> extensione.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e3798">
-          <lb ed="#Q"/>a. Nam dicit <name ref="#Augustine">Augustinus</name>, in <title>Quaestionibus
-          <lb ed="#Q"/>Veteris ac Novae Legis</title><!--5-->: <quote>Omnia quidem potest
+          <lb ed="#Q"/>a. Nam dicit <name xml:id="ahsh-l1p1i1t4q1m2c2-Nd1e196" ref="#Augustine">Augustinus</name>, in <title>Quaestionibus
+          <lb ed="#Q"/>Veteris ac Novae Legis</title><!--5-->: <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e205">Omnia quidem potest
           <lb ed="#Q"/>Deus, sed non facit nisi quod convenit veritati
           <lb ed="#Q"/>eius et iustitiae</quote>, id est voluntati quae est vera
           <lb ed="#Q"/>et iusta; ergo in<!--l--> plus se extendit potentia quam
           <lb ed="#Q"/>voluntas.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e3814">
-          <lb ed="#Q"/>b. Item, <name ref="#Augustine">Augustinus</name>, in eodem<!--6-->: <quote>Potuit
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t4q1m2c2-Nd1e224" ref="#Augustine">Augustinus</name>, in eodem<!--6-->: <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e229">Potuit
           <lb ed="#Q"/>Deus cuncta simul facere, sed ratio prohibuit</quote>,
-          <lb ed="#Q"/><quote>id est voluntas</quote>, sicut exponit <ref>Magister, 42
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e235">id est voluntas</quote>, sicut exponit <ref xml:id="ahsh-l1p1i1t4q1m2c2-Rd1e238">Magister, 42
           <lb ed="#Q"/>dist. I libri.</ref>
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e3828">
@@ -131,8 +125,8 @@
           <lb ed="#Q"/>plus se extendit voluntas quam potentia.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e3875">
-          <lb ed="#Q"/>3. Item, <name>Ambrosius</name>, In <title>Luc.</title> 5,12, super il<lb ed="#Q"/>lud:
-          <quote source="http://scta.info/resource/lc5_12@24-29">Domine, si vis, potes me mundare</quote><!--7-->: <quote>Vide<pb ed="#Q" n="207"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tis
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t4q1m2c2-Nd1e309">Ambrosius</name>, In <title>Luc.</title> 5,12, super il<lb ed="#Q"/>lud:
+          <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e315" source="http://scta.info/resource/lc5_12@24-29">Domine, si vis, potes me mundare</quote><!--7-->: <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e320">Vide<pb ed="#Q" n="207"/><cb ed="#Q" n="a"/><lb ed="#Q"/>tis
           quod dubitari non potest quod voluntas Dei
           <lb ed="#Q"/>est potestas</quote>. Ergo coaequalia sunt voluntas Dei
           <lb ed="#Q"/>et potestas.
@@ -140,12 +134,12 @@
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e3891">
           <lb ed="#Q"/>4. Item, obicitur: eum Deus faciat multa se<lb ed="#Q"/>cundum
           rationem misericordiae, ergo non videtur
-          <lb ed="#Q"/>verum dicere <name ref="#Augustine">Augustinus</name><!--1--> quod <quote>Deus non
+          <lb ed="#Q"/>verum dicere <name xml:id="ahsh-l1p1i1t4q1m2c2-Nd1e340" ref="#Augustine">Augustinus</name><!--1--> quod <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e344">Deus non
           <lb ed="#Q"/>faciat nisi quod condecet veritati eius et iusti<lb ed="#Q"/>tiae</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e3904">
           <lb ed="#Q"/>5. Item, videtur falsum dicere, cum dicit<!--2-->:
-          <quote>Cuncta potuit Deus<!--b--> simul facere, sed ratio pro<lb ed="#Q"/>hibuit</quote>,
+          <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e358">Cuncta potuit Deus<!--b--> simul facere, sed ratio pro<lb ed="#Q"/>hibuit</quote>,
           quia quod prohibet, contrariatur ei quod
           <lb ed="#Q"/>prohibet. Si ergo ratio prohibuit potentiam, ergo
           <lb ed="#Q"/>voluntas contrariatur potentiae. Item, ratio aut
@@ -176,8 +170,8 @@
           <lb ed="#Q"/>sunt idem, sed quia executio potentiae in actum
           <lb ed="#Q"/>est a voluntate; ratione ergo eius in<!--g--> quod est
           <lb ed="#Q"/>potentia, dicitur potentia sequi voluntatem, non
-          <lb ed="#Q"/>ratione sui. Et haec est intentio <name>Anselmi</name>, in libro
-          <lb ed="#Q"/><title>Cur Deus homo</title><!--3-->: <quote>Omnis potestas sequitur vo<lb ed="#Q"/>luntatem.
+          <lb ed="#Q"/>ratione sui. Et haec est intentio <name xml:id="ahsh-l1p1i1t4q1m2c2-Nd1e440">Anselmi</name>, in libro
+          <lb ed="#Q"/><title>Cur Deus homo</title><!--3-->: <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e447">Omnis potestas sequitur vo<lb ed="#Q"/>luntatem.
           Cum enim dico<!--h--> <mentioned>possum loqui vel am<lb ed="#Q"/>bulare</mentioned>,
           subauditur <mentioned>si volo</mentioned>; si enim non sub<lb ed="#Q"/>intelligitur
           voluntas, non est potestas, sed neces<lb ed="#Q"/>sitas</quote>.
@@ -208,7 +202,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e4032">
           <lb ed="#Q"/>[Ad obiecta]: 4. Ad illud vero quod obicit
-          <lb ed="#Q"/>contra <name ref="#Augustine">Augustinum</name>, quod <mentioned>Deus multa facit
+          <lb ed="#Q"/>contra <name xml:id="ahsh-l1p1i1t4q1m2c2-Nd1e537" ref="#Augustine">Augustinum</name>, quod <mentioned>Deus multa facit
           <lb ed="#Q"/>de misericordia, non ergo de iustitia</mentioned>: dicendum
           <lb ed="#Q"/>quod iustitia dicitur dupliciter. Uno modo retri<lb ed="#Q"/>butio
           unicuique secundum merita: et sic non
@@ -217,14 +211,14 @@
           <lb ed="#Q"/>facit nisi quod condecet iustitiae<!--6-->;
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c2-d1e4052">
-          <lb ed="#Q"/>5. Ad aliud<!--r--> vero quod dicitur <quote>ratio pro<lb ed="#Q"/>hibuit</quote>:
+          <lb ed="#Q"/>5. Ad aliud<!--r--> vero quod dicitur <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e567">ratio pro<lb ed="#Q"/>hibuit</quote>:
           dicendum quod ratio dicit principaliter
           <lb ed="#Q"/>divinam voluntatem, sed connotat ordinem in crea<lb ed="#Q"/>tura
           respectu rerum fiendarum, principaliter au<lb ed="#Q"/>tem
           ordinem meriti ad praemium et culpae ad
           <lb ed="#Q"/>poenam; contra autem ordinem esset, si puniret
           <lb ed="#Q"/>ante culpam vel praemiaret sine merito praece<lb ed="#Q"/>denti.
-          Quod ergo dicitur <quote>ratio prohibuit, id est
+          Quod ergo dicitur <quote xml:id="ahsh-l1p1i1t4q1m2c2-Qd1e585">ratio prohibuit, id est
           <lb ed="#Q"/>voluntas</quote>, non dicitur voluntas prohibere poten<lb ed="#Q"/>tiam,
           sed executionem potentiae; item, nec pro<lb ed="#Q"/>hibitio
           refertur ad principale, quod est divina vo<lb ed="#Q"/>luntas,

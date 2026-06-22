@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="188"/><cb ed="#Q" n="a"/>
       </div>
@@ -78,8 +72,8 @@
           <head xml:id="ahsh-l1p1i1t3q3m3c5-Hd1e3768" type="question-title">An Deus permittat mala fieri in universitate<!--6-->.</head>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3771">
             <lb ed="#Q"/>
-            <lb ed="#Q"/>Ad. primum sic: 1. <quote>Optimi est optima addu<lb ed="#Q"/>cere</quote>,
-            secundum quod dicit <name ref="#Dionysius">B. Dionysius</name><!--7-->; me<cb ed="#Q" n="b"/><lb ed="#Q"/>liores
+            <lb ed="#Q"/>Ad. primum sic: 1. <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e149">Optimi est optima addu<lb ed="#Q"/>cere</quote>,
+            secundum quod dicit <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e154" ref="#Dionysius">B. Dionysius</name><!--7-->; me<cb ed="#Q" n="b"/><lb ed="#Q"/>liores
             autem essent res, si essent impermixtae ma<lb ed="#Q"/>lis;
             quomodo ergo permittit mala admisceri bonis?
           </p>
@@ -95,8 +89,8 @@
             <lb ed="#Q"/>operatur optimus Deus.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3807">
-            <lb ed="#Q"/>Respondet <name ref="#Augustine">Augustinus</name>, in <title>Enchiridion</title>,
-            <lb ed="#Q"/><title>II cap</title>.<!--1-->: <quote>Malum bene ordinatum etc suo loco
+            <lb ed="#Q"/>Respondet <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e195" ref="#Augustine">Augustinus</name>, in <title>Enchiridion</title>,
+            <lb ed="#Q"/><title>II cap</title>.<!--1-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e206">Malum bene ordinatum etc suo loco
             <lb ed="#Q"/>positum eminentius commendat<!--d--> bona, ut magis
             <lb ed="#Q"/>placeant et laudabiliora fiant dum comparantur
             <lb ed="#Q"/>malis</quote><!--e-->. Propter ipsam ergo bonorum pulcritu<lb ed="#Q"/>dinem
@@ -107,24 +101,24 @@
             oppositi mali pulcrius elucescat<!--2-->.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3832">
-            <lb ed="#Q"/>Ad illud quod obicit<!--3-->, respondet <name>Augusti<lb ed="#Q"/>nus</name>
-            alibi, dicens<!--4-->: <quote>Singula fecit Deus bona,
+            <lb ed="#Q"/>Ad illud quod obicit<!--3-->, respondet <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e241">Augusti<lb ed="#Q"/>nus</name>
+            alibi, dicens<!--4-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e248">Singula fecit Deus bona,
             <lb ed="#Q"/>sed in universo valde bona</quote>. Optima ergo re<cb ed="#Q" n="b"/><lb ed="#Q"/>rum
             universitas, secundum quod possibile<!--g--> est,
             <lb ed="#Q"/>quamvis quaelibet res non sit optima in suo ge<lb ed="#Q"/>nere.
-            Unde<!--5--> <title>Gen.</title> 1,10 ad singula dicitur: <quote source="http://scta.info/resource/gen1_10@11-15">Vidit
+            Unde<!--5--> <title>Gen.</title> 1,10 ad singula dicitur: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e268" source="http://scta.info/resource/gen1_10@11-15">Vidit
             <lb ed="#Q"/>Deus quod esset bonum</quote>; ad completionem vero
-            <lb ed="#Q"/>Scriptura veniens ait<!--6-->: <quote>Vidit Deus cuncta quae fe<lb ed="#Q"/>cerat,
+            <lb ed="#Q"/>Scriptura veniens ait<!--6-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e277">Vidit Deus cuncta quae fe<lb ed="#Q"/>cerat,
             et erant valde bona</quote>. Dicit<!--h--> ergo quod, suppo<lb ed="#Q"/>sito
             quod malum non esset, non essent res in uni<lb ed="#Q"/>verso
             pulcriores. — Per hoc<!--I--> solvuntur obiecta.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3862">
-            <lb ed="#Q"/>Aliam etiam<!--k--> causam assignat <name ref="#Augustine">Augustinus</name>,
+            <lb ed="#Q"/>Aliam etiam<!--k--> causam assignat <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e298" ref="#Augustine">Augustinus</name>,
             <lb ed="#Q"/>scilicet utilitatem; non enim, inquit, permittit
             <lb ed="#Q"/>Deus mala fieri in re publica<!--l-->, nisi ut bonum ex
             <lb ed="#Q"/>eo eliciat. Unde, in <title>XI De civitate Dei</title><!--7--> ait<!--m-->:
-            <quote>Deus malis voluntatibus utitur bene<!--n-->; prosunt
+            <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e315">Deus malis voluntatibus utitur bene<!--n-->; prosunt
             <lb ed="#Q"/>enim diaboli tentationes sanctis. Neque enim Deus
             <lb ed="#Q"/>aliquem angelorum aut hominum<!--o--> malum futu<lb ed="#Q"/>rum
             praescivisset, nisi pariter nosset quibus eos
@@ -148,24 +142,24 @@
             est bene ordinatum?
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3914">
-            <lb ed="#Q"/>2. Item, <quote>albius est quod est nigro imper<lb ed="#Q"/>mixtius</quote><!--8-->.
+            <lb ed="#Q"/>2. Item, <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e372">albius est quod est nigro imper<lb ed="#Q"/>mixtius</quote><!--8-->.
             Ergo melius quod malo impermixtius<!--r-->.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3922">
             <lb ed="#Q"/>3. Item, mulier quae non habet maculam, pul<lb ed="#Q"/>crior
             est quam si haberet maculam et laudabi<lb ed="#Q"/>lioris
             pulcritudinis; unde in laude Sponsae dici<lb ed="#Q"/>tur
-            in <title>Cant.</title><!--9-->: <quote source="http://scta.info/resource/cant4_7@1-11">Tota pulcra es, amica mea, et ma<lb ed="#Q"/>cula
+            in <title>Cant.</title><!--9-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e396" source="http://scta.info/resource/cant4_7@1-11">Tota pulcra es, amica mea, et ma<lb ed="#Q"/>cula
             non est in te</quote>. Igitur universitas rerum, si
             <lb ed="#Q"/>macula careret mali, pulcrior esset et laudabilior.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e3938">
-            <lb ed="#Q"/>4. Item, <title>Eccle.</title> 10,11 : <quote source="http://scta.info/resource/qoh10_5@1-6">Est malum, quod vidi sub
+            <lb ed="#Q"/>4. Item, <title>Eccle.</title> 10,11 : <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e410" source="http://scta.info/resource/qoh10_5@1-6">Est malum, quod vidi sub
             <lb ed="#Q"/>sole: stultum positum in dignitate sublimi</quote>; sed
             <lb ed="#Q"/>sic videmus malos ordinatos ut in pluribus; ergo
             <lb ed="#Q"/>talis ordinatio est mala, cum scilicet illi qui de<lb ed="#Q"/>bent
             ordinari deorsum, ponuntur sursum. Dicit
-            <lb ed="#Q"/>enim <name>Origenes</name>, <title>Super Numeros</title><!--10-->: <quote>Homines vi<cb ed="#Q" n="b"/><lb ed="#Q"/>lis
+            <lb ed="#Q"/>enim <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e424">Origenes</name>, <title>Super Numeros</title><!--10-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e429">Homines vi<cb ed="#Q" n="b"/><lb ed="#Q"/>lis
             vitae bene ordinati sunt ad vilia officia, ut sci<lb ed="#Q"/>licet
             purgent vias civitatis</quote> . Mali ergo bene or<lb ed="#Q"/>dinantur
             in vili loco; boni ergo in eminentiori.
@@ -173,21 +167,21 @@
             vero alterius<!--s--> ordinatum dupliciter. Uno
             <lb ed="#Q"/>modo ratione subsistentis boni, scilicet naturae
             <lb ed="#Q"/>peccantis, quae scilicet ordinatur ad poenam,
-            <lb ed="#Q"/>sicut dicit <name ref="#Augustine">Augustinus</name>, in libro <title>De natura
-            <lb ed="#Q"/>boni</title><!--11-->: <quote>Peccantes in suppliciis ordinantur; quae
+            <lb ed="#Q"/>sicut dicit <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e453" ref="#Augustine">Augustinus</name>, in libro <title>De natura
+            <lb ed="#Q"/>boni</title><!--11-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e462">Peccantes in suppliciis ordinantur; quae
             <lb ed="#Q"/>ordinatio, quia naturae eorum non competit, ideo
             <lb ed="#Q"/>poena est, sed quia culpae convenit, iustitia est</quote>.
             — Alio modo ordinatur ratione compositi boni,
-            <lb ed="#Q"/>secundum quod dicit <name ref="#Augustine">Augustinus</name>, in <title>XI De
-            <lb ed="#Q"/>civitate Dei</title><!--12-->: <quote>Saeculum<!--t--> quibusdam antithetis
+            <lb ed="#Q"/>secundum quod dicit <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e472" ref="#Augustine">Augustinus</name>, in <title>XI De
+            <lb ed="#Q"/>civitate Dei</title><!--12-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e481">Saeculum<!--t--> quibusdam antithetis
             <lb ed="#Q"/>honestavit tamquam carmen<!--u--> pulcherrimum; anti<lb ed="#Q"/>theta
             vero vocatur contrapositio. Sic ergo con<lb ed="#Q"/>traria
             contrariis apposita<!--13--> sermonis pulcritudi<lb ed="#Q"/>nem
-            reddunt, ut ait <name ref="#Paul">Apostolus</name>, <title>II Cor.</title> 6,8: <quote source="http://scta.info/resource/IIcor6_8@1-9">Per
+            reddunt, ut ait <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e498" ref="#Paul">Apostolus</name>, <title>II Cor.</title> 6,8: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e503" source="http://scta.info/resource/IIcor6_8@1-9">Per
             <lb ed="#Q"/>gloriam et ignobilitatem, per infamiam et bonam
             <lb ed="#Q"/>famam</quote>: in quadam non verborum, sed rerum
             <lb ed="#Q"/>eloquentia saeculi pulcritudo componitur. Unde<!--a-->
-            <lb ed="#Q"/><title>Eccli.</title> 33,15: <quote source="http://scta.info/resource/sir33_15@1-26">Contra malum bonum et contra vitam
+            <lb ed="#Q"/><title>Eccli.</title> 33,15: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e518" source="http://scta.info/resource/sir33_15@1-26">Contra malum bonum et contra vitam
             <lb ed="#Q"/>mors, et sic intuere in omnia<!--b--> opera Altissimi
             <lb ed="#Q"/>unum contra unum et duo contra duo</quote></quote>.
           </p>
@@ -214,11 +208,11 @@
             bonorum. Unde quamvis teneat illa com<lb ed="#Q"/>paratio<!--g-->
             in bonis singulis, quod tanto melius
             <lb ed="#Q"/>quanto impermixtius, non<!--h--> tamen tenet in univer<lb ed="#Q"/>sitate
-            bonorum. Quod declaratur exemplo <name>Augu<lb ed="#Q"/>stini</name>,
-            in libro<!--i--> <title>De natura boni</title><!--1-->: <quote>Sicut nos
+            bonorum. Quod declaratur exemplo <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e590">Augu<lb ed="#Q"/>stini</name>,
+            in libro<!--i--> <title>De natura boni</title><!--1-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e601">Sicut nos
             <lb ed="#Q"/>continendo vocem, decenter interponimus in lo<lb ed="#Q"/>quendo
             silentium, quanto magis ille</quote>, scilicet
-            <lb ed="#Q"/>Deus, <quote>quarumdam rerum privationes decenter
+            <lb ed="#Q"/>Deus, <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e610">quarumdam rerum privationes decenter
             <lb ed="#Q"/>esse facit, sicut rerum omnium perfectus artifex</quote>!
             <lb ed="#Q"/>Ex quo ostenditur quod sicut sermonis decentia
             <lb ed="#Q"/>maior est cum<!--k--> interpositione silentii quam si
@@ -228,52 +222,52 @@
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4078">
             <lb ed="#Q"/>3. Ad tertio obiectum dicendum quod prima
-            <lb ed="#Q"/>propositio est falsa indistincte sumpta: <quote>in tali
+            <lb ed="#Q"/>propositio est falsa indistincte sumpta: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e637">in tali
             <lb ed="#Q"/>enim loco posset mulier habere maculam</quote><!--2--> quod
             <lb ed="#Q"/>sederet convenienter et esset signum pulcritudi<lb ed="#Q"/>nis
             maioris, sicut patet in cicatrice vulneris in
             <lb ed="#Q"/>facie militis, cum est in loco debito, ipsum red<cb ed="#Q" n="b"/>dit
-            pulcriorem. Unde <name ref="#Augustine">Augustinus</name>, <title>De civitate
-            <lb ed="#Q"/>Dei</title><!--3-->, tale ponit exemplum: <quote>Sicut pictura cum
+            pulcriorem. Unde <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e652" ref="#Augustine">Augustinus</name>, <title>De civitate
+            <lb ed="#Q"/>Dei</title><!--3-->, tale ponit exemplum: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e661">Sicut pictura cum
             <lb ed="#Q"/>colore nigro in suo loco posita, ita universitas
-            <lb ed="#Q"/>rerum</quote> in suo loco posita <quote>etiam<!--a--> [cum pec<lb ed="#Q"/>catoribus]
+            <lb ed="#Q"/>rerum</quote> in suo loco posita <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e669">etiam<!--a--> [cum pec<lb ed="#Q"/>catoribus]
             pulcra est, quamvis per se ipsos con<lb ed="#Q"/>sideratos<!--b-->
             sua deformitas turpet</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4107">
             <lb ed="#Q"/>4. Ad ultimum distinguendum quod duplex
             <lb ed="#Q"/>est mali ordinatio: quaedam est manifesta, quae<lb ed="#Q"/>dam
-            est<!--c--> occulta. <quote>Manifesta, ut cum mali or<lb ed="#Q"/>dinantur
-            in poena aeterna</quote><!--4-->: <quote>melius enim<!--d-->,
-            <lb ed="#Q"/>sicut dicit <name ref="#Augustine">Augustinus</name><!--5-->, ordinata est natura,
+            est<!--c--> occulta. <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e691">Manifesta, ut cum mali or<lb ed="#Q"/>dinantur
+            in poena aeterna</quote><!--4-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e698">melius enim<!--d-->,
+            <lb ed="#Q"/>sicut dicit <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e704" ref="#Augustine">Augustinus</name><!--5-->, ordinata est natura,
             <lb ed="#Q"/>si iuste doleat in supplicio, quam si impune gau<lb ed="#Q"/>deat
             in peccato<!--e--></quote>; vel in poena temporali, ut humi<lb ed="#Q"/>lietur
-            in peccatis: iustum enim est ut <quote source="http://scta.info/resource/ap22_11@6-11">qui in sor<lb ed="#Q"/>dibus
+            in peccatis: iustum enim est ut <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e716" source="http://scta.info/resource/ap22_11@6-11">qui in sor<lb ed="#Q"/>dibus
             est sordescat adhuc</quote>, secundum quod dici<lb ed="#Q"/>tur
-            <title>Apoc.</title> ultimo, 11. — <quote>Est etiam ordinatio<!--f-->
+            <title>Apoc.</title> ultimo, 11. — <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e725">Est etiam ordinatio<!--f-->
             <lb ed="#Q"/>mali occulta, secundum quod Deus<!--g--> facit malum
             <lb ed="#Q"/>principem regnare</quote><!--6--> propter multas causas. Prima
             <lb ed="#Q"/>est [propter] peccata<!--h--> populi, sicut dicitur in <title>Iob</title><!--7-->;
-            <lb ed="#Q"/>congruum est enim ut talis sit <quote>rector civitatis</quote>,
-            <lb ed="#Q"/>quales <quote>habitantes<!--i--> in ea</quote>, <title>Eccli.</title> 10,28. Secunda
-            <lb ed="#Q"/>propter utilitatem malorum: <quote>dat enim Dominus
+            <lb ed="#Q"/>congruum est enim ut talis sit <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e747">rector civitatis</quote>,
+            <lb ed="#Q"/>quales <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e752">habitantes<!--i--> in ea</quote>, <title>Eccli.</title> 10,28. Secunda
+            <lb ed="#Q"/>propter utilitatem malorum: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e761">dat enim Dominus
             <lb ed="#Q"/>regem in furore, <title>Osee</title> 13,11<!--9-->, quasi virgam et
             <lb ed="#Q"/>flagellum, ut compressi et flagellati ad Deum re<lb ed="#Q"/>dire
-            compellantur</quote>; <name ref="#GregoryGreat">Gregorius</name><!--10-->: <quote>Poena oculos
+            compellantur</quote>; <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e774" ref="#GregoryGreat">Gregorius</name><!--10-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e779">Poena oculos
             <lb ed="#Q"/>aperit, quos culpa claudit</quote><!--k-->. Tertia est propter
-            <lb ed="#Q"/>utilitatem bonorum, ut scilicet <quote>erudiantur et pu<lb ed="#Q"/>rificentur</quote>;
-            sicut enim <quote>in igne purgatur<!--l--> aurum</quote>,
-            <lb ed="#Q"/>sic iusti <quote>in<!--m--> camino</quote> tribulationis, <title>Eccli.</title> 2, 5<!--11-->.
-            <quote>Utraque tamen ordinatio<!--n--> mali competens est,
+            <lb ed="#Q"/>utilitatem bonorum, ut scilicet <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e787">erudiantur et pu<lb ed="#Q"/>rificentur</quote>;
+            sicut enim <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e792">in igne purgatur<!--l--> aurum</quote>,
+            <lb ed="#Q"/>sic iusti <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e800">in<!--m--> camino</quote> tribulationis, <title>Eccli.</title> 2, 5<!--11-->.
+            <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e809">Utraque tamen ordinatio<!--n--> mali competens est,
             <lb ed="#Q"/>sed secunda habet latentem<!--o--> causam; et ideo
-            <lb ed="#Q"/>signanter dicit <title>Eccle.</title><!--12-->: <quote source="http://scta.info/resource/qoh10_5@4-9">Vidi malum sub sole quasi
-            <lb ed="#Q"/>per errorem</quote></quote>, quasi diceret <quote><quote>non est error</quote> »,
-            <lb ed="#Q"/>sed videtur error</quote><!--p-->: <quote>error enim reputatur, dum
+            <lb ed="#Q"/>signanter dicit <title>Eccle.</title><!--12-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e823" source="http://scta.info/resource/qoh10_5@4-9">Vidi malum sub sole quasi
+            <lb ed="#Q"/>per errorem</quote></quote>, quasi diceret <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e828"><quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e829">non est error</quote> »,
+            <lb ed="#Q"/>sed videtur error</quote><!--p-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e836">error enim reputatur, dum
             <lb ed="#Q"/>ordinationis utilitas ignoratur</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4171">
-            <lb ed="#Q"/>Item obicitur:- <name ref="#Augustine">Augustinus</name>, in <title>III De li<lb ed="#Q"/>bero
-            arbitrio</title><!--13-->: <quote>Non erat difficile aut laborio<lb ed="#Q"/>sum
+            <lb ed="#Q"/>Item obicitur:- <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e847" ref="#Augustine">Augustinus</name>, in <title>III De li<lb ed="#Q"/>bero
+            arbitrio</title><!--13-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e856">Non erat difficile aut laborio<lb ed="#Q"/>sum
             omnipotenti Deo ut omnia quae fecit sic
             <lb ed="#Q"/>haberent<!--q--> ordinem suum, ut nulla creatura usque
             <lb ed="#Q"/>ad miseriam perveniret; non enim hoc aut omni<lb ed="#Q"/>potens
@@ -282,10 +276,10 @@
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4187">
             <pb ed="#Q" n="191"/>
             <cb ed="#Q" n="a"/>
-            <lb ed="#Q"/>Respondeo, secundum <name ref="#Augustine">Augustinum</name>, dicen<lb ed="#Q"/>tem<!--1-->
-            <quote>ordinem creaturarum a summa usque
+            <lb ed="#Q"/>Respondeo, secundum <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e878" ref="#Augustine">Augustinum</name>, dicen<lb ed="#Q"/>tem<!--1-->
+            <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e886">ordinem creaturarum a summa usque
             <lb ed="#Q"/>ad infimam gradibus iustis ita decurrere</quote>. Quem<lb ed="#Q"/>admodum
-            enim <quote>corporum differentias contem<lb ed="#Q"/>plando
+            enim <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e893">corporum differentias contem<lb ed="#Q"/>plando
             videns alia clariora, iniuste petis auferri
             <lb ed="#Q"/>quae obscuriora conspexeris aut clarioribus ad<lb ed="#Q"/>aequari;
             sed ad perfectionem universitatis refe<lb ed="#Q"/>rens
@@ -303,8 +297,8 @@
             <lb ed="#Q"/>fecerit longe inferiores animis miseris</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4235">
-            <lb ed="#Q"/>Sed iterum obicitur sic: 1. <name>Augusti<lb ed="#Q"/>nus</name>,
-            in eodem<!--2-->: <quote>Si universitatis perfectio<lb ed="#Q"/>nem
+            <lb ed="#Q"/>Sed iterum obicitur sic: 1. <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e937">Augusti<lb ed="#Q"/>nus</name>,
+            in eodem<!--2-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e944">Si universitatis perfectio<lb ed="#Q"/>nem
             complet etiam nostra<!--c--> miseria, defuisset
             <lb ed="#Q"/>aliquid huic<!--d--> perfectioni, si beati semper esse<lb ed="#Q"/>mus</quote><!--e-->.
           </p>
@@ -319,8 +313,8 @@
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4264">
             <lb ed="#Q"/>Respondeo: 1. Ad primum, secundum<!--f-->
-            <lb ed="#Q"/><name>Augustinum</name>, in libro <title>De libero arbitrio</title><!--3-->,
-            <quote>non ipsa peccata vel ipsam miseriam perfec<lb ed="#Q"/>tioni
+            <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e982">Augustinum</name>, in libro <title>De libero arbitrio</title><!--3-->,
+            <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e988">non ipsa peccata vel ipsam miseriam perfec<lb ed="#Q"/>tioni
             universitatis esse necessaria, sed animas,
             <lb ed="#Q"/>in quantum animae sunt, quae si velint peccant,
             <lb ed="#Q"/>si peccaverint miserae fiunt. Si enim, peccatis
@@ -337,8 +331,8 @@
             <lb ed="#Q"/>plena atque perfecta est</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4302">
-            <lb ed="#Q"/>2. Ad secundum respondet <name ref="#Augustine">Augustinus</name>,
-            <lb ed="#Q"/>in eodem libro, dicens: <quote>Non enim peccatum<!--k-->
+            <lb ed="#Q"/>2. Ad secundum respondet <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e1033" ref="#Augustine">Augustinus</name>,
+            <lb ed="#Q"/>in eodem libro, dicens: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e1038">Non enim peccatum<!--k-->
             <lb ed="#Q"/>et supplicium peccati naturae sunt quaedam, sed
             <lb ed="#Q"/>affectiones naturarum: illa voluntaria, ista poe<lb ed="#Q"/>nalis;
             sed voluntaria, quae in<!--l--> peccato fit, turpis
@@ -348,13 +342,13 @@
             emendet poena peccati</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4324">
-            <lb ed="#Q"/>3. Ad tertium similiter respondet <name>Augusti<lb ed="#Q"/>nus</name>,
-            in eodem libro<!--4-->, dicens: <quote>Hinc fit ut<!--n--> pec<lb ed="#Q"/>cans
+            <lb ed="#Q"/>3. Ad tertium similiter respondet <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e1067">Augusti<lb ed="#Q"/>nus</name>,
+            in eodem libro<!--4-->, dicens: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e1074">Hinc fit ut<!--n--> pec<lb ed="#Q"/>cans
             creatura superior a creaturis inferioribus
             <lb ed="#Q"/>puniatur, quia illae tantum<!--o--> sunt infimae<!--p--> ut
             <lb ed="#Q"/>ornari<!--q--> etiam a turpibus creaturis possint atque
             <lb ed="#Q"/>ita decori universitatis congruere</quote>. Et ponit exem<lb ed="#Q"/>plum
-            dicens: <quote>Quid enim tam magnum in domo
+            dicens: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e1097">Quid enim tam magnum in domo
             <lb ed="#Q"/>est quam homo? et quid tam abiectum et infi<lb ed="#Q"/>mum
             ut cloaca domus? Servus tamen in tali pec<lb ed="#Q"/>cato
             detectus<!--r--> ut mundandae<!--s--> cloacae dignus
@@ -364,7 +358,7 @@
             <lb ed="#Q"/>in quamdam sui generis unitatem, ita dispositae
             <lb ed="#Q"/>domui coaptatur atque subtexitur ut eius uni<lb ed="#Q"/>versitati
             ordinatissimo decore conveniat</quote>. —
-            <lb ed="#Q"/>Item, aliud ponit exemplum, dicens<!--5-->: <quote>Si bonum
+            <lb ed="#Q"/>Item, aliud ponit exemplum, dicens<!--5-->: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e1132">Si bonum
             <lb ed="#Q"/>et magnum aliquem virum<!--v-->, hortante honestatis
             <lb ed="#Q"/>officio, videamus ignibus, quantum ad corpus at<lb ed="#Q"/>tinet,
             concremari, non hoc vocamus poenam pec<lb ed="#Q"/>cati,
@@ -386,8 +380,8 @@
             <lb ed="#Q"/>Consequenter quaeritur I. an universitas esset
             <lb ed="#Q"/>melior, si omnia aequaliter essent bona.
             <cb ed="#Q" n="b"/>
-            <lb ed="#Q"/>Ad quod sic: a. <name ref="#Augustine">Augustinus</name>, <title>83 Quaestio<lb ed="#Q"/>num</title><!--6-->:
-            <quote>Si essent aequalia, non essent omnia;
+            <lb ed="#Q"/>Ad quod sic: a. <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e1190" ref="#Augustine">Augustinus</name>, <title>83 Quaestio<lb ed="#Q"/>num</title><!--6-->:
+            <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e1200">Si essent aequalia, non essent omnia;
             <pb ed="#Q" n="192"/>
             <cb ed="#Q" n="a"/>
             <lb ed="#Q"/>non enim essent multa rerum genera quibus con<lb ed="#Q"/>stituitur<!--a-->
@@ -403,7 +397,7 @@
             <lb ed="#Q"/>status?
           </p>
           <p xml:id="ahsh-l1p1i1t3q3m3c5-d1e4439">
-            <lb ed="#Q"/>Obicitur enim<!--d--> sic: <name>Damascenus</name>: <quote>Bo<lb ed="#Q"/>num
+            <lb ed="#Q"/>Obicitur enim<!--d--> sic: <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e1243">Damascenus</name>: <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e1245">Bo<lb ed="#Q"/>num
             est communicativum sui esse: haec est
             <lb ed="#Q"/>ratio communis omni bono</quote>; sed status est in
             <lb ed="#Q"/>bonis. Supponatur hoc. Sumamus ergo ultimum
@@ -429,8 +423,8 @@
             <cb ed="#Q" n="b"/>
             <lb ed="#Q"/>autem oportet esse ordinem in creaturis, ut una
             <lb ed="#Q"/>sit superior et<!--p--> magis recipiat de influentia bo<lb ed="#Q"/>nitatis
-            a Primo<!--4-->. Et ideo dicit <name ref="#Augustine">Augustinus</name><!--5-->
-            <lb ed="#Q"/>quod <quote>si essent aequalia, non essent omnia</quote>.
+            a Primo<!--4-->. Et ideo dicit <name xml:id="ahsh-l1p1i1t3q3m3c5-Nd1e1337" ref="#Augustine">Augustinus</name><!--5-->
+            <lb ed="#Q"/>quod <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e1343">si essent aequalia, non essent omnia</quote>.
             <lb ed="#Q"/>Quantum ergo est de potentia absoluta<!--q-->, bene
             <lb ed="#Q"/>posset Primum facere omnia esse aequalia; sed
             <lb ed="#Q"/>quod non sint aequalia<!--r-->, hoc est quia Primum
@@ -448,7 +442,7 @@
             <lb ed="#Q"/>status in ordinatione<!--t--> universi et sic nec com<lb ed="#Q"/>pletio
             sive perfectio in universo et sic periret
             <lb ed="#Q"/>ordinatio universi. Quia ergo Primum est agens
-            <lb ed="#Q"/>ordinate et perfecte, quia <quote>Dei perfecta sunt opera</quote><!--6-->,
+            <lb ed="#Q"/>ordinate et perfecte, quia <quote xml:id="ahsh-l1p1i1t3q3m3c5-Qd1e1392">Dei perfecta sunt opera</quote><!--6-->,
             ideo influentia ista non est in infinitum, immo est
             <lb ed="#Q"/>secundum reflexionem, ita quod ultimum<!--u--> bonum,
             <lb ed="#Q"/>in quo est status, est<!--v--> secundum reflexionem;

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="90"/><cb ed="#Q" n="a"/>
       </div>
@@ -62,8 +56,8 @@
           <lb ed="#Q"/>Postea quaeritur de invariabilitate aeternita<lb ed="#Q"/>tis.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c2-d1e3742">
-          <lb ed="#Q"/>Ad quod sic arguitur: a. <name ref="#Anselm">Anselmus</name>, in <title>Mo<lb ed="#Q"/>nologion</title><!--8-->:
-          <quote>Summam substantiam constat sine
+          <lb ed="#Q"/>Ad quod sic arguitur: a. <name xml:id="ahsh-l1p1i1t2q4m2c2-Nd1e126" ref="#Anselm">Anselmus</name>, in <title>Mo<lb ed="#Q"/>nologion</title><!--8-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e135">Summam substantiam constat sine
           <lb ed="#Q"/>principio et sine fine esse nec<!--r--> habere praeteritum
           <lb ed="#Q"/>aut futurum nec temporale hoc labile praesens quo
           <cb ed="#Q" n="b"/>
@@ -72,7 +66,7 @@
           <lb ed="#Q"/>partibus est</quote>. Sic ergo aeternitas est invariabilis.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c2-d1e3760">
-          <lb ed="#Q"/>b. Item, in eodem<!--9-->: <quote>Sicut summa essentia
+          <lb ed="#Q"/>b. Item, in eodem<!--9-->: <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e160">Sicut summa essentia
           <lb ed="#Q"/>semper sibi omni modo<!--s--> est eadem substantia<lb ed="#Q"/>liter,
           ita nunquam est a se diversa ullo modo
           <lb ed="#Q"/>vel accidentaliter</quote>. De summa ergo incommuta<pb ed="#Q" n="91"/><cb ed="#Q" n="a"/><lb ed="#Q"/>bili
@@ -82,15 +76,15 @@
           <lb ed="#Q"/>divinae essentiae poneretur mutabilitas.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c2-d1e3783">
-          <lb ed="#Q"/>Contra: 1.<name>Anselmus</name>, in <title ref="#Proslogion">Proslogion</title><!--1-->, loquens
-          <lb ed="#Q"/>ad Deum, sic obicit: <quote>Si per aeternitatem tuam,
+          <lb ed="#Q"/>Contra: 1.<name xml:id="ahsh-l1p1i1t2q4m2c2-Nd1e188">Anselmus</name>, in <title ref="#Proslogion">Proslogion</title><!--1-->, loquens
+          <lb ed="#Q"/>ad Deum, sic obicit: <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e196">Si per aeternitatem tuam,
           <lb ed="#Q"/>Deus, fuisti et es et eris, et esse non est fuisse
           <lb ed="#Q"/>vel futurum esse</quote>: ergo in tua aeternitate est va<lb ed="#Q"/>riatio
           et diversitas praesentis, praeteriti<!--a--> et futuri.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c2-d1e3796">
           <lb ed="#Q"/>2. Item, si responderetur, sicut ipse respondet
-          <lb ed="#Q"/>ibidem<!--2-->, quod <quote>de aeternitate Dei nihil praeterit
+          <lb ed="#Q"/>ibidem<!--2-->, quod <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e217">de aeternitate Dei nihil praeterit
           <lb ed="#Q"/>ut iam non sit, nec aliquid futurum est quasi
           <lb ed="#Q"/>nondum sit<!--b--> : non ergo fuit heri aut erit cras, sed
           <lb ed="#Q"/>heri et hodie et cras est; immo nec heri nec ho<lb ed="#Q"/>die
@@ -100,29 +94,29 @@
           de divina essentia praeterite vel future,
           <lb ed="#Q"/>falso enuntiantur; ergo ista <mentioned>Deus fuit</mentioned> vel haec
           <mentioned>Deus erit</mentioned> simili ratione et haec erit falsa <mentioned>Deus
-          <lb ed="#Q"/>est</mentioned>, cum, sicut ipse dicit, in <title ref="#Monologion">Monologion</title><!--3-->, <quote>sum<lb ed="#Q"/>ma
+          <lb ed="#Q"/>est</mentioned>, cum, sicut ipse dicit, in <title ref="#Monologion">Monologion</title><!--3-->, <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e254">sum<lb ed="#Q"/>ma
           substantia non habet hoc temporale labile
           <lb ed="#Q"/>praesens quo nos utimur</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c2-d1e3827">
-          <lb ed="#Q"/>3. Item, arguit <name ref="#Anselm">Anselmus</name>, in <title ref="#Monologion">Monologion</title><!--4-->,
-          <lb ed="#Q"/>sic: <quote>Nullo modo creatrix essentia aut aetas aut
+          <lb ed="#Q"/>3. Item, arguit <name xml:id="ahsh-l1p1i1t2q4m2c2-Nd1e266" ref="#Anselm">Anselmus</name>, in <title ref="#Monologion">Monologion</title><!--4-->,
+          <lb ed="#Q"/>sic: <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e275">Nullo modo creatrix essentia aut aetas aut
           <lb ed="#Q"/>aeternitas eius recipit praeteritum vel futurum;
           <lb ed="#Q"/>praesens enim quomodo non habet, si vere est?
           <lb ed="#Q"/>sed <mentioned>fuit</mentioned> significat praeteritum, et <mentioned>erit</mentioned> futurum;
           <lb ed="#Q"/>nunquam ergo illa fuit vel erit</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t2q4m2c2-d1e3843">
-          <lb ed="#Q"/>Respondeo, secundum <name>Anselmum</name>, in <title>Mo<lb ed="#Q"/>nologion</title><!--5-->:
-          <quote>Quamvis de localibus sive<!--c--> tempora<cb ed="#Q" n="b"/><lb ed="#Q"/>libus
+          <lb ed="#Q"/>Respondeo, secundum <name xml:id="ahsh-l1p1i1t2q4m2c2-Nd1e296">Anselmum</name>, in <title>Mo<lb ed="#Q"/>nologion</title><!--5-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e304">Quamvis de localibus sive<!--c--> tempora<cb ed="#Q" n="b"/><lb ed="#Q"/>libus
           naturis una sit prolatio propter loquendi con<lb ed="#Q"/>suetudinem,
           diversus tamen est intellectus propter
           <lb ed="#Q"/>rerum dissimilitudinem. In illis namque duo quae<lb ed="#Q"/>dam
           eadem prolatio significat</quote>, scilicet cum di<lb ed="#Q"/>cuntur
           res esse in loco vel tempore: unus intel<lb ed="#Q"/>lectus
-          est <quote>quia et praesentia sunt locis et
+          est <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e323">quia et praesentia sunt locis et
           <lb ed="#Q"/>temporibus, in quibus esse dicuntur</quote>; alius est
-          <quote>quia continentur ab ipsis. In summa vero es<lb ed="#Q"/>sentia
+          <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e328">quia continentur ab ipsis. In summa vero es<lb ed="#Q"/>sentia
           unum tantum percipitur, scilicet quia
           <lb ed="#Q"/>praesens est<!--d-->, non quia continetur. Unde si
           <lb ed="#Q"/>usus loquendi admitteret<!--e-->, convenientius videre<lb ed="#Q"/>tur
@@ -134,8 +128,8 @@
           <lb ed="#Q"/>cras</mentioned>: intelligitur <mentioned>non fuisse</mentioned> in praeterito con<lb ed="#Q"/>tentive,
           vel <mentioned>fore</mentioned> in futuro contentive, vel <mentioned>esse</mentioned>
           <lb ed="#Q"/>in tempore contentive, sicut temporalia. Et in hoc
-          <lb ed="#Q"/>sensu intelligit <name ref="#Anselm">Anselmus</name>, in <title ref="#Proslogion">Proslogion</title><!--6-->:
-          <quote>Nihil aliud est heri et hodie<!--i--> et cras quam
+          <lb ed="#Q"/>sensu intelligit <name xml:id="ahsh-l1p1i1t2q4m2c2-Nd1e375" ref="#Anselm">Anselmus</name>, in <title ref="#Proslogion">Proslogion</title><!--6-->:
+          <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e383">Nihil aliud est heri et hodie<!--i--> et cras quam
           <lb ed="#Q"/>in tempore: tu autem non es in loco vel tem<lb ed="#Q"/>pore,
           sed omnia sunt in te; nihil enim continet
           <lb ed="#Q"/>te, sed tu contines omnia</quote>.
@@ -143,8 +137,8 @@
         <p xml:id="ahsh-l1p1i1t2q4m2c2-d1e3897">
           <lb ed="#Q"/>Cum vero dicitur <mentioned>fuisse</mentioned> vel <mentioned>fore</mentioned> vel <mentioned>esse</mentioned>,
           <lb ed="#Q"/>intelligitur praesentia eius omni praeterito, omni
-          <lb ed="#Q"/>futuro, omni praesenti. Unde <name ref="#Augustine">Augustinus</name>, <title>Su<lb ed="#Q"/>per
-          Ioannem</title><!--7-->: <quote>Cum de sempiterna re proprie
+          <lb ed="#Q"/>futuro, omni praesenti. Unde <name xml:id="ahsh-l1p1i1t2q4m2c2-Nd1e410" ref="#Augustine">Augustinus</name>, <title>Su<lb ed="#Q"/>per
+          Ioannem</title><!--7-->: <quote xml:id="ahsh-l1p1i1t2q4m2c2-Qd1e419">Cum de sempiterna re proprie
           <lb ed="#Q"/>dicatur <mentioned>est</mentioned>, secundum nos proprie dicitur <mentioned>fuit</mentioned>
           <lb ed="#Q"/>et <mentioned>erit</mentioned>: <mentioned>fuit</mentioned>, quia nunquam defuit<!--k-->; <mentioned>erit</mentioned>,
           <lb ed="#Q"/>quia nunquam deerit; <mentioned>est</mentioned>, quia semper est</quote>.

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="136"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,13 +58,13 @@
           <lb ed="#Q"/>quaerere an omne unum sit unum ab unitate prima.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3744">
-          <lb ed="#Q"/>Ad quod sic: I. a. <name ref="#Augustine">Augustinus</name>, in libro <title>De
-          <lb ed="#Q"/>vera religione</title><!--2-->: <quote>A primo principio unum est
+          <lb ed="#Q"/>Ad quod sic: I. a. <name xml:id="ahsh-l1p1i1t3q1m3c4-Nd1e128" ref="#Augustine">Augustinus</name>, in libro <title>De
+          <lb ed="#Q"/>vera religione</title><!--2-->: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e137">A primo principio unum est
           <lb ed="#Q"/>quidquid est</quote>; sed primum principium est prima
           <lb ed="#Q"/>unitas; ergo a prima unitate est omnis unitas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3755">
-          <lb ed="#Q"/>b. Item, <name ref="#Dionysius">Dionysius</name><!--3-->: <quote>Nihil entium est ex<lb ed="#Q"/>pers
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t3q1m3c4-Nd1e149" ref="#Dionysius">Dionysius</name><!--3-->: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e153">Nihil entium est ex<lb ed="#Q"/>pers
           <mentioned>unius</mentioned>, sed omnia et omnium omnis parti<lb ed="#Q"/>cula
           unitate participant et ab unitate derivantur
           <lb ed="#Q"/>summa</quote>. Nam si dicuntur participare, hoc est re<lb ed="#Q"/>spectu
@@ -79,18 +73,18 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3772">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>Contra: 1. <title>I Cor.</title> 6,16: <quote source="http://scta.info/resource/Icor6_16@4-9">Qui adhaeret meretrici,
+          <lb ed="#Q"/>Contra: 1. <title>I Cor.</title> 6,16: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e178" source="http://scta.info/resource/Icor6_16@4-9">Qui adhaeret meretrici,
           <lb ed="#Q"/>unum corpus efficitur</quote> cum ea. Constat quod hic
           <lb ed="#Q"/>notatur quaedam unitas; sed haec unitas non est
           <lb ed="#Q"/>a Deo, quoniam haec est unitas peccati; ergo non
           <lb ed="#Q"/>omnis unitas a prima unitate.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3788">
-          <lb ed="#Q"/>2. Item, <title>I Cor.</title> 3,8: <quote source="http://scta.info/resource/Icor3_8@1-8">Qui plantat et qui rigat
+          <lb ed="#Q"/>2. Item, <title>I Cor.</title> 3,8: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e197" source="http://scta.info/resource/Icor3_8@1-8">Qui plantat et qui rigat
           <lb ed="#Q"/>unum sunt</quote>; sed haec unitas non est a Deo; ergo
           <lb ed="#Q"/>non omnis unitas est a Deo. —— Quod non sit a
           <lb ed="#Q"/>Deo patet: quoniam, sicut dicit <title>Glossa</title><!--4--> ibi:
-          <quote>Unum sunt ratione ministerii</quote>; sed unitas mini<lb ed="#Q"/>sterii<!--o-->
+          <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e210">Unum sunt ratione ministerii</quote>; sed unitas mini<lb ed="#Q"/>sterii<!--o-->
           non habet similitudinem<!--p--> cum prima uni<lb ed="#Q"/>tate
           in quantum sic, immo unitas dominationis:
           <lb ed="#Q"/>ergo haec unitas non est per similitudinem pri<lb ed="#Q"/>mae
@@ -99,11 +93,11 @@
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3808">
           <pb ed="#Q" n="137"/>
           <lb ed="#Q" n="a"/>
-          <lb ed="#Q"/>II. Iuxta hoc quaeritur, propter verbum <name>Dio<lb ed="#Q"/>nysii</name>,
+          <lb ed="#Q"/>II. Iuxta hoc quaeritur, propter verbum <name xml:id="ahsh-l1p1i1t3q1m3c4-Nd1e234">Dio<lb ed="#Q"/>nysii</name>,
           utrum omne quod est sit unum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3819">
-          <lb ed="#Q"/>a. Nam dicit <name ref="#Dionysius">Dionysius</name>: <quote>Nihil est quod
+          <lb ed="#Q"/>a. Nam dicit <name xml:id="ahsh-l1p1i1t3q1m3c4-Nd1e244" ref="#Dionysius">Dionysius</name>: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e247">Nihil est quod
           <lb ed="#Q"/>non participet uno</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3826">
@@ -119,7 +113,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3847">
           <lb ed="#Q"/>[Ad obiecta.]: 1. Ad primum dicendum se<lb ed="#Q"/>cundum
-          <title>Glossam</title><!--3-->, quae dicit quod <quote>fornicatio
+          <title>Glossam</title><!--3-->, quae dicit quod <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e289">fornicatio
           <lb ed="#Q"/>ambos unum corpus facit, ut quomodo in natura
           <lb ed="#Q"/>sic etiam in macula unum sunt</quote>. Sed nota quod
           <lb ed="#Q"/>in fornicatione sunt duo: scilicet ipsa actio, quae
@@ -131,13 +125,13 @@
           <lb ed="#Q"/>divisionis a Deo, quia in hoc quod copulantur
           <lb ed="#Q"/>in hac deformitate, dividuntur a Deo et conve<lb ed="#Q"/>niunt
           in divisione, et hanc appellat <title>Glossa</title> uni<lb ed="#Q"/>tatem
-          <quote>in macula</quote>: et haec non est a Deo
+          <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e322">in macula</quote>: et haec non est a Deo
           <lb ed="#Q"/>sive ab unitate prima, sicut<!--c--> nec deformitas est
           <lb ed="#Q"/>a Deo.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3884">
           <lb ed="#Q"/>2. Ad secundum dicendum quod cum di<lb ed="#Q"/>citur:
-          <quote source="http://scta.info/resource/Icor3_8@1-8">Qui plantat et<!--d--> qui rigat unum sunt</quote>, haec
+          <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e338" source="http://scta.info/resource/Icor3_8@1-8">Qui plantat et<!--d--> qui rigat unum sunt</quote>, haec
           <lb ed="#Q"/>est unitas ministerii. Ratione ergo eius quod est
           <lb ed="#Q"/>unitas, habet similitudinem cum prima unitate et
           <lb ed="#Q"/>est ab illa, ratione vero ministerii habet dissi<lb ed="#Q"/>militudinem<!--e-->:
@@ -145,19 +139,19 @@
           <lb ed="#Q"/>Deo est.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3902">
-          <lb ed="#Q"/>Sed contra hoc obicitur: 1. <name>Augusti<lb ed="#Q"/>nus</name>,
-          in libro <title>De vera religione</title><!--5-->: <quote>A primo prin<lb ed="#Q"/>cipio
+          <lb ed="#Q"/>Sed contra hoc obicitur: 1. <name xml:id="ahsh-l1p1i1t3q1m3c4-Nd1e361">Augusti<lb ed="#Q"/>nus</name>,
+          in libro <title>De vera religione</title><!--5-->: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e369">A primo prin<lb ed="#Q"/>cipio
           unum est quidquid aliquo modo unum est</quote>.
-          <lb ed="#Q"/>Ergo, cum<!--f--> <quote>unum in macula</quote> sit unum aliquo
+          <lb ed="#Q"/>Ergo, cum<!--f--> <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e379">unum in macula</quote> sit unum aliquo
           <lb ed="#Q"/>modo, ergo a primo principio est.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3915">
           <lb ed="#Q"/>2. Item, obicitur contra hoc quod dicit <title>Glossa</title><!--6-->,
-          <lb ed="#Q"/>quod cum dicitur: <quote source="http://scta.info/resource/Icor3_8@1-8">Qui plantat et qui rigat, unum
-          <lb ed="#Q"/>sunt</quote>, ibi est unitas <quote>ratione ministerii</quote>, quia vide<lb ed="#Q"/>tur
+          <lb ed="#Q"/>quod cum dicitur: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e393" source="http://scta.info/resource/Icor3_8@1-8">Qui plantat et qui rigat, unum
+          <lb ed="#Q"/>sunt</quote>, ibi est unitas <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e398">ratione ministerii</quote>, quia vide<lb ed="#Q"/>tur
           ibi esse unitas substantiae. Nam, <title>I Cor.</title> 6,17,
-          <lb ed="#Q"/>super illud: <quote>Qui adhaeret Deo, unus spiritus
-          <lb ed="#Q"/>est</quote> etc. <title>Glossa Hieronymi</title><!--7-->: <quote>Diligenter at<lb ed="#Q"/>tende
+          <lb ed="#Q"/>super illud: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e407">Qui adhaeret Deo, unus spiritus
+          <lb ed="#Q"/>est</quote> etc. <title>Glossa Hieronymi</title><!--7-->: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e416">Diligenter at<lb ed="#Q"/>tende
           quod quando de duabus rebus vel pluribus
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>
@@ -165,18 +159,18 @@
           <lb ed="#Q"/>unus vel una, et de iis quae sunt diversae et de iis
           <lb ed="#Q"/>quae sunt unius substantiae dici potest: diversae
           <lb ed="#Q"/>enim substantiae sunt spiritus Dei et spiritus ho<lb ed="#Q"/>minis,
-          et tamen dicitur: <quote>Qui adhaeret Deo<!--g--> unus
+          et tamen dicitur: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e439">Qui adhaeret Deo<!--g--> unus
           <lb ed="#Q"/>spiritus est</quote>; ubi autem dicitur de duobus aut
           <lb ed="#Q"/>pluribus <mentioned>unum sunt</mentioned>, nec additur quid<!--h--> unum:
           <lb ed="#Q"/>non diversae, sed unius substantiae esse intelli<lb ed="#Q"/>guntur</quote>;
           ubi notatur unitas aliquorum et additur
           <lb ed="#Q"/>quid unum, possunt illa esse diversae substan<lb ed="#Q"/>tiae,
           sed cum nihil additur, intelliguntur esse
-          <lb ed="#Q"/>unius substantiae; sed cum dicitur: <quote>Qui plantat
+          <lb ed="#Q"/>unius substantiae; sed cum dicitur: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e464">Qui plantat
           <lb ed="#Q"/>et qui rigat unum sunt</quote>, hic dicitur <mentioned>unum</mentioned> sine
-          <lb ed="#Q"/>additione; ergo unius sunt substantiae <quote>qui plantat
+          <lb ed="#Q"/>additione; ergo unius sunt substantiae <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e474">qui plantat
           <lb ed="#Q"/>et qui rigat</quote>. Quid<!--i--> ergo dicit <title>Glossa</title><!--8--> quod
-          <lb ed="#Q"/>sunt unum <quote>ministerii ratione</quote>?
+          <lb ed="#Q"/>sunt unum <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e487">ministerii ratione</quote>?
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e3972">
           <lb ed="#Q"/>Respondeo: 1. Sicut iniustitia non dicitur
@@ -193,11 +187,11 @@
           <lb ed="#Q"/>ex alia vero parte, qua significatur carentia iu<lb ed="#Q"/>stitiae,
           non erit per effectum a principio primo,
           <lb ed="#Q"/>sed per<!--o-->, defectum ab unitate illius. Simili modo
-          <lb ed="#Q"/>intelligendum, cum dicitur <quote>unum in macula</quote>:
+          <lb ed="#Q"/>intelligendum, cum dicitur <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e537">unum in macula</quote>:
           <lb ed="#Q"/>macula enim dicit carentiam spiritualis pulcritu<lb ed="#Q"/>dinis
           cum debito habendi illam. In quantum ergo<!--p-->
           <lb ed="#Q"/>designatur convenientia in<!--q--> debito pulcritudinis,
-          <lb ed="#Q"/>cum dicuntur <quote>unum in macula</quote>, erit unitas haec
+          <lb ed="#Q"/>cum dicuntur <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e552">unum in macula</quote>, erit unitas haec
           <lb ed="#Q"/>a prima unitate, sicut ipsum debitum; in quan<lb ed="#Q"/>tum
           vero designatur convenientia in carentia pul<lb ed="#Q"/>critudinis,
           non erit causa effectiva illius, sed
@@ -206,10 +200,10 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m3c4-d1e4027">
           <lb ed="#Q"/>2. Ad aliud dicendum quod verum est quod
-          <lb ed="#Q"/><quote>qui plantat et qui rigat</quote> possunt esse unius sub<lb ed="#Q"/>stantiae
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e571">qui plantat et qui rigat</quote> possunt esse unius sub<lb ed="#Q"/>stantiae
           individuae; tamen <title>Glossa</title> intelligit ibi
           <lb ed="#Q"/>dicere<!--r--> quod sunt unius substantiae specificae
-          <lb ed="#Q"/>et non individuae; unde dicit: <quote>Sicut<!--s--> unum
+          <lb ed="#Q"/>et non individuae; unde dicit: <quote xml:id="ahsh-l1p1i1t3q1m3c4-Qd1e584">Sicut<!--s--> unum
           <lb ed="#Q"/>sunt genere, ita et ministerii ratione</quote>.
         </p>  
       </div>

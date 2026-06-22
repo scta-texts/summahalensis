@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="146"/><cb ed="#Q" n="a"/>
       </div>
@@ -66,15 +60,15 @@
           <lb ed="#Q"/>esse sicut ad veritatem, in omni re erit veritas.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3747">
-          <lb ed="#Q"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, in libro <title>Soliloquio<lb ed="#Q"/>rum</title><!--4-->:
-          <quote>Quidquid est in aliquo non potest ma<lb ed="#Q"/>nere,
+          <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1p1i1t3q2m1c4-Nd1e135" ref="#Augustine">Augustinus</name>, in libro <title>Soliloquio<lb ed="#Q"/>rum</title><!--4-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c4-Qd1e144">Quidquid est in aliquo non potest ma<lb ed="#Q"/>nere,
           si non maneat illud<!--c--> in quo est; rebus au<lb ed="#Q"/>tem
           veris intereuntibus, manet veritas; non igitur
           <lb ed="#Q"/>est veritas in rebus mortalibus</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3761">
-          <lb ed="#Q"/>2. Item <name ref="#Augustine">Augustinus</name><!--d-->, <title>De vera religione</title><!--5-->:
-          <quote>Inter<!--e--> mentem nostram qua Deum intelligimus
+          <lb ed="#Q"/>2. Item <name xml:id="ahsh-l1p1i1t3q2m1c4-Nd1e161" ref="#Augustine">Augustinus</name><!--d-->, <title>De vera religione</title><!--5-->:
+          <quote xml:id="ahsh-l1p1i1t3q2m1c4-Qd1e168">Inter<!--e--> mentem nostram qua Deum intelligimus
           <lb ed="#Q"/>Patrem, et veritatem, lucem illam interiorem per
           <lb ed="#Q"/>quam Deum intelligimus, nulla interposita crea<lb ed="#Q"/>tura
           est<!--f-->. Quare ipsam veritatem nulla ex parte
@@ -84,8 +78,8 @@
           <lb ed="#Q"/>est solum in spiritualibus et non<!--h--> in corpora<lb ed="#Q"/>libus.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3781">
-          <lb ed="#Q"/>3. Item, dicit <name ref="#Augustine">Augustinus</name>, <title>Super Canonicum <lb ed="#Q"/>Ioannis</title><!--i--><!--6-->,
-          quod <quote>veritas est lux intelligibilis</quote>.
+          <lb ed="#Q"/>3. Item, dicit <name xml:id="ahsh-l1p1i1t3q2m1c4-Nd1e202" ref="#Augustine">Augustinus</name>, <title>Super Canonicum <lb ed="#Q"/>Ioannis</title><!--i--><!--6-->,
+          quod <quote xml:id="ahsh-l1p1i1t3q2m1c4-Qd1e212">veritas est lux intelligibilis</quote>.
           <lb ed="#Q"/>Sicut ergo lux sensibilis non est nisi in sensi<lb ed="#Q"/>bilibus,
           similiter lux intelligibilis non erit nisi
           in<!--k--> intelligibilibus; ergo non est veritas in sen<lb ed="#Q"/>sibilibus.
@@ -93,7 +87,7 @@
         <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3794">
           <lb ed="#Q"/>Respondeo: 1. Ad primum: veritas in rebus
           duplex est. Est enim<!--l--> veritas necessitatis et ve<lb ed="#Q"/>ritas
-          contingentiae, 'sicut distinxit <name ref="#Anselm">Anselmus</name><!--7-->
+          contingentiae, 'sicut distinxit <name xml:id="ahsh-l1p1i1t3q2m1c4-Nd1e232" ref="#Anselm">Anselmus</name><!--7-->
           <lb ed="#Q"/>in veritate significationis, quemadmodum et esse
           <lb ed="#Q"/>necessarium et contingens. Loquitur ergo Augu<lb ed="#Q"/>tinus,
           in <title>Soliloquiis</title>, de veritate necessitatis,
@@ -115,18 +109,18 @@
           <lb ed="#Q"/>simplicitatem, quae prohibet ne<!--r--> possit cognosci
           <lb ed="#Q"/>nisi ab intellectu, qui est vis animae interior; ta<lb ed="#Q"/>men,
           quantum ad suam essentiam, attingit omne
-          <lb ed="#Q"/>quod est, sicut ponit <name ref="#Augustine">Augustinus</name><!--8--> exemplum
+          <lb ed="#Q"/>quod est, sicut ponit <name xml:id="ahsh-l1p1i1t3q2m1c4-Nd1e293" ref="#Augustine">Augustinus</name><!--8--> exemplum
           <lb ed="#Q"/>de caeco posito in sole, quod praesens est ei lux,
           ipse tamen absens est ab illa: ita ipsa summa sa<lb ed="#Q"/>pientia,
           quae est prima veritas, omni iniquo<!--s-->
           <lb ed="#Q"/>praestans est, quamvis ipse absens. Est igitur
           <lb ed="#Q"/>omni rei praesens per essentiam, per quam omnis
-          <lb ed="#Q"/>res in esse salvatur; unde <title>Ioan.</title> 1,5-10: <quote source="http://scta.info/resource/io1_5@2-10 http://scta.info/resource/io1_10@1-3">Lux in
+          <lb ed="#Q"/>res in esse salvatur; unde <title>Ioan.</title> 1,5-10: <quote xml:id="ahsh-l1p1i1t3q2m1c4-Qd1e312" source="http://scta.info/resource/io1_5@2-10 http://scta.info/resource/io1_10@1-3">Lux in
           <lb ed="#Q"/>tenebris lucet, et tenebrae eam non comprehende<lb ed="#Q"/>runt;
           in mundo erat</quote> etc.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m1c4-d1e3854">
-          <lb ed="#Q"/>3. Ad ultimum dicendum quod <quote>lux intelli<lb ed="#Q"/>gibilis</quote>
+          <lb ed="#Q"/>3. Ad ultimum dicendum quod <quote xml:id="ahsh-l1p1i1t3q2m1c4-Qd1e324">lux intelli<lb ed="#Q"/>gibilis</quote>
           dicitur, non solum quia sit in intelligibili<lb ed="#Q"/>bus,
           sed solo intellectu percipitur. Unde notandum
           ad illud quod obiciebatur in praecedenti Quae<lb ed="#Q"/>stione<!--9-->,

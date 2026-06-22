@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="125"/><cb ed="#Q" n="a"/>
       </div>
@@ -109,7 +103,7 @@
           <lb ed="#Q"/>et subiectum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m4c3-d1e3836">
-          <lb ed="#Q"/>3. Item, quaeritur: dicit <name ref="#Augustine">Augustinus</name>, in <title>En<lb ed="#Q"/>chiridion</title><!--2-->,
+          <lb ed="#Q"/>3. Item, quaeritur: dicit <name xml:id="ahsh-l1p1i1t3q3m4c3-Nd1e229" ref="#Augustine">Augustinus</name>, in <title>En<lb ed="#Q"/>chiridion</title><!--2-->,
            quod<!--g--> in hoc loco deficit regula dia<lb ed="#Q"/>lecticorum,
           quae est: contraria simul, esse non
           <lb ed="#Q"/>posse aut unum contrariorum non esse in alio<!--3-->.
@@ -120,8 +114,8 @@
           <lb ed="#Q"/>Solutio: Dicimus quod duplex fuit bonum na<lb ed="#Q"/>turae
           in ipsa anima respondens malo. Fuit enim
           <lb ed="#Q"/>ipsa substantia liberi arbitrii, quae nullo modo
-          <lb ed="#Q"/>fuit diminubilis per malum. Dicit enim <name>Diony<lb ed="#Q"/>sius</name><!--5-->
-          quod <quote>nihil existentium corrumpitur se<lb ed="#Q"/>cundum
+          <lb ed="#Q"/>fuit diminubilis per malum. Dicit enim <name xml:id="ahsh-l1p1i1t3q3m4c3-Nd1e266">Diony<lb ed="#Q"/>sius</name><!--5-->
+          quod <quote xml:id="ahsh-l1p1i1t3q3m4c3-Qd1e273">nihil existentium corrumpitur se<lb ed="#Q"/>cundum
           quod essentia<!--h--> vel natura, sed defectu<!--i-->
           <lb ed="#Q"/>iuxta naturam ordinis, harmoniae et commensu<lb ed="#Q"/>rationis</quote>
           <mentioned>fit corruptum</mentioned> supple; unde non
@@ -130,9 +124,9 @@
           naturalium habitudinum, quae sunt iuxta
           <lb ed="#Q"/>naturam illam primam, ad bonum gratuitum.
           <lb ed="#Q"/>Illae ergo habilitationes, modus, species et ordo,
-          <lb ed="#Q"/>sive <quote>commensuratio</quote> quam dicit <name ref="#Dionysius">Dionysius</name>
+          <lb ed="#Q"/>sive <quote xml:id="ahsh-l1p1i1t3q3m4c3-Qd1e303">commensuratio</quote> quam dicit <name xml:id="ahsh-l1p1i1t3q3m4c3-Nd1e305" ref="#Dionysius">Dionysius</name>
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>pro eo quod est modus, et <quote>harmonia</quote> loco
+          <lb ed="#Q"/>pro eo quod est modus, et <quote xml:id="ahsh-l1p1i1t3q3m4c3-Qd1e313">harmonia</quote> loco
           <lb ed="#Q"/>speciei, sunt mediae inter illam naturam et
           <lb ed="#Q"/>bonum gratuitum ad quod ordinant vel ha<lb ed="#Q"/>bilitant
           ipsam; illa ergo natura non diminu<lb ed="#Q"/>bilis
@@ -178,7 +172,7 @@
           <lb ed="#Q"/>3. Ex hoc etiam apparet quod non est intelli<lb ed="#Q"/>gendum
           quod contrarium sit in contrario per mo<lb ed="#Q"/>dum<!--q-->
           quo contrariantur: hoc enim non esset in<lb ed="#Q"/>telligibile
-          nec hoc<!--r--> voluit dicere <name ref="#Augustine">Augustinus</name>,
+          nec hoc<!--r--> voluit dicere <name xml:id="ahsh-l1p1i1t3q3m4c3-Nd1e431" ref="#Augustine">Augustinus</name>,
           <lb ed="#Q"/>sed quod aliquid sit in aliquo quod ei subicitur
           <lb ed="#Q"/>quoad aliquid et quoad aliquid contrariatur; hoc
           <lb ed="#Q"/>enim non est inconveniens. Hoc<!--s--> tamen fre<lb ed="#Q"/>quenter

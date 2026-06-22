@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="24"/><cb ed="#Q" n="a"/>
       </div>
@@ -65,38 +58,38 @@
           <lb ed="#Q"/>a bonis et a<!--i--> malis.
         </p>
         <p xml:id="ahsh-l1tinq2m2c2-d1e3745">
-          <lb ed="#Q"/>Et probatur quod non<!--8-->: I. 1. <ref xml:id="ahsh-l1tinq2m2c2-Rxusuzz" corresp="#ahsh-l1tinq2m2c2-Qxuuu88"><name ref="#Augustine">Augustinus</name>,
+          <lb ed="#Q"/>Et probatur quod non<!--8-->: I. 1. <ref xml:id="ahsh-l1tinq2m2c2-Rxusuzz" corresp="#ahsh-l1tinq2m2c2-Qxuuu88"><name xml:id="ahsh-l1tinq2m2c2-Nd1e133" ref="#Augustine">Augustinus</name>,
           <lb ed="#Q"/>in libro <title>De Trinitate</title></ref>: <quote xml:id="ahsh-l1tinq2m2c2-Qxuuu88" source="http://scta.info/resource/adt-l1-d1e24@69-84">Mentis humanae acies
           <lb ed="#Q"/>invalida in tam excellenti luce non figitur, nisi
           <lb ed="#Q"/>per iustitiam fidei emundetur</quote>. Ergo non potest
           <lb ed="#Q"/>cognosci nisi a mundis.
         </p>
         <p xml:id="ahsh-l1tinq2m2c2-d1e3758">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name><!--10-->: <quote>Trinitas, quae est
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1tinq2m2c2-Nd1e154" ref="#Augustine">Augustinus</name><!--10-->: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e158">Trinitas, quae est
           <lb ed="#Q"/>summum bonum, purgatissimis mentibus cerni<lb ed="#Q"/>tur</quote>.
           Ergo requiritur<!--k-->, ad hoc quod cernatur, pur<lb ed="#Q"/>gatissima
           mens; non ergo potest cognosci<!--l--> a
           <lb ed="#Q"/>malis.
         </p>
         <p xml:id="ahsh-l1tinq2m2c2-d1e3772">
-          <lb ed="#Q"/>3. Item, <title>Matth.</title> 5, 8: <quote source="http://scta.info/resource/mt5_8@1-7">Beati mundo corde, quoniam
-          <lb ed="#Q"/>ipsi Deum videbunt</quote>. <name>Ambrosius</name><!--11-->: <quote>Si qui
+          <lb ed="#Q"/>3. Item, <title>Matth.</title> 5, 8: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e182" source="http://scta.info/resource/mt5_8@1-7">Beati mundo corde, quoniam
+          <lb ed="#Q"/>ipsi Deum videbunt</quote>. <name xml:id="ahsh-l1tinq2m2c2-Nd1e187">Ambrosius</name><!--11-->: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e190">Si qui
           <lb ed="#Q"/>mundo corde Deum videbunt, ergo alii<!--m--> non vi<lb ed="#Q"/>debunt;
           neque enim indigni Deum videbunt, ne<lb ed="#Q"/>que
           is qui Deum videre voluerit, potest videre
           <lb ed="#Q"/>Deum</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m2c2-d1e3788">
-          <lb ed="#Q"/>II. Contra: 1. <title>Rom.</title> 1, 21: <quote>Qui cum<!--n--> cognovis<lb ed="#Q"/>sent
-          Deum</quote> etc. <quote>non sicut Deum glorificaverunt</quote> etc.
+          <lb ed="#Q"/>II. Contra: 1. <title>Rom.</title> 1, 21: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e210">Qui cum<!--n--> cognovis<lb ed="#Q"/>sent
+          Deum</quote> etc. <quote xml:id="ahsh-l1tinq2m2c2-Qd1e217">non sicut Deum glorificaverunt</quote> etc.
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>Et in eodem, 19: <quote source="http://scta.info/resource/rom1_19@2-9">Quod notum est Dei, manife<lb ed="#Q"/>stum
+          <lb ed="#Q"/>Et in eodem, 19: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e224" source="http://scta.info/resource/rom1_19@2-9">Quod notum est Dei, manife<lb ed="#Q"/>stum
           est in<!--o--> illis</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m2c2-d1e3801">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>Retractatio<lb ed="#Q"/>num</title><!--12-->,
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1tinq2m2c2-Nd1e236" ref="#Augustine">Augustinus</name>, in libro <title>Retractatio<lb ed="#Q"/>num</title><!--12-->,
           retractans illud quod dixerat in <title>Soliloquiis</title><!--13-->,
-          <lb ed="#Q"/>dicens: <quote>Non approbo quod in oratione dixi:
+          <lb ed="#Q"/>dicens: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e251">Non approbo quod in oratione dixi:
           <lb ed="#Q"/><mentioned>Deus, qui non nisi mundos verum<!--p--> scire volui<lb ed="#Q"/>sti</mentioned>;
           responderi enim potest multos non mundos
           <lb ed="#Q"/>multa vera scivisse</quote>, etiam de Deo.
@@ -107,7 +100,7 @@
           qui est immundissimus, conspexit Deum<!--q-->.
         </p>
         <p xml:id="ahsh-l1tinq2m2c2-d1e3823">
-          <lb ed="#Q"/>4. Item, <title>Apoc.</title> 1, 7: <quote source="http://scta.info/resource/ap1_7@1-13">Ecce venit cum nubibus,
+          <lb ed="#Q"/>4. Item, <title>Apoc.</title> 1, 7: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e284" source="http://scta.info/resource/ap1_7@1-13">Ecce venit cum nubibus,
           <lb ed="#Q"/>et videbit eum omnis oculus et qui eum pupuge<lb ed="#Q"/>runt</quote>.
           Ergo mali videbunt eum in iudicio<!--r-->.
         </p>
@@ -163,8 +156,8 @@
           <lb ed="#Q"/>in eo quod non est, scilicet in suo efectu, quod
           <lb ed="#Q"/>non est ipse, sed ab ipso. Primo modo vide<lb ed="#Q"/>tur<!--f-->
           solum a mundis corde, secundo modo vide<cb ed="#Q" n="b"/><lb ed="#Q"/>tur
-          a malis - Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De vi<lb ed="#Q"/>dendo
-          Deo</title><!--2-->: <quote>Si nostra voluntas apud se manens
+          a malis - Item, <name xml:id="ahsh-l1tinq2m2c2-Nd1e452" ref="#Augustine">Augustinus</name>, in libro <title>De vi<lb ed="#Q"/>dendo
+          Deo</title><!--2-->: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e461">Si nostra voluntas apud se manens
           <lb ed="#Q"/>et latens, sine ulla sui<!--h--> commutatione, per quas se
           <lb ed="#Q"/>extendat exprimit voces, quanto facilius Deus om<lb ed="#Q"/>nipotens,
           sua latente et incommutabiliter manente
@@ -178,8 +171,8 @@
         </p>
         <p xml:id="ahsh-l1tinq2m2c2-d1e3958">
           <lb ed="#Q"/>3. Ad tertium<!--k--> tamen dicendum, secundum
-          <lb ed="#Q"/>quod dicit <name ref="#Augustine">Augustinus</name>, in libro <title>De videndo
-          <lb ed="#Q"/>Deo</title><!--3-->: <quote>Quod scriptum est venisse angelos in con<lb ed="#Q"/>spectum<!--l-->
+          <lb ed="#Q"/>quod dicit <name xml:id="ahsh-l1tinq2m2c2-Nd1e497" ref="#Augustine">Augustinus</name>, in libro <title>De videndo
+          <lb ed="#Q"/>Deo</title><!--3-->: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e507">Quod scriptum est venisse angelos in con<lb ed="#Q"/>spectum<!--l-->
           Dei, non ideo diabolus vidisse Deum
           <lb ed="#Q"/>credendus est; ipse enim dicitur venisse in con<lb ed="#Q"/>spectum
           Dei, non Deus in conspectum eius; ve<lb ed="#Q"/>niunt
@@ -197,10 +190,10 @@
           <lb ed="#Q"/>sapientiae et conspectus iustitiae.
         </p>
         <p xml:id="ahsh-l1tinq2m2c2-d1e3998">
-          <lb ed="#Q"/>4. Ad ultimum respondet <name ref="#Augustine">Augustinus</name>, in
-          <lb ed="#Q"/>eodem libro <title>De videndo Deo</title><!--6-->: <quote><quote>Videbant in quem
+          <lb ed="#Q"/>4. Ad ultimum respondet <name xml:id="ahsh-l1tinq2m2c2-Nd1e566" ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Q"/>eodem libro <title>De videndo Deo</title><!--6-->: <quote xml:id="ahsh-l1tinq2m2c2-Qd1e574"><quote xml:id="ahsh-l1tinq2m2c2-Qd1e575">Videbant in quem
           <lb ed="#Q"/>pupugerunt</quote><!--7-->, secundum humanam formam, non il<lb ed="#Q"/>lam
-          Dei formam, in qua <quote source="http://scta.info/resource/phil2_6@7-14">non rapinam arbitratus
+          Dei formam, in qua <quote xml:id="ahsh-l1tinq2m2c2-Qd1e583" source="http://scta.info/resource/phil2_6@7-14">non rapinam arbitratus
           <lb ed="#Q"/>est esse se aequalem Deo</quote><!--8-->; in illa Dei forma tunc
           <lb ed="#Q"/>videbunt eum, qui videbunt eum sicut est</quote>.
         </p>

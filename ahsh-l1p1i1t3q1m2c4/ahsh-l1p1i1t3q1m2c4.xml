@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="130"/><cb ed="#Q" n="a"/>
       </div>
@@ -63,8 +57,8 @@
           <lb ed="#Q"/>esse compatiatur secum pluralitatem idearum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c4-d1e3742">
-          <lb ed="#Q"/>Et ostenditur<!--e--> quod sic: a. <name ref="#Augustine">Augustinus</name>, in
-          <lb ed="#Q"/>libro <title>83 Quaestionum</title><!--3-->: <quote>Sunt namque ideae prin<lb ed="#Q"/>cipales
+          <lb ed="#Q"/>Et ostenditur<!--e--> quod sic: a. <name xml:id="ahsh-l1p1i1t3q1m2c4-Nd1e128" ref="#Augustine">Augustinus</name>, in
+          <lb ed="#Q"/>libro <title>83 Quaestionum</title><!--3-->: <quote xml:id="ahsh-l1p1i1t3q1m2c4-Qd1e137">Sunt namque ideae prin<lb ed="#Q"/>cipales
           quaedam formae rerum stabiles atque in<lb ed="#Q"/>commutabiles<!--f-->,
           quae ipsae formatae non sunt at<lb ed="#Q"/>que
           per hoc aeternae ac semper<!--g--> eodem modo
@@ -80,13 +74,13 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c4-d1e3775">
           <lb ed="#Q"/>b. Si dicatur quod licet dicantur pluraliter,
-          <lb ed="#Q"/>non tamen sunt plures - contra: <name ref="#Augustine">Augustinus</name>,
-          <lb ed="#Q"/>in eodem: <quote>Non est absurdum credere singula
+          <lb ed="#Q"/>non tamen sunt plures - contra: <name xml:id="ahsh-l1p1i1t3q1m2c4-Nd1e179" ref="#Augustine">Augustinus</name>,
+          <lb ed="#Q"/>in eodem: <quote xml:id="ahsh-l1p1i1t3q1m2c4-Qd1e184">Non est absurdum credere singula
           <lb ed="#Q"/>creata propriis rationibus; unde est alia ratio,
           <lb ed="#Q"/>qua homo conditus est et equus</quote>; et rationes
           <lb ed="#Q"/>illae sunt ideae; ergo plures sunt ideae<!--h--> et sunt
-          <lb ed="#Q"/>cum divino esse ab aeterno. Unde idem <name>Augu<lb ed="#Q"/>stinus</name>: 
-          <quote>Has autem rationes ubi arbitrandum
+          <lb ed="#Q"/>cum divino esse ab aeterno. Unde idem <name xml:id="ahsh-l1p1i1t3q1m2c4-Nd1e198">Augu<lb ed="#Q"/>stinus</name>: 
+          <quote xml:id="ahsh-l1p1i1t3q1m2c4-Qd1e203">Has autem rationes ubi arbitrandum
           <lb ed="#Q"/>est esse nisi in mente Creatoris</quote>?
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c4-d1e3798">
@@ -133,15 +127,15 @@
           <lb ed="#Q"/>idearum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c4-d1e3884">
-          <lb ed="#Q"/>Solutio: Dicendum, secundum <name>B. Dionysium</name>,
+          <lb ed="#Q"/>Solutio: Dicendum, secundum <name xml:id="ahsh-l1p1i1t3q1m2c4-Nd1e319">B. Dionysium</name>,
           <lb ed="#Q"/>in libro <title>De divinis nominibus</title>, in cap. <title>De ente</title><!--5-->,
-          <lb ed="#Q"/>ubi dicit quod <quote>monade omnis numerus subsi<lb ed="#Q"/>stit;
+          <lb ed="#Q"/>ubi dicit quod <quote xml:id="ahsh-l1p1i1t3q1m2c4-Qd1e331">monade omnis numerus subsi<lb ed="#Q"/>stit;
           in quantum autem a monade provenit, dis<lb ed="#Q"/>cernitur
           et multiplicatur: ita in centro omnes li<lb ed="#Q"/>neae
           circuli secundum unitatem primam consti<lb ed="#Q"/>tutae
           sunt; breviter tamen<!--q--> distantes breviter
           <lb ed="#Q"/>discernuntur et quae magis, magis<!--r-->. Sic in tota
-          <lb ed="#Q"/>natura omnium</quote>, id est Deo, <quote>omnes rationes
+          <lb ed="#Q"/>natura omnium</quote>, id est Deo, <quote xml:id="ahsh-l1p1i1t3q1m2c4-Qd1e351">omnes rationes
           <lb ed="#Q"/>naturae singulorum sunt convolutae per unam in<lb ed="#Q"/>confusam
           unitatem</quote>. Sicut ergo [si] quaereretur de
           <lb ed="#Q"/>puncto et unitate<!--s--> utrum unum vel multa, dice<lb ed="#Q"/>retur
@@ -149,7 +143,7 @@
           est de ideis quod una tantum est in re,
           <pb ed="#Q" n="131"/>
           <lb ed="#Q" n="a"/>
-          <lb ed="#Q"/>multiplex in ratione. Nam ex verbis <name>B. Diony<lb ed="#Q"/>sii</name>
+          <lb ed="#Q"/>multiplex in ratione. Nam ex verbis <name xml:id="ahsh-l1p1i1t3q1m2c4-Nd1e373">B. Diony<lb ed="#Q"/>sii</name>
           patet quod una tantum est divina unitas, in
           <lb ed="#Q"/>qua convolutae sunt omnes unitates creatae per
           <lb ed="#Q"/>exemplaritatem. Dicendum ergo quod idea in
@@ -172,7 +166,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q1m2c4-d1e3965">
           <lb ed="#Q"/>Sed obicitur: quoniam sicut idea dicit<!--c--> exem<lb ed="#Q"/>plar
-          ita et vita, <title>Ioan.</title> 1,3: <quote>Quod factum est, in ipsa
+          ita et vita, <title>Ioan.</title> 1,3: <quote xml:id="ahsh-l1p1i1t3q1m2c4-Qd1e437">Quod factum est, in ipsa
           <lb ed="#Q"/>vita erat</quote><!--2-->; sed non dicuntur plures vitae aliquo
           <lb ed="#Q"/>modo in ipso; ergo nec plures ideae, vel quare
           <lb ed="#Q"/>non dicitur nisi una vita et plures ideae? -— Ad
@@ -267,8 +261,8 @@
           ipsum connotare respectus ad ipsas; per hoc
           <lb ed="#Q"/>tamen significatur magis dependentia creaturarum
           <lb ed="#Q"/>ab ipso, quia creaturae sunt ab ipso, ad ipsum,
-          <lb ed="#Q"/>per ipsum<!--1-->. Unde <name>Augustinus</name>, in libro <title>De Tri<lb ed="#Q"/>nitate</title><!--:-->
-          <quote>Non ponitur aliqua<!--b--> mutatio in Deo per
+          <lb ed="#Q"/>per ipsum<!--1-->. Unde <name xml:id="ahsh-l1p1i1t3q1m2c4-Nd1e706">Augustinus</name>, in libro <title>De Tri<lb ed="#Q"/>nitate</title><!--:-->
+          <quote xml:id="ahsh-l1p1i1t3q1m2c4-Qd1e714">Non ponitur aliqua<!--b--> mutatio in Deo per
           <lb ed="#Q"/>hoc quod ponitur respectus ipsius ad creaturam,
           <lb ed="#Q"/>sed ponitur in creatura respectu<!--c--> ipsius</quote>.
         </p>

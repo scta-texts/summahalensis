@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="27"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,27 +57,27 @@
           <lb ed="#Q"/>Quaeritur iterum, cum cognitio Dei non sit per
           <lb ed="#Q"/>sensum, sed per intellectum, ex parte autem
           <lb ed="#Q"/>intellectus multiplicetur vis apprehensiva, secun<lb ed="#Q"/>dum
-          <name ref="#Augustine">B. Augustinum</name><!--5-->, ut ratio et intelligentia,
+          <name xml:id="ahsh-l1tinq2m2c4-Nd1e127" ref="#Augustine">B. Augustinum</name><!--5-->, ut ratio et intelligentia,
           <lb ed="#Q"/>quaeritur ergo utrum Deus cognoscatur ratione
           <lb ed="#Q"/>vel intelligentia solum<!--9-->.
         </p>
         <p xml:id="ahsh-l1tinq2m2c4-d1e3754">
-          <lb ed="#Q"/>Ad quod sic: a. In <title>Psalmo</title><!--10-->: <quote>Signatum est super
-          <lb ed="#Q"/>nos tamen vultus tui, Domine</quote>. <title>Glossa</title><!--11-->: <quote>Lumen
+          <lb ed="#Q"/>Ad quod sic: a. In <title>Psalmo</title><!--10-->: <quote xml:id="ahsh-l1tinq2m2c4-Qd1e146">Signatum est super
+          <lb ed="#Q"/>nos tamen vultus tui, Domine</quote>. <title>Glossa</title><!--11-->: <quote xml:id="ahsh-l1tinq2m2c4-Qd1e155">Lumen
           <lb ed="#Q"/>vultus ratio est, quae est ad cognoscendum Deum</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m2c4-d1e3763">
           <lb ed="#Q"/>b. Item<!--t-->, illa vi, quae est in anima sublimior,
           <lb ed="#Q"/>cognoscimus Deum; sed dicitur<!--u-->, in libro <title>De li<lb ed="#Q"/>bero
-          arbitrio</title><!--12-->, quod <quote>nihil est sublimius ra<lb ed="#Q"/>tione</quote>;
+          arbitrio</title><!--12-->, quod <quote xml:id="ahsh-l1tinq2m2c4-Qd1e178">nihil est sublimius ra<lb ed="#Q"/>tione</quote>;
           ergo cognoscitur ratione.
         </p>
         <p xml:id="ahsh-l1tinq2m2c4-d1e3775">
           <cb ed="#Q" n="b"/>
-          <lb ed="#Q"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, in libro <title>De anima
+          <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1tinq2m2c4-Nd1e191" ref="#Augustine">Augustinus</name>, in libro <title>De anima
           <lb ed="#Q"/>et spiritu</title><!--13-->, assignans vires animae quinque ap<lb ed="#Q"/>prehensivas:
           sensum, imaginationem, rationem, in<lb ed="#Q"/>tellectum,
-          intelligentiam, dicit: <quote>Sensus est vis
+          intelligentiam, dicit: <quote xml:id="ahsh-l1tinq2m2c4-Qd1e205">Sensus est vis
           <lb ed="#Q"/>quae percipit formas corporeas praesentes. Ima<lb ed="#Q"/>ginatio
           est vis quae percipit formas corporeas
           <lb ed="#Q"/>absentes. Ratio est vis quae percipit corporum
@@ -100,8 +93,8 @@
           <lb ed="#Q"/>ergo quod cognoscitur Deus intelligentia, non ra<lb ed="#Q"/>tione.
         </p>
         <p xml:id="ahsh-l1tinq2m2c4-d1e3819">
-          <lb ed="#Q"/>2. Item, <name>Boethius</name>, <title>De consolatione</title><!--a1-->, distin<lb ed="#Q"/>guens
-          vires apprehensivas, dicit: <quote>Sensus con<lb ed="#Q"/>tuetur<!--b-->
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1tinq2m2c4-Nd1e251">Boethius</name>, <title>De consolatione</title><!--a1-->, distin<lb ed="#Q"/>guens
+          vires apprehensivas, dicit: <quote xml:id="ahsh-l1tinq2m2c4-Qd1e258">Sensus con<lb ed="#Q"/>tuetur<!--b-->
           speciem in subiecta materia constitutam;
           <lb ed="#Q"/>imaginatio vero solam sine materia inducit<!--c--> fi<lb ed="#Q"/>guram;
           ratio vero hanc quoque<!--d--> transcendit, spe<lb ed="#Q"/>ciemque
@@ -114,7 +107,7 @@
           quod cognoscitur intelligentia, non ratione.
         </p>
         <p xml:id="ahsh-l1tinq2m2c4-d1e3848">
-          <lb ed="#Q"/>3. Item, <name>Boethius</name>, in eodem<!--2-->: <quote>Superior vis
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1tinq2m2c4-Nd1e296">Boethius</name>, in eodem<!--2-->: <quote xml:id="ahsh-l1tinq2m2c4-Qd1e300">Superior vis
           <lb ed="#Q"/>amplectitur inferiorem, interior vero ad superio<lb ed="#Q"/>rem
           nullo modo consurgit; neque enim sensus
           <lb ed="#Q"/>aliquid extra materiam valet cognoscere, nec uni<lb ed="#Q"/>versales
@@ -132,9 +125,9 @@
           <lb ed="#Q"/>se est, scilicet spiritualem naturam, dicitur intel<lb ed="#Q"/>lectus;
           secundum vero respectum quem habet ad
           <lb ed="#Q"/>id quod intra se est, scilicet corporum naturas,
-          <lb ed="#Q"/>dicitur ratio stricte. Et haec est intentio <name>B. Au<lb ed="#Q"/>gustini</name>,
+          <lb ed="#Q"/>dicitur ratio stricte. Et haec est intentio <name xml:id="ahsh-l1tinq2m2c4-Nd1e344">B. Au<lb ed="#Q"/>gustini</name>,
           in libro <title>De anima et spiritu</title><!--3-->. — Aliter:
-          <lb ed="#Q"/>secundum bimembrem divisionem dicit <name>Augu<lb ed="#Q"/>stinus</name><!--4-->
+          <lb ed="#Q"/>secundum bimembrem divisionem dicit <name xml:id="ahsh-l1tinq2m2c4-Nd1e355">Augu<lb ed="#Q"/>stinus</name><!--4-->
           quod ratio dividit se in<!--h--> duo, scilicet
           <lb ed="#Q"/>in superiorem et inferiorem, scilicet<!--i--> in virum et
           <lb ed="#Q"/>mulierem. Superior pars est ad contemplandum
@@ -153,7 +146,7 @@
           <lb ed="#Q"/>naturas.
         </p>
         <p xml:id="ahsh-l1tinq2m2c4-d1e3928">
-          <lb ed="#Q"/>2—3. Ad aliud<!--m--> vero <name>Boethii</name> dicendum quod
+          <lb ed="#Q"/>2—3. Ad aliud<!--m--> vero <name xml:id="ahsh-l1tinq2m2c4-Nd1e407">Boethii</name> dicendum quod
           <lb ed="#Q"/>est accipere rationem per modum rationis et per
           <lb ed="#Q"/>modum intelligentiae; similiter intelligentiam per
           <lb ed="#Q"/>modum intelligentiae et per modum rationis. Mo<lb ed="#Q"/>dus
@@ -172,10 +165,10 @@
           <lb ed="#Q"/>in multis effectibus, et per aliud, ut per effectus,
           <lb ed="#Q"/>scilicet<!--s--> creaturas. Ratio vero per modum intelli<lb ed="#Q"/>gentiae
           et intelligentia per modum intelligentiae
-          <lb ed="#Q"/>est divini intellectus. Hinc dicit <name>Boethius</name>, in li<lb ed="#Q"/>bro
+          <lb ed="#Q"/>est divini intellectus. Hinc dicit <name xml:id="ahsh-l1tinq2m2c4-Nd1e468">Boethius</name>, in li<lb ed="#Q"/>bro
           <title>De consolatione</title><!--6-->, quod ratio solum hominis
           <lb ed="#Q"/>est, intelligentia Dei. Et hoc est quod ipse dicit:
-          <lb ed="#Q"/><quote>Sensus solus, cunctis aliis cognitionibus desti<lb ed="#Q"/>tutus,
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq2m2c4-Qd1e478">Sensus solus, cunctis aliis cognitionibus desti<lb ed="#Q"/>tutus,
           immobilibus animantibus cessit, quales sunt
           <lb ed="#Q"/>conchae maris; imaginatio vero mobilibus beluis,
           <lb ed="#Q"/>quibus iam inesse fugiendi appetendive aliquis

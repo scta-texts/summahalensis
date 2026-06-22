@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="152"/><cb ed="#Q" n="a"/>
       </div>
@@ -71,14 +65,14 @@
           <lb ed="#Q"/>veritatis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3755">
-          <lb ed="#Q"/>b. Item, <title>I Cor.</title> 12,3: <quote source="http://scta.info/resource/Icor12_3@15-23">Nemo potest dicere: Do<lb ed="#Q"/>minus
+          <lb ed="#Q"/>b. Item, <title>I Cor.</title> 12,3: <quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e141" source="http://scta.info/resource/Icor12_3@15-23">Nemo potest dicere: Do<lb ed="#Q"/>minus
           Iesus, nisi in Spiritu Sancto</quote>. <title>Glossa</title><!--2-->:
-          <quote>Omne verum, a quocumque dicatur, a Spiritu
+          <quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e149">Omne verum, a quocumque dicatur, a Spiritu
           <lb ed="#Q"/>Sancto est</quote> verum. Ergo et a prima veritate est
           <lb ed="#Q"/>verum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3767">
-          <lb ed="#Q"/>c. Item, <name ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--3-->:
+          <lb ed="#Q"/>c. Item, <name xml:id="ahsh-l1p1i1t3q2m2c5-Nd1e163" ref="#Anselm">Anselmus</name>, in libro <title>De veritate</title><!--3-->:
           <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e3778">Vides quoniam prima rectitudo causa sit omnium
           <lb ed="#Q"/>veritatum et rectitudinum et nihil sit causa il<lb ed="#Q"/>lius?</quote>
           Et respondet: <quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e3785">Video et animadverto in
@@ -90,8 +84,8 @@
           <lb ed="#Q"/>nullius<!--m--> causa sunt veritatis</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3802">
-          <lb ed="#Q"/>Contra: 1. <quote>Omne verum prima veritate est ve<lb ed="#Q"/>rum</quote><!--4-->;
-          sed <mentioned>istum fornicari</mentioned> vel quod<!--n--> <quote>iste for<lb ed="#Q"/>nicatur</quote>
+          <lb ed="#Q"/>Contra: 1. <quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e207">Omne verum prima veritate est ve<lb ed="#Q"/>rum</quote><!--4-->;
+          sed <mentioned>istum fornicari</mentioned> vel quod<!--n--> <quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e217">iste for<lb ed="#Q"/>nicatur</quote>
           est verum, demonstrato aliquo fornicante;
           <lb ed="#Q"/>ergo a prima veritate est verum<!--5-->; sed <mentioned>esse</mentioned> et
           <mentioned>esse verum</mentioned> convertuntur; ergo a prima veritate
@@ -100,11 +94,11 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3818">
           <lb ed="#Q"/>2. Item, veritas, quae est in propositione creata,
-          <lb ed="#Q"/>est a veritate quae est in re, sicut dicit <name>Ansel<lb ed="#Q"/>mus</name><!--6-->.
+          <lb ed="#Q"/>est a veritate quae est in re, sicut dicit <name xml:id="ahsh-l1p1i1t3q2m2c5-Nd1e242">Ansel<lb ed="#Q"/>mus</name><!--6-->.
           Si ergo veritas, quae est fornicationis in
           <lb ed="#Q"/>re, non est a prima veritate, ergo nec veritas pro<lb ed="#Q"/>positionis
           qua enuntiatur istum fornicari; non
-          <lb ed="#Q"/>ergo <quote>omne<!--o--> verum, a quocumque dicatur, a
+          <lb ed="#Q"/>ergo <quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e255">omne<!--o--> verum, a quocumque dicatur, a
           <lb ed="#Q"/>Spiritu Sancto est</quote>» verum<!--7-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3836">
@@ -122,9 +116,9 @@
           <lb ed="#Q"/>veritate prima.
         </p>
         <p xml:id="ahsh-l1p1i1t3q2m2c5-d1e3865">
-          <lb ed="#Q"/>Respondeo, secundum <name ref="#Anselm">Anselmum</name>, in libro
+          <lb ed="#Q"/>Respondeo, secundum <name xml:id="ahsh-l1p1i1t3q2m2c5-Nd1e303" ref="#Anselm">Anselmum</name>, in libro
           <lb ed="#Q"/><title>De concordia praescientiae et liberi arbitriis</title><!--8-->:
-          <quote>Deus facit in omnibus voluntatibus et operatio<lb ed="#Q"/>nibus
+          <quote xml:id="ahsh-l1p1i1t3q2m2c5-Qd1e310">Deus facit in omnibus voluntatibus et operatio<lb ed="#Q"/>nibus
           bonis quod essentialiter sunt et quod bona
           <lb ed="#Q"/>sunt; in malis vero non quod mala sunt, sed tan<lb ed="#Q"/>tum
           quod per essentiam sunt</quote>. Ita per hunc

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="15"/><cb ed="#Q" n="a"/>
       </div>
@@ -64,12 +57,12 @@
           humanae<!--1-->.
         </p>
         <p xml:id="ahsh-l1tinq2m1c1-d1e3739">
-          <lb ed="#Q"/>Ad quod sic: 1. <name ref="#Augustine">Augustinus</name>, in libro <title>De vi<lb ed="#Q"/>dendo
-          Deo</title><!--2-->: <quote>Invisibilis est natura Deus, non
+          <lb ed="#Q"/>Ad quod sic: 1. <name xml:id="ahsh-l1tinq2m1c1-Nd1e127" ref="#Augustine">Augustinus</name>, in libro <title>De vi<lb ed="#Q"/>dendo
+          Deo</title><!--2-->: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e136">Invisibilis est natura Deus, non
           <lb ed="#Q"/>tantum Pater, sed et ipsa Trinitas, unus Deus</quote>;
           <lb ed="#Q"/>sed hoc est ei esse<!--a--> visibilem, quod cognosci<lb ed="#Q"/>bilem.
           Sicut enim<!--b--> dicitur in eodem libro<!--3-->:
-          <lb ed="#Q"/><quote>Hoc distat inter videre et credere, quia prae<lb ed="#Q"/>sentia
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq2m1c1-Qd1e153">Hoc distat inter videre et credere, quia prae<lb ed="#Q"/>sentia
           videntur, creduntur absentia. Praesentia
           <lb ed="#Q"/>autem hoc loco<!--c--> intelligimus quae praesto sunt
           <lb ed="#Q"/>sensibus sive animi sive corporis: sicut hanc
@@ -80,7 +73,7 @@
           <lb ed="#Q"/>cum ergo Deus sit invisibilis, ergo et incogno<lb ed="#Q"/>scibilis<!--d-->.
         </p>
         <p xml:id="ahsh-l1tinq2m1c1-d1e3772">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, in eodem<!--4-->: <quote><quote>Deum
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1tinq2m1c1-Nd1e185" ref="#Augustine">Augustinus</name>, in eodem<!--4-->: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e190"><quote xml:id="ahsh-l1tinq2m1c1-Qd1e191">Deum
           <lb ed="#Q"/>nemo vidit unquam nec videre poterit, quoniam
           <lb ed="#Q"/>lucem habitat inaccessibilem<!--5--></quote>, et est natura in<lb ed="#Q"/>visibilis
           sicut et incorruptibilis, et sicut nunc
@@ -88,7 +81,7 @@
           <lb ed="#Q"/>solum nunc, sed et semper invisibilis</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m1c1-d1e3788">
-          <lb ed="#Q"/>3. Item, <name>Ioannes Damascenus</name><!--6-->: <quote>Infi<lb ed="#Q"/>nitus
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1tinq2m1c1-Nd1e211">Ioannes Damascenus</name><!--6-->: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e214">Infi<lb ed="#Q"/>nitus
           est Deus et incomprehensibilis</quote>; sed omne
           <lb ed="#Q"/>quod cognoscitur animo, comprehenditur intel<lb ed="#Q"/>lectu;
           Deus ergo non est cognoscibilis.
@@ -116,8 +109,8 @@
           <lb ed="#Q"/>nostro, quod est optimum in nobis.
         </p>
         <p xml:id="ahsh-l1tinq2m1c1-d1e3844">
-          <lb ed="#Q"/>Contra: a. <name ref="#Augustine">Augustinus</name>, in I<!--g--> <title>Solilaquio<lb ed="#Q"/>rum</title><!--8-->:
-          <quote>Intelligibilis est Deus, intelligibilia sunt
+          <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1tinq2m1c1-Nd1e279" ref="#Augustine">Augustinus</name>, in I<!--g--> <title>Solilaquio<lb ed="#Q"/>rum</title><!--8-->:
+          <quote xml:id="ahsh-l1tinq2m1c1-Qd1e290">Intelligibilis est Deus, intelligibilia sunt
           <lb ed="#Q"/>scientiarum spectamina, sed differunt plurimum:
           <lb ed="#Q"/>nam terra visibilis est et lux, sed terra, nisi luce
           <lb ed="#Q"/>illustrata, videri non potest; similiter disciplinarum
@@ -125,14 +118,14 @@
           <lb ed="#Q"/>suo sole illustrentur</quote>, videlicet Deo.
         </p>
         <p xml:id="ahsh-l1tinq2m1c1-d1e3862">
-          <lb ed="#Q"/>b. Item, <title>Rom.</title> 1, 19: <quote source="http://scta.info/resource/rom1_19@2-9">Quod notum est Dei, ma<lb ed="#Q"/>nifestum
-          est in illis</quote>. <title>Glossa</title><!--9-->: <quote>Id est cogno<lb ed="#Q"/>scibile
+          <lb ed="#Q"/>b. Item, <title>Rom.</title> 1, 19: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e313" source="http://scta.info/resource/rom1_19@2-9">Quod notum est Dei, ma<lb ed="#Q"/>nifestum
+          est in illis</quote>. <title>Glossa</title><!--9-->: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e321">Id est cogno<lb ed="#Q"/>scibile
           ductu rationis; quasi dicat: in se habent
           <lb ed="#Q"/>unde, possunt cognoscere quod est cognoscibile
-          <lb ed="#Q"/>de Deo</quote>. Et ibidem<!--10-->: <quote source="http://scta.info/resource/rom1_20@1-19">Invisibilia Dei per ea,
+          <lb ed="#Q"/>de Deo</quote>. Et ibidem<!--10-->: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e333" source="http://scta.info/resource/rom1_20@1-19">Invisibilia Dei per ea,
           <lb ed="#Q"/>quae facta sunt, a creatura mundi intellecta can<lb ed="#Q"/>spiciuntur;
           sempiterna quoque<!--i--> eius virtus et di<lb ed="#Q"/>vinitas</quote>.
-          Et <title>Sap.</title> 13, 5: <quote source="http://scta.info/resource/sap13_5@1-11">A magnitudine speciei et
+          Et <title>Sap.</title> 13, 5: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e346" source="http://scta.info/resource/sap13_5@1-11">A magnitudine speciei et
           <lb ed="#Q"/>creaturae cognoscibiliter poterit Creator eorum
           <lb ed="#Q"/>videri</quote>.
         </p>
@@ -147,17 +140,17 @@
         <p xml:id="ahsh-l1tinq2m1c1-d1e3899">
           <pb ed="#Q" n="16"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>Respondeo, secundum<!--a--> <name ref="#Augustine">Augustinum</name>, <title>Ad
-          <lb ed="#Q"/>Paulinam, De videndo Deo</title><!--1-->, dicentem: <quote>Si quae<lb ed="#Q"/>ris
+          <lb ed="#Q"/>Respondeo, secundum<!--a--> <name xml:id="ahsh-l1tinq2m1c1-Nd1e384" ref="#Augustine">Augustinum</name>, <title>Ad
+          <lb ed="#Q"/>Paulinam, De videndo Deo</title><!--1-->, dicentem: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e394">Si quae<lb ed="#Q"/>ris
           utrum possit Deus videri, respondeo: potest.
           <lb ed="#Q"/>Si quaeris unde hoc sciam, respondeo: quia in
-          <lb ed="#Q"/>veracissima Scriptura legitur<!--2-->: <quote source="http://scta.info/resource/mt5_8@1-7">Beati mundo corde,
+          <lb ed="#Q"/>veracissima Scriptura legitur<!--2-->: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e404" source="http://scta.info/resource/mt5_8@1-7">Beati mundo corde,
           <lb ed="#Q"/>quoniam ipsi Deum videbunt</quote></quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m1c1-d1e3916">
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad primum ergo obiectum
-          <lb ed="#Q"/>dicendum secundum verbum <name ref="#Augustine">B. Augustini</name><!--3-->:
-          <quote>Si quaeris quomodo dictus sit<!--b--> invisibilis Deus,
+          <lb ed="#Q"/>dicendum secundum verbum <name xml:id="ahsh-l1tinq2m1c1-Nd1e417" ref="#Augustine">B. Augustini</name><!--3-->:
+          <quote xml:id="ahsh-l1tinq2m1c1-Qd1e421">Si quaeris quomodo dictus sit<!--b--> invisibilis Deus,
           <lb ed="#Q"/>si videri potest, respondeo: invisibilem esse na<lb ed="#Q"/>tura,
           videri autem potest<!--c-->, cum vult et sicut vult</quote>.
           <lb ed="#Q"/>Ex quo patet distinctio: quod Deus est invisibilis
@@ -166,31 +159,31 @@
           <lb ed="#Q"/>et est visibile voluntate. Visibilia necessitate sunt
           <lb ed="#Q"/>corporalia et sensibilia; visibilia vero voluntate
           <lb ed="#Q"/>sunt spiritualia, quemadmodum angeli et ipse Deus.
-          <lb ed="#Q"/>Et hoc est quod dicit <name ref="#Augustine">Augustinus</name>, in eodem
-          <lb ed="#Q"/>libro<!--4-->, sumens auctoritatem <name>Ambrosii</name><!--5--> super
-          <lb ed="#Q"/>illud <title>Luc.</title> 1, 11: <quote>Apparuit angelus</quote> etc.: <quote>Non si<lb ed="#Q"/>militer
+          <lb ed="#Q"/>Et hoc est quod dicit <name xml:id="ahsh-l1tinq2m1c1-Nd1e452" ref="#Augustine">Augustinus</name>, in eodem
+          <lb ed="#Q"/>libro<!--4-->, sumens auctoritatem <name xml:id="ahsh-l1tinq2m1c1-Nd1e459">Ambrosii</name><!--5--> super
+          <lb ed="#Q"/>illud <title>Luc.</title> 1, 11: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e467">Apparuit angelus</quote> etc.: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e469">Non si<lb ed="#Q"/>militer
           sensibilia videntur et is, cuius naturae est
           <lb ed="#Q"/>non videri, voluntatis<!--f--> videri: nam si non vult,
           <lb ed="#Q"/>non videtur; si vult, videtur. Apparuit enim Deus
           <lb ed="#Q"/>Abrahae, quia<pb ed="#V" n="6r"/> voluit; aliis, quia noluit, non ap<lb ed="#Q"/>paruit</quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m1c1-d1e3958">
-          <lb ed="#Q"/>2. Ad secundum quod dicit quod <quote>sic est
+          <lb ed="#Q"/>2. Ad secundum quod dicit quod <quote xml:id="ahsh-l1tinq2m1c1-Qd1e492">sic est
           <lb ed="#Q"/>natura invisibilis sicut incorruptibilis</quote>, dicendum
-          <lb ed="#Q"/>secundum<!--g--> <name ref="#Augustine">Augustinum</name>, <title>De videndo Deo</title><!--6-->:
-          <lb ed="#Q"/><quote>Corpora consuetudine loquendi visibilia nomi<lb ed="#Q"/>nantur;
+          <lb ed="#Q"/>secundum<!--g--> <name xml:id="ahsh-l1tinq2m1c1-Nd1e501" ref="#Augustine">Augustinum</name>, <title>De videndo Deo</title><!--6-->:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq2m1c1-Qd1e509">Corpora consuetudine loquendi visibilia nomi<lb ed="#Q"/>nantur;
           propterea Deus invisibilis dicitur ne cor<lb ed="#Q"/>pus
           esse credatur, non quia munda corda suae
           <lb ed="#Q"/>substantiae contemplatione fraudavit, cum<!--h--> haec
           <lb ed="#Q"/>summa merces Deum diligentibus promittatur,
-          <lb ed="#Q"/>dicente ipso Domino, <title>Ioan.</title> 14<!--i-->, 21: <quote source="http://scta.info/resource/io14_21@13-29">Qui diligit
+          <lb ed="#Q"/>dicente ipso Domino, <title>Ioan.</title> 14<!--i-->, 21: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e528" source="http://scta.info/resource/io14_21@13-29">Qui diligit
           <lb ed="#Q"/>me, diligatur a Patre meo, et ego diligam eum
           <lb ed="#Q"/>et manifestabo illi me ipsum</quote></quote>.
         </p>
         <p xml:id="ahsh-l1tinq2m1c1-d1e3982">
           <lb ed="#Q"/>3. Ad tertium similiter respondentium<!--k--> iuxta
-          <lb ed="#Q"/>distinctionem <name ref="#Augustine">Augustini</name>, <title>De videndo Deo</title><!--7-->:
-          <lb ed="#Q"/><quote>Aliud est videre, aliud<!--l--> totum videndo compre<lb ed="#Q"/>hendere.
+          <lb ed="#Q"/>distinctionem <name xml:id="ahsh-l1tinq2m1c1-Nd1e544" ref="#Augustine">Augustini</name>, <title>De videndo Deo</title><!--7-->:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1tinq2m1c1-Qd1e552">Aliud est videre, aliud<!--l--> totum videndo compre<lb ed="#Q"/>hendere.
           Illud enim videtur quod praesens ut<lb ed="#Q"/>cumque<!--m-->
           sentitur; totum autem videndo compre<lb ed="#Q"/>henditur
           quod ita videtur ut nihil eius lateat vi<lb ed="#Q"/><lb ed="#Q"/>dentem,
@@ -203,8 +196,8 @@
           ergo incognoscibilis</mentioned>.
         </p>
         <p xml:id="ahsh-l1tinq2m1c1-d1e4012">
-          <lb ed="#Q"/>4. Ad quartum respondendum iuxta <name>Boe<lb ed="#Q"/>thium</name>,
-          in libro <title>De consolatione</title><!--8-->, quod ea <quote>quae
+          <lb ed="#Q"/>4. Ad quartum respondendum iuxta <name xml:id="ahsh-l1tinq2m1c1-Nd1e589">Boe<lb ed="#Q"/>thium</name>,
+          in libro <title>De consolatione</title><!--8-->, quod ea <quote xml:id="ahsh-l1tinq2m1c1-Qd1e597">quae
           <lb ed="#Q"/>cognoscuntur, non secundum sut naturam cogno<lb ed="#Q"/>scuntur,
           sed secundum cognoscentium faculta<lb ed="#Q"/>tem</quote>.
           Cognitio igitur non dicetur finita vel infi<lb ed="#Q"/>nita
@@ -234,8 +227,8 @@
           facit quod mens vel ratio est cogno<lb ed="#Q"/>scibilis
           melioris et excellentioris se, scilicet di<lb ed="#Q"/>vinae
           substantiae, quae est simplex et immate<lb ed="#Q"/>rialis.
-          Et in hoc imago eius est, secundum<!--q--> <name>Au<lb ed="#Q"/>gustinum</name>,
-          in libro <title>De Trinitate</title><!--10-->: <quote>Imago
+          Et in hoc imago eius est, secundum<!--q--> <name xml:id="ahsh-l1tinq2m1c1-Nd1e671">Au<lb ed="#Q"/>gustinum</name>,
+          in libro <title>De Trinitate</title><!--10-->: <quote xml:id="ahsh-l1tinq2m1c1-Qd1e680">Imago
           <lb ed="#Q"/>Dei est in hoc quod capax eius et particeps
           <lb ed="#Q"/>esse potest: capax per cognitionem, particeps
           <lb ed="#Q"/>per amorem</quote>. Hinc patet quod non sequitur
@@ -245,4 +238,3 @@
     </body>
   </text>
 </TEI>
-

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="76"/><cb ed="#Q" n="a"/>
       </div>
@@ -65,12 +59,12 @@
         </p>
         
         <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3744">
-          <lb ed="#Q"/>Ad quod sic: 1. <name ref="#Augustine">Augustinus</name>, in libro <title>De
+          <lb ed="#Q"/>Ad quod sic: 1. <name xml:id="ahsh-l1p1i1t2q3t3m1c5-Nd1e130" ref="#Augustine">Augustinus</name>, in libro <title>De
           <lb ed="#Q"/>praesentia Dei</title>, <title>Ad Dardanum</title><!--2-->, insinuat duplicem
           <lb ed="#Q"/>modum existendi Deum in creaturis, scilicet ge<lb ed="#Q"/>neralem,
           qui est secundum praedictos modos, et
           <lb ed="#Q"/>specialem, qui est per inhabitantem gratiam. Unde
-          <lb ed="#Q"/>dicit: <quote>Deus, natura incorporea et immutabiliter
+          <lb ed="#Q"/>dicit: <quote xml:id="ahsh-l1p1i1t2q3t3m1c5-Qd1e150">Deus, natura incorporea et immutabiliter
           <lb ed="#Q"/>una, totus adesse omnibus rebus potest et<!--a--> sin<lb ed="#Q"/>gulis
           totus, quamvis illi<!--b-->, in quibus habitat, ha<lb ed="#Q"/>beant
           eum pro suae capacitatis diversitate, alii
@@ -84,14 +78,14 @@
           <lb ed="#Q"/>modos non est magis et minus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3783">
-          <lb ed="#Q"/>3. Item, <name ref="#Aristotle">Philosophus</name>, in libro <title>De causis</title><!--4-->:
-          <lb ed="#Q"/><quote>Causa prima est in omnibus rebus secundum
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t2q3t3m1c5-Nd1e189" ref="#Aristotle">Philosophus</name>, in libro <title>De causis</title><!--4-->:
+          <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q3t3m1c5-Qd1e196">Causa prima est in omnibus rebus secundum
           <lb ed="#Q"/>dispositionem unam</quote><!--d-->. Ergo nec plus nec minus.
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3792">
-          <lb ed="#Q"/>Contra: a. <name ref="#Augustine">Augustinus</name>, in libro <title>De natura
+          <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1p1i1t2q3t3m1c5-Nd1e207" ref="#Augustine">Augustinus</name>, in libro <title>De natura
           <lb ed="#Q"/>boni</title><!--5-->, distinguens modum, speciem et ordinem,
-          <lb ed="#Q"/>dicit: <quote>Ubi haec magna sunt, magnum bonum
+          <lb ed="#Q"/>dicit: <quote xml:id="ahsh-l1p1i1t2q3t3m1c5-Qd1e218">Ubi haec magna sunt, magnum bonum
           <lb ed="#Q"/>est, et ubi maiora, maius bonum est, et ubi nulla,
           <lb ed="#Q"/>nullum bonum est</quote>; sed secundum ista partici<lb ed="#Q"/>patur
           divina bonitas; ergo magis et minus par<lb ed="#Q"/>ticipatur;
@@ -146,7 +140,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t2q3t3m1c5-d1e3907">
           <lb ed="#Q"/>3. Et per hoc solvitur tertia ratio. Et ra<lb ed="#Q"/>tione
-          huius dicit <name>Hugo</name><!--8-->: <quote>Quantum ad esse
+          huius dicit <name xml:id="ahsh-l1p1i1t2q3t3m1c5-Nd1e362">Hugo</name><!--8-->: <quote xml:id="ahsh-l1p1i1t2q3t3m1c5-Qd1e365">Quantum ad esse
           <lb ed="#Q"/>semper est uniformis, tamen quantum ad esse
           <lb ed="#Q"/>in aliis et in aliis, magis et minus</quote><!--m-->.
         </p>

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="205"/><cb ed="#Q" n="a"/>
       </div>
@@ -93,8 +87,8 @@
           <lb ed="#Q"/>quod intentio scientiae prior est intentione po<lb ed="#Q"/>tentiae.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c1-d1e3800">
-          <lb ed="#Q"/>b. Item, <name>Hugo de S. Victore</name>, in <title>Sententiis</title>
-          <lb ed="#Q"/>suis<!--1-->: <quote>Tria sunt: sapientia, potentia et voluntas,
+          <lb ed="#Q"/>b. Item, <name xml:id="ahsh-l1p1i1t4q1m2c1-Nd1e176">Hugo de S. Victore</name>, in <title>Sententiis</title>
+          <lb ed="#Q"/>suis<!--1-->: <quote xml:id="ahsh-l1p1i1t4q1m2c1-Qd1e185">Tria sunt: sapientia, potentia et voluntas,
           <lb ed="#Q"/>et ad unum effectum concurrunt: voluntas mo<lb ed="#Q"/>vet<!--5-->,
           scientia disponit, potestas operatur</quote>. Ex quo
           <lb ed="#Q"/>relinquitur quod intentio voluntatis prior est in<lb ed="#Q"/>tentione
@@ -126,9 +120,9 @@
           quam scientia.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c1-d1e3865">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, in libro <title>De agone chri<lb ed="#Q"/>stiano</title><!--3-->:
-          <quote>Dominus<!--h--> omnipotens universae crea<lb ed="#Q"/>turae,
-          qui fecit <quote>omnia bona valde</quote><!--4-->, sic ea or<lb ed="#Q"/>dinat
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t4q1m2c1-Nd1e263" ref="#Augustine">Augustinus</name>, in libro <title>De agone chri<lb ed="#Q"/>stiano</title><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t4q1m2c1-Qd1e272">Dominus<!--h--> omnipotens universae crea<lb ed="#Q"/>turae,
+          qui fecit <quote xml:id="ahsh-l1p1i1t4q1m2c1-Qd1e278">omnia bona valde</quote><!--4-->, sic ea or<lb ed="#Q"/>dinat
           ut de malis et de bonis bene faciat. Quod
           <lb ed="#Q"/>enim iuste fit bene fit ; iuste autem sunt boni beati
           <lb ed="#Q"/>et iuste mali poenas patiuntur; ergo de malis et
@@ -142,7 +136,7 @@
           <lb ed="#Q"/>non in plus se extendit scientia quam potentia.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c1-d1e3898">
-          <lb ed="#Q"/>3. Item, <name ref="#Augustine">Augustinus</name>, in <title>Enchiridion</title><!--5-->: <quote>Deus
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t4q1m2c1-Nd1e315" ref="#Augustine">Augustinus</name>, in <title>Enchiridion</title><!--5-->: <quote xml:id="ahsh-l1p1i1t4q1m2c1-Qd1e321">Deus
           <lb ed="#Q"/>omnipotens, cui rerum est summa. potestas, cum
           <lb ed="#Q"/>summe bonus sit, nullo modo sineret aliquid mali
           <lb ed="#Q"/>esse in operibus suis<!--l-->, nisi usque adeo esset
@@ -167,7 +161,7 @@
           ad actus secundum quod recipit determi<lb ed="#Q"/>nationem
           actuum temporalium: sic prior est in<lb ed="#Q"/>tentio
           scientiae quam potentiae, secundum quod
-          <lb ed="#Q"/>dicit <name>Hugo de S. Victore</name><!--1--> quod <quote>scientia
+          <lb ed="#Q"/>dicit <name xml:id="ahsh-l1p1i1t4q1m2c1-Nd1e388">Hugo de S. Victore</name><!--1--> quod <quote xml:id="ahsh-l1p1i1t4q1m2c1-Qd1e391">scientia
           <lb ed="#Q"/>disponit, potentia operatur</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t4q1m2c1-d1e3957">

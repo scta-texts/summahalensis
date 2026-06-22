@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,10 +49,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="169"/><cb ed="#Q" n="a"/>
       </div>
@@ -71,7 +65,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3754">
           <lb ed="#Q"/>a. Omnes enim volunt esse beati; sed beatitudo
-          <lb ed="#Q"/>est summum bonum, ut dicit <name>Boethius</name>, <title>De con<lb ed="#Q"/>solatione</title><!--1-->;
+          <lb ed="#Q"/>est summum bonum, ut dicit <name xml:id="ahsh-l1p1i1t3q3m2c1-Nd1e128">Boethius</name>, <title>De con<lb ed="#Q"/>solatione</title><!--1-->;
           ergo omnes volunt summum bonum;
           <lb ed="#Q"/>ergo amor summi boni est omni<!--k--> naturae ratio<lb ed="#Q"/>nali
           impressus.
@@ -83,16 +77,16 @@
           <lb ed="#Q"/>boni est impressus naturae.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3779">
-          <lb ed="#Q"/>c. Item, <name ref="#Augustine">Augustinus</name>, <title>II De libero arbitrio</title><!--2-->:
-          <quote>Antequam beati<!--l--> simus, impressa est nobis no<lb ed="#Q"/>tio
+          <lb ed="#Q"/>c. Item, <name xml:id="ahsh-l1p1i1t3q3m2c1-Nd1e160" ref="#Augustine">Augustinus</name>, <title>II De libero arbitrio</title><!--2-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m2c1-Qd1e166">Antequam beati<!--l--> simus, impressa est nobis no<lb ed="#Q"/>tio
           beatitatis<!--m-->: per hanc scimus et sine ulla dubi<lb ed="#Q"/>tatione
           dicimus beatos nos esse velle</quote>; nemo au<lb ed="#Q"/>tem<!--n-->
           beatus est nisi summo bono; ergo notio
           <lb ed="#Q"/>summi boni et beatitudinis est nobis impressa.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3792">
-          <lb ed="#Q"/>d. Item, <name>Boethius</name>, in libro <title>De consolatione</title><!--3-->:
-          <quote>Omnes homines boni et mali pariter indiscreta
+          <lb ed="#Q"/>d. Item, <name xml:id="ahsh-l1p1i1t3q3m2c1-Nd1e189">Boethius</name>, in libro <title>De consolatione</title><!--3-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m2c1-Qd1e194">Omnes homines boni et mali pariter indiscreta
           <lb ed="#Q"/>intentione ad bonum pervenire nituntur</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3799">
@@ -110,8 +104,8 @@
           ergo simul erit scientia et ignorantia boni.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3826">
-          <lb ed="#Q"/>Respondeo, secundum <name>Boethium</name>, <title>De conso<lb ed="#Q"/>latione</title><!--4-->:
-          <quote>Summum bonum, quod aeque bonis
+          <lb ed="#Q"/>Respondeo, secundum <name xml:id="ahsh-l1p1i1t3q3m2c1-Nd1e231">Boethium</name>, <title>De conso<lb ed="#Q"/>latione</title><!--4-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m2c1-Qd1e239">Summum bonum, quod aeque bonis
           <lb ed="#Q"/>et malis propositum est, boni quidem naturali
           <lb ed="#Q"/>officio virtutum petunt, mali vero per variam<!--o-->
           <lb ed="#Q"/>cupiditatem, quod adipiscendi boni naturale offi<lb ed="#Q"/>cium
@@ -124,15 +118,15 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m2c1-d1e3852">
           <lb ed="#Q"/>[Ad obiecta]: 1. Ad illud quod obicit: di<lb ed="#Q"/>stinguendum,
-          secundum <name>Damascenum</name><!--5-->, quod
+          secundum <name xml:id="ahsh-l1p1i1t3q3m2c1-Nd1e274">Damascenum</name><!--5-->, quod
           <lb ed="#Q"/>est voluntas naturalis, secundum quam omnes
           <lb ed="#Q"/>recte<!--r--> appetunt summum bonum; et voluntas
           <lb ed="#Q"/>electiva sive consiliata<!--s-->, secundum quam eligitur
           <lb ed="#Q"/>quod non est summum bonum et praefertur
           <lb ed="#Q"/>summo, et ideo est non recta. In malis ergo est
           <lb ed="#Q"/>voluntas naturalis recta sine errore, electiva non
-          <lb ed="#Q"/>recta et cum errore. Unde <name ref="#Augustine">Augustinus</name>, <title>II De
-          <lb ed="#Q"/>libero arbitrio</title><!--6-->: <quote>In quantum omnes homines
+          <lb ed="#Q"/>recta et cum errore. Unde <name xml:id="ahsh-l1p1i1t3q3m2c1-Nd1e297" ref="#Augustine">Augustinus</name>, <title>II De
+          <lb ed="#Q"/>libero arbitrio</title><!--6-->: <quote xml:id="ahsh-l1p1i1t3q3m2c1-Qd1e306">In quantum omnes homines
           <lb ed="#Q"/>appetunt vitam beatam, non errant; in quantum
           <lb ed="#Q"/>vero quisque non tenet eam vitae viam, quae
           <pb ed="#Q" n="170"/>
@@ -146,8 +140,8 @@
           <lb ed="#Q"/>2. Ad illud vero quod obicit: dicendum quod
           <lb ed="#Q"/>notio est in sensu naturae, ignorantia vero in
           <lb ed="#Q"/>in perversitate opinionis erroneae. Unde nota
-          <lb ed="#Q"/>quod dicit <name ref="#Augustine">Augustinus</name>, in<!--b--> libro <title>De libero
-          <lb ed="#Q"/>arbitrio</title><!--1-->: <quote>Sensus aliquando veracior est quam
+          <lb ed="#Q"/>quod dicit <name xml:id="ahsh-l1p1i1t3q3m2c1-Nd1e340" ref="#Augustine">Augustinus</name>, in<!--b--> libro <title>De libero
+          <lb ed="#Q"/>arbitrio</title><!--1-->: <quote xml:id="ahsh-l1p1i1t3q3m2c1-Qd1e352">Sensus aliquando veracior est quam
           <lb ed="#Q"/>opinio, si<!--c--> illa de errore, ille<!--d--> de natura est:
           <cb ed="#Q" n="b"/>
           <lb ed="#Q"/>velut cum aeger plerumque aqua frigida condu<lb ed="#Q"/>cibiliter<!--e-->

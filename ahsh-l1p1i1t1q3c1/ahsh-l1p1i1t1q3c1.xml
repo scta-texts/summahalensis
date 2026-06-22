@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="50"/><cb ed="#Q" n="a"/>
       </div>
@@ -110,8 +104,8 @@
         </p>
         <p xml:id="ahsh-l1p1i1t1q3c1-d1e3832">
           <lb ed="#Q"/>[Ad obiecta]: Ad rationes ergo in contrarium di<lb ed="#Q"/>cendum, 
-          secundum <name>Boethium</name>, in libro <title>De Tri<lb ed="#Q"/>nitate</title>
-          <!--5-->, qui dicit: <quote>Non dici potest praedicationem
+          secundum <name xml:id="ahsh-l1p1i1t1q3c1-Nd1e235">Boethium</name>, in libro <title>De Tri<lb ed="#Q"/>nitate</title>
+          <!--5-->, qui dicit: <quote xml:id="ahsh-l1p1i1t1q3c1-Qd1e245">Non dici potest praedicationem
           <lb ed="#Q"/>relativam quidquam rei, de qua dicitur, secundum
           <lb ed="#Q"/>se addere<!--f--> vel minuere. vel mutare, quae tota non
           <lb ed="#Q"/>in eo quod est esse consistit, sed in eo quod est
@@ -134,7 +128,7 @@
           <lb ed="#Q"/>dicendum <!--a--> quod in divino esse est esse <!--b--> substan<lb ed="#Q"/>tiae
           et esse relationis; et esse substantiae dicitur
           <lb ed="#Q"/>essentialiter<!--c-->, esse vero relationis personaliter.
-          <lb ed="#Q"/>Unde <name>Boethius</name> <!--1-->: <quote>Substantia continet unita<lb ed="#Q"/>tem,
+          <lb ed="#Q"/>Unde <name xml:id="ahsh-l1p1i1t1q3c1-Nd1e323">Boethius</name> <!--1-->: <quote xml:id="ahsh-l1p1i1t1q3c1-Qd1e328">Substantia continet unita<lb ed="#Q"/>tem,
           relatio multiplicat Trinitatem</quote>. Quamvis ergo
           <lb ed="#Q"/>in Deo <!--d--> intelligamus unitatem substantiae et mul<lb ed="#Q"/>titudinem
           personarum — quae quidem est se<lb ed="#Q"/>cundum
@@ -194,7 +188,7 @@
           <lb ed="#Q"/>4. Ad quartum solutum est <!--5-->.
         </p>
         <p xml:id="ahsh-l1p1i1t1q3c1-d1e4008">
-          <lb ed="#Q"/>5. Ad quintum concedendum, secundum <name>Au<lb ed="#Q"/>gustinum</name><!--l--><!--6-->, 
+          <lb ed="#Q"/>5. Ad quintum concedendum, secundum <name xml:id="ahsh-l1p1i1t1q3c1-Nd1e485">Au<lb ed="#Q"/>gustinum</name><!--l--><!--6-->, 
           quod divina essentia non compre<lb ed="#Q"/>henditur,
           cum <!--m--> tota videtur ab animabus sanctis
           <lb ed="#Q"/>et angelis. Unde bene sequitur quod, si aliquid

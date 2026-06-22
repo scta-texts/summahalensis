@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="164"/><cb ed="#Q" n="a"/>
       </div>
@@ -63,8 +57,8 @@
           bonis.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3742">
-          <lb ed="#Q"/>Ad quod sic: 1. <name>Boethius</name>, <title>De consolatione</title><!--1-->:
-          <quote>Omnia unum desiderant; sed unum ipsum mon<lb ed="#Q"/>stravimus
+          <lb ed="#Q"/>Ad quod sic: 1. <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e126">Boethius</name>, <title>De consolatione</title><!--1-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e131">Omnia unum desiderant; sed unum ipsum mon<lb ed="#Q"/>stravimus
           esse quod est summum bonum; cuncta<!--c-->
           <lb ed="#Q"/>igitur bonum petunt<!--d-->; quod ita describas: bo<lb ed="#Q"/>num
           est quod desideratur ab omnibus</quote>. Ex quo
@@ -72,22 +66,22 @@
           in bonis omnibus: et illud bonum summum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3758">
-          <lb ed="#Q"/>2. Item, <name ref="#Augustine">Augustinus</name>, <title>VIII De Trinitate</title><!--2-->:
-          <quote>Bonum est hoc, bonum est illud: tolle <mentioned>hoc</mentioned>,
+          <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e156" ref="#Augustine">Augustinus</name>, <title>VIII De Trinitate</title><!--2-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e162">Bonum est hoc, bonum est illud: tolle <mentioned>hoc</mentioned>,
           <lb ed="#Q"/>tolle <mentioned>illud</mentioned>, et vide ipsum bonum, si potes: ita
           <lb ed="#Q"/>Deum videbis, non alio bono bonum, sed bonum
           <lb ed="#Q"/>omnis boni</quote>. Ergo una summa bonitas est bo<lb ed="#Q"/>nitas
           omnis boni.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3772">
-          <lb ed="#Q"/>3. Item, <name ref="#Augustine">Augustinus</name>, in eodem<!--3-->: <quote>Pudeat,
+          <lb ed="#Q"/>3. Item, <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e183" ref="#Augustine">Augustinus</name>, in eodem<!--3-->: <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e188">Pudeat,
           <lb ed="#Q"/>cum alia non amentur nisi quia bona sunt, eis
           <lb ed="#Q"/>inhaerendo, non amare bonum ipsum unde alia
           <lb ed="#Q"/>bona sunt</quote>. Ergo ipsum bonum, quod amatur,
           <lb ed="#Q"/>est in bonis unum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3785">
-          <lb ed="#Q"/>4. Item, <name ref="#Augustine">Augustinus</name>, in eodem<!--4-->: <quote>Cum
+          <lb ed="#Q"/>4. Item, <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e204" ref="#Augustine">Augustinus</name>, in eodem<!--4-->: <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e209">Cum
           <lb ed="#Q"/>animus [ita] nobis placet ut eum luci<!--f--> corporeae
           <lb ed="#Q"/>praeferamus, non in se ipso nobis placet, sed in
           <lb ed="#Q"/>illa arte qua factus est; inde enim approbatur
@@ -106,8 +100,8 @@
           <lb ed="#Q"/>se ipsa; si hoc, ergo est prima bonitas<!--5-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3824">
-          <lb ed="#Q"/>6. Item, iuxta <name>Boethium</name>, <title>De hebdomadibus</title><!--6-->:
-          <quote>Sublato primo bono mente et cogitatione, ea
+          <lb ed="#Q"/>6. Item, iuxta <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e268">Boethium</name>, <title>De hebdomadibus</title><!--6-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e273">Sublato primo bono mente et cogitatione, ea
           <lb ed="#Q"/>quae sunt, bona sunt, non tamen sunt bona sim<lb ed="#Q"/>pliciter</quote><!--m-->.
           Relinquitur ergo quod primum bonum
           <lb ed="#Q"/>de omnibus bonis praedicatur, cum dicantur bona.
@@ -121,21 +115,21 @@
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3848">
           <lb ed="#Q"/>b. Item, si convertuntur <mentioned>esse</mentioned> et <mentioned>bonum</mentioned> —
           <lb ed="#Q"/>quia quidquid est, in eo quod est, bonum est, ut
-          <lb ed="#Q"/>dicunt <name>Boethius</name><!--8--> et <name ref="#Augustine">Augustinus</name><!--9--> — cum
+          <lb ed="#Q"/>dicunt <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e314">Boethius</name><!--8--> et <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e317" ref="#Augustine">Augustinus</name><!--9--> — cum
           <lb ed="#Q"/>dicitur <mentioned>hoc bonum</mentioned>, praedicatur bonum quod est
           <lb ed="#Q"/>Deus, ergo et esse quod est Deus; ergo et om<lb ed="#Q"/>nia
           habent esse quod est Deus: quod est fal<lb ed="#Q"/>sissimum.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e3867">
           <lb ed="#Q"/>c. Item, duobus modis dicitur animus bonus,
-          <lb ed="#Q"/>secundum <name ref="#Augustine">Augustinum</name><!--o-->, <title>VIII De Trinitatem</title>:
+          <lb ed="#Q"/>secundum <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e340" ref="#Augustine">Augustinum</name><!--o-->, <title>VIII De Trinitatem</title>:
           <lb ed="#Q"/>voluntate et natura; sed<!--p--> bonitas, qua est ani<lb ed="#Q"/>mus
           bonus voluntate, est accidentalis nec est
           <lb ed="#Q"/>prima bonitas; item, bonitas, qua est bonus natura
           <lb ed="#Q"/>sui generis, non est prima bonitas, quia illa est
           <lb ed="#Q"/>secundum quam differt a bonitate corporis et dici<lb ed="#Q"/>tur
-          animus corpore melior — unde dicit <name>Augu<lb ed="#Q"/>stinus</name><!--11-->:
-          <quote>Ut sit animus bonus video agendum
+          animus corpore melior — unde dicit <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e361">Augu<lb ed="#Q"/>stinus</name><!--11-->:
+          <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e368">Ut sit animus bonus video agendum
           <lb ed="#Q"/>esse voluntate; non quia id ipsum quo animus
           <lb ed="#Q"/>est, non est aliquid boni: nam unde<!--q--> iam dicitur,
           <lb ed="#Q"/>et<!--r--> verissime, corpore melior</quote>? — et constat
@@ -145,8 +139,8 @@
           <lb ed="#Q"/>non praedicatur, cum dicitur <mentioned>hoc est bonum</mentioned>.
           <pb ed="#Q" n="165"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>d. Item, <name>Augustinus</name>, in libro<!--a--> <title>De libero
-          <lb ed="#Q"/>arbitrio</title><!--1-->: <quote>Sicut multa et diversa sunt quae
+          <lb ed="#Q"/>d. Item, <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e400">Augustinus</name>, in libro<!--a--> <title>De libero
+          <lb ed="#Q"/>arbitrio</title><!--1-->: <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e411">Sicut multa et diversa sunt quae
           <lb ed="#Q"/>in luce solis homines vident, lux tamen una est,
           <lb ed="#Q"/>ita multa sunt bona atque diversa ex quibus
           <lb ed="#Q"/>quisque eligat ad fruendum sibi summum bonum:
@@ -158,10 +152,10 @@
           enim distinguunt quod dico <mentioned>bonum ab<lb ed="#Q"/>solute</mentioned>
           et quod dico <mentioned>bonum<!--c--> aliquid tale vel
           <lb ed="#Q"/>tale</mentioned>, sicut <mentioned>esse absolute</mentioned> et <mentioned>esse tale sive
-          <lb ed="#Q"/>aliquid</mentioned>, secundum quod dicit <name>Porretanus</name>, in
-          <lb ed="#Q"/><title>Commenta Hebdomadumd</title> <name>Boethii</name><!--2-->, exponens
+          <lb ed="#Q"/>aliquid</mentioned>, secundum quod dicit <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e453">Porretanus</name>, in
+          <lb ed="#Q"/><title>Commenta Hebdomadumd</title> <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e458">Boethii</name><!--2-->, exponens
           <lb ed="#Q"/>illam hebdomadem <mentioned>diversum<!--e--> est esse et id quod
-          <lb ed="#Q"/>est</mentioned>: <quote>Hic commemorandum videtur quod diver<lb ed="#Q"/>sorum
+          <lb ed="#Q"/>est</mentioned>: <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e471">Hic commemorandum videtur quod diver<lb ed="#Q"/>sorum
           philosophorum in diversis facultatibus usu
           <lb ed="#Q"/>diverso <mentioned>esse</mentioned> et <mentioned>esse [aliquid]</mentioned> multipliciter
           <lb ed="#Q"/>dicuntur. Nam secundum theologicos<!--f--> divina es<lb ed="#Q"/>sentia,
@@ -176,7 +170,7 @@
           <lb ed="#Q"/>praedicant<!--h--> non <mentioned>esse aliquid</mentioned>, sed <mentioned>esse</mentioned>; illa
           <lb ed="#Q"/>vero quae cum<!--i--> ipsa sunt creata subsistentia</quote>,
           <lb ed="#Q"/>sicut cum<!--k--> corporeitate esse substantiam, quan<lb ed="#Q"/>tum,
-          quale etc., <quote> non <mentioned>esse</mentioned> absolutum, sed <mentioned>esse
+          quale etc., <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e533"> non <mentioned>esse</mentioned> absolutum, sed <mentioned>esse
           <lb ed="#Q"/>aliquid</mentioned>; et ad eumdem modum quidquid operante
           <lb ed="#Q"/>summo principio est, eadem principali et increata
           <lb ed="#Q"/>essentia dicunt <mentioned>esse</mentioned>, suo vero quolibet genere
@@ -238,7 +232,7 @@
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4092">
           <lb ed="#Q"/>Aliis vero visum est aliter esse dicendum<!--4-->:
-          <quote>Cum dicitur <mentioned>creatura est</mentioned>, supponitur duplex
+          <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e755">Cum dicitur <mentioned>creatura est</mentioned>, supponitur duplex
           <lb ed="#Q"/>esse, scilicet esse<!--x--> creatum, quod est in creatura,
           <lb ed="#Q"/>et esse Deum, ut a quo est illud esse. Eodem modo,
           <lb ed="#Q"/>cum dicitur <mentioned>quidquid est, bonum [est]</mentioned>, secun<lb ed="#Q"/>dum
@@ -254,13 +248,13 @@
           <lb ed="#Q"/>primam bonitatem</quote>.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4127">
-          <lb ed="#Q"/>[Ad obiecta]: 6. <quote>Ex hoc patet quod, circum<lb ed="#Q"/>scripta
+          <lb ed="#Q"/>[Ad obiecta]: 6. <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e807">Ex hoc patet quod, circum<lb ed="#Q"/>scripta
           prima bonitate et re et intellectu, nihil est
           <lb ed="#Q"/>bonum vel intelligitur esse bonum, sed aliquid
-          <lb ed="#Q"/>est album, aliquid rotundum<!--b-->, sicut dicit <name>Boe<lb ed="#Q"/>thius</name></quote><!--1-->.
+          <lb ed="#Q"/>est album, aliquid rotundum<!--b-->, sicut dicit <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e817">Boe<lb ed="#Q"/>thius</name></quote><!--1-->.
         </p>
         <p xml:id="ahsh-l1p1i1t3q3m1c2-d1e4140">
-          <lb ed="#Q"/>2. <quote>Ex hoc patet veritas auctoritatis <name>Augu<lb ed="#Q"/>stini</name>
+          <lb ed="#Q"/>2. <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e828">Ex hoc patet veritas auctoritatis <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e830">Augu<lb ed="#Q"/>stini</name>
           supradictae: quoniam omnis creatura est
           <lb ed="#Q"/>bonum<!--c-->, hoc bonum, illud bonum; si sublatum
           <lb ed="#Q"/>fuerit <mentioned>hoc</mentioned> et <mentioned>illud</mentioned>, non remanebit nisi bo<lb ed="#Q"/>num,
@@ -306,8 +300,8 @@
           <lb ed="#Q"/>per participationem: in eo quod est per participa<lb ed="#Q"/>tionem
           bonum necessario intelligitur quod par<lb ed="#Q"/>ticipatur
           bonum, et illud est bonum summum. Bre<lb ed="#Q"/>viter
-          ergo dicendum, secundum <name ref="#Augustine">Augustinum</name>,
-          <lb ed="#Q"/>in <title>VIII De Trinitate</title><!--2-->: <quote>Si potueris<!--l-->, sine illis
+          ergo dicendum, secundum <name xml:id="ahsh-l1p1i1t3q3m1c2-Nd1e976" ref="#Augustine">Augustinum</name>,
+          <lb ed="#Q"/>in <title>VIII De Trinitate</title><!--2-->: <quote xml:id="ahsh-l1p1i1t3q3m1c2-Qd1e985">Si potueris<!--l-->, sine illis
           <lb ed="#Q"/>quae participatione bona sunt perspice ipsum
           <lb ed="#Q"/>bonum cuius participatione bona sunt: simul
           <lb ed="#Q"/>enim et ipsum intelligis, cum audis <mentioned>hoc bonum</mentioned>,

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="84"/><cb ed="#Q" n="a"/>
       </div>
@@ -91,8 +85,8 @@
           <head xml:id="ahsh-l1p1i1t2q4m1c1-Hd1e3799">Articulus 1</head>
           <head xml:id="ahsh-l1p1i1t2q4m1c1-Hd1e3802" type="question-title">Utrum eadem est intentio nominis aeternitatis et sempiternitatis.</head>
           <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3805">
-            <lb ed="#Q"/>Ad primum obicitur sic: a. <name>Boethius</name>, in li<lb ed="#Q"/>bro
-            <title>De Trinitate</title><!--1-->: <quote>Tantum interest inter nostrum
+            <lb ed="#Q"/>Ad primum obicitur sic: a. <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e204">Boethius</name>, in li<lb ed="#Q"/>bro
+            <title>De Trinitate</title><!--1-->: <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e211">Tantum interest inter nostrum
             <lb ed="#Q"/>praesens, quod est<!--h--> <mentioned>nunc</mentioned>, et divinum<!--i-->, quod
             <lb ed="#Q"/>nostrum <mentioned>nunc</mentioned>, quasi currens tempus, facit sem<lb ed="#Q"/>piternitatem;
             divinum vero <mentioned>nunc</mentioned>, permanens nec
@@ -108,8 +102,8 @@
             <cb ed="#Q" n="b"/>
             <lb ed="#Q"/>ergo quidquid est<!--n--> omni tempore est sempiter<lb ed="#Q"/>num;
             cum ergo angeli sint omni tempore et sem<lb ed="#Q"/>per,
-            sunt sempiterni: <name ref="#Augustine">Augustinus</name>, XII <title>De ci<lb ed="#Q"/>vitate
-            Dei</title><!--2-->: <quote>Angeli semper</quote>, id est <quote>omni
+            sunt sempiterni: <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e270" ref="#Augustine">Augustinus</name>, XII <title>De ci<lb ed="#Q"/>vitate
+            Dei</title><!--2-->: <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e279">Angeli semper</quote>, id est <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e282">omni
             <lb ed="#Q"/>tempore, fuerunt</quote>. Sed constat quod de ipsis
             <lb ed="#Q"/>angelis proprie<!--o--> dicitur quod non sint aeterni;
             <lb ed="#Q"/>de aliquo ergo est dicere <mentioned>sempiternum</mentioned><!--p-->, de
@@ -117,8 +111,8 @@
             <lb ed="#Q"/>idem<!--r--> aeternitas et sempiternitas<!--3-->.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3858">
-            <lb ed="#Q"/>Contra: 1. <name ref="#Augustine">Augustinus</name>, in XI <title>Confessionum</title><!--4-->:
-            <quote>Praeteritum iam non est, futurum nondum est,
+            <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e313" ref="#Augustine">Augustinus</name>, in XI <title>Confessionum</title><!--4-->:
+            <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e319">Praeteritum iam non est, futurum nondum est,
             <lb ed="#Q"/>praesens<!--s--> autem, si semper esset praesens, iam
             <pb ed="#Q" n="85"/>
             <cb ed="#Q" n="a"/>
@@ -128,8 +122,8 @@
             <lb ed="#Q"/>esse</mentioned>, erit aeternitas.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3879">
-            <lb ed="#Q"/>2. Item, <name>Boethius</name>, in libro <title>De Trinitate</title><!--1-->:
-            <quote>Divino <mentioned>nunc</mentioned> si adicias <mentioned>semper</mentioned>, facies
+            <lb ed="#Q"/>2. Item, <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e348">Boethius</name>, in libro <title>De Trinitate</title><!--1-->:
+            <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e353">Divino <mentioned>nunc</mentioned> si adicias <mentioned>semper</mentioned>, facies
             <lb ed="#Q"/>eius quod est <mentioned>nunc</mentioned> vigere perpetuum cur<lb ed="#Q"/>sum,
             quod est sempiternitas</quote>. Ex quo relinquitur
             <lb ed="#Q"/>primum. ,
@@ -139,15 +133,15 @@
             <lb ed="#Q"/>modis, ita et sempiternitas: semper enim esse uno
             <lb ed="#Q"/>modo dicitur<!--a--> omni tempore esse; alio modo
             <mentioned>semper esse</mentioned> dicitur nunquam non esse, sed sine
-            <lb ed="#Q"/>principio esse et sine fine<!--2-->. Unde <name ref="#Augustine">Augustinus</name>,
-            <lb ed="#Q"/>XII <title>De civitate Dei</title><!--3-->: <quote>Angeli semper fuerunt,
+            <lb ed="#Q"/>principio esse et sine fine<!--2-->. Unde <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e388" ref="#Augustine">Augustinus</name>,
+            <lb ed="#Q"/>XII <title>De civitate Dei</title><!--3-->: <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e397">Angeli semper fuerunt,
             <lb ed="#Q"/>quia<!--b--> omni tempore fuerunt; nec tamen coaeterni
             <cb ed="#Q" n="b"/>
             <lb ed="#Q"/>Deo sunt, quia ille semper fuit aeternitate</quote>. Primo
             <lb ed="#Q"/>ergo modo differt sempiternitas et re et nominis
             <lb ed="#Q"/>intentione ab aeternitate; secundo modo non differt
-            <lb ed="#Q"/>re, sed sola nominis ratione. Unde <name>Richardus</name>
-            <lb ed="#Q"/>de S. Victore, in libro <title>De Trinitate</title><!--4-->: <quote>Aliud
+            <lb ed="#Q"/>re, sed sola nominis ratione. Unde <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e414">Richardus</name>
+            <lb ed="#Q"/>de S. Victore, in libro <title>De Trinitate</title><!--4-->: <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e422">Aliud
             <lb ed="#Q"/>videtur sonare aeternum, aliud sempiternum. Sem<lb ed="#Q"/>piternum
             namque esse videtur quod caret initio
             <lb ed="#Q"/>et fine; aeternum vero quod caret principio et
@@ -158,8 +152,8 @@
           <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3932">
             <lb ed="#Q"/>[Ad obiecta]: Ex hoc ergo patet responsio ad
             <lb ed="#Q"/>obiecta et relinquitur quid sit aeternitas secun<lb ed="#Q"/>dum
-            nominis rationem. Unde <name>Richardus</name><!--5-->:
-            <quote>Quid est aeternitas? nisi diuturnitas sine initio,
+            nominis rationem. Unde <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e451">Richardus</name><!--5-->:
+            <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e454">Quid est aeternitas? nisi diuturnitas sine initio,
             <lb ed="#Q"/>sine fine, carens omni mutabilitate</quote>.
           </p>
         </div>
@@ -168,12 +162,12 @@
           <head xml:id="ahsh-l1p1i1t2q4m1c1-Hd1e3949" type="question-title">An aeternum dicatur univoce vel aequivoce de Deo et de creaturis.</head>
           <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3952">
             <lb ed="#Q"/>Deinde quaeritur, cum aeternum dicatur de crea<lb ed="#Q"/>turis
-            — ut de angelis, in <title>Psalmo</title><!--6-->: <quote>Elevamini
+            — ut de angelis, in <title>Psalmo</title><!--6-->: <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e478">Elevamini
             <lb ed="#Q"/>portae aeternales</quote>; et de corporibus caelestibus,
-            <lb ed="#Q"/>in <title>Psalmo</title>7: <quote>Statuit ea in aeternum</quote>; et de sup<lb ed="#Q"/>pliciis
-            malorum, in <title>Ioan.</title><!--8-->: <quote>Ibunt hi in suppli<lb ed="#Q"/>cium
+            <lb ed="#Q"/>in <title>Psalmo</title>7: <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e488">Statuit ea in aeternum</quote>; et de sup<lb ed="#Q"/>pliciis
+            malorum, in <title>Ioan.</title><!--8-->: <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e495">Ibunt hi in suppli<lb ed="#Q"/>cium
             aeternum</quote>; et de tempore, <title>Rom.</title> ultimo, 25:
-            <lb ed="#Q"/><quote>Secundum revelationem mysterii a<!--f--> temporibus ae<lb ed="#Q"/>ternis</quote>
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e504">Secundum revelationem mysterii a<!--f--> temporibus ae<lb ed="#Q"/>ternis</quote>
             -— et aeternum dicatur de Deo, utrum di<lb ed="#Q"/>catur
             univoce, secundum quod dicitur<!--g--> de Deo et
             <lb ed="#Q"/>de<!--h--> creaturis, vel aequivoce.
@@ -186,8 +180,8 @@
             et aeviterno<!--k--> et aeterno.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e3989">
-            <lb ed="#Q"/>Contra: a. <name ref="#Augustine">Augustinus</name>, in<!--l--> 83 <title>Quaestion.</title>,
-            <lb ed="#Q"/>quaestione 23<!--9-->: <quote>Anima aeternitatem creditur con<lb ed="#Q"/>sequi,
+            <lb ed="#Q"/>Contra: a. <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e542" ref="#Augustine">Augustinus</name>, in<!--l--> 83 <title>Quaestion.</title>,
+            <lb ed="#Q"/>quaestione 23<!--9-->: <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e554">Anima aeternitatem creditur con<lb ed="#Q"/>sequi,
             sed haec aeterna aeternitatis participatione
             <lb ed="#Q"/>fit</quote>; quae autem<!--m--> dicuntur de Deo per essentiam,
             <lb ed="#Q"/>de creaturis per participationem, non dicuntur
@@ -240,17 +234,17 @@
             <lb ed="#Q"/>rationem deficiendi tempus, quamvis non habeat
             <lb ed="#Q"/>ex parte subiecti, sicut primi mobilis, nec etiam
             <lb ed="#Q"/>ex sui forma, quae intelligitur ut circulus, quem<lb ed="#Q"/>admodum
-            et motus primus. Unde <name>Boethius</name>
+            et motus primus. Unde <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e701">Boethius</name>
             <lb ed="#Q"/>hac ratione dicit, ultimo <title>De consolatione</title><!--3-->, quod
-            <lb ed="#Q"/>aeternitatem <quote>infinitus temporalium motus imi<lb ed="#Q"/>tatur,
+            <lb ed="#Q"/>aeternitatem <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e710">infinitus temporalium motus imi<lb ed="#Q"/>tatur,
             sed quoniam manere<!--b--> non potuit in infi<lb ed="#Q"/>nitum
             temporis iter arripuit; sicque factum est
-            <lb ed="#Q"/>ut continuaret eundo vitam</quote>, hoc est esse, <quote>cuius
+            <lb ed="#Q"/>ut continuaret eundo vitam</quote>, hoc est esse, <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e722">cuius
             <lb ed="#Q"/>plenitudinem complecti non valuit permanendo</quote>.
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e4127">
             <lb ed="#Q"/>Ad illud<!--c--> vero quod dicitur in <title>Psalmo</title> de
-            <lb ed="#Q"/>corporibus caelestibus: <quote>Statuit ea in aeternum</quote>,
+            <lb ed="#Q"/>corporibus caelestibus: <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e738">Statuit ea in aeternum</quote>,
             <lb ed="#Q"/>intelligendum<!--d--> quod illud refertur ad substan<cb ed="#Q" n="b"/><lb ed="#Q"/>tiam
             corporum, non ad motum; et ibi <mentioned>aeternum</mentioned>
             <lb ed="#Q"/>accipitur pro perpetuo: manebunt enim perpetuo
@@ -258,12 +252,12 @@
           </p>
           <p xml:id="ahsh-l1p1i1t2q4m1c1-d1e4144">
             <lb ed="#Q"/>Ad illud etiam quod dicitur <title>Rom.</title> ultimo,25:
-            <lb ed="#Q"/><quote>temporibus aeternis</quote>, dicendum quod intelligitur
-            <lb ed="#Q"/>uno modo, ut dicit <name>Augustinus</name>, ut tempus acci<lb ed="#Q"/>piatur
+            <lb ed="#Q"/><quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e763">temporibus aeternis</quote>, dicendum quod intelligitur
+            <lb ed="#Q"/>uno modo, ut dicit <name xml:id="ahsh-l1p1i1t2q4m1c1-Nd1e767">Augustinus</name>, ut tempus acci<lb ed="#Q"/>piatur
             pro aevo, in libro 83 <title>Quaestionum</title>, 72 quae<lb ed="#Q"/>stione<!--e--><!--4-->.
             — Alio modo exponitur in <title>Glossa</title><!--5-->:
-            <quote>Aeterna tempora dicit quae praecesserunt mundi
-            <lb ed="#Q"/>exordium</quote>. Quod intelligendum est ut <quote>mundi
+            <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e783">Aeterna tempora dicit quae praecesserunt mundi
+            <lb ed="#Q"/>exordium</quote>. Quod intelligendum est ut <quote xml:id="ahsh-l1p1i1t2q4m1c1-Qd1e788">mundi
             <lb ed="#Q"/>exordium</quote>  intelligatur constitutio<!--f--> mundi com<lb ed="#Q"/>pleti
             in generibus et speciebus, ante quam constitu<lb ed="#Q"/>tionem
             praeintelligitur conditio et distinctio et dis<lb ed="#Q"/>positio

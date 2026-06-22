@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,8 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0"
-        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
           guidelines for a diplomatic edition.</p>
@@ -48,10 +44,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="28"/><cb ed="#Q" n="a"/>
       </div>
@@ -79,10 +72,10 @@
           <p xml:id="ahsh-l1tinq2m2c5-d1e3769">
             <pb ed="#Q" n="29"/>
             <cb ed="#Q" n="a"/>
-            <lb ed="#Q"/>Circa primum sic: a. <name>Hugo de S. Victore</name><!--1-->
+            <lb ed="#Q"/>Circa primum sic: a. <name xml:id="ahsh-l1tinq2m2c5-Nd1e162">Hugo de S. Victore</name><!--1-->
             <lb ed="#Q"/>loquitur de scala Iacob, et vult facere differen<lb ed="#Q"/>tiam
             inter cognitionem hominis et cognitionem
-            <lb ed="#Q"/>angeli, dicens quod <quote>angeli non indigent scala,
+            <lb ed="#Q"/>angeli, dicens quod <quote xml:id="ahsh-l1tinq2m2c5-Qd1e172">angeli non indigent scala,
             <lb ed="#Q"/>quia volant per contemplationem</quote>, homo autem,
             <lb ed="#Q"/>qui volare non potest, scala indiget; scala autem
             <lb ed="#Q"/>est vehiculum<!--a--> creaturae; ergo Adam in primo
@@ -90,13 +83,13 @@
             creaturis.
           </p>
           <p xml:id="ahsh-l1tinq2m2c5-d1e3795">
-            <lb ed="#Q"/>Contra: 1. <name>Hugo</name><!--b2-->: <quote>Cognovit homo Crea<lb ed="#Q"/>torem
+            <lb ed="#Q"/>Contra: 1. <name xml:id="ahsh-l1tinq2m2c5-Nd1e193">Hugo</name><!--b2-->: <quote xml:id="ahsh-l1tinq2m2c5-Qd1e196">Cognovit homo Crea<lb ed="#Q"/>torem
             suum non ea<!--c--> cognitione quae foris ex au<lb ed="#Q"/>ditu
             solo perficitur<!--d-->, sed ea quae intus per inspi<lb ed="#Q"/>rationem
             monstratur</quote>.
           </p>
           <p xml:id="ahsh-l1tinq2m2c5-d1e3806">
-            <lb ed="#Q"/>2. Item, idem<!--3-->: <quote>Non ea qua modo Deus a
+            <lb ed="#Q"/>2. Item, idem<!--3-->: <quote xml:id="ahsh-l1tinq2m2c5-Qd1e216">Non ea qua modo Deus a
             <lb ed="#Q"/>credentibus<!--e--> absens fide creditur, sed ea qua<!--f-->
             <lb ed="#Q"/>tunc per praesentiam contemplationis scienti ma<lb ed="#Q"/>nifestius
             cernebatur, cognovit Creatorem suum,
@@ -105,7 +98,7 @@
             <lb ed="#Q"/>per creaturas, sed se ipso.
           </p>
           <p xml:id="ahsh-l1tinq2m2c5-d1e3825">
-            <lb ed="#Q"/>Respondeo: 1. Sicut dicitur <title>Eccli.</title> 17, 7—8: <quote source="http://scta.info/resource/sir17_7@1-11">Posuit
+            <lb ed="#Q"/>Respondeo: 1. Sicut dicitur <title>Eccli.</title> 17, 7—8: <quote xml:id="ahsh-l1tinq2m2c5-Qd1e244" source="http://scta.info/resource/sir17_7@1-11">Posuit
             <lb ed="#Q"/>oculum ipsorum super corda ipsarum, ostendere<!--g-->
             <lb ed="#Q"/>illis magnalia operum suorum, ut magnalia nar<lb ed="#Q"/>rarent
             operum illius</quote>. Oculus autem est aspectus
@@ -115,7 +108,7 @@
             <lb ed="#Q"/>Adam per creaturas videbat Deum, non in se.
           </p>
           <p xml:id="ahsh-l1tinq2m2c5-d1e3845">
-            <lb ed="#Q"/>2. Ad aliud<!--h--> quod dicitur <quote>manifestius<!--i--> per
+            <lb ed="#Q"/>2. Ad aliud<!--h--> quod dicitur <quote xml:id="ahsh-l1tinq2m2c5-Qd1e271">manifestius<!--i--> per
             <lb ed="#Q"/>praesentiam contemplationis</quote>; dicendum quod
             <lb ed="#Q"/>Deus manifestatur in se et in suo effectu. In
             <lb ed="#Q"/>effectu ergo tunc manifeste videbatur, non ob<lb ed="#Q"/>scure;
@@ -139,11 +132,11 @@
             <lb ed="#Q"/>est<!--l--> per absentiam non est tanta quanta est illa
             <lb ed="#Q"/>quae est per praesentiam contemplationis; sed
             <lb ed="#Q"/>talis fuit cognitio Adae ante peccatum, sicut dicit
-            <lb ed="#Q"/><name>Hugo</name><!--4-->; ergo etc.<!--m-->.
+            <lb ed="#Q"/><name xml:id="ahsh-l1tinq2m2c5-Nd1e328">Hugo</name><!--4-->; ergo etc.<!--m-->.
           </p>
           <p xml:id="ahsh-l1tinq2m2c5-d1e3896">
-            <lb ed="#Q"/>Contra: 1. <title>Glossa</title><!--5--> <title>Iob</title> 33, 25: <quote>Consumptu
-            <lb ed="#Q"/>est cum eius a suppliciis</quote>: <quote>Nota Adam ante pec<lb ed="#Q"/>catum
+            <lb ed="#Q"/>Contra: 1. <title>Glossa</title><!--5--> <title>Iob</title> 33, 25: <quote xml:id="ahsh-l1tinq2m2c5-Qd1e343">Consumptu
+            <lb ed="#Q"/>est cum eius a suppliciis</quote>: <quote xml:id="ahsh-l1tinq2m2c5-Qd1e348">Nota Adam ante pec<lb ed="#Q"/>catum
             nec stultum nec sapientem fuisse, neque sa<lb ed="#Q"/>pienter
             neque stulte peccasse</quote>. Et ita videtur quod
             <lb ed="#Q"/>minor fuerit illa cognitio quam habuit, quam fidei.
@@ -166,7 +159,7 @@
             <lb ed="#Q"/>est visui et praesens gustui. Propter quod dicitur
             <pb ed="#Q" n="30"/>
             <cb ed="#Q" n="a"/>
-            <lb ed="#Q"/>in <title>Psalmo</title><!--1-->: <quote>Quam magna multitudo dulcedinis
+            <lb ed="#Q"/>in <title>Psalmo</title><!--1-->: <quote xml:id="ahsh-l1tinq2m2c5-Qd1e408">Quam magna multitudo dulcedinis
             <lb ed="#Q"/>tuae, Domine, quam<!--a--> abscondisti!</quote> etc.
           </p>
           <p xml:id="ahsh-l1tinq2m2c5-d1e3954">
@@ -177,7 +170,7 @@
             <cb ed="#Q" n="b"/>
             <lb ed="#Q"/>nec fuit stultus, quia non penitus ignorabat
             <lb ed="#Q"/>quid eligendum. Et hoc est quod sequitur in illa
-            <lb ed="#Q"/><title>Glossa</title><!--2-->: <quote>Sapiens enim est qui<!--b--> observatione
+            <lb ed="#Q"/><title>Glossa</title><!--2-->: <quote xml:id="ahsh-l1tinq2m2c5-Qd1e437">Sapiens enim est qui<!--b--> observatione
             <lb ed="#Q"/>peccati agenda vel vitanda novit, stultus vero qui
             <lb ed="#Q"/>sequenda vel vitanda omnino ignorat</quote>; nec talis
             <lb ed="#Q"/>fuit Adam. Et sic patet quomodo intelligatur.

@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,10 +43,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#Q" n="54"/><cb ed="#Q" n="a"/>
       </div>
@@ -66,7 +60,7 @@
           <lb ed="#Q"/>substantiae vel essentiae. Si ergo quantitatem non
           <lb ed="#Q"/>dicimus circa divinam essentiam nisi solum [circa]
           <lb ed="#Q"/>virtutem eius, quae dicitur aliquo modo quanta,
-          <lb ed="#Q"/>secundum quod ponit <name>Augustinus</name> quantitatem
+          <lb ed="#Q"/>secundum quod ponit <name xml:id="ahsh-l1p1i1t2q1c1-Nd1e139">Augustinus</name> quantitatem
           <lb ed="#Q"/>virtualem et dimensivam, in libro <title>De quantitate
           <lb ed="#Q"/>animae</title><!--3-->: ergo non est dicere de essentia divina
           quod sit finita vel infinita, sed solum de eius vir<lb ed="#Q"/>tute
@@ -145,7 +139,7 @@
           <lb ed="#Q"/>est omne esse et quo maius <!--k--> excogitari non po<lb ed="#Q"/>test;
           sed tale est esse divinum; ergo illud est
           <lb ed="#Q"/>infinitum. Dico autem maxime esse, sicut dicit
-          <lb ed="#Q"/><name>Anselmus</name><!--2-->, quod maxime distat a non esse,
+          <lb ed="#Q"/><name xml:id="ahsh-l1p1i1t2q1c1-Nd1e333">Anselmus</name><!--2-->, quod maxime distat a non esse,
           <lb ed="#Q"/>quod scilicet nec habet non esse post esse
           <lb ed="#Q"/>nec esse post non esse nec potest cogitari non
           <lb ed="#Q"/>esse.
@@ -160,7 +154,7 @@
           <lb ed="#Q"/>divina essentia debet dici infinita. 
         </p>
         <p xml:id="ahsh-l1p1i1t2q1c1-d1e3935">
-          <lb ed="#Q"/>e. Item, <title>III Reg</title>. 8,27: <quote source="http://scta.info/resource/Ireg8_27@10-19">Si enim caelum et caeli
+          <lb ed="#Q"/>e. Item, <title>III Reg</title>. 8,27: <quote xml:id="ahsh-l1p1i1t2q1c1-Qd1e369" source="http://scta.info/resource/Ireg8_27@10-19">Si enim caelum et caeli
           <lb ed="#Q"/>caelorum capere te non possunt</quote>, quasi diceret si
           <lb ed="#Q"/>multi essent caeli, ipsum capere non possent,
           <lb ed="#Q"/>sed repleret omnes; ergo ipse Deus secundum
@@ -206,7 +200,7 @@
           inconveniens est dicere.
         </p>
         <p xml:id="ahsh-l1p1i1t2q1c1-d1e4029">
-          <lb ed="#Q"/>h. Item, <name>Damascenus</name><!--5-->: <quote>Credendum est
+          <lb ed="#Q"/>h. Item, <name xml:id="ahsh-l1p1i1t2q1c1-Nd1e497">Damascenus</name><!--5-->: <quote xml:id="ahsh-l1p1i1t2q1c1-Qd1e500">Credendum est
           <lb ed="#Q"/>unum Deum immortalem, aeternum, infinitum, in<lb ed="#Q"/>circumscriptum</quote>
           ; sed cum dico <mentioned>unum Deum</mentioned>,
           <lb ed="#Q"/>loquor de Deo secundum essentiam; ergo divina
@@ -215,8 +209,8 @@
         <p xml:id="ahsh-l1p1i1t2q1c1-d1e4042">
           <pb ed="#Q" n="56"/>
           <cb ed="#Q" n="a"/>
-          <lb ed="#Q"/>i. Item, <title>Exod.</title> 33,20: <quote source="http://scta.info/resource/ex33_20@8-14">Non videbit me homo et
-          <lb ed="#Q"/>vivet</quote>. Super hoc reprobat <name ref="#Augustine">Augustinus</name><!--1--> opi<lb ed="#Q"/>nionem
+          <lb ed="#Q"/>i. Item, <title>Exod.</title> 33,20: <quote xml:id="ahsh-l1p1i1t2q1c1-Qd1e525" source="http://scta.info/resource/ex33_20@8-14">Non videbit me homo et
+          <lb ed="#Q"/>vivet</quote>. Super hoc reprobat <name xml:id="ahsh-l1p1i1t2q1c1-Nd1e531" ref="#Augustine">Augustinus</name><!--1--> opi<lb ed="#Q"/>nionem
           dicentium quod Deus non videbitur in
           <lb ed="#Q"/>sua essentia, sed in sua luce; et obicit sic: Cum
           <lb ed="#Q"/>sua lux non sit aliud quam sua essentia, ergo
@@ -226,8 +220,8 @@
           <lb ed="#Q"/>quam in essentia.
         </p>
         <p xml:id="ahsh-l1p1i1t2q1c1-d1e4068">
-          <lb ed="#Q"/>Solutio: Dicendum, sicut dicit B. <name>Diony<lb ed="#Q"/>sius</name><!--2-->
-          <quote>Universaliter non audendum dicere ali<lb ed="#Q"/>quid
+          <lb ed="#Q"/>Solutio: Dicendum, sicut dicit B. <name xml:id="ahsh-l1p1i1t2q1c1-Nd1e555">Diony<lb ed="#Q"/>sius</name><!--2-->
+          <quote xml:id="ahsh-l1p1i1t2q1c1-Qd1e561">Universaliter non audendum dicere ali<lb ed="#Q"/>quid
           de insuperabili et occulta divinitate, quam
           <lb ed="#Q"/>ea quae nobis divinitus ex sacris Eloquiis cla<lb ed="#Q"/>ruerint</quote>
           Propterea, cum<!--a--> in sacra Scriptura nihil
@@ -235,14 +229,14 @@
           <lb ed="#Q"/>asserendum ipsam esse finitam simpliciter, sed
           <lb ed="#Q"/>infinitam. Proprie ergo est dicendum ipsum esse
           <lb ed="#Q"/>infinitum secundum substantiam et non finitum,
-          <lb ed="#Q"/>nisi dicatur finitum <mentioned>completum</mentioned>. Unde <name>Dama<lb ed="#Q"/>scenus</name>
-          <!--3-->: <quote>Deus est incircumscriptus, increatus,
-          <lb ed="#Q"/>infinitus</quote>. Item, in eodem<!--4-->:<quote>Videtur quidem<!--b-->
+          <lb ed="#Q"/>nisi dicatur finitum <mentioned>completum</mentioned>. Unde <name xml:id="ahsh-l1p1i1t2q1c1-Nd1e585">Dama<lb ed="#Q"/>scenus</name>
+          <!--3-->: <quote xml:id="ahsh-l1p1i1t2q1c1-Qd1e593">Deus est incircumscriptus, increatus,
+          <lb ed="#Q"/>infinitus</quote>. Item, in eodem<!--4-->:<quote xml:id="ahsh-l1p1i1t2q1c1-Qd1e600">Videtur quidem<!--b-->
           <lb ed="#Q"/>omnibus principalius<!--c--> eorum quae de Deo di<lb ed="#Q"/>cuntur
           nominibus esse <mentioned>qui est</mentioned>; totum enim<!--d--> in
           <lb ed="#Q"/>se ipso comprehendens habet esse<!--e--> velut quod<lb ed="#Q"/>dam
           pelagus substantiae infinitum<!--f--> et indetermi<lb ed="#Q"/>natum</quote>.
-          Ecce, secundum <name>Damascenum</name>, quod
+          Ecce, secundum <name xml:id="ahsh-l1p1i1t2q1c1-Nd1e626">Damascenum</name>, quod
           <lb ed="#Q"/>est infinitus secundum essentiam.
         </p>
         <p xml:id="ahsh-l1p1i1t2q1c1-d1e4111">
@@ -303,7 +297,7 @@
           <lb ed="#Q"/>Primo ergo modo, secundum quod finitum et
           <lb ed="#Q"/>infinitum dicuntur in quantitate, est dicere infi<lb ed="#Q"/>nitum
           in Deo. Sed quantitas duplex est, secundum
-          <lb ed="#Q"/>quod dicit <name ref="#Augustine">Augustinus</name> <!--8-->, scilicet quantitas di<lb ed="#Q"/>mensiva
+          <lb ed="#Q"/>quod dicit <name xml:id="ahsh-l1p1i1t2q1c1-Nd1e785" ref="#Augustine">Augustinus</name> <!--8-->, scilicet quantitas di<lb ed="#Q"/>mensiva
           et virtualis. Prout finitum et infinitum
           <lb ed="#Q"/>sunt circa quantitatem dimensivam, neutrum est
           <lb ed="#Q"/>in Deo, quia talis quantitas non est in eo; sed
@@ -394,8 +388,8 @@
           <lb ed="#Q"/>infinitas duratione in rationali creatura magis ducit
           <lb ed="#Q"/>in Deum quantum<!--t--> ad aeternitatem sive duratio<lb ed="#Q"/>nem
           quam finitas durationis, quia eius est imago,
-          <lb ed="#Q"/>ista non: <quote>non enim esset imago, si<!--u--> mortis
-          <lb ed="#Q"/>termino clauderetur</quote>, ut dicit <name>Cassiodorus</name> <!--5-->.
+          <lb ed="#Q"/>ista non: <quote xml:id="ahsh-l1p1i1t2q1c1-Qd1e1034">non enim esset imago, si<!--u--> mortis
+          <lb ed="#Q"/>termino clauderetur</quote>, ut dicit <name xml:id="ahsh-l1p1i1t2q1c1-Nd1e1042">Cassiodorus</name> <!--5-->.
           <lb ed="#Q"/>Licet ergo finitum aliquo modo magis ducat in
           <lb ed="#Q"/>Deum quam infinitum, non tamen simpliciter,
           <lb ed="#Q"/>immo magis e converso secundum alias consi- <lb ed="#Q"/>derationes.
